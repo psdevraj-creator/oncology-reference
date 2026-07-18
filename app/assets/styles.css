@@ -161,6 +161,28 @@ body {
   font-size: 1.25rem;
   letter-spacing: -0.2px;
 }
+
+/* ── Definition Section ───────────────────────── */
+.definition-blockquote {
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--clinical-primary);
+}
+.definition-blockquote cite {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--clinical-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.definition-markdown p {
+  margin-bottom: 0;
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+.definition-paper {
+  margin-bottom: 1rem;
+}
+
 .subsection-heading {
   color: var(--clinical-secondary);
   margin-top: 1.25rem;

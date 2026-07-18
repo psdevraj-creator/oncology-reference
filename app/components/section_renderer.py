@@ -17,6 +17,40 @@ from app.components.callouts import (
     timeline_card,
 )
 from app.components.tables import create_table
+import dash_mantine_components as dmc
+
+
+def _render_definition(value) -> list:
+    if isinstance(value, dict) and value.get("sections"):
+        sections = value["sections"]
+        components: list = [
+            html.H3("Definition", className="section-heading"),
+        ]
+        for sec in sections:
+            components.append(
+                dmc.Blockquote(
+                    dcc.Markdown(sec["content"], className="section-text definition-markdown"),
+                    cite=sec["heading"],
+                    icon=html.I(className="bi bi-bookmark-check"),
+                    className="definition-blockquote",
+                )
+            )
+        return components
+
+    if isinstance(value, str) and value.strip():
+        return [
+            html.H3("Definition", className="section-heading"),
+            dmc.Paper(
+                dcc.Markdown(value, className="section-text definition-markdown"),
+                shadow="xs",
+                radius="md",
+                p="lg",
+                withBorder=True,
+                className="definition-paper",
+            ),
+        ]
+
+    return []
 
 
 def _is_simple_val(v: Any) -> bool:
@@ -511,6 +545,7 @@ def render_handbook(handbook: dict[str, Any]) -> list:
     ]
 
     custom_renderers = {
+        "definition": _render_definition,
         "staging": render_staging,
         "radiation_therapy": render_radiation_therapy,
         "key_trials": render_trials,

@@ -1,11 +1,28 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
 from app.components.navigation import breadcrumb, generate_toc, sidebar_nav
 from app.components.section_renderer import render_handbook
 from app.data.loader import get_handbook, get_site, get_regimens_for_site, site_exists
+
+_REWRITTEN_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "rewritten"
+
+
+def _inject_rewritten_definition(handbook: dict, site_id: str) -> None:
+    cache_path = _REWRITTEN_DIR / f"{site_id}_definition.json"
+    if not cache_path.exists():
+        return
+    try:
+        data = json.loads(cache_path.read_text(encoding="utf-8"))
+        if data.get("sections"):
+            handbook["definition"] = data
+    except (json.JSONDecodeError, OSError):
+        pass
 
 
 def layout(site_id: str) -> list:
@@ -17,6 +34,7 @@ def layout(site_id: str) -> list:
 
     site = get_site(site_id)
     handbook = get_handbook(site_id)
+    _inject_rewritten_definition(handbook, site_id)
     toc = generate_toc(handbook)
     regimen_count = len(get_regimens_for_site(site_id))
 
