@@ -162,6 +162,70 @@ body {
   letter-spacing: -0.2px;
 }
 
+/* ── Vibrant Handbook Components ──────────────── */
+.vibrant-alert {
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #ef4444;
+  animation: fadeInSlide 0.4s ease;
+}
+
+@keyframes fadeInSlide {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.disease-card, .vibrant-card, .definition-paper, .dash-cytoscape {
+  animation: fadeInSlide 0.35s ease;
+}
+
+.dash-cytoscape {
+  border-radius: 12px !important;
+  overflow: hidden;
+  background: #fafbfc !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* dmc overrides for clinical theme */
+.mantine-Blockquote-root {
+  border-left-color: var(--clinical-primary) !important;
+  background: #f8fafc !important;
+}
+
+.mantine-ThemeIcon-root {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.mantine-RingProgress-root {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.08));
+}
+
+.mantine-Accordion-item {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  margin-bottom: 6px;
+  transition: box-shadow 0.15s;
+}
+.mantine-Accordion-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.mantine-Timeline-item {
+  padding-left: 0.5rem;
+}
+
+.mantine-Paper-root {
+  transition: box-shadow 0.2s ease;
+}
+
+.definition-blockquote .mantine-Blockquote-body {
+  line-height: 1.75;
+  color: #374151;
+}
+
+.definition-blockquote .mantine-Blockquote-icon {
+  color: var(--clinical-primary);
+}
+
 /* ── Definition Section ───────────────────────── */
 .definition-blockquote {
   margin-bottom: 1rem;

@@ -525,10 +525,30 @@ def render_handbook(handbook: dict[str, Any]) -> list:
         return _handbook_render_cache[cache_key]
 
     from app.components.staging_viewer import (
-        render_prognosis,
         render_radiation_therapy,
         render_staging,
         render_trials,
+    )
+    from app.components.handbook_renderers import (
+        render_clinical_features,
+        render_clinical_pearls,
+        render_complications,
+        render_enhanced_prognosis,
+        render_epidemiology,
+        render_follow_up,
+        render_guidelines_resources,
+        render_investigations,
+        render_management_principles,
+        render_molecular_pathogenesis,
+        render_protective_factors,
+        render_red_flags,
+        render_special_situations,
+        render_subtypes,
+        render_supportive_care,
+        render_surgery,
+        render_surveillance,
+        render_treatment_response,
+        render_risk_factors,
     )
 
     priority_keys = [
@@ -546,13 +566,31 @@ def render_handbook(handbook: dict[str, Any]) -> list:
 
     custom_renderers = {
         "definition": _render_definition,
+        "epidemiology": render_epidemiology,
+        "subtypes": render_subtypes,
+        "molecular_pathogenesis": render_molecular_pathogenesis,
+        "risk_factors": render_risk_factors,
+        "protective_factors": render_protective_factors,
+        "clinical_features": render_clinical_features,
+        "red_flags": render_red_flags,
+        "investigations": render_investigations,
         "staging": render_staging,
-        "radiation_therapy": render_radiation_therapy,
-        "key_trials": render_trials,
-        "prognosis": render_prognosis,
+        "management_principles": render_management_principles,
         "management_pathways": _render_management_pathways,
         "pretreatment_evaluation": _render_pretreatment_evaluation,
+        "surgery": render_surgery,
+        "radiation_therapy": render_radiation_therapy,
         "systemic_therapy": _render_systemic_therapy,
+        "treatment_response_assessment": render_treatment_response,
+        "surveillance": render_surveillance,
+        "complications": render_complications,
+        "supportive_care": render_supportive_care,
+        "prognosis": render_enhanced_prognosis,
+        "follow_up": render_follow_up,
+        "key_trials": render_trials,
+        "clinical_pearls": render_clinical_pearls,
+        "special_situations": render_special_situations,
+        "guidelines_resources": render_guidelines_resources,
     }
 
     all_components: list = []
