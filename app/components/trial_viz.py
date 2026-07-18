@@ -433,7 +433,11 @@ def render_trial_card(trial: dict[str, Any], pubmed_data: Optional[dict] = None,
             ),
         ], start_collapsed=True, className="mt-2")
 
-    children = [html.Div(badge_row, className="mb-2"), *body_items]
+    children = [
+        html.H5(acronym, className="trial-card-title mb-1"),
+        html.Div(badge_row, className="mb-2"),
+        *body_items,
+    ]
     if abstract_section:
         children.append(abstract_section)
 
