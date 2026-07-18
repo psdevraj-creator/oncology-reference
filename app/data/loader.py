@@ -190,8 +190,38 @@ def get_pubmed_data(trial_name: str) -> Optional[dict[str, Any]]:
     _ensure_loaded()
     if not trial_name:
         return None
-    key = _normalize_key(trial_name)
-    return _pubmed_cache.get(key)
+
+    name = trial_name.strip()
+
+    keys_to_try = [
+        _normalize_key(name),
+    ]
+
+    paren_idx = name.find("(")
+    if paren_idx > 0:
+        keys_to_try.append(_normalize_key(name[:paren_idx].strip()))
+
+    words = name.split()
+    for n in range(min(4, len(words)), 0, -1):
+        short = " ".join(words[:n]).strip().rstrip(",").rstrip(".")
+        if short.lower() != name.lower():
+            keys_to_try.append(_normalize_key(short))
+
+    seen: set[str] = set()
+    for key in keys_to_try:
+        if key in seen:
+            continue
+        seen.add(key)
+        if key in _pubmed_cache:
+            return _pubmed_cache[key]
+
+    parts = re.split(r"[\s\-_/]+", name.lower())
+    if len(parts) > 1:
+        for key, data in _pubmed_cache.items():
+            if parts[0] in key and len(parts[0]) >= 3:
+                return data
+
+    return None
 
 
 def get_all_pubmed() -> dict[str, dict[str, Any]]:

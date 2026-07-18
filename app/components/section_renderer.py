@@ -19,12 +19,19 @@ from app.components.callouts import (
 from app.components.tables import create_table
 
 
+def _is_simple_val(v: Any) -> bool:
+    return v is None or isinstance(v, (str, int, float, bool))
+
+
 def _is_table_candidate(value: Any) -> bool:
     if not isinstance(value, list):
         return False
     if not value:
         return False
-    return all(isinstance(item, dict) for item in value)
+    if not all(isinstance(item, dict) for item in value):
+        return False
+    first = value[0]
+    return all(_is_simple_val(v) for v in first.values())
 
 
 def _is_string_list(value: Any) -> bool:
@@ -352,6 +359,126 @@ def render_section(key: str, value: Any, depth: int = 0) -> list:
     return components
 
 
+def _render_management_pathways(value: list) -> list:
+    if not value:
+        return []
+    components = []
+    for pw in value:
+        if not isinstance(pw, dict):
+            continue
+        title = pw.get("title", pw.get("pathway_id", "Pathway"))
+        branching = pw.get("branching_basis", [])
+        nodes = pw.get("nodes", [])
+
+        node_items = []
+        for node in nodes:
+            criteria = node.get("criteria", "")
+            options = node.get("options", [])
+            opt_text = "; ".join(
+                f"{o.get('label', o.get('type', ''))} ({o.get('preference', o.get('recommendation', ''))})"
+                for o in options if isinstance(o, dict)
+            )
+            adj = node.get("adjuvant_logic", {})
+            adj_text = ""
+            if isinstance(adj, dict):
+                adj_text = adj.get("summary", str(adj)) if not adj.get("applies") is False else ""
+
+            node_items.append(dbc.Card(
+                dbc.CardBody([
+                    html.Strong(criteria) if criteria else None,
+                    html.P(opt_text, className="small text-muted mb-1") if opt_text else None,
+                    html.P(adj_text, className="small text-info mb-0") if adj_text else None,
+                ]),
+                className="pathway-node-card mb-2",
+            ))
+
+        components.append(dbc.Card([
+            dbc.CardHeader(html.Strong(title)),
+            dbc.CardBody([
+                html.P(", ".join(branching), className="small text-muted") if branching else None,
+                *node_items,
+            ]),
+        ], className="pathway-card mb-3"))
+
+    return components
+
+
+def _render_pretreatment_evaluation(value: list) -> list:
+    if not value:
+        return []
+    components = []
+    for cat in value:
+        if not isinstance(cat, dict):
+            continue
+        category = cat.get("category", "")
+        items = cat.get("items", [])
+        item_cards = []
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            item_cards.append(dbc.Card(
+                dbc.CardBody([
+                    html.Strong(it.get("text", "")),
+                    html.P(it.get("recommendation", ""), className="small text-muted mb-0") if it.get("recommendation") else None,
+                ]),
+                className="pre-eval-card mb-2",
+            ))
+        if item_cards:
+            components.append(html.Div([
+                html.H6(category, className="pre-eval-category"),
+                *item_cards,
+            ], className="mb-3"))
+
+    return components
+
+
+def _render_systemic_therapy(value: dict) -> list:
+    if not value:
+        return []
+    components = []
+    overview = value.get("overview", "")
+    if overview:
+        components.append(dcc.Markdown(overview, className="section-text"))
+
+    by_stage = value.get("by_stage_and_setting", [])
+    if isinstance(by_stage, list):
+        for item in by_stage:
+            if not isinstance(item, dict):
+                continue
+            components.append(dbc.Card(
+                dbc.CardBody([
+                    html.Strong(item.get("setting", "")),
+                    html.P(item.get("rationale", ""), className="small text-muted mb-1") if item.get("rationale") else None,
+                    html.P("Preferred: " + str(item.get("preferred_regimen", "")), className="small mb-0") if item.get("preferred_regimen") else None,
+                ]),
+                className="systemic-card mb-2",
+            ))
+
+    key_regimens = value.get("key_regimens", [])
+    if isinstance(key_regimens, list) and key_regimens:
+        components.append(html.H5("Key Regimens", className="mt-3 mb-2"))
+        for kr in key_regimens:
+            if not isinstance(kr, dict):
+                continue
+            drugs = kr.get("drugs", [])
+            drug_strs = []
+            for d in (drugs if isinstance(drugs, list) else []):
+                if not isinstance(d, dict):
+                    continue
+                day_or_schedule = d.get("day") or d.get("schedule", "")
+                drug_strs.append(f"{d.get('name', '')} {d.get('dose', '')} {d.get('route', '')} {day_or_schedule}".strip())
+            components.append(dbc.Card(
+                dbc.CardBody([
+                    html.Strong(kr.get("name", kr.get("setting", ""))),
+                    html.P(" + ".join(drug_strs), className="small text-muted mb-1") if drug_strs else None,
+                    html.P(str(kr.get("cycle_days", "")), className="small mb-0") if kr.get("cycle_days") else None,
+                ]),
+                className="systemic-card mb-2",
+            ))
+
+    return components
+
+
 def render_handbook(handbook: dict[str, Any]) -> list:
     if not handbook:
         return [html.P("No handbook data available for this site.", className="text-muted")]
@@ -381,6 +508,9 @@ def render_handbook(handbook: dict[str, Any]) -> list:
         "radiation_therapy": render_radiation_therapy,
         "key_trials": render_trials,
         "prognosis": render_prognosis,
+        "management_pathways": _render_management_pathways,
+        "pretreatment_evaluation": _render_pretreatment_evaluation,
+        "systemic_therapy": _render_systemic_therapy,
     }
 
     all_components: list = []
