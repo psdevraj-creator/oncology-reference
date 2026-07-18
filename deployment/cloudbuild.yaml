@@ -19,7 +19,7 @@ steps:
       - 'oncology-handbook'
       - '--image=gcr.io/$PROJECT_ID/oncology-handbook'
       - '--platform=managed'
-      - '--region=us-central1'
+      - '--region=europe-west2'
       - '--allow-unauthenticated'
       - '--memory=512Mi'
       - '--cpu=1'
