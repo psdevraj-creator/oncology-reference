@@ -8,8 +8,10 @@ Interactive clinical oncology reference app built with **Dash 4**, deployable on
 
 - **41 disease sites** — structured handbook (staging, RT doses, systemic therapy, key trials, follow-up, complications, clinical pearls)
 - **1,935 regimens** — drugs, doses, biomarkers, trial evidence (OS, PFS, DFS, ORR)
+- **1,004 unique trials** — PubMed-enriched abstracts, Plotly forest plots, interactive trial cards
 - Interactive regimen explorer — filter by disease, setting, modality, biomarker, text search
 - Disease pages — staging T/N/M tables, RT dose tables, trial summaries, FRCR pearls, red flags
+- **Trial Explorer page** — dedicated evidence dashboard with forest plot + live PubMed search
 - Professional clinical design, zero framework dependencies, offline-usable
 
 ## Quick Start (Local)
@@ -32,26 +34,45 @@ The `data/` directory is populated from the source pipeline (`Oncology topics pa
 
 ### Sync & Deploy Script
 
-The `sync_and_deploy.py` script scans the source project for updated data files, copies them, and pushes to GitHub (which triggers Cloud Run deployment):
+The `sync_and_deploy.py` script scans the source project for updated data files, copies them, optionally enriches trial data from PubMed, and pushes to GitHub (triggering Cloud Run deployment):
 
 ```bash
 # Full sync + push to GitHub (data updates → Cloud Run auto-deploy)
 python sync_and_deploy.py
+
+# Sync + PubMed enrichment + push
+python sync_and_deploy.py --pubmed
+
+# PubMed enrichment only (no data copy, no git push)
+python sync_and_deploy.py --pubmed-only
 
 # Preview what would change (no copying)
 python sync_and_deploy.py --dry-run
 
 # Sync data only, no git operations
 python sync_and_deploy.py --data-only
-
-# Push only (no data scan)
-python sync_and_deploy.py --push-only
-
-# Custom source path
-python sync_and_deploy.py --source "D:\path\to\Oncology topics page"
 ```
 
-When you run the source pipeline (`manage.py process` → `merge` → `regen-index`) and new data is generated, run `python sync_and_deploy.py` to update the live app.
+### PubMed Trial Enrichment
+
+The `pubmed_enricher.py` script queries NCBI E-utilities API to fetch abstracts for all trials referenced in the handbook data:
+
+```bash
+# Enrich all trials (uses NCBI_API_KEY from .env)
+python pubmed_enricher.py
+
+# Force refresh all cached abstracts
+python pubmed_enricher.py --force
+
+# Preview what would be queried
+python pubmed_enricher.py --dry-run
+```
+
+- **1,004 unique trials** across all sites
+- First run: ~2 min (with API key), ~6 min (without)
+- Cached in `data/pubmed/` — subsequent runs only query new trials
+- Set `NCBI_API_KEY` in `.env` for higher rate limits (10/sec vs 3/sec)
+- Free API key: https://www.ncbi.nlm.nih.gov/account/
 
 ## Google Cloud Run Deployment
 
@@ -181,6 +202,8 @@ The server holds only **read-only** shared reference data (loaded once at startu
 | `/disease/{site_id}` | Disease overview — handbook sections, staging T/N/M tables, RT doses, key trials, FRCR pearls, follow-up |
 | `/regimens/{site_id}` | Regimen explorer — filterable DataTable + click-to-expand detail panel (drugs, biomarkers, trial outcomes) |
 | `/regimens` | All 1,935 regimens across all sites |
+| `/trials/{site_id}` | Trial Explorer — Plotly forest plot, PubMed-enriched trial cards, live PubMed search widget |
+| `/trials` | All trials across all sites |
 
 ### Project Structure
 
@@ -194,7 +217,8 @@ interactive-oncology-app/
 │   ├── pages/
 │   │   ├── home.py          # Search + disease grid
 │   │   ├── disease.py       # Disease overview (sidebar + handbook sections)
-│   │   └── regimens.py      # Regimen explorer layout
+│   │   ├── regimens.py      # Regimen explorer layout
+│   │   └── trials.py        # Trial Explorer (forest plot + PubMed search)
 │   ├── components/
 │   │   ├── cards.py         # Disease cards
 │   │   ├── tables.py        # DataTable factory
@@ -202,9 +226,10 @@ interactive-oncology-app/
 │   │   ├── callouts.py      # Warning/pearl boxes
 │   │   ├── navigation.py    # Breadcrumbs + sidebar TOC
 │   │   ├── staging_viewer.py  # Staging/RT/Trials custom renderers
-│   │   └── section_renderer.py  # Generic recursive handbook renderer
+│   │   ├── section_renderer.py  # Generic recursive handbook renderer
+│   │   └── trial_viz.py     # Plotly forest plots + trial cards + PubMed widget
 │   ├── data/
-│   │   ├── loader.py        # Load + cache all JSON at startup
+│   │   ├── loader.py        # Load + cache all JSON + PubMed at startup
 │   │   ├── schemas.py       # Pydantic validation models
 │   │   └── transforms.py    # DataFrame transforms
 │   └── assets/
@@ -212,11 +237,14 @@ interactive-oncology-app/
 ├── data/                    # Copied from source pipeline by sync_and_deploy.py
 │   ├── sites_registry.json
 │   ├── merged/              # 41 regimen JSONs
-│   └── intermediate/        # 41 structured handbook JSONs
+│   ├── intermediate/        # 41 structured handbook JSONs
+│   └── pubmed/              # PubMed-enriched trial abstracts (generated by pubmed_enricher.py)
 ├── deployment/
 │   ├── Dockerfile           # Gunicorn on Python 3.11-slim
 │   ├── cloudbuild.yaml      # Cloud Run auto-deploy config
 ├── sync_and_deploy.py       # Data sync + git push script
+├── pubmed_enricher.py       # PubMed trial enrichment script
+├── .env.example             # NCBI_API_KEY placeholder
 ├── requirements.txt
 └── README.md
 ```

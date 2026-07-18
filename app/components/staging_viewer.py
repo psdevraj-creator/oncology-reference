@@ -155,28 +155,21 @@ def render_radiation_therapy(rt: dict[str, Any]) -> list:
 def render_trials(key_trials: list[dict[str, Any]]) -> list:
     if not key_trials:
         return []
-    components = [
-        html.H4("Key Trials", className="section-heading"),
-    ]
-    trials_data = []
-    for t in key_trials:
-        trials_data.append({
-            "Acronym": t.get("acronym", ""),
-            "Year": t.get("year", ""),
-            "Phase": t.get("phase", ""),
-            "N": t.get("n", t.get("n_patients", "")),
-            "Population": t.get("population", ""),
-            "Intervention": t.get("intervention", ""),
-            "Comparator": t.get("comparator", ""),
-            "Primary Endpoint": t.get("primary_endpoint", ""),
-            "Key Result": t.get("key_result", ""),
-            "Practice Change": t.get("practice_change", ""),
-        })
-    components.append(create_table(
-        data=trials_data,
-        page_size=15,
-        filter_action="native",
-    ))
+
+    from app.components.trial_viz import render_forest_plot, render_trial_card
+    from app.data.loader import get_pubmed_data
+
+    components = [html.H4("Key Trials", className="section-heading")]
+
+    forest = render_forest_plot(key_trials)
+    components.append(forest)
+
+    components.append(html.H5("Trial Summaries", className="mt-4 mb-3"))
+    for i, t in enumerate(key_trials):
+        name = t.get("acronym") or t.get("trial_name", "")
+        pubmed = get_pubmed_data(name) if name else None
+        components.append(render_trial_card(t, pubmed, i))
+
     return components
 
 

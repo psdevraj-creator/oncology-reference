@@ -168,9 +168,9 @@ def render_handbook(handbook: dict[str, Any]) -> list:
 
         renderer = custom_renderers.get(key)
         if renderer:
-            all_components.extend(renderer(value))
+            all_components.append(html.Div(id=key, children=renderer(value)))
         else:
-            all_components.extend(render_section(key, value))
+            all_components.append(html.Div(id=key, children=render_section(key, value)))
 
     for key, value in handbook.items():
         if key in seen:
@@ -178,6 +178,6 @@ def render_handbook(handbook: dict[str, Any]) -> list:
         seen.add(key)
         if not value:
             continue
-        all_components.extend(render_section(key, value))
+        all_components.append(html.Div(id=key, children=render_section(key, value)))
 
     return all_components

@@ -60,9 +60,9 @@ def layout(site_id: str | None = None) -> list:
         ]),
 
         filter_bar(
-            settings=get_all_settings(),
-            modalities=get_all_modalities(),
-            biomarkers=get_all_biomarkers(),
+            settings=get_all_settings(site_id),
+            modalities=get_all_modalities(site_id),
+            biomarkers=get_all_biomarkers(site_id),
         ),
 
         html.Div(id="regimen-table-container", children=[

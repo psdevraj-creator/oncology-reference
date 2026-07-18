@@ -124,6 +124,18 @@ def sync_intermediate_data(source_path: Path, site_ids: list[str], dry_run: bool
     return count
 
 
+def _run_pubmed_enricher() -> None:
+    pubmed_script = SCRIPT_DIR / "pubmed_enricher.py"
+    if not pubmed_script.exists():
+        print("[WARN] pubmed_enricher.py not found — skipping PubMed enrichment")
+        return
+    print("\n[PUBMED] Running PubMed enrichment...")
+    import subprocess as sp
+    result = sp.run([sys.executable, str(pubmed_script)], cwd=str(SCRIPT_DIR))
+    if result.returncode != 0:
+        print("[WARN] PubMed enrichment exited with errors — continuing anyway")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Sync oncology data files from source pipeline and push to GitHub"
@@ -136,6 +148,14 @@ def main():
     parser.add_argument("--push-only", action="store_true", help="Only commit and push, skip data sync")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without copying or pushing")
     parser.add_argument("--skip-push", action="store_true", help="Sync and commit but do not push")
+    parser.add_argument(
+        "--pubmed", action="store_true",
+        help="Run PubMed enrichment after data sync (queries E-utilities for trial abstracts)"
+    )
+    parser.add_argument(
+        "--pubmed-only", action="store_true",
+        help="Only run PubMed enrichment, skip data sync and git push"
+    )
     args = parser.parse_args()
 
     source_path = Path(args.source)
@@ -165,9 +185,18 @@ def main():
 
         if args.dry_run:
             print(f"\n[DRY-RUN] Would copy {total_copied} file(s)")
+            if args.pubmed:
+                print("[DRY-RUN] Would also run PubMed enrichment")
             return
 
         print(f"\n[SYNC] Copied {total_copied} file(s)")
+
+    if args.pubmed_only:
+        _run_pubmed_enricher()
+        return
+
+    if args.pubmed and not args.dry_run:
+        _run_pubmed_enricher()
 
     if args.data_only:
         print("[DONE] Data sync complete (--data-only, no git operations).")

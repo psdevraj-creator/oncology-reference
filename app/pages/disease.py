@@ -52,6 +52,11 @@ def layout(site_id: str) -> list:
                         color="primary",
                         className="me-2",
                     ),
+                    dbc.Button(
+                        [html.I(className="bi bi-bar-chart me-1"), "Trial Evidence"],
+                        href=f"/trials/{site_id}",
+                        color="success",
+                    ),
                 ]),
 
                 html.Div(id="disease-content", children=render_handbook(handbook)),

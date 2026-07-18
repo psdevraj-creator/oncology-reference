@@ -1,5 +1,6 @@
 import json
 import logging
+import re
 from pathlib import Path
 from typing import Any, Optional
 
@@ -15,6 +16,7 @@ _handbooks: dict[str, dict[str, Any]] = {}
 _regimens_df: pd.DataFrame = pd.DataFrame()
 _all_regimens: list[dict[str, Any]] = []
 _references: dict[str, dict[str, Any]] = {}
+_pubmed_cache: dict[str, dict[str, Any]] = {}
 
 _loaded = False
 
@@ -68,7 +70,28 @@ def load_all() -> None:
     _all_regimens = all_regimens
     _regimens_df = pd.DataFrame(all_regimens) if all_regimens else pd.DataFrame()
     _loaded = True
-    logger.info("Loaded %d regimens, %d handbooks", len(all_regimens), len(_handbooks))
+    _load_pubmed_cache()
+    logger.info("Loaded %d regimens, %d handbooks, %d pubmed entries",
+                len(all_regimens), len(_handbooks), len(_pubmed_cache))
+
+
+def _load_pubmed_cache() -> None:
+    global _pubmed_cache
+    pubmed_dir = Path(__file__).resolve().parent.parent.parent / "data" / "pubmed"
+    if not pubmed_dir.exists():
+        return
+    for pf in pubmed_dir.glob("*.json"):
+        try:
+            with open(pf, encoding="utf-8") as fh:
+                data = json.load(fh)
+            name = data.get("trial_name", pf.stem)
+            _pubmed_cache[_normalize_key(name)] = data
+        except Exception:
+            pass
+
+
+def _normalize_key(name: str) -> str:
+    return re.sub(r"[^a-z0-9_]", "_", name.lower().strip())[:80]
 
 
 def _ensure_loaded() -> None:
@@ -118,18 +141,27 @@ def site_exists(site_id: str) -> bool:
     return site_id in _sites_by_id
 
 
-def get_all_settings() -> list[str]:
+def get_all_settings(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
-    if _regimens_df.empty:
-        return []
-    settings = _regimens_df["setting"].dropna().unique().tolist()
-    return sorted(settings)
+    if site_id:
+        df = get_regimens_for_site(site_id)
+        if df.empty:
+            return []
+        vals = df["setting"].dropna().unique().tolist()
+    else:
+        if _regimens_df.empty:
+            return []
+        vals = _regimens_df["setting"].dropna().unique().tolist()
+    return sorted(vals)
 
 
-def get_all_modalities() -> list[str]:
+def get_all_modalities(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
     modalities: set[str] = set()
-    for row in _all_regimens:
+    source = _all_regimens
+    if site_id:
+        source = [r for r in _all_regimens if r.get("_site_id") == site_id]
+    for row in source:
         mods = row.get("treatment_modality")
         if not mods or not isinstance(mods, list):
             continue
@@ -138,10 +170,13 @@ def get_all_modalities() -> list[str]:
     return sorted(modalities)
 
 
-def get_all_biomarkers() -> list[str]:
+def get_all_biomarkers(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
     markers: set[str] = set()
-    for r in _all_regimens:
+    source = _all_regimens
+    if site_id:
+        source = [r for r in _all_regimens if r.get("_site_id") == site_id]
+    for r in source:
         biomarkers = r.get("biomarkers")
         if not biomarkers or not isinstance(biomarkers, list):
             continue
@@ -149,3 +184,16 @@ def get_all_biomarkers() -> list[str]:
             if isinstance(b, dict):
                 markers.add(b.get("marker", ""))
     return sorted(m for m in markers if m)
+
+
+def get_pubmed_data(trial_name: str) -> Optional[dict[str, Any]]:
+    _ensure_loaded()
+    if not trial_name:
+        return None
+    key = _normalize_key(trial_name)
+    return _pubmed_cache.get(key)
+
+
+def get_all_pubmed() -> dict[str, dict[str, Any]]:
+    _ensure_loaded()
+    return _pubmed_cache
