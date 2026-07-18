@@ -71,6 +71,7 @@ def create_table(
         "sort_action": sort_action,
         "page_size": page_size,
         "row_selectable": row_selectable,
+        "column_selectable": False,
         "style_data": TABLE_STYLE_DATA,
         "style_header": TABLE_STYLE_HEADER,
         "style_cell": TABLE_STYLE_CELL,
