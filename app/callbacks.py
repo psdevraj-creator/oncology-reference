@@ -3,8 +3,9 @@ from __future__ import annotations
 import pandas as pd
 from dash import Input, Output, State, html
 
-from app.components.cards import disease_grid
+from app.components.cards import category_sections
 from app.components.tables import create_table
+from app.data.category_map import group_sites_by_system
 from app.data.loader import (
     get_all_settings,
     get_all_modalities,
@@ -103,20 +104,23 @@ def register_callbacks(app) -> None:
     @app.callback(
         Output("disease-grid-container", "children"),
         Input("home-search", "value"),
+        Input("quick-jump", "value"),
     )
-    def filter_cards(search_term: str | None):
+    def filter_cards(search_term: str | None, active_system: str):
         sites = get_sites()
-        if not search_term or not search_term.strip():
-            return disease_grid(sites)
-        term = search_term.lower().strip()
-        filtered = [
-            s for s in sites
-            if term in s["display_name"].lower()
-            or term in s.get("description", "").lower()
-            or term in s["id"].lower()
-            or term in (s.get("archetype") or "").lower()
-        ]
-        return disease_grid(filtered)
+        if search_term and search_term.strip():
+            term = search_term.lower().strip()
+            sites = [
+                s for s in sites
+                if term in s["display_name"].lower()
+                or term in s.get("description", "").lower()
+                or term in s["id"].lower()
+                or term in (s.get("archetype") or "").lower()
+            ]
+        grouped = group_sites_by_system(sites)
+        if active_system and active_system != "all":
+            grouped = {k: v for k, v in grouped.items() if k == active_system}
+        return category_sections(grouped)
 
     @app.callback(
         Output("regimen-table-container", "children"),
