@@ -4,29 +4,43 @@ from dash import html
 
 def disease_card(site: dict) -> dbc.Col:
     site_id = site["id"]
+    accent = site.get("color_accent", "#2563eb")
+    desc = site.get("description", "")
+    regimens = site.get("regimen_count", 0)
+
     return dbc.Col(
         html.A(
-            dbc.Card(
+            dbc.Card([
+                html.Div(
+                    className="card-accent-bar",
+                    style={"backgroundColor": accent},
+                ),
                 dbc.CardBody([
-                    html.Div(site.get("emoji", ""), className="card-emoji"),
-                    html.H5(site["display_name"], className="card-title"),
+                    html.Div([
+                        html.Span(site.get("emoji", ""), className="card-emoji"),
+                        html.Span(site["display_name"], className="card-site-name"),
+                    ], className="card-site-header"),
                     html.P(
-                        f"{site.get('regimen_count', 0)} regimens",
-                        className="card-text text-muted",
+                        desc if desc else f"Clinical reference with {regimens} regimens",
+                        className="card-description",
                     ),
-                    dbc.Badge(
-                        f"Archetype {site.get('archetype', '?')}",
-                        color="secondary",
-                        className="me-1",
-                    ),
+                    html.Div([
+                        dbc.Badge(f"{regimens} regimens", color="primary", className="card-badge"),
+                        dbc.Badge(
+                            f"Type {site.get('archetype', '?')}",
+                            color="secondary",
+                            className="card-badge",
+                        ),
+                    ], className="card-badges"),
                 ]),
-                className="disease-card h-100 shadow-sm",
-                style={"borderLeft": f"4px solid {site.get('color_accent', '#2563eb')}"},
+            ],
+                className="disease-card shadow-sm h-100",
+                style={"borderTop": f"3px solid {accent}"},
             ),
             href=f"/disease/{site_id}",
             className="text-decoration-none",
         ),
-        xs=12, sm=6, md=4, lg=3, xxl=2,
+        xs=12, sm=6, md=4, lg=3,
         className="mb-3",
     )
 

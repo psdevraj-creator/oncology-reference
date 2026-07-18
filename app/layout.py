@@ -27,7 +27,7 @@ def create_layout() -> html.Div:
         dbc.Container(
             id="page-content",
             fluid=True,
-            className="app-content px-3 py-3",
+            className="app-content",
         ),
 
         html.Footer(
