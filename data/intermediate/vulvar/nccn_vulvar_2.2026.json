@@ -1,0 +1,2620 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated from cervical cancer regimens)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (specific schedule extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Regimens extrapolated from cervical cancer treatment paradigms."
+            },
+            "notes": "Preferred radiosensitizing agent for concurrent chemoradiation in locally advanced vulvar SCC. Used with EBRT. See Principles of Radiation Therapy (VULVA-D) for dosing details. [1, 7]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "7"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin intolerant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated from cervical cancer regimens)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (specific schedule extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (alternative)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included based on extrapolation from cervical cancer data suggesting noninferiority to cisplatin."
+            },
+            "notes": "Preferred alternative radiosensitizing agent for concurrent chemoradiation in locally advanced vulvar SCC for patients intolerant to cisplatin. [1, 155, 156]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "155",
+                    "156"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NRG Oncology/GOG 279",
+                "phase": "Phase II",
+                "n_patients": "52 evaluable patients",
+                "notes": "Out of 52 evaluable patients, 38 (73%; 90% CI, 61%–83%) achieved complete pathologic response (CPR). Median follow-up was 51 months. 12-month PFS was 74% (90% CI, 62.2%–82.7%) and 24-month OS was 70% (90% CI, 57%–79%)."
+            },
+            "notes": "Listed as an 'Other Recommended' regimen. This regimen was added based on the GOG 279 study showing it improved complete pathologic response in patients with locally advanced vulvar cancer not amenable to surgical resection. [2, 157]",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "157"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "During EBRT"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "During EBRT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from multiple studies)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "A historically common combination for radiosensitization in vulvar cancer studies (e.g., GOG 101, GOG 205)."
+            },
+            "notes": "Listed as an 'Other Recommended' regimen. Historically used in multiple GOG studies for concurrent chemoradiation in locally advanced disease. [1, 99, 102, 104, 105]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "99",
+                    "102",
+                    "104",
+                    "105"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "PO",
+                    "schedule": "Daily during EBRT (extrapolated)"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Extrapolated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Lorvidhaya et al. 2003)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. For information regarding DPYD testing, see NCCN Guidelines for Colon Cancer. [3, 117]",
+            "source_citation": {
+                "reference_numbers": [
+                    "3",
+                    "117"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "Phase II (extrapolated)",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Pattaranutaporn et al. 2001)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. [4, 119]",
+            "source_citation": {
+                "reference_numbers": [
+                    "4",
+                    "119"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Cerrotta et al. 2002)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. [5, 6, 118]",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6",
+                    "118"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (optional, with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen and preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from KEYNOTE-826 in cervical cancer. Checkpoint inhibitor (Pembrolizumab) and/or monoclonal antibody (Bevacizumab) in this regimen may be continued as maintenance therapy per original study protocols. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [f, g, 153, 154, 158]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153",
+                    "154",
+                    "158"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (optional, with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen and preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from KEYNOTE-826 in cervical cancer. Checkpoint inhibitor (Pembrolizumab) and/or monoclonal antibody (Bevacizumab) in this regimen may be continued as maintenance therapy per original study protocols. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [f, g, 153, 154, 158]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153",
+                    "154",
+                    "158"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from GOG 240 in cervical cancer. Bevacizumab in this regimen may be continued as maintenance therapy per original study protocols. [f, 153]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a platinum-doublet alternative to cisplatin-based regimen, with Bevacizumab extrapolated from cervical cancer data."
+            },
+            "notes": "Preferred first-line regimen. Bevacizumab in this regimen may be continued as maintenance therapy per original study protocols. [f]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a preferred doublet regimen."
+            },
+            "notes": "Preferred first-line chemotherapy doublet. [153, 154]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153",
+                    "154"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a preferred doublet regimen."
+            },
+            "notes": "Preferred first-line chemotherapy doublet. [153, 154, 155]",
+            "source_citation": {
+                "reference_numbers": [
+                    "153",
+                    "154",
+                    "155"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Single-agent platinum listed as an alternative."
+            },
+            "notes": "Other Recommended first-line single-agent option. [1, 152]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "152"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Single-agent platinum listed as an alternative."
+            },
+            "notes": "Other Recommended first-line single-agent option. [1, 120, 155]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "120",
+                    "155"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "EORTC-GCG Phase II study",
+                "phase": "Phase II",
+                "n_patients": "31",
+                "notes": "Response rate of 14% and progression-free survival (PFS) of 2.6 months in 31 patients with advanced, recurrent/metastatic vulvar cancer."
+            },
+            "notes": "Other Recommended second-line or subsequent monotherapy. [121]",
+            "source_citation": {
+                "reference_numbers": [
+                    "121"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cemiplimab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab",
+                    "dose": "N/A (extrapolated from cutaneous SCC and cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Extrapolated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Empower-Cervical-1 (extrapolated from cervical cancer)",
+                "phase": "Phase III (extrapolated)",
+                "n_patients": "608 (cervical cancer)",
+                "notes": "In the Empower-Cervical-1 trial, median OS was 12 months vs 8.5 months (HR, 0.69; 95% CI, 0.56–0.84; P<.001) and median PFS was 2.8 vs 2.9 months (HR, 0.75; 95% CI, 0.63–0.89; P<.001) for cemiplimab vs chemotherapy. ORR was 16% vs 6.3%."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy. Extrapolated from efficacy in advanced cutaneous SCC (Phase 2, N=59, ORR 47%) and cervical cancer (Empower-Cervical-1). [7, 8, 161, 162]",
+            "source_citation": {
+                "reference_numbers": [
+                    "7",
+                    "8",
+                    "161",
+                    "162"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Erlotinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erlotinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial (Horowitz et al.)",
+                "phase": "Phase II",
+                "n_patients": "N/A for vulvar SCC cohort (enrolled metastatic disease)",
+                "notes": "Partial responses and stable disease noted in 27.5% and 40% of enrolled patients, respectively. Short-duration responses observed."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy (Category 2B). [9, 122]",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "122"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a second-line option based on activity in cervical cancer; findings from case reports have been mixed."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy (Category 2B). Extrapolated from cervical cancer data. [115, 159, 160]",
+            "source_citation": {
+                "reference_numbers": [
+                    "115",
+                    "159",
+                    "160"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358 (cervical cancer) & CheckMate 848 (TMB-H)",
+                "phase": "Phase 1-2 (CheckMate 358), Phase 2 (CheckMate 848)",
+                "n_patients": "N/A for vulvar cancer; trials enrolled cervical cancer and TMB-H solid tumor patients.",
+                "notes": "Recommendation extrapolated from CheckMate 358 trial in cervical cancer and CheckMate 848 trial in metastatic/unresectable solid tumors with TMB-H."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy. [10, 11, 163, 164]",
+            "source_citation": {
+                "reference_numbers": [
+                    "10",
+                    "11",
+                    "163",
+                    "164"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab (for TMB-H tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tumor Mutational Burden (TMB)",
+                    "requirement": "TMB-High (TMB-H) [≥10 mutations/megabase (mut/Mb)]",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "71 enrolled in vulvar SCC cohort; 12 had TMB-H tumors",
+                "notes": "For the 12 patients with TMB-H tumors in KEYNOTE-158, ORR was approximately 17%. For the entire TMB-H cohort (all tumor types), ORR was 34.3%."
+            },
+            "notes": "For the treatment of patients with unresectable or metastatic TMB-H [≥10 mut/Mb] tumors that have progressed following prior treatment and who have no satisfactory alternative treatment options. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [h, 12, 174]",
+            "source_citation": {
+                "reference_numbers": [
+                    "12",
+                    "174"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab (for PD-L1-positive tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Programmed Death-Ligand 1 (PD-L1)",
+                    "requirement": "PD-L1-positive (combined positive score [CPS] ≥1)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "101 enrolled in vulvar SCC cohort",
+                "notes": "Overall response rate (ORR) was 10.9% overall, 9.5% in the PD-L1–positive population, and 28.6% among the PD-L1–negative population. Median PFS and OS were 2.1 and 6.2 months, respectively."
+            },
+            "notes": "Recommended for disease progression on or after chemotherapy in patients whose tumors express PD-L1 (CPS ≥1). Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [i, 13, 172, 173]",
+            "source_citation": {
+                "reference_numbers": [
+                    "13",
+                    "172",
+                    "173"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab (for MSI-H/dMMR tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Microsatellite Instability-High (MSI-H) / Mismatch Repair Deficient (dMMR)",
+                    "requirement": "MSI-H or dMMR",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "233 patients with non-colorectal MSI-H/dMMR tumors (1 with vulvar cancer)",
+                "notes": "ORR for the entire cohort was 34.3%. Median PFS was 4.1 months and median OS was 23.5 months."
+            },
+            "notes": "For the treatment of patients with unresectable or metastatic MSI-H or dMMR tumors that have progressed following prior treatment and who have no satisfactory alternative treatment options. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [g, 13, 175]",
+            "source_citation": {
+                "reference_numbers": [
+                    "13",
+                    "175"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or 2+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "Phase II",
+                "n_patients": "40 patients with cervical cancer in the overall study of 267",
+                "notes": "In the overall study, ORR was 37.1% (n=99; 95% CI, 31.3–43.2), median PFS was 6.9 months (95% CI, 5.6–8.0), and median OS was 13.4 months (95% CI, 11.9–15.5). In patients with cervical cancer, confirmed ORR was 50%; for HER2 IHC3+ cohort, ORR was 75% and median OS was 13.6 months."
+            },
+            "notes": "For HER2-positive tumors (IHC 3+ or 2+). HER2 IHC testing (with reflex to HER2 fluorescence in situ hybridization [FISH] for equivocal IHC) is recommended for advanced or recurrent/metastatic disease. [14, 178]",
+            "source_citation": {
+                "reference_numbers": [
+                    "14",
+                    "178"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab (for HPV-related tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HPV",
+                    "requirement": "HPV-related tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase I/II",
+                "n_patients": "5 patients with recurrent or metastatic vaginal or vulvar cancer (HPV-positive or unknown status)",
+                "notes": "12- and 18-month OS rates for the combined cohort were 40% and 20%, respectively; 6-month PFS was 40%."
+            },
+            "notes": "Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [j, 15, 179]",
+            "source_citation": {
+                "reference_numbers": [
+                    "15",
+                    "179"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analysis of three clinical trials",
+                "phase": "Phase I, Phase I/2, Phase II",
+                "n_patients": "153 patients (long-term analysis)",
+                "notes": "ORR was 75% (95% CI, 61%–85%) in the primary analysis. In the long-term analysis (n=153), ORR was 79% (95% CI, 72–85). Median duration of response was 35.2 months (22.8–NE) and median PFS was 28.3 months."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 181, 183]",
+            "source_citation": {
+                "reference_numbers": [
+                    "16",
+                    "181",
+                    "183"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials",
+                "phase": "Phase 1-2",
+                "n_patients": "54 patients with advanced/metastatic NTRK gene fusion tumors (pooled analysis); 121 patients in long-term analysis",
+                "notes": "Primary analysis: ORR was 57.4%, median duration of response was 10.4 months, median PFS was 11.2 months. Long-term analysis (n=121): ORR was 61%, median duration of response was 20 months (95% CI, 10.1–19.9)."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 180]",
+            "source_citation": {
+                "reference_numbers": [
+                    "16",
+                    "180"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "Phase 1/2",
+                "n_patients": "40 TRK TKI-naïve patients with advanced solid tumors harboring NTRK fusions",
+                "notes": "ORR was 58% (95% CI, 41%–73%). Median duration of response was not estimable (NE), and the 12-month duration of response rate was 86%."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 184]",
+            "source_citation": {
+                "reference_numbers": [
+                    "16",
+                    "184"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Vulvar cancer is a malignant neoplasm arising from the vulvar complex, which includes the labia majora, labia minora, clitoris, mons pubis, perineum, and vulvar vestibule. The majority of vulvar cancers originate from the squamous epithelium of these structures. Cutaneous vulvar melanoma is defined as melanocytic lesions that occur on the vulva vestibule outside Hart's line, whereas mucosal vulvovaginal melanoma is defined as lesions that occur on the vulva vestibule inside Hart's line [MS-2, VM-1A]. Vulvar cancer accounts for 5% to 8% of all gynecologic malignancies [MS-1]. The vulvar vestibule is bounded laterally by the labia minora, medially by the vaginal introitus, superiorly by the clitoral complex, and inferiorly by the perineal body. The vulvar skin is a specialized mucocutaneous transition zone with unique histologic features including hair-bearing (labia majora) and non-hair-bearing (labia minora) regions, with the vestibular mucosa transitioning to vaginal mucosa at the introitus. Anatomically, the lymphatic drainage of the vulva follows predictable patterns: lymphatics from the labia majora and lower labia minora drain primarily to the inguinofemoral lymph nodes, while structures above Hart's line (clitoris, urethral meatus) have bilateral drainage pathways. The perineal body and posterior labia may drain to the ipsilateral groin as well as to posterior thigh or ischiorectal lymph nodes. This lymphatic anatomy is clinically critical because inguinofemoral lymph node status is the single most important prognostic factor and determinant of treatment in vulvar cancer [MS-4, MS-5]. Vulvar cancer staging follows the FIGO (International Federation of Gynecology and Obstetrics) staging system, which was revised in 2021 to allow incorporation of cross-sectional imaging findings alongside surgical-pathologic staging [ST-1].",
+        "subtypes": [
+            {
+                "name": "Vulvar Squamous Cell Carcinoma (SCC)",
+                "description": "SCC accounts for approximately 90% of all vulvar cancers. It is subdivided into two molecular-pathologic categories: HPV-associated SCC and HPV-independent SCC. HPV-associated SCC frequently occurs in younger patients, is frequently multifocal, is associated with classic vulvar intraepithelial neoplasia (VIN/HSIL), and can be seen in conjunction with additional sites of lower genital tract squamous neoplasia. Immunohistochemistry shows strong, diffuse, block-like positive nuclear and cytoplasmic staining with p16 and wild-type p53 with a heterogeneous staining pattern and basal sparing pattern [MS-2, VULVA-A 1/4]. HPV-independent SCC is split into two main groups: those associated with TP53 mutations and those with wild-type TP53 status. The p53-abnormal, HPV-independent SCC usually occurs in older patients, is unifocal, and is associated with differentiated VIN (dVIN). Immunohistochemistry usually shows aberrant p53 staining (widespread, strong nuclear expression or complete absence/null expression) and patchy (negative) p16 staining [MS-2, VULVA-A 1/4]. A meta-analysis showed that HPV-associated SCC had a better prognosis than HPV-independent SCC [MS-2].",
+                "frequency": "90% of vulvar cancers [MS-1]",
+                "key_associations": [
+                    "HPV infection (30-69% of vulvar cancers attributable)",
+                    "HPV-16 (78.1% of HPV-positive disease)",
+                    "HPV-33 (7.5% of HPV-positive disease)",
+                    "TP53 mutations (HPV-independent, p53-abnormal group)",
+                    "Lichen sclerosus (HPV-independent dVIN)",
+                    "Differentiated VIN (dVIN) (HPV-independent)",
+                    "Classic VIN/HSIL (HPV-associated)"
+                ]
+            },
+            {
+                "name": "HPV-Associated Squamous Intraepithelial Lesions (SIL)",
+                "description": "Per the 2020 WHO Classification of Female Genital Tumors, vulvar intraepithelial neoplasia (VIN) is now classified as HPV-associated or HPV-independent. HPV-associated VIN corresponds to low-grade squamous intraepithelial lesion (LSIL) and high-grade squamous intraepithelial lesion (HSIL), similar to other anatomic sites in the anogenital tract. Historically, VIN was diagnosed in younger patients with a median age of 45-50 years. HSIL (formerly defined as carcinoma in situ/CIS and incorporating VIN2/3) can be treated with wide local excision [MS-2, VULVA-1]. HPV infection is detected in 80% to 90% of patients with SIL [MS-2].",
+                "frequency": "HPV infection detected in 80-90% of SIL cases [MS-2]",
+                "key_associations": [
+                    "HPV-16 and HPV-18",
+                    "Multifocal lesions",
+                    "Younger age at diagnosis (median 45-50 years)",
+                    "Lower genital tract neoplasia"
+                ]
+            },
+            {
+                "name": "Differentiated Vulvar Intraepithelial Neoplasia (dVIN)",
+                "description": "HPV-independent VIN (dVIN) is associated with a faster rate of progression to invasive SCC. It is the less common form of VIN and is often associated with lichen sclerosus and other chronic vulvar inflammatory disorders. The presence of dVIN and lichen sclerosus may play a significant role in recurrence or development of new primary carcinomas even when surgical margins are negative [MS-2, VULVA-C 1/6]. Per the 2020 WHO Classification, dVIN represents a distinct pathologic entity from HPV-associated HSIL.",
+                "frequency": "Less common form of VIN; exact frequency not specified in source",
+                "key_associations": [
+                    "Lichen sclerosus",
+                    "Chronic vulvar inflammatory disorders",
+                    "Faster rate of progression to invasive SCC",
+                    "TP53 mutations (most commonly)",
+                    "Older patient age"
+                ]
+            },
+            {
+                "name": "Vulvar Melanoma (Cutaneous)",
+                "description": "Cutaneous vulvar melanoma is defined as melanocytic lesions that occur on the vulva vestibule outside Hart's line. It is staged the same as cutaneous melanoma using the AJCC (TNM) staging system [MS-19, VM-1A]. Cutaneous vulvar melanoma shares similar immunohistochemistry markers (S100B, HMB45, and Melan-A) with other cutaneous melanomas [MS-19]. Molecular characteristics include less frequent BRAF mutations compared to non-gynecologic cutaneous melanomas, with 50% BRAF mutations and 22% KIT mutations identified in vulvovaginal melanoma, compared with 82.1% BRAF mutations and 3% KIT mutations in non-gynecologic melanomas [MS-19].",
+                "frequency": "Annual incidence <0.2 per 100,000 individuals assigned female at birth [MS-19]",
+                "key_associations": [
+                    "BRAF mutations (50%)",
+                    "KIT mutations/amplifications (22%)",
+                    "NRAS mutations",
+                    "PD-L1 mutations",
+                    "Stage I-II disease presentation"
+                ]
+            },
+            {
+                "name": "Mucosal Vulvovaginal Melanoma",
+                "description": "Mucosal vulvovaginal melanoma is defined as lesions that occur on the vulva vestibule inside Hart's line [MS-19, VM-1A]. Primary vaginal malignant melanoma is extremely rare, with fewer than 250-300 reported cases in the literature, accounting for only 0.46 cases per million individuals per year [MS-19]. Unlike cutaneous melanomas, vulvovaginal mucosal melanomas rarely exhibit V600 BRAF mutations, while mutations in cell regulatory proteins such as c-KIT and PD-L1 are significantly more common in vulvar melanoma [MS-19]. The OS for vulvar and vaginal melanomas is worse compared with the survival rate for cutaneous melanoma across all stages. The 5-year OS rate for cutaneous melanoma is 92%, compared with only 47% for vulvar melanoma [MS-19].",
+                "frequency": "Less than 250-300 reported cases in the literature; 0.46 cases per million per year for primary vaginal melanoma [MS-19]",
+                "key_associations": [
+                    "KIT mutations/amplifications",
+                    "PD-L1 mutations",
+                    "Absent or rare BRAF V600 mutations",
+                    "NRAS mutations",
+                    "Worse prognosis than cutaneous melanoma"
+                ]
+            },
+            {
+                "name": "Extramammary Paget Disease",
+                "description": "Listed as a rare histologic subtype of vulvar malignancy. Specific management details are not elaborated in the provided source text.",
+                "frequency": "Rare histology [MS-1]",
+                "key_associations": []
+            },
+            {
+                "name": "Bartholin Gland Adenocarcinoma",
+                "description": "Listed as a rare histologic subtype of vulvar malignancy. Specific management details are not elaborated in the provided source text.",
+                "frequency": "Rare histology [MS-1]",
+                "key_associations": []
+            },
+            {
+                "name": "Verrucous Carcinoma",
+                "description": "Listed as a rare histologic subtype of vulvar malignancy. Specific management details are not elaborated in the provided source text.",
+                "frequency": "Rare histology [MS-1]",
+                "key_associations": []
+            },
+            {
+                "name": "Basal Cell Carcinoma of the Vulva",
+                "description": "Listed as a rare histologic subtype of vulvar malignancy. Specific management details are not elaborated in the provided source text.",
+                "frequency": "Rare histology [MS-1]",
+                "key_associations": []
+            },
+            {
+                "name": "Vulvar Sarcoma",
+                "description": "Listed as a rare histologic subtype of vulvar malignancy. Specific management details are not elaborated in the provided source text.",
+                "frequency": "Rare histology [MS-1]",
+                "key_associations": []
+            },
+            {
+                "name": "Adenocarcinoma of the Vulva",
+                "description": "Adenocarcinomas are included alongside SCC in the NCCN Vulvar Cancer Guidelines alongside SCC. The management pathway for adenocarcinoma of the vulva follows similar staging and treatment principles as vulvar SCC within the guidelines.",
+                "frequency": "Accounts for a minority of vulvar cancers (the remaining ~10% after the 90% SCC predominance) [MS-1]",
+                "key_associations": []
+            }
+        ],
+        "molecular_pathogenesis": {
+            "molecular_classification": "Vulvar SCC is classified into two major molecular-pathologic pathways: HPV-associated and HPV-independent. This classification has important prognostic and therapeutic implications [MS-2, VULVA-A 1/4].",
+            "hpv_associated_pathway": "HPV-associated vulvar SCC is driven by persistent infection with carcinogenic HPV strains, most commonly HPV-16 (78.1% of HPV-positive disease) and HPV-33 (7.5%) [MS-2]. Estimates of the percentage of vulvar cancers attributable to HPV infection range from conservative estimates of 30% to up to 69%, with a meta-analysis reporting an HPV prevalence of 39.7% [MS-2]. A recent meta-analysis showed the prevalence of HPV in vulvar cancer and VIN to be 39.1% and 76.1%, respectively [MS-2]. HPV-driven transformation results in overexpression of the p16INK4a tumor suppressor protein, which serves as a surrogate biomarker for HPV E7 oncoprotein activity. Immunohistochemistry shows strong, diffuse, block-like positive nuclear and cytoplasmic staining with p16 and wild-type p53 with a heterogeneous staining pattern and basal sparing pattern [VULVA-A 1/4]. HPV-associated SCC has a better prognosis than HPV-independent SCC [MS-2].",
+            "hpv_independent_pathway": "HPV-independent vulvar SCC arises through two distinct molecular subgroups defined by TP53 status: TP53-mutant and TP53 wild-type. TP53-mutant HPV-independent SCC is the most clinically aggressive molecular category. Immunohistochemistry usually shows aberrant p53 staining (widespread, strong nuclear expression or complete absence/null expression) and patchy (negative) p16 staining [VULVA-A 1/4]. The p53-abnormal SCCs have the worst clinical outcomes of the three molecular categories (HPV positive, HPV-negative/p53 mutant, and HPV-negative p53 wild-type) [MS-2]. HPV-independent dVIN (differentiated VIN) is associated with chronic inflammatory conditions such as lichen sclerosus and is characterized by a faster rate of progression to invasive SCC [MS-2].",
+            "tumor_suppressor_and_oncogene_dysregulation": "The TP53 tumor suppressor gene is the primary driver in HPV-independent vulvar SCC. Wild-type p53 shows a heterogeneous staining pattern with basal sparing, while TP53-mutant tumors show either widespread strong nuclear expression (gain-of-function) or complete absence/null expression (loss-of-function) [VULVA-A 1/4]. The p53 IHC has unique features compared to p53 staining patterns encountered in ovarian and endometrial cancers [MS-5]. NCCN guidelines recommend p53 IHC (or NGS as acceptable alternative) to determine TP53 status in HPV-negative tumors [VULVA-A 2/4].",
+            "vulvar_melanoma_molecular_alterations": "Vulvar and vaginal melanomas form a distinct molecular subtype of melanoma. One study evaluating 65 primary vulvar and vaginal melanoma tumors showed that mutations in BRAF are absent in vulvar melanomas, while NRAS mutations and KIT amplifications occur in both vulvar and vaginal melanomas [MS-19]. Another study comparing 51 vulvar and vaginal melanomas with 2253 non-gynecologic melanomas identified 50% BRAF mutations and 22% KIT mutations in vulvovaginal melanoma tumors, compared with 82.1% BRAF mutations and 3% KIT mutations in non-gynecologic melanomas [MS-19]. NRAS mutations were rare compared with other cutaneous melanomas. These data highlight that vulvar and vaginal melanomas involve different molecular alterations compared to cutaneous melanoma [MS-19].",
+            "biomarker_testing": "For advanced, recurrent, or metastatic disease, NCCN recommends: HPV status determination by p16 IHC, RNA sequencing, or HPV ISH; p53 IHC to determine TP53 status in HPV-negative tumors; PD-L1 testing; HER2 IHC testing (with reflex HER2 FISH for equivocal IHC); and comprehensive molecular profiling including MMR/MSI, TMB, and NTRK testing [VULVA-A 2/4].",
+            "ntrk_gene_fusions": "NTRK gene fusions lead to constitutively active tropomyosin receptor kinases (TRKs), which promote cancer development and progression. Approximately 0.3% of solid tumors express NTRK gene fusions [MS-18]. These represent a rare but actionable biomarker for larotrectinib, entrectinib, and repotrectinib [VULVA-E 1A/2].",
+            "nccn_categories": "All recommendations are category 2A unless otherwise indicated [VULVA-1]"
+        },
+        "epidemiology": {
+            "incidence": "In 2025, an estimated 7,480 individuals will be diagnosed with vulvar cancer in the United States [MS-1]. Vulvar cancer accounts for 5% to 8% of gynecologic malignancies [MS-1]. The annual incidence of vulvar melanoma (VuM) is <0.2 per 100,000 individuals assigned female at birth (AFAB) per year [MS-19]. Primary vaginal malignant melanoma accounts for only 0.46 cases per million individuals per year [MS-19].",
+            "mortality": "An estimated 1,770 deaths are expected from vulvar cancer in 2025 [MS-1].",
+            "five_year_survival": "Based on SEER database data (2015-2021), 5-year survival rates are: 85.7% for localized disease (stages I/II), 49.71% for regional or locally advanced disease (stages III/IVA), and 21.9% for stage IVB (which includes patients with pelvic nodal disease) [MS-1]. The 5-year OS rate for vulvar melanoma is 47%, compared with 92% for cutaneous melanoma [MS-19].",
+            "median_age": "The median age of diagnosis is 68 years for vulvar cancer [MS-1]. For vulvar and vaginal melanoma, it occurs most commonly in the sixth to seventh decades of life in postmenopausal AFAB individuals, with a median age at diagnosis of 68 years [MS-19]. HPV-associated SCC and SIL are typically diagnosed at a younger age, with a median age of 45-50 years, while HPV-independent and most invasive vulvar cancers are diagnosed at a median age of 65-70 years [MS-2].",
+            "histology_distribution": "Ninety percent of vulvar cancers are of SCC histology [MS-1]. Rarer histologies include melanoma, extramammary Paget disease, Bartholin gland adenocarcinoma, verrucous carcinoma, basal cell carcinoma, and sarcoma [MS-1]. Vulvar and vaginal melanomas account for 7% of all melanomas in women and 5% of all vulvar malignancies [MS-19].",
+            "trends": "From 2001 to 2017, the incidence of HPV-associated vulvar cancers increased by 1.2% per year, most notably among individuals aged 50-59 years (2.6% increase per year), 60-69 years (2.4% increase per year), and ≥70 years (0.9% increase per year). The overall incidence for non-HPV vulvar cancers remains stable while HPV-associated vulvar cancer incidence has increased overall and especially among individuals >50 years of age [MS-2]. There has been no significant improvement in survival over time for vulvar and vaginal melanomas, partly explained by delayed diagnosis compared with cutaneous melanomas [MS-19].",
+            "sociodemographic_disparities": "Studies of the SEER database and the National Cancer Database (NCDB) have shown that treatment approaches and modalities vary considerably with sociodemographic factors such as race/ethnicity, age, and non-private insurance, particularly for individuals with advanced disease [MS-1]. Specific race/ethnicity-stratified incidence data or mortality data are not provided in the source text beyond these general observations.",
+            "staging_at_diagnosis": "A U.S. population-based study of 1863 individuals showed that 38% of patients with staged vulvar melanoma had advanced disease at the time of diagnosis with regional involvement and/or distant metastases. The mean size of the primary tumor at diagnosis was 31 mm and >46% had a Breslow thickness >2 mm [MS-19]. A majority of vulvar SCC patients present with early-stage localized disease [MS-4]."
+        },
+        "risk_factors": [
+            {
+                "factor": "Increasing age",
+                "type": "Non-modifiable",
+                "detail": "Most vulvar neoplasia are diagnosed at early stages in older populations. The median age of diagnosis for invasive vulvar cancer is 65-70 years [MS-2]. Age is an independent prognostic factor and treatment modality varies with age.",
+                "strength": "Strong; established epidemiologic association [MS-1, MS-2]"
+            },
+            {
+                "factor": "Human papillomavirus (HPV) infection",
+                "type": "Infectious/Environmental",
+                "detail": "Estimates of the percentage of vulvar cancers attributable to HPV infection range from 30% to 69%, with a meta-analysis reporting an HPV prevalence of 39.7% [MS-2]. HPV-16 is the predominant type (78.1% of HPV-positive disease), followed by HPV-33 (7.5%) [MS-2]. HPV-associated SCC occurs more frequently in younger patients and is multifocal.",
+                "strength": "Strong; well-established causative relationship [MS-2]"
+            },
+            {
+                "factor": "Cigarette smoking",
+                "type": "Modifiable/Environmental",
+                "detail": "Cigarette smoking is listed as a recognized risk factor for the development of vulvar neoplasia [MS-1]. Smoking cessation counseling is recommended in the workup pathway [VULVA-1].",
+                "strength": "Established risk factor [MS-1]"
+            },
+            {
+                "factor": "Inflammatory conditions affecting the vulva",
+                "type": "Non-modifiable/Immune-related",
+                "detail": "HPV-independent VIN and SCC are identified in the setting of chronic vulvar inflammatory disorders such as lichen sclerosus [VULVA-A 1/4]. The presence of dVIN and lichen sclerosus may also play a significant role in recurrence or development of new primary carcinomas even with negative surgical margins [VULVA-C 1/6].",
+                "strength": "Established; lichen sclerosus is specifically identified as associated with HPV-independent SCC [VULVA-A 1/4, VULVA-C 1/6]"
+            },
+            {
+                "factor": "Immunodeficiency",
+                "type": "Non-modifiable/Immune-related",
+                "detail": "Immunodeficiency, including HIV infection, is listed as a risk factor for the development of vulvar neoplasia [MS-1]. The NCCN guidelines recommend considering HIV testing, especially in younger patients suspected of having SCC of the vulva or other HPV-related disease [VULVA-1]. Patients with vulvar cancer and HIV should be referred to an HIV specialist, and modifications to cancer treatment should not be made solely on the basis of HIV status [VULVA-1].",
+                "strength": "Established risk factor [MS-1, VULVA-1]"
+            },
+            {
+                "factor": "HPV-associated lower genital tract neoplasia",
+                "type": "Infectious-related",
+                "detail": "HPV-associated SCC can be seen in conjunction with additional sites of lower genital tract squamous neoplasia, including cervical neoplasia. Concurrent cervical HPV and cytology testing is recommended in the workup [VULVA-1].",
+                "strength": "Strong association [MS-2, VULVA-1]"
+            }
+        ],
+        "protective_factors": [
+            "HPV vaccination may reduce the burden of HPV-related vulvar cancers in the future, as a large majority of HPV-related vulvar cancers are associated with HPV-16 and HPV-18 strains, for which currently available vaccines provide protection [MS-2]"
+        ],
+        "clinical_features": {
+            "typical_presentation": "Vulvar cancer most commonly presents in older individuals, with a median age of diagnosis of 68 years. The majority of vulvar cancers are squamous cell carcinoma (SCC), accounting for approximately 90% of cases. The majority of vulvar cancers are located in the labia majora, though other possible sites include the labia minora, clitoris, mons pubis, and perineum [MS-2]. Patients with HPV-negative tumors often present with a single mass or ulcer on the labia majora or minora, while HPV-positive tumors are more frequently multifocal and may be associated with concurrent cervical neoplasia [MS-4]. Pruritus and pain/irritation are common presenting symptoms; vulvar bleeding or discharge may also occur. A majority of patients present with early-stage localized disease. Although many cases may be asymptomatic, symptoms often prompt evaluation leading to diagnosis. Rarer histologies include melanoma, extramammary Paget disease, Bartholin gland adenocarcinoma, verrucous carcinoma, basal cell carcinoma, and sarcoma [MS-2].",
+            "symptoms": [
+                {
+                    "name": "Pruritus",
+                    "detail": "Itching of the vulvar skin, a common presenting symptom that may be persistent and progressive.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Pain or irritation",
+                    "detail": "Discomfort in the vulvar region, which may be constant or intermittent.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Vulvar bleeding",
+                    "detail": "Spontaneous bleeding from the vulvar lesion or bleeding associated with trauma to the area.",
+                    "frequency": "Common",
+                    "alarm": true
+                },
+                {
+                    "name": "Vulvar discharge",
+                    "detail": "Abnormal discharge from a vulvar lesion, which may be serous, bloody, or purulent.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Palpable mass",
+                    "detail": "A mass or nodule on the vulva that may be self-detected or found during clinical examination.",
+                    "frequency": "Common",
+                    "alarm": true
+                },
+                {
+                    "name": "Ulceration",
+                    "detail": "A non-healing ulcer on the vulvar skin, which may be painless in early stages.",
+                    "frequency": "Common",
+                    "alarm": true
+                },
+                {
+                    "name": "Vulvar dystrophy symptoms",
+                    "detail": "Changes in vulvar skin color, texture, or thickness that may precede or accompany malignancy.",
+                    "frequency": "Variable",
+                    "alarm": false
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Vulvar mass or lesion",
+                    "detail": "Visible or palpable abnormal tissue growth on the vulva, which may be exophytic, endophytic, or ulcerated.",
+                    "frequency": "Common"
+                },
+                {
+                    "name": "Lymphadenopathy",
+                    "detail": "Enlarged or firm inguinal or femoral lymph nodes, suggesting possible metastatic spread.",
+                    "frequency": "Variable, more common in advanced stages"
+                },
+                {
+                    "name": "Skin changes",
+                    "detail": "Erythema, leukoplakia, hyperkeratosis, or other alterations in vulvar skin that may indicate underlying neoplasia or premalignant conditions such as lichen sclerosus or VIN.",
+                    "frequency": "Variable"
+                },
+                {
+                    "name": "Bleeding lesion",
+                    "detail": "A lesion that bleeds spontaneously or with minimal contact.",
+                    "frequency": "Common"
+                },
+                {
+                    "name": "Fixed or ulcerated lymph nodes",
+                    "detail": "Regional lymph nodes that are fixed to surrounding structures or have ulcerated through the skin, indicating advanced disease (FIGO stage IVA).",
+                    "frequency": "Less common, seen in advanced disease"
+                }
+            ],
+            "atypical_or_missed": [
+                "Vulvar intraepithelial neoplasia (VIN) and early invasive cancers may present as subtle, flat, or pigmented lesions that are mistaken for benign dermatologic conditions such as lichen sclerosus or contact dermatitis.",
+                "HPV-associated tumors may be multifocal, leading to delayed recognition of the primary invasive component among multiple areas of intraepithelial disease.",
+                "Vulvar cancer in younger patients may be attributed to benign conditions, delaying biopsy and diagnosis.",
+                "Bartholin gland adenocarcinoma may present as a painful Bartholin cyst or abscess, delaying consideration of malignancy.",
+                "Vulvar melanoma may present as a pigmented lesion with variable color, border irregularity, or size changes that may be mistaken for a benign melanocytic nevus.",
+                "Patients with chronic vulvar inflammatory disorders such as lichen sclerosus may have changes attributed to the underlying condition, masking early malignant transformation."
+            ]
+        },
+        "red_flags": [
+            "Non-healing or bleeding vulvar ulcer or mass",
+            "Palpable inguinal or femoral lymphadenopathy",
+            "Fixed or ulcerated regional lymph nodes suggesting advanced disease",
+            "Bulky vulvar tumor (≥4 cm or close to critical structures) [VULVA-B footnote b]",
+            "Rapidly growing or changing vulvar lesion",
+            "Vulvar lesion with extension to the urethra, vagina, or anus [MS-4]",
+            "New pigmented lesion on the vulva with color variegation, irregular borders, or size >6 mm",
+            "Bleeding that is persistent or recurrent from a vulvar site"
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Biopsy with pathologic review",
+                    "rationale": "Tissue diagnosis is essential for confirming vulvar cancer and determining histologic type, grade, depth of invasion, and margin status. All suspicious areas should be biopsied [VULVA-1, VULVA-A 2 of 4].",
+                    "key_findings": "Histologic type (SCC vs. other), HPV-associated vs. HPV-independent pathway, depth of invasion (mm), surgical margin status, lymphovascular space invasion (LVSI), pattern of invasion (spray or diffuse), involvement of adjacent structures (vagina, urethra, anus, bladder mucosa, rectal mucosa, pelvic bone) [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "Immunohistochemistry (IHC) for p16",
+                    "rationale": "p16 IHC is used to determine HPV status in vulvar SCC. Strong, diffuse, block-like positive nuclear and cytoplasmic staining with p16 indicates HPV-associated disease, while patchy or negative p16 staining suggests HPV-independent disease [VULVA-A 1 of 4].",
+                    "key_findings": "p16-positive staining pattern (block-like nuclear and cytoplasmic) indicates HPV-associated SCC; patchy or negative p16 staining suggests HPV-independent SCC. HPVS status is an important prognostic factor and guides classification [VULVA-A 1 of 4, MS-2]."
+                },
+                {
+                    "test": "IHC for p53",
+                    "rationale": "p53 IHC is recommended to determine TP53 status in HPV-negative tumors. Aberrant p53 staining (widespread, strong nuclear expression or complete absence/null expression) identifies the HPV-independent, p53-abnormal SCC subtype, which has the worst prognosis [VULVA-A 1 of 4, VULVA-A 2 of 4].",
+                    "key_findings": "Widespread, strong nuclear expression or complete absence/null expression indicates TP53 mutation; heterogeneous staining pattern with basal sparing pattern indicates wild-type p53 [VULVA-A 1 of 4, footnote a]."
+                },
+                {
+                    "test": "Examination under anesthesia (EUA)",
+                    "rationale": "EUA allows thorough assessment of the extent of disease, including the primary tumor and regional lymph nodes, and is particularly important for locally advanced disease to assess operability [VULVA-1].",
+                    "key_findings": "Tumor size, extent of local invasion, proximity to urethra, vagina, anus, and bladder; assessment of lymph node status [VULVA-1]."
+                },
+                {
+                    "test": "Cystoscopy or proctoscopy",
+                    "rationale": "Performed as indicated during EUA to assess for involvement of the urethra, bladder, or anus/rectum, particularly in locally advanced disease [VULVA-1].",
+                    "key_findings": "Bladder, urethral, rectal, or anal mucosal involvement; extent of disease to upper urinary tract or lower GI tract [VULVA-1]."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Pelvis MRI",
+                    "rationale": "MRI provides excellent soft tissue contrast and is useful for delineating the extent of the primary tumor and assessing lymph node involvement. Recommended to aid in surgical and/or radiation treatment planning [VULVA-B].",
+                    "indication": "Initial workup; recommended to aid in surgical and/or radiation treatment planning [VULVA-B]. MRI is performed with and without contrast unless contraindicated [VULVA-B, footnote a]."
+                },
+                {
+                    "test": "Neck/chest/abdomen/pelvis/groin FDG-PET/CT",
+                    "rationale": "FDG-PET/CT provides metabolic imaging to detect regional and distant metastatic disease. Recommended for clinical stage II or higher tumors or if metastasis is suspected [VULVA-B].",
+                    "indication": "Clinical stage II or higher tumors; suspected metastatic disease; may be considered in patients with positive sentinel nodes to evaluate for undissected nodal disease [VULVA-B]."
+                },
+                {
+                    "test": "Chest/abdomen/pelvis CT with contrast",
+                    "rationale": "CT imaging provides anatomic assessment for staging and treatment planning. May be used as an alternative to FDG-PET/CT [VULVA-B].",
+                    "indication": "Clinical stage II or higher tumors; suspected metastatic disease [VULVA-B]."
+                },
+                {
+                    "test": "Chest x-ray",
+                    "rationale": "Initial screening for pulmonary metastases. If an abnormality is seen, then chest CT without contrast may be performed [VULVA-B].",
+                    "indication": "Initial workup for all patients [VULVA-B]."
+                },
+                {
+                    "test": "FDG-PET/CT at 3–6 months post-treatment",
+                    "rationale": "May be considered to assess treatment response after definitive primary treatment [VULVA-B].",
+                    "indication": "Assessment of treatment response after definitive primary treatment [VULVA-B]."
+                },
+                {
+                    "test": "Pelvis MRI for recurrence planning",
+                    "rationale": "Considered to aid in further treatment planning for recurrent disease [VULVA-B].",
+                    "indication": "Imaging for suspected or documented recurrence [VULVA-B]."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "HPV testing (p16 IHC, RNA sequencing, HPV ISH, or DNA sequencing)",
+                    "rationale": "HPV status is an important prognostic factor. HPV-associated SCC has a better prognosis than HPV-independent SCC. HPV status may also influence treatment decisions [VULVA-A 2 of 4, MS-2].",
+                    "when": "Recommended for all patients with vulvar SCC to determine HPV-associated vs. HPV-independent status [VULVA-A 2 of 4].",
+                    "mandatory": "Recommended (not stated as mandatory, but strongly recommended for pathologic assessment) [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "p53 IHC (to determine TP53 status)",
+                    "rationale": "p53 abnormal, HPV-independent SCC has the worst clinical outcomes among the three molecular categories (HPV positive, HPV-negative/p53 mutant, and HPV-negative p53 wild-type). p53 IHC helps identify this high-risk subgroup [VULVA-A 1 of 4, VULVA-A 2 of 4, MS-2].",
+                    "when": "Recommended for HPV-negative tumors [VULVA-A 2 of 4].",
+                    "mandatory": "Recommended for HPV-negative tumors [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "PD-L1 testing",
+                    "rationale": "Programmed death ligand 1 (PD-L1) expression may predict response to immune checkpoint inhibitor therapy. PD-L1 testing is considered for patients with recurrent, progressive, or metastatic disease [VULVA-A 2 of 4].",
+                    "when": "For patients with recurrent, progressive, or metastatic disease [VULVA-A 2 of 4].",
+                    "mandatory": "Not mandatory; consider for treatment planning in advanced disease [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "HER2 IHC testing (with or without reflex to HER2 FISH)",
+                    "rationale": "HER2 overexpression may identify patients who may benefit from HER2-directed therapy (fam-trastuzumab deruxtecan-nxki). Recommended for advanced or recurrent/metastatic disease [VULVA-A 2 of 4, VULVA-E 1A of 2].",
+                    "when": "Advanced or recurrent/metastatic disease [VULVA-A 2 of 4].",
+                    "mandatory": "Recommended for advanced or recurrent/metastatic disease [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "Comprehensive molecular profiling (MSI/MMR, TMB, NTRK)",
+                    "rationale": "MSI-high/dMMR tumors may respond to pembrolizumab. TMB-high tumors may respond to pembrolizumab. NTRK gene fusion-positive tumors may respond to larotrectinib, entrectinib, or repotrectinib. Recommended by FDA-approved assay or validated CLIA-certified laboratory test [VULVA-A 2 of 4, VULVA-E 1A of 2].",
+                    "when": "For predicting rare pan-tumor targeted therapy opportunities in recurrent, progressive, or metastatic disease [VULVA-A 2 of 4].",
+                    "mandatory": "Considered, not stated as mandatory [VULVA-A 2 of 4]."
+                },
+                {
+                    "test": "BRAF and KIT somatic mutational testing (for melanoma subtypes)",
+                    "rationale": "For vulvar and vulvovaginal melanoma, somatic mutational testing for BRAF and KIT may identify patients who may benefit from targeted therapy [VM-1, VM-2].",
+                    "when": "For cutaneous vulvar melanoma and mucosal vulvovaginal melanoma as clinically indicated [VM-1, VM-2].",
+                    "mandatory": "Considered, not stated as mandatory [VM-1, VM-2]."
+                }
+            ],
+            "do_not_miss": [
+                "Biopsy of all suspicious vulvar areas with pathologic review [VULVA-1]",
+                "p16 IHC to determine HPV status in all vulvar SCC cases [VULVA-A 2 of 4]",
+                "p53 IHC to determine TP53 status in HPV-negative tumors [VULVA-A 2 of 4]",
+                "Assessment of depth of invasion using the new FIGO methodology (from basement membrane of deepest adjacent dysplastic rete ridge) [VULVA-A 3 of 4, ST-1]",
+                "Evaluation of lymphovascular space invasion (LVSI) [VULVA-A 2 of 4]",
+                "Assessment of surgical resection margin status [VULVA-A 2 of 4]",
+                "Sentinel lymph node biopsy or inguinofemoral lymphadenectomy for stage IB and select stage II tumors [VULVA-2]"
+            ],
+            "avoid": [
+                "Routine imaging for stage IA disease without risk factors (imaging is indicated for clinical stage II or higher or if metastasis is suspected) [VULVA-B]",
+                "Routine cervical/vaginal cytology for detection of recurrent genital tract cancer, as its value is limited [VULVA-8, footnote v]",
+                "Omission of lymph node evaluation for stage IB or higher disease (risk of nodal metastasis >8%) [MS-6]"
+            ]
+        },
+        "staging": {
+            "system": "FIGO 2021 (revised from 2009 FIGO system). The updated 2021 system incorporates revised depth of invasion measurement methodology (measured from basement membrane of deepest adjacent dysplastic rete ridge), revised lymph node metastases definition, and allows incorporation of cross-sectional imaging findings [ST-1, MS-4, MS-5].",
+            "t_stages": [
+                {
+                    "stage": "IA",
+                    "description": "Tumor size ≤2 cm and stromal invasion ≤1 mm [ST-1]."
+                },
+                {
+                    "stage": "IB",
+                    "description": "Tumor size >2 cm or stromal invasion >1 mm [ST-1]."
+                },
+                {
+                    "stage": "II",
+                    "description": "Tumor of any size with extension to lower one-third of the urethra, lower one-third of the vagina, or lower one-third of the anus, with negative nodes [ST-1]."
+                },
+                {
+                    "stage": "IIIA",
+                    "description": "Tumor of any size with disease extension to upper two-thirds of the urethra, upper two-thirds of the vagina, bladder mucosa, or rectal mucosa, or with regional lymph node metastases ≤5 mm [ST-1]."
+                },
+                {
+                    "stage": "IIIB",
+                    "description": "Regional lymph node metastases >5 mm [ST-1]."
+                },
+                {
+                    "stage": "IIIC",
+                    "description": "Regional lymph node metastases with extracapsular spread [ST-1]."
+                },
+                {
+                    "stage": "IVA",
+                    "description": "Disease fixed to pelvic bone, or fixed or ulcerated regional lymph node metastases [ST-1]."
+                },
+                {
+                    "stage": "IVB",
+                    "description": "Distant metastases [ST-1]."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "Negative (N0)",
+                    "description": "No regional lymph node metastases. Applies to stages I and II [ST-1]."
+                },
+                {
+                    "stage": "≤5 mm (N1, stage IIIA)",
+                    "description": "Regional lymph node metastases ≤5 mm. Regional refers to inguinal and femoral lymph nodes [ST-1]."
+                },
+                {
+                    "stage": ">5 mm (N2, stage IIIB)",
+                    "description": "Regional lymph node metastases >5 mm [ST-1]."
+                },
+                {
+                    "stage": "With extracapsular spread (N3, stage IIIC)",
+                    "description": "Regional lymph node metastases with extracapsular spread [ST-1]."
+                },
+                {
+                    "stage": "Fixed or ulcerated (stage IVA)",
+                    "description": "Fixed or ulcerated regional lymph node metastases [ST-1]."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastases. Applies to stages I through IVA [ST-1]."
+                },
+                {
+                    "stage": "M1 (stage IVB)",
+                    "description": "Distant metastases [ST-1]."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage I",
+                    "criteria": "Tumor size ≤2 cm and stromal invasion ≤1 mm (stage IA), or tumor size >2 cm or stromal invasion >1 mm with negative nodes (stage IB). Nodes are clinically/pathologically negative [ST-1, MS-4].",
+                    "clinical_meaning": "Localized disease. Stage IA has <1% risk of lymphatic metastasis; stage IB has >8% risk of nodal metastasis [MS-5, MS-6].",
+                    "five_yr_survival": "85.7% for localized disease (stages I/II) based on SEER database 2015–2021 [MS-1].",
+                    "treatment_intent": "Curative. Stage IA: simple partial vulvectomy with observation. Stage IB/select stage II: radical partial vulvectomy with ipsilateral or bilateral inguinofemoral LN evaluation [VULVA-2]."
+                },
+                {
+                    "group": "Stage II",
+                    "criteria": "Tumor of any size with extension to lower one-third of the urethra, lower one-third of the vagina, or lower one-third of the anus, with negative nodes [ST-1].",
+                    "clinical_meaning": "Localized disease with extension to adjacent lower structures. Negative nodal status is favorable [ST-1].",
+                    "five_yr_survival": "85.7% for localized disease (stages I/II) based on SEER database 2015–2021 [MS-1].",
+                    "treatment_intent": "Curative. Radical partial vulvectomy with ipsilateral or bilateral inguinofemoral LN evaluation [VULVA-2]."
+                },
+                {
+                    "group": "Stage III",
+                    "criteria": "Tumor of any size with extension to upper adjacent perineal structures (IIIA), or regional lymph node metastases ≤5 mm (IIIA), >5 mm (IIIB), or with extracapsular spread (IIIC) [ST-1].",
+                    "clinical_meaning": "Locally advanced disease with regional lymph node involvement. Nodal status is the most important prognostic factor [MS-4]. Stage IIIC with extracapsular extension has poorer prognosis [MS-4].",
+                    "five_yr_survival": "49.71% for regional or locally advanced disease (stages III/IVA) based on SEER database 2015–2021 [MS-1].",
+                    "treatment_intent": "Curative with combined modality therapy. EBRT with concurrent chemotherapy is standard. Adjuvant RT (category 1 for ≥2 LNs positive or ENE) [VULVA-4]."
+                },
+                {
+                    "group": "Stage IVA",
+                    "criteria": "Disease fixed to pelvic bone, or fixed or ulcerated regional lymph node metastases [ST-1].",
+                    "clinical_meaning": "Advanced local disease with invasion of critical structures or bulky/ulcerated nodal disease. May be unresectable without significant morbidity [MS-4].",
+                    "five_yr_survival": "49.71% for regional or locally advanced disease (stages III/IVA) based on SEER database 2015–2021 [MS-1].",
+                    "treatment_intent": "Curative intent with combined modality therapy (EBRT + concurrent chemotherapy). Surgery may be considered for residual disease after chemoradiation [VULVA-5, VULVA-6]."
+                },
+                {
+                    "group": "Stage IVB",
+                    "criteria": "Distant metastases [ST-1].",
+                    "clinical_meaning": "Metastatic disease beyond the pelvis. Prognosis is poor [MS-1].",
+                    "five_yr_survival": "21.9% for patients with stage IVB (which includes patients with pelvic nodal disease) based on SEER database 2015–2021 [MS-1].",
+                    "treatment_intent": "Palliative. EBRT for locoregional control/symptom palliation; systemic therapy; best supportive care [VULVA-7]."
+                }
+            ],
+            "staging_pearls": [
+                "The 2021 FIGO revision changed depth of invasion measurement: now measured from the basement membrane of the deepest, adjacent, dysplastic, tumor-free rete ridge (or nearest dysplastic rete peg) to the deepest point of invasion, replacing the previous method of measuring from the adjacent most superficial dermal papilla [VULVA-A 3 of 4, ST-1, MS-5].",
+                "Stage IVA now includes disease fixed to pelvic bone or fixed/ulcerated regional LN metastases. Stage IIIA now includes upper two-thirds of the urethra, upper two-thirds of the vagina, bladder mucosa, and rectal mucosa, which were previously classified as stage IVA in the 2009 system [MS-5].",
+                "The 5-mm threshold for LN metastasis is used for staging purposes, while the 2-mm threshold is used to inform treatment selection/management [VULVA-A 2 of 4, VULVA-4 footnote p].",
+                "Regional refers to inguinal and femoral lymph nodes [ST-1, footnote b].",
+                "LN status is the most important determinant of survival in vulvar cancer [MS-4, MS-5].",
+                "A meta-analysis showed that HPV-associated SCC had a better prognosis than HPV-independent SCC [VULVA-A 1 of 4, MS-2]. The p53 abnormal, HPV-independent SCCs have the worst clinical outcomes among the three molecular categories [VULVA-A 1 of 4, MS-2].",
+                "For stage I disease, the risk of lymphatic metastasis is <1%, allowing omission of lymphadenectomy [MS-5]. For stage IB disease, the risk is >8%, mandating lymph node evaluation [MS-5, MS-6].",
+                "Depth of invasion measurement methodology should be described by pathologists in their reports, as the new and old methods may yield different values for the same tumor [VULVA-A 3 of 4]."
+            ]
+        },
+        "management_principles": {
+            "overview": "The management of vulvar cancer is complex and requires a multidisciplinary approach tailored to the histologic type (squamous cell carcinoma [SCC], adenocarcinoma, or melanoma), stage, and patient factors. Treatment philosophy emphasizes organ preservation, minimizing morbidity, and optimizing survival outcomes. For SCC and adenocarcinoma, the primary modality is surgery, with radiation therapy (RT) and chemotherapy used in adjuvant, neoadjuvant, or palliative settings. For melanoma, surgical excision is primary, but systemic therapies are increasingly important for advanced disease. All treatment decisions should be made by a multidisciplinary team including gynecologic oncology, radiation oncology, medical oncology, pathology, and radiology [1].",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Localized or locoregional disease (Stages I–IVA for SCC/adenocarcinoma; Stages I–III for melanoma)",
+                    "approach": "Surgical resection with adequate margins, nodal evaluation via sentinel lymph node biopsy (SLNB) or inguinofemoral lymphadenectomy, and adjuvant RT or chemoradiation based on risk factors. For melanoma, wide excision with SLNB is standard, and adjuvant systemic therapy may be considered for high-risk stages."
+                },
+                {
+                    "intent": "Palliative",
+                    "patient_group": "Advanced, recurrent, or metastatic disease (Stage IVB for SCC/adenocarcinoma; unresectable or metastatic melanoma)",
+                    "approach": "Systemic therapy, palliative RT for symptom control, and best supportive care. Treatment goals are to prolong survival, relieve symptoms, and maintain quality of life."
+                }
+            ],
+            "mdt_requirements": "Multidisciplinary team (MDT) discussion is essential for all patients, especially those with locally advanced or recurrent disease. The MDT should include gynecologic oncology, radiation oncology, medical oncology, pathology, radiology, and supportive care specialists. Treatment planning should incorporate patient preferences, performance status, and comorbidities [1, 2].",
+            "performance_status_guide": "Performance status (PS) influences treatment tolerance. Patients with ECOG PS 0–1 are candidates for aggressive multimodal therapy. For those with PS ≥2, treatment intensity should be modified, focusing on palliation and quality of life. Older adults should be assessed using tools like the Comprehensive Geriatric Assessment (CGA) to guide treatment decisions (see NCCN Guidelines for Older Adult Oncology) [1]."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "early_stage_scc_adenocarcinoma",
+                "title": "Primary Treatment of Early-Stage Vulvar SCC/Adenocarcinoma (Stage I and Select Stage II)",
+                "branching_basis": [
+                    "Tumor size and location",
+                    "Depth of invasion",
+                    "Nodal status",
+                    "Margin status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage IA (≤1 mm invasion), lateral lesion (≥2 cm from midline), clinically negative nodes",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Simple partial vulvectomy",
+                                "preference": "Preferred",
+                                "recommendation": "Observe after resection if negative margins; if pathology reveals >1 mm invasion, additional surgery may be warranted",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy needed for Stage IA with negative margins."
+                        }
+                    },
+                    {
+                        "criteria": "Stage IB (>1 mm invasion) or select Stage II, lateral lesion (≥2 cm from midline), clinically negative nodes",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Radical partial vulvectomy + ipsilateral inguinofemoral lymph node evaluation (SLNB or lymphadenectomy)",
+                                "preference": "Preferred",
+                                "recommendation": "Sentinel lymph node biopsy (SLNB) or ipsilateral inguinofemoral lymphadenectomy; if SLNB not detected, complete lymphadenectomy required",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant therapy based on primary tumor risk factors (close margins, LVSI, tumor size, depth of invasion, pattern of invasion) and nodal pathology. If negative margins and nodes, observe; if positive margins, re-excision or adjuvant EBRT; if nodal metastases, adjuvant RT ± chemotherapy."
+                        }
+                    },
+                    {
+                        "criteria": "Stage IB or select Stage II, near midline or midline lesions (anterior or posterior), clinically negative nodes",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Radical partial vulvectomy + bilateral inguinofemoral lymph node evaluation (SLNB or lymphadenectomy)",
+                                "preference": "Preferred",
+                                "recommendation": "Bilateral SLNB or bilateral inguinofemoral lymphadenectomy; if SLNB not detected on side, complete lymphadenectomy required",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant therapy as above based on risk factors and nodal status."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adjuvant_therapy_risk_factors",
+                "title": "Adjuvant Therapy Based on Primary Tumor Risk Factors",
+                "branching_basis": [
+                    "Margin status",
+                    "Nodal status",
+                    "Other risk factors (LVSI, tumor size, depth of invasion, pattern of invasion)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Negative margins after resection",
+                        "options": [
+                            {
+                                "type": "Observation",
+                                "label": "Surveillance",
+                                "preference": "Preferred",
+                                "recommendation": "Observe if no other high-risk features",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Adjuvant EBRT to primary site",
+                                "preference": "Other recommended",
+                                "recommendation": "Consider for other invasive disease risk factors (close margins, LVSI, tumor size, depth of invasion, pattern of invasion)",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy for negative margins without high-risk factors."
+                        }
+                    },
+                    {
+                        "criteria": "Positive margins for invasive disease",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Re-excision",
+                                "preference": "Preferred",
+                                "recommendation": "To achieve negative margins",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Adjuvant EBRT to primary site",
+                                "preference": "Alternative",
+                                "recommendation": "If re-excision not feasible or margins remain positive after re-excision",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Re-excision or adjuvant EBRT for positive margins."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adjuvant_therapy_nodal",
+                "title": "Adjuvant Therapy Based on Nodal Evaluation",
+                "branching_basis": [
+                    "Sentinel node status",
+                    "Number of positive nodes",
+                    "Extranodal extension"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Lymph nodes negative (sentinel or inguinofemoral)",
+                        "options": [
+                            {
+                                "type": "Observation",
+                                "label": "Surveillance",
+                                "preference": "Preferred",
+                                "recommendation": "No adjuvant nodal therapy",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant nodal therapy for negative nodes."
+                        }
+                    },
+                    {
+                        "criteria": "Single positive SLN ≤2 mm metastasis",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT ± concurrent chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Adjuvant RT to groin ± chemotherapy; category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT ± chemotherapy for micrometastatic nodal disease."
+                        }
+                    },
+                    {
+                        "criteria": "Positive SLN >2 mm metastasis",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Complete inguinofemoral lymphadenectomy (preferred)",
+                                "preference": "Preferred",
+                                "recommendation": "Followed by EBRT ± concurrent chemotherapy",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT ± concurrent chemotherapy",
+                                "preference": "Alternative",
+                                "recommendation": "If patient not suitable for complete lymphadenectomy",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Complete lymphadenectomy or EBRT ± chemotherapy for macrometastatic nodal disease."
+                        }
+                    },
+                    {
+                        "criteria": "Inguinofemoral lymphadenectomy with positive LN(s)",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT ± concurrent chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Category 1 for radiation if ≥2 LNs positive or extranodal extension (ENE)",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT ± chemotherapy; category 1 for ≥2 positive nodes or ENE."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "locally_advanced_scc_adenocarcinoma",
+                "title": "Primary Treatment of Locally Advanced Vulvar SCC/Adenocarcinoma (Unresectable Without Removing Proximal Urethra/Bladder/Anus)",
+                "branching_basis": [
+                    "Resectability",
+                    "Nodal status (radiographic or pathologic)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Radiographically negative nodes",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Inguinofemoral lymphadenectomy",
+                                "preference": "Preferred",
+                                "recommendation": "To assess nodal status and inform RT planning",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT + concurrent chemotherapy to primary tumor (± selective inguinofemoral LN coverage ± selective pelvic LN coverage)",
+                                "preference": "Preferred",
+                                "recommendation": "Based on nodal pathology",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If lymphadenectomy reveals no positive nodes, EBRT to primary with selective nodal coverage. If positive nodes, EBRT to primary and bilateral groins/pelvis."
+                        }
+                    },
+                    {
+                        "criteria": "Radiographically suspicious nodes (including pelvic-confined M1, LN disease)",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Consider FNA for enlarged LNs to assess extent of disease",
+                                "preference": "Recommended",
+                                "recommendation": "If not performed, proceed to EBRT + chemotherapy",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT + concurrent chemotherapy to primary tumor/inguinofemoral LNs/pelvic nodes",
+                                "preference": "Preferred",
+                                "recommendation": "Coverage includes primary tumor, bilateral groins, and pelvic nodes",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "EBRT + chemotherapy to primary and nodal regions."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "metastatic_beyond_pelvis",
+                "title": "Primary Treatment of Metastatic Disease Beyond Pelvis (Stage IVB)",
+                "branching_basis": [
+                    "Symptom burden",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage IVB disease",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT for locoregional control/symptom palliation",
+                                "preference": "Preferred",
+                                "recommendation": "To control symptoms or prevent complications",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy",
+                                "preference": "Preferred",
+                                "recommendation": "For disease control; see systemic therapy section",
+                                "linked_regimen_ids": [
+                                    "first_line_advanced",
+                                    "second_line_advanced"
+                                ]
+                            },
+                            {
+                                "type": "Best Supportive Care",
+                                "label": "Best supportive care",
+                                "preference": "Alternative",
+                                "recommendation": "If not candidate for active treatment",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy in metastatic setting."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "recurrence_vulva_confined",
+                "title": "Therapy for Recurrence Clinically Limited to the Vulva",
+                "branching_basis": [
+                    "Prior irradiation",
+                    "Resectability",
+                    "Margin status",
+                    "Nodal status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Vulva-confined recurrence, not previously irradiated, nodes clinically negative",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Partial or total radical vulvectomy ± unilateral or bilateral inguinofemoral lymphadenectomy",
+                                "preference": "Preferred",
+                                "recommendation": "If margins negative and nodes negative, observe; if positive margins, consider EBRT ± brachytherapy ± chemotherapy",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT ± brachytherapy ± concurrent chemotherapy",
+                                "preference": "Alternative",
+                                "recommendation": "If surgery not feasible",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant therapy based on margin and nodal status after resection."
+                        }
+                    },
+                    {
+                        "criteria": "Vulva-confined recurrence, previously irradiated, nodes clinically negative",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Assess for resectability; if resectable, resection",
+                                "preference": "Preferred",
+                                "recommendation": "Consider pelvic exenteration for select cases",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy",
+                                "preference": "Alternative",
+                                "recommendation": "If unresectable",
+                                "linked_regimen_ids": [
+                                    "second_line_advanced"
+                                ]
+                            },
+                            {
+                                "type": "Best Supportive Care",
+                                "label": "Best supportive care",
+                                "preference": "Alternative",
+                                "recommendation": "If not candidate for treatment",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy after resection; systemic therapy for unresectable disease."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "recurrence_nodal_distant",
+                "title": "Therapy for Confirmed Nodal or Distant Recurrence",
+                "branching_basis": [
+                    "Prior irradiation",
+                    "Site of recurrence"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Isolated inguinofemoral/pelvic LN recurrence, no prior EBRT",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Resection of clinically enlarged and suspicious LNs",
+                                "preference": "Preferred",
+                                "recommendation": "Followed by systemic therapy",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "EBRT + concurrent chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "If surgery not feasible",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy after resection."
+                        }
+                    },
+                    {
+                        "criteria": "Isolated inguinofemoral/pelvic LN recurrence, prior EBRT",
+                        "options": [
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy",
+                                "preference": "Preferred",
+                                "recommendation": "Consider resection of select cases, followed by systemic therapy",
+                                "linked_regimen_ids": [
+                                    "second_line_advanced"
+                                ]
+                            },
+                            {
+                                "type": "Best Supportive Care",
+                                "label": "Best supportive care",
+                                "preference": "Alternative",
+                                "recommendation": "If not candidate for treatment",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Systemic therapy for recurrence after prior radiation."
+                        }
+                    },
+                    {
+                        "criteria": "Distant metastasis",
+                        "options": [
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy",
+                                "preference": "Preferred",
+                                "recommendation": "For disease control",
+                                "linked_regimen_ids": [
+                                    "first_line_advanced",
+                                    "second_line_advanced"
+                                ]
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Selective EBRT if feasible",
+                                "preference": "Other recommended",
+                                "recommendation": "For oligometastatic disease or palliation",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Ablative Therapy",
+                                "label": "Ablative therapy for 1–5 metastatic lesions if primary has been controlled",
+                                "preference": "Useful in certain circumstances",
+                                "recommendation": "Based on SABR-COMET trial",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Best Supportive Care",
+                                "label": "Best supportive care",
+                                "preference": "Alternative",
+                                "recommendation": "If not candidate for active treatment",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Systemic therapy for metastatic disease; local therapy for oligometastases."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "cutaneous_vulvar_melanoma",
+                "title": "Management of Cutaneous Vulvar Melanoma",
+                "branching_basis": [
+                    "Stage",
+                    "Resectability",
+                    "Nodal status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage 0 or Stage IA (≤1 mm thickness, no ulceration)",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Partial vulvectomy",
+                                "preference": "Preferred",
+                                "recommendation": "Wide local excision with margins per NCCN Melanoma guidelines; SLNB optional for IA",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy needed for Stage 0/IA."
+                        }
+                    },
+                    {
+                        "criteria": "Stage IB (>1 mm thickness or ulceration)",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Partial vulvectomy ± SLNB",
+                                "preference": "Preferred",
+                                "recommendation": "SLNB recommended to guide adjuvant therapy",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If SLNB negative, consider adjuvant systemic therapy (pembrolizumab or nivolumab) per NCCN Melanoma guidelines for high-risk node-negative disease."
+                        }
+                    },
+                    {
+                        "criteria": "Stage II (high-risk primary tumor, no nodal metastasis)",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Partial vulvectomy + SLNB",
+                                "preference": "Preferred",
+                                "recommendation": "SLNB required",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If SLNB negative, adjuvant systemic therapy per NCCN Melanoma guidelines; if positive, see Stage III."
+                        }
+                    },
+                    {
+                        "criteria": "Stage III (regional nodal involvement)",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Partial vulvectomy with clear margins + therapeutic lymph node dissection",
+                                "preference": "Preferred",
+                                "recommendation": "Consider neoadjuvant systemic therapy per NCCN Melanoma guidelines",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (pembrolizumab, nivolumab, or dabrafenib/trametinib if BRAF V600 mutation positive) per NCCN Melanoma guidelines."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or residual disease",
+                        "options": [
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy ± RT",
+                                "preference": "Preferred",
+                                "recommendation": "Per NCCN Melanoma guidelines",
+                                "linked_regimen_ids": [
+                                    "melanoma_systemic"
+                                ]
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "RT for symptom control",
+                                "preference": "Other recommended",
+                                "recommendation": "If medically inoperable or symptomatic",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy in unresectable setting."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "mucosal_vulvovaginal_melanoma",
+                "title": "Management of Mucosal Vulvovaginal Melanoma",
+                "branching_basis": [
+                    "Resectability",
+                    "Nodal status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Wide local excision with clear margins (at least 1 cm if feasible) ± SLNB",
+                                "preference": "Preferred",
+                                "recommendation": "Consider SLNB; caution to avoid disfigurement",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant therapy based on nodal status: observation ± RT for vaginal lesions; systemic therapy for positive nodes per NCCN Melanoma guidelines."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or residual disease",
+                        "options": [
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Systemic therapy ± RT",
+                                "preference": "Preferred",
+                                "recommendation": "Per NCCN Melanoma guidelines",
+                                "linked_regimen_ids": [
+                                    "melanoma_systemic"
+                                ]
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "RT (EBRT and/or brachytherapy)",
+                                "preference": "Other recommended",
+                                "recommendation": "For medically inoperable or symptomatic disease",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy in unresectable setting."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "History and Physical",
+                "items": [
+                    {
+                        "text": "Complete history and physical examination including vulvar, vaginal, cervical, and regional lymph node assessment",
+                        "recommendation": "Essential for all patients"
+                    },
+                    {
+                        "text": "Assess for distress using NCCN Distress Thermometer",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory Studies",
+                "items": [
+                    {
+                        "text": "Complete blood count (CBC)",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Liver function tests and renal function studies",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Consider human immunodeficiency virus (HIV) testing, especially in younger patients",
+                        "recommendation": "Consider"
+                    },
+                    {
+                        "text": "Consider cervical human papillomavirus (HPV) and cytology testing",
+                        "recommendation": "Consider"
+                    }
+                ]
+            },
+            {
+                "category": "Pathology",
+                "items": [
+                    {
+                        "text": "Biopsy of suspicious areas with pathologic review",
+                        "recommendation": "Essential for diagnosis"
+                    },
+                    {
+                        "text": "Histologic type (HPV-associated vs. HPV-independent for SCC; melanoma subtype)",
+                        "recommendation": "Essential for treatment planning"
+                    },
+                    {
+                        "text": "Immunohistochemistry for p16, p53, PD-L1, HER2, and other biomarkers as clinically indicated",
+                        "recommendation": "For recurrent, progressive, or metastatic disease"
+                    },
+                    {
+                        "text": "Consider comprehensive molecular profiling including MMR/MSI, TMB, NTRK for targeted therapy opportunities",
+                        "recommendation": "For advanced disease"
+                    }
+                ]
+            },
+            {
+                "category": "Imaging",
+                "items": [
+                    {
+                        "text": "Consider pelvis MRI for surgical and/or radiation treatment planning",
+                        "recommendation": "For locally advanced disease or treatment planning"
+                    },
+                    {
+                        "text": "Consider neck/chest/abdomen/pelvis/groin FDG-PET/CT or chest/abdomen/pelvis CT for clinical stage II or higher or if metastasis is suspected",
+                        "recommendation": "For staging"
+                    },
+                    {
+                        "text": "Consider chest x-ray; if abnormality seen, chest CT without contrast",
+                        "recommendation": "For baseline evaluation"
+                    },
+                    {
+                        "text": "FDG-PET/CT may be considered in patients with positive sentinel nodes to evaluate for undissected nodal disease",
+                        "recommendation": "Consider"
+                    }
+                ]
+            },
+            {
+                "category": "Functional Assessment",
+                "items": [
+                    {
+                        "text": "Examination under anesthesia (EUA) cystoscopy or proctoscopy as indicated",
+                        "recommendation": "For assessment of urethral, bladder, or anal involvement"
+                    },
+                    {
+                        "text": "Assessment of performance status and comorbidities",
+                        "recommendation": "Essential for treatment planning"
+                    }
+                ]
+            },
+            {
+                "category": "Consultation",
+                "items": [
+                    {
+                        "text": "Multidisciplinary team discussion",
+                        "recommendation": "Essential for complex cases"
+                    },
+                    {
+                        "text": "Smoking cessation counseling and intervention if indicated",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Referral to HIV specialist if HIV-positive",
+                        "recommendation": "Essential"
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery is the primary treatment for localized vulvar cancer (SCC, adenocarcinoma, and melanoma) with the goal of achieving negative margins while preserving function and minimizing morbidity.",
+            "principles": [
+                "Radical partial or total vulvectomy with at least 1- to 2-cm gross margins and deep margin to fascia.",
+                "Separate incisions for lymphadenectomy to reduce wound complications.",
+                "Sentinel lymph node biopsy (SLNB) is an alternative to complete inguinofemoral lymphadenectomy in select early-stage patients to reduce lymphedema risk.",
+                "SLNB should be performed by experienced high-volume surgeons using dual tracers (radiocolloid and blue dye) for optimal detection.",
+                "Depth of invasion measurement should follow the new FIGO method (from basement membrane of deepest adjacent dysplastic rete ridge)."
+            ],
+            "procedures": [
+                {
+                    "name": "Simple partial vulvectomy",
+                    "approach": "Local excision with 1- to 2-cm margins",
+                    "indications": "Stage IA SCC/adenocarcinoma with ≤1 mm invasion",
+                    "key_complications": "Wound infection, dehiscence, pain",
+                    "operative_mortality": "Low (<1%)"
+                },
+                {
+                    "name": "Radical partial vulvectomy",
+                    "approach": "Excision of tumor with wide margins and deep tissue to fascia",
+                    "indications": "Stage IB or select Stage II SCC/adenocarcinoma",
+                    "key_complications": "Wound complications, lymphedema, sexual dysfunction",
+                    "operative_mortality": "Low (<1%)"
+                },
+                {
+                    "name": "Radical total vulvectomy",
+                    "approach": "Excision of entire vulva with wide margins",
+                    "indications": "Extensive disease or multifocal lesions",
+                    "key_complications": "Significant wound morbidity, lymphedema, psychosexual impact",
+                    "operative_mortality": "Low (<1%)"
+                },
+                {
+                    "name": "Inguinofemoral lymphadenectomy",
+                    "approach": "Removal of superficial inguinal and deep femoral lymph nodes via separate incision",
+                    "indications": "Clinically node-positive disease or SLNB positive with macrometastases",
+                    "key_complications": "Lymphedema (30%–70%), wound complications (20%–40%), infection",
+                    "operative_mortality": "Low (<1%)"
+                },
+                {
+                    "name": "Sentinel lymph node biopsy (SLNB)",
+                    "approach": "Identification and removal of sentinel nodes using radiocolloid and blue dye",
+                    "indications": "Clinically node-negative, unifocal tumor <4 cm",
+                    "key_complications": "False-negative rate (6.4%), lymphedema (lower than lymphadenectomy)",
+                    "operative_mortality": "Minimal"
+                },
+                {
+                    "name": "Pelvic exenteration",
+                    "approach": "Radical resection of pelvic organs",
+                    "indications": "Central recurrence after prior radiation",
+                    "key_complications": "High morbidity, urinary diversion, colostomy",
+                    "operative_mortality": "Higher (3%–5%)"
+                }
+            ],
+            "resectability_criteria": "Tumor is considered resectable if it can be excised with negative margins without removing proximal urethra, bladder, or anus. Positive margins involving these structures may require multimodal therapy.",
+            "pre_operative_optimisation": "Optimize nutritional status, manage comorbidities, smoking cessation, and consider neoadjuvant chemoradiation for locally advanced disease to downstage and improve resectability."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) is used as adjuvant therapy after surgery, as part of primary therapy for locally advanced disease, or for palliation in recurrent/metastatic disease.",
+            "principles": [
+                "RT technique and doses should maximize tumor control while limiting normal tissue toxicity.",
+                "Intensity-modulated RT (IMRT) is preferred to reduce dose to normal tissues and allow dose escalation.",
+                "Postoperative adjuvant treatment should be initiated within 6–8 weeks of surgery.",
+                "Concurrent chemotherapy (typically cisplatin) is used as a radiosensitizer for locally advanced or node-positive disease.",
+                "Bolus should be used to ensure adequate dosing to superficial target volumes."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Adjuvant therapy (postoperative, negative margins)",
+                    "total_dose": "45–50 Gy",
+                    "dose_per_fraction": "1.8–2 Gy",
+                    "fractions": "25–28",
+                    "schedule": "Once daily, 5 days per week",
+                    "indication": "Close margins, LVSI, >5 mm depth of invasion"
+                },
+                {
+                    "name": "Adjuvant therapy (postoperative, close or positive margins)",
+                    "total_dose": "54–60 Gy",
+                    "dose_per_fraction": "1.8 Gy",
+                    "fractions": "30–33",
+                    "schedule": "Once daily, 5 days per week",
+                    "indication": "Positive margins, high-risk features"
+                },
+                {
+                    "name": "Definitive therapy (unresectable disease)",
+                    "total_dose": "59.4–64.8 Gy",
+                    "dose_per_fraction": "1.8 Gy",
+                    "fractions": "33–36",
+                    "schedule": "Once daily, 5 days per week",
+                    "indication": "Locally advanced, unresectable disease"
+                },
+                {
+                    "name": "Boost for bulky/persistent disease",
+                    "total_dose": "Up to 70 Gy",
+                    "dose_per_fraction": "1.8–2 Gy",
+                    "fractions": "35–39",
+                    "schedule": "Once daily, 5 days per week",
+                    "indication": "Bulky residual disease after initial RT"
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Adjuvant RT for node-positive disease",
+                    "dose_fractionation": "50–60 Gy to groins and pelvis",
+                    "concurrent_chemotherapy": "Cisplatin (preferred) or carboplatin if cisplatin intolerant",
+                    "indication": "≥2 positive nodes or extranodal extension",
+                    "key_trial": "GOG 37 showed survival benefit for adjuvant RT vs. pelvic node resection",
+                    "toxicities": "Skin reaction, fatigue, diarrhea, bladder irritation, lymphedema"
+                },
+                {
+                    "name": "Concurrent chemoradiation for locally advanced disease",
+                    "dose_fractionation": "59.4–64.8 Gy to primary tumor and nodes",
+                    "concurrent_chemotherapy": "Cisplatin (preferred), carboplatin, or cisplatin/fluorouracil",
+                    "indication": "Unresectable locally advanced disease",
+                    "key_trial": "GOG 101 and GOG 205 showed high response rates and feasibility of surgery after chemoradiation",
+                    "toxicities": "Acute: diarrhea, bladder irritation, mucocutaneous reaction; late: fibrosis, stenosis"
+                },
+                {
+                    "name": "Palliative RT",
+                    "dose_fractionation": "30 Gy in 10 fractions or 8 Gy x 1 fraction",
+                    "concurrent_chemotherapy": "None typically",
+                    "indication": "Symptom control in metastatic or recurrent disease",
+                    "key_trial": "SABR-COMET trial showed benefit for ablative therapy in oligometastatic disease",
+                    "toxicities": "Site-specific acute and late effects"
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy for vulvar cancer is extrapolated from cervical cancer and other SCCs due to rarity of disease. Options include chemotherapy, immunotherapy, and targeted therapy based on biomarkers.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Concurrent chemoradiation (locally advanced)",
+                    "preferred_regimen": "Cisplatin",
+                    "rationale": "Standard radiosensitizer with extensive evidence in cervical cancer",
+                    "alternatives": [
+                        "Carboplatin if cisplatin intolerant",
+                        "Cisplatin/fluorouracil",
+                        "Capecitabine/mitomycin (if cisplatin/carboplatin unavailable)",
+                        "Gemcitabine",
+                        "Paclitaxel"
+                    ],
+                    "biomarker_requirements": "None"
+                },
+                {
+                    "setting": "Advanced or recurrent/metastatic disease, first-line",
+                    "preferred_regimen": "Cisplatin/paclitaxel + pembrolizumab ± bevacizumab",
+                    "rationale": "Based on KEYNOTE-826 trial in cervical cancer",
+                    "alternatives": [
+                        "Carboplatin/paclitaxel + pembrolizumab ± bevacizumab",
+                        "Cisplatin/paclitaxel ± bevacizumab",
+                        "Carboplatin/paclitaxel ± bevacizumab",
+                        "Cisplatin/paclitaxel",
+                        "Carboplatin/paclitaxel",
+                        "Single-agent cisplatin or carboplatin"
+                    ],
+                    "biomarker_requirements": "PD-L1 testing may inform pembrolizumab use; TMB-H, MSI-H/dMMR, HER2, NTRK for subsequent therapy"
+                },
+                {
+                    "setting": "Advanced or recurrent/metastatic disease, second-line or subsequent",
+                    "preferred_regimen": "Paclitaxel",
+                    "rationale": "Modest activity in phase II trial",
+                    "alternatives": [
+                        "Cemiplimab",
+                        "Erlotinib (category 2B)",
+                        "Cisplatin/gemcitabine (category 2B)",
+                        "Ipilimumab + nivolumab",
+                        "Biomarker-directed: pembrolizumab for TMB-H, PD-L1+, MSI-H/dMMR; fam-trastuzumab deruxtecan-nxki for HER2+; nivolumab for HPV-related; larotrectinib, entrectinib, repotrectinib for NTRK fusion-positive"
+                    ],
+                    "biomarker_requirements": "PD-L1, TMB, MSI/MMR, HER2, HPV, NTRK testing recommended for biomarker-directed options"
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Cisplatin (concurrent with RT)",
+                    "setting": "Locally advanced, concurrent chemoradiation",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "40 mg/m2",
+                            "route": "IV",
+                            "day": "Weekly during RT"
+                        }
+                    ],
+                    "cycle_days": "Weekly for 5–6 cycles",
+                    "key_toxicities": "Nephrotoxicity, nausea, vomiting, ototoxicity, neuropathy"
+                },
+                {
+                    "name": "Carboplatin (concurrent with RT)",
+                    "setting": "Locally advanced, concurrent chemoradiation (if cisplatin intolerant)",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 2",
+                            "route": "IV",
+                            "day": "Weekly during RT"
+                        }
+                    ],
+                    "cycle_days": "Weekly for 5–6 cycles",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity, nausea"
+                },
+                {
+                    "name": "Cisplatin/paclitaxel ± pembrolizumab ± bevacizumab",
+                    "setting": "First-line for advanced/recurrent/metastatic disease",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "50 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "175 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Bevacizumab",
+                            "dose": "15 mg/kg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 21 days",
+                    "key_toxicities": "Neuropathy, myelosuppression, fatigue, hypertension, proteinuria, immune-related adverse events"
+                },
+                {
+                    "name": "Pembrolizumab monotherapy (second-line for PD-L1+)",
+                    "setting": "Second-line for advanced/recurrent/metastatic disease with PD-L1 CPS ≥1",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 21 days",
+                    "key_toxicities": "Immune-related adverse events (colitis, hepatitis, pneumonitis, endocrinopathies)"
+                },
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki (second-line for HER2+)",
+                    "setting": "Second-line for advanced/recurrent/metastatic disease with HER2 IHC 3+ or 2+",
+                    "drugs": [
+                        {
+                            "name": "Fam-trastuzumab deruxtecan-nxki",
+                            "dose": "5.4 mg/kg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 21 days",
+                    "key_toxicities": "Interstitial lung disease, myelosuppression, nausea, fatigue"
+                },
+                {
+                    "name": "Ipilimumab + nivolumab",
+                    "setting": "Second-line for advanced/recurrent/metastatic disease",
+                    "drugs": [
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "1 mg/kg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Nivolumab",
+                            "dose": "240 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 21 days for 4 cycles, then nivolumab maintenance",
+                    "key_toxicities": "Immune-related adverse events (colitis, hepatitis, pneumonitis, endocrinopathies)"
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Evaluation of Response to Therapy",
+            "timing": "For locally advanced disease, response assessment is typically performed 3–6 months after completion of chemoradiation.",
+            "response_logic": [
+                {
+                    "scenario": "Clinically negative for residual tumor at primary site and nodes",
+                    "action": "Surveillance per guidelines",
+                    "details": "If biopsy negative, observe; if clinically suspicious margins, consider biopsy"
+                },
+                {
+                    "scenario": "Clinically suspicious for residual tumor at primary site and/or nodes",
+                    "action": "Biopsy to confirm",
+                    "details": "If biopsy positive, consider additional surgery, additional EBRT, and/or systemic therapy"
+                },
+                {
+                    "scenario": "Gross residual vulvar tumor",
+                    "action": "Resection if deemed operable",
+                    "details": "If resectable, surgery; if unresectable, additional EBRT and/or systemic therapy or best supportive care"
+                }
+            ],
+            "imaging_recommendations": [
+                "Consider FDG-PET/CT and/or pelvis MRI at 3–6 months to assess treatment response after definitive primary treatment.",
+                "CT chest/abdomen/pelvis or neck/chest/abdomen/pelvis/groin FDG-PET/CT if recurrence/metastasis is suspected.",
+                "Imaging should be based on symptomatology and clinical concern for recurrent/metastatic disease."
+            ],
+            "biopsy_or_salvage_logic": [
+                "Biopsy of tumor bed can be considered to confirm pathologic complete response after chemoradiation.",
+                "For residual disease after chemoradiation, consider pelvic exenteration for select cases.",
+                "Salvage surgery or RT may be considered for isolated recurrences."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_vulvar_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T17:17:54.648983"
+    }
+}

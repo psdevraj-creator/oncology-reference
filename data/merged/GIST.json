@@ -1,0 +1,896 @@
+{
+    "site_id": "GIST",
+    "site_display_name": "GIST",
+    "archetype": "C",
+    "regimen_count": 27,
+    "regimens": [
+        {
+            "regimen_name": "Imatinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Excluding PDGFRA exon 18 mutations that are insensitive to imatinib, such as D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RTOG 0132/ACRIN 6665",
+                "phase": "II",
+                "n_patients": "52 (30 primary, 22 recurrent/metastatic)",
+                "ORR": null,
+                "PFS": "2-year PFS 83% (primary) and 77% (recurrent/metastatic)",
+                "OS": "2-year OS 93% (primary) and 91% (recurrent/metastatic)"
+            },
+            "notes": "Maximal response may require treatment for ≥6 months. Preoperative imatinib may prohibit accurate assessment of recurrence risk and should be considered only if surgical morbidity could be reduced by downstaging the tumor preoperatively. [5,6]"
+        },
+        {
+            "regimen_name": "Avapritinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avapritinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Insensitive to imatinib, including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NAVIGATOR",
+                "phase": "I",
+                "n_patients": "56 (with PDGFRA D842V-mutant GIST)",
+                "ORR": "91%",
+                "PFS": null,
+                "OS": "Median OS not reached (median follow-up 27.5 months)"
+            },
+            "notes": "Avapritinib is a selective inhibitor of KIT and PDGFRA. The approval was based on the NAVIGATOR phase I trial. Long-term data show an ORR of 91% with a median duration of response of 27.6 months. [1,2,7]"
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "75% (adults and children with NTRK fusion-positive solid tumors, including GIST)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Larotrectinib is a selective inhibitor of TRK. It is FDA-approved for solid tumors with NTRK gene fusions. [8]"
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "57% (adults with NTRK fusion-positive solid tumors)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Entrectinib is a selective inhibitor of TRK. It is FDA-approved for solid tumors with NTRK gene fusions. [9]"
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Repotrectinib is a next-generation TRK inhibitor. [3]"
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Sunitinib is a multitargeted TKI. SDH-deficient GIST may have a higher probability of response to sunitinib. Data from small retrospective studies suggest activity. [85,86]"
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Regorafenib is a multikinase inhibitor with activity against VEGFR. It was reported to be clinically active against SDH-deficient GIST in a small phase II study. [88,89]"
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Dabrafenib is a BRAF inhibitor and trametinib is a MEK inhibitor. The combination is FDA-approved for BRAF V600E-mutated solid tumors, including GIST. [4]"
+        },
+        {
+            "regimen_name": "Adjuvant Imatinib",
+            "site": "Resectable GIST (Adjuvant setting)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutation",
+                    "requirement": "Imatinib-sensitive mutation (data do not support routine use in GIST without mutation in KIT or with an imatinib-resistant mutation in PDGFRA)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ACOSOG Z9001",
+                "phase": "3",
+                "n_patients": "645 (317 imatinib, 328 placebo)",
+                "ORR": null,
+                "PFS": "HR 0.6 (95% CI 0.43-0.75, P < .001) for recurrence-free survival",
+                "OS": "No significant difference in OS"
+            },
+            "notes": "Adjuvant imatinib is recommended for patients with significant risk of recurrence, moderate or high risk (category 1 following complete resection with no preoperative imatinib). The optimal duration is unknown. Available data support use for high-risk disease for at least 3 years (based on overall survival benefit) or at least 6 years (based on disease-free survival benefit). [b,w]"
+        },
+        {
+            "regimen_name": "Imatinib (First-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-sensitive mutations (excluding PDGFRA exon 18 mutations that are insensitive to imatinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "B2222 (phase II) and EORTC 62005/S0033 (phase III)",
+                "phase": "II/III",
+                "n_patients": "147 (phase II); 946 (EORTC 62005); 746 (S0033)",
+                "ORR": "Objective responses in more than 50% of patients",
+                "PFS": "Estimated 9-year OS rate 35% for all patients (phase II); 10-year PFS rates 9.5% vs 9.2% (HR 0.91, P=.18) for 400 mg vs 800 mg (EORTC)",
+                "OS": "10-year OS rates 19.4% vs 21.5% (HR 0.93, P=.31) for 400 mg vs 800 mg (EORTC)"
+            },
+            "notes": "Imatinib is the standard first-line treatment. Patients with KIT exon 9 mutations may benefit from dose escalation to 800 mg daily (400 mg BID). Patients with PDGFRA D842V mutations do not respond to imatinib. [5,6]"
+        },
+        {
+            "regimen_name": "Sunitinib (Second-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "daily for 4 weeks on, 2 weeks off (or continuous daily dosing 37.5 mg)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-resistant or imatinib-intolerant",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase III randomized controlled trial",
+                "phase": "3",
+                "n_patients": "312",
+                "ORR": "PR in 14 patients (6.8%) and stable disease (≥22 weeks) in 36 patients (17.4%)",
+                "PFS": "Median time to progression 27.3 weeks vs 6.4 weeks (HR 0.33, P<.0001)",
+                "OS": "Significantly greater estimated OS"
+            },
+            "notes": "Sunitinib is a multitargeted TKI. SDH-deficient GIST may have a higher probability of response. For patients intolerant of second-line sunitinib, consider changing to ripretinib 150 mg daily. [11]"
+        },
+        {
+            "regimen_name": "Ripretinib 150 mg daily (Second-line alternative for sunitinib-intolerant)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ripretinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-sensitive GIST (if intolerant of second-line sunitinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Ripretinib is a switch control kinase inhibitor of a broad spectrum of oncogenic and drug-resistant KIT and PDGFRA variants. Consider as an alternative for patients intolerant of sunitinib. [12]"
+        },
+        {
+            "regimen_name": "Regorafenib (Third-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Third-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "daily for 3 weeks on, 1 week off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-resistant and sunitinib-resistant",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GRID",
+                "phase": "3",
+                "n_patients": "199",
+                "ORR": null,
+                "PFS": "Median PFS 4.8 months vs 0.9 months (P<.0001)",
+                "OS": "HR for OS 0.77 (85% of placebo arm crossed over to regorafenib)"
+            },
+            "notes": "Regorafenib is a multikinase inhibitor. Patients with KIT exon 11 mutations or SDH-deficient GIST may derive a greater PFS benefit. [14]"
+        },
+        {
+            "regimen_name": "Ripretinib 150 mg daily (Fourth-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Fourth-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ripretinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Prior treatment with 3 or more kinase inhibitors, including imatinib",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INVICTUS",
+                "phase": "3",
+                "n_patients": "129",
+                "ORR": null,
+                "PFS": "Median PFS 6.3 months vs 1.0 months (P<.0001)",
+                "OS": null
+            },
+            "notes": "Ripretinib is approved for adults with advanced GIST who have received prior treatment with 3 or more kinase inhibitors, including imatinib. [15]"
+        },
+        {
+            "regimen_name": "Avapritinib (First-line for PDGFRA exon 18 mutant GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avapritinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NAVIGATOR",
+                "phase": "I",
+                "n_patients": "56",
+                "ORR": "91%",
+                "PFS": null,
+                "OS": "Median OS not reached (median follow-up 27.5 months)"
+            },
+            "notes": "Avapritinib is a selective inhibitor of KIT and PDGFRA. It is FDA-approved for unresectable or metastatic GIST with a PDGFRA mutation, including D842V. [1,2,7]"
+        },
+        {
+            "regimen_name": "Dasatinib (Other recommended for PDGFRA exon 18 mutant GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Dasatinib is a dual SRC/ABL kinase inhibitor. It has shown in vitro activity against PDGFRA D842V and some clinical activity in a phase II study. [13]"
+        },
+        {
+            "regimen_name": "Larotrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "75% (adults and children with NTRK fusion-positive solid tumors, including GIST)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Larotrectinib is FDA-approved for solid tumors with NTRK gene fusions. [8]"
+        },
+        {
+            "regimen_name": "Entrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "57% (adults with NTRK fusion-positive solid tumors)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Entrectinib is FDA-approved for solid tumors with NTRK gene fusions. [9]"
+        },
+        {
+            "regimen_name": "Repotrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Repotrectinib is a next-generation TRK inhibitor. [3]"
+        },
+        {
+            "regimen_name": "Sunitinib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Sunitinib is a multitargeted TKI with activity against VEGFR. Data from small retrospective studies suggest activity in SDH-deficient GIST. [85,86]"
+        },
+        {
+            "regimen_name": "Regorafenib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Regorafenib is a multikinase inhibitor with activity against VEGFR. It was reported to be clinically active against SDH-deficient GIST in a small phase II study. [88,89]"
+        },
+        {
+            "regimen_name": "Pazopanib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Pazopanib is a TKI that targets VEGFR. A phase II study showed prolonged disease control in one patient with SDH-deficient GIST. [90,91]"
+        },
+        {
+            "regimen_name": "Binimetinib/Imatinib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Binimetinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Imatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase Ib trial",
+                "phase": "Ib",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Binimetinib is a MEK inhibitor. The combination is being studied in SDH-deficient GIST. [10]"
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (First-line for BRAF V600E-mutated GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "The combination is FDA-approved for BRAF V600E-mutated solid tumors, including GIST. [4]"
+        },
+        {
+            "regimen_name": "Dasatinib (Second-line for PDGFRA exon 18 mutant GIST after avapritinib)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V (resistant to avapritinib or imatinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Dasatinib is a dual SRC/ABL kinase inhibitor. It is recommended as a preferred second-line therapy for patients with PDGFRA exon 18 mutations whose disease has become resistant to avapritinib or imatinib. [13,133-135]"
+        },
+        {
+            "regimen_name": "Repotrectinib (Second-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Consider repotrectinib as a second-line option for NTRK fusion-positive GIST if not previously given. [3]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (for TMB-H GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Subsequent therapy irrespective of mutation status",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tumor mutational burden-high (TMB-H)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Consider combination immunotherapy for patients with TMB-H GIST based on limited data. [27]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.943900"
+}

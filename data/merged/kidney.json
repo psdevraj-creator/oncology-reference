@@ -1,0 +1,1543 @@
+{
+    "site_id": "kidney",
+    "site_display_name": "Kidney Cancer",
+    "archetype": "B",
+    "regimen_count": 42,
+    "regimens": [
+        {
+            "regimen_name": "Adjuvant Pembrolizumab",
+            "site": "Stage II (Grade 4 clear cell histology ± sarcomatoid features), Stage III clear cell histology",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for up to 1 year"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-564",
+                "phase": "III",
+                "n_patients": "994",
+                "os_data": "HR for death, 0.62; 95% CI, 0.44–0.87; P = .005 (at median follow-up of 57.2 months)",
+                "pfs_data": "HR for recurrence or death, 0.68; 95% CI, 0.53–0.87; P = .002",
+                "orr_data": null
+            },
+            "notes": "For patients with locoregional clear cell RCC with intermediate-to-high or high risk of recurrence after nephrectomy. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [100, 101, 102]"
+        },
+        {
+            "regimen_name": "Adjuvant Belzutifan + Pembrolizumab",
+            "site": "Stage II (Grade 4 clear cell histology ± sarcomatoid features), Stage III clear cell histology, Resectable Stage IV (T4, M0) clear cell histology, After metastasectomy for Stage IV/relapsed clear cell histology",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "120 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for up to 17 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (for specified high-risk features)",
+            "trial_data": {
+                "trial_name": "LITESPARK-010 (adjuvant setting)",
+                "phase": "III",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": null
+            },
+            "notes": "Added in Version 1.2027 for Grade 4 tumors with clear cell histology ± sarcomatoid features in Stage II, Stage III, and resectable T4, M0 disease. Also an option after metastasectomy with complete resection of disease for Stage IV/relapsed ccRCC. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [Update]"
+        },
+        {
+            "regimen_name": "Axitinib + Pembrolizumab",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-426",
+                "phase": "III",
+                "n_patients": "861 (432 axitinib + pembrolizumab, 429 sunitinib)",
+                "os_data": "Axi/Pem: 47.2 months (95% CI, 43.6–54.8); Sunitinib: 40.8 months (95% CI, 34.3–47.5); HR, 0.84 (95% CI, 0.71–0.99)",
+                "pfs_data": "Axi/Pem: 15.7 months (95% CI, 13.6–20.2); Sunitinib: 11.1 months (95% CI, 8.9–12.5); HR, 0.69 (95% CI, 0.59–0.81)",
+                "orr_data": "Axi/Pem: 60.6% (95% CI, 55.9–65.3); Sunitinib: 39.6% (95% CI, 35–44.4)"
+            },
+            "notes": "For patients with advanced RCC across all risk groups. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [130, 131, 132, 133]"
+        },
+        {
+            "regimen_name": "Cabozantinib + Nivolumab",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 9ER",
+                "phase": "III",
+                "n_patients": "651 (323 cabozantinib + nivolumab, 328 sunitinib)",
+                "os_data": "Cabo/Nivo: 46.5 months (95% CI, 40.6–53.8); Sunitinib: 35.5 months (95% CI, 29.2–42.8); HR, 0.79 (95% CI, 0.65–0.96)",
+                "pfs_data": "Cabo/Nivo: 16.4 months (95% CI, 12.5–19.3); Sunitinib: 8.3 months (95% CI, 7.0–9.7); HR, 0.58 (95% CI, 0.49–0.70)",
+                "orr_data": "Cabo/Nivo: 55.7% (95% CI, 50.1–61.2); Sunitinib: 27.4% (95% CI, 23–32.9)"
+            },
+            "notes": "For patients with advanced RCC across all risk groups. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [134, 135, 137]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses (concurrent with ipilimumab)"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks (monotherapy, following combination)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 214",
+                "phase": "III",
+                "n_patients": "1096 (550 ipilimumab + nivolumab, 546 sunitinib)",
+                "os_data": "Ipi/Nivo: 52.7 months; Sunitinib: 37.8 months; HR, 0.72 (95% CI, 0.62–0.83)",
+                "pfs_data": "Ipi/Nivo: 12.4 months; Sunitinib: 12.3 months; HR, 0.88 (95% CI, 0.75–1.03)",
+                "orr_data": "Intermediate-/poor-risk: Ipi/Nivo: 42.4% (95% CI, 37.6–47.2); Sunitinib: 27.5% (95% CI, 23.3–32). Favorable-risk: Ipi/Nivo: 29.6% (95% CI, 21.8–38.4); Sunitinib: 51.6% (95% CI, 42.5%–60.7%)"
+            },
+            "notes": "For patients with intermediate- or poor-risk advanced RCC (coprimary endpoints), with exploratory analysis for favorable-risk. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy may be substituted. [138, 139, 140]"
+        },
+        {
+            "regimen_name": "Lenvatinib + Pembrolizumab",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CLEAR",
+                "phase": "III",
+                "n_patients": "1069 (355 lenvatinib + pembrolizumab, 357 everolimus/lenvatinib, 357 sunitinib)",
+                "os_data": "Len/Pem: 53.7 months (95% CI, 48.7–NE); Sunitinib: 54.3 months (95% CI, 40.9–NE); HR, 0.79 (95% CI, 0.63–0.99); P = .0424",
+                "pfs_data": "Len/Pem: 23.9 months (95% CI, 20.8–27.7); Sunitinib: 9.2 months (95% CI, 6.0–11.0); HR, 0.39 (95% CI, 0.32–0.49); P < .0001",
+                "orr_data": "Len/Pem: 71.3% (95% CI, 66.6–76); Sunitinib: 36.7% (95% CI, 31.7–41.7); RR: 1.94 (95% CI, 1.67–2.26); P < .0001"
+            },
+            "notes": "For patients with advanced RCC across all risk groups. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [141, 142, 143]"
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (for poor-/intermediate-risk); Other Recommended (for favorable-risk, category 2B)",
+            "trial_data": {
+                "trial_name": "CABOSUN",
+                "phase": "II",
+                "n_patients": "157 (79 cabozantinib, 78 sunitinib)",
+                "os_data": "Cabo: 30.3 months (95% CI, 14.6–35); Sunitinib: 21.8 months (95% CI, 16.3–27); HR, 0.80 (95% CI, 0.50–1.26)",
+                "pfs_data": "Cabo: 8.2 months (95% CI, 6.2–8.8); Sunitinib: 5.6 months (95% CI, 3.4–8.1)",
+                "orr_data": "Cabo: 33% (95% CI, 23–44); Sunitinib: 12% (95% CI, 5.4–21)"
+            },
+            "notes": "Category 2A, preferred for poor-/intermediate-risk. Category 2B, other recommended for favorable-risk. [144, 145]"
+        },
+        {
+            "regimen_name": "Axitinib + Avelumab",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Avelumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "JAVELIN Renal 101",
+                "phase": "III",
+                "n_patients": "886 (442 axitinib + avelumab, 444 sunitinib)",
+                "os_data": "Axi/Ave: ~45 months; Sunitinib: ~39 months; HR, 0.88 (95% CI, 0.749–1.039); P = .0669 (not statistically significant)",
+                "pfs_data": "Axi/Ave: 13.9 months (95% CI, 11.1–16.6); Sunitinib: 8.5 months (95% CI, 8.2–9.7); HR, 0.66 (95% CI, 0.566–0.769); P < .0001",
+                "orr_data": "Axi/Ave: 59.7% (95% CI, 55.0–64.3); Sunitinib: 32.0% (95% CI, 27.7–36.5)"
+            },
+            "notes": "For patients with advanced RCC across all risk groups. [146, 147, 148, 149]"
+        },
+        {
+            "regimen_name": "Pazopanib",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "VEG105192",
+                "phase": "III",
+                "n_patients": "435 (290 pazopanib, 145 placebo)",
+                "os_data": "Pazopanib: 23 months; Placebo: 24 months; HR, 1.01 (95% CI, 0.72–1.42)",
+                "pfs_data": "Pazopanib: 11.1 months; Placebo: 2.8 months; HR, 0.40 (95% CI, 0.27–0.60); P < .0001",
+                "orr_data": "Pazopanib: 32% (95% CI, 24–39); Placebo: 4% (95% CI, 0–8)"
+            },
+            "notes": "For patients with locally advanced or metastatic ccRCC. [151, 152]"
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on/2 weeks off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase III trial (Motzer et al)",
+                "phase": "III",
+                "n_patients": "750 (375 sunitinib, 375 interferon alfa)",
+                "os_data": "Sunitinib: NR; Interferon: NR; HR, 0.65 (95% CI, 0.45–0.94); P = .02",
+                "pfs_data": "Sunitinib: 11 months (95% CI, 10–12); Interferon: 5 months (95% CI, 4–6); HR, 0.42 (95% CI, 0.32–0.54); P < .001",
+                "orr_data": "Sunitinib: 31% (95% CI, 26–36); Interferon: 6% (95% CI, 4–9); P < .001"
+            },
+            "notes": "For patients with metastatic ccRCC. [155, 159]"
+        },
+        {
+            "regimen_name": "Axitinib",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial (Hutson et al)",
+                "phase": "III",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": "PFS was not significantly longer in patients receiving axitinib versus sorafenib",
+                "orr_data": null
+            },
+            "notes": "For patients with metastatic ccRCC. [164]"
+        },
+        {
+            "regimen_name": "Active Surveillance",
+            "site": "Clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "observation"
+            ],
+            "drugs": [],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Prospective phase 2 trial (Rini et al)",
+                "phase": "II",
+                "n_patients": "48",
+                "os_data": null,
+                "pfs_data": "Median time from registration to initiation of systemic therapy was 14.9 months",
+                "orr_data": null
+            },
+            "notes": "For select, asymptomatic patients with favorable-risk ccRCC. [160, 161, 162]"
+        },
+        {
+            "regimen_name": "Cabozantinib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "METEOR",
+                "phase": "III",
+                "n_patients": "658 (330 cabozantinib, 328 everolimus)",
+                "os_data": "Cabo: 21.4 months; Ev: 17.1 months; HR, 0.70 (95% CI, 0.58–0.85); P = .0002",
+                "pfs_data": "Cabo: 7.4 months (95% CI, 6.6–9.1); Ev: 3.9 months (95% CI, 3.7–5.1); HR, 0.51 (95% CI, 0.41–0.62); P < .0001",
+                "orr_data": "Cabo: 17%; Ev: 3%; P < .0001"
+            },
+            "notes": "For patients with ccRCC who have progressed after prior anti-angiogenic therapy. [167, 168, 169]"
+        },
+        {
+            "regimen_name": "Everolimus/Lenvatinib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "18 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Everolimus",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial (Motzer et al)",
+                "phase": "II",
+                "n_patients": "153 (51 everolimus/lenvatinib, 50 everolimus, 52 lenvatinib)",
+                "os_data": "Ev/Len: 25.5 months (95% CI, 16.4–NE); Ev: 15.4 months (95% CI, 11.8–19.6); Len: 19.1 months (95% CI, 13.6–26.2). Ev/Len vs. Ev: HR, 0.51 (95% CI, 0.30–0.88); P = .024",
+                "pfs_data": "Ev/Len: 14.6 months (95% CI, 5.9–20.1); Ev: 5.5 months (95% CI, 3.5–7.1); Len: 7.4 months (95% CI, 5.6–10.2). Ev/Len vs. Ev: HR, 0.40 (95% CI, 0.24–0.68); P = .0005",
+                "orr_data": "Ev/Len: 43%; Ev: 6%; Len: 27%"
+            },
+            "notes": "For patients with ccRCC who have progressed after prior anti-angiogenic therapy. [172, 173]"
+        },
+        {
+            "regimen_name": "Nivolumab (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (for IO therapy naïve)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 025",
+                "phase": "III",
+                "n_patients": "803 (406 nivolumab, 397 everolimus)",
+                "os_data": "Nivo: 25.8 months (95% CI, 22.2–29.8); Ev: 19.7 months (95% CI, 17.6–22.1); HR, 0.73 (95% CI, 0.62–0.85); P < .0001",
+                "pfs_data": "Nivo: 4.2 months (95% CI, 3.7–5.4); Ev: 4.5 months (95% CI, 3.7–5.5); HR, 0.84 (95% CI, 0.72–0.99); P = .0331",
+                "orr_data": "Nivo: 22.9% (95% CI, 18.9–27.3); Ev: 4.1% (95% CI, 2.4–6.5); OR, 6.86 (95% CI, 4–11.7); P < .0001"
+            },
+            "notes": "For patients with ccRCC who have received 1–2 prior antiangiogenic therapies (excluding mTOR inhibitors). Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [175, 176]"
+        },
+        {
+            "regimen_name": "Axitinib (Subsequent Therapy - Prior IO)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (for prior IO therapy)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "AXIS",
+                "phase": "III",
+                "n_patients": "723 (361 axitinib, 362 sorafenib)",
+                "os_data": "Axi: 20.1 months (95% CI, 16.7–23.4); Sor: 19.2 months (95% CI, 17.5–22.3); HR, 0.97 (95% CI, 0.80–1.17); P = .37",
+                "pfs_data": "Axi: 8.3 months (95% CI, 6.7–9.2); Sor: 5.7 months (95% CI, 4.7–6.5); HR, 0.67 (95% CI, 0.55–0.78); P < .0001",
+                "orr_data": "Axi: 19%; Sor: 9%; P = .0001"
+            },
+            "notes": "For patients with ccRCC who have progressed after prior IO therapy. [163, 177]"
+        },
+        {
+            "regimen_name": "Axitinib (Subsequent Therapy - IO Naïve)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (for IO therapy naïve)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "AXIS",
+                "phase": "III",
+                "n_patients": "723 (361 axitinib, 362 sorafenib)",
+                "os_data": "Axi: 20.1 months (95% CI, 16.7–23.4); Sor: 19.2 months (95% CI, 17.5–22.3); HR, 0.97 (95% CI, 0.80–1.17); P = .37",
+                "pfs_data": "Axi: 8.3 months (95% CI, 6.7–9.2); Sor: 5.7 months (95% CI, 4.7–6.5); HR, 0.67 (95% CI, 0.55–0.78); P < .0001",
+                "orr_data": "Axi: 19%; Sor: 9%; P = .0001"
+            },
+            "notes": "For patients with ccRCC who are IO therapy naïve. [163, 177]"
+        },
+        {
+            "regimen_name": "Belzutifan (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (for prior IO and VEGF-TKI therapy)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "120 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "LITESPARK-005",
+                "phase": "III",
+                "n_patients": "746 (374 belzutifan, 372 everolimus)",
+                "os_data": "Bel: 21.4 months (95% CI, 18.2–24.3); Ev: 18.1 months (95% CI, 15.8–21.8); HR, 0.88 (95% CI, 0.73–1.07); P = .20",
+                "pfs_data": "Bel: 5.6 months (95% CI, 3.9–7.0); Ev: 5.6 months (95% CI, 4.8–5.8); HR, 0.75 (95% CI, 0.63–0.90); P < .001",
+                "orr_data": "Bel: 21.9% (95% CI, 17.8–26.5); Ev: 3.5% (95% CI, 1.9–5.9)"
+            },
+            "notes": "For patients with ccRCC who have progressed on prior PD-1 or PD-L1 inhibitor and VEGF-targeted TKI. [185]"
+        },
+        {
+            "regimen_name": "Tivozanib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (for prior IO therapy)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tivozanib",
+                    "dose": "1.34 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 3 weeks on/1 week off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "TIVO-3",
+                "phase": "III",
+                "n_patients": "350 (175 tivozanib, 175 sorafenib)",
+                "os_data": "Tivo: 16.4 months (95% CI, 13.4–21.9); Sor: 19.1 months (95% CI, 14.9–24.2); HR, 0.89 (95% CI, 0.70–1.14); P = .35",
+                "pfs_data": "Tivo: 5.6 months (95% CI, 5.3–7.3); Sor: 3.9 months (95% CI, 3.7–5.6); HR, 0.73 (95% CI, 0.56–0.94); P = .016",
+                "orr_data": "Tivo: 18%; Sor: 8%"
+            },
+            "notes": "For patients with ccRCC who have received 2–3 prior systemic therapies including at least 1 VEGFR-targeted TKI other than sorafenib or tivozanib. [188, 189]"
+        },
+        {
+            "regimen_name": "Lenvatinib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "18 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Motzer et al)",
+                "phase": "II",
+                "n_patients": "153 (51 everolimus/lenvatinib, 50 everolimus, 52 lenvatinib)",
+                "os_data": "Len: 19.1 months (95% CI, 13.6–26.2); Ev: 15.4 months (95% CI, 11.8–19.6); HR, 0.68 (95% CI, 0.41–1.14); P = .12",
+                "pfs_data": "Len: 7.4 months (95% CI, 5.6–10.2); Ev: 5.5 months (95% CI, 3.5–7.1); HR, 0.61 (95% CI, 0.39–0.98); P = .048",
+                "orr_data": "Len: 27%"
+            },
+            "notes": "For patients with ccRCC who have progressed after prior anti-angiogenic therapy. [172, 173]"
+        },
+        {
+            "regimen_name": "Pazopanib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study (Hainsworth et al)",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": "Estimated OS rate at 24 months was 43%",
+                "pfs_data": "Median PFS was 7.5 months",
+                "orr_data": "27% of patients had an OR"
+            },
+            "notes": "For patients with ccRCC who have progressed after prior targeted therapy. [192]"
+        },
+        {
+            "regimen_name": "Sunitinib (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on/2 weeks off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II studies",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": null
+            },
+            "notes": "For patients with ccRCC who have progressed after cytokine therapy. [156, 193]"
+        },
+        {
+            "regimen_name": "Everolimus (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RECORD-1",
+                "phase": "III",
+                "n_patients": "416 (277 everolimus, 139 placebo)",
+                "os_data": "Similar between groups",
+                "pfs_data": "Median PFS was significantly longer for everolimus versus placebo",
+                "orr_data": null
+            },
+            "notes": "For patients with ccRCC who have progressed on sunitinib or sorafenib. [194, 195]"
+        },
+        {
+            "regimen_name": "Bevacizumab (Subsequent Therapy)",
+            "site": "Clear cell histology",
+            "setting": "Subsequent therapy (regardless of prior IO status)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study (Yang et al)",
+                "phase": "II",
+                "n_patients": "116",
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": null
+            },
+            "notes": "For patients with ccRCC who have progressed after cytokine therapy. An FDA-approved biosimilar is an appropriate substitute. [196]"
+        },
+        {
+            "regimen_name": "Cabozantinib (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SWOG 1500",
+                "phase": "II",
+                "n_patients": "90 (46 cabozantinib, 44 sunitinib)",
+                "os_data": "Cabo: 21.5 months (95% CI, 12–28.1); Sun: 17.3 months (95% CI, 12.8–21.8); HR, 0.83 (95% CI, 0.51–1.36); P = .46",
+                "pfs_data": "Cabo: 9.0 months (95% CI, 6–12); Sun: 5.6 months (95% CI, 3–7); HR, 0.60 (95% CI, 0.37–0.97); P = .019",
+                "orr_data": "Cabo: 23%; Sun: 4%; P = .010"
+            },
+            "notes": "For patients with advanced papillary RCC who have received up to 1 prior systemic therapy, excluding VEGF- and MET-targeted TKIs. [198, 199]"
+        },
+        {
+            "regimen_name": "Cabozantinib + Nivolumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II cohort study",
+                "phase": "II",
+                "n_patients": "47",
+                "os_data": "Median OS was 28 months (95% CI, 23–43)",
+                "pfs_data": "Median PFS was 13 months (95% CI, 7–16)",
+                "orr_data": "ORR was 48% (95% CI, 32–64)"
+            },
+            "notes": "For patients with advanced nccRCC (papillary, unclassified, or translocation RCC). Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [200, 201]"
+        },
+        {
+            "regimen_name": "Lenvatinib + Pembrolizumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line (for unresectable Stage IV or relapsed disease)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-B61",
+                "phase": "II",
+                "n_patients": "158",
+                "os_data": "Median OS was 41.5 months (95% CI, 32.8–NR)",
+                "pfs_data": "Median PFS was 17.9 months (95% CI, 15–21.1)",
+                "orr_data": "ORR was 51% (95% CI, 43–59)"
+            },
+            "notes": "For patients with untreated, stage IV nccRCC. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [202, 203]"
+        },
+        {
+            "regimen_name": "Erlotinib + Bevacizumab (Non-Clear Cell - Papillary including HLRCC)",
+            "site": "Non-clear cell histology (papillary RCC including HLRCC-associated RCC)",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erlotinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology (papillary)",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial (Srinivasan et al)",
+                "phase": "II",
+                "n_patients": "83 (43 HLRCC, 40 sporadic papillary)",
+                "os_data": "HLRCC: 44.6 months (95% CI, 32.7–NE); Sporadic papillary: 18.2 months (95% CI, 12.6–29.3)",
+                "pfs_data": "HLRCC: 21.1 months (95% CI, 15.6–26.6); Sporadic papillary: 8.9 months (95% CI, 5.5–8.3)",
+                "orr_data": "HLRCC: 72% (95% CI, 57–83); Sporadic papillary: 35% (95% CI, 22–51)"
+            },
+            "notes": "For select patients with advanced papillary RCC, including HLRCC-associated RCC. An FDA-approved biosimilar is an appropriate substitute for bevacizumab. There are no specific FDA-approved therapies for HLRCC. [205]"
+        },
+        {
+            "regimen_name": "Everolimus/Lenvatinib (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "18 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Everolimus",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial (Hutson et al)",
+                "phase": "II",
+                "n_patients": "31",
+                "os_data": "Median OS was 15.6 months (95% CI, 9.2–NE)",
+                "pfs_data": "Median PFS was 9.2 months (95% CI, 5.5–NE)",
+                "orr_data": "PR: 26% (95% CI, 12–45); SD: 58%"
+            },
+            "notes": "For patients with unresectable advanced or metastatic nccRCC who have not previously received prior systemic therapy. [206]"
+        },
+        {
+            "regimen_name": "Nivolumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Retrospective study (Koshkin et al)",
+                "phase": "Retrospective",
+                "n_patients": "35",
+                "os_data": "Not reported",
+                "pfs_data": "Median PFS was 3.5 months",
+                "orr_data": "PR: 20%; SD: 29%"
+            },
+            "notes": "For patients with metastatic nccRCC. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [207]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "KEYNOTE-427 (cohort B)",
+                "phase": "II",
+                "n_patients": "165",
+                "os_data": "Median OS was 28.9 months (95% CI, 24.3–NE)",
+                "pfs_data": "Median PFS was 4.2 months (95% CI, 2.9–5.6)",
+                "orr_data": "ORR was 27%"
+            },
+            "notes": "For systemic therapy-naïve, newly diagnosed or recurrent stage IV nccRCC. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [209]"
+        },
+        {
+            "regimen_name": "Sunitinib (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on/2 weeks off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "ASPEN and ESPN trials",
+                "phase": "II",
+                "n_patients": "ASPEN: 108 (51 sunitinib, 57 everolimus); ESPN: 68 (33 sunitinib, 35 everolimus)",
+                "os_data": "ASPEN: Sun: 31.5 months (95% CI, 14.8–NE); Evero: 13.2 months (95% CI, 9.7–37.9); HR, 1.12 (95% CI, 0.7–2.1); P = .60. ESPN: Sun: 16.2 months (95% CI, 14.2–NE); Evero: 14.9 months (95% CI, 8.0–23.4); P = .18",
+                "pfs_data": "ASPEN: Sun: 8.3 months (80% CI, 5.8–11.4); Evero: 5.6 months (80% CI, 5.5–6.0); HR, 1.41 (80% CI, 1.03–1.92); P = .16. ESPN: Sun: 6.1 months (95% CI, 4.2–9.4); Evero: 4.1 months (95% CI, 2.7–10.5); P = .60",
+                "orr_data": "ASPEN: Sun: 18%; Evero: 9%. ESPN: Sun: 6%; Evero: 6%"
+            },
+            "notes": "For patients with metastatic nccRCC. [210, 211]"
+        },
+        {
+            "regimen_name": "Axitinib (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Park et al)",
+                "phase": "II",
+                "n_patients": "40",
+                "os_data": "Median OS was 12.1 months",
+                "pfs_data": "Median PFS was 7.4 months",
+                "orr_data": "ORR was 37.5%"
+            },
+            "notes": "For patients with recurrent or metastatic nccRCC that progressed after treatment with temsirolimus. [213]"
+        },
+        {
+            "regimen_name": "Everolimus (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "REACT trial subgroup and Phase II studies",
+                "phase": "II",
+                "n_patients": "REACT: 75; Phase II studies: various",
+                "os_data": "Median OS ranged from 14 to 28 months",
+                "pfs_data": "Median PFS ranged from 5.2 to 8 months",
+                "orr_data": "ORR was 10.2% in one study"
+            },
+            "notes": "For patients with metastatic nccRCC. [214, 215, 216]"
+        },
+        {
+            "regimen_name": "Everolimus + Bevacizumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Voss et al)",
+                "phase": "II",
+                "n_patients": "34",
+                "os_data": "Median OS was 18.5 months",
+                "pfs_data": "Median PFS was 11.0 months",
+                "orr_data": "ORR was 29%"
+            },
+            "notes": "For treatment-naïve patients with metastatic nccRCC. An FDA-approved biosimilar is an appropriate substitute for bevacizumab. [217]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Non-Clear Cell)",
+            "site": "Non-clear cell histology",
+            "setting": "First-line or subsequent therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses (concurrent with ipilimumab)"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks (monotherapy, following combination)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Non-clear cell histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SUNNIFORECAST",
+                "phase": "II",
+                "n_patients": "309 (157 ipilimumab + nivolumab, 152 standard of care)",
+                "os_data": "OS rate at 12 months was 78% (95% CI, 71–84) with ipilimumab + nivolumab versus 68% (95% CI, 60–75) with standard of care (P = .026). Median OS: Ipi/Nivo: 33.2 months; SOC: 25.2 months",
+                "pfs_data": "Median PFS: Ipi/Nivo: 5.4 months; SOC: 5.7 months",
+                "orr_data": "ORR: Ipi/Nivo: 33%; SOC: 20%"
+            },
+            "notes": "For patients with untreated, advanced nccRCC. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy may be substituted. [219]"
+        },
+        {
+            "regimen_name": "Platinum-based chemotherapy (Renal Medullary Carcinoma/Collecting Duct Carcinoma)",
+            "site": "Renal medullary carcinoma (RMC) or collecting duct carcinoma",
+            "setting": "First-line (preferred outside of clinical trials)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Renal medullary carcinoma or collecting duct histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (for RMC outside clinical trials)",
+            "trial_data": {
+                "trial_name": "Various studies (GETUG, etc.)",
+                "phase": "II",
+                "n_patients": "23 (for gemcitabine/cisplatin or carboplatin in collecting duct)",
+                "os_data": "Collecting duct: Median OS was 10.5 months",
+                "pfs_data": null,
+                "orr_data": "Collecting duct: Response rate of 26%"
+            },
+            "notes": "For patients with RMC or collecting duct carcinoma. Partial responses have been observed with cytotoxic chemotherapy (gemcitabine/carboplatin, paclitaxel/carboplatin, or gemcitabine/cisplatin) and other platinum-based chemotherapies. Doxorubicin/gemcitabine can also produce responses in RMC. Oral anti-angiogenic targeted therapies generally do not produce responses in patients with RMC. Erlotinib + bevacizumab can produce responses even in heavily pretreated patients with RMC. Immune checkpoint therapies (ipilimumab + nivolumab or pembrolizumab) should be avoided in RMC outside of a clinical trial as they have demonstrated limited efficacy and may be associated with rapid disease progression. Outside of clinical trials, platinum-based chemotherapy regimens should be the preferred first-line therapy for RMC. [Update, 227, 228, 229]"
+        },
+        {
+            "regimen_name": "Erlotinib + Bevacizumab (Renal Medullary Carcinoma)",
+            "site": "Renal medullary carcinoma (RMC)",
+            "setting": "First-line or subsequent therapy (including heavily pretreated)",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erlotinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Renal medullary carcinoma histology",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (useful in certain circumstances)",
+            "trial_data": {
+                "trial_name": "Phase II study (Srinivasan et al)",
+                "phase": "II",
+                "n_patients": "43 with HLRCC-associated RCC (which includes aggressive papillary histology similar to RMC)",
+                "os_data": "Median OS was 44.6 months (95% CI, 32.7–NE)",
+                "pfs_data": "Median PFS was 21.1 months (95% CI, 15.6–26.6)",
+                "orr_data": "ORR was 72% (95% CI, 57–83)"
+            },
+            "notes": "Cited as an option that can produce responses even in heavily pretreated patients with RMC. An FDA-approved biosimilar is an appropriate substitute for bevacizumab. [205]"
+        },
+        {
+            "regimen_name": "Everolimus (TSC-associated Angiomyolipoma)",
+            "site": "Tuberous Sclerosis Complex (TSC) - Angiomyolipoma",
+            "setting": "First-line (for asymptomatic, growing angiomyolipoma >3 cm)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tuberous Sclerosis Complex diagnosis",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EXIST-2",
+                "phase": "III",
+                "n_patients": "118 (79 everolimus, 39 placebo)",
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": "Confirmed angiomyolipoma response was reported in 58% of patients, and ≥75% had a persistent angiomyolipoma volume decrease of at least 30%"
+            },
+            "notes": "For patients with TSC-associated benign renal angiomyolipomas not requiring immediate surgery. [255, 256]"
+        },
+        {
+            "regimen_name": "Sirolimus (TSC-associated Angiomyolipoma)",
+            "site": "Tuberous Sclerosis Complex (TSC) - Angiomyolipoma",
+            "setting": "First-line (alternative to everolimus)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Daily dosing (specific schedule not provided)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tuberous Sclerosis Complex diagnosis",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase I/II trial (Bissler et al)",
+                "phase": "I/II",
+                "n_patients": "20",
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": "Angiomyolipoma volume was reduced by ≥30% for 16 out of 20 patients assessed at 12 months"
+            },
+            "notes": "For patients with TSC or sporadic lymphangioleiomyomatosis. [257]"
+        },
+        {
+            "regimen_name": "Belzutifan (VHL-associated RCC)",
+            "site": "Von Hippel-Lindau (VHL) disease - RCC",
+            "setting": "First-line (for VHL-associated RCC not requiring immediate surgery)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "120 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Von Hippel-Lindau disease diagnosis",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LITESPARK-004",
+                "phase": "II",
+                "n_patients": "61",
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": "ORR was 67% at 50-month follow-up, with 7 CR and 34 PR"
+            },
+            "notes": "FDA-approved for the treatment of VHL disease-associated RCC, CNS hemangioblastomas, or pNET, not requiring immediate surgery. [258, 259]"
+        },
+        {
+            "regimen_name": "Pazopanib (VHL-associated nonmetastatic lesions)",
+            "site": "Von Hippel-Lindau (VHL) disease - nonmetastatic lesions",
+            "setting": "First-line (for VHL-associated nonmetastatic lesions)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Von Hippel-Lindau disease diagnosis",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Jonasch et al)",
+                "phase": "II",
+                "n_patients": "31",
+                "os_data": null,
+                "pfs_data": null,
+                "orr_data": "42% ORR and 52% renal tumor-specific response rate"
+            },
+            "notes": "For patients with VHL disease-associated nonmetastatic lesions. [260]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.738693"
+}

@@ -1,0 +1,3646 @@
+{
+    "site_id": "oesophageal",
+    "site_display_name": "Oesophageal Cancer",
+    "archetype": "A",
+    "regimen_count": 93,
+    "regimens": [
+        {
+            "regimen_name": "FLOT",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "FLOT4",
+                "phase": "2/3",
+                "n_patients": "716",
+                "os": "50 vs. 35 months; HR, 0.77; 95% CI, 0.63–0.94",
+                "pfs": null,
+                "hr": "0.77",
+                "ci": "95% CI, 0.63–0.94",
+                "orr": null,
+                "notes": "Median OS was increased in the FLOT group compared with the ECF group [168]."
+            },
+            "notes": "Preferred for medically fit patients with good performance status. Infusional fluorouracil can be replaced with capecitabine. Leucovorin is indicated with certain fluorouracil-based regimens [168]."
+        },
+        {
+            "regimen_name": "FLOT + durvalumab for PD-L1 CPS ≥1 or TAP ≥1%",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1 or TAP ≥1%",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "MATTERHORN",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Durvalumab added to FLOT. For diffuse type EGJ adenocarcinoma, no overall survival advantage [Tabernero J, et al. Annals of Oncology 2025;36:S1623-S1624]."
+            },
+            "notes": "Category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma. Requires PD-L1 CPS ≥1 or TAP ≥1%. For clinical node negative tumor (category 2A) [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "FLOT + durvalumab for clinical node negative tumor",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "nodal status",
+                    "requirement": "clinical node negative",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Added sub-bullet for clinical node negative tumor [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "FLOT + durvalumab for PD-L1 CPS <1 or TAP <1%",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS <1 or TAP <1%",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Added sub-bullet for PD-L1 CPS <1 or TAP <1% [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "FLOT + durvalumab for diffuse type EGJ adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "histology",
+                    "requirement": "diffuse type EGJ adenocarcinoma",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Added sub-bullet for diffuse type EGJ adenocarcinoma. In the MATTERHORN trial, diffuse type gastric or EGJ adenocarcinoma showed no overall survival advantage when durvalumab was added to FLOT [ESOPH-F 3 of 12, footnote d]."
+        },
+        {
+            "regimen_name": "Fluorouracil and cisplatin",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "alternative",
+            "trial_data": {
+                "trial_name": "FNCLCC ACCORD 07",
+                "phase": "3",
+                "n_patients": "224",
+                "os": "5-year OS rate 38% vs. 24%; P = .02",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Perioperative chemotherapy with fluorouracil and cisplatin significantly increased curative resection rate, DFS, and OS [4]."
+            },
+            "notes": "Other recommended perioperative regimen [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and oxaliplatin",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "The use of this regimen and dosing schedules is based on extrapolations from published literature and clinical practice [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly for neoadjuvant therapy only",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For neoadjuvant therapy only in patients with MSI-H/dMMR tumors [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab followed by nivolumab",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Neoadjuvant or perioperative",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For neoadjuvant or perioperative therapy in patients with MSI-H/dMMR tumors [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for neoadjuvant or perioperative",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Neoadjuvant or perioperative",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For neoadjuvant or perioperative therapy in patients with MSI-H/dMMR tumors [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Tremelimumab and durvalumab for neoadjuvant therapy only",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "tremelimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For neoadjuvant therapy only in patients with MSI-H/dMMR tumors [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel and carboplatin for definitive chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Definitive chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred regimen for definitive chemoradiation. Infusional fluorouracil can be replaced with capecitabine [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and oxaliplatin for definitive chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Definitive chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred regimen for definitive chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and cisplatin for definitive chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Definitive chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended regimen for definitive chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan and cisplatin for definitive chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Definitive chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended regimen for definitive chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel and fluoropyrimidine for definitive chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Definitive chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended regimen for definitive chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel and carboplatin for preoperative chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Preoperative chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CROSS",
+                "phase": "3",
+                "n_patients": "366",
+                "os": "49 vs. 24 months; HR, .657; 95% CI, 0.495–0.871; P = .003",
+                "pfs": null,
+                "hr": "0.657",
+                "ci": "95% CI, 0.495–0.871",
+                "orr": null,
+                "notes": "Median OS was 49 months in the preoperative chemoradiation arm compared to 24 months in the surgery alone arm [5]."
+            },
+            "notes": "Preferred regimen for preoperative chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and oxaliplatin for preoperative chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Preoperative chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "PRODIGE5/ACCORD17",
+                "phase": "2/3",
+                "n_patients": "267",
+                "os": null,
+                "pfs": "9.7 vs. 9.4 months; P = .64",
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Median PFS was 9.7 months in the FOLFOX group compared to 9.4 months in the fluorouracil and cisplatin group [6,7,9]."
+            },
+            "notes": "Preferred regimen for preoperative chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and cisplatin for preoperative chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Preoperative chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "alternative",
+            "trial_data": {
+                "trial_name": "CALGB 9781",
+                "phase": "3",
+                "n_patients": "56",
+                "os": "4.5 years vs. 1.8 years; P = .002",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Median OS was 4.5 years in the preoperative chemoradiation group versus 1.8 years in the surgery alone group [10,11,12]."
+            },
+            "notes": "Other recommended regimen for preoperative chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan and cisplatin for preoperative chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Preoperative chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended regimen for preoperative chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel and fluoropyrimidine for preoperative chemoradiation",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Preoperative chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended regimen for preoperative chemoradiation [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab for postoperative therapy",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma and squamous cell carcinoma",
+            "setting": "Postoperative",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "residual disease",
+                    "requirement": "after preoperative chemoradiation with R0 resection and residual disease",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate-577",
+                "phase": "3",
+                "n_patients": "794",
+                "os": null,
+                "pfs": "22.4 vs. 11 months; HR, .69; P < .001",
+                "hr": "0.69",
+                "ci": null,
+                "orr": null,
+                "notes": "Median DFS was significantly longer in the nivolumab group compared to the placebo group [25]."
+            },
+            "notes": "Only after preoperative chemoradiation with R0 resection and residual disease [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Capecitabine and oxaliplatin for postoperative therapy",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Postoperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "capecitabine",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": {
+                "trial_name": "CLASSIC",
+                "phase": "3",
+                "n_patients": "1035",
+                "os": null,
+                "pfs": "3-year DFS 74% vs. 59%; P < .0001",
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Improved 3-year DFS for all disease stages [26]."
+            },
+            "notes": "Other recommended postoperative regimen [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and oxaliplatin for postoperative therapy",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Postoperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended postoperative regimen [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine before and after fluoropyrimidine-based chemoradiation for postoperative therapy",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Postoperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended postoperative regimen [ESOPH-F 3 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and trastuzumab for first-line HER2-positive adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "ToGA",
+                "phase": "3",
+                "n_patients": "594",
+                "os": "13.8 vs. 11 months; P = .046",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvement in median OS with the addition of trastuzumab to chemotherapy [31]."
+            },
+            "notes": "Preferred for HER2-positive adenocarcinoma. Trastuzumab should be added to first-line chemotherapy [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, trastuzumab, and pembrolizumab for first-line HER2-positive adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-811",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "74% vs. 52%; P = .00006",
+                "notes": "Improved ORR with pembrolizumab compared to placebo [32,33]."
+            },
+            "notes": "Preferred for HER2-positive adenocarcinoma with PD-L1 CPS ≥1 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and trastuzumab for first-line HER2-positive adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "ToGA",
+                "phase": "3",
+                "n_patients": "594",
+                "os": "13.8 vs. 11 months; P = .046",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvement in median OS with the addition of trastuzumab to chemotherapy [34]."
+            },
+            "notes": "Preferred for HER2-positive adenocarcinoma [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, trastuzumab, and pembrolizumab for first-line HER2-positive adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-811",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "74% vs. 52%; P = .00006",
+                "notes": "Improved ORR with pembrolizumab compared to placebo [32,33]."
+            },
+            "notes": "Preferred for HER2-positive adenocarcinoma with PD-L1 CPS ≥1 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab for first-line HER2-negative adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for PD-L1 CPS ≥5; category 2B for PD-L1 CPS <5",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": "1581",
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001 for CPS ≥5",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001 for CPS ≥5",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with PD-L1 CPS ≥1. Category 1 for CPS ≥5; category 2B for CPS <5 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab for first-line HER2-negative adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for PD-L1 CPS ≥5; category 2B for PD-L1 CPS <5",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-859",
+                "phase": "3",
+                "n_patients": null,
+                "os": "12.6 vs. 9.8 months; HR, 0.65; P < .0001 for CPS ≥5",
+                "pfs": "7.5 vs. 5.5 months; HR, 0.51; P < .0001 for CPS ≥5",
+                "hr": "0.65",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36,37]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with PD-L1 CPS ≥1. Category 1 for CPS ≥5; category 2B for CPS <5 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and tislelizumab-jsgr for first-line HER2-negative adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for PD-L1 CPS ≥5; category 2B for PD-L1 CPS <5",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-305",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [38]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with PD-L1 CPS ≥1. Category 1 for CPS ≥5; category 2B for CPS <5 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and zolbetuximab-clzb for first-line HER2-negative adenocarcinoma with CLDN18.2 positive",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "zolbetuximab-clzb",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "CLDN18.2",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "SPOTLIGHT",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Zolbetuximab plus mFOLFOX6 in CLDN18.2-positive gastric or gastro-oesophageal junction adenocarcinoma [39,40]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with CLDN18.2 positive. Category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and oxaliplatin for first-line HER2-negative adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for HER2-negative adenocarcinoma [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and pembrolizumab for first-line HER2-negative adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for PD-L1 CPS ≥5; category 2B for PD-L1 CPS <5",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-590",
+                "phase": "3",
+                "n_patients": "749",
+                "os": "12.4 vs. 9.8 months; HR, 0.73; P < .0001",
+                "pfs": "6.3 vs. 5.8 months; HR, 0.65; P < .0001",
+                "hr": "0.73",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36,37]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with PD-L1 CPS ≥1. Category 1 for CPS ≥5; category 2B for CPS <5 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and tislelizumab-jsgr for first-line HER2-negative adenocarcinoma with PD-L1 CPS ≥1",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1 for PD-L1 CPS ≥5; category 2B for PD-L1 CPS <5",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-305",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [38]."
+            },
+            "notes": "Preferred for HER2-negative adenocarcinoma with PD-L1 CPS ≥1. Category 1 for CPS ≥5; category 2B for CPS <5 [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and cisplatin for first-line HER2-negative adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "negative",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for HER2-negative adenocarcinoma [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for first-line MSI-H/dMMR adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "39.6%",
+                "notes": "ORR was 39.6% in patients with MSI-H/dMMR cancers [47-50]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly for first-line MSI-H/dMMR adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "1",
+                "n_patients": "209",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "42%",
+                "notes": "ORR was 42% in patients with dMMR solid tumors [51]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab for first-line MSI-H/dMMR adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab for first-line MSI-H/dMMR adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab for first-line MSI-H/dMMR adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-859",
+                "phase": "3",
+                "n_patients": null,
+                "os": "12.6 vs. 9.8 months; HR, 0.65; P < .0001",
+                "pfs": "7.5 vs. 5.5 months; HR, 0.51; P < .0001",
+                "hr": "0.65",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 4 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate-648",
+                "phase": "3",
+                "n_patients": "970",
+                "os": "15 vs. 9 months; HR, .54; P < .001 for PD-L1 ≥1%",
+                "pfs": null,
+                "hr": "0.54",
+                "ci": null,
+                "orr": null,
+                "notes": "Median OS was significantly longer with nivolumab plus chemotherapy than with chemotherapy alone among patients with tumor cell PD-L1 expression of 1% or greater [67]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-590",
+                "phase": "3",
+                "n_patients": "749",
+                "os": "12.4 vs. 9.8 months; HR, 0.73; P < .0001",
+                "pfs": "6.3 vs. 5.8 months; HR, 0.65; P < .0001",
+                "hr": "0.73",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and tislelizumab-jsgr for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-306",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [68]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Oxaliplatin, paclitaxel, and tislelizumab-jsgr for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-306",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [68]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and oxaliplatin for first-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for SCC [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and nivolumab for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate-648",
+                "phase": "3",
+                "n_patients": "970",
+                "os": "15 vs. 9 months; HR, .54; P < .001 for PD-L1 ≥1%",
+                "pfs": null,
+                "hr": "0.54",
+                "ci": null,
+                "orr": null,
+                "notes": "Median OS was significantly longer with nivolumab plus chemotherapy than with chemotherapy alone among patients with tumor cell PD-L1 expression of 1% or greater [67]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and pembrolizumab for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-590",
+                "phase": "3",
+                "n_patients": "749",
+                "os": "12.4 vs. 9.8 months; HR, 0.73; P < .0001",
+                "pfs": "6.3 vs. 5.8 months; HR, 0.65; P < .0001",
+                "hr": "0.73",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and tislelizumab-jsgr for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-306",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [68]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Cisplatin, paclitaxel, and tislelizumab-jsgr for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-306",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy [68]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and cisplatin for first-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for SCC [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab for first-line SCC with PD-L1 CPS ≥1",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate-648",
+                "phase": "3",
+                "n_patients": "970",
+                "os": "14 vs. 9 months; HR, .64; P = .001 for PD-L1 ≥1%",
+                "pfs": null,
+                "hr": "0.64",
+                "ci": null,
+                "orr": null,
+                "notes": "Median OS was significantly longer with nivolumab plus ipilimumab than with chemotherapy alone among patients with tumor cell PD-L1 expression of 1% or greater [67]."
+            },
+            "notes": "Preferred for SCC with PD-L1 CPS ≥1 [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for first-line MSI-H/dMMR SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "39.6%",
+                "notes": "ORR was 39.6% in patients with MSI-H/dMMR cancers [47-50]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly for first-line MSI-H/dMMR SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "1",
+                "n_patients": "209",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "42%",
+                "notes": "ORR was 42% in patients with dMMR solid tumors [51]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab for first-line MSI-H/dMMR SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab for first-line MSI-H/dMMR SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab for first-line MSI-H/dMMR SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil or capecitabine",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-859",
+                "phase": "3",
+                "n_patients": null,
+                "os": "12.6 vs. 9.8 months; HR, 0.65; P < .0001",
+                "pfs": "7.5 vs. 5.5 months; HR, 0.51; P < .0001",
+                "hr": "0.65",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with pembrolizumab plus chemotherapy [36]."
+            },
+            "notes": "For first-line therapy in patients with MSI-H/dMMR tumors [ESOPH-F 5 of 12]."
+        },
+        {
+            "regimen_name": "Ramucirumab and paclitaxel for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "ramucirumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RAINBOW",
+                "phase": "3",
+                "n_patients": "665",
+                "os": "9.63 vs. 7.36 months; P < .0001",
+                "pfs": "4.4 vs. 2.86 months",
+                "hr": null,
+                "ci": null,
+                "orr": "28% vs. 6%; P = .0001",
+                "notes": "Significantly longer median OS with ramucirumab plus paclitaxel compared to paclitaxel alone [69]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy. Category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki for second-line HER2-positive adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fam-trastuzumab deruxtecan-nxki",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "DESTINY-Gastric01",
+                "phase": "2",
+                "n_patients": "188",
+                "os": "12.5 vs. 8.4 months; P = .0097",
+                "pfs": "5.6 vs. 3.5 months",
+                "hr": null,
+                "ci": null,
+                "orr": "40.5% vs. 11%",
+                "notes": "Significant improvements in OS, PFS, and ORR with fam-trastuzumab deruxtecan-nxki compared to chemotherapy [70,71]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy for HER2-positive adenocarcinoma [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Docetaxel for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "COUGAR-02",
+                "phase": "3",
+                "n_patients": null,
+                "os": "5.2 vs. 3.6 months; HR, 0.67; P = .01",
+                "pfs": null,
+                "hr": "0.67",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant increase in 12-month OS with docetaxel compared to active symptom control alone [60,61]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "WJOG 4007",
+                "phase": "3",
+                "n_patients": null,
+                "os": "9.5 vs. 8.4 months; HR, 1.13; P = .38",
+                "pfs": null,
+                "hr": "1.13",
+                "ci": null,
+                "orr": null,
+                "notes": "Similar OS between paclitaxel and irinotecan [56,57,72]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "AIO",
+                "phase": "3",
+                "n_patients": null,
+                "os": "4 vs. 2.4 months",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant survival advantage with irinotecan versus best supportive care [72-75]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and irinotecan for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for second-line or subsequent therapy. Capecitabine cannot be used interchangeably with fluorouracil in regimens containing irinotecan [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Trifluridine and tipiracil for third-line EGJ adenocarcinoma",
+            "site": "Esophagogastric junction adenocarcinoma",
+            "setting": "Third-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "trifluridine and tipiracil",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "TAGS",
+                "phase": "3",
+                "n_patients": "507",
+                "os": "7.4 vs. 5.3 months; HR, 0.69; 95% CI, 0.56–0.85; P = .0003",
+                "pfs": "2.0 vs. 1.7 months; HR, 0.57; 95% CI, 0.47–0.70; P < .0001",
+                "hr": "0.69",
+                "ci": "95% CI, 0.56–0.85",
+                "orr": null,
+                "notes": "Significant improvement in median OS and PFS with trifluridine and tipiracil compared to placebo [78]."
+            },
+            "notes": "Preferred for third-line or subsequent therapy for EGJ adenocarcinoma [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Ramucirumab for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "ramucirumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma",
+            "guideline_category": "alternative",
+            "trial_data": {
+                "trial_name": "REGARD",
+                "phase": "3",
+                "n_patients": "355",
+                "os": "5.2 vs. 3.8 months; P = .047",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant survival benefit for ramucirumab compared to placebo [79]."
+            },
+            "notes": "Other recommended for second-line or subsequent therapy. Category 1 for EGJ adenocarcinoma; category 2A for esophageal adenocarcinoma [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan and cisplatin for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and irinotecan + ramucirumab for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ramucirumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": {
+                "trial_name": "Retrospective analysis",
+                "phase": "2",
+                "n_patients": "29",
+                "os": "13.4 months",
+                "pfs": "6 months",
+                "hr": null,
+                "ci": null,
+                "orr": "23%",
+                "notes": "ORR was 23% with a disease control rate of 79% [81,82]."
+            },
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan and ramucirumab for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ramucirumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Docetaxel and irinotecan for second-line adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Entrectinib, larotrectinib, or repotrectinib for NTRK gene fusion-positive adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK 1/2/3 gene fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For NTRK gene fusion-positive tumors. Repotrectinib can be used in patients whose disease progressed on a prior NTRK-targeted therapy [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for MSI-H/dMMR adenocarcinoma in second-line",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "39.6%",
+                "notes": "ORR was 39.6% in patients with MSI-H/dMMR cancers [47-50]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab for MSI-H/dMMR adenocarcinoma in second-line",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for TMB-H adenocarcinoma in second-line",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB",
+                    "requirement": "TMB-H (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "29%",
+                "notes": "ORR was 29% in patients with TMB-H tumors [50,88]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with TMB-H tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly for MSI-H/dMMR adenocarcinoma in second-line",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "1",
+                "n_patients": "209",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "42%",
+                "notes": "ORR was 42% in patients with dMMR solid tumors [51]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Dabrafenib and trametinib for BRAF V600E-mutated adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH subprotocol H",
+                "phase": "2",
+                "n_patients": "131",
+                "os": "29 months",
+                "pfs": "11.4 months",
+                "hr": null,
+                "ci": null,
+                "orr": "38%",
+                "notes": "ORR was 38% in patients with BRAF V600E-mutated tumors [89]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with BRAF V600E-mutated tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Selpercatinib for RET gene fusion-positive adenocarcinoma",
+            "site": "Esophageal and esophagogastric junction adenocarcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "selpercatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "gene fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "41",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "44%",
+                "notes": "ORR was 44% in patients with RET fusion-positive tumors [90]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with RET gene fusion-positive tumors [ESOPH-F 6 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "ATTRACTION-3",
+                "phase": "3",
+                "n_patients": "419",
+                "os": "10.9 vs. 8.4 months; P = .019",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "19.3% vs. 21.5%",
+                "notes": "Significant improvement in OS with nivolumab compared to chemotherapy [91]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for second-line SCC with PD-L1 CPS ≥10",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥10",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-181",
+                "phase": "3",
+                "n_patients": "628",
+                "os": "9.3 vs. 6.7 months; P = .007",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvement in OS with pembrolizumab compared to chemotherapy [50,92]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy for SCC with PD-L1 CPS ≥10 [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Docetaxel for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "COUGAR-02",
+                "phase": "3",
+                "n_patients": null,
+                "os": "5.2 vs. 3.6 months; HR, 0.67; P = .01",
+                "pfs": null,
+                "hr": "0.67",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant increase in 12-month OS with docetaxel compared to active symptom control alone [60,61]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Paclitaxel for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "WJOG 4007",
+                "phase": "3",
+                "n_patients": null,
+                "os": "9.5 vs. 8.4 months; HR, 1.13; P = .38",
+                "pfs": null,
+                "hr": "1.13",
+                "ci": null,
+                "orr": null,
+                "notes": "Similar OS between paclitaxel and irinotecan [56,57,72]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "AIO",
+                "phase": "3",
+                "n_patients": null,
+                "os": "4 vs. 2.4 months",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Significant survival advantage with irinotecan versus best supportive care [72-75]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Tislelizumab-jsgr for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-302",
+                "phase": "3",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "notes": "Tislelizumab versus chemotherapy as second-line treatment [93,94]."
+            },
+            "notes": "Preferred for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Fluorouracil and irinotecan for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred for second-line or subsequent therapy. Capecitabine cannot be used interchangeably with fluorouracil in regimens containing irinotecan [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Irinotecan and cisplatin for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Docetaxel and irinotecan for second-line SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "alternative",
+            "trial_data": null,
+            "notes": "Other recommended for second-line or subsequent therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Entrectinib, larotrectinib, or repotrectinib for NTRK gene fusion-positive SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK 1/2/3 gene fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For NTRK gene fusion-positive tumors. Repotrectinib can be used in patients whose disease progressed on a prior NTRK-targeted therapy [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for MSI-H/dMMR SCC in second-line",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "39.6%",
+                "notes": "ORR was 39.6% in patients with MSI-H/dMMR cancers [47-50]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab for MSI-H/dMMR SCC in second-line",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate-649",
+                "phase": "3",
+                "n_patients": null,
+                "os": "14.4 vs. 11.1 months; HR, .71; P < .0001",
+                "pfs": "7.7 vs. 6 months; HR, .68; P < .0001",
+                "hr": "0.71",
+                "ci": null,
+                "orr": null,
+                "notes": "Significant improvements in OS and PFS with nivolumab plus chemotherapy [35]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for TMB-H SCC in second-line",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB",
+                    "requirement": "TMB-H (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "29%",
+                "notes": "ORR was 29% in patients with TMB-H tumors [50,88]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with TMB-H tumors [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly for MSI-H/dMMR SCC in second-line",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "1",
+                "n_patients": "209",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "42%",
+                "notes": "ORR was 42% in patients with dMMR solid tumors [51]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with MSI-H/dMMR tumors [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Dabrafenib and trametinib for BRAF V600E-mutated SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH subprotocol H",
+                "phase": "2",
+                "n_patients": "131",
+                "os": "29 months",
+                "pfs": "11.4 months",
+                "hr": null,
+                "ci": null,
+                "orr": "38%",
+                "notes": "ORR was 38% in patients with BRAF V600E-mutated tumors [89]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with BRAF V600E-mutated tumors [ESOPH-F 7 of 12]."
+        },
+        {
+            "regimen_name": "Selpercatinib for RET gene fusion-positive SCC",
+            "site": "Esophageal squamous cell carcinoma",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "selpercatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "gene fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "41",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "44%",
+                "notes": "ORR was 44% in patients with RET fusion-positive tumors [90]."
+            },
+            "notes": "For second-line or subsequent therapy in patients with RET gene fusion-positive tumors [ESOPH-F 7 of 12]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.678221"
+}

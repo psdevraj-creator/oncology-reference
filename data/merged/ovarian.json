@@ -1,0 +1,3457 @@
+{
+    "site_id": "ovarian",
+    "site_display_name": "Ovarian Cancer",
+    "archetype": "B",
+    "regimen_count": 117,
+    "regimens": [
+        {
+            "regimen_name": "Carboplatin/Paclitaxel every 3 weeks",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Standard regimen for stage I–IV high-grade serous, endometrioid (grade 2/3), clear cell, and carcinosarcoma. For stage I disease: 6 cycles for high-grade serous; 3–6 cycles for all other types. For stage II–IV disease: 6 cycles recommended. Albumin-bound paclitaxel may be substituted for hypersensitivity to paclitaxel. Individuals >70 years or with comorbidities may require alternate dosing."
+        },
+        {
+            "regimen_name": "ICON-7 Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days; continue up to 12 additional cycles after chemo"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ICON-7",
+                "phase": "3"
+            },
+            "notes": "For stage II–IV disease or previously untreated recurrent disease. Bevacizumab-containing regimens should be used with caution before surgery due to potential interference with postoperative healing. If used as part of neoadjuvant, withhold bevacizumab 4–6 weeks prior to IDS. Bevacizumab continued for up to 12 additional cycles (total including chemo up to 15 months)."
+        },
+        {
+            "regimen_name": "GOG-218 Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Starting day 1 of cycle 2, every 21 days for up to 22 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG-218",
+                "phase": "3"
+            },
+            "notes": "For stage II–IV disease or previously untreated recurrent disease. Median PFS 10.3 months in chemotherapy group vs 14.1 months in bevacizumab-throughout group. No difference in OS between groups."
+        },
+        {
+            "regimen_name": "Carboplatin/Docetaxel",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "60-75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Similar PFS, OS, and global QOL scores as paclitaxel/carboplatin. May be useful for patients at high risk for neuropathy (eg, diabetes)."
+        },
+        {
+            "regimen_name": "Carboplatin/Liposomal Doxorubicin",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1, every 28 days"
+                },
+                {
+                    "name": "Pegylated Liposomal Doxorubicin",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Higher response rate but similar PFS and OS as paclitaxel/carboplatin. May be useful for select patients at high risk for neurotoxicity or to avoid alopecia. Repeat every 28 days for 3–6 cycles."
+        },
+        {
+            "regimen_name": "Carboplatin Weekly/Paclitaxel Weekly",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "6 cycles (18 weeks). May be considered for those with poor performance status. Albumin-bound paclitaxel may be substituted for hypersensitivity reactions."
+        },
+        {
+            "regimen_name": "IP/IV Cisplatin/Paclitaxel",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "135 mg/m2",
+                    "route": "IV",
+                    "schedule": "Continuous infusion Day 1"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75-100 mg/m2",
+                    "route": "IP",
+                    "schedule": "Day 2 after IV Paclitaxel"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m2",
+                    "route": "IP",
+                    "schedule": "Day 8"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For optimally debulked stage II–III disease. Repeat every 21 days for 5–6 cycles. Patients must have normal renal function. Prior to each cycle, adequate IV fluids needed to prevent renal toxicity. Published trial used IV continuous infusion paclitaxel over 24 hours."
+        },
+        {
+            "regimen_name": "IP/IV Carboplatin/Paclitaxel",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 6",
+                    "route": "IP",
+                    "schedule": "Day 1 after IV Paclitaxel"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Repeat every 21 days for 6–8 cycles. IP carboplatin as part of paclitaxel/carboplatin/bevacizumab combination did not improve PFS or OS compared to IV administration."
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel every 3 weeks",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Cisplatin associated with higher rates of neurotoxicity, GI toxicities, renal toxicity, metabolic toxicities, anemia, and alopecia compared to carboplatin. Repeat every 21 days for 3–9 cycles."
+        },
+        {
+            "regimen_name": "Docetaxel/Oxaliplatin + Bevacizumab",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days; continue to complete 1 year of therapy"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Repeat every 21 days for 6 cycles, then continue Bevacizumab to complete 1 year of therapy."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel 135 (alternate dosing for elderly/comorbidities)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "135 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For individuals >70 years and/or those with comorbidities. 3–6 cycles. Algorithms have been developed for predicting chemotherapy toxicity."
+        },
+        {
+            "regimen_name": "Carboplatin weekly/Paclitaxel weekly (alternate dosing for elderly/comorbidities)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "Over 1 hour, Days 1, 8, 15"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 2",
+                    "route": "IV",
+                    "schedule": "Over 30 minutes, Days 1, 8, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Repeat every 21 days for 6 cycles (18 weeks). For individuals >70 years and/or those with comorbidities."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin/Oxaliplatin (FOLFOX) ± Bevacizumab",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus + 2400 mg/m2 continuous infusion",
+                    "route": "IV",
+                    "schedule": ""
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": ""
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": ""
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks (category 2B for Bevacizumab)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "GI-type chemotherapy for mucinous histology. Retrospective data suggest improved PFS (HR 0.4, 95% CI 0.1–0.97) and OS (HR 0.2, 95% CI 0.1–0.8) with GI regimens compared to gynecologic regimens."
+        },
+        {
+            "regimen_name": "Capecitabine/Oxaliplatin (CAPOX) ± Bevacizumab",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO twice daily",
+                    "route": "PO",
+                    "schedule": "Days 1-14, every 14 days"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 14 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 14 days (category 2B for Bevacizumab)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For mucinous carcinoma of the ovary, stage II–IV disease. Alternative GI-type chemotherapy regimen."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel every 3 weeks (for mucinous carcinoma)",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For mucinous carcinoma stage II–IV disease. Albumin-bound paclitaxel may be substituted for hypersensitivity."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel/Bevacizumab (for mucinous carcinoma)",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days (ICON-7 & GOG-218 dosing)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For mucinous carcinoma stage II–IV disease. Bevacizumab-containing regimen."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel ± Maintenance Letrozole",
+            "site": "Low-Grade Serous Carcinoma / Grade 1 Endometrioid Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Letrozole",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "Daily maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For low-grade serous (stage IC)/Grade 1 endometrioid (stage IC) and stage II–IV. Maintenance letrozole is a category 2A recommendation for low-grade serous and category 2B for grade 1 endometrioid. Tamoxifen is NOT recommended for low-grade serous carcinoma."
+        },
+        {
+            "regimen_name": "Hormone Therapy - Aromatase Inhibitors",
+            "site": "Low-Grade Serous Carcinoma / Grade 1 Endometrioid Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Anastrozole",
+                    "dose": "1 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Letrozole",
+                    "dose": "2.5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Exemestane",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For low-grade serous (stage IC)/Grade 1 endometrioid (stage IC) and stage II–IV. Aromatase inhibitors are preferred hormonal therapy if not used previously."
+        },
+        {
+            "regimen_name": "Hormone Therapy - Other Hormonal Agents",
+            "site": "Low-Grade Serous Carcinoma / Grade 1 Endometrioid Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leuprolide acetate",
+                    "dose": "null",
+                    "route": "IM/SC",
+                    "schedule": "Monthly or every 3 months"
+                },
+                {
+                    "name": "Goserelin acetate",
+                    "dose": "null",
+                    "route": "SC",
+                    "schedule": "Monthly or every 3 months"
+                },
+                {
+                    "name": "Tamoxifen",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Fulvestrant",
+                    "dose": "500 mg",
+                    "route": "IM",
+                    "schedule": "Days 1, 15, 29, then every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For low-grade serous (stage IC)/Grade 1 endometrioid (stage IC) and stage II–IV. Tamoxifen is NOT recommended for low-grade serous carcinoma. Preferred if aromatase inhibitor was given previously."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel/Bevacizumab + Maintenance Bevacizumab (low-grade serous)",
+            "site": "Low-Grade Serous Carcinoma / Grade 1 Endometrioid Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days; maintenance bevacizumab (ICON-7 & GOG-218)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "For low-grade serous/Grade 1 endometrioid stage II–IV disease. ICON-7 & GOG-218 dosing."
+        },
+        {
+            "regimen_name": "VPCBAE (Vinblastine/Cisplatin/Cyclophosphamide/Bleomycin/Doxorubicin/Etoposide)",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SMARCA4 germline",
+                    "requirement": "Testing recommended if not previously done",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Up to 6 cycles. Based on small case series studies. Consider early referral to stem cell transplant center for autologous stem cell collection at the time of cycle 1."
+        },
+        {
+            "regimen_name": "PAVEP (Cisplatin/Doxorubicin/Etoposide/Cyclophosphamide)",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "4–6 cycles. Dose-intensive regimen based on prospective studies in SCCOHT."
+        },
+        {
+            "regimen_name": "BEP (Bleomycin/Etoposide/Cisplatin) - SCCOHT",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "30 units",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "3–4 cycles. Repeat every 21 days. Recommend pulmonary function test if considering bleomycin."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide - SCCOHT",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "4 cycles. Based on small case series studies in SCCOHT."
+        },
+        {
+            "regimen_name": "Pembrolizumab - SCCOHT Recurrence",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Based on dramatic response to checkpoint inhibitor reported in case report."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab - SCCOHT Recurrence",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "DART SWOG S1609",
+                "phase": "2"
+            },
+            "notes": "Dual anti-CTLA-4 and anti-PD-1 blockade. Phase II basket trial of dual anti-CTLA-4 and anti-PD-1 blockade in rare tumors."
+        },
+        {
+            "regimen_name": "Paclitaxel + Bevacizumab - SCCOHT Recurrence",
+            "site": "Small Cell Carcinoma of the Ovary (Hypercalcemic Type - SCCOHT)",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Based on activity in relapsed epithelial ovarian cancer and absence of a taxane in the primary therapy regimens."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide (for select dysgerminoma)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 28 days"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "120 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3, every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For select patients with stage II–III resected dysgerminoma for whom minimizing toxicity is critical. 3 cycles. Consultation with a pediatric oncologist for pediatric/adolescent patients is recommended."
+        },
+        {
+            "regimen_name": "BEP (Bleomycin/Etoposide/Cisplatin) - Malignant Germ Cell Tumors",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "30 units",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Repeat every 21 days for 3 cycles for good risk (category 2B), or 4 cycles for poor risk. For any stage embryonal tumors, endodermal sinus tumors, stage II–IV dysgerminoma, stage I grade 2–3 or stage II–IV immature teratoma, and any stage nongestational choriocarcinoma. Recommend pulmonary function test if considering bleomycin."
+        },
+        {
+            "regimen_name": "TIP (Paclitaxel/Ifosfamide/Mesna/Cisplatin) - Malignant Germ Cell Tumors Recurrence",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Potentially Curative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Potentially curative regimen for recurrent malignant germ cell tumors. Patients should be referred to tertiary care institution for HCT consultation and potentially curative therapy."
+        },
+        {
+            "regimen_name": "High-dose chemotherapy + HCT - Malignant Germ Cell Tumors Recurrence",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Potentially Curative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "High-dose chemotherapy regimens vary among institutions. Some patients are potentially curable with HCT. Patients with potentially curable recurrent germ cell disease should be referred to a tertiary care institution for HCT consultation and potentially curative therapy."
+        },
+        {
+            "regimen_name": "Carboplatin/Docetaxel - Germ Cell Tumor Recurrence (Palliative)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Palliative Only)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "60-75 mg/m2",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Palliative only. For recurrent malignant germ cell tumors."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel - Germ Cell Tumor Recurrence (Palliative)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Palliative Only)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Palliative only. For recurrent malignant germ cell tumors."
+        },
+        {
+            "regimen_name": "Gemcitabine/Oxaliplatin/Paclitaxel - Germ Cell Tumor Recurrence (Palliative)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Palliative Only)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Palliative only. For recurrent malignant germ cell tumors."
+        },
+        {
+            "regimen_name": "Gemcitabine/Oxaliplatin - Germ Cell Tumor Recurrence (Palliative)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Palliative Only)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Palliative only. For recurrent malignant germ cell tumors."
+        },
+        {
+            "regimen_name": "Gemcitabine/Paclitaxel - Germ Cell Tumor Recurrence (Palliative)",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence (Palliative Only)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Palliative only. For recurrent malignant germ cell tumors."
+        },
+        {
+            "regimen_name": "VAC (Vincristine/Dactinomycin/Cyclophosphamide) - Germ Cell Tumor Recurrence",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Dactinomycin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For recurrent malignant germ cell tumors. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "VEIP (Vinblastine/Ifosfamide/Mesna/Cisplatin) - Germ Cell Tumor Recurrence",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For recurrent malignant germ cell tumors. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "VIP (Etoposide/Ifosfamide/Mesna/Cisplatin) - Germ Cell Tumor Recurrence",
+            "site": "Malignant Germ Cell Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For recurrent malignant germ cell tumors. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel - Sex Cord-Stromal Tumors Primary Therapy",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred regimen for stage II–IV or all others with intermediate risk (eg, heterologous elements). Acceptable options include carboplatin/paclitaxel (preferred), EP, or BEP (category 2B)."
+        },
+        {
+            "regimen_name": "Etoposide/Cisplatin (EP) - Sex Cord-Stromal Tumors",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Acceptable option for adjuvant therapy of sex cord-stromal tumors (category 2B)."
+        },
+        {
+            "regimen_name": "BEP (Bleomycin/Etoposide/Cisplatin) - Sex Cord-Stromal Tumors",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Primary Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "30 units",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Acceptable option for adjuvant therapy of sex cord-stromal tumors (category 2B). Recommend pulmonary function test if considering bleomycin."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel - Sex Cord-Stromal Tumors Recurrence",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred recurrence therapy for malignant sex cord-stromal tumors."
+        },
+        {
+            "regimen_name": "Targeted Therapy - Bevacizumab (Sex Cord-Stromal Tumors Recurrence)",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single agent bevacizumab as targeted therapy for recurrent sex cord-stromal tumors. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Carboplatin/Gemcitabine ± Bevacizumab - Platinum-Sensitive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "OCEANS",
+                "phase": "3"
+            },
+            "notes": "Combination platinum-based chemotherapy preferred for first recurrence (category 1). OCEANS trial showed improvement in PFS and response rates with addition of bevacizumab. Contraindicated for patients at increased risk of GI perforation. Bevacizumab can be continued as maintenance if response."
+        },
+        {
+            "regimen_name": "Carboplatin/Liposomal Doxorubicin ± Bevacizumab - Platinum-Sensitive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1, every 28 days"
+                },
+                {
+                    "name": "Pegylated Liposomal Doxorubicin",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 28 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Equivalent to carboplatin/paclitaxel but different toxicity profile. May be easier to tolerate."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel ± Bevacizumab - Platinum-Sensitive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG-0213",
+                "phase": "3"
+            },
+            "notes": "Combination platinum-based chemotherapy preferred for first recurrence (category 1). GOG-0213 showed bevacizumab slightly increased median OS when combined with chemotherapy (HR 0.829; 95% CI 0.683–1.005; P=.056). Albumin-bound paclitaxel may be substituted for confirmed taxane hypersensitivity."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine - Platinum-Sensitive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Platinum-based combination chemotherapy for platinum-sensitive recurrence."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Relacorilant - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Relacorilant",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ROSELLA",
+                "phase": "3"
+            },
+            "notes": "For patients who have been treated with up to three lines of therapy and prior bevacizumab. Steroid premedication should not be used. Phase 3 open-label, randomised, controlled trial."
+        },
+        {
+            "regimen_name": "Docetaxel - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred cytotoxic therapy for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Gemcitabine - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred cytotoxic therapy for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pegylated Liposomal Doxorubicin",
+                    "dose": "40-50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred cytotoxic therapy for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin + Bevacizumab - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pegylated Liposomal Doxorubicin",
+                    "dose": "40-50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "AURELIA trial showed bevacizumab combined with chemotherapy improved ORR and PFS compared to chemotherapy alone in platinum-resistant disease. Contraindicated for patients at increased risk of GI perforation."
+        },
+        {
+            "regimen_name": "Paclitaxel (Weekly) - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred cytotoxic therapy. Weekly schedule. Albumin-bound paclitaxel may be substituted for hypersensitivity."
+        },
+        {
+            "regimen_name": "Paclitaxel (Weekly) + Bevacizumab - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred regimen for platinum-resistant recurrent ovarian cancer. AURELIA trial data."
+        },
+        {
+            "regimen_name": "Oral Cyclophosphamide + Bevacizumab - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oral Cyclophosphamide",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "Metronomic dosing"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Metronomic oral cyclophosphamide with bevacizumab for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Topotecan - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred cytotoxic therapy for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Topotecan + Bevacizumab - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred regimen for platinum-resistant recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Mirvetuximab Soravtansine-gynx (single agent) - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mirvetuximab Soravtansine-gynx",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRα",
+                    "requirement": "≥75% positive tumor cells by IHC",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SORAYA",
+                "phase": "3",
+                "n_patients": "453"
+            },
+            "notes": "For FRα-expressing tumors (≥75% positive tumor cells). Phase 3 trial showed significantly longer OS compared with chemotherapy (median 16.46 vs 12.75 months; HR for death 0.67; 95% CI 0.50–0.89; P=.005). For patients treated with two prior lines of platinum-based therapy."
+        },
+        {
+            "regimen_name": "Mirvetuximab Soravtansine-gynx + Bevacizumab - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mirvetuximab Soravtansine-gynx",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRα",
+                    "requirement": "≥25% positive tumor cells",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For FRα-expressing tumors (≥25% positive tumor cells). Promising activity regardless of FRα expression level or prior bevacizumab treatment."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab Deruxtecan-nxki - Platinum-Resistant Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab Deruxtecan-nxki",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "IHC 3+ or 2+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "2"
+            },
+            "notes": "For HER2-positive tumors (IHC 3+ or 2+). Category 2A for platinum-resistant, category 2B for platinum-sensitive. FDA granted accelerated approval for adult patients with unresectable or metastatic HER2-positive solid tumors. ORR 63.6% in IHC 3+ and 36.8% in IHC 2+ tumors."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib - BRAF V600E-positive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E",
+                    "requirement": "Mutation-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH subprotocol H",
+                "phase": "2"
+            },
+            "notes": "For BRAF V600E-positive tumors. NCI-MATCH trial showed ORR 38%, PFS 11.4 months. Clinical benefits observed in 6 patients with primary gynecologic cancer."
+        },
+        {
+            "regimen_name": "Entrectinib/Larotrectinib/Repotrectinib - NTRK Fusion-positive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Larotrectinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Repotrectinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "NTRK inhibitors for NTRK gene fusion-positive solid tumors. Larotrectinib ORR 79% (95% CI 72%–85%) with 16% CR. FDA approved for NTRK fusion-positive solid tumors."
+        },
+        {
+            "regimen_name": "Selpercatinib - RET Fusion-positive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2"
+            },
+            "notes": "For RET fusion-positive tumors. Tumor agnostic basket trial showed ORR 43.9% (95% CI 28.5–60.3) in 18 of 41 patients. FDA accelerated approval."
+        },
+        {
+            "regimen_name": "Trametinib - Low-Grade Serous Carcinoma Recurrence",
+            "site": "Low-Grade Serous Carcinoma",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trametinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GOG 281/LOGS",
+                "phase": "2/3"
+            },
+            "notes": "MEK1/2 inhibitor. Randomized trial showed median PFS 13.0 months vs 7.2 months for chemotherapy (HR 0.48; 95% CI 0.36–0.64; P<.0001). ORR 26% vs 6% for chemotherapy. Most common grade 3/4 AEs: skin rash, anemia, hypertension, diarrhea, nausea, fatigue."
+        },
+        {
+            "regimen_name": "Binimetinib - Low-Grade Serous Carcinoma Recurrence",
+            "site": "Low-Grade Serous Carcinoma",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Binimetinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MILO/ENGOT-ov11",
+                "phase": "3"
+            },
+            "notes": "Category 2B. Median PFS 9.1 vs 10.6 months for physician's choice chemotherapy (HR 1.21; 95% CI 0.79–1.86; P=.807). Numerically superior ORR (16% vs 13%)."
+        },
+        {
+            "regimen_name": "Avutometinib/Defactinib - KRAS-mutated Low-Grade Serous Carcinoma Recurrence",
+            "site": "Low-Grade Serous Carcinoma",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avutometinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Defactinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "Mutation-positive (preferred)",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ENGOTOV60/GOG-3052/RAMP 201",
+                "phase": "2"
+            },
+            "notes": "For KRAS-mutated tumors (preferred). Phase II trial showed ORR 44% in KRAS-mutant vs 17% in KRAS wild-type. Median PFS 22.0 months vs 12.8 months. Most frequent grade ≥3 AEs: elevated creatine phosphokinase, diarrhea, anemia."
+        },
+        {
+            "regimen_name": "Mirvetuximab Soravtansine-gynx - Platinum-Sensitive Recurrence",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mirvetuximab Soravtansine-gynx",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRα",
+                    "requirement": "≥75% positive tumor cells by IHC",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "PICCOLO",
+                "phase": "2"
+            },
+            "notes": "Tested in platinum-sensitive disease treated with ≥2 lines of prior therapy. Found to have consistent efficacy with tolerable safety."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly - dMMR/MSI-H Recurrent Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI/dMMR",
+                    "requirement": "dMMR or MSI-H",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "2"
+            },
+            "notes": "For dMMR/MSI-H recurrent or advanced tumors. ORR 44.1% across multiple tumor types. 3 of 7 ovarian cancer patients had partial response. FDA accelerated approval."
+        },
+        {
+            "regimen_name": "Pembrolizumab - MSI-H/dMMR Recurrent Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR, or TMB-H ≥10 mutations/megabase",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2"
+            },
+            "notes": "For MSI-H/dMMR solid tumors or TMB-H tumors ≥10 mutations/megabase. 15 patients with ovarian cancer included; 3 CR and 2 PR observed. FDA approved for tumor-agnostic indication."
+        },
+        {
+            "regimen_name": "Paclitaxel + Pembrolizumab ± Bevacizumab - Platinum-Resistant Recurrence (PD-L1+)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 CPS",
+                    "requirement": "CPS ≥1 by FDA-approved test",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-B96/ENGOT-ov65",
+                "phase": "3"
+            },
+            "notes": "For PD-L1 CPS ≥1 tumors. Tumors with CPS ≥1 are considered PD-L1 positive. Interim analysis showed pembrolizumab significantly improved PFS in PD-L1 CPS ≥1 population (8.3 vs 7.2 months; P=.0014) and OS (18.2 vs 14 months; P=.0053). Phase 3 randomized double-blind trial."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab - Platinum-Resistant Clear Cell Carcinoma",
+            "site": "Clear Cell Carcinoma of the Ovary",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For clear cell carcinoma. Phase 2 non-randomized trial showed ORR 55%, median duration of response not reached. Grade 3/4 AEs in 35% of patients. Another randomized phase 2 trial showed ORR 26.7% for combination vs 14.2% for nivolumab alone."
+        },
+        {
+            "regimen_name": "FOLFIRI ± Bevacizumab - Mucinous Carcinoma Recurrence",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable, category 2B)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "GI-type chemotherapy for recurrent mucinous carcinoma. Category 2B for bevacizumab addition."
+        },
+        {
+            "regimen_name": "Fulvestrant - Low-Grade Serous Carcinoma Recurrence",
+            "site": "Low-Grade Serous Carcinoma",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fulvestrant",
+                    "dose": "500 mg",
+                    "route": "IM",
+                    "schedule": "Days 1, 15, 29, then every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For low-grade serous carcinoma. Recommended if aromatase inhibitor was given previously."
+        },
+        {
+            "regimen_name": "Pazopanib - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II",
+                "phase": "2",
+                "n_patients": "36"
+            },
+            "notes": "Category 2B. ORR 18% in phase 2 trial. Grade 3 ALT/AST elevations in 8% of patients."
+        },
+        {
+            "regimen_name": "Carboplatin - Platinum-Resistant Recurrence (limited role)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Platinum agents have limited activity when disease has demonstrated growth through a platinum-based regimen. Platinum rechallenge is generally not recommended in this setting."
+        },
+        {
+            "regimen_name": "Bevacizumab (single agent) - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Response rate for single-agent bevacizumab is about 20%. May cause hypertension, arterial thrombosis, or intestinal perforation. Contraindicated for patients at increased risk of GI perforation."
+        },
+        {
+            "regimen_name": "Niraparib + Bevacizumab - Platinum-Sensitive Recurrence (category 2B)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Sensitive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NSGO-AVANOVA2/ENGOT-ov24",
+                "phase": "2"
+            },
+            "notes": "Category 2B. Phase 2 superiority trial of niraparib plus bevacizumab versus niraparib alone."
+        },
+        {
+            "regimen_name": "Olaparib Maintenance - First-Line (BRCA-mutated)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (First-Line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline or somatic P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SOLO-1",
+                "phase": "3"
+            },
+            "notes": "For patients with germline or somatic BRCA1/2 P/LP variants who achieve CR/PR after first-line platinum-based chemotherapy. Up to 2 years unless disease progression or unacceptable toxicity. 7-year follow-up showed 67% alive vs 46% with placebo. Patients who received bevacizumab during primary therapy excluded."
+        },
+        {
+            "regimen_name": "Olaparib + Bevacizumab Maintenance - First-Line (HRD-positive)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (First-Line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HRD",
+                    "requirement": "HRD-positive (includes BRCA1/2 P/LP variants)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PAOLA-1/ENGOT-ov25",
+                "phase": "3"
+            },
+            "notes": "For patients with HRD-positive tumors treated with olaparib/bevacizumab vs bevacizumab monotherapy. Clinically meaningful OS benefit for HRD-positive (HR 0.62; 95% CI 0.45–0.85). Olaparib up to 2 years; bevacizumab up to 15 months total (including chemotherapy). If unable to tolerate olaparib, consider niraparib + bevacizumab."
+        },
+        {
+            "regimen_name": "Niraparib Maintenance - First-Line",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (First-Line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Daily (or 200 mg for patients with baseline body weight <77 kg and/or platelet count <150,000/mm3)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline or somatic P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PRIMA/ENGOT-OV26/GOG3012",
+                "phase": "3"
+            },
+            "notes": "For BRCA1/2-mutated patients. Up to 3 years unless disease progression or unacceptable toxicity. PRIMA trial showed significant PFS improvement with niraparib vs placebo in HRD (21.9 vs 10.4 months; P<.001) and ITT (13.8 vs 8.2 months). No OS difference observed."
+        },
+        {
+            "regimen_name": "Rucaparib Maintenance - First-Line",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (First-Line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rucaparib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline or somatic P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ATHENA-MONO/GOG3020/ENGOT-ov45",
+                "phase": "3"
+            },
+            "notes": "For BRCA1/2-mutated patients. Up to 2 years unless disease progression or unacceptable toxicity. ATHENA-MONO trial demonstrated significant clinical benefit in HRD and overall ITT population."
+        },
+        {
+            "regimen_name": "Niraparib + Bevacizumab Maintenance - First-Line",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (First-Line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Daily (or 200 mg for patients with baseline body weight <77 kg and/or platelet count <150,000/mm3)"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "OVARIO",
+                "phase": "2"
+            },
+            "notes": "For patients unable to tolerate olaparib. Niraparib up to 3 years; bevacizumab up to 15 months total. OVARIO phase II trial: 62% of all patients, 76% HRD, 47% HRP, 56% HR unknown remained progression-free at 18 months. 5-year follow-up: median OS 61.1 months overall; not reached in HRD subgroup."
+        },
+        {
+            "regimen_name": "Niraparib Maintenance - Recurrent Platinum-Sensitive (BRCA-mutated)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (Recurrence)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Daily (or 200 mg for patients with baseline body weight <77 kg and/or platelet count <150,000/mm3)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NOVA",
+                "phase": "3"
+            },
+            "notes": "For germline BRCA1/2-mutated platinum-sensitive recurrent ovarian cancer after response to platinum therapy. Until disease progression or unacceptable toxicity. Caution when using maintenance PARPi >24 months. Limited data on prior PARPi use."
+        },
+        {
+            "regimen_name": "Olaparib Maintenance - Recurrent Platinum-Sensitive (BRCA-mutated)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (Recurrence)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline or somatic P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SOLO2/ENGOT-Ov21",
+                "phase": "3"
+            },
+            "notes": "For germline or somatic BRCA1/2 P/LP variants with platinum-sensitive recurrent disease after response to platinum therapy. Until disease progression or unacceptable toxicity. Limited data on prior PARPi use."
+        },
+        {
+            "regimen_name": "Rucaparib Maintenance - Recurrent Platinum-Sensitive (BRCA-mutated)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Maintenance (Recurrence)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rucaparib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "Germline or somatic P/LP variants",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ARIEL3",
+                "phase": "3"
+            },
+            "notes": "For germline or somatic BRCA1/2 P/LP variants with platinum-sensitive recurrent disease after response to platinum therapy. Until disease progression or unacceptable toxicity. 21% of rucaparib patients had PFS ≥2 years vs 2% placebo."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel every 3 weeks (Carcinosarcoma preferred)",
+            "site": "Carcinosarcoma (MMMT) of the Ovary",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2",
+                    "requirement": "If known, consider maintenance therapy post-primary therapy",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred adjuvant treatment for carcinosarcoma (MMMTs) of the ovary. If known BRCA1/2 mutation, consider maintenance therapy post-primary therapy. If not previously done, consider germline and somatic biomarker testing."
+        },
+        {
+            "regimen_name": "Carboplatin/Ifosfamide (Carcinosarcoma)",
+            "site": "Carcinosarcoma (MMMT) of the Ovary",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For carcinosarcoma. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Cisplatin/Ifosfamide/Mesna (Carcinosarcoma)",
+            "site": "Carcinosarcoma (MMMT) of the Ovary",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For carcinosarcoma. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Ifosfamide/Mesna/Paclitaxel (Carcinosarcoma, category 2B)",
+            "site": "Carcinosarcoma (MMMT) of the Ovary",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B for carcinosarcoma. Albumin-bound paclitaxel may be substituted for hypersensitivity."
+        },
+        {
+            "regimen_name": "Irinotecan/Cisplatin - Clear Cell Carcinoma Recurrence",
+            "site": "Clear Cell Carcinoma of the Ovary",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "JGOG3017/GCIG",
+                "phase": "3"
+            },
+            "notes": "For clear cell carcinoma recurrence. Randomized phase III trial compared irinotecan/cisplatin vs paclitaxel/carboplatin as first-line chemotherapy for ovarian clear cell carcinoma."
+        },
+        {
+            "regimen_name": "Cyclophosphamide - Recurrent Ovarian Cancer (single agent)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "null",
+                    "route": "PO/IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single-agent cyclophosphamide for recurrent disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Doxorubicin - Recurrent Ovarian Cancer (single agent)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single-agent doxorubicin for recurrent disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Ifosfamide/Mesna - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-sensitive disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Paclitaxel (single agent) - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single-agent paclitaxel for recurrent disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel (single agent) - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single-agent albumin-bound paclitaxel for recurrent disease."
+        },
+        {
+            "regimen_name": "Pemetrexed - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-sensitive disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Vinorelbine - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-sensitive disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Oral Etoposide - Recurrent Platinum-Resistant Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oral Etoposide",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Prolonged oral etoposide as second-line therapy for platinum-resistant and platinum-sensitive ovarian carcinoma."
+        },
+        {
+            "regimen_name": "Irinotecan - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-resistant disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Oxaliplatin - Recurrent Ovarian Cancer",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-sensitive disease. Other recommended option."
+        },
+        {
+            "regimen_name": "Gemcitabine + Bevacizumab - Recurrent Platinum-Resistant Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "For recurrent platinum-resistant disease. Phase II study showed combination is active."
+        },
+        {
+            "regimen_name": "Ixabepilone + Bevacizumab (category 2B) - Recurrent Platinum-Resistant Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixabepilone",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Category 2B. For those previously treated with taxanes."
+        },
+        {
+            "regimen_name": "Oral Cyclophosphamide + Pembrolizumab + Bevacizumab - Recurrent Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oral Cyclophosphamide",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "Metronomic"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Phase 2 non-randomized clinical trial showed efficacy and safety of this combination for recurrent ovarian cancer."
+        },
+        {
+            "regimen_name": "Sorafenib/Topotecan - Recurrent Platinum-Resistant Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "TRIAS",
+                "phase": "2"
+            },
+            "notes": "Multicentre, randomised, double-blind, placebo-controlled, phase 2 trial."
+        },
+        {
+            "regimen_name": "Aromatase Inhibitors (Anastrozole/Exemestane/Letrozole) - Recurrent Disease",
+            "site": "Low-Grade Serous Carcinoma / Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Anastrozole",
+                    "dose": "1 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Exemestane",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Letrozole",
+                    "dose": "2.5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For low-grade serous carcinoma and sex cord-stromal tumors. Aromatase inhibitors preferred if not used previously. Also listed as useful in certain circumstances for sex cord-stromal tumor recurrence."
+        },
+        {
+            "regimen_name": "Leuprolide acetate or Goserelin acetate - Recurrent Sex Cord-Stromal Tumors",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leuprolide acetate",
+                    "dose": "null",
+                    "route": "IM/SC",
+                    "schedule": "Monthly or every 3 months"
+                },
+                {
+                    "name": "Goserelin acetate",
+                    "dose": "null",
+                    "route": "SC",
+                    "schedule": "Monthly or every 3 months"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For granulosa cell tumors. Useful in certain circumstances for sex cord-stromal tumor recurrence."
+        },
+        {
+            "regimen_name": "Tamoxifen - Recurrent Sex Cord-Stromal Tumors",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tamoxifen",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For sex cord-stromal tumor recurrence. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "FOLFOX - Mucinous Carcinoma Recurrence (useful in certain circumstances)",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable, category 2B)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For recurrent mucinous carcinoma. GI-type chemotherapy regimen."
+        },
+        {
+            "regimen_name": "CAPOX - Mucinous Carcinoma Recurrence (useful in certain circumstances)",
+            "site": "Mucinous Carcinoma of the Ovary",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO",
+                    "route": "PO",
+                    "schedule": "Twice daily, Days 1-14"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 14 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null (if applicable, category 2B)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For recurrent mucinous carcinoma. GI-type chemotherapy regimen."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (Age >70) - Recurrent Platinum-Resistant Disease",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence (Platinum-Resistant)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For age >70 patients with platinum-resistant disease. Useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib - BRAF V600E-positive Recurrence (Useful in Certain Circumstances)",
+            "site": "Epithelial Ovarian/Fallopian Tube/Primary Peritoneal Cancer",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "null",
+                    "route": "PO",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E",
+                    "requirement": "Mutation-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH subprotocol H",
+                "phase": "2"
+            },
+            "notes": "Listed under useful in certain circumstances for both platinum-sensitive and platinum-resistant recurrent disease."
+        },
+        {
+            "regimen_name": "VAC (Vincristine/Dactinomycin/Cyclophosphamide) - Sex Cord-Stromal Tumors Recurrence",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Dactinomycin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B. For sex cord-stromal tumor recurrence if not previously used."
+        },
+        {
+            "regimen_name": "BEP (Bleomycin/Etoposide/Cisplatin) - Sex Cord-Stromal Tumors Recurrence (category 2B)",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "30 units",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Daily, Days 1-5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B. For sex cord-stromal tumor recurrence if not previously used."
+        },
+        {
+            "regimen_name": "EP (Etoposide/Cisplatin) - Sex Cord-Stromal Tumors Recurrence",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "If not previously used. For sex cord-stromal tumor recurrence."
+        },
+        {
+            "regimen_name": "Ifosfamide/Paclitaxel - Sex Cord-Stromal Tumors Recurrence",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended option for sex cord-stromal tumor recurrence."
+        },
+        {
+            "regimen_name": "Paclitaxel (single agent) - Sex Cord-Stromal Tumors Recurrence",
+            "site": "Malignant Sex Cord-Stromal Tumors",
+            "setting": "Recurrence",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "null",
+                    "route": "IV",
+                    "schedule": "null"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended option for sex cord-stromal tumor recurrence."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.209876"
+}

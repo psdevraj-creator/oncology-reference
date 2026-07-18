@@ -1,0 +1,2152 @@
+{
+    "site_id": "cervical",
+    "site_display_name": "Cervical Cancer",
+    "archetype": "D",
+    "regimen_count": 60,
+    "regimens": [
+        {
+            "regimen_name": "Cisplatin + Pembrolizumab (concurrent with chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (for FIGO 2014 stage IIIA, IIIB, IVA); Category 2B (for select FIGO 2018 stage III-IVA)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-A18",
+                "phase": "Phase 3",
+                "n_patients": "1060 eligible patients with newly diagnosed, previously untreated, high-risk locally advanced cervical cancer",
+                "os": null,
+                "pfs": "PFS HR estimate 0.59 (95% CI, 0.43–0.82) in exploratory subgroup analysis of 596 patients with FIGO 2014 stage III–IVA disease",
+                "hr": "0.59 (95% CI, 0.43–0.82)",
+                "ci": "95% CI, 0.43–0.82",
+                "orr": null
+            },
+            "notes": "Concurrent platinum-containing chemotherapy with EBRT utilizes cisplatin as a single agent. Pembrolizumab may be added with CRT as follows: cisplatin/RT and pembrolizumab (FIGO 2014 stage IIIA, IIIB, and IVA: category 1); cisplatin/RT and pembrolizumab (select FIGO 2018 stage III–IVA: category 2B). Category 2B is for FIGO 2018 stage IIIC purely on nodal metastasis without concomitant tumor characteristics defined in 2014 FIGO stage IIIA–IIIB. If the FIGO 2018 staging of stage III overlaps with FIGO 2014 IIIA/IIIB staging, category 1 can be applied. [1]"
+        },
+        {
+            "regimen_name": "Carboplatin + Pembrolizumab (concurrent with chemoradiation, cisplatin-intolerant)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (for FIGO 2014 stage IIIA, IIIB, IVA); Category 2B (for select FIGO 2018 stage III-IVA)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-A18",
+                "phase": "Phase 3",
+                "n_patients": "1060 eligible patients with newly diagnosed, previously untreated, high-risk locally advanced cervical cancer",
+                "os": null,
+                "pfs": "PFS HR estimate 0.59 (95% CI, 0.43–0.82) in exploratory subgroup analysis of 596 patients with FIGO 2014 stage III–IVA disease",
+                "hr": "0.59 (95% CI, 0.43–0.82)",
+                "ci": "95% CI, 0.43–0.82",
+                "orr": null
+            },
+            "notes": "For patients who are cisplatin intolerant, carboplatin may be used instead. [1]"
+        },
+        {
+            "regimen_name": "Cisplatin (single agent, concurrent with chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Cisplatin remains the preferred radiosensitizing agent in the primary treatment for patients with locally advanced cervical cancer when used concomitantly with EBRT. [1]"
+        },
+        {
+            "regimen_name": "Carboplatin (single agent, concurrent with chemoradiation, cisplatin-intolerant)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Carboplatin is a preferred radiosensitizing agent for patients who are cisplatin intolerant. [1]"
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin (concurrent with chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "If single-agent Cisplatin and Carboplatin are unavailable. [1]"
+        },
+        {
+            "regimen_name": "Gemcitabine (concurrent with chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "If single-agent Cisplatin and Carboplatin are unavailable. [1]"
+        },
+        {
+            "regimen_name": "Paclitaxel (concurrent with chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IB3, IIA2, IIB, III, IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "If single-agent Cisplatin and Carboplatin are unavailable. [1]"
+        },
+        {
+            "regimen_name": "Induction chemotherapy: Carboplatin/Paclitaxel (followed by chemoradiation)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Locally Advanced (Stage IIB-IVA)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "INTERLACE",
+                "phase": "Phase 3",
+                "n_patients": "500 eligible patients with LACC",
+                "os": "5-year OS rates were 80% in the induction chemotherapy with chemoradiotherapy group and 72% in the chemoradiotherapy alone group (HR = 0.60; 95% CI, 0.40–0.91; P = .015)",
+                "pfs": "5-year PFS rates were 72% in the induction chemotherapy with chemoradiotherapy group and 64% in the chemoradiotherapy alone group (HR = 0.65; 95% CI, 0.46–0.91; P = .013)",
+                "hr": "0.60 (95% CI, 0.40–0.91) for OS; 0.65 (95% CI, 0.46–0.91) for PFS",
+                "ci": "95% CI, 0.40–0.91 (OS); 95% CI, 0.46–0.91 (PFS)",
+                "orr": null
+            },
+            "notes": "Induction chemotherapy (carboplatin/paclitaxel) followed by single-agent cisplatin (or carboplatin) and radiation given according to the INTERLACE protocol could be considered. [6]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive (CPS ≥1)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "Phase 3",
+                "n_patients": "617 patients with previously untreated persistent, recurrent, or metastatic cervical cancer (548 with PD-L1–positive CPS ≥1 tumors)",
+                "os": "At 24 months: 50.4% vs 40.4% (HR, 0.67; 95% CI, 0.54–0.84; P < .001); final updated analysis: median OS 28.6 vs 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.4 vs 8.2 months (HR, 0.65; 95% CI, 0.53–0.79; P < .001); final updated analysis: median PFS 10.5 vs 8.2 months",
+                "hr": "0.67 (95% CI, 0.54–0.84) for OS; 0.65 (95% CI, 0.53–0.79) for PFS; updated: OS HR 0.60 (95% CI, 0.49–0.74)",
+                "ci": "95% CI, 0.54–0.84 (OS); 95% CI, 0.53–0.79 (PFS); updated: 95% CI, 0.49–0.74 (OS)",
+                "orr": "ORR 68.1% vs 50.2% in PD-L1–positive tumors"
+            },
+            "notes": "Pembrolizumab plus chemotherapy with or without bevacizumab is a preferred, category 1 treatment option for patients with PD-L1–positive (CPS ≥1) recurrent or metastatic cervical cancer. Checkpoint inhibitors and/or monoclonal antibodies included in this regimen may be continued as maintenance therapy. [7, 8]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive (CPS ≥1)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "Phase 3",
+                "n_patients": "617 patients with previously untreated persistent, recurrent, or metastatic cervical cancer (548 with PD-L1–positive CPS ≥1 tumors)",
+                "os": "At 24 months: 50.4% vs 40.4% (HR, 0.67; 95% CI, 0.54–0.84; P < .001); final updated analysis: median OS 28.6 vs 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.4 vs 8.2 months (HR, 0.65; 95% CI, 0.53–0.79; P < .001); final updated analysis: median PFS 10.5 vs 8.2 months",
+                "hr": "0.67 (95% CI, 0.54–0.84) for OS; 0.65 (95% CI, 0.53–0.79) for PFS; updated: OS HR 0.60 (95% CI, 0.49–0.74)",
+                "ci": "95% CI, 0.54–0.84 (OS); 95% CI, 0.53–0.79 (PFS); updated: 95% CI, 0.49–0.74 (OS)",
+                "orr": "ORR 68.1% vs 50.2% in PD-L1–positive tumors"
+            },
+            "notes": "For patients who are cisplatin intolerant, carboplatin may be used instead. [7, 8]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "Phase 3",
+                "n_patients": "452 patients with metastatic, persistent, or recurrent cervical cancer",
+                "os": "Median OS 16.8 vs 13.3 months (P = .007) for bevacizumab vs no bevacizumab",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Platinum-based chemotherapy (cisplatin or carboplatin)/paclitaxel with bevacizumab is a preferred, first-line treatment option. [8, 288, 289]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "JCOG0505",
+                "phase": "Phase 3",
+                "n_patients": "253 patients with metastatic or recurrent cervical cancer",
+                "os": "Median OS 18.3 months for cisplatin/paclitaxel vs 17.5 months for carboplatin/paclitaxel (HR = 0.994 [90% CI, 0.79–1.25]; P = .032)",
+                "pfs": null,
+                "hr": "0.994 (90% CI, 0.79–1.25)",
+                "ci": "90% CI, 0.79–1.25",
+                "orr": null
+            },
+            "notes": "Carboplatin/paclitaxel is noninferior to cisplatin/paclitaxel and may be easier to administer. [292, 303]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Atezolizumab + Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "BEATcc",
+                "phase": "Phase 3",
+                "n_patients": "519 patients with measurable, previously untreated metastatic, persistent, or recurrent cervical cancer",
+                "os": "Median OS 32.1 months (95% CI, 25.3–36.8) vs 22.8 months (95% CI, 20.3–28.0) (HR = 0.68; 95% CI, 0.52–0.88; P = .0046)",
+                "pfs": "Median PFS 13.7 months (95% CI, 12.3–16.6) vs 10.4 months (95% CI, 9.7–11.7) (HR = 0.62; 95% CI, 0.49–0.78; P < .0001)",
+                "hr": "0.68 (95% CI, 0.52–0.88) for OS; 0.62 (95% CI, 0.49–0.78) for PFS",
+                "ci": "95% CI, 0.52–0.88 (OS); 95% CI, 0.49–0.78 (PFS)",
+                "orr": null
+            },
+            "notes": "Addition of atezolizumab to bevacizumab plus chemotherapy combination is a category 1 preferred regimen. [9, 293]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Atezolizumab + Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "BEATcc",
+                "phase": "Phase 3",
+                "n_patients": "519 patients with measurable, previously untreated metastatic, persistent, or recurrent cervical cancer",
+                "os": "Median OS 32.1 months (95% CI, 25.3–36.8) vs 22.8 months (95% CI, 20.3–28.0) (HR = 0.68; 95% CI, 0.52–0.88; P = .0046)",
+                "pfs": "Median PFS 13.7 months (95% CI, 12.3–16.6) vs 10.4 months (95% CI, 9.7–11.7) (HR = 0.62; 95% CI, 0.49–0.78; P < .0001)",
+                "hr": "0.68 (95% CI, 0.52–0.88) for OS; 0.62 (95% CI, 0.49–0.78) for PFS",
+                "ci": "95% CI, 0.52–0.88 (OS); 95% CI, 0.49–0.78 (PFS)",
+                "orr": null
+            },
+            "notes": "For patients who are cisplatin intolerant, carboplatin may be used instead. [9, 293]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel (without Bevacizumab or IO)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "Phase 3",
+                "n_patients": "264 patients with metastatic, recurrent, or persistent cervical cancer",
+                "os": "Median survival not significantly different",
+                "pfs": "4.8 vs 2.8 months (P > .001)",
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 36% vs 19%"
+            },
+            "notes": "Cisplatin/paclitaxel is a widely used regimen. [10, 270, 307]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (without Bevacizumab or IO)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (for patients who have received prior Cisplatin therapy)",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "JCOG0505",
+                "phase": "Phase 3",
+                "n_patients": "253 patients with metastatic or recurrent cervical cancer",
+                "os": "Median OS 18.3 months for cisplatin/paclitaxel vs 17.5 months for carboplatin/paclitaxel (HR = 0.994 [90% CI, 0.79–1.25]; P = .032)",
+                "pfs": null,
+                "hr": "0.994 (90% CI, 0.79–1.25)",
+                "ci": "90% CI, 0.79–1.25",
+                "orr": null
+            },
+            "notes": "Carboplatin/paclitaxel is noninferior to cisplatin/paclitaxel and may be used in patients who have received prior cisplatin. [12, 13, 292, 303]"
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan + Bevacizumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "Phase 3",
+                "n_patients": "452 patients with metastatic, persistent, or recurrent cervical cancer",
+                "os": "Median OS 16.8 vs 13.3 months (P = .007) for bevacizumab vs no bevacizumab",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "One of the two chemotherapy backbones in the GOG 240 trial. [8, 14, 289, 305, 306]"
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan (without Bevacizumab)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 204",
+                "phase": "Phase 3",
+                "n_patients": "513 patients with advanced metastatic or recurrent cervical cancer",
+                "os": "Trends suggest cisplatin/paclitaxel is superior",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "May be considered as an alternative in patients who are not candidates for cisplatin. [289, 307]"
+        },
+        {
+            "regimen_name": "Cisplatin/Topotecan",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 179",
+                "phase": "Phase 3",
+                "n_patients": "294 patients with recurrent or persistent cervical cancer",
+                "os": "Median survival 9.4 vs 6.5 months (P = .017)",
+                "pfs": "4.6 vs 2.9 months (P = .014)",
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 27% vs 13% (P = .004)"
+            },
+            "notes": "FDA-approved for advanced cervical cancer. [14, 271]"
+        },
+        {
+            "regimen_name": "Cisplatin (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "Phase 3",
+                "n_patients": "264 patients with metastatic, recurrent, or persistent cervical cancer",
+                "os": null,
+                "pfs": "2.8 months",
+                "hr": null,
+                "ci": null,
+                "orr": "19%"
+            },
+            "notes": "Cisplatin is generally regarded as the most active single agent. [10, 270, 295-297]"
+        },
+        {
+            "regimen_name": "Carboplatin (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Carboplatin has been reported to be tolerable and efficacious as a single agent. [15, 16, 298-302]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (for TMB-H, PD-L1 positive, or MSI-H/dMMR tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "≥10 mutations/megabase",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive (CPS ≥1)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase 2",
+                "n_patients": "98 patients with advanced cervical cancer previously treated with chemotherapy",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 12.2% (95% CI, 6.5%–20.4%) overall; 14.6% (95% CI, 7.8%–24.2%) in PD-L1–positive tumors"
+            },
+            "notes": "Preferred for second-line or subsequent therapy for recurrent/metastatic cervical cancer with disease progression on or after chemotherapy for PD-L1–positive tumors (CPS ≥1). Also preferred for TMB-H and MSI-H/dMMR tumors. [17, 150, 155, 156, 312, 313]"
+        },
+        {
+            "regimen_name": "Tisotumab vedotin-tftv",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tisotumab vedotin-tftv",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "innovaTV 301",
+                "phase": "Phase 3",
+                "n_patients": "502 patients with recurrent or metastatic cervical cancer",
+                "os": "Median OS 11.5 months vs 9.5 months (HR, 0.70; 95% CI, 0.54–0.89; P = .004)",
+                "pfs": "HR, 0.67 (95% CI, 0.54–0.82; P < .0001)",
+                "hr": "0.70 (95% CI, 0.54–0.89)",
+                "ci": "95% CI, 0.54–0.89",
+                "orr": "Confirmed ORR 17.8% vs 5.2% (odds ratio, 4.0; 95% CI, 2.1–7.6; P < .0001)"
+            },
+            "notes": "Preferred therapy option for recurrent/metastatic cervical cancer with disease progression on or after chemotherapy regardless of biomarker status. [18, 19, 317, 319]"
+        },
+        {
+            "regimen_name": "Bevacizumab (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [320]"
+        },
+        {
+            "regimen_name": "Paclitaxel (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [20, 301]"
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [321]"
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [322]"
+        },
+        {
+            "regimen_name": "Fluorouracil",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [323]"
+        },
+        {
+            "regimen_name": "Gemcitabine (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [324]"
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [329]"
+        },
+        {
+            "regimen_name": "Topotecan (single agent)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [330, 331]"
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [332]"
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy. [327]"
+        },
+        {
+            "regimen_name": "Cemiplimab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "EMPOWER-Cervical 1/GOG-3016",
+                "phase": "Phase 3",
+                "n_patients": "608 patients with recurrent or metastatic cervical cancer who have progressed on prior therapy",
+                "os": "Median OS 11.7 vs 8.5 months (HR = 0.67; 95% CI, 0.56–0.80; P < .00001)",
+                "pfs": "Median PFS 2.8 vs 2.9 months (HR, 0.75; 95% CI, 0.63–0.89; P < .001)",
+                "hr": "0.67 (95% CI, 0.56–0.80) for OS; 0.75 (95% CI, 0.63–0.89) for PFS",
+                "ci": "95% CI, 0.56–0.80 (OS); 95% CI, 0.63–0.89 (PFS)",
+                "orr": "ORR 16% (95% CI, 12.5–21.1) vs 6.3% (95% CI, 3.8–9.6)"
+            },
+            "notes": "PD-1–blocking monoclonal antibody with demonstrated OS benefit in recurrent cervical cancer after progression on first-line platinum therapy, regardless of PD-L1 expression. [21, 333, 334]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase 1-2",
+                "n_patients": "176 treated, recurrent or metastatic cervical cancer patients; 45 received nivolumab/ipilimumab (NIVO3 plus IPI1)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 31% (95% CI, 18–47) with NIVO3 plus IPI1; 40% (95% CI, 26–56) with randomized NIVO1 plus IPI3"
+            },
+            "notes": "Ipilimumab and nivolumab combination is included based on CheckMate 358 trial data. [22, 23, 24, 335]"
+        },
+        {
+            "regimen_name": "Nivolumab (for PD-L1 positive tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase 1-2",
+                "n_patients": "19 patients with recurrent or metastatic cervical cancer received nivolumab monotherapy",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 26% (95% CI, 9–51)"
+            },
+            "notes": "Moved from preferred to useful in certain circumstances for PD-L1–positive tumors based on Panel's clinical judgement. [22, 335]"
+        },
+        {
+            "regimen_name": "Pembrolizumab + Tisotumab vedotin-tftv (for PD-L1 positive and no prior IO)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Tisotumab vedotin-tftv",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "innovaTV 205/GOG-3024/ENGOT-cx8",
+                "phase": "Phase 1B/2",
+                "n_patients": "101 patients in dose expansion cohort; 34 received TV + pembrolizumab in second or subsequent setting",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 35.3% (95% CI, 19.7–53.5) with TV + pembrolizumab in second or subsequent setting"
+            },
+            "notes": "For patients who are PD-L1–positive and have not received prior immuno-oncology (IO) therapy. [25, 154]"
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki (for HER2-positive tumors IHC 3+ or 2+)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive (IHC 3+ or 2+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "Phase 2",
+                "n_patients": "267 patients with HER2-expressing locally advanced or metastatic disease; 40 patients with cervical cancer",
+                "os": "In cervical cancer cohort: median OS 13.6 months for HER2 IHC3+",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "Confirmed ORR 50% in cervical cancer; 75% in HER2 IHC3+ cohort"
+            },
+            "notes": "Antib-drug conjugate for HER2-expressing solid tumors. [26, 168]"
+        },
+        {
+            "regimen_name": "Neratinib (for HER2-mutant tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Neratinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Mutant",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SUMMIT basket trial",
+                "phase": "Phase 2",
+                "n_patients": "18 endocervical adenocarcinoma patients",
+                "os": null,
+                "pfs": "Median PFS 5.1 months (95% CI, 1.7–7.2)",
+                "hr": null,
+                "ci": "95% CI, 1.7–7.2",
+                "orr": "ORR 18.2% (95% CI, 5.2–40.3)"
+            },
+            "notes": "Irreversible pan-HER tyrosine kinase inhibitor for HER2-mutant tumors. [27, 169, 170]"
+        },
+        {
+            "regimen_name": "Selpercatinib (for RET gene fusion-positive tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "Phase 1/2",
+                "n_patients": "41 patients with RET fusion-positive solid tumors (other than non-small cell lung cancer and thyroid cancer)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 44% (95% CI, 28.5–60.3); median duration of response 24.5 months (95% CI, 9.2 – NE)"
+            },
+            "notes": "Tumor-agnostic approval for RET fusion-positive solid tumors. [28, 171, 172]"
+        },
+        {
+            "regimen_name": "Larotrectinib (for NTRK gene fusion-positive tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": "153 patients with NTRK fusion-positive solid tumors",
+                "os": null,
+                "pfs": "Median PFS 28.3 months",
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 79% (95% CI, 72–85)"
+            },
+            "notes": "TRK inhibitor for NTRK gene fusion-positive tumors. [29, 159, 160, 161]"
+        },
+        {
+            "regimen_name": "Entrectinib (for NTRK gene fusion-positive tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": "121 patients with NTRK fusion-positive solid tumors",
+                "os": null,
+                "pfs": "Median PFS 13.8 months (95% CI, 10.1–19.9)",
+                "hr": null,
+                "ci": "95% CI, 10.1–19.9",
+                "orr": "ORR 61% (95% CI, 52–69)"
+            },
+            "notes": "TRK inhibitor for NTRK gene fusion-positive tumors. [29, 157, 158, 161, 162]"
+        },
+        {
+            "regimen_name": "Repotrectinib (for NTRK gene fusion-positive tumors)",
+            "site": "Cervix (Squamous, Adenocarcinoma, Adenosquamous)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "Phase 1/2",
+                "n_patients": "40 patients with advanced solid tumors harboring NTRK fusions (TRK TKI–naive)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 58% (95% CI, 41%–73%); median duration of response not reached; 12-month duration of response rate 86%"
+            },
+            "notes": "TRK inhibitor for NTRK gene fusion-positive tumors, including those who have progressed on prior TRK-targeted therapy. [28, 163]"
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide (concurrent with chemoradiation and first-line metastatic for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Locally Advanced (Stage IIA-IVA) or Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred regimen for chemoradiation and first-line therapy for recurrent or metastatic small cell NECC. Dosing and schedule based on NCCN Guidelines for Small Cell Lung Cancer. [29, 30, 385]"
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide (concurrent with chemoradiation and first-line metastatic for NECC, cisplatin-intolerant)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Locally Advanced (Stage IIA-IVA) or Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For patients who are cisplatin intolerant. [29, 30, 385]"
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Atezolizumab (or Durvalumab) for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "IMpower133 (atezolizumab) and CASPIAN (durvalumab)",
+                "phase": "Phase 3",
+                "n_patients": "IMpower133: 403 patients with extensive-stage SCLC; CASPIAN: 537 patients with ES-SCLC",
+                "os": "IMpower133: Median OS 12.3 vs 10.3 months (HR, 0.70; 95% CI, 0.54–0.91; P = .007); CASPIAN: Median OS 13.0 vs 10.3 months (HR, 0.73; 95% CI, 0.59–0.91; P = .0047)",
+                "pfs": "IMpower133: Median PFS 5.2 vs 4.3 months (HR, 0.77; 95% CI, 0.62–0.96; P = .02)",
+                "hr": "0.70 (95% CI, 0.54–0.91) for atezolizumab; 0.73 (95% CI, 0.59–0.91) for durvalumab",
+                "ci": "95% CI, 0.54–0.91 (atezolizumab); 95% CI, 0.59–0.91 (durvalumab)",
+                "orr": null
+            },
+            "notes": "Based on trials in small cell lung cancer, a high-grade neuroendocrine carcinoma. [31, 32, 386, 387]"
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan + Bevacizumab for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": "13 women treated with TPB for first recurrence vs 21 women treated with non-TPB chemotherapy",
+                "os": "Median OS 9.7 months for TPB vs 9.4 months for non-TPB (HR, 0.53; 95% CI, 0.23–1.22; P = .13)",
+                "pfs": "Median PFS 7.8 months for TPB vs 4.0 months for non-TPB (HR, 0.21; 95% CI, 0.09–0.54; P = .001)",
+                "hr": "0.21 (95% CI, 0.09–0.54) for PFS",
+                "ci": "95% CI, 0.09–0.54",
+                "orr": null
+            },
+            "notes": "Topotecan, paclitaxel, and bevacizumab (TPB) significantly improved PFS over non-TPB regimens in recurrent small cell cervical cancer. [33, 389]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended regimen for first-line therapy for recurrent or metastatic small cell NECC. [29, 30]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel for NECC (for patients who have received prior Cisplatin therapy)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "First-line, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended regimen for first-line therapy for recurrent or metastatic small cell NECC for patients who have received prior Cisplatin therapy. [29, 30]"
+        },
+        {
+            "regimen_name": "Bevacizumab (single agent for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [320]"
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [321]"
+        },
+        {
+            "regimen_name": "Docetaxel for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [322]"
+        },
+        {
+            "regimen_name": "Topotecan (single agent for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [330, 331]"
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended regimen for second-line or subsequent therapy for NECC. [330, 331]"
+        },
+        {
+            "regimen_name": "Cisplatin/Topotecan for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended regimen for second-line or subsequent therapy for NECC. [330, 331]"
+        },
+        {
+            "regimen_name": "Cisplatin (single agent for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [29, 30]"
+        },
+        {
+            "regimen_name": "Carboplatin (single agent for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [29, 30]"
+        },
+        {
+            "regimen_name": "Paclitaxel (single agent for NECC)",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [29, 30]"
+        },
+        {
+            "regimen_name": "Irinotecan for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended single-agent therapy for NECC. [327]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab for NECC",
+            "site": "Cervix (Small Cell Neuroendocrine Carcinoma)",
+            "setting": "Second-line or Subsequent, Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase 1-2",
+                "n_patients": "176 treated, recurrent or metastatic cervical cancer patients; 45 received nivolumab/ipilimumab (NIVO3 plus IPI1)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "ORR 31% (95% CI, 18–47) with NIVO3 plus IPI1; 40% (95% CI, 26–56) with randomized NIVO1 plus IPI3"
+            },
+            "notes": "Ipilimumab and nivolumab combination is included based on case reports demonstrating durable response in neuroendocrine cervical carcinoma. [34, 335, 390]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.347726"
+}

@@ -1,0 +1,639 @@
+{
+    "site_id": "neuroblastoma",
+    "site_display_name": "Neuroblastoma",
+    "archetype": "F",
+    "regimen_count": 14,
+    "regimens": [
+        {
+            "regimen_name": "COG ANBL0531 Intermediate-Risk Chemotherapy Regimen",
+            "site": "Intermediate-Risk Neuroblastoma",
+            "setting": "Primary Treatment",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "560 mg/m² (or 18.6 mg/kg for ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 1, 4, 6"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "120 mg/m² (or 4 mg/kg for ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 1, 3, 5, 7"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1000 mg/m² (or 333 mg/kg for ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 2, 6"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "30 mg/m² (or 1 mg/kg for ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 2, 4, 8"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 4, 8"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MYCN amplification",
+                    "requirement": "Must be negative (if positive, reassign to high-risk)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL0531",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Maintained outstanding outcomes using response- and biology-based therapy"
+            },
+            "notes": "Number of cycles (2, 4, or 8) depends on disease stage, age, and biologic features. Mesna and dexrazoxane may be used as clinically indicated. Chemotherapy dosing for young children is evolving toward dose banding."
+        },
+        {
+            "regimen_name": "SIOPEN Intermediate-Risk Chemotherapy Regimen",
+            "site": "Intermediate-Risk Neuroblastoma",
+            "setting": "Primary Treatment",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "200 mg/m² (or 6.6 mg/kg)",
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "150 mg/m² (or 5.0 mg/kg)",
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m² (or 10 mg/kg)",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "30 mg/m² (or 1 mg/kg)",
+                    "route": "IV",
+                    "schedule": "Days 4-5"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1 and 5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MYCN amplification",
+                    "requirement": "Must be negative (if positive, reassign to high-risk)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Alternative",
+            "trial_data": {
+                "trial_name": "SIOPEN",
+                "phase": null,
+                "n_patients": null,
+                "primary_outcome": "Similar outcomes achieved with SIOPEN and COG strategies"
+            },
+            "notes": "Number of cycles varies for different subgroups. Carboplatin/etoposide alternates with CADO (cyclophosphamide/doxorubicin/vincristine)."
+        },
+        {
+            "regimen_name": "High-Risk Induction: 5-Cycle ANBL12P1/ANBL1531 Regimen",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Induction Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "1.2 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-5 of cycles 1-2"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-5 of cycles 1-2"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-4 of cycles 3 and 5"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "200 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 3 and 5"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycle 4"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "25 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycle 4"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "2100 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-2 of cycle 4"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL12P1/ANBL1531",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "80% end-induction response rate"
+            },
+            "notes": "All cycles are 21-day cycles. Dexrazoxane may be used as clinically indicated. Mesna may be used with cycles 1 and 2 as clinically indicated, but must be used with cycles 4 and 6. This is a preferred induction regimen."
+        },
+        {
+            "regimen_name": "High-Risk Induction: 6-Cycle ANBL0532 Regimen (Historical)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Induction Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "1.2 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-5 of cycles 1-2"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-5 of cycles 1-2"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-4 of cycles 3 and 5"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "200 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 3 and 5"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 4 and 6"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "25 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-3 of cycles 4 and 6"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "2100 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 1-2 of cycles 4 and 6"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Alternative",
+            "trial_data": {
+                "trial_name": "ANBL0532",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Comparable end-induction response rates to 5-cycle regimen"
+            },
+            "notes": "Cycle 6 was used in prior historical trial ANBL0532, but is not used in ongoing COG clinical trials. This is an acceptable induction regimen but not preferred."
+        },
+        {
+            "regimen_name": "ANBL1221 Chemoimmunotherapy (Bridging Therapy)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Bridging Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "100 mg/m²/dose",
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m²/dose",
+                    "route": "IV over 90 min",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "17.5 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Days 2-5"
+                },
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 µg/m²/dose",
+                    "route": "SQ",
+                    "schedule": "Days 6-12"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL1221",
+                "phase": "2",
+                "n_patients": null,
+                "primary_outcome": "Objective response rates of ~40%"
+            },
+            "notes": "Regimen repeated every 21 days. May be used as bridging therapy for patients with less than partial response to induction."
+        },
+        {
+            "regimen_name": "Chemoimmunotherapy with Naxitamab (Relapsed/Refractory)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Relapsed/Refractory Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "150 mg/m²/day",
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Naxitamab-gqgk",
+                    "dose": "2.25 mg/kg/day",
+                    "route": "IV over 30-60 min",
+                    "schedule": "Days 2, 4, 9, and 11"
+                },
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 mcg/m²/day",
+                    "route": "SQ",
+                    "schedule": "Days 6-10"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "HITS",
+                "phase": "2",
+                "n_patients": null,
+                "primary_outcome": "Early salvage chemo-immunotherapy provides the best chance for long-term outcomes"
+            },
+            "notes": "Regimen repeated every 4 weeks. Naxitamab-gqgk is FDA-approved for relapsed/refractory high-risk neuroblastoma in bone or bone marrow (but not soft tissue) in patients who have had a PR, MR, or SD to prior therapy."
+        },
+        {
+            "regimen_name": "Tandem Transplant Consolidation (ANBL0532)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Consolidation Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Thiotepa",
+                    "dose": "300 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1500 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -5 to -2"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Age-, BSA-, and GFR-based dosing",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "300 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "60 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL0532",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Improved EFS (3-year EFS 61.6% vs 48.4% for single transplant)"
+            },
+            "notes": "Tandem transplantation with two consecutive rounds of high-dose chemotherapy with autologous stem cell rescue is recommended for most patients with high-risk disease. The second course (carboplatin/etoposide/melphalan) is given 6-10 weeks later and after recovery of organ function."
+        },
+        {
+            "regimen_name": "Single Transplant Option 1 (CEM) Consolidation",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Consolidation Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Weight-, BSA-, and GFR-based dosing",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "338 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "70 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Alternative",
+            "trial_data": {
+                "trial_name": "ANBL0532",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Less favorable EFS compared to tandem transplant"
+            },
+            "notes": "Single transplant with full-dose CEM may be appropriate for two less common high-risk subgroups: 1) patients with stage L2, ≥18 months, MYCN non-amplified, and UH; and 2) patients with stage M, 12 to <18 months, MYCN non-amplified, with unfavorable features."
+        },
+        {
+            "regimen_name": "Single Transplant Option 2 (BuMel) Consolidation",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Consolidation Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Busulfan",
+                    "dose": "Age- and weight-based dosing (adjusted based on real-time pharmacokinetics)",
+                    "route": "IV",
+                    "schedule": "Days -6 to -3"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "140 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Day -1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Alternative",
+            "trial_data": {
+                "trial_name": "HR-NBL1/SIOPEN",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Superior EFS compared to CEM in European context"
+            },
+            "notes": "BuMel is a preferred conditioning regimen in Europe. May be appropriate for patients with a contraindication to tandem transplant or for patients in subgroups for which single transplant is recommended."
+        },
+        {
+            "regimen_name": "Post-Consolidation Immunotherapy (ANBL0032)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Post-Consolidation Therapy",
+            "treatment_modality": [
+                "immunotherapy",
+                "differentiating agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 µg/m²/dose",
+                    "route": "SQ",
+                    "schedule": "Days 1-14 of cycles 1, 3, 5"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "17.5 mg/m²/dose",
+                    "route": "IV",
+                    "schedule": "Days 4-7 of cycles 1, 3, 5"
+                },
+                {
+                    "name": "Isotretinoin",
+                    "dose": "80 mg/m²/dose",
+                    "route": "PO twice daily",
+                    "schedule": "Days 11-24 of cycles 1, 3, 5 and daily of cycles 2, 4, 6"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL0032",
+                "phase": "3",
+                "n_patients": null,
+                "primary_outcome": "Improved 2-year EFS (66% vs 46% with isotretinoin alone)"
+            },
+            "notes": "All cycles are 28-day cycles. Interleukin-2 is no longer included based on SIOPEN HR-NBL1 trial results. Serial monitoring of hearing with audiograms is essential."
+        },
+        {
+            "regimen_name": "Continuation Therapy with Eflornithine (DFMO)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Continuation Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Eflornithine",
+                    "dose": "BSA-based dosage: >1.5 m²: 768 mg PO twice daily; 0.75–≤1.5 m²: 576 mg PO twice daily; 0.5 to <0.75 m²: 384 mg PO twice daily; 0.25 to <0.5 m²: 192 mg PO twice daily",
+                    "route": "PO",
+                    "schedule": "Twice daily for up to 2 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Study 3b (NCT02395666)",
+                "phase": "2",
+                "n_patients": "92",
+                "primary_outcome": "Superior EFS and OS compared to external control (EFS HR 0.48, OS HR 0.32)"
+            },
+            "notes": "For patients in remission, with at least a PR to prior systemic agents, and who have completed post-consolidation immunotherapy with an anti-GD2 antibody. Recalculate BSA dosage every 3 months during treatment. Serial monitoring of hearing is essential."
+        },
+        {
+            "regimen_name": "Chemoimmunotherapy for Relapsed/Refractory Disease (Irinotecan/Temozolomide/GD2-antibody)",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Relapsed/Refractory Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "100-150 mg/m²/day",
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Dinutuximab or Dinutuximab beta",
+                    "dose": "17.5 mg/m²/day or per protocol",
+                    "route": "IV",
+                    "schedule": "Days 2, 4, 9, 11 (or per protocol)"
+                },
+                {
+                    "name": "Sargramostim (optional)",
+                    "dose": "250 µg/m²/day",
+                    "route": "SQ",
+                    "schedule": "Days 6-10"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL1221 and others",
+                "phase": "2",
+                "n_patients": null,
+                "primary_outcome": "Objective response rates of ~40%, strikingly reproducible"
+            },
+            "notes": "First relapse or first declaration of refractory disease. Dinutuximab is often used in North America, dinutuximab beta in Europe. Other chemotherapy backbones (e.g., topotecan/cyclophosphamide or topotecan/temozolomide) in combination with anti-GD2 antibodies also demonstrate activity."
+        },
+        {
+            "regimen_name": "I-131 MIBG Therapy for Relapsed/Refractory Disease",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Relapsed/Refractory Disease",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Iodine-131 metaiodobenzylguanidine (I-131 MIBG)",
+                    "dose": "Per protocol",
+                    "route": "IV",
+                    "schedule": "Per protocol"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MIBG avidity",
+                    "requirement": "Tumor must be MIBG-avid",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Various phase 2 studies",
+                "phase": "2",
+                "n_patients": "164",
+                "primary_outcome": "Overall response rate 36%, 2-year OS rate 29%"
+            },
+            "notes": "May be considered in patients for whom GD2-directed therapy is not appropriate at time of first relapse."
+        },
+        {
+            "regimen_name": "ALK Inhibitor Therapy for ALK-Aberrant Relapsed/Refractory Disease",
+            "site": "High-Risk Neuroblastoma",
+            "setting": "Relapsed/Refractory Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lorlatinib",
+                    "dose": "Per protocol",
+                    "route": "PO",
+                    "schedule": "Per protocol"
+                },
+                {
+                    "name": "Ceritinib",
+                    "dose": "Per protocol",
+                    "route": "PO",
+                    "schedule": "Per protocol"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK amplification or mutations",
+                    "requirement": "Tumor must harbor ALK aberrations",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase 1 trials",
+                "phase": "1",
+                "n_patients": null,
+                "primary_outcome": "Activity in ALK-aberrant tumors"
+            },
+            "notes": "Repeat biomarker profiling on a current sample at the time of relapse is recommended. Other agents targeting pathways of interest are being studied in clinical trials."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.002458"
+}

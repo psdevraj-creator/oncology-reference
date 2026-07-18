@@ -1,0 +1,3071 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Cisplatin-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred for concurrent platinum-containing chemotherapy with EBRT. Extrapolated from cervical cancer. Chemoradiation may not be suitable for all patients; use with caution in older, frail, or those with multiple comorbidities [i].",
+            "source_citation": {
+                "reference_numbers": [
+                    "i"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin-based concurrent chemoradiation (if cisplatin intolerant)",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred alternative if cisplatin is intolerant. Concurrent platinum-containing chemotherapy with EBRT [i].",
+            "source_citation": {
+                "reference_numbers": [
+                    "i"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on studies showing efficacy and tolerability when administered concomitantly with radiation [80]. Capecitabine use should be avoided in patients with certain DPYD variants [e].",
+            "source_citation": {
+                "reference_numbers": [
+                    "80",
+                    "e"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on phase II study showing CR of 89.5% and ORR of 94.7% in advanced-stage IIIB cervical cancer [81]. Requires reduced dosing when used concurrently with radiation to avoid radiation toxicity.",
+            "source_citation": {
+                "reference_numbers": [
+                    "81"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on pilot study with CR in 8 out of 13 patients with locally advanced cervical cancer [82].",
+            "source_citation": {
+                "reference_numbers": [
+                    "82"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null,
+                    "optional": true
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "3",
+                "n_patients": "617",
+                "os": "28.6 months vs. 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.5 months vs. 8.2 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "hr": "0.60",
+                "ci": "95% CI, 0.49–0.74",
+                "orr": "68.1% vs. 50.2%"
+            },
+            "notes": "Preferred for PD-L1-positive tumors. Based on KEYNOTE-826 trial in cervical cancer [5]. Bevacizumab may be continued as maintenance therapy [i]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "i",
+                    "j"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null,
+                    "optional": true
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "3",
+                "n_patients": "617",
+                "os": "28.6 months vs. 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.5 months vs. 8.2 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "hr": "0.60",
+                "ci": "95% CI, 0.49–0.74",
+                "orr": "68.1% vs. 50.2%"
+            },
+            "notes": "Preferred for PD-L1-positive tumors. Based on KEYNOTE-826 trial in cervical cancer [5]. Bevacizumab may be continued as maintenance therapy [i]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "i",
+                    "j"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred based on GOG 240 trial in cervical cancer [6]. Bevacizumab may be continued as maintenance therapy [i].",
+            "source_citation": {
+                "reference_numbers": [
+                    "6",
+                    "i"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred based on GOG 240 trial in cervical cancer [6]. Bevacizumab may be continued as maintenance therapy [i].",
+            "source_citation": {
+                "reference_numbers": [
+                    "6",
+                    "i"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": "4.8 vs. 2.8 months (P > .001)",
+                "hr": null,
+                "ci": null,
+                "orr": "36% vs. 19%"
+            },
+            "notes": "Other recommended option. Based on GOG 169 trial in cervical cancer [7]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "7",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "JCOG0505",
+                "phase": "3",
+                "n_patients": "253",
+                "os": "18.3 months vs. 17.5 months (HR, 0.994; 90% CI, 0.79–1.25; P = .032)",
+                "pfs": null,
+                "hr": "0.994",
+                "ci": "90% CI, 0.79–1.25",
+                "orr": null
+            },
+            "notes": "Other recommended option. Based on JCOG0505 trial showing non-inferiority to cisplatin/paclitaxel [9]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended option based on GOG 240 trial [6]. Bevacizumab may be continued as maintenance therapy [i].",
+            "source_citation": {
+                "reference_numbers": [
+                    "6",
+                    "i"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 204",
+                "phase": "3",
+                "n_patients": "513",
+                "os": "12.9 vs. 10 months (trends)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended option based on GOG 204 trial [8]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "8",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Topotecan",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 179",
+                "phase": "3",
+                "n_patients": "294",
+                "os": "9.4 vs. 6.5 months (P = .017)",
+                "pfs": "4.6 vs. 2.9 months (P = .014)",
+                "hr": null,
+                "ci": null,
+                "orr": "27% vs. 13% (P = .004)"
+            },
+            "notes": "Other recommended option based on GOG 179 trial [9]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": "2.8 months",
+                "hr": null,
+                "ci": null,
+                "orr": "19%"
+            },
+            "notes": "Most active single agent. Response rates approximately 20% to 30% with occasional CR. OS approximately 6 to 9 months [7,8]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "7",
+                    "8",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Single agent option. Tolerable and efficacious [9]. If not used previously, can be used as second-line or subsequent therapy [f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "f"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for TMB-High tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "29% (95% CI, 21–39)"
+            },
+            "notes": "Preferred for TMB-H (≥10 mut/Mb) tumors that have progressed following prior treatment. Based on KEYNOTE-158 trial [10]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j].",
+            "source_citation": {
+                "reference_numbers": [
+                    "10",
+                    "j"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for PD-L1-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "98",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "14.6% (95% CI, 7.8%–24.2%)"
+            },
+            "notes": "Preferred for PD-L1-positive tumors (CPS ≥1). Based on KEYNOTE-158 trial [11]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j].",
+            "source_citation": {
+                "reference_numbers": [
+                    "11",
+                    "j"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for MSI-H/dMMR tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": null,
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "233",
+                "os": "23.5 months (95% CI, 13.5 months – NR)",
+                "pfs": "4.1 months (95% CI, 2.4–4.9 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "34.3% (95% CI, 28.3%–40.8%)"
+            },
+            "notes": "Preferred for MSI-H/dMMR tumors. Based on KEYNOTE-158 trial [12]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j].",
+            "source_citation": {
+                "reference_numbers": [
+                    "12",
+                    "j"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Bevacizumab monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [6].",
+            "source_citation": {
+                "reference_numbers": [
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [13].",
+            "source_citation": {
+                "reference_numbers": [
+                    "13"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [14].",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [15].",
+            "source_citation": {
+                "reference_numbers": [
+                    "15"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [16].",
+            "source_citation": {
+                "reference_numbers": [
+                    "16"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [17].",
+            "source_citation": {
+                "reference_numbers": [
+                    "17"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [18].",
+            "source_citation": {
+                "reference_numbers": [
+                    "18"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Topotecan monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [19].",
+            "source_citation": {
+                "reference_numbers": [
+                    "19"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [20].",
+            "source_citation": {
+                "reference_numbers": [
+                    "20"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [21].",
+            "source_citation": {
+                "reference_numbers": [
+                    "21"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Tisotumab vedotin-tftv",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Tisotumab vedotin-tftv",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "innovaTV 204/GOG-3023/ENGOT-cx6",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "24% (95% CI, 16–33)"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on innovaTV 204 trial in cervical cancer [16]. FDA accelerated approval for recurrent or metastatic cervical cancer with disease progression on or after chemotherapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "16"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cemiplimab",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Empower-Cervical-1",
+                "phase": "3",
+                "n_patients": "608",
+                "os": "12 vs. 8.5 months (HR, 0.69; 95% CI, 0.56–0.84; P < .001)",
+                "pfs": "2.8 vs. 2.9 months (HR, 0.75; 95% CI, 0.63–0.89; P < .001)",
+                "hr": "0.69",
+                "ci": "95% CI, 0.56–0.84",
+                "orr": "16% vs. 6.3%"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on Empower-Cervical-1 trial in cervical cancer [17].",
+            "source_citation": {
+                "reference_numbers": [
+                    "17"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "1-2",
+                "n_patients": "176",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "40% (95% CI, 26–56) for NIVO1+IPI3; 38% (95% CI, 29–48) for pooled NIVO1+IPI3"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on CheckMate 358 trial [18,19].",
+            "source_citation": {
+                "reference_numbers": [
+                    "18",
+                    "19"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab monotherapy for PD-L1-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "1-2",
+                "n_patients": "19",
+                "os": "12-month OS rate 77.5% (95% CI, 50.5%–91.0%)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "26.3% (95% CI, 9.1%–51.2%)"
+            },
+            "notes": "Useful in certain circumstances for PD-L1-positive tumors based on CheckMate 358 trial [18]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [l].",
+            "source_citation": {
+                "reference_numbers": [
+                    "18",
+                    "l"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki for HER2-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "IHC 3+ or 2+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "2",
+                "n_patients": "267",
+                "os": "13.4 months (95% CI, 11.9–15.5)",
+                "pfs": "6.9 months (95% CI, 5.6–8.0)",
+                "hr": null,
+                "ci": null,
+                "orr": "37.1% (95% CI, 31.3–43.2)"
+            },
+            "notes": "Useful in certain circumstances for HER2-positive tumors (IHC 3+ or 2+) based on DESTINY-PanTumor02 trial [20].",
+            "source_citation": {
+                "reference_numbers": [
+                    "20"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Selpercatinib for RET gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1-2",
+                "n_patients": "41",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "44% (95% CI, 28.5–60.3)"
+            },
+            "notes": "Useful in certain circumstances for RET gene fusion-positive tumors based on LIBRETTO-001 trial [22,23].",
+            "source_citation": {
+                "reference_numbers": [
+                    "22",
+                    "23"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase 1/2 studies",
+                "phase": "1-2",
+                "n_patients": "55",
+                "os": null,
+                "pfs": "not reached",
+                "hr": null,
+                "ci": null,
+                "orr": "75% (95% CI, 61%–85%)"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors based on clinical trials [25,26].",
+            "source_citation": {
+                "reference_numbers": [
+                    "25",
+                    "26"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of ALKA-372-001, STARTRK-1, STARTRK-2",
+                "phase": "1-2",
+                "n_patients": "54",
+                "os": null,
+                "pfs": "13.8 months (95% CI, 10.1–19.9)",
+                "hr": null,
+                "ci": null,
+                "orr": "57% (95% CI, 43.2–70.8)"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors based on integrated analysis [23,24].",
+            "source_citation": {
+                "reference_numbers": [
+                    "23",
+                    "24"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1-2",
+                "n_patients": "48 (TKI-naïve); 40 (TKI-pretreated)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "58% (95% CI, 41–73) for TKI-naïve; 50% (95% CI, 35–65) for TKI-pretreated"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors, including those naïve to prior NTRK-targeted therapy or have progressed on prior NTRK therapy [21].",
+            "source_citation": {
+                "reference_numbers": [
+                    "21"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Vaginal cancer is a rare gynecologic malignancy originating in the vagina, defined as primary carcinoma arising in the vaginal canal. It accounts for less than 1% of all cancers affecting individuals assigned female at birth (AFAB) worldwide [1]. The vagina is a fibromuscular tubular tract extending from the vulva to the cervix, with an embryological origin derived from the Müllerian (paramesonephric) ducts and the urogenital sinus. The proximal two-thirds of the vagina have a Müllerian origin, while the distal one-third develops from the urogenital sinus. The anatomical boundaries for staging include the vaginal wall itself, with extension to the paravaginal tissues, pelvic sidewall, bladder mucosa, rectal mucosa, and beyond the true pelvis representing advanced disease. Only a minority of vaginal cancers originate primarily in the vagina; many are metastatic or extensions from other sites, such as the cervix, vulva, or rectum. The predominant histologic type is squamous cell carcinoma (SCC), which accounts for approximately 80% to 90% of cases and most commonly arises in the upper portion of the posterior vaginal wall [6]. The 2020 World Health Organization (WHO) classification recommends distinguishing between HPV-associated and HPV-independent SCC of the vagina [11]. HPV-associated tumors are typically non-keratinizing and located in the proximal or intermediate third of the vagina (Müllerian portion), whereas HPV-independent distal tumors, also known as introitus carcinoma, are often keratinizing [11]. Diagnosis is confirmed by biopsy, which remains the gold standard. Comprehensive workup includes history and physical, pelvic examination, and imaging to determine the extent of disease and exclude synchronous primaries or metastasis from other sites [VAG-1].",
+        "subtypes": [
+            {
+                "name": "HPV-Associated Squamous Cell Carcinoma",
+                "description": "The most common type of vaginal cancer. It is predominantly non-keratinizing histology and is driven by persistent infection with high-risk HPV types, most commonly HPV16 [5]. It typically arises in the proximal or intermediate third (Müllerian portion) of the vagina.",
+                "frequency": "Accounts for the majority of vaginal SCC cases, representing 80% to 90% of all vaginal cancers [6].",
+                "key_associations": "High-risk HPV infection, particularly HPV16, detected in 46% to 77% of vaginal cancers [5]. Associated with precursors HSIL/VAIN, with a progression risk of approximately 5% [VAG-A 1]."
+            },
+            {
+                "name": "HPV-Independent Squamous Cell Carcinoma",
+                "description": "A less common type of vaginal SCC. Histologically, these tumors are predominantly of the keratinizing type. They demonstrate negative p16 immunohistochemistry and aberrant p53 immunohistochemistry (IHC), indicative of TP53 mutations.",
+                "frequency": "Much less common than HPV-associated SCC.",
+                "key_associations": "Typically seen in postmenopausal individuals (median age 73 years). A prior history of cervical or vulcar carcinoma must be excluded [VAG-A 1]."
+            },
+            {
+                "name": "HPV-Associated Vaginal Adenocarcinoma",
+                "description": "A rare glandular carcinoma of the vagina associated with HPV infection.",
+                "frequency": "Very rare.",
+                "key_associations": "HPV infection."
+            },
+            {
+                "name": "Other Rare Histologic Types",
+                "description": "Includes endometrioid carcinoma, clear cell carcinoma, mucinous carcinoma (gastric and intestinal types), mesonephric adenocarcinoma, carcinosarcoma, mixed tumor of the vagina, adenocarcinoma of Skene gland origin, adenosquamous carcinoma, adenoid basal carcinoma, neuroendocrine carcinomas, adenosarcoma, and germ cell tumors.",
+                "frequency": "Very rare collectively.",
+                "key_associations": "Various, often not associated with HPV."
+            },
+            {
+                "name": "Vaginal Melanoma",
+                "description": "An aggressive malignancy arising from melanocytes in the vagina. It is noted as the second most common type of vaginal cancer after SCC [6].",
+                "frequency": "Second most common type of vaginal cancer, though still rare.",
+                "key_associations": "Melanocytic origin. Management is referenced to the NCCN Guidelines for Vulvar Cancer."
+            }
+        ],
+        "molecular_pathogenesis": {
+            "key_genomic_events": "The predominant molecular pathway for vaginal squamous intraepithelial lesions (SIL) and squamous cell carcinoma (SCC) is infection with high-risk human papillomavirus (HPV), with HPV16 being the most common type detected in 46% to 77% of vaginal cancers [5]. In HPV-associated tumors, viral oncoproteins E6 and E7 inactivate the tumor suppressors p53 and pRb, respectively, driving carcinogenesis. For HPV-independent SCC, which is more common in postmenopausal individuals, TP53 mutations are a key early event, leading to aberrant p53 protein accumulation detectable by immunohistochemistry (IHC) [VAG-A 1].",
+            "driver_mutations": "Key driver mutations include TP53 inactivation in HPV-independent tumors. Comprehensive molecular profiling may reveal actionable alterations including NTRK gene fusions (found in ~1% of all solid tumors) [MS-7], RET gene fusions, HER2 overexpression/amplification (observed in approximately 2% to 6% of cervical cancers, a related site) [MS-8], and high tumor mutational burden (TMB) or microsatellite instability-high (MSI-H) status [MS-6].",
+            "signaling_pathways": "The HPV-driven pathway involves dysregulation of the p53 and pRb tumor suppressor pathways. Immune checkpoint pathways involving PD-1/PD-L1 are relevant for immunotherapy; PD-L1 expression is a predictive biomarker [MS-5].",
+            "chromosomal_abnormalities": "NTRK and RET gene fusions are actionable chromosomal rearrangements recommended for testing via comprehensive genomic profiling [VAG-A 2].",
+            "biomarker_prevalence": "HPV is detected in approximately 40% to 70% of all vulvar and vaginal cancers [5]. p53 aberrant expression is a hallmark of HPV-independent tumors. Comprehensive molecular profiling is recommended for advanced or metastatic disease to assess for MSI-H, TMB, NTRK, and RET fusions for pan-tumor targeted therapy opportunities [VAG-A 2]."
+        },
+        "epidemiology": {
+            "incidence": "Vaginal carcinomas account for less than 1% of all cancers affecting individuals assigned female at birth (AFAB) worldwide [1]. An estimated 8,070 new cases of vaginal and other genital cancers were projected to be diagnosed in the United States in 2025 [2]. The age-standardized incidence rate of vaginal preinvasive neoplasia (before HPV vaccination) ranges between 0.5 to 1.3 per 100,000 individuals AFAB [5].",
+            "mortality": "An estimated 1,950 people were projected to die of vaginal and other genital cancers in the United States in 2025 [2].",
+            "trends": "Vaginal cancer is the most common type of metachronous malignancy after a cervical cancer diagnosis, followed by vulvar cancer and anal cancer [3]. In individuals with cervical intraepithelial neoplasia at the time of hysterectomy, the risk of developing vaginal cancer is more than double compared to non-hysterectomized individuals [4].",
+            "demographics": "The risk for vaginal cancers is most common in individuals AFAB over 70 years of age [MS-2]. Persistent infection with high-risk HPV types, especially HPV16, is a major etiologic factor [5]. Epidemiologic risk factors are shared with cervical cancer, including smoking, parity, oral contraceptive use, early onset of coitus, larger number of sexual partners, history of sexually transmitted disease, certain autoimmune diseases, and chronic immunosuppression [MS-2]."
+        },
+        "risk_factors": [
+            {
+                "factor": "Human Papillomavirus (HPV) Infection",
+                "type": "Infectious/Biological",
+                "detail": "Persistent infection with high-risk HPV types is the predominant pathway for vaginal SIL and SCC. HPV16 is detected in 46% to 77% of vaginal cancers. HPV is detected in approximately 40% to 70% of all vulvar and vaginal cancers [5, MS-2].",
+                "strength": "Strong. HPV-associated precursor lesions (HSIL/VAIN) have a progression risk of approximately 5% [VAG-A 1]."
+            },
+            {
+                "factor": "Smoking History",
+                "type": "Environmental/Lifestyle",
+                "detail": "Epidemiologic risk factors associated with cervical cancer, including smoking, are shared risk factors for vaginal cancer [MS-2]. Smoking cessation is recommended.",
+                "strength": "Moderate to Strong (based on association with cervical cancer)."
+            },
+            {
+                "factor": "Prior Hysterectomy with Cervical Intraepithelial Neoplasia (CIN)",
+                "type": "Medical History",
+                "detail": "In individuals with cervical intraepithelial neoplasia at the time of hysterectomy, the risk of contracting vaginal cancer is more than double compared to non-hysterectomized individuals [4].",
+                "strength": "Strong (based on cohort data)."
+            },
+            {
+                "factor": "Immunosuppression",
+                "type": "Medical History",
+                "detail": "Certain autoimmune diseases and chronic immunosuppression are shared risk factors with cervical cancer [MS-2]. HIV testing is recommended in select patients, especially younger ones [VAG-1, footnote e].",
+                "strength": "Moderate."
+            },
+            {
+                "factor": "Sexual Behavior Factors",
+                "type": "Lifestyle",
+                "detail": "Early age of onset of coitus, larger number of sexual partners, and history of sexually transmitted diseases are shared risk factors with cervical cancer [MS-2].",
+                "strength": "Moderate."
+            },
+            {
+                "factor": "Obesity",
+                "type": "Lifestyle",
+                "detail": "Obesity is listed as a risk factor based on etiologic insights from case studies [MS-2].",
+                "strength": "Weak to Moderate."
+            },
+            {
+                "factor": "Vaginal Trauma or Irritation",
+                "type": "Environmental",
+                "detail": "Risk factors include vaginal damage from ring pessaries, chronic vaginitis, birthing trauma, and exposure to chemicals in the vagina [MS-2].",
+                "strength": "Weak to Moderate."
+            },
+            {
+                "factor": "Prior Pelvic Radiation",
+                "type": "Medical History/Treatment",
+                "detail": "Patients who undergo RT for pelvic cancers are at risk for radiation-induced second cancers, including vaginal cancer [MS-11].",
+                "strength": "Moderate."
+            }
+        ],
+        "protective_factors": [
+            "Human Papillomavirus (HPV) Vaccination",
+            "Smoking Cessation"
+        ],
+        "clinical_features": {
+            "typical_presentation": "Vaginal cancer typically presents in individuals assigned female at birth (AFAB) over 70 years of age, with the majority of invasive cases being squamous cell carcinoma (SCC), accounting for 80%–90% of cases, most commonly arising in the upper portion of the posterior vaginal wall [1,2]. The most significant signs are vaginal bleeding (often postcoital or irregular), discharge, urine retention, and rectal symptoms such as constipation or blood in the stool. However, up to 20% of patients may be asymptomatic, with disease discovered incidentally during pelvic examination, Pap cytology, colposcopy, or vulvar screening [3]. A cofactor history includes immunosuppression, prior hysterectomy, and cigarette smoking. Vaginal cancer is frequently synchronous or metachronous with cervical cancer, and only a minority are primary vaginal cancers; the remainder are metastatic from other sites [3].",
+            "symptoms": [
+                {
+                    "name": "Vaginal bleeding",
+                    "detail": "Often postcoital, irregular, or postmenopausal bleeding; may be the initial presenting symptom.",
+                    "frequency": "Common; a most significant sign [3].",
+                    "alarm": "Unexplained vaginal bleeding, especially in postmenopausal individuals, requires urgent evaluation."
+                },
+                {
+                    "name": "Vaginal discharge",
+                    "detail": "May be bloody, watery, or purulent, and can be malodorous.",
+                    "frequency": "Common [3].",
+                    "alarm": "Persistent or bloody discharge warrants investigation."
+                },
+                {
+                    "name": "Dyspareunia",
+                    "detail": "Pain during intercourse, often due to vaginal mass or ulceration.",
+                    "frequency": "Frequent; related to tumor location [3].",
+                    "alarm": "New-onset dyspareunia in older adults should raise suspicion."
+                },
+                {
+                    "name": "Pelvic pain",
+                    "detail": "May be due to local tumor extension, pelvic sidewall involvement, or hydronephrosis.",
+                    "frequency": "More common in advanced stages [3].",
+                    "alarm": "Persistent or worsening pelvic pain indicates possible advanced disease."
+                },
+                {
+                    "name": "Urinary symptoms",
+                    "detail": "Dysuria, frequency, urgency, or retention due to bladder or urethral involvement.",
+                    "frequency": "Less common; may indicate advanced tumor [3].",
+                    "alarm": "Urinary retention or severe dysuria requires urgent assessment."
+                },
+                {
+                    "name": "Rectal symptoms",
+                    "detail": "Constipation, tenesmus, or rectal bleeding from tumor invasion of the rectum or rectovaginal septum.",
+                    "frequency": "Less common; seen in advanced disease [3].",
+                    "alarm": "Rectal bleeding or obstruction is an alarm feature."
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Vaginal mass or ulceration",
+                    "detail": "Visible or palpable mass, often in the upper posterior wall; may be exophitic or ulcerative.",
+                    "frequency": "Common on pelvic examination [3].",
+                    "detail_note": "May be mistaken for benign lesions if not biopsied."
+                },
+                {
+                    "name": "Induration or nodularity",
+                    "detail": "Palpable induration or nodularity on rectovaginal exam, suggesting paravaginal or parametrial extension.",
+                    "frequency": "Typical in locally advanced disease [3]."
+                },
+                {
+                    "name": "Pelvic sidewall fixation",
+                    "detail": "On bimanual exam, tumor fixed to pelvic sidewall, indicating stage III disease.",
+                    "frequency": "Advanced stage finding [4]."
+                },
+                {
+                    "name": "Lymphadenopathy",
+                    "detail": "Enlarged inguinal or pelvic nodes on palpation, suggesting nodal metastasis.",
+                    "frequency": "Less common at presentation; more frequent in advanced disease [3]."
+                }
+            ],
+            "atypical_or_missed": [
+                "Asymptomatic disease discovered on routine screening (up to 20% of cases) [3].",
+                "Presentation mimicking benign conditions such as vaginitis, cervical polyps, or vaginal atrophy, leading to delayed diagnosis.",
+                "Metastatic involvement from another primary site (e.g., cervical, endometrial, vulvar cancer) misinterpreted as primary vaginal cancer [3].",
+                "Tumors involving the cervix or vulva, which are not considered vaginal cancer and require different treatment algorithms [3].",
+                "Rare histologies (e.g., melanoma, sarcoma) that may present with atypical symptoms or appearance."
+            ]
+        },
+        "red_flags": [
+            "Unexplained vaginal bleeding, especially postmenopausal or persistent postcoital bleeding [3].",
+            "Persistent or bloody vaginal discharge not responding to treatment for infection [3].",
+            "A visible or palpable vaginal mass, ulceration, or induration on pelvic exam [3].",
+            "New-onset urinary retention, severe dysuria, or rectal bleeding [3].",
+            "Pelvic pain or pain radiating to legs, suggesting nerve involvement or sidewall extension [3].",
+            "Suspicious inguinal or pelvic lymphadenopathy [3].",
+            "History of prior pelvic radiation or immunosuppression with new vaginal symptoms [3]."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "History and physical examination (H&P)",
+                    "rationale": "Essential to gather symptoms, risk factors (smoking, immunosuppression, prior hysterectomy), and perform pelvic assessment.",
+                    "key_findings": "Sexual history, immunosuppression, prior hysterectomy, smoking history, gynecologic and anorectal symptoms; bimanual and rectovaginal exam to assess tumor size, location, and extension [5]."
+                },
+                {
+                    "test": "Pelvic examination with Pap smear and colposcopy",
+                    "rationale": "To evaluate the cervix, vagina, and vulva; colposcopy with directed biopsies of suspicious areas.",
+                    "key_findings": "Identification of vaginal lesions, cervical involvement, and sampling for histology [5]."
+                },
+                {
+                    "test": "Examination under anesthesia (EUA) with biopsies",
+                    "rationale": "Allows thorough assessment of tumor extent, including potential bladder or rectal invasion; facilitates multiple biopsies.",
+                    "key_findings": "Biopsies of the tumor and any suspicious areas; may include cystoscopy and proctoscopy to rule out invasion [5,6]."
+                },
+                {
+                    "test": "Biopsy",
+                    "rationale": "Gold standard for diagnosis; provides histologic type and grade.",
+                    "key_findings": "Histologic confirmation of squamous cell carcinoma or other type; determination of HPV association [7]."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Pelvic MRI with vaginal gel",
+                    "rationale": "Preferred imaging to assess local tumor extent, size, depth of invasion, and relationship to adjacent structures.",
+                    "indication": "All patients with newly diagnosed vaginal cancer to define T stage [8]."
+                },
+                {
+                    "test": "FDG-PET/CT (neck/chest/abdomen/pelvis/groin)",
+                    "rationale": "Preferred to evaluate for metastatic disease, including lymph node and distant metastases.",
+                    "indication": "Staging workup; also used at 3–4 months post-treatment to assess response [8,9]."
+                },
+                {
+                    "test": "Chest/abdomen/pelvis CT",
+                    "rationale": "Alternative to PET/CT if not available; evaluates for metastatic disease.",
+                    "indication": "Staging workup, especially if PET/CT contraindicated or unavailable [8]."
+                },
+                {
+                    "test": "Ultrasound",
+                    "rationale": "May be used for initial assessment of inguinal nodes or abdominal disease, but not primary staging modality.",
+                    "indication": "Adjunctive in specific clinical scenarios [8]."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "HPV testing (p16 IHC, RNA ISH, or DNA sequencing)",
+                    "rationale": "Determines HPV association, which has prognostic value; p16 is a surrogate marker for HPV infection.",
+                    "when": "Recommended for all vaginal carcinomas to classify as HPV-associated or HPV-independent [7,10].",
+                    "mandatory": "Yes, part of pathologic assessment [7]."
+                },
+                {
+                    "test": "p53 IHC (or NGS for TP53)",
+                    "rationale": "Determines TP53 status in HPV-negative tumors, which are often keratinizing and have worse prognosis.",
+                    "when": "For HPV-negative tumors [7,11].",
+                    "mandatory": "Recommended for HPV-negative cases [7]."
+                },
+                {
+                    "test": "PD-L1 IHC",
+                    "rationale": "Predicts response to immune checkpoint inhibitors; required for immunotherapy eligibility.",
+                    "when": "For recurrent, progressive, or metastatic disease [7,12].",
+                    "mandatory": "Recommended to guide immunotherapy options [7]."
+                },
+                {
+                    "test": "HER2 IHC (with reflex FISH if equivocal)",
+                    "rationale": "Identifies HER2 expression for potential targeted therapy with trastuzumab deruxtecan.",
+                    "when": "For advanced or recurrent/metastatic disease [7,13].",
+                    "mandatory": "Recommended for advanced disease [7]."
+                },
+                {
+                    "test": "Mismatch repair (MMR) by IHC",
+                    "rationale": "Detects mismatch repair deficiency, which predicts response to immunotherapy.",
+                    "when": "Consider for recurrent, progressive, or metastatic disease [7].",
+                    "mandatory": "Considered, not mandatory but recommended [7]."
+                },
+                {
+                    "test": "Comprehensive molecular profiling (MSI, TMB, NTRK, RET)",
+                    "rationale": "Identifies actionable mutations for targeted therapies (e.g., pembrolizumab for MSI-H/TMB-H, NTRK inhibitors, RET inhibitors).",
+                    "when": "For advanced, recurrent, or metastatic disease to guide systemic therapy [7,14,15,16].",
+                    "mandatory": "Recommended by an FDA-approved assay or validated CLIA-certified test [7]."
+                }
+            ],
+            "do_not_miss": [
+                "Rule out synchronous or metastatic disease from another primary site (e.g., cervical, endometrial, vulvar, anorectal) [3].",
+                "Biopsy any suspicious vaginal lesion to confirm diagnosis and histology [5].",
+                "Assess for bladder/rectal invasion with cystoscopy/proctoscopy if clinically indicated [5].",
+                "Evaluate for lymph node involvement (inguinal and pelvic) with imaging [8].",
+                "Consider HIV testing in younger patients, as it may impact management [5]."
+            ],
+            "avoid": [
+                "Routine screening Pap smears for asymptomatic individuals without risk factors are not recommended for vaginal cancer detection [3].",
+                "Imaging without clinical suspicion or appropriate staging indication is not recommended [8].",
+                "Over-reliance on cytology for detecting recurrence, as its accuracy is limited post-radiation and for detecting invasive recurrence [3]."
+            ]
+        },
+        "staging": {
+            "system": "AJCC Cancer Staging Manual, 8th Edition, and FIGO 2009 staging system [4].",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed."
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor."
+                },
+                {
+                    "stage": "T1",
+                    "description": "Tumor confined to the vagina."
+                },
+                {
+                    "stage": "T1a",
+                    "description": "Tumor confined to the vagina, measuring ≤2.0 cm."
+                },
+                {
+                    "stage": "T1b",
+                    "description": "Tumor confined to the vagina, measuring >2.0 cm."
+                },
+                {
+                    "stage": "T2",
+                    "description": "Tumor invading paravaginal tissues but not to pelvic sidewall."
+                },
+                {
+                    "stage": "T2a",
+                    "description": "Tumor invading paravaginal tissues but not to pelvic wall, measuring ≤2.0 cm."
+                },
+                {
+                    "stage": "T2b",
+                    "description": "Tumor invading paravaginal tissues but not to pelvic wall, measuring >2.0 cm."
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor extending to the pelvic sidewall and/or causing hydronephrosis or nonfunctioning kidney."
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor invading the mucosa of the bladder or rectum and/or extending beyond the true pelvis (bullous edema is not sufficient evidence to classify a tumor as T4)."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "NX",
+                    "description": "Regional lymph nodes cannot be assessed."
+                },
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node metastasis."
+                },
+                {
+                    "stage": "N0(i+)",
+                    "description": "Isolated tumor cells in regional lymph node(s) no greater than 0.2 mm."
+                },
+                {
+                    "stage": "N1",
+                    "description": "Pelvic or inguinal lymph node metastasis."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis."
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage I",
+                    "criteria": "T1, N0, M0",
+                    "clinical_meaning": "Tumor confined to the vagina.",
+                    "five_yr_survival": "Not explicitly provided in source; for vaginal SCC, 5-year DSS is approximately 85% for stage I [17].",
+                    "treatment_intent": "Curative."
+                },
+                {
+                    "group": "Stage II",
+                    "criteria": "T2, N0, M0",
+                    "clinical_meaning": "Tumor invading paravaginal tissues but not to pelvic sidewall.",
+                    "five_yr_survival": "Approximately 78% for stage II [17].",
+                    "treatment_intent": "Curative."
+                },
+                {
+                    "group": "Stage III",
+                    "criteria": "T3, N0, M0 or any T, N1, M0",
+                    "clinical_meaning": "Tumor extending to pelvic sidewall or causing hydronephrosis, or regional lymph node metastasis.",
+                    "five_yr_survival": "Approximately 58% for stage III–IVA [17].",
+                    "treatment_intent": "Curative."
+                },
+                {
+                    "group": "Stage IVA",
+                    "criteria": "T4, any N, M0",
+                    "clinical_meaning": "Tumor invading bladder or rectal mucosa or extending beyond true pelvis.",
+                    "five_yr_survival": "Approximately 58% for stage III–IVA [17].",
+                    "treatment_intent": "Curative."
+                },
+                {
+                    "group": "Stage IVB",
+                    "criteria": "Any T, any N, M1",
+                    "clinical_meaning": "Distant metastasis.",
+                    "five_yr_survival": "Not explicitly provided; generally poor prognosis.",
+                    "treatment_intent": "Palliative."
+                }
+            ],
+            "staging_pearls": [
+                "Staging is primarily clinical, based on physical exam, biopsy, and imaging [4].",
+                "Pelvic sidewall is defined as the muscle, fascia, neurovascular structures, or skeletal portions of the bony pelvis; on rectal exam, no cancer-free space between tumor and pelvic sidewall [4].",
+                "Bullous edema is not sufficient evidence to classify a tumor as T4 [4].",
+                "Only a minority of vaginal cancers are primary; most are metastatic from other sites, so synchronous primaries must be excluded [3].",
+                "If vaginal lesion involves the cervix or vulva, it is not considered vaginal cancer and appropriate guidelines should be consulted [3].",
+                "Imaging (MRI, PET/CT) is recommended to better define tumor volume and extension, though not mandatory for FIGO staging [4,8]."
+            ]
+        },
+        "management_principles": {
+            "overview": "Vaginal cancer is a rare gynecologic malignancy representing 1% to 2% of all gynecologic neoplasms. The majority of cases are squamous cell carcinoma (SCC), accounting for 80% to 90% of cases, most commonly arising in the upper portion of the posterior wall of the vagina. The predominant pathway for vaginal SCC is HPV infection, predominantly high-risk HPV types with the most common type being HPV16. In the 2020 WHO Classification of Female Genital Tumors, vaginal SCC is categorized into HPV-associated and HPV-independent types based upon pathogenesis [11]. Primary treatment with curative intent for patients with vaginal cancer typically consists of radiation, surgery, chemoradiation, or a combination of these treatments, with options varying by cancer stage. For the majority of vaginal cancers, radiation is used rather than surgery as primary treatment due to improved organ preservation. The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control [5]. Many of the treatment recommendations for vaginal cancer are extrapolated from cervical cancer due to similarities in disease etiology and tumor biology, as prospective trials specific to vaginal cancer have not been feasible given the rarity of the disease. All NCCN recommendations are category 2A unless otherwise indicated, meaning they are based on lower-level evidence with uniform NCCN consensus (≥85% support of the Panel) that the intervention is appropriate.",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Patients with invasive vaginal cancer Stage I–IVA",
+                    "approach": "Radiation therapy (preferred) for the majority of patients due to improved organ preservation. For Stage I, intracavitary brachytherapy alone may be used in select favorable cases with small lesions <2 cm and limited thickness (≤5 mm). For lesions >2 cm confined to the vagina, EBRT with intracavitary brachytherapy (interstitial if >0.5 cm residual thickness at brachytherapy) ± concurrent platinum-containing chemotherapy is recommended. For Stage II–IVA, chemoradiation + brachytherapy (preferred) or EBRT + brachytherapy is recommended. Concurrent platinum-containing chemotherapy utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant). Surgery (resection ± lymph node assessment) is considered only for select cases where complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required [VAG-1, VAG-2]."
+                },
+                {
+                    "intent": "Palliative/Control",
+                    "patient_group": "Patients with recurrent or metastatic vaginal cancer (Stage IVB or recurrent distant metastases)",
+                    "approach": "Systemic therapy is the basis of treatment. For limited disease, systemic therapy with consideration of local treatment of the primary (chemoradiation ± brachytherapy) and local treatment of metastases (surgery for select patients, individualized EBRT, or local ablative therapies such as radiofrequency ablation, cryoablation, or SBRT). For disseminated disease, systemic therapy ± palliative RT and best supportive care. Comprehensive molecular profiling should be considered for better selection of systemic therapy. Patients with refractory systemic cancer warrant a comprehensive coordinated approach involving hospice care, pain consultants, and emotional and spiritual support [VAG-6]."
+                }
+            ],
+            "mdt_requirements": "Multidisciplinary expertise is recommended for all patients with vaginal cancer. Consider referral to a center of expertise that specializes in the treatment of vaginal cancers [VAG-1]. The NCCN Vaginal Cancer Panel includes gynecologic oncologists, radiation oncologists, medical oncologists, pathologists, and patient advocates. Due to the diverse diagnosis and rarity of vaginal cancer, a multidisciplinary approach is essential for optimal care coordination.",
+            "performance_status_guide": "Chemoradiation may not be suitable for all patients. It should be used with caution in patients who are older, frail, and/or have multiple comorbidities [VAG-2]. The NCCN Panel has noted that the cost and toxicity profiles of radiosensitizing agents should be considered when selecting an appropriate regimen for treatment and this is especially critical when these regimens are being used for extended-field RT where toxicities may be more severe."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "invasive_stage_i",
+                "title": "Invasive Vaginal Cancer Stage I – Primary Treatment",
+                "branching_basis": [
+                    "FIGO stage",
+                    "tumor size (≤2 cm vs >2 cm)",
+                    "tumor thickness (≤5 mm vs >5 mm)",
+                    "residual thickness after EBRT at time of brachytherapy",
+                    "surgical resectability",
+                    "patient fitness for chemoradiation"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage I, favorable cases: small lesions <2 cm and limited thickness (≤5 mm)",
+                        "options": [
+                            {
+                                "type": "radiation",
+                                "label": "Intracavitary brachytherapy alone",
+                                "preference": "preferred (for select favorable cases)",
+                                "recommendation": "Category 2A. Intracavitary brachytherapy alone is appropriate for very-early-stage vaginal cancers (<5 mm) not requiring EBRT. LDR data suggest improved outcomes with doses of approximately 60–70 Gy EQD2 to the vaginal surface. HDR data are more varied, with total doses in the range of 50–60 Gy EQD2. Common regimens include 5 Gy x 8 fractions or 8 Gy x 5 fractions to the vaginal surface, with treatments delivered twice per week.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation",
+                                "label": "EBRT + intracavitary brachytherapy ± concurrent platinum-containing chemotherapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. For lesions >2 cm confined to the vagina. Interstitial brachytherapy if >0.5 cm residual thickness at brachytherapy. Concurrent platinum-containing chemotherapy utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant).",
+                                "linked_regimen_ids": [
+                                    "cisplatin_concurrent_rt",
+                                    "carboplatin_concurrent_rt"
+                                ]
+                            },
+                            {
+                                "type": "surgery",
+                                "label": "Surgical resection ± lymph node assessment",
+                                "preference": "only for select cases",
+                                "recommendation": "Category 2A. Surgery is only recommended if a complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required. For microscopic lesions at the top of the vagina, upper vaginectomy ± hysterectomy may be reasonable. A radical hysterectomy may be appropriate for macroscopic lesions (<2 cm). For proximal lesions involving the upper two thirds of the vagina, pelvic lymph nodes should be assessed. For distal lesions involving the lower one third of the vagina, inguinal lymph nodes should be assessed.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Post-surgical adjuvant therapy is based on pathologic risk factors. If negative margins and negative lymph nodes if removed: observe with follow-up/surveillance. If close or positive margin(s) for invasive disease or positive lymph nodes: adjuvant RT or chemoradiation and/or brachytherapy. In select patients, re-excision may be considered. The management of positive margins for HSIL should be individualized."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "invasive_stage_ii_to_iva",
+                "title": "Invasive Vaginal Cancer Stage II–IVA – Primary Treatment",
+                "branching_basis": [
+                    "FIGO stage (II, III, IVA)",
+                    "patient fitness for chemoradiation",
+                    "age and comorbidities"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage II–IVA disease",
+                        "options": [
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Chemoradiation + brachytherapy",
+                                "preference": "preferred",
+                                "recommendation": "Category 2A. Platinum-based chemoradiation with brachytherapy is the preferred modality for definitive management. Concurrent chemotherapy has been shown in many series to improve outcomes and is often used in stage II–IV disease. Concurrent platinum-containing chemotherapy with EBRT utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant). Chemoradiation may not be suitable for all patients and should be used with caution in patients who are older, frail, and/or have multiple comorbidities.",
+                                "linked_regimen_ids": [
+                                    "cisplatin_concurrent_rt",
+                                    "carboplatin_concurrent_rt"
+                                ]
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "EBRT + brachytherapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control. Overall treatment time should not extend beyond 8 weeks and treatment delays/interruptions need to be minimized.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable. These patients receive definitive treatment, not post-surgical adjuvant therapy."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "postoperative_adjuvant_therapy",
+                "title": "Postoperative Adjuvant Therapy Based on Risk Factors",
+                "branching_basis": [
+                    "margin status",
+                    "lymph node status",
+                    "pathologic risk factors"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Negative margins AND negative lymph nodes if removed",
+                        "options": [
+                            {
+                                "type": "surveillance",
+                                "label": "Observe",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Observation with follow-up/surveillance per VAG-4 protocol.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy required."
+                        }
+                    },
+                    {
+                        "criteria": "Close or positive margin(s) for invasive disease OR positive lymph nodes",
+                        "options": [
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Adjuvant RT or chemoradiation and/or brachytherapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Adjuvant RT or chemoradiation and/or brachytherapy is recommended. Chemoradiation may not be suitable for all patients and should be used with caution in patients who are older, frail, and/or have multiple comorbidities. In select patients, re-excision may be considered.",
+                                "linked_regimen_ids": [
+                                    "cisplatin_concurrent_rt",
+                                    "carboplatin_concurrent_rt"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant therapy is indicated for patients with close or positive margins for invasive disease or positive lymph nodes. The management of positive margins for HSIL should be individualized."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "followup_surveillance",
+                "title": "Post-Treatment Follow-Up and Surveillance",
+                "branching_basis": [
+                    "time since treatment",
+                    "risk of recurrence",
+                    "symptomatology"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "All treated patients",
+                        "options": [
+                            {
+                                "type": "surveillance",
+                                "label": "Interval H&P every 3–6 months for 2 years, every 6–12 months for 3–5 years, then annually",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Based on patient's risk of disease recurrence. Consider cervical/vaginal cytology screening as indicated for the detection of lower genital tract neoplasia (may include HPV testing).",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "imaging",
+                                "label": "Post-treatment imaging at 3–4 months after completion of treatment to assess response",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. FDG-PET/CT (preferred). MRI abdomen/pelvis and chest CT or chest/abdomen/pelvis CT if unable to obtain FDG-PET/CT or needed for clarification of FDG-PET/CT or exam findings. Further imaging as indicated based on symptoms or examination findings suspicious for recurrence.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "assessment",
+                                "label": "Clinical evaluation and management of potential long-term and late effects of treatment and patient education",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Patient education should include symptoms of potential recurrence, lifestyle, obesity, exercise, sexual health (including vaginal dilator use, lubricants/moisturizers, and local estrogen and hormone therapy for menopause), smoking cessation, and nutrition counseling.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "locoregional_recurrence_no_prior_rt",
+                "title": "Locoregional Recurrence – No Prior RT or Recurrence Outside Previously Radiated Field",
+                "branching_basis": [
+                    "prior radiation history",
+                    "recurrence location relative to prior RT field"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Locoregional recurrence with no prior RT or recurrence outside previously radiated field",
+                        "options": [
+                            {
+                                "type": "radiation_oncology",
+                                "label": "EBRT ± brachytherapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Tumor-directed EBRT and/or brachytherapy.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Chemoradiation ± brachytherapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. EBRT with concurrent platinum-containing chemotherapy and/or brachytherapy. Concurrent platinum-containing chemotherapy utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant).",
+                                "linked_regimen_ids": [
+                                    "cisplatin_concurrent_rt",
+                                    "carboplatin_concurrent_rt"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "locoregional_recurrence_prior_brachytherapy_only",
+                "title": "Locoregional Recurrence After Prior Intracavitary Brachytherapy Only",
+                "branching_basis": [
+                    "prior treatment (intracavitary brachytherapy only)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Locoregional recurrence after prior intracavitary brachytherapy only",
+                        "options": [
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Individualized EBRT ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Individualized EBRT with/without systemic therapy. Concurrent surgery is only recommended if a complete resection with clear margins is feasible without excessive morbidity.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "± interstitial brachytherapy ± surgery for select patients",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Interstitial brachytherapy and/or surgery in carefully selected patients.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "locoregional_recurrence_prior_ebrt_central",
+                "title": "Locoregional Recurrence After Prior EBRT ± Brachytherapy – Central Disease",
+                "branching_basis": [
+                    "prior EBRT ± brachytherapy",
+                    "disease location (central vs noncentral)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Central pelvic recurrent disease after prior EBRT and/or brachytherapy",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Pelvic exenteration ± intraoperative RT (IORT)",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Pelvic exenteration is a treatment option for central recurrent disease after prior RT. IORT is a specialized technique that delivers a single, highly focused dose of radiation to an at-risk tumor bed during an open surgical procedure. Surgical mortality is generally ≤5%, with survival rates approaching 50% in carefully selected patients. Concomitant measures with these radical procedures include adequate rehabilitation programs dealing with the psychosocial and psychosexual consequences of the surgery as well as reconstructive procedures.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Consider reirradiation",
+                                "preference": "consider",
+                                "recommendation": "Category 2A. In carefully selected patients, reirradiation may be considered. Other techniques for reirradiation may include intracavitary or interstitial brachytherapy, SBRT, IMRT, or proton therapy. Cases are highly individualized and depend on the target, proximity to critical organs, previous RT dose, extent of overlap, and time intervals since prior RT.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "surgery",
+                                "label": "Limited (less than exenteration) excision in carefully selected patients",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Limited excision may be considered for carefully selected patients who are not candidates for pelvic exenteration.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "locoregional_recurrence_prior_ebrt_noncentral",
+                "title": "Locoregional Recurrence After Prior EBRT ± Brachytherapy – Noncentral Disease",
+                "branching_basis": [
+                    "prior EBRT ± brachytherapy",
+                    "disease location (central vs noncentral)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Noncentral recurrent disease after prior EBRT and/or brachytherapy",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Consider additional testing including comprehensive molecular profiling for better selection of systemic therapy.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "surgery",
+                                "label": "Resection ± IORT",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Resection with or without IORT is a treatment option for noncentral disease.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Reirradiation",
+                                "preference": "consider",
+                                "recommendation": "Category 2A. Highly individualized depending on target, proximity to critical organs, previous RT dose, extent of overlap, and time intervals since prior RT.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "supportive",
+                                "label": "Best supportive care",
+                                "preference": "if not amenable to local therapy",
+                                "recommendation": "Category 2A. Refer to NCCN Guidelines for Palliative Care.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "stage_ivb_limited_disease",
+                "title": "Stage IVB or Recurrent Distant Metastatic Disease – Limited Disease",
+                "branching_basis": [
+                    "extent of metastatic disease (limited vs disseminated)",
+                    "molecular profiling results"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Stage IVB disease or recurrent metastases with limited disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Comprehensive molecular profiling should be considered for better selection of systemic therapy.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "Consider local treatment of the primary by chemoradiation ± brachytherapy",
+                                "preference": "consider",
+                                "recommendation": "Category 2A.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "local_therapy",
+                                "label": "Consider local treatment of metastases: Surgery for select patients, individualized EBRT, or local ablative therapies (e.g., radiofrequency ablation, cryoablation, SBRT)",
+                                "preference": "consider",
+                                "recommendation": "Category 2A. Patients who may benefit from aggressive local therapy for oligometastatic disease include those with nodal, lung, liver, or bone metastases.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "supportive",
+                                "label": "Best supportive care",
+                                "preference": "if appropriate",
+                                "recommendation": "Category 2A. Refer to NCCN Guidelines for Palliative Care.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "stage_ivb_disseminated_disease",
+                "title": "Stage IVB or Recurrent Distant Metastatic Disease – Disseminated Disease",
+                "branching_basis": [
+                    "extent of metastatic disease (limited vs disseminated)",
+                    "molecular profiling results"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Disseminated metastatic disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Comprehensive molecular profiling should be considered for better selection of systemic therapy.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_oncology",
+                                "label": "± Palliative RT",
+                                "preference": "as indicated",
+                                "recommendation": "Category 2A. Short courses of RT may provide symptomatic relief to patients with bone metastases, painful para-aortic nodes, or supraclavicular adenopathy.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "supportive",
+                                "label": "Best supportive care",
+                                "preference": "recommended",
+                                "recommendation": "Category 2A. Refer to NCCN Guidelines for Palliative Care. For most patients with distant metastases, an appropriate approach is a clinical trial, chemotherapy, or best supportive care.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "History and Physical",
+                "items": [
+                    {
+                        "text": "History and physical examination including sexual history, immunosuppression, prior hysterectomy, smoking history, gynecologic and anorectal symptoms",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Pelvic exam (bimanual and rectovaginal), cervical evaluation and pap smear, colposcopy, vulvar evaluation",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Rule out synchronous anorectal, cervical, endometrial, or vulvar primary with vaginal metastasis or extension, or recurrent disease from prior malignancy",
+                        "recommendation": "Category 2A. Only a minority of vaginal cancers originate in the vagina. The remaining are generally metastatic from other sites. If vaginal lesion(s) involve the cervix or vulva, it is not considered vaginal cancer and the appropriate treatment algorithm should be consulted."
+                    },
+                    {
+                        "text": "Consider examination under anesthesia (EUA) with biopsies (consider cystoscopy/proctoscopy) as clinically indicated",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Imaging",
+                "items": [
+                    {
+                        "text": "Pelvis MRI with vaginal gel to assess local disease extent (preferred)",
+                        "recommendation": "Category 2A. MRI is performed with and without IV contrast throughout the guidelines unless contraindicated."
+                    },
+                    {
+                        "text": "Neck/chest/abdomen/pelvis/groin FDG-PET/CT (preferred) or chest/abdomen/pelvis CT to evaluate for metastatic disease",
+                        "recommendation": "Category 2A. Other initial imaging should be based on symptomatology and clinical concern for metastatic disease."
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory",
+                "items": [
+                    {
+                        "text": "Complete blood count (CBC), comprehensive metabolic panel (CMP)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Human papillomavirus (HPV) and human immunodeficiency virus (HIV) testing in select patients",
+                        "recommendation": "Category 2A. Consider HIV testing, especially in younger patients. Patients with vaginal cancer and HIV should be referred to an HIV specialist and should be treated for vaginal cancer as per these guidelines. Modifications to cancer treatment should not be made solely on the basis of HIV status."
+                    }
+                ]
+            },
+            {
+                "category": "Pathologic Assessment",
+                "items": [
+                    {
+                        "text": "Biopsy remains the gold standard for diagnosing vaginal cancer",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Procedure type (biopsy, local excision, partial vaginectomy, radical vaginectomy, trachelectomy)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Tumor site (upper, middle, or lower third), tumor size (greatest dimension and additional two dimensions)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Histologic type: HPV-associated SCC, HPV-independent SCC, HPV-associated vaginal adenocarcinoma, endometrioid carcinoma, clear cell carcinoma, mucinous carcinoma (gastric and intestinal types), mesonephric adenocarcinoma, carcinosarcoma, mixed tumor of the vagina, adenocarcinoma of skene gland origin, adenosquamous carcinoma, adenoid basal carcinoma, adenosarcoma, neuroendocrine carcinomas, and germ cell tumors",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Histologic grade (well, moderately, and poorly differentiated), lymphovascular space invasion (LVSI), precursor lesion(s) (VAIN/SIL)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Determination of primary site: Prior (<5 year) history of cervical or vulvar carcinoma must be excluded",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Surgical resection margin status",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Ancillary testing: Recommend ancillary testing to determine HPV status either by p16 IHC or RNA in situ hybridization (ISH) or DNA sequencing",
+                        "recommendation": "Category 2A. p16 expression has been noted in a subset of HPV-independent vaginal SCC."
+                    },
+                    {
+                        "text": "Recommend p53 IHC to determine TP53 status in HPV-negative tumors (NGS is an acceptable alternative)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Consider PD-L1 IHC for patients with recurrent, progressive, or metastatic disease",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "HER2 IHC (with or without reflex to HER2 FISH for equivocal IHC) for advanced or recurrent/metastatic disease",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Consider comprehensive molecular profiling by FDA-approved assay or validated CLIA-certified laboratory test including at least MSI, TMB testing, NTRK, and RET for predicting rare pan-tumor targeted therapy opportunities",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Consider mismatch repair (MMR) by IHC",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Supportive Care Assessment",
+                "items": [
+                    {
+                        "text": "Smoking cessation and counseling intervention, if indicated",
+                        "recommendation": "Category 2A. See NCCN Guidelines for Smoking Cessation."
+                    },
+                    {
+                        "text": "Assess for distress",
+                        "recommendation": "Category 2A. Refer to NCCN Distress Thermometer and Problem List, which includes social determinants of health."
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery is only used for select cases of vaginal cancer. For the majority of vaginal cancers, radiation is used rather than surgery as primary treatment due to improved organ preservation. Surgery is recommended only if a complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required. Patients should be evaluated by a gynecologic oncologist prior to any surgical treatment for vaginal cancer.",
+            "principles": [
+                "Surgery is only recommended if a complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required",
+                "For primary, untreated lesions in which resection would require excision of the urethra, bladder, or rectum, radiation is often preferred",
+                "Vaginectomy may be considered for small lesions for which margins are likely to be negative. Every effort should be made to obtain negative margins",
+                "For microscopic lesions at the top of the vagina, upper vaginectomy ± hysterectomy may be reasonable",
+                "A radical hysterectomy may be appropriate for macroscopic lesions (<2 cm)",
+                "For proximal lesions involving the upper two thirds of the vagina, the pelvic lymph nodes should be assessed",
+                "For distal lesions involving the lower one third of the vagina, the inguinal lymph nodes should be assessed",
+                "Vaginal reconstruction should be considered for appropriate candidates desiring such procedures",
+                "In patients who are premenopausal, ovarian preservation or transposition should be considered when feasible",
+                "Fiducial markers may be placed to define the extent of the vaginal lesion",
+                "EUA may be helpful to confirm diagnosis, obtain adequate tissue sampling for histologic evaluation and comprehensive molecular profiling such as PD-L1, and assess the extent of disease. Consider cystoscopy and proctoscopy concurrently to exclude bladder/rectal invasion. Perform evaluation of cervix and vulva to exclude other gynecologic primary sites"
+            ],
+            "procedures": [
+                {
+                    "name": "Upper vaginectomy ± hysterectomy",
+                    "approach": "Surgical excision",
+                    "indications": "Microscopic lesions at the top of the vagina",
+                    "key_complications": "Adhesion formation, pain, potential small bowel obstruction, urinary or gastrointestinal complications, pelvic floor dysfunction, lymphedema",
+                    "operative_mortality": "Not specified"
+                },
+                {
+                    "name": "Radical hysterectomy",
+                    "approach": "Surgical excision",
+                    "indications": "Macroscopic lesions <2 cm confined to vagina",
+                    "key_complications": "Adhesion formation, pain, potential small bowel obstruction, urinary or gastrointestinal complications, pelvic floor dysfunction, lymphedema",
+                    "operative_mortality": "Not specified"
+                },
+                {
+                    "name": "Partial or radical vaginectomy",
+                    "approach": "Surgical excision",
+                    "indications": "Small lesions for which margins are likely to be negative",
+                    "key_complications": "Adhesion formation, pain, potential small bowel obstruction, urinary or gastrointestinal complications, pelvic floor dysfunction, lymphedema",
+                    "operative_mortality": "Not specified"
+                },
+                {
+                    "name": "Pelvic exenteration",
+                    "approach": "Radical surgical excision ± intraoperative RT (IORT)",
+                    "indications": "Recurrent or persistent disease localized to the pelvis, or when primary RT is not feasible. Central pelvic recurrent disease after prior EBRT and/or brachytherapy.",
+                    "key_complications": "Adhesion formation, pain, potential small bowel obstruction, urinary or gastrointestinal complications, pelvic floor dysfunction, lymphedema. Concomitant measures include adequate rehabilitation programs dealing with psychosocial and psychosexual consequences as well as reconstructive procedures.",
+                    "operative_mortality": "Generally ≤5%"
+                }
+            ],
+            "resectability_criteria": "Surgery is only recommended if a complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required. For primary untreated lesions in which resection would require excision of the urethra, bladder, or rectum, radiation is often preferred. Pelvic exenteration may be considered for recurrent or persistent disease localized to the pelvis or when primary RT is not feasible.",
+            "pre_operative_optimisation": "Patients should be evaluated by a gynecologic oncologist prior to any surgical treatment. EUA with biopsies, cystoscopy, and proctoscopy should be performed to assess the extent of disease and exclude bladder/rectal invasion. Fiducial markers may be placed to define the extent of the vaginal lesion. In patients who are premenopausal, ovarian preservation or transposition should be considered when feasible."
+        },
+        "radiation_therapy": {
+            "role": "RT is preferred in the management of vaginal cancer rather than surgery as primary treatment due to improved organ preservation. Preferred modalities for definitive management include either concurrent pelvic chemoradiation (platinum-based) + brachytherapy or EBRT + brachytherapy. The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control. Overall treatment time should not extend beyond 8 weeks and treatment delays/interruptions need to be minimized.",
+            "principles": [
+                "For the majority of vaginal cancers, radiation is used rather than surgery as primary treatment due to improved organ preservation",
+                "The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control",
+                "Overall treatment time should not extend beyond 8 weeks",
+                "Treatment delays/interruptions need to be minimized",
+                "Brachytherapy alone is not recommended for most tumors, even early-stage, due to a high recurrence rate",
+                "Brachytherapy is typically combined with EBRT in an integrated treatment plan",
+                "IMRT is preferred to minimize toxicities in definitive treatment of the pelvis",
+                "Adaptive planning with IGRT, especially if IMRT is utilized, is encouraged",
+                "Careful attention should be paid to dose tolerance of vaginal mucosa. The distal vagina has a lower tolerance than the proximal vagina",
+                "Brachytherapy planning is highly individualized and should incorporate information from pre-EBRT and pre-brachytherapy imaging (preferably MRI), clinical drawings, fiducials, and exam findings",
+                "Image-guided brachytherapy is strongly encouraged, with adaptation of volumes as tumor responds"
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "EBRT/IMRT to Pelvis",
+                    "total_dose": "45–50 Gy",
+                    "dose_per_fraction": "1.8–2.0 Gy/fraction",
+                    "fractions": "25–28",
+                    "schedule": "Conventional fractionation",
+                    "indication": "Primary treatment for vaginal cancer as component of combined modality therapy"
+                },
+                {
+                    "name": "Gross Nodal Boost (simultaneous integrated or sequential)",
+                    "total_dose": "55–70 Gy EQD2",
+                    "dose_per_fraction": "Varies",
+                    "fractions": "Varies",
+                    "schedule": "Integrated or sequential boost",
+                    "indication": "Grossly involved lymph nodes"
+                },
+                {
+                    "name": "Postoperative EBRT Boost",
+                    "total_dose": "54–60 Gy",
+                    "dose_per_fraction": "Varies",
+                    "fractions": "Varies",
+                    "schedule": "Sequential boost",
+                    "indication": "Primary lesion resected with close or positive margins"
+                },
+                {
+                    "name": "External Beam Boost (in place of brachytherapy)",
+                    "total_dose": "65–70 Gy total",
+                    "dose_per_fraction": "Varies",
+                    "fractions": "Varies",
+                    "schedule": "Sequential boost",
+                    "indication": "Patients who are poor candidates for brachytherapy or where concern for toxicity is high"
+                },
+                {
+                    "name": "Brachytherapy HDR (after 45 Gy pelvis)",
+                    "total_dose": "4.5–5.5 Gy x 5 fractions to HR-CTV (or 7 Gy x 3 fx or 3 Gy x 9–10 fx)",
+                    "dose_per_fraction": "4.5–5.5 Gy (or 7 Gy or 3 Gy)",
+                    "fractions": "5 (or 3 or 9–10)",
+                    "schedule": "Typically after EBRT",
+                    "indication": "Invasive cancers after pelvic EBRT"
+                },
+                {
+                    "name": "Brachytherapy Intracavitary Alone (very early stage)",
+                    "total_dose": "50–70 Gy EQD2 to vaginal surface",
+                    "dose_per_fraction": "5 Gy or 8 Gy",
+                    "fractions": "8 (at 5 Gy) or 5 (at 8 Gy)",
+                    "schedule": "Twice per week",
+                    "indication": "Very-early-stage vaginal cancers (<5 mm) not requiring EBRT"
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "EBRT/IMRT",
+                    "dose_fractionation": "45–50 Gy in 1.8–2.0 Gy/fraction",
+                    "concurrent_chemotherapy": "Cisplatin (preferred) or carboplatin if cisplatin intolerant",
+                    "indication": "Component of definitive treatment for all stages",
+                    "key_trial": "Not applicable (consensus-based)",
+                    "toxicities": "Acute: diarrhea, bladder irritation, fatigue. Late: fibrosis, vulvovaginal atrophy, potential secondary cancers. IMRT technique can reduce acute and chronic GI and hematologic toxicity."
+                },
+                {
+                    "name": "Brachytherapy (Intracavitary/Interstitial)",
+                    "dose_fractionation": "70–80 Gy EQD2 total dose to HR-CTV (70–75 Gy lower vagina, 75–80 Gy upper vagina, up to 85 Gy for bulky upper vagina)",
+                    "concurrent_chemotherapy": "N/A (administered after chemoradiation)",
+                    "indication": "All suitable patients with primary vaginal cancer; strongly encouraged as component of definitive treatment",
+                    "key_trial": "Orton et al 2016 [5]: Brachytherapy improved survival; HR 0.77 (95% CI, 0.68–0.86). RetroEMBRACE/EMBRACE-I studies [140–146]. IGABT multicenter study: 2- and 5-year local control 86% and 83% [7].",
+                    "toxicities": "Dose constraints to rectum (<65 Gy D2 cc ideal, <75 Gy maximum), bladder (75–80 Gy D2 cc ideal, <90 Gy maximum), sigmoid (<70 Gy D2 cc ideal, <75 Gy maximum), bowel (<70 Gy D2 cc ideal, <75 Gy maximum), urethra (0.1 cc less than prescription dose, estimated EQD2 of 85 Gy). Studies indicate that 20%–30% of cases may not meet every constraint."
+                },
+                {
+                    "name": "Concurrent Chemoradiation (CCRT) with Brachytherapy",
+                    "dose_fractionation": "EBRT 45–50 Gy + concurrent cisplatin (or carboplatin) + brachytherapy boost",
+                    "concurrent_chemotherapy": "Cisplatin (preferred) or carboplatin if cisplatin intolerant",
+                    "indication": "Stage II–IVA disease (preferred regimen). Also for locoregional recurrence in previously unirradiated field.",
+                    "key_trial": "Miyamoto et al 2013 [4]: 3-year OS 76% with CCRT vs 56% with RT alone (P=.037); 3-year DFS 73% vs 43% (P=.011). Rajagopalan et al 2014 [3]: NCDB study of 8222 patients; CCRT use increased from 20.8% to 59.1% (1998–2011); median OS 56.2 vs 41.2 months (P<.0005).",
+                    "toxicities": "Acute effects typically magnified by concurrent chemotherapy (diarrhea, bladder irritation, fatigue); generally resolve after completion. Late complications include potential injury to bladder, rectum, bowel, and pelvic skeletal structures."
+                },
+                {
+                    "name": "Reirradiation",
+                    "dose_fractionation": "Highly individualized",
+                    "concurrent_chemotherapy": "Variable",
+                    "indication": "Locoregional recurrence after prior EBRT ± brachytherapy. Techniques include IORT, intracavitary or interstitial brachytherapy, SBRT, IMRT, or proton therapy.",
+                    "key_trial": "Not applicable (consensus-based, individualized approach)",
+                    "toxicities": "Increased risk of toxicity due to overlap with prior radiation fields. Cases are highly individualized depending on target, proximity to critical organs, previous RT dose, extent of overlap, and time intervals since prior RT."
+                },
+                {
+                    "name": "Intraoperative Radiation Therapy (IORT)",
+                    "dose_fractionation": "Single highly focused dose",
+                    "concurrent_chemotherapy": "N/A",
+                    "indication": "Recurrent disease within a previously radiated volume; particularly useful for central pelvic recurrent disease after prior EBRT. Overlying normal tissue can be manually displaced from the region at risk.",
+                    "key_trial": "Consensus-based recommendation",
+                    "toxicities": "Delivered with electrons, brachytherapy, or miniaturized x-ray sources using preformed applicators. Surgical mortality for pelvic exenteration with IORT is generally ≤5%."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy recommendations for primary vaginal cancer are extrapolated from cervical cancer since they share similar disease etiologies. There are no category 1 treatment recommendations for vaginal cancer due to lack of disease site-specific phase 3 trial data. The majority of cases in the vagina might be arising from another site and the treatment recommendations will be based on corresponding NCCN Treatment Guidelines. All recommendations are category 2A unless otherwise indicated. An FDA-approved biosimilar is an appropriate substitute for any recommended systemic biologic therapy.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Chemoradiation (Locally Advanced, Stage II–IVA)",
+                    "preferred_regimen": "Cisplatin (preferred) or Carboplatin if patient is cisplatin intolerant, administered concurrently with EBRT",
+                    "rationale": "Concurrent chemoradiation using platinum-containing chemotherapy (cisplatin alone preferred) is the treatment of choice for stages II–IVA disease. Randomized trials have shown that concurrent chemoradiation results in a 30% to 50% decrease in the risk of death compared with RT alone [MS-13]. Long-term follow-up of three trials has confirmed that concurrent cisplatin-containing chemoradiation improves PFS and OS when compared with RT with (or without) hydroxyurea [76–78].",
+                    "alternatives": "When cisplatin and carboplatin are unavailable: capecitabine/mitomycin, gemcitabine, paclitaxel [MS-13]. Toxicity, especially when using extended-field RT, should be carefully considered when selecting an appropriate regimen.",
+                    "biomarker_requirements": "None specified for concurrent chemoradiation. Capecitabine: For information regarding DPYD testing, see NCCN Guidelines for Colon Cancer. Capecitabine use should be avoided in patients with certain homozygous or compound heterozygous DPYD variants that result in complete DPYD deficiency."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – First-Line Therapy, PD-L1–Positive",
+                    "preferred_regimen": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab OR Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab OR Cisplatin/Paclitaxel + Bevacizumab OR Carboplatin/Paclitaxel + Bevacizumab",
+                    "rationale": "Based on KEYNOTE-826 trial [16, 90]: In PD-L1–positive (CPS ≥1) tumors, median OS 28.6 vs 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P<.0001); median PFS 10.5 vs 8.2 months. ORR 68.1% vs 50.2%. Based on GOG 240 trial [91]: Addition of bevacizumab improved OS (16.8 vs 13.3 months; P=.007). Based on JCOG0505 [94]: Carboplatin/paclitaxel was noninferior to cisplatin/paclitaxel (median OS 18.3 vs 17.5 months; HR, 0.994; P=.032).",
+                    "alternatives": "Cisplatin/Paclitaxel, Carboplatin/Paclitaxel, Paclitaxel/Topotecan + Bevacizumab, Paclitaxel/Topotecan, Cisplatin/Topotecan, Cisplatin (single agent), Carboplatin (single agent) [VAG-D].",
+                    "biomarker_requirements": "PD-L1 (CPS ≥1) required for pembrolizumab-containing regimens. If not PD-L1 positive, chemotherapy ± bevacizumab without pembrolizumab."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – First-Line Therapy, Not PD-L1 Positive",
+                    "preferred_regimen": "Cisplatin/Paclitaxel + Bevacizumab OR Carboplatin/Paclitaxel + Bevacizumab",
+                    "rationale": "Based on GOG 240 trial [91]. Carboplatin/paclitaxel is a preferred option for patients who have received prior cisplatin therapy.",
+                    "alternatives": "Cisplatin/Paclitaxel, Carboplatin/Paclitaxel, Paclitaxel/Topotecan + Bevacizumab, Paclitaxel/Topotecan, Cisplatin/Topotecan, Cisplatin (single agent), Carboplatin (single agent) [VAG-D].",
+                    "biomarker_requirements": "PD-L1 testing recommended; if CPS <1, pembrolizumab-containing regimens are not listed as preferred."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, TMB-H",
+                    "preferred_regimen": "Pembrolizumab",
+                    "rationale": "KEYNOTE-158 study [22]: Objective responses observed in 30 (29%; 95% CI, 21–39) of 102 patients in the tTMB-H group (≥10 mut/Mb). FDA-approved for unresectable or metastatic TMB-H tumors that have progressed following prior treatment.",
+                    "alternatives": "Other recommended and useful in certain circumstances options per VAG-D.",
+                    "biomarker_requirements": "TMB-H (≥10 mutations/megabase [mut/Mb]) required."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, PD-L1–Positive",
+                    "preferred_regimen": "Pembrolizumab",
+                    "rationale": "KEYNOTE-158 [17]: ORR 14.6% (95% CI, 7.8%–24.2%) in PD-L1–positive tumors. FDA-approved for advanced PD-L1–positive cervical cancer who experienced progression during or after chemotherapy.",
+                    "alternatives": "Other recommended options per VAG-D. Useful in certain circumstances: Nivolumab.",
+                    "biomarker_requirements": "PD-L1 (CPS ≥1) required."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, MSI-H/dMMR",
+                    "preferred_regimen": "Pembrolizumab",
+                    "rationale": "KEYNOTE-158 cohort K [21]: ORR 34.3% (95% CI, 28.3%–40.8%) in MSI-H/dMMR tumors. Median PFS 4.1 months, median OS 23.5 months.",
+                    "alternatives": "Other recommended and useful in certain circumstances options per VAG-D.",
+                    "biomarker_requirements": "MSI-H/dMMR required."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, No Biomarker Selection",
+                    "preferred_regimen": "Not specified (biomarker-directed preferred options above); Other recommended options include bevacizumab, paclitaxel, albumin-bound paclitaxel, docetaxel, fluorouracil, gemcitabine, pemetrexed, topotecan, vinorelbine, irinotecan, tisotumab vedotin-tftv, cemiplimab, ipilimumab + nivolumab",
+                    "rationale": "Multiple agents have demonstrated activity in pretreated disease. Tisotumab vedotin-tftv: innovaTV-301 [128] showed median OS 11.5 vs 9.5 months (HR, 0.70; P=.004); ORR 17.8% vs 5.2%. Cemiplimab: Empower-Cervical-1 [129] showed median OS 12 vs 8.5 months (HR, 0.69; P<.001); ORR 16% vs 6.3%. Ipilimumab + nivolumab: CheckMate 358 [131] showed ORR 31%–40%.",
+                    "alternatives": "Multiple single-agent and combination options listed under 'Other Recommended' in VAG-D.",
+                    "biomarker_requirements": "Comprehensive molecular profiling recommended to identify actionable biomarkers. If tissue biopsy not feasible, ctDNA assay may be considered."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, HER2-Positive (IHC 3+ or 2+)",
+                    "preferred_regimen": "Fam-trastuzumab deruxtecan-nxki",
+                    "rationale": "DESTINY-PanTumor02 [20, 35]: In cervical cancer patients with HER2 IHC2+ or 3+, confirmed ORR 50%; for HER2 IHC3+ cohort, ORR 75%, median OS 13.6 months.",
+                    "alternatives": "Other recommended options per VAG-D.",
+                    "biomarker_requirements": "HER2 IHC 3+ or 2+ required. HER2 IHC testing (with or without reflex to HER2 FISH for equivocal IHC) recommended for advanced/recurrent/metastatic disease."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, RET Gene Fusion-Positive",
+                    "preferred_regimen": "Selpercatinib",
+                    "rationale": "LIBRETTO-001 [36]: ORR 44% (95% CI, 28.5–60.3), median DoR 24.5 months (95% CI, 9.2–NE). FDA-approved tumor-agnostic for RET fusion-positive solid tumors.",
+                    "alternatives": "Other recommended options per VAG-D.",
+                    "biomarker_requirements": "RET gene fusion required."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, NTRK Gene Fusion-Positive",
+                    "preferred_regimen": "Larotrectinib OR Entrectinib OR Repotrectinib",
+                    "rationale": "Larotrectinib [25, 26]: ORR 79% (95% CI, 72–85), median DoR 35.2 months. Entrectinib [23, 24]: ORR 61%, median DoR 20 months. Repotrectinib [29]: TKI-naïve ORR 58%, TKI-pretreated ORR 50%. All FDA-approved tumor-agnostic for NTRK fusion-positive solid tumors.",
+                    "alternatives": "Other recommended options per VAG-D.",
+                    "biomarker_requirements": "NTRK gene fusion required. Repotrectinib: for NTRK-positive tumors naïve to prior NTRK-targeted therapy or have progressed on prior NTRK therapy."
+                },
+                {
+                    "setting": "Recurrent or Metastatic Disease – Second-Line or Subsequent Therapy, PD-L1–Positive (Useful in Certain Circumstances)",
+                    "preferred_regimen": "Nivolumab",
+                    "rationale": "CheckMate 358 [18]: ORR 26.3% (95% CI, 9.1%–51.2%), disease control rate 68.4%, 12-month OS rate 77.5%. Listed under 'useful in certain circumstances' for vaginal cancer based on cervical cancer recommendations.",
+                    "alternatives": "Other recommended options per VAG-D.",
+                    "biomarker_requirements": "PD-L1 (CPS ≥1) required. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Cisplatin Concurrent with EBRT",
+                    "setting": "Chemoradiation for locally advanced vaginal cancer (Stage II–IVA) and locoregional recurrence",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "Weekly dosing during EBRT (specific dose per institutional protocol)",
+                            "route": "Intravenous",
+                            "day": "Weekly during EBRT"
+                        }
+                    ],
+                    "cycle_days": "Concurrent with EBRT course (typically 5–6 weeks)",
+                    "key_toxicities": "Nephrotoxicity, nausea/vomiting, ototoxicity, neuropathy, myelosuppression. Toxicity may be magnified when using extended-field RT."
+                },
+                {
+                    "name": "Carboplatin Concurrent with EBRT",
+                    "setting": "Chemoradiation for locally advanced vaginal cancer (Stage II–IVA) – for cisplatin-intolerant patients",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC-based dosing per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Weekly during EBRT"
+                        }
+                    ],
+                    "cycle_days": "Concurrent with EBRT course",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity, nausea/vomiting, hypersensitivity reactions."
+                },
+                {
+                    "name": "Capecitabine/Mitomycin Concurrent with EBRT",
+                    "setting": "Chemoradiation for locally advanced vaginal cancer – when cisplatin and carboplatin are unavailable",
+                    "drugs": [
+                        {
+                            "name": "Capecitabine",
+                            "dose": "Per institutional protocol",
+                            "route": "Oral",
+                            "day": "Concurrent with EBRT"
+                        },
+                        {
+                            "name": "Mitomycin",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Concurrent with EBRT course",
+                    "key_toxicities": "Higher toxicity rates than cisplatin. FDA Black Box warning for DPYD testing prior to capecitabine initiation. Capecitabine use should be avoided in patients with certain homozygous or compound heterozygous DPYD variants."
+                },
+                {
+                    "name": "Gemcitabine Concurrent with EBRT",
+                    "setting": "Chemoradiation for locally advanced vaginal cancer – when cisplatin and carboplatin are unavailable",
+                    "drugs": [
+                        {
+                            "name": "Gemcitabine",
+                            "dose": "Reduced dosing when used concurrently with radiation (high potency as radiosensitizer)",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Concurrent with EBRT course",
+                    "key_toxicities": "Radiosensitizer toxicity. Disease control and toxicity profile similar to cisplatin [85]."
+                },
+                {
+                    "name": "Paclitaxel Concurrent with EBRT",
+                    "setting": "Chemoradiation for locally advanced vaginal cancer – when cisplatin and carboplatin are unavailable",
+                    "drugs": [
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Concurrent with EBRT course",
+                    "key_toxicities": "Neuropathy, myelosuppression, alopecia. Limited data as radiosensitizer."
+                },
+                {
+                    "name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+                    "setting": "First-line therapy for recurrent or metastatic vaginal cancer, PD-L1–positive (CPS ≥1)",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg (or per pembrolizumab/berahyaluronidase alfa-pmph SC dosing)",
+                            "route": "Intravenous (or subcutaneous)",
+                            "day": "Every 3 weeks"
+                        },
+                        {
+                            "name": "Bevacizumab",
+                            "dose": "Per institutional protocol (if included)",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks",
+                    "key_toxicities": "Neuropathy, myelosuppression, nephrotoxicity, nausea/vomiting, alopecia, immune-related adverse events (with pembrolizumab), hypertension, thromboembolic events, GI fistula (with bevacizumab). Pembrolizumab and/or bevacizumab may be continued as maintenance therapy."
+                },
+                {
+                    "name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+                    "setting": "First-line therapy for recurrent or metastatic vaginal cancer, PD-L1–positive (CPS ≥1); preferred for patients who have received prior cisplatin therapy",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC-based dosing",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg (or per pembrolizumab/berahyaluronidase alfa-pmph SC dosing)",
+                            "route": "Intravenous (or subcutaneous)",
+                            "day": "Every 3 weeks"
+                        },
+                        {
+                            "name": "Bevacizumab",
+                            "dose": "Per institutional protocol (if included)",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks",
+                    "key_toxicities": "Myelosuppression, neuropathy, nausea/vomiting, alopecia, immune-related adverse events (with pembrolizumab), hypersensitivity (carboplatin), hypertension, thromboembolic events (with bevacizumab)."
+                },
+                {
+                    "name": "Cisplatin/Paclitaxel + Bevacizumab",
+                    "setting": "First-line therapy for recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Bevacizumab",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks",
+                    "key_toxicities": "Nephrotoxicity, neuropathy, myelosuppression, hypertension, thromboembolic events, GI fistula."
+                },
+                {
+                    "name": "Pembrolizumab Monotherapy",
+                    "setting": "Second-line or subsequent therapy for TMB-H (≥10 mut/Mb), PD-L1–positive (CPS ≥1), or MSI-H/dMMR tumors",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg IV every 3 weeks or 400 mg IV every 6 weeks (or per pembrolizumab/berahyaluronidase alfa-pmph SC dosing)",
+                            "route": "Intravenous (or subcutaneous)",
+                            "day": "Every 3 weeks or every 6 weeks"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks or every 6 weeks",
+                    "key_toxicities": "Immune-related adverse events including pneumonitis, colitis, hepatitis, endocrinopathies, nephritis, skin reactions."
+                },
+                {
+                    "name": "Tisotumab Vedotin-tftv",
+                    "setting": "Second-line or subsequent therapy for recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Tisotumab vedotin-tftv",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per institutional protocol",
+                    "key_toxicities": "Peripheral neuropathy, ocular toxicity (dry eye, conjunctivitis), hemorrhage, fatigue, alopecia."
+                },
+                {
+                    "name": "Cemiplimab",
+                    "setting": "Second-line or subsequent therapy for recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Cemiplimab",
+                            "dose": "350 mg every 3 weeks",
+                            "route": "Intravenous",
+                            "day": "Every 3 weeks"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks",
+                    "key_toxicities": "Immune-related adverse events including pneumonitis, colitis, hepatitis, endocrinopathies."
+                },
+                {
+                    "name": "Ipilimumab + Nivolumab",
+                    "setting": "Second-line or subsequent therapy for recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "3 mg/kg every 2 weeks + ipilimumab 1 mg/kg every 6 weeks (NIVO3+IPI1); OR nivolumab 1 mg/kg every 3 weeks + ipilimumab 3 mg/kg every 3 weeks for 4 cycles then nivolumab 240 mg every 2 weeks (NIVO1+IPI3)",
+                            "route": "Intravenous",
+                            "day": "Per schedule above"
+                        },
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "Per schedule above",
+                            "route": "Intravenous",
+                            "day": "Per schedule above"
+                        }
+                    ],
+                    "cycle_days": "Per schedule above",
+                    "key_toxicities": "Immune-related adverse events (potentially higher with combination than monotherapy)."
+                },
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "setting": "Second-line or subsequent therapy for HER2-positive (IHC 3+ or 2+) recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Fam-trastuzumab deruxtecan-nxki",
+                            "dose": "Per institutional protocol",
+                            "route": "Intravenous",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per institutional protocol",
+                    "key_toxicities": "Interstitial lung disease (ILD), nausea, fatigue, neutropenia, alopecia, myelosuppression."
+                },
+                {
+                    "name": "Selpercatinib",
+                    "setting": "Second-line or subsequent therapy for RET gene fusion-positive recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Selpercatinib",
+                            "dose": "Per institutional protocol",
+                            "route": "Oral",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Hypertension, hepatotoxicity, QT prolongation, edema."
+                },
+                {
+                    "name": "Larotrectinib",
+                    "setting": "Second-line or subsequent therapy for NTRK gene fusion-positive recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Larotrectinib",
+                            "dose": "100 mg twice daily",
+                            "route": "Oral",
+                            "day": "Twice daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Dizziness, weight gain, nausea, fatigue, diarrhea."
+                },
+                {
+                    "name": "Entrectinib",
+                    "setting": "Second-line or subsequent therapy for NTRK gene fusion-positive recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Entrectinib",
+                            "dose": "600 mg once daily",
+                            "route": "Oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "CNS effects (dizziness, cognitive effects), nausea, fatigue, vomiting, diarrhea, edema."
+                },
+                {
+                    "name": "Repotrectinib",
+                    "setting": "Second-line or subsequent therapy for NTRK gene fusion-positive recurrent or metastatic vaginal cancer (naïve to or progressed on prior NTRK-targeted therapy)",
+                    "drugs": [
+                        {
+                            "name": "Repotrectinib",
+                            "dose": "Per institutional protocol",
+                            "route": "Oral",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per institutional protocol",
+                    "key_toxicities": "CNS effects, myelosuppression, hepatotoxicity, edema."
+                },
+                {
+                    "name": "Nivolumab (Useful in Certain Circumstances)",
+                    "setting": "Second-line or subsequent therapy for PD-L1–positive recurrent or metastatic vaginal cancer",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "240 mg every 2 weeks or 480 mg every 4 weeks (or per nivolumab and hyaluronidase-nvhy SC dosing)",
+                            "route": "Intravenous (or subcutaneous)",
+                            "day": "Every 2 weeks or every 4 weeks"
+                        }
+                    ],
+                    "cycle_days": "Every 2 weeks or every 4 weeks",
+                    "key_toxicities": "Immune-related adverse events. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Post-Treatment Response Assessment and Surveillance",
+            "timing": "Post-treatment imaging at 3–4 months after completion of treatment to assess response",
+            "response_logic": [
+                "FDG-PET/CT (preferred) at 3–4 months after RT to assess treatment response",
+                "MRI abdomen/pelvis and chest CT or chest/abdomen/pelvis CT if unable to obtain FDG-PET/CT or needed for clarification of FDG-PET/CT or exam findings",
+                "Repeat imaging if clinically indicated",
+                "Recurrences should be proven by biopsy before proceeding to treatment planning"
+            ],
+            "imaging_recommendations": [
+                "FDG-PET/CT (preferred) at 3–4 months after RT",
+                "MRI abdomen/pelvis and chest CT or chest/abdomen/pelvis CT as alternative or for clarification",
+                "Further imaging as indicated based on symptoms or examination findings suspicious for recurrence"
+            ],
+            "biopsy_or_salvage_logic": [
+                "Recurrences should be proven by biopsy before proceeding to treatment planning",
+                "Consider EUA with biopsies to confirm local recurrence",
+                "Comprehensive molecular profiling can be considered for better selection of systemic therapy at time of recurrence",
+                "If tissue biopsy of a metastatic site is not feasible or tissue is not available, comprehensive genomic profiling via a validated plasma circulating tumor DNA (ctDNA) assay can be considered"
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_vaginal_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T17:11:52.467711"
+    }
+}

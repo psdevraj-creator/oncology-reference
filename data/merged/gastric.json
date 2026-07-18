@@ -1,0 +1,2134 @@
+{
+    "site_id": "gastric",
+    "site_display_name": "Gastric Cancer",
+    "archetype": "A",
+    "regimen_count": 53,
+    "regimens": [
+        {
+            "regimen_name": "Fluorouracil, leucovorin, oxaliplatin, and docetaxel (FLOT)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "2600 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 24 hours on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "200 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "FLOT4-AIO",
+                "phase": "phase 2/3",
+                "n_patients": "716",
+                "os": "50 months vs 35 months",
+                "hr": "0.77",
+                "ci": "95% CI, 0.63–0.94",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "FLOT is a category 1 preferred perioperative regimen for resectable gastric or EGJ adenocarcinoma. It replaced the ECF regimen based on the FLOT4 trial. The regimen is given for 4 preoperative and 4 postoperative cycles. [1, 54]"
+        },
+        {
+            "regimen_name": "FLOT + durvalumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "2600 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 24 hours on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "200 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "docetaxel",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1 or TAP ≥1%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MATTERHORN",
+                "phase": "phase 3",
+                "n_patients": "948",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": "EFS rate at 24 months: 67.4% vs 58.5%",
+                "orr": null
+            },
+            "notes": "FLOT + durvalumab is a category 1 preferred regimen for patients with PD-L1 CPS ≥1 or TAP ≥1%. In the MATTERHORN trial, this combination improved event-free survival (EFS) when added to FLOT. It is also an option for clinical node-negative tumors (category 2A), PD-L1 CPS <1 or TAP <1% (category 2B), and diffuse type (category 2B). [2, 55]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and oxaliplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "This is a category 1 preferred perioperative regimen for patients with good to moderate performance status. The dosing is based on the FOLFOX regimen used in clinical practice. [52]"
+        },
+        {
+            "regimen_name": "Fluorouracil and cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Perioperative",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "800 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 24 hours on days 1-5"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "FNCLCC ACCORD 07",
+                "phase": "phase 3",
+                "n_patients": "224",
+                "os": "5-year OS rate 38% vs 24%",
+                "hr": null,
+                "ci": null,
+                "pfs": "5-year DFS rate 34% vs 19%",
+                "orr": null
+            },
+            "notes": "Fluorouracil and cisplatin is a category 1 perioperative regimen. In the FNCLCC ACCORD 07 trial, perioperative chemotherapy significantly improved 5-year OS and DFS compared to surgery alone. [3, 52]"
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly (neoadjuvant therapy only)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 3 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Dostarlimab-gxly is recommended for neoadjuvant therapy only in patients with MSI-H/dMMR tumors. This is based on emerging data for neoadjuvant immunotherapy in this setting. [4]"
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab followed by nivolumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Neoadjuvant/Perioperative",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 2 cycles"
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 2 weeks (adjuvant)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GERCOR NEONIPIGA",
+                "phase": "phase 2",
+                "n_patients": "32",
+                "os": "97% survival benefit",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": "pathologic CR in 59%"
+            },
+            "notes": "This combination is recommended for patients with MSI-H/dMMR gastric tumors in the neoadjuvant or perioperative setting. In the GERCOR NEONIPIGA trial, 29 patients underwent R0 resection and 59% had a pathologic CR. [5, 253]"
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Neoadjuvant/Perioperative",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "phase 2",
+                "n_patients": "35",
+                "os": "ORR 82%, CR 30%",
+                "hr": null,
+                "ci": null,
+                "pfs": "65% had pathologic CR",
+                "orr": "82%"
+            },
+            "notes": "Pembrolizumab is recommended for patients with MSI-H/dMMR gastric tumors in the neoadjuvant or perioperative setting. In a phase II trial, neoadjuvant pembrolizumab showed an ORR of 82% with a pathologic CR rate of 65%. [6, 254]"
+        },
+        {
+            "regimen_name": "Tremelimumab and durvalumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "tremelimumab",
+                    "dose": "75 mg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on day 1"
+                },
+                {
+                    "name": "durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on day 1"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "INFINITY",
+                "phase": "phase 2",
+                "n_patients": "32",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": "pathologic CR rate 60%",
+                "orr": null
+            },
+            "notes": "Tremelimumab and durvalumab is recommended for neoadjuvant therapy only in patients with MSI-H/dMMR tumors. In the INFINITY trial, the pathologic CR rate was 60%. [8, 9, 257]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine-based chemoradiation",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Unresectable Locally Advanced Disease",
+            "treatment_modality": [
+                "chemoradiation"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "225 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion daily during radiation"
+                },
+                {
+                    "name": "radiation therapy",
+                    "dose": "4500-5040 cGy",
+                    "route": "external beam",
+                    "schedule": "daily for 5-6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INT-0116",
+                "phase": "phase 3",
+                "n_patients": "556",
+                "os": "36 months vs 27 months",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Fluoropyrimidine-based chemoradiation is a category 1 preferred regimen for unresectable locally advanced disease if not previously received. In the INT-0116 trial, postoperative chemoradiation improved OS. [10-13, 58]"
+        },
+        {
+            "regimen_name": "Fluorouracil and oxaliplatin (FOLFOX)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Unresectable Locally Advanced Disease",
+            "treatment_modality": [
+                "chemoradiation"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "radiation therapy",
+                    "dose": "5040 cGy",
+                    "route": "external beam",
+                    "schedule": "daily for 5.5 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PRODIGE5/ACCORD17",
+                "phase": "phase 2/3",
+                "n_patients": "267",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": "9.7 months vs 9.4 months",
+                "orr": null
+            },
+            "notes": "FOLFOX is a category 1 preferred regimen for unresectable locally advanced disease. In the PRODIGE5/ACCORD17 trial, FOLFOX-based chemoradiation showed similar PFS compared to fluorouracil and cisplatin. [16-18, 274]"
+        },
+        {
+            "regimen_name": "Fluorouracil and cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Unresectable Locally Advanced Disease",
+            "treatment_modality": [
+                "chemoradiation"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "radiation therapy",
+                    "dose": "5040 cGy",
+                    "route": "external beam",
+                    "schedule": "daily for 5.5 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Fluorouracil and cisplatin is a category 1 preferred regimen for unresectable locally advanced disease. [19-22]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and paclitaxel",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Unresectable Locally Advanced Disease",
+            "treatment_modality": [
+                "chemoradiation"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "200 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion daily during radiation"
+                },
+                {
+                    "name": "paclitaxel",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour weekly"
+                },
+                {
+                    "name": "radiation therapy",
+                    "dose": "4500 cGy",
+                    "route": "external beam",
+                    "schedule": "daily for 5 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Fluoropyrimidine and paclitaxel is a category 2B other recommended regimen for unresectable locally advanced disease. [23, 277]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and trastuzumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-positive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 90 minutes initially, then 6 mg/kg every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ToGA",
+                "phase": "phase 3",
+                "n_patients": "594",
+                "os": "13.8 months vs 11 months",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "This regimen is a category 1 preferred first-line option for patients with HER2-positive adenocarcinoma. In the ToGA trial, trastuzumab plus chemotherapy improved OS. [24, 146]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, trastuzumab, and pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-positive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 90 minutes initially, then 6 mg/kg every 3 weeks"
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-811",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "20 months vs 16.9 months",
+                "hr": "0.87",
+                "ci": "95% CI, 0.72–1.06",
+                "pfs": "10 months vs 8.1 months",
+                "orr": "72.6% vs 59.8%"
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-positive and PD-L1 CPS ≥1 adenocarcinoma. In the KEYNOTE-811 trial, the addition of pembrolizumab improved PFS. [25, 26, 352, 353]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and trastuzumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-positive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 90 minutes initially, then 6 mg/kg every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ToGA",
+                "phase": "phase 3",
+                "n_patients": "594",
+                "os": "13.8 months vs 11 months",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "This regimen is a category 1 preferred first-line option for patients with HER2-positive adenocarcinoma. [27, 146]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, trastuzumab, and pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-positive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "trastuzumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 90 minutes initially, then 6 mg/kg every 3 weeks"
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or IHC 2+ and ISH/FISH+)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-811",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "20 months vs 16.9 months",
+                "hr": "0.87",
+                "ci": "95% CI, 0.72–1.06",
+                "pfs": "10 months vs 8.1 months",
+                "orr": "72.6% vs 59.8%"
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-positive and PD-L1 CPS ≥1 adenocarcinoma. [25, 26, 352, 353]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": "360 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 649",
+                "phase": "phase 3",
+                "n_patients": "1581",
+                "os": "14.4 months vs 11.1 months",
+                "hr": "0.70",
+                "ci": null,
+                "pfs": "8.3 months vs 6.1 months",
+                "orr": "60% vs 45%"
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and PD-L1 CPS ≥1 adenocarcinoma. In the CheckMate 649 trial, nivolumab plus chemotherapy improved OS and PFS. It is a category 1 preferred option when CPS ≥5. [28, 360, 361]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-859",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "13 months vs 11.4 months",
+                "hr": "0.74",
+                "ci": null,
+                "pfs": "6.9 months vs 5.6 months",
+                "orr": "52% vs 43%"
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and PD-L1 CPS ≥1 adenocarcinoma. In the KEYNOTE-859 trial, pembrolizumab plus chemotherapy improved OS and PFS. It is a category 1 preferred option when CPS ≥5. [29, 354]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and tislelizumab-jsgr",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-305",
+                "phase": "phase 3",
+                "n_patients": "997",
+                "os": "15 months vs 12.9 months",
+                "hr": "0.80",
+                "ci": null,
+                "pfs": "6.9 months vs 6.2 months",
+                "orr": null
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and PD-L1 CPS ≥1 adenocarcinoma. In the RATIONALE-305 trial, tislelizumab plus chemotherapy improved OS and PFS. It is a category 1 preferred option when CPS ≥5. [30, 171, 172]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and zolbetuximab-clzb",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative, CLDN18.2-positive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "zolbetuximab-clzb",
+                    "dose": "600 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1 of cycle 1, then 1000 mg/m2 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CLDN18.2",
+                    "requirement": "CLDN18.2-positive (≥75% of viable tumor cells with moderate to strong membranous staining)",
+                    "mandatory": true
+                },
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-negative",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SPOTLIGHT",
+                "phase": "phase 3",
+                "n_patients": "565",
+                "os": "18.23 months vs 15.54 months",
+                "hr": "0.75",
+                "ci": null,
+                "pfs": "10.61 months vs 8.67 months",
+                "orr": null
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and CLDN18.2-positive adenocarcinoma. In the SPOTLIGHT trial, zolbetuximab plus mFOLFOX6 improved OS and PFS. [31, 32, 173, 183]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and oxaliplatin (FOLFOX)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "FOLFOX is a category 1 preferred first-line option for patients with HER2-negative adenocarcinoma. [33, 34, 35, 279, 280, 281]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-859",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "13 months vs 11.4 months",
+                "hr": "0.74",
+                "ci": null,
+                "pfs": "6.9 months vs 5.6 months",
+                "orr": "52% vs 43%"
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and PD-L1 CPS ≥1 adenocarcinoma. It is a category 1 preferred option when CPS ≥5. [29, 354]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, cisplatin, and tislelizumab-jsgr",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RATIONALE-305",
+                "phase": "phase 3",
+                "n_patients": "997",
+                "os": "15 months vs 12.9 months",
+                "hr": "0.80",
+                "ci": null,
+                "pfs": "6.9 months vs 6.2 months",
+                "orr": null
+            },
+            "notes": "This combination is a category 1 preferred first-line option for patients with HER2-negative and PD-L1 CPS ≥1 adenocarcinoma. It is a category 1 preferred option when CPS ≥5. [30, 171, 172]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine and cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (HER2-negative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 96 hours on days 1-4"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Fluoropyrimidine and cisplatin is a category 1 preferred first-line option for patients with HER2-negative adenocarcinoma. [33, 36, 37, 38, 279, 282, 283, 284]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (monotherapy)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor (independent of PD-L1 status)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-062",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "not reached",
+                "hr": null,
+                "ci": null,
+                "pfs": "11.2 months",
+                "orr": "57.1%"
+            },
+            "notes": "Pembrolizumab monotherapy is a category 2A preferred first-line option for patients with MSI-H/dMMR tumors, independent of PD-L1 status. [39-42, 356, 357, 358]"
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 4 cycles, then 1000 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "phase 1",
+                "n_patients": "122",
+                "os": "not reached",
+                "hr": null,
+                "ci": null,
+                "pfs": "6.9 months",
+                "orr": "44%"
+            },
+            "notes": "Dostarlimab-gxly is a category 2A preferred first-line option for patients with MSI-H/dMMR tumors. [43, 373, 374]"
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 4 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 649",
+                "phase": "phase 3",
+                "n_patients": "34",
+                "os": "not reached",
+                "hr": "0.28",
+                "ci": null,
+                "pfs": null,
+                "orr": "70%"
+            },
+            "notes": "Nivolumab and ipilimumab is a category 2A preferred first-line option for patients with MSI-H/dMMR tumors. In the CheckMate 649 trial, this combination improved OS compared to chemotherapy. [28, 340]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and nivolumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (MSI-H/dMMR)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "nivolumab",
+                    "dose": "360 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor (independent of PD-L1 status)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 649",
+                "phase": "phase 3",
+                "n_patients": "34",
+                "os": "44.8 months",
+                "hr": "0.29",
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "This combination is a category 2A preferred first-line option for patients with MSI-H/dMMR tumors, independent of PD-L1 status. [28, 360, 361]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine, oxaliplatin, and pembrolizumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (MSI-H/dMMR)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor (independent of PD-L1 status)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-062",
+                "phase": "phase 3",
+                "n_patients": null,
+                "os": "not reached",
+                "hr": null,
+                "ci": null,
+                "pfs": "not reached",
+                "orr": "64.7%"
+            },
+            "notes": "This combination is a category 2A preferred first-line option for patients with MSI-H/dMMR tumors, independent of PD-L1 status. [40, 41, 358]"
+        },
+        {
+            "regimen_name": "Fluorouracil and irinotecan (FOLFIRI)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "FFCD 9803",
+                "phase": "phase 3",
+                "n_patients": "416",
+                "os": "9.5 months vs 9.7 months",
+                "hr": null,
+                "ci": null,
+                "pfs": "5.3 months vs 5.8 months",
+                "orr": "39.2% vs 37.8%"
+            },
+            "notes": "FOLFIRI is a category 2A other recommended first-line regimen. In the FFCD 9803 trial, FOLFIRI was noninferior to ECF but with a more favorable safety profile. [44, 303]"
+        },
+        {
+            "regimen_name": "Paclitaxel with or without carboplatin or cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 3 hours on day 1"
+                },
+                {
+                    "name": "carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Paclitaxel with carboplatin is a category 2A other recommended first-line regimen. [45-49]"
+        },
+        {
+            "regimen_name": "Docetaxel with or without cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Docetaxel with cisplatin is a category 2A other recommended first-line regimen. [50-53]"
+        },
+        {
+            "regimen_name": "Fluoropyrimidine monotherapy",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "225 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Fluoropyrimidine monotherapy is a category 2A other recommended first-line regimen. [37, 54, 55]"
+        },
+        {
+            "regimen_name": "Docetaxel, cisplatin or oxaliplatin, and fluorouracil (DCF)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "First-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "fluorouracil",
+                    "dose": "750 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 5 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "V325",
+                "phase": "phase 3",
+                "n_patients": "445",
+                "os": "9.2 months vs 8.6 months",
+                "hr": null,
+                "ci": null,
+                "pfs": "5.6 months vs 3.7 months",
+                "orr": "37% vs 25%"
+            },
+            "notes": "DCF is a category 2A other recommended first-line regimen. In the V325 trial, DCF improved OS and PFS compared to cisplatin and fluorouracil. However, it is associated with increased toxicities. [56-58, 304, 305]"
+        },
+        {
+            "regimen_name": "Ramucirumab and paclitaxel",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred)",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on days 1 and 15"
+                },
+                {
+                    "name": "paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on days 1, 8, and 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RAINBOW",
+                "phase": "phase 3",
+                "n_patients": "665",
+                "os": "9.63 months vs 7.36 months",
+                "hr": null,
+                "ci": null,
+                "pfs": "4.4 months vs 2.86 months",
+                "orr": "28% vs 6%"
+            },
+            "notes": "Ramucirumab and paclitaxel is a category 1 preferred second-line regimen. In the RAINBOW trial, this combination improved OS, PFS, and ORR compared to paclitaxel alone. [59, 363]"
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred for HER2-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fam-trastuzumab deruxtecan-nxki",
+                    "dose": "6.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 90 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive adenocarcinoma",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "DESTINY-Gastric01",
+                "phase": "phase 2",
+                "n_patients": "188",
+                "os": "12.5 months vs 8.4 months",
+                "hr": null,
+                "ci": null,
+                "pfs": "5.6 months vs 3.5 months",
+                "orr": "40.5% vs 11%"
+            },
+            "notes": "Fam-trastuzumab deruxtecan-nxki is a category 1 preferred second-line regimen for patients with HER2-positive adenocarcinoma. In the DESTINY-Gastric01 trial, it improved OS, PFS, and ORR compared to physician's choice chemotherapy. [60, 61, 366, 367]"
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "COUGAR-02",
+                "phase": "phase 3",
+                "n_patients": "168",
+                "os": "5.2 months vs 3.6 months",
+                "hr": "0.67",
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Docetaxel is a category 1 preferred second-line regimen. In the COUGAR-02 trial, docetaxel improved 12-month OS compared to active symptom control. [52, 53, 273]"
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on days 1, 8, and 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "WJOG 4007",
+                "phase": "phase 3",
+                "n_patients": "223",
+                "os": "9.5 months vs 8.4 months",
+                "hr": "1.13",
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Paclitaxel is a category 1 preferred second-line regimen. In the WJOG 4007 trial, paclitaxel and irinotecan showed similar OS. [48, 49, 62, 324]"
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "AIO",
+                "phase": "phase 3",
+                "n_patients": "40",
+                "os": "4 months vs 2.4 months",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Irinotecan is a category 1 preferred second-line regimen. In the AIO trial, irinotecan improved OS compared to best supportive care. [62-65, 271, 324, 325, 326]"
+        },
+        {
+            "regimen_name": "Fluorouracil and irinotecan (FOLFIRI)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Preferred)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "FOLFIRI is a category 1 preferred second-line regimen if not previously used. [63, 66, 67]"
+        },
+        {
+            "regimen_name": "Trifluridine and tipiracil",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Third-Line or Subsequent Therapy (Preferred)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "trifluridine and tipiracil",
+                    "dose": "35 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily on days 1-5 and 8-12 every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TAGS",
+                "phase": "phase 3",
+                "n_patients": "507",
+                "os": "5.7 months vs 3.6 months",
+                "hr": "0.69",
+                "ci": "95% CI, 0.56–0.85",
+                "pfs": "2.0 months vs 1.8 months",
+                "orr": "4.5% vs 2.1%"
+            },
+            "notes": "Trifluridine and tipiracil is a category 1 preferred regimen for third-line or subsequent therapy. In the TAGS trial, it improved OS and PFS compared to placebo. [68, 330, 331]"
+        },
+        {
+            "regimen_name": "Ramucirumab (monotherapy)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on days 1 and 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "REGARD",
+                "phase": "phase 3",
+                "n_patients": "355",
+                "os": "5.2 months vs 3.8 months",
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Ramucirumab monotherapy is a category 1 other recommended second-line regimen. In the REGARD trial, it improved OS compared to placebo. [69, 333]"
+        },
+        {
+            "regimen_name": "Irinotecan and cisplatin",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                },
+                {
+                    "name": "cisplatin",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Irinotecan and cisplatin is a category 2A other recommended second-line regimen. [34, 70]"
+        },
+        {
+            "regimen_name": "Fluorouracil, irinotecan, and ramucirumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "fluorouracil",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus on day 1"
+                },
+                {
+                    "name": "leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on day 1"
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                },
+                {
+                    "name": "ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on days 1 and 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "FOLFIRI plus ramucirumab is a category 2A other recommended second-line regimen. [71, 72]"
+        },
+        {
+            "regimen_name": "Irinotecan and ramucirumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                },
+                {
+                    "name": "ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 60 minutes on days 1 and 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Irinotecan and ramucirumab is a category 2A other recommended second-line regimen. [73]"
+        },
+        {
+            "regimen_name": "Docetaxel and irinotecan",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line Therapy (Other Recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "docetaxel",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 1 hour on day 1"
+                },
+                {
+                    "name": "irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 90 minutes on day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Docetaxel and irinotecan is a category 2B other recommended second-line regimen. [74]"
+        },
+        {
+            "regimen_name": "Entrectinib, larotrectinib, or repotrectinib",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "repotrectinib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3",
+                    "requirement": "NTRK gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LOXO-TRK-14001, SCOUT, NAVIGATE",
+                "phase": "phase 1-2",
+                "n_patients": "55",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": "79%"
+            },
+            "notes": "These TRK inhibitors are category 2A options useful in certain circumstances for patients with NTRK gene fusion-positive tumors. Larotrectinib showed an ORR of 79% in a pooled analysis. [75-77, 343, 344, 345]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (monotherapy)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "phase 2",
+                "n_patients": "351",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": "30.8%"
+            },
+            "notes": "Pembrolizumab is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with MSI-H/dMMR tumors. In KEYNOTE-158, the ORR was 30.8%. [42, 78, 79, 80, 355]"
+        },
+        {
+            "regimen_name": "Nivolumab and ipilimumab",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                },
+                {
+                    "name": "ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 4 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Nivolumab and ipilimumab is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with MSI-H/dMMR tumors. [28]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (monotherapy)",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for TMB-H)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "TMB-high (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "phase 2",
+                "n_patients": "102",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": "29%"
+            },
+            "notes": "Pembrolizumab is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with TMB-H tumors. In KEYNOTE-158, the ORR was 29%. [42, 81]"
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for MSI-H/dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "over 30 minutes every 3 weeks for 4 cycles, then 1000 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "MSI-H or dMMR tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "phase 1",
+                "n_patients": "122",
+                "os": "not reached",
+                "hr": null,
+                "ci": null,
+                "pfs": "6.9 months",
+                "orr": "44%"
+            },
+            "notes": "Dostarlimab-gxly is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with MSI-H/dMMR tumors. [43, 373, 374]"
+        },
+        {
+            "regimen_name": "Dabrafenib and trametinib",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for BRAF V600E)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E",
+                    "requirement": "BRAF V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH",
+                "phase": "phase 2",
+                "n_patients": "36",
+                "os": "29 months",
+                "hr": null,
+                "ci": null,
+                "pfs": "11.4 months",
+                "orr": "38%"
+            },
+            "notes": "Dabrafenib and trametinib is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with BRAF V600E-mutated tumors. In the NCI-MATCH trial, the ORR was 38% with a median PFS of 11.4 months. [82, 346]"
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Gastric and gastroesophageal junction adenocarcinoma",
+            "setting": "Second-Line or Subsequent Therapy (Useful in Certain Circumstances for RET fusion-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "selpercatinib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "RET gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "phase 1/2",
+                "n_patients": "41",
+                "os": null,
+                "hr": null,
+                "ci": null,
+                "pfs": null,
+                "orr": "44%"
+            },
+            "notes": "Selpercatinib is a category 2A option useful in certain circumstances for second-line or subsequent therapy in patients with RET gene fusion-positive tumors. In the LIBRETTO-001 trial, the ORR was 44%. [83, 347]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.584131"
+}

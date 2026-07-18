@@ -1,0 +1,860 @@
+{
+    "site_id": "mesothelioma_peritoneal",
+    "site_display_name": "Peritoneal Mesothelioma",
+    "archetype": "C",
+    "regimen_count": 23,
+    "regimens": [
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Testing NOT required before use",
+                    "mandatory": false
+                },
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended to identify rare driver alterations",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 743",
+                "phase": "3",
+                "n_patients": null,
+                "description": "First-line nivolumab plus ipilimumab vs chemotherapy in patients with unresectable malignant pleural mesothelioma. Referenced with 3-year outcomes. Data extrapolated from pleural mesothelioma to peritoneal mesothelioma.",
+                "reference": "107"
+            },
+            "notes": "This regimen is a preferred first-line option for patients with epithelioid peritoneal mesothelioma who are medically inoperable, have complete cytoreduction not achievable, or refuse surgery. The CheckMate 743 trial demonstrated efficacy in pleural mesothelioma, and the NCCN Panel extrapolates these results to peritoneal mesothelioma [ref 107]. Note footnote d: Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab; pembrolizumab and berahyaluronidase alfa-pmph has different dosing and administration instructions compared to IV pembrolizumab. Note footnote f: Nivolumab and hyaluronidase-nvhy is NOT approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]. Broad molecular tumor profiling is recommended with the goal of identifying rare driver alterations (eg, NTRK or ALK) for which effective drugs may be available or to appropriately counsel patients regarding availability of clinical trials [refs 27,28]. This regimen is also listed as Preferred for subsequent therapy after chemotherapy first-line. PS 0-2 required."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Pemetrexed + Pembrolizumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Testing NOT required before use",
+                    "mandatory": false
+                },
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Chu et al. Lancet 2023",
+                "phase": "3",
+                "n_patients": null,
+                "description": "Pembrolizumab plus chemotherapy vs chemotherapy in untreated advanced pleural mesothelioma. Phase 3, open-label, randomised controlled trial. Referenced from Lancet 2023;402:2295-2306. Data extrapolated from pleural to peritoneal mesothelioma.",
+                "reference": "10"
+            },
+            "notes": "This triplet regimen is a preferred first-line option for patients with epithelioid peritoneal mesothelioma who are medically inoperable, cannot achieve complete cytoreduction, or refuse surgery. Carboplatin may be substituted if patients are not candidates for cisplatin. The trial was conducted in pleural mesothelioma and data are extrapolated to peritoneal mesothelioma per the NCCN Panel [ref 10]. Note footnote d: Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab; the SC formulation has different dosing and administration instructions compared to IV pembrolizumab. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAPS (Mesothelioma Avastin Cisplatin Pemetrexed Study)",
+                "phase": "3",
+                "n_patients": null,
+                "description": "Bevacizumab for newly diagnosed pleural mesothelioma in a randomised, controlled, open-label, phase 3 trial. Referenced from Lancet 2016;387:1405-1414. Data extrapolated from pleural to peritoneal mesothelioma.",
+                "reference": "106"
+            },
+            "notes": "This triplet is a preferred first-line option for epithelioid peritoneal mesothelioma in medically inoperable patients or those who refuse surgery. Carboplatin may be used if patients are not candidates for cisplatin. An FDA-approved biosimilar is an appropriate substitute for bevacizumab [ref c]. If a bevacizumab-containing regimen is administered, there should be at least a 6-week interval between the last dose and cytoreductive surgery (CRS) [refs 7,8]. The MAPS trial established the benefit of adding bevacizumab to cisplatin/pemetrexed in pleural mesothelioma; the NCCN Panel extrapolates this to peritoneal mesothelioma [ref 106]. This regimen is also listed as Preferred for subsequent therapy after immunotherapy first-line, and as Other Recommended for subsequent therapy in biphasic/sarcomatoid histology first-line. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Pemetrexed",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Multiple trials (Vogelzang et al. 2003; Janne et al. 2005; Carteni et al. 2009; Castagneto et al. 2008; Ceresoli et al. 2006; Santoro et al. 2008)",
+                "phase": "3, 2",
+                "n_patients": null,
+                "description": "Multiple clinical trials including a phase III study of pemetrexed with cisplatin vs cisplatin alone in malignant pleural mesothelioma [ref 1], expanded access programs in peritoneal mesothelioma [refs 2,3], and phase II studies of pemetrexed plus carboplatin [refs 4,5]. EAP data for 109 patients with peritoneal mesothelioma: for pemetrexed plus cisplatin, 1-year survival was 57.4% (95% CI, 10.3%-100%). For pemetrexed alone, median survival was 10.3 months; 1-year survival was 41.5% (95% CI, 4.6%-78.4%).",
+                "reference": "1-6"
+            },
+            "notes": "This doublet is a preferred first-line option for epithelioid peritoneal mesothelioma in medically inoperable patients or those who refuse surgery. Carboplatin may be used if patients are not candidates for cisplatin. The combination of pemetrexed with platinum has been studied in multiple trials including the pivotal phase III trial in pleural mesothelioma [ref 1], with extrapolation to peritoneal mesothelioma. The International Expanded Access Program included 109 patients with peritoneal mesothelioma; for pemetrexed plus cisplatin, 1-year survival was 57.4% [refs 7,92-94]. Japanese studies in peritoneal mesothelioma reported median OS of 15.4-16.6 months with pemetrexed plus cisplatin [refs 87,89,95]. This regimen is also listed as Preferred for subsequent therapy after immunotherapy first-line and as Other Recommended for subsequent therapy. Carboplatin is recommended if patients are not candidates for cisplatin, regardless of histology [refs 7,92]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Gemcitabine",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Multiple phase II studies (Nowak et al. 2002; van Haarst et al. 2002; Favaretto et al. 2003)",
+                "phase": "2",
+                "n_patients": null,
+                "description": "Multicentre phase II studies of cisplatin and gemcitabine for malignant mesothelioma [refs 12,13], and gemcitabine combined with carboplatin [ref 14]. Data from pleural mesothelioma extrapolated to peritoneal mesothelioma.",
+                "reference": "12-14"
+            },
+            "notes": "This doublet is listed as Useful in Certain Circumstances for first-line treatment of epithelioid peritoneal mesothelioma in medically inoperable patients or those who refuse surgery. Several small studies in patients with peritoneal mesothelioma have reported responses to first-line therapy with gemcitabine plus cisplatin [refs 96-98]. Data also show that first-line therapy with gemcitabine plus pemetrexed is effective, although this regimen is toxic (grade 3-4 neutropenia, 60%) [ref 99]. Carboplatin may be used if patients are not candidates for cisplatin. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "International Expanded Access Program (Taylor et al. 2008)",
+                "phase": "Expanded access",
+                "n_patients": null,
+                "description": "Single-agent pemetrexed for chemonaive and pretreated patients with malignant pleural mesothelioma. Data extrapolated to peritoneal mesothelioma.",
+                "reference": "15"
+            },
+            "notes": "Single-agent pemetrexed is listed as Useful in Certain Circumstances for first-line treatment of epithelioid peritoneal mesothelioma in medically inoperable patients or those who refuse surgery. From the EAP data for peritoneal mesothelioma, pemetrexed alone yielded a median survival of 10.3 months and 1-year survival of 41.5% (95% CI, 4.6%-78.4%) [refs 7,92-94]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MS01 (Muers et al. 2008)",
+                "phase": "3",
+                "n_patients": null,
+                "description": "Active symptom control with or without chemotherapy in the treatment of patients with malignant pleural mesothelioma. A multicentre randomised trial. Data extrapolated to peritoneal mesothelioma.",
+                "reference": "16"
+            },
+            "notes": "Vinorelbine is listed as Useful in Certain Circumstances for first-line treatment of epithelioid peritoneal mesothelioma in medically inoperable patients or those who refuse surgery. Evidence is primarily from pleural mesothelioma trials extrapolated to peritoneal mesothelioma. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy (after platinum-based chemotherapy first-line)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Testing NOT required before use",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CONFIRM",
+                "phase": "3",
+                "n_patients": "332",
+                "description": "Nivolumab vs placebo in patients with relapsed malignant mesothelioma. Lancet Oncol 2021;22:1530-1540. Most patients had pleural mesothelioma (95%) and epithelioid histology (88%); a few patients had peritoneal mesothelioma (n=16). Median overall survival was 10.2 months (95% CI, 8.5-12.1) for nivolumab vs 6.9 months (95% CI, 5.0-8.0) for placebo (HR, 0.69; 95% CI, 0.52-0.91). Grade 3 or worse adverse events were 3% for nivolumab.",
+                "reference": "88"
+            },
+            "notes": "Nivolumab monotherapy is a preferred subsequent therapy option for patients with peritoneal mesothelioma (any histology) whose disease has progressed after first-line platinum-based chemotherapy. This is based on the CONFIRM phase 3 trial which demonstrated improved OS (10.2 vs 6.9 months, HR 0.69) in relapsed mesothelioma [ref 88]. Note footnote f: Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab for monotherapy; the SC formulation has different dosing and administration instructions. Immune checkpoint inhibitors are associated with unique immune-mediated adverse events such as endocrine disorders; providers should be aware of these toxicities and manage them appropriately [see NCCN Guidelines for Management of Immunotherapy-Related Toxicities]. Consider rechallenge with pemetrexed if good response to front-line pemetrexed-based treatment [ref e,29]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy (after platinum-based chemotherapy first-line)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Testing NOT required before use",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IFCT-1501 MAPS2 and INITIATE",
+                "phase": "2",
+                "n_patients": null,
+                "description": "MAPS2: Nivolumab or nivolumab plus ipilimumab in patients with relapsed malignant pleural mesothelioma. Multicentre, open-label, randomised, non-comparative, phase 2 trial. Lancet Oncol 2019;20:239-253. INITIATE: Ipilimumab and nivolumab in the treatment of recurrent malignant pleural mesothelioma. Prospective, single-arm, phase 2 trial. Lancet Respir Med 2019;7:260-270. Data extrapolated from pleural to peritoneal mesothelioma.",
+                "reference": "113,19"
+            },
+            "notes": "Ipilimumab plus nivolumab is a preferred subsequent therapy option for patients with peritoneal mesothelioma (any histology) whose disease has progressed after first-line platinum-based chemotherapy. Evidence is from the MAPS2 and INITIATE phase 2 trials in relapsed pleural mesothelioma, extrapolated to peritoneal mesothelioma [refs 113,19]. A cohort study in 29 patients with peritoneal mesothelioma receiving immune checkpoint inhibitors (69% received nivolumab plus ipilimumab) showed overall response rate of 19% (95% CI, 6.6%-39%) and median OS of 19 months (95% CI, 7.4-43) [ref 100]. Note footnote f: Nivolumab and hyaluronidase-nvhy is NOT approved for concurrent use with IV ipilimumab. Consider rechallenge if good response to front-line treatment [ref e,29]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Pemetrexed",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy (after immunotherapy first-line)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Multiple trials",
+                "phase": "3, 2",
+                "n_patients": null,
+                "description": "Referenced from multiple trials as described in first-line entries. Consider rechallenge if good response to front-line pemetrexed-based treatment.",
+                "reference": "1-6"
+            },
+            "notes": "This doublet is a preferred subsequent therapy option for patients with peritoneal mesothelioma (any histology) whose disease has progressed after first-line ipilimumab plus nivolumab. Consider rechallenge if good sustained response was obtained when the initial pemetrexed-based chemotherapy was interrupted [ref e,29]. Carboplatin may be used if patients are not candidates for cisplatin. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "(Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy (after immunotherapy first-line)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAPS (Mesothelioma Avastin Cisplatin Pemetrexed Study)",
+                "phase": "3",
+                "n_patients": null,
+                "description": "Bevacizumab for newly diagnosed pleural mesothelioma. Lancet 2016;387:1405-1414.",
+                "reference": "106"
+            },
+            "notes": "This triplet is a preferred subsequent therapy option for patients with peritoneal mesothelioma (any histology) whose disease has progressed after first-line ipilimumab plus nivolumab. An FDA-approved biosimilar is an appropriate substitute for bevacizumab [ref c]. If a bevacizumab-containing regimen is administered, there should be at least a 6-week interval between the last dose and CRS [refs 7,8]. Consider rechallenge if good sustained response to front-line treatment [ref e,29]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase III trial (Jassem et al. 2008) and retrospective survey (Zucali et al. 2012)",
+                "phase": "3, retrospective",
+                "n_patients": null,
+                "description": "Phase III trial of pemetrexed plus best supportive care compared with best supportive care in previously treated patients with advanced malignant pleural mesothelioma [ref 20]. Second-line chemotherapy in malignant pleural mesothelioma: retrospective multicenter survey [ref 21].",
+                "reference": "20,21"
+            },
+            "notes": "Single-agent pemetrexed is classified as Other Recommended for subsequent therapy in peritoneal mesothelioma (any histology). The phase III trial demonstrated benefit of pemetrexed plus best supportive care over best supportive care alone in previously treated pleural mesothelioma [ref 20]. Consider rechallenge if good sustained response to front-line pemetrexed-based treatment [ref e,29]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Atezolizumab + Bevacizumab",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Testing NOT required before use",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Raghav et al. 2021",
+                "phase": "2",
+                "n_patients": "20",
+                "description": "Efficacy, safety, and biomarker analysis of combined PD-L1 (atezolizumab) and VEGF (bevacizumab) blockade in advanced malignant peritoneal mesothelioma. Cancer Discov 2021;11:2738-2747. Phase 2 trial in 20 patients with advanced and unresectable peritoneal mesothelioma who had progressed on or were intolerant to pemetrexed plus platinum chemotherapy. Many patients were women (60%) and did not have previous exposure to asbestos (75%). Median age was 63 years. Most had epithelioid histology (90%); 10% had biphasic histology. Response rate was 40% (8/20; 95% CI, 19%-64%). Overall survival at 1 year was 85% (95% CI, 60%-95%). Grade 3 treatment-emergent adverse events in 50% including hypertension (40%) and anemia (10%).",
+                "reference": "85,22"
+            },
+            "notes": "Atezolizumab plus bevacizumab is classified as Other Recommended for subsequent therapy in peritoneal mesothelioma. IMPORTANT: This regimen should only be considered if patients have NOT been previously treated with immune checkpoint inhibitors [ref h]. This is the only trial specifically conducted in peritoneal mesothelioma (not pleural mesothelioma) for this regimen, with an ORR of 40% and 1-year OS of 85% [ref 85]. Note footnote g: Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab; the SC formulation has different dosing and administration instructions. An FDA-approved biosimilar is an appropriate substitute for bevacizumab [ref c]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Manegold et al. 2005; van Meerbeeck et al. 1999",
+                "phase": "2",
+                "n_patients": null,
+                "description": "Second-line chemotherapy received by patients treated in the phase III trial of pemetrexed plus cisplatin [ref 23]. Phase II study of gemcitabine in patients with malignant pleural mesothelioma [ref 24].",
+                "reference": "23,24"
+            },
+            "notes": "Single-agent gemcitabine is classified as Other Recommended for subsequent therapy in peritoneal mesothelioma (any histology). Evidence is from second-line studies in pleural mesothelioma extrapolated to peritoneal mesothelioma. In a Japanese retrospective study, second-line gemcitabine was used in 12 of 26 patients with peritoneal mesothelioma [ref 87]. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Epithelioid and/or Biphasic/Sarcomatoid",
+            "setting": "Subsequent therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Molecular profiling (NTRK, ALK)",
+                    "requirement": "Broad molecular tumor profiling recommended",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Stebbing et al. 2009; Zauderer et al. 2014",
+                "phase": "2, retrospective",
+                "n_patients": null,
+                "description": "Efficacy and safety of weekly vinorelbine in relapsed malignant pleural mesothelioma [ref 25]. Vinorelbine and gemcitabine as second- or third-line therapy for malignant pleural mesothelioma [ref 26].",
+                "reference": "25,26"
+            },
+            "notes": "Vinorelbine is classified as Other Recommended for subsequent therapy in peritoneal mesothelioma (any histology). Evidence is from pleural mesothelioma studies extrapolated to peritoneal mesothelioma. All regimens may also be used for pericardial mesothelioma and tunica vaginalis testis mesothelioma [ref a]."
+        },
+        {
+            "regimen_name": "Cisplatin/Doxorubicin (perfusion-based dosing)",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies (epithelioid preferred for CRS+HIPEC)",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/L",
+                    "route": "IP",
+                    "schedule": "90 minutes"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "15 mg/L of perfusate",
+                    "route": "IP",
+                    "schedule": "90 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Chicago Consensus Working Group",
+                "phase": null,
+                "n_patients": null,
+                "description": "The Chicago Consensus on peritoneal surface malignancies: Management of peritoneal mesothelioma. Cancer 2020;126:2547-2552.",
+                "reference": "15"
+            },
+            "notes": "Cisplatin plus doxorubicin delivered as heated intraperitoneal chemotherapy (HIPEC) is the preferred intraperitoneal regimen during cytoreductive surgery (CRS). This is one of two dosing schemes listed for this combination. The dose is based on perfusate concentration (50 mg/L cisplatin + 15 mg/L doxorubicin) delivered for 90 minutes. CRS + HIPEC is recommended for medically operable patients with epithelioid histology and complete cytoreduction achievable, without high-risk features. The goal of CRS is macroscopic complete resection (CC-0) or near-complete cytoreduction (CC-1, residual <2.5 mm), which is acceptable for epithelioid histology. Platinum agents (cisplatin and carboplatin) have been associated with improved outcomes over mitomycin C in retrospective comparisons [refs 9,10]. Multi-institutional data show median OS of 53 months, 3-year survival 60%, 5-year survival 47% with CRS + HIPEC [ref 76]."
+        },
+        {
+            "regimen_name": "Cisplatin/Doxorubicin (flat-dose)",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies (epithelioid preferred for CRS+HIPEC)",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/m2",
+                    "route": "IP",
+                    "schedule": "90 minutes"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "15 mg/m2",
+                    "route": "IP",
+                    "schedule": "90 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Chicago Consensus Working Group",
+                "phase": null,
+                "n_patients": null,
+                "description": "The Chicago Consensus on peritoneal surface malignancies. Cancer 2020;126:2547-2552.",
+                "reference": "15"
+            },
+            "notes": "This is an alternative dosing scheme for cisplatin plus doxorubicin HIPEC, using BSA-based dosing (50 mg/m2 cisplatin + 15 mg/m2 doxorubicin) rather than perfusate concentration-based dosing. The treatment duration is 90 minutes. This regimen is preferred during CRS + HIPEC for eligible patients with peritoneal mesothelioma. See full clinical context in the cisplatin/doxorubicin (perfusion-based) entry above."
+        },
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies (epithelioid preferred for CRS+HIPEC)",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "100-240 mg/m2",
+                    "route": "IP",
+                    "schedule": "90-110 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Kusamura et al. 2007; Baratti et al. 2010",
+                "phase": null,
+                "n_patients": null,
+                "description": "Impact of cytoreductive surgery and HIPEC on systemic toxicity [ref 16/82]. Early and long-term postoperative management following CRS and HIPEC [ref 17/83].",
+                "reference": "16,17"
+            },
+            "notes": "Single-agent cisplatin delivered as HIPEC is a preferred intraperitoneal regimen during CRS. The dose range is 100-240 mg/m2 delivered over 90-110 minutes. Platinum agents have been associated with improved outcomes compared with mitomycin C in retrospective comparisons [refs 9,10]. The NCCN Panel voted cisplatin monotherapy as preferred for IP chemotherapy during CRS + HIPEC [ref 74]. See Principles of Surgery (PEM C) for additional IP chemotherapy regimens and details about completeness of cytoreduction scoring and peritoneal cancer index."
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies (epithelioid preferred for CRS+HIPEC)",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "600-800 mg/m2",
+                    "route": "IP",
+                    "schedule": "90 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Shetty et al. 2014",
+                "phase": null,
+                "n_patients": null,
+                "description": "Comparison of cytoreductive surgery and HIPEC with mitomycin or carboplatin for diffuse malignant peritoneal mesothelioma. Am Surg 2014;80:348-352.",
+                "reference": "18,83"
+            },
+            "notes": "Single-agent carboplatin delivered as HIPEC is a preferred intraperitoneal regimen during CRS. The dose range is 600-800 mg/m2 delivered over 90 minutes. Comparison data suggest carboplatin-based HIPEC has favorable outcomes compared with mitomycin-based HIPEC for peritoneal mesothelioma [ref 83]. The NCCN Panel voted carboplatin as preferred for IP chemotherapy during CRS + HIPEC [ref 74]."
+        },
+        {
+            "regimen_name": "Cisplatin/Mitomycin",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies (epithelioid preferred for CRS+HIPEC)",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2/L",
+                    "route": "IP",
+                    "schedule": "60-90 minutes"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "3.3 mg/m2/L",
+                    "route": "IP",
+                    "schedule": "60-90 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Baratti et al. 2013; Kepenekian et al. 2016",
+                "phase": null,
+                "n_patients": null,
+                "description": "Diffuse malignant peritoneal mesothelioma: long-term survival with complete CRS followed by HIPEC [ref 19]. Evaluation of systemic chemotherapy with comprehensive treatment through the RENAPE Database [ref 20].",
+                "reference": "19,20"
+            },
+            "notes": "Cisplatin plus mitomycin delivered as HIPEC is a preferred intraperitoneal regimen during CRS. The doses are based on perfusate volume concentration (25 mg/m2/L cisplatin + 3.3 mg/m2/L mitomycin) delivered for 60-90 minutes. The NCCN Panel voted this combination as preferred for IP chemotherapy during CRS + HIPEC [ref 74]. Platinum agents have been associated with improved outcomes compared with mitomycin alone in retrospective comparisons [refs 9,10]."
+        },
+        {
+            "regimen_name": "Mitomycin (single-dose)",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitomycin",
+                    "dose": "30 mg/m2",
+                    "route": "IP",
+                    "schedule": "90-110 minutes"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Chicago Consensus Working Group",
+                "phase": null,
+                "n_patients": null,
+                "description": "The Chicago Consensus on peritoneal surface malignancies. Cancer 2020;126:2547-2552.",
+                "reference": "15"
+            },
+            "notes": "Mitomycin monotherapy delivered as HIPEC is classified as Useful in Certain Circumstances for peritoneal mesothelioma. The dose is 30 mg/m2 delivered over 90-110 minutes. Platinum-based HIPEC regimens (cisplatin, carboplatin) are preferred over mitomycin C based on retrospective data showing improved outcomes [refs 9,10,82]. Mitomycin may be used in specific clinical circumstances where platinum agents are contraindicated."
+        },
+        {
+            "regimen_name": "Mitomycin (split-dose)",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "All histologies",
+            "setting": "Perioperative (CRS + HIPEC)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitomycin",
+                    "dose": "30 mg at time 0, followed by 10 mg beginning at 60 minutes",
+                    "route": "IP",
+                    "schedule": "90-110 minutes total"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Chicago Consensus Working Group",
+                "phase": null,
+                "n_patients": null,
+                "description": "The Chicago Consensus on peritoneal surface malignancies. Cancer 2020;126:2547-2552.",
+                "reference": "15"
+            },
+            "notes": "This is an alternative split-dose mitomycin regimen for HIPEC during CRS. The initial dose of 30 mg is administered at time 0, followed by an additional 10 mg beginning at 60 minutes, with the total treatment duration of 90-110 minutes. This regimen is classified as Useful in Certain Circumstances, as platinum-based regimens are preferred [refs 9,10]."
+        },
+        {
+            "regimen_name": "ALK inhibitor therapy (Ceritinib/Crizotinib) for ALK-rearranged peritoneal mesothelioma",
+            "site": "Peritoneal Mesothelioma",
+            "histology": "Any (ALK-rearranged)",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ceritinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Crizotinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK rearrangement",
+                    "requirement": "ALK rearrangement must be identified by IHC or FISH; found in rare patients with peritoneal mesothelioma",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Case reports (Ruschoff et al. 2019; Sakata et al. 2021; Gerthofer et al. 2021; Mian et al. 2020)",
+                "phase": "Case reports/series",
+                "n_patients": null,
+                "description": "ALK rearrangements identified in rare patients with peritoneal mesothelioma. In 25 young patients (<=40 years) with peritoneal mesothelioma, 2 (8%) had ALK rearrangement [ref 102]. A dramatic response with ceritinib was reported in a 13-year-old girl with peritoneal mesothelioma with ALK rearrangement [ref 104]. STRN-ALK rearranged peritoneal mesothelioma showed dramatic response following ceritinib treatment [ref 28/104]. Case reports have also reported responses to crizotinib [ref 105].",
+                "reference": "28,53,54,102,104,105"
+            },
+            "notes": "ALK rearrangements have been identified in rare patients with peritoneal mesothelioma, particularly in young patients [refs 49-52,54]. In a study of 25 young patients (<=40 years) with peritoneal mesothelioma, 2 (8%) harbored ALK rearrangements [ref 102]. These patients did not have a history of asbestos exposure or radiation therapy and did not have predisposing germline mutations. Dramatic responses to ALK inhibitors including ceritinib and crizotinib have been reported [refs 28,53,54,104,105]. The NCCN Panel recommends broad molecular tumor profiling with the goal of identifying rare driver alterations including ALK for which effective drugs may be available [refs 27,28]. This is not a standard first-line or subsequent regimen but rather a molecularly targeted approach for the rare subset of patients with ALK-rearranged peritoneal mesothelioma."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.846650"
+}

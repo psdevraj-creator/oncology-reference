@@ -1,0 +1,3362 @@
+{
+    "site_id": "lower_gi",
+    "site_display_name": "Lower GI Cancers",
+    "archetype": "A",
+    "regimen_count": 80,
+    "regimens": [
+        {
+            "regimen_name": "Modified FOLFOX6",
+            "site": "Rectal cancer",
+            "setting": "Perioperative chemotherapy | First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (perioperative) | Other recommended (first-line metastatic)",
+            "trial_data": {
+                "trial_name": "de Gramont et al. 2000",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Modified FOLFOX6 is the standard doublet backbone for perioperative and metastatic chemotherapy. Leucovorin 400 mg/m2 is equivalent to levoleucovorin 200 mg/m2. Oxaliplatin may be infused over a shorter time at a rate of 1 mg/m2/min. Discontinuation of oxaliplatin should be strongly considered after 3 to 4 months of therapy (or sooner for unacceptable neurotoxicity) while maintaining other agents until time of progression in the metastatic setting."
+        },
+        {
+            "regimen_name": "Modified FOLFOX7",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV continuous infusion",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Hochster et al. 2014 (CONcePT)",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Modified FOLFOX7 omits the 5-FU bolus compared to Modified FOLFOX6, using only continuous infusion fluorouracil."
+        },
+        {
+            "regimen_name": "FOLFOX + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Emmanouilides et al. 2007",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Bevacizumab may be safely given at a rate of 0.5 mg/kg/min (5 mg/kg over 10 minutes). Bevacizumab is the preferred anti-angiogenic agent and can be continued into the second line of therapy and beyond. There should be at least a 6-week interval between the last dose of bevacizumab and elective surgery, and re-initiation of bevacizumab should be delayed at least 6 to 8 weeks postoperatively."
+        },
+        {
+            "regimen_name": "FOLFOX + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, KRAS/NRAS/BRAF WT)",
+            "trial_data": {
+                "trial_name": "PRIME (Douillard et al. 2010)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "EGFR inhibitors include cetuximab and panitumumab. An EGFR inhibitor should not be continued beyond progression of disease. There is no efficacy benefit in changing the EGFR inhibitor at the time of progression."
+        },
+        {
+            "regimen_name": "FOLFOX + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 IV over 2 hours first infusion, followed by 250 mg/m2 IV over 60 minutes weekly; OR 500 mg/m2 IV over 2 hours, Day 1, every 2 weeks (preferred for every 2 weeks)",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, KRAS/NRAS/BRAF WT)",
+            "trial_data": {
+                "trial_name": "N0147 (Venook et al. 2017)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Patients with any known KRAS mutation (exons 2, 3, and 4) or NRAS mutation (exons 2, 3, and 4) should not be treated with cetuximab or panitumumab. BRAF V600E mutation testing is required; BRAF V600E mutation makes response to cetuximab or panitumumab highly unlikely."
+        },
+        {
+            "regimen_name": "CAPEOX",
+            "site": "Rectal cancer",
+            "setting": "Perioperative chemotherapy | First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (perioperative and first-line metastatic)",
+            "trial_data": {
+                "trial_name": "Saltz et al. 2008",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "The majority of safety and efficacy data for this regimen have been developed in Europe, where a capecitabine starting dose of 1000 mg/m2 twice daily for 14 days, repeated every 21 days, is standard. Evidence suggests that North American patients may experience greater toxicity with capecitabine (as well as with other fluoropyrimidines) than European patients, and may require a lower dose of capecitabine. For information on DPYD testing and fluoropyrimidine-associated toxicity, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "CAPEOX + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "BICC-C (Fuchs et al. 2007)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Bevacizumab may be safely given at a rate of 0.5 mg/kg/min (7.5 mg/kg over 15 minutes)."
+        },
+        {
+            "regimen_name": "CAPEOX + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 IV over 2 hours first infusion, followed by 250 mg/m2 IV over 60 minutes weekly; OR 500 mg/m2 IV over 2 hours, Day 1, every 2 weeks (preferred for every 2 weeks)",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Iwamoto et al. 2018",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "The addition of FOLFOX or CAPEOX to encorafenib plus cetuximab or panitumumab can be considered for patients without residual neuropathy and good prior tolerance of chemotherapy."
+        },
+        {
+            "regimen_name": "CAPEOX + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "New EPOC (Bridgewater et al. 2020)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Panitumumab is given every 2 weeks while FOLFOX/CAPEOX is given on a 3-week cycle; the regimens are combined."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "BICC-C (Fuchs et al. 2007)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "FOLFIRI is an irinotecan-based backbone used as first-line therapy and in subsequent lines. Irinotecan should be used with caution in patients with Gilbert syndrome or elevated serum bilirubin."
+        },
+        {
+            "regimen_name": "FOLFIRI + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "FIRE-3 (Heinemann et al. 2014)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Bevacizumab is the preferred anti-angiogenic agent. An anti-angiogenic agent other than bevacizumab (ziv-aflibercept or ramucirumab) may be substituted in subsequent lines."
+        },
+        {
+            "regimen_name": "FOLFIRI + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 IV over 2 hours first infusion, followed by 250 mg/m2 IV over 60 minutes weekly; OR 500 mg/m2 IV over 2 hours, Day 1, every 2 weeks (preferred for every 2 weeks)",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "FIRE-3 (Heinemann et al. 2014)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Cetuximab or panitumumab are recommended in combination with irinotecan-based therapy or as single-agent therapy for patients who cannot tolerate irinotecan."
+        },
+        {
+            "regimen_name": "FOLFIRI + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "20050181 (Peeters et al. 2010)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "An EGFR inhibitor should not be continued beyond progression of disease. There is no efficacy benefit in changing the EGFR inhibitor at the time of progression."
+        },
+        {
+            "regimen_name": "FOLFIRI + Ziv-aflibercept",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic (prior oxaliplatin)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Ziv-aflibercept",
+                    "dose": "4 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (subsequent-line, prior oxaliplatin)",
+            "trial_data": {
+                "trial_name": "VELOUR (Van Cutsem et al. 2012)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Ziv-aflibercept and ramucirumab have only shown activity when given in conjunction with FOLFIRI in FOLFIRI-naive patients. There are no data to suggest activity of FOLFIRI-ziv-aflibercept or FOLFIRI-ramucirumab in a patient whose disease has progressed on FOLFIRI-bevacizumab, or vice versa."
+        },
+        {
+            "regimen_name": "FOLFIRI + Ramucirumab",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic (prior oxaliplatin)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1, to match duration of irinotecan infusion; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                },
+                {
+                    "name": "Ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (subsequent-line, prior oxaliplatin)",
+            "trial_data": {
+                "trial_name": "RAISE (Tabernero et al. 2015)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Ziv-aflibercept and ramucirumab have only shown activity when given in conjunction with FOLFIRI in FOLFIRI-naive patients."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant/perioperative (T4, N+); First-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "165-180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV push Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Consider (neoadjuvant T4, N+ only) | Other recommended (first-line metastatic)",
+            "trial_data": {
+                "trial_name": "UNICANCER-PRODIGE 23 (Conroy et al. 2021)",
+                "phase": "Phase III",
+                "n_patients": "461",
+                "os": "null",
+                "pfs": "3-year DFS 76% vs 69% (HR, 0.69; 95% CI, 0.49-0.97; P=.034)",
+                "hr": "0.69",
+                "ci": "0.49-0.97",
+                "orr": "null"
+            },
+            "notes": "FOLFIRINOX is recommended instead of FOLFOXIRI because FOLFOXIRI uses a high dose of fluorouracil (3200 mg/m2 over 48 hours). Patients in the United States have been shown to have greater toxicity with fluorouracil. The dose of fluorouracil (2400 mg/m2 over 46 hours) is a starting dose consistent with the dose recommended in FOLFOX or FOLFIRI and should be strongly considered for U.S. patients. In the neoadjuvant setting, this regimen is recommended only for cT4, N+ disease due to higher toxicity compared to FOLFOX or CAPEOX."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46 hours)",
+                    "route": "IV continuous infusion",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (first-line metastatic)",
+            "trial_data": {
+                "trial_name": "IROCAS (Bennouna et al. 2019)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Modified FOLFIRINOX omits the 5-FU bolus and uses a lower irinotecan dose (150 mg/m2) compared to standard FOLFIRINOX."
+        },
+        {
+            "regimen_name": "FOLFIRINOX or Modified FOLFIRINOX + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2 (standard) or 150 mg/m2 (modified)",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV push Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46 hours) [standard] OR 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46 hours) continuous infusion only [modified]",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "TRIBE (Cremolini et al. 2015)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "FOLFOXIRI plus bevacizumab versus FOLFIRI plus bevacizumab as first-line treatment of patients with mCRC (TRIBE study)."
+        },
+        {
+            "regimen_name": "Bolus or Infusional Fluorouracil/Leucovorin - Roswell Park",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Days 1, 8, 15, 22, 29, and 36; repeat every 8 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV bolus",
+                    "schedule": "1 hour after start of leucovorin, Days 1, 8, 15, 22, 29, and 36; repeat every 8 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "NSABP C-03 (Wolmark et al. 1993)",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Weekly bolus regimen. Leucovorin 500 mg/m2 is given over 2 hours, followed by 5-FU bolus 500 mg/m2 given 1 hour after start of leucovorin."
+        },
+        {
+            "regimen_name": "Simplified Biweekly Infusional Fluorouracil/Leucovorin (sLV5FU2)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; continuous infusion x 2 days; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "de Gramont et al. 2000",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This is the infusional 5-FU/leucovorin backbone without oxaliplatin or irinotecan."
+        },
+        {
+            "regimen_name": "Weekly Fluorouracil/Leucovorin",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "20 mg/m2",
+                    "route": "IV over 2 hours",
+                    "schedule": "Day 1; repeat weekly"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV bolus injection",
+                    "schedule": "1 hour after start of leucovorin; repeat weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Jager et al. 1996",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Weekly regimen with low-dose leucovorin. Alternative: Fluorouracil 2600 mg/m2 by 24-hour infusion plus Leucovorin 500 mg/m2, repeat every week."
+        },
+        {
+            "regimen_name": "Bolus or Infusional Fluorouracil + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks (or other schedule per backbone used)"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV on Day 1",
+                    "schedule": "Repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "5-FU/LV plus bevacizumab for patients who cannot tolerate irinotecan-based or oxaliplatin-based regimens."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850-1250 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Van Cutsem et al. 2001",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Capecitabine dose range reflects variability in practice. Evidence suggests that North American patients may experience greater toxicity and may require a lower starting dose. For information on DPYD testing and fluoropyrimidine-associated toxicity, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Capecitabine + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850-1250 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "AVEX (Cunningham et al. 2013)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Bevacizumab may be safely given at a rate of 0.5 mg/kg/min (7.5 mg/kg over 15 minutes)."
+        },
+        {
+            "regimen_name": "Irinotecan + Ziv-aflibercept",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Ziv-aflibercept",
+                    "dose": "4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Ziv-aflibercept has only shown activity when given in conjunction with FOLFIRI in FOLFIRI-naive patients."
+        },
+        {
+            "regimen_name": "Irinotecan (Various Schedules)",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "125 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Days 1 and 8; repeat every 3 weeks"
+                },
+                {
+                    "name": "Irinotecan (alt)",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan (alt)",
+                    "dose": "300-350 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Cunningham et al. 1998",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Irinotecan monotherapy at various schedules. Single-agent fluoropyrimidine is not recommended after progression on a fluoropyrimidine-containing regimen. Irinotecan should be used with caution in patients with Gilbert syndrome or elevated serum bilirubin."
+        },
+        {
+            "regimen_name": "Irinotecan + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks (or other schedule)"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 first infusion, followed by 250 mg/m2 IV weekly; OR 500 mg/m2 IV over 2 hours, Day 1, every 2 weeks (preferred for every 2 weeks)",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "BOND (Cunningham et al. 2004)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Cetuximab monotherapy or cetuximab plus irinotecan in irinotecan-refractory mCRC."
+        },
+        {
+            "regimen_name": "Irinotecan + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "20050181 (Peeters et al. 2010)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Panitumumab combined with irinotecan for patients with KRAS wild-type mCRC refractory to standard chemotherapy."
+        },
+        {
+            "regimen_name": "Irinotecan + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Alternative: Irinotecan 300-350 mg/m2 IV Day 1 plus Bevacizumab 7.5 mg/kg IV Day 1, repeat every 3 weeks."
+        },
+        {
+            "regimen_name": "Irinotecan + Ramucirumab",
+            "site": "Rectal cancer",
+            "setting": "Subsequent-line metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "RAISE (Tabernero et al. 2015)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Ramucirumab has only shown activity when given in conjunction with FOLFIRI in FOLFIRI-naive patients."
+        },
+        {
+            "regimen_name": "Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 first infusion, followed by 250 mg/m2 IV weekly; OR 500 mg/m2 IV over 2 hours, Day 1, every 2 weeks (preferred for every 2 weeks)",
+                    "route": "IV",
+                    "schedule": "Weekly or every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "BOND (Cunningham et al. 2004)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Cetuximab monotherapy for patients who cannot tolerate irinotecan-based therapy."
+        },
+        {
+            "regimen_name": "Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "First-line metastatic | Subsequent-line metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV over 60 minutes",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "20020408 (Van Cutsem et al. 2007)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Panitumumab monotherapy for patients who cannot tolerate irinotecan-based therapy."
+        },
+        {
+            "regimen_name": "Regorafenib (Standard Dosing)",
+            "site": "Rectal cancer",
+            "setting": "Refractory metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Daily on Days 1-21; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CORRECT (Grothey et al. 2013)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Regorafenib is a multikinase inhibitor for previously treated mCRC."
+        },
+        {
+            "regimen_name": "Regorafenib (Dose-Escalated)",
+            "site": "Rectal cancer",
+            "setting": "Refractory metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "80 mg PO daily Days 1-7, followed by 120 mg PO daily Days 8-14, followed by 160 mg PO daily Days 15-21 (first cycle only); Subsequent cycles: 160 mg PO daily Days 1-21",
+                    "route": "PO",
+                    "schedule": "Repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "reDOS (Bekaii-Saab et al. 2019)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Dose-escalation strategy to improve tolerability of regorafenib."
+        },
+        {
+            "regimen_name": "Trifluridine and Tipiracil",
+            "site": "Rectal cancer",
+            "setting": "Refractory metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trifluridine and Tipiracil",
+                    "dose": "35 mg/m2 up to a maximum dose of 80 mg per dose (based on the trifluridine component)",
+                    "route": "PO",
+                    "schedule": "Twice daily, Days 1-5 and 8-12; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "RECOURSE (Mayer et al. 2015)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Trifluridine and tipiracil (TAS-102) for refractory mCRC."
+        },
+        {
+            "regimen_name": "Trifluridine and Tipiracil + Bevacizumab",
+            "site": "Rectal cancer",
+            "setting": "Refractory metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trifluridine and Tipiracil",
+                    "dose": "35 mg/m2 up to a maximum dose of 80 mg per dose (based on the trifluridine component)",
+                    "route": "PO",
+                    "schedule": "Twice daily, Days 1-5 and 8-12; repeat every 28 days"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1 and 15; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (bevacizumab combo preferred over TAS-102 alone)",
+            "trial_data": {
+                "trial_name": "SUNLIGHT (Prager et al. 2023)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "The combination of trifluridine/tipiracil plus bevacizumab is preferred over trifluridine/tipiracil alone."
+        },
+        {
+            "regimen_name": "Pertuzumab + Trastuzumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trastuzumab",
+                    "dose": "8 mg/kg IV loading dose on Day 1 of cycle 1, followed by 6 mg/kg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                },
+                {
+                    "name": "Pertuzumab",
+                    "dose": "840 mg IV loading dose on Day 1 of cycle 1, followed by 420 mg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 (ERBB2)",
+                    "requirement": "Overexpression/amplification",
+                    "mandatory": true
+                },
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "MyPathway (Meric-Bernstam et al. 2019)",
+                "phase": "Phase IIa",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "HER2 (ERBB2) overexpression/amplification must be documented. Anti-HER2 therapy with signal transduction inhibition (eg, pertuzumab/trastuzumab) is indicated for patients with HER2 overexpression/amplification, IHC 3+, IHC2+/ISH+, or HER2 overexpressed/amplified (detected by NGS) cancers that are also KRAS, NRAS, and BRAF wild-type."
+        },
+        {
+            "regimen_name": "Tucatinib + Trastuzumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trastuzumab",
+                    "dose": "8 mg/kg IV loading dose on Day 1 of cycle 1, followed by 6 mg/kg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                },
+                {
+                    "name": "Tucatinib",
+                    "dose": "300 mg",
+                    "route": "PO twice daily",
+                    "schedule": "Continuous"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 (ERBB2)",
+                    "requirement": "Overexpression/amplification",
+                    "mandatory": true
+                },
+                {
+                    "marker": "KRAS/NRAS/BRAF",
+                    "requirement": "Wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "MOUNTAINEER (Strickler et al. 2022)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Tucatinib is an oral HER2-selective tyrosine kinase inhibitor combined with trastuzumab for HER2-amplified mCRC."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease (beyond second line)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Overexpression, IHC 3+ only",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "DESTINY-CRC02 (Raghav et al. 2023)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Fam-trastuzumab deruxtecan-nxki (T-DXd) is only indicated in HER2-overexpressed tumors (IHC 3+). Some activity was seen after previous treatment with a HER2-targeted regimen. May not be indicated in patients with underlying lung issues due to lung toxicity (drug-related deaths from interstitial lung disease were reported in 3.5% of patients on the DESTINY-CRC01 trial)."
+        },
+        {
+            "regimen_name": "Encorafenib + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 IV followed by 250 mg/m2 IV weekly; OR 500 mg/m2 IV every 2 weeks",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks (preferred)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "BEACON CRC (Kopetz et al. 2019)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Patients with BRAF V600E-mutant cancers should receive an encorafenib-containing regimen during one line of therapy. A chemotherapy-containing option is preferred in the first-line metastatic setting."
+        },
+        {
+            "regimen_name": "Encorafenib + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "BEACON CRC (Kopetz et al. 2019)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Encorafenib + panitumumab is a preferred option for BRAF V600E-mutated mCRC."
+        },
+        {
+            "regimen_name": "FOLFOX/Encorafenib + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "BREAKWATER (Kopetz et al. 2026)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "FOLFOX/Encorafenib + Cetuximab is a preferred first-line regimen for BRAF V600E-mutated mCRC. BRAF V600E regimen may be given with FOLFOX as subsequent-line therapy if no previous treatment with oxaliplatin or BRAF-targeting regimen."
+        },
+        {
+            "regimen_name": "FOLFOX/Encorafenib + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "BREAKWATER (Kopetz et al. 2026)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Preferred first-line regimen for BRAF V600E-mutated mCRC. The addition of FOLFOX or CAPEOX can be considered for patients without residual neuropathy and good prior tolerance of chemotherapy."
+        },
+        {
+            "regimen_name": "FOLFIRI/Encorafenib + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "BREAKWATER (Kopetz et al. 2026)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Preferred first-line regimen for BRAF V600E-mutated mCRC, combining triplet chemotherapy backbone with targeted therapy."
+        },
+        {
+            "regimen_name": "FOLFIRI/Encorafenib + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30-90 minutes",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus, followed by 1200 mg/m2/day x 2 days (total 2400 mg/m2 over 46-48 hours)",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Alternative to encorafenib + cetuximab-based regimens for BRAF V600E-mutated mCRC."
+        },
+        {
+            "regimen_name": "CAPEOX/Encorafenib + Cetuximab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "CAPEOX-based triplet backbone with encorafenib plus cetuximab for BRAF V600E-mutated mCRC."
+        },
+        {
+            "regimen_name": "CAPEOX/Encorafenib + Panitumumab",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 14 days"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Days 1-14; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF",
+                    "requirement": "V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (BRAF V600E)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "CAPEOX-based triplet backbone with encorafenib plus panitumumab for BRAF V600E-mutated mCRC."
+        },
+        {
+            "regimen_name": "Adagrasib (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily (BID)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "KRYSTAL-1 (Yaeger et al. 2023)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Adagrasib monotherapy for KRAS G12C-mutated mCRC. Some patients may have activity after previous treatment with a HER2-targeted regimen."
+        },
+        {
+            "regimen_name": "Sotorasib (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CodeBreaK100 (Fakih et al. 2022)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Sotorasib monotherapy for previously treated KRAS G12C-mutated CRC."
+        },
+        {
+            "regimen_name": "Adagrasib + Cetuximab (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily (BID)"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "KRYSTAL-1 (Yaeger et al. 2023)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "If patient is unable to tolerate EGFR inhibitor, adagrasib or sotorasib monotherapy can be considered."
+        },
+        {
+            "regimen_name": "Adagrasib + Panitumumab (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily (BID)"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "KRYSTAL-1 (Yaeger et al. 2023)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Alternative combination for KRAS G12C-mutated mCRC."
+        },
+        {
+            "regimen_name": "Sotorasib + Cetuximab (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CodeBreaK100 (Fakih et al. 2022)",
+                "phase": "Phase Ib/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Sotorasib combined with cetuximab for KRAS G12C-mutated mCRC."
+        },
+        {
+            "regimen_name": "Sotorasib + Panitumumab (KRAS G12C)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO daily",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS",
+                    "requirement": "G12C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CodeBreaK100 (Kuboki et al. 2022)",
+                "phase": "Phase Ib/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Sotorasib combined with panitumumab for KRAS G12C-mutated mCRC."
+        },
+        {
+            "regimen_name": "Larotrectinib (NTRK Fusion)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3",
+                    "requirement": "Gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (tumor-agnostic)",
+            "trial_data": {
+                "trial_name": "NAVIGATE (Drilon et al. 2018)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Larotrectinib has activity ONLY in cases with NTRK 1/2/3 gene fusions, and NOT with NTRK 1/2/3 gene point mutations."
+        },
+        {
+            "regimen_name": "Entrectinib (NTRK Fusion)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3",
+                    "requirement": "Gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (tumor-agnostic)",
+            "trial_data": {
+                "trial_name": "STARTRK-2 (Doebele et al. 2020)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Entrectinib for patients with advanced or metastatic NTRK fusion-positive solid tumours."
+        },
+        {
+            "regimen_name": "Repotrectinib (NTRK Fusion)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg PO daily for first 14 days, then increase to 160 mg PO twice daily",
+                    "route": "PO",
+                    "schedule": "Daily then twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3",
+                    "requirement": "Gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (tumor-agnostic)",
+            "trial_data": {
+                "trial_name": "TRIDENT-1 (Solomon et al. 2023)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Repotrectinib showed activity in both NTRK TKI-naive and NTRK TKI-pretreated patients on the TRIDENT-1 trial."
+        },
+        {
+            "regimen_name": "Selpercatinib (RET Fusion)",
+            "site": "Rectal cancer",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "160 mg PO twice daily (patients >=50 kg); OR 120 mg PO twice daily (patients <50 kg)",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET",
+                    "requirement": "Gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (tumor-agnostic)",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001 (Subbiah et al. 2022)",
+                "phase": "Phase I/II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Selpercatinib is FDA-approved for patients with solid tumors harboring activating RET gene fusions. Caution should be used in interpreting RET gene fusion results from ctDNA/RNA assays following targeted therapy with EGFR inhibitors."
+        },
+        {
+            "regimen_name": "Fruquintinib",
+            "site": "Rectal cancer",
+            "setting": "Refractory metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fruquintinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily on Days 1-21; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "FRESCO-2 (Dasari et al. 2023)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Fruquintinib is a selective inhibitor of vascular endothelial growth factor receptors (VEGFR) 1, 2, and 3 for refractory mCRC."
+        },
+        {
+            "regimen_name": "Pembrolizumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy (dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "2 mg/kg IV every 3 weeks; OR 200 mg IV every 3 weeks; OR 400 mg IV every 6 weeks; OR 4 mg/kg IV every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks or every 6 weeks (various schedules)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype (eg, TMB >50 mut/Mb)",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-177 (Andre et al. 2025)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "5-year follow-up published",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Patients should be followed closely for 10 weeks to assess for response. If disease response, consider discontinuing checkpoint inhibitor after 2 years of treatment. Some of these agents have not been specifically studied in CRC but are included in this Guideline based on the presumed class effect from data demonstrated in other cancer types. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab."
+        },
+        {
+            "regimen_name": "Nivolumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy (dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg every 2 weeks; OR 240 mg IV every 2 weeks; OR 480 mg IV every 4 weeks; OR 6 mg/kg IV every 4 weeks",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks or every 4 weeks (various schedules)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "CheckMate 142 (Overman et al. 2017)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy (dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV over 30 minutes",
+                    "schedule": "Once every 3 weeks for four doses (with ipilimumab), followed by Nivolumab 3 mg/kg or 240 mg IV every 2 weeks or 480 mg IV every 4 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV over 30 minutes",
+                    "schedule": "Once every 3 weeks for four doses, then discontinue"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (after checkpoint inhibitor monotherapy)",
+            "trial_data": {
+                "trial_name": "CheckMate 142 (Overman et al. 2018)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Combination PD-1/CTLA-4 blockade has been associated with improved survival in unresectable or metastatic CRC, but also higher toxicity. Nivolumab plus ipilimumab is recommended after checkpoint inhibitor monotherapy was previously received."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg IV every 3 weeks for 4 doses, followed by 1000 mg IV every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks x 4, then every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "GARNET (Andre et al. 2023)",
+                "phase": "Phase I",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Dostarlimab-gxly is an anti-PD-1 monoclonal antibody. In a phase II trial, all 12 patients with dMMR stage II or III rectal adenocarcinoma showed a clinical complete response to dostarlimab-gxly, with no patients requiring chemoradiotherapy or surgery. A larger follow-up of 49 patients in the rectal cancer cohort showed cCR in all, with 2-year RFS of 96%."
+        },
+        {
+            "regimen_name": "Cemiplimab-rwlc (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab-rwlc",
+                    "dose": "350 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "EMPOWER-Lung 1 / EMPOWER-CRC1",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-1 inhibitor for dMMR/MSI-H tumors."
+        },
+        {
+            "regimen_name": "Tislelizumab-jsgr (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Added as a category 2A recommendation in Version 2.2026. Some of these agents have not been specifically studied in CRC but are included based on presumed class effect."
+        },
+        {
+            "regimen_name": "Toripalimab-tpzi (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Toripalimab-tpzi",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "PICC (Hu et al. 2022)",
+                "phase": "Phase II",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Neoadjuvant PD-1 blockade with toripalimab in dMMR/MSI-H locally advanced colorectal cancer."
+        },
+        {
+            "regimen_name": "Penpulimab-kcqx (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Penpulimab-kcqx",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Added as a category 2A recommendation in Version 2.2026. Some of these agents have not been specifically studied in CRC but are included based on presumed class effect."
+        },
+        {
+            "regimen_name": "Retifanlimab-dlwr (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "POD1UM-101 (Berton et al. 2024)",
+                "phase": "Phase I",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-1 inhibitor for MSI-H/dMMR endometrial cancer and other solid tumors."
+        },
+        {
+            "regimen_name": "Atezolizumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "840 mg IV Day 1 every 14 days; OR 1200 mg IV Day 1 every 21 days; OR 1680 mg IV Day 1 every 28 days",
+                    "route": "IV",
+                    "schedule": "Various schedules"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-L1 inhibitor added as a category 2A recommendation in Version 2.2026. Some of these agents have not been specifically studied in CRC but are included based on presumed class effect. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab."
+        },
+        {
+            "regimen_name": "Avelumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avelumab",
+                    "dose": "800 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "JAVELIN Solid Tumor (Patel et al. 2018)",
+                "phase": "Phase Ib",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-L1 inhibitor. Added as a category 2A recommendation in Version 2.2026. Not specifically studied in CRC but included based on presumed class effect."
+        },
+        {
+            "regimen_name": "Cosibelimab-ipdl (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cosibelimab-ipdl",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-L1 inhibitor. Added as a category 2A recommendation in Version 2.2026."
+        },
+        {
+            "regimen_name": "Durvalumab (dMMR/MSI-H or POLE/POLD1)",
+            "site": "Rectal cancer",
+            "setting": "Any line of therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1; every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (first-line, no prior immunotherapy)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "PD-L1 inhibitor. Added as a category 2A recommendation in Version 2.2026."
+        },
+        {
+            "regimen_name": "Fluorouracil (continuous infusion) + RT (Long-Course Chemoradiation)",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant (concurrent with radiation)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "225 mg/m2",
+                    "route": "IV over 24 hours",
+                    "schedule": "Daily on Days 1-5 or Days 1-7 for 5 weeks, with concurrent RT (45-54 Gy in 25-30 fractions)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (concurrent chemoradiation)",
+            "trial_data": {
+                "trial_name": "GI INT 0144 (Smalley et al. 2006)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Continuous infusion 5-FU at 225 mg/m2/day for 5 weeks with RT. This is a standard concurrent chemoradiation regimen for locally advanced rectal cancer. RT dosing: 45-54 Gy in 25-30 fractions. Small bowel max point dose should be limited to Dmax 55 Gy, V45 Gy should be <=150 cc for individual small bowel loops."
+        },
+        {
+            "regimen_name": "Capecitabine + RT (Long-Course Chemoradiation)",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant (concurrent with radiation)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2",
+                    "route": "PO twice daily",
+                    "schedule": "Monday-Friday, on days of radiation treatment only, throughout the duration of RT (typically 28-30 treatment days); concurrent with RT (45-54 Gy in 25-30 fractions)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (concurrent chemoradiation)",
+            "trial_data": {
+                "trial_name": "NSABP R-04 (O'Connell et al. 2014)",
+                "phase": "Phase III",
+                "n_patients": "1608",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Capecitabine is equivalent to 5-FU in perioperative chemoradiation therapy. Capecitabine given concurrently with RT is listed as an acceptable alternative to infusional 5-FU in those patients who are able to manage the responsibilities inherent in self-administered, oral chemotherapy. Evidence suggests that North American patients may require a lower dose of capecitabine."
+        },
+        {
+            "regimen_name": "Short-Course RT",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation therapy",
+                    "dose": "25 Gy",
+                    "route": "External beam",
+                    "schedule": "5 fractions (5 Gy per fraction), typically over 1 week"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (neoadjuvant)",
+            "trial_data": {
+                "trial_name": "RAPIDO (Bahadoer et al. 2021)",
+                "phase": "Phase III",
+                "n_patients": "912",
+                "os": "null",
+                "pfs": "3-year disease-related treatment failure: 23.7% TNT vs 30.4% standard (HR, 0.75; 95% CI, 0.60-0.95; P=.019)",
+                "hr": "0.75",
+                "ci": "0.60-0.95",
+                "orr": "null"
+            },
+            "notes": "Short-course RT (25 Gy in 5 fractions) can be considered for patients for preoperative radiation. For high-risk rectal cancer (cT4a or cT4b, EMVI, cN2, involved MRF, or enlarged lateral lymph nodes considered metastatic), the 5-year follow-up of the RAPIDO trial now indicates a statistically higher locoregional recurrence rate with short-course RT. Small bowel max point dose should be limited to D0.03 cc 26.5 Gy, and V20 Gy should be 50 cc for individual small bowel loops. A multidisciplinary evaluation, including a discussion of the need for downstaging and the possibility of long-term toxicity, is recommended when considering short-course RT."
+        },
+        {
+            "regimen_name": "Nivolumab (Neoadjuvant, dMMR/MSI-H)",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant/definitive immunotherapy (dMMR/MSI-H or POLE/POLD1)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks; OR 480 mg IV every 4 weeks; for up to 6 months total"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (neoadjuvant dMMR/MSI-H)",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "For stage II-III dMMR/MSI-H or POLE/POLD1 rectal cancer, neoadjuvant checkpoint inhibitor immunotherapy is the preferred treatment. Disease status should be re-evaluated every 2-3 months. If complete clinical response is achieved, surveillance may be recommended. If persistent disease at 6 months, consider long-course chemoRT or short-course RT. If consistent response, continue checkpoint inhibitor immunotherapy for up to 6 months total."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly (Neoadjuvant, dMMR/MSI-H)",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant/definitive immunotherapy (dMMR/MSI-H or POLE/POLD1)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then 1000 mg every 6 weeks; for up to 6 months total"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (neoadjuvant dMMR/MSI-H)",
+            "trial_data": {
+                "trial_name": "Cercek et al. 2022, 2025",
+                "phase": "Phase II",
+                "n_patients": "49 (rectal cancer cohort)",
+                "os": "null",
+                "pfs": "2-year RFS 96%",
+                "hr": "null",
+                "ci": "null",
+                "orr": "100% cCR"
+            },
+            "notes": "In a phase II trial of dostarlimab-gxly for 6 months in dMMR locally advanced rectal cancer, all 49 patients who completed treatment showed a cCR and elected to forgo surgery. Two-year RFS was 96%. This is a preferred option for neoadjuvant immunotherapy."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Neoadjuvant, dMMR/MSI-H)",
+            "site": "Rectal cancer",
+            "setting": "Neoadjuvant/definitive immunotherapy (dMMR/MSI-H or POLE/POLD1)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks; for up to 6 months total"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MMR/MSI",
+                    "requirement": "dMMR/MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1",
+                    "requirement": "Mutation with ultra-hypermutated phenotype",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (neoadjuvant dMMR/MSI-H)",
+            "trial_data": {
+                "trial_name": "Ludford et al. 2023",
+                "phase": "Phase II",
+                "n_patients": "27 (colorectal), 8 (rectal)",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "82%"
+            },
+            "notes": "Pembrolizumab for neoadjuvant treatment of localized dMMR/MSI-H solid tumors. Of 27 colorectal cancer patients, 8 had rectal adenocarcinoma. ORR was 82%."
+        },
+        {
+            "regimen_name": "Trifluridine/Tipiracil (Later Lines, All Biomarkers)",
+            "site": "Rectal cancer",
+            "setting": "Beyond second line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trifluridine and Tipiracil",
+                    "dose": "35 mg/m2 up to a maximum dose of 80 mg per dose (based on the trifluridine component)",
+                    "route": "PO",
+                    "schedule": "Twice daily, Days 1-5 and 8-12; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (beyond second line)",
+            "trial_data": {
+                "trial_name": "RECOURSE (Mayer et al. 2015)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "For disease that has progressed through all available regimens, trifluridine/tipiracil +/- bevacizumab is recommended, along with fruquintinib and regorafenib."
+        },
+        {
+            "regimen_name": "Fruquintinib (Later Lines, All Biomarkers)",
+            "site": "Rectal cancer",
+            "setting": "Beyond second line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fruquintinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily on Days 1-21; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (beyond second line)",
+            "trial_data": {
+                "trial_name": "FRESCO-2 (Dasari et al. 2023)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Selective VEGFR inhibitor for refractory mCRC."
+        },
+        {
+            "regimen_name": "Regorafenib (Later Lines, All Biomarkers)",
+            "site": "Rectal cancer",
+            "setting": "Beyond second line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Daily on Days 1-21; repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (beyond second line)",
+            "trial_data": {
+                "trial_name": "CORRECT (Grothey et al. 2013)",
+                "phase": "Phase III",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Multikinase inhibitor for previously treated mCRC."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.184366"
+}

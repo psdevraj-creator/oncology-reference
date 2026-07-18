@@ -1,0 +1,236 @@
+:root {
+  --clinical-primary: #1a5276;
+  --clinical-secondary: #2c7ba0;
+  --clinical-accent: #e67e22;
+  --clinical-danger: #c0392b;
+  --clinical-success: #27ae60;
+  --clinical-warning: #f39c12;
+  --clinical-light: #ecf0f1;
+  --clinical-dark: #2c3e50;
+  --clinical-gray: #7f8c8d;
+  --sidebar-width: 240px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.app-navbar {
+  border-bottom: 3px solid var(--clinical-accent);
+}
+
+.navbar-brand-text {
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: -0.3px;
+}
+
+.app-content {
+  min-height: calc(100vh - 180px);
+}
+
+.app-footer {
+  padding: 1rem 0;
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+}
+
+.sidebar-col {
+  border-right: 1px solid #dee2e6;
+  min-height: calc(100vh - 200px);
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.sidebar-nav .sidebar-link {
+  color: var(--clinical-dark);
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  transition: all 0.15s ease;
+}
+
+.sidebar-nav .sidebar-link:hover {
+  background-color: #e8f4f8;
+  text-decoration: none;
+}
+
+.sidebar-nav .sidebar-link.active {
+  background-color: var(--clinical-primary);
+  color: #fff;
+}
+
+.disease-card {
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.disease-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+}
+
+.search-bar .form-control {
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+}
+
+.search-bar .input-group-text {
+  border-radius: 8px 0 0 8px;
+  background: #fff;
+}
+
+.filter-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--clinical-gray);
+  margin-bottom: 4px;
+}
+
+.filter-bar {
+  border-radius: 8px;
+}
+
+.filter-dropdown .Select-control {
+  border-radius: 6px;
+}
+
+.section-heading {
+  color: var(--clinical-primary);
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 6px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.subsection-heading {
+  color: var(--clinical-secondary);
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.staging-table th {
+  background-color: #f1f3f5;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.staging-table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.callout-warning {
+  border-left: 4px solid var(--clinical-warning);
+  border-radius: 4px;
+}
+
+.callout-pearl {
+  border-left: 4px solid var(--clinical-primary);
+  border-radius: 4px;
+}
+
+.callout-success {
+  border-left: 4px solid var(--clinical-success);
+  border-radius: 4px;
+}
+
+.callout-danger {
+  border-left: 4px solid var(--clinical-danger);
+  border-radius: 4px;
+}
+
+.regimen-detail-panel {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.breadcrumb-nav {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb-text {
+  font-size: 0.9rem;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner {
+  font-size: 0.85rem;
+}
+
+.dash-table-container .row {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar-col {
+    display: none;
+  }
+
+  .content-col {
+    padding-left: 0 !important;
+  }
+
+  .disease-card {
+    margin-bottom: 0.5rem;
+  }
+
+  .app-navbar .navbar-brand-text {
+    font-size: 1rem;
+  }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.section-text p {
+  margin-bottom: 0.75rem;
+}
+
+.section-text ul, .section-text ol {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}

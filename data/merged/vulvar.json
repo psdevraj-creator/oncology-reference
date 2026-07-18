@@ -1,0 +1,902 @@
+{
+    "site_id": "vulvar",
+    "site_display_name": "Vulvar Cancer",
+    "archetype": "D",
+    "regimen_count": 28,
+    "regimens": [
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated from cervical cancer regimens)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (specific schedule extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Regimens extrapolated from cervical cancer treatment paradigms."
+            },
+            "notes": "Preferred radiosensitizing agent for concurrent chemoradiation in locally advanced vulvar SCC. Used with EBRT. See Principles of Radiation Therapy (VULVA-D) for dosing details. [1, 7]"
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin intolerant)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated from cervical cancer regimens)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (specific schedule extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (alternative)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included based on extrapolation from cervical cancer data suggesting noninferiority to cisplatin."
+            },
+            "notes": "Preferred alternative radiosensitizing agent for concurrent chemoradiation in locally advanced vulvar SCC for patients intolerant to cisplatin. [1, 155, 156]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NRG Oncology/GOG 279",
+                "phase": "Phase II",
+                "n_patients": "52 evaluable patients",
+                "notes": "Out of 52 evaluable patients, 38 (73%; 90% CI, 61%–83%) achieved complete pathologic response (CPR). Median follow-up was 51 months. 12-month PFS was 74% (90% CI, 62.2%–82.7%) and 24-month OS was 70% (90% CI, 57%–79%)."
+            },
+            "notes": "Listed as an 'Other Recommended' regimen. This regimen was added based on the GOG 279 study showing it improved complete pathologic response in patients with locally advanced vulvar cancer not amenable to surgical resection. [2, 157]"
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "During EBRT"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "During EBRT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from multiple studies)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "A historically common combination for radiosensitization in vulvar cancer studies (e.g., GOG 101, GOG 205)."
+            },
+            "notes": "Listed as an 'Other Recommended' regimen. Historically used in multiple GOG studies for concurrent chemoradiation in locally advanced disease. [1, 99, 102, 104, 105]"
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "PO",
+                    "schedule": "Daily during EBRT (extrapolated)"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Extrapolated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Lorvidhaya et al. 2003)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. For information regarding DPYD testing, see NCCN Guidelines for Colon Cancer. [3, 117]"
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "Phase II (extrapolated)",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Pattaranutaporn et al. 2001)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. [4, 119]"
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Locally Advanced Disease (Unresectable)",
+            "setting": "Concurrent with EBRT for Chemoradiation (if Cisplatin/Carboplatin unavailable)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Weekly during EBRT (extrapolated)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended (Useful in Certain Circumstances)",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Based on extrapolation from studies in cervical cancer (e.g., Cerrotta et al. 2002)."
+            },
+            "notes": "Included as an option if cisplatin or carboplatin are unavailable. Extrapolated from cervical cancer studies. [5, 6, 118]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (optional, with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen and preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from KEYNOTE-826 in cervical cancer. Checkpoint inhibitor (Pembrolizumab) and/or monoclonal antibody (Bevacizumab) in this regimen may be continued as maintenance therapy per original study protocols. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [f, g, 153, 154, 158]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (optional, with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen and preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from KEYNOTE-826 in cervical cancer. Checkpoint inhibitor (Pembrolizumab) and/or monoclonal antibody (Bevacizumab) in this regimen may be continued as maintenance therapy per original study protocols. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [f, g, 153, 154, 158]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240 (extrapolated from cervical cancer)",
+                "phase": "Phase III",
+                "n_patients": "N/A for vulvar cancer; study enrolled cervical cancer patients.",
+                "notes": "Regimen preference extrapolated from Phase III trial results in advanced/recurrent/metastatic cervical cancer."
+            },
+            "notes": "Preferred first-line regimen. Extrapolated from GOG 240 in cervical cancer. Bevacizumab in this regimen may be continued as maintenance therapy per original study protocols. [f, 153]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A (with maintenance)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a platinum-doublet alternative to cisplatin-based regimen, with Bevacizumab extrapolated from cervical cancer data."
+            },
+            "notes": "Preferred first-line regimen. Bevacizumab in this regimen may be continued as maintenance therapy per original study protocols. [f]"
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a preferred doublet regimen."
+            },
+            "notes": "Preferred first-line chemotherapy doublet. [153, 154]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a preferred doublet regimen."
+            },
+            "notes": "Preferred first-line chemotherapy doublet. [153, 154, 155]"
+        },
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Single-agent platinum listed as an alternative."
+            },
+            "notes": "Other Recommended first-line single-agent option. [1, 152]"
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "First-Line Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Single-agent platinum listed as an alternative."
+            },
+            "notes": "Other Recommended first-line single-agent option. [1, 120, 155]"
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "EORTC-GCG Phase II study",
+                "phase": "Phase II",
+                "n_patients": "31",
+                "notes": "Response rate of 14% and progression-free survival (PFS) of 2.6 months in 31 patients with advanced, recurrent/metastatic vulvar cancer."
+            },
+            "notes": "Other Recommended second-line or subsequent monotherapy. [121]"
+        },
+        {
+            "regimen_name": "Cemiplimab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab",
+                    "dose": "N/A (extrapolated from cutaneous SCC and cervical cancer)",
+                    "route": "IV",
+                    "schedule": "Extrapolated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Empower-Cervical-1 (extrapolated from cervical cancer)",
+                "phase": "Phase III (extrapolated)",
+                "n_patients": "608 (cervical cancer)",
+                "notes": "In the Empower-Cervical-1 trial, median OS was 12 months vs 8.5 months (HR, 0.69; 95% CI, 0.56–0.84; P<.001) and median PFS was 2.8 vs 2.9 months (HR, 0.75; 95% CI, 0.63–0.89; P<.001) for cemiplimab vs chemotherapy. ORR was 16% vs 6.3%."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy. Extrapolated from efficacy in advanced cutaneous SCC (Phase 2, N=59, ORR 47%) and cervical cancer (Empower-Cervical-1). [7, 8, 161, 162]"
+        },
+        {
+            "regimen_name": "Erlotinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erlotinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial (Horowitz et al.)",
+                "phase": "Phase II",
+                "n_patients": "N/A for vulvar SCC cohort (enrolled metastatic disease)",
+                "notes": "Partial responses and stable disease noted in 27.5% and 40% of enrolled patients, respectively. Short-duration responses observed."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy (Category 2B). [9, 122]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A (extrapolated from cervical cancer)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "N/A (extrapolated from cervical cancer data)",
+                "phase": "N/A",
+                "n_patients": "N/A",
+                "notes": "Included as a second-line option based on activity in cervical cancer; findings from case reports have been mixed."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy (Category 2B). Extrapolated from cervical cancer data. [115, 159, 160]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "N/A (extrapolated)",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358 (cervical cancer) & CheckMate 848 (TMB-H)",
+                "phase": "Phase 1-2 (CheckMate 358), Phase 2 (CheckMate 848)",
+                "n_patients": "N/A for vulvar cancer; trials enrolled cervical cancer and TMB-H solid tumor patients.",
+                "notes": "Recommendation extrapolated from CheckMate 358 trial in cervical cancer and CheckMate 848 trial in metastatic/unresectable solid tumors with TMB-H."
+            },
+            "notes": "Other Recommended second-line or subsequent therapy. [10, 11, 163, 164]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (for TMB-H tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tumor Mutational Burden (TMB)",
+                    "requirement": "TMB-High (TMB-H) [≥10 mutations/megabase (mut/Mb)]",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "71 enrolled in vulvar SCC cohort; 12 had TMB-H tumors",
+                "notes": "For the 12 patients with TMB-H tumors in KEYNOTE-158, ORR was approximately 17%. For the entire TMB-H cohort (all tumor types), ORR was 34.3%."
+            },
+            "notes": "For the treatment of patients with unresectable or metastatic TMB-H [≥10 mut/Mb] tumors that have progressed following prior treatment and who have no satisfactory alternative treatment options. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [h, 12, 174]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (for PD-L1-positive tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Programmed Death-Ligand 1 (PD-L1)",
+                    "requirement": "PD-L1-positive (combined positive score [CPS] ≥1)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "101 enrolled in vulvar SCC cohort",
+                "notes": "Overall response rate (ORR) was 10.9% overall, 9.5% in the PD-L1–positive population, and 28.6% among the PD-L1–negative population. Median PFS and OS were 2.1 and 6.2 months, respectively."
+            },
+            "notes": "Recommended for disease progression on or after chemotherapy in patients whose tumors express PD-L1 (CPS ≥1). Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [i, 13, 172, 173]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (for MSI-H/dMMR tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Microsatellite Instability-High (MSI-H) / Mismatch Repair Deficient (dMMR)",
+                    "requirement": "MSI-H or dMMR",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "233 patients with non-colorectal MSI-H/dMMR tumors (1 with vulvar cancer)",
+                "notes": "ORR for the entire cohort was 34.3%. Median PFS was 4.1 months and median OS was 23.5 months."
+            },
+            "notes": "For the treatment of patients with unresectable or metastatic MSI-H or dMMR tumors that have progressed following prior treatment and who have no satisfactory alternative treatment options. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [g, 13, 175]"
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "HER2-positive (IHC 3+ or 2+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "Phase II",
+                "n_patients": "40 patients with cervical cancer in the overall study of 267",
+                "notes": "In the overall study, ORR was 37.1% (n=99; 95% CI, 31.3–43.2), median PFS was 6.9 months (95% CI, 5.6–8.0), and median OS was 13.4 months (95% CI, 11.9–15.5). In patients with cervical cancer, confirmed ORR was 50%; for HER2 IHC3+ cohort, ORR was 75% and median OS was 13.6 months."
+            },
+            "notes": "For HER2-positive tumors (IHC 3+ or 2+). HER2 IHC testing (with reflex to HER2 fluorescence in situ hybridization [FISH] for equivocal IHC) is recommended for advanced or recurrent/metastatic disease. [14, 178]"
+        },
+        {
+            "regimen_name": "Nivolumab (for HPV-related tumors)",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HPV",
+                    "requirement": "HPV-related tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase I/II",
+                "n_patients": "5 patients with recurrent or metastatic vaginal or vulvar cancer (HPV-positive or unknown status)",
+                "notes": "12- and 18-month OS rates for the combined cohort were 40% and 20%, respectively; 6-month PFS was 40%."
+            },
+            "notes": "Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [j, 15, 179]"
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analysis of three clinical trials",
+                "phase": "Phase I, Phase I/2, Phase II",
+                "n_patients": "153 patients (long-term analysis)",
+                "notes": "ORR was 75% (95% CI, 61%–85%) in the primary analysis. In the long-term analysis (n=153), ORR was 79% (95% CI, 72–85). Median duration of response was 35.2 months (22.8–NE) and median PFS was 28.3 months."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 181, 183]"
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials",
+                "phase": "Phase 1-2",
+                "n_patients": "54 patients with advanced/metastatic NTRK gene fusion tumors (pooled analysis); 121 patients in long-term analysis",
+                "notes": "Primary analysis: ORR was 57.4%, median duration of response was 10.4 months, median PFS was 11.2 months. Long-term analysis (n=121): ORR was 61%, median duration of response was 20 months (95% CI, 10.1–19.9)."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 180]"
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Vulvar Squamous Cell Carcinoma (SCC) - Advanced or Recurrent/Metastatic Disease",
+            "setting": "Second-Line or Subsequent Therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "NTRK gene fusion-positive tumor",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "Phase 1/2",
+                "n_patients": "40 TRK TKI-naïve patients with advanced solid tumors harboring NTRK fusions",
+                "notes": "ORR was 58% (95% CI, 41%–73%). Median duration of response was not estimable (NE), and the 12-month duration of response rate was 86%."
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Patients may be NTRK-targeted therapy naive or have progressed on prior NTRK therapy. [16, 184]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.553260"
+}

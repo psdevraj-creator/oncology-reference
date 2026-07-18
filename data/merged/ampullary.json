@@ -1,0 +1,2544 @@
+{
+    "site_id": "ampullary",
+    "site_display_name": "Ampullary",
+    "archetype": "A",
+    "regimen_count": 74,
+    "regimens": [
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "125 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from pancreatic cancer data",
+                "phase": "N/A",
+                "n_patients": null
+            },
+            "notes": "Reasonable for patients with ECOG 0-2. For pancreatobiliary/mixed type ampullary adenocarcinoma. Neoadjuvant regimens vary with regard to use of chemotherapy and/or radiation. Participation in a clinical trial is encouraged [2, 105-110]."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "125 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from pancreatic cancer data",
+                "phase": "N/A",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [2, 105-110]."
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on clinical experience",
+                "phase": "N/A",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. Added by the Panel based on clinical experience. There are no prospective randomized phase III data supporting these recommendations [2, 105-110]."
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on clinical experience",
+                "phase": "N/A",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [2, 105-110]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from biliary tract cancer data",
+                "phase": "II",
+                "n_patients": "410"
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. Based on data from a phase II randomized trial in advanced biliary tract cancer. Median OS and PFS were significantly longer in the combination group versus gemcitabine alone (OS, 11.7 vs. 8.1 months; P < .001 and PFS, 8.0 vs. 5.0 months; P < .001) [9, 129]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from biliary tract cancer data",
+                "phase": "II",
+                "n_patients": "410"
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [9, 129]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "342"
+            },
+            "notes": "Should be limited to those with ECOG 0-1. For both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. Due to the high toxicity of this regimen, bolus fluorouracil is often omitted [2, 18, 143]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "342"
+            },
+            "notes": "Should be limited to those with ECOG 0-1. For both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [2, 18, 143]."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "Should be limited to those with ECOG 0-1. For both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. Due to the high toxicity of this regimen, bolus fluorouracil is often omitted [2, 19, 144]."
+        },
+        {
+            "regimen_name": "CAPEOX (Capecitabine/Oxaliplatin)",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on data from a phase II trial in small bowel and ampullary cancers",
+                "phase": "II",
+                "n_patients": "31"
+            },
+            "notes": "For intestinal type ampullary adenocarcinoma. The overall response rate was 50%, and the median OS was 20.4 months [11, 132]."
+        },
+        {
+            "regimen_name": "CAPEOX with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on data from a phase II trial in small bowel and ampullary cancers",
+                "phase": "II",
+                "n_patients": "31"
+            },
+            "notes": "For intestinal type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [11, 132]."
+        },
+        {
+            "regimen_name": "FOLFOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from colon cancer data",
+                "phase": "III",
+                "n_patients": "1123"
+            },
+            "notes": "For intestinal type ampullary adenocarcinoma. Derived from trials testing these agents in colon cancer [3, 133]."
+        },
+        {
+            "regimen_name": "FOLFOX with subsequent chemoradiation",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from colon cancer data",
+                "phase": "III",
+                "n_patients": "1123"
+            },
+            "notes": "For intestinal type ampullary adenocarcinoma. If considering chemoradiation due to positive margins, chemotherapy should be given prior to the administration of chemoradiation [3, 133]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ESPAC-3",
+                "phase": "III",
+                "n_patients": "297"
+            },
+            "notes": "Category 1 evidence for both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. In the ESPAC-3 trial, median survival for 5-FU/leucovorin was 23.0 months and for gemcitabine was 23.6 months (P not significant) [5]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ESPAC-3",
+                "phase": "III",
+                "n_patients": "297"
+            },
+            "notes": "Category 1 evidence for pancreatobiliary/mixed type ampullary adenocarcinoma. In the ESPAC-3 trial, median survival for gemcitabine was 23.6 months and for 5-FU/leucovorin was 23.0 months (P not significant) [5, 6]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from BILCAP and colon cancer data",
+                "phase": "III",
+                "n_patients": "447"
+            },
+            "notes": "For both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. Based on extrapolation of data from BILCAP in biliary tract cancer and from colon cancer [7, 135, 136]."
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1657 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from ESPAC-4",
+                "phase": "III",
+                "n_patients": "730"
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. Based on extrapolation of data from ESPAC-4 in pancreatic cancer. Median OS was 28 months in the combination arm vs 25.5 months in the gemcitabine arm (P = .032) [8, 128]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from biliary tract cancer data",
+                "phase": "II",
+                "n_patients": "410"
+            },
+            "notes": "For pancreatobiliary/mixed type ampullary adenocarcinoma. Based on extrapolation of data from a phase II randomized trial in advanced biliary tract cancer. Median OS and PFS were significantly longer in the combination group versus gemcitabine alone (OS, 11.7 vs. 8.1 months; P < .001 and PFS, 8.0 vs. 5.0 months; P < .001) [9, 129]."
+        },
+        {
+            "regimen_name": "FOLFOX or CAPEOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from colon cancer and phase II data",
+                "phase": "III",
+                "n_patients": "1123"
+            },
+            "notes": "For both pancreatobiliary/mixed and intestinal type ampullary adenocarcinoma. FOLFOX and CAPEOX are reasonable alternatives. Derived from trials in colon cancer [10, 11, 133, 134]."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on extrapolation from PRODIGE 24/CCTG PA.6",
+                "phase": "III",
+                "n_patients": "493"
+            },
+            "notes": "Should be limited to those with ECOG 0-1. For pancreatobiliary/mixed type ampullary adenocarcinoma. Based on extrapolation of data from the PRODIGE 24/CCTG PA.6 randomized trial in resected pancreatic cancer. Median PFS and median OS were significantly longer in the mFOLFIRINOX group compared to the gemcitabine group (21.6 vs. 12.8 months; P < .001; and 54.4 vs. 35.0 months; P = .003, respectively) [12, 137]."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "125 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "861"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). Increased survival in pancreatic cancer with nab-paclitaxel plus gemcitabine [15, 140]."
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "533"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). Phase III randomized comparison of gemcitabine versus gemcitabine plus capecitabine in patients with advanced pancreatic cancer [16, 141]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on biliary tract cancer data",
+                "phase": "II",
+                "n_patients": "410"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). Cisplatin plus gemcitabine versus gemcitabine for biliary tract cancer. Median OS and PFS were significantly longer in the combination group versus the monotherapy group: OS, 11.7 vs. 8.1 months; P < .001 and PFS, 8.0 vs. 5.0 months; P < .001, respectively [9, 129]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + Durvalumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on biliary tract cancer data",
+                "phase": "III",
+                "n_patients": "685"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Durvalumab plus Gemcitabine and Cisplatin in Advanced Biliary Tract Cancer [17, 142]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "342"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). Due to the high toxicity of this regimen, bolus fluorouracil is often omitted [18, 143]."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). Due to the high toxicity of this regimen, bolus fluorouracil is often omitted [19, 144]."
+        },
+        {
+            "regimen_name": "FOLFOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on clinical experience",
+                "phase": "N/A",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Added by the Panel based on clinical experience."
+        },
+        {
+            "regimen_name": "NALIRIFOX (Liposomal Irinotecan/Fluorouracil/Leucovorin/Oxaliplatin)",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Liposomal Irinotecan",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "NAPOLI 3",
+                "phase": "III",
+                "n_patients": "770"
+            },
+            "notes": "For pancreatobiliary/mixed type, good PS (ECOG 0-1). While NCCN recognizes that there is high-level evidence supporting the use of NALIRIFOX over gemcitabine and albumin-bound paclitaxel, it should be recognized that this regimen does not appear to have an advantage over FOLFIRINOX [20, 145]."
+        },
+        {
+            "regimen_name": "CAPEOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": "1371"
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Bevacizumab in combination with oxaliplatin-based chemotherapy as first-line therapy in metastatic colorectal cancer [11, 145]."
+        },
+        {
+            "regimen_name": "CAPEOX + Bevacizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": "1401"
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Bevacizumab in combination with oxaliplatin-based chemotherapy as first-line therapy in metastatic colorectal cancer [21, 22, 145]."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Randomized, controlled trial of irinotecan plus infusional, bolus, or oral fluoropyrimidines in first-line treatment of metastatic colorectal cancer [23, 146]."
+        },
+        {
+            "regimen_name": "FOLFIRI + Bevacizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Based on extrapolation from colon cancer data [23, 146]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX + Bevacizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": "508"
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1). Based on extrapolation from colon cancer data [24, 147]."
+        },
+        {
+            "regimen_name": "FOLFOX + Bevacizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": "1401"
+            },
+            "notes": "For intestinal type, good PS (ECOG 0-1) and intermediate PS (ECOG 2). Bevacizumab in combination with oxaliplatin-based chemotherapy as first-line therapy in metastatic colorectal cancer [22, 26, 148]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic (Poor PS)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For both pancreatobiliary/mixed and intestinal type, poor PS (ECOG 3). Capecitabine in patients with advanced or metastatic pancreatic cancer [38, 149]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic (Poor PS)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For both pancreatobiliary/mixed and intestinal type, poor PS (ECOG 3). Oral capecitabine compared with intravenous fluorouracil plus leucovorin in patients with metastatic colorectal cancer [27, 149]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic (Poor PS)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For pancreatobiliary/mixed type, poor PS (ECOG 3). Based on extrapolation from pancreatic cancer data [5, 6]."
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Any (NTRK gene fusion-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg PO QD",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials",
+                "phase": "I-II",
+                "n_patients": "54"
+            },
+            "notes": "Useful in certain circumstances for any performance status. Integrated analysis of three phase 1-2 trials. The objective response rate was 57%, and the median PFS and median OS were 11 months and 21 months, respectively [29, 30, 155]."
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Any (NTRK gene fusion-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg PO BID",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Basket trial",
+                "phase": "I-II",
+                "n_patients": "55"
+            },
+            "notes": "Useful in certain circumstances for any performance status. The overall response rate was 75%, and neither the median duration of response nor the median PFS was reached after a median follow-up of 9.9 months [31, 154]."
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Any (NTRK gene fusion-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg PO QD",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "I/2",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances for any performance status. FDA issued accelerated approval for repotrectinib for adult and pediatric patients ≥12 years with solid tumors that have NTRK gene fusions [32, 156]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic (MSI-H or dMMR, intestinal type only)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 6 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 142",
+                "phase": "II",
+                "n_patients": "119"
+            },
+            "notes": "Useful in certain circumstances for good/intermediate PS. Only for intestinal type ampullary adenocarcinoma. In the phase II CheckMate 142 study, the objective response rate was 69%, while 2-year PFS and 2-year OS were 74% and 79%, respectively [33, 153]."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "First-line Metastatic (MSI-H, dMMR, or TMB-H)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": false
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233"
+            },
+            "notes": "Useful in certain circumstances for any performance status. The objective response rate was 34.3%, median PFS was 4.1 months, and median OS was 23.5 months. No patient with ampullary cancer was enrolled in this trial [34, 35, 151]."
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Any (RET gene fusion-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "160 mg PO BID",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "11"
+            },
+            "notes": "Useful in certain circumstances for any performance status. Tumour-agnostic efficacy and safety of selpercatinib in patients with RET fusion-positive solid tumours other than lung or thyroid tumours [54, 157]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Any (BRAF V600E mutation-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg PO BID",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg PO QD",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH Subprotocol H and ROAR",
+                "phase": "II",
+                "n_patients": "43"
+            },
+            "notes": "Useful in certain circumstances for any performance status. In NCI-MATCH Subprotocol H, the response rate was 37.9% (n = 29), with a median duration of response of 25.1 months. In ROAR, in 43 patients with BRAF V600E-mutated biliary tract cancer, the response rate was 47% [36, 37, 158, 159]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. Based on extrapolation from pancreatic cancer data [40, 160]."
+        },
+        {
+            "regimen_name": "CAPEOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 trial in advanced pancreatic cancer",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. Phase 2 trial of oxaliplatin plus capecitabine (XELOX) as second-line therapy for patients with advanced pancreatic cancer [41, 161]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "PANCREOX",
+                "phase": "III",
+                "n_patients": "117"
+            },
+            "notes": "For good/intermediate PS. PANCREOX: A randomized phase III study of fluorouracil/leucovorin with or without oxaliplatin for second-line advanced pancreatic cancer in patients who have received gemcitabine-based chemotherapy [42, 163]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin/Liposomal Irinotecan",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Irinotecan",
+                    "dose": "70 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "NAPOLI-1",
+                "phase": "3",
+                "n_patients": "417"
+            },
+            "notes": "For good/intermediate PS. Nanoliposomal irinotecan with fluorouracil and folinic acid in metastatic pancreatic cancer after previous gemcitabine-based therapy [43, 162]."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multiple phase II studies",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. FOLFIRI regimen in metastatic pancreatic adenocarcinoma resistant to gemcitabine and platinum-salts [44, 45, 46, 166, 167, 168]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. Second-line therapy after nab-paclitaxel plus gemcitabine or after gemcitabine for patients with metastatic pancreatic cancer [47, 170]."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. Based on extrapolation from pancreatic cancer data [19, 144]."
+        },
+        {
+            "regimen_name": "FOLFOX",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on biliary tract cancer data",
+                "phase": "III",
+                "n_patients": "162"
+            },
+            "notes": "For good/intermediate PS. Second-line FOLFOX chemotherapy versus active symptom control for advanced biliary tract cancer (ABC-06) [48, 175]."
+        },
+        {
+            "regimen_name": "OFF (Oxaliplatin/Fluorouracil/Leucovorin)",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Gemcitabine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2000 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 24 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CONKO",
+                "phase": "III",
+                "n_patients": "166"
+            },
+            "notes": "For good/intermediate PS. Best supportive care (BSC) versus oxaliplatin, folinic acid and 5-fluorouracil (OFF) plus BSC in patients for second-line advanced pancreatic cancer [49, 176]."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Fluoropyrimidine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "125 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "861"
+            },
+            "notes": "For good/intermediate PS. Based on extrapolation from pancreatic cancer data [15, 140]."
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Fluoropyrimidine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": "533"
+            },
+            "notes": "For good/intermediate PS. Phase III randomized comparison of gemcitabine versus gemcitabine plus capecitabine in patients with advanced pancreatic cancer [16, 141]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Fluoropyrimidine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. Based on extrapolation from pancreatic cancer data [5, 6]."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Fluoropyrimidine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multiple phase II studies",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For good/intermediate PS. If no prior Irinotecan [44, 45, 46, 166, 167, 168]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin/Liposomal Irinotecan",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Prior Fluoropyrimidine-based therapy, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Irinotecan",
+                    "dose": "70 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "NAPOLI-1",
+                "phase": "3",
+                "n_patients": "417"
+            },
+            "notes": "For good/intermediate PS. If no prior Irinotecan [43, 162]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Known BRCA1/2 mutations, any PS)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1/2 mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial in pancreatic cancer",
+                "phase": "II",
+                "n_patients": "50"
+            },
+            "notes": "Only for known BRCA1/2 mutations. Randomized, multicenter, phase II trial of gemcitabine and cisplatin with or without veliparib in patients with pancreas adenocarcinoma and a germline BRCA/PALB2 mutation [9, 177]."
+        },
+        {
+            "regimen_name": "Adagrasib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (KRAS G12C mutation-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg PO BID",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KRYSTAL-1",
+                "phase": "I/IB",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances for any performance status. First-in-Human Phase I/IB Dose-Finding Study of Adagrasib (MRTX849) in Patients With Advanced KRAS G12C Solid Tumors [50, 150]."
+        },
+        {
+            "regimen_name": "Sotorasib",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (KRAS G12C mutation-positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg PO QD",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CodeBreaK 100",
+                "phase": "I/II",
+                "n_patients": "129"
+            },
+            "notes": "Useful in certain circumstances for any performance status. KRAS G12C Inhibition with Sotorasib in Advanced Solid Tumors [51, 151]."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (HER2 positive)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 positive (IHC3+ or IHC2+ with FISH HER2 amplified)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "II",
+                "n_patients": "267"
+            },
+            "notes": "Useful in certain circumstances for good PS only. The DESTINY-PanTumor02 trial included a total of 25 patients (all with good PS) with advanced or metastatic pancreatic cancer, with <20% of patients having tumors that expressed IHC 3+ HER2 [53, 179]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (MSI-H or dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks for 6 cycles, then 1000 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "I",
+                "n_patients": "209"
+            },
+            "notes": "Useful in certain circumstances for any performance status. For patients with recurrent or advanced tumors that have progressed on or following prior treatment and who have no satisfactory alternative treatment options. Patients who had received prior immune checkpoint inhibitor therapy were excluded from the dostarlimab-gxly clinical trial [55, 178]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (MSI-H or dMMR)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "day 1 every 6 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 142",
+                "phase": "II",
+                "n_patients": "119"
+            },
+            "notes": "Useful in certain circumstances for any performance status. If no prior immunotherapy. In the previously treated cohort (n = 119), the objective response rate was 55% and the 1-year PFS and 1-year OS were 71% and 85%, respectively [33, 153]."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (MSI-H or dMMR, intestinal type only, poor PS)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 142",
+                "phase": "II",
+                "n_patients": "119"
+            },
+            "notes": "Useful in certain circumstances for poor PS. Only for intestinal type ampullary adenocarcinoma. If no prior immunotherapy [39, 153]."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (MSI-H, dMMR, or TMB-H)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": false
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Positive",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233"
+            },
+            "notes": "Useful in certain circumstances for any performance status. If no prior immunotherapy [34, 35, 151]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Poor PS, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "For poor PS (ECOG 3). Category 2B. Based on extrapolation from pancreatic cancer data [40, 160]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Poor PS, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For poor PS (ECOG 3). Category 2B. Based on extrapolation from colon cancer data [27, 149]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Poor PS, Pancreatobiliary/Mixed type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For poor PS (ECOG 3). Based on extrapolation from pancreatic cancer data [5, 6]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Poor PS, Intestinal type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "days 1-14 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For poor PS (ECOG 3). Based on extrapolation from colon cancer data [27, 149]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Second-line (Poor PS, Intestinal type)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2400 mg/m2 IV",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46 hours every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on colon cancer data",
+                "phase": "III",
+                "n_patients": null
+            },
+            "notes": "For poor PS (ECOG 3). Based on extrapolation from colon cancer data [27, 149]."
+        },
+        {
+            "regimen_name": "Capecitabine with concurrent RT",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Chemoradiation (All histologic types)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2 PO BID",
+                    "route": "PO",
+                    "schedule": "daily during RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "Preferred for pancreatobiliary, mixed, and intestinal types. Based on data from SCALOP trial [60, 61]."
+        },
+        {
+            "regimen_name": "Fluorouracil with concurrent RT",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Chemoradiation (All histologic types)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion daily during RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "Preferred for pancreatobiliary, mixed, and intestinal types. Based on data from multiple retrospective studies [62, 63]."
+        },
+        {
+            "regimen_name": "Gemcitabine with concurrent RT",
+            "site": "Ampullary Adenocarcinoma",
+            "setting": "Chemoradiation (Pancreatobiliary type only)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "300 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "weekly during RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Based on pancreatic cancer data",
+                "phase": "II",
+                "n_patients": null
+            },
+            "notes": "Other Recommended for pancreatobiliary type only. Based on data from SCALOP trial [60, 61]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.085541"
+}

@@ -1,0 +1,1826 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Tebentafusp-tebn",
+            "site": "Metastatic uveal melanoma, HLA-A*02:01-positive",
+            "setting": "First-line (previously untreated)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tebentafusp-tebn",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HLA-A*02:01",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase III randomized trial",
+                "phase": "III",
+                "n_patients": "378",
+                "os": "1-year OS 73% vs 59% (control)",
+                "pfs": "6-month PFS 31% vs 19%",
+                "hr": null,
+                "ci": null,
+                "orr": "9% vs 5%"
+            },
+            "notes": "Tebentafusp-tebn is a bispecific gp100-HLA-A*02:01-directed T-cell receptor and CD3 T-cell engager. Treatment resulted in longer overall survival compared to investigator's choice of pembrolizumab, ipilimumab, or dacarbazine. Response rates are low, so symptomatic patients may be better palliated by liver-directed treatment first or may respond better to ipilimumab/nivolumab. [526, 537]",
+            "source_citation": {
+                "reference_numbers": [
+                    "526",
+                    "537"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line and previously treated",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase II trials (Pelster et al, GEM-1402)",
+                "phase": "II",
+                "n_patients": "35, 52",
+                "os": "median OS 19.1 months (Pelster), 12.7 months (GEM-1402)",
+                "pfs": "median PFS 5.5 months (Pelster), 3.0 months (GEM-1402)",
+                "hr": null,
+                "ci": null,
+                "orr": "18% (Pelster), 32% (GEM-1402)"
+            },
+            "notes": "Nivolumab/ipilimumab has shown modest improvement in OS over historical benchmarks of chemotherapy. The dose used is nivolumab 1 mg/kg and ipilimumab 3 mg/kg. It is unknown whether other dosing regimens are equally effective. [534, 535]",
+            "source_citation": {
+                "reference_numbers": [
+                    "534",
+                    "535"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line or later lines",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles, then every 12 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Phase II studies (Piulats et al, Zimmer et al)",
+                "phase": "II",
+                "n_patients": "32, 47",
+                "os": "median OS 9.8 months (Piulats), 6.8 months (Zimmer)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "6.5% (Piulats), 0% (Zimmer)"
+            },
+            "notes": "Ipilimumab monotherapy has shown limited clinical activity in metastatic uveal melanoma. Response rates are low. [527, 528]",
+            "source_citation": {
+                "reference_numbers": [
+                    "527",
+                    "528"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line or later lines",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Prospective studies",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": "median PFS 2.3 to 11 months",
+                "hr": null,
+                "ci": null,
+                "orr": "6% to 38%"
+            },
+            "notes": "Pembrolizumab is an anti-PD-1 antibody. It has shown low response rates in uveal melanoma. [530, 531]",
+            "source_citation": {
+                "reference_numbers": [
+                    "530",
+                    "531"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "After progression on ipilimumab",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 172",
+                "phase": "II",
+                "n_patients": "734 (all melanoma, uveal subset not specified)",
+                "os": "1-year OS 63%",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "32% at week 12"
+            },
+            "notes": "Nivolumab monotherapy is an option for patients with disease progression on ipilimumab. [532, 533]",
+            "source_citation": {
+                "reference_numbers": [
+                    "532",
+                    "533"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dacarbazine",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II/III trials",
+                "phase": "II/III",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Dacarbazine is a cytotoxic chemotherapy with low response rates in uveal melanoma. [522, 524]",
+            "source_citation": {
+                "reference_numbers": [
+                    "522",
+                    "524"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Temozolomide",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Temozolomide is an oral alkylating agent with low response rates. [547]",
+            "source_citation": {
+                "reference_numbers": [
+                    "547"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Paclitaxel is a taxane chemotherapy with low response rates. [539]",
+            "source_citation": {
+                "reference_numbers": [
+                    "539"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Albumin-bound paclitaxel is a nanoparticle formulation of paclitaxel. [540]",
+            "source_citation": {
+                "reference_numbers": [
+                    "540"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial",
+                "phase": "III",
+                "n_patients": "823",
+                "os": "median OS 11.3 months",
+                "pfs": "median PFS 4.2 months",
+                "hr": null,
+                "ci": null,
+                "orr": "18%"
+            },
+            "notes": "Carboplatin/paclitaxel is a combination chemotherapy regimen. [548]",
+            "source_citation": {
+                "reference_numbers": [
+                    "548"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Trametinib",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "18",
+                "os": null,
+                "pfs": "median PFS 3.6 months",
+                "hr": null,
+                "ci": null,
+                "orr": "5.6%"
+            },
+            "notes": "Trametinib is a MEK inhibitor. It is included based on positive data for selumetinib and the general lack of systemic therapy options. [555, 563]",
+            "source_citation": {
+                "reference_numbers": [
+                    "555",
+                    "563"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Melphalan percutaneous hepatic perfusion",
+            "site": "Metastatic uveal melanoma, hepatic-dominant",
+            "setting": "For liver-dominant metastatic disease",
+            "treatment_modality": [
+                "locoregional therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Melphalan",
+                    "dose": null,
+                    "route": "hepatic intra-arterial",
+                    "schedule": "procedure-based"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II and phase III trials",
+                "phase": "II/III",
+                "n_patients": "91, 123",
+                "os": "median OS 19.3 months vs 14.5 months (P=0.14)",
+                "pfs": "median PFS 9 vs 3.1 months",
+                "hr": null,
+                "ci": null,
+                "orr": "36.3% vs 12.5%"
+            },
+            "notes": "Melphalan percutaneous hepatic perfusion is a liver-directed therapy for patients with hepatic-dominant metastatic uveal melanoma with <50% liver involvement. It requires overnight stay in ICU for hemodynamic monitoring and should be performed only at experienced centers. [472, 473]",
+            "source_citation": {
+                "reference_numbers": [
+                    "472",
+                    "473"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Uveal melanoma is the most common primary intraocular malignancy in adults, arising from melanocytes within the uveal tract, which includes the choroid (~85% of cases), ciliary body, and iris. It is a distinct biological entity from cutaneous and conjunctival melanomas, with different patterns of presentation, prognosis, molecular signatures, and management [1, 20]. The tumors originate from melanocytes of neural crest origin that populate the uvea. Anatomically, the uveal tract forms the middle vascular layer of the eye. The choroid is the posterior part, the ciliary body is the middle part (containing the ciliary muscle), and the iris is the anterior part. This guideline specifically addresses melanomas of the choroid and ciliary body; iris melanomas are excluded due to their distinct characteristics and lower metastatic risk [1].",
+        "subtypes": [
+            {
+                "name": "Choroidal Melanoma",
+                "description": "Arises in the choroid, the most common site (~85% of uveal melanomas). Typically presents as a pigmented, dome-shaped or mushroom-shaped lesion after rupture of Bruch's membrane.",
+                "frequency": "~85% of uveal melanomas.",
+                "key_associations": [
+                    "Most frequent location",
+                    "Higher metastatic potential than iris melanoma"
+                ]
+            },
+            {
+                "name": "Ciliary Body Melanoma",
+                "description": "Arises in the ciliary body. Can be hidden behind the iris, leading to delayed diagnosis. May cause lens displacement, cataract, or elevated intraocular pressure. Often associated with dilated episcleral 'sentinel' vessels.",
+                "frequency": "Less common than choroidal, more common than iris.",
+                "key_associations": [
+                    "Higher risk factors for growth",
+                    "Included in the primary Uveal Melanoma NCCN guideline"
+                ]
+            },
+            {
+                "name": "Iris Melanoma",
+                "description": "Arises in the iris. Generally has a better prognosis and a lower rate of metastasis (~5% at 5 years). Has a different AJCC staging system and molecular signature.",
+                "frequency": "3%–5% of uveal melanomas.",
+                "key_associations": [
+                    "Excluded from this guideline",
+                    "Low metastatic risk",
+                    "Different treatment considerations due to anatomy"
+                ]
+            },
+            {
+                "name": "Spindle Cell Melanoma (G1)",
+                "description": "Histologic subtype composed of >90% spindle cells. Generally considered less aggressive.",
+                "frequency": "Not specified as a frequency, but part of the G1 grade.",
+                "key_associations": [
+                    "Histologic Grade G1",
+                    "Better prognosis compared to epithelioid dominant tumors"
+                ]
+            },
+            {
+                "name": "Mixed Cell Melanoma (G2)",
+                "description": "Histologic subtype with >10% epithelioid cells and <90% spindle cells.",
+                "frequency": "Not specified as a frequency, but part of the G2 grade.",
+                "key_associations": [
+                    "Histologic Grade G2"
+                ]
+            },
+            {
+                "name": "Epithelioid Cell Melanoma (G3)",
+                "description": "Histologic subtype composed of >90% epithelioid cells. Generally considered more aggressive.",
+                "frequency": "Not specified as a frequency, but part of the G3 grade.",
+                "key_associations": [
+                    "Histologic Grade G3",
+                    "Poorer prognosis"
+                ]
+            },
+            {
+                "name": "Class 1 Uveal Melanoma (Gene Expression Profile - GEP)",
+                "description": "A molecular subtype defined by a 15-gene expression profile (15-GEP). Class 1A or Class 1B with/without PRAME expression carries a lower to intermediate risk of metastasis.",
+                "frequency": "Not specified as a percentage.",
+                "key_associations": [
+                    "Low to medium metastatic risk",
+                    "PRAME expression can modify risk within this class [34, 394-396]"
+                ]
+            },
+            {
+                "name": "Class 2 Uveal Melanoma (Gene Expression Profile - GEP)",
+                "description": "A molecular subtype defined by a 15-gene expression profile (15-GEP). Associated with a 5-fold to 20-fold higher risk of metastasis compared to Class 1.",
+                "frequency": "Not specified as a percentage.",
+                "key_associations": [
+                    "High metastatic risk",
+                    "Often associated with monosomy 3 and BAP1 mutation [34, 397-399]"
+                ]
+            }
+        ],
+        "molecular_pathogenesis": "Uveal melanoma is characterized by distinct genomic events that drive tumorigenesis and inform prognosis. Over 80% of tumors harbor mutually exclusive activating mutations in the G-protein alpha subunits GNAQ or GNA11, which lead to constitutive activation of the RAS/RAF/MEK/ERK (MAPK) pathway [23, 47, 48]. Further genetic progression is defined by mutations in specific genes that correlate with metastatic risk. Loss of chromosome 3 (monosomy 3) and gain of chromosome 8q, especially with numerous copies, are strong indicators of high metastatic risk [13, 45, 401, 407-413]. Somatic mutations in the BAP1 tumor suppressor gene (observed in ~50% of uveal melanomas) are strongly associated with high-risk, metastasizing tumors, particularly in the context of Class 2 GEP and monosomy 3 [49, 50, 398, 417, 418]. In contrast, mutations in EIF1AX (found in up to 20% of tumors) are associated with lower risk of metastasis [25, 51, 52, 398, 420-424]. Mutations in SF3B1 (present in ~20% of tumors) are associated with a medium risk of metastasis, with some studies reporting they may lead to late metastases [25, 51, 420, 421, 424]. Other chromosomal abnormalities linked to risk include gain of chromosome 6p (low risk) and loss of 8p [13, 34, 398, 400, 401, 414-416]. PRAME expression is a risk modifier to the 15-GEP signal and may be associated with an increased risk of metastasis in both Class 1 and Class 2 tumors [34, 394-396]. Importantly, BRAF, NRAS, and KIT mutations are extremely rare in uveal melanoma, distinguishing it molecularly from cutaneous melanoma [23, 35, 36].",
+        "epidemiology": {
+            "incidence": "Uveal melanoma is the most common primary intraocular malignancy in adults, with an incidence of approximately 5 people per million annually in the United States [1, 2]. The distribution by subsite is ~85% choroidal, with the remainder in the iris or ciliary body [2]. The incidence differs from cutaneous melanoma and varies by race/ethnicity; it is more common in white populations compared to other racial groups.",
+            "mortality": "Most uveal melanomas are localized at first presentation, with <3% presenting with metastases [3]. The 5-year disease-specific survival (DSS) is 70% to 81% overall. For early-stage disease (stage I–II), 5-year DSS is ≥85% [4, 6, 7]. For those with distant metastatic disease, most studies report an estimated 5-year survival of <20%, which has not improved over recent decades [4, 6, 8-12].",
+            "trends": "The document does not provide specific temporal incidence or mortality trends data.",
+            "demographics": "The distribution of uveal melanoma by sex, race, and geography differs from cutaneous melanoma [1]. It is more common in white populations. Specific age-adjusted incidence or sex ratio data are not provided in the excerpted source text."
+        },
+        "risk_factors": [
+            {
+                "factor": "Choroidal Nevi",
+                "type": "Pre-malignant lesion",
+                "detail": "Choroidal nevi occur in 1.9% to 6.5% of the population and can transform into melanoma. One study reported 8% of diagnosed uveal melanomas arose from a previously documented nevus [55-59].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Ocular/Oculodermal Melanocytosis",
+                "type": "Congenital predisposition",
+                "detail": "This condition, causing hyperpigmentation of the episclera, uvea, and skin, has a much higher rate in patients with uveal melanoma than in the general population [83-88].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Familial Uveal Melanoma / Hereditary Syndromes",
+                "type": "Genetic",
+                "detail": "Familial cases occur and are associated with germline pathogenic variants in BAP1 (BAP1 Tumor Predisposition Syndrome), PALB2, POT1, or MBD4. BAP1 syndrome increases risk for uveal melanoma, mesothelioma, cutaneous melanoma, and renal cell carcinoma. Genetic counseling is recommended for patients with early-onset disease or personal/family history of associated cancers [1-9, 89-105, 106-111].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Light Skin Color, Propensity to Sunburn, Light Iris Color",
+                "type": "Host/Genetic",
+                "detail": "These phenotypic traits are associated with increased uveal melanoma risk [10, 112-115].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Strong Personal or Family History of Cancer",
+                "type": "Genetic / Syndromic",
+                "detail": "A strong personal or family history of cancer should trigger evaluation for hereditary syndromes like BAP1, BRCA1/BRCA2, or Lynch syndrome [b, 11, 121].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Occupational History of Welding",
+                "type": "Environmental/Occupational",
+                "detail": "An occupational history of welding has been associated with increased uveal melanoma risk, with a dose-response relationship with job duration [12, 116].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Specific Genetic Syndromes (BIRT-HOGG-DUBÉ, Myotonic Dystrophy, Immunocompromise)",
+                "type": "Genetic / Comorbidity",
+                "detail": "Patient characteristics that increase the likelihood of choroidal nevi growth or choroidal/ocular melanoma include Birt-Hogg-Dubé syndrome, myotonic dystrophy, and immunocompromise [76-82].",
+                "strength": "Associated"
+            }
+        ],
+        "clinical_features": {
+            "typical_presentation": "Uveal melanoma typically presents as a pigmented lesion in the choroid (approximately 85% of cases) or ciliary body. The most common symptom is blurred vision, but patients may also experience visual field defects, photopsia, floaters, metamorphopsia, eye irritation, pain, redness, or a sensation of pressure. Approximately 13% to 30% of patients are asymptomatic at diagnosis, discovered incidentally during routine eye examinations. Physical signs include a dome-shaped (75%) or mushroom-shaped (20%) pigmented mass, often with subretinal fluid (present in 75% of cases) and orange pigment (lipofuscin). Ciliary body melanomas may be hidden behind the iris, leading to delayed presentation until the tumor is large, causing lens tilting, cataract, elevated intraocular pressure, or dilated episcleral 'sentinel' vessels. Risk factors that increase suspicion include choroidal nevi, ocular/oculodermal melanocytosis, familial uveal melanoma (germline pathogenic variants in BAP1, PALB2, POT1, or MBD4), light skin and eye color, propensity to sunburn, occupational welding history, or strong personal/family history of cancer (e.g., BRCA1/2-associated cancers). The presence of cutaneous melanoma does not increase the risk of uveal melanoma.",
+            "symptoms": [
+                {
+                    "name": "Blurred vision",
+                    "detail": "Most common symptom; may be due to tumor location affecting the macula or retina.",
+                    "frequency": "Majority of symptomatic patients; reported in studies as the primary complaint.",
+                    "alarm": "New or progressive blurred vision warrants urgent ophthalmologic evaluation."
+                },
+                {
+                    "name": "Visual field defect/loss",
+                    "detail": "Can occur if the tumor involves the peripheral retina or optic nerve.",
+                    "frequency": "Common; reported in a significant proportion of symptomatic cases.",
+                    "alarm": "Sudden or progressive field loss requires immediate investigation."
+                },
+                {
+                    "name": "Photopsia",
+                    "detail": "Flashes of light, often due to retinal traction or irritation.",
+                    "frequency": "Frequently reported; associated with retinal involvement.",
+                    "alarm": "Persistent or increasing photopsia is a red flag for retinal pathology."
+                },
+                {
+                    "name": "Floaters",
+                    "detail": "May result from hemorrhage or inflammatory cells in the vitreous.",
+                    "frequency": "Common; can be an early sign of tumor growth or complications.",
+                    "alarm": "New floaters, especially with visual changes, necessitate evaluation."
+                },
+                {
+                    "name": "Metamorphopsia",
+                    "detail": "Distorted vision, often due to macular involvement or subretinal fluid.",
+                    "frequency": "Less common but significant; indicates central retinal impact.",
+                    "alarm": "Any distortion of vision is an urgent concern."
+                },
+                {
+                    "name": "Eye irritation, pain, or redness",
+                    "detail": "May be associated with ciliary body involvement or secondary glaucoma.",
+                    "frequency": "More common in ciliary body melanomas; can mimic inflammatory conditions.",
+                    "alarm": "Unexplained ocular pain or redness requires prompt assessment to rule out malignancy."
+                },
+                {
+                    "name": "Asymptomatic presentation",
+                    "detail": "Discovered incidentally during routine eye exams; tumors may be small and peripheral.",
+                    "frequency": "13% to 30% of cases at diagnosis.",
+                    "alarm": "Even asymptomatic pigmented lesions need careful monitoring for growth or high-risk features."
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Pigmented uveal mass",
+                    "detail": "Size and shape are critical for staging and treatment planning.",
+                    "frequency": "Universal in uveal melanoma; size varies with tumor stage."
+                },
+                {
+                    "name": "Subretinal fluid",
+                    "detail": "Supports diagnosis; rare in benign choroidal nevi.",
+                    "frequency": "Present in 75% of patients with uveal melanoma."
+                },
+                {
+                    "name": "Orange pigment (lipofuscin)",
+                    "detail": "Highly autofluorescent on imaging; associated with malignancy.",
+                    "frequency": "Common; predictive of growth in indeterminate lesions."
+                },
+                {
+                    "name": "Ciliary body involvement",
+                    "detail": "Worsens prognosis; documented for staging and treatment selection.",
+                    "frequency": "Variable; increases with tumor size and T stage."
+                },
+                {
+                    "name": "Extraocular extension",
+                    "detail": "Indicates advanced disease; requires MRI for assessment.",
+                    "frequency": "Present in approximately 3% at diagnosis; up to 12% in T4 tumors."
+                },
+                {
+                    "name": "Sentinel vessels",
+                    "detail": "Visible on slit-lamp examination; may indicate tumor activity.",
+                    "frequency": "Frequent in ciliary body involvement."
+                }
+            ],
+            "atypical_or_missed": [
+                "Ciliary body melanomas hidden behind the iris, leading to delayed diagnosis until symptoms like glaucoma or lens displacement occur.",
+                "Amelanotic (nonpigmented) tumors that may be mistaken for other conditions like hemorrhage or metastasis.",
+                "Diffuse, flat, plateau-shaped, or multinodular 'tapioca' appearance variants that can mimic inflammatory or vascular lesions.",
+                "Small lesions with few risk factors, observed as indeterminate, which may slowly transform into melanoma.",
+                "Metastasis to the uvea from other cancers (e.g., breast, lung) that can mimic primary uveal melanoma."
+            ]
+        },
+        "red_flags": [
+            "New or progressive visual symptoms (blurred vision, field loss, photopsia, floaters) in an adult.",
+            "Presence of a pigmented uveal mass with subretinal fluid or orange pigment on imaging.",
+            "Tumor growth documented on serial examinations (e.g., increase in thickness >2 mm or diameter >5 mm).",
+            "Ciliary body involvement, especially with secondary glaucoma or sentinel vessels.",
+            "Extraocular extension suspected on clinical exam or imaging.",
+            "High-risk features on biopsy (e.g., monosomy 3, BAP1 mutation, Class 2 gene expression profile).",
+            "Symptoms of metastatic disease (e.g., abdominal pain, weight loss) in a patient with known uveal melanoma."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Comprehensive eye exam (biomicroscopy and dilated fundus exam)",
+                    "rationale": "Initial assessment to detect and characterize the lesion; includes visual acuity measurement, tumor size/location documentation, and evaluation for subretinal fluid or orange pigment.",
+                    "key_findings": "Pigmented mass, subretinal fluid, orange pigment, tumor margins, ciliary body involvement."
+                },
+                {
+                    "test": "Ocular ultrasound (A-scan and B-scan)",
+                    "rationale": "Essential for diagnosing choroidal melanomas; provides tumor dimensions, internal reflectivity (low in melanoma), and detects extraocular extension.",
+                    "key_findings": "Low internal reflectivity on A-scan, acoustic hollowing on B-scan, choroidal excavation, orbital shadowing."
+                },
+                {
+                    "test": "Color fundus photography",
+                    "rationale": "Documents clinical features, measures basal diameter and area, and identifies orange pigment or drusen.",
+                    "key_findings": "Visual record of tumor shape, color, and associated features; correlates with autofluorescence."
+                },
+                {
+                    "test": "Fundus autofluorescence",
+                    "rationale": "Helps distinguish orange pigment (hyperautofluorescent) from drusen; aids in differential diagnosis.",
+                    "key_findings": "Hyperautofluorescence in orange pigment; patterns can differentiate melanoma from nevi."
+                },
+                {
+                    "test": "Optical coherence tomography (OCT)",
+                    "rationale": "Evaluates retinal and RPE changes; detects subretinal fluid, edema, and structural loss in melanoma.",
+                    "key_findings": "Subretinal fluid, shaggy photoreceptors, RPE atrophy; enhanced depth imaging (EDI-OCT) useful for small tumors."
+                },
+                {
+                    "test": "Retinal fluorescein angiography",
+                    "rationale": "Characterizes tumor vasculature; may show 'double circulation' (intrinsic tumor circulation plus choroidal vasculature).",
+                    "key_findings": "Intrinsic tumor circulation, vascular abnormalities; useful for diagnosing and monitoring treatment complications."
+                },
+                {
+                    "test": "Transillumination",
+                    "rationale": "Used when other methods are inadequate; helps measure tumor dimensions in large ciliary body melanomas.",
+                    "key_findings": "Shadowing artifacts; may overestimate tumor size compared to histology."
+                },
+                {
+                    "test": "MRI of the orbit (with and without IV contrast)",
+                    "rationale": "Indicated for large tumors, proximity to optic nerve, or suspected extraocular extension; confirms extraocular involvement and aids in treatment planning.",
+                    "key_findings": "High signal on T1-weighted images, low on T2-weighted; detects extraocular extension."
+                },
+                {
+                    "test": "Biopsy of primary tumor (fine-needle aspiration or vitrectomy-assisted)",
+                    "rationale": "For prognostic analysis when diagnosis is uncertain or to inform risk stratification and clinical trial eligibility; typically performed before irradiation.",
+                    "key_findings": "Cytologic/histologic confirmation; molecular/chromosomal testing for prognosis preferred over cytology alone."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Contrast-enhanced MRI of the liver (preferred) or ultrasound",
+                    "rationale": "Liver is the most common site of metastasis; imaging screens for distant disease at baseline and follow-up.",
+                    "indication": "All patients prior to treatment; surveillance based on risk stratification."
+                },
+                {
+                    "test": "CT chest/abdomen/pelvis with IV contrast",
+                    "rationale": "Additional imaging to evaluate for metastasis in lungs, bones, or other sites; limit radiation exposure.",
+                    "indication": "Considered for baseline staging or if MRI contraindicated."
+                },
+                {
+                    "test": "Chest X-ray or CT chest without contrast",
+                    "rationale": "Screens for lung metastases; less sensitive than CT with contrast but reduces radiation.",
+                    "indication": "Part of surveillance imaging for metastasis."
+                },
+                {
+                    "test": "Whole-body FDG-PET/CT",
+                    "rationale": "Can detect metastatic disease but has limited sensitivity for liver lesions; used in select cases.",
+                    "indication": "Considered if other imaging inconclusive or for comprehensive staging."
+                },
+                {
+                    "test": "MRI brain with IV contrast",
+                    "rationale": "Only if neurological symptoms present; routine CNS imaging not recommended.",
+                    "indication": "Symptomatic patients to rule out brain metastases."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "Gene expression profiling (GEP) using 15-gene assay",
+                    "rationale": "Classifies tumors into Class 1A (low risk), Class 1B (medium risk), or Class 2 (high risk) for metastasis; informs surveillance frequency.",
+                    "when": "Strongly considered during primary tumor biopsy for prognostic analysis.",
+                    "mandatory": "No, but recommended for risk stratification and clinical trial eligibility."
+                },
+                {
+                    "test": "Chromosomal testing (e.g., FISH for monosomy 3, gain of 6p, 8q)",
+                    "rationale": "Monosomy 3 and gain of 8q are high-risk; disomy 3 and gain of 6p are low-risk.",
+                    "when": "Performed on biopsy tissue; part of molecular prognostication.",
+                    "mandatory": "No, but used in conjunction with GEP for comprehensive risk assessment."
+                },
+                {
+                    "test": "Mutation analysis (BAP1, SF3B1, EIF1AX)",
+                    "rationale": "BAP1 somatic mutation indicates high risk; SF3B1 mutation medium risk; EIF1AX mutation low risk.",
+                    "when": "During biopsy for prognostication; may guide follow-up and treatment.",
+                    "mandatory": "No, but part of molecular profiling."
+                },
+                {
+                    "test": "PRAME expression testing",
+                    "rationale": "PRAME is a risk modifier; its expression may increase metastasis risk in both Class 1 and Class 2 tumors.",
+                    "when": "Considered alongside GEP testing.",
+                    "mandatory": "No, but emerging as an important prognostic marker."
+                },
+                {
+                    "test": "HLA-A*02:01 testing",
+                    "rationale": "Determines eligibility for tebentafusp-tebn therapy in metastatic uveal melanoma.",
+                    "when": "For patients with distant metastatic disease.",
+                    "mandatory": "Yes, if considering tebentafusp treatment."
+                },
+                {
+                    "test": "Liver function tests (LFTs) including LDH and alkaline phosphatase",
+                    "rationale": "LDH and ALP may assist in prognosis in metastatic disease; poor sensitivity for early detection of liver metastases.",
+                    "when": "Considered during follow-up and for metastatic workup.",
+                    "mandatory": "No, but may inform prognosis."
+                }
+            ],
+            "do_not_miss": [
+                "Ocular ultrasound for tumor characterization in any suspicious pigmented lesion.",
+                "Contrast-enhanced MRI of the liver for staging and surveillance, as it is preferred over CT for liver metastasis detection.",
+                "Prognostic molecular testing (GEP, chromosomal analysis) if biopsy is performed, to inform risk stratification.",
+                "HLA-A*02:01 testing in metastatic disease for eligibility for tebentafusp.",
+                "Documentation of ciliary body involvement and extraocular extension, as they impact treatment and prognosis."
+            ],
+            "avoid": [
+                "Routine brain MRI without neurological symptoms, as CNS metastases are rare (4-5%) and routine imaging is not recommended.",
+                "Frequent CT scans without contrast for surveillance due to cumulative radiation exposure; prefer MRI or ultrasound for liver imaging.",
+                "Overuse of liver function tests for early detection of metastases due to low sensitivity.",
+                "Biopsy for prognostic analysis if not discussed or if risks outweigh benefits (e.g., in very small tumors with low suspicion).",
+                "Imaging beyond standard guidelines without clinical indication, to limit unnecessary radiation and healthcare costs."
+            ]
+        },
+        "staging": {
+            "system": "AJCC 8th edition TNM staging system for choroidal and ciliary body melanoma.",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed."
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor."
+                },
+                {
+                    "stage": "T1",
+                    "description": "Tumor size category 1 (based on thickness and largest basal diameter; see Figure 1). Substages: T1a (without ciliary body involvement or extraocular extension), T1b (with ciliary body involvement), T1c (without ciliary body involvement but with extraocular extension ≤5 mm in largest diameter), T1d (with ciliary body involvement and extraocular extension ≤5 mm in largest diameter)."
+                },
+                {
+                    "stage": "T2",
+                    "description": "Tumor size category 2. Substages: T2a, T2b, T2c, T2d as per T1 pattern."
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor size category 3. Substages: T3a, T3b, T3c, T3d as per T1 pattern."
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor size category 4. Substages: T4a, T4b, T4c, T4d as per T1 pattern; T4e (any tumor size category with extraocular extension >5 mm in largest diameter)."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "NX",
+                    "description": "Regional lymph nodes cannot be assessed."
+                },
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node involvement."
+                },
+                {
+                    "stage": "N1",
+                    "description": "Regional lymph node metastases or discrete tumor deposits in the orbit. Substages: N1a (metastasis in one or more regional lymph nodes), N1b (no regional lymph nodes positive, but discrete tumor deposits in the orbit not contiguous to the eye)."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis."
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis. Substages: M1a (largest diameter of largest metastasis ≤3.0 cm), M1b (3.1–8.0 cm), M1c (≥8.1 cm)."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage I",
+                    "criteria": "T1a, N0, M0",
+                    "clinical_meaning": "Small tumor without ciliary body involvement or extraocular extension; low risk of metastasis.",
+                    "five_yr_survival": "≥85% disease-specific survival (DSS) for stages I-II combined.",
+                    "treatment_intent": "Curative; options include observation, brachytherapy, particle beam radiation, or enucleation based on tumor size."
+                },
+                {
+                    "group": "Stage IIA",
+                    "criteria": "T1b-d, N0, M0 or T2a, N0, M0",
+                    "clinical_meaning": "Small tumor with ciliary body involvement or limited extraocular extension, or medium tumor without high-risk features.",
+                    "five_yr_survival": "≥85% DSS for stages I-II combined.",
+                    "treatment_intent": "Curative; primary treatment with radiation or enucleation."
+                },
+                {
+                    "group": "Stage IIB",
+                    "criteria": "T2b, N0, M0 or T3a, N0, M0",
+                    "clinical_meaning": "Medium tumor with ciliary body involvement or large tumor without high-risk features.",
+                    "five_yr_survival": "Not explicitly stated; intermediate risk between stage I and III.",
+                    "treatment_intent": "Curative; radiation therapy or enucleation."
+                },
+                {
+                    "group": "Stage IIIA",
+                    "criteria": "T2c-d, N0, M0 or T3b-c, N0, M0 or T4a, N0, M0",
+                    "clinical_meaning": "Medium or large tumor with limited extraocular extension or ciliary body involvement.",
+                    "five_yr_survival": "5-year risk of metastasis up to 44% for stage III.",
+                    "treatment_intent": "Curative with aggressive local therapy; may require adjuvant radiation."
+                },
+                {
+                    "group": "Stage IIIB",
+                    "criteria": "T3d, N0, M0 or T4b-c, N0, M0",
+                    "clinical_meaning": "Large tumor with high-risk features like ciliary body involvement or significant extraocular extension.",
+                    "five_yr_survival": "High risk; 5-year DSS may be lower than stage I-II.",
+                    "treatment_intent": "Curative; enucleation often recommended, with possible adjuvant radiation."
+                },
+                {
+                    "group": "Stage IIIC",
+                    "criteria": "T4d-e, N0, M0",
+                    "clinical_meaning": "Very large tumor with extensive extraocular extension (>5 mm).",
+                    "five_yr_survival": "Poor prognosis; high metastatic risk.",
+                    "treatment_intent": "Aggressive local treatment; enucleation with orbital exenteration if needed, and systemic therapy consideration."
+                },
+                {
+                    "group": "Stage IV",
+                    "criteria": "Any T, N1, M0 or Any T, Any N, M1a-c",
+                    "clinical_meaning": "Regional lymph node metastases or distant metastatic disease.",
+                    "five_yr_survival": "<20% for distant metastatic disease.",
+                    "treatment_intent": "Palliative; systemic therapy, liver-directed therapy, clinical trials."
+                }
+            ],
+            "staging_pearls": [
+                "T stage is based on tumor thickness and largest basal diameter, with substages for ciliary body involvement and extraocular extension.",
+                "The cutoff for largest basal diameter for brachytherapy is ≤19 mm due to plaque size limitations; tumors >19 mm may require particle beam or enucleation.",
+                "Extraocular extension >5 mm (T4e) is a high-risk feature necessitating aggressive treatment.",
+                "Risk stratification for surveillance uses the highest risk factor present (e.g., T stage, GEP class, chromosomal abnormalities).",
+                "AJCC staging incorporates both anatomic extent and molecular markers for prognosis, but not all patients have biopsy for molecular testing.",
+                "Contralateral eye is not at increased risk; follow-up focuses on the affected eye and systemic surveillance."
+            ]
+        },
+        "management_principles": {
+            "overview": "The management of uveal melanoma requires a multidisciplinary approach tailored to the unique characteristics of the disease. The NCCN guidelines emphasize that uveal melanoma is distinct from cutaneous melanoma in its pathogenesis, molecular profile, clinical behavior, and treatment. The primary goal is to achieve local tumor control while preserving the eye and visual function whenever possible. However, the risk of distant metastasis is the predominant concern and drives the intensity of follow-up and systemic therapy considerations. Referral to centers with expertise in the management of uveal melanoma is recommended upon clinical presentation.",
+            "by_intent": [
+                {
+                    "intent": "Diagnostic Confirmation and Risk Assessment",
+                    "patient_group": "Patients with a suspicious pigmented uveal lesion.",
+                    "approach": "Comprehensive clinical evaluation, including dilated fundus exam and ocular imaging (ultrasound, MRI if indicated), is essential for diagnosis. A biopsy should be strongly considered for prognostic analysis (e.g., gene expression profiling, chromosomal testing) to inform risk stratification and follow-up frequency."
+                },
+                {
+                    "intent": "Local Tumor Control",
+                    "patient_group": "Patients with confirmed primary uveal melanoma.",
+                    "approach": "Treatment is selected based on tumor size, location, extraocular extension, and patient factors. Options include various forms of radiation therapy (plaque brachytherapy, particle beam, stereotactic radiosurgery) and enucleation. The trend is toward globe-conserving therapies."
+                },
+                {
+                    "intent": "Surveillance and Detection of Metastasis",
+                    "patient_group": "All patients after treatment for primary uveal melanoma.",
+                    "approach": "Follow-up is stratified by the risk of distant metastasis (low, medium, high) based on AJCC T stage and molecular markers. Surveillance includes regular ophthalmologic exams of the treated eye and systemic imaging focused on the liver, the most common metastatic site."
+                },
+                {
+                    "intent": "Treatment of Metastatic Disease",
+                    "patient_group": "Patients with recurrent or distant metastatic uveal melanoma.",
+                    "approach": "Management is challenging and often involves clinical trials. Options include liver-directed therapies for hepatic-dominant disease, systemic therapies (tebentafusp-tebn for HLA-A*02:01-positive patients, immune checkpoint inhibitors, chemotherapy), and best supportive care."
+                }
+            ],
+            "mdt_requirements": "Care should involve a multidisciplinary team including an ophthalmic oncologist, radiation oncologist, medical oncologist, and pathologist with expertise in uveal melanoma. For radiation therapy, an experienced brachytherapy or particle beam physicist is also required.",
+            "performance_status_guide": "Patient performance status and overall health are critical factors in treatment selection, especially when considering aggressive local therapies or systemic treatments for metastatic disease."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "initial_diagnostic_uncertainty",
+                "title": "Evaluation of Suspicious Pigmented Uveal Lesion",
+                "branching_basis": [
+                    "clinical presentation",
+                    "diagnostic certainty",
+                    "risk factors for growth"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Suspicious pigmented uveal tumor of ciliary body and/or choroid with uncertain diagnosis, especially for small tumors, and/or <3 risk factors for growth.",
+                        "options": [
+                            {
+                                "type": "Observation",
+                                "label": "Observe and re-evaluate for growth or features of malignancy",
+                                "preference": "First-line for uncertain diagnosis",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "localized_primary_small_tumor",
+                "title": "Primary Treatment for Small Uveal Melanoma (Largest diameter ≤19 mm, thickness <2.5 mm)",
+                "branching_basis": [
+                    "tumor size",
+                    "location",
+                    "patient preference",
+                    "availability of expertise"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Largest diameter 5–19 mm, thickness <2.5 mm.",
+                        "options": [
+                            {
+                                "type": "Observation",
+                                "label": "Regular ophthalmologic follow-up in select patients",
+                                "preference": "For select patients with very low-risk features",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Brachytherapy plaque",
+                                "preference": "Standard globe-conserving option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Particle beam radiation",
+                                "preference": "Standard globe-conserving option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Ablative Therapy",
+                                "label": "Other options in highly select patients (e.g., laser treatment or enucleation per patient preference)",
+                                "preference": "Alternative for patients not candidates for standard RT",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "localized_primary_medium_tumor",
+                "title": "Primary Treatment for Medium Uveal Melanoma (Largest diameter ≤19 mm, thickness 2.5–10 mm)",
+                "branching_basis": [
+                    "tumor size",
+                    "treatment response",
+                    "complications"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Largest diameter ≤19 mm, thickness 2.5–10 mm.",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Brachytherapy plaque",
+                                "preference": "Standard globe-conserving option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Particle beam radiation",
+                                "preference": "Standard globe-conserving option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Surgery",
+                                "label": "Enucleation",
+                                "preference": "Recommended for neovascular glaucoma, tumor replacing >50% of globe, or blind, painful eyes",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Additional treatment with resection, laser ablation, transpupillary thermotherapy, or cryotherapy can be considered if concern that adequate response was not achieved from initial radiation."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "localized_primary_large_tumor",
+                "title": "Primary Treatment for Large Uveal Melanoma (Largest diameter >19 mm or thickness >10 mm)",
+                "branching_basis": [
+                    "tumor size",
+                    "optimal therapy availability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Largest diameter >19 mm (any thickness) or Thickness >10 mm (any diameter) or Thickness >8 mm with optic nerve involvement.",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Particle beam radiation or Stereotactic radiosurgery (SRS)",
+                                "preference": "Plaque brachytherapy is NOT suitable for tumors exceeding plaque size limits.",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Surgery",
+                                "label": "Enucleation",
+                                "preference": "Considered, especially for extensive extraocular extension or poor visual prognosis",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "extraocular_extension_at_enucleation",
+                "title": "Management of Extraocular Extension Found at Enucleation",
+                "branching_basis": [
+                    "extent of extraocular disease"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Microscopically positive or close margins after enucleation (but no clinical, intraoperative, or radiographic evidence of gross residual disease).",
+                        "options": [
+                            {
+                                "type": "Observation",
+                                "label": "Observe",
+                                "preference": "Option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "Consider RT to orbit",
+                                "preference": "Option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "Visible extraocular tumor.",
+                        "options": [
+                            {
+                                "type": "Surgery",
+                                "label": "Biopsy extraocular tissue if possible and consider: Observation, Local excision, RT to orbit, or Orbital exenteration",
+                                "preference": "Combination approach for local control",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "followup_risk_stratification",
+                "title": "Follow-up and Surveillance for Distant Metastasis",
+                "branching_basis": [
+                    "risk of distant metastasis (based on T stage, molecular markers)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Low risk: Class 1A or Class 1 PRAME (-), Disomy 3, Gain of chromosome 6p, EIF1AX mutation, T1 (AJCC).",
+                        "options": [
+                            {
+                                "type": "Surveillance",
+                                "label": "Consider surveillance imaging every 12 months for 5 years, or as clinically indicated.",
+                                "preference": "For patients who elect to have surveillance",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "Medium risk: Class 1B or Class 1 PRAME (+), SF3B1 mutation, T2 and T3 (AJCC).",
+                        "options": [
+                            {
+                                "type": "Surveillance",
+                                "label": "Consider surveillance imaging every 6–12 months for 10 years, then as clinically indicated.",
+                                "preference": "For patients who elect to have surveillance",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "High risk: Class 2, Monosomy 3, Gain of chromosome 8q, BAP1 somatic mutation, T4 (AJCC).",
+                        "options": [
+                            {
+                                "type": "Surveillance",
+                                "label": "Consider surveillance imaging every 3–6 months for 5 years, then every 6–12 months for years 6–10, then as clinically indicated.",
+                                "preference": "For patients who elect to have surveillance",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "intraocular_recurrence",
+                "title": "Treatment for Intraocular Recurrence",
+                "branching_basis": [
+                    "extent of recurrence (intraocular vs. extraocular)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Intraocular recurrence (limited to eye, no orbital involvement).",
+                        "options": [
+                            {
+                                "type": "Radiation Therapy",
+                                "label": "RT (plaque brachytherapy or particle beam)",
+                                "preference": "Option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Surgery",
+                                "label": "Enucleation",
+                                "preference": "Option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Ablative Therapy",
+                                "label": "Laser ablation (e.g., transpupillary thermotherapy for small recurrences in patients who cannot undergo RT or surgery)",
+                                "preference": "For select patients",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "metastatic_hepatic_dominant",
+                "title": "Treatment of Distant Metastatic Disease: Hepatic-Dominant",
+                "branching_basis": [
+                    "pattern of metastasis",
+                    "performance status",
+                    "HLA-A*02:01 status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Hepatic-dominant disease (bulk of metastatic disease confined to liver).",
+                        "options": [
+                            {
+                                "type": "Liver-Directed Therapy",
+                                "label": "Consider regional isolation perfusion (melphalan percutaneous hepatic perfusion), embolization (chemotherapy, radiation, immunotherapy), ablative procedures, resection and/or RT.",
+                                "preference": "Primary local option for hepatic-dominant disease",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Tebentafusp-tebn (if HLA-A*02:01-positive) or Immune checkpoint inhibitors (e.g., ipilimumab + nivolumab)",
+                                "preference": "Systemic option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Palliative Care",
+                                "label": "Best supportive/palliative care",
+                                "preference": "For patients not candidates for active therapy",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "metastatic_non_hepatic",
+                "title": "Treatment of Distant Metastatic Disease: Non-Hepatic-Dominant",
+                "branching_basis": [
+                    "pattern of metastasis",
+                    "performance status",
+                    "HLA-A*02:01 status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Non-hepatic-dominant disease or disease not amenable to liver-directed therapy.",
+                        "options": [
+                            {
+                                "type": "Systemic Therapy",
+                                "label": "Tebentafusp-tebn (if HLA-A*02:01-positive) or Immune checkpoint inhibitors (e.g., ipilimumab + nivolumab)",
+                                "preference": "Systemic option",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Palliative Care",
+                                "label": "Best supportive/palliative care",
+                                "preference": "For patients not candidates for active therapy",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Clinical Evaluation",
+                "items": [
+                    {
+                        "text": "History and physical (H&P), including personal/family history of prior or current cancers (outside the eye).",
+                        "recommendation": "Required for all patients with a suspicious uveal lesion."
+                    },
+                    {
+                        "text": "Comprehensive eye exam: Examine front and back of eye (biomicroscopy), perform dilated fundus exam (indirect ophthalmoscopy), measure visual acuity.",
+                        "recommendation": "Required for diagnosis and treatment planning."
+                    },
+                    {
+                        "text": "Measure and document location and size of tumor (diameter, thickness), distance from disc and fovea, ciliary body involvement, subretinal fluid, and orange pigment.",
+                        "recommendation": "Essential for staging and treatment selection."
+                    }
+                ]
+            },
+            {
+                "category": "Ocular Imaging",
+                "items": [
+                    {
+                        "text": "Ocular ultrasound (A-scan and B-scan, including ultrasound biomicroscopy for anterior lesions).",
+                        "recommendation": "Standard for diagnosis and measurement."
+                    },
+                    {
+                        "text": "Color fundus photography.",
+                        "recommendation": "For documentation."
+                    },
+                    {
+                        "text": "Autofluorescence of the ocular fundus.",
+                        "recommendation": "Additional testing option."
+                    },
+                    {
+                        "text": "Optical coherence tomography (OCT).",
+                        "recommendation": "Additional testing option."
+                    },
+                    {
+                        "text": "Retinal fluorescein angiography.",
+                        "recommendation": "Additional testing option."
+                    },
+                    {
+                        "text": "Transillumination.",
+                        "recommendation": "Additional testing option."
+                    },
+                    {
+                        "text": "MRI with and without IV contrast as clinically indicated to confirm diagnosis (e.g., for large tumors, suspicion of extraocular extension).",
+                        "recommendation": "As clinically indicated."
+                    }
+                ]
+            },
+            {
+                "category": "Pathology",
+                "items": [
+                    {
+                        "text": "Consider biopsy of primary tumor for prognostic analysis (molecular/chromosomal testing preferred over cytology alone).",
+                        "recommendation": "Strongly consider before radiation. Risks/benefits should be discussed."
+                    },
+                    {
+                        "text": "If biopsy is performed, molecular/chromosomal testing (e.g., GEP, FISH for chromosomes 3, 6, 8; BAP1, SF3B1, EIF1AX mutations; PRAME expression) is preferred over cytology alone.",
+                        "recommendation": "For risk stratification and follow-up frequency."
+                    }
+                ]
+            },
+            {
+                "category": "Staging for Metastasis",
+                "items": [
+                    {
+                        "text": "Baseline imaging to screen for distant disease. At minimum, all patients should have contrast-enhanced MRI (preferred) or ultrasound of the liver.",
+                        "recommendation": "Required. Modality preference determined by expertise at treating institution."
+                    },
+                    {
+                        "text": "Additional imaging: chest/abdomen/pelvis CT with and without contrast.",
+                        "recommendation": "Additional modality. Should limit radiation exposure."
+                    },
+                    {
+                        "text": "HLA-A*02:01 testing.",
+                        "recommendation": "For patients with metastatic disease to determine eligibility for tebentafusp-tebn."
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory Tests",
+                "items": [
+                    {
+                        "text": "Consider liver function tests (LFTs), including lactate dehydrogenase (LDH).",
+                        "recommendation": "May assist in prognosis, especially in metastatic setting."
+                    },
+                    {
+                        "text": "Consider alkaline phosphatase.",
+                        "recommendation": "May assist in prognosis."
+                    }
+                ]
+            },
+            {
+                "category": "Consultations",
+                "items": [
+                    {
+                        "text": "Referral to centers with expertise in the management of uveal melanoma.",
+                        "recommendation": "Recommended."
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery (enucleation) is a primary treatment option for uveal melanoma, particularly for large tumors, tumors with extensive extraocular extension, or when globe-conserving radiation therapy is not feasible or has failed. It is also used for ocular recurrence.",
+            "principles": [
+                "While there is a trend toward avoiding enucleation, it is recommended for patients with neovascular glaucoma, tumor replacing >50% of globe, or blind, painful eyes.",
+                "Consider enucleation in cases of extensive extraocular extension.",
+                "Pathologic evaluation should follow the uveal melanoma synoptic report recommendations by the College of American Pathologists.",
+                "Orbital exenteration is considered for visible extraocular tumor."
+            ],
+            "procedures": [
+                {
+                    "name": "Enucleation",
+                    "approach": "Complete removal of the eye, usually with insertion of an orbital implant.",
+                    "indications": [
+                        "Large tumors not suitable for plaque brachytherapy (largest diameter >19 mm, thickness >10 mm, or thickness >8 mm with optic nerve involvement).",
+                        "Neovascular glaucoma.",
+                        "Tumor replacing >50% of globe.",
+                        "Blind, painful eye.",
+                        "Extensive extraocular extension.",
+                        "Intraocular recurrence not amenable to other therapies."
+                    ],
+                    "key_complications": [
+                        "Local recurrence (rare, ~1%).",
+                        "Postoperative pain, hemorrhage, nausea/vomiting, cardiovascular or pulmonary problems, urinary retention, fever.",
+                        "Implant-related complications (e.g., extrusion, infection)."
+                    ],
+                    "operative_mortality": "Not specified in the source text."
+                },
+                {
+                    "name": "Orbital Exenteration",
+                    "approach": "Surgical removal of the globe and adjacent orbital contents.",
+                    "indications": [
+                        "Visible extraocular tumor at time of enucleation."
+                    ],
+                    "key_complications": [
+                        "Significant morbidity.",
+                        "Cosmetic and functional deficit."
+                    ],
+                    "operative_mortality": "Not specified in the source text."
+                }
+            ],
+            "resectability_criteria": "Not explicitly defined. The decision is based on tumor size, location, extension, and whether globe-conserving therapy is appropriate.",
+            "pre_operative_optimisation": "Not specified in the source text."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy is the primary treatment modality for most patients with uveal melanoma, with the goal of achieving local tumor control while preserving the eye. Plaque brachytherapy and particle beam therapy are standard definitive options for primary tumors. Stereotactic radiosurgery (SRS) is used less frequently as primary treatment. Fractionated photon radiotherapy is used as adjuvant therapy after surgery for orbital involvement. Metastasis-directed radiotherapy is used for palliation or treatment of limited metastases.",
+            "principles": [
+                "Radiation therapy should be performed by an experienced multidisciplinary team including an ophthalmic oncologist, radiation oncologist, and physicist (brachytherapy or particle beam).",
+                "Tumor localization for brachytherapy may be performed using indirect ophthalmoscopy, transillumination, light pipe diathermy, and/or ultrasound (intraoperative and/or preoperative). MRI or CT may be used for preoperative planning.",
+                "For particle beam therapy, fiducial markers (tantalum clips) are encouraged to permit eye and tumor position verification.",
+                "Volumetric planning in 3 dimensions is encouraged to maximize radiation delivery to tumor and minimize radiation to organs at risk."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Plaque Brachytherapy (Iodine-125 COMS plaques)",
+                    "total_dose": "85 Gy",
+                    "dose_per_fraction": "Low dose-rate (≥0.6 Gy/h)",
+                    "fractions": "Continuous low-dose-rate",
+                    "schedule": "Over approximately 5-7 days (duration of plaque wear)",
+                    "indication": "Primary treatment for tumors with largest basal diameter ≤19 mm and thickness ≤10 mm."
+                },
+                {
+                    "name": "Plaque Brachytherapy (Other radioisotopes or non-COMS I-125 plaques)",
+                    "total_dose": "60–100 Gy",
+                    "dose_per_fraction": "Low dose-rate",
+                    "fractions": "Continuous low-dose-rate",
+                    "schedule": "Varies by isotope and plaque type",
+                    "indication": "Primary treatment for tumors with largest basal diameter ≤19 mm and thickness ≤10 mm."
+                },
+                {
+                    "name": "Particle Beam Therapy (Protons)",
+                    "total_dose": "50–70 cobalt Gray equivalent (CGyE)",
+                    "dose_per_fraction": "Fractionated",
+                    "fractions": "4–5 fractions",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Primary treatment for intraocular tumors, especially those not suitable for plaque brachytherapy."
+                },
+                {
+                    "name": "Particle Beam Therapy (Carbon ions)",
+                    "total_dose": "60–85 CGyE",
+                    "dose_per_fraction": "Fractionated",
+                    "fractions": "5 fractions",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Primary treatment for intraocular tumors."
+                },
+                {
+                    "name": "Photon Stereotactic Radiosurgery (SRS)",
+                    "total_dose": "45–70 Gy",
+                    "dose_per_fraction": "Fractionated",
+                    "fractions": "2–5 fractions",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Primary treatment for large primary tumors or intraocular recurrence. Less commonly used as primary treatment."
+                },
+                {
+                    "name": "Photon Stereotactic Radiosurgery (SRS)",
+                    "total_dose": "18–45 Gy",
+                    "dose_per_fraction": "Single fraction",
+                    "fractions": "1 fraction",
+                    "schedule": "Single treatment",
+                    "indication": "Primary treatment for large primary tumors or intraocular recurrence. Less commonly used as primary treatment."
+                },
+                {
+                    "name": "Adjuvant Fractionated Photon Radiotherapy (IMRT)",
+                    "total_dose": "20–30 Gy",
+                    "dose_per_fraction": "Fractionated",
+                    "fractions": "5 fractions",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Adjuvant to surgery for orbital involvement (margin-positive enucleation or exenteration) or resected regional metastases."
+                },
+                {
+                    "name": "Ablative Radiotherapy for Limited Metastases (SBRT)",
+                    "total_dose": "16–24 Gy (single fraction) or 24–60 Gy (multi-fraction)",
+                    "dose_per_fraction": "Hypofractionated",
+                    "fractions": "1 fraction or 2–8 fractions",
+                    "schedule": "Varies",
+                    "indication": "Treatment of limited metastases."
+                },
+                {
+                    "name": "Palliative Radiotherapy",
+                    "total_dose": "8–30 Gy",
+                    "dose_per_fraction": "Hypofractionated",
+                    "fractions": "1–10 fractions",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Palliation of symptomatic distant metastases."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Plaque Brachytherapy",
+                    "dose_fractionation": "85 Gy to tumor apex at low dose-rate (≥0.6 Gy/h) using iodine-125 COMS plaques.",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Primary treatment for tumors with largest basal diameter ≤19 mm and thickness ≤10 mm.",
+                    "key_trial": "Collaborative Ocular Melanoma Study (COMS) randomized trial.",
+                    "toxicities": [
+                        "Local recurrence (weighted mean 9.45%).",
+                        "Radiation retinopathy, optic neuropathy, papillopathy, maculopathy.",
+                        "Neovascular glaucoma, retinal detachment.",
+                        "Loss of visual acuity, cataracts.",
+                        "Secondary enucleation (5-year cumulative rate ~12%)."
+                    ]
+                },
+                {
+                    "name": "Particle Beam Therapy",
+                    "dose_fractionation": "50–70 CGyE in 4–5 fractions (protons) or 60–85 CGyE in 5 fractions (carbon ions).",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Primary treatment for intraocular tumors, especially those not suitable for plaque brachytherapy.",
+                    "key_trial": "Randomized trials comparing plaque brachytherapy and particle beam therapy.",
+                    "toxicities": [
+                        "Local recurrence (3% to 10%).",
+                        "Decrease in visual acuity, loss of vision.",
+                        "Vitreous hemorrhage, subretinal exudation.",
+                        "Radiation keratopathy, rubeosis/neovascular glaucoma.",
+                        "Retinal detachment, radiation maculopathy, papillopathy."
+                    ]
+                },
+                {
+                    "name": "Photon Stereotactic Radiosurgery (SRS)",
+                    "dose_fractionation": "45–70 Gy in 2–5 fractions (fractionated) or 18–45 Gy in 1 fraction (single-fraction).",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Primary treatment for large primary tumors or intraocular recurrence. Less commonly used as primary treatment.",
+                    "key_trial": "Few prospective studies.",
+                    "toxicities": [
+                        "Local recurrence (0% to 16%).",
+                        "Higher rates of neovascular glaucoma, radiation retinopathy, and radiation papillopathy compared to brachytherapy.",
+                        "Vitreous hemorrhage.",
+                        "Loss of visual acuity."
+                    ]
+                },
+                {
+                    "name": "Fractionated Photon Radiotherapy (Adjuvant)",
+                    "dose_fractionation": "20–30 Gy in 5 fractions using IMRT with image guidance.",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Adjuvant to surgery for orbital involvement (margin-positive enucleation or exenteration) or resected regional metastases.",
+                    "key_trial": "Not specified.",
+                    "toxicities": "Not specified separately for this indication."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy for metastatic uveal melanoma is challenging due to limited efficacy compared to cutaneous melanoma. The only FDA-approved agent with a demonstrated overall survival benefit is tebentafusp-tebn, which is limited to HLA-A*02:01-positive patients. Other options include immune checkpoint inhibitors (with lower response rates than in cutaneous melanoma), cytotoxic chemotherapies, and targeted therapies (e.g., trametinib). Treatment selection depends on HLA-A*02:01 status, performance status, disease pattern (hepatic-dominant vs. non-hepatic-dominant), and availability of clinical trials.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Metastatic or Unresectable Disease, First-Line",
+                    "preferred_regimen": "Clinical trial (preferred). For HLA-A*02:01-positive disease: Tebentafusp-tebn (Category 1). For HLA-A*02:01-negative disease or if tebentafusp is not preferred/appropriate: Immune checkpoint inhibitors (e.g., ipilimumab + nivolumab).",
+                    "rationale": "Tebentafusp-tebn demonstrated an overall survival benefit in a phase III trial in previously untreated HLA-A*02:01-positive metastatic uveal melanoma. Immune checkpoint inhibitors have activity in a minority of patients.",
+                    "alternatives": "If disease is hepatic-dominant, liver-directed therapies (e.g., percutaneous hepatic perfusion, embolization) should be considered. Since tebentafusp-tebn response rates are low, symptomatic patients may be better palliated by liver-directed treatment first or their disease may respond better to ipilimumab/nivolumab. Cytotoxic regimens (e.g., dacarbazine, temozolomide, paclitaxel) or targeted therapy (e.g., trametinib) are useful in certain circumstances.",
+                    "biomarker_requirements": "HLA-A*02:01 testing is required for tebentafusp-tebn eligibility."
+                },
+                {
+                    "setting": "Metastatic or Unresectable Disease, Subsequent Lines",
+                    "preferred_regimen": "Clinical trial (preferred). Options include immune checkpoint inhibitors (ipilimumab, anti-PD-1 monotherapy like pembrolizumab or nivolumab), or other regimens.",
+                    "rationale": "Agents effective for metastatic cutaneous melanoma may be used after disease progression with first-line tebentafusp-tebn for HLA-A*02:01-positive disease.",
+                    "alternatives": "Cytotoxic regimens (dacarbazine, temozolomide, paclitaxel, albumin-bound paclitaxel, carboplatin/paclitaxel) or targeted therapy (trametinib).",
+                    "biomarker_requirements": "Not specified for subsequent lines."
+                },
+                {
+                    "setting": "Hepatic-Dominant Metastatic Disease",
+                    "preferred_regimen": "Liver-directed therapies (e.g., regional isolation perfusion with melphalan percutaneous hepatic perfusion, embolization, ablative procedures, resection and/or RT) in combination with or followed by systemic therapy.",
+                    "rationale": "If disease is confined to the liver, regional therapies are recommended.",
+                    "alternatives": "Systemic therapies or best supportive/palliative care.",
+                    "biomarker_requirements": "Not specified."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Tebentafusp-tebn",
+                    "setting": "First-line for metastatic uveal melanoma in HLA-A*02:01-positive patients.",
+                    "drugs": [
+                        {
+                            "name": "tebentafusp-tebn",
+                            "dose": "Not specified in source text",
+                            "route": "Intravenous infusion",
+                            "day": "Weekly (implied from context)"
+                        }
+                    ],
+                    "cycle_days": "Not specified in source text.",
+                    "key_toxicities": [
+                        "Cytokine release syndrome (especially first few cycles, requiring hospitalization).",
+                        "Most treatment-related adverse events occur early.",
+                        "Treatment discontinuation due to adverse events was low (2%).",
+                        "No treatment-related deaths reported."
+                    ]
+                },
+                {
+                    "name": "Ipilimumab + Nivolumab",
+                    "setting": "First-line or subsequent-line for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "1 mg/kg",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "3 mg/kg",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks for 4 cycles (induction), followed by nivolumab maintenance.",
+                    "key_toxicities": [
+                        "Grade 3 or 4 treatment-related adverse events occurred in 40% of patients in one study.",
+                        "Profiles consistent with known toxicities of checkpoint inhibitors."
+                    ]
+                },
+                {
+                    "name": "Pembrolizumab (monotherapy)",
+                    "setting": "First-line or subsequent-line for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg (flat dose implied)",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 3 weeks.",
+                    "key_toxicities": "Standard anti-PD-1 toxicity profile."
+                },
+                {
+                    "name": "Nivolumab (monotherapy)",
+                    "setting": "Subsequent-line for metastatic uveal melanoma after progression on ipilimumab.",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "3 mg/kg",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Every 2 weeks.",
+                    "key_toxicities": "Standard anti-PD-1 toxicity profile."
+                },
+                {
+                    "name": "Ipilimumab (monotherapy)",
+                    "setting": "First-line or subsequent-line for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "10 mg/kg",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Induction: every 3 weeks for 4 cycles. Maintenance: every 12 weeks.",
+                    "key_toxicities": [
+                        "Grade 3–4 adverse events reported in 10-36% of patients."
+                    ]
+                },
+                {
+                    "name": "Dacarbazine",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Dacarbazine",
+                            "dose": "Not specified in source text",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Not specified.",
+                    "key_toxicities": "Standard cytotoxic chemotherapy toxicities."
+                },
+                {
+                    "name": "Temozolomide",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Temozolomide",
+                            "dose": "Not specified in source text",
+                            "route": "Oral",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Not specified.",
+                    "key_toxicities": "Standard cytotoxic chemotherapy toxicities."
+                },
+                {
+                    "name": "Paclitaxel",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Not specified in source text",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Not specified.",
+                    "key_toxicities": "Standard cytotoxic chemotherapy toxicities."
+                },
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Albumin-bound Paclitaxel",
+                            "dose": "Not specified in source text",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Not specified.",
+                    "key_toxicities": "Standard cytotoxic chemotherapy toxicities."
+                },
+                {
+                    "name": "Carboplatin/Paclitaxel",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC-based (not specified)",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "Not specified",
+                            "route": "Intravenous",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "Not specified.",
+                    "key_toxicities": "Standard cytotoxic chemotherapy toxicities."
+                },
+                {
+                    "name": "Trametinib",
+                    "setting": "Useful in certain circumstances for metastatic uveal melanoma.",
+                    "drugs": [
+                        {
+                            "name": "Trametinib",
+                            "dose": "Not specified in source text",
+                            "route": "Oral",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing.",
+                    "key_toxicities": "Standard MEK inhibitor toxicities (e.g., rash, diarrhea, cardiomyopathy)."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Assessment of Response to Treatment for Metastatic Disease",
+            "timing": "Following treatment for metastatic disease, patients should receive imaging to assess response or progression.",
+            "response_logic": [
+                "Imaging modalities for assessment are the same as those recommended for initial staging (e.g., MRI abdomen with IV contrast preferred, CT chest/abdomen/pelvis with IV contrast, whole-body FDG-PET/CT).",
+                "After treatment, patients with no evidence of disease (NED) may be eligible for adjuvant clinical trials.",
+                "If post-treatment imaging shows residual or progressive disease, the NCCN Panel recommends trying other options for treatment of distant metastatic disease."
+            ],
+            "imaging_recommendations": [
+                "MRI abdomen with IV gadolinium-based contrast (preferred).",
+                "CT chest/abdomen/pelvis with IV iodinated contrast.",
+                "CT chest with or without IV contrast.",
+                "Whole-body FDG-PET/CT.",
+                "In select patients with renal failure and/or iodinated contrast allergy, MR abdomen with gadolinium-based contrast is preferred over CT.",
+                "Abdominal imaging should be performed with IV contrast unless contraindicated."
+            ],
+            "biopsy_or_salvage_logic": [
+                "Biopsy to confirm extraocular recurrence or metastasis should be performed histologically whenever possible or if clinically indicated.",
+                "Biopsy techniques may include core needle biopsy or fine-needle aspiration (FNA).",
+                "Consider genetic testing if it might affect treatment options (e.g., eligibility for tebentafusp).",
+                "For intraocular recurrence, biopsy can often be diagnosed without a biopsy, but additional prognostic FNA biopsy may be valuable."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_uveal_melanoma_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T16:55:54.529630"
+    }
+}

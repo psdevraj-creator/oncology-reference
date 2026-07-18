@@ -1,0 +1,2847 @@
+{
+    "site_id": "head_and_neck",
+    "site_display_name": "Head and Neck",
+    "archetype": "B",
+    "regimen_count": 81,
+    "regimens": [
+        {
+            "regimen_name": "High-Dose Cisplatin with Concurrent RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Glottic larynx, Supraglottic larynx",
+            "setting": "Definitive concurrent chemoradiotherapy for locally advanced disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 2-3 cycles"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70 Gy (2.0 Gy/fraction)",
+                    "route": "External beam (IMRT preferred)",
+                    "schedule": "Daily Monday–Friday, 7 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RTOG 0129",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Concurrent high-dose cisplatin with RT improves overall survival compared to RT alone. Accelerated fractionation with two cycles of concurrent cisplatin versus standard fractionation with three cycles of concurrent cisplatin showed no significant difference in OS."
+            },
+            "notes": "The preferred chemoradiotherapy approach for fit patients with locally advanced disease remains concurrent cisplatin and radiotherapy. High-dose cisplatin (100 mg/m2 every 3 weeks) is the most studied effective regimen. When carboplatin and fluorouracil are used, the recommended regimen is standard fractionation plus 3 cycles of chemotherapy. Other fraction sizes, multiagent chemotherapy, other dosing schedules of cisplatin, or altered fractionation with chemotherapy are efficacious, and there is no consensus on the optimal approach. In general, the use of concurrent systemic therapy/RT carries a high toxicity burden; multiagent chemotherapy will likely further increase the toxicity burden. Systemic therapy/RT should be performed by an experienced team and should include substantial supportive care. [27, 162, 288]"
+        },
+        {
+            "regimen_name": "Carboplatin/Infusional Fluorouracil with Concurrent RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Glottic larynx, Supraglottic larynx",
+            "setting": "Definitive concurrent chemoradiotherapy for locally advanced disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC not specified",
+                    "route": "IV",
+                    "schedule": "Standard fractionation plus 3 cycles"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified",
+                    "route": "IV (infusional)",
+                    "schedule": "Standard fractionation plus 3 cycles"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70 Gy (2.0 Gy/fraction)",
+                    "route": "External beam (IMRT preferred)",
+                    "schedule": "Daily Monday–Friday, 7 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GORTEC 99-02",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Concurrent carboplatin/fluorouracil with RT is effective. Altered fractionation did not improve outcomes when compared with conventional fractionation given with concurrent chemotherapy."
+            },
+            "notes": "This regimen is a preferred option for concurrent chemoradiotherapy. Based on published data, when carboplatin and fluorouracil are used, the recommended regimen is standard fractionation plus 3 cycles of chemotherapy. Other fraction sizes, multiagent chemotherapy, other dosing schedules of cisplatin, or altered fractionation with chemotherapy are efficacious, and there is no consensus on the optimal approach. Concurrent chemoradiation increases acute toxicity compared to radiation alone. [191]"
+        },
+        {
+            "regimen_name": "Weekly Cisplatin (40 mg/m2) with Concurrent RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Glottic larynx, Supraglottic larynx",
+            "setting": "Definitive or postoperative concurrent chemoradiotherapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70 Gy (2.0 Gy/fraction) for definitive; 60-66 Gy (2.0 Gy/fraction) for postoperative",
+                    "route": "External beam (IMRT preferred)",
+                    "schedule": "Daily Monday–Friday"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A (category 1 for postoperative with JCOG1008)",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "JCOG1008",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Weekly cisplatin 40 mg/m2 was non-inferior to high-dose every-3-week cisplatin with respect to OS in patients with high-risk resected locally advanced SCCHN. High-grade neutropenia, infections, renal and hearing impairment were less common with weekly cisplatin regimen, whereas thrombocytopenia was more common. [305]"
+            },
+            "notes": "If the clinician has a patient-specific concern about the toxicity of high-dose cisplatin, a weekly cisplatin regimen at a dose of 40 mg/m2/week may be substituted. Weekly doses of cisplatin of <40 mg/m2 should not be utilized in this setting because survival outcomes were inferior. [7,8,9,10,11]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel with Concurrent RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Glottic larynx, Supraglottic larynx",
+            "setting": "Definitive concurrent chemoradiotherapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70 Gy (2.0 Gy/fraction)",
+                    "route": "External beam",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "This is a category 2B option based on less Panel consensus. [12,13]"
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel/Infusional Fluorouracil (TPF) Induction Chemotherapy",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (glottic and supraglottic)",
+            "setting": "Induction/sequential therapy for locally advanced disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 if induction is chosen",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TAX 323, TAX 324, GORTEC 2000-01",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "TPF induction chemotherapy, compared to cisplatin plus fluorouracil, was associated with reduced risk of death (HR 0.72; 95% CI 0.63-0.83; P<.001) and greater reductions in progression, locoregional failure, and distant failure. [20,21,22,23,334]"
+            },
+            "notes": "When used as induction chemotherapy for SCCHN, docetaxel with cisplatin/infusional fluorouracil is a category 1 preferred recommendation. The role of induction chemotherapy in the management of locally advanced SCCHN has generated considerable discussion and debate within the NCCN Panel. Induction chemotherapy should only be administered at sites with expertise in these regimens because of challenges associated with appropriate patient selection and management of treatment-related toxicities. Residual toxicity from induction chemotherapy may complicate subsequent delivery of definitive RT or systemic therapy/RT. [20,21,22,23,334]"
+        },
+        {
+            "regimen_name": "Neoadjuvant Pembrolizumab followed by RT + Pembrolizumab (with Cisplatin if extranodal extension and/or positive margin) followed by Adjuvant Pembrolizumab",
+            "site": "Oral cavity (Stage III-IVA, PD-L1 CPS ≥1)",
+            "setting": "Neoadjuvant/adjuvant for resectable locally advanced disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg (or 400 mg every 6 weeks) per standard dosing",
+                    "route": "IV",
+                    "schedule": "Neoadjuvant, then with RT, then adjuvant"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified (only if extranodal extension and/or positive margin)",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "Not specified (standard doses per risk)",
+                    "route": "External beam",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 CPS",
+                    "requirement": "≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "KEYNOTE-689",
+                "phase": "III",
+                "n_patients": "714",
+                "outcomes_summary": "In patients with PD-L1 CPS ≥10, EFS at 36 months was 59.8% with pembrolizumab vs 45.9% with control (HR 0.66; 95% CI 0.49–0.88; P=.004). In those with CPS ≥1, EFS at 36 months was 58.2% vs 44.9% (HR 0.70; 95% CI 0.55–0.89; P=.003). Pathological complete response occurred in 4.2%, 3.1%, and 3.0% in CPS ≥10, CPS ≥1, and total populations respectively. [352]"
+            },
+            "notes": "Perioperative pembrolizumab (neoadjuvant and adjuvant) added to standard of care (surgery and adjuvant radiotherapy with or without concomitant cisplatin) showed improvement in event-free survival. The FDA approved neoadjuvant pembrolizumab followed by adjuvant pembrolizumab/RT followed by adjuvant pembrolizumab for patients with resectable, PD-L1–positive (CPS ≥1), locally advanced SCCHN. For patients with ENE and/or positive margins, cisplatin should be added to adjuvant pembrolizumab/RT. [25,26,352]"
+        },
+        {
+            "regimen_name": "Neoadjuvant Pembrolizumab followed by RT + Pembrolizumab (with Cisplatin if extranodal extension and/or positive margin) followed by Adjuvant Pembrolizumab (p16-negative oropharynx, hypopharynx, larynx)",
+            "site": "Oropharynx (p16-negative), Hypopharynx, Larynx (glottic and supraglottic) – Stage III-IVA, PD-L1 CPS ≥1",
+            "setting": "Neoadjuvant/adjuvant for resectable locally advanced disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Standard dosing",
+                    "route": "IV",
+                    "schedule": "Neoadjuvant, then with RT, then adjuvant"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified (only if extranodal extension and/or positive margin)",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "Not specified",
+                    "route": "External beam",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 CPS",
+                    "requirement": "≥1",
+                    "mandatory": true
+                },
+                {
+                    "marker": "p16 (HPV)",
+                    "requirement": "Negative (for oropharynx)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B (category 2A for oral cavity)",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-689",
+                "phase": "III",
+                "n_patients": "714",
+                "outcomes_summary": "See oral cavity entry."
+            },
+            "notes": "For p16-negative oropharynx, hypopharynx, and larynx, this regimen is listed as Useful in Certain Circumstances. The same KEYNOTE-689 data supports this approach, but the Panel has less consensus for these sites. [25,26]"
+        },
+        {
+            "regimen_name": "Cisplatin (Category 1) Postoperative Systemic Therapy/RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx",
+            "setting": "Postoperative adjuvant for high-risk features (extranodal extension and/or positive margins)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "100 mg/m2 every 3 weeks or 40 mg/m2 weekly",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks or weekly"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "60-66 Gy (2.0 Gy/fraction) for high-risk volumes",
+                    "route": "External beam (IMRT preferred)",
+                    "schedule": "Daily Monday–Friday, 6-6.5 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 for high-risk non-oropharyngeal cancers (ENE and/or positive margins)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RTOG 9501, EORTC 22931",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Patients with ENE and/or positive resection margins benefited from the addition of cisplatin to postoperative RT. For those with multiple involved regional nodes without ENE, there was no survival advantage. [141,142]"
+            },
+            "notes": "Postoperative concurrent chemoradiation is recommended for patients with high-risk pathologic features: extranodal extension and/or positive surgical margins. The preferred systemic agent is cisplatin. Weekly cisplatin 40 mg/m2 is non-inferior to high-dose every-3-week cisplatin based on JCOG1008. [33-40]"
+        },
+        {
+            "regimen_name": "Docetaxel (if Cisplatin ineligible) Postoperative Systemic Therapy/RT",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx",
+            "setting": "Postoperative adjuvant for high-risk features (cisplatin-ineligible patients)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "60-66 Gy (2.0 Gy/fraction)",
+                    "route": "External beam",
+                    "schedule": "Daily Monday–Friday"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Patil et al. 2023",
+                "phase": "III",
+                "n_patients": "356",
+                "outcomes_summary": "In cisplatin-ineligible patients, docetaxel with RT improved 2-year DFS (42.0% vs 30.3%; HR 0.67; 95% CI 0.52–0.87; P=.002) and median OS (25.5 vs 15.3 months; P=.035) compared to RT alone. [14,145]"
+            },
+            "notes": "Study results support use of docetaxel as a radiosensitizer for patients undergoing adjuvant treatment who are cisplatin ineligible. [14]"
+        },
+        {
+            "regimen_name": "Docetaxel + Cetuximab Postoperative Systemic Therapy/RT (if Cisplatin ineligible and extranodal extension and/or positive margins)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx",
+            "setting": "Postoperative adjuvant for high-risk features",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "60-66 Gy (2.0 Gy/fraction)",
+                    "route": "External beam",
+                    "schedule": "Daily Monday–Friday"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RTOG 0234",
+                "phase": "II",
+                "n_patients": "238",
+                "outcomes_summary": "Patients randomized to receive docetaxel experienced a 31% reduction in DFS failure rate (HR 0.69; 95% CI 0.50–0.96; P=.01) and a 44% reduction in mortality (HR 0.56; 95% CI 0.39–0.82; P=.001) compared to cetuximab/cisplatin arm. [146]"
+            },
+            "notes": "For patients with high-risk adverse pathologic features following surgery (extranodal extension and/or positive margins) who are ineligible for platinum therapy, docetaxel/cetuximab is a category 2B option. [41]"
+        },
+        {
+            "regimen_name": "Carboplatin/Infusional Fluorouracil + Pembrolizumab (First-Line for Recurrent/Metastatic)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (First-Line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-048",
+                "phase": "III",
+                "n_patients": "882",
+                "outcomes_summary": "In the total population, OS benefit was observed in pembrolizumab/platinum/fluorouracil arm compared to EXTREME arm (median OS 13 vs 10.7 months; HR 0.77; 95% CI 0.63–0.93; P=.003). [42,696]"
+            },
+            "notes": "This combination is a category 1 preferred first-line option. No PD-L1–based selection is needed for the combination. The regimen may be particularly suitable in patients with PS 0-1 and either a large burden of disease or nearing a clinical crisis. [42]"
+        },
+        {
+            "regimen_name": "Cisplatin/Infusional Fluorouracil + Pembrolizumab (First-Line for Recurrent/Metastatic)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (First-Line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-048",
+                "phase": "III",
+                "n_patients": "882",
+                "outcomes_summary": "Same as above. [42,696]"
+            },
+            "notes": "Alternative platinum option. No PD-L1 selection needed. [42]"
+        },
+        {
+            "regimen_name": "Pembrolizumab Monotherapy (First-Line for PD-L1 CPS ≥1)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 CPS",
+                    "requirement": "≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (First-Line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-048",
+                "phase": "III",
+                "n_patients": "882",
+                "outcomes_summary": "In patients with PD-L1 CPS ≥20, median OS was 14.9 vs 10.7 months (HR 0.61; 95% CI 0.45–0.83; P<.001). In CPS ≥1, median OS was 12.3 vs 10.3 months (HR 0.78; 95% CI 0.64–0.96; P=.009). [42,696]"
+            },
+            "notes": "Pembrolizumab alone is a category 1 preferred option for patients with PD-L1 positive (CPS ≥1). CPS ≥1 is supported by KEYNOTE-048. [42]"
+        },
+        {
+            "regimen_name": "Nivolumab (Subsequent-line for Recurrent/Metastatic after Platinum Therapy)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with progression on or after platinum therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg every 2 weeks or 480 mg every 4 weeks",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks or every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Subsequent-Line)",
+            "trial_data": {
+                "trial_name": "CheckMate 141",
+                "phase": "III",
+                "n_patients": "361",
+                "outcomes_summary": "OS was significantly greater with nivolumab vs standard therapy (HR 0.70; 97.73% CI 0.51–0.96; P=.01). 1-year survival 36.0% vs 16.6%. [43,698]"
+            },
+            "notes": "Nivolumab is FDA-approved for recurrent or metastatic SCCHN with progression on or after platinum-based chemotherapy. Two FDA-approved dosing regimens: 240 mg every 2 weeks or 480 mg every 4 weeks. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [43]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (Subsequent-line for Recurrent/Metastatic after Platinum Therapy)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic with progression on or after platinum therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Subsequent-Line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-040",
+                "phase": "III",
+                "n_patients": "495",
+                "outcomes_summary": "Median OS was greater for pembrolizumab vs standard of care (8.4 vs 6.9 months; HR 0.80; 95% CI 0.65–0.98; P=.016). [44,45,46,697]"
+            },
+            "notes": "Pembrolizumab is a category 1 option for patients with recurrent or metastatic SCCHN who have progressed on or following platinum-based chemotherapy. [44,45,46]"
+        },
+        {
+            "regimen_name": "Carboplatin/Infusional Fluorouracil + Cetuximab (EXTREME regimen)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended (First-Line)",
+            "trial_data": {
+                "trial_name": "EXTREME",
+                "phase": "III",
+                "n_patients": "442",
+                "outcomes_summary": "Cetuximab plus platinum/fluorouracil improved response rate (36% vs 20%; P<.001) and median survival (10.1 vs 7.4 months; P=.04) compared to platinum/fluorouracil alone. [47,694]"
+            },
+            "notes": "This regimen is a category 1 other recommended option. [47]"
+        },
+        {
+            "regimen_name": "Cisplatin/Infusional Fluorouracil + Cetuximab (EXTREME regimen)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended (First-Line)",
+            "trial_data": {
+                "trial_name": "EXTREME",
+                "phase": "III",
+                "n_patients": "442",
+                "outcomes_summary": "Same as carboplatin version. [47]"
+            },
+            "notes": "Alternative platinum option for EXTREME. [47]"
+        },
+        {
+            "regimen_name": "Cisplatin + Cetuximab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Burtness et al. 2005",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Cisplatin plus cetuximab showed activity in recurrent/metastatic SCCHN. [48]"
+            },
+            "notes": "This is an option for combination therapy. [48]"
+        },
+        {
+            "regimen_name": "Cisplatin or Carboplatin/Docetaxel or Paclitaxel",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin or Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel or Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "E1395, Samlowski et al.",
+                "phase": "III/II",
+                "n_patients": null,
+                "outcomes_summary": "Cisplatin/paclitaxel vs cisplatin/fluorouracil showed no significant difference in survival. [49,50]"
+            },
+            "notes": "This is a combination regimen option. [49,50]"
+        },
+        {
+            "regimen_name": "Cisplatin or Carboplatin/Docetaxel + Cetuximab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin or Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "TPEx (GORTEC 2008-03)",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Cetuximab, docetaxel, and cisplatin (TPEx) as first-line treatment. [52]"
+            },
+            "notes": "Extrapolating from Guigay et al., a taxane can be considered when used in combination with pembrolizumab and a platinum. [52,704]"
+        },
+        {
+            "regimen_name": "Cisplatin or Carboplatin/Paclitaxel + Cetuximab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin or Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Option from the other recommended list. [53]"
+        },
+        {
+            "regimen_name": "Pembrolizumab + Carboplatin/Docetaxel or Carboplatin/Paclitaxel",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel or Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "KEYNOTE-B10",
+                "phase": "IV",
+                "n_patients": null,
+                "outcomes_summary": "Pembrolizumab + carboplatin + paclitaxel as first-line therapy. [54,705]"
+            },
+            "notes": "Extrapolating from KEYNOTE-B10, carboplatin/paclitaxel may be used with pembrolizumab. [42,54]"
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel + Pembrolizumab or Cisplatin/Paclitaxel + Pembrolizumab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel or Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Alternative taxane options with pembrolizumab. [42,49,50]"
+        },
+        {
+            "regimen_name": "Single Agents for Recurrent/Metastatic Disease (Capecitabine, Carboplatin, Cetuximab, Cisplatin, Docetaxel, Fluorouracil, Methotrexate, Paclitaxel)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil (infusional)",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single agents may be used for recurrent/metastatic disease. Response rates range from 15% to 35%. [55,56,57,58,59,60,61,62,63]"
+        },
+        {
+            "regimen_name": "Afatinib (Subsequent-line for Recurrent/Metastatic after Platinum Therapy)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with progression on or after platinum therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Afatinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LUX-Head & Neck 1",
+                "phase": "III",
+                "n_patients": "483",
+                "outcomes_summary": "Afatinib improved PFS vs methotrexate (2.6 vs 1.7 months; P=.03), but no significant OS difference. [64,738]"
+            },
+            "notes": "Afatinib is a category 2B option for subsequent-line therapy. [64]"
+        },
+        {
+            "regimen_name": "Cetuximab + Nivolumab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal, squamous cell carcinoma)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Chung et al. 2022",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase II multi-institutional trial showed activity. [65,707]"
+            },
+            "notes": "Cetuximab combined with an anti–PD-1 antibody is an option for recurrent or metastatic SCCHN. [65]"
+        },
+        {
+            "regimen_name": "Cetuximab + Pembrolizumab",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal, squamous cell carcinoma)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Sacco et al. 2021",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Pembrolizumab plus cetuximab showed activity in R/M SCCHN. [66,706]"
+            },
+            "notes": "Option for patients with recurrent or metastatic disease. [66]"
+        },
+        {
+            "regimen_name": "Pembrolizumab for MSI-H, dMMR, or TMB-H Tumors",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with MSI-H, dMMR, or TMB-H (≥10 mut/Mb)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI/MSI-H",
+                    "requirement": "MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "dMMR",
+                    "mandatory": true
+                },
+                {
+                    "marker": "TMB",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233",
+                "outcomes_summary": "For MSI-H/dMMR tumors, ORR 34.3% (95% CI 28.3%–40.8%), median PFS 4.1 months, median OS 23.5 months. [68,736]"
+            },
+            "notes": "FDA-approved for TMB-H (≥10 mut/Mb) solid tumors after prior treatment. [68]"
+        },
+        {
+            "regimen_name": "Cisplatin/Pemetrexed (for PS 0-1)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B option for PS 0-1. [69]"
+        },
+        {
+            "regimen_name": "Docetaxel + Cetuximab (category 2B)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B option. [52]"
+        },
+        {
+            "regimen_name": "Gemcitabine/Paclitaxel (category 2B)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B option. [70]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (PD-L1 CPS ≥20, First-Line only)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 CPS",
+                    "requirement": "≥20",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 651",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Nivolumab plus ipilimumab did not significantly improve OS compared to EXTREME regimen overall, but exploratory analysis in CPS ≥20 showed potential benefit. [71,711]"
+            },
+            "notes": "Category 2B option for PD-L1 CPS ≥20 and first-line only. [71]"
+        },
+        {
+            "regimen_name": "Enfortumab vedotin-ejfv (after platinum and PD-1/PD-L1 inhibitor)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with progression on or after platinum therapy and a PD-1/PD-L1 inhibitor",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Enfortumab vedotin-ejfv",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "EV-202",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "ORR 23.9%, DCR 56.5%, median DOR not reached. Median PFS 3.9 months, median OS 6.0 months. [72,741]"
+            },
+            "notes": "Category 2B option. [72]"
+        },
+        {
+            "regimen_name": "Erdafitinib for FGFR mutations or gene-fusion positive tumors",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with FGFR mutations or gene fusions",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erdafitinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR mutations or gene fusions",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RAGNAR",
+                "phase": "II",
+                "n_patients": "217",
+                "outcomes_summary": "ORR 30% (95% CI 24–36), including 6% complete response. Tumor burden reduction in 73% of participants. [73,742]"
+            },
+            "notes": "For FGFR mutations or gene fusion positive tumors and disease progression with at least one line of prior systemic therapy and no availability of an alternative systemic therapy. [73]"
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki (for HER2+ IHC 3+ solid tumors)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Subsequent-line for recurrent/metastatic disease with HER2+ (IHC 3+) and no satisfactory alternative treatment options",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "IHC 3+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Efficacy and safety in HER2-expressing solid tumors; <5 patients with non-salivary H&N cancers. [74,740]"
+            },
+            "notes": "Category 2B option based on less Panel consensus. [74]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine Induction (for Nasopharyngeal Carcinoma)",
+            "site": "Nasopharynx (EBV-associated and non-EBV-associated)",
+            "setting": "Induction/sequential systemic therapy for locoregionally advanced disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EBV",
+                    "requirement": "Associated for category 1",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1 for EBV-associated, Category 2A for non-EBV-associated",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Zhang et al. 2019",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Gemcitabine/cisplatin induction chemotherapy in NPC improved survival compared to cisplatin/fluorouracil. [555,577]"
+            },
+            "notes": "Preferred induction regimen for EBV-associated NPC. [1]"
+        },
+        {
+            "regimen_name": "Dose-Adjusted Cisplatin/Docetaxel/Infusional Fluorouracil (Induction for Nasopharyngeal Carcinoma)",
+            "site": "Nasopharynx (EBV-associated and non-EBV-associated)",
+            "setting": "Induction/sequential systemic therapy for locoregionally advanced disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified (dose-adjusted)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified (dose-adjusted)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional, dose-adjusted)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EBV",
+                    "requirement": "Associated for category 1",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1 for EBV-associated, Category 2A for non-EBV-associated",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Sun et al. 2016, Chen et al. 2018",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Dose-modified TPF induction improves outcomes in locoregionally advanced NPC. [2,3,4,576]"
+            },
+            "notes": "Dose-adjusted TPF is a preferred induction option for NPC. [2,3,4]"
+        },
+        {
+            "regimen_name": "Cisplatin + RT followed by Cisplatin/Infusional Fluorouracil (Nasopharyngeal Carcinoma)",
+            "site": "Nasopharynx",
+            "setting": "Concurrent systemic therapy/RT followed by adjuvant chemotherapy for locoregionally advanced disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT and then in adjuvant"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Adjuvant"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70-70.2 Gy (1.8-2.0 Gy/fraction)",
+                    "route": "External beam (IMRT recommended)",
+                    "schedule": "Daily Monday–Friday, 7-8 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (Systemic Therapy/RT Followed by Adjuvant Chemotherapy)",
+            "trial_data": {
+                "trial_name": "Intergroup 0099, Chan et al. 2005",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Concurrent cisplatin/RT plus adjuvant PF improved survival compared to RT alone. [7,10,348,543]"
+            },
+            "notes": "This is the preferred regimen for concurrent therapy/RT followed by adjuvant chemotherapy. [7,10]"
+        },
+        {
+            "regimen_name": "Cisplatin + RT followed by Carboplatin/Infusional Fluorouracil (Nasopharyngeal Carcinoma)",
+            "site": "Nasopharynx",
+            "setting": "Concurrent systemic therapy/RT followed by adjuvant chemotherapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Adjuvant"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Adjuvant"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70-70.2 Gy",
+                    "route": "External beam",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Alternative adjuvant regimen. [11]"
+        },
+        {
+            "regimen_name": "Carboplatin + RT followed by Carboplatin/Infusional Fluorouracil (if Cisplatin ineligible/intolerant)",
+            "site": "Nasopharynx",
+            "setting": "Concurrent systemic therapy/RT followed by adjuvant chemotherapy for cisplatin-ineligible patients",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT and then adjuvant"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Adjuvant"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "70-70.2 Gy",
+                    "route": "External beam",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Useful if cisplatin ineligible or intolerant. [8,13,580]"
+        },
+        {
+            "regimen_name": "Cisplatin + RT followed by Capecitabine ± Induction Chemotherapy (for EBV-associated disease, T4,N1–3 or any T,N2–3)",
+            "site": "Nasopharynx (EBV-associated)",
+            "setting": "Adjuvant therapy following concurrent chemoradiation ± induction",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Concurrent with RT"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "Metronomic dose (not specified)",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "Not specified",
+                    "route": "External beam",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EBV",
+                    "requirement": "Associated disease",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Chen et al. 2021, Miao et al. 2022",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Metronomic capecitabine as adjuvant therapy improved survival in locoregionally advanced NPC. [14,15,568]"
+            },
+            "notes": "In a randomized phase 3 trial, 77% of patients who received metronomic capecitabine received induction chemotherapy prior to cisplatin/RT. [14,15]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + Toripalimab-tpzi (First-Line for Recurrent/Metastatic Nasopharyngeal Carcinoma)",
+            "site": "Nasopharynx (EBV-associated)",
+            "setting": "First-line for recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Toripalimab-tpzi",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (First-Line)",
+            "trial_data": {
+                "trial_name": "JUPITER-02",
+                "phase": "III",
+                "n_patients": "289",
+                "outcomes_summary": "PFS (HR 0.52) and OS (HR 0.63) were significantly greater in toripalimab arm (median PFS 21.4 months, median OS not reached) vs placebo (median PFS 8.2 months, median OS 33.7 months). [18,604]"
+            },
+            "notes": "Toripalimab-tpzi is a category 1 preferred option for first-line treatment of recurrent or metastatic NPC. [18]"
+        },
+        {
+            "regimen_name": "Toripalimab-tpzi Monotherapy (Subsequent-line for Recurrent/Metastatic NPC after Platinum)",
+            "site": "Nasopharynx",
+            "setting": "Subsequent-line for recurrent/metastatic disease with progression on or after platinum-containing therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Toripalimab-tpzi",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (Subsequent-Line)",
+            "trial_data": {
+                "trial_name": "POLARIS-02",
+                "phase": "II",
+                "n_patients": "190",
+                "outcomes_summary": "ORR 20.5%, median DOR 12.8 months, median PFS 1.9 months, median OS 17.4 months. [19,605]"
+            },
+            "notes": "Toripalimab-tpzi is a preferred option for disease progression on or after platinum-containing therapy. [19]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine (First-Line for Recurrent/Metastatic NPC)",
+            "site": "Nasopharynx",
+            "setting": "First-line for recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended (First-Line)",
+            "trial_data": {
+                "trial_name": "GEM20110714",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Gemcitabine plus cisplatin demonstrated survival advantage over fluorouracil plus cisplatin as first-line therapy for recurrent or metastatic NPC. [20,21,585,586]"
+            },
+            "notes": "Category 1 option for first-line therapy. [20,21]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + other PD-1 inhibitor (eg, Pembrolizumab or Nivolumab)",
+            "site": "Nasopharynx",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Pembrolizumab or Nivolumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "RATIONALE-309, CAPTAIN-1st",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "PFS benefit with tislelizumab plus GC vs placebo (9.6 vs 7.4 months; HR 0.50). Camrelizumab plus GC showed PFS benefit (9.7 vs 6.9 months; HR 0.54). [22,23,29,569,608]"
+            },
+            "notes": "Other PD-1 inhibitors may be used in combination with GC. [18,22,23]"
+        },
+        {
+            "regimen_name": "Cisplatin/Infusional Fluorouracil (First-Line for Recurrent/Metastatic NPC)",
+            "site": "Nasopharynx",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Not specified (infusional)",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "E1395, Forastiere et al.",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Cisplatin/fluorouracil as first-line therapy. [24,25]"
+            },
+            "notes": "Standard option. [24,25]"
+        },
+        {
+            "regimen_name": "Nivolumab (Subsequent-line for Non-keratinizing NPC)",
+            "site": "Nasopharynx (non-keratinizing disease)",
+            "setting": "Subsequent-line for recurrent/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended (Subsequent-Line)",
+            "trial_data": {
+                "trial_name": "CheckMate 358, NCI-9742",
+                "phase": "I/II, II",
+                "n_patients": "24, 44",
+                "outcomes_summary": "CheckMate 358: ORR 20.8%, DCR 45.8%. NCI-9742: ORR 20.5%, 1-year OS 59%, 1-year PFS 19.3%. [39,40,611,613]"
+            },
+            "notes": "Category 2B option for previously treated, recurrent or metastatic non-keratinizing NPC. [39,40]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (Subsequent-line for PD-L1–positive Recurrent/Metastatic NPC)",
+            "site": "Nasopharynx (PD-L1–positive disease)",
+            "setting": "Subsequent-line for recurrent/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended (Subsequent-Line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-028",
+                "phase": "Ib",
+                "n_patients": "27",
+                "outcomes_summary": "ORR 26% (all partial responses), median DOR 17.1 months, 6-month OS 85%, 12-month OS 63%. [41,609]"
+            },
+            "notes": "Category 2B option for previously treated PD-L1–positive recurrent or metastatic NPC. [41]"
+        },
+        {
+            "regimen_name": "Carboplatin/Gemcitabine + Penpulimab-kcqx (if non-keratinizing disease)",
+            "site": "Nasopharynx (non-keratinizing)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Penpulimab-kcqx",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Non-keratinizing",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "AK105-304",
+                "phase": "III",
+                "n_patients": null,
+                "outcomes_summary": "Penpulimab plus chemotherapy as first-line treatment. [28]"
+            },
+            "notes": "Category 2B for non-keratinizing disease. [28]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + Penpulimab-kcqx (if non-keratinizing disease)",
+            "site": "Nasopharynx (non-keratinizing)",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Penpulimab-kcqx",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Non-keratinizing",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Category 2B for non-keratinizing disease. [28]"
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + Tislelizumab-jsgr (First-Line for Recurrent/Metastatic NPC)",
+            "site": "Nasopharynx",
+            "setting": "First-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "RATIONALE-309",
+                "phase": "III",
+                "n_patients": "263",
+                "outcomes_summary": "PFS significantly greater with tislelizumab vs placebo (9.6 vs 7.4 months; HR 0.50). [29,569]"
+            },
+            "notes": "Category 2B option. [29]"
+        },
+        {
+            "regimen_name": "Single Agents for Recurrent/Metastatic NPC (Capecitabine, Carboplatin, Cisplatin, Docetaxel, Fluorouracil, Gemcitabine, Methotrexate, Paclitaxel)",
+            "site": "Nasopharynx",
+            "setting": "First-line or subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Fluorouracil (infusional)",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Single agents may be used. [30,31,32,33,34,35,36,37,38]"
+        },
+        {
+            "regimen_name": "Pembrolizumab (for TMB-H Tumors [≥10 mut/Mb], Recurrent/Metastatic NPC)",
+            "site": "Nasopharynx (TMB-H tumors)",
+            "setting": "Subsequent-line for recurrent/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Pembrolizumab for TMB-H tumors showed efficacy in basket trial (no NPC patients specifically). [44,610]"
+            },
+            "notes": "Option for TMB-H tumors. [44]"
+        },
+        {
+            "regimen_name": "Carboplatin/Gemcitabine (Salivary Gland Tumors)",
+            "site": "Salivary gland tumors",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Laurie et al. 2010",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase 2 study showing activity in advanced salivary gland cancer. [1,799]"
+            },
+            "notes": "One of the other recommended chemotherapy combinations. [1]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (Salivary Gland Tumors)",
+            "site": "Salivary gland tumors",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Option for salivary gland tumors. [2,3]"
+        },
+        {
+            "regimen_name": "Cisplatin/Vinorelbine (Salivary Gland Tumors)",
+            "site": "Salivary gland tumors",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Option for salivary gland tumors. [4]"
+        },
+        {
+            "regimen_name": "Paclitaxel Monotherapy (Salivary Gland Tumors – Non-ACC)",
+            "site": "Salivary gland tumors (non-adenoid cystic carcinoma)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A for non-ACC; Category 2B for ACC",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "E1394",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase II trial of paclitaxel in salivary gland malignancies; ORR 26% for mucoepidermoid or adenocarcinoma; no responses in ACC. [5,801]"
+            },
+            "notes": "Category 2A for non-ACC, category 2B for ACC. [5]"
+        },
+        {
+            "regimen_name": "Cisplatin/Cyclophosphamide/Doxorubicin (Salivary Gland Tumors)",
+            "site": "Salivary gland tumors",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Category 2B option. [6]"
+        },
+        {
+            "regimen_name": "Androgen Receptor Therapy for AR+ Salivary Gland Tumors (Abiraterone/Prednisone/LHRH agonist, Bicalutamide, Leuprolide, Goserelin)",
+            "site": "Salivary gland tumors (AR+)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "hormonal therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Abiraterone",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "LHRH agonist (Triptorelin, Leuprolide, or Goserelin)",
+                    "dose": "Not specified",
+                    "route": "SC/IM",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Bicalutamide",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Leuprolide",
+                    "dose": "Not specified",
+                    "route": "IM/SC",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Goserelin",
+                    "dose": "Not specified",
+                    "route": "SC",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Androgen receptor (AR)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A (category 2B for Goserelin)",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Locati et al. 2021, Fushimi et al. 2018",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Abiraterone showed activity in castration-resistant AR-expressing salivary gland cancer. Combined androgen blockade showed activity. [7,8,9,10,11,12,780,781,782,783]"
+            },
+            "notes": "The Panel recommends that patients with AR+ tumors receive androgen receptor therapy. [7,8,9,10,11,12]"
+        },
+        {
+            "regimen_name": "Entrectinib (for NTRK1/2/3 gene fusion-positive salivary gland tumors)",
+            "site": "Salivary gland tumors (NTRK gene fusion-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Doebele et al. 2020",
+                "phase": "I/II",
+                "n_patients": "54 (13% salivary gland)",
+                "outcomes_summary": "ORR 57.4% for entrectinib in NTRK fusion-positive tumors. [13,777]"
+            },
+            "notes": "Entrectinib is FDA-approved for NTRK gene fusion-positive tumors. [13]"
+        },
+        {
+            "regimen_name": "Larotrectinib (for NTRK1/2/3 gene fusion-positive salivary gland tumors)",
+            "site": "Salivary gland tumors (NTRK gene fusion-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Drilon et al. 2018, Hong et al. 2019",
+                "phase": "I/II",
+                "n_patients": null,
+                "outcomes_summary": "ORR 75-100% in NTRK fusion-positive tumors (22-38% salivary gland). [14,15,775,776]"
+            },
+            "notes": "Larotrectinib is FDA-approved for NTRK gene fusion-positive tumors. [14,15]"
+        },
+        {
+            "regimen_name": "Repotrectinib (for NTRK1/2/3 gene fusion-positive salivary gland tumors)",
+            "site": "Salivary gland tumors (NTRK gene fusion-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "I/II",
+                "n_patients": "88 (12.5% salivary gland)",
+                "outcomes_summary": "ORR 58% in TRK TKI-naïve, 50% in previously treated. [16,784]"
+            },
+            "notes": "FDA-approved for NTRK fusion-positive tumors. [16]"
+        },
+        {
+            "regimen_name": "Ado-trastuzumab emtansine (TDM-1) for HER2+ Salivary Gland Tumors",
+            "site": "Salivary gland tumors (HER2+)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ado-trastuzumab emtansine (T-DM1)",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH subprotocol Q",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "T-DM1 in HER2-amplified tumors (excluding breast/GEJ) showed activity. [17,788]"
+            },
+            "notes": "Option for HER2+ salivary gland tumors. [17]"
+        },
+        {
+            "regimen_name": "Docetaxel + Trastuzumab for HER2+ Salivary Duct Carcinoma",
+            "site": "Salivary gland tumors (HER2+ salivary duct carcinoma)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Trastuzumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Takahashi et al. 2019",
+                "phase": "II",
+                "n_patients": "57",
+                "outcomes_summary": "ORR 70.2% (95% CI 56.6%–81.6%), median PFS 8.9 months, median OS 39.7 months. [18,789]"
+            },
+            "notes": "Trastuzumab combined with docetaxel is active in HER2-positive salivary duct carcinoma. [18]"
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki for HER2+ Salivary Gland Tumors",
+            "site": "Salivary gland tumors (HER2+)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive (IHC 3+)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MYTHOS trial, Bando et al.",
+                "phase": "II, I",
+                "n_patients": "17 (pooled), 9 (MYTHOS)",
+                "outcomes_summary": "Pooled ORR 47% (all partial responses). MYTHOS trial ongoing. [19,791,792,794]"
+            },
+            "notes": "Option for HER2-positive salivary duct carcinoma. [19]"
+        },
+        {
+            "regimen_name": "Pertuzumab + Trastuzumab for HER2+ Salivary Gland Tumors",
+            "site": "Salivary gland tumors (HER2+)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pertuzumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Trastuzumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MyPathway",
+                "phase": "IIa",
+                "n_patients": "16",
+                "outcomes_summary": "ORR 60%, median DOR 9.2 months. [20,790]"
+            },
+            "notes": "Pertuzumab + trastuzumab is active in HER2-positive salivary gland cancers. [20]"
+        },
+        {
+            "regimen_name": "Trastuzumab Monotherapy for HER2+ Salivary Gland Tumors",
+            "site": "Salivary gland tumors (HER2+)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trastuzumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Thorpe et al. 2017",
+                "phase": null,
+                "n_patients": "2",
+                "outcomes_summary": "Significant and durable clinical benefit from trastuzumab in 2 patients with HER2-amplified salivary gland cancer. [21,786]"
+            },
+            "notes": "Trastuzumab monotherapy may be considered. [21]"
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib for BRAF V600E-positive Salivary Gland Tumors",
+            "site": "Salivary gland tumors (BRAF V600E-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E",
+                    "requirement": "Mutation positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Lin et al. 2018",
+                "phase": null,
+                "n_patients": null,
+                "outcomes_summary": "Case report of first-line treatment of widely metastatic BRAF-mutated salivary duct carcinoma with combined BRAF and MEK inhibition. [22,778]"
+            },
+            "notes": "FDA-approved for all advanced BRAF V600E-mutated tumors. [22]"
+        },
+        {
+            "regimen_name": "Pembrolizumab for MSI-H, dMMR, TMB-H, or PD-L1-positive Salivary Gland Tumors",
+            "site": "Salivary gland tumors (with MSI-H, dMMR, TMB-H, or PD-L1-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg every 3 weeks or 400 mg every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI/MSI-H",
+                    "requirement": "MSI-H",
+                    "mandatory": true
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "dMMR",
+                    "mandatory": true
+                },
+                {
+                    "marker": "TMB",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": true
+                },
+                {
+                    "marker": "PD-L1",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233 (3 salivary gland with TMB-H, 2 with MSI-H)",
+                "outcomes_summary": "For MSI-H/dMMR: ORR 34.3%. For TMB-H: ORR 29% (including salivary gland). [23,610,736]"
+            },
+            "notes": "Pembrolizumab is an option for patients with previously treated TMB-H, MSI-H/dMMR recurrent, unresectable, or metastatic salivary gland cancer. [23]"
+        },
+        {
+            "regimen_name": "Selpercatinib for RET gene fusion-positive Salivary Gland Tumors",
+            "site": "Salivary gland tumors (RET gene fusion-positive)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "I/II",
+                "n_patients": "4 salivary gland",
+                "outcomes_summary": "ORR 50% for salivary gland tumors (independent review). [24,779]"
+            },
+            "notes": "FDA-approved for all locally advanced or metastatic RET gene fusion-positive solid tumors. [24]"
+        },
+        {
+            "regimen_name": "Erdafitinib for FGFR mutations or gene fusion-positive Salivary Gland Tumors",
+            "site": "Salivary gland tumors (FGFR mutations or gene fusions)",
+            "setting": "Recurrent, unresectable, or metastatic disease with progression on at least one line of prior systemic therapy and no alternative systemic therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erdafitinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR mutations or gene fusions",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RAGNAR",
+                "phase": "II",
+                "n_patients": "5 salivary gland",
+                "outcomes_summary": "100% ORR and DCR for salivary gland tumors. [25,742]"
+            },
+            "notes": "Category 2B option. [25]"
+        },
+        {
+            "regimen_name": "Axitinib (category 2B) for Salivary Gland Tumors",
+            "site": "Salivary gland tumors",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Locati et al. 2019",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase II trial with axitinib in recurrent/metastatic salivary gland cancers. [26,802]"
+            },
+            "notes": "Category 2B option. [26]"
+        },
+        {
+            "regimen_name": "Axitinib + Avelumab for Adenoid Cystic Carcinoma (category 2B)",
+            "site": "Salivary gland tumors (adenoid cystic carcinoma)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Avelumab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Ferrarotto et al. 2023",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase II clinical trial of axitinib and avelumab in recurrent/metastatic adenoid cystic carcinoma. [27,804]"
+            },
+            "notes": "Category 2B option for ACC. [27]"
+        },
+        {
+            "regimen_name": "Lenvatinib for Adenoid Cystic Carcinoma (category 2B)",
+            "site": "Salivary gland tumors (adenoid cystic carcinoma)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Tchekmedyian et al. 2019, Locati et al. 2020",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "DCR 88% (partial response 11.5-15.6%, stable disease 75-76.9%). [28,807,808]"
+            },
+            "notes": "Category 2B option for ACC. [28]"
+        },
+        {
+            "regimen_name": "Sorafenib for Adenoid Cystic Carcinoma (category 2B)",
+            "site": "Salivary gland tumors (adenoid cystic carcinoma)",
+            "setting": "Recurrent, unresectable, or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Thomson et al. 2015",
+                "phase": "II",
+                "n_patients": null,
+                "outcomes_summary": "Phase II trial of sorafenib in advanced salivary adenoid cystic carcinoma. [29,803]"
+            },
+            "notes": "Category 2B option. [29]"
+        },
+        {
+            "regimen_name": "Platinum-based chemoradiation for select ethmoid/maxillary sinus cancers (small cell, SNEC, high-grade olfactory esthesioneuroblastoma, SNUC with neuroendocrine features)",
+            "site": "Ethmoid sinus, Maxillary sinus (select histologies: small cell, SNEC, high-grade esthesioneuroblastoma, SNUC with neuroendocrine features)",
+            "setting": "First-line systemic therapy + concurrent RT for locoregionally advanced disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin or Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "Not specified",
+                    "route": "External beam",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances (Primary Systemic Therapy + Concurrent RT)",
+            "trial_data": {},
+            "notes": "For select ethmoid/maxillary sinus cancers. [18,19]"
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Doxorubicin/Vincristine (for select ethmoid/maxillary sinus cancers)",
+            "site": "Ethmoid sinus, Maxillary sinus (select histologies: small cell, SNEC, high-grade esthesioneuroblastoma, SNUC with neuroendocrine features)",
+            "setting": "Induction/neoadjuvant for advanced disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For select histologies. [30]"
+        },
+        {
+            "regimen_name": "Adjuvant Nivolumab (for mucosal melanoma, category 2B)",
+            "site": "Mucosal melanoma (head and neck)",
+            "setting": "Adjuvant therapy after resection",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified (IV) or nivolumab and hyaluronidase-nvhy subcutaneous",
+                    "route": "IV or SC",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "While adjuvant systemic therapy may be used for mucosal melanoma, data to support its use are far fewer than for cutaneous melanoma. Options may include nivolumab (category 2B) or cisplatin/temozolomide (category 2B). Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [k]"
+        },
+        {
+            "regimen_name": "Cisplatin/Temozolomide (Adjuvant for mucosal melanoma, category 2B)",
+            "site": "Mucosal melanoma (head and neck)",
+            "setting": "Adjuvant therapy after resection",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified",
+                    "route": "PO",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Lian et al. 2022",
+                "phase": "III",
+                "n_patients": "204",
+                "outcomes_summary": "Adjuvant temozolomide plus cisplatin significantly improved relapse-free survival (15.5 vs 9.9 months; HR 0.622; P=.001) and distant metastasis-free survival (19.5 vs 12.7 months; HR 0.705; P=.025) compared to high-dose interferon alpha-2b. [838]"
+            },
+            "notes": "Category 2B option for adjuvant therapy in resected mucosal melanoma. [k]"
+        },
+        {
+            "regimen_name": "Cisplatin + Reirradiation with Concurrent Systemic Therapy (for recurrent/persistent disease with prior RT)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx, Nasopharynx",
+            "setting": "Reirradiation with concurrent systemic therapy for locoregional recurrence with prior RT",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Radiation therapy (reirradiation)",
+                    "dose": "Conventional fractionation: 56-60 Gy (postoperative) or 66-70 Gy (definitive); Accelerated: 60-70 Gy at 1.2-1.5 Gy/fraction twice daily; Hyperfractionation for NPC: 64.8 Gy in 54 fractions twice daily",
+                    "route": "External beam (IMRT, PBT, or SBRT)",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (Reirradiation + Concurrent Systemic Therapy for non-nasopharyngeal)",
+            "trial_data": {},
+            "notes": "Reirradiation strategies can be considered for patients who develop locoregional recurrent or persistent disease or second primaries at ≥6 months after initial radiotherapy, can receive additional doses of at least 60 Gy, and can tolerate concurrent chemotherapy. When concurrent systemic therapy is given with conventionally fractionated reirradiation, cisplatin with concurrent RT is the preferred option. [7,33]"
+        },
+        {
+            "regimen_name": "Weekly Carboplatin + Concurrent RT (following induction therapy or for recurrent/persistent disease)",
+            "site": "Oral cavity, Oropharynx, Hypopharynx, Larynx (non-nasopharyngeal)",
+            "setting": "Systemic therapy/RT following induction therapy, or combination chemotherapy for recurrent/persistent disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Weekly dosing",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "Not specified",
+                    "route": "External beam",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred for this setting",
+            "trial_data": {},
+            "notes": "Weekly carboplatin is a reasonable agent to use with RT in patients previously treated with induction chemotherapy. [31,32]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.890328"
+}

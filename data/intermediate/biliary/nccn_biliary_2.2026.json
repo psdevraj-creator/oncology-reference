@@ -1,0 +1,3318 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Capecitabine monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "BILCAP",
+                "phase": "III",
+                "n_patients": "447",
+                "os": "51.1 months for capecitabine vs. 36.4 months for observation (per-protocol analysis)",
+                "pfs": null,
+                "hr": "0.75 (95% CI, 0.58-0.97; P=0.028) for OS in per-protocol analysis",
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Adjuvant therapy up to 6 months. Based on the phase III BILCAP study showing improved overall survival in the per-protocol analysis. The intent-to-treat analysis did not reach statistical significance. [2]",
+            "source_citation": {
+                "reference_numbers": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "This regimen is commonly followed by chemoradiation in instances where the combination of chemotherapy and chemoradiation is recommended. Limited clinical trial data; extrapolated from advanced disease settings. [3]",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "If a patient is ineligible for cisplatin, carboplatin may be used. Extrapolated from metastatic setting data. [4]",
+            "source_citation": {
+                "reference_numbers": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Single-agent fluoropyrimidine option. Limited data in adjuvant setting. [250]",
+            "source_citation": {
+                "reference_numbers": [
+                    "250"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Single-agent gemcitabine option. Phase III trials did not show significant benefit in adjuvant setting. [245,246]",
+            "source_citation": {
+                "reference_numbers": [
+                    "245",
+                    "246"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine with Concurrent Radiation",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant or Unresectable",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Used as a radiosensitizer with concurrent radiation therapy. Limited clinical trial data; participation in clinical trials encouraged. [260,265]",
+            "source_citation": {
+                "reference_numbers": [
+                    "260",
+                    "265"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil with Concurrent Radiation",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Adjuvant or Unresectable",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Used as a radiosensitizer with concurrent radiation therapy. Limited clinical trial data. [316,317]",
+            "source_citation": {
+                "reference_numbers": [
+                    "316",
+                    "317"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine plus Durvalumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TOPAZ-1",
+                "phase": "III",
+                "n_patients": "685",
+                "os": "12.9 months for durvalumab vs. 11.3 months for placebo",
+                "pfs": "HR 0.75 (95% CI, 0.63-0.89; P=0.001)",
+                "hr": "0.80 (95% CI, 0.66-0.97; P=0.021) for OS",
+                "ci": "95% CI, 0.66-0.97",
+                "orr": "26.7% for durvalumab vs. 18.7% for placebo"
+            },
+            "notes": "First-line preferred regimen. If cisplatin ineligible, carboplatin may be used. Also recommended for recurrent disease >6 months after surgery and adjuvant therapy. Monitor for immune-related adverse events. [5]",
+            "source_citation": {
+                "reference_numbers": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine plus Pembrolizumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-966",
+                "phase": "III",
+                "n_patients": "1069",
+                "os": "12.7 months for pembrolizumab vs. 10.9 months for placebo",
+                "pfs": "HR 0.86 (95% CI, 0.75-1.00; P=0.023) at first interim analysis",
+                "hr": "0.83 (95% CI, 0.72-0.95; P=0.0034) for OS",
+                "ci": "95% CI, 0.72-0.95",
+                "orr": "29% in both groups"
+            },
+            "notes": "First-line preferred regimen. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. If cisplatin ineligible, carboplatin may be used. [6]",
+            "source_citation": {
+                "reference_numbers": [
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "ABC-02",
+                "phase": "III",
+                "n_patients": "410",
+                "os": "11.7 months for cisplatin/gemcitabine vs. 8.1 months for gemcitabine alone",
+                "pfs": "8.0 months vs. 5.0 months",
+                "hr": "0.64 (95% CI, 0.52-0.80; P<0.001) for OS",
+                "ci": "95% CI, 0.52-0.80",
+                "orr": null
+            },
+            "notes": "Standard first-line chemotherapy. If cisplatin ineligible, carboplatin may be used. [7]",
+            "source_citation": {
+                "reference_numbers": [
+                    "7"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Based on phase II trial data in cholangiocarcinoma. [301]",
+            "source_citation": {
+                "reference_numbers": [
+                    "301"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine/Gemcitabine",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Based on phase II trial data. [297,298,299,300]",
+            "source_citation": {
+                "reference_numbers": [
+                    "297",
+                    "298",
+                    "299",
+                    "300"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine/Oxaliplatin",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Based on phase III non-inferiority trial compared to GEMOX. [307]",
+            "source_citation": {
+                "reference_numbers": [
+                    "307"
+                ]
+            }
+        },
+        {
+            "regimen_name": "FOLFOX (Leucovorin/Fluorouracil/Oxaliplatin)",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Based on phase II data. Also a preferred subsequent-line option. [303,304,305,306]",
+            "source_citation": {
+                "reference_numbers": [
+                    "303",
+                    "304",
+                    "305",
+                    "306"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine/Oxaliplatin",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Based on phase II trial data. [292,293,294,295]",
+            "source_citation": {
+                "reference_numbers": [
+                    "292",
+                    "293",
+                    "294",
+                    "295"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Single-agent option based on phase II data. [297,298,299,300]",
+            "source_citation": {
+                "reference_numbers": [
+                    "297",
+                    "298",
+                    "299",
+                    "300"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Single-agent option based on historical data. [270,277]",
+            "source_citation": {
+                "reference_numbers": [
+                    "270",
+                    "277"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Single-agent option based on phase III data (ABC-02). [189]",
+            "source_citation": {
+                "reference_numbers": [
+                    "189"
+                ]
+            }
+        },
+        {
+            "regimen_name": "FOLFOX (Leucovorin/Fluorouracil/Oxaliplatin)",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ABC-06",
+                "phase": "III",
+                "n_patients": "162",
+                "os": "6.2 months for FOLFOX vs. 5.3 months for active symptom control",
+                "pfs": null,
+                "hr": "0.69 (adjusted; P=0.031) for OS",
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred subsequent-line regimen after progression on gemcitabine-based chemotherapy. [8]",
+            "source_citation": {
+                "reference_numbers": [
+                    "8"
+                ]
+            }
+        },
+        {
+            "regimen_name": "FOLFIRI (Leucovorin/Fluorouracil/Irinotecan)",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": null,
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": "5 months (95% CI, 2.77-7.20 months)",
+                "pfs": "1.7 months (95% CI, 0.66-2.67 months)",
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Subsequent-line option based on phase II data. [9,281,282]",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "281",
+                    "282"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin/Liposomal Irinotecan",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Liposomal Irinotecan",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NIFTY",
+                "phase": "IIb",
+                "n_patients": "175",
+                "os": null,
+                "pfs": "4.2 months for liposomal irinotecan vs. 1.7 months for fluorouracil/leucovorin",
+                "hr": "0.61 (P=0.004)",
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Subsequent-line option for patients with disease progression on gemcitabine and cisplatin. Based on pooled analysis of NIFTY and NALIRICC trials. [10,11,12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "10",
+                    "11",
+                    "12"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "REACHIN",
+                "phase": "II",
+                "n_patients": null,
+                "os": "5.3 months for regorafenib vs. 5.1 months for placebo",
+                "pfs": "3.0 months vs. 1.5 months",
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Subsequent-line option for patients with chemotherapy-refractory disease. [14,400]",
+            "source_citation": {
+                "reference_numbers": [
+                    "14",
+                    "400"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab monotherapy",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II",
+                "n_patients": "46",
+                "os": "14.2 months (95% CI, 6.0 months-not reached)",
+                "pfs": "3.7 months (95% CI, 2.3-5.7 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "11% (blinded independent central review)"
+            },
+            "notes": "Subsequent-line option for patients without prior checkpoint inhibitor therapy. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. [15,343]",
+            "source_citation": {
+                "reference_numbers": [
+                    "15",
+                    "343"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For NTRK gene fusion-positive tumors. FDA-approved for tumor-agnostic indication. Response rates of 57-75% in pre-treated tumors. [16,17]",
+            "source_citation": {
+                "reference_numbers": [
+                    "16",
+                    "17"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For NTRK gene fusion-positive tumors. FDA-approved for tumor-agnostic indication. Should not be used if progression on prior NTRK inhibitors. [18]",
+            "source_citation": {
+                "reference_numbers": [
+                    "18"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "I/II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "50% in tyrosine kinase inhibitor-pretreated patients"
+            },
+            "notes": "For NTRK gene fusion-positive tumors. Option if progression on prior TRK inhibitors. [19]",
+            "source_citation": {
+                "reference_numbers": [
+                    "19"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "22 with CCA",
+                "os": "24.3 months (95% CI, 6.5 months-not reached)",
+                "pfs": "4.2 months (95% CI, 2.1 months-not reached)",
+                "hr": null,
+                "ci": null,
+                "orr": "40.9% (95% CI, 20.7-63.6%)"
+            },
+            "notes": "For MSI-H/dMMR tumors. Also for TMB-H tumors in subsequent-line. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Limited data in first-line setting. [20,21,22,23]",
+            "source_citation": {
+                "reference_numbers": [
+                    "20",
+                    "21",
+                    "22",
+                    "23"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "I",
+                "n_patients": null,
+                "os": "not reached",
+                "pfs": "7.1 months",
+                "hr": null,
+                "ci": null,
+                "orr": "43.1% (95% CI, 36.2-50.2%)"
+            },
+            "notes": "For MSI-H/dMMR tumors that have progressed on prior treatment and have no satisfactory alternatives. Not for use after prior checkpoint inhibitor therapy. [29]",
+            "source_citation": {
+                "reference_numbers": [
+                    "29"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab/Nivolumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 848",
+                "phase": "II",
+                "n_patients": null,
+                "os": "15.0 months for nivolumab/ipilimumab vs. 14.6 months for nivolumab in tTMB-H tumors",
+                "pfs": "5.7 months vs. 2.8 months",
+                "hr": null,
+                "ci": null,
+                "orr": "38.6% (95% CI, 28.4-49.6%)"
+            },
+            "notes": "For TMB-H tumors. In subsequent-line, for patients with disease refractory to standard therapies or no standard options. [24,342]",
+            "source_citation": {
+                "reference_numbers": [
+                    "24",
+                    "342"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab for TMB-H",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "102 with TMB-H tumors",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "29% (95% CI, 21-39%)"
+            },
+            "notes": "For TMB-H tumors in subsequent-line. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. [30,332]",
+            "source_citation": {
+                "reference_numbers": [
+                    "30",
+                    "332"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "II",
+                "n_patients": "43",
+                "os": "14 months (95% CI, 10-33 months)",
+                "pfs": "9 months (95% CI, 5-10 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "51% (95% CI, 36-67%)"
+            },
+            "notes": "For BRAF V600E-mutated tumors. FDA-approved for tumor-agnostic indication. [31,32,345,349]",
+            "source_citation": {
+                "reference_numbers": [
+                    "31",
+                    "32",
+                    "345",
+                    "349"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 overexpression (IHC3+)",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "II",
+                "n_patients": "16 with BTC and HER2 IHC3+",
+                "os": "12.4 months",
+                "pfs": "7.4 months",
+                "hr": null,
+                "ci": null,
+                "orr": "56.3%"
+            },
+            "notes": "For HER2-positive tumors (IHC3+). Antibody-drug conjugate. [33,374,375]",
+            "source_citation": {
+                "reference_numbers": [
+                    "33",
+                    "374",
+                    "375"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pertuzumab/Trastuzumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pertuzumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Trastuzumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 amplification/overexpression",
+                    "requirement": "IHC3+/ISH+/NGS+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MyPathway",
+                "phase": "IIa",
+                "n_patients": "39",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "23% (95% CI, 11-39%)"
+            },
+            "notes": "For HER2-positive tumors. Dual HER2 blockade. [34,377,378]",
+            "source_citation": {
+                "reference_numbers": [
+                    "34",
+                    "377",
+                    "378"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Tucatinib/Trastuzumab",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tucatinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Trastuzumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 amplification/overexpression",
+                    "requirement": "IHC3+/ISH+/NGS+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SGNTUC-019",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "46.7% (90% CI, 30.8-63.0%)"
+            },
+            "notes": "For HER2-positive tumors. Oral tyrosine kinase inhibitor with trastuzumab. [35,380]",
+            "source_citation": {
+                "reference_numbers": [
+                    "35",
+                    "380"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Zanidatamab-hrii",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Zanidatamab-hrii",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 amplification/overexpression",
+                    "requirement": "IHC3+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "HERIZON-BTC-01",
+                "phase": "IIb",
+                "n_patients": null,
+                "os": null,
+                "pfs": "5.5 months (95% CI, 3.7-7.2 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "41.3% (95% CI, 30.4-52.8%)"
+            },
+            "notes": "For HER2-positive tumors (IHC3+). Bispecific antibody. [36,381]",
+            "source_citation": {
+                "reference_numbers": [
+                    "36",
+                    "381"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "I/II",
+                "n_patients": "41 with non-lung/thyroid tumors",
+                "os": null,
+                "pfs": "5.5 months (90% CI, 3.9-8.1 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "43.9% (95% CI, 28.5-60.3%)"
+            },
+            "notes": "For RET gene fusion-positive tumors. One patient with CCA had an objective response. [26,398]",
+            "source_citation": {
+                "reference_numbers": [
+                    "26",
+                    "398"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pralsetinib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pralsetinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ARROW",
+                "phase": "I/II",
+                "n_patients": "3 with CCA",
+                "os": "14 months",
+                "pfs": "7 months",
+                "hr": null,
+                "ci": null,
+                "orr": "57% (95% CI, 35-77%) in non-lung/thyroid tumors"
+            },
+            "notes": "For RET gene fusion-positive tumors. Limited data in CCA. [25,391]",
+            "source_citation": {
+                "reference_numbers": [
+                    "25",
+                    "391"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Adagrasib",
+            "site": "Biliary tract cancers (gallbladder cancer, intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma)",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KRYSTAL-1",
+                "phase": "II",
+                "n_patients": "12 with BTC",
+                "os": "15.1 months",
+                "pfs": "6.9 months",
+                "hr": null,
+                "ci": null,
+                "orr": "41.7%"
+            },
+            "notes": "For KRAS G12C mutation-positive tumors. Oral KRAS inhibitor. [37,386]",
+            "source_citation": {
+                "reference_numbers": [
+                    "37",
+                    "386"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Futibatinib",
+            "site": "Intrahepatic cholangiocarcinoma or extrahepatic cholangiocarcinoma with FGFR2 fusions/rearrangements",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Futibatinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR2 gene fusion or rearrangement",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "FOENIX-CA2",
+                "phase": "II",
+                "n_patients": "107",
+                "os": "21.7 months (95% CI, 14.5 months-not reached)",
+                "pfs": "9.0 months (95% CI, 6.9-13.1 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "42% (95% CI, 32-52%)"
+            },
+            "notes": "For FGFR2 fusion/rearrangement-positive CCA. Preferred over erdafitinib. [38,352]",
+            "source_citation": {
+                "reference_numbers": [
+                    "38",
+                    "352"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pemigatinib",
+            "site": "Intrahepatic cholangiocarcinoma or extrahepatic cholangiocarcinoma with FGFR2 fusions/rearrangements",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemigatinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR2 gene fusion or rearrangement",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "FIGHT-202",
+                "phase": "II",
+                "n_patients": "108",
+                "os": "17.5 months (95% CI, 14.4-22.9 months)",
+                "pfs": "7.0 months (95% CI, 6.1-10.5 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "37.0% (95% CI, 27.9-46.9%)"
+            },
+            "notes": "For FGFR2 fusion/rearrangement-positive CCA. Preferred over erdafitinib. [39,353,354]",
+            "source_citation": {
+                "reference_numbers": [
+                    "39",
+                    "353",
+                    "354"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Erdafitinib",
+            "site": "Intrahepatic cholangiocarcinoma or extrahepatic cholangiocarcinoma with FGFR fusions/rearrangements",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erdafitinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR gene fusion or rearrangement",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": null,
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RAGNAR",
+                "phase": "II",
+                "n_patients": "58 with CCA",
+                "os": "14.7 months (95% CI, 12.1-24.3 months)",
+                "pfs": "8.3 months (95% CI, 6.4-9.7 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "52% (95% CI, 33-70%)"
+            },
+            "notes": "For FGFR-altered tumors. Less preferred than futibatinib or pemigatinib. Data from smaller trial. [40,355]",
+            "source_citation": {
+                "reference_numbers": [
+                    "40",
+                    "355"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ivosidenib",
+            "site": "Intrahepatic cholangiocarcinoma or extrahepatic cholangiocarcinoma with IDH1 mutations",
+            "setting": "Subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ivosidenib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1 mutation",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ClarIDHy",
+                "phase": "III",
+                "n_patients": "185",
+                "os": "10.3 months for ivosidenib vs. 5.1 months for placebo after crossover",
+                "pfs": "2.7 months vs. 1.4 months",
+                "hr": "0.37 (P<0.0001) for PFS",
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For IDH1-mutant CCA. Category 1 recommendation based on phase III trial. [41,42,360,361]",
+            "source_citation": {
+                "reference_numbers": [
+                    "41",
+                    "42",
+                    "360",
+                    "361"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Zenocutuzumab-zbco",
+            "site": "Cholangiocarcinoma with NRG1 gene fusions",
+            "setting": "First-line or subsequent-line for unresectable or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Zenocutuzumab-zbco",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NRG1 gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "eNRGy",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For NRG1 fusion-positive CCA. Bispecific antibody. [27,28,36,27,28]",
+            "source_citation": {
+                "reference_numbers": [
+                    "27",
+                    "28",
+                    "36",
+                    "27",
+                    "28"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Biliary tract cancers (BTCs) are a heterogeneous group of highly lethal malignancies arising from the epithelial lining of the biliary tree. This encompasses cancers originating from the gallbladder, intrahepatic bile ducts (within the liver parenchyma), and extrahepatic bile ducts (which include the perihilar/hilar and distal bile ducts). The biliary system is embryologically derived from the foregut endoderm. Anatomically, the biliary tree is divided into the intrahepatic and extrahepatic components. The gallbladder stores bile, while the intrahepatic bile ducts collect bile from the liver and merge to form the right and left hepatic ducts, which unite outside the liver to form the common hepatic duct. The cystic duct from the gallbladder joins the common hepatic duct to form the common bile duct, which drains into the duodenum. BTCs are collectively defined as adenocarcinomas or other histologic types arising from this system. They are characterized by local invasion, vascular invasion, regional lymph node metastasis, and distant metastases. Gallbladder cancer is the most common anatomic subtype, followed by extrahepatic CCA, which is more common than intrahepatic CCA [MS-2, MS-9].",
+        "subtypes": [
+            {
+                "name": "Adenocarcinoma",
+                "description": "The vast majority of biliary tract cancers (over 90%) are adenocarcinomas. These are further classified by anatomic site and histologic growth patterns. Cholangiocarcinomas (CCAs) can be mass-forming (forming a distinct mass), periductal-infiltrating (growing along bile ducts), or intraductal-growing (growing within the bile duct lumen). Adenocarcinoma is the predominant histology for gallbladder cancer, intrahepatic CCA (iCCA), and extrahepatic CCA (eCCA), including perihilar (Klatskin) and distal subtypes.",
+                "frequency": ">90% of all biliary tract cancers",
+                "key_associations": "This is the classic histologic type for which most staging, prognostic, and treatment data are derived."
+            },
+            {
+                "name": "Adenosquamous Carcinoma",
+                "description": "A subtype containing both glandular (adenocarcinoma) and squamous cell components.",
+                "frequency": "Rare",
+                "key_associations": "Can occur in the gallbladder or bile ducts."
+            },
+            {
+                "name": "Squamous Cell Carcinoma",
+                "description": "Composed predominantly of squamous cells.",
+                "frequency": "Very rare",
+                "key_associations": "May arise in the gallbladder or bile ducts."
+            },
+            {
+                "name": "Small Cell Carcinoma",
+                "description": "A neuroendocrine tumor type, distinct from the more common adenocarcinoma.",
+                "frequency": "Very rare",
+                "key_associations": "Should be staged and treated according to guidelines for neuroendocrine tumors if pure."
+            },
+            {
+                "name": "Other Rare Histologies",
+                "description": "Includes lymphomas, sarcomas, and well-differentiated neuroendocrine tumors.",
+                "frequency": "Very rare",
+                "key_associations": "For rare histologies with distinct systemic therapy options (e.g., pure neuroendocrine tumors or sarcomas), treatment should follow the relevant NCCN Guideline for that specific histologic type [GALL-B, INTRA-C, EXTRA-B]."
+            }
+        ],
+        "molecular_pathogenesis": "Biliary tract cancers harbor clinically relevant genomic alterations that differ by anatomic subsite. Tumor genomic profiling is recommended for patients with unresectable or metastatic BTCs. Key events include:\n- **FGFR2 gene fusions/rearrangements**: Found in approximately 9%–15% of intrahepatic CCAs and are rare in other subsites. These lead to constitutive activation of FGFR signaling, promoting cell proliferation and tumorigenesis. Targetable by pemigatinib, futibatinib, and erdafitinib [BIL-B 5 of 8, BIL-C 3 of 5, MS-29].\n- **IDH1 mutations**: Occur in approximately 10%–20% of intrahepatic CCAs and are rare in other subsites. Mutations (most commonly at codon 132, R132X) lead to accumulation of the oncometabolite 2-hydroxyglutarate, impairing cellular differentiation. Targetable by ivosidenib [BIL-B 5 of 8, BIL-C 3 of 5, MS-29].\n- **BRAF V600E mutations**: Present in approximately 1%–5% of BTCs. This mutation results in constitutive activation of the MAPK signaling pathway. Targetable by dabrafenib/trametinib [BIL-B 4 of 8, BIL-C 3 of 5, MS-28].\n- **NTRK1/2/3 gene fusions**: Estimated to occur in <1% of BTCs. These fusions lead to expression of oncogenic TRK fusion proteins. Targetable by larotrectinib, entrectinib, and repotrectinib [BIL-B 4 of 8, BIL-C 3 of 5, MS-26].\n- **MSI-H/dMMR**: Present in approximately 1%–3% of BTCs. Results from deficient DNA mismatch repair. Predicts response to immune checkpoint inhibitors like pembrolizumab [BIL-B 4 of 8, BIL-C 3 of 5, MS-26].\n- **TMB-H**: Found in <5% of advanced BTCs. Predicts response to immune checkpoint inhibitors [BIL-B 3 of 8, BIL-C 3 of 5, MS-27].\n- **HER2 (ERBB2) overexpression/amplification/activating mutations**: Present in approximately 5%–20% of CCAs and 15%–30% of gallbladder cancers. A member of the ErbB/EGFR family that activates downstream proliferative pathways. Targetable by trastuzumab deruxtecan, pertuzumab/trastuzumab, tucatinib/trastuzumab, and zanidatamab [BIL-B 6 of 8, BIL-C 3 of 5, MS-30].\n- **NRG1 gene fusions**: Found in <1% of BTCs, more commonly in iCCA and eCCA. Targetable by zenocutuzumab-zbco [BIL-B 6 of 8, BIL-C 3 of 5].\n- **KRAS G12C mutation**: Reported in about 1% of BTCs. Targetable by adagrasib [BIL-B 6 of 8, BIL-C 3 of 5, MS-32].\n- **RET gene fusions**: Rare (<1%). Targetable by pralsetinib and selpercatinib [BIL-B 6 of 8, BIL-C 3 of 5, MS-32].\nAdditionally, up to 10%–15% of BTCs may be associated with inherited cancer predisposition syndromes. Germline alterations in high- to moderate-penetrance genes like BRCA1/2, MLH1, MSH2, PALB2, and ATM have been identified in roughly 9%–11% of cases [BIL-B 1 of 8, MS-25].",
+        "epidemiology": {
+            "incidence": "Biliary tract cancers are relatively rare but highly lethal. In 2025, it is estimated that 42,240 people in the United States will be diagnosed with liver cancer including intrahepatic bile duct cancer, and an additional 12,610 people will be diagnosed with gallbladder cancer or other biliary tract cancer [MS-2]. Globally, there are pockets of increased incidence in Korea, Japan, some areas of Eastern Europe and South America (especially Bolivia, Chile, and Spain), and in females in India, Pakistan, and Ecuador [MS-3].",
+            "mortality": "It is estimated that approximately 30,090 deaths from liver or intrahepatic bile duct cancer and 4,400 deaths due to gallbladder cancer or other biliary tract cancer will occur in the United States in 2025 [MS-2].",
+            "trends": "From 1973 to 2015, the incidence of gallbladder cancer has decreased in both males and females, white individuals, and individuals of American Indian/Alaskan Native and Asian/Pacific Islander descent, but there was a small trend for an increase in Black individuals [MS-3]. Analyses of SEER data from 2001 to 2017 showed that the incidence of intrahepatic CCA increased dramatically (148.8%), while the incidence of extrahepatic CCA increased at a slower rate (7.5%). This rise in iCCA incidence may be partly due to improved diagnostic capabilities [MS-9, MS-10].",
+            "demographics": "Incidence of gallbladder cancer steadily increases with age. Females are more likely to be diagnosed with gallbladder cancer than males. In the United States, incidence and mortality rates for gallbladder cancer are highest among individuals of American Indian, Alaska Native, and Asian/Pacific Islander descent [MS-3]."
+        },
+        "risk_factors": [
+            {
+                "factor": "Cholelithiasis (gallstones)",
+                "type": "Primary (for gallbladder cancer)",
+                "detail": "The presence of chronic inflammation from gallstones is the most prevalent risk factor for gallbladder cancer. The risk increases with stone size [MS-3].",
+                "strength": "Well-established"
+            },
+            {
+                "factor": "Porcelain gallbladder",
+                "type": "Primary (for gallbladder cancer)",
+                "detail": "Calcification of the gallbladder wall due to chronic inflammation has been regarded as a risk factor, though subsequent reports suggest the risk (7%–15% cancer) is lower than historical estimates [MS-3].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Gallbladder polyps (>1 cm)",
+                "type": "Primary (for gallbladder cancer)",
+                "detail": "Larger polyps are associated with a higher risk of malignancy. The Society of Radiologists in Ultrasound recommends surgical consultation for polyps ≥1.5 cm or ≥0.7 cm if indeterminate [MS-3].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Anomalous pancreaticobiliary duct junction",
+                "type": "Primary (for gallbladder cancer)",
+                "detail": "A congenital anomaly that allows reflux of pancreatic juice into the biliary tree, causing chronic inflammation [MS-3].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Primary sclerosing cholangitis (PSC)",
+                "type": "Primary (for intrahepatic and extrahepatic CCA)",
+                "detail": "A chronic cholestatic liver disease characterized by inflammation and fibrosis of the bile ducts, significantly increasing the risk of CCA [MS-9].",
+                "strength": "Well-established"
+            },
+            {
+                "factor": "Inflammatory bowel disease (IBD)",
+                "type": "Primary (for CCA)",
+                "detail": "An association exists, which may be confounded by PSC, as PSC is common in IBD patients [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Chronic typhoid infection",
+                "type": "Primary (for gallbladder cancer)",
+                "detail": "Chronic gallbladder inflammation due to Salmonella typhi carrier state is a risk factor [MS-3].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Hepatolithiasis (chronic calculi of the bile duct)",
+                "type": "Primary (for CCA)",
+                "detail": "Stones in the intrahepatic bile ducts cause chronic inflammation and are a well-established risk factor for CCA [MS-9].",
+                "strength": "Well-established"
+            },
+            {
+                "factor": "Choledochal cysts",
+                "type": "Primary (for CCA)",
+                "detail": "Congenital dilations of the bile ducts are a well-established risk factor for CCA [MS-9].",
+                "strength": "Well-established"
+            },
+            {
+                "factor": "Liver fluke infections (Opisthorchis viverrini, Clonorchis sinensis)",
+                "type": "Primary (for CCA)",
+                "detail": "Parasitic infections endemic in Southeast Asia are well-established risk factors for CCA [MS-9].",
+                "strength": "Well-established"
+            },
+            {
+                "factor": "Hepatitis B virus (HBV) infection",
+                "type": "Risk factor for iCCA",
+                "detail": "A risk factor for intrahepatic CCA, similar to its role in hepatocellular carcinoma [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Cirrhosis",
+                "type": "Risk factor for iCCA",
+                "detail": "A risk factor for intrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Metabolic dysfunction-associated steatotic liver disease (MASLD)",
+                "type": "Risk factor for iCCA and eCCA",
+                "detail": "A systematic review showed association with increased incidence of both intrahepatic and extrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Diabetes",
+                "type": "Risk factor for iCCA",
+                "detail": "Identified as a risk factor specific to intrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Obesity",
+                "type": "Risk factor for iCCA",
+                "detail": "Identified as a risk factor specific to intrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Alcohol use",
+                "type": "Risk factor for iCCA",
+                "detail": "Identified as a risk factor specific to intrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Tobacco use",
+                "type": "Risk factor for iCCA",
+                "detail": "Identified as a risk factor specific to intrahepatic CCA [MS-9].",
+                "strength": "Established"
+            },
+            {
+                "factor": "Adenomyomatosis of the gallbladder",
+                "type": "Potential (for gallbladder cancer)",
+                "detail": "A potential, albeit controversial, risk factor [MS-3].",
+                "strength": "Controversial/Potential"
+            }
+        ],
+        "protective_factors": "No protective factors for biliary tract cancers are explicitly mentioned in the provided source text.",
+        "gallbladder_cancer_clinical_features": {
+            "typical_presentation": "Gallbladder cancer often presents incidentally during cholecystectomy for presumed benign disease or on post-cholecystectomy pathologic review. It may also present as a suspicious mass on imaging, with jaundice, or with chronic right upper quadrant abdominal pain. The disease is commonly diagnosed at an advanced stage due to its aggressive nature and clinical mimicry of biliary colic or chronic cholecystitis [3-5].",
+            "symptoms": [
+                {
+                    "name": "Jaundice",
+                    "detail": "Presents with obstructive jaundice and is a poor prognostic indicator, associated with advanced stage (96% vs 60%; P<.001) and lower disease-specific survival (6 vs 16 months; P<.0001) compared to patients without jaundice [25,26].",
+                    "frequency": "Common in advanced disease",
+                    "alarm": true
+                },
+                {
+                    "name": "Right upper quadrant pain",
+                    "detail": "Chronic pain may be the presenting symptom, often attributed to biliary colic or chronic cholecystitis [4].",
+                    "frequency": "Frequent",
+                    "alarm": false
+                },
+                {
+                    "name": "Weight loss",
+                    "detail": "Nonspecific symptom associated with advanced malignancy [4].",
+                    "frequency": "Variable",
+                    "alarm": true
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Palpable right upper quadrant mass",
+                    "detail": "May be present in advanced cases [4].",
+                    "frequency": "Uncommon"
+                },
+                {
+                    "name": "Hepatomegaly",
+                    "detail": "May indicate liver invasion or metastasis [4].",
+                    "frequency": "Variable"
+                }
+            ],
+            "atypical_or_missed": [
+                "Early-stage disease is often asymptomatic and discovered incidentally [3-5].",
+                "Symptoms mimic benign gallbladder disease (biliary colic, chronic cholecystitis) leading to delayed diagnosis [4].",
+                "Jaundice may be absent until late stages [25]."
+            ]
+        },
+        "gallbladder_cancer_red_flags": [
+            "New-onset jaundice in the setting of gallbladder disease",
+            "Unexplained weight loss",
+            "Palpable right upper quadrant mass",
+            "Persistent right upper quadrant pain not responding to standard therapy",
+            "Suspicious mass on imaging",
+            "Incidental finding of gallbladder malignancy on pathologic review after cholecystectomy"
+        ],
+        "gallbladder_cancer_investigations": {
+            "diagnostic": [
+                {
+                    "test": "Multiphasic abdomen/pelvis CT or MRI with IV contrast",
+                    "rationale": "Essential for local staging, assessing tumor penetration, nodal involvement, and distant metastases [27].",
+                    "key_findings": "Evaluates tumor extent, vascular invasion, and adjacent organ involvement."
+                },
+                {
+                    "test": "Chest CT with or without contrast",
+                    "rationale": "Staging for pulmonary metastases [27].",
+                    "key_findings": "Identifies lung metastases."
+                },
+                {
+                    "test": "Ultrasound (US)",
+                    "rationale": "Often the initial imaging for right upper quadrant pain; may detect a mass or gallstones [3].",
+                    "key_findings": "May show gallbladder mass or wall thickening."
+                },
+                {
+                    "test": "MRCP (Magnetic Resonance Cholangiopancreatography)",
+                    "rationale": "Preferred for evaluating biliary obstruction in jaundiced patients [27].",
+                    "key_findings": "Demonstrates biliary anatomy and obstruction level."
+                },
+                {
+                    "test": "ERCP/PTC",
+                    "rationale": "Used for therapeutic intervention (biliary stenting) rather than diagnosis [27].",
+                    "key_findings": "Therapeutic drainage and stent placement."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Staging laparoscopy",
+                    "rationale": "May identify occult peritoneal metastases, especially in locally advanced tumors (yield 25.2% vs 10.7% in early-stage; P=.02) [50].",
+                    "indication": "Consider in patients with resectable disease to avoid non-therapeutic laparotomy."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "CEA (carcinoembryonic antigen)",
+                    "rationale": "Baseline tumor marker; not for diagnosis [27,33].",
+                    "when": "At initial workup",
+                    "mandatory": false
+                },
+                {
+                    "test": "CA 19-9",
+                    "rationale": "Baseline tumor marker; may be elevated in biliary obstruction or other cancers [27,33].",
+                    "when": "At initial workup, consider after biliary decompression",
+                    "mandatory": false
+                },
+                {
+                    "test": "Liver function tests (LFTs)",
+                    "rationale": "Assess hepatic reserve and biliary obstruction [4].",
+                    "when": "At initial workup",
+                    "mandatory": true
+                }
+            ],
+            "do_not_miss": [
+                "Core biopsy is preferred over fine-needle aspiration (FNA) for tissue diagnosis [Footnote f, GALL-1].",
+                "Multidisciplinary evaluation by hepatobiliary surgeon, medical oncologist, and radiologist."
+            ],
+            "avoid": [
+                "Avoid biopsy if clinical and radiologic suspicion is high and resection is planned, to prevent peritoneal dissemination [GALL-A].",
+                "Do not use CEA or CA 19-9 to confirm diagnosis; they are baseline tests only [p]."
+            ]
+        },
+        "gallbladder_cancer_staging": {
+            "system": "AJCC 8th edition (2017)",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed"
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor"
+                },
+                {
+                    "stage": "Tis",
+                    "description": "Carcinoma in situ"
+                },
+                {
+                    "stage": "T1",
+                    "description": "Tumor invades lamina propria or muscular layer"
+                },
+                {
+                    "stage": "T1a",
+                    "description": "Tumor invades lamina propria"
+                },
+                {
+                    "stage": "T1b",
+                    "description": "Tumor invades muscle layer"
+                },
+                {
+                    "stage": "T2",
+                    "description": "Tumor invades the perimuscular connective tissue on the peritoneal side, without involvement of the serosa (visceral peritoneum) OR tumor invades the perimuscular connective tissue on the hepatic side, with no extension into the liver"
+                },
+                {
+                    "stage": "T2a",
+                    "description": "Tumor invades the perimuscular connective tissue on the peritoneal side, without involvement of the serosa (visceral peritoneum)"
+                },
+                {
+                    "stage": "T2b",
+                    "description": "Tumor invades the perimuscular connective tissue on the hepatic side, with no extension into the liver"
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor perforates the serosa (visceral peritoneum) and/or directly invades the liver and/or one other adjacent organ or structure, such as the stomach, duodenum, colon, pancreas, omentum, or extrahepatic bile ducts"
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor invades main portal vein or hepatic artery or invades two or more extrahepatic organs or structures"
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "NX",
+                    "description": "Regional lymph nodes cannot be assessed"
+                },
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node metastasis"
+                },
+                {
+                    "stage": "N1",
+                    "description": "Metastases to one to three regional lymph nodes"
+                },
+                {
+                    "stage": "N2",
+                    "description": "Metastases to four or more regional lymph nodes"
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis"
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis"
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage 0",
+                    "criteria": "Tis N0 M0",
+                    "clinical_meaning": "Carcinoma in situ, confined to epithelium.",
+                    "five_yr_survival": "Near 100%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage I",
+                    "criteria": "T1 N0 M0",
+                    "clinical_meaning": "Tumor invades lamina propria or muscle layer, no nodal or distant metastasis.",
+                    "five_yr_survival": "~80-100% for T1a; T1b may have lower survival",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIA",
+                    "criteria": "T2a N0 M0",
+                    "clinical_meaning": "Tumor invades peritoneal side perimuscular tissue, no nodal or distant metastasis.",
+                    "five_yr_survival": "~60-70%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIB",
+                    "criteria": "T2b N0 M0",
+                    "clinical_meaning": "Tumor invades hepatic side perimuscular tissue, no nodal or distant metastasis.",
+                    "five_yr_survival": "~50-60%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIA",
+                    "criteria": "T3 N0 M0",
+                    "clinical_meaning": "Tumor perforates serosa or invades adjacent organs, no nodal or distant metastasis.",
+                    "five_yr_survival": "~30-40%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIB",
+                    "criteria": "T1-3 N1 M0",
+                    "clinical_meaning": "Regional lymph node metastasis (1-3 nodes).",
+                    "five_yr_survival": "~15-25%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IVA",
+                    "criteria": "T4 N0-1 M0",
+                    "clinical_meaning": "Main vessel invasion or multiple organ involvement, with or without regional nodes.",
+                    "five_yr_survival": "<10%",
+                    "treatment_intent": "Often palliative; may consider neoadjuvant therapy"
+                },
+                {
+                    "group": "Stage IVB",
+                    "criteria": "Any T N2 M0 or Any T Any N M1",
+                    "clinical_meaning": "Extensive nodal disease (≥4 nodes) or distant metastases.",
+                    "five_yr_survival": "<5%",
+                    "treatment_intent": "Palliative"
+                }
+            ],
+            "staging_pearls": [
+                "T2 is divided into T2a (peritoneal side) and T2b (hepatic side) due to differences in prognosis; hepatic side is associated with worse outcomes [19,20].",
+                "Regional lymph node staging is based on number of positive nodes (N1: 1-3, N2: ≥4) rather than anatomic location [19].",
+                "Histologic grade (G1-G3) is reported but not included in stage grouping [ST-1]."
+            ]
+        },
+        "intrahepatic_cholangiocarcinoma_clinical_features": {
+            "typical_presentation": "Intrahepatic cholangiocarcinoma (iCCA) often presents as an isolated intrahepatic mass on imaging, with imaging characteristics consistent with malignancy but not typical for hepatocellular carcinoma (HCC). Patients may be asymptomatic or present with nonspecific symptoms such as fever, weight loss, or abdominal pain. Symptoms of biliary obstruction are uncommon because these tumors do not necessarily involve the common hepatic/bile duct [INTRA-1, 85].",
+            "symptoms": [
+                {
+                    "name": "Abdominal pain",
+                    "detail": "Right upper quadrant or epigastric pain, often vague.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Weight loss",
+                    "detail": "Unintentional weight loss.",
+                    "frequency": "Common",
+                    "alarm": true
+                },
+                {
+                    "name": "Fever",
+                    "detail": "May be present, sometimes with cholangitis if biliary obstruction occurs.",
+                    "frequency": "Variable",
+                    "alarm": false
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Hepatomegaly",
+                    "detail": "Palpable liver enlargement.",
+                    "frequency": "Variable"
+                },
+                {
+                    "name": "Jaundice",
+                    "detail": "Uncommon at presentation unless centrally located or advanced.",
+                    "frequency": "Uncommon"
+                }
+            ],
+            "atypical_or_missed": [
+                "Often detected incidentally as an isolated liver mass on imaging for other reasons [85].",
+                "May be misdiagnosed as metastatic disease from another primary site.",
+                "Symptoms are nonspecific and may lead to delayed diagnosis."
+            ]
+        },
+        "intrahepatic_cholangiocarcinoma_red_flags": [
+            "New liver mass on imaging, especially in setting of chronic liver disease or risk factors",
+            "Unexplained weight loss",
+            "Persistent abdominal pain",
+            "Elevated liver function tests without clear cause",
+            "History of primary sclerosing cholangitis, hepatolithiasis, or liver fluke infection"
+        ],
+        "intrahepatic_cholangiocarcinoma_investigations": {
+            "diagnostic": [
+                {
+                    "test": "Multiphasic abdomen/pelvis CT or MRI with IV contrast (preferred) or contrast-enhanced ultrasound (CEUS)",
+                    "rationale": "Essential for characterizing the mass, assessing vascular involvement, and staging [INTRA-1, 92-95].",
+                    "key_findings": "Heterogeneous enhancement, vascular invasion, satellite lesions."
+                },
+                {
+                    "test": "Chest CT with or without contrast",
+                    "rationale": "Staging for pulmonary metastases [INTRA-1].",
+                    "key_findings": "Lung nodules or metastases."
+                },
+                {
+                    "test": "Biopsy (core biopsy preferred)",
+                    "rationale": "Required for histologic diagnosis, especially if surgery is not immediately planned or for advanced disease [INTRA-1, INTRA-C].",
+                    "key_findings": "Cholangiocarcinoma histology, immunohistochemistry profile."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Staging laparoscopy",
+                    "rationale": "May identify occult peritoneal metastases; yield is higher in locally advanced tumors [50].",
+                    "indication": "Consider in patients with potentially resectable disease."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "CEA and CA 19-9",
+                    "rationale": "Baseline tumor markers; not for diagnosis [INTRA-1, d].",
+                    "when": "At initial workup",
+                    "mandatory": false
+                },
+                {
+                    "test": "Liver function tests (LFTs)",
+                    "rationale": "Assess hepatic function and biliary obstruction [INTRA-1].",
+                    "when": "At initial workup",
+                    "mandatory": true
+                },
+                {
+                    "test": "Alpha-fetoprotein (AFP)",
+                    "rationale": "Consider to help differentiate from HCC, especially in chronic liver disease [INTRA-1].",
+                    "when": "Consider in patients with risk factors for HCC",
+                    "mandatory": false
+                },
+                {
+                    "test": "Viral hepatitis serologies",
+                    "rationale": "Risk factor assessment [INTRA-1, e].",
+                    "when": "Consider at workup",
+                    "mandatory": false
+                }
+            ],
+            "do_not_miss": [
+                "Consider esophagogastroduodenoscopy and colonoscopy to rule out metastatic adenocarcinoma from gastrointestinal primary [INTRA-1].",
+                "Core biopsy is preferred over FNA for tissue diagnosis [INTRA-1, f].",
+                "Multidisciplinary evaluation including hepatologist, surgeon, and oncologist."
+            ],
+            "avoid": [
+                "Avoid unnecessary biopsy if imaging is highly suggestive and resection is planned, to prevent seeding.",
+                "Do not rely solely on serum tumor markers for diagnosis."
+            ]
+        },
+        "intrahepatic_cholangiocarcinoma_staging": {
+            "system": "AJCC 8th edition (2017)",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed"
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor"
+                },
+                {
+                    "stage": "Tis",
+                    "description": "Carcinoma in situ (intraductal tumor)"
+                },
+                {
+                    "stage": "T1",
+                    "description": "Solitary tumor without vascular invasion"
+                },
+                {
+                    "stage": "T1a",
+                    "description": "Solitary tumor ≤5 cm without vascular invasion"
+                },
+                {
+                    "stage": "T1b",
+                    "description": "Solitary tumor >5 cm without vascular invasion"
+                },
+                {
+                    "stage": "T2",
+                    "description": "Solitary tumor with intrahepatic vascular invasion or multiple tumors, with or without vascular invasion"
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor perforating the visceral peritoneum"
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor involving local extrahepatic structures by direct invasion"
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "NX",
+                    "description": "Regional lymph nodes cannot be assessed"
+                },
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node metastasis"
+                },
+                {
+                    "stage": "N1",
+                    "description": "Regional lymph node metastasis present"
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis"
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis present"
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage 0",
+                    "criteria": "Tis N0 M0",
+                    "clinical_meaning": "Carcinoma in situ.",
+                    "five_yr_survival": "Near 100%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IA",
+                    "criteria": "T1a N0 M0",
+                    "clinical_meaning": "Solitary tumor ≤5 cm without vascular invasion.",
+                    "five_yr_survival": "~70-80%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IB",
+                    "criteria": "T1b N0 M0",
+                    "clinical_meaning": "Solitary tumor >5 cm without vascular invasion.",
+                    "five_yr_survival": "~60-70%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage II",
+                    "criteria": "T2 N0 M0",
+                    "clinical_meaning": "Solitary tumor with vascular invasion or multiple tumors.",
+                    "five_yr_survival": "~40-50%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIA",
+                    "criteria": "T3 N0 M0",
+                    "clinical_meaning": "Tumor perforates visceral peritoneum.",
+                    "five_yr_survival": "~30%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIB",
+                    "criteria": "T4 N0 M0 or Any T N1 M0",
+                    "clinical_meaning": "Direct invasion of extrahepatic structures or regional lymph node metastasis.",
+                    "five_yr_survival": "~15-20%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IV",
+                    "criteria": "Any T Any N M1",
+                    "clinical_meaning": "Distant metastasis.",
+                    "five_yr_survival": "<5%",
+                    "treatment_intent": "Palliative"
+                }
+            ],
+            "staging_pearls": [
+                "T1 is divided by tumor size (≤5 cm vs >5 cm) without vascular invasion [19].",
+                "T2 includes both solitary tumor with vascular invasion and multiple tumors (with or without vascular invasion).",
+                "Regional lymph nodes include those associated with the hilar hepatic artery, portal vein, and cystic duct, among others [INTRA-C, b]."
+            ]
+        },
+        "extrahepatic_cholangiocarcinoma_clinical_features": {
+            "typical_presentation": "Extrahepatic cholangiocarcinoma (eCCA) typically presents with jaundice followed by evidence of biliary obstruction or abnormality on imaging. Pain may be present, and liver function tests are often abnormal. Tumors are located in the biliary tree from the hilum to the ampulla of Vater [EXTRA-1].",
+            "symptoms": [
+                {
+                    "name": "Jaundice",
+                    "detail": "Painless obstructive jaundice is the most common presentation.",
+                    "frequency": "Very common",
+                    "alarm": true
+                },
+                {
+                    "name": "Abdominal pain",
+                    "detail": "Right upper quadrant or epigastric pain.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Pruritus",
+                    "detail": "Due to bile salt deposition.",
+                    "frequency": "Common",
+                    "alarm": false
+                },
+                {
+                    "name": "Weight loss",
+                    "detail": "Unintentional weight loss.",
+                    "frequency": "Common",
+                    "alarm": true
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Jaundice",
+                    "detail": "Icterus visible on sclera and skin.",
+                    "frequency": "Very common"
+                },
+                {
+                    "name": "Hepatomegaly",
+                    "detail": "May be palpable.",
+                    "frequency": "Variable"
+                },
+                {
+                    "name": "Courvoisier sign",
+                    "detail": "Palpable, nontender gallbladder in the setting of obstructive jaundice.",
+                    "frequency": "Rare"
+                }
+            ],
+            "atypical_or_missed": [
+                "Early-stage disease may be asymptomatic or present with vague symptoms.",
+                "Cholangitis (fever, jaundice, abdominal pain) may be the initial presentation.",
+                "May be misdiagnosed as primary sclerosing cholangitis or IgG4-related cholangitis [97-100]."
+            ]
+        },
+        "extrahepatic_cholangiocarcinoma_red_flags": [
+            "New-onset obstructive jaundice",
+            "Pruritus without obvious cause",
+            "Unexplained weight loss",
+            "Cholangitis (Charcot's triad: fever, jaundice, right upper quadrant pain)",
+            "Palpable gallbladder (Courvoisier sign)",
+            "Biliary stricture on cholangiography"
+        ],
+        "extrahepatic_cholangiocarcinoma_investigations": {
+            "diagnostic": [
+                {
+                    "test": "Multiphasic abdomen/pelvis CT or MRI with IV contrast",
+                    "rationale": "Essential for assessing tumor extent, vascular invasion, and resectability [EXTRA-1, BIL-A].",
+                    "key_findings": "Biliary duct dilation, mass, vascular involvement."
+                },
+                {
+                    "test": "MRCP (Magnetic Resonance Cholangiopancreatography)",
+                    "rationale": "Preferred noninvasive cholangiography to evaluate biliary anatomy and obstruction [EXTRA-1, d].",
+                    "key_findings": "Stricture, level of obstruction."
+                },
+                {
+                    "test": "Chest CT with or without contrast",
+                    "rationale": "Staging for pulmonary metastases [EXTRA-1].",
+                    "key_findings": "Lung nodules or metastases."
+                },
+                {
+                    "test": "ERCP/PTC",
+                    "rationale": "Primarily therapeutic (biliary drainage/stenting) rather than diagnostic; may obtain brush cytology [EXTRA-1, d].",
+                    "key_findings": "Therapeutic stent placement; cytology may show malignant cells."
+                },
+                {
+                    "test": "Endoscopic ultrasound (EUS)",
+                    "rationale": "May help define a mass or abnormal thickening and guide biopsy, especially for distal tumors [EXTRA-1].",
+                    "key_findings": "Mass lesion, lymphadenopathy."
+                },
+                {
+                    "test": "Biopsy",
+                    "rationale": "Required for diagnosis before systemic therapy; consider after determining transplant candidacy [EXTRA-1, h].",
+                    "key_findings": "Adenocarcinoma histology."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Staging laparoscopy",
+                    "rationale": "May identify occult peritoneal metastases; yield is variable (14-45%) [EXTRA-1, 214].",
+                    "indication": "Consider in patients with potentially resectable disease."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "CEA and CA 19-9",
+                    "rationale": "Baseline tumor markers; not for diagnosis [EXTRA-1, e].",
+                    "when": "At initial workup",
+                    "mandatory": false
+                },
+                {
+                    "test": "Liver function tests (LFTs)",
+                    "rationale": "Assess biliary obstruction and hepatic function [EXTRA-1].",
+                    "when": "At initial workup",
+                    "mandatory": true
+                },
+                {
+                    "test": "Serum IgG4",
+                    "rationale": "To rule out IgG4-related cholangitis, which can mimic eCCA [EXTRA-1, f].",
+                    "when": "Consider when diagnosis is unclear",
+                    "mandatory": false
+                }
+            ],
+            "do_not_miss": [
+                "High-quality biliary protocol imaging (preferably CT) prior to stenting to evaluate tumor extent [BIL-A].",
+                "Core biopsy is preferred over FNA for tissue diagnosis [EXTRA-1, h].",
+                "Multidisciplinary evaluation including hepatobiliary surgeon, radiologist, and oncologist."
+            ],
+            "avoid": [
+                "Avoid transperitoneal biopsy in potential transplant candidates as it may preclude transplantation [EXTRA-1, h].",
+                "Avoid unnecessary biliary drainage before imaging evaluation in resectable disease."
+            ]
+        },
+        "extrahepatic_cholangiocarcinoma_staging": {
+            "system": "AJCC 8th edition (2017) – separate staging for perihilar (hilar) and distal bile duct tumors",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed"
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor"
+                },
+                {
+                    "stage": "Tis",
+                    "description": "Carcinoma in situ/high-grade dysplasia"
+                },
+                {
+                    "stage": "T1",
+                    "description": "Tumor confined to the bile duct, with extension up to the muscle layer or fibrous tissue (perihilar) OR Tumor invades the bile duct wall with depth less than 5 mm (distal)"
+                },
+                {
+                    "stage": "T2",
+                    "description": "Tumor invades beyond the wall of the bile duct to surrounding adipose tissue, or tumor invades adjacent hepatic parenchyma (perihilar) OR Tumor invades the bile duct wall with depth of 5–12 mm (distal)"
+                },
+                {
+                    "stage": "T2a",
+                    "description": "Tumor invades beyond the wall of the bile duct to surrounding adipose tissue (perihilar)"
+                },
+                {
+                    "stage": "T2b",
+                    "description": "Tumor invades adjacent hepatic parenchyma (perihilar)"
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor invades unilateral branches of the portal vein or hepatic artery (perihilar) OR Tumor invades the bile duct wall with depth greater than 12 mm (distal)"
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor invades main portal vein or its branches bilaterally, or the common hepatic artery; or unilateral second-order biliary radicals bilaterally with contralateral portal vein or hepatic artery involvement (perihilar) OR Tumor involves the celiac axis, superior mesenteric artery, and/or common hepatic artery (distal)"
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "NX",
+                    "description": "Regional lymph nodes cannot be assessed"
+                },
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node metastasis"
+                },
+                {
+                    "stage": "N1",
+                    "description": "Metastasis in one to three regional lymph nodes (distal) OR N1 for perihilar: one to three positive lymph nodes typically involving the hilar, cystic duct, common bile duct, hepatic artery, posterior pancreatoduodenal, and portal vein lymph nodes"
+                },
+                {
+                    "stage": "N2",
+                    "description": "Metastasis in four or more regional lymph nodes (distal) OR N2 for perihilar: four or more positive lymph nodes from the sites described for N1"
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis"
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis"
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Stage 0",
+                    "criteria": "Tis N0 M0",
+                    "clinical_meaning": "Carcinoma in situ.",
+                    "five_yr_survival": "Near 100%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage I",
+                    "criteria": "T1 N0 M0",
+                    "clinical_meaning": "Tumor confined to bile duct wall.",
+                    "five_yr_survival": "~50-70%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIA",
+                    "criteria": "T1 N1 M0 or T2 N0 M0",
+                    "clinical_meaning": "Early nodal disease or local invasion beyond bile duct.",
+                    "five_yr_survival": "~40-50%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIB",
+                    "criteria": "T2 N1 M0 or T3 N0-1 M0",
+                    "clinical_meaning": "More advanced local disease or nodal involvement.",
+                    "five_yr_survival": "~25-40%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIA",
+                    "criteria": "T1-3 N2 M0",
+                    "clinical_meaning": "Extensive regional nodal disease.",
+                    "five_yr_survival": "~10-20%",
+                    "treatment_intent": "Curative"
+                },
+                {
+                    "group": "Stage IIIB",
+                    "criteria": "T4 N0-2 M0",
+                    "clinical_meaning": "Locally advanced disease with major vessel or biliary involvement.",
+                    "five_yr_survival": "<10%",
+                    "treatment_intent": "May consider neoadjuvant therapy"
+                },
+                {
+                    "group": "Stage IV",
+                    "criteria": "Any T Any N M1",
+                    "clinical_meaning": "Distant metastasis.",
+                    "five_yr_survival": "<5%",
+                    "treatment_intent": "Palliative"
+                }
+            ],
+            "staging_pearls": [
+                "Perihilar (hilar) and distal eCCA have separate staging definitions in AJCC 8th edition [19, ST-3, ST-4].",
+                "For perihilar tumors, T stage is based on extent of bile duct involvement, hepatic parenchyma invasion, and vascular involvement.",
+                "For distal tumors, T stage is based on depth of invasion into the bile duct wall (T1: <5 mm, T2: 5-12 mm, T3: >12 mm) [19].",
+                "Regional lymph node staging differs between perihilar (N1: 1-3 nodes, N2: ≥4 nodes) and distal (N1: 1-3 nodes, N2: ≥4 nodes) but with different nodal groups."
+            ]
+        },
+        "management_principles": {
+            "overview": "Biliary tract cancers (BTCs) are highly lethal malignancies requiring a multidisciplinary approach. Treatment philosophy emphasizes complete surgical resection as the only potentially curative option for resectable disease, with multimodal therapy (systemic therapy, locoregional therapy, radiation) integrated for advanced stages. The approach is guided by tumor subsite (gallbladder, intrahepatic, extrahepatic cholangiocarcinoma), resectability status, and presence of metastases. Clinical trial participation is encouraged for all stages [1].",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Patients with resectable localized disease",
+                    "approach": "Surgery is the primary treatment with intent to achieve negative margins. Adjuvant systemic therapy (preferred: capecitabine) or chemoradiation is recommended for node-positive or margin-positive disease. For locally advanced unresectable disease, neoadjuvant systemic therapy or clinical trial participation is considered to evaluate tumor biology and avoid futile surgery."
+                },
+                {
+                    "intent": "Palliative/Control",
+                    "patient_group": "Patients with unresectable or metastatic disease",
+                    "approach": "Systemic therapy (preferred: gemcitabine/cisplatin + immunotherapy) is the mainstay. Locoregional therapies (ablation, TACE, Y90) and radiation may be considered for symptom control or oligometastatic disease. Best supportive care is an option for poor performance status."
+                }
+            ],
+            "mdt_requirements": "Multidisciplinary team (MDT) evaluation is mandatory for all patients with BTCs to determine resectability, optimize staging, and guide treatment decisions. MDT should include hepatobiliary surgeons, medical oncologists, radiation oncologists, radiologists, pathologists, gastroenterologists, and palliative care specialists. For patients with hilar cholangiocarcinoma, consultation with a transplant center is recommended for select cases [2].",
+            "performance_status_guide": "Performance status (PS) is a key determinant of treatment tolerance. Patients with ECOG PS 0-1 are candidates for all standard therapies. For PS 2, reduced-intensity regimens or clinical trials are appropriate. PS ≥3 indicates best supportive care. Biliary drainage should be considered for symptomatic jaundice prior to systemic therapy to improve PS and allow treatment [3]."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "gallbladder_incidental_surgery",
+                "title": "Incidental Finding of Gallbladder Cancer During Surgery",
+                "branching_basis": [
+                    "Resectability",
+                    "surgical expertise availability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Incidental suspicious mass during surgery, hepatobiliary expertise available",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Intraoperative staging ± biopsy",
+                                "preference": "required",
+                                "recommendation": "Perform cholecystectomy + en bloc hepatic resection + lymphadenectomy ± bile duct excision for malignant involvement.",
+                                "linked_regimen_ids": [
+                                    "gall_surgery"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (GALL-6)."
+                        }
+                    },
+                    {
+                        "criteria": "Incidental suspicious mass, expertise unavailable OR resectability unclear",
+                        "options": [
+                            {
+                                "type": "referral",
+                                "label": "Document findings, refer to hepatobiliary surgeon",
+                                "preference": "required",
+                                "recommendation": "Do not perform biopsy (risk of peritoneal dissemination). Proceed with staging workup.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "N/A"
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gallbladder_incidental_pathology",
+                "title": "Incidental Finding of Gallbladder Cancer on Pathologic Review",
+                "branching_basis": [
+                    "T stage",
+                    "margin status",
+                    "lymph node status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "T1a with negative margins",
+                        "options": [
+                            {
+                                "type": "surveillance",
+                                "label": "Observe",
+                                "preference": "preferred",
+                                "recommendation": "No further treatment; follow surveillance guidelines.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy indicated."
+                        }
+                    },
+                    {
+                        "criteria": "T1b or greater, OR T1a with positive margins, OR cystic duct node positive",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Hepatic resection + lymphadenectomy ± bile duct excision",
+                                "preference": "required",
+                                "recommendation": "If resectable, proceed to surgery. Consider neoadjuvant systemic therapy for locoregionally advanced disease to rule out rapid progression.",
+                                "linked_regimen_ids": [
+                                    "gall_surgery",
+                                    "gall_neoadjuvant"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (GALL-6)."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gallbladder_mass_imaging",
+                "title": "Gallbladder Cancer Presenting as Mass on Imaging",
+                "branching_basis": [
+                    "Resectability",
+                    "metastatic disease presence"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Cholecystectomy + en bloc hepatic resection + lymphadenectomy ± bile duct excision",
+                                "preference": "preferred",
+                                "recommendation": "Diagnostic laparoscopy recommended prior to definitive resection. Adjuvant treatment per post-resection status (GALL-6).",
+                                "linked_regimen_ids": [
+                                    "gall_surgery"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (GALL-6)."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable disease",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Systemic therapy (preferred) OR clinical trial (preferred) OR palliative radiation therapy",
+                                "preference": "preferred",
+                                "recommendation": "Biomarker testing recommended. Assess for response; consider re-evaluation for resection or locoregional therapy.",
+                                "linked_regimen_ids": [
+                                    "gall_systemic",
+                                    "gall_radiation"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "N/A"
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gallbladder_jaundice_metastatic",
+                "title": "Gallbladder Cancer with Jaundice and/or Metastatic Disease",
+                "branching_basis": [
+                    "Resectability",
+                    "metastatic disease presence"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease (rare)",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Cholecystectomy + en bloc hepatic resection + lymphadenectomy + bile duct excision",
+                                "preference": "considered",
+                                "recommendation": "Consider neoadjuvant systemic therapy (category 2B) to rule out rapid progression. Jaundice is a relative contraindication.",
+                                "linked_regimen_ids": [
+                                    "gall_surgery",
+                                    "gall_neoadjuvant"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (GALL-6)."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or metastatic disease",
+                        "options": [
+                            {
+                                "type": "palliative",
+                                "label": "Systemic therapy (preferred) OR clinical trial (preferred) OR best supportive care",
+                                "preference": "preferred",
+                                "recommendation": "Biomarker testing recommended. Consider biliary drainage if indicated. For palliative radiation, see Principles of Radiation Therapy.",
+                                "linked_regimen_ids": [
+                                    "gall_systemic",
+                                    "gall_radiation"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "N/A"
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "intrahepatic_choolangiocarcinoma",
+                "title": "Intrahepatic Cholangiocarcinoma (iCCA)",
+                "branching_basis": [
+                    "Resectability",
+                    "metastatic disease presence",
+                    "liver function"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Resection + regional lymphadenectomy",
+                                "preference": "preferred",
+                                "recommendation": "Consider ablation for small tumors (<3 cm). Staging laparoscopy may be considered.",
+                                "linked_regimen_ids": [
+                                    "intra_surgery",
+                                    "intra_ablation"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (INTRA-2)."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable disease",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Systemic therapy (preferred) OR clinical trial (preferred) OR locoregional therapy (arterially directed therapies or RT)",
+                                "preference": "preferred",
+                                "recommendation": "Consider combination of chemotherapy and chemoradiation or chemoradiation alone. For select patients, referral to transplant center may be considered.",
+                                "linked_regimen_ids": [
+                                    "intra_systemic",
+                                    "intra_locoregional"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "N/A"
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "extrahepatic_choolangiocarcinoma",
+                "title": "Extrahepatic Cholangiocarcinoma (eCCA, including hilar and distal)",
+                "branching_basis": [
+                    "Resectability",
+                    "metastatic disease presence",
+                    "biliary obstruction"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Resection (pancreaticoduodenectomy for distal, major hepatic resection for hilar) + lymphadenectomy",
+                                "preference": "preferred",
+                                "recommendation": "Biliary drainage may be considered preoperatively. Frozen section assessment of duct margins recommended.",
+                                "linked_regimen_ids": [
+                                    "extra_surgery"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy (preferred: capecitabine) or observation per post-resection status (EXTRA-2)."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or metastatic disease",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Systemic therapy (preferred) OR clinical trial (preferred) OR combination of chemotherapy and chemoradiation OR chemoradiation OR palliative RT",
+                                "preference": "preferred",
+                                "recommendation": "Biopsy recommended after determining transplant status. Biliary drainage if indicated. Consider referral to transplant center for select cases.",
+                                "linked_regimen_ids": [
+                                    "extra_systemic",
+                                    "extra_radiation"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "N/A"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Clinical Assessment",
+                "items": [
+                    {
+                        "text": "History and physical examination",
+                        "recommendation": "Required for all patients"
+                    },
+                    {
+                        "text": "Performance status assessment",
+                        "recommendation": "ECOG or Karnofsky score"
+                    },
+                    {
+                        "text": "Assessment of hepatic reserve",
+                        "recommendation": "Critical for surgical planning"
+                    },
+                    {
+                        "text": "Evaluation of jaundice",
+                        "recommendation": "If present, consider biliary drainage"
+                    }
+                ]
+            },
+            {
+                "category": "Imaging",
+                "items": [
+                    {
+                        "text": "Multiphasic abdomen/pelvis CT/MRI with IV contrast",
+                        "recommendation": "Preferred for staging; assess vascular invasion, lymph nodes, metastases"
+                    },
+                    {
+                        "text": "Chest CT ± contrast",
+                        "recommendation": "For pulmonary metastasis evaluation"
+                    },
+                    {
+                        "text": "Biliary protocol imaging",
+                        "recommendation": "For extrahepatic CCA; preferably CT/MRI before biliary decompression"
+                    },
+                    {
+                        "text": "Cholangiography (MRCP preferred over ERCP/PTC)",
+                        "recommendation": "For biliary anatomy assessment; ERCP/PTC reserved for therapeutic intervention"
+                    },
+                    {
+                        "text": "Consider staging laparoscopy",
+                        "recommendation": "For gallbladder cancer and iCCA to detect occult peritoneal disease"
+                    },
+                    {
+                        "text": "PET/CT",
+                        "recommendation": "Not routine; may be considered for equivocal findings or on case-by-case basis"
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory",
+                "items": [
+                    {
+                        "text": "Liver function tests (LFTs)",
+                        "recommendation": "Baseline assessment"
+                    },
+                    {
+                        "text": "Consider CEA and CA 19-9",
+                        "recommendation": "Baseline tests, not for diagnosis; CA 19-9 may be falsely elevated in jaundice"
+                    },
+                    {
+                        "text": "Complete blood count, metabolic panel",
+                        "recommendation": "Baseline"
+                    },
+                    {
+                        "text": "Consider viral hepatitis serologies (iCCA)",
+                        "recommendation": "Per ASCO guidelines if indicated"
+                    },
+                    {
+                        "text": "Consider alpha-fetoprotein (AFP)",
+                        "recommendation": "If HCC cannot be excluded"
+                    }
+                ]
+            },
+            {
+                "category": "Pathology",
+                "items": [
+                    {
+                        "text": "Core biopsy is preferred over FNA",
+                        "recommendation": "For tissue diagnosis and biomarker testing"
+                    },
+                    {
+                        "text": "Biomarker testing (MGPT)",
+                        "recommendation": "Recommended for unresectable/metastatic BTC candidates for systemic therapy; includes NTRK, MSI-H/dMMR, TMB-H, BRAF V600E, FGFR2, IDH1, HER2, RET, KRAS G12C, NRG1 fusions"
+                    },
+                    {
+                        "text": "Germline testing consideration",
+                        "recommendation": "For patients with young age, strong family history, or no known risk factors for liver disease"
+                    }
+                ]
+            },
+            {
+                "category": "Consultations",
+                "items": [
+                    {
+                        "text": "Surgical consultation",
+                        "recommendation": "Early, before biliary drainage if possible"
+                    },
+                    {
+                        "text": "Medical oncology consultation",
+                        "recommendation": "For systemic therapy planning"
+                    },
+                    {
+                        "text": "Radiation oncology consultation",
+                        "recommendation": "If RT considered"
+                    },
+                    {
+                        "text": "Gastroenterology consultation",
+                        "recommendation": "For endoscopic procedures"
+                    },
+                    {
+                        "text": "Transplant hepatology referral",
+                        "recommendation": "For select hilar CCA or iCCA patients"
+                    },
+                    {
+                        "text": "Genetic counseling referral",
+                        "recommendation": "If dMMR/MSI-H or family history suggestive of BRCA1/2 PVs"
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery is the only potentially curative treatment for resectable BTCs. Complete resection with negative margins (R0) is the goal.",
+            "principles": [
+                "Resectability must be assessed by high-quality cross-sectional imaging and MDT review.",
+                "Preoperative biopsy is not always necessary if clinical suspicion is high, but should be performed if chemotherapy is anticipated.",
+                "Diagnostic laparoscopy should be considered to rule out occult metastatic disease, especially for gallbladder cancer and iCCA.",
+                "Regional lymphadenectomy is recommended for accurate staging (porta hepatis for hilar, head of pancreas area for distal).",
+                "Minimally invasive approaches are safe and effective for well-selected cases by experienced surgeons.",
+                "Resection of the bile duct is only indicated to obtain negative margins, not routinely.",
+                "Port site resection is not recommended as it does not improve outcomes."
+            ],
+            "procedures": [
+                {
+                    "name": "Cholecystectomy + en bloc hepatic resection (segments IVB and V) + lymphadenectomy",
+                    "approach": "Open or minimally invasive",
+                    "indications": "Gallbladder cancer",
+                    "key_complications": "Bile leak, bleeding, liver failure",
+                    "operative_mortality": "Varies by center; generally <5% in high-volume centers"
+                },
+                {
+                    "name": "Major hepatectomy (right or left) with caudate lobectomy + hilar lymphadenectomy ± portal vein resection",
+                    "approach": "Open",
+                    "indications": "Hilar cholangiocarcinoma",
+                    "key_complications": "Liver failure, biliary leak, vascular injury",
+                    "operative_mortality": "Higher in high-volume centers (5-10%)"
+                },
+                {
+                    "name": "Pancreaticoduodenectomy (Whipple procedure)",
+                    "approach": "Open",
+                    "indications": "Distal cholangiocarcinoma",
+                    "key_complications": "Pancreatic leak, delayed gastric emptying, hemorrhage",
+                    "operative_mortality": "3-5% in high-volume centers"
+                },
+                {
+                    "name": "Hepatic resection for iCCA",
+                    "approach": "Open or minimally invasive",
+                    "indications": "Intrahepatic cholangiocarcinoma",
+                    "key_complications": "Bile leak, bleeding, liver failure",
+                    "operative_mortality": "<5%"
+                }
+            ],
+            "resectability_criteria": "Resectability is defined by the ability to achieve an R0 resection while maintaining adequate liver function (future liver remnant ≥30-40%). Contraindications to resection include: distant metastatic disease (liver, peritoneum), lymph node metastases beyond the regional basin (celiac axis, aortocaval groove for gallbladder), extensive vascular involvement precluding safe resection, and contralateral biliary/vascular involvement (for hilar CCA). For hilar CCA, the Blumgart staging system may predict resectability.",
+            "pre_operative_optimisation": "Preoperative biliary drainage should be considered for patients with jaundice prior to resection and systemic therapy, especially for hilar CCA with a small future liver remnant. Portal vein embolization may be considered to hypertrophy the future liver remnant. Nutritional optimization and correction of coagulopathy are essential."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) is used in the adjuvant setting for resected disease with positive margins or node-positive disease, for unresectable disease in combination with chemotherapy, and for palliation of symptomatic primary or metastatic lesions.",
+            "principles": [
+                "RT dosing is based on the ability to meet normal organ constraints and underlying liver function.",
+                "Image-guided RT (IGRT) is strongly recommended when using RT, IMRT, and SBRT to improve accuracy and reduce toxicity.",
+                "Concurrent chemoradiation should be limited to 5-fluorouracil or capecitabine; concurrent gemcitabine is not recommended due to toxicity.",
+                "RT can be considered for all tumor locations if organ constraints are met.",
+                "Brachytherapy may be considered at experienced centers."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Stereotactic Body Radiation Therapy (SBRT)",
+                    "total_dose": "40-60 Gy",
+                    "dose_per_fraction": "8-20 Gy",
+                    "fractions": "3-5",
+                    "schedule": "Over 1-2 weeks",
+                    "indication": "Unresectable intrahepatic or extrahepatic CCA; BED10 >100 Gy preferred if constraints allow"
+                },
+                {
+                    "name": "Hypofractionated RT",
+                    "total_dose": "58-67.5 Gy",
+                    "dose_per_fraction": "3.9-4.5 Gy",
+                    "fractions": "15",
+                    "schedule": "Over 3 weeks",
+                    "indication": "Unresectable disease at centers with experience; photons or protons"
+                },
+                {
+                    "name": "Conventional Fractionation RT",
+                    "total_dose": "60-77 Gy",
+                    "dose_per_fraction": "1.8-2 Gy",
+                    "fractions": "30-35",
+                    "schedule": "Over 6-7 weeks",
+                    "indication": "If SBRT/hypofractionation not feasible; may be combined with chemotherapy"
+                },
+                {
+                    "name": "Adjuvant RT",
+                    "total_dose": "45 Gy to regional nodes; 50-60 Gy to tumor bed",
+                    "dose_per_fraction": "1.8-2 Gy",
+                    "fractions": "25-33",
+                    "schedule": "Over 5-6.5 weeks",
+                    "indication": "Resected eCCA or gallbladder cancer with positive margins or high-risk features"
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Concurrent Chemoradiation (Capecitabine or 5-FU)",
+                    "dose_fractionation": "Up to 60 Gy in 30 fractions",
+                    "concurrent_chemotherapy": "Capecitabine or 5-fluorouracil",
+                    "indication": "Unresectable disease; adjuvant setting for high-risk features",
+                    "key_trial": "SWOG S0809 (adjuvant setting)",
+                    "toxicities": "Nausea, diarrhea, myelosuppression, hepatotoxicity"
+                },
+                {
+                    "name": "Palliative Radiation Therapy",
+                    "dose_fractionation": "Various short courses (e.g., 30 Gy in 10 fractions)",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Symptom control for primary tumor, bone metastases, brain metastases",
+                    "key_trial": null,
+                    "toxicities": "Depends on site treated"
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is the primary treatment for unresectable or metastatic BTCs. First-line standard is gemcitabine/cisplatin with or without immunotherapy (durvalumab or pembrolizumab). Second-line options include FOLFOX, FOLFIRI, liposomal irinotecan combinations, and targeted therapies based on biomarker testing. Adjuvant capecitabine is recommended for resected disease.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Adjuvant Therapy (Resected BTCs)",
+                    "preferred_regimen": "Capecitabine (category 1)",
+                    "rationale": "BILCAP trial showed improved overall survival in per-protocol analysis.",
+                    "alternatives": "Capecitabine/gemcitabine, cisplatin/gemcitabine, single-agent gemcitabine or fluorouracil/leucovorin",
+                    "biomarker_requirements": "None"
+                },
+                {
+                    "setting": "Neoadjuvant Therapy (Gallbladder Cancer, Locoregionally Advanced)",
+                    "preferred_regimen": "Regimens used for unresectable/metastatic disease (see below)",
+                    "rationale": "To evaluate tumor biology and avoid futile surgery.",
+                    "alternatives": "Clinical trial participation",
+                    "biomarker_requirements": "None"
+                },
+                {
+                    "setting": "First-Line for Unresectable/Metastatic Disease",
+                    "preferred_regimen": "Cisplatin/gemcitabine + durvalumab (category 1) OR cisplatin/gemcitabine + pembrolizumab (category 1)",
+                    "rationale": "TOPAZ-1 and KEYNOTE-966 trials showed improved OS.",
+                    "alternatives": "Cisplatin/gemcitabine (category 1), albumin-bound paclitaxel/gemcitabine, capecitabine/gemcitabine, capecitabine/oxaliplatin, FOLFOX, gemcitabine/oxaliplatin, single agents",
+                    "biomarker_requirements": "None, but biomarker testing recommended for potential targeted therapy"
+                },
+                {
+                    "setting": "Second-Line for Progressive Disease",
+                    "preferred_regimen": "FOLFOX",
+                    "rationale": "ABC-06 trial showed OS benefit vs. active symptom control.",
+                    "alternatives": "FOLFIRI, fluorouracil/leucovorin/liposomal irinotecan (category 2B), regorafenib (category 2B), or regimens used in first-line if not previously used",
+                    "biomarker_requirements": "Biomarker testing should guide targeted therapy options"
+                },
+                {
+                    "setting": "Targeted Therapy (Based on Biomarkers)",
+                    "preferred_regimen": "Varies by biomarker",
+                    "rationale": "Biomarker-directed therapies have demonstrated efficacy in specific subsets.",
+                    "alternatives": "Clinical trials",
+                    "biomarker_requirements": "Specific biomarker testing required (see below)"
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Capecitabine",
+                    "setting": "Adjuvant therapy",
+                    "drugs": [
+                        {
+                            "name": "capecitabine",
+                            "dose": "1000 mg/m2",
+                            "route": "oral",
+                            "day": "BID days 1-14"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle for up to 6 months",
+                    "key_toxicities": "Hand-foot syndrome, diarrhea, myelosuppression"
+                },
+                {
+                    "name": "Cisplatin/Gemcitabine + Durvalumab",
+                    "setting": "First-line for unresectable/metastatic disease",
+                    "drugs": [
+                        {
+                            "name": "durvalumab",
+                            "dose": "1500 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "cisplatin",
+                            "dose": "25 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1, 8"
+                        },
+                        {
+                            "name": "gemcitabine",
+                            "dose": "1000 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1, 8"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle",
+                    "key_toxicities": "Nausea, myelosuppression, fatigue, hepatotoxicity, immune-related adverse events"
+                },
+                {
+                    "name": "Cisplatin/Gemcitabine + Pembrolizumab",
+                    "setting": "First-line for unresectable/metastatic disease",
+                    "drugs": [
+                        {
+                            "name": "pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "cisplatin",
+                            "dose": "25 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1, 8"
+                        },
+                        {
+                            "name": "gemcitabine",
+                            "dose": "1000 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1, 8"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle",
+                    "key_toxicities": "Nausea, myelosuppression, fatigue, immune-related adverse events"
+                },
+                {
+                    "name": "FOLFOX",
+                    "setting": "Second-line for progressive disease",
+                    "drugs": [
+                        {
+                            "name": "oxaliplatin",
+                            "dose": "85 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "leucovorin",
+                            "dose": "400 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "fluorouracil",
+                            "dose": "400 mg/m2 bolus then 2400 mg/m2 continuous infusion over 46 hours",
+                            "route": "IV",
+                            "day": "Day 1-2"
+                        }
+                    ],
+                    "cycle_days": "14-day cycle",
+                    "key_toxicities": "Neuropathy, myelosuppression, mucositis"
+                },
+                {
+                    "name": "Ivosidenib",
+                    "setting": "Subsequent-line for IDH1-mutated CCA",
+                    "drugs": [
+                        {
+                            "name": "ivosidenib",
+                            "dose": "500 mg",
+                            "route": "oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous until progression",
+                    "key_toxicities": "QT prolongation, differentiation syndrome, hepatotoxicity"
+                },
+                {
+                    "name": "Futibatinib",
+                    "setting": "Subsequent-line for FGFR2 fusion/rearranged CCA",
+                    "drugs": [
+                        {
+                            "name": "futibatinib",
+                            "dose": "400 mg",
+                            "route": "oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous until progression",
+                    "key_toxicities": "Hyperphosphatemia, stomatitis, dry eye, nail toxicity"
+                },
+                {
+                    "name": "Dabrafenib/Trametinib",
+                    "setting": "Subsequent-line for BRAF V600E-mutated tumors",
+                    "drugs": [
+                        {
+                            "name": "dabrafenib",
+                            "dose": "150 mg",
+                            "route": "oral",
+                            "day": "BID"
+                        },
+                        {
+                            "name": "trametinib",
+                            "dose": "2 mg",
+                            "route": "oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous until progression",
+                    "key_toxicities": "Fever, fatigue, nausea, rash, cardiac toxicity"
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Response Assessment and Surveillance",
+            "timing": "Response assessment typically performed every 2-3 cycles during systemic therapy or as clinically indicated. Post-treatment surveillance follows guidelines based on recurrence risk.",
+            "response_logic": [
+                "Assessment of treatment response should be performed using RECIST criteria via cross-sectional imaging.",
+                "After primary treatment (surgery or systemic therapy), resectability or locoregional therapy should be reconsidered if response is observed.",
+                "For patients with progression on systemic therapy, subsequent-line therapy should be considered based on biomarkers, prior treatment, and performance status.",
+                "For patients with localized disease post-resection, surveillance should include periodic imaging and tumor markers (CA 19-9, CEA) as clinically indicated."
+            ],
+            "imaging_recommendations": [
+                "During systemic therapy: Multiphasic abdomen/pelvis CT/MRI with IV contrast and chest CT ± contrast every 2-3 months.",
+                "Post-resection surveillance: Consider imaging every 3-6 months for 2 years, then every 6-12 months for up to 5 years, or as clinically indicated.",
+                "For gallbladder cancer: Follow BILCAP trial surveillance schedule (every 3-6 months for 2 years, then every 6-12 months for up to 5 years).",
+                "PET/CT may be considered for equivocal findings."
+            ],
+            "biopsy_or_salvage_logic": [
+                "Biopsy of progressing lesions may be warranted to reassess histology or obtain biomarker testing for targeted therapy.",
+                "For patients with recurrent disease after resection, re-evaluation by MDT is essential to determine eligibility for further surgery, locoregional therapy, or systemic therapy.",
+                "Salvage options include second-line systemic therapy, clinical trials, or best supportive care."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_biliary_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T16:02:57.020706"
+    }
+}

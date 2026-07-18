@@ -1,0 +1,1249 @@
+{
+    "site_id": "thyroid",
+    "site_display_name": "Thyroid Cancer",
+    "archetype": "D",
+    "regimen_count": 41,
+    "regimens": [
+        {
+            "regimen_name": "Lenvatinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic RAI-refractory disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SELECT",
+                "phase": "3",
+                "n_patients": null,
+                "primary_endpoint": "PFS",
+                "results": "Median PFS 18.3 months vs 3.6 months with placebo (HR, 0.21; 99% CI, 0.14-0.31; P < .001). Six treatment-related deaths occurred in the lenvatinib group [322]."
+            },
+            "notes": "Lenvatinib is the preferred systemic therapy for RAI-refractory differentiated thyroid cancer. The NCCN Panel prefers lenvatinib over sorafenib based on a response rate of 65% for lenvatinib compared with 12% for sorafenib, although these agents have not been directly compared. The decision to use lenvatinib or sorafenib should be individualized for each patient based on likelihood of response and comorbidities. The efficacy of lenvatinib for patients with brain metastases has not been established; consultation with neurosurgery and radiation oncology is recommended. Tyrosine kinase inhibitor therapy should be used with caution in otherwise untreated CNS metastases due to bleeding risk; brain imaging should be considered prior to the start of TKI therapy [322,325,326,327,420]. Kinase inhibitor therapy may not be appropriate for patients with stable or slowly progressive indolent disease."
+        },
+        {
+            "regimen_name": "Sorafenib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic RAI-refractory disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DECISION",
+                "phase": "3",
+                "n_patients": null,
+                "primary_endpoint": "PFS",
+                "results": "Median PFS 10.8 months vs 5.8 months with placebo (HR, 0.59; 95% CI, 0.45-0.76; P < .0001). One treatment-related death occurred in the sorafenib group [328]."
+            },
+            "notes": "Sorafenib is a category 1 option for RAI-refractory differentiated thyroid cancer. Hand-foot syndrome is common with sorafenib and may require dose adjustments [328,329,330,331]. After consultation with neurosurgery and radiation oncology, data on the efficacy of sorafenib for patients with brain metastases have not been established [328,334]. Kinase inhibitor therapy may not be appropriate for patients with stable or slowly progressive indolent disease."
+        },
+        {
+            "regimen_name": "Cabozantinib after Lenvatinib and/or Sorafenib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic RAI-refractory disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (papillary carcinoma); Category 2A (follicular carcinoma and oncocytic carcinoma)",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "COSMIC-311",
+                "phase": "3",
+                "n_patients": "187 (ITT)",
+                "primary_endpoint": "PFS",
+                "results": "Interim analysis: median PFS not reached for cabozantinib vs 1.9 months for placebo (HR, 0.22; 99% CI, 0.13-0.36; P < .0001). Updated results: median PFS 11.0 months vs 1.9 months (HR, 0.22; 95% CI, 0.15-0.32; P < .0001). ORR 11.0% vs 0% (P = .0003). Subgroup analyses showed cabozantinib was associated with improved PFS regardless of histology and previous VEGFR TKI treatment used [361,421,422]."
+            },
+            "notes": "Cabozantinib is a category 1 option for papillary carcinoma and category 2A for follicular and oncocytic carcinoma after progression on lenvatinib and/or sorafenib. Subgroup analyses showed benefit regardless of histology (papillary, follicular, oncocytic, poorly differentiated) and previous VEGFR TKI treatment [361,421,422]. Rare adverse events with cabozantinib include severe bleeding and gastrointestinal perforations or fistulas; severe hemorrhage is a contraindication for cabozantinib. Caution should be used in patients with untreated CNS metastases due to associated bleeding risk."
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic); Anaplastic Thyroid Cancer",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with NTRK1/2/3 gene fusion",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials",
+                "phase": "1/2",
+                "n_patients": "54 (NTRK fusion-positive solid tumors)",
+                "primary_endpoint": "ORR",
+                "results": "Objective response rate of 57.4% for entrectinib [348]."
+            },
+            "notes": "Entrectinib is an option for NTRK1/2/3 gene fusion-positive differentiated thyroid cancer and anaplastic thyroid cancer. NTRK1/2/3 gene fusion testing should be performed on the tumor, preferably on a fresh sample. Testing circulating tumor DNA (ctDNA) should only be considered if a tumor sample is not available."
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic); Anaplastic Thyroid Cancer",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with NTRK1/2/3 gene fusion",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analysis of three studies (phase 1, phase 1/2, phase 2)",
+                "phase": "1/2",
+                "n_patients": "N/A (7 patients with thyroid cancer among all tumor types)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 75% (95% CI, 61%-85%) by independent review and 80% (95% CI, 67%-90%) by investigator assessment for the whole population. One hundred percent of thyroid cancers in this study responded to larotrectinib, with one complete response and four partial responses [347,549]."
+            },
+            "notes": "Larotrectinib was found to be well-tolerated, with the majority (93%) of adverse events being grades 1 or 2 and no treatment-related adverse events of grades 3 or 4 occurring in more than 5% of patients [347]. An option for NTRK1/2/3 gene fusion-positive disease."
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic); Anaplastic Thyroid Cancer",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with NTRK1/2/3 gene fusion",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": "88 (NTRK fusion-positive advanced solid tumors)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 58% for TRK TKI-naive patients and 50% for previously treated patients [349]."
+            },
+            "notes": "An option for NTRK1/2/3 gene fusion-positive disease. Testing should be performed on the tumor, preferably on a fresh sample."
+        },
+        {
+            "regimen_name": "Pralsetinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with RET gene fusion",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pralsetinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "RET gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ARROW (phase 1/2) - RET fusion-positive thyroid cancer",
+                "phase": "1/2",
+                "n_patients": "22 (RET fusion-positive thyroid cancer)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 90.9% (95% CI, 70.8%-98.9%), median DOR 23.6 months, median PFS 25.4 months [550]."
+            },
+            "notes": "An option for RET gene fusion-positive differentiated thyroid cancer. Selpercatinib and pralsetinib are FDA approved for RAI-refractory RET fusion-positive thyroid cancer requiring systemic therapy. Testing should be performed on the tumor, preferably on a fresh sample."
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with RET gene fusion",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "RET gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "19 (RET fusion-positive thyroid cancer)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 79% (95% CI, 54%-94%), 1-year PFS 64% (95% CI, 37%-82%) [350]."
+            },
+            "notes": "An option for RET gene fusion-positive differentiated thyroid cancer. Selpercatinib is also FDA approved for pediatric patients >=2 years of age. Testing should be performed on the tumor, preferably on a fresh sample."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with TMB-H, MSI-H, or dMMR",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "TMB-H (>=10 mut/Mb)",
+                    "mandatory": false
+                },
+                {
+                    "marker": "MSI-H",
+                    "requirement": "MSI-high (MSI-H) or dMMR tumors",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": "ORR",
+                "results": "For the whole sample (advanced solid tumors, including 2 patients with thyroid cancer), ORR was 29% (95% CI, 21%-39%). Grade 3-5 treatment-related adverse events were reported in 15% of patients [352,353]."
+            },
+            "notes": "An option for TMB-high (>=10 mut/Mb) differentiated thyroid cancer and for MSI-high or dMMR tumors that have progressed following prior treatment with no satisfactory alternative options. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [g]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (as Redifferentiation Therapy)",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Metastatic BRAF V600E-mutated differentiated thyroid cancer",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "BRAF V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II redifferentiation trial",
+                "phase": "2",
+                "n_patients": "24",
+                "primary_endpoint": "RAI uptake restoration",
+                "results": "Dabrafenib/trametinib restored RAI uptake in 95.2% of patients. Partial response was observed in 38%, with stable disease observed in 52%. PFS rates (12- and 24-month) were 82% and 68%, respectively, with median PFS not reached [390]."
+            },
+            "notes": "Redifferentiation therapy to re-establish RAI uptake in patients who become RAI-refractory is a strategy under investigation. However, redifferentiation therapy is not currently recommended in the NCCN Guidelines as more RCTs are needed. Dabrafenib/Trametinib could also be appropriate as a first-line therapy for patients with high-risk disease who are not appropriate for VEGF inhibitors [f]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (for BRAF V600E-mutated disease that progressed on prior treatment)",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with BRAF V600E mutation progressing on prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "BRAF V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "For BRAF V600E mutation that has progressed following prior treatment with no satisfactory alternative treatment options."
+        },
+        {
+            "regimen_name": "Binimetinib/Encorafenib (for BRAF V600E-mutated disease that progressed on prior treatment)",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease with BRAF V600E mutation progressing on prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Binimetinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Encorafenib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "BRAF V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase 2 study (Japan)",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": "ORR",
+                "results": "[2] Tahara M, et al. Phase 2 study of encorafenib in combination with binimetinib in patients with metastatic BRAF-mutated thyroid cancer in Japan [2]."
+            },
+            "notes": "For BRAF V600E mutation that has progressed following prior treatment with no satisfactory alternative treatment options [2]."
+        },
+        {
+            "regimen_name": "Lenvatinib + Pembrolizumab",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic RAI-refractory disease progressing on lenvatinib",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "An option if disease progression on lenvatinib. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [24]."
+        },
+        {
+            "regimen_name": "Carboplatin/Pemetrexed",
+            "site": "Differentiated Thyroid Cancer (Papillary, Follicular, or Oncocytic)",
+            "setting": "Locally recurrent, advanced, and/or metastatic disease progressing following prior treatment",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "An option if disease progression following prior treatment. Cytotoxic chemotherapy has been shown to have minimal efficacy in differentiated thyroid cancer, although most studies were small and underpowered [h]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Oncocytic Carcinoma Only)",
+            "site": "Oncocytic Carcinoma",
+            "setting": "Locally recurrent, advanced, and/or metastatic RAI-refractory disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase 2 nonrandomized clinical trial (dual immune checkpoint inhibition in aggressive thyroid carcinoma)",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": "ORR",
+                "results": "Sehgal K, et al. JAMA Oncol 2024;10:1663-1671 [1]."
+            },
+            "notes": "Specifically for oncocytic carcinoma only. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV Nivolumab for Nivolumab monotherapy, but is not approved for concurrent use with IV Ipilimumab. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [1]."
+        },
+        {
+            "regimen_name": "Dacarbazine-Based Chemotherapy (for Medullary Carcinoma)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases (symptomatic or progression) after kinase inhibitor therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin/Streptozocin alternating with Dacarbazine/Fluorouracil",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Dacarbazine/Fluorouracil alternating with Fluorouracil/Streptozocin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Other small-molecule kinase inhibitors (such as Sorafenib, Sunitinib, Lenvatinib, or Pazopanib) can be considered if clinical trials or preferred systemic therapy options are not available or appropriate, or if the patient progresses on preferred systemic therapy options [l]."
+        },
+        {
+            "regimen_name": "Lutetium Dotatate",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases (symptomatic or progression)",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Dotatate (177 Lu-DOTATATE PRRT)",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Somatostatin receptor",
+                    "requirement": "Somatostatin receptor positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": "Efficacy",
+                "results": "Parghane RV, et al. Clinical utility of 177 Lu-DOTATATE PRRT in somatostatin receptor-positive metastatic medullary carcinoma of thyroid patients with assessment of efficacy, survival analysis, prognostic variables, and toxicity. Head Neck 2020;42:401-416 [3]."
+            },
+            "notes": "For somatostatin receptor-positive recurrent or persistent distant metastatic medullary thyroid carcinoma [3]."
+        },
+        {
+            "regimen_name": "Selpercatinib (for RET-mutant Medullary Thyroid Carcinoma, First-Line)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases with RET PV, first-line therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET pathogenic variant (PV)",
+                    "requirement": "RET PV-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LIBRETTO-531",
+                "phase": "3",
+                "n_patients": "291",
+                "primary_endpoint": "PFS",
+                "results": "Median PFS not reached for selpercatinib vs 16.8 months for control (HR, 0.28; 95% CI, 0.16-0.48; P < .001). 12-month PFS rates: 86.8% (95% CI, 79.8%-91.6%) vs 65.7% (95% CI, 51.9%-76.4%). ORR: 69.4% (95% CI, 62.4%-75.8%) vs 38.8% (95% CI, 29.1%-49.2%) [491]."
+            },
+            "notes": "Category 1 preferred option for RET-mutant medullary thyroid carcinoma requiring systemic therapy, compared to cabozantinib or vandetanib as first-line therapy. Selpercatinib is also FDA approved for pediatric patients >=2 years of age [491,492]. The NCCN Panel recommends somatic molecular testing for RET in patients who are germline wild-type or germline unknown."
+        },
+        {
+            "regimen_name": "Selpercatinib (for RET-mutant Medullary Thyroid Carcinoma, Second-Line)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases with RET PV, previously treated with vandetanib and/or cabozantinib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET pathogenic variant (PV)",
+                    "requirement": "RET PV-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "143 (RET-mutant MTC)",
+                "primary_endpoint": "ORR/PFS",
+                "results": "For patients previously treated with vandetanib and/or cabozantinib: ORR 69% (95% CI, 55%-81%) and 1-year PFS 82% (95% CI, 69%-90%). For patients with no previous vandetanib or cabozantinib treatment: ORR 73% (95% CI, 62%-82%) and 1-year PFS 92% (95% CI, 82%-97%) [350]."
+            },
+            "notes": "Category 1 preferred option for RET-mutant medullary thyroid carcinoma that has progressed on prior treatment. Selpercatinib is also FDA approved for pediatric patients >=2 years of age [350]."
+        },
+        {
+            "regimen_name": "Pralsetinib (for RET-mutant Medullary Thyroid Carcinoma)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases with RET PV",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pralsetinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET pathogenic variant (PV)",
+                    "requirement": "RET PV-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ARROW",
+                "phase": "1/2",
+                "n_patients": "92 (RET-mutant MTC)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 60% (95% CI, 46%-74%) in patients previously treated with vandetanib and/or cabozantinib (n=61) and 74% (95% CI, 49%-91%) in patients with no previous vandetanib or cabozantinib treatment (n=22). Common grade 3-4 treatment-related adverse events: hypertension (11%) and neutropenia (10%) [493]."
+            },
+            "notes": "Category 2B preferred option for RET-mutant medullary thyroid carcinoma. The indication for pralsetinib was voluntarily withdrawn by the manufacturer in 2023 due to feasibility of performing confirmatory trials [493]."
+        },
+        {
+            "regimen_name": "Cabozantinib (for Medullary Thyroid Carcinoma)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases (symptomatic or progression)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EXAM",
+                "phase": "3",
+                "n_patients": "330",
+                "primary_endpoint": "PFS",
+                "results": "Median PFS 11.2 months vs 4.0 months with placebo (HR, 0.28; 95% CI, 0.19-0.40; P < .001). ORR 28% vs 0% (P < .001). Median OS 26.6 months for cabozantinib vs 21.1 months for placebo (stratified HR, 0.85; 95% CI, 0.64-1.12; P = .24) [477,485]."
+            },
+            "notes": "Category 1 preferred option for recurrent or persistent medullary thyroid carcinoma. Inhibits RET, VEGFR2, and MET. Exploratory analyses suggest cabozantinib may have greater clinical benefit for MTC harboring RET M918T or RAS mutations, although prospective trials are needed [477,485,486]. Rare adverse events include severe bleeding and gastrointestinal perforations or fistulas; severe hemorrhage is a contraindication."
+        },
+        {
+            "regimen_name": "Vandetanib (for Medullary Thyroid Carcinoma)",
+            "site": "Medullary Thyroid Carcinoma",
+            "setting": "Recurrent or persistent distant metastases (symptomatic or progression)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vandetanib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ZETA",
+                "phase": "3",
+                "n_patients": "331",
+                "primary_endpoint": "PFS",
+                "results": "PFS improved compared with placebo (HR, 0.46; 95% CI, 0.31-0.69; P < .001). Post-hoc subgroup analysis of 184 patients with symptomatic and progressive disease: PFS HR 0.43 (95% CI, 0.28-0.64; P < .001), ORR 37% vs 2% (P < .001) [481,482]."
+            },
+            "notes": "Category 1 preferred option for recurrent or persistent medullary thyroid carcinoma. Inhibits RET, VEGFR, and EGFR. Only health care professionals and pharmacies certified through the vandetanib Risk Evaluation and Mitigation Strategy (REMS) program will be able to prescribe and dispense the drug, due to potential cardiac toxicity involving prolongation of the QTc interval [481,482,483,484]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (for Anaplastic Thyroid Carcinoma, Neoadjuvant or Systemic)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Neoadjuvant (stage IVa/IVb borderline resectable); or metastatic (stage IVc) BRAF V600E-mutated disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "BRAF V600E mutation-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ROAR basket study",
+                "phase": "2",
+                "n_patients": "36 (ATC patients in updated analysis)",
+                "primary_endpoint": "ORR",
+                "results": "Updated analysis: ORR 56% (95% CI, 38.1%-72.1%), including 3 complete responses, 12-month duration of response 50%. Median PFS 6.7 months and median OS 14.5 months. Twelve-month OS and PFS rates were 43.2% and 51.7%, respectively [541,547,548]."
+            },
+            "notes": "For BRAF V600E mutation-positive anaplastic thyroid cancer. May be used as neoadjuvant therapy for borderline resectable disease (category 2B) or for metastatic disease. A complete surgical resection following neoadjuvant dabrafenib/trametinib was achieved in 6 patients with initially unresectable BRAF V600E-mutated ATC in a case series [585]. In an earlier analysis of 16 patients, confirmed ORR was 69% (95% CI, 41%-89%) [541]. The combination was well-tolerated across 100 patients; common adverse events included fatigue (38%), pyrexia (37%), and nausea (35%) [541]. FDA approved in 2018."
+        },
+        {
+            "regimen_name": "Selpercatinib (for RET Fusion-Positive Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic RET fusion-positive disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "RET gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001 (RET fusion-positive thyroid cancer, including 2 patients with anaplastic disease)",
+                "phase": "1/2",
+                "n_patients": "19 (RET fusion-positive thyroid cancer)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 79% (95% CI, 54%-94%), 1-year PFS 64% (95% CI, 37%-82%) [350]."
+            },
+            "notes": "For RET fusion-positive anaplastic thyroid carcinoma. Selpercatinib is also FDA approved for pediatric patients >=2 years of age. Testing should be performed on the tumor, preferably on a fresh sample [350]."
+        },
+        {
+            "regimen_name": "Pralsetinib (for RET Fusion-Positive Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic RET fusion-positive disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pralsetinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "RET gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ARROW (RET fusion-positive thyroid cancer)",
+                "phase": "1/2",
+                "n_patients": "22 (RET fusion-positive thyroid cancer, including one patient with anaplastic disease)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 90.9% (95% CI, 70.8%-98.9%), median DOR 23.6 months, median PFS 25.4 months [550]."
+            },
+            "notes": "For RET fusion-positive anaplastic thyroid carcinoma. In an analysis of 9 patients with RET fusion-positive thyroid cancer, ORR was 89% (95% CI, 52%-100%) with durable responses (100% disease control rate) [351]. FDA approved for RAI-refractory RET fusion-positive thyroid cancer requiring systemic therapy [350,351,550]."
+        },
+        {
+            "regimen_name": "Entrectinib (for NTRK Fusion-Positive Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic NTRK1/2/3 gene fusion-positive disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials",
+                "phase": "1/2",
+                "n_patients": "54 (NTRK fusion-positive solid tumors)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 57.4% [348]."
+            },
+            "notes": "An option for NTRK1/2/3 gene fusion-positive anaplastic thyroid carcinoma [348]."
+        },
+        {
+            "regimen_name": "Larotrectinib (for NTRK Fusion-Positive Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic NTRK1/2/3 gene fusion-positive disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Pooled analysis of three studies",
+                "phase": "1/2",
+                "n_patients": "N/A (7 thyroid cancer patients among all tumor types)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 75% (95% CI, 61%-85%) by independent review. 100% of thyroid cancers responded [347,549]."
+            },
+            "notes": "An option for NTRK1/2/3 gene fusion-positive anaplastic thyroid carcinoma. Well-tolerated; 93% of adverse events were grades 1 or 2 [347,549]."
+        },
+        {
+            "regimen_name": "Repotrectinib (for NTRK Fusion-Positive Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic NTRK1/2/3 gene fusion-positive disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "NTRK1/2/3 gene fusion-positive tumors",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": "88 (NTRK fusion-positive advanced solid tumors)",
+                "primary_endpoint": "ORR",
+                "results": "ORR 58% for TKI-naive, 50% for previously treated [349]."
+            },
+            "notes": "An option for NTRK1/2/3 gene fusion-positive anaplastic thyroid carcinoma [349]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (for Anaplastic Thyroid Carcinoma, non-RAS)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease (non-RAS tumors only)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RAS mutation",
+                    "requirement": "Non-RAS tumors only",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "An option for metastatic anaplastic thyroid carcinoma in non-RAS tumors. Based on extrapolation from a phase II trial of spartalizumab in ATC (ORR 19%; higher for PD-L1-positive disease) [551]. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [g]."
+        },
+        {
+            "regimen_name": "Lenvatinib + Pembrolizumab (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "Per prescribing information",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II ATLEP trial",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": null,
+                "results": "A retrospective study including 6 patients with metastatic ATC showed complete response in 66%, with a median PFS of 16.5 months. All patients with a complete response had increased TMB or PD-L1 TPS >50% [544]."
+            },
+            "notes": "An option for metastatic anaplastic thyroid carcinoma. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [544]. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [g]."
+        },
+        {
+            "regimen_name": "Carboplatin/Pemetrexed (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease progressing following prior treatment",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pemetrexed-carboplatin salvage therapy",
+                "phase": null,
+                "n_patients": null,
+                "primary_endpoint": null,
+                "results": "Lee KK, Morris JC, Kumar A, et al. Head Neck 2024;47:813-821 [12]."
+            },
+            "notes": "If disease progression following prior treatment [12]."
+        },
+        {
+            "regimen_name": "Cisplatin/Doxorubicin (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Randomized trial of doxorubicin vs doxorubicin plus cisplatin",
+                "phase": null,
+                "n_patients": "84",
+                "primary_endpoint": "Response rate",
+                "results": "11.6% complete response rate in the doxorubicin/cisplatin arm vs 0% for single-agent doxorubicin. ORR did not differ significantly between study arms (26% vs 17%) [543]."
+            },
+            "notes": "Based on a small randomized trial of 84 patients with advanced thyroid cancer (not limited to ATC) [543]."
+        },
+        {
+            "regimen_name": "Doxorubicin (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "FDA approved for ATC. Single-agent doxorubicin has minimal efficacy in advanced thyroid cancer overall, although some patients may show disease response or stable disease [520,543]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (for Anaplastic Thyroid Carcinoma, Radiosensitizing)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Locoregional disease - adjuvant/radiosensitizing therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "An adjuvant/radiosensitizing chemotherapy regimen for stage IVa/IVb locoregional disease. Also a systemic therapy option for metastatic disease (category 2B). Concurrent chemoradiation is generally more toxic than chemotherapy alone [520]."
+        },
+        {
+            "regimen_name": "Docetaxel (for Anaplastic Thyroid Carcinoma, Adjuvant/Radiosensitizing)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Locoregional disease - adjuvant/radiosensitizing therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "An adjuvant/radiosensitizing chemotherapy regimen for stage IVa/IVb locoregional disease [520]."
+        },
+        {
+            "regimen_name": "Paclitaxel (for Anaplastic Thyroid Carcinoma, Adjuvant/Radiosensitizing)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Locoregional disease - adjuvant/radiosensitizing therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "An adjuvant/radiosensitizing chemotherapy regimen for stage IVa/IVb locoregional disease. If weekly paclitaxel is used, the ATA Guidelines recommend using paclitaxel at 60 to 90 mg/m2 IV weekly [520,554]."
+        },
+        {
+            "regimen_name": "Nivolumab (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "An option for metastatic ATC. Based on extrapolation from phase II data with spartalizumab and pembrolizumab in ATC [545,546]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV Nivolumab. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [g]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (for Anaplastic Thyroid Carcinoma)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": null,
+                "primary_endpoint": "ORR",
+                "results": "For the whole sample of advanced solid tumors, ORR was 29% (95% CI, 21%-39%) [495]."
+            },
+            "notes": "An option for metastatic ATC regardless of TMB or CPS. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. See NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities for treatment of toxicity from immunotherapy [g,495]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (for Anaplastic Thyroid Carcinoma, Metastatic, Category 2B)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B option for metastatic ATC based on low-quality evidence and less Panel consensus [520]."
+        },
+        {
+            "regimen_name": "Docetaxel/Doxorubicin (for Anaplastic Thyroid Carcinoma, Metastatic, Category 2B)",
+            "site": "Anaplastic Thyroid Carcinoma",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Per prescribing information",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Category 2B option for metastatic ATC based on low-quality evidence and less Panel consensus [520]."
+        },
+        {
+            "regimen_name": "Active Surveillance for Low-Risk Papillary Thyroid Cancer",
+            "site": "Papillary Thyroid Carcinoma",
+            "setting": "Low-risk papillary microcarcinoma (tumor <=1 cm)",
+            "treatment_modality": [
+                "active surveillance"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {},
+            "notes": "There is low-quality evidence that active surveillance is an appropriate management option for some patients with low-risk papillary thyroid microcarcinoma (tumor size <=1 cm), and there are limited data on the role of active surveillance in cancers >1 cm. Surveillance strategy: neck ultrasound, including thyroid and lymph node regions, should be performed every 6 months for 1 to 2 years and then annually. If there are any suspicious nodes, these would need to be evaluated prior to moving forward with active surveillance. Active surveillance should NOT be used in patients who prefer surgery; in cases of aggressive histologic subtypes, invasion of recurrent laryngeal nerve, trachea, or esophagus, visible ETE, regional or distant metastases, tumor near posterior capsule, or tumors invading the isthmus or abutting against the trachea; in patients unable or unwilling to follow up for surveillance; or when there is lack of access to high-quality neck ultrasound. Transitioning to surgery is indicated for patient preference, new biopsy-proven lymph node metastases, distant metastases, invasion into recurrent laryngeal nerve, trachea, or esophagus, radiologic evidence of ETE, or cancer growth by 3 mm in any dimension or a 50% volume increase [THYR-D]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.405507"
+}

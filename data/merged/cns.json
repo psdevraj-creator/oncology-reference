@@ -1,0 +1,2639 @@
+{
+    "site_id": "cns",
+    "site_display_name": "CNS Cancers",
+    "archetype": "F",
+    "regimen_count": 89,
+    "regimens": [
+        {
+            "regimen_name": "Vorasidenib monotherapy",
+            "site": "Oligodendroglioma / IDH-mutant Astrocytoma",
+            "setting": "Adjuvant treatment after surgery/biopsy when upfront RT and chemotherapy is not preferred, WHO grade 2, KPS ≥60; No residual/measurable disease after surgery/biopsy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vorasidenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1 or IDH2 mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1 (for residual/measurable disease after surgery/biopsy)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INDIGO",
+                "phase": "Phase 3",
+                "n_patients": "Not specified",
+                "os": "Not reported at interim analysis",
+                "pfs": "Median PFS 27.7 months vs. 11.1 months for placebo",
+                "hr": "Not specified",
+                "ci": "Not specified",
+                "orr": "Not specified"
+            },
+            "notes": "Vorasidenib is a dual inhibitor of IDH1 and IDH2. In the phase 3 INDIGO study (Mellinghoff IK, et al. N Engl J Med 2023;389:589-601), vorasidenib improved median PFS (27.7 months vs. 11.1 months) compared to placebo in patients with residual or recurrent grade 2 IDH1/2-mutant glioma after surgery and no prior treatment. Overall survival data from this study are not yet available. Newly diagnosed patients with oligodendroglioma/astrocytoma (WHO grade 2 or 3) who did not have residual disease were excluded from the INDIGO study; thus it remains unknown if this subset would benefit from immediate treatment with an IDH inhibitor. The Panel strongly recommends multidisciplinary discussion for patients with newly diagnosed gliomas or if treatment with an IDH inhibitor is being considered."
+        },
+        {
+            "regimen_name": "Ivosidenib monotherapy (for IDH1 mutation, alternative to vorasidenib)",
+            "site": "Oligodendroglioma / IDH-mutant Astrocytoma",
+            "setting": "Adjuvant treatment after surgery/biopsy when upfront RT and chemotherapy is not preferred, WHO grade 2, KPS ≥60; No residual/measurable disease after surgery/biopsy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ivosidenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1 mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Ivosidenib is an IDH1 inhibitor and is a reasonable alternative if a patient cannot tolerate vorasidenib (Mellinghoff IK, et al. J Clin Oncol 2020;38:3398-3406). This option applies to IDH1-mutant tumors only."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant PCV (procarbazine/lomustine/vincristine)",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred or after progression on IDH inhibitor, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Procarbazine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen (carmustine may be substituted for lomustine)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "IV",
+                    "schedule": "Part of PCV regimen"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RTOG 9802",
+                "phase": "Phase 3",
+                "n_patients": "Not specified for this subgroup",
+                "os": "Significant improvement in median OS (median OS increased from 7.8 years to 13.3 years, P = .02); 10-year survival rate increased from 41% to 62%",
+                "pfs": "Significant improvement",
+                "hr": "Not specified",
+                "ci": "Not specified",
+                "orr": "Not specified"
+            },
+            "notes": "Based on RTOG 9802 results, RT followed by 6 cycles of PCV is a category 1 recommendation. When PCV is recommended, carmustine may be substituted for lomustine. The Panel recommends that PCV be administered after RT (as per EORTC 26951) since the intensive PCV regimen given prior to RT (RTOG 9402) was not tolerated as well. A retrospective subgroup analysis suggests that the survival benefit with the addition of PCV was seen only in IDH-mutant tumors; patients with oligodendrogliomas benefited more than those with astrocytomas."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant temozolomide",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred or after progression on IDH inhibitor, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "RT followed by adjuvant temozolomide is an alternative to RT plus PCV. There is currently a lack of prospective randomized phase 3 data for the use of radiation and TMZ in patients with low-grade glioma, but data from EORTC and NCIC studies in glioblastoma support this regimen. PCV is generally more difficult to tolerate than TMZ, so it may be reasonable to treat elderly or comorbid patients with RT and TMZ instead."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred or after progression on IDH inhibitor, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Data from EORTC and NCIC studies, which included patients with glioblastoma, support RT with concurrent and adjuvant TMZ as an evidence-based regimen. This is an alternative to RT plus PCV."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant PCV (procarbazine/lomustine/vincristine)",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 3",
+            "setting": "Adjuvant treatment, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Procarbazine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen (carmustine may be substituted for lomustine)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "IV",
+                    "schedule": "Part of PCV regimen"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC 26951",
+                "phase": "Phase 3",
+                "n_patients": "80 patients with 1p19q codeleted tumors",
+                "os": "OS not reached in the RT + PCV group vs. 112 months in the RT group",
+                "pfs": "Median PFS 42.3 vs. 30.6 months",
+                "hr": "0.56",
+                "ci": "95% CI, 0.31-1.03",
+                "orr": "Not specified"
+            },
+            "notes": "The addition of PCV to RT for the treatment of newly diagnosed WHO grade 3 oligodendrogliomas is supported by results from two phase III trials: EORTC 26951 and RTOG 9402. The Panel recommends that PCV be administered after RT (as per EORTC 26951) since the intensive PCV regimen given prior to RT (RTOG 9402) was not tolerated as well and resulted in two deaths from PCV-induced neutropenia. In EORTC 26951, 70% of patients in the RT followed by PCV arm did not complete the planned six cycles of treatment."
+        },
+        {
+            "regimen_name": "RT with neoadjuvant or adjuvant PCV",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 3",
+            "setting": "Adjuvant treatment, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Procarbazine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen (neoadjuvant or adjuvant)"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "IV",
+                    "schedule": "Part of PCV regimen"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Both EORTC 26951 (adjuvant PCV after RT) and RTOG 9402 (neoadjuvant PCV before RT) demonstrated significant increases in median OS when PCV was added to RT. The Panel prefers adjuvant administration after RT based on better tolerability."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 3",
+            "setting": "Adjuvant treatment, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "RT with concurrent and adjuvant temozolomide is an alternative option. The phase III CODEL study is ongoing to compare RT + PCV to RT + TMZ in patients with WHO grade 2 or 3 oligodendroglioma."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant temozolomide",
+            "site": "Oligodendroglioma (IDH-mutant, 1p19q codeleted), WHO Grade 3",
+            "setting": "Adjuvant treatment, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                },
+                {
+                    "marker": "1p19q codeletion",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "RT and adjuvant temozolomide is an alternative option for WHO grade 3 oligodendroglioma."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant PCV",
+            "site": "IDH-Mutant Astrocytoma, WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Procarbazine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "IV",
+                    "schedule": "Part of PCV regimen"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "RT followed by adjuvant PCV is a preferred option for IDH-mutant astrocytoma grade 2."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant temozolomide",
+            "site": "IDH-Mutant Astrocytoma, WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "RT followed by adjuvant temozolomide is an alternative option for IDH-mutant astrocytoma grade 2."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide",
+            "site": "IDH-Mutant Astrocytoma, WHO Grade 2",
+            "setting": "Adjuvant treatment after surgery/biopsy, if initial treatment with RT and chemotherapy is preferred, WHO grade 2, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "RT with concurrent and adjuvant temozolomide is an alternative option for IDH-mutant astrocytoma grade 2."
+        },
+        {
+            "regimen_name": "RT followed by adjuvant temozolomide (preferred) or RT with concurrent and adjuvant temozolomide",
+            "site": "IDH-Mutant Astrocytoma, WHO Grade 3",
+            "setting": "Adjuvant treatment, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Adjuvant following RT, or concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "RT with adjuvant temozolomide is preferred based on the CATNON trial results showing improvement in survival with RT followed by 12 cycles of TMZ compared to RT alone (van den Bent MJ, et al. Lancet Oncol 2021;22:813-823)."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide ± alternating electric field therapy",
+            "site": "IDH-Mutant Astrocytoma, WHO Grade 4",
+            "setting": "Adjuvant treatment, WHO grade 4, KPS ≥60",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy",
+                "device therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1/2 mutation",
+                    "requirement": "Required for diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Treatment of grade 4 disease is extrapolated from interim analyses of data from the CATNON study. Final results of CATNON are not yet available. Alternating electric field therapy is only an option for patients with supratentorial disease."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide + alternating electric field therapy (TTF)",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS ≥60, age ≤70 years",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy",
+                "device therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "75 mg/m2 daily concurrent with RT, then 150-200 mg/m2 post-irradiation on 5-day schedule every 28 days",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "Not required but prognostic/predictive; methylated or unmethylated",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EF-14",
+                "phase": "Phase 3",
+                "n_patients": "695",
+                "os": "Median OS 20.9 vs. 16.0 months",
+                "pfs": "Median PFS 6.7 vs. 4.0 months",
+                "hr": "0.63 (OS); 0.63 (PFS)",
+                "ci": "95% CI, 0.53-0.76 (OS); 95% CI, 0.52-0.76 (PFS)",
+                "orr": "Not specified"
+            },
+            "notes": "In the EF-14 trial, patients with newly diagnosed glioblastoma and good PS (KPS ≥70) were randomized to TMZ alone or TMZ plus alternating electric field therapy following standard focal brain radiation and daily TMZ. The combination improved both median PFS and OS. Alternating electric field therapy is only an option for patients with supratentorial disease. Treatment with carmustine wafer may impact enrollment in adjuvant clinical trials."
+        },
+        {
+            "regimen_name": "RT with concurrent and adjuvant temozolomide",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS ≥60, age ≤70 years",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "75 mg/m2 daily concurrent with RT, then 150-200 mg/m2 post-irradiation on 5-day schedule every 28 days",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "Not required but prognostic/predictive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC-NCIC",
+                "phase": "Phase 3",
+                "n_patients": "573",
+                "os": "Median OS 14.6 vs. 12.1 months; 5-year OS 10% vs. 2%",
+                "pfs": "Not separately stated",
+                "hr": "Not specified",
+                "ci": "Not specified",
+                "orr": "Not specified"
+            },
+            "notes": "Adjuvant involved-field RT with concurrent and adjuvant TMZ is the standard recommended treatment based on the EORTC-NCIC trial. The TMZ dose used is 75 mg/m2 daily concurrent with RT, then 150 to 200 mg/m2 on a 5-day schedule every 28 days. There are no clear data that treatment with temozolomide beyond 6 cycles is beneficial, even in patients with MGMT promoter-methylated disease."
+        },
+        {
+            "regimen_name": "Hypofractionated RT plus concurrent and adjuvant temozolomide",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS ≥60, age >70 years, MGMT promoter-methylated or indeterminate",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "75 mg/m2 daily concurrent with RT, then 150-200 mg/m2 post-irradiation on 5-day schedule every 28 days",
+                    "route": "PO",
+                    "schedule": "Concurrent with hypofractionated RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "Preferred for methylated or indeterminate status",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Perry et al. 2017",
+                "phase": "Phase 3",
+                "n_patients": "562",
+                "os": "Median OS 9.3 vs. 7.6 months",
+                "pfs": "Median PFS 5.3 vs. 3.9 months",
+                "hr": "0.67 (OS); 0.50 (PFS)",
+                "ci": "95% CI, 0.56-0.80 (OS); 95% CI, 0.41-0.60 (PFS)",
+                "orr": "Not specified"
+            },
+            "notes": "For patients >70 years with MGMT promoter-methylated or indeterminate tumors, hypofractionated brain RT plus concurrent and adjuvant TMZ is a category 1 recommendation. The greatest improvement in median OS was seen in patients with MGMT promoter-methylated tumors (13.5 months RT + TMZ vs. 7.7 months RT alone; HR, 0.53; 95% CI, 0.38-0.73; P < .001)."
+        },
+        {
+            "regimen_name": "Standard brain RT plus concurrent and adjuvant TMZ and alternating electric field therapy",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS ≥60, age >70 years, MGMT promoter-methylated or unmethylated/indeterminate",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy",
+                "device therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "75 mg/m2 daily concurrent with RT, then 150-200 mg/m2 post-irradiation on 5-day schedule every 28 days",
+                    "route": "PO",
+                    "schedule": "Concurrent with RT and adjuvant following RT"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "Not required; category 1 for methylated, category 1 for unmethylated/indeterminate",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "This is a reasonable option for patients >70 years of age who want to be treated as aggressively as possible."
+        },
+        {
+            "regimen_name": "Hypofractionated RT + concurrent or adjuvant temozolomide",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS <60, any age",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Concurrent or adjuvant to hypofractionated RT"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For patients aged ≤70 years with poor PS. Hypofractionated RT preferred."
+        },
+        {
+            "regimen_name": "Temozolomide monotherapy",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS <60, MGMT promoter-methylated; or palliative setting",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "Preferred for patients with MGMT promoter-methylated tumors",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Temozolomide monotherapy is useful in certain circumstances for patients with MGMT promoter-methylated tumors and poor PS. Clinical benefit from temozolomide is likely to be lower in patients whose tumors lack MGMT promoter methylation."
+        },
+        {
+            "regimen_name": "Hypofractionated RT alone",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Adjuvant treatment, KPS <60; or older adults (>70 years) with MGMT unmethylated tumors",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [
+                {
+                    "marker": "MGMT promoter methylation",
+                    "requirement": "May be used regardless of MGMT status; category 2B for unmethylated",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For patients with poor PS (KPS <60) or older adults with unmethylated MGMT tumors. Hypofractionated RT (eg, 34 Gy in 10 fractions or 40.05 Gy in 15 fractions)."
+        },
+        {
+            "regimen_name": "Palliative/best supportive care",
+            "site": "Glioblastoma (IDH wild-type)",
+            "setting": "Poor PS (KPS <60)",
+            "treatment_modality": [
+                "palliative care"
+            ],
+            "drugs": [],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Palliative/best supportive care is an option for patients with newly diagnosed glioblastoma with poor PS."
+        },
+        {
+            "regimen_name": "Bevacizumab monotherapy",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Bevacizumab is FDA approved for the treatment of recurrent glioblastoma based on improvement in PFS. Although no studies of bevacizumab in patients with recurrent glioblastoma have demonstrated an improvement in survival, bevacizumab may suppress vascular permeability and provide radiographic appearance of response. Patients who have evidence of radiographic progression may benefit from continuation of bevacizumab to prevent rapid neurologic deterioration."
+        },
+        {
+            "regimen_name": "Temozolomide monotherapy",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "If there has been a long-time interval between stopping TMZ and development of tumor progression, it is reasonable to restart a patient on TMZ, particularly if the patient's tumor is MGMT methylated."
+        },
+        {
+            "regimen_name": "Lomustine monotherapy",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lomustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Lomustine is a reasonable second-line therapy, especially in a patient whose tumor is MGMT methylated."
+        },
+        {
+            "regimen_name": "Carmustine monotherapy",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carmustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV/PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Carmustine is a reasonable second-line therapy for recurrent glioblastoma."
+        },
+        {
+            "regimen_name": "PCV (procarbazine/lomustine/vincristine)",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Procarbazine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "PO",
+                    "schedule": "Part of PCV regimen (carmustine may be substituted for lomustine)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "PCV regimen doses as per protocol",
+                    "route": "IV",
+                    "schedule": "Part of PCV regimen"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "PCV is a preferred option for recurrent glioblastoma."
+        },
+        {
+            "regimen_name": "Temozolomide + Bevacizumab",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Bevacizumab + systemic therapy can be considered if disease progression on bevacizumab monotherapy and it is desirable to continue the steroid-sparing effects of bevacizumab."
+        },
+        {
+            "regimen_name": "Carmustine + Bevacizumab",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carmustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Combination with bevacizumab may be considered for patients with recurrent disease."
+        },
+        {
+            "regimen_name": "Lomustine + Bevacizumab",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lomustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Combination with bevacizumab may be considered for patients with recurrent disease."
+        },
+        {
+            "regimen_name": "Etoposide (category 2B)",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60; if disease progression or intolerance to preferred or other recommended regimens",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Etoposide is useful in certain circumstances for recurrent glioblastoma."
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Glioblastoma (IDH wild-type), Recurrent or Progressive Disease",
+            "setting": "Recurrent or progressive disease, WHO grade 3, KPS ≥60; if disease progression or intolerance to preferred or other recommended regimens",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 3",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Carboplatin (category 3) is useful in certain circumstances for recurrent glioblastoma."
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Solid Tumors with Brain Metastases",
+            "setting": "Brain metastases from NTRK1/2/3 gene fusion-positive solid tumors",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Larotrectinib is an NTRK inhibitor active in patients with NTRK gene fusion-positive solid tumors with brain metastases (Hong DS, et al. Lancet Oncol 2020;21:531-540)."
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Solid Tumors with Brain Metastases",
+            "setting": "Brain metastases from NTRK1/2/3 gene fusion-positive solid tumors",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Entrectinib is an NTRK inhibitor active in patients with NTRK gene fusion-positive solid tumors with brain metastases (Doebele RC, et al. Lancet Oncol 2020;21:271-282)."
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Solid Tumors with Brain Metastases",
+            "setting": "Brain metastases from NTRK1/2/3 gene fusion-positive solid tumors",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Repotrectinib is an NTRK inhibitor for NTRK gene fusion-positive solid tumors."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Melanoma with Brain Metastases",
+            "setting": "Brain metastases from BRAF non-specific melanoma",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF mutation status",
+                    "requirement": "Not required for selection; preferred for BRAF non-specific melanoma",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 204 (Tawbi et al.)",
+                "phase": "Phase 2",
+                "n_patients": "101",
+                "os": "Intracranial 36-month OS 71.9%",
+                "pfs": "Intracranial 36-month PFS 54.1%",
+                "hr": "Not specified",
+                "ci": "Not specified",
+                "orr": "Intracranial ORR 57.4%; complete response 33%"
+            },
+            "notes": "Two phase II trials support the use of combination ipilimumab and nivolumab for patients with asymptomatic untreated brain metastases from melanoma. In CheckMate 204, the intracranial response was 57.4% with complete response of 33%. The median duration of intracranial response was not reached at time of publication. Grade 3 or 4 treatment-related adverse events occurred in just over half of the patients."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Melanoma with Brain Metastases",
+            "setting": "Brain metastases from BRAF V600E-positive melanoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "The nonrandomized phase II COMBI-MB trial demonstrated clinical benefit and acceptable toxicity for dabrafenib/trametinib in patients with BRAF V600-mutant melanoma brain metastases. Among patients with asymptomatic brain metastases, an intracranial response was observed in 58% of those with untreated metastases."
+        },
+        {
+            "regimen_name": "Cobimetinib/Vemurafenib",
+            "site": "Melanoma with Brain Metastases",
+            "setting": "Brain metastases from BRAF V600E-positive melanoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cobimetinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Vemurafenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Although there are no published prospective studies on the combination of vemurafenib and cobimetinib for melanoma patients with brain metastases, there is high-quality evidence that for melanoma with distant metastasis, combination therapy with vemurafenib and cobimetinib is associated with improved outcomes and safety compared with vemurafenib monotherapy."
+        },
+        {
+            "regimen_name": "Osimertinib",
+            "site": "NSCLC with Brain Metastases",
+            "setting": "Brain metastases from EGFR-sensitizing mutation-positive NSCLC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Osimertinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EGFR-sensitizing mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "In the randomized phase III FLAURA trial, osimertinib was compared to a different EGFR-TKI (gefitinib or erlotinib) in 556 patients with previously untreated EGFR-sensitizing mutation-positive NSCLC. Patients with CNS metastases had median PFS of 15.2 months vs. 9.6 months (HR, 0.47; P < .001). CNS ORR was 91% vs. 68% (P = .066)."
+        },
+        {
+            "regimen_name": "Brigatinib",
+            "site": "NSCLC with Brain Metastases",
+            "setting": "Brain metastases from ALK gene fusion-positive NSCLC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brigatinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "In a randomized phase III trial comparing brigatinib to crizotinib, intracranial response was more likely in the brigatinib arm than in the crizotinib arm (67% vs. 17%). Twelve-month survival without intracranial disease progression was 67% for brigatinib vs. 21% for crizotinib (HR, 0.27; 95% CI, 0.13-0.54)."
+        },
+        {
+            "regimen_name": "Lorlatinib",
+            "site": "NSCLC with Brain Metastases",
+            "setting": "Brain metastases from ALK gene fusion-positive NSCLC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lorlatinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Post hoc analysis of the CROWN trial showed that in patients with brain metastases at baseline, complete CNS response was observed in 61% of patients who received lorlatinib, compared to 15% in those who received crizotinib."
+        },
+        {
+            "regimen_name": "Alectinib",
+            "site": "NSCLC with Brain Metastases",
+            "setting": "Brain metastases from ALK gene fusion-positive NSCLC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "In a randomized phase III trial comparing alectinib to crizotinib, CNS response was observed in 81% of patients in the alectinib arm (8 complete responses) and 50% in the crizotinib arm (1 complete response)."
+        },
+        {
+            "regimen_name": "Capecitabine/Tucatinib + Trastuzumab",
+            "site": "Breast Cancer with Brain Metastases",
+            "setting": "Brain metastases from HER2 (ERBB2) positive breast cancer, previously treated with ≥1 regimen",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Tucatinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Trastuzumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 (ERBB2) positive",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "In the HER2CLIMB phase III trial, tucatinib combined with trastuzumab and capecitabine was compared to placebo plus trastuzumab and capecitabine in patients with HER2-positive metastatic breast cancer previously treated with HER2-directed therapy. Among patients with brain metastases at baseline, both PFS and OS were superior in the tucatinib arm."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Breast Cancer with Brain Metastases",
+            "setting": "Brain metastases from HER2 (ERBB2) positive breast cancer, previously treated with ≥1 regimen",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 (ERBB2) positive",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Subgroup analysis from the DESTINY-Breast01 trial showed activity of fam-trastuzumab deruxtecan-nxki in patients with HER2-positive breast cancer with brain metastases."
+        },
+        {
+            "regimen_name": "Tarlatamab-dlle",
+            "site": "Small Cell Lung Cancer with Brain Metastases",
+            "setting": "Brain metastases from SCLC",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tarlatamab-dlle",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Tarlatamab-dlle is a bispecific T-cell engager for the treatment of SCLC."
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Renal Cell Carcinoma with Brain Metastases",
+            "setting": "Brain metastases from renal cell carcinoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Cabozantinib has demonstrated activity in patients with RCC and brain metastases."
+        },
+        {
+            "regimen_name": "High-Dose Methotrexate-based regimens",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Induction therapy, newly diagnosed",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "≥3.5 g/m2",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "High doses of intravenous methotrexate (≥3.5 g/m2) are necessary to overcome the BBB and achieve therapeutic levels in the CSF. Consider glucarpidase for prolonged methotrexate clearance due to methotrexate-induced renal toxicity."
+        },
+        {
+            "regimen_name": "High-Dose Methotrexate 8 g/m2 combined with Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Induction therapy, newly diagnosed",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "8 g/m2",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "High-dose methotrexate combined with rituximab is a preferred induction regimen. Hepatitis B testing is indicated because of the risk of reactivation with immunotherapy plus systemic therapy."
+        },
+        {
+            "regimen_name": "MPV (High-Dose Methotrexate/Leucovorin/Procarbazine/Vincristine) + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Induction therapy, newly diagnosed; consider WBRT",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "3.5 g/m2",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Procarbazine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "MPV + Rituximab is a preferred induction regimen for PCNSL."
+        },
+        {
+            "regimen_name": "MT (High-Dose Methotrexate/Leucovorin/Temozolomide) + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Induction therapy, newly diagnosed",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "3.5 g/m2",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "MT + Rituximab is a preferred induction regimen for PCNSL."
+        },
+        {
+            "regimen_name": "MATRIX (High-Dose Methotrexate/Leucovorin/Cytarabine/Thiotepa + Rituximab)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Induction therapy, newly diagnosed",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Cytarabine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Thiotepa",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "MATRIX is associated with significant myeloid toxicity. This regimen is based on the IELSG32 trial results (Ferreri AJM, et al. Lancet Haematol 2016;3:e217-227)."
+        },
+        {
+            "regimen_name": "Cytarabine/Thiotepa followed by Carmustine/Thiotepa (high-dose systemic therapy with stem cell rescue)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Consolidation therapy after CR or CRu",
+            "treatment_modality": [
+                "chemotherapy",
+                "hematopoietic stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Cytarabine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                },
+                {
+                    "name": "Thiotepa",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                },
+                {
+                    "name": "Carmustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "High-dose systemic therapy with stem cell rescue is a preferred consolidation option after CR or CRu. The risk of neurotoxicity should be considered before administering high-dose therapy to a patient with prior WBRT."
+        },
+        {
+            "regimen_name": "TBC (Thiotepa/Busulfan/Cyclophosphamide/Mesna) (high-dose systemic therapy with stem cell rescue)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Consolidation therapy after CR or CRu",
+            "treatment_modality": [
+                "chemotherapy",
+                "hematopoietic stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Thiotepa",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                },
+                {
+                    "name": "Busulfan",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "High-dose with stem cell rescue"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "TBC is a preferred high-dose consolidation regimen with stem cell rescue."
+        },
+        {
+            "regimen_name": "EA (Etoposide/High-Dose Cytarabine)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Consolidation therapy after CR or CRu",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Cytarabine",
+                    "dose": "High-dose",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "EA consolidation was evaluated in the Alliance 50202 trial."
+        },
+        {
+            "regimen_name": "High-Dose Cytarabine",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Consolidation therapy after CR or CRu",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cytarabine",
+                    "dose": "High-dose",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "High-dose cytarabine is a preferred consolidation option."
+        },
+        {
+            "regimen_name": "Ibrutinib/High-Dose Methotrexate/Leucovorin + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ibrutinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "High-dose",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Ibrutinib is associated with risk of Aspergillus infection. This is a recommended regimen for relapsed/refractory PCNSL."
+        },
+        {
+            "regimen_name": "MBVP (Methotrexate/Leucovorin/Carmustine/Etoposide/Prednisone) + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Carmustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "MBVP + Rituximab is a recommended regimen for relapsed/refractory PCNSL."
+        },
+        {
+            "regimen_name": "Lenalidomide + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Lenalidomide + Rituximab is a recommended regimen for relapsed/refractory PCNSL."
+        },
+        {
+            "regimen_name": "Tisagenlecleucel (CAR-T therapy)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tisagenlecleucel",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Tisagenlecleucel was added to the guidelines for relapsed/refractory PCNSL based on a phase 1/2 clinical trial (Frigault MJ, et al. Blood 2022;139:2306-2315)."
+        },
+        {
+            "regimen_name": "Axicabtagene ciloleucel (CAR-T therapy)",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axicabtagene ciloleucel",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Axicabtagene ciloleucel was added based on a pilot study in relapsed/refractory primary and secondary CNS lymphoma (Nayak L, et al. ASCO Annual Meeting 2024)."
+        },
+        {
+            "regimen_name": "Ibrutinib/Lenalidomide + Rituximab",
+            "site": "Primary CNS Lymphoma",
+            "setting": "Relapsed or refractory disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ibrutinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Ibrutinib/Lenalidomide + Rituximab was added based on a phase Ib study with expansion (Schaff LR, et al. Neuro Oncol 2025;27:2107-2116)."
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Meningiomas",
+            "setting": "Recurrent/progressive meningioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "A prospective, multicenter, nonrandomized, phase II trial evaluating sunitinib in 36 heavily pretreated patients with refractory meningioma showed a 6-month PFS rate of 42%, with a median PFS rate of 5.2 months and a median OS rate of 24.6 months (Kaley TJ, et al. Neuro Oncol 2015;17:116-121). Toxicities were considerable, with 60% of patients experiencing grade 3 or higher toxicity."
+        },
+        {
+            "regimen_name": "Abemaciclib",
+            "site": "Meningiomas",
+            "setting": "Recurrent/progressive meningioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Abemaciclib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Abemaciclib was added to the guidelines based on a multicenter basket trial for CNS tumors that identified activity of the CDK4/6 inhibitor abemaciclib in recurrent meningioma (Kaley TJ, et al. Neuro Oncol 2025;27:3189-3199)."
+        },
+        {
+            "regimen_name": "Bevacizumab",
+            "site": "Meningiomas",
+            "setting": "Recurrent/progressive meningioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Retrospective data support the use of bevacizumab for patients with recurrent meningioma, especially for patients with symptoms driven by RT necrosis, with a 6-month PFS rate of 43.8% for recurrent surgery and radiation-refractory grade 2 and 3 meningioma."
+        },
+        {
+            "regimen_name": "Octreotide acetate",
+            "site": "Meningiomas",
+            "setting": "Recurrent/progressive meningioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate",
+                    "dose": "Not specified in regimen detail",
+                    "route": "SC",
+                    "schedule": "Long-acting release formulation"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Octreotide acetate is a somatostatin analogue useful in certain circumstances for recurrent meningioma."
+        },
+        {
+            "regimen_name": "Everolimus/Octreotide acetate LAR",
+            "site": "Meningiomas",
+            "setting": "Recurrent/progressive meningioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IM",
+                    "schedule": "Long-acting release"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "In a phase II trial evaluating bevacizumab combined with everolimus for recurrent meningioma (N = 17), stable disease was reported in 88% of patients, with median PFS and OS of 22.0 months and 23.8 months, respectively."
+        },
+        {
+            "regimen_name": "Lazertinib + Amivantamab-vmjw",
+            "site": "Leptomeningeal Metastases from NSCLC",
+            "setting": "Leptomeningeal metastases from EGFR mutation-positive NSCLC (for exon 19 deletion or L858R)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lazertinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Amivantamab-vmjw",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EGFR mutation (exon 19 deletion or L858R)",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Amivantamab and hyaluronidase-lpuj subcutaneous injection may be substituted for IV amivantamab-vmjw. This combination has different dosing and administration instructions compared to IV amivantamab-vmjw."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Leptomeningeal Metastases from Breast Cancer",
+            "setting": "Leptomeningeal metastases from HER2-positive breast cancer",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 (ERBB2) positive",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Fam-trastuzumab deruxtecan-nxki is the preferred systemic therapy option for leptomeningeal metastases from HER2-positive breast cancer."
+        },
+        {
+            "regimen_name": "Intrathecal nivolumab",
+            "site": "Leptomeningeal Metastases from Melanoma",
+            "setting": "Leptomeningeal metastases from melanoma",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "Intrathecal and IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Intrathecal and intravenous nivolumab was evaluated in a phase 1 trial for melanoma with leptomeningeal disease (Glitza Oliva IC, et al. Nat Med 2023;29:898-905)."
+        },
+        {
+            "regimen_name": "Bevacizumab for NF2-VS",
+            "site": "NF2-Related Schwannomatosis",
+            "setting": "Progressive or symptomatic vestibular schwannoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NF2 pathogenic variant",
+                    "requirement": "Required for NF2-SWN diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Treatment with bevacizumab results in hearing improvement in 36% of patients with NF2-SWN with hearing loss due to VS, stabilization in 46%, and deterioration in 18%. Treatment results in a partial VS volume reduction (≥20%) on MRI in 40% of patients and disease stabilization in 50%, while 10% experienced tumor progression."
+        },
+        {
+            "regimen_name": "Brigatinib for NF2-VS",
+            "site": "NF2-Related Schwannomatosis",
+            "setting": "Progressive or symptomatic vestibular schwannoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brigatinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NF2 pathogenic variant",
+                    "requirement": "Required for NF2-SWN diagnosis",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Brigatinib was evaluated in a study of NF2-related schwannomatosis with progressive tumors (Plotkin SR, et al. N Engl J Med 2024;390:2284-2294)."
+        },
+        {
+            "regimen_name": "Belzutifan",
+            "site": "Primary Spinal Cord Tumors",
+            "setting": "VHL-associated CNS hemangioblastomas not requiring immediate surgery",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "VHL mutation/status",
+                    "requirement": "Required (VHL-associated disease)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Belzutifan has been FDA-approved for the treatment of VHL-associated CNS hemangioblastomas not requiring immediate surgery. Based on a nonrandomized phase 2 trial including patients with VHL-associated renal cell carcinoma (N = 61), objective response in patients with CNS hemangioblastoma was 30% (Jonasch E, et al. N Engl J Med 2021;385:2036-2046)."
+        },
+        {
+            "regimen_name": "Selumetinib for NF1-associated plexiform neurofibromas",
+            "site": "Primary Spinal Cord Tumors / NF1-associated plexiform neurofibromas",
+            "setting": "Symptomatic plexiform neurofibromas not amenable to complete resection",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selumetinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NF1 mutation",
+                    "requirement": "Required (NF1 diagnosis)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Selumetinib is a category 1 recommendation for patients with NF1 who have symptomatic plexiform neurofibromas not amenable to complete resection."
+        },
+        {
+            "regimen_name": "Mirdametinib for NF1-associated plexiform neurofibromas",
+            "site": "Primary Spinal Cord Tumors / NF1-associated plexiform neurofibromas",
+            "setting": "Symptomatic plexiform neurofibromas not amenable to complete resection",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mirdametinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NF1 mutation",
+                    "requirement": "Required (NF1 diagnosis)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Mirdametinib was evaluated in a pivotal phase IIb trial (ReNeu) in adults and children with symptomatic NF1-associated plexiform neurofibromas (Moertel CL, et al. J Clin Oncol 2025;43:716-729)."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib for circumscribed glioma with BRAF alterations",
+            "site": "Circumscribed Glioma",
+            "setting": "Adjuvant treatment for PA, circumscribed ganglioglioma/glioneuronal tumor, PXA (grade 2) with BRAF V600E activation mutation; or recurrent disease with BRAF alterations",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF alterations (V600E activation mutation)",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "The phase II VE-BASKET study showed that vemurafenib was efficacious in BRAF-mutated low-grade gliomas, particularly PXA. A phase II trial including 13 patients with BRAF-mutated low-grade glioma showed that dabrafenib/trametinib was associated with an ORR of 69%."
+        },
+        {
+            "regimen_name": "Cobimetinib/Vemurafenib for circumscribed glioma with BRAF alterations",
+            "site": "Circumscribed Glioma",
+            "setting": "Adjuvant treatment for PA, circumscribed ganglioglioma/glioneuronal tumor, PXA (grade 2) with BRAF V600E activation mutation; or recurrent disease with BRAF alterations",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cobimetinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Vemurafenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF alterations (V600E activation mutation)",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Cobimetinib/Vemurafenib is useful in certain circumstances for BRAF V600E-mutant circumscribed gliomas."
+        },
+        {
+            "regimen_name": "Larotrectinib for circumscribed glioma with NTRK1/2/3 gene fusions",
+            "site": "Circumscribed Glioma",
+            "setting": "Recurrent or progressive disease with NTRK1/2/3 gene fusions",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Larotrectinib is an NTRK inhibitor for tumors with NTRK gene fusions."
+        },
+        {
+            "regimen_name": "Entrectinib for circumscribed glioma with NTRK1/2/3 gene fusions",
+            "site": "Circumscribed Glioma",
+            "setting": "Recurrent or progressive disease with NTRK1/2/3 gene fusions",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Entrectinib is an NTRK inhibitor for tumors with NTRK gene fusions."
+        },
+        {
+            "regimen_name": "Repotrectinib for circumscribed glioma with NTRK1/2/3 gene fusions",
+            "site": "Circumscribed Glioma",
+            "setting": "Recurrent or progressive disease with NTRK1/2/3 gene fusions",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Repotrectinib is an NTRK inhibitor for tumors with NTRK gene fusions."
+        },
+        {
+            "regimen_name": "Tovorafenib for BRAF gene fusion or BRAF V600 mutation",
+            "site": "Circumscribed Glioma",
+            "setting": "Recurrent or progressive disease with BRAF gene fusion or BRAF V600 mutation",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tovorafenib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF gene fusion or BRAF V600 mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Tovorafenib is a type II RAF inhibitor evaluated in relapsed/refractory pediatric low-grade glioma in the phase 2 FIREFLY-1 trial (Kilburn LB, et al. Nat Med 2024;30:207-217)."
+        },
+        {
+            "regimen_name": "Temozolomide for recurrent ependymoma",
+            "site": "Adult Intracranial and Spinal Ependymoma",
+            "setting": "Recurrent disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Temozolomide was evaluated in a retrospective study for salvage treatment of recurrent intracranial ependymomas in adults (Ruda R, et al. Neuro Oncol 2016;18:261-268)."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide for recurrent ependymoma",
+            "site": "Adult Intracranial and Spinal Ependymoma",
+            "setting": "Recurrent disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Platinum-based regimens including carboplatin/etoposide have been used for recurrent ependymoma."
+        },
+        {
+            "regimen_name": "Bevacizumab for recurrent ependymoma",
+            "site": "Adult Intracranial and Spinal Ependymoma",
+            "setting": "Recurrent disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Bevacizumab was evaluated for recurrent ependymoma (Green RM, et al. Neurology 2009;73:1677-1680)."
+        },
+        {
+            "regimen_name": "Lapatinib/Temozolomide for recurrent ependymoma",
+            "site": "Adult Intracranial and Spinal Ependymoma",
+            "setting": "Recurrent disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lapatinib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "The combination of lapatinib and dose-dense temozolomide was evaluated in a phase II trial in patients with recurrent grade 1, 2, and 3 ependymoma (Gilbert MR, et al. Neuro Oncol 2021;23:468-477)."
+        },
+        {
+            "regimen_name": "Cisplatin/Cyclophosphamide/Vincristine (following weekly vincristine with concurrent radiation during craniospinal RT)",
+            "site": "Adult Medulloblastoma",
+            "setting": "Adjuvant treatment following craniospinal RT for standard-risk and high-risk disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Omission of vincristine during the radiotherapy phase of therapy or dose modification may be required for adults because they do not tolerate this regimen as well. Data supporting vincristine's use have been found in pediatric trials only."
+        },
+        {
+            "regimen_name": "Cisplatin/Lomustine/Vincristine (following weekly vincristine with concurrent radiation during craniospinal RT)",
+            "site": "Adult Medulloblastoma",
+            "setting": "Adjuvant treatment following craniospinal RT for standard-risk and high-risk disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Lomustine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Omission of vincristine during the radiotherapy phase of therapy or dose modification may be required for adults because they do not tolerate this regimen as well."
+        },
+        {
+            "regimen_name": "High-dose Cyclophosphamide/Etoposide (for recurrent medulloblastoma)",
+            "site": "Adult Medulloblastoma",
+            "setting": "Recurrent disease, no prior systemic therapy or prior systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "High-dose",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Not specified in regimen detail",
+                    "route": "IV",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": null,
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "High-dose Cyclophosphamide/Etoposide is recommended for recurrent medulloblastoma in patients with no prior or prior systemic therapy."
+        },
+        {
+            "regimen_name": "Vismodegib (for SHH pathway-mutant medulloblastoma with prior systemic therapy)",
+            "site": "Adult Medulloblastoma",
+            "setting": "Recurrent disease with SHH pathway mutation and prior systemic therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vismodegib",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Sonic hedgehog (SHH) pathway mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Patients in trials with SHH-activated disease were more likely to respond than patients with non-SHH disease (Robinson GW, et al. J Clin Oncol 2015;33:2646-2654)."
+        },
+        {
+            "regimen_name": "Dordaviprone (for H3K27M-mutant diffuse glioma)",
+            "site": "High-Grade Glioma: Other (H3-mutated)",
+            "setting": "Recurrent H3K27M-mutant diffuse glioma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dordaviprone",
+                    "dose": "Not specified in regimen detail",
+                    "route": "PO",
+                    "schedule": "Not specified in regimen detail"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "H3 K27M mutation",
+                    "requirement": "Required for treatment selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ONC201",
+                "phase": "Not specified",
+                "n_patients": "Not specified",
+                "os": "13.7-month median overall survival",
+                "pfs": "Not specified",
+                "hr": "Not specified",
+                "ci": "Not specified",
+                "orr": "28.0% overall response rate"
+            },
+            "notes": "Dordaviprone is a caseinolytic protease P (ClpP) agonist and dopamine receptor D2 (DRD2) antagonist. In adult and pediatric patients with recurrent H3 K27M-mutant diffuse glioma who were evaluated by Blinded Independent Central Review (BICR)-confirmed RANO 2.0 criteria, dordaviprone monotherapy demonstrated a 28.0% overall response rate (ORR), 4.6-month median time to recovery (mTTR), 10.4-month median duration of response (mDOR), and 13.7-month median overall survival (Arrillaga-Romany I, et al. J Clin Oncol 2024;42:1542-1552)."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.399818"
+}

@@ -1,0 +1,2983 @@
+{
+    "site_id": "myeloma",
+    "site_display_name": "Multiple Myeloma",
+    "archetype": "F",
+    "regimen_count": 79,
+    "regimens": [
+        {
+            "regimen_name": "Radiation therapy (RT) ± surgery",
+            "site": "Solitary plasmacytoma or solitary plasmacytoma with minimal marrow involvement",
+            "setting": "Primary",
+            "treatment_modality": [
+                "radiation therapy",
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Radiation therapy is the intervention of choice for solitary plasmacytoma. Recommended RT dose: 40–50 Gy in 1.8–2.0 Gy fractions (20–25 total fractions) to the involved site. For solitary plasmacytomas <5 cm in size, treatment with 35–40 Gy is an acceptable alternative due to high local control rates. Consider surgery if structurally unstable or if there is neurologic compromise due to mass effect. Reassess after at least 3 months following radiation as assessment of response with imaging may not be accurate sooner. All plasmacytomas should be imaged yearly, preferably with the same technique used at diagnosis, for at least 5 years."
+        },
+        {
+            "regimen_name": "Daratumumab monotherapy",
+            "site": "Smoldering myeloma (asymptomatic) – high risk",
+            "setting": "Primary",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "Subcutaneous",
+                    "route": "SC",
+                    "schedule": "Administered for 3 years as monotherapy"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (for select patients)",
+            "trial_data": {
+                "trial_name": "AQUILA",
+                "phase": "III",
+                "n_patients": "390",
+                "os": "5-year OS: 93% vs. 86.9% (HR, 0.52; 95% CI, 0.27–0.98)",
+                "pfs": "5-year PFS: 63.1% vs. 40.8%"
+            },
+            "notes": "Daratumumab monotherapy improved 5-year PFS compared to active monitoring in patients with high-risk smoldering myeloma. In subgroup analysis by 20/2/20 criteria, the PFS benefit was clear in patients with high-risk SMM (HR, 0.36; 95% CI, 0.23–0.58) but did not reach statistical significance in those with intermediate-risk or low-risk SMM."
+        },
+        {
+            "regimen_name": "Lenalidomide monotherapy",
+            "site": "Smoldering myeloma (asymptomatic) – high risk",
+            "setting": "Primary",
+            "treatment_modality": [
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of repeated 28-day cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Preferred (for select patients)",
+            "trial_data": {
+                "trial_name": "PETHEMA group trial",
+                "phase": "III",
+                "n_patients": "119",
+                "os": "3-year OS: 94% vs. 80% (HR, 0.31; 95% CI, 0.10–0.91; P = .03)",
+                "pfs": "TTP not reached vs. 23 months (HR, 0.24; 95% CI, 0.14–0.41)"
+            },
+            "notes": "Treatment with lenalidomide and dexamethasone delayed median time to progression to symptomatic disease compared to no treatment. However, the flow cytometry-based high-risk criteria specified in the study are not uniformly available and participants did not receive advanced imaging."
+        },
+        {
+            "regimen_name": "Daratumumab/Bortezomib/Lenalidomide/Dexamethasone (Dara-VRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-3, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle for 4 cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-14 of each 28-day cycle for 4 cycles"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg (or 20 mg for patients >75 years)",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle for 4 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PERSEUS",
+                "phase": "III",
+                "n_patients": "709",
+                "pfs": "4-year PFS: 84.3% vs. 67.7% (HR, 0.42; 95% CI, 0.30–0.59; P < .001)",
+                "or": "≥CR: 87.9% vs. 70.1% (P < .001)",
+                "mrd": "MRD negativity (<10−5) at 24 months: 64.8% vs. 29.7%"
+            },
+            "notes": "Based on the PERSEUS trial, addition of daratumumab to VRd backbone during induction, consolidation, and to lenalidomide maintenance significantly improved progression free survival and depth of response. After at least 24 months of maintenance therapy, daratumumab maintenance was discontinued in patients who had a CR or better and had sustained MRD–negative status for at least 12 months."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Bortezomib/Lenalidomide/Dexamethasone (Isa-VRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 42-day cycle for 3 cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 42-day cycle for 3 cycles"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16, 22, 23 of each 42-day cycle for 3 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GMMG-HD7",
+                "phase": "III",
+                "n_patients": "660",
+                "pfs": "PFS not reached in either arm (HR, 0.70; 95% CI, 0.52–0.95; P = .0184)",
+                "mrd": "MRD negativity (<10−5) after induction: 50% vs. 36%"
+            },
+            "notes": "The 18-week induction with Isa-VRd therapy significantly prolonged PFS compared with VRd, regardless of maintenance therapy. Higher incidences of grade 3 or 4 neutropenia (23% vs. 7%) and grade 3 or 4 infections (12% vs. 10%) were observed."
+        },
+        {
+            "regimen_name": "Bortezomib/Lenalidomide/Dexamethasone (VRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-14 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg (or 20 mg for patients >75 years)",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SWOG S0777",
+                "phase": "III",
+                "n_patients": "525",
+                "pfs": "PFS: 41 vs. 29 months (HR, 0.712; 96% CI, 0.56–0.906)",
+                "os": "Median OS: >84 months vs. 69 months (HR, 0.709; 95% CI, 0.524–0.959)"
+            },
+            "notes": "The three-drug regimen (VRd) showed longer PFS and improved OS compared to lenalidomide/dexamethasone. With longer-term follow-up (median, 84 months), the benefits of adding bortezomib were maintained."
+        },
+        {
+            "regimen_name": "Carfilzomib/Lenalidomide/Dexamethasone (KRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "ENDURANCE (E1A11)",
+                "phase": "III",
+                "n_patients": "1053",
+                "pfs": "Median PFS: 34.4 vs. 34.6 months (HR, 1.00; 95% CI, 0.83–1.19)"
+            },
+            "notes": "The phase III ENDURANCE trial showed similar PFS with KRd versus VRd. KRd was associated with less neuropathy but more dyspnea, hypertension, heart failure, and acute kidney injury compared with VRd."
+        },
+        {
+            "regimen_name": "Daratumumab/Carfilzomib/Lenalidomide/Dexamethasone (Dara-KRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "MASTER",
+                "phase": "II",
+                "n_patients": "123",
+                "pfs": "36-month PFS: 88% (no HRCA), 79% (1 HRCA), 50% (≥2 HRCA)",
+                "os": "36-month OS: 94% (no HRCA), 92% (1 HRCA), 75% (≥2 HRCA)"
+            },
+            "notes": "The MASTER trial used MRD status to determine additional consolidation after autologous HCT. MRD negativity (<10−5) was seen in 81% with no high-risk chromosomal abnormalities (HRCA)."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Carfilzomib/Lenalidomide/Dexamethasone (Isa-KRd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "IsKia",
+                "phase": "III",
+                "n_patients": null,
+                "mrd": "MRD negativity (<10−5) after consolidation: 77% vs. 67%"
+            },
+            "notes": "Isa-KRd significantly increased MRD negativity rates after induction and consolidation phases compared to KRd."
+        },
+        {
+            "regimen_name": "Bortezomib/Cyclophosphamide/Dexamethasone (CyBorD)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II studies",
+                "phase": "II",
+                "n_patients": null,
+                "or": "ORR: 88% (61% ≥VGPR, 39% CR/near CR)",
+                "pfs": "5-year PFS: 42%"
+            },
+            "notes": "CyBorD is an option for patients with acute renal insufficiency who do not have access to daratumumab. Consider switching to dara-VRd after renal function improves."
+        },
+        {
+            "regimen_name": "Carfilzomib/Cyclophosphamide/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analysis of phase I/II studies",
+                "phase": "I/II",
+                "n_patients": null,
+                "pfs": "Median PFS: 35.7 months (weekly) vs. 35.5 months (twice weekly)",
+                "os": "3-year OS: 70% (weekly) vs. 72% (twice weekly)"
+            },
+            "notes": "Carfilzomib/cyclophosphamide/dexamethasone is an option for patients with renal insufficiency and/or peripheral neuropathy."
+        },
+        {
+            "regimen_name": "Daratumumab/Bortezomib/Cyclophosphamide/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LYRA",
+                "phase": "II",
+                "n_patients": "87 (NDMM)",
+                "or": "ORR: 79.1% (NDMM)",
+                "pfs": "12-month PFS: 87%"
+            },
+            "notes": "This regimen is a treatment option for patients with renal insufficiency or acute kidney injury (AKI). Consider switching to dara-RVd after renal function improves."
+        },
+        {
+            "regimen_name": "Dexamethasone/Thalidomide/Cisplatin/Doxorubicin/Cyclophosphamide/Etoposide/Bortezomib (VTD-PACE)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy for HCT candidates",
+            "treatment_modality": [
+                "corticosteroid",
+                "immunomodulatory drug",
+                "platinum agent",
+                "anthracycline",
+                "alkylating agent",
+                "topoisomerase inhibitor",
+                "proteasome inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Thalidomide",
+                    "dose": "200 mg",
+                    "route": "PO",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.0 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 4"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Generally reserved for the treatment of aggressive MM, such as high-risk and aggressive extramedullary disease or plasma cell leukemia."
+        },
+        {
+            "regimen_name": "Daratumumab/Lenalidomide/Dexamethasone (Dara-Rd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAIA",
+                "phase": "III",
+                "n_patients": "737",
+                "pfs": "Median PFS: 61.9 months vs. 34.4 months (HR, 0.55; 95% CI, 0.45–0.67; P < .0001)",
+                "os": "Median OS: not reached vs. 65.5 months (HR, 0.66; 95% CI, 0.53–0.83; P = .0003)"
+            },
+            "notes": "The addition of daratumumab to lenalidomide/dexamethasone resulted in significantly longer PFS and OS in HCT-ineligible patients with NDMM. D-Rd arm also demonstrated higher rates of CR or better, MRD negativity, and sustained MRD negativity."
+        },
+        {
+            "regimen_name": "Daratumumab/Bortezomib/Lenalidomide/Dexamethasone (Dara-VRd) for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-3, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle for 8 cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-14 of each 28-day cycle for 8 cycles"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle for 8 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CEPHEUS",
+                "phase": "III",
+                "n_patients": "395",
+                "pfs": "HR: 0.57 (95% CI, 0.41–0.79; P = .0005)",
+                "mrd": "MRD-negativity rate: 60.9% vs. 39.4%"
+            },
+            "notes": "For patients <80 years old who are not frail. The CEPHEUS trial showed superior PFS for Dara-VRd compared with VRd."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Bortezomib/Lenalidomide/Dexamethasone (Isa-VRd) for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 6-week cycle for 4 cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 6-week cycle for 4 cycles"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16, 22, 23 of each 6-week cycle for 4 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IMROZ",
+                "phase": "III",
+                "n_patients": "446",
+                "pfs": "63.2% vs. 45.2% (HR, 0.60; 95% CI, 0.44–0.81; P = .0009)",
+                "or": "≥CR: 74.7% vs. 64.1% (P = .01)"
+            },
+            "notes": "For patients <80 years old who are not frail. The IMROZ trial demonstrated significant PFS benefit with Isa-VRd versus VRd."
+        },
+        {
+            "regimen_name": "Bortezomib/Lenalidomide/Dexamethasone (VRd) for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-14 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SWOG S0777",
+                "phase": "III",
+                "n_patients": "525",
+                "pfs": "PFS: 41 vs. 29 months (HR, 0.712; 96% CI, 0.56–0.906)",
+                "os": "Median OS: >84 months vs. 69 months (HR, 0.709; 95% CI, 0.524–0.959)"
+            },
+            "notes": "The three-drug regimen (VRd) showed longer PFS and improved OS compared to lenalidomide/dexamethasone in patients not eligible for HCT."
+        },
+        {
+            "regimen_name": "Carfilzomib/Lenalidomide/Dexamethasone (KRd) for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase I/II trials",
+                "phase": "I/II",
+                "n_patients": null,
+                "or": "ORR: 88% (100% in older patients)",
+                "pfs": "PFS at 30.5 months: 79.6% (95% CI, 53.5–92.0)"
+            },
+            "notes": "KRd is well tolerated and effective in all patients with NDMM, including those who are not eligible for HCT."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Lenalidomide/Dexamethasone (Isa-Rd)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "BENEFIT/IFM2020-05",
+                "phase": "III",
+                "n_patients": "134",
+                "mrd": "MRD negativity rate at 18 months: 53% vs. 26% (OR, 3.16; 95% CI, 1.89–5.28; P < .0001)"
+            },
+            "notes": "Isa-Rd is an option in the setting of peripheral neuropathy. The BENEFIT trial compared triplet vs. quadruplet therapy with isatuximab."
+        },
+        {
+            "regimen_name": "Lenalidomide/Low-Dose Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "FIRST",
+                "phase": "III",
+                "n_patients": "1623",
+                "pfs": "Risk of progression or death reduced by 28% (HR, 0.72; 95% CI, 0.61–0.85; P < .001) vs. MPT",
+                "os": "Interim analysis: HR, 0.78; CI, 0.64–0.96; P = .02"
+            },
+            "notes": "Consider treatment with continuous lenalidomide/dexamethasone until disease progression for select patients who are not eligible for HCT. Appropriate thromboprophylaxis is required."
+        },
+        {
+            "regimen_name": "Bortezomib/Cyclophosphamide/Dexamethasone for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "20",
+                "or": "ORR: 95% (70% ≥VGPR)"
+            },
+            "notes": "An option for patients with acute renal insufficiency or who do not have access to PI/lenalidomide/dexamethasone. Consider switching to quadruplet therapy after renal function improves."
+        },
+        {
+            "regimen_name": "Bortezomib/Dexamethasone for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "UPFRONT",
+                "phase": "IIIb",
+                "n_patients": "168",
+                "or": "ORR: 73%"
+            },
+            "notes": "A primary therapy option for patients with MM who are ineligible for HCT."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Carfilzomib/Lenalidomide/Dexamethasone (Isa-KRd) for non-HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GMMG-CONCEPT",
+                "phase": "III",
+                "n_patients": "125",
+                "mrd": "MRD negativity rate (<10−5) after consolidation: 67.7% (HCT eligible), 54.2% (HCT ineligible)"
+            },
+            "notes": "For HCT-ineligible patients with high-risk cytogenetics. Data extrapolated from HCT-eligible population."
+        },
+        {
+            "regimen_name": "Bortezomib/Lenalidomide/Dexamethasone (VRD-lite) for frail patients",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "15 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Days of and the day after bortezomib administration"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "or": "ORR after 4 cycles: 86% (66% ≥VGPR)"
+            },
+            "notes": "Dose-adjusted regimen for patients who are frail and not eligible for HCT."
+        },
+        {
+            "regimen_name": "Ixazomib/Lenalidomide/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixazomib",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TOURMALINE-MM2",
+                "phase": "III",
+                "n_patients": "705",
+                "pfs": "Median PFS: 35 vs. 22 months (HR, 0.83; 95% CI, 0.68–1.02)"
+            },
+            "notes": "An all-oral option for patients with constraints to travel to treatment site. The PFS benefit appears less than that seen with other quadruplet regimens."
+        },
+        {
+            "regimen_name": "Lenalidomide/Cyclophosphamide/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Primary therapy if HCT deferred or if HCT is not indicated",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "500 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "53",
+                "or": "ORR: 85% (47% VGPR)",
+                "pfs": "Median PFS: 28 months (95% CI, 22.7–32.6)",
+                "os": "2-year OS: 87% (95% CI, 78–96)"
+            },
+            "notes": "An option for patients with MM who are not eligible for HCT."
+        },
+        {
+            "regimen_name": "Carfilzomib/Lenalidomide/Dexamethasone (KRd) for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ASPIRE",
+                "phase": "III",
+                "n_patients": "792",
+                "pfs": "Median PFS: 26.3 vs. 17.6 months (HR, 0.69; 95% CI, 0.57–0.83; P = .0001)"
+            },
+            "notes": "Preferred regimen for anti-CD38 or bortezomib-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Carfilzomib/Pomalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": null,
+                "or": "75% VGPR, 37% CR",
+                "pfs": "Median PFS: 26 months (with HCT), 17 months (without HCT)",
+                "os": "Median OS: 67 months"
+            },
+            "notes": "Preferred regimen option for relapsed or refractory MM."
+        },
+        {
+            "regimen_name": "Pomalidomide/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "OPTIMISMM",
+                "phase": "III",
+                "n_patients": "281",
+                "pfs": "Median PFS: 11.20 vs. 7.10 months (HR, 0.61; 95% CI, 0.49–0.77; P < .0001)"
+            },
+            "notes": "Preferred regimen for lenalidomide-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Carfilzomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CANDOR",
+                "phase": "III",
+                "n_patients": null,
+                "pfs": "Median PFS: 28.6 vs. 15.2 months (HR, 0.59; 95% CI, 0.45–0.78; P < .0001)"
+            },
+            "notes": "Preferred regimen for bortezomib-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Carfilzomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IKEMA",
+                "phase": "III",
+                "n_patients": "302",
+                "pfs": "Median PFS: 35.7 vs. 19.15 months (HR, 0.53; 99% CI, 0.32–0.89; P = .0007)"
+            },
+            "notes": "Preferred regimen for bortezomib-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Pomalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "APOLLO",
+                "phase": "III",
+                "n_patients": "304",
+                "pfs": "Median PFS: 12.4 vs. 6.9 months (P = .0018)"
+            },
+            "notes": "Preferred regimen for anti-CD38 or lenalidomide-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Isatuximab-irfc/Pomalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Isatuximab-irfc",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 cycles, then every 2 weeks"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ICARIA-MM",
+                "phase": "III",
+                "n_patients": "307",
+                "pfs": "Median PFS: 11.5 vs. 6.5 months (HR, 0.6; 95% CI, 0.44–0.81)",
+                "os": "Median OS: 24.6 vs. 17.7 months"
+            },
+            "notes": "Preferred regimen for bortezomib-refractory disease after two prior therapies including lenalidomide and a PI."
+        },
+        {
+            "regimen_name": "Daratumumab/Lenalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "POLLUX",
+                "phase": "III",
+                "n_patients": "569",
+                "pfs": "Median PFS: 16.7 vs. 7.1 months (HR, 0.31; 95% CI, 0.25–0.40; P < .0001)",
+                "or": "ORR: 92.9% vs. 76.4% (P < .001)"
+            },
+            "notes": "Preferred regimen for bortezomib-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CASTOR",
+                "phase": "III",
+                "n_patients": "498",
+                "pfs": "Median PFS: 16.7 vs. 7.1 months (HR, 0.31; 95% CI, 0.25–0.40; P < .0001)"
+            },
+            "notes": "Preferred regimen for lenalidomide-refractory disease after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Teclistamab-cqyv",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies (after one prior therapy including Lenalidomide and a PI)",
+            "treatment_modality": [
+                "immunotherapy",
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Teclistamab-cqyv",
+                    "dose": "3 mg/kg",
+                    "route": "SC",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "New regimen added in Version 5.2026. Content development for this regimen is in progress."
+        },
+        {
+            "regimen_name": "Ciltacabtagene autoleucel",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies (after one prior line of therapy including IMiD and a PI, and refractory to lenalidomide)",
+            "treatment_modality": [
+                "CAR T-cell therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ciltacabtagene autoleucel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Single infusion"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CARTITUDE-4",
+                "phase": "III",
+                "n_patients": "419",
+                "pfs": "Median PFS: not reached vs. 11.8 months (HR, 0.26; 95% CI, 0.18–0.38; P < .001)",
+                "os": "30-month OS: 76.4% vs. 63.8% (HR, 0.55; 95% CI, 0.39–0.79; P = .0009)"
+            },
+            "notes": "CAR T-cell therapy for relapsed or refractory MM after one prior line of therapy including an IMiD and a PI, and refractory to lenalidomide."
+        },
+        {
+            "regimen_name": "Idecabtagene vicleucel",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies (after two prior lines of therapies including an IMiD, an anti-CD38 monoclonal antibody and a PI)",
+            "treatment_modality": [
+                "CAR T-cell therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Idecabtagene vicleucel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Single infusion"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KarMMa-3",
+                "phase": "III",
+                "n_patients": "386",
+                "pfs": "Median PFS: 13.3 vs. 4.4 months (HR, 0.49; 95% CI, 0.38–0.65; P < .001)",
+                "or": "ORR: 71% vs. 42% (P < .0001)"
+            },
+            "notes": "CAR T-cell therapy for relapsed or refractory MM after two prior lines of therapies including an IMiD, an anti-CD38 monoclonal antibody and a PI."
+        },
+        {
+            "regimen_name": "Elotuzumab/Lenalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after two prior therapies including lenalidomide and a PI",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Elotuzumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, 22 of first two cycles, then days 1 and 15 of subsequent cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ELOQUENT-3",
+                "phase": "II",
+                "n_patients": "117",
+                "pfs": "Median PFS: 10.3 vs. 4.7 months",
+                "os": "Median OS: 29.8 vs. 17.4 months (HR, 0.59; 95% CI, 0.37–0.93; P = .0217)"
+            },
+            "notes": "Preferred regimen for patients refractory to lenalidomide and a PI."
+        },
+        {
+            "regimen_name": "Ixazomib/Pomalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after two prior therapies including an IMiD and a PI and with disease progression on/within 60 days of completion of last therapy",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixazomib",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Alliance A061202",
+                "phase": "I/II",
+                "n_patients": "29",
+                "or": "ORR: 51.7%",
+                "pfs": "Median PFS: 4.4 months"
+            },
+            "notes": "Preferred regimen for lenalidomide/PI refractory MM."
+        },
+        {
+            "regimen_name": "Elotuzumab/Lenalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Elotuzumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, 22 of first two cycles, then days 1 and 15 of subsequent cycles"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "ELOQUENT-2",
+                "phase": "III",
+                "n_patients": "646",
+                "pfs": "Median PFS: 19.4 vs. 14.9 months (HR, 0.70; 95% CI, 0.57–0.85; P < .001)",
+                "os": "OS: 48.3 vs. 39.6 months"
+            },
+            "notes": "Other recommended regimen for previously treated MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Ixazomib/Lenalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixazomib",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "TOURMALINE-MM1",
+                "phase": "III",
+                "n_patients": "722",
+                "pfs": "Median PFS: 20.6 vs. 14.7 months (HR, 0.74; P = .01)",
+                "or": "ORR: 78% vs. 72% (P = .035)"
+            },
+            "notes": "Other recommended regimen for previously treated MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Selinexor/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "nuclear export inhibitor",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Selinexor",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Once weekly"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "80 mg (40 mg for patients >75 years)",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "BOSTON",
+                "phase": "III",
+                "n_patients": "402",
+                "pfs": "Median PFS: 13.93 vs. 9.46 months (HR, 0.70; 95% CI, 0.53–0.93; P = .0075)"
+            },
+            "notes": "Other recommended regimen for previously treated MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Bortezomib/Cyclophosphamide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Bortezomib/Lenalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Carfilzomib/Cyclophosphamide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 8, 9, 15, 16 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Cyclophosphamide/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "alkylating agent",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "LYRA",
+                "phase": "II",
+                "n_patients": "14 (relapsed)",
+                "or": "ORR: 71.4%",
+                "pfs": "Median PFS: 13.3 months (95% CI, 6.8–13.3)"
+            },
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Daratumumab/Carfilzomib/Pomalidomide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NCT04176718",
+                "phase": "II",
+                "n_patients": "24",
+                "pfs": "12-month PFS: 86.2% (95% CI, 70%–100%)"
+            },
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies. Trial ongoing."
+        },
+        {
+            "regimen_name": "Elotuzumab/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunotherapy",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Elotuzumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, 22 of first two cycles, then days 1 and 15 of subsequent cycles"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": null,
+                "pfs": "Median PFS: 9.7 vs. 6.9 months (HR, 0.72; 70% CI, 0.59–0.88)"
+            },
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Ixazomib/Cyclophosphamide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixazomib",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "pfs": "Median PFS: 14.2 months"
+            },
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Lenalidomide/Cyclophosphamide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after 1-3 prior therapies",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "500 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Other recommended regimen for relapsed/refractory MM after 1-3 prior therapies."
+        },
+        {
+            "regimen_name": "Pomalidomide/Cyclophosphamide/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after two prior therapies including an IMiD and a PI and with disease progression on/within 60 days of completion of last therapy",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "alkylating agent",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "70",
+                "or": "ORR: 64.7% vs. 38.9% (P = .0355)",
+                "pfs": "Median PFS: 9.5 vs. 4.4 months"
+            },
+            "notes": "Other recommended regimen for relapsed/refractory MM after two prior therapies including an IMiD and a PI and with disease progression on/within 60 days of completion of last therapy."
+        },
+        {
+            "regimen_name": "Belantamab mafodotin-blmf/Bortezomib/Dexamethasone for relapsed/refractory MM (after 1-3 prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after two prior therapies including an IMiD and a PI",
+            "treatment_modality": [
+                "antibody-drug conjugate",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Belantamab mafodotin-blmf",
+                    "dose": "2.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 2, 4, 5, 8, 9, 11, 12 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "DREAMM-7",
+                "phase": "III",
+                "n_patients": "494",
+                "pfs": "Median PFS: 36.6 vs. 13.4 months (HR, 0.41; 95% CI, 0.31–0.53; P < .00001)",
+                "os": "OS prolonged (HR, 0.58; 95% CI, 0.43–0.79; P = .0002)"
+            },
+            "notes": "Other recommended regimen for patients whose disease is refractory to at least two prior therapies including an IMiD and a PI."
+        },
+        {
+            "regimen_name": "Elranatamab-bcmm",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD",
+            "treatment_modality": [
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Elranatamab-bcmm",
+                    "dose": "100 mg",
+                    "route": "SC",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MagnetisMM-3",
+                "phase": "II",
+                "n_patients": "123",
+                "or": "ORR: 61.0% (35.0% ≥CR)"
+            },
+            "notes": "Bispecific T-cell engager (BiTE) for relapsed/refractory MM after at least four prior therapies."
+        },
+        {
+            "regimen_name": "Linvoseltamab-gcpt",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD",
+            "treatment_modality": [
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Linvoseltamab-gcpt",
+                    "dose": "200 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for 14 weeks, then every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LINKER-MM1",
+                "phase": "II",
+                "n_patients": "117",
+                "or": "ORR: 71% (50% ≥CR)"
+            },
+            "notes": "Bispecific antibody therapy targeting BCMA and CD3 for relapsed/refractory MM after at least four prior therapies."
+        },
+        {
+            "regimen_name": "Talquetamab-tgvs",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD",
+            "treatment_modality": [
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Talquetamab-tgvs",
+                    "dose": "405 µg/kg",
+                    "route": "SC",
+                    "schedule": "Weekly or biweekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MonumenTAL-1 (MMY1001)",
+                "phase": "II",
+                "n_patients": "187",
+                "or": "ORR (weekly): 70.4%; (biweekly): 64.0%"
+            },
+            "notes": "Bispecific T-cell engager targeting GPRC5D and CD3 for relapsed/refractory MM after at least four prior therapies. May be considered as a bridge to BCMA CAR-T therapy."
+        },
+        {
+            "regimen_name": "Teclistamab-cqyv",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD",
+            "treatment_modality": [
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Teclistamab-cqyv",
+                    "dose": "3 mg/kg",
+                    "route": "SC",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MajesTEC-1",
+                "phase": "I/II",
+                "n_patients": "165",
+                "or": "ORR: 63% (39.4% ≥CR)",
+                "pfs": "Median PFS: 11.3 months"
+            },
+            "notes": "Bispecific T-cell engager targeting BCMA and CD3 for relapsed/refractory MM after at least four prior therapies."
+        },
+        {
+            "regimen_name": "High-Dose or Fractionated Cyclophosphamide",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "alkylating agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "High-dose or fractionated",
+                    "route": "IV",
+                    "schedule": "Varies"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Effective for patients needing immediate disease control who have received multiple prior treatments."
+        },
+        {
+            "regimen_name": "Selinexor/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after at least four prior therapies and whose disease is refractory to at least two PIs, at least two immunomodulatory agents, and an anti-CD38 monoclonal antibody)",
+            "treatment_modality": [
+                "nuclear export inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Selinexor",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Days 1 and 8 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg (20 mg for patients >75 years)",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "STORM",
+                "phase": "IIb",
+                "n_patients": "122",
+                "or": "ORR: 26% (2% sCR, 5% VGPR, 20% PR)"
+            },
+            "notes": "Other recommended regimen for patients with relapsed/refractory MM who have received at least four prior therapies and whose disease is refractory to at least two PIs, at least two immunomodulatory agents, and an anti-CD38 monoclonal antibody."
+        },
+        {
+            "regimen_name": "Belantamab mafodotin-blmf",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after four prior therapies including a PI, an IMiD, and an anti-CD38 monoclonal antibody)",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Belantamab mafodotin-blmf",
+                    "dose": "2.5 mg/kg or 3.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DREAMM-2",
+                "phase": "II",
+                "n_patients": "218",
+                "or": "ORR: 32% (2.5 mg/kg), 35% (3.4 mg/kg)",
+                "pfs": "Median PFS: 2.8 months (2.5 mg/kg), 3.9 months (3.4 mg/kg)"
+            },
+            "notes": "Useful in certain circumstances for those after four prior therapies (including a PI, an IMiD, and an anti-CD38 monoclonal antibody)."
+        },
+        {
+            "regimen_name": "Talquetamab-tgvs + Teclistamab-cqyv",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "bispecific antibody",
+                "bispecific antibody"
+            ],
+            "drugs": [
+                {
+                    "name": "Talquetamab-tgvs",
+                    "dose": "0.8 mg/kg",
+                    "route": "SC",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Teclistamab-cqyv",
+                    "dose": "3.0 mg/kg",
+                    "route": "SC",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "RedirecTT-1",
+                "phase": "I/IIa",
+                "n_patients": "94",
+                "or": "ORR: 80% (recommended phase 2 regimen)"
+            },
+            "notes": "Useful in certain circumstances for relapsed/refractory MM. Prophylactic tocilizumab may be considered prior to first dose to reduce the risk of CRS."
+        },
+        {
+            "regimen_name": "Bendamustine",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "alkylating agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": "90-100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 2 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "31",
+                "or": "ORR: 55%",
+                "pfs": "Median PFS: 36 weeks (higher doses)"
+            },
+            "notes": "Useful in certain circumstances for relapsed/refractory MM."
+        },
+        {
+            "regimen_name": "Bendamustine/Bortezomib/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "alkylating agent",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": "135 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 of each 28-day cycle for 6 cycles, then every 56 days for 6 more cycles"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 4, 8, 11 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 2, 4, 5, 8, 9, 11, 12 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "75",
+                "or": "PR rate: 71.5% (16% CR, 18.5% VGPR)",
+                "os": "1-year OS: 78%"
+            },
+            "notes": "Useful in certain circumstances for relapsed/refractory MM."
+        },
+        {
+            "regimen_name": "Bendamustine/Carfilzomib/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "alkylating agent",
+                "proteasome inhibitor",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 2 of each 28-day cycle"
+                },
+                {
+                    "name": "Carfilzomib",
+                    "dose": "56 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Multicenter trial",
+                "phase": "II",
+                "n_patients": "63",
+                "or": "ORR: 52% (32% ≥VGPR)",
+                "pfs": "Median PFS: 11.6 months",
+                "os": "Median OS: 30.4 months"
+            },
+            "notes": "Useful in certain circumstances for relapsed/refractory MM."
+        },
+        {
+            "regimen_name": "Bendamustine/Lenalidomide/Dexamethasone",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "alkylating agent",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 2 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "15 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase I/II trial",
+                "phase": "I/II",
+                "n_patients": "29",
+                "or": "ORR: 52% (24% VGPR)",
+                "pfs": "Median PFS: 6.1 months (95% CI, 3.7–9.4 months)"
+            },
+            "notes": "Useful in certain circumstances for relapsed/refractory MM."
+        },
+        {
+            "regimen_name": "Venetoclax/Dexamethasone ± Daratumumab or PI for t(11;14) patients",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "BCL-2 inhibitor",
+                "corticosteroid",
+                "immunotherapy",
+                "proteasome inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Venetoclax",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Weekly for cycles 1-2, then every 2 weeks (optional)"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Days 1, 4, 8, 11 of each 28-day cycle (optional)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "t(11;14)",
+                    "requirement": "Must be present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase I/II studies",
+                "phase": "I/II",
+                "n_patients": null,
+                "or": "ORR: 48% (venetoclax/dexamethasone)",
+                "pfs": "Median TTP: 10.8 months"
+            },
+            "notes": "Useful in certain circumstances for patients with t(11;14) translocation."
+        },
+        {
+            "regimen_name": "Pomalidomide/Dexamethasone for relapsed/refractory MM (after three prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after two prior therapies including an IMiD and a PI and with disease progression on/within 60 days of completion of last therapy)",
+            "treatment_modality": [
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MM-003",
+                "phase": "III",
+                "n_patients": "455",
+                "pfs": "Median PFS: 4 vs. 1.9 months (HR, 0.45; P < .0001)",
+                "os": "Median OS: 12.7 vs. 8.1 months (HR, 0.74; P = .0285)"
+            },
+            "notes": "Useful in certain circumstances for patients who have received at least two prior therapies including an IMiD and a PI, and have demonstrated disease progression on or within 60 days of completion of the last therapy."
+        },
+        {
+            "regimen_name": "Selinexor/Pomalidomide/Dexamethasone for relapsed/refractory MM (after three prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after two prior therapies including an IMiD and bortezomib, and with disease progression on/within 60 days of completion of last therapy)",
+            "treatment_modality": [
+                "nuclear export inhibitor",
+                "immunomodulatory drug",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Selinexor",
+                    "dose": "40-60 mg",
+                    "route": "PO",
+                    "schedule": "Once weekly"
+                },
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15, 22 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "STOMP",
+                "phase": "I/II",
+                "n_patients": "20",
+                "or": "ORR: 65%"
+            },
+            "notes": "Useful in certain circumstances for patients who have received at least two prior therapies, including an IMiD and bortezomib, and have demonstrated disease progression on or within 60 days of completion of the last therapy."
+        },
+        {
+            "regimen_name": "Daratumumab monotherapy for relapsed/refractory MM (after three prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after at least three prior therapies including a PI and an IMiD or are double-refractory to a PI and an IMiD)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "16 mg/kg",
+                    "route": "IV",
+                    "schedule": "Weekly for 8 weeks, then every 2 weeks for 16 weeks, then every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SIRIUS",
+                "phase": "II",
+                "n_patients": "106",
+                "or": "ORR: 29.2%",
+                "pfs": "Median TTP: 3.7 months"
+            },
+            "notes": "Useful in certain circumstances for patients who have received at least three prior therapies including a PI and an IMiD or are double-refractory to a PI and an IMiD."
+        },
+        {
+            "regimen_name": "DCEP (Dexamethasone/Cyclophosphamide/Etoposide/Cisplatin) for aggressive MM",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "corticosteroid",
+                "alkylating agent",
+                "topoisomerase inhibitor",
+                "platinum agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Useful in certain circumstances for aggressive MM."
+        },
+        {
+            "regimen_name": "Dexamethasone/Thalidomide/Cisplatin/Doxorubicin/Cyclophosphamide/Etoposide (DT-PACE) ± Bortezomib (VTD-PACE) for aggressive MM",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies",
+            "treatment_modality": [
+                "corticosteroid",
+                "immunomodulatory drug",
+                "platinum agent",
+                "anthracycline",
+                "alkylating agent",
+                "topoisomerase inhibitor",
+                "proteasome inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Dexamethasone",
+                    "dose": "40 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Thalidomide",
+                    "dose": "200 mg",
+                    "route": "PO",
+                    "schedule": "Continuous"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.0 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 4 (optional)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Useful in certain circumstances for aggressive MM."
+        },
+        {
+            "regimen_name": "Idecabtagene vicleucel for relapsed/refractory MM (after three prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD)",
+            "treatment_modality": [
+                "CAR T-cell therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Idecabtagene vicleucel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Single infusion"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KarMMa",
+                "phase": "II",
+                "n_patients": "128",
+                "or": "ORR: 73% (33% ≥CR)"
+            },
+            "notes": "Preferred regimen for patients who have received at least four prior therapies, including an anti-CD38 monoclonal antibody, a PI, and an IMiD."
+        },
+        {
+            "regimen_name": "Ciltacabtagene autoleucel for relapsed/refractory MM (after three prior therapies)",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Relapsed/refractory disease after three prior therapies (after at least four prior therapies including an anti-CD38 monoclonal antibody, a PI, and an IMiD)",
+            "treatment_modality": [
+                "CAR T-cell therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ciltacabtagene autoleucel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Single infusion"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CARTITUDE-1",
+                "phase": "I/II",
+                "n_patients": "97",
+                "or": "ORR: 97% (67% sCR)",
+                "pfs": "18-month PFS: 66.0%"
+            },
+            "notes": "Preferred regimen for patients who have received at least four prior therapies, including an anti-CD38 monoclonal antibody, a PI, and an IMiD."
+        },
+        {
+            "regimen_name": "Lenalidomide maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "10-15 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle until progression"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CALGB 100104",
+                "phase": "III",
+                "n_patients": "460",
+                "pfs": "Median TTP: 46 vs. 27 months (P < .001)"
+            },
+            "notes": "Preferred maintenance therapy after autologous HCT. There is an increased risk for second primary malignancies, especially with lenalidomide maintenance following transplant."
+        },
+        {
+            "regimen_name": "Carfilzomib/Lenalidomide maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Carfilzomib",
+                    "dose": "27 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "FORTE",
+                "phase": "II",
+                "n_patients": null,
+                "pfs": "3-year PFS: 75% vs. 65% (HR, 0.64; 95% CI, 0.44–0.94; P = .023)"
+            },
+            "notes": "Other recommended maintenance therapy after autologous HCT."
+        },
+        {
+            "regimen_name": "Daratumumab/Lenalidomide maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "immunotherapy",
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Every 2 weeks"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "AURIGA",
+                "phase": "III",
+                "n_patients": null,
+                "mrd": "MRD-negative rates: 50.5% vs. 18.8%",
+                "pfs": "PFS: 82.7% vs. 66.4%"
+            },
+            "notes": "Other recommended maintenance therapy after autologous HCT."
+        },
+        {
+            "regimen_name": "Bortezomib ± Lenalidomide maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "proteasome inhibitor",
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.3 mg/m2",
+                    "route": "SC",
+                    "schedule": "Every 2 weeks"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "10-15 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21 of each 28-day cycle (optional)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {},
+            "notes": "Useful in certain circumstances for maintenance therapy after autologous HCT, particularly for high-risk patients."
+        },
+        {
+            "regimen_name": "Daratumumab maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Daratumumab",
+                    "dose": "1800 mg",
+                    "route": "SC",
+                    "schedule": "Every 2 weeks for up to 2 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CASSIOPEIA",
+                "phase": "III",
+                "n_patients": null,
+                "pfs": "72-month PFS: 57.1% vs. 36.5%"
+            },
+            "notes": "Useful in certain circumstances for maintenance therapy after autologous HCT."
+        },
+        {
+            "regimen_name": "Ixazomib maintenance after HCT",
+            "site": "Multiple myeloma (symptomatic)",
+            "setting": "Maintenance therapy after autologous HCT",
+            "treatment_modality": [
+                "proteasome inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Ixazomib",
+                    "dose": "3 mg",
+                    "route": "PO",
+                    "schedule": "Days 1, 8, 15 of each 28-day cycle for 2 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TOURMALINE-MM3",
+                "phase": "III",
+                "n_patients": null,
+                "pfs": "Median PFS: 26.5 vs. 21.3 months (HR, 0.72; 95% CI, 0.58–0.89; P = .0023)"
+            },
+            "notes": "Useful in certain circumstances for maintenance therapy after autologous HCT."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.948190"
+}

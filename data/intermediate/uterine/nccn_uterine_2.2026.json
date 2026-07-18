@@ -1,0 +1,3203 @@
+{
+  "references": {
+    "1": "Siegel RL, Kratzer TB, Giaquinto AN, et al. Cancer statistics, 2025. CA Cancer J Clin 2025;75:10\u201345.",
+    "2": "D'Angelo E, Prat J. Uterine sarcomas: a review. Gynecol Oncol 2010;116:131\u2013139.",
+    "3": "Siegel RL, Miller KD, Jemal A. Cancer statistics, 2016. CA Cancer J Clin 2016;66:7\u201330.",
+    "4": "Ueda SM, Kapp DS, Cheung MK, et al. Trends in demographic and clinical characteristics in women diagnosed with corpus cancer and their potential impact on the increasing number of deaths. Am J Obstet Gynecol 2008;198:218 e211\u2013216.",
+    "5": "Siegel RL, Miller KD, Jemal A. Cancer Statistics, 2017. CA Cancer J Clin 2017;67:7\u201330.",
+    "6": "Benedetti Panici P, Basile S, Salerno MG, et al. Secondary analyses from a randomized clinical trial: age as the key prognostic factor in endometrial carcinoma. Am J Obstet Gynecol 2014;210:363 e361\u2013363 e310.",
+    "7": "Wang J, Xu P, Yang X, et al. Association of Myometrial Invasion With Lymphovascular Space Invasion, Lymph Node Metastasis, Recurrence, and Overall Survival in Endometrial Cancer: A Meta-Analysis of 79 Studies With 68,870 Patients. Front Oncol 2021;11:762329.",
+    "8": "Mendivil A, Schuler KM, Gehrig PA. Non-endometrioid adenocarcinoma of the uterine corpus: a review of selected histological subtypes. Cancer Control 2009;16:46\u201352.",
+    "9": "The Cancer Genome Atlas (TCGA) Research Network; Kandoth C, Schultz N, Cherniack AD, et al. Integrated genomic characterization of endometrial carcinoma. Nature 2013;497:67-73.",
+    "10": "Rios-Doria E, Momeni-Boroujeni A, Friedman CF, et al. Integration of clinical sequencing and immunohistochemistry for the molecular classification of endometrial carcinoma. Gynecol Oncol 2023;174:262-272.",
+    "11": "Matsuo K, Yabuno A, Hom MS, et al. Significance of abnormal peritoneal cytology on survival of women with stage I-II endometrioid endometrial cancer. Gynecol Oncol 2018;149:301\u2013309.",
+    "12": "de Boer SM, Powell ME, Mileshkin L, et al. Toxicity and quality of life after adjuvant chemoradiotherapy versus radiotherapy alone for women with high-risk endometrial cancer (PORTEC-3). Lancet Oncol 2016;17:1114-1126.",
+    "13": "Castells MC, Tennant NM, Sloane DE, et al. Hypersensitivity reactions to chemotherapy: outcomes and safety of rapid desensitization in 413 cases. J Allergy Clin Immunol 2008;122:574\u2013580.",
+    "14": "Westin SN, Moore K, Chon HS, et al. Durvalumab Plus Carboplatin/Paclitaxel Followed by Maintenance Durvalumab With or Without Olaparib as First-Line Treatment for Advanced Endometrial Cancer: The Phase III DUO-E Trial. J Clin Oncol 2024;42:283\u2013299.",
+    "15": "Rose PG, Ali S, Moslemi-Kebria M, Simpkins F. Paclitaxel, Carboplatin, and Bevacizumab in Advanced and Recurrent Endometrial Carcinoma. Int J Gynecol Cancer 2017;27:452-458.",
+    "16": "Makker V, Colombo N, Casado Herr\u00e1ez A, et al. Lenvatinib plus pembrolizumab in previously treated advanced endometrial cancer: updated efficacy and safety from the randomized phase III Study 309/KEYNOTE-775. J Clin Oncol 2023;41:2904-2910.",
+    "17": "Walker JL, Piedmonte MR, Spirtos NM, et al. Laparoscopy compared with laparotomy for comprehensive surgical staging of uterine cancer: Gynecologic Oncology Group Study LAP2. J Clin Oncol 2009;27:5331-5336.",
+    "18": "NCCN Guidelines for Survivorship. Version 2.2026.",
+    "19": "NCCN Guidelines for Radiation Oncology: Cervical Cancer. Version 1.2025.",
+    "20": "Salani R, Khanna N, Frimer M, et al. An update on post-treatment surveillance and diagnosis of recurrence in women with gynecologic malignancies: Society of Gynecologic Oncology (SGO) recommendations. Gynecol Oncol 2017;146:3-10.",
+    "21": "Hensley ML, Barrette BA, Baumann K, et al. Gynecologic Cancer InterGroup (GCIG) consensus review: uterine and ovarian leiomyosarcomas. Int J Gynecol Cancer 2014;24(9 Suppl 3):S61-S66.",
+    "22": "Expert Panel on GYN, Imaging OB, Reinhold C, et al. ACR Appropriateness Criteria(R) Pretreatment Evaluation and Follow-Up of Endometrial Cancer. J Am Coll Radiol 2020;17:S472\u2013S486.",
+    "23": "Gunderson CC, Fader AN, Carson KA, Bristow RE. Oncologic and reproductive outcomes with progestin therapy in women with endometrial hyperplasia and grade 1 adenocarcinoma: a systematic review. Gynecol Oncol 2012;125:477\u2013482.",
+    "24": "NCCN Guidelines for Uterine Neoplasms. Version 3.2026.",
+    "25": "Makker V, Colombo N, Casado Herr\u00e1ez A, et al. Lenvatinib plus Pembrolizumab for Advanced Endometrial Cancer. N Engl J Med 2022;386:437\u2013448.",
+    "26": "Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus Chemotherapy in Advanced Endometrial Cancer. N Engl J Med 2023;388:2159\u20132170.",
+    "27": "Mirza MR, Chase DM, Slomovitz BM, et al. Dostarlimab for Primary Advanced or Recurrent Endometrial Cancer. N Engl J Med 2023;388:2145\u20132158.",
+    "28": "Fader AN, Roque DM, Siegel E, et al. Randomized Phase II Trial of Carboplatin-Paclitaxel Compared with Carboplatin-Paclitaxel-Trastuzumab in Advanced (Stage III-IV) or Recurrent Uterine Serous Carcinomas that Overexpress Her2/Neu. J Clin Oncol 2018;36:2044\u20132051.",
+    "29": "Pautier P, Italiano A, Piperno-Neumann S, et al. Doxorubicin alone versus doxorubicin with trabectedin followed by trabectedin alone as first-line therapy for metastatic or unresectable leiomyosarcoma (LMS-04): a randomised, multicentre, open-label phase 3 trial. Lancet Oncol 2022;23:1044-1054.",
+    "30": "Resnick KE, Hampel H, Fishel R, Cohn DE. Current and emerging trends in Lynch syndrome identification in women with endometrial cancer. Gynecol Oncol 2009;114:128\u2013134.",
+    "31": "Wright JD, Buck AM, Shah M, et al. Safety of ovarian preservation in premenopausal women with endometrial cancer. J Clin Oncol 2009;27:1214\u20131219.",
+    "32": "Holloway RW, Abu-Rustum NR, Backes FJ, et al. Sentinel lymph node mapping and staging in endometrial cancer: A Society of Gynecologic Oncology literature review with consensus recommendations. Gynecol Oncol 2017;146:405\u2013415.",
+    "33": "NCCN Clinical Practice Guidelines in Oncology: Uterine Neoplasms. Version 3.2026.",
+    "34": "Colombo N, Creutzberg C, Amant F, et al; ESMO-ESGO-ESTRO Endometrial Consensus Conference Working Group. ESMO-ESGO-ESTRO Consensus Conference on Endometrial Cancer: diagnosis, treatment and follow-up. Ann Oncol 2016;27:16\u201341.",
+    "35": "American College of Obstetricians and Gynecologists. ACOG practice bulletin, clinical management guidelines for obstetrician-gynecologists, number 65, August 2005: management of endometrial cancer. Obstet Gynecol 2005;106:413\u2013425.",
+    "36": "de Boer SM, Powell ME, Mileshkin L, et al. Adjuvant chemoradiotherapy versus radiotherapy alone in women with high-risk endometrial cancer (PORTEC-3): patterns of recurrence and post-hoc survival analysis of a randomised phase 3 trial. Lancet Oncol 2019;20:1273\u20131285."
+  },
+  "tier_2_handbook": {
+    "definition": "Endometrial cancer (also known as adenocarcinoma of the endometrium, or more broadly, uterine cancer or carcinoma of the uterine corpus) is a malignant epithelial tumor arising from the endometrial lining of the uterus, the innermost layer of the myometrium. The uterus is a hollow, muscular organ of the female reproductive system, embryologically derived from the M\u00fcllerian ducts (paramesonephric ducts). The endometrium is the glandular and stromal tissue lining the uterine cavity, which undergoes cyclic changes under hormonal influence during the menstrual cycle. Anatomically, the uterus is situated in the pelvis, posterior to the bladder and anterior to the rectum. It consists of the fundus (superior portion), the corpus (body), and the cervix (inferior portion). The endometrium can be divided functionally into two layers: the stratum functionalis, which is shed during menstruation, and the deeper basalis, which remains and regenerates the functional layer. Uterine sarcomas are a distinct group of uncommon malignant mesenchymal tumors arising from the connective tissue, smooth muscle, or other non-epithelial components of the uterine wall. They account for approximately 3% of all uterine cancers. The myometrium is the thick middle layer of smooth muscle, and the serosa is the outer peritoneal covering. Sarcomas can originate from the myometrial smooth muscle (leiomyosarcoma), endometrial stromal cells (endometrial stromal sarcoma), or other mesenchymal elements. The NCCN Guidelines encompass both malignant epithelial tumors (carcinomas) and uterine sarcomas, as they require different management strategies (see UN-1, Initial Evaluation). [References: UN-1, Discussion MS-3, UTSARC-A 1]",
+    "subtypes": [
+      {
+        "name": "Endometrioid Adenocarcinoma",
+        "description": "The most common histologic type of endometrial carcinoma, resembling the normal endometrial glands. It is typically estrogen-dependent and often presents at an early stage with favorable prognosis. Graded from G1 (well-differentiated) to G3 (poorly differentiated).",
+        "frequency": "Approximately 80% of endometrial cancers are endometrioid.",
+        "key_associations": "Strongly associated with unopposed estrogen exposure, obesity, diabetes, hypertension, and Lynch syndrome. Molecular subtypes include POLE-mutated, MSI-H/dMMR, NSMP, and p53 aberrant. Early symptoms include metrorrhagia or postmenopausal vaginal bleeding."
+      },
+      {
+        "name": "Serous Carcinoma",
+        "description": "A high-grade, aggressive non-endometrioid histologic subtype. It typically arises in older women and has a propensity for early extrauterine spread, even with apparently early-stage disease.",
+        "frequency": "Accounts for about 10% of endometrial cancers.",
+        "key_associations": "Highly aggressive behavior, high risk of metastasis. Strongly associated with p53 aberrant molecular profile. Often presents with advanced stage disease. Associated with older age, nulliparity, and less commonly with obesity compared to endometrioid type."
+      },
+      {
+        "name": "Clear Cell Carcinoma",
+        "description": "A non-endometrioid histologic subtype characterized by cells with clear cytoplasm and hobnail or papillary patterns. It is considered a high-risk histology.",
+        "frequency": "Less common, comprising about 5% of endometrial carcinomas.",
+        "key_associations": "Aggressive behavior with higher risk of recurrence and metastasis. Associated with p53 aberrant molecular profile. Often presents at an advanced stage."
+      },
+      {
+        "name": "Carcinosarcoma",
+        "description": "Also known as malignant mixed M\u00fcllerian tumor (MMMT). This is a biphasic tumor containing both malignant epithelial (carcinoma) and malignant mesenchymal (sarcoma) components. Per NCCN guidelines, carcinosarcomas are now considered and treated as high-grade endometrial cancers (carcinomas), not uterine sarcomas.",
+        "frequency": "Accounts for approximately 3-5% of uterine cancers.",
+        "key_associations": "Highly aggressive with a poor prognosis. Both homologous (elements indigenous to the uterus) and heterologous (elements not native to the uterus, e.g., skeletal muscle, cartilage) stromal elements can be present. Associated with HER2 overexpression in a subset. Often presents at an advanced stage."
+      },
+      {
+        "name": "Undifferentiated/Dedifferentiated Carcinoma",
+        "description": "Undifferentiated carcinoma shows a lack of recognizable differentiation toward any specific cell line. Dedifferentiated carcinoma consists of a juxtaposition of undifferentiated carcinoma with a well-differentiated endometrioid component.",
+        "frequency": "Rare.",
+        "key_associations": "High-grade, aggressive histology with poor prognosis. Often presents at an advanced stage."
+      },
+      {
+        "name": "Low-Grade Endometrial Stromal Sarcoma (ESS)",
+        "description": "A mesenchymal tumor composed of cells resembling the endometrial stroma of the proliferative phase. It is characterized by infiltrative growth with tongue-like projections into the myometrium and frequent lymphovascular space invasion (LVSI).",
+        "frequency": "The most common uterine sarcoma subtype after leiomyosarcoma, accounting for about 21% of uterine sarcomas.",
+        "key_associations": "Indolent but can recur or metastasize years after diagnosis. Associated with JAZF1, PHF1, or EPC1 gene fusions. Often expresses estrogen receptor (ER) and progesterone receptor (PR), making it amenable to endocrine therapy."
+      },
+      {
+        "name": "High-Grade Endometrial Stromal Sarcoma",
+        "description": "An aggressive ESS variant with distinct genetic rearrangements. Subtypes include YWHAE::NUTM2A/B fusion-positive and BCOR-altered (ZC3H7B::BCOR fusion or BCOR internal tandem duplication).",
+        "frequency": "Less common than low-grade ESS.",
+        "key_associations": "More aggressive clinical behavior than low-grade ESS. YWHAE-altered tumors have a high-grade round cell component. BCOR-altered tumors have high-grade spindle cells in a myxoid matrix. Shows different molecular features and requires differentiation from other high-grade sarcomas."
+      },
+      {
+        "name": "Uterine Leiomyosarcoma (uLMS)",
+        "description": "The most common uterine sarcoma subtype, originating from the smooth muscle of the myometrium. It can be of conventional (spindle cell), epithelioid, or myxoid histologic type.",
+        "frequency": "The most common subtype, accounting for about 63% of uterine sarcomas.",
+        "key_associations": "Highly aggressive with a high rate of hematogenous metastasis (especially to the lungs) and recurrence. Complex karyotypes are hallmark; commonly altered genes include TP53, ATRX, RB1, and PTEN. Prognosis is best predicted by stage."
+      },
+      {
+        "name": "M\u00fcllerian Adenosarcoma",
+        "description": "A biphasic tumor with a benign, often metaplastic, epithelial component and an atypical, usually low-grade, mesenchymal component. Sarcomatous overgrowth (SO), defined as sarcoma comprising \u226525% of the tumor volume, indicates a worse prognosis.",
+        "frequency": "Rare.",
+        "key_associations": "Generally indolent, but presence of SO or high-grade cytologic features confers a worse prognosis. May harbor BAP1 loss, ESR1 fusions, or other alterations."
+      },
+      {
+        "name": "Perivascular Epithelioid Cell Tumor (PEComa)",
+        "description": "A mesenchymal neoplasm composed of perivascular epithelioid and/or spindled cells that co-express melanocytic and muscle markers.",
+        "frequency": "Rare.",
+        "key_associations": "Behavior is predicted by tumor stratification into uncertain malignant potential or malignant based on features like size, nuclear grade, mitotic activity, necrosis, and invasion. Associated with inactivating mutations of TSC1/TSC2 and TFE3 fusions. Treatment with mTOR inhibitors may be considered for advanced disease."
+      },
+      {
+        "name": "Inflammatory Myofibroblastic Tumor (IMT)",
+        "description": "A spindle cell neoplasm with admixed inflammatory infiltrate. Histologic patterns vary from myxoid hypocellular areas to more compact cellular areas.",
+        "frequency": "Rare in the uterus.",
+        "key_associations": "Typically benign and confined to the uterus, but recurrence and extrauterine spread can occur. Often harbors ALK rearrangements. May respond to ALK inhibitors."
+      },
+      {
+        "name": "Rhabdomyosarcoma (RMS)",
+        "description": "An aggressive, heterogeneous group of tumors with skeletal muscle differentiation. Subtypes include embryonal, alveolar, and pleomorphic.",
+        "frequency": "Extremely rare in adults.",
+        "key_associations": "Embryonal subtype has the best prognosis. Molecular alterations differ: DICER1 mutations in embryonal, FOXO1 fusions in alveolar. Expresses myogenic biomarkers (myogenin, MyoD1)."
+      }
+    ],
+    "molecular_pathogenesis": "Endometrial carcinoma exhibits distinct molecular pathogenesis. The TCGA classification identifies four clinically significant molecular subgroups: 1) POLE-mutated: Characterized by mutations in the exonuclease domain of DNA polymerase epsilon (POLE), often high-grade but with excellent prognosis. Hotspot mutations include P286R and V411L. 2) Microsatellite Instability-High (MSI-H) / Mismatch Repair Deficient (dMMR): Results from defective DNA mismatch repair, often due to MLH1 promoter methylation or germline mutations (Lynch syndrome). Associated with intermediate prognosis and potential sensitivity to immune checkpoint inhibitors. 3) No Specific Molecular Profile (NSMP): Corresponds to copy-number-low/wild-type p53 tumors. Typically endometrioid histology, estrogen-dependent, with favorable prognosis. 4) p53 Aberrant: Characterized by TP53 mutations, associated with serous histology, high copy-number alterations, and the worst prognosis. Requires multimodality treatment. Molecular testing for POLE mutations, MMR/MSI status, and p53 IHC is recommended to complement morphologic assessment (ENDO-A). For uterine sarcomas, molecular profiling is key for classification: - Low-grade ESS: Associated with JAZF1::SUZ12, JAZF1::PHF1, EPC1::PHF1 fusions. - High-grade ESS: YWHAE::NUTM2 fusions, ZC3H7B::BCOR fusions, or BCOR internal tandem duplication. - Leiomyosarcoma: Complex karyotypes; commonly altered genes include TP53, ATRX, RB1, PTEN. - PEComa: TSC1/TSC2 mutations, TFE3 fusions. - IMT: ALK rearrangements. - RMS: DICER1 mutations (embryonal), FOXO1 fusions (alveolar). Comprehensive genomic profiling is encouraged in metastatic disease to identify targets like NTRK, RET, and TMB (UTSARC-A). [References: ENDO-A, UTSARC-A, Discussion MS-4, MS-32-34]",
+    "epidemiology": {
+      "incidence": "Adenocarcinoma of the endometrium is the fourth most common malignancy of the female genital tract in the United States. It is estimated that 69,120 new uterine cancer cases will occur in 2025. The incidence of uterine corpus cancer has continued to increase by about 1% per year since the mid-2000s.",
+      "mortality": "It is estimated that 13,860 deaths will result from uterine cancer in 2025. It is noted as the only cancer with reduced survival over the past four decades.",
+      "trends": "The incidence is increasing, attributed to increased life expectancy, obesity, and a higher rate of advanced-stage cancers and high-risk histologies at diagnosis.",
+      "demographics": "The typical age group at risk is \u226555 years. Survival is increased in patients who are younger, have early-stage disease, and have lower-grade disease. Racial and ethnic disparities in access to minimally invasive surgical care have been observed. Uterine sarcomas are uncommon, accounting for approximately 3% of all uterine cancers. Among sarcomas, leiomyosarcoma is the most common subtype (63%), followed by endometrial stromal sarcoma (21%). [References: Discussion MS-1, MS-3]"
+    },
+    "risk_factors": [
+      {
+        "factor": "Unopposed Estrogen Exposure",
+        "type": "Hormonal",
+        "detail": "Increased levels of endogenous or exogenous estrogen without opposing progesterone is a primary risk factor. This includes obesity (peripheral conversion in adipose tissue), chronic anovulation, polycystic ovarian syndrome (PCOS), and exogenous estrogen therapy without progestin.",
+        "strength": "Strong"
+      },
+      {
+        "factor": "Obesity",
+        "type": "Metabolic",
+        "detail": "A major risk factor. Fat cells convert androgens to estrogens via aromatase. The incidence of endometrial cancer increases with body mass index (BMI).",
+        "strength": "Strong"
+      },
+      {
+        "factor": "Diabetes Mellitus",
+        "type": "Metabolic",
+        "detail": "An independent risk factor, likely related to hyperinsulinemia, which may promote endometrial proliferation.",
+        "strength": "Moderate"
+      },
+      {
+        "factor": "Hypertension",
+        "type": "Metabolic",
+        "detail": "Often associated with obesity and diabetes, and is an independent risk factor.",
+        "strength": "Moderate"
+      },
+      {
+        "factor": "Lynch Syndrome",
+        "type": "Genetic",
+        "detail": "Hereditary nonpolyposis colorectal cancer (HNPCC) syndrome, caused by germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2). Carriers have a lifetime risk of endometrial cancer of up to 60%. Endometrial cancer may be the first manifestation.",
+        "strength": "Strong"
+      },
+      {
+        "factor": "Tamoxifen Use",
+        "type": "Pharmacologic",
+        "detail": "Selective estrogen receptor modulator (SERM) used for breast cancer treatment and prevention. It has agonist effects on the endometrium, increasing the risk of endometrial hyperplasia and cancer with prolonged use (typically >2 years).",
+        "strength": "Moderate"
+      },
+      {
+        "factor": "Nulliparity",
+        "type": "Reproductive",
+        "detail": "Never having been pregnant. Pregnancy has a protective effect due to progestin dominance.",
+        "strength": "Moderate"
+      },
+      {
+        "factor": "Early Menarche / Late Menopause",
+        "type": "Reproductive",
+        "detail": "Prolonged exposure to cyclic estrogen without the protective effect of progesterone from ovulation.",
+        "strength": "Moderate"
+      },
+      {
+        "factor": "Age",
+        "type": "Demographic",
+        "detail": "The risk increases with age, with most cases diagnosed after age 55.",
+        "strength": "Strong"
+      },
+      {
+        "factor": "Endometrial Hyperplasia with Atypia",
+        "type": "Premalignant",
+        "detail": "Atypical endometrial hyperplasia is a direct precursor lesion for endometrioid adenocarcinoma.",
+        "strength": "Strong"
+      },
+      {
+        "factor": "Family History",
+        "type": "Genetic",
+        "detail": "A family history of endometrial, ovarian, or colorectal cancer, even in the absence of known Lynch syndrome, may increase risk.",
+        "strength": "Moderate"
+      }
+    ],
+    "clinical_features": {
+      "typical_presentation": "The classic presentation of endometrial carcinoma is abnormal uterine bleeding, most commonly postmenopausal bleeding (vaginal bleeding after menopause), which prompts investigation. In premenopausal women, it may manifest as menorrhagia or intermenstrual bleeding. Patients may also present with pelvic pain or pressure, though this is less common. For uterine sarcomas, presentation often includes a rapidly enlarging pelvic mass, which may be painful, or abnormal bleeding. Adenosarcomas may present as a polypoid mass protruding through the cervix.",
+      "symptoms": [
+        {
+          "name": "Abnormal uterine bleeding",
+          "detail": "The most common symptom, occurring in about 90% of patients. This includes postmenopausal bleeding, metrorrhagia, or menorrhagia.",
+          "frequency": "Very common (up to 90% of patients)",
+          "alarm": "Yes, postmenopausal bleeding is an alarm symptom requiring urgent evaluation."
+        },
+        {
+          "name": "Pelvic pain or pressure",
+          "detail": "May be present due to tumor size or local spread.",
+          "frequency": "Less common than bleeding",
+          "alarm": "Depends on severity and acuity."
+        },
+        {
+          "name": "Pelvic mass",
+          "detail": "More common in sarcomas, which may present as a rapidly growing mass.",
+          "frequency": "Common in uterine sarcomas",
+          "alarm": "Yes, a new or enlarging pelvic mass is concerning."
+        },
+        {
+          "name": "Vaginal discharge",
+          "detail": "May be serosanguinous or purulent.",
+          "frequency": "Occasional",
+          "alarm": "Uncommon symptom, warrants investigation."
+        }
+      ],
+      "signs": [
+        {
+          "name": "Uterine enlargement",
+          "detail": "On pelvic examination, the uterus may be palpably enlarged or irregular, especially with larger tumors or sarcomas.",
+          "frequency": "Variable depending on stage"
+        },
+        {
+          "name": "Cervical mass or bleeding",
+          "detail": "With cervical involvement, a friable mass may be seen or palpated.",
+          "frequency": "Less common, seen in advanced local disease"
+        },
+        {
+          "name": "Adnexal mass",
+          "detail": "May indicate ovarian or tubal involvement, or metastatic disease.",
+          "frequency": "Occasional"
+        }
+      ],
+      "atypical_or_missed": [
+        "Asymptomatic presentation in early-stage disease",
+        "Symptoms attributed to menopause or other benign conditions leading to delayed diagnosis",
+        "Presentation with metastatic symptoms (e.g., cough from lung metastases, bone pain) without prior uterine symptoms",
+        "Tumor incidental finding in a specimen removed for benign indications (e.g., myomectomy)"
+      ]
+    },
+    "red_flags": [
+      "Postmenopausal vaginal bleeding",
+      "Premenopausal abnormal uterine bleeding not responsive to medical management",
+      "Rapidly enlarging pelvic mass",
+      "Pelvic pain with a palpable adnexal or uterine mass",
+      "Abnormal cervical cytology suggesting a high-grade lesion",
+      "Ascites or evidence of peritoneal disease",
+      "Symptoms suggestive of metastatic disease (e.g., hemoptysis, bone pain, neurological deficits)"
+    ],
+    "investigations": {
+      "diagnostic": [
+        {
+          "test": "Endometrial biopsy or dilation and curettage (D&C)",
+          "rationale": "Direct sampling of the endometrium to obtain histologic diagnosis.",
+          "key_findings": "Confirmation of adenocarcinoma (type, grade) or other histology (sarcoma)."
+        },
+        {
+          "test": "Hysteroscopy",
+          "rationale": "Direct visualization of the uterine cavity and targeted biopsy of lesions.",
+          "key_findings": "Identification of focal lesions, polyps, or diffuse disease."
+        },
+        {
+          "test": "Expert pathology review",
+          "rationale": "Crucial for accurate histologic subtyping and grading, especially for high-risk or unusual histologies.",
+          "key_findings": "Distinction between endometrioid, serous, clear cell, carcinosarcoma, undifferentiated carcinoma, and sarcomas."
+        }
+      ],
+      "staging": [
+        {
+          "test": "Pelvic MRI (with and without contrast)",
+          "rationale": "Best imaging for local staging: depth of myometrial invasion, cervical stromal involvement, and local extent.",
+          "indication": "Standard for planning fertility-sparing treatment and for high-grade or advanced disease."
+        },
+        {
+          "test": "Chest/abdomen/pelvis CT (with contrast)",
+          "rationale": "Evaluates for metastatic disease, particularly in high-grade histologies or advanced stage.",
+          "indication": "Recommended for high-grade carcinomas (serous, clear cell, carcinosarcoma, undifferentiated) and when extrauterine disease is suspected."
+        },
+        {
+          "test": "FDG-PET/CT",
+          "rationale": "May help in evaluating equivocal findings on other imaging or to assess for metastatic disease.",
+          "indication": "Consider in select patients with suspected metastases."
+        },
+        {
+          "test": "Chest X-ray",
+          "rationale": "Initial screening for pulmonary metastases.",
+          "indication": "Can be considered as initial imaging; if abnormal, proceed to chest CT."
+        },
+        {
+          "test": "Pelvic ultrasound",
+          "rationale": "May be used if uterine size is unclear on exam.",
+          "indication": "Non-fertility-sparing treatment planning."
+        }
+      ],
+      "biomarkers": [
+        {
+          "test": "Immunohistochemistry (IHC) for mismatch repair (MMR) proteins (MLH1, PMS2, MSH2, MSH6) or microsatellite instability (MSI) testing",
+          "rationale": "Identifies dMMR/MSI-H tumors, which have prognostic implications and predict response to immunotherapy.",
+          "when": "Recommended at diagnosis for all endometrial carcinomas.",
+          "mandatory": "Strongly recommended to complement morphologic assessment."
+        },
+        {
+          "test": "POLE mutation analysis",
+          "rationale": "Identifies POLE-mutated tumors, which are often high-grade but have an excellent prognosis.",
+          "when": "Recommended at diagnosis as part of molecular classification.",
+          "mandatory": "Part of recommended molecular evaluation."
+        },
+        {
+          "test": "p53 immunohistochemistry",
+          "rationale": "Surrogate for TP53 mutation, identifying the most aggressive molecular subtype (p53 aberrant).",
+          "when": "Recommended for all endometrial carcinomas, especially high-grade ones.",
+          "mandatory": "Part of recommended molecular evaluation."
+        },
+        {
+          "test": "HER2 IHC (with reflex to FISH if equivocal)",
+          "rationale": "Required for p53-aberrant carcinomas (e.g., serous) and all metastatic/recurrent disease to guide trastuzumab-based therapy.",
+          "when": "For p53-aberrant tumors and all metastatic/recurrent disease.",
+          "mandatory": "Yes for specified histologies and stages."
+        },
+        {
+          "test": "NTRK gene fusion testing",
+          "rationale": "Identifies tumors with NTRK fusions, which respond to TRK inhibitors.",
+          "when": "Consider for metastatic or recurrent endometrial carcinoma.",
+          "mandatory": "No, but strongly encouraged."
+        },
+        {
+          "test": "RET gene fusion testing",
+          "rationale": "Identifies tumors with RET fusions, which respond to RET inhibitors.",
+          "when": "Consider for metastatic or recurrent endometrial carcinoma.",
+          "mandatory": "No, but strongly encouraged."
+        },
+        {
+          "test": "Tumor mutational burden (TMB) testing",
+          "rationale": "High TMB (\u226510 mut/Mb) identifies tumors likely to respond to pembrolizumab.",
+          "when": "Consider for recurrent or metastatic disease.",
+          "mandatory": "No, but recommended if not previously done."
+        },
+        {
+          "test": "Estrogen receptor (ER) and progesterone receptor (PR) testing",
+          "rationale": "May guide hormonal therapy options in recurrent/metastatic disease.",
+          "when": "Recommended in stage III, IV, and recurrent disease.",
+          "mandatory": "Yes for advanced and recurrent disease."
+        }
+      ],
+      "do_not_miss": [
+        "Molecular testing (MMR/MSI, POLE, p53) for all endometrial carcinomas",
+        "Expert pathology review for accurate histologic subtyping",
+        "Chest/abdomen/pelvis CT for high-grade histologies",
+        "Pelvic MRI for fertility-sparing treatment planning"
+      ],
+      "avoid": [
+        "Routine whole abdominal RT as adjuvant therapy (ineffective and toxic)",
+        "Vaginal cytology for surveillance (low yield in asymptomatic patients)",
+        "Intraperitoneal morcellation of uterine specimens (increases risk of spillage)"
+      ]
+    },
+    "staging": {
+      "system": "All staging in this guideline is based on the 2009 FIGO surgical staging system and the AJCC Cancer Staging Manual, 8th Edition.",
+      "t_stages": [
+        {
+          "stage": "TX",
+          "description": "Primary tumor cannot be assessed."
+        },
+        {
+          "stage": "T0",
+          "description": "No evidence of primary tumor."
+        },
+        {
+          "stage": "T1",
+          "description": "Tumor confined to the corpus uteri, including endocervical glandular involvement."
+        },
+        {
+          "stage": "T1a",
+          "description": "Tumor limited to the endometrium or invading less than half the myometrium."
+        },
+        {
+          "stage": "T1b",
+          "description": "Tumor invading one half or more of the myometrium."
+        },
+        {
+          "stage": "T2",
+          "description": "Tumor invading the stromal connective tissue of the cervix but not extending beyond the uterus. Does NOT include endocervical glandular involvement."
+        },
+        {
+          "stage": "T3",
+          "description": "Tumor involving serosa, adnexa, vagina, or parametrium."
+        },
+        {
+          "stage": "T3a",
+          "description": "Tumor involving the serosa and/or adnexa (direct extension or metastasis)."
+        },
+        {
+          "stage": "T3b",
+          "description": "Vaginal involvement (direct extension or metastasis) or parametrial involvement."
+        },
+        {
+          "stage": "T4",
+          "description": "Tumor invading the bladder mucosa and/or bowel mucosa (bullous edema is not sufficient to classify a tumor as T4)."
+        }
+      ],
+      "n_stages": [
+        {
+          "stage": "NX",
+          "description": "Regional lymph nodes cannot be assessed."
+        },
+        {
+          "stage": "N0",
+          "description": "No regional lymph node metastasis."
+        },
+        {
+          "stage": "N0(i+)",
+          "description": "Isolated tumor cells in regional lymph node(s) no greater than 0.2 mm."
+        },
+        {
+          "stage": "N1",
+          "description": "Regional lymph node metastasis to pelvic lymph nodes."
+        },
+        {
+          "stage": "N1mi",
+          "description": "Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to pelvic lymph nodes."
+        },
+        {
+          "stage": "N1a",
+          "description": "Regional lymph node metastasis (greater than 2.0 mm in diameter) to pelvic lymph nodes."
+        },
+        {
+          "stage": "N2",
+          "description": "Regional lymph node metastasis to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+        },
+        {
+          "stage": "N2mi",
+          "description": "Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+        },
+        {
+          "stage": "N2a",
+          "description": "Regional lymph node metastasis (greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+        }
+      ],
+      "m_stages": [
+        {
+          "stage": "M0",
+          "description": "No distant metastasis."
+        },
+        {
+          "stage": "M1",
+          "description": "Distant metastasis (includes metastasis to inguinal lymph nodes, intraperitoneal disease, lung, liver, or bone). It excludes metastasis to pelvic or para-aortic lymph nodes, vagina, uterine serosa, or adnexa."
+        }
+      ],
+      "stage_groups": [
+        {
+          "group": "Stage I",
+          "criteria": "T1, N0, M0",
+          "clinical_meaning": "Tumor confined to the corpus uteri.",
+          "five_yr_survival": "Not explicitly stated in the source text for this group alone; varies by histology and grade.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage IA",
+          "criteria": "T1a, N0, M0",
+          "clinical_meaning": "Tumor limited to the endometrium or invading less than half the myometrium.",
+          "five_yr_survival": "Excellent for low-grade endometrioid histology.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage IB",
+          "criteria": "T1b, N0, M0",
+          "clinical_meaning": "Tumor invading one half or more of the myometrium.",
+          "five_yr_survival": "Varies by grade; worse for high-grade histologies.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage II",
+          "criteria": "T2, N0, M0",
+          "clinical_meaning": "Tumor invading cervical stroma but not beyond uterus.",
+          "five_yr_survival": "Intermediate; influenced by grade and other factors.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage III",
+          "criteria": "T3, N0, M0",
+          "clinical_meaning": "Tumor involving serosa, adnexa, vagina, or parametrium.",
+          "five_yr_survival": "Poor for high-grade histologies; better for low-grade endometrioid.",
+          "treatment_intent": "Curative with multimodality therapy."
+        },
+        {
+          "group": "Stage IIIA",
+          "criteria": "T3a, N0, M0",
+          "clinical_meaning": "Tumor involving serosa and/or adnexa.",
+          "five_yr_survival": "Variable.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage IIIB",
+          "criteria": "T3b, N0, M0",
+          "clinical_meaning": "Vaginal or parametrial involvement.",
+          "five_yr_survival": "Variable.",
+          "treatment_intent": "Curative."
+        },
+        {
+          "group": "Stage IIIC1",
+          "criteria": "T1-T3, N1/N1mi/N1a, M0",
+          "clinical_meaning": "Regional lymph node metastasis to pelvic lymph nodes.",
+          "five_yr_survival": "Significantly worse than node-negative disease.",
+          "treatment_intent": "Curative with systemic therapy \u00b1 radiation."
+        },
+        {
+          "group": "Stage IIIC2",
+          "criteria": "T1-T3, N2/N2mi/N2a, M0",
+          "clinical_meaning": "Regional lymph node metastasis to para-aortic lymph nodes, with or without positive pelvic nodes.",
+          "five_yr_survival": "Worse than IIIC1.",
+          "treatment_intent": "Curative with systemic therapy \u00b1 radiation."
+        },
+        {
+          "group": "Stage IVA",
+          "criteria": "T4, Any N, M0",
+          "clinical_meaning": "Tumor invading bladder and/or bowel mucosa.",
+          "five_yr_survival": "Poor.",
+          "treatment_intent": "Curative with multimodality therapy, if resectable."
+        },
+        {
+          "group": "Stage IVB",
+          "criteria": "Any T, Any N, M1",
+          "clinical_meaning": "Distant metastasis.",
+          "five_yr_survival": "Very poor for most histologies.",
+          "treatment_intent": "Palliative; systemic therapy."
+        }
+      ],
+      "staging_pearls": [
+        "Positive peritoneal cytology does not affect the FIGO stage but is an adverse risk factor.",
+        "Isolated tumor cells (ITCs) in lymph nodes are staged N0(i+) and do not upstage patients, but may influence adjuvant therapy discussions.",
+        "The presence of sarcomatous overgrowth (SO) in adenosarcoma is a poor prognostic factor and influences stage-grouping for sarcoma staging.",
+        "Molecular subtype (POLE-mutated, MSI-H, p53-aberrant, NSMP) provides additional prognostic information beyond anatomic stage.",
+        "For uterine sarcomas, a separate staging system (AJCC 8th Edition) is used, which is based on tumor size and extent rather than depth of invasion."
+      ]
+    },
+    "management_principles": {
+      "overview": "The management of uterine neoplasms is based on a multidisciplinary approach, integrating surgery, radiation therapy (RT), systemic therapy, and molecular profiling. Treatment intent varies from curative for localized disease to palliative for advanced or recurrent disease. The guidelines emphasize the importance of expert pathology review, molecular analysis (including POLE mutations, MMR/MSI, p53, HER2, ER/PR, NTRK, RET, and TMB testing), and individualized treatment based on histologic type, stage, and risk factors. Surgical staging is recommended for most patients, with minimally invasive surgery preferred when feasible. Adjuvant therapy decisions are guided by pathologic findings, and molecular subtypes may influence therapy escalation or de-escalation. Clinical trial enrollment is strongly encouraged.",
+      "by_intent": [
+        {
+          "intent": "Curative",
+          "patient_group": "Patients with localized or regionally confined disease suitable for surgery with or without adjuvant therapy.",
+          "approach": "Primary treatment typically involves surgical resection (TH/BSO with staging) followed by risk-adapted adjuvant therapy (RT, systemic therapy, or observation). For medically inoperable patients, definitive RT with or without brachytherapy is an alternative. Fertility-sparing options are considered for select patients with low-risk disease."
+        },
+        {
+          "intent": "Palliative",
+          "patient_group": "Patients with advanced, recurrent, or metastatic disease not amenable to curative surgery.",
+          "approach": "Systemic therapy (chemotherapy, immunotherapy, targeted therapy, or hormonal therapy) is the mainstay, often combined with RT for symptom control. Local therapies like SBRT or ablation may be used for oligometastatic disease. Best supportive care is emphasized for patients with poor performance status."
+        }
+      ],
+      "mdt_requirements": "Multidisciplinary expertise is recommended for all patients, involving gynecologic oncologists for surgical management, pathologists for histologic and molecular analysis, radiologists for imaging, radiation oncologists for RT planning, and medical oncologists for systemic therapy. For uterine sarcomas, referral to a center specializing in mesenchymal tumors is advised.",
+      "performance_status_guide": "Performance status is considered in surgical eligibility and treatment intensity. Patients with good performance status (e.g., ECOG 0-1) are candidates for aggressive multimodality therapy, while those with poor performance status may receive reduced-intensity or palliative approaches. Detailed guidelines are referenced in the NCCN Guidelines for Older Adult Oncology for age-related considerations."
+    },
+    "management_pathways": [
+      {
+        "pathway_id": "endometrioid_limited_to_uterus",
+        "title": "Endometrial Carcinoma with Disease Limited to the Uterus (Pure Endometrioid Histology)",
+        "branching_basis": [
+          "Histologic grade",
+          "Depth of myometrial invasion",
+          "LVSI",
+          "Age",
+          "Molecular profile"
+        ],
+        "nodes": [
+          {
+            "criteria": "Medically operable patients with clinically uterine-confined disease.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging",
+                "preference": "Preferred",
+                "recommendation": "Minimally invasive surgery is preferred when feasible. Includes peritoneal lavage, lymph node assessment (SLN mapping preferred), and omental biopsy for high-risk histologies.",
+                "linked_regimen_ids": []
+              },
+              {
+                "type": "radiation",
+                "label": "Adjuvant RT based on stage and risk factors",
+                "preference": "Risk-adapted",
+                "recommendation": "For Stage IA G1-2: observation or vaginal brachytherapy if LVSI or age \u226560y. For Stage IA G3: vaginal brachytherapy preferred. For Stage IB: vaginal brachytherapy preferred, with consideration of EBRT for higher risk factors. For Stage II: EBRT preferred with or without brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adjuvant therapy is based on surgical-pathologic findings: Stage I (observation or vaginal brachytherapy), Stage II (EBRT \u00b1 brachytherapy \u00b1 systemic therapy), Stages III-IV (systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy). Molecular testing may influence decisions, e.g., POLE-mutated tumors may de-escalate therapy."
+            }
+          },
+          {
+            "criteria": "Medically inoperable patients.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "Definitive RT with or without brachytherapy",
+                "preference": "Preferred",
+                "recommendation": "EBRT to pelvis with or without para-aortic RT, combined with brachytherapy. For uterine-limited disease, brachytherapy alone may be considered for selected cases.",
+                "linked_regimen_ids": []
+              },
+              {
+                "type": "systemic_therapy",
+                "label": "Hormonal therapy for select patients",
+                "preference": "Useful in certain circumstances",
+                "recommendation": "Progestin-based therapy (e.g., levonorgestrel IUD, megestrol, medroxyprogesterone) for low-grade endometrioid histology with ER/PR positivity.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "N/A - primary definitive treatment."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_cervical_involvement",
+        "title": "Endometrial Carcinoma with Suspected or Gross Cervical Involvement",
+        "branching_basis": [
+          "Cervical biopsy results",
+          "Resectability",
+          "Performance status"
+        ],
+        "nodes": [
+          {
+            "criteria": "Negative cervical biopsy or MRI.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH or radical hysterectomy with BSO and surgical staging",
+                "preference": "Preferred",
+                "recommendation": "Radical hysterectomy may be performed if needed for negative margins.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Treat as disease limited to uterus with adjuvant therapy based on final staging (ENDO-4, ENDO-5, ENDO-6)."
+            }
+          },
+          {
+            "criteria": "Positive cervical stromal involvement.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging",
+                "preference": "Preferred for operable patients",
+                "recommendation": "Alternative: EBRT \u00b1 brachytherapy followed by TH/BSO 4\u201312 weeks post-RT.",
+                "linked_regimen_ids": []
+              },
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "For inoperable patients",
+                "recommendation": "Definitive RT with re-evaluation for surgery if rendered operable.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "For surgically staged Stage II: EBRT preferred with or without brachytherapy and \u00b1 systemic therapy (category 2B)."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_extrauterine_disease",
+        "title": "Endometrial Carcinoma with Suspected Extrauterine Disease",
+        "branching_basis": [
+          "Imaging findings",
+          "Resectability",
+          "Histology"
+        ],
+        "nodes": [
+          {
+            "criteria": "No evidence of extrauterine disease on imaging.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging",
+                "preference": "Preferred",
+                "recommendation": "Treat as disease limited to uterus.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Based on surgical staging."
+            }
+          },
+          {
+            "criteria": "Abdominal/pelvic-confined disease.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging/debulking",
+                "preference": "Preferred",
+                "recommendation": "Goal: no measurable residual disease. Preoperative systemic therapy can be considered.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adjuvant therapy for Stage III\u2013IV: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy."
+            }
+          },
+          {
+            "criteria": "Distant metastases.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 EBRT \u00b1 SBRT \u00b1 TH/BSO",
+                "preference": "Preferred",
+                "recommendation": "Consider ablation for 1\u20135 metastatic lesions if primary cancer controlled.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Palliative intent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_adjuvant_staged",
+        "title": "Adjuvant Treatment for Surgically Staged Endometrial Carcinoma (Endometrioid Histology)",
+        "branching_basis": [
+          "FIGO stage",
+          "Histologic grade",
+          "LVSI",
+          "Age",
+          "Molecular profile"
+        ],
+        "nodes": [
+          {
+            "criteria": "Stage I (IA, IB).",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "Observation or vaginal brachytherapy based on risk factors",
+                "preference": "Risk-adapted",
+                "recommendation": "Stage IA G1-2: observation preferred or vaginal brachytherapy if LVSI and/or age \u226560y. Stage IA G3: vaginal brachytherapy preferred or observation if no myoinvasion. Stage IB G1: vaginal brachytherapy preferred or observation if age <60y and no LVSI. Stage IB G2: vaginal brachytherapy preferred or EBRT if age \u226560y and/or LVSI. Stage IB G3: RT \u00b1 systemic therapy (category 2B).",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "EBRT initiation when vaginal cuff healed, preferably \u226412 weeks post-surgery."
+            }
+          },
+          {
+            "criteria": "Stage II.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "EBRT preferred and/or vaginal brachytherapy \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Systemic therapy is category 2B. Consider additional imaging if not previously done.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adverse risk factors (stromal invasion, grade, LVSI, fundal factors) influence therapy choice."
+            }
+          },
+          {
+            "criteria": "Stage III\u2013IV.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy",
+                "preference": "Preferred",
+                "recommendation": "Preferred regimens: Carboplatin/Paclitaxel + Pembrolizumab (category 1 for stage III-IV, except carcinosarcoma), Carboplatin/Paclitaxel + Dostarlimab (category 1), Carboplatin/Paclitaxel + Durvalumab (for dMMR only, category 1), Carboplatin/Paclitaxel + Trastuzumab (for HER2-positive), Carboplatin/Paclitaxel + Bevacizumab, Carboplatin/Paclitaxel.",
+                "linked_regimen_ids": [
+                  "carboplatin_paclitaxel_pembrolizumab",
+                  "carboplatin_paclitaxel_dostarlimab",
+                  "carboplatin_paclitaxel_durvalumab",
+                  "carboplatin_paclitaxel_trastuzumab",
+                  "carboplatin_paclitaxel_bevacizumab",
+                  "carboplatin_paclitaxel"
+                ]
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Systemic therapy is foundation; add RT for locoregional control."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_incompletely_staged",
+        "title": "Management After Simple/Total Hysterectomy and BSO Without Surgical Staging",
+        "branching_basis": [
+          "Intraoperative findings",
+          "Imaging results",
+          "Pathologic risk factors"
+        ],
+        "nodes": [
+          {
+            "criteria": "Stage IA, G1-2 with myometrial invasion and no LVSI.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "Observation or adjuvant treatment based on imaging",
+                "preference": "Observation if imaging negative",
+                "recommendation": "If imaging negative, consider observation. If suspicious/positive, refer to surgical staging or adjuvant treatment per stage.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Observation may be sufficient."
+            }
+          },
+          {
+            "criteria": "Stage IA G3 no LVSI, Stage IB any grade, or any myometrial invasive carcinoma with LVSI.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "Consider surgical restaging or RT",
+                "preference": "RT if not restaged",
+                "recommendation": "If imaging negative: consider surgical restaging. If not restaged: EBRT and/or vaginal brachytherapy \u00b1 systemic therapy (category 2B).",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adjuvant therapy based on risk factors if not surgically staged."
+            }
+          },
+          {
+            "criteria": "Imaging suspicious/positive for extrauterine disease.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical resection if resectable",
+                "preference": "Preferred",
+                "recommendation": "If not suitable for surgery, consider interventional radiologic biopsy and adjuvant treatment per stage.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Treat based on disease extent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_fertility_sparing",
+        "title": "Fertility-Sparing Options for Endometrioid Endometrial Carcinoma",
+        "branching_basis": [
+          "Grade",
+          "Stage",
+          "Response to therapy",
+          "Fertility goals"
+        ],
+        "nodes": [
+          {
+            "criteria": "All criteria met: Grade 1 endometrioid adenocarcinoma on hysteroscopy/D&C, disease limited to endometrium on MRI, no metastatic disease, no contraindications.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Continuous progestin-based therapy",
+                "preference": "Preferred",
+                "recommendation": "Levonorgestrel IUD (preferred), megestrol, medroxyprogesterone. Consider hysteroscopic tumor resection. Dual-progestin therapy may be considered.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Monitoring with endometrial evaluation every 3\u20136 months. Complete response: encourage conception. Persistent disease: consider TH/BSO after childbearing or progression."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_surveillance",
+        "title": "Surveillance for Endometrial Carcinoma",
+        "branching_basis": [
+          "Initial stage",
+          "Histology",
+          "Risk factors"
+        ],
+        "nodes": [
+          {
+            "criteria": "Post-treatment surveillance for non-fertility-sparing treatment.",
+            "options": [
+              {
+                "type": "surveillance",
+                "label": "Clinical assessment and imaging",
+                "preference": "Standard",
+                "recommendation": "H&P every 3\u20136 mo for 2\u20133 y, then every 6\u201312 mo up to year 5, then annually. CA-125 if initially elevated or serous histology. Imaging as indicated based on symptoms/exam. Consider survivorship care.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "endometrioid_locoregional_recurrence",
+        "title": "Locoregional Recurrence of Endometrial Carcinoma",
+        "branching_basis": [
+          "Prior RT",
+          "Disease site",
+          "Resectability"
+        ],
+        "nodes": [
+          {
+            "criteria": "No prior RT to recurrence site or prior vaginal brachytherapy only.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Or surgical exploration + resection \u00b1 IORT.",
+                "linked_regimen_ids": []
+              },
+              {
+                "type": "surgery",
+                "label": "Surgical resection",
+                "preference": "Alternative",
+                "recommendation": "Consider for vaginal/pelvic recurrence confined to vagina or paravaginal soft tissue.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Additional therapy based on surgical pathology."
+            }
+          },
+          {
+            "criteria": "Prior EBRT to recurrence site.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical exploration + resection \u00b1 IORT \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Or systemic therapy \u00b1 palliative EBRT.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Individualized based on prior treatment and disease extent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "serous_carcinoma",
+        "title": "Serous Carcinoma of the Endometrium",
+        "branching_basis": [
+          "Stage",
+          "Residual disease",
+          "Molecular profile (HER2, p53)"
+        ],
+        "nodes": [
+          {
+            "criteria": "Suitable for primary surgery.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging and maximal tumor debulking",
+                "preference": "Preferred",
+                "recommendation": "For noninvasive stage IA: observe or systemic therapy \u00b1 vaginal brachytherapy or vaginal brachytherapy. For invasive stage IA, IB, II: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy. For stage III, IV: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Washings can help determine treatment planning. HER2 testing recommended for advanced/metastatic disease."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Re-evaluate for surgical resection based on response.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Definitive treatment intent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "clear_cell_carcinoma",
+        "title": "Clear Cell Carcinoma of the Endometrium",
+        "branching_basis": [
+          "Stage",
+          "Residual disease",
+          "Molecular profile"
+        ],
+        "nodes": [
+          {
+            "criteria": "Suitable for primary surgery.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging and maximal tumor debulking",
+                "preference": "Preferred",
+                "recommendation": "Similar to serous carcinoma: for noninvasive stage IA: observe or systemic therapy \u00b1 vaginal brachytherapy or vaginal brachytherapy. For invasive stage IA, IB, II: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy. For stage III, IV: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Washings can help determine treatment planning. Principles of molecular analysis apply."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Re-evaluate for surgical resection based on response.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Definitive treatment intent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "undifferentiated_dedifferentiated_carcinoma",
+        "title": "Undifferentiated/Dedifferentiated Carcinoma of the Endometrium",
+        "branching_basis": [
+          "Stage",
+          "Resectability"
+        ],
+        "nodes": [
+          {
+            "criteria": "Suitable for primary surgery.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging and maximal tumor debulking",
+                "preference": "Preferred",
+                "recommendation": "Additional treatment: systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Aggressive histology; systemic therapy integral."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 EBRT \u00b1 vaginal brachytherapy",
+                "preference": "Preferred",
+                "recommendation": "Re-evaluate for surgical resection and/or RT based on response.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Palliative or neoadjuvant intent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "carcinosarcoma",
+        "title": "Carcinosarcoma of the Endometrium",
+        "branching_basis": [
+          "Stage",
+          "Resectability",
+          "HER2 status"
+        ],
+        "nodes": [
+          {
+            "criteria": "Suitable for primary surgery.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH/BSO with surgical staging and maximal tumor debulking",
+                "preference": "Preferred",
+                "recommendation": "For stage I: systemic therapy + vaginal brachytherapy. For stage II, III, IV: systemic therapy + vaginal brachytherapy \u00b1 EBRT. Consider EBRT if high-grade epithelial components and sarcoma dominant.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Chemotherapy initiation within 3\u20136 weeks postoperatively; vaginal brachytherapy can interdigitate with chemotherapy starting 6 weeks postoperatively. HER2 testing recommended for advanced/metastatic disease."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery; uterine-confined \u00b1 pelvic nodal involvement.",
+            "options": [
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Re-evaluate for surgical resection based on response.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Definitive treatment intent."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery; other metastatic disease.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 EBRT or best supportive care",
+                "preference": "Preferred",
+                "recommendation": "Palliative intent.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Palliative care."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "uterine_sarcoma_diagnosed_post_surgery",
+        "title": "Uterine Sarcoma Diagnosed After TH/SCH \u00b1 BSO",
+        "branching_basis": [
+          "Histologic type",
+          "Residual disease",
+          "Stage"
+        ],
+        "nodes": [
+          {
+            "criteria": "Tumor initially fragmented or residual cervix/tube/ovary.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Consider re-exploration/reresection or completion salpingo-oophorectomy",
+                "preference": "Preferred for low-grade ESS or adenosarcoma",
+                "recommendation": "Individualized based on histology and residual disease. For low-grade ESS or adenosarcoma (ER-positive), consider systemic endocrine therapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Expert pathology review and molecular testing recommended. ER/PR testing for LMS, ESS, adenosarcoma to guide ovarian management."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "uterine_sarcoma_diagnosed_biopsy",
+        "title": "Uterine Sarcoma Diagnosed by Biopsy or Myomectomy",
+        "branching_basis": [
+          "Disease extent",
+          "Resectability",
+          "Histologic subtype"
+        ],
+        "nodes": [
+          {
+            "criteria": "Disease limited to uterus.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "TH with en bloc resection \u00b1 BSO",
+                "preference": "Preferred",
+                "recommendation": "Additional surgical resection for intraoperative extrauterine disease. Oophorectomy individualized; favor BSO if ER/PR positive. Morcellation avoided.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adjuvant therapy based on histologic subtype and stage (UTSARC-2, UTSARC-3)."
+            }
+          },
+          {
+            "criteria": "Known or suspected extrauterine disease.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical resection based on symptoms, extent, resectability",
+                "preference": "Preferred",
+                "recommendation": "Resection of metastatic focus. If no surgical resection: systemic therapy and/or palliative EBRT \u00b1 brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Individualized based on resectability."
+            }
+          },
+          {
+            "criteria": "Not suitable for primary surgery.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy and/or palliative EBRT \u00b1 brachytherapy",
+                "preference": "Preferred",
+                "recommendation": "Clinical trial enrollment strongly recommended.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Palliative intent."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "low_grade_ess_adenosarcoma",
+        "title": "Low-Grade Endometrial Stromal Sarcoma (ESS) or Adenosarcoma Without Sarcomatous Overgrowth",
+        "branching_basis": [
+          "Stage",
+          "Ovarian status",
+          "ER/PR status"
+        ],
+        "nodes": [
+          {
+            "criteria": "Stage I.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "BSO (preferred) or observe if prior BSO",
+                "preference": "Preferred",
+                "recommendation": "Oophorectomy individualized for reproductive age; favor BSO if ER/PR positive.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Observation after BSO."
+            }
+          },
+          {
+            "criteria": "Stage II, III, IVA, IVB.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "BSO \u00b1 systemic endocrine therapy \u00b1 EBRT",
+                "preference": "Preferred",
+                "recommendation": "Anti-estrogen hormone therapy: aromatase inhibitors preferred, fulvestrant, megestrol acetate (category 2B), medroxyprogesterone acetate (category 2B). EBRT palliative for stage IVB.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Endocrine therapy for ER/PR-positive tumors; small tumor volume or indolent growth pace preferred."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "adenosarcoma_with_so",
+        "title": "Adenosarcoma With Sarcomatous Overgrowth",
+        "branching_basis": [
+          "Stage",
+          "Residual disease"
+        ],
+        "nodes": [
+          {
+            "criteria": "Stage I.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "BSO or observe if prior BSO",
+                "preference": "Preferred",
+                "recommendation": "Observation post-BSO.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "N/A"
+            }
+          },
+          {
+            "criteria": "Stage II, III, IVA, IVB.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "BSO \u00b1 systemic therapy \u00b1 EBRT",
+                "preference": "Preferred",
+                "recommendation": "Systemic therapy recommended for residual measurable disease. EBRT palliative for stage IVB.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Aggressive histology; systemic therapy considered."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "high_grade_ess_uus_lms_pecoma",
+        "title": "High-Grade ESS, Undifferentiated Uterine Sarcoma, Leiomyosarcoma, and Other Sarcomas (e.g., PEComa)",
+        "branching_basis": [
+          "Stage",
+          "Grade",
+          "Molecular profile (NTRK, ALK, TMB, BRCA)"
+        ],
+        "nodes": [
+          {
+            "criteria": "Stage I.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Observe or consider observation if completely resected with negative margins",
+                "preference": "Preferred",
+                "recommendation": "Observation only option; adjuvant systemic therapy and/or EBRT may be considered for high-risk features.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Limited data; observation standard for completely resected stage I."
+            }
+          },
+          {
+            "criteria": "Stage II, III.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Consider systemic therapy and/or EBRT",
+                "preference": "Useful in certain circumstances",
+                "recommendation": "Observation may be considered for completely resected tumors with negative margins.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": true,
+              "summary": "Adjuvant therapy individualized based on risk factors."
+            }
+          },
+          {
+            "criteria": "Stage IVA and/or IVB.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 EBRT \u00b1 palliative EBRT",
+                "preference": "Preferred",
+                "recommendation": "Stage IVB: systemic therapy \u00b1 palliative EBRT. Biomarker-directed therapy options: NTRK fusion-positive tumors (larotrectinib, entrectinib, repotrectinib), ALK translocation (crizotinib, ceritinib, brigatinib, lorlatinib, alectinib), RET fusion-positive (selpercatinib), PEComa (albumin-bound sirolimus), TMB-H (pembrolizumab, ipilimumab + nivolumab), BRCA-altered LMS (PARP inhibitors), CDK4 amplification (palbociclib).",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Metastatic setting; systemic therapy cornerstone."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "uterine_sarcoma_surveillance",
+        "title": "Surveillance for Uterine Sarcoma",
+        "branching_basis": [
+          "Histology",
+          "Grade",
+          "Initial stage"
+        ],
+        "nodes": [
+          {
+            "criteria": "Post-treatment surveillance.",
+            "options": [
+              {
+                "type": "surveillance",
+                "label": "Clinical assessment and imaging",
+                "preference": "Standard",
+                "recommendation": "H&P every 3\u20134 mo (consider every 6 months for low-grade, early-stage) for 2\u20133 y, then every 6\u201312 mo. Imaging: chest/abdomen/pelvis CT every 3\u20136 mo for first 3 y, then every 6\u201312 mo for next 2 y, then annually or biannually for additional 5 years depending on histology/grade/stage. Optional abdomen/pelvis MRI and chest CT without contrast. FDG-PET/CT if metastasis suspected.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Patient education on recurrence symptoms, lifestyle, survivorship care."
+            }
+          }
+        ]
+      },
+      {
+        "pathway_id": "uterine_sarcoma_recurrence",
+        "title": "Recurrence of Uterine Sarcoma",
+        "branching_basis": [
+          "Site of recurrence",
+          "Prior RT",
+          "Resectability",
+          "Histology"
+        ],
+        "nodes": [
+          {
+            "criteria": "Isolated metastases; resectable.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical resection or other local ablative therapy",
+                "preference": "Preferred",
+                "recommendation": "Consider preoperative or postoperative systemic therapy and/or EBRT/SBRT.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Metastasectomy historical standard for oligometastatic disease; choice depends on performance status, patient preference, lesion accessibility."
+            }
+          },
+          {
+            "criteria": "Isolated metastases; unresectable.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy and/or local therapy (EBRT/SBRT or local ablative therapy)",
+                "preference": "Preferred",
+                "recommendation": "If response, consider surgery \u00b1 EBRT/SBRT.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Individualized based on response."
+            }
+          },
+          {
+            "criteria": "Disseminated disease.",
+            "options": [
+              {
+                "type": "systemic_therapy",
+                "label": "Systemic therapy \u00b1 palliative EBRT or best supportive care",
+                "preference": "Preferred",
+                "recommendation": "Clinical trial enrollment encouraged.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Palliative care."
+            }
+          },
+          {
+            "criteria": "Local recurrence; no prior RT.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical exploration + resection \u00b1 IORT",
+                "preference": "Preferred",
+                "recommendation": "Consider preoperative EBRT \u00b1 systemic therapy. For residual disease: EBRT \u00b1 brachytherapy \u00b1 systemic therapy.",
+                "linked_regimen_ids": []
+              },
+              {
+                "type": "radiation",
+                "label": "EBRT \u00b1 brachytherapy \u00b1 systemic therapy",
+                "preference": "Alternative",
+                "recommendation": "Primary RT option.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Adjuvant systemic therapy may be added."
+            }
+          },
+          {
+            "criteria": "Local recurrence; prior RT.",
+            "options": [
+              {
+                "type": "surgery",
+                "label": "Surgical exploration + resection \u00b1 IORT \u00b1 systemic therapy",
+                "preference": "Preferred",
+                "recommendation": "Or systemic therapy or selected reirradiation with EBRT and/or brachytherapy.",
+                "linked_regimen_ids": []
+              }
+            ],
+            "adjuvant_logic": {
+              "applies": false,
+              "summary": "Reirradiation only in limited disease for palliation."
+            }
+          }
+        ]
+      }
+    ],
+    "pretreatment_evaluation": [
+      {
+        "category": "Initial Evaluation",
+        "items": [
+          {
+            "text": "History and physical examination (including pelvic exam).",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Complete blood count, liver function tests, renal function tests, chemistry profile.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Consider CA-125 for suspected extrauterine disease or high-risk histologies (serous, clear cell, carcinosarcoma).",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Expert pathology review with additional endometrial biopsy as clinically indicated.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Imaging: Consider chest imaging (chest x-ray); if abnormal, chest CT without contrast. Consider pelvis MRI to assess local disease extent. For high-grade carcinoma, consider chest/abdomen/pelvis CT (preferred). Consider FDG-PET/CT if metastasis suspected.",
+            "recommendation": "Category 2A. See Principles of Imaging (ENDO-B, UTSARC-B)."
+          },
+          {
+            "text": "Recommend molecular evaluation of tumor and evaluation for inherited cancer risk (POLE mutations, MMR/MSI, p53, HER2, ER/PR, NTRK, RET, TMB testing).",
+            "recommendation": "Category 2A. See Principles of Molecular Analysis (ENDO-A, UTSARC-A)."
+          },
+          {
+            "text": "Germline and/or multigene panel testing for Lynch syndrome and other hereditary syndromes.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Assess for distress using NCCN Distress Thermometer and Problem List.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "For uterine sarcomas: Consider referral to center of expertise for malignant mesenchymal tumors.",
+            "recommendation": "Category 2A."
+          }
+        ]
+      },
+      {
+        "category": "Pathology",
+        "items": [
+          {
+            "text": "Histologic type and grade determination (including for adenosarcoma: grade, sarcomatous overgrowth).",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Assessment of myometrial invasion (depth in mm/myometrial thickness), cervical stromal involvement, LVSI (substantial LVSI defined as \u22655 involved vessels).",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Evaluation of peritoneal/ascitic fluid cytology.",
+            "recommendation": "Category 2A. Cytology does not affect FIGO staging but is an adverse risk factor."
+          },
+          {
+            "text": "Lymph node assessment: SLN ultrastaging for detection of low-volume metastasis; isolated tumor cells staged as N0(i+).",
+            "recommendation": "Category 2A. SLN mapping preferred for endometrial carcinoma."
+          },
+          {
+            "text": "For uterine sarcomas: Expert gynecologic pathology review recommended; molecular analysis for classification (e.g., JAZF1 fusions for low-grade ESS, YWHAE::NUTM2 for high-grade ESS, PLAG1 for myxoid LMS).",
+            "recommendation": "Category 2A."
+          }
+        ]
+      },
+      {
+        "category": "Functional Assessment",
+        "items": [
+          {
+            "text": "Performance status evaluation for surgical and treatment eligibility.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Assessment of comorbidities and risk factors (e.g., obesity, diabetes, Lynch syndrome history).",
+            "recommendation": "Category 2A."
+          }
+        ]
+      },
+      {
+        "category": "Consultation",
+        "items": [
+          {
+            "text": "Multidisciplinary team consultation: gynecologic oncology, medical oncology, radiation oncology, pathology, radiology.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Fertility expert consultation for fertility-sparing options.",
+            "recommendation": "Category 2A."
+          },
+          {
+            "text": "Genetic counseling for suspected germline mutations.",
+            "recommendation": "Category 2A."
+          }
+        ]
+      }
+    ],
+    "surgery": {
+      "role": "Primary treatment for medically operable patients with uterine neoplasms. Surgical staging provides critical prognostic information to guide adjuvant therapy.",
+      "principles": [
+        "TH/BSO with surgical staging is the standard for apparent uterine-confined disease unless fertility-sparing is desired.",
+        "Minimally invasive surgery (laparoscopic, robotic) is preferred when technically feasible due to lower morbidity without compromise in oncologic outcome.",
+        "Endometrial carcinoma should be removed en bloc; intraperitoneal morcellation or fragmentation should be avoided.",
+        "Lymph node assessment includes SLN mapping (preferred) or pelvic \u00b1 para-aortic lymphadenectomy. SLN algorithm should be adhered to for accurate staging.",
+        "For stage II disease, radical hysterectomy should only be performed if needed to obtain negative margins.",
+        "Ovarian preservation may be safe in select premenopausal patients with stage IA G1 endometrioid cancer, normal ovaries, no family history of ovarian cancer or Lynch syndrome, and absence of p53 abnormality, MMR deficiency, LVSI, and positive cytology. Salpingectomy recommended.",
+        "For uterine sarcomas, expert pathology review is critical; morcellation contraindicated. Lymphadenectomy controversial and not routinely recommended unless clinical suspicion.",
+        "Oophorectomy individualized for reproductive-age patients with uterine sarcomas; favor BSO if ER/PR positive."
+      ],
+      "procedures": [
+        {
+          "name": "Total Hysterectomy (TH) with Bilateral Salpingo-Oophorectomy (BSO)",
+          "approach": "Minimally invasive (laparoscopic, robotic) preferred over laparotomy.",
+          "indications": "Primary treatment for uterine-confined endometrial carcinoma and most uterine sarcomas.",
+          "key_complications": "Surgical site infection, transfusion, venous thromboembolism, urinary or gastrointestinal injury, lymphedema.",
+          "operative_mortality": "Low, but increased in older patients with comorbidities."
+        },
+        {
+          "name": "Radical Hysterectomy (RH)",
+          "approach": "Minimally invasive or open.",
+          "indications": "Stage II disease with cervical stromal involvement to obtain negative margins.",
+          "key_complications": "Increased risk of urinary complications (e.g., bladder atony, ureteral injury) compared to TH.",
+          "operative_mortality": "Low."
+        },
+        {
+          "name": "Sentinel Lymph Node (SLN) Mapping and Biopsy",
+          "approach": "Cervical injection with indocyanine green (ICG) preferred; side-specific nodal dissection if mapping fails.",
+          "indications": "Apparent uterine-confined endometrial carcinoma for staging.",
+          "key_complications": "Lymphedema (reduced compared to full lymphadenectomy), false-negative results.",
+          "operative_mortality": "Low."
+        },
+        {
+          "name": "Surgical Staging/Debulking for Advanced Disease",
+          "approach": "Laparotomy or minimally invasive depending on disease extent.",
+          "indications": "Suspected extrauterine disease (abdominal/pelvic-confined) with goal of no measurable residual disease.",
+          "key_complications": "Similar to TH/BSO plus potential for bowel resection, splenectomy, etc.",
+          "operative_mortality": "Increased in advanced disease."
+        },
+        {
+          "name": "Metastasectomy for Oligometastatic Disease",
+          "approach": "Individualized based on site (e.g., pulmonary resection).",
+          "indications": "Isolated metastases in uterine sarcoma or endometrial carcinoma with controlled primary.",
+          "key_complications": "Site-specific (e.g., pneumothorax for lung resection).",
+          "operative_mortality": "Low to moderate depending on procedure."
+        }
+      ],
+      "resectability_criteria": "Disease is amenable to complete surgical resection with acceptable morbidity. Factors include performance status, comorbidities, extent of disease (local vs. metastatic), and patient preference. For uterine sarcomas, resectability is assessed based on symptoms, extent of disease, and possibility of achieving negative margins.",
+      "pre_operative_optimisation": "Optimize medical comorbidities (e.g., diabetes, hypertension), nutritional status, and performance status. Consider preoperative embolization for large tumors. For uterine sarcomas, avoid morcellation; consider imaging to assess resectability."
+    },
+    "radiation_therapy": {
+      "role": "Used for adjuvant treatment to improve locoregional control, definitive treatment for medically inoperable patients, and palliation for recurrent/metastatic disease.",
+      "principles": [
+        "RT is directed at sites of known or suspected tumor involvement and may include EBRT and/or brachytherapy.",
+        "Imaging required to assess locoregional extent and rule out distant metastases before RT.",
+        "EBRT typically targets pelvis with or without para-aortic region. Brachytherapy delivered to intact uterus preoperatively/definitively or to vagina post-hysterectomy.",
+        "Whole abdominal radiotherapy is not considered tumor-directed RT and is no longer recommended due to toxicity.",
+        "Chemoradiation can be given concurrently or sequentially.",
+        "For uterine sarcomas, adjuvant RT reduces local recurrence but no consistent OS benefit; role controversial."
+      ],
+      "dose_frameworks": [
+        {
+          "name": "Adjuvant Pelvic EBRT",
+          "total_dose": "45\u201350 Gy",
+          "dose_per_fraction": "1.8\u20132.0 Gy",
+          "fractions": "25\u201328",
+          "schedule": "Daily, 5 days per week.",
+          "indication": "Microscopic disease in pelvis and para-aortic nodes for high-risk endometrial carcinoma or uterine sarcomas."
+        },
+        {
+          "name": "Boost for Gross Residual Disease",
+          "total_dose": "60\u201370 Gy",
+          "dose_per_fraction": "1.8\u20132.0 Gy",
+          "fractions": "Additional 5\u201310",
+          "schedule": "Sequential after pelvic EBRT.",
+          "indication": "Postoperative gross residual disease or gross nodal disease (boost to 60\u201365 Gy)."
+        },
+        {
+          "name": "Neoadjuvant Radiation",
+          "total_dose": "45\u201350 Gy \u00b1 HDR brachytherapy boost to total EQD2 75\u201380 Gy",
+          "dose_per_fraction": "EBRT: 1.8\u20132.0 Gy; HDR: 5\u20137 Gy per fraction",
+          "fractions": "EBRT: 25\u201328; HDR: 1\u20132 insertions",
+          "schedule": "Sequential.",
+          "indication": "To minimize positive margins at hysterectomy for cervical involvement or locally advanced disease."
+        },
+        {
+          "name": "Postoperative Vaginal Brachytherapy Alone",
+          "total_dose": "30\u201335 Gy EQD2",
+          "dose_per_fraction": "5.5\u20137 Gy",
+          "fractions": "3\u20135",
+          "schedule": "Weekly or twice weekly.",
+          "indication": "Adjuvant for low-intermediate risk endometrial carcinoma (e.g., Stage IA G1-2, Stage IB G1)."
+        },
+        {
+          "name": "Brachytherapy Boost to EBRT",
+          "total_dose": "10\u201318 Gy EQD2",
+          "dose_per_fraction": "4\u20136 Gy",
+          "fractions": "2\u20133",
+          "schedule": "Concurrent or sequential with EBRT.",
+          "indication": "Boost to vaginal cuff after hysterectomy for higher risk features."
+        },
+        {
+          "name": "Definitive Brachytherapy for Medically Inoperable Uterine Cancer",
+          "total_dose": "EQD2 D90 \u226548 Gy (brachytherapy alone) or \u226565 Gy (combined EBRT + brachytherapy); GTV target \u226580 Gy with MRI guidance.",
+          "dose_per_fraction": "Individualized based on fractionation.",
+          "fractions": "Multiple",
+          "schedule": "Individualized.",
+          "indication": "Medically inoperable uterine-confined carcinoma."
+        }
+      ],
+      "approaches": [
+        {
+          "name": "Intensity-Modulated Radiation Therapy (IMRT)",
+          "dose_fractionation": "As per dose frameworks above.",
+          "concurrent_chemotherapy": "Cisplatin-based concurrent chemoradiation for high-risk disease (category 1 for some histologies).",
+          "indication": "Pelvic and para-aortic RT for endometrial carcinoma and uterine sarcomas; preferred to minimize toxicity.",
+          "key_trial": "PORTEC-3, GOG 258, RTOG 9708.",
+          "toxicities": "Diarrhea, bowel symptoms, fatigue, secondary malignancies (long-term)."
+        },
+        {
+          "name": "High-Dose-Rate (HDR) Brachytherapy",
+          "dose_fractionation": "As per dose frameworks above.",
+          "concurrent_chemotherapy": "Can be interdigitated with chemotherapy for carcinosarcoma.",
+          "indication": "Adjuvant vaginal brachytherapy, definitive treatment for medically inoperable disease.",
+          "key_trial": "PORTEC-2, Aalders trial.",
+          "toxicities": "Vaginal stenosis, bleeding, urinary symptoms."
+        },
+        {
+          "name": "Stereotactic Body Radiation Therapy (SBRT)",
+          "dose_fractionation": "1\u20135 fractions of ablative doses (e.g., 30\u201350 Gy in 1\u20135 fractions).",
+          "concurrent_chemotherapy": "Not typically concurrent.",
+          "indication": "Oligometastatic disease (1\u20135 metastatic lesions) if primary cancer controlled.",
+          "key_trial": "SABR-COMET.",
+          "toxicities": "Site-specific (e.g., pneumonitis for lung, hepatotoxicity for liver)."
+        }
+      ]
+    },
+    "systemic_therapy": {
+      "overview": "Systemic therapy is used in adjuvant, primary, and recurrent/metastatic settings. Regimens include chemotherapy, immunotherapy, targeted therapy, and hormonal therapy. Choice depends on histology, stage, molecular profile (MSI-H/dMMR, HER2, NTRK, RET, TMB, BRCA, CDK4), and prior treatment. Clinical trial enrollment strongly encouraged.",
+      "by_stage_and_setting": [
+        {
+          "setting": "Primary or Adjuvant Therapy (Stage III\u2013IV Endometrial Carcinoma)",
+          "preferred_regimen": "Carboplatin/Paclitaxel + Pembrolizumab (category 1, except for carcinosarcoma), Carboplatin/Paclitaxel + Dostarlimab (category 1), Carboplatin/Paclitaxel + Durvalumab (for dMMR tumors only, category 1).",
+          "rationale": "Improved PFS and OS based on NRG-GY018, RUBY, and DUO-E trials.",
+          "alternatives": "Carboplatin/Paclitaxel + Trastuzumab (for HER2-positive uterine serous carcinoma or carcinosarcoma), Carboplatin/Paclitaxel + Bevacizumab, Carboplatin/Paclitaxel. For pMMR tumors: Carboplatin/Paclitaxel/Durvalumab + Durvalumab/Olaparib (category 2B).",
+          "biomarker_requirements": "MSI-H/dMMR status for durvalumab regimen; HER2 testing for trastuzumab regimen; PD-L1 not required for pembrolizumab or dostarlimab in this setting."
+        },
+        {
+          "setting": "First-Line Therapy for Recurrent Endometrial Carcinoma",
+          "preferred_regimen": "Carboplatin/Paclitaxel + Pembrolizumab (category 1, except for carcinosarcoma), Carboplatin/Paclitaxel + Dostarlimab (category 1), Carboplatin/Paclitaxel + Durvalumab (for dMMR tumors only, category 1).",
+          "rationale": "Similar to adjuvant setting; based on NRG-GY018, RUBY, DUO-E trials.",
+          "alternatives": "Carboplatin/Paclitaxel + Trastuzumab (for HER2-positive), Carboplatin/Paclitaxel (category 1 for carcinosarcoma), Carboplatin/Docetaxel, Carboplatin/Paclitaxel + Bevacizumab. For pMMR tumors: Lenvatinib + Pembrolizumab (category 1 after prior platinum therapy). Biomarker-directed: Pembrolizumab for TMB-H or MSI-H/dMMR; Dostarlimab for MSI-H/dMMR; Axitinib + Avelumab for pMMR.",
+          "biomarker_requirements": "MSI-H/dMMR testing recommended if not previously done; TMB-H testing if not previously done; HER2 testing for carcinosarcoma; NTRK, RET gene fusion testing for metastatic/recurrent disease."
+        },
+        {
+          "setting": "Second-Line or Subsequent Therapy for Recurrent Endometrial Carcinoma",
+          "preferred_regimen": "Not specified; options include single-agent chemotherapy or biomarker-directed therapy.",
+          "rationale": "Based on prior treatment and biomarkers.",
+          "alternatives": "Cisplatin/Doxorubicin, Cisplatin/Doxorubicin/Paclitaxel, Cisplatin/Gemcitabine, single agents (Cisplatin, Carboplatin, Doxorubicin, Liposomal Doxorubicin, Paclitaxel, Albumin-bound Paclitaxel, Topotecan, Bevacizumab, Temsirolimus, Cabozantinib, Lenvatinib, Gemcitabine, Docetaxel [category 2B], Ifosfamide [for carcinosarcoma], Ifosfamide/Paclitaxel [for carcinosarcoma], Cisplatin/Ifosfamide [for carcinosarcoma]). Biomarker-directed: Lenvatinib + Pembrolizumab (category 1 for pMMR), Axitinib + Avelumab (pMMR), Pembrolizumab (TMB-H or MSI-H/dMMR), Ipilimumab + Nivolumab (TMB-H), Dostarlimab, Avelumab, Nivolumab, Tislelizumab-jsgr, Retifanlimab-dlwr (category 2B for MSI-H/dMMR), Fam-trastuzumab deruxtecan-nxki (HER2-positive, including for carcinosarcoma with HER2 1+/2+/3+), Larotrectinib, Entrectinib, Repotrectinib (NTRK fusion-positive), Selpercatinib (RET fusion-positive).",
+          "biomarker_requirements": "MSI-H/dMMR, TMB-H, HER2, NTRK, RET testing as above."
+        },
+        {
+          "setting": "Hormonal Therapy for Recurrent/Metastatic Endometrial Carcinoma",
+          "preferred_regimen": "Megestrol acetate/Tamoxifen (alternating), Everolimus/Letrozole.",
+          "rationale": "For lower-grade endometrioid histologies with ER/PR positivity, small tumor volume or indolent growth.",
+          "alternatives": "Medroxyprogesterone acetate/Tamoxifen (alternating), Progestational agents (Medroxyprogesterone acetate, Megestrol acetate), Aromatase inhibitors (Anastrozole, Letrozole, Exemestane), Tamoxifen, Fulvestrant. Useful in certain circumstances for ER-positive tumors: Letrozole/Ribociclib, Abemaciclib/Letrozole, Letrozole/Palbociclib, Abemaciclib/Fulvestrant.",
+          "biomarker_requirements": "ER/PR testing recommended for stage III, IV, and recurrent endometrioid carcinoma."
+        },
+        {
+          "setting": "Hormonal Therapy for Uterine-Limited Disease Not Suitable for Surgery or for Fertility Preservation",
+          "preferred_regimen": "Levonorgestrel IUD.",
+          "rationale": "For low-grade endometrioid histologies.",
+          "alternatives": "Continuous progestin-based therapy (Megestrol acetate, Medroxyprogesterone acetate), Dual progestin agents (Levonorgestrel IUD/Megestrol acetate, Levonorgestrel IUD/Medroxyprogesterone acetate).",
+          "biomarker_requirements": "ER/PR positivity preferred."
+        },
+        {
+          "setting": "Advanced, Recurrent/Metastatic or Inoperable Uterine Sarcoma",
+          "preferred_regimen": "First-line: Doxorubicin, Docetaxel/Gemcitabine, Doxorubicin/Trabectedin (for LMS), Doxorubicin/Ifosfamide, Doxorubicin/Dacarbazine (for LMS or ifosfamide ineligible). Second-line: Trabectedin (for LMS).",
+          "rationale": "Clinical trials strongly recommended; limited data for most agents.",
+          "alternatives": "Second-line: Dacarbazine/Gemcitabine, Gemcitabine/Vinorelbine, Dacarbazine, Gemcitabine, Epirubicin, Ifosfamide, Liposomal Doxorubicin, Pazopanib, Temozolomide, Regorafenib, Eribulin (category 2B). Biomarker-directed: Pembrolizumab (TMB-H), Ipilimumab + Nivolumab (TMB-H), PARP inhibitors for BRCA-altered LMS (Olaparib, Rucaparib, Niraparib), PEComa (Sirolimus, Everolimus, Temsirolimus), CDK4 amplification (Palbociclib).",
+          "biomarker_requirements": "MSI, BRCA 1/2, NTRK 1/2/3, RET, ALK, TMB testing in metastatic disease; PEComa or TSC pathogenic variant for mTOR inhibitors; CDK4 amplification for palbociclib."
+        },
+        {
+          "setting": "Anti-Estrogen Hormone Therapy for Low-Grade ESS or Adenosarcoma Without SO (ER/PR-Positive Uterine Sarcomas)",
+          "preferred_regimen": "Aromatase inhibitors (Anastrozole, Letrozole, Exemestane).",
+          "rationale": "For ER/PR-positive tumors, preferably with small tumor volume or indolent growth pace.",
+          "alternatives": "Fulvestrant, Megestrol acetate (category 2B), Medroxyprogesterone acetate (category 2B). Consider GnRH analogs with aromatase inhibitors for premenopausal patients not suitable for BSO.",
+          "biomarker_requirements": "ER/PR testing required."
+        }
+      ],
+      "key_regimens": [
+        {
+          "name": "Carboplatin/Paclitaxel + Pembrolizumab",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV endometrial carcinoma (except carcinosarcoma); first-line for recurrent disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5\u20136",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Pembrolizumab",
+              "dose": "200 mg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Neutropenia, anemia, thrombocytopenia, fatigue, nausea, neuropathy, immune-related adverse events."
+        },
+        {
+          "name": "Carboplatin/Paclitaxel + Dostarlimab",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV endometrial carcinoma; first-line for recurrent disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Dostarlimab",
+              "dose": "500 mg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Similar to carboplatin/paclitaxel plus immune-related adverse events."
+        },
+        {
+          "name": "Carboplatin/Paclitaxel + Durvalumab",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV dMMR endometrial carcinoma; first-line for recurrent dMMR disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Durvalumab",
+              "dose": "1120 mg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Similar to carboplatin/paclitaxel plus immune-related adverse events."
+        },
+        {
+          "name": "Carboplatin/Paclitaxel/Durvalumab + Durvalumab/Olaparib",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV pMMR endometrial carcinoma (category 2B); first-line for recurrent pMMR disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Durvalumab",
+              "dose": "1120 mg",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Olaparib",
+              "dose": "300 mg BID",
+              "route": "Oral",
+              "day": "Daily (maintenance)"
+            }
+          ],
+          "cycle_days": "Induction: 21-day cycle for 6 cycles; maintenance: durvalumab 1120 mg IV every 4 weeks \u00b1 olaparib 300 mg BID until progression.",
+          "key_toxicities": "Myelosuppression, fatigue, nausea, immune-related adverse events, anemia, thrombocytopenia."
+        },
+        {
+          "name": "Carboplatin/Paclitaxel + Trastuzumab",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV HER2-positive uterine serous carcinoma or carcinosarcoma; first-line for recurrent HER2-positive disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5\u20136",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Trastuzumab",
+              "dose": "8 mg/kg loading then 6 mg/kg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Myelosuppression, fatigue, nausea, neuropathy, cardiac toxicity (monitor left ventricular function)."
+        },
+        {
+          "name": "Carboplatin/Paclitaxel + Bevacizumab",
+          "setting": "Primary or adjuvant therapy for stage III\u2013IV endometrial carcinoma; first-line for recurrent disease.",
+          "drugs": [
+            {
+              "name": "Carboplatin",
+              "dose": "AUC 5\u20136",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Paclitaxel",
+              "dose": "175 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Bevacizumab",
+              "dose": "15 mg/kg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Hypertension, proteinuria, bleeding, fatigue, myelosuppression."
+        },
+        {
+          "name": "Lenvatinib + Pembrolizumab",
+          "setting": "First-line therapy for recurrent endometrial carcinoma (pMMR tumors after prior platinum therapy); second-line or subsequent therapy for pMMR tumors.",
+          "drugs": [
+            {
+              "name": "Lenvatinib",
+              "dose": "20 mg",
+              "route": "Oral",
+              "day": "Daily"
+            },
+            {
+              "name": "Pembrolizumab",
+              "dose": "200 mg",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle for pembrolizumab; lenvatinib continuous.",
+          "key_toxicities": "Hypertension, diarrhea, fatigue, hypothyroidism, hepatotoxicity, immune-related adverse events."
+        },
+        {
+          "name": "Doxorubicin",
+          "setting": "First-line therapy for advanced, recurrent/metastatic or inoperable uterine sarcoma.",
+          "drugs": [
+            {
+              "name": "Doxorubicin",
+              "dose": "60\u201375 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Myelosuppression, nausea, alopecia, cardiotoxicity (cumulative dose limit)."
+        },
+        {
+          "name": "Docetaxel/Gemcitabine",
+          "setting": "First-line therapy for advanced, recurrent/metastatic or inoperable uterine sarcoma.",
+          "drugs": [
+            {
+              "name": "Docetaxel",
+              "dose": "75 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Gemcitabine",
+              "dose": "1000 mg/m2",
+              "route": "IV",
+              "day": "Days 1 and 8"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Myelosuppression, fatigue, nausea, mucositis, hepatotoxicity."
+        },
+        {
+          "name": "Doxorubicin/Trabectedin",
+          "setting": "First-line therapy for metastatic or unresectable leiomyosarcoma (LMS).",
+          "drugs": [
+            {
+              "name": "Doxorubicin",
+              "dose": "60 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            },
+            {
+              "name": "Trabectedin",
+              "dose": "1.1 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Myelosuppression, nausea, hepatotoxicity, infusion-related reactions."
+        },
+        {
+          "name": "Trabectedin",
+          "setting": "Second-line or subsequent therapy for metastatic or unresectable leiomyosarcoma (LMS).",
+          "drugs": [
+            {
+              "name": "Trabectedin",
+              "dose": "1.5 mg/m2",
+              "route": "IV",
+              "day": "Day 1"
+            }
+          ],
+          "cycle_days": "21-day cycle",
+          "key_toxicities": "Hepatotoxicity, myelosuppression, nausea, fatigue, rhabdomyolysis."
+        }
+      ]
+    },
+    "treatment_response_assessment": {
+      "title": "Assessment of Treatment Response and Monitoring",
+      "timing": "Response assessed during and after primary or adjuvant therapy; surveillance per guidelines.",
+      "response_logic": [
+        "For patients receiving systemic therapy, response assessed using imaging (CT, MRI) and clinical assessment per RECIST criteria.",
+        "For fertility-sparing therapy, endometrial evaluation every 3\u20136 months (hysteroscopy, biopsy, D&C) to assess response; complete response defined as no disease on sampling.",
+        "For uterine sarcomas, imaging surveillance to assess for recurrence or metastatic disease.",
+        "Molecular response not routinely assessed; clinical correlation essential."
+      ],
+      "imaging_recommendations": [
+        "During treatment: imaging as clinically indicated based on symptoms or to assess response to neoadjuvant therapy.",
+        "Post-treatment: surveillance imaging per histology and stage (see ENDO-9, UTSARC-4).",
+        "For suspected recurrence: CT abdomen/pelvis and/or chest CT based on symptoms; consider FDG-PET/CT or MRI in select patients."
+      ],
+      "biopsy_or_salvage_logic": [
+        "For suspected recurrence, biopsy may confirm histology and guide therapy.",
+        "For locoregional recurrence, salvage options include surgery, RT, or systemic therapy based on prior treatment and resectability.",
+        "For distant metastases, biopsy may be performed to confirm diagnosis or for molecular testing (e.g., HER2, NTRK, RET).",
+        "For persistent disease on fertility-sparing therapy, salvage includes TH/BSO with staging."
+      ]
+    },
+    "prognosis": {
+      "overall": "The prognosis for uterine neoplasms is highly variable depending on histology, stage, grade, and molecular profile. Endometrial carcinoma is the fourth most common female genital tract malignancy in the US, with an estimated 69,120 new cases and 13,860 deaths in 2025 [1]. Uterine sarcomas are uncommon, accounting for about 3% of uterine cancers [2,3]. Mortality rates for uterine cancer have increased more rapidly than incidence, possibly due to rising rates of advanced-stage disease and high-risk histologies [4].",
+      "by_stage": [
+        {
+          "stage": "Local (confined to uterus)",
+          "five_yr_survival": "~67% of cases",
+          "context": "SEER data; survival is increased in patients who are younger, have early-stage disease, and have lower-grade disease [5]."
+        },
+        {
+          "stage": "Regional (spread to regional lymph nodes)",
+          "five_yr_survival": "~21% of cases",
+          "context": "Nodal involvement is a major adverse prognostic factor [6]."
+        },
+        {
+          "stage": "Distant (metastatic)",
+          "five_yr_survival": "~8% of cases",
+          "context": "Distant disease has a poor prognosis; 5-year survival is significantly reduced [5]."
+        }
+      ],
+      "prognostic_factors": [
+        "Age (older age is a poor prognostic factor) [4,5]",
+        "Histologic grade (higher grade indicates worse prognosis) [4]",
+        "Myometrial invasion depth (deeper invasion is associated with higher risk) [7]",
+        "Lymphovascular space invasion (LVSI), especially substantial LVSI [6,7]",
+        "Tumor size [4,6]",
+        "Cervical stromal involvement [6]",
+        "Lymph node metastasis [6]",
+        "Histologic subtype (e.g., serous, clear cell, carcinosarcoma, undifferentiated) [8]",
+        "Molecular profile (POLE-mutated has excellent prognosis; p53-aberrant has poor prognosis) [9,10]",
+        "Presence of peritoneal cytology (its independent prognostic value is questioned) [11]"
+      ],
+      "prognostic_context": "Prognosis is determined by a combination of clinical, pathologic, and molecular factors. Thorough surgical staging provides critical prognostic information that guides adjuvant therapy. Molecular classification into POLE-mutated, dMMR/MSI-H, NSMP, and p53-aberrant subgroups offers significant prognostic and predictive insight [9,10]. Patients with POLE-mutated tumors have the best prognosis, while p53-aberrant tumors are the most aggressive."
+    },
+    "complications": {
+      "disease_related": [
+        {
+          "complication": "Vaginal bleeding",
+          "management": "Evaluation with endometrial biopsy or D&C; may be the initial presenting symptom leading to diagnosis."
+        },
+        {
+          "complication": "Pelvic pain or mass",
+          "management": "Imaging and clinical evaluation; may indicate advanced or recurrent disease."
+        },
+        {
+          "complication": "Metastatic disease (e.g., to lung, liver, bone, peritoneum)",
+          "management": "Systemic therapy, local therapy (surgery, radiation) for isolated metastases, or palliative care."
+        }
+      ],
+      "treatment_related": {
+        "chemotherapy": [
+          "Myelosuppression (neutropenia, anemia, thrombocytopenia) [12]",
+          "Neurotoxicity (peripheral neuropathy) [12]",
+          "Alopecia",
+          "Nausea and vomiting",
+          "Fatigue",
+          "Infusion reactions (more common with taxanes and platinum agents) [13]"
+        ],
+        "immunotherapy": [
+          "Immune-related adverse events (irAEs) such as colitis, hepatitis, pneumonitis, endocrinopathies, dermatologic reactions [14]",
+          "Fatigue",
+          "Infusion reactions"
+        ],
+        "targeted_therapy": [
+          "Hypertension (with anti-VEGF agents like bevacizumab) [15]",
+          "Diarrhea (with lenvatinib) [16]",
+          "Hepatotoxicity",
+          "Mucositis"
+        ],
+        "surgery": [
+          "Surgical site infections",
+          "Venous thromboembolism [17]",
+          "Lymphedema (after lymphadenectomy) [18]",
+          "Bowel or urinary complications (e.g., obstruction, fistula) [18]",
+          "Adhesion formation [18]"
+        ],
+        "radiation": [
+          "Radiation proctitis, cystitis, or enteritis [19]",
+          "Vaginal stenosis or atrophy [19]",
+          "Fibrosis",
+          "Secondary malignancies (rare) [19]"
+        ]
+      }
+    },
+    "supportive_care": {
+      "overview": "Supportive care is integral to managing patients with uterine neoplasms, addressing both disease-related and treatment-related toxicities. It includes symptom management, psychosocial support, and survivorship care [18].",
+      "nutritional_support": "Nutritional assessment and counseling are recommended to manage weight changes, especially in patients with obesity, a risk factor for endometrial cancer. Weight management and lifestyle modification are encouraged [18].",
+      "anti_emetic_protocol": "Antiemetic prophylaxis based on the emetogenic potential of chemotherapy regimens (e.g., high emetogenic risk for cisplatin, moderate for carboplatin/paclitaxel) [12]. Refer to NCCN Guidelines for Antiemesis.",
+      "gcsf_guidance": "Granulocyte colony-stimulating factor (G-CSF) support may be considered for chemotherapy regimens with a high risk of febrile neutropenia (e.g., >20%) [12].",
+      "vte_prophylaxis": "Venous thromboembolism (VTE) prophylaxis is recommended for patients undergoing major pelvic surgery and may be considered for those receiving chemotherapy, especially with bevacizumab [15,17].",
+      "pain_management": "Pain assessment and management using WHO analgesic ladder; may include NSAIDs, opioids, and adjuvant agents. Referral to pain specialist as needed.",
+      "psychosocial_support": "Psychosocial effects may include depression, anxiety, fear of recurrence, financial concerns, and issues with sexuality and intimacy. Referral to psychotherapy, support groups, and financial counseling is recommended [18].",
+      "dental_care": "Dental evaluation prior to radiation therapy to the pelvis; management of oral complications from chemotherapy (mucositis, xerostomia)."
+    },
+    "follow_up": {
+      "post_curative_treatment": "After completing primary treatment, patients enter a surveillance phase. The goal is to detect recurrence early when curative salvage therapy may be possible. Surveillance includes regular history and physical exam, symptom evaluation, and selected imaging [20].",
+      "surveillance_rationale": "Intensive surveillance has not been shown to improve overall survival in endometrial cancer, but it provides psychosocial reassurance and allows for early detection of recurrences, which are often symptomatic [20]. Most recurrences occur within the first 3 years after treatment.",
+      "late_effects_screening": [
+        "Screening for osteoporosis, especially after bilateral salpingo-oophorectomy (BSO) or pelvic radiation [18]",
+        "Assessment for sexual dysfunction, vaginal stenosis, and vaginal dryness [18]",
+        "Evaluation for lymphedema after lymphadenectomy [18]",
+        "Monitoring for secondary malignancies related to prior radiation [19]",
+        "Assessment of cardiovascular risk factors and metabolic syndrome, particularly in patients with obesity [18]"
+      ],
+      "recurrence_patterns": "Most recurrences of endometrial cancer are vaginal or pelvic (locoregional), but distant metastases (e.g., to lung, abdomen) also occur. For uterine sarcomas, especially leiomyosarcoma, hematogenous spread to the lungs is common [21]."
+    },
+    "surveillance": {
+      "clinical_follow_up_schedule": [
+        "Physical exam (including pelvic exam) every 3-6 months for 2-3 years, then every 6-12 months for up to year 5, then annually [20].",
+        "For uterine sarcoma: Consider H&P every 3-4 months for 2-3 years, then every 6-12 months [21].",
+        "Symptom assessment for potential recurrence (bleeding, pain, weight loss, respiratory symptoms) [20]."
+      ],
+      "imaging_strategy": [
+        "Imaging should be guided by symptoms and clinical suspicion, not performed routinely in asymptomatic patients [20].",
+        "For endometrial cancer: Consider chest imaging if symptoms or high-risk features; imaging as indicated for suspected recurrence [22].",
+        "For uterine sarcoma: Chest/abdomen/pelvis CT every 3-6 months for 3 years, then every 6-12 months for 2 years; optional imaging beyond 5 years depending on histology and stage [21].",
+        "FDG-PET/CT may be considered to clarify ambiguous findings [22]."
+      ],
+      "laboratory_monitoring": [
+        "CA-125 if initially elevated or for serous histology to monitor response [20].",
+        "Routine tumor markers are not recommended for all patients [20]."
+      ],
+      "supportive_follow_up": [
+        "Health maintenance: blood pressure, breast exam, mammography, stool guaiac, immunizations as appropriate [18].",
+        "Counseling on lifestyle: exercise, smoking cessation, nutrition, and weight management [18].",
+        "Assessment of late effects of treatment and referral to specialists (e.g., pelvic floor therapy, sexual health, psychotherapy) [18].",
+        "Survivorship care plan summarizing treatment and follow-up recommendations [18]."
+      ]
+    },
+    "special_situations": [
+      {
+        "situation": "Fertility-sparing management",
+        "key_message": "Continuous progestin-based therapy may be considered for highly selected patients with grade 1, stage IA (noninvasive) endometrioid adenocarcinoma who desire uterine preservation.",
+        "management": "Levonorgestrel IUD (preferred) or oral progestins (megestrol acetate, medroxyprogesterone). Endometrial sampling every 3-6 months. If complete response, encourage conception. Consider hysterectomy after childbearing is complete or if disease persists/progresses [23].",
+        "evidence": "Based on observational studies showing high response rates but also high recurrence rates. Must meet strict criteria: G1 endometrioid, disease limited to endometrium, no myoinvasion on MRI, no contraindications to progestins [23]."
+      },
+      {
+        "situation": "Recurrent or metastatic disease",
+        "key_message": "Treatment depends on the site of recurrence, prior therapy, histology, and molecular profile.",
+        "management": "Locoregional recurrence: Consider resection and/or radiation. Disseminated metastases: Systemic therapy (chemotherapy, immunotherapy, hormonal therapy) \u00b1 palliative radiation. Biomarker-directed therapy for specific molecular alterations [24].",
+        "evidence": "Pembrolizumab + lenvatinib for pMMR tumors (category 1) [25]. Pembrolizumab or dostarlimab for dMMR/MSI-H tumors [26,27]."
+      },
+      {
+        "situation": "High-risk histologies (serous, clear cell, carcinosarcoma, undifferentiated)",
+        "key_message": "These aggressive subtypes require multimodality therapy even for early-stage disease.",
+        "management": "Primary treatment: TH/BSO with surgical staging, maximal debulking for gross disease. Adjuvant systemic therapy \u00b1 radiation recommended for most stages. HER2 testing for serous and carcinosarcoma [8].",
+        "evidence": "Carboplatin/paclitaxel + trastuzumab for HER2-positive serous carcinoma or carcinosarcoma (category 1) [28]."
+      },
+      {
+        "situation": "Uterine sarcoma",
+        "key_message": "Uterine sarcomas (e.g., leiomyosarcoma, endometrial stromal sarcoma) are managed differently from endometrial carcinoma.",
+        "management": "Surgery with en bloc resection (no morcellation) is primary. BSO favored for ER/PR-positive tumors. Lymphadenectomy is controversial. Systemic therapy for advanced disease: doxorubicin, gemcitabine/docetaxel, trabectedin (for LMS) [21].",
+        "evidence": "Doxorubicin/trabectedin improved PFS vs. doxorubicin alone in LMS (LMS-04 trial) [29]."
+      },
+      {
+        "situation": "Lynch syndrome",
+        "key_message": "Endometrial cancer can be the first manifestation of Lynch syndrome. Genetic testing and counseling are essential.",
+        "management": "Germline testing for MMR genes (MLH1, MSH2, MSH6, PMS2) or EPCAM. Manage accordingly: surveillance for other cancers, risk-reducing surgery [30].",
+        "evidence": "Patients with Lynch syndrome have a 60% lifetime risk of endometrial cancer; relatives may also be at risk [30]."
+      }
+    ],
+    "clinical_pearls": [
+      "Molecular classification (POLE-mutated, dMMR, NSMP, p53-aberrant) is now central to prognosis and may guide therapy in endometrial cancer [9,10].",
+      "Ovarian preservation may be safe in select premenopausal patients with stage IA G1 endometrioid cancer, normal-appearing ovaries, no family history of ovarian cancer or Lynch syndrome, and absence of p53 abnormality, dMMR, LVSI, and positive cytology [31].",
+      "Sentinel lymph node (SLN) mapping with ultrastaging is the preferred alternative to full lymphadenectomy for staging apparent uterine-confined endometrial cancer [32].",
+      "Minimally invasive surgery (laparoscopy or robotic) is preferred for staging when feasible due to lower perioperative complications without compromising oncologic outcomes [17].",
+      "Carcinosarcoma is treated as a high-grade endometrial carcinoma, not a sarcoma [8].",
+      "In recurrent endometrial cancer, lenvatinib/pembrolizumab is a category 1 preferred option for pMMR tumors after prior platinum-based therapy [25].",
+      "For dMMR/MSI-H recurrent endometrial cancer, pembrolizumab or dostarlimab are highly effective and preferred [26,27].",
+      "Morcellation should be avoided when sarcoma is suspected, as it can lead to peritoneal spread [21]."
+    ],
+    "guidelines_resources": [
+      {
+        "organization": "National Comprehensive Cancer Network (NCCN)",
+        "title": "NCCN Clinical Practice Guidelines in Oncology: Uterine Neoplasms",
+        "region": "United States",
+        "resource_type": "Clinical practice guideline",
+        "notes": "Version 3.2026; updated June 16, 2026. Provides comprehensive management recommendations for endometrial carcinoma and uterine sarcoma [33]."
+      },
+      {
+        "organization": "Society of Gynecologic Oncology (SGO)",
+        "title": "Post-Treatment Surveillance Recommendations for Gynecologic Malignancies",
+        "region": "United States",
+        "resource_type": "Expert consensus statement",
+        "notes": "Provides guidelines for follow-up after treatment of gynecologic cancers [20]."
+      },
+      {
+        "organization": "European Society of Medical Oncology (ESMO)",
+        "title": "ESMO-ESGO-ESTRO Consensus Conference on Endometrial Cancer",
+        "region": "Europe",
+        "resource_type": "Consensus guidelines",
+        "notes": "Provides evidence-based recommendations for diagnosis, treatment, and follow-up of endometrial cancer [34]."
+      },
+      {
+        "organization": "American College of Obstetricians and Gynecologists (ACOG)",
+        "title": "ACOG Practice Bulletin: Management of Endometrial Cancer",
+        "region": "United States",
+        "resource_type": "Practice bulletin",
+        "notes": "Provides guidance on diagnosis and management of endometrial cancer [35]."
+      }
+    ],
+    "key_trials": [
+      {
+        "acronym": "NRG-GY018",
+        "full_name": "Pembrolizumab plus Chemotherapy in Advanced Endometrial Cancer",
+        "year": 2023,
+        "journal": "New England Journal of Medicine",
+        "n": 816,
+        "population": "Stage III or IVA endometrial carcinoma with measurable disease, or stage IVB or recurrent disease, any histologic subtype except carcinosarcoma.",
+        "intervention": "Carboplatin/paclitaxel + pembrolizumab",
+        "comparator": "Carboplatin/paclitaxel + placebo",
+        "primary_endpoint": "Progression-free survival (PFS)",
+        "key_result": "PFS was 74% vs. 38% in the dMMR cohort (HR, 0.30; P<.001). In pMMR tumors, median PFS was 13.1 vs. 8.7 months (HR, 0.54; P<.001) [26].",
+        "secondary_outcomes": "Overall survival (OS) data pending.",
+        "practice_change": "Established pembrolizumab + carboplatin/paclitaxel as a preferred first-line regimen for advanced/recurrent endometrial cancer, except carcinosarcoma."
+      },
+      {
+        "acronym": "RUBY",
+        "full_name": "Dostarlimab for Primary Advanced or Recurrent Endometrial Cancer",
+        "year": 2023,
+        "journal": "New England Journal of Medicine",
+        "n": 494,
+        "population": "Stage III or IV or recurrent endometrial cancer, all histologies.",
+        "intervention": "Dostarlimab + carboplatin/paclitaxel",
+        "comparator": "Placebo + carboplatin/paclitaxel",
+        "primary_endpoint": "PFS",
+        "key_result": "PFS was 36.1% vs. 18.1% at 24 months (HR, 0.64; P<.001). OS was 71.3% vs. 56% (HR, 0.64; P=.002) [27].",
+        "secondary_outcomes": "OS benefit in the overall population and in dMMR/MSI-H subgroup.",
+        "practice_change": "Established dostarlimab + carboplatin/paclitaxel as a preferred first-line regimen for advanced/recurrent endometrial cancer."
+      },
+      {
+        "acronym": "DUO-E",
+        "full_name": "Durvalumab Plus Carboplatin/Paclitaxel with or without Olaparib in Advanced Endometrial Cancer",
+        "year": 2024,
+        "journal": "Journal of Clinical Oncology",
+        "n": 655,
+        "population": "Advanced or recurrent endometrial cancer.",
+        "intervention": "Carboplatin/paclitaxel + durvalumab \u00b1 maintenance durvalumab \u00b1 olaparib",
+        "comparator": "Carboplatin/paclitaxel + placebo",
+        "primary_endpoint": "PFS",
+        "key_result": "PFS benefit for durvalumab (HR, 0.71; P=.003) and durvalumab+olaparib (HR, 0.55; P<.0001) vs. control. Greatest benefit in dMMR subgroup [14].",
+        "secondary_outcomes": "PFS in pMMR subgroup: HR 0.57 for durvalumab+olaparib vs. control.",
+        "practice_change": "Carboplatin/paclitaxel + durvalumab is a preferred first-line regimen for dMMR tumors only."
+      },
+      {
+        "acronym": "PORTEC-3",
+        "full_name": "Adjuvant Chemoradiotherapy versus Radiotherapy Alone for High-Risk Endometrial Cancer",
+        "year": 2019,
+        "journal": "Lancet Oncology",
+        "n": 686,
+        "population": "High-risk endometrial cancer (stage I grade 3 with deep invasion/LVSI, stage II, stage III, or any serous/clear cell).",
+        "intervention": "Chemoradiation (cisplatin/paclitaxel + EBRT + vaginal brachytherapy)",
+        "comparator": "EBRT alone",
+        "primary_endpoint": "Failure-free survival (FFS)",
+        "key_result": "5-year FFS was 76.5% vs. 69.1% (HR, 0.70; P=.016). 5-year OS was 81.4% vs. 76.1% (HR, 0.70; P=.034) [36].",
+        "secondary_outcomes": "Toxicity, quality of life.",
+        "practice_change": "Established adjuvant chemoradiation as standard for high-risk endometrial cancer."
+      },
+      {
+        "acronym": "KEYNOTE-775",
+        "full_name": "Lenvatinib plus Pembrolizumab versus Chemotherapy in Advanced Endometrial Cancer",
+        "year": 2022,
+        "journal": "New England Journal of Medicine",
+        "n": 827,
+        "population": "pMMR (MSI-stable) advanced endometrial cancer after prior systemic therapy.",
+        "intervention": "Lenvatinib + pembrolizumab",
+        "comparator": "Chemotherapy (doxorubicin or paclitaxel)",
+        "primary_endpoint": "PFS and OS",
+        "key_result": "Median PFS: 7.2 vs. 3.8 months (HR, 0.56; P<.001). Median OS: 18.3 vs. 11.4 months (HR, 0.62; P<.001) [25].",
+        "secondary_outcomes": "Response rate, duration of response.",
+        "practice_change": "Established lenvatinib/pembrolizumab as a preferred second-line option for pMMR tumors."
+      },
+      {
+        "acronym": "LMS-04",
+        "full_name": "Doxorubicin alone versus Doxorubicin with Trabectedin as First-Line Therapy for Metastatic or Unresectable Leiomyosarcoma",
+        "year": 2022,
+        "journal": "Lancet Oncology",
+        "n": 150,
+        "population": "Metastatic or unresectable leiomyosarcoma (soft tissue or uterine).",
+        "intervention": "Doxorubicin + trabectedin",
+        "comparator": "Doxorubicin alone",
+        "primary_endpoint": "PFS",
+        "key_result": "Median PFS: 12.2 vs. 6.2 months (HR, 0.41; P<.0001) [29].",
+        "secondary_outcomes": "OS, response rate.",
+        "practice_change": "Established doxorubicin/trabectedin as a preferred first-line regimen for advanced LMS."
+      }
+    ]
+  },
+  "source_meta": {
+    "filename": "nccn_uterine_2.2026.pdf",
+    "source_type": "nccn",
+    "source_label": "NCCN Clinical Practice Guideline",
+    "extraction_date": "2026-07-14T17:11:46.030885"
+  },
+  "tier_1_regimens": [
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv (except carcinosarcoma)",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "pembrolizumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "NRG-GY018",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Dostarlimab-gxly",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "dostarlimab-gxly",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "RUBY",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Durvalumab",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv dmmr only",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "durvalumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "DUO-E",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Trastuzumab",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv her2-positive usc or carcinosarcoma",
+      "treatment_modality": [
+        "chemotherapy",
+        "targeted therapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "trastuzumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv",
+      "treatment_modality": [
+        "chemotherapy",
+        "targeted therapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "bevacizumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Cisplatin plus RT followed by Carboplatin/Paclitaxel",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "cisplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "GOG 209",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel/Durvalumab + Durvalumab/Olaparib",
+      "site": "Uterine",
+      "setting": "stage iii\u2013iv pmmr tumours",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "durvalumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "durvalumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2B",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "pembrolizumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "NRG-GY018",
+        "notes": "Except for carcinosarcoma; category 1"
+      },
+      "notes": "Except for carcinosarcoma; category 1"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Dostarlimab-gxly",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "dostarlimab-gxly",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "RUBY",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Durvalumab",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy",
+        "immunotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "durvalumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "DUO-E",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel + Trastuzumab",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy",
+        "targeted therapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "trastuzumab",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": null,
+        "notes": "HER2-positive USC or carcinosarcoma"
+      },
+      "notes": "HER2-positive USC or carcinosarcoma"
+    },
+    {
+      "regimen_name": "Carboplatin/Paclitaxel",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "carboplatin",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        },
+        {
+          "name": "paclitaxel",
+          "dose": "See handbook",
+          "route": "IV",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": "GOG 209",
+        "notes": "See handbook for details"
+      },
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "pMMR tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2B",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "pMMR (after prior platinum)",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "TMB-H tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "MSI-H/dMMR tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "MSI-H/dMMR tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "pMMR tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 1",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "pMMR tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "TMB-H tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "TMB-H tumours",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "MSI-H/dMMR",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": null,
+        "notes": "Pembrolizumab15, Dostarlimab16, Avelumab, Nivolumab27, Tislelizumab-jsgr28, Retifanlimab-dlwr (cat 2B)29"
+      },
+      "notes": "Pembrolizumab15, Dostarlimab16, Avelumab, Nivolumab27, Tislelizumab-jsgr28, Retifanlimab-dlwr (cat 2B)29"
+    },
+    {
+      "regimen_name": "HER2-positive (IHC 3+ or 2+)",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "HER2-positive (IHC 1+, 2+ or 3+)",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": {
+        "trial_name": null,
+        "notes": "Fam-trastuzumab deruxtecan-nxki (for carcinosarcoma)"
+      },
+      "notes": "Fam-trastuzumab deruxtecan-nxki (for carcinosarcoma)"
+    },
+    {
+      "regimen_name": "NTRK gene fusion-positive",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "RET gene fusion-positive",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "NTRK gene fusion-positive",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "ALK-translocation IMT",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "RET gene fusion-positive",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    },
+    {
+      "regimen_name": "PEComa / TSC variant",
+      "site": "Uterine",
+      "setting": "See handbook",
+      "treatment_modality": [
+        "chemotherapy"
+      ],
+      "drugs": [
+        {
+          "name": "See handbook",
+          "dose": "See handbook",
+          "route": "See handbook",
+          "schedule": "See handbook"
+        }
+      ],
+      "biomarkers": [],
+      "evidence_level": "Category 2A",
+      "guideline_category": "See handbook",
+      "trial_data": null,
+      "notes": "See handbook for full details"
+    }
+  ]
+}

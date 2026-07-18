@@ -1,0 +1,717 @@
+{
+    "site_id": "kaposi",
+    "site_display_name": "Kaposi Sarcoma",
+    "archetype": "F",
+    "regimen_count": 28,
+    "regimens": [
+        {
+            "regimen_name": "Liposomal Doxorubicin",
+            "site": "Advanced Kaposi sarcoma (non-transplant)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 to 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Randomized phase III trial",
+                "phase": "III",
+                "n_patients": "258",
+                "or_other_data": "ORR 46% (95% CI, 37%–54%) vs 25% (95% CI, 17%–32%) for ABV [121]; ORR 59% vs 23% (P < .001) for BV [122]"
+            },
+            "notes": "Liposomal Doxorubicin is preferred for first-line treatment of advanced Kaposi sarcoma in non-transplant patients. Due to potential risk of cardiotoxicity, perform echocardiogram prior to initial course and repeat periodically. Consider limiting lifetime dose per prescribing guidelines, but patients who need continued treatment may be safely treated beyond 1000 mg/m2 [121,122,125-129]. Corticosteroid pre-medication should generally be avoided [KS-F footnote b]."
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Advanced Kaposi sarcoma (non-transplant)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "135 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Randomized trial",
+                "phase": "III",
+                "n_patients": "73",
+                "or_other_data": "ORR 56% for Paclitaxel vs 46% for Pegylated-liposomal Doxorubicin (P = .49); median PFS 17.5 vs 12.2 months (P = .66); 2-year survival 79% vs 78% (P = .75) [133]"
+            },
+            "notes": "Paclitaxel is an alternative first-line option for advanced Kaposi sarcoma in non-transplant patients. Dose schedule options include weekly, biweekly, or every 3 weeks dosing. Neutropenia is the most frequent dose-limiting toxicity [130-133]."
+        },
+        {
+            "regimen_name": "Sirolimus",
+            "site": "Transplant-associated Kaposi sarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunosuppressant"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "0.15 mg/kg",
+                    "route": "PO",
+                    "schedule": "loading dose followed by 0.04–0.06 mg/kg/day to maintain trough blood levels of 6–10 ng/mL or 2 mg PO daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Study of 15 renal transplant recipients",
+                "phase": "II",
+                "n_patients": "15",
+                "or_other_data": "All cutaneous lesions disappeared with histologic remission at 6 months; no acute rejection or changes in kidney-graft function [21]"
+            },
+            "notes": "Sirolimus is preferred for transplant-associated Kaposi sarcoma. Switching to Sirolimus for immunosuppression may be sufficient for KS control and treatment, especially if able to halt or reduce other immunosuppressive agents. For PWH on ART, consult with an ID pharmacist prior to dosing due to drug-drug interactions [KS-F footnote e]."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "480 mg",
+                    "route": "IV",
+                    "schedule": "every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent systemic therapy option",
+            "trial_data": {
+                "trial_name": "AIDS Malignancy Consortium 095 Study",
+                "phase": "II",
+                "n_patients": "15",
+                "or_other_data": "ORR 40% (95% CI, 16.3–64.7); median duration of response 12.5 months [143]"
+            },
+            "notes": "Nivolumab is an option for relapsed or refractory Kaposi sarcoma. It should not be used in patients with MCD or KICS due to risk of flare. If history of KSHV-associated diseases, use with caution and more frequent monitoring [KS-F footnote i]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted [KS-F footnote k]."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 6 months"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent systemic therapy option",
+            "trial_data": {
+                "trial_name": "Multicenter phase II study",
+                "phase": "II",
+                "n_patients": "17",
+                "or_other_data": "Best overall response rate 71% (95% CI, 44–90); CR 22%, PR 59%, SD 29% [144]"
+            },
+            "notes": "Pembrolizumab is an option for relapsed or refractory Kaposi sarcoma. It should not be used in patients with MCD or KICS due to risk of flare. If history of KSHV-associated diseases, use with caution [KS-F footnote i]."
+        },
+        {
+            "regimen_name": "Pomalidomide",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 or 5 mg/day",
+                    "route": "PO",
+                    "schedule": "for 21 days of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent systemic therapy option",
+            "trial_data": {
+                "trial_name": "Phase I/II study",
+                "phase": "I/II",
+                "n_patients": "22",
+                "or_other_data": "ORR 60% in PWH group (95% CI, 32%–84%) [72]"
+            },
+            "notes": "Pomalidomide has accelerated FDA approval for HIV-related Kaposi sarcoma after ART proves insufficient and for patients without HIV. Patients of childbearing potential require effective contraception per REMS program [KS-F footnote l]. The NCCN Panel believes the 4-mg dose is sufficient [KS-F footnote m]."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "100 mg",
+                    "route": "IV",
+                    "schedule": "on days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "6",
+                "or_other_data": "All patients had partial or complete responses [148]"
+            },
+            "notes": "Albumin-bound Paclitaxel may be used if Paclitaxel intolerant. Evidence is limited to a small phase II trial and case reports [148,149]."
+        },
+        {
+            "regimen_name": "Bortezomib",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.6 mg/m2",
+                    "route": "IV/SC",
+                    "schedule": "on days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AMC-063 pilot trial",
+                "phase": "II",
+                "n_patients": "15",
+                "or_other_data": "PR rate 60% in evaluable patients; 83% in 1.6 mg/m2 cohort [150]"
+            },
+            "notes": "Bortezomib has activity in relapsed/refractory HIV-related Kaposi sarcoma. Maximum tolerated dose was not reached in the pilot trial [150]."
+        },
+        {
+            "regimen_name": "Etoposide",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "50 mg/day",
+                    "route": "PO",
+                    "schedule": "for 7 days of each 14-day cycle, escalate to 100 mg/day after 2 cycles if no response and no toxicity >Grade 2, and further to 150 mg/day based on tolerance and response"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "A5264/AMC-067 trial",
+                "phase": "III",
+                "n_patients": "190",
+                "or_other_data": "No difference in response at 48 months between immediate vs as-needed etoposide [69]"
+            },
+            "notes": "Oral Etoposide has activity in relapsed/refractory Kaposi sarcoma. The dose escalation schedule used in the A5264/AMC-067 trial is recommended [69,151-153]."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "on days 1 and 8 every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Retrospective analysis",
+                "phase": "II",
+                "n_patients": "23",
+                "or_other_data": "CR 13%, PR 35%, SD 48% [155]"
+            },
+            "notes": "Gemcitabine has activity in relapsed/refractory HIV-related Kaposi sarcoma [155,156]."
+        },
+        {
+            "regimen_name": "Imatinib",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg/day",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (AMC-042)",
+                "phase": "II",
+                "n_patients": "30",
+                "or_other_data": "PR 33%, SD 20%; median duration of response 8 months [160]"
+            },
+            "notes": "Imatinib has activity in HIV-related Kaposi sarcoma [158-160]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II single-arm study",
+                "phase": "II",
+                "n_patients": "18",
+                "or_other_data": "ORR 87%; 6-month PFS rate 76.5% [161]"
+            },
+            "notes": "Ipilimumab plus Nivolumab is an option for relapsed or refractory classical Kaposi sarcoma. Should not be used in patients with MCD or KICS [KS-F footnote i]."
+        },
+        {
+            "regimen_name": "Lenalidomide",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg/day",
+                    "route": "PO",
+                    "schedule": "for 21 days of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AMC-070 trial",
+                "phase": "II",
+                "n_patients": "42",
+                "or_other_data": "PR 60% [73]"
+            },
+            "notes": "Lenalidomide has activity in relapsed/refractory HIV-related Kaposi sarcoma. Patients of childbearing potential require effective contraception per REMS program [KS-F footnote l], [71,73]."
+        },
+        {
+            "regimen_name": "Sirolimus",
+            "site": "Transplant-associated Kaposi sarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunosuppressant"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "0.15 mg/kg",
+                    "route": "PO",
+                    "schedule": "loading dose followed by 0.04–0.06 mg/kg/day to maintain trough blood levels of 6–10 ng/mL or 2 mg PO daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Sirolimus may be used for relapsed or refractory transplant-associated Kaposi sarcoma. Consultation with ID pharmacist for PWH on ART is recommended [KS-F footnote e]."
+        },
+        {
+            "regimen_name": "Thalidomide",
+            "site": "Kaposi sarcoma with immune reconstitution inflammatory syndrome (IRIS)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Thalidomide",
+                    "dose": "200 mg/day",
+                    "route": "PO",
+                    "schedule": "orally, starting dose titrated to effect and tolerability"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "17",
+                "or_other_data": "PR 47%, SD 12%; median time to progression 7.3 months [162]"
+            },
+            "notes": "Thalidomide can be considered for patients with Kaposi sarcoma and corticosteroid-refractory IRIS. It is an active agent against both KS and IRIS. Patients of childbearing potential require effective contraception per REMS program [KS-F footnote l], [70,162,163]."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Relapsed or refractory Kaposi sarcoma",
+            "setting": "Subsequent systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "35",
+                "or_other_data": "CR 9%, PR 34%; median duration of response 6 months [164]"
+            },
+            "notes": "Vinorelbine is an effective and safe drug for AIDS-related Kaposi sarcoma [164]."
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin + Rituximab",
+            "site": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "First-line for KICS",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 to 3 weeks"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "not specified",
+                    "route": "IV",
+                    "schedule": "not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred for KICS",
+            "trial_data": null,
+            "notes": "This is the preferred regimen for KICS. Liposomal Doxorubicin as KS-directed therapy with Rituximab has resulted in control of KICS. Rituximab and hyaluronidase human injection for subcutaneous use may be substituted after the first full IV dose [KICS-1 footnote d]. Steroids should generally be avoided [KICS-1 footnote b]."
+        },
+        {
+            "regimen_name": "Alternative KS-directed systemic therapies + Rituximab",
+            "site": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "First-line for KICS",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alternative KS-directed systemic therapy",
+                    "dose": "varies",
+                    "route": "varies",
+                    "schedule": "varies"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "not specified",
+                    "route": "IV",
+                    "schedule": "not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended for KICS",
+            "trial_data": null,
+            "notes": "Alternative KS-directed systemic therapies (e.g., those listed for relapsed/refractory KS) plus Rituximab may be considered. In mild cases, KS-directed therapy alone may be sufficient, and Rituximab may be added later if inadequate response. Because flares of KS may occur due to prolonged Rituximab effect, KS-directed therapy should be continued for at least 3 months after cessation of Rituximab [KICS-1 footnote f]."
+        },
+        {
+            "regimen_name": "Tocilizumab",
+            "site": "Refractory KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "Subsequent therapy for refractory KICS",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tocilizumab",
+                    "dose": "not specified",
+                    "route": "IV",
+                    "schedule": "not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances for refractory KICS",
+            "trial_data": null,
+            "notes": "Tocilizumab blocks the IL-6 receptor but not the portion bound by viral IL-6. It may be added to KS-directed therapy for refractory KICS [KICS-1 footnote e]."
+        },
+        {
+            "regimen_name": "Siltuximab",
+            "site": "Refractory KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "Subsequent therapy for refractory KICS",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Siltuximab",
+                    "dose": "not specified",
+                    "route": "IV",
+                    "schedule": "not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances for refractory KICS",
+            "trial_data": null,
+            "notes": "Siltuximab binds to human IL-6, preventing it from activating the IL-6 receptor. It may be added to KS-directed therapy for refractory KICS [KICS-1 footnote e]."
+        },
+        {
+            "regimen_name": "Topical Alitretinoin 0.1% Gel",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "topical therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alitretinoin 0.1% gel",
+                    "dose": "0.1% gel",
+                    "route": "topical",
+                    "schedule": "apply 2 times daily to affected skin sites; increase to 3–4 times daily if tolerated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": {
+                "trial_name": "Phase III vehicle-controlled study",
+                "phase": "III",
+                "n_patients": "134",
+                "or_other_data": "Cutaneous tumor response rate 37% for alitretinoin vs 7% for vehicle [74]"
+            },
+            "notes": "Alitretinoin gel is a retinoid option for limited cutaneous Kaposi sarcoma. It was well tolerated with mostly mild to moderate adverse events limited to the application site [74,75]."
+        },
+        {
+            "regimen_name": "Topical Imiquimod 5% Cream",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "topical therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imiquimod 5% cream",
+                    "dose": "5% cream",
+                    "route": "topical",
+                    "schedule": "apply one sachet to up to 20 cm2 of affected skin and cover with occlusive dressing for 8 hours three times per week; titrate frequency to effect and tolerability (up to once daily)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": {
+                "trial_name": "Phase I to II open-label trial",
+                "phase": "I/II",
+                "n_patients": "17",
+                "or_other_data": "Response rate 47% in HIV-negative patients [88]"
+            },
+            "notes": "Imiquimod is a topical immune response modulator. Evidence is primarily from classic and transplant-associated Kaposi sarcoma; extrapolated to HIV-related KS based on expert opinion [82,88,89]."
+        },
+        {
+            "regimen_name": "Intralesional Vinblastine",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": "0.2 mg/mL solution",
+                    "route": "intralesional",
+                    "schedule": "0.1 mL per 0.5 cm2 of lesion"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": {
+                "trial_name": "Large series of oral KS",
+                "phase": "II",
+                "n_patients": "50",
+                "or_other_data": "CR 74%, PR 26% of lesions; recurrence rate 26% [104]"
+            },
+            "notes": "Intralesional Vinblastine is effective for oral and cutaneous Kaposi sarcoma. Pain from injection is common and may persist for several days; NSAIDs may be useful. Use with caution on plantar and palmar surfaces [101-107]."
+        },
+        {
+            "regimen_name": "Intralesional Bleomycin",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "1.5 to 3 units/mL solution",
+                    "route": "intralesional",
+                    "schedule": "0.5 unit per 0.5 cm2 of lesion every 3 to 4 weeks until response"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": {
+                "trial_name": "Small trial of cutaneous KS",
+                "phase": "II",
+                "n_patients": "15",
+                "or_other_data": "CR 43%, PR 44% of lesions [113]"
+            },
+            "notes": "Intralesional Bleomycin has activity in cutaneous Kaposi sarcoma. Local pain may occur [111-113]."
+        },
+        {
+            "regimen_name": "Cryotherapy",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "local therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": {
+                "trial_name": "Small study",
+                "phase": "II",
+                "n_patients": "30",
+                "or_other_data": "CR without recurrence in 63% of patients [120]"
+            },
+            "notes": "Cryotherapy should be done by clinicians with expertise in cutaneous cancer cryotherapy. It is most effective for non-nodular, smaller lesions (<1 cm) [87,120]."
+        },
+        {
+            "regimen_name": "Marginal Excision",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": null,
+            "notes": "Marginal excision is an option for local control of small lesions. Wide excision is not indicated as it does not contribute to control of Kaposi sarcoma [114-118]."
+        },
+        {
+            "regimen_name": "Electrodesiccation and Curettage",
+            "site": "Limited cutaneous Kaposi sarcoma",
+            "setting": "First-line for symptomatic or cosmetically bothersome limited cutaneous disease",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended local therapy",
+            "trial_data": null,
+            "notes": "Electrodesiccation and curettage is an option for local control of small, symptomatic lesions. Data are extremely limited [119]."
+        },
+        {
+            "regimen_name": "Radiation Therapy",
+            "site": "Kaposi sarcoma (limited cutaneous or advanced disease when systemic therapy not feasible)",
+            "setting": "First-line or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended therapy",
+            "trial_data": null,
+            "notes": "Radiation therapy options include various fractionation schemas: 6–8 Gy in 1 fraction, 20 Gy in 5 fractions, 24 Gy in 12 fractions, 30 Gy in 10–15 fractions, 40 Gy in 20 fractions. Lower doses for smaller superficial lesions; higher doses for extensive deep lesions. Caution with pre-existing lymphedema. For advanced disease, systemic therapy is preferred over RT [KS-E references 1-5]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.684940"
+}

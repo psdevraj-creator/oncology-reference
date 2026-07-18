@@ -1,0 +1,872 @@
+{
+    "site_id": "bladder",
+    "site_display_name": "Bladder Cancer",
+    "archetype": "E",
+    "regimen_count": 31,
+    "regimens": [
+        {
+            "regimen_name": "Immediate postoperative intravesical chemotherapy",
+            "site": "Bladder",
+            "setting": "Immediate post-TURBT",
+            "treatment_modality": [
+                "intravesical chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "unknown",
+                    "route": "intravesical",
+                    "schedule": "single instillation within 24 hours of TURBT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "SWOG S0337",
+                "phase": "III",
+                "n_patients": "406",
+                "key_outcomes": "Reduced recurrence (HR 0.66; 95% CI, 0.48–0.90; P < .001)"
+            },
+            "notes": "Reduces 5-year recurrence rate by approximately 35%. Most efficacious in low-grade, low-volume Ta urothelial cancer. Contraindicated if bladder perforation or known drug allergy. [1,14]"
+        },
+        {
+            "regimen_name": "Intravesical BCG induction and maintenance therapy",
+            "site": "Bladder",
+            "setting": "Adjuvant/Induction for BCG-naive high-risk NMIBC",
+            "treatment_modality": [
+                "intravesical immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "BCG",
+                    "dose": "unknown",
+                    "route": "intravesical",
+                    "schedule": "weekly instillations for 6 weeks, followed by maintenance at months 3, 6, 12, 18, 24, 30, and 36"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "SWOG 8507",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Reduced disease progression and metastasis"
+            },
+            "notes": "Category 1 for BCG-naive high-risk NMIBC without very-high-risk features. Maintenance ideally given for 3 years for high-risk disease. Data support decreased rate of recurrence. [4,74,78]"
+        },
+        {
+            "regimen_name": "Neoadjuvant DDMVAC chemotherapy",
+            "site": "Bladder",
+            "setting": "Neoadjuvant for muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "DDMVAC",
+                    "dose": "dose-dense schedule",
+                    "route": "IV",
+                    "schedule": "3–6 cycles with growth factor support"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "EORTC 30924",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "DDMVAC better tolerated and more effective than conventional MVAC in advanced disease"
+            },
+            "notes": "Preferred regimen for perioperative treatment of muscle-invasive bladder cancer based on VESPER trial results. Improved complete response rate and toxicity profile compared to standard MVAC. [2,11,171]"
+        },
+        {
+            "regimen_name": "Neoadjuvant Cisplatin/Gemcitabine chemotherapy",
+            "site": "Bladder",
+            "setting": "Neoadjuvant for muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75-100 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000-1250 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1 and 8 of 21-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Multiple phase II studies",
+                "phase": "II",
+                "n_patients": "various",
+                "key_outcomes": "Effective and well-tolerated as neoadjuvant therapy"
+            },
+            "notes": "21-day cycle preferred for better dose adherence. Reasonable alternative to DDMVAC based on category 1 evidence for metastatic disease showing equivalence to conventional MVAC. [3,4,12]"
+        },
+        {
+            "regimen_name": "Perioperative Cisplatin/Gemcitabine + Durvalumab",
+            "site": "Bladder",
+            "setting": "Perioperative/Sandwich therapy for muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75-100 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000-1250 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1 and 8 of 21-day cycle"
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "with chemotherapy for 4 cycles prior to cystectomy, then alone for 8 cycles after cystectomy"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "NIAGARA",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Improved event-free survival"
+            },
+            "notes": "Category 1 for bladder cancer only. [5]"
+        },
+        {
+            "regimen_name": "Perioperative Enfortumab vedotin-ejfv + Pembrolizumab",
+            "site": "Bladder",
+            "setting": "Perioperative/Sandwich therapy for cisplatin-ineligible muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "antibody-drug conjugate",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Enfortumab vedotin-ejfv",
+                    "dose": "1.25 mg/kg",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 of 21-day cycle for 3 cycles preoperatively, then 6 cycles postoperatively"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle for 3 cycles preoperatively, then 14 cycles postoperatively"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-905",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Improved pathologic downstaging"
+            },
+            "notes": "Only for cisplatin-ineligible patients. [6]"
+        },
+        {
+            "regimen_name": "Adjuvant Nivolumab",
+            "site": "Bladder",
+            "setting": "Adjuvant for muscle-invasive bladder cancer with previous neoadjuvant therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks for up to 1 year"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 274",
+                "phase": "III",
+                "n_patients": "709",
+                "key_outcomes": "Improved disease-free survival (HR 0.70; 98.22% CI, 0.55–0.90; P < .001)"
+            },
+            "notes": "Category 1. Most appropriate for patients who value an opportunity to delay recurrence even if the chance of cure was not improved, and for whom the risk of side effects was acceptable. Also indicated for adjuvant therapy after radical surgery for high-risk muscle-invasive urothelial carcinoma. [7]"
+        },
+        {
+            "regimen_name": "Adjuvant Pembrolizumab",
+            "site": "Bladder",
+            "setting": "Adjuvant for muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 1 year"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "AMBASSADOR",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Improved disease-free survival"
+            },
+            "notes": "Category 1. Most appropriate for patients who value an opportunity to delay recurrence even if the chance of cure was not improved, and for whom the risk of side effects was acceptable. [8]"
+        },
+        {
+            "regimen_name": "Atezolizumab if ctDNA-MRD positive",
+            "site": "Bladder",
+            "setting": "Adjuvant for muscle-invasive bladder cancer",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ctDNA-MRD",
+                    "requirement": "Positive within 1 year post-cystectomy as determined by an FDA-approved, personalized, tumor-informed multiplex PCR-NGS assay",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "IMvigor011",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Improved disease-free survival in ctDNA-positive patients"
+            },
+            "notes": "Category 1. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab. [43]"
+        },
+        {
+            "regimen_name": "First-line Enfortumab vedotin-ejfv + Pembrolizumab",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "antibody-drug conjugate",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Enfortumab vedotin-ejfv",
+                    "dose": "1.25 mg/kg",
+                    "route": "IV",
+                    "schedule": "days 1, 8, 15 of 21-day cycle"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "EV-302",
+                "phase": "III",
+                "n_patients": "886",
+                "key_outcomes": "Improved PFS (12.5 vs 6.3 months; HR 0.45; 95% CI, 0.38–0.54; P < .001) and OS (31.5 vs 16.1 months; HR 0.47; 95% CI, 0.38–0.58; P < .001)"
+            },
+            "notes": "Category 1. Preferred regardless of cisplatin eligibility. [13,14,260]"
+        },
+        {
+            "regimen_name": "First-line Cisplatin/Gemcitabine",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75-100 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000-1250 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1 and 8 of 21-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "von der Maase et al.",
+                "phase": "III",
+                "n_patients": "405",
+                "key_outcomes": "Similar OS and PFS to MVAC with lower toxicity"
+            },
+            "notes": "Category 1. Followed by Avelumab maintenance therapy if no progression. [4,198,255]"
+        },
+        {
+            "regimen_name": "First-line Cisplatin/Gemcitabine + Nivolumab",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1 and 8 of 21-day cycle"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "360 mg",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle, followed by nivolumab 240 mg every 2 weeks maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 901",
+                "phase": "III",
+                "n_patients": "608",
+                "key_outcomes": "Improved OS (21.7 vs 18.9 months; HR 0.78; 95% CI, 0.63–0.96; P = .02)"
+            },
+            "notes": "Category 1. [16,261]"
+        },
+        {
+            "regimen_name": "First-line DDMVAC followed by Avelumab maintenance",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "DDMVAC",
+                    "dose": "dose-dense schedule",
+                    "route": "IV",
+                    "schedule": "with growth factor support"
+                },
+                {
+                    "name": "Avelumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "EORTC 30924 and JAVELIN Bladder 100",
+                "phase": "III",
+                "n_patients": "unknown",
+                "key_outcomes": "Avelumab maintenance improved OS (median 21.4 vs 14.3 months; HR 0.69; 95% CI, 0.56–0.86; P = .001)"
+            },
+            "notes": "Category 1 for both components. [2,11,15,171,282]"
+        },
+        {
+            "regimen_name": "First-line Pembrolizumab (platinum-ineligible)",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-052",
+                "phase": "II",
+                "n_patients": "370",
+                "key_outcomes": "ORR 28.6%, median OS 11.3 months"
+            },
+            "notes": "Only for patients not eligible for any platinum-containing chemotherapy. [18,262,263]"
+        },
+        {
+            "regimen_name": "First-line Atezolizumab (platinum-ineligible)",
+            "site": "Bladder",
+            "setting": "First-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "SP142 assay, PD-L1-stained tumor-infiltrating immune cells covering ≥5% of the tumor area",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "IMvigor210",
+                "phase": "II",
+                "n_patients": "119",
+                "key_outcomes": "ORR 23%, median OS 15.9 months"
+            },
+            "notes": "Only for patients whose tumors express PD-L1 or who are not eligible for any platinum-containing chemotherapy regardless of PD-L1 expression. Indication withdrawn by manufacturer but maintained by NCCN Panel. [19,268]"
+        },
+        {
+            "regimen_name": "Second-line Pembrolizumab (post-platinum)",
+            "site": "Bladder",
+            "setting": "Second-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "KEYNOTE-045",
+                "phase": "III",
+                "n_patients": "542",
+                "key_outcomes": "Improved OS (10.3 vs 7.4 months; P = .002)"
+            },
+            "notes": "Category 1. [23,284]"
+        },
+        {
+            "regimen_name": "Second-line Erdafitinib (FGFR3-altered)",
+            "site": "Bladder",
+            "setting": "Subsequent-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erdafitinib",
+                    "dose": "8 mg PO daily",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FGFR3",
+                    "requirement": "Susceptible genomic alterations",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "biomarker-directed",
+            "trial_data": {
+                "trial_name": "THOR",
+                "phase": "III",
+                "n_patients": "266",
+                "key_outcomes": "Improved OS (12.1 vs 7.8 months; HR 0.64; 95% CI, 0.47–0.88; P = .005)"
+            },
+            "notes": "Category 1 for patients who have already received platinum and a checkpoint inhibitor if eligible. FDA indication specifies not recommended for patients eligible for and not received prior PD-1 or PD-L1 inhibitor therapy, but NCCN retains recommendation. [33,293]"
+        },
+        {
+            "regimen_name": "Second-line Fam-trastuzumab deruxtecan-nxki (HER2-positive)",
+            "site": "Bladder",
+            "setting": "Subsequent-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "IHC 3+ or IHC 2+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "biomarker-directed",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "II",
+                "n_patients": "41",
+                "key_outcomes": "ORR 39.0%, median PFS 7.0 months, median OS 12.8 months"
+            },
+            "notes": "Pan-tumor indication utilizes IHC 3+ but may be useful for HER2-positive, IHC 2+ patients without other satisfactory options. Gastric IHC scoring recommended. [34,303]"
+        },
+        {
+            "regimen_name": "Gemcitabine intravesical system (TAR-200)",
+            "site": "Bladder",
+            "setting": "Treatment for BCG-unresponsive high-risk NMIBC with CIS",
+            "treatment_modality": [
+                "intravesical chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine intravesical system",
+                    "dose": "unknown",
+                    "route": "intravesical",
+                    "schedule": "unknown"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "SunRISe-1",
+                "phase": "IIb",
+                "n_patients": "85",
+                "key_outcomes": "ORR 82.4%, median DOR 25.8 months"
+            },
+            "notes": "Indicated for BCG-unresponsive NMIBC with CIS, with or without papillary tumors. [103]"
+        },
+        {
+            "regimen_name": "Nadofaragene firadenovec-vncg",
+            "site": "Bladder",
+            "setting": "Treatment for BCG-unresponsive high-risk NMIBC with CIS",
+            "treatment_modality": [
+                "gene therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nadofaragene firadenovec-vncg",
+                    "dose": "75 × 10^11 viral particles",
+                    "route": "intravesical",
+                    "schedule": "every 3 months for up to 1 year"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Phase III",
+                "phase": "III",
+                "n_patients": "157",
+                "key_outcomes": "12-month complete response rate 24.3% (95% CI, 16.4-33.7)"
+            },
+            "notes": "Non-replicating adenoviral vector-based gene therapy. [104,105]"
+        },
+        {
+            "regimen_name": "N-803 (Nogapendekin alfa inbakicept-pmln) plus BCG",
+            "site": "Bladder",
+            "setting": "Treatment for BCG-unresponsive high-risk NMIBC with CIS",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "N-803",
+                    "dose": "unknown",
+                    "route": "intravesical",
+                    "schedule": "with BCG"
+                },
+                {
+                    "name": "BCG",
+                    "dose": "unknown",
+                    "route": "intravesical",
+                    "schedule": "with N-803"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "QUILT-3.032",
+                "phase": "II/III",
+                "n_patients": "82",
+                "key_outcomes": "Complete response 71%, median duration of complete response 26.6 months"
+            },
+            "notes": "Immune cell-activating interleukin-15 superagonist. [107,108]"
+        },
+        {
+            "regimen_name": "Pembrolizumab for BCG-unresponsive NMIBC",
+            "site": "Bladder",
+            "setting": "Treatment for BCG-unresponsive high-risk NMIBC with CIS",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-057",
+                "phase": "II",
+                "n_patients": "96",
+                "key_outcomes": "12-month complete response rate 19%"
+            },
+            "notes": "Caution due to greater risk of systemic and potential persistent toxicities. [109,110]"
+        },
+        {
+            "regimen_name": "Mitomycin gel (UGN-101) for low-grade UTUC",
+            "site": "Upper Urinary Tract",
+            "setting": "Primary therapy for low-grade upper tract urothelial carcinoma",
+            "treatment_modality": [
+                "intravesical chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitomycin for pyelocaliceal solution",
+                    "dose": "unknown",
+                    "route": "retrograde ureteral catheter or nephrostomy tube",
+                    "schedule": "6 weekly instillations"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "OLYMPUS",
+                "phase": "3",
+                "n_patients": "71",
+                "key_outcomes": "Complete response rate 59% (95% CI, 47–71%; P < .0001)"
+            },
+            "notes": "Most suitable for residual, low-grade, low-volume (5–15 mm), solitary tumor in the upper urinary tract for a patient not a candidate for nephroureterectomy. Complete or near complete endoscopic resection or ablation recommended prior to gel application. [340,341]"
+        },
+        {
+            "regimen_name": "Adjuvant Gemcitabine/Cisplatin for UTUC",
+            "site": "Upper Urinary Tract",
+            "setting": "Adjuvant therapy after nephroureterectomy for pT2-4 or pN1-3 UTUC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "days 1 and 8 of 21-day cycle"
+                },
+                {
+                    "name": "Cisplatin or Carboplatin",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "day 1 of 21-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "POUT",
+                "phase": "3",
+                "n_patients": "261",
+                "key_outcomes": "Improved DFS (HR 0.45; 95% CI, 0.30–0.68; P = .0001)"
+            },
+            "notes": "For pT2-4 or pN1-3, M0 UTUC after nephroureterectomy. [344]"
+        },
+        {
+            "regimen_name": "Concurrent chemoradiotherapy for bladder preservation",
+            "site": "Bladder",
+            "setting": "Primary treatment for stage II or IIIA bladder cancer",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                },
+                {
+                    "name": "Mitomycin C",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "low-dose",
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "BC2001 and RTOG trials",
+                "phase": "III",
+                "n_patients": "various",
+                "key_outcomes": "Complete response rates 59% to 88%"
+            },
+            "notes": "Category 1. Optimal for patients with solitary tumors, negative nodes, no extensive or multifocal CIS, no moderate/severe hydronephrosis, and good pre-treatment bladder function. [218-231]"
+        },
+        {
+            "regimen_name": "Cystectomy alone",
+            "site": "Bladder",
+            "setting": "Primary treatment for stage II or IIIA bladder cancer (cisplatin-ineligible)",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "Appropriate for patients not eligible for cisplatin-based chemotherapy. Patients with cN1 disease have better outcomes if given neoadjuvant chemotherapy and have a response. [163]"
+        },
+        {
+            "regimen_name": "TURBT alone as primary treatment",
+            "site": "Bladder",
+            "setting": "Primary treatment for stage II bladder cancer (select cases)",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "May be curative in selected cases with solitary lesions <2 cm, minimal muscle invasion, no associated CIS, palpable mass, or hydronephrosis. [147,148,234]"
+        },
+        {
+            "regimen_name": "Platinum rechallenge",
+            "site": "Bladder",
+            "setting": "Second-line for locally advanced or metastatic urothelial carcinoma",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Platinum-based chemotherapy",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "unknown"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "If PFS >12 months after platinum, consider re-treatment if patient still platinum eligible. [304,305]"
+        },
+        {
+            "regimen_name": "Metastasectomy",
+            "site": "Various",
+            "setting": "Oligometastatic disease after response to systemic therapy",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "Consider in highly select patients with oligometastatic disease without evidence of rapid progression, favorable response to systemic therapy, solitary metastatic lesions, and lung or lymph node sites. [239-249]"
+        },
+        {
+            "regimen_name": "Adjuvant Radiation Therapy",
+            "site": "Bladder",
+            "setting": "Adjuvant for pT3-4, pN0-2 urothelial bladder cancer after radical cystectomy",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "Consider for patients with positive nodes or margins at time of surgery. Dose 45 to 50.4 Gy, with boost to 54–60 Gy for involved margins or extranodal extension if feasible. [203-205]"
+        },
+        {
+            "regimen_name": "Systemic therapy for small cell carcinoma of the bladder",
+            "site": "Bladder",
+            "setting": "Neoadjuvant or metastatic for small cell carcinoma",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide/Doxorubicin alternating with Etoposide/Cisplatin",
+                    "dose": "unknown",
+                    "route": "IV",
+                    "schedule": "alternating regimens"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {},
+            "notes": "Data support neoadjuvant chemotherapy for small cell bladder cancer. Alternatively, use regimens from NCCN Guidelines for Small Cell Lung Cancer. [317-321]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.536317"
+}

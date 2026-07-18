@@ -1,0 +1,794 @@
+{
+    "site_id": "merkel",
+    "site_display_name": "Merkel Cell Carcinoma",
+    "archetype": "C",
+    "regimen_count": 30,
+    "regimens": [
+        {
+            "regimen_name": "Avelumab",
+            "site": "Primary locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-L1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Avelumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "JAVELIN Merkel 200 (Part B)",
+                "phase": "Phase 2",
+                "n_patients": "116",
+                "os": "median 20.3 months",
+                "pfs": "median 4.1 months",
+                "orr": "39.7%",
+                "hr": null
+            },
+            "notes": "Data from non-randomized trials demonstrate improved durable response rates with PD-1/PD-L1 blockade compared to cytotoxic therapy. Avelumab is an anti-PD-L1 monoclonal antibody. Real-world outcomes include ORR 73%, median PFS 24.4 months, and median OS 30.7 months [1,2]. Four-year OS rate was 38%; PD-L1 positive tumors had longer median OS (38.7 months) vs. PD-L1 negative (16.1 months) [3]."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Primary locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II single-arm trial",
+                "phase": "Phase 2",
+                "n_patients": "50",
+                "os": "median not reached; 3-year OS 59.4%",
+                "pfs": "median 16.8 months",
+                "orr": "58%",
+                "hr": null
+            },
+            "notes": "Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Complete response rate was 30% [4]."
+        },
+        {
+            "regimen_name": "Retifanlimab-dlwr",
+            "site": "Primary locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "POD1UM-201",
+                "phase": "Phase 2",
+                "n_patients": "65 (chemotherapy-naïve subset)",
+                "os": null,
+                "pfs": null,
+                "orr": "46.2%",
+                "hr": null
+            },
+            "notes": "For chemotherapy-naïve patients, complete response was 12.3% and disease control rate was 53.8% [5]."
+        },
+        {
+            "regimen_name": "Neoadjuvant Nivolumab",
+            "site": "Primary locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase 1/2",
+                "n_patients": "39",
+                "os": "median not reached",
+                "pfs": "median not reached",
+                "orr": null,
+                "hr": null
+            },
+            "notes": "For patients who are surgical candidates. Pathologic complete response (pCR) was 47.2% in 36 patients who underwent surgery. 54.5% of radiographically evaluable patients had tumor reductions ≥30% [6]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV Nivolumab."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Recurrent locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null
+            },
+            "notes": "Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab."
+        },
+        {
+            "regimen_name": "Retifanlimab-dlwr",
+            "site": "Recurrent locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "POD1UM-201",
+                "phase": "Phase 2",
+                "n_patients": "65 (chemotherapy-naïve subset)",
+                "os": null,
+                "pfs": null,
+                "orr": "46.2%",
+                "hr": null
+            },
+            "notes": "For chemotherapy-naïve patients [5]."
+        },
+        {
+            "regimen_name": "Avelumab",
+            "site": "Recurrent locally advanced MCC (N0) when curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-L1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Avelumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null
+            },
+            "notes": null
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Primary regional disease (N+) if curative surgery and curative RT not feasible",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "Phase 1/2",
+                "n_patients": "22 (treatment-naïve)",
+                "os": null,
+                "pfs": null,
+                "orr": "71%",
+                "hr": null
+            },
+            "notes": "Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV Nivolumab. In treatment-naïve patients, complete response was 21%, partial response 50% [7]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Primary regional disease (N+) if curative surgery and curative RT not feasible",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "CTLA-4 inhibitor",
+                "PD-1 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II randomized trial",
+                "phase": "Phase 2",
+                "n_patients": "50 (22 ICI-naïve)",
+                "os": null,
+                "pfs": null,
+                "orr": "100% (ICI-naïve); 31% (ICI-exposed)",
+                "hr": null
+            },
+            "notes": "Ipilimumab + Nivolumab is particularly indicated for disease that is refractory to PD-1 therapy. Complete response rate was 41% in ICI-naïve patients [8,9]. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV Ipilimumab."
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For recurrent regional disease only. Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [11]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For recurrent regional disease only. Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [11]."
+        },
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For recurrent regional disease only [12,13]."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For recurrent regional disease only [12,13]."
+        },
+        {
+            "regimen_name": "CAV (Cyclophosphamide/Doxorubicin [or Epirubicin]/Vincristine)",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [14]."
+        },
+        {
+            "regimen_name": "Ipilimumab",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "immunotherapy",
+                "CTLA-4 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [15]."
+        },
+        {
+            "regimen_name": "Octreotide long-acting release (LAR)",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "hormone therapy",
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide long-acting release (LAR)",
+                    "dose": null,
+                    "route": "IM",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Somatostatin receptor",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Somatostatin analog therapy if somatostatin receptor testing is positive. In a phase II study (N=58), disease was stabilized for ≥6 months in 47% [16]."
+        },
+        {
+            "regimen_name": "Pazopanib",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "targeted therapy",
+                "tyrosine kinase inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [17]."
+        },
+        {
+            "regimen_name": "Topotecan",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [18]."
+        },
+        {
+            "regimen_name": "T-VEC (Intralesional Talimogene Laherparepvec)",
+            "site": "Recurrent regional disease N+ or in-transit disease if curative surgery and curative RT not feasible",
+            "setting": "Recurrent",
+            "treatment_modality": [
+                "oncolytic virus therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talimogene laherparepvec",
+                    "dose": null,
+                    "route": "Intralesional",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For palliation of injectable sites. Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy. Case reports show complete response in PD-1 refractory locoregional disease [19]."
+        },
+        {
+            "regimen_name": "Carboplatin",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [11]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [11]."
+        },
+        {
+            "regimen_name": "Cisplatin",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [12,13]."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [12,13]."
+        },
+        {
+            "regimen_name": "CAV (Cyclophosphamide/Doxorubicin [or Epirubicin]/Vincristine)",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [14]."
+        },
+        {
+            "regimen_name": "Ipilimumab",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "immunotherapy",
+                "CTLA-4 inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [15]."
+        },
+        {
+            "regimen_name": "Octreotide long-acting release (LAR)",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "hormone therapy",
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide long-acting release (LAR)",
+                    "dose": null,
+                    "route": "IM",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Somatostatin receptor",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Somatostatin analog therapy if somatostatin receptor testing is positive. In a phase II study (N=58), disease was stabilized for ≥6 months in 47% [16]."
+        },
+        {
+            "regimen_name": "Pazopanib",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "targeted therapy",
+                "tyrosine kinase inhibitor"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy. Case series (N=5) showed 1 complete response and 4 disease stabilizations [17]."
+        },
+        {
+            "regimen_name": "Topotecan",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy [18]."
+        },
+        {
+            "regimen_name": "T-VEC (Intralesional Talimogene Laherparepvec)",
+            "site": "Disseminated disease M1",
+            "setting": "Second-line and beyond",
+            "treatment_modality": [
+                "oncolytic virus therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talimogene laherparepvec",
+                    "dose": null,
+                    "route": "Intralesional",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For palliation of injectable sites. Consider if anti-PD-L1 or anti-PD-1 therapy is contraindicated or disease has progressed on such therapy. Case reports show complete response in PD-1 refractory locoregional disease [19]."
+        },
+        {
+            "regimen_name": "T-VEC (Intralesional Talimogene Laherparepvec)",
+            "site": "In-transit disease",
+            "setting": "Palliative",
+            "treatment_modality": [
+                "oncolytic virus therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talimogene laherparepvec",
+                    "dose": null,
+                    "route": "Intralesional",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "For palliation of injectable sites. Consider if curative surgery and/or RT are not feasible [19]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.801724"
+}

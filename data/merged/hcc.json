@@ -1,0 +1,636 @@
+{
+    "site_id": "hcc",
+    "site_display_name": "HCC",
+    "archetype": "C",
+    "regimen_count": 24,
+    "regimens": [
+        {
+            "regimen_name": "Surgical Resection",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Potentially curative for localized disease",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Partial hepatectomy is indicated for patients with adequate liver function (generally CTP Class A without portal hypertension), solitary mass without major vascular invasion, and adequate future liver remnant (≥20% without cirrhosis, ≥30-40% with CTP Class A cirrhosis). Liver resection is controversial in patients with limited multifocal disease or major vascular invasion but can be considered in highly selected situations. Preoperative portal vein embolization should be considered for patients with chronic liver disease being considered for major resection. Patients with initially unresectable disease responding to therapy can be considered for surgery after multidisciplinary consultation. Minimally invasive approaches have been proven safe and effective."
+        },
+        {
+            "regimen_name": "Liver Transplantation",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Potentially curative for selected early-stage disease",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Liver transplantation is recommended for patients meeting UNOS criteria (AFP ≤1000 ng/mL, single lesion ≥2 cm and ≤5 cm, or 2-3 lesions ≥1 cm and ≤3 cm, no macrovascular involvement or extrahepatic disease). Extended criteria are available through UNOS. Patients should be referred to a liver transplant center. Bridge therapy as indicated is recommended to decrease tumor progression and dropout rate while on the transplant waiting list. Patients with tumor characteristics marginally outside UNOS criteria may be considered for transplantation at select institutions. Patients who have undergone successful downstaging therapy (tumor currently meeting Milan criteria) can also be considered."
+        },
+        {
+            "regimen_name": "Ablation (RFA/MWA/PEI)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Curative-intent for small tumors; also bridge/downstage therapy",
+            "treatment_modality": [
+                "locoregional therapy",
+                "ablation"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Ablation (microwave/radiofrequency or percutaneous ethanol injection) is preferred locoregional therapy for small, properly located tumors. In well-selected patients with tumors ≤3 cm, ablation should be considered as definitive curative-intent treatment when performed at experienced centers. Local control diminishes for tumors 3-5 cm and may require combination approaches. Ablation is not recommended for tumors >5 cm. Percutaneous ethanol injection should be limited to tumors <3 cm and depends on institutional experience. Efficacy of thermal ablation is directly related to tumor size."
+        },
+        {
+            "regimen_name": "Transarterial Chemoembolization (TACE)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "For unresectable, liver-confined disease",
+            "treatment_modality": [
+                "locoregional therapy",
+                "arterially directed therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Transarterial chemoembolization (conventional TACE or TACE with drug-eluting beads [DEB-TACE]) is an arterially directed therapy for unresectable HCC. All arterially directed therapies are relatively contraindicated in patients with bilirubin >3 mg/dL unless segmental treatment can be performed. TACE is not recommended in those with CTP Class C liver function (absolute contraindication). TACE may be safe in highly selected patients with limited portal vein tumor invasion. Systemic therapy may be appropriate following TACE if there is evidence of residual/recurrent tumor not amenable to additional local therapies."
+        },
+        {
+            "regimen_name": "Transarterial Radioembolization (TARE) with Y-90 Microspheres",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "For unresectable, liver-confined disease",
+            "treatment_modality": [
+                "locoregional therapy",
+                "arterially directed therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "TARE with Y-90 microspheres is an arterially directed therapy. Delivery of ≥205 Gy to the tumor may be associated with increased overall survival. A dose of >400 Gy to ≤25% of the liver in patients with CTP Class A liver function is recommended. For anatomically limited disease, radiation segmentectomy with Y-90 or ablative dose SBRT should be considered. TARE has an increased risk of radiation-induced liver disease in patients with bilirubin >2 mg/dL. Randomized trials show TARE is not superior to sorafenib for treating advanced HCC but may be appropriate for patients with segmental or lobar portal vein thrombosis."
+        },
+        {
+            "regimen_name": "Stereotactic Body Radiation Therapy (SBRT)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "For unresectable, liver-confined disease",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "SBRT can be considered as an alternative to ablation/embolization techniques or when these therapies have not been successful or are contraindicated. SBRT (typically 3-5 fractions) can be utilized for patients with 1 to 5 tumors, assuming there is sufficient uninvolved liver and liver radiation tolerance can be respected. Doses ranging between 27.5–60 Gy (in 3-5 fractions; BED10 >72 Gy) is preferred if dose constraints can be met. The majority of data arises from patients with CTP Class A liver disease with growing experience in patients with CTP B7; safety data are limited for CTP B8 or poorer liver function. Safety of liver radiation in CTP Class C cirrhosis has not been established."
+        },
+        {
+            "regimen_name": "Atezolizumab + Bevacizumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IMbrave150",
+                "phase": "III",
+                "n_patients": "501",
+                "os": "19.2 vs 13.4 months (HR 0.66)",
+                "pfs": "6.9 vs 4.3 months (HR 0.65)",
+                "orr": "27.3% vs 11.9%"
+            },
+            "notes": "Category 1 preferred first-line option. Prior to initiation, patients should have adequate endoscopic evaluation and management for esophageal varices within approximately 6 months. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab. An FDA-approved biosimilar is an appropriate substitute for bevacizumab. Grade 3/4 treatment-related adverse events were reported in 43% of patients receiving the combination vs 46% with sorafenib."
+        },
+        {
+            "regimen_name": "Tremelimumab-actl + Durvalumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tremelimumab-actl",
+                    "dose": "300 mg",
+                    "route": "IV",
+                    "schedule": "Single dose"
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "HIMALAYA",
+                "phase": "III",
+                "n_patients": "1171",
+                "os": "16.4 vs 13.8 months (HR 0.78)",
+                "pfs": "Not significantly different"
+            },
+            "notes": "Category 1 preferred first-line option. The combination treatment significantly ameliorated OS compared to sorafenib. At 5 years, the HR for OS was 0.76 (95% CI, 0.65-0.89), with an OS rate of 19.6% for the combination vs 9.4% for sorafenib. Serious treatment-related adverse events were reported in 17.5% of patients treated with the combination vs 9.9% with sorafenib."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 9DW",
+                "phase": "III",
+                "n_patients": "N/A",
+                "os": "23.7 vs 20.6 months (HR 0.79)",
+                "orr": "36% vs 13%"
+            },
+            "notes": "Category 1 preferred first-line option (moved from Other recommended). Counsel regarding risk of immune-mediated toxicity and increased incidence of early death during the first 6 months of treatment based on CheckMate-9DW trial. The trial showed improved overall survival with the combination vs lenvatinib or sorafenib, though there was a higher rate of death in the combination arm during the first 6 months, and 29% of patients required high-dose steroids due to immune-mediated adverse events. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab."
+        },
+        {
+            "regimen_name": "Durvalumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "HIMALAYA",
+                "phase": "III",
+                "n_patients": "1171",
+                "os": "16.6 vs 13.8 months (HR 0.86)",
+                "pfs": "Not significantly different"
+            },
+            "notes": "Category 1 other recommended first-line option. Durvalumab monotherapy was noninferior to sorafenib. At 5 years, the HR for OS was 0.85 (95% CI, 0.73-1.00), with an OS rate of 14.4% for durvalumab vs 9.4% for sorafenib. Serious treatment-related adverse events occurred in 8.5% of patients treated with durvalumab vs 9.9% with sorafenib."
+        },
+        {
+            "regimen_name": "Lenvatinib",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "See prescribing information",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "REFLECT",
+                "phase": "III",
+                "n_patients": "954",
+                "os": "13.6 vs 12.3 months (HR 0.92)",
+                "pfs": "N/A"
+            },
+            "notes": "Category 1 other recommended first-line option. The trial was designed to demonstrate non-inferiority or superiority of lenvatinib; the prespecified boundary for non-inferiority was met. Lenvatinib is an inhibitor of VEGFR, fibroblast growth factor receptor, platelet-derived growth factor receptor (PDGFR), and other growth signaling kinases."
+        },
+        {
+            "regimen_name": "Sorafenib",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SHARP",
+                "phase": "III",
+                "n_patients": "602",
+                "os": "10.7 vs 7.9 months (HR 0.69)",
+                "pfs": "N/A"
+            },
+            "notes": "Category 1 other recommended first-line option. Median OS was significantly longer in the sorafenib arm. The Asia-Pacific phase III trial also showed similar HR (0.68) but lower median OS (6.5 vs 4.2 months). Sorafenib is an oral multikinase inhibitor that suppresses tumor cell proliferation and angiogenesis."
+        },
+        {
+            "regimen_name": "Tislelizumab-jsgr",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line systemic therapy for unresectable HCC",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "RATIONALE-301",
+                "phase": "III",
+                "n_patients": "N/A",
+                "os": "15.9 vs 14.1 months (HR 0.85)",
+                "orr": "14.3% vs 5.4%"
+            },
+            "notes": "Category 1 other recommended first-line option. Tislelizumab was noninferior to sorafenib in terms of OS. Median DOR was 36.1 months vs 11.0 months with sorafenib. Treatment-related adverse events grade 3 and higher occurred in 22.2% of tislelizumab patients vs 53.4% with sorafenib."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "First-line or subsequent-line systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended (first-line) / Useful in certain circumstances (subsequent-line)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-224",
+                "phase": "II",
+                "n_patients": "51",
+                "os": "17 months",
+                "orr": "16%"
+            },
+            "notes": "Category 2B other recommended first-line option. Pembrolizumab is a recommended treatment option for patients regardless of microsatellite instability (MSI) status. It is FDA-approved for MSI-high (MSI-H) tumors in the subsequent-line setting. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab, which has different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy after progression on sorafenib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Options",
+            "trial_data": {
+                "trial_name": "CELESTIAL",
+                "phase": "III",
+                "n_patients": "707",
+                "os": "10.2 vs 8.0 months (HR 0.76)",
+                "pfs": "5.2 vs 1.9 months (HR 0.44)",
+                "orr": "4% vs 0.4%"
+            },
+            "notes": "Category 1 option for subsequent-line therapy. Cabozantinib is an oral multikinase inhibitor with potent activity against VEGFR1-3 and MET among other targets. The benefits spanned across a range of AFP levels. On-treatment AFP response was higher in the cabozantinib arm and linked to longer OS and PFS."
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy after progression on sorafenib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily for the first 21 days of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Options",
+            "trial_data": {
+                "trial_name": "RESORCE",
+                "phase": "III",
+                "n_patients": "573",
+                "os": "10.6 vs 7.8 months (HR 0.63)",
+                "pfs": "3.1 vs 1.5 months (HR 0.46)",
+                "orr": "11% vs 4%"
+            },
+            "notes": "Category 1 option for subsequent-line therapy. Regorafenib is an oral multikinase inhibitor with activity against VEGFR1-3, PDGFRB, KIT, RET, RAF-1, and other growth signaling kinases. Patients must have progressed on sorafenib and tolerated sorafenib at a dose of 400 mg per day for at least 20 of the prior 28 days."
+        },
+        {
+            "regimen_name": "Ramucirumab (for AFP ≥400 ng/mL)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy after progression on sorafenib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ramucirumab",
+                    "dose": "8 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Alpha-fetoprotein (AFP)",
+                    "requirement": "≥400 ng/mL",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "REACH-2",
+                "phase": "III",
+                "n_patients": "292",
+                "os": "8.5 vs 7.3 months (HR 0.71)",
+                "pfs": "2.8 vs 1.6 months (HR 0.45)"
+            },
+            "notes": "Category 1 useful in certain circumstances option for subsequent-line therapy, indicated only for patients with baseline AFP ≥400 ng/mL. Ramucirumab is a monoclonal antibody against VEGFR2. A pooled analysis of REACH and REACH-2 showed median OS was 8.1 vs 5.0 months (HR 0.69) in patients with AFP ≥400 ng/mL."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 040",
+                "phase": "I/II",
+                "n_patients": "N/A",
+                "os": "N/A",
+                "orr": "12% overall, 13% in sorafenib-pretreated"
+            },
+            "notes": "Useful in certain circumstances option for subsequent-line therapy for patients who have not been previously treated with a checkpoint inhibitor. The FDA's ODAC voted against maintaining the accelerated approval, but the Panel maintains nivolumab as a treatment option. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab, which has different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly (for MSI-H/dMMR)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy for recurrent or advanced tumors",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Microsatellite instability-high (MSI-H)/mismatch repair deficient (dMMR)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "I",
+                "n_patients": "N/A",
+                "os": "N/A",
+                "orr": "44.0% for dMMR tumors"
+            },
+            "notes": "Category 2B useful in certain circumstances option for patients with MSI-H/dMMR recurrent or advanced tumors that have progressed on or following prior treatment and who have no satisfactory alternative treatment options, and who have not been previously treated with a checkpoint inhibitor."
+        },
+        {
+            "regimen_name": "Selpercatinib (for RET fusion-positive)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy for advanced tumors",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1/2",
+                "n_patients": "41 evaluable",
+                "os": "N/A",
+                "orr": "43.9% (95% CI, 28.5%-60.3%)"
+            },
+            "notes": "Category 2B useful in certain circumstances option for patients with RET gene fusion-positive tumors. Selpercatinib is a selective RET kinase inhibitor."
+        },
+        {
+            "regimen_name": "NTRK Inhibitors (Entrectinib/Larotrectinib/Repotrectinib)",
+            "site": "Hepatocellular carcinoma (HCC)",
+            "setting": "Subsequent-line systemic therapy for advanced tumors",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Larotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Repotrectinib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/NTRK2/NTRK3 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {},
+            "notes": "Useful in certain circumstances options for patients with NTRK1/NTRK2/NTRK3 gene fusion-positive tumors. NTRK fusions are extremely rare in HCC. Studies have demonstrated response rates in the 50% to 75% range in pretreated NTRK fusion-positive tumors."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine + Durvalumab or Pembrolizumab",
+            "site": "Combined hepatocellular carcinoma-cholangiocarcinoma (cHCC-CCA)",
+            "setting": "First-line systemic therapy for advanced mixed HCC-CCA",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Durvalumab or Pembrolizumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {},
+            "notes": "Based on limited prospective data and the potential for activity in both HCC and CCA histologies, a regimen of cisplatin/gemcitabine chemotherapy combined with either durvalumab or pembrolizumab immunotherapy is an appropriate choice for first-line therapy. Tumor multigene panel testing (MGPT) should be considered in all patients with advanced stages of cHCC-CCA to identify potential targetable aberrations. A repeat biopsy at tumor progression may be warranted to reassess dominant histology."
+        },
+        {
+            "regimen_name": "Nivolumab + Ipilimumab",
+            "site": "Combined hepatocellular carcinoma-cholangiocarcinoma (cHCC-CCA)",
+            "setting": "Subsequent-line systemic therapy for advanced mixed HCC-CCA",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "N/A",
+                    "route": "IV",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {},
+            "notes": "In the absence of a targetable aberration, regimens with demonstrated activity in both HCC and CCA are reasonable options, including nivolumab plus ipilimumab."
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Combined hepatocellular carcinoma-cholangiocarcinoma (cHCC-CCA)",
+            "setting": "Subsequent-line systemic therapy for advanced mixed HCC-CCA",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "N/A",
+                    "route": "PO",
+                    "schedule": "N/A"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {},
+            "notes": "In the absence of a targetable aberration, regimens with demonstrated activity in both HCC and CCA are reasonable options, including regorafenib."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.632083"
+}

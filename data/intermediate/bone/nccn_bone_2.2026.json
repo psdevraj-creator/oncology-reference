@@ -1,0 +1,3651 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "MSI-H/dMMR Tumors",
+            "setting": "Unresectable or metastatic tumors that have progressed following prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg IV Day 1, repeat every 3 weeks or 400 mg IV Day 1, repeat every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Repeat every 3 or 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": "Tumor must be MSI-high or mismatch repair deficient",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "233 patients with advanced MSI-H/dMMR noncolorectal cancers",
+                "trial_statistics": "ORR 30.8%, median duration of response 47.5 months"
+            },
+            "notes": "Pembrolizumab is a systemic treatment option for adult and pediatric patients with unresectable or metastatic, MSI-H or dMMR solid tumors that have progressed following prior treatment and who have no satisfactory alternative treatment options [1]. Not for giant cell tumor of bone. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "2"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "TMB-H (≥10 mutations/megabase) Tumors",
+            "setting": "Unresectable or metastatic tumors that have progressed following prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg IV Day 1, repeat every 3 weeks or 400 mg IV Day 1, repeat every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Repeat every 3 or 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden high (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "Patients with advanced solid tumors",
+                "trial_statistics": "ORR 29% in tTMB-H group vs 6% in non-tTMB-H group"
+            },
+            "notes": "TMB testing is recommended for patients with unresectable or metastatic tumors who have progressed following prior treatment and who have no satisfactory alternative treatment options [3]. Not for giant cell tumor of bone. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "TMB-H (≥10 mutations/megabase) Tumors",
+            "setting": "Unresectable or metastatic tumors that have progressed following prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden high (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 848",
+                "phase": "Phase II",
+                "n_patients": "Patients with advanced or metastatic solid TMB-H tumors",
+                "trial_statistics": "ORR 35.3% for tTMB-H in interim analysis, 22.5% for bTMB-H in final analysis"
+            },
+            "notes": "Based on data from a randomized, open-label, phase II study in patients with advanced or metastatic solid TMB-H tumors [4].",
+            "source_citation": {
+                "reference_numbers": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dasatinib",
+            "site": "Chondrosarcoma, Metastatic and widespread disease",
+            "setting": "Metastatic or widespread disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SARC009 (indolent substudy)",
+                "phase": "Phase II",
+                "n_patients": "33 patients with grade 1 or 2 chondrosarcoma",
+                "trial_statistics": "6-month PFS 47%, four patients (12%) had stable disease for >1 year"
+            },
+            "notes": "Dasatinib is a small-molecule inhibitor of kinases including SRC family, BCR-ABL, c-KIT, and PDGFRs. In a phase 2 study, 6 patients had objective tumor response and four patients had stable disease for >1 year, suggesting some tumor control [5,6].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pazopanib",
+            "site": "Chondrosarcoma, Metastatic and widespread disease",
+            "setting": "Metastatic or widespread disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "42 patients with unresectable or metastatic CCS",
+                "trial_statistics": "DCR 43% at 16 weeks, median PFS 7.9 months, median OS 17.6 months"
+            },
+            "notes": "Pazopanib is an oral, multikinase inhibitor with antiangiogenic activity. A single-arm, multicenter, phase 2 study evaluated its safety and efficacy in patients with unresectable or metastatic conventional chondrosarcoma [7].",
+            "source_citation": {
+                "reference_numbers": [
+                    "7"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ivosidenib",
+            "site": "Chondrosarcoma, Conventional (Grades 1–3)",
+            "setting": "For susceptible IDH1 mutations",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ivosidenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1 mutation",
+                    "requirement": "Susceptible IDH1 mutations",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase I",
+                "n_patients": "21 patients with advanced chondrosarcoma",
+                "trial_statistics": "Median PFS 5.6 months, PFS at 6 months 39.5%, 52% had stable disease"
+            },
+            "notes": "Ivosidenib is a selective IDH1 inhibitor. Testing for IDH1 mutation can be performed by NGS or targeted exon sequencing [8].",
+            "source_citation": {
+                "reference_numbers": [
+                    "8"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ivosidenib",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "For susceptible IDH1 mutations",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ivosidenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "IDH1 mutation",
+                    "requirement": "Susceptible IDH1 mutations",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase I",
+                "n_patients": "21 patients with advanced chondrosarcoma",
+                "trial_statistics": "Median PFS 5.6 months, PFS at 6 months 39.5%, 52% had stable disease"
+            },
+            "notes": "Ivosidenib is a selective IDH1 inhibitor. Testing for IDH1 mutation can be performed by NGS or targeted exon sequencing [8].",
+            "source_citation": {
+                "reference_numbers": [
+                    "8"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pazopanib or Sunitinib",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "Metastatic or unresectable disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "For dedifferentiated chondrosarcoma. Data supporting these agents are from phase 2 studies in advanced sarcomas [7,9].",
+            "source_citation": {
+                "reference_numbers": [
+                    "7",
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab or Nivolumab",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "Metastatic or unresectable disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SARC028 (pembrolizumab), nivolumab retrospective review",
+                "phase": "Phase II",
+                "n_patients": "5 patients with chondrosarcoma (pembrolizumab), 28 patients with relapsed sarcomas (nivolumab)",
+                "trial_statistics": "1 partial response in 5 patients with chondrosarcoma (pembrolizumab); 1 partial response in 1 patient with dedifferentiated chondrosarcoma (nivolumab)"
+            },
+            "notes": "Efficacy data supporting PD-1/PD-L1 inhibitors as monotherapy in these tumors are limited. Based on data from SARC028 and a retrospective review [10,11]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [12].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "10",
+                    "11",
+                    "12"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib + Nivolumab",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "Metastatic or unresectable disease",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "IMMUNOSARC",
+                "phase": "Phase II",
+                "n_patients": "38 evaluable patients with advanced bone sarcomas, 14 with chondrosarcoma (10 CCS, 4 DDCS)",
+                "trial_statistics": "Median PFS 9.5 months for CCS, 1.8 months for DDCS; Median OS 11.9 months, ORR 5%"
+            },
+            "notes": "Combination therapy evaluated in adult patients with advanced bone sarcomas. One individual with DDCS had a complete response (>4 years) [13]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [12].",
+            "source_citation": {
+                "reference_numbers": [
+                    "12",
+                    "13"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Imatinib",
+            "site": "Chordoma",
+            "setting": "Advanced, progressive, inoperable disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "56 patients with advanced chordoma",
+                "trial_statistics": "CBR 64%, median PFS 9 months, 70% had stable disease"
+            },
+            "notes": "Imatinib is a TKI. Phase II trial data showed a CBR of 64% and median PFS of 9 months in the intention-to-treat population [14].",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dasatinib",
+            "site": "Chordoma",
+            "setting": "Advanced disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SARC009 (indolent substudy)",
+                "phase": "Phase II",
+                "n_patients": "32 patients with unresectable, recurrent, or metastatic chordoma",
+                "trial_statistics": "6-month PFS 54%, median PFS 6.3 months, 5-year OS 18%"
+            },
+            "notes": "Dasatinib is a small-molecule inhibitor of kinases. No substantial differences in ORR, median PFS, or 6-month PFS compared with imatinib or lapatinib treatment [5,6].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Chordoma",
+            "setting": "Advanced, refractory or resistant to standard therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "AcSé Pembrolizumab",
+                "phase": "Phase II",
+                "n_patients": "34 patients with chordoma",
+                "trial_statistics": "Objective response in 4 individuals at week 12, median PFS 6.1 months (95% CI, 4.6–11.5)"
+            },
+            "notes": "Based on a non-randomized, open-label, phase II basket trial in patients with rare and ultrarare sarcomas [15]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "15"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Chordoma",
+            "setting": "Advanced disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "9 patients with advanced chordoma",
+                "trial_statistics": "44% (4/9) achieved stable disease for at least 16 weeks"
+            },
+            "notes": "Based on a phase II study in patients with advanced chordoma [16].",
+            "source_citation": {
+                "reference_numbers": [
+                    "16"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Imatinib",
+            "site": "Chordoma",
+            "setting": "Advanced disease resistant to prior imatinib",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Imatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Imatinib in combination with cisplatin has been effective in a small series of patients with advanced chordoma resistant to prior imatinib therapy [17].",
+            "source_citation": {
+                "reference_numbers": [
+                    "17"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Imatinib/Sirolimus",
+            "site": "Chordoma",
+            "setting": "Advanced disease resistant to prior imatinib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Sirolimus",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Imatinib in combination with sirolimus has been effective in a small series of patients with advanced chordoma resistant to prior imatinib therapy [18].",
+            "source_citation": {
+                "reference_numbers": [
+                    "18"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Erlotinib",
+            "site": "Chordoma",
+            "setting": "Advanced disease resistant to imatinib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Erlotinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Case report",
+                "n_patients": "1 patient with treatment refractory chordoma",
+                "trial_statistics": "Response to erlotinib reported"
+            },
+            "notes": "Efficacy of EGFR inhibitors such as erlotinib has been demonstrated in patients with advanced chordoma resistant to imatinib [19].",
+            "source_citation": {
+                "reference_numbers": [
+                    "19"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Lapatinib",
+            "site": "Chordoma",
+            "setting": "Advanced EGFR-positive chordomas",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lapatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "EGFR",
+                    "requirement": "EGFR-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "18 patients with locally advanced and metastatic chordoma",
+                "trial_statistics": "Partial response in 33%, stable disease in 39% (Choi criteria); median PFS 6 months (Choi), 8 months (RECIST)"
+            },
+            "notes": "Phase II study on lapatinib in advanced EGFR-positive chordoma [20].",
+            "source_citation": {
+                "reference_numbers": [
+                    "20"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sorafenib",
+            "site": "Chordoma",
+            "setting": "Advanced/metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "27 patients with advanced/metastatic chordoma",
+                "trial_statistics": "Objective response 1/27 (3.7%), 9-month PFS 73.0%, 12-month OS 86.5%"
+            },
+            "notes": "Based on data from a phase II trial in patients with advanced/metastatic chordoma [21,22].",
+            "source_citation": {
+                "reference_numbers": [
+                    "21",
+                    "22"
+                ]
+            }
+        },
+        {
+            "regimen_name": "VDC-IE (Vincristine/Doxorubicin/Cyclophosphamide/Mesna-Ifosfamide/Mesna/Etoposide)",
+            "site": "Ewing Sarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy) for localized disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "POG-CCG INT-0091, Children's Oncology Group study",
+                "phase": "Phase III",
+                "n_patients": "398 patients with non-metastatic Ewing sarcoma (INT-0091); 568 patients with localized Ewing sarcoma (Children's Oncology Group study)",
+                "trial_statistics": "5-year EFS 69% vs 54% for VACD-IE vs VACD alone (INT-0091); 5-year EFS 73% vs 65% for every-2-week vs every-3-week schedule (Children's Oncology Group study)"
+            },
+            "notes": "VDC-IE is the preferred regimen for localized disease and is a category 1 recommendation. In patients <18 years, evidence supports 2-week compressed treatment [23,24]. Dactinomycin can be substituted for doxorubicin for concerns regarding cardiotoxicity [25].",
+            "source_citation": {
+                "reference_numbers": [
+                    "23",
+                    "24",
+                    "25"
+                ]
+            }
+        },
+        {
+            "regimen_name": "VAIA (Vincristine/Doxorubicin/Ifosfamide/Mesna/Dactinomycin)",
+            "site": "Ewing Sarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Dactinomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CESS 86, EICESS-92",
+                "phase": "Phase III",
+                "n_patients": null,
+                "trial_statistics": "3-year EFS rates were 73% and 74%, respectively, for VACD and VAID (EICESS-92)"
+            },
+            "notes": "VAIA is another recommended regimen for Ewing sarcoma. The EICESS-92 study investigated whether cyclophosphamide has efficacy similar to ifosfamide [26,27].",
+            "source_citation": {
+                "reference_numbers": [
+                    "26",
+                    "27"
+                ]
+            }
+        },
+        {
+            "regimen_name": "VIDE (Vincristine/Ifosfamide/Mesna/Doxorubicin/Etoposide)",
+            "site": "Ewing Sarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "EURO EWING 2012 (EE2012)",
+                "phase": "Phase III",
+                "n_patients": "640 patients between ages 2 and 49 years",
+                "trial_statistics": "EFS at 3 years 61% for VIDE vs 67% for VDC-IE"
+            },
+            "notes": "VIDE is a European induction regimen. The EURO EWING 2012 trial compared VIDE induction followed by various consolidation regimens vs compressed VDC-IE induction [28].",
+            "source_citation": {
+                "reference_numbers": [
+                    "28"
+                ]
+            }
+        },
+        {
+            "regimen_name": "VDC (Vincristine/Doxorubicin/Cyclophosphamide)",
+            "site": "Ewing Sarcoma",
+            "setting": "Primary therapy for metastatic disease at initial presentation",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "For metastatic Ewing sarcoma, VDC is one of the preferred regimens for primary therapy at initial presentation.",
+            "source_citation": {
+                "reference_numbers": []
+            }
+        },
+        {
+            "regimen_name": "VDC-IE (Vincristine/Doxorubicin/Cyclophosphamide/Mesna-Ifosfamide/Mesna/Etoposide)",
+            "site": "Ewing Sarcoma",
+            "setting": "Primary therapy for metastatic disease at initial presentation",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INT-0091",
+                "phase": "Phase III",
+                "n_patients": "120 patients with metastatic disease",
+                "trial_statistics": "5-year EFS rate was 22% for both VACD-IE and VACD groups; 5-year OS rate was 34% and 35%, respectively"
+            },
+            "notes": "VDC-IE is a preferred regimen for metastatic Ewing sarcoma at initial presentation. The INT-0091 study showed no significant difference in EFS and OS between VACD-IE and VACD regimens in patients with metastatic disease [23].",
+            "source_citation": {
+                "reference_numbers": [
+                    "23"
+                ]
+            }
+        },
+        {
+            "regimen_name": "VIDE (Vincristine/Ifosfamide/Mesna/Doxorubicin/Etoposide)",
+            "site": "Ewing Sarcoma",
+            "setting": "Primary therapy for metastatic disease at initial presentation",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EURO EWING 2012 (EE2012)",
+                "phase": "Phase III",
+                "n_patients": "640 patients between ages 2 and 49 years",
+                "trial_statistics": "EFS at 3 years 61% for VIDE vs 67% for VDC-IE"
+            },
+            "notes": "VIDE is a preferred induction regimen for metastatic Ewing sarcoma. The EURO EWING 2012 trial compared VIDE induction followed by various consolidation regimens vs compressed VDC-IE induction [28].",
+            "source_citation": {
+                "reference_numbers": [
+                    "28"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Topotecan",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "54 patients with relapsed or refractory Ewing sarcoma",
+                "trial_statistics": "Responses in 44% of patients (35% CR, 9% PR), 26% in continuous remission after median follow-up of 23 months"
+            },
+            "notes": "Vincristine could be added to this regimen. Cyclophosphamide and topotecan have been associated with favorable response rates in relapsed or refractory bone sarcomas [29,30].",
+            "source_citation": {
+                "reference_numbers": [
+                    "29",
+                    "30"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "20 evaluable patients with recurrent or progressive Ewing sarcoma",
+                "trial_statistics": "Overall objective response rate 63%, median time to progression 8.3 months (16.2 months for subset with recurrent disease)"
+            },
+            "notes": "Vincristine could be added to this regimen. Irinotecan and temozolomide have been associated with favorable response rates in relapsed or refractory bone sarcomas [31,32,33,34].",
+            "source_citation": {
+                "reference_numbers": [
+                    "31",
+                    "32",
+                    "33",
+                    "34"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide/Vincristine",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "ORR 68%"
+            },
+            "notes": "Combination therapy with vincristine, irinotecan, and temozolomide appears active and well-tolerated in patients with relapsed or refractory Ewing sarcoma [35].",
+            "source_citation": {
+                "reference_numbers": [
+                    "35"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CABONE",
+                "phase": "Phase II",
+                "n_patients": "39 patients with Ewing sarcoma",
+                "trial_statistics": "6-month objective response 26%, median OS 10.2 months, median PFS 4.4 months, 42% metabolic tumor response"
+            },
+            "notes": "Cabozantinib is a VEGFR2 TKI with inhibitory activity against the MET receptor. Based on data from the CABONE trial [36].",
+            "source_citation": {
+                "reference_numbers": [
+                    "36"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "22 children and young adults with refractory bone sarcomas",
+                "trial_statistics": "Median duration of response 4.8 months, objective response rate 29%"
+            },
+            "notes": "Vincristine could be added to this regimen. Based on a retrospective study evaluating docetaxel in combination with gemcitabine in children and young adults with refractory bone sarcomas [37].",
+            "source_citation": {
+                "reference_numbers": [
+                    "37"
+                ]
+            }
+        },
+        {
+            "regimen_name": "High-Dose Ifosfamide/Mesna",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "High-Dose Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "rEECur",
+                "phase": "Phase III",
+                "n_patients": "73 patients treated with IFOS vs 73 with TC",
+                "trial_statistics": "Median EFS 5.7 months for IFOS vs 3.7 months for TC; median OS 16.8 months for IFOS vs 10.4 months for TC"
+            },
+            "notes": "Vincristine could be added to this regimen. The phase III rEECur trial compared high-dose ifosfamide against topotecan and cyclophosphamide [38].",
+            "source_citation": {
+                "reference_numbers": [
+                    "38"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SARC024",
+                "phase": "Phase II",
+                "n_patients": "30 patients with metastatic Ewing sarcoma",
+                "trial_statistics": "8-week progression-free rate 63%, median OS 53 weeks"
+            },
+            "notes": "Based on data from the phase II SARC024 trial in patients with metastatic Ewing sarcoma whose disease progressed following at least 1 line of therapy [39].",
+            "source_citation": {
+                "reference_numbers": [
+                    "39"
+                ]
+            }
+        },
+        {
+            "regimen_name": "ICE (Ifosfamide/Mesna/Carboplatin/Etoposide)",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase I/II",
+                "n_patients": "97 patients with relapsed or refractory bone sarcomas",
+                "trial_statistics": "ORR 51%"
+            },
+            "notes": "Vincristine could be added to this regimen. Based on three Children's Cancer Group phase I/II trials [40].",
+            "source_citation": {
+                "reference_numbers": [
+                    "40"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Lurbinectedin",
+            "site": "Ewing Sarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lurbinectedin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "28 adult patients with relapsed Ewing sarcoma",
+                "trial_statistics": "ORR 14.3%, median duration of response 4.2 months"
+            },
+            "notes": "Myelosuppression was reversible and primary G-CSF prophylaxis may be considered during lurbinectedin treatment (category 2B) [41].",
+            "source_citation": {
+                "reference_numbers": [
+                    "41"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Denosumab",
+            "site": "Giant Cell Tumor of Bone",
+            "setting": "Resectable with unacceptable morbidity and/or unresectable axial lesions",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Denosumab",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "37 patients with unresectable or recurrent GCTB",
+                "trial_statistics": "Tumor response in 86% (30 of 35 evaluable patients)"
+            },
+            "notes": "Denosumab is a fully humanized monoclonal antibody against the RANK ligand. Consider consultation with dentist prior to initial therapy. May be continued until disease progression in responding disease [42,43].",
+            "source_citation": {
+                "reference_numbers": [
+                    "42",
+                    "43"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Doxorubicin",
+            "site": "Osteosarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "European Osteosarcoma Group trial",
+                "phase": "Phase III",
+                "n_patients": null,
+                "trial_statistics": "3-year and 5-year OS rates were 65% and 55%, respectively, in both groups"
+            },
+            "notes": "Cisplatin and doxorubicin is a category 1 recommended regimen for first-line therapy. The combination was better tolerated compared to a multi-drug regimen with no difference in survival [44].",
+            "source_citation": {
+                "reference_numbers": [
+                    "44"
+                ]
+            }
+        },
+        {
+            "regimen_name": "MAP (High-Dose Methotrexate/Leucovorin/Doxorubicin/Cisplatin)",
+            "site": "Osteosarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "High-Dose Methotrexate",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INT-0133",
+                "phase": "Phase III",
+                "n_patients": null,
+                "trial_statistics": "6-year EFS 63% and OS 74% for 3-drug regimen vs 64% and 70% for 4-drug regimen"
+            },
+            "notes": "MAP is a category 1 recommended regimen for first-line therapy. Preferred in patients <40 years with excellent performance status. In the event a patient receiving high-dose methotrexate experiences delayed elimination due to renal impairment, glucarpidase is strongly recommended [45,46].",
+            "source_citation": {
+                "reference_numbers": [
+                    "45",
+                    "46"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Doxorubicin/Ifosfamide/Mesna/High-Dose Methotrexate/Leucovorin",
+            "site": "Osteosarcoma",
+            "setting": "First-line therapy (primary/neoadjuvant/adjuvant therapy or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "High-Dose Methotrexate",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "An intensified 4-drug regimen. In the event a patient receiving high-dose methotrexate experiences delayed elimination due to renal impairment, glucarpidase is strongly recommended [47].",
+            "source_citation": {
+                "reference_numbers": [
+                    "47"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Etoposide/High-Dose Ifosfamide/Mesna",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "High-Dose Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "Response rate 48% in patients with relapsed or refractory osteosarcoma"
+            },
+            "notes": "Based on data from a phase II trial by the French Society of Pediatric Oncology [48].",
+            "source_citation": {
+                "reference_numbers": [
+                    "48"
+                ]
+            }
+        },
+        {
+            "regimen_name": "High-Dose Ifosfamide/Mesna",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "High-Dose Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "Response rate 48% in patients with relapsed or refractory osteosarcoma"
+            },
+            "notes": "Based on data from a phase II trial by the French Society of Pediatric Oncology [48].",
+            "source_citation": {
+                "reference_numbers": [
+                    "48"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SARC024",
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "Median PFS 3.6 months for regorafenib vs 1.7 months for placebo (HR, 0.42; P=.017)"
+            },
+            "notes": "Regorafenib has demonstrated antitumor activity in progressive metastatic osteosarcoma, delaying disease progression. Category 1 recommendation based on phase II randomized data [49,50].",
+            "source_citation": {
+                "reference_numbers": [
+                    "49",
+                    "50"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sorafenib",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "30 patients with relapsed and unresectable high-grade osteosarcoma",
+                "trial_statistics": "PFS at 4 months 46%, median PFS 4 months, median OS 7 months, CBR 29%"
+            },
+            "notes": "Based on a phase II trial by the Italian Sarcoma Group in patients with relapsed and unresectable high-grade osteosarcoma after failure of standard multimodal therapy [51].",
+            "source_citation": {
+                "reference_numbers": [
+                    "51"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CABONE",
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "6-month objective response 12%, 6-month non-progression 33%, 17% partial response, 62% stable disease as best response"
+            },
+            "notes": "Based on data from the CABONE trial in patients with advanced osteosarcoma [36].",
+            "source_citation": {
+                "reference_numbers": [
+                    "36"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Topotecan",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Effective in the treatment of patients with relapsed or refractory bone sarcomas [30].",
+            "source_citation": {
+                "reference_numbers": [
+                    "30"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Effective in the treatment of patients with relapsed or refractory bone sarcomas [52].",
+            "source_citation": {
+                "reference_numbers": [
+                    "52"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Single-agent gemcitabine has shown activity in relapsed or refractory bone sarcomas [52].",
+            "source_citation": {
+                "reference_numbers": [
+                    "52"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Everolimus/Sorafenib",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Sorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": "38 patients with unresectable or relapsed high-grade osteosarcoma",
+                "trial_statistics": null
+            },
+            "notes": "This regimen was active in the second-line setting, but toxicity required dose reductions and/or treatment interruptions in 66% of patients [53].",
+            "source_citation": {
+                "reference_numbers": [
+                    "53"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Mesna/Etoposide",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": "19% response rate, 35% stable disease, PFS at 4 months 42%"
+            },
+            "notes": "Cyclophosphamide and etoposide combination therapy for relapsed high-risk osteosarcoma [54].",
+            "source_citation": {
+                "reference_numbers": [
+                    "54"
+                ]
+            }
+        },
+        {
+            "regimen_name": "ICE (Ifosfamide/Mesna/Carboplatin/Etoposide)",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase I/II",
+                "n_patients": null,
+                "trial_statistics": "ORR 51%"
+            },
+            "notes": "Based on three Children's Cancer Group phase I/II trials [40].",
+            "source_citation": {
+                "reference_numbers": [
+                    "40"
+                ]
+            }
+        },
+        {
+            "regimen_name": "High-Dose Methotrexate/Leucovorin-Etoposide/Ifosfamide/Mesna",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "High-Dose Methotrexate",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mesna",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "SFOP OS94",
+                "phase": "Phase III",
+                "n_patients": null,
+                "trial_statistics": "Higher histologic response rate for ifosfamide/etoposide regimen vs high-dose methotrexate/doxorubicin regimen (56% vs 39%), but 5-year OS was similar"
+            },
+            "notes": "In the event a patient receiving high-dose methotrexate experiences delayed elimination due to renal impairment, glucarpidase is strongly recommended [55].",
+            "source_citation": {
+                "reference_numbers": [
+                    "55"
+                ]
+            }
+        },
+        {
+            "regimen_name": "High-Dose Methotrexate/Leucovorin",
+            "site": "Osteosarcoma",
+            "setting": "Second-line therapy (relapsed/refractory or metastatic disease)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "High-Dose Methotrexate",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "In the event a patient receiving high-dose methotrexate experiences delayed elimination due to renal impairment, glucarpidase is strongly recommended.",
+            "source_citation": {
+                "reference_numbers": []
+            }
+        },
+        {
+            "regimen_name": "Radiopharmaceuticals including radium-223",
+            "site": "Osteosarcoma",
+            "setting": "Relapsed or refractory disease beyond second-line therapy",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Radium-223",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase I",
+                "n_patients": "18 patients with recurrent or metastatic osteosarcoma",
+                "trial_statistics": "Metabolic response in 1 patient, mixed responses in 4 patients, median OS time 25 weeks"
+            },
+            "notes": "Radium 223 dichloride is an alpha-emitting, bone-targeting radiopharmaceutical [56].",
+            "source_citation": {
+                "reference_numbers": [
+                    "56"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Biomarker-based, TMB-H Tumors",
+            "setting": "Unresectable or metastatic tumors that have progressed following prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg IV Day 1, repeat every 3 weeks or 400 mg IV Day 1, repeat every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Repeat every 3 or 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden high (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "Patients with advanced solid tumors",
+                "trial_statistics": "ORR 29% in tTMB-H group vs 6% in non-tTMB-H group"
+            },
+            "notes": "Recommended for patients with unresectable or metastatic TMB-H tumors who have progressed following prior treatment and who have no satisfactory alternative treatment options [3]. Not for giant cell tumor of bone. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab or Nivolumab",
+            "site": "Biomarker-based, TMB-H Tumors",
+            "setting": "Unresectable or metastatic tumors that have progressed following prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg IV Day 1, repeat every 3 weeks or 400 mg IV Day 1, repeat every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Repeat every 3 or 6 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden high (≥10 mutations/megabase)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": "Patients with advanced solid tumors",
+                "trial_statistics": "ORR 29% in tTMB-H group vs 6% in non-tTMB-H group"
+            },
+            "notes": "TMB testing is recommended for patients with unresectable or metastatic tumors who have progressed following prior treatment and who have no satisfactory alternative treatment options [3]. Not for giant cell tumor of bone. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [2]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [12].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "3",
+                    "12"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Chondrosarcoma, Conventional (Grades 1–3)",
+            "setting": "Metastatic or widespread disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "Sunitinib is a multikinase inhibitor. Included as a category 2A recommendation for metastatic and widespread chondrosarcoma [9].",
+            "source_citation": {
+                "reference_numbers": [
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "Metastatic or widespread disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "For dedifferentiated chondrosarcoma. Data supporting these agents are from phase 2 studies in advanced sarcomas [9].",
+            "source_citation": {
+                "reference_numbers": [
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Chondrosarcoma, Dedifferentiated",
+            "setting": "Metastatic or widespread disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null,
+                "trial_statistics": null
+            },
+            "notes": "For dedifferentiated chondrosarcoma. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [12].",
+            "source_citation": {
+                "reference_numbers": [
+                    "12"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "management_principles": {
+            "overview": "Primary bone tumors and selected metastatic tumors should be evaluated and treated by a multidisciplinary team (MDT) with expertise in the management of these tumors [TEAM-1]. The treatment philosophy emphasizes a multimodal approach integrating surgery, radiation therapy (RT), and systemic therapy as appropriate for the specific tumor type, grade, and stage. All recommendations are category 2A unless otherwise indicated.",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Patients with localized bone sarcomas (e.g., osteosarcoma, Ewing sarcoma, localized chondrosarcoma, chordoma) where the goal is complete eradication of disease.",
+                    "approach": "Multimodal therapy is standard. For high-grade sarcomas like osteosarcoma and Ewing sarcoma, this involves neoadjuvant chemotherapy (where applicable), definitive local control (surgery and/or RT), and adjuvant chemotherapy. For chondrosarcoma and chordoma, surgery is the primary curative modality, with RT used as an adjunct or for unresectable disease."
+                },
+                {
+                    "intent": "Palliative",
+                    "patient_group": "Patients with metastatic or unresectable disease where the goal is to extend survival, control symptoms, and improve quality of life.",
+                    "approach": "Treatment may include systemic therapy, palliative RT (including stereotactic techniques), and/or cytoreductive surgery/ablation for symptomatic sites. Enrollment in a clinical trial is strongly encouraged."
+                },
+                {
+                    "intent": "Adjuvant/Neoadjuvant",
+                    "patient_group": "Patients with high-grade localized disease (osteosarcoma, Ewing sarcoma) or resectable disease where pre- or post-operative systemic therapy is indicated.",
+                    "approach": "Neoadjuvant chemotherapy is preferred for high-grade osteosarcoma (category 1) and is standard for Ewing sarcoma. For Ewing sarcoma, at least 9 weeks of multiagent chemotherapy is recommended prior to local therapy (category 1). Adjuvant chemotherapy following local control is also standard for these tumors."
+                }
+            ],
+            "mdt_requirements": "The core MDT should include: orthopedic oncologist, bone pathologist, medical/pediatric oncologist, radiation oncologist, and musculoskeletal radiologist [TEAM-1]. Specialists critical in certain cases include: thoracic surgeon, plastic surgeon, interventional radiologist, physiatrist, vascular/general surgeon, neurosurgeon/orthopedic spine surgeon, and palliative care physician. Additional surgical subspecialties may be included as clinically indicated.",
+            "performance_status_guide": "Performance status (e.g., ECOG, Karnofsky) is a key factor in determining tolerance to aggressive multimodal therapy (e.g., neoadjuvant chemotherapy for osteosarcoma, Ewing sarcoma). For example, MAP chemotherapy is preferred for osteosarcoma patients <40 years with excellent performance status [BONE-B 4 of 7]. Palliative care and best supportive care are appropriate for patients with poor performance status."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "chondrosarcoma_atypical_cartilaginous",
+                "title": "Atypical Cartilaginous Tumors (Low-Grade Intracompartmental Appendicular Tumors)",
+                "branching_basis": [
+                    "Histologic grade (low-grade)",
+                    "Location (intracompartmental, appendicular)",
+                    "Resectability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Low-grade intracompartmental appendicular tumors (atypical cartilaginous tumors)",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Intralesional excision ± surgical adjuvant",
+                                "preference": "preferred",
+                                "recommendation": "Wide excision optional in expendable bones [CHON-2].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "observation",
+                                "label": "Observation",
+                                "preference": "alternative",
+                                "recommendation": "Acceptable option for selected patients.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No standard chemotherapy options for conventional chondrosarcoma grades 1–3. Ivosidenib may be an option for IDH1-mutant tumors [BONE-B 1 of 7]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chondrosarcoma_low_grade_axial_high_grade_clear_cell",
+                "title": "Low-Grade Extracompartmental Appendicular Tumors, Grade I Axial Tumors, High-Grade (Grade II/III), Clear Cell, or Extracompartmental Chondrosarcoma",
+                "branching_basis": [
+                    "Histologic grade",
+                    "Location (axial vs appendicular)",
+                    "Compartmental status",
+                    "Resectability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "Must achieve histologically negative surgical margins. May be limb-sparing or amputation [CHON-3, BONE-A].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Adjuvant RT may be considered for positive margins or large extracompartmental tumors (category 2B). Radiation is not needed for negative margins [BONE-C 1 of 6]."
+                        }
+                    },
+                    {
+                        "criteria": "Borderline resectable or unresectable disease",
+                        "options": [
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Consider RT (category 2B)",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider RT with specialized techniques (e.g., proton beam) for unresectable disease or if positive margins are likely [BONE-C 1 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable for primary treatment in this setting."
+                        }
+                    },
+                    {
+                        "criteria": "Metastatic disease (oligometastatic or widespread)",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Surgical excision of all sites if possible",
+                                "preference": "preferred_for_oligometastatic",
+                                "recommendation": "For oligometastatic disease, surgical excision of all sites if possible [CHON-4].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Consider RT for unresectable sites",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider radiation for unresectable sites or as part of palliation [CHON-4].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy (for widespread disease)",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Dasatinib and pazopanib are category 2A options. Ivosidenib for IDH1-mutant tumors. Consider MGPT, TMB, MMR/MSI testing [BONE-B 1 of 7, CHON-4].",
+                                "linked_regimen_ids": [
+                                    "dasatinib_metastatic_chondrosarcoma",
+                                    "pazopanib_metastatic_chondrosarcoma",
+                                    "ivosidenib_idh1_mutant"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chondrosarcoma_mesenchymal",
+                "title": "Mesenchymal Chondrosarcoma",
+                "branching_basis": [
+                    "Histologic subtype (mesenchymal)",
+                    "Resectability",
+                    "Metastatic status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized, resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "With negative margins [CHON-3].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Consider Ewing sarcoma regimens (category 2B) or doxorubicin-based regimens (doxorubicin alone or doxorubicin/ifosfamide/mesna) as adjuvant/neoadjuvant therapy [BONE-B 1 of 7]."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or metastatic disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "preferred",
+                                "recommendation": "Ewing sarcoma regimens (category 2B), doxorubicin monotherapy, or doxorubicin/ifosfamide/mesna [BONE-B 1 of 7].",
+                                "linked_regimen_ids": [
+                                    "ewing_sarcoma_regimens_mesenchymal",
+                                    "doxorubicin_mesenchymal",
+                                    "doxorubicin_ifosfamide_mesenchymal"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chondrosarcoma_dedifferentiated",
+                "title": "Dedifferentiated Chondrosarcoma",
+                "branching_basis": [
+                    "Histologic subtype (dedifferentiated)",
+                    "Resectability",
+                    "Metastatic status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized, resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "With negative margins [CHON-3].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "May consider treating as osteosarcoma (category 2B) with neoadjuvant/adjuvant chemotherapy. Preferred options include osteosarcoma regimens. Alternative options: pazopanib, sunitinib, pembrolizumab, nivolumab, or sunitinib + nivolumab [BONE-B 1 of 7]."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable or metastatic disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "preferred",
+                                "recommendation": "Consider osteosarcoma regimens (category 2B). Useful in certain circumstances: pazopanib or sunitinib, pembrolizumab or nivolumab, sunitinib + nivolumab [BONE-B 1 of 7].",
+                                "linked_regimen_ids": [
+                                    "osteosarcoma_regimens_dedifferentiated_chondro",
+                                    "pazopanib_dedifferentiated",
+                                    "sunitinib_dedifferentiated",
+                                    "pembrolizumab_dedifferentiated",
+                                    "nivolumab_dedifferentiated",
+                                    "sunitinib_nivolumab_dedifferentiated"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chordoma_conventional_sacrococcygeal_mobile_spine",
+                "title": "Conventional (Including Chondroid) Chordoma of Sacrococcygeal/Mobile Spine",
+                "branching_basis": [
+                    "Location",
+                    "Resectability",
+                    "Surgical margins"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision ± adjuvant RT",
+                                "preference": "preferred",
+                                "recommendation": "Wide excision with negative margins. Consider adjuvant RT for positive margins or large extracompartmental tumors [CHOR-2, BONE-C 2 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Consider definitive RT if unresectable",
+                                "preference": "alternative",
+                                "recommendation": "For tumors considered unresectable [CHOR-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT (preoperative, intraoperative, and/or postoperative) may be considered for positive surgical margins or large extracompartmental tumors [CHOR-2, BONE-C 2 of 6]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chordoma_conventional_skull_base",
+                "title": "Conventional (Including Chondroid) Chordoma of Skull Base/Clival Region",
+                "branching_basis": [
+                    "Location",
+                    "Resectability",
+                    "Surgical margins"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Intralesional excision (maximal safe excision) ± adjuvant RT",
+                                "preference": "preferred",
+                                "recommendation": "Intralesional excision with maximal safe tumor removal. Follow-up contrast-enhanced MRI to assess adequacy of excision. Consider adjuvant RT for positive margins or large extracompartmental tumors [CHOR-2, BONE-C 2 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Consider definitive RT if unresectable",
+                                "preference": "alternative",
+                                "recommendation": "For tumors considered unresectable [CHOR-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT (preoperative, intraoperative, and/or postoperative) may be considered for positive surgical margins or large extracompartmental tumors. Consider re-excision if necessary [CHOR-2, BONE-C 2 of 6]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "chordoma_poorly_dedifferentiated",
+                "title": "Poorly Differentiated or Dedifferentiated Chordoma",
+                "branching_basis": [
+                    "Histologic subtype (poorly differentiated/dedifferentiated)",
+                    "Molecular features (SMARCB1 loss)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Poorly differentiated or dedifferentiated chordoma",
+                        "options": [
+                            {
+                                "type": "treatment_per_other_guideline",
+                                "label": "Refer to NCCN Guidelines for Soft Tissue Sarcoma",
+                                "preference": "preferred",
+                                "recommendation": "Poorly differentiated and dedifferentiated chordomas are usually managed as described in the NCCN Guidelines for Soft Tissue Sarcoma [CHOR-1].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable as per this guideline."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ewing_sarcoma_localized",
+                "title": "Localized Ewing Sarcoma",
+                "branching_basis": [
+                    "Disease extent (localized)",
+                    "Response to neoadjuvant chemotherapy",
+                    "Surgical margins",
+                    "Tumor location"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized disease at presentation",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Multiagent chemotherapy (category 1)",
+                                "preference": "preferred",
+                                "recommendation": "VDC-IE (vincristine, doxorubicin, cyclophosphamide, ifosfamide, etoposide) is the preferred regimen (category 1). For at least 9 weeks prior to local therapy [EW-1, BONE-B 3 of 7].",
+                                "linked_regimen_ids": [
+                                    "vdc-ie_localized_ewing"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Neoadjuvant setting. Local therapy follows after restaging."
+                        }
+                    },
+                    {
+                        "criteria": "Response to neoadjuvant chemotherapy (stable/improved disease)",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "If resectable. Consider preoperative RT for marginally resectable lesions [EW-2, BONE-C 3 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Definitive RT",
+                                "preference": "alternative",
+                                "recommendation": "For tumors not amenable to surgery [EW-2, BONE-C 3 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "amputation",
+                                "label": "Amputation",
+                                "preference": "alternative",
+                                "recommendation": "In selected cases [EW-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant chemotherapy (category 1) is recommended following local control, total treatment duration 28-49 weeks (category 1). Consider RT for positive margins, close margins, or poor histologic response [EW-2, BONE-B 3 of 7]."
+                        }
+                    },
+                    {
+                        "criteria": "Progressive disease following primary treatment",
+                        "options": [
+                            {
+                                "type": "local_therapy",
+                                "label": "Consider RT and/or surgery to primary site for local control or palliation",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Followed by chemotherapy or best supportive care [EW-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ewing_sarcoma_metastatic",
+                "title": "Metastatic Ewing Sarcoma at Presentation",
+                "branching_basis": [
+                    "Disease extent (metastatic)",
+                    "Response to chemotherapy",
+                    "Metastatic site (lung vs bone)",
+                    "Resectability of metastases"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Metastatic disease at presentation",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Multiagent chemotherapy",
+                                "preference": "preferred",
+                                "recommendation": "VAIA, VDC, VDC-IE, or VIDE regimens. Longer treatment may be considered based on response [EW-3, BONE-B 3 of 7].",
+                                "linked_regimen_ids": [
+                                    "vaia_metastatic_ewing",
+                                    "vdc_metastatic_ewing",
+                                    "vdc-ie_metastatic_ewing",
+                                    "vide_metastatic_ewing"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Neoadjuvant setting. Local therapy to primary site is still recommended."
+                        }
+                    },
+                    {
+                        "criteria": "Local control therapy to primary site (after initial chemotherapy)",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision or amputation",
+                                "preference": "preferred",
+                                "recommendation": "Consider preoperative RT for marginally resectable lesions [EW-3].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Definitive RT",
+                                "preference": "alternative",
+                                "recommendation": "For unresectable primary tumors [EW-3, BONE-C 3 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant chemotherapy (category 1) is recommended following local control, total treatment duration 28-49 weeks (category 1). Consider RT for positive margins or close margins [EW-3, BONE-B 3 of 7]."
+                        }
+                    },
+                    {
+                        "criteria": "Metastatic disease management",
+                        "options": [
+                            {
+                                "type": "metastasectomy",
+                                "label": "Excision of metastases",
+                                "preference": "preferred_for_oligometastatic",
+                                "recommendation": "For oligometastatic disease [EW-3].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT to metastases",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Stereotactic RT/SBRT can be considered, especially for oligometastases [EW-3, BONE-C 3 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Whole lung irradiation (WLI)",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider WLI for pulmonary metastases following completion of chemotherapy/metastasectomy (category 3). 15 Gy for <14 years, 18 Gy for >14 years [EW-3, BONE-C 3 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    },
+                    {
+                        "criteria": "Widely metastatic disease",
+                        "options": [
+                            {
+                                "type": "palliative_therapy",
+                                "label": "Continuing chemotherapy or palliative RT",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider RT, surgery, and/or ablative therapies for symptomatic sites. Clinical trial or best supportive care [EW-3].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gctb_localized_resectable",
+                "title": "Giant Cell Tumor of Bone (GCTB) - Localized, Resectable Disease",
+                "branching_basis": [
+                    "Resectability",
+                    "Morbidity of resection",
+                    "Location (axial vs appendicular)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable with acceptable morbidity",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Excision",
+                                "preference": "preferred",
+                                "recommendation": "Intralesional excision with an effective adjuvant may be adequate. Wide excision for more aggressive stage III tumors [GCTB-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    },
+                    {
+                        "criteria": "Resectable with unacceptable morbidity and/or unresectable axial lesions",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Denosumab (preferred)",
+                                "preference": "preferred",
+                                "recommendation": "May be continued until disease progression, in responding disease. Consider dental consultation prior to initiation [GCTB-2, BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "denosumab_gctb"
+                                ]
+                            },
+                            {
+                                "type": "interventional",
+                                "label": "Serial embolization (preferred)",
+                                "preference": "preferred",
+                                "recommendation": "For large tumors with cortical defects or joint involvement, or sacral GCTB [GCTB-2].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "May be associated with increased risk of malignant transformation. Consider if no other options available [GCTB-2, BONE-C 4 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gctb_metastatic",
+                "title": "Giant Cell Tumor of Bone (GCTB) - Metastatic Disease at Presentation",
+                "branching_basis": [
+                    "Resectability of primary and metastatic sites",
+                    "Metastatic burden"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Excision of primary tumor and metastatic sites",
+                                "preference": "preferred",
+                                "recommendation": "Treat primary tumor as for localized disease. Consider intralesional excision for metastatic sites [GCTB-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Denosumab (preferred)",
+                                "preference": "preferred",
+                                "recommendation": "Consider denosumab [GCTB-2, BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "denosumab_gctb"
+                                ]
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider RT [GCTB-2].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "observation",
+                                "label": "Observation",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider observation [GCTB-2].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "osteosarcoma_low_grade",
+                "title": "Low-Grade Osteosarcoma (Intramedullary and Surface)",
+                "branching_basis": [
+                    "Histologic grade (low-grade)",
+                    "Location",
+                    "Resectability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized, resectable disease",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "If pathologic high-grade disease is discovered after wide excision, adjuvant chemotherapy is a category 1 recommendation [OSTEO-1].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Chemotherapy is not standard for low-grade tumors unless high-grade components are found."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "osteosarcoma_high_grade",
+                "title": "High-Grade Osteosarcoma (Intramedullary, Surface, Periosteal)",
+                "branching_basis": [
+                    "Histologic grade (high-grade)",
+                    "Location",
+                    "Resectability",
+                    "Response to neoadjuvant chemotherapy",
+                    "Metastatic status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized, resectable disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Perioperative chemotherapy (category 1, preoperative preferred)",
+                                "preference": "preferred",
+                                "recommendation": "MAP (high-dose methotrexate, doxorubicin, cisplatin) is preferred in patients <40 years with excellent performance status. Cisplatin/doxorubicin is an alternative (category 1) [OSTEO-2, BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "map_osteosarcoma",
+                                    "cisplatin_doxorubicin_osteosarcoma"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Neoadjuvant setting. Response assessment guides adjuvant therapy."
+                        }
+                    },
+                    {
+                        "criteria": "Following neoadjuvant chemotherapy and restaging",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Wide excision",
+                                "preference": "preferred",
+                                "recommendation": "Reassess tumor as appropriate. Good response (pathologic <10% viable tumor) -> continue preoperative regimen. Poor response (≥10% viable tumor) -> consider changing chemotherapy regimen (category 3) [OSTEO-2, BONE-C 4 of 6].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "For unresectable disease. Postoperative RT for microscopically positive margins or gross positive margins [OSTEO-2, BONE-C 4 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant chemotherapy is recommended for all high-grade osteosarcomas. For good responders, continue the same regimen. For poor responders, changing regimen is a category 3 option. Total perioperative chemotherapy duration is typically ~30 weeks [OSTEO-2, BONE-B 4 of 7]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "osteosarcoma_metastatic",
+                "title": "Osteosarcoma - Metastatic Disease at Presentation",
+                "branching_basis": [
+                    "Disease extent (metastatic)",
+                    "Resectability of primary and metastases",
+                    "Response to chemotherapy",
+                    "Number and location of metastases"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable metastases (pulmonary, visceral, or skeletal)",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Chemotherapy",
+                                "preference": "preferred",
+                                "recommendation": "Followed by wide excision of the primary tumor. For pulmonary metastasectomy if not possible, consider ablation [OSTEO-3, BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "map_osteosarcoma",
+                                    "cisplatin_doxorubicin_osteosarcoma"
+                                ]
+                            },
+                            {
+                                "type": "surgery",
+                                "label": "Metastasectomy",
+                                "preference": "preferred",
+                                "recommendation": "For pulmonary, visceral, or skeletal metastases [OSTEO-3].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "Stereotactic RT or ablation",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "If pulmonary metastasectomy is not possible [OSTEO-3].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Chemotherapy",
+                                "preference": "preferred",
+                                "recommendation": "Consider testing for TMB and MMR/MSI [OSTEO-3, BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "map_osteosarcoma",
+                                    "cisplatin_doxorubicin_osteosarcoma"
+                                ]
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "useful_in_certain_circumstances",
+                                "recommendation": "Consider RT [OSTEO-3, BONE-C 4 of 6].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ups_high_grade_bone",
+                "title": "High-Grade Undifferentiated Pleomorphic Sarcoma (UPS) of Bone",
+                "branching_basis": [
+                    "Histologic type (UPS)",
+                    "Resectability",
+                    "Metastatic status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized disease",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Follow osteosarcoma regimens (category 2B)",
+                                "preference": "preferred",
+                                "recommendation": "Treat with regimens listed for osteosarcoma [BONE-B 4 of 7].",
+                                "linked_regimen_ids": [
+                                    "map_osteosarcoma",
+                                    "cisplatin_doxorubicin_osteosarcoma"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Treatment is integrated similar to osteosarcoma, with neoadjuvant/adjuvant chemotherapy."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Imaging of Primary Site",
+                "items": [
+                    {
+                        "text": "Contrast-enhanced MRI ± CT of primary site",
+                        "recommendation": "Standard for all bone sarcomas. MRI is essential for soft tissue extent and surgical planning. CT may be used if MRI contraindicated [BONE-1, EW-1, OSTEO-1]."
+                    },
+                    {
+                        "text": "X-rays of primary site",
+                        "recommendation": "Initial evaluation and follow-up [BONE-1, CHON-2]."
+                    }
+                ]
+            },
+            {
+                "category": "Staging Imaging",
+                "items": [
+                    {
+                        "text": "Chest imaging (including chest CT)",
+                        "recommendation": "Chest CT (with or without contrast as clinically indicated) for all bone sarcomas. Low-dose, non-contrast CT is recommended for restaging [BONE-1, EW-1, OSTEO-1]."
+                    },
+                    {
+                        "text": "FDG-PET/CT (head-to-toe) and/or bone scan",
+                        "recommendation": "Consider for staging of Ewing sarcoma, osteosarcoma, chordoma. FDG-PET/CT is preferred for Ewing sarcoma. Bone scan may be used if FDG-PET/CT is negative or unavailable [BONE-1, EW-1, OSTEO-1, CHOR-1]."
+                    },
+                    {
+                        "text": "Skeletal survey, plain film, or CT (if multiple myeloma suspected)",
+                        "recommendation": "For patients ≥40 years with suspected bone metastasis [BONE-1]."
+                    },
+                    {
+                        "text": "MRI (with and without contrast) or CT (with contrast) of skeletal metastatic sites",
+                        "recommendation": "More detailed imaging of abnormalities identified on primary imaging for suspected metastatic disease [OSTEO-1]."
+                    },
+                    {
+                        "text": "Screening MRI of spinal axis",
+                        "recommendation": "Consider for chordoma and Ewing sarcoma to evaluate for additional lesions [CHOR-1, EW-1]."
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory Studies",
+                "items": [
+                    {
+                        "text": "Complete blood count (CBC)",
+                        "recommendation": "Prior to definitive treatment and periodically during treatment and surveillance [BONE-A, BONE-1]."
+                    },
+                    {
+                        "text": "Comprehensive metabolic panel (CMP) with calcium",
+                        "recommendation": "To assess for hypercalcemia [BONE-1, BONE-A]."
+                    },
+                    {
+                        "text": "Lactate dehydrogenase (LDH)",
+                        "recommendation": "Prognostic marker for osteosarcoma and Ewing sarcoma. Include in initial workup [EW-1, OSTEO-1, BONE-A]."
+                    },
+                    {
+                        "text": "Alkaline phosphatase (ALP)",
+                        "recommendation": "Prognostic marker for osteosarcoma. Include in initial workup [OSTEO-1, BONE-A]."
+                    },
+                    {
+                        "text": "Serum protein electrophoresis (SPEP)",
+                        "recommendation": "For patients ≥40 years with suspected bone metastasis [BONE-1]."
+                    },
+                    {
+                        "text": "Prostate-specific antigen (PSA)",
+                        "recommendation": "For male patients ≥40 years with suspected bone metastasis [BONE-1]."
+                    },
+                    {
+                        "text": "Mammogram",
+                        "recommendation": "For female patients ≥40 years with suspected bone metastasis [BONE-1]."
+                    }
+                ]
+            },
+            {
+                "category": "Pathology and Biomarker Testing",
+                "items": [
+                    {
+                        "text": "Biopsy to confirm diagnosis",
+                        "recommendation": "Optimally performed at the treating institution. Core needle or surgical biopsy recommended. Needle biopsy is not recommended for skull base tumors [BONE-A, BONE-1]."
+                    },
+                    {
+                        "text": "Cytogenetics and/or biomarker testing",
+                        "recommendation": "Essential for Ewing sarcoma (e.g., t(11;22)). Consider MGPT with validated/FDA-approved assay for targeted therapy opportunities in metastatic chondrosarcoma, recurrent chordoma, metastatic Ewing sarcoma, and metastatic osteosarcoma [EW-1, CHON-4, CHOR-3, OSTEO-3]."
+                    },
+                    {
+                        "text": "Testing for IDH1 mutations",
+                        "recommendation": "For chondrosarcoma to determine eligibility for ivosidenib [BONE-B 1 of 7]."
+                    },
+                    {
+                        "text": "Testing for TMB and MMR/MSI",
+                        "recommendation": "For unresectable or metastatic tumors who have progressed following prior treatment and who have no satisfactory alternative treatment options. Not for giant cell tumor of bone [BONE-B 1 of 7]."
+                    },
+                    {
+                        "text": "LDH",
+                        "recommendation": "Include in workup for Ewing sarcoma [EW-1]."
+                    }
+                ]
+            },
+            {
+                "category": "Other Assessments",
+                "items": [
+                    {
+                        "text": "Fertility consultation",
+                        "recommendation": "Should be offered to individuals of child-bearing potential if cytotoxic chemotherapy will be given [EW-1, OSTEO-1, BONE-A]."
+                    },
+                    {
+                        "text": "Genetic consultation and testing",
+                        "recommendation": "Consider for patients with osteosarcoma or chondrosarcoma based on personal or family history of bone sarcomas or predisposition syndromes (e.g., Li-Fraumeni, hereditary retinoblastoma) [BONE-A, OSTEO-1]."
+                    },
+                    {
+                        "text": "History and physical",
+                        "recommendation": "Complete evaluation including assessment of symptoms and functional status [BONE-1, EW-1, OSTEO-1]."
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery is the primary local control modality for most resectable bone sarcomas and is essential for cure. It is used neoadjuvantly, adjuvantly, or as definitive therapy depending on tumor type, response to systemic therapy, and resectability.",
+            "principles": [
+                "Prior to biopsy, consultation with an orthopedic oncologist regarding appropriate prebiopsy imaging is critical [BONE-A].",
+                "Biopsy is optimally performed at a center that will provide definitive management. Placement of biopsy is critical to subsequent limb-sparing surgery [BONE-A].",
+                "Wide excision should achieve histologically negative surgical margins. Negative margins optimize local tumor control [BONE-A, BONE-C 3 of 6].",
+                "Local tumor control may be achieved by either limb-sparing excision or limb amputation. Limb-sparing excision is preferred to optimize function if reasonable functional expectations can be achieved [BONE-A].",
+                "Final pathologic evaluation should include assessment of surgical margins, size/dimensions of tumor, and response to preoperative therapy [BONE-A].",
+                "Fresh tissue may be needed for biomarker testing and tissue banking [BONE-A].",
+                "For specific tumor types: Intralesional excision may be adequate for atypical cartilaginous tumors of bone (low-grade). Wide excision is standard for high-grade chondrosarcoma, chordoma, osteosarcoma, Ewing sarcoma, and GCTB in select cases."
+            ],
+            "procedures": [
+                {
+                    "name": "Wide Excision",
+                    "approach": "Resection of the tumor with a cuff of normal tissue to achieve negative margins. May be limb-sparing or amputation.",
+                    "indications": "Standard for high-grade chondrosarcoma, chordoma, osteosarcoma, Ewing sarcoma, and GCTB (for aggressive stage III or unresectable axial lesions).",
+                    "key_complications": "Wound complications, infection, neurovascular injury, functional loss, need for reconstruction.",
+                    "operative_mortality": "Low, but varies with patient comorbidities and extent of surgery."
+                },
+                {
+                    "name": "Intralesional Excision (Curettage)",
+                    "approach": "Surgical removal of tumor contents from within its cavity, often with adjuvants (e.g., cryosurgery, phenol, cement).",
+                    "indications": "Atypical cartilaginous tumors (low-grade intracompartmental appendicular tumors). May be considered for GCTB (especially resectable with acceptable morbidity).",
+                    "key_complications": "Higher local recurrence rate compared to wide excision, especially for GCTB.",
+                    "operative_mortality": "Low."
+                },
+                {
+                    "name": "Amputation",
+                    "approach": "Removal of the entire limb or part of it.",
+                    "indications": "Selected cases of osteosarcoma, Ewing sarcoma, and other sarcomas where limb-sparing surgery cannot achieve negative margins or would result in a non-functional limb. Also for management of local relapse.",
+                    "key_complications": "Prosthetic complications, phantom limb pain, psychological impact.",
+                    "operative_mortality": "Low."
+                }
+            ],
+            "resectability_criteria": "Resectability is determined by the multidisciplinary team based on tumor size, location, involvement of neurovascular structures, and expected functional outcome. For example, chordomas of the skull base are often considered resectable via intralesional excision with maximal safe removal, while those of the sacrum may require wide excision. For GCTB, resectability also considers the morbidity of the procedure.",
+            "pre_operative_optimisation": "Optimization of patient performance status, nutritional status, and management of comorbidities. Consider preoperative embolization for hypervascular tumors (e.g., GCTB of sacrum). For Ewing sarcoma and osteosarcoma, neoadjuvant chemotherapy is standard to downstage tumor. Fertility preservation should be discussed prior to chemotherapy."
+        },
+        "radiation_therapy": {
+            "role": "RT is used as an adjuvant to surgery for patients with resectable tumors (especially for positive margins) or as definitive therapy in patients with tumors not amenable to surgery. Specialized techniques should be considered to allow high-dose therapy while maximizing normal tissue sparing [BONE-C 1 of 6].",
+            "principles": [
+                "Patients should be strongly encouraged to have RT at the same specialized center that is providing surgical and systemic interventions [BONE-C 1 of 6].",
+                "Specialized techniques such as intensity-modulated RT (IMRT); particle beam RT with protons, carbon ions, or other heavy ions; or stereotactic radiosurgery (SRS) should be considered as indicated [BONE-C 1 of 6].",
+                "RT doses listed in the algorithm are for conventional fractionated regimens (1.8–2.0 Gy). Alternative total dose and fractionation schemes are necessary for specialized techniques such as SRS and stereotactic body RT (SBRT) [BONE-C 1 of 6].",
+                "For Ewing sarcoma, RT should start by week 12 of VDC/IE chemotherapy or week 18 of VIDE and is given concurrently with chemotherapy, withholding anthracyclines during RT per the Womer Protocol [BONE-C 3 of 6].",
+                "Postoperative RT should begin within 60 days of surgery [BONE-C 3 of 6]."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Conventional Fractionation",
+                    "total_dose": "Varies by histology and setting (e.g., 70 Gy for chondrosarcoma microscopically positive margins; 45-55.8 Gy for Ewing sarcoma primary tumor; 50-60 Gy for GCTB; 55-70 Gy for osteosarcoma).",
+                    "dose_per_fraction": "1.8–2.0 Gy",
+                    "fractions": "Varies (e.g., 25-39 fractions for 45 Gy, 35-39 fractions for 70 Gy).",
+                    "schedule": "Daily, 5 days per week.",
+                    "indication": "Standard adjuvant or definitive RT for most bone sarcomas."
+                },
+                {
+                    "name": "Stereotactic Body RT (SBRT) / Stereotactic Radiosurgery (SRS)",
+                    "total_dose": "Varies by site and intent (e.g., 24-60 Gy for oligometastases, 36-45 Gy for primary tumors in select cases).",
+                    "dose_per_fraction": "High dose per fraction (e.g., 6-24 Gy per fraction).",
+                    "fractions": "1-5 fractions.",
+                    "schedule": "Daily or every other day.",
+                    "indication": "Oligometastases, unresectable primary tumors in select cases (e.g., chordoma, chondrosarcoma), recurrent disease."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Adjuvant RT for Positive Margins",
+                    "dose_fractionation": "55 Gy with 9–13 Gy boost to microscopic disease (total 64-68 Gy) for osteosarcoma. 45 Gy followed by cone-down to 55.8 Gy for Ewing sarcoma with positive margins.",
+                    "concurrent_chemotherapy": "Yes, for Ewing sarcoma (withholding anthracyclines). Not standard for osteosarcoma.",
+                    "indication": "Microscopically positive margins after surgery for osteosarcoma, Ewing sarcoma, and potentially other sarcomas.",
+                    "key_trial": "Not specified in the text.",
+                    "toxicities": "Fibrosis, necrosis, secondary malignancy risk."
+                },
+                {
+                    "name": "Definitive RT for Unresectable Disease",
+                    "dose_fractionation": ">70 Gy for chondrosarcoma/chordoma with specialized techniques. 45-55.8 Gy for Ewing sarcoma.",
+                    "concurrent_chemotherapy": "Yes for Ewing sarcoma (concurrent with chemotherapy). Not standard for chondrosarcoma/chordoma.",
+                    "indication": "Unresectable primary bone sarcomas (e.g., chordoma, chondrosarcoma, Ewing sarcoma).",
+                    "key_trial": "Not specified in the text.",
+                    "toxicities": "Organ-specific depending on location (e.g., neurological, gastrointestinal)."
+                },
+                {
+                    "name": "Hemithorax Irradiation",
+                    "dose_fractionation": "15–20 Gy (1.5 Gy/fraction) followed by cone-down to primary site.",
+                    "concurrent_chemotherapy": "Yes for Ewing sarcoma.",
+                    "indication": "Chest wall primaries with extensive ipsilateral pleural involvement (Ewing sarcoma).",
+                    "key_trial": "Not specified in the text.",
+                    "toxicities": "Pneumonitis, esophagitis, cardiac toxicity."
+                },
+                {
+                    "name": "Whole Lung Irradiation (WLI)",
+                    "dose_fractionation": "15 Gy (1.5 Gy/fraction) for patients <14 years; 18 Gy (1.5 Gy/fraction) for patients >14 years.",
+                    "concurrent_chemotherapy": "Yes for Ewing sarcoma.",
+                    "indication": "Pulmonary metastases following completion of chemotherapy/metastasectomy (Ewing sarcoma, category 3).",
+                    "key_trial": "Not specified in the text.",
+                    "toxicities": "Pneumonitis, pulmonary fibrosis."
+                },
+                {
+                    "name": "RT for GCTB",
+                    "dose_fractionation": "50–60 Gy conventional fractionation.",
+                    "concurrent_chemotherapy": "Not applicable.",
+                    "indication": "Unresectable, progressive, or recurrent disease that has not responded to denosumab, serial embolizations, or other treatments.",
+                    "key_trial": "Not specified in the text.",
+                    "toxicities": "Increased risk of malignant transformation noted in some studies."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is a critical component of treatment for osteosarcoma, Ewing sarcoma, mesenchymal chondrosarcoma, dedifferentiated chondrosarcoma, and metastatic/unresectable disease of various histologies. For conventional chondrosarcoma and chordoma, systemic therapy options are limited and largely targeted or immunotherapy-based. All recommendations are category 2A unless otherwise indicated.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Localized High-Grade Osteosarcoma (Neoadjuvant/Adjuvant)",
+                    "preferred_regimen": "MAP (high-dose methotrexate/leucovorin/doxorubicin/cisplatin) (category 1). Cisplatin/doxorubicin is an alternative (category 1).",
+                    "rationale": "Category 1 evidence supports improved survival with neoadjuvant/adjuvant chemotherapy. MAP is preferred in patients <40 years with excellent performance status.",
+                    "alternatives": "Cisplatin/doxorubicin/ifosfamide/mesna/high-dose methotrexate/leucovorin.",
+                    "biomarker_requirements": "None specified for chemotherapy selection."
+                },
+                {
+                    "setting": "Localized Ewing Sarcoma (Neoadjuvant/Adjuvant)",
+                    "preferred_regimen": "VDC-IE (vincristine/doxorubicin/cyclophosphamide-ifosfamide/etoposide) (category 1).",
+                    "rationale": "Category 1 evidence supports improved EFS and OS with VDC-IE regimen.",
+                    "alternatives": "VAIA (vincristine/doxorubicin/ifosfamide/dactinomycin), VIDE (vincristine/ifosfamide/doxorubicin/etoposide).",
+                    "biomarker_requirements": "Biomarker testing (e.g., cytogenetics, fusion panels) essential for diagnosis and to identify translocations. If pathologic workup is negative, consider MGPT."
+                },
+                {
+                    "setting": "Metastatic Osteosarcoma (First-line)",
+                    "preferred_regimen": "MAP or Cisplatin/doxorubicin (category 1).",
+                    "rationale": "Chemotherapy improves outcomes in conjunction with surgery of primary and metastatic sites.",
+                    "alternatives": "Cisplatin/doxorubicin/ifosfamide/mesna/high-dose methotrexate/leucovorin.",
+                    "biomarker_requirements": "Consider MGPT, TMB, MMR/MSI testing for targeted therapy opportunities."
+                },
+                {
+                    "setting": "Metastatic Ewing Sarcoma (First-line)",
+                    "preferred_regimen": "VAIA, VDC, VDC-IE, or VIDE.",
+                    "rationale": "Multiagent chemotherapy is standard. Longer treatment may be considered based on response.",
+                    "alternatives": "Other regimens per algorithm.",
+                    "biomarker_requirements": "Consider MGPT, TMB, MMR/MSI testing."
+                },
+                {
+                    "setting": "Relapsed/Refractory Osteosarcoma (Second-line)",
+                    "preferred_regimen": "Etoposide/high-dose ifosfamide/mesna, high-dose ifosfamide/mesna, regorafenib (category 1), sorafenib.",
+                    "rationale": "Based on phase II/III trials showing activity in relapsed disease.",
+                    "alternatives": "Cabozantinib, cyclophosphamide/topotecan, docetaxel/gemcitabine, gemcitabine, everolimus/sorafenib (category 2B), cyclophosphamide/mesna/etoposide, ICE, high-dose methotrexate/leucovorin-etoposide/ifosfamide/mesna, high-dose methotrexate/leucovorin, radiopharmaceuticals including radium-223.",
+                    "biomarker_requirements": "Consider MGPT, TMB, MMR/MSI testing."
+                },
+                {
+                    "setting": "Relapsed/Refractory Ewing Sarcoma (Second-line)",
+                    "preferred_regimen": "Cyclophosphamide/topotecan, irinotecan/temozolomide, irinotecan/temozolomide/vincristine.",
+                    "rationale": "Based on phase II studies showing activity.",
+                    "alternatives": "Cabozantinib, docetaxel/gemcitabine, high-dose ifosfamide/mesna, regorafenib, ICE, lurbinectedin (category 2B).",
+                    "biomarker_requirements": "Consider MGPT, TMB, MMR/MSI testing."
+                },
+                {
+                    "setting": "Metastatic/Unresectable Dedifferentiated Chondrosarcoma",
+                    "preferred_regimen": "Consider osteosarcoma regimens (category 2B).",
+                    "rationale": "Dedifferentiated chondrosarcoma may respond to osteosarcoma-type chemotherapy.",
+                    "alternatives": "Ivosidenib (for IDH1-mutant), pazopanib, sunitinib, pembrolizumab, nivolumab, sunitinib + nivolumab.",
+                    "biomarker_requirements": "IDH1 mutation testing required for ivosidenib. Consider MGPT, TMB, MMR/MSI testing."
+                },
+                {
+                    "setting": "Metastatic/Unresectable Mesenchymal Chondrosarcoma",
+                    "preferred_regimen": "Ewing sarcoma regimens (category 2B), doxorubicin monotherapy, doxorubicin/ifosfamide/mesna.",
+                    "rationale": "Mesenchymal chondrosarcoma is more chemosensitive than conventional chondrosarcoma.",
+                    "alternatives": "None specified.",
+                    "biomarker_requirements": "Consider MGPT for targeted therapy opportunities."
+                },
+                {
+                    "setting": "Metastatic/Unresectable Conventional Chondrosarcoma (Grades 1–3)",
+                    "preferred_regimen": "No known standard chemotherapy options.",
+                    "rationale": "Conventional chondrosarcoma is generally chemoresistant.",
+                    "alternatives": "Ivosidenib (for IDH1-mutant), dasatinib, pazopanib.",
+                    "biomarker_requirements": "IDH1 mutation testing required for ivosidenib. Consider MGPT, TMB, MMR/MSI testing."
+                },
+                {
+                    "setting": "Recurrent Chordoma",
+                    "preferred_regimen": "No standard cytotoxic chemotherapy.",
+                    "rationale": "Targeted therapies are the mainstay.",
+                    "alternatives": "Imatinib, dasatinib, pembrolizumab, sunitinib, erlotinib, lapatinib (for EGFR-positive), sorafenib, imatinib/cisplatin, imatinib/sirolimus.",
+                    "biomarker_requirements": "Consider MGPT for targeted therapy opportunities. EGFR testing for lapatinib."
+                },
+                {
+                    "setting": "Giant Cell Tumor of Bone (Unresectable/Metastatic)",
+                    "preferred_regimen": "Denosumab.",
+                    "rationale": "Denosumab is FDA-approved for unresectable GCTB or where surgery is likely to result in severe morbidity.",
+                    "alternatives": "RT, observation.",
+                    "biomarker_requirements": "None specified."
+                },
+                {
+                    "setting": "MSI-H/dMMR Tumors (Any bone sarcoma)",
+                    "preferred_regimen": "Pembrolizumab.",
+                    "rationale": "Pembrolizumab is approved for MSI-H/dMMR solid tumors that have progressed following prior treatment.",
+                    "alternatives": "None specified as preferred.",
+                    "biomarker_requirements": "MSI-H or dMMR testing by validated/FDA-approved assay. Not for giant cell tumor of bone."
+                },
+                {
+                    "setting": "TMB-H (≥10 mutations/megabase) Tumors (Any bone sarcoma)",
+                    "preferred_regimen": "Pembrolizumab (preferred), ipilimumab + nivolumab (useful in certain circumstances).",
+                    "rationale": "Pembrolizumab and nivolumab/ipilimumab have shown activity in TMB-H solid tumors.",
+                    "alternatives": "None specified as preferred.",
+                    "biomarker_requirements": "TMB-H testing by validated/FDA-approved assay. Not for giant cell tumor of bone."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "MAP",
+                    "setting": "First-line for osteosarcoma (neoadjuvant/adjuvant/metastatic)",
+                    "drugs": [
+                        {
+                            "name": "High-dose methotrexate",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Leucovorin",
+                            "dose": "See protocol",
+                            "route": "IV/PO",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Cisplatin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per protocol (typically 21-28 day cycles)",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity (methotrexate, cisplatin), ototoxicity (cisplatin), cardiotoxicity (doxorubicin). In event of delayed methotrexate elimination, glucarpidase is strongly recommended."
+                },
+                {
+                    "name": "Cisplatin/Doxorubicin",
+                    "setting": "First-line for osteosarcoma (neoadjuvant/adjuvant/metastatic)",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per protocol",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity, ototoxicity, cardiotoxicity."
+                },
+                {
+                    "name": "VDC-IE",
+                    "setting": "First-line for localized Ewing sarcoma (category 1)",
+                    "drugs": [
+                        {
+                            "name": "Vincristine",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Cyclophosphamide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Ifosfamide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per protocol (interval-compressed every 2 weeks preferred)",
+                    "key_toxicities": "Myelosuppression, mucositis, neurotoxicity (vincristine), cardiotoxicity (doxorubicin), hemorrhagic cystitis (ifosfamide)."
+                },
+                {
+                    "name": "VAIA",
+                    "setting": "First-line for Ewing sarcoma (localized or metastatic)",
+                    "drugs": [
+                        {
+                            "name": "Vincristine",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Ifosfamide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Dactinomycin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per protocol",
+                    "key_toxicities": "Myelosuppression, mucositis, hepatotoxicity, cardiotoxicity."
+                },
+                {
+                    "name": "VIDE",
+                    "setting": "First-line for Ewing sarcoma (localized or metastatic)",
+                    "drugs": [
+                        {
+                            "name": "Vincristine",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Ifosfamide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "See protocol",
+                            "route": "IV",
+                            "day": "Per protocol"
+                        }
+                    ],
+                    "cycle_days": "Per protocol",
+                    "key_toxicities": "Myelosuppression, mucositis, neurotoxicity, cardiotoxicity."
+                },
+                {
+                    "name": "Regorafenib",
+                    "setting": "Second-line for osteosarcoma (category 1)",
+                    "drugs": [
+                        {
+                            "name": "Regorafenib",
+                            "dose": "160 mg",
+                            "route": "PO",
+                            "day": "Daily for 3 weeks on, 1 week off"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle",
+                    "key_toxicities": "Hypertension, hand-foot skin reaction, diarrhea, fatigue."
+                },
+                {
+                    "name": "Ivosidenib",
+                    "setting": "For IDH1-mutant chondrosarcoma",
+                    "drugs": [
+                        {
+                            "name": "Ivosidenib",
+                            "dose": "500 mg",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous",
+                    "key_toxicities": "Differentiation syndrome, QT prolongation, fatigue, nausea."
+                },
+                {
+                    "name": "Denosumab",
+                    "setting": "For unresectable/metastatic giant cell tumor of bone",
+                    "drugs": [
+                        {
+                            "name": "Denosumab",
+                            "dose": "120 mg",
+                            "route": "SC",
+                            "day": "Every 4 weeks (with loading doses on days 1, 8, and 15)"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle",
+                    "key_toxicities": "Hypocalcemia, osteonecrosis of the jaw, arthralgia, fatigue. Consultation with dentist prior to initiation is recommended."
+                },
+                {
+                    "name": "Imatinib",
+                    "setting": "For recurrent chordoma",
+                    "drugs": [
+                        {
+                            "name": "Imatinib",
+                            "dose": "400-800 mg",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous",
+                    "key_toxicities": "Edema, nausea, diarrhea, rash, myelosuppression, hepatotoxicity."
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "setting": "For MSI-H/dMMR or TMB-H bone sarcomas (not for GCTB)",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV",
+                            "day": "Every 3 weeks or 400 mg every 6 weeks"
+                        }
+                    ],
+                    "cycle_days": "21-day or 42-day cycle",
+                    "key_toxicities": "Immune-mediated adverse reactions (e.g., pneumonitis, colitis, hepatitis, endocrinopathies), fatigue, rash."
+                },
+                {
+                    "name": "Nivolumab",
+                    "setting": "For TMB-H bone sarcomas (useful in certain circumstances)",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "240 mg",
+                            "route": "IV",
+                            "day": "Every 2 weeks or 480 mg every 4 weeks"
+                        }
+                    ],
+                    "cycle_days": "14-day or 28-day cycle",
+                    "key_toxicities": "Immune-mediated adverse reactions, fatigue, rash."
+                },
+                {
+                    "name": "Ipilimumab + Nivolumab",
+                    "setting": "For TMB-H bone sarcomas (useful in certain circumstances)",
+                    "drugs": [
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "1 mg/kg",
+                            "route": "IV",
+                            "day": "Every 6 weeks (with nivolumab)"
+                        },
+                        {
+                            "name": "Nivolumab",
+                            "dose": "3 mg/kg",
+                            "route": "IV",
+                            "day": "Every 6 weeks (with ipilimumab)"
+                        }
+                    ],
+                    "cycle_days": "42-day cycle",
+                    "key_toxicities": "Immune-mediated adverse reactions (higher risk than monotherapy), fatigue, rash, diarrhea."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Response Assessment and Surveillance",
+            "timing": "After completion of neoadjuvant chemotherapy and before local control surgery (for osteosarcoma and Ewing sarcoma). Follow-up surveillance occurs at regular intervals post-treatment as specified by tumor type.",
+            "response_logic": [
+                "For osteosarcoma: Response is defined by pathologic mapping per institutional guidelines. Good response is <10% viable tumor; poor response is ≥10% viable tumor [OSTEO-2].",
+                "For Ewing sarcoma: Restaging with imaging after primary chemotherapy to assess response and guide local therapy [EW-1].",
+                "For chondrosarcoma and chordoma: Response assessment typically by imaging (CT/MRI) to assess size and extent [CHON-3, CHOR-3].",
+                "For GCTB: Imaging (plain x-rays, contrast-enhanced CT ± MRI) to assess response to denosumab or other therapy [GCTB-2]."
+            ],
+            "imaging_recommendations": [
+                "For osteosarcoma and Ewing sarcoma: Restage with chest CT (non-contrast for restaging), contrast-enhanced MRI ± CT of primary site, and consider FDG-PET/CT or bone scan (use same technique as initial workup) [OSTEO-2, EW-1].",
+                "For chondrosarcoma: Surveillance with x-rays and/or cross-sectional imaging (CT or MRI) as clinically indicated. Chest imaging every 3-6 months for 5 years, then yearly for a minimum of 10 years [CHON-3].",
+                "For chordoma: Surveillance with imaging of primary site (x-ray, MRI ± CT) up to 10 years, chest imaging every 6 months for 5 years then annually [CHOR-3].",
+                "For Ewing sarcoma: Surveillance with contrast-enhanced MRI ± CT of primary site, chest imaging every 3 months for 2 years, then increasing intervals. Consider FDG-PET/CT or bone scan [EW-2].",
+                "For osteosarcoma: Surveillance every 3 months for years 1-2, then every 4 months for year 3, then every 6 months for years 4-5, then annually. Include physical exam, imaging of primary site and chest [OSTEO-4]."
+            ],
+            "biopsy_or_salvage_logic": [
+                "Biopsy should be performed to confirm diagnosis of recurrence when imaging is suspicious [BONE-A].",
+                "For local recurrence: Wide excision if resectable. Consider RT or re-excision for positive margins [CHON-3, EW-2, OSTEO-4].",
+                "For metastatic recurrence: Systemic therapy, local therapy (surgery/RT/ablation) to symptomatic sites, or clinical trial [CHON-4, CHOR-3, EW-3, OSTEO-4].",
+                "For GCTB recurrence: Re-treat with denosumab, serial embolization, and/or RT. Risk of local recurrence is increased when denosumab is used prior to curettage [GCTB-3]."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_bone_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T16:28:02.300891"
+    },
+    "extraction_warnings": [
+        "  [WARNING] bone/nccn_bone_2.2026.pdf: Regimen 'Pembrolizumab' -- Pembrolizumab dose 2001340016.0  out of range (1-2 mg/kg). Manual review required.",
+        "  [WARNING] bone/nccn_bone_2.2026.pdf: Regimen 'Pembrolizumab' -- Pembrolizumab dose 2001340016.0  out of range (1-2 mg/kg). Manual review required.",
+        "  [WARNING] bone/nccn_bone_2.2026.pdf: Regimen 'Pembrolizumab' -- Pembrolizumab dose 2001340016.0  out of range (1-2 mg/kg). Manual review required.",
+        "  [WARNING] bone/nccn_bone_2.2026.pdf: Regimen 'Pembrolizumab or Nivolumab' -- Pembrolizumab dose 2001340016.0  out of range (1-2 mg/kg). Manual review required."
+    ]
+}

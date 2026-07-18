@@ -1,0 +1,3402 @@
+{
+    "site_id": "sarcoma",
+    "site_display_name": "Sarcoma",
+    "archetype": "B",
+    "regimen_count": 117,
+    "regimens": [
+        {
+            "regimen_name": "AIM (Doxorubicin/Ifosfamide/Mesna)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50-75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3 (continuous infusion), every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide and 6-12 hours after"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Dexrazoxane may be added as cardioprotectant for patients planning to receive high-dose anthracyclines (>250 mg/m2 cumulative). Anthracycline-based regimens are preferred in the neoadjuvant and adjuvant settings. Referenced by refs 1-4 [1-4]."
+        },
+        {
+            "regimen_name": "Epirubicin/Ifosfamide/Mesna",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Epirubicin",
+                    "dose": "60-120 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3-5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Italian randomized cooperative trial",
+                "phase": "Phase III",
+                "n_patients": "104"
+            },
+            "notes": "In the Italian randomized cooperative study, adjuvant chemotherapy with epirubicin and ifosfamide versus observation resulted in significantly better median DFS (48 vs 16 months) and median OS (75 vs 46 months). After 90 months follow-up, estimated 5-year OS rate was 66% vs 46% (P=.04). Referenced by ref 5 [5]."
+        },
+        {
+            "regimen_name": "Neoadjuvant Pembrolizumab with RT followed by Adjuvant Pembrolizumab",
+            "site": "Soft tissue sarcoma (UPS-related: limb girdle/extremity UPS/myxofibrosarcoma/dedifferentiated liposarcoma/pleomorphic liposarcoma)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks with RT, then adjuvant 400 mg every 6 weeks"
+                },
+                {
+                    "name": "Radiation therapy",
+                    "dose": "50-50.4 Gy",
+                    "route": "RT",
+                    "schedule": "Concurrent with pembrolizumab neoadjuvantly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SU2C-SARC032",
+                "phase": "Randomized clinical trial",
+                "n_patients": null
+            },
+            "notes": "New regimen added in Version 4.2026. For UPS-related sarcomas only (limb girdle/extremity UPS/myxofibrosarcoma [MFS]/dedifferentiated liposarcoma [ddLPS]/pleomorphic liposarcoma). Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Referenced by ref 6 [6]."
+        },
+        {
+            "regimen_name": "AD (Doxorubicin/Dacarbazine)",
+            "site": "Soft tissue sarcoma (general, particularly LMS)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Recommended for leiomyosarcoma (LMS), or if ifosfamide is not considered appropriate. Referenced by refs 1, 2, 11, 12 [1, 2, 11, 12]."
+        },
+        {
+            "regimen_name": "Doxorubicin",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Single-agent doxorubicin for neoadjuvant/adjuvant setting. Referenced by refs 1, 2, 7, 8 [1, 2, 7, 8]."
+        },
+        {
+            "regimen_name": "Ifosfamide/Mesna (Adjuvant/Neoadjuvant)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3-5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances for neoadjuvant/adjuvant therapy. Referenced by refs 5, 8, 28 [5, 8, 28]."
+        },
+        {
+            "regimen_name": "Trabectedin (for Myxoid Liposarcoma)",
+            "site": "Soft tissue sarcoma (myxoid liposarcoma)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trabectedin",
+                    "dose": "1.5 mg/m2",
+                    "route": "IV",
+                    "schedule": "24-hour infusion, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "ISG-STS 1001",
+                "phase": "Randomized phase 3",
+                "n_patients": "287"
+            },
+            "notes": "In the ISG-STS 1001 trial comparing standard neoadjuvant chemotherapy (epirubicin/ifosfamide) with histotype-specific regimens, at 46 months DFS was 62% for standard chemotherapy vs 38% for histotype-tailored regimens (HR 2.00; 95% CI 1.22-3.26; P=.006). Useful in certain circumstances for myxoid liposarcoma. Referenced by ref 32 [32]."
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine (Neoadjuvant/Adjuvant)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Neoadjuvant/Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 8, every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "900 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Category 2B recommendation. Useful in certain circumstances for neoadjuvant/adjuvant therapy. Referenced by refs 25, 26 [25, 26]."
+        },
+        {
+            "regimen_name": "Doxorubicin (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC 62012",
+                "phase": "Randomized controlled phase 3",
+                "n_patients": null
+            },
+            "notes": "Single-agent doxorubicin is an anthracycline-based preferred regimen for first-line therapy. A randomized controlled phase 3 trial examined intensified doxorubicin plus ifosfamide vs doxorubicin alone; no OS benefit for combination (14.3 vs 12.8 months; P=.076), but improved response rates (26% vs 14%; P=.0006) and PFS (7.4 vs 4.6 months; P=.003). Referenced by refs 1, 2, 7, 8 [1, 2, 7, 8]."
+        },
+        {
+            "regimen_name": "Epirubicin (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Epirubicin",
+                    "dose": "60-120 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Anthracycline-based preferred regimen for first-line therapy. Referenced by ref 9 [9]."
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "40-50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC phase II",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Pegylated liposomal doxorubicin had equivalent activity and improved toxicity profile compared to doxorubicin; response rates were 9% and 10% for doxorubicin and liposomal doxorubicin, respectively. Referenced by ref 10 [10]."
+        },
+        {
+            "regimen_name": "AD (Doxorubicin/Dacarbazine) - First-Line Advanced/Metastatic",
+            "site": "Soft tissue sarcoma (general, particularly LMS)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SWOG study",
+                "phase": "Phase III",
+                "n_patients": null
+            },
+            "notes": "Phase III comparison of doxorubicin and dacarbazine given by bolus versus infusion. Referenced by refs 1, 2, 11-13 [1, 2, 11, 12, 13]."
+        },
+        {
+            "regimen_name": "AIM (Doxorubicin/Ifosfamide/Mesna) - First-Line Advanced/Metastatic",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50-75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3 (continuous infusion), every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide and 6-12 hours after"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC 62012",
+                "phase": "Randomized controlled phase 3",
+                "n_patients": null
+            },
+            "notes": "Intensified doxorubicin plus ifosfamide showed improved PFS (7.4 vs 4.6 months; P=.003) and response rates (26% vs 14%; P=.0006) versus single-agent doxorubicin. No OS benefit for combination (14.3 vs 12.8 months; P=.076). In the RTOG 9514 study of 66 patients with large high-grade STS treated with neoadjuvant MAID (mesna/doxorubicin/ifosfamide/dacarbazine) chemoradiation followed by surgery and adjuvant MAID, 5-year DFS, distant DFS, and OS rates were 56%, 64%, and 71%, respectively. Referenced by refs 1-4, 7 [1, 2, 3, 4, 7]."
+        },
+        {
+            "regimen_name": "Epirubicin/Ifosfamide/Mesna - First-Line Advanced/Metastatic",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Epirubicin",
+                    "dose": "60-120 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3-5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Anthracycline-based preferred regimen for first-line therapy. Referenced by ref 5 [5]."
+        },
+        {
+            "regimen_name": "Doxorubicin/Trabectedin (for LMS)",
+            "site": "Soft tissue sarcoma (leiomyosarcoma)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Trabectedin",
+                    "dose": "1.1 mg/m2",
+                    "route": "IV",
+                    "schedule": "24-hour infusion on day 1, every 3 weeks (after doxorubicin cycle), then trabectedin monotherapy 1.5 mg/m2 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LMS-04",
+                "phase": "Randomized phase 3",
+                "n_patients": null
+            },
+            "notes": "Doxorubicin alone versus doxorubicin with trabectedin followed by trabectedin alone as first-line therapy for metastatic or unresectable leiomyosarcoma (LMS-04). Referenced by refs 14, 15 [14, 15]."
+        },
+        {
+            "regimen_name": "Larotrectinib (NTRK Fusion-Positive Sarcomas)",
+            "site": "Soft tissue sarcoma (any subtype with NTRK gene fusion)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive, regardless of STS subtype",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Not intended for neoadjuvant or adjuvant therapy of nonmetastatic disease. Not recommended for angiosarcoma or pleomorphic RMS. Larotrectinib is a tropomyosin receptor kinase (TRK) inhibitor with demonstrated efficacy in NTRK fusion-positive tumors regardless of histology. Referenced by ref 16 [16]."
+        },
+        {
+            "regimen_name": "Entrectinib (NTRK Fusion-Positive Sarcomas)",
+            "site": "Soft tissue sarcoma (any subtype with NTRK gene fusion)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive, regardless of STS subtype",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "STARTRK-2, STARTRK-1, ALKA-372-001",
+                "phase": "Pooled analysis of phase 1/2",
+                "n_patients": null
+            },
+            "notes": "Not intended for neoadjuvant or adjuvant therapy of nonmetastatic disease. Not recommended for angiosarcoma or pleomorphic RMS. Referenced by ref 17 [17]."
+        },
+        {
+            "regimen_name": "Repotrectinib (NTRK Fusion-Positive Sarcomas)",
+            "site": "Soft tissue sarcoma (any subtype with NTRK gene fusion)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg daily for 14 days, then 120 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive, regardless of STS subtype",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "Phase 1/2",
+                "n_patients": null
+            },
+            "notes": "Not intended for neoadjuvant or adjuvant therapy of nonmetastatic disease. Not recommended for angiosarcoma or pleomorphic RMS. Referenced by ref 18 [18]."
+        },
+        {
+            "regimen_name": "Gemcitabine (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "900-1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Other recommended option for first-line therapy. Referenced by refs listed in table [ref]."
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 8, every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "900 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "SARC 002",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Category 2B. In the randomized phase II study (SARC 002), the combination of gemcitabine and docetaxel was associated with superior PFS (6.2 and 3.0 months, respectively) and OS (17.9 and 11.5 months, respectively) compared to gemcitabine alone. However, gemcitabine/docetaxel was not superior to single-agent doxorubicin in the GeDDiS phase III trial (PFS 23.7 vs 23.3 weeks; P=.06). Referenced by refs 25, 26 [25, 26]."
+        },
+        {
+            "regimen_name": "Pazopanib (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-adipocytic histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "EPAZ",
+                "phase": "Open-label phase II",
+                "n_patients": null
+            },
+            "notes": "For patients ineligible for IV systemic therapy or patients who are not candidates for anthracycline-based regimens. In the EPAZ study, pazopanib demonstrated non-inferior PFS compared with doxorubicin (4.4 vs 5.3 months) as first-line treatment in older patients with advanced/metastatic STS. Referenced by ref 281 [281]."
+        },
+        {
+            "regimen_name": "Selpercatinib (RET Fusion-Positive Sarcomas)",
+            "site": "Soft tissue sarcoma (any subtype with RET gene fusion)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "160 mg (body weight <50 kg) or 320 mg (>=50 kg)",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive, regardless of STS subtype",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "Phase 1/2, open-label basket trial",
+                "n_patients": null
+            },
+            "notes": "For RET gene fusion-positive tumors regardless of soft tissue sarcoma subtype. Referenced by ref 33 [33]."
+        },
+        {
+            "regimen_name": "Dacarbazine/Gemcitabine (First-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "First-line Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GEIS study",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Category 2B. In the GEIS randomized phase II study, gemcitabine plus dacarbazine resulted in superior PFS (4.2 vs 2 months; P=.005), OS (16.8 vs 8.2 months; P=.014), and ORR (49% vs 25%; P=.009) compared to dacarbazine alone. Referenced by ref 27 [27]."
+        },
+        {
+            "regimen_name": "Pazopanib (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-adipocytic histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PALETTE (EORTC 62072)",
+                "phase": "Randomized double-blind placebo-controlled phase 3",
+                "n_patients": "369"
+            },
+            "notes": "For patients who had failed at least one anthracycline-based chemotherapy regimen. Pazopanib significantly prolonged median PFS (4.6 vs 1.6 months for placebo; P<.0001) and there was a trend toward improved OS (12.5 and 11 months, respectively; P=.25), although not statistically significant. Optimal duration of TKI therapy has not been established. Discontinuation of TKI therapy can be considered in patients with stable disease. Referenced by refs 19, 135 [19, 135]."
+        },
+        {
+            "regimen_name": "Eribulin (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (LPS: category 1; other subtypes: category 2A)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Eribulin",
+                    "dose": "1.4 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (LPS) / Category 2A (other)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "EORTC 62982",
+                "phase": "Randomized open-label phase 3",
+                "n_patients": "452"
+            },
+            "notes": "Category 1 recommendation for liposarcoma, category 2A for other subtypes. In the phase 3 trial comparing eribulin and dacarbazine in 452 patients with advanced LMS or LPS, median OS was 13.5 months vs 11.5 months (HR 0.77; 95% CI 0.62-0.95; P=.017). Subgroup analysis demonstrated the survival benefit was limited to LPS. Referenced by refs 20, 21 [20, 21]."
+        },
+        {
+            "regimen_name": "Trabectedin (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (LPS and LMS: category 1; other subtypes: category 2A)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trabectedin",
+                    "dose": "1.5 mg/m2",
+                    "route": "IV",
+                    "schedule": "24-hour infusion, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (LPS, LMS) / Category 2A (other)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase III (Demetri et al. JCO 2016)",
+                "phase": "Randomized phase 3",
+                "n_patients": null
+            },
+            "notes": "Category 1 for liposarcoma and leiomyosarcoma (L-type), category 2A for non-L-type sarcomas. The phase 3 trial revealed a 2.7-month PFS benefit versus dacarbazine in metastatic LPS or LMS that progressed after anthracycline-based therapy. Another study supported efficacy in translocation-related sarcoma. Referenced by refs 22-24 [22, 23, 24]."
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 8, every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "900 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SARC 002",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Preferred option for subsequent lines. Referenced by refs 25, 26 [25, 26]."
+        },
+        {
+            "regimen_name": "Repotrectinib (Subsequent-Line, NTRK Fusion-Positive, Not Previously Given)",
+            "site": "Soft tissue sarcoma (any subtype with NTRK gene fusion)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg daily for 14 days, then 120 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive, regardless of STS subtype",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "Phase 1/2",
+                "n_patients": null
+            },
+            "notes": "Only for subsequent lines if not previously given. Referenced by ref 18 [18]."
+        },
+        {
+            "regimen_name": "Dacarbazine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Other recommended option. Recommended only for palliative therapy. Referenced by refs 22, 27 [22, 27]."
+        },
+        {
+            "regimen_name": "Ifosfamide/Mesna (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1.2 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Other recommended option. Referenced by refs 5, 8, 28 [5, 8, 28]."
+        },
+        {
+            "regimen_name": "Temozolomide (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "150-200 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1-5, every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Spanish Group for Research on Sarcomas",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "In a phase II study, temozolomide resulted in an ORR of 15.5% with a median OS of 8 months in patients with advanced pretreated STS. The PFS rates at 3 months and 6 months were 39.5% and 26%, respectively. Recommended only for palliative therapy. Referenced by refs 29 [29]."
+        },
+        {
+            "regimen_name": "Vinorelbine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": "20-25 mg/m2",
+                    "route": "IV/PO",
+                    "schedule": "Day 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "In a retrospective study, vinorelbine induced overall response in 6% of patients and 26% had stable disease. Recommended only for palliative therapy. Referenced by refs 30 [30]."
+        },
+        {
+            "regimen_name": "Regorafenib (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-adipocytic histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21, every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "REGOSARC",
+                "phase": "Randomized phase II",
+                "n_patients": "182"
+            },
+            "notes": "In the REGOSARC trial (n=182), compared to placebo, regorafenib significantly extended PFS in all cohorts except LPS. In patients with non-adipocytic STS, overall PFS for regorafenib and placebo was 4 months vs 1 month (HR 0.36; P<.0001). Recommended only for palliative therapy. Referenced by ref 31 [31]."
+        },
+        {
+            "regimen_name": "Gemcitabine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "900-1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Other recommended option. Referenced by refs listed in table [ref]."
+        },
+        {
+            "regimen_name": "Gemcitabine/Dacarbazine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "GEIS study",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Other recommended option. Referenced by ref 27 [27]."
+        },
+        {
+            "regimen_name": "Gemcitabine/Vinorelbine (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Dileo et al.)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Category 2B. Useful in certain circumstances. Referenced by ref 34 [34]."
+        },
+        {
+            "regimen_name": "Gemcitabine/Pazopanib (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                },
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Randomized phase 2 (Somaiah et al.)",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Category 2B. Useful in certain circumstances. Referenced by ref 35 [35]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Subsequent-Line, MFS/UPS/fddLPS/Cutaneous Angiosarcoma/Undifferentiated Sarcomas)",
+            "site": "Soft tissue sarcoma (MFS, UPS, dedifferentiated LPS, cutaneous angiosarcoma, undifferentiated sarcomas)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, or 400 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "SARC028",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances. Multicenter phase II study of pembrolizumab in advanced soft tissue sarcoma and bone sarcomas (SARC028). Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Referenced by refs 36, 37 [36, 37]."
+        },
+        {
+            "regimen_name": "Nivolumab +/- Ipilimumab (Subsequent-Line, MFS/UPS/fddLPS/Cutaneous Angiosarcoma/Undifferentiated Sarcomas)",
+            "site": "Soft tissue sarcoma (MFS, UPS, dedifferentiated LPS, cutaneous angiosarcoma, undifferentiated sarcomas)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks (monotherapy), or 3 mg/kg with ipilimumab every 3 weeks x4, then nivolumab 240 mg every 2 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks x4 (when combined with nivolumab)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "SWOG S1609 (DART), CheckMate 743 substudy",
+                "phase": "Phase II / Randomized phase 2",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab. Referenced by refs 38-41 [38, 39, 40, 41]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Subsequent-Line, TMB-H >=10 mut/Mb)",
+            "site": "Soft tissue sarcoma (any subtype with TMB-H)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, or 400 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": ">=10 mut/Mb as determined by FDA-approved test",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "For the treatment of patients with unresectable or metastatic TMB-H (>=10 mut/Mb) tumors, as determined by an FDA-approved test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. Referenced by refs 36, 42 [36, 42]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Subsequent-Line, MSI-H or dMMR)",
+            "site": "Soft tissue sarcoma (any subtype with MSI-H or dMMR)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, or 400 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H or dMMR",
+                    "requirement": "Positive, as determined by FDA-approved test",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "For the treatment of unresectable or metastatic MSI-H or mismatch repair deficient (dMMR) solid tumors as determined by an FDA-approved test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. Referenced by ref 42 [42]."
+        },
+        {
+            "regimen_name": "Cabozantinib (Subsequent-Line Advanced/Metastatic)",
+            "site": "Soft tissue sarcoma (general, non-specific histologies)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Category 2B. Useful in certain circumstances. Clinical activity of single-agent cabozantinib in patients with refractory soft-tissue sarcomas was demonstrated. Referenced by ref 43 [43]."
+        },
+        {
+            "regimen_name": "Afamitresgene Autoleucel (Adoptive Cell Therapy)",
+            "site": "Soft tissue sarcoma (synovial sarcoma only)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Afamitresgene Autoleucel",
+                    "dose": "1-10 x 10^9 cells",
+                    "route": "IV",
+                    "schedule": "Single infusion after lymphodepletion"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HLA-A*02:01P, HLA-A*02:02P, HLA-A*02:03P, or HLA-A*02:06P",
+                    "requirement": "Positive",
+                    "mandatory": true
+                },
+                {
+                    "marker": "MAGE-A4 antigen expression",
+                    "requirement": "Positive, tumor must express MAGE-A4",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "SPEARHEAD-1",
+                "phase": "International open-label phase 2",
+                "n_patients": null
+            },
+            "notes": "For synovial sarcomas only. Patients must be HLA-A*02:01P, HLA-A*02:02P, HLA-A*02:03P or HLA-A*02:06P positive and whose tumor expresses the MAGE-A4 antigen. Referenced by ref 44 [44]."
+        },
+        {
+            "regimen_name": "Nirogacestat",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nirogacestat",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "DeFi (NCT03785964)",
+                "phase": "Phase 3",
+                "n_patients": null
+            },
+            "notes": "Gamma-secretase inhibitor. Category 1 preferred agent for desmoid tumors. Referenced by ref 45 [45]."
+        },
+        {
+            "regimen_name": "Sorafenib (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II (Gounder et al. NEJM 2018)",
+                "phase": "Phase 2",
+                "n_patients": null
+            },
+            "notes": "Category 1 preferred agent for desmoid tumors. In a study of 26 patients (11 first-line, 15 had received a median of 2 prior systemic therapies), sorafenib induced PR in 25% of patients and 70% had stable disease, with a median follow-up of 6 months. Referenced by ref 46 [46]."
+        },
+        {
+            "regimen_name": "Methotrexate/Vinorelbine (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Preferred option for desmoid tumors. Referenced by ref 47 [47]."
+        },
+        {
+            "regimen_name": "Methotrexate/Vinblastine (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "25-50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": "6 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Azzarelli et al. 2001",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Low-dose chemotherapy with methotrexate and vinblastine was associated with prolonged stable disease in patients with unresectable or recurrent tumors. Referenced by ref 48 [48]."
+        },
+        {
+            "regimen_name": "Imatinib (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Once daily or twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SARC 006 / FNCLCC/French Sarcoma Group",
+                "phase": "Phase 2",
+                "n_patients": null
+            },
+            "notes": "In a phase II multicenter study (SARC 006), imatinib resulted in an objective response rate of 6% and the 1-year PFS rate was 66%. Long-term follow-up showed 2-year PFS and OS rates were 55% and 95%, respectively. Referenced by refs 49, 50 [49, 50]."
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "40-50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3-4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Constantinidou et al. 2009",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Pegylated liposomal doxorubicin was an effective and well-tolerated treatment for refractory aggressive fibromatosis. Referenced by ref 51 [51]."
+        },
+        {
+            "regimen_name": "Doxorubicin (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50-75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Doxorubicin-based chemotherapy has been effective in patients with recurrent or unresectable tumors. Referenced by refs 52-54 [52, 53, 54]."
+        },
+        {
+            "regimen_name": "Dacarbazine/Doxorubicin (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": "250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Erratum in Version 4.2026: Revised regimen from dacarbazine +/- doxorubicin to Doxorubicin and Dacarbazine/Doxorubicin. Referenced by refs 52-54 [52, 53, 54]."
+        },
+        {
+            "regimen_name": "Pazopanib (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "DESMOPAZ",
+                "phase": "Non-comparative randomized open-label phase 2",
+                "n_patients": null
+            },
+            "notes": "In the DESMOPAZ study, pazopanib or methotrexate-vinblastine combination chemotherapy was evaluated in adult patients with progressive desmoid tumors. Referenced by ref 55 [55]."
+        },
+        {
+            "regimen_name": "Sulindac or Other NSAIDs including Celecoxib (Desmoid Tumors)",
+            "site": "Desmoid tumors (aggressive fibromatosis)",
+            "setting": "Advanced/Unresectable/Progressive/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sulindac",
+                    "dose": "150-300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Celecoxib",
+                    "dose": "200-400 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances. For pain management. The risk of cardiovascular events may be increased in patients receiving celecoxib, and patients with cardiovascular disease or risk factors may be at greater risk. Referenced by ref 56 [56]."
+        },
+        {
+            "regimen_name": "VAC (Vincristine/Dactinomycin/Cyclophosphamide/Mesna)",
+            "site": "Non-pleomorphic rhabdomyosarcoma (alveolar, embryonal, spindle cell/sclerosing)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Day 1, weekly during induction, then every 3 weeks during maintenance"
+                },
+                {
+                    "name": "Dactinomycin",
+                    "dose": "0.045 mg/kg (max 2.5 mg)",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1200 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Cyclophosphamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With cyclophosphamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "COG D9803",
+                "phase": "Randomized",
+                "n_patients": null
+            },
+            "notes": "Standard chemotherapy for pediatric nonmetastatic intermediate or high-risk RMS. In COG D9803, no significant survival benefit of adding topotecan to standard VAC in children with intermediate-risk RMS (4-year FFS 73% for VAC vs 68% for VAC/VTC; P=.30). Referral to institutions with expertise in RMS is strongly recommended. Referenced by ref 57 [57]."
+        },
+        {
+            "regimen_name": "VAI-Europe (Vincristine/Dactinomycin/Ifosfamide/Mesna)",
+            "site": "Non-pleomorphic rhabdomyosarcoma (alveolar, embryonal, spindle cell/sclerosing)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Dactinomycin",
+                    "dose": "0.045 mg/kg (max 2.5 mg)",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "European Paediatric Soft Tissue Sarcoma Study Group MTS 2008",
+                "phase": "Phase 3",
+                "n_patients": null
+            },
+            "notes": "Preferred option from European protocols. Results from the European Paediatric Soft Tissue Sarcoma Study Group MTS 2008 study and pooled analysis with the concurrent BERNIE study. Referenced by ref 58 [58]."
+        },
+        {
+            "regimen_name": "VDC-IE (Vincristine/Doxorubicin/Cyclophosphamide alternating with Ifosfamide/Etoposide)",
+            "site": "Non-pleomorphic rhabdomyosarcoma (alveolar, embryonal, spindle cell/sclerosing)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "37.5 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-2"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1200 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1.8 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "COG pilot study (Arndt et al. 2008)",
+                "phase": "Pilot study",
+                "n_patients": null
+            },
+            "notes": "Alternating VAC and IE regimens were found to be effective for intermediate-risk RMS. Referenced by ref 59 [59]."
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Mesna/Doxorubicin/Vincristine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Cyclophosphamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With cyclophosphamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Other recommended regimen. Referenced by ref 60 [60]."
+        },
+        {
+            "regimen_name": "Doxorubicin/Ifosfamide/Mesna/Vincristine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-2"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Ogilvie et al. 2010",
+                "phase": "Phase II",
+                "n_patients": "11"
+            },
+            "notes": "Chemotherapy with vincristine, doxorubicin, and ifosfamide resulted in an overall response rate of 86% in 11 adult patients with pleomorphic RMS; 2-year OS and DFS rates were 55% and 64%, respectively. Referenced by ref 61 [61]."
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Topotecan",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "10 mg/kg/day",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": "0.75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Pediatric Oncology Group phase II",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Other recommended regimen. Referenced by ref 62 [62]."
+        },
+        {
+            "regimen_name": "Doxorubicin/Ifosfamide/Mesna (RMS)",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1.8 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II window trial",
+                "n_patients": null
+            },
+            "notes": "Other recommended regimen. Referenced by ref 63 [63]."
+        },
+        {
+            "regimen_name": "Etoposide/Ifosfamide/Mesna",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1.8 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "IRS-V (Breitfeld et al. 2001)",
+                "phase": "Randomized",
+                "n_patients": null
+            },
+            "notes": "Ifosfamide and etoposide were found to be superior to vincristine and melphalan for pediatric metastatic RMS. Referenced by ref 64 [64]."
+        },
+        {
+            "regimen_name": "Irinotecan/Vincristine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "COG phase II window trials",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Two consecutive phase II window trials of irinotecan alone or in combination with vincristine for the treatment of metastatic RMS. Referenced by refs 65, 66 [65, 66]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "German CESS/CWS REZ 91",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Report of the German CESS/CWS REZ 91 trial for treatment of children with relapsed soft tissue sarcoma. Referenced by ref 67 [67]."
+        },
+        {
+            "regimen_name": "Oral Low-Dose Cyclophosphamide/Vinorelbine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Maintenance",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "50 mg/m2/day",
+                    "route": "PO",
+                    "schedule": "Daily for 21 days, every 4 weeks"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 and 8, every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RMS 2005 (Bisogno et al. 2019)",
+                "phase": "Randomized phase 3",
+                "n_patients": null
+            },
+            "notes": "Maintenance chemotherapy for patients with intermediate-risk RMS with complete response (CR) following treatment with VAC or VAI regimen. The COG has an active prospective ongoing study, but this is considered a reasonable standard of care. In the RMS 2005 trial, maintenance therapy with vinorelbine and cyclophosphamide showed benefit. Referenced by ref 68 [68]."
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide/Vincristine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "100 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "1.5 mg/m2 (max 2 mg)",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "McNall-Knapp et al. 2010",
+                "phase": "Phase I",
+                "n_patients": null
+            },
+            "notes": "Extended phase I evaluation in children with refractory solid tumors. Referenced by ref 69 [69]."
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "French SOP/UK CCSG",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Phase II trial of irinotecan in children with relapsed or refractory rhabdomyosarcoma. Referenced by refs 65, 66, 70 [65, 66, 70]."
+        },
+        {
+            "regimen_name": "Topotecan",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "0.75 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 1-5, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "IRS phase II window trial",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Up-front window trial of topotecan in previously untreated children and adolescents with metastatic rhabdomyosarcoma. Referenced by ref 71 [71]."
+        },
+        {
+            "regimen_name": "Vinorelbine (RMS)",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": "30-33.3 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly or Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Casanova et al. 2002",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Vinorelbine in previously treated advanced childhood sarcomas showed evidence of activity in rhabdomyosarcoma. Referenced by ref 72 [72]."
+        },
+        {
+            "regimen_name": "Cyclophosphamide/Temsirolimus/Vinorelbine",
+            "site": "Non-pleomorphic rhabdomyosarcoma",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "250 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 1-21, every 6 weeks"
+                },
+                {
+                    "name": "Temsirolimus",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "COG (Mascarenhas et al. 2019)",
+                "phase": "Randomized phase II",
+                "n_patients": null
+            },
+            "notes": "Randomized phase II trial of bevacizumab or temsirolimus in combination with chemotherapy for first relapse rhabdomyosarcoma. Referenced by ref 73 [73]."
+        },
+        {
+            "regimen_name": "Atezolizumab (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "840 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks, or 1200 mg every 3 weeks, or 1680 mg every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II study (Naqash et al. 2021)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "FDA approved for the treatment of adult and pediatric patients >=2 years of age with unresectable or metastatic ASPS. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab. Referenced by refs 74, 75 [74, 75]."
+        },
+        {
+            "regimen_name": "Pazopanib (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2018",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Preferred agent for advanced ASPS. Referenced by ref 76 [76]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Preferred agent for advanced ASPS. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Referenced by ref 77 [77]."
+        },
+        {
+            "regimen_name": "Axitinib + Pembrolizumab (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II (Wilky et al. 2019)",
+                "phase": "Phase 2",
+                "n_patients": null
+            },
+            "notes": "New regimen added in Version 4.2026. Axitinib plus pembrolizumab in patients with advanced sarcomas including alveolar soft-part sarcoma: a single-centre, single-arm, phase 2 trial. Referenced by ref 78 [78]."
+        },
+        {
+            "regimen_name": "Sunitinib (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on / 2 weeks off"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2009/2011",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Sunitinib in advanced ASPS showed evidence of a direct antitumor effect with confirmed responses and prolonged stable disease. Referenced by refs 79, 80 [79, 80]."
+        },
+        {
+            "regimen_name": "Cabozantinib (ASPS)",
+            "site": "Alveolar soft part sarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances. Referenced by ref 43 [43]."
+        },
+        {
+            "regimen_name": "Paclitaxel (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80-100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly, or 175 mg/m2 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANGIOTAX Study",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Phase II trial of weekly paclitaxel for unresectable angiosarcoma (ANGIOTAX Study). Referenced by refs 81, 82 [81, 82]."
+        },
+        {
+            "regimen_name": "Docetaxel (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "EORTC phase II",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Other recommended agent for angiosarcoma. Referenced by ref 83 [83]."
+        },
+        {
+            "regimen_name": "Regorafenib (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Days 1-21, every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Open-label phase II (Agulnik et al. 2021)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances. Referenced by ref 84 [84]."
+        },
+        {
+            "regimen_name": "Sorafenib (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II (Maki et al. 2009)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Phase II study of sorafenib in patients with metastatic or recurrent sarcomas. Referenced by ref 85 [85]."
+        },
+        {
+            "regimen_name": "Sunitinib (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on / 2 weeks off"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "George et al. 2009",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Multicenter phase II trial of sunitinib in the treatment of non-GIST sarcomas. Referenced by ref 86 [86]."
+        },
+        {
+            "regimen_name": "Bevacizumab (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II (Agulnik et al. 2013)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "An open-label, multicenter, phase II study of bevacizumab for the treatment of angiosarcoma and epithelioid hemangioendotheliomas. An FDA-approved biosimilar is an appropriate substitute. Referenced by ref 87 [87]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Angiosarcoma)",
+            "site": "Angiosarcoma",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks x4"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks x4, then nivolumab 240 mg every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "SWOG S1609 (DART)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Useful in certain circumstances for angiosarcoma. Referenced by ref 38 [38]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Cutaneous Angiosarcoma)",
+            "site": "Angiosarcoma (cutaneous)",
+            "setting": "Advanced/Metastatic",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "SARC028",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "For cutaneous angiosarcoma specifically. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab. Referenced by refs 36, 37 [36, 37]."
+        },
+        {
+            "regimen_name": "Imatinib (DFSP with Fibrosarcomatous Transformation)",
+            "site": "Dermatofibrosarcoma protuberans (DFSP) with fibrosarcomatous transformation",
+            "setting": "Advanced/Unresectable/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFB rearrangement (COL1A1::PDGFB)",
+                    "requirement": "Present (inherent to DFSP)",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Patients with DFSP with fibrosarcomatous changes and/or malignant transformations should be treated according to the algorithms for other soft tissue sarcomas (EXTSARC-1 and SARC-G, 4 of 14). Imatinib is the preferred first-line agent. Referenced by ref 88 [88]."
+        },
+        {
+            "regimen_name": "Anthracycline-Based Regimens (Epithelioid Sarcoma)",
+            "site": "Epithelioid sarcoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Anthracycline-based regimens for general soft tissue sarcoma are preferred for epithelioid sarcoma. Referenced in SARC-G, 1 of 14 [ref]."
+        },
+        {
+            "regimen_name": "Ifosfamide/Mesna or Platinum-Based Therapy (Extraskeletal Osteosarcoma)",
+            "site": "Extraskeletal osteosarcoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": "3-5 g/m2",
+                    "route": "IV",
+                    "schedule": "Days 1-3, every 3 weeks"
+                },
+                {
+                    "name": "Mesna",
+                    "dose": "Ifosfamide dose-equivalent",
+                    "route": "IV",
+                    "schedule": "With ifosfamide"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Paludo et al. 2018",
+                "phase": "Retrospective",
+                "n_patients": null
+            },
+            "notes": "Extraskeletal osteosarcoma: outcomes and the role of chemotherapy. Platinum-based therapy (Cisplatin/Doxorubicin) is an alternative preferred option. Referenced by ref 89 [89]."
+        },
+        {
+            "regimen_name": "Anthracycline-Based/Gemcitabine-Based Regimens (Dedifferentiated Chordoma)",
+            "site": "Dedifferentiated chordoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Anthracycline-based regimens and gemcitabine-based regimens recommended for general soft tissue sarcoma are preferred for dedifferentiated chordoma. Referenced in SARC-G, 1 of 14 [ref]."
+        },
+        {
+            "regimen_name": "Alectinib (ALK-Translocation IMT)",
+            "site": "Inflammatory myofibroblastic tumor (IMT) with ALK translocation",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK translocation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ALEX trial (Peters et al. 2017)",
+                "phase": "Phase 3",
+                "n_patients": null
+            },
+            "notes": "ALK inhibitor. Referenced by ref 90 [90]."
+        },
+        {
+            "regimen_name": "Brigatinib (ALK-Translocation IMT)",
+            "site": "Inflammatory myofibroblastic tumor (IMT) with ALK translocation",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brigatinib",
+                    "dose": "180 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK translocation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ALTA trials (Camidge et al. 2018; Gettinger et al. 2016)",
+                "phase": "Phase 1/2 and Phase 3",
+                "n_patients": null
+            },
+            "notes": "ALK inhibitor. Brigatinib versus crizotinib in ALK-positive NSCLC; also activity and safety in other malignancies. Referenced by refs 91, 92 [91, 92]."
+        },
+        {
+            "regimen_name": "Ceritinib (ALK-Translocation IMT)",
+            "site": "Inflammatory myofibroblastic tumor (IMT) with ALK translocation",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ceritinib",
+                    "dose": "450 mg",
+                    "route": "PO",
+                    "schedule": "Once daily with food, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK translocation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Shaw et al. 2014",
+                "phase": "Phase I",
+                "n_patients": null
+            },
+            "notes": "Next-generation ALK inhibitor. Referenced by ref 93 [93]."
+        },
+        {
+            "regimen_name": "Crizotinib (ALK-Translocation IMT)",
+            "site": "Inflammatory myofibroblastic tumor (IMT) with ALK translocation",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Crizotinib",
+                    "dose": "250 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK translocation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Butrynski et al. 2010",
+                "phase": "Case report/Phase 1b",
+                "n_patients": null
+            },
+            "notes": "Crizotinib in ALK-rearranged inflammatory myofibroblastic tumor demonstrated dramatic clinical response. Long-term effects in ALK-positive tumors excluding NSCLC also studied. Referenced by refs 94 [94]."
+        },
+        {
+            "regimen_name": "Lorlatinib (ALK-Translocation IMT)",
+            "site": "Inflammatory myofibroblastic tumor (IMT) with ALK translocation",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lorlatinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK translocation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CROWN trial (Shaw et al. 2020)",
+                "phase": "Phase 3",
+                "n_patients": null
+            },
+            "notes": "Third-generation ALK inhibitor. Referenced by ref 95 [95]."
+        },
+        {
+            "regimen_name": "Albumin-Bound Sirolimus (Malignant PEComa)",
+            "site": "Malignant perivascular epithelioid cell tumor (PEComa)",
+            "setting": "Locally advanced unresectable or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Sirolimus",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "AMPECT (Wagner et al. 2021)",
+                "phase": "Registrational open-label phase II",
+                "n_patients": null
+            },
+            "notes": "nab-Sirolimus for patients with malignant PEComa. Long-term follow-up for duration of response from AMPECT trial. Referenced by refs 96, 97 [96, 97]."
+        },
+        {
+            "regimen_name": "Sirolimus (Malignant PEComa)",
+            "site": "Malignant perivascular epithelioid cell tumor (PEComa)",
+            "setting": "Locally advanced unresectable or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, with therapeutic drug monitoring"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Wagner et al. 2010; Bissler et al. 2008; Davies et al. 2011",
+                "phase": "Phase 2",
+                "n_patients": null
+            },
+            "notes": "mTOR inhibitor. Clinical activity demonstrated in malignant PEComa and in angiomyolipoma in tuberous sclerosis complex or lymphangioleiomyomatosis. Referenced by refs 98-101 [98, 99, 100, 101]."
+        },
+        {
+            "regimen_name": "Everolimus (Malignant PEComa)",
+            "site": "Malignant perivascular epithelioid cell tumor (PEComa)",
+            "setting": "Locally advanced unresectable or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Gennatas et al. 2012",
+                "phase": "Case report",
+                "n_patients": "1"
+            },
+            "notes": "mTOR inhibitor. Referenced by ref 102 [102]."
+        },
+        {
+            "regimen_name": "Temsirolimus (Malignant PEComa)",
+            "site": "Malignant perivascular epithelioid cell tumor (PEComa)",
+            "setting": "Locally advanced unresectable or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temsirolimus",
+                    "dose": "25 mg",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Benson et al. 2014; Italiano et al. 2010",
+                "phase": "Retrospective / Phase 2",
+                "n_patients": null
+            },
+            "notes": "mTOR inhibitor. Treatment with the mTOR inhibitor temsirolimus in patients with malignant PEComa. Referenced by refs 103, 104 [103, 104]."
+        },
+        {
+            "regimen_name": "Sirolimus/Everolimus/Temsirolimus (Recurrent Angiomyolipoma/Lymphangioleiomyomatosis)",
+            "site": "Recurrent angiomyolipoma, lymphangioleiomyomatosis",
+            "setting": "Recurrent/Progressive",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, with therapeutic drug monitoring"
+                },
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                },
+                {
+                    "name": "Temsirolimus",
+                    "dose": "25 mg",
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Bissler et al. 2008; McCormack et al. 2011",
+                "phase": "Phase 2",
+                "n_patients": null
+            },
+            "notes": "mTOR inhibitors for recurrent angiomyolipoma and lymphangioleiomyomatosis. Sirolimus for angiomyolipoma in tuberous sclerosis complex or lymphangioleiomyomatosis (NEJM 2008). Efficacy and safety of sirolimus in lymphangioleiomyomatosis (NEJM 2011). Referenced by refs 98-104 [98, 99, 100, 101, 102, 103, 104]."
+        },
+        {
+            "regimen_name": "Temozolomide + Bevacizumab (Solitary Fibrous Tumor)",
+            "site": "Solitary fibrous tumor",
+            "setting": "Advanced/Unresectable/Recurrent",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "150-200 mg/m2",
+                    "route": "PO",
+                    "schedule": "Days 1-5, every 4 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "15 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Park et al. 2011",
+                "phase": "Retrospective",
+                "n_patients": null
+            },
+            "notes": "Activity of temozolomide and bevacizumab in the treatment of locally advanced, recurrent, and metastatic hemangiopericytoma and malignant solitary fibrous tumor. An FDA-approved biosimilar is an appropriate substitute for bevacizumab. Referenced by ref 105 [105]."
+        },
+        {
+            "regimen_name": "Sunitinib (Solitary Fibrous Tumor)",
+            "site": "Solitary fibrous tumor",
+            "setting": "Advanced/Unresectable/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on / 2 weeks off"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2012",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Sunitinib malate in solitary fibrous tumor showed activity. Referenced by ref 106 [106]."
+        },
+        {
+            "regimen_name": "Sorafenib (Solitary Fibrous Tumor)",
+            "site": "Solitary fibrous tumor",
+            "setting": "Advanced/Unresectable/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sorafenib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II (Valentin et al. 2013)",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Subgroup analysis from a phase II study of the French Sarcoma Group. Referenced by ref 107 [107]."
+        },
+        {
+            "regimen_name": "Pazopanib (Solitary Fibrous Tumor)",
+            "site": "Solitary fibrous tumor",
+            "setting": "Advanced/Unresectable/Recurrent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Ebata et al. 2018",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Efficacy and safety of pazopanib for recurrent or metastatic solitary fibrous tumor. Referenced by ref 108 [108]."
+        },
+        {
+            "regimen_name": "Pexidartinib (TGCT/PVNS)",
+            "site": "Tenosynovial giant cell tumor / pigmented villonodular synovitis (TGCT/PVNS)",
+            "setting": "Locally advanced or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pexidartinib",
+                    "dose": "1200 mg twice daily for 2 weeks, then 800 mg twice daily",
+                    "route": "PO",
+                    "schedule": "Orally, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ENLIVEN (Tap et al. 2019)",
+                "phase": "Randomized phase 3",
+                "n_patients": null
+            },
+            "notes": "Category 1 preferred agent. Pexidartinib versus placebo for advanced tenosynovial giant cell tumor (ENLIVEN): a randomized phase 3 trial. CSF1/CSF1R inhibitor. Referenced by ref 109 [109]."
+        },
+        {
+            "regimen_name": "Vimseltinib (TGCT/PVNS)",
+            "site": "Tenosynovial giant cell tumor / pigmented villonodular synovitis (TGCT/PVNS)",
+            "setting": "Locally advanced or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vimseltinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Once weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MOTION (Gelderblom et al. 2024)",
+                "phase": "Multicentre randomized double-blind placebo-controlled phase 3",
+                "n_patients": null
+            },
+            "notes": "Category 1 preferred agent. Vimseltinib versus placebo for tenosynovial giant cell tumour (MOTION). CSF1R inhibitor. Referenced by ref 110 [110]."
+        },
+        {
+            "regimen_name": "Imatinib (TGCT/PVNS)",
+            "site": "Tenosynovial giant cell tumor / pigmented villonodular synovitis (TGCT/PVNS)",
+            "setting": "Locally advanced or metastatic",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Cassier et al. 2012",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Efficacy of imatinib mesylate for the treatment of locally advanced and/or metastatic tenosynovial giant cell tumor/pigmented villonodular synovitis. Referenced by ref 111 [111]."
+        },
+        {
+            "regimen_name": "Anthracycline/Gemcitabine-Based Regimens (Dedifferentiated LPS)",
+            "site": "Dedifferentiated liposarcoma (with or without concurrent well-differentiated liposarcoma)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null
+            },
+            "notes": "Anthracycline-based and gemcitabine-based regimens recommended for general soft tissue sarcoma are preferred. Referenced in SARC-G, 1 of 14 [ref]."
+        },
+        {
+            "regimen_name": "Eribulin (Dedifferentiated LPS)",
+            "site": "Dedifferentiated liposarcoma (with or without concurrent well-differentiated liposarcoma)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Eribulin",
+                    "dose": "1.4 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (LPS) / Category 2A (other)",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "EORTC 62982",
+                "phase": "Phase 3",
+                "n_patients": "452"
+            },
+            "notes": "Other recommended. Category 1 for LPS. Referenced by refs 20, 21 [20, 21]."
+        },
+        {
+            "regimen_name": "Trabectedin (Dedifferentiated LPS)",
+            "site": "Dedifferentiated liposarcoma (with or without concurrent well-differentiated liposarcoma)",
+            "setting": "Subsequent Lines for Advanced/Metastatic",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trabectedin",
+                    "dose": "1.5 mg/m2",
+                    "route": "IV",
+                    "schedule": "24-hour infusion, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 (LPS) / Category 2A (other)",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase III (Demetri et al. 2016)",
+                "phase": "Phase 3",
+                "n_patients": null
+            },
+            "notes": "Other recommended. Category 1 for LPS. Referenced by refs 22-24 [22, 23, 24]."
+        },
+        {
+            "regimen_name": "Palbociclib (Dedifferentiated LPS)",
+            "site": "Dedifferentiated liposarcoma (CDK4-amplified WDLPS or DDLPS)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Palbociclib",
+                    "dose": "125 mg",
+                    "route": "PO",
+                    "schedule": "Once daily for 21 days, every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CDK4 amplification",
+                    "requirement": "Amplified",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Dickson et al. 2013",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "CDK4/6 inhibitor. Single-agent therapy for unresectable WDLPS or dedifferentiated liposarcoma. Phase II trial of the CDK4 inhibitor PD0332991 in patients with advanced CDK4-amplified well-differentiated or dedifferentiated liposarcoma. Referenced by ref 113 [113]."
+        },
+        {
+            "regimen_name": "Abemaciclib (Dedifferentiated LPS)",
+            "site": "Dedifferentiated liposarcoma (with or without concurrent well-differentiated liposarcoma)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Abemaciclib",
+                    "dose": "200 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Gleason et al. 2024",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "CDK4/6 inhibitor. Therapy-induced senescence contributes to the efficacy of abemaciclib in patients with dedifferentiated liposarcoma. Referenced by ref 114 [114]."
+        },
+        {
+            "regimen_name": "Pazopanib (Extraskeletal Myxoid Chondrosarcoma)",
+            "site": "Extraskeletal myxoid chondrosarcoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2019",
+                "phase": "Multicentre single-arm phase 2",
+                "n_patients": null
+            },
+            "notes": "Pazopanib for treatment of advanced extraskeletal myxoid chondrosarcoma: a multicentre, single-arm, phase 2 trial. Referenced by ref 115 [115]."
+        },
+        {
+            "regimen_name": "Sunitinib (Extraskeletal Myxoid Chondrosarcoma)",
+            "site": "Extraskeletal myxoid chondrosarcoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, 4 weeks on / 2 weeks off"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2014",
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Activity of sunitinib in extraskeletal myxoid chondrosarcoma. Referenced by ref 116 [116]."
+        },
+        {
+            "regimen_name": "Cabozantinib (Extraskeletal Myxoid Chondrosarcoma)",
+            "site": "Extraskeletal myxoid chondrosarcoma",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Phase II",
+                "n_patients": null
+            },
+            "notes": "Other recommended. Referenced by ref 43 [43]."
+        },
+        {
+            "regimen_name": "Soft Tissue Sarcoma Regimens (Epithelioid Hemangioendothelioma)",
+            "site": "Epithelioid hemangioendothelioma (EHE)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Frezza et al. 2021",
+                "phase": "Retrospective international case series",
+                "n_patients": null
+            },
+            "notes": "Various soft tissue sarcoma regimens, pazopanib, sirolimus, paclitaxel, and trametinib are listed as treatment options. Referenced by ref 117 [117]."
+        },
+        {
+            "regimen_name": "Pazopanib (Epithelioid Hemangioendothelioma)",
+            "site": "Epithelioid hemangioendothelioma (EHE)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": "800 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Frezza et al. 2021",
+                "phase": "Retrospective",
+                "n_patients": null
+            },
+            "notes": "Other recommended. Referenced by ref 117 [117]."
+        },
+        {
+            "regimen_name": "Sirolimus (Epithelioid Hemangioendothelioma)",
+            "site": "Epithelioid hemangioendothelioma (EHE)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, with therapeutic drug monitoring"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Stacchiotti et al. 2021",
+                "phase": "Case-series analysis",
+                "n_patients": null
+            },
+            "notes": "Activity of sirolimus in patients with progressive epithelioid hemangioendothelioma within the Italian Rare Cancer Network. Referenced by ref 118 [118]."
+        },
+        {
+            "regimen_name": "Paclitaxel (Epithelioid Hemangioendothelioma)",
+            "site": "Epithelioid hemangioendothelioma (EHE)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80-175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly or every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Frezza et al. 2021",
+                "phase": "Retrospective",
+                "n_patients": null
+            },
+            "notes": "Category 2B. Referenced by ref 117 [117]."
+        },
+        {
+            "regimen_name": "Trametinib (Epithelioid Hemangioendothelioma)",
+            "site": "Epithelioid hemangioendothelioma (EHE)",
+            "setting": "Advanced/Unresectable",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily, continuously"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Schuetze et al. 2024",
+                "phase": "Single-arm phase 2",
+                "n_patients": null
+            },
+            "notes": "A single-arm phase 2 trial of trametinib in patients with locally advanced or metastatic epithelioid hemangioendothelioma. Referenced by ref 119 [119]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.599166"
+}

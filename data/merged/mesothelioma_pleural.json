@@ -1,0 +1,752 @@
+{
+    "site_id": "mesothelioma_pleural",
+    "site_display_name": "Pleural Mesothelioma",
+    "archetype": "C",
+    "regimen_count": 21,
+    "regimens": [
+        {
+            "regimen_name": "Cisplatin plus Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone",
+                "phase": "III",
+                "n_patients": "456",
+                "os": "12.1 months vs 9.3 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus pemetrexed is a preferred first-line regimen for epithelioid pleural mesothelioma. This regimen demonstrated improved overall survival compared to cisplatin alone in a phase III trial [133]. An expanded access program showed similar outcomes for cisplatin/pemetrexed and carboplatin/pemetrexed in chemotherapy-naive patients [137]."
+        },
+        {
+            "regimen_name": "Carboplatin plus Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II studies of pemetrexed plus carboplatin",
+                "phase": "II",
+                "n_patients": null,
+                "os": "12.7 to 14 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Carboplatin plus pemetrexed is an alternative preferred first-line regimen for epithelioid pleural mesothelioma. Phase II studies reported median overall survival ranging from 12.7 to 14 months [134-136]. An expanded access trial demonstrated similar 1-year survival rates for carboplatin/pemetrexed versus cisplatin/pemetrexed [137]."
+        },
+        {
+            "regimen_name": "Cisplatin plus Pemetrexed plus Bevacizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Mesothelioma Avastin Cisplatin Pemetrexed Study (MAPS)",
+                "phase": "III",
+                "n_patients": "448",
+                "os": "18.8 months vs 16.1 months",
+                "hr": "0.77",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus pemetrexed plus bevacizumab is a preferred first-line regimen. The MAPS phase III trial showed improved overall survival with the addition of bevacizumab (HR 0.77; P = .0167) [138]. Bevacizumab is not recommended for patients with uncontrolled hypertension, bleeding/clotting risks, or substantial cardiovascular morbidity. An FDA-approved biosimilar is an appropriate substitute for bevacizumab."
+        },
+        {
+            "regimen_name": "Carboplatin plus Pemetrexed plus Bevacizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II study of pemetrexed and carboplatin plus bevacizumab",
+                "phase": "II",
+                "n_patients": "76",
+                "os": "15.3 months",
+                "hr": null,
+                "pfs": null,
+                "orr": "34.2%"
+            },
+            "notes": "Carboplatin plus pemetrexed plus bevacizumab is an alternative preferred first-line regimen. A phase II study reported a median overall survival of 15.3 months and a partial response rate of 34.2% [139]. Bevacizumab is not recommended for patients with uncontrolled hypertension, bleeding/clotting risks, or substantial cardiovascular morbidity. An FDA-approved biosimilar is an appropriate substitute for bevacizumab."
+        },
+        {
+            "regimen_name": "Cisplatin plus Pemetrexed plus Pembrolizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase 3 randomized controlled trial of pembrolizumab plus chemotherapy versus chemotherapy",
+                "phase": "III",
+                "n_patients": "440",
+                "os": "17.3 months vs 16.1 months",
+                "hr": "0.79",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus pemetrexed plus pembrolizumab is a preferred first-line regimen. A phase 3 trial demonstrated improved overall survival with pembrolizumab plus chemotherapy (HR 0.79; P = .0324) [150]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing instructions. PD-L1 testing is not required."
+        },
+        {
+            "regimen_name": "Carboplatin plus Pemetrexed plus Pembrolizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase 3 randomized controlled trial of pembrolizumab plus chemotherapy versus chemotherapy",
+                "phase": "III",
+                "n_patients": "440",
+                "os": "17.3 months vs 16.1 months",
+                "hr": "0.79",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Carboplatin plus pemetrexed plus pembrolizumab is an alternative preferred first-line regimen. A phase 3 trial demonstrated improved overall survival with pembrolizumab plus chemotherapy (HR 0.79; P = .0324) [150]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing instructions. PD-L1 testing is not required."
+        },
+        {
+            "regimen_name": "Ipilimumab plus Nivolumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 743",
+                "phase": "III",
+                "n_patients": "605",
+                "os": "18.1 months vs 14.1 months",
+                "hr": "0.75",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Ipilimumab plus nivolumab is a preferred first-line regimen for epithelioid pleural mesothelioma. The CheckMate 743 phase 3 trial showed improved overall survival with nivolumab plus ipilimumab versus chemotherapy (HR 0.75) [147-149]. PD-L1 testing is not required. Immune-related adverse events, such as pneumonitis, may occur; refer to NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities."
+        },
+        {
+            "regimen_name": "Cisplatin plus Gemcitabine",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II studies of cisplatin and gemcitabine",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus gemcitabine may be useful for patients who cannot receive pemetrexed-based therapy. Partial responses have been reported in phase 2 studies [140-143]. This regimen is considered useful in certain circumstances for first-line treatment of epithelioid pleural mesothelioma."
+        },
+        {
+            "regimen_name": "Carboplatin plus Gemcitabine",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study of gemcitabine combined with carboplatin",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Carboplatin plus gemcitabine may be useful for patients who cannot receive pemetrexed-based therapy. Partial responses have been reported in a phase 2 study [143]. This regimen is considered useful in certain circumstances for first-line treatment of epithelioid pleural mesothelioma."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "International Expanded Access Program",
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Single-agent pemetrexed may be used as first-line therapy for patients who are not candidates for platinum-based combination therapy. Results from an International Expanded Access Program support its use [145]. This regimen is considered useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "MS01 trial",
+                "phase": "III",
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Vinorelbine may be used as first-line therapy for patients who are not candidates for platinum-based combination therapy. The MS01 multicentre randomised trial evaluated active symptom control with or without chemotherapy [146]. This regimen is considered useful in certain circumstances."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CONFIRM",
+                "phase": "III",
+                "n_patients": "332",
+                "os": "10.2 months vs 6.9 months",
+                "hr": "0.69",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Nivolumab monotherapy is a preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line chemotherapy. The CONFIRM phase 3 trial demonstrated improved overall survival with nivolumab versus placebo (HR 0.69; P = .009) [157]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab monotherapy with different dosing instructions."
+        },
+        {
+            "regimen_name": "Ipilimumab plus Nivolumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IFCT-1501 MAPS2",
+                "phase": "II",
+                "n_patients": "125",
+                "os": "15.9 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Ipilimumab plus nivolumab is a preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line chemotherapy. The IFCT-1501 MAPS2 phase 2 trial reported a median overall survival of 15.9 months [158]. High PD-L1 expression (≥25%) was associated with greater overall response in an exploratory analysis. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab."
+        },
+        {
+            "regimen_name": "Cisplatin plus Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone",
+                "phase": "III",
+                "n_patients": "456",
+                "os": "12.1 months vs 9.3 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus pemetrexed is a preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line ipilimumab plus nivolumab, if not previously given. Consider rechallenge with pemetrexed-based therapy if good response to front-line pemetrexed-based treatment [166,167]."
+        },
+        {
+            "regimen_name": "Carboplatin plus Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II studies of pemetrexed plus carboplatin",
+                "phase": "II",
+                "n_patients": null,
+                "os": "12.7 to 14 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Carboplatin plus pemetrexed is an alternative preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line ipilimumab plus nivolumab, if not previously given. Consider rechallenge with pemetrexed-based therapy if good response to front-line pemetrexed-based treatment [166,167]."
+        },
+        {
+            "regimen_name": "Cisplatin plus Pemetrexed plus Bevacizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Mesothelioma Avastin Cisplatin Pemetrexed Study (MAPS)",
+                "phase": "III",
+                "n_patients": "448",
+                "os": "18.8 months vs 16.1 months",
+                "hr": "0.77",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Cisplatin plus pemetrexed plus bevacizumab is a preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line ipilimumab plus nivolumab, if not previously given. Consider rechallenge with pemetrexed-based therapy if good response to front-line pemetrexed-based treatment [166,167]. An FDA-approved biosimilar is an appropriate substitute for bevacizumab."
+        },
+        {
+            "regimen_name": "Carboplatin plus Pemetrexed plus Bevacizumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II study of pemetrexed and carboplatin plus bevacizumab",
+                "phase": "II",
+                "n_patients": "76",
+                "os": "15.3 months",
+                "hr": null,
+                "pfs": null,
+                "orr": "34.2%"
+            },
+            "notes": "Carboplatin plus pemetrexed plus bevacizumab is an alternative preferred subsequent therapy for epithelioid pleural mesothelioma after progression on first-line ipilimumab plus nivolumab, if not previously given. Consider rechallenge with pemetrexed-based therapy if good response to front-line pemetrexed-based treatment [166,167]. An FDA-approved biosimilar is an appropriate substitute for bevacizumab."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase III trial of pemetrexed plus best supportive care versus best supportive care",
+                "phase": "III",
+                "n_patients": "243",
+                "os": "8.4 months vs 9.7 months",
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Single-agent pemetrexed is an other recommended subsequent therapy for epithelioid pleural mesothelioma. A phase III trial showed no statistically significant difference in overall survival compared to best supportive care alone, but patients could cross over [160]. Consider rechallenge with pemetrexed-based therapy if good response to front-line pemetrexed-based treatment."
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study of gemcitabine",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Single-agent gemcitabine is an other recommended subsequent therapy for epithelioid pleural mesothelioma. Phase II studies support its use in pretreated patients [161,20,21]."
+        },
+        {
+            "regimen_name": "Gemcitabine plus Ramucirumab",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Ramucirumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "RAMES",
+                "phase": "II",
+                "n_patients": "161",
+                "os": "13.8 months vs 7.5 months",
+                "hr": "0.71",
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Gemcitabine plus ramucirumab is an other recommended subsequent therapy for epithelioid pleural mesothelioma. The RAMES phase 2 trial demonstrated improved overall survival with gemcitabine plus ramucirumab versus gemcitabine plus placebo (HR 0.71; P = .028) [22,162]."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Pleural Mesothelioma, Epithelioid",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II studies of vinorelbine",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "hr": null,
+                "pfs": null,
+                "orr": null
+            },
+            "notes": "Single-agent vinorelbine is an other recommended subsequent therapy for epithelioid pleural mesothelioma. Phase II studies support its use in pretreated patients [23,24]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.894661"
+}

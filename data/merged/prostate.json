@@ -1,0 +1,1655 @@
+{
+    "site_id": "prostate",
+    "site_display_name": "Prostate Cancer",
+    "archetype": "E",
+    "regimen_count": 42,
+    "regimens": [
+        {
+            "regimen_name": "ADT with Docetaxel and Abiraterone (Triplet Therapy)",
+            "site": "High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, up to 10 cycles"
+                },
+                {
+                    "name": "Abiraterone",
+                    "dose": "1000 mg",
+                    "route": "PO",
+                    "schedule": "Once daily on empty stomach"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "High-volume disease per CHAARTED criteria",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PEACE-1",
+                "phase": "3",
+                "n_patients": "1173",
+                "primary_endpoint": "rPFS and OS",
+                "rPFS_HR": "0.54 (99.9% CI, 0.41-0.71; P < .0001)",
+                "OS_HR": "0.82 (95.1% CI, 0.69-0.98; P = .030)"
+            },
+            "notes": "PEACE-1 was a 2×2 factorial design. Grade ≥3 AEs occurred in 63% of triplet vs 52% of ADT+docetaxel. Most common grade ≥3 AEs with triplet: neutropenia, febrile neutropenia, fatigue, neuropathy. Intended for high-volume mCSPC patients fit for chemotherapy [556]."
+        },
+        {
+            "regimen_name": "ADT with Docetaxel and Darolutamide (Triplet Therapy)",
+            "site": "High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, up to 10 cycles"
+                },
+                {
+                    "name": "Darolutamide",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "High-volume disease per CHAARTED criteria",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ARASENS",
+                "phase": "3",
+                "n_patients": "1306",
+                "primary_endpoint": "OS",
+                "OS_HR": "0.68 (95% CI, 0.57-0.80; P < .001)"
+            },
+            "notes": "ARASENS showed improved OS at 4 years: 62.7% vs 50.4%. Also improved time to CRPC (HR 0.36), skeletal event-free survival (HR 0.61), and time to subsequent therapy (HR 0.39). Adverse events of any grade and grade 3-5 were similar between arms. Rash (16.6% vs 13.5%) and hypertension (13.7% vs 9.2%) were more frequent in darolutamide arm [557,559]."
+        },
+        {
+            "regimen_name": "ADT with Docetaxel and Enzalutamide (Triplet Therapy)",
+            "site": "High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, up to 10 cycles"
+                },
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Concurrent docetaxel allowed",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ENZAMET",
+                "phase": "3",
+                "n_patients": "1125",
+                "primary_endpoint": "OS",
+                "OS_HR": "0.70 (95% CI, 0.58-0.84; P < .0001) at 68-month follow-up"
+            },
+            "notes": "ENZAMET compared enzalutamide+ADT to first-generation antiandrogen+ADT with concurrent docetaxel allowed. OS improved regardless of docetaxel use. Most common grade ≥3 AEs: febrile neutropenia (6%), fatigue (6%), hypertension (10%) [546,547]."
+        },
+        {
+            "regimen_name": "ADT with Abiraterone and Prednisone",
+            "site": "Low-Volume M1 CSPC, High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Abiraterone",
+                    "dose": "1000 mg",
+                    "route": "PO",
+                    "schedule": "Once daily on empty stomach"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Once daily (without docetaxel); Twice daily (with docetaxel)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Metastatic CSPC",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "LATITUDE and STAMPEDE",
+                "phase": "3",
+                "n_patients": "1199 (LATITUDE); 941 M1 (STAMPEDE)",
+                "primary_endpoint": "OS",
+                "LATITUDE_OS_HR": "0.66 (95% CI, 0.56-0.78; P < .0001)",
+                "STAMPEDE_OS_HR": "0.63 (95% CI, 0.52-0.76; P < .0001)"
+            },
+            "notes": "LATITUDE: 5-year OS 52.5% vs 34.5%. STAMPEDE: OS benefit in M1, N1, and M0 subgroups. Alternative fine-particle formulation at 500 mg with methylprednisolone 4 mg PO BID is category 2B. Low-dose abiraterone 250 mg/day with low-fat breakfast also an option for patients who cannot tolerate or afford standard dose [538,539,541,542]."
+        },
+        {
+            "regimen_name": "ADT with Apalutamide",
+            "site": "Low-Volume M1 CSPC, High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Apalutamide",
+                    "dose": "240 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Metastatic CSPC",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TITAN",
+                "phase": "3",
+                "n_patients": "1052",
+                "primary_endpoint": "rPFS and OS",
+                "OS_HR": "0.65 (95% CI, 0.53-0.79; P < .001) at final analysis",
+                "rPFS_HR": "0.48 (95% CI, 0.39-0.60; P < .001)"
+            },
+            "notes": "TITAN: 44-month median follow-up, OS not reached vs 52.2 months. More common AEs: rash, hypothyroidism, ischemic heart disease. HRQOL maintained during treatment [543,545]."
+        },
+        {
+            "regimen_name": "ADT with Enzalutamide",
+            "site": "Low-Volume M1 CSPC, High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Metastatic CSPC",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ENZAMET and ARCHES",
+                "phase": "3",
+                "ENZAMET_n": "1125",
+                "ARCHES_n": "1150",
+                "primary_endpoint": "OS (ENZAMET), rPFS (ARCHES)",
+                "ENZAMET_OS_HR": "0.70 (95% CI, 0.58-0.84; P < .0001) at 68 months",
+                "ARCHES_rPFS_HR": "0.39 (95% CI, 0.30-0.50; P < .001)",
+                "ARCHES_OS_HR": "0.66 (95% CI, 0.53-0.81; P < .001)"
+            },
+            "notes": "ENZAMET: OS benefit maintained at 68-month follow-up. ARCHES: OS benefit with 34% risk reduction, may be underestimated due to 32% crossover to enzalutamide. AEs include fatigue, seizures, hypertension [546-549]."
+        },
+        {
+            "regimen_name": "ADT with Darolutamide",
+            "site": "Low-Volume M1 CSPC, High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Darolutamide",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Metastatic CSPC",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "ARANOTE",
+                "phase": "3",
+                "n_patients": "669",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR": "0.54 (95% CI, 0.41-0.71; P < .0001)",
+                "OS_HR": "0.81 (95% CI, 0.59-1.12) — not significant"
+            },
+            "notes": "ARANOTE: rPFS improved but OS not yet significant. FDA approved June 2025. Not category 1 because OS benefit not demonstrated for doublet therapy. Consistent benefit across low- and high-volume subgroups [550]."
+        },
+        {
+            "regimen_name": "ADT with Niraparib/Abiraterone Combination (BRCA2m mCSPC)",
+            "site": "Low-Volume M1 CSPC, High-Volume M1 CSPC",
+            "setting": "First-line (BRCA2 mutation only)",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Niraparib/Abiraterone combination tablet",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Per FDA label"
+                },
+                {
+                    "name": "Prednisone/Methylprednisolone",
+                    "dose": "5 mg BID or 4 mg BID",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA2 mutation",
+                    "requirement": "BRCA2 germline or somatic mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AMPLITUDE",
+                "phase": "3",
+                "n_patients": "696",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_BRCAm": "0.52 (95% CI, 0.37-0.72; P < .0001)",
+                "rPFS_HR_ITT": "0.63 (95% CI, 0.49-0.80; P = 0.0001)"
+            },
+            "notes": "Most patients (78%) had high-volume and/or synchronous disease. Grade 3/4 AEs more common with niraparib arm (75% vs 59%). Most common grade 3/4 AEs: anemia (29.1% vs 4.6%), hypertension (26.5% vs 18.4%). Treatment-emergent AEs leading to death: 14 vs 7 participants. OS data immature. Can be used following docetaxel completion in triplet therapy or after EBRT to primary tumor. Benefit in low-volume disease is controversial [560]."
+        },
+        {
+            "regimen_name": "Docetaxel with ADT",
+            "site": "High-Volume M1 CSPC",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Androgen deprivation therapy (LHRH agonist/antagonist/orchiectomy)",
+                    "dose": null,
+                    "route": "SC/IM/oral/surgical",
+                    "schedule": "Continuous to maintain castrate levels (<50 ng/dL)"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, 6 doses"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "High-volume mCSPC fit for chemotherapy",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Alternative",
+            "trial_data": {
+                "trial_name": "CHAARTED and STAMPEDE",
+                "phase": "3",
+                "CHAARTED_n": "790",
+                "STAMPEDE_M1_n": "1087",
+                "primary_endpoint": "OS",
+                "CHAARTED_OS_HR": "0.72 (95% CI, 0.59-0.89; P = .002)"
+            },
+            "notes": "CHAARTED: Median OS 57.6 vs 47.2 months. Subgroup analysis showed OS benefit predominantly in high-volume disease (HR 0.63). Low-volume disease did not show definitive survival benefit (HR 1.04). STAMPEDE confirmed benefit. Panel notes triplets of ADT+docetaxel+ARPI show improved OS over ADT+docetaxel, so docetaxel alone is not included as preferred option but may be considered [551-553]."
+        },
+        {
+            "regimen_name": "Enzalutamide with or without Leuprolide",
+            "site": "M0 CSPC BCR2 (High-Risk)",
+            "setting": "High-risk BCR2",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Leuprolide",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "Per standard ADT schedule (optional, with or without)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PSADT",
+                    "requirement": "PSADT ≤9 months; PSA ≥2 ng/mL above nadir after RT or ≥1 ng/mL after RP ± post-op RT; not candidate for pelvic-directed therapy",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "EMBARK",
+                "phase": "3",
+                "n_patients": "1068",
+                "primary_endpoint": "MFS",
+                "MFS_HR_combo_vs_leuprolide": "0.42 (95% CI, 0.30-0.61; P < .001)",
+                "MFS_HR_mono_vs_leuprolide": "0.63 (95% CI, 0.46-0.87; P = .005)"
+            },
+            "notes": "EMBARK enrolled patients with high-risk BCR: M0 by CT/MRI/bone scan, PSADT ≤9 months. Median follow-up 60.7 months. Common AEs: hot flashes, fatigue. Enzalutamide monotherapy associated with gynecomastia (45%), nipple pain (15%), breast tenderness (14%) [478]."
+        },
+        {
+            "regimen_name": "Apalutamide with ADT",
+            "site": "M0 CSPC BCR2 (High-Risk, post-RP)",
+            "setting": "High-risk BCR2 (post-RP, received prior adjuvant or secondary RT or not candidate for RT)",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Apalutamide",
+                    "dose": "240 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "ADT (LHRH agonist/antagonist)",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "Per standard schedule"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PSADT",
+                    "requirement": "PSADT ≤9 months; PSA ≥0.5 ng/mL; prior adjuvant or secondary RT or not candidate for RT",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "PRESTO",
+                "phase": "3",
+                "n_patients": "503",
+                "primary_endpoint": "PSA-PFS",
+                "PSA-PFS_HR_apalutamide_vs_control": "0.52 (95% CI, 0.35-0.77; P = .00047)"
+            },
+            "notes": "PRESTO: Median PSA-PFS 24.9 months (ADT+apalutamide) vs 20.3 months (ADT alone). Planned treatment duration 52 weeks. Common AEs: hot flashes (78%), fatigue (55%), hypertension (31% any grade, 7-8% grade ≥3 in arms A and B) [479]."
+        },
+        {
+            "regimen_name": "Abiraterone and Prednisone (Pre-ARPI mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI (first-line hormonal)",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Abiraterone",
+                    "dose": "1000 mg",
+                    "route": "PO",
+                    "schedule": "Once daily on empty stomach"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "mCRPC, no prior ARPI",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "COU-AA-302",
+                "phase": "3",
+                "n_patients": "1088",
+                "primary_endpoint": "rPFS and OS",
+                "rPFS_HR": "0.53 (P < .001)",
+                "OS_HR": "0.81 (95% CI, 0.70-0.93; P = .003)",
+                "OS_median": "34.7 vs 30.3 months"
+            },
+            "notes": "COU-AA-302: Asymptomatic or minimally symptomatic mCRPC, no visceral metastases, no prior ketoconazole. PSA decline ≥50%: 62% vs 24%. Radiographic responses: 36% vs 16%. Fine-particle formulation 500 mg with methylprednisolone 4 mg BID also available [583,584]."
+        },
+        {
+            "regimen_name": "Enzalutamide (Pre-ARPI mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI (first-line hormonal)",
+            "treatment_modality": [
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "mCRPC, no prior ARPI",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PREVAIL",
+                "phase": "3",
+                "n_patients": "1717",
+                "primary_endpoint": "PFS and OS",
+                "PFS_median": "20.0 vs 5.4 months",
+                "OS_median": "35.3 vs 31.3 months"
+            },
+            "notes": "PREVAIL: Chemotherapy-naive mCRPC. No food restrictions. Concurrent prednisone permitted but not required. Seizure risk 0.9% per FDA label [593,594]."
+        },
+        {
+            "regimen_name": "Docetaxel (Post-ARPI, Pre-Docetaxel mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, pre-docetaxel",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks, up to 10 cycles"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily (may omit on chemo day if dexamethasone given)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "mCRPC post-ARPI, no prior docetaxel",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TAX 327",
+                "phase": "3",
+                "n_patients": "1006",
+                "primary_endpoint": "OS",
+                "OS_median": "18.9 vs 16.5 months (P = .009)"
+            },
+            "notes": "Every-3-week schedule is standard. Alternative: 50 mg/m2 every 2 weeks (phase 2 data showed similar OS with less toxicity). ≥8 cycles may be associated with better OS. Duration based on benefit and toxicities assessment [607-611]."
+        },
+        {
+            "regimen_name": "Cabazitaxel (Post-ARPI, Post-Docetaxel mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, post-docetaxel",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabazitaxel",
+                    "dose": "20 or 25 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily (may omit on chemo day if dexamethasone given)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "mCRPC post-ARPI and post-docetaxel",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TROPIC and PROSELICA",
+                "phase": "3",
+                "TROPIC_n": "755",
+                "PROSELICA_n": "1200",
+                "TROPIC_OS_HR": "0.72 (P < .0001)",
+                "PROSELICA_OS_median_20_vs_25": "13.4 vs 14.5 months"
+            },
+            "notes": "TROPIC: 25 mg/m2 OS benefit vs mitoxantrone. PROSELICA: 20 mg/m2 noninferior to 25 mg/m2 for OS with less toxicity. 20 mg/m2 is recommended for fit patients; 25 mg/m2 may be considered for healthy patients. Biweekly 16 mg/m2 with G-CSF an option for patients ≥65 years (CABASTY trial). Grade ≥3 AEs: febrile neutropenia, diarrhea, fatigue [613-620]."
+        },
+        {
+            "regimen_name": "Cabazitaxel/Carboplatin (Aggressive Variant mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, aggressive variant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabazitaxel",
+                    "dose": "20 or 25 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 4 mg/mL per minute",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Per supportive care guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Aggressive variant features",
+                    "requirement": "Visceral metastases, low PSA and bulky disease, high LDH, high CEA, lytic bone metastases, NEPC histology, or unfavorable genomics (defects in ≥2 of PTEN, TP53, RB1)",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Corn PG phase 1-2 trial",
+                "phase": "1-2",
+                "n_patients": "160",
+                "primary_endpoint": "PFS",
+                "rPFS_HR": "0.69 (95% CI, 0.50-0.95; P = .018)",
+                "rPFS_median": "7.3 vs 4.5 months"
+            },
+            "notes": "Post-hoc analysis showed patients with aggressive variant disease had longer median PFS with combination (7.5 vs 1.7 months; P = .017). Most common grade 3-5 AEs: fatigue, anemia, neutropenia, thrombocytopenia — all more common in the combination arm [622]."
+        },
+        {
+            "regimen_name": "Docetaxel Rechallenge",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, post-docetaxel",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Prior docetaxel response",
+                    "requirement": "No definitive evidence of progression on prior docetaxel in castration-sensitive or mCRPC setting",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Retrospective data from GETUG-AFU 15 suggests docetaxel may benefit CRPC patients who received docetaxel in the CSPC setting without definitive progression. Not recommended for patients who received docetaxel in CSPC setting without prior ARPI and then present with pre-ARPI mCRPC [611,612]."
+        },
+        {
+            "regimen_name": "Olaparib Monotherapy",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI (any prior docetaxel), BRCAm or HRRm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HRR mutation",
+                    "requirement": "BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL, PALB2, RAD51B, RAD51C, RAD51D, or RAD54L mutation (germline and/or somatic)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (pre-docetaxel for BRCAm)",
+            "trial_data": {
+                "trial_name": "PROfound",
+                "phase": "3",
+                "n_patients": "387 (cohort A+B)",
+                "cohort_A_n": "245 (BRCA1/2 or ATM)",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_cohort_A": "0.34 (95% CI, 0.25-0.47; P < .001)",
+                "rPFS_HR_all": "0.49 (95% CI, 0.38-0.63; P < .001)",
+                "OS_HR_cohort_A": "0.69 (95% CI, 0.50-0.97; P = .02)"
+            },
+            "notes": "PROfound: Efficacy driven by BRCA2/BRCA1/ATM cohort. OS benefit maintained despite 66% crossover in control arm. Adverse events: anemia (including requiring transfusion), fatigue, nausea/vomiting, thrombocytopenia, creatinine elevation. Theoretical risk of myelodysplasia/AML [652,653]."
+        },
+        {
+            "regimen_name": "Rucaparib Monotherapy",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI (pre- or post-docetaxel), BRCA1/2m",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rucaparib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1 or BRCA2 mutation",
+                    "requirement": "Pathogenic BRCA1 or BRCA2 mutation (germline and/or somatic)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (pre-docetaxel)",
+            "trial_data": {
+                "trial_name": "TRITON2 and TRITON3",
+                "TRITON2_phase": "2",
+                "TRITON3_phase": "3",
+                "TRITON2_ORR": "43.5% (95% CI, 31.0%-56.7%)",
+                "TRITON3_rPFS": "10.2 vs 6.4 months (HR, 0.61; 95% CI, 0.47-0.80; P < .001)"
+            },
+            "notes": "TRITON2: BRCA1/2-mutated mCRPC post-ARPI and taxane. TRITON3: rPFS improved with rucaparib vs physician's choice. Should not be used in patients with HRR mutations other than BRCA1/2. Adverse events: anemia, fatigue, nausea [654-656]."
+        },
+        {
+            "regimen_name": "Olaparib plus Abiraterone",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI, BRCAm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Abiraterone",
+                    "dose": "1000 mg",
+                    "route": "PO",
+                    "schedule": "Once daily on empty stomach"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1 or BRCA2 mutation",
+                    "requirement": "Pathogenic BRCA1 or BRCA2 mutation (germline and/or somatic)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PROpel",
+                "phase": "3",
+                "n_patients": "796",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_ITT": "0.66 (95% CI, 0.54-0.81; P < .001)",
+                "rPFS_HR_BRCAm": "0.50 (95% CI, 0.34-0.73)",
+                "OS_HR_ITT": "0.81 (95% CI, 0.67-1.00; P = .054)"
+            },
+            "notes": "PROpel: rPFS 24.8 vs 16.6 months overall. Final OS not significant in full cohort (P = .054). Post-hoc OS benefit in BRCAm: HR 0.29 (95% CI, 0.14-0.56). No OS benefit in non-HRRm or non-BRCAm/other HRRm subgroups [661,662]."
+        },
+        {
+            "regimen_name": "Talazoparib plus Enzalutamide",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI, HRRm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talazoparib",
+                    "dose": "1 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HRR mutation",
+                    "requirement": "BRCA1, BRCA2, ATM, ATR, CDK12, CHEK2, FANCA, MLH1, MRE11A, NBN, PALB2, or RAD51C mutation (germline and/or somatic)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TALAPRO-2",
+                "phase": "3",
+                "n_patients": "805 (ITT); HRRm cohort",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_ITT": "0.63 (95% CI, 0.51-0.78; P < .0001)",
+                "rPFS_HR_HRRm": "0.46 (95% CI, 0.30-0.70; P = .0003)",
+                "OS_HR_HRRm": "0.62 (95% CI, 0.48-0.81; P = .0005)"
+            },
+            "notes": "TALAPRO-2: HRRm cohort OS 45.1 vs 31.1 months. BRCAm had 77% lower risk of radiographic progression (HR 0.23). Grade 3-4 AEs: anemia (31%), thrombocytopenia (9%), neutropenia (8%). Dose interruption due to AEs in 75% of talazoparib group vs 23% placebo [664,665]."
+        },
+        {
+            "regimen_name": "Niraparib plus Abiraterone",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI, BRCAm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib/Abiraterone combination tablet",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Per FDA label"
+                },
+                {
+                    "name": "Prednisone/Methylprednisolone",
+                    "dose": "5 mg BID or 4 mg BID",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1 or BRCA2 mutation",
+                    "requirement": "Pathogenic BRCA1 or BRCA2 mutation (germline and/or somatic)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAGNITUDE",
+                "phase": "3",
+                "n_patients": "423",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_HRRm": "0.73 (95% CI, 0.56-0.96; P = .022)",
+                "rPFS_HR_BRCAm": "0.53 (95% CI, 0.36-0.79; P = .001)",
+                "rPFS_HR_non-BRCA_HRRm": "0.99 (95% CI, 0.68-1.44)"
+            },
+            "notes": "MAGNITUDE: HRRm group rPFS 16.5 vs 13.7 months. Non-BRCA HRRm subgroup showed no benefit. Non-HRRm cohort: futility declared. Second interim analysis suggested possible OS benefit (HR 0.54; 95% CI, 0.33-0.90; P = .0181). Grade ≥3 AEs: anemia 28.3% vs 7.6%, hypertension 14.6% vs 12.3% [666,667]."
+        },
+        {
+            "regimen_name": "Rucaparib Monotherapy (Pre-ARPI, BRCAm mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI (after progression on one ARPI in M0 CRPC), BRCA1/2m",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rucaparib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1 or BRCA2 mutation",
+                    "requirement": "Pathogenic BRCA1 or BRCA2 mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (pre-docetaxel)",
+            "trial_data": {
+                "trial_name": "TRITON3",
+                "phase": "3",
+                "n_patients": "405",
+                "primary_endpoint": "rPFS",
+                "rPFS_all": "10.2 vs 6.4 months (HR, 0.61; P < .001)",
+                "rPFS_BRCAm": "11.2 vs 6.4 months (HR, 0.50; P < .001)"
+            },
+            "notes": "TRITON3: Post-ARPI, no prior chemotherapy for mCRPC. Primary endpoint met. Should not be used in patients with HRR gene mutations other than BRCA1/2 [656]."
+        },
+        {
+            "regimen_name": "Olaparib plus Abiraterone (Pre-ARPI mCRPC — without specific BRCA requirement)",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Olaparib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Abiraterone",
+                    "dose": "1000 mg",
+                    "route": "PO",
+                    "schedule": "Once daily on empty stomach"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific (but benefit primarily in BRCAm/HRRm)",
+                    "requirement": "Untreated mCRPC (PROpel enrollment); benefit strongest in BRCAm",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PROpel",
+                "phase": "3",
+                "n_patients": "796",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR_ITT": "0.66 (95% CI, 0.54-0.81; P < .001)"
+            },
+            "notes": "FDA approved for BRCAm mCRPC. While PROpel enrolled ITT population without HRR requirement, the Panel includes this as category 1 for BRCAm mCRPC. Fine-particle abiraterone may be substituted for standard formulation [661,662]."
+        },
+        {
+            "regimen_name": "Niraparib/Abiraterone (Post-ARPI mCRPC — controversial)",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, pre-docetaxel, BRCAm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Niraparib/Abiraterone combination tablet",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Per FDA label"
+                },
+                {
+                    "name": "Prednisone/Methylprednisolone",
+                    "dose": "5 mg BID or 4 mg BID",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRCA1 or BRCA2 mutation",
+                    "requirement": "Pathogenic BRCA1 or BRCA2 mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "MAGNITUDE",
+                "phase": "3",
+                "n_patients": "423",
+                "rPFS_HR_BRCAm": "0.53 (95% CI, 0.36-0.79; P = .001)"
+            },
+            "notes": "Use of this combination for patients who have received prior ARPI without prior docetaxel is controversial (category 2B) because a benefit of this combination over use of a PARP inhibitor alone has not been shown in this setting [666,667]."
+        },
+        {
+            "regimen_name": "Talazoparib/Enzalutamide (Post-ARPI mCRPC — controversial)",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, pre-docetaxel, HRRm",
+            "treatment_modality": [
+                "PARP inhibitor",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talazoparib",
+                    "dose": "1 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HRR mutation",
+                    "requirement": "BRCA1, BRCA2, ATM, ATR, CDK12, CHEK2, FANCA, MLH1, MRE11A, NBN, PALB2, or RAD51C mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "TALAPRO-2",
+                "phase": "3",
+                "n_patients": "805 (ITT)",
+                "rPFS_HR_ITT": "0.63 (P < .0001)"
+            },
+            "notes": "Use of talazoparib/enzalutamide for patients who have received prior ARPI without prior docetaxel is controversial (category 2B) because a benefit of this combination over a PARP inhibitor alone has not been shown in this setting, but responses are likely [664,665]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (MSI-H/dMMR mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Any prior therapy (useful in certain circumstances)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks (or 400 mg every 6 weeks)"
+                },
+                {
+                    "name": "Pembrolizumab/berahyaluronidase alfa-pmph",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Per FDA label (subcutaneous alternative)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H or dMMR",
+                    "requirement": "Microsatellite instability-high or mismatch repair deficiency",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158 and KEYNOTE-199",
+                "phase": "2",
+                "KEYNOTE-199_n": "258",
+                "ORR_cohort_1": "5% (95% CI, 2%-11%)",
+                "ORR_cohort_2": "3% (95% CI, <1%-11%)"
+            },
+            "notes": "Prevalence of MMR deficiency in mCRPC is 2%-5%. If MSI-H/dMMR found, refer to genetic counseling for Lynch syndrome assessment. Limited data suggest benefit in TMB ≥10 mut/mB mCRPC (Lenis AT, et al. Clin Canc Res 2024;30:3894-3903). May cause severe immune-mediated adverse reactions [592,625-631]."
+        },
+        {
+            "regimen_name": "Sipuleucel-T",
+            "site": "M1 CRPC",
+            "setting": "Any prior therapy (asymptomatic or minimally symptomatic)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sipuleucel-T",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Leukapheresis, then 3 infusions 2 weeks apart (at weeks 0, 2, 4)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Asymptomatic or minimally symptomatic; no liver metastases; ECOG 0-1; life expectancy >6 months",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "D9902B",
+                "phase": "3",
+                "n_patients": "512",
+                "primary_endpoint": "OS",
+                "OS_median": "25.8 vs 21.7 months",
+                "OS_HR": "0.78 (95% CI, 0.61-0.98; P = .03)"
+            },
+            "notes": "22% mortality risk reduction. 18.2% had prior chemotherapy. Not recommended for small cell prostate cancer/NEPC. Benefit has not been reported in patients with visceral metastases. Limited data to support efficacy post-chemotherapy. Common complications: chills (54.1%), pyrexia (29.3%), headache (16.0%) [623,624]."
+        },
+        {
+            "regimen_name": "Lu-177-PSMA-617",
+            "site": "M1 CRPC",
+            "setting": "Post-ARPI, post-docetaxel or pre-docetaxel (delay taxane); PSMA-positive",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 vipivotide tetraxetan (Lu-177-PSMA-617)",
+                    "dose": "200 mCi (7.4 GBq)",
+                    "route": "IV",
+                    "schedule": "Every 6 weeks, up to 6 treatments"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PSMA-positive disease",
+                    "requirement": "≥1 PSMA-positive lesion; no dominant PSMA-negative metastatic lesions (defined as bone with soft tissue ≥1.0 cm, lymph nodes ≥2.5 cm short axis, solid organ ≥1.0 cm)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "VISION and PSMAfore",
+                "VISION_phase": "3",
+                "VISION_n": "831",
+                "PSMAfore_phase": "3",
+                "PSMAfore_n": "468",
+                "VISION_OS_HR": "0.62 (95% CI, 0.52-0.74; P < .001)",
+                "VISION_OS_median": "15.3 vs 11.3 months",
+                "VISION_rPFS_HR": "0.40 (99.2% CI, 0.29-0.57; P < .001)",
+                "PSMAfore_rPFS_HR": "0.49 (95% CI, 0.39-0.61)",
+                "PSMAfore_rPFS_median": "11.6 vs 5.6 months"
+            },
+            "notes": "VISION: Post-ARPI and post-taxane setting. PSMAfore: Pre-taxane, post-ARPI. OS not significantly different in PSMAfore due to crossover (57% of control arm received Lu-177-PSMA-617). Grade ≥3 AEs (VISION): anemia, thrombocytopenia, lymphopenia, fatigue — more common with Lu-177-PSMA-617. PSMA imaging should be used to determine eligibility [668,669]."
+        },
+        {
+            "regimen_name": "Radium-223",
+            "site": "M1 CRPC",
+            "setting": "Symptomatic bone metastases, no visceral metastases",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Radium-223 dichloride",
+                    "dose": "55 kBq/kg",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks, 6 doses"
+                },
+                {
+                    "name": "Denosumab or Zoledronic acid",
+                    "dose": "Per bone health guidelines",
+                    "route": "SC/IV",
+                    "schedule": "Concomitant recommended"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Symptomatic bone metastases; no visceral metastatic disease",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "ALSYMPCA",
+                "phase": "3",
+                "n_patients": "921",
+                "primary_endpoint": "OS",
+                "OS_HR": "0.70 (95% CI, 0.58-0.83; P < .001)",
+                "OS_median": "14.9 vs 11.3 months"
+            },
+            "notes": "57% received prior docetaxel. Extends time to first SRE (median 15.6 vs 9.8 months). Grade 3/4 hematologic toxicity low: neutropenia 3%, thrombocytopenia 6%, anemia 13%. Should not be used in patients with visceral metastases. Concurrent use with enzalutamide may be considered (PEACE-3 trial). Concomitant denosumab or zoledronic acid recommended. Increased fracture risk when combined with ARPI without bone agent [670-676]."
+        },
+        {
+            "regimen_name": "Radium-223 plus Enzalutamide",
+            "site": "M1 CRPC",
+            "setting": "Pre-ARPI, bone-metastatic, no visceral metastases",
+            "treatment_modality": [
+                "radiopharmaceutical",
+                "hormone therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radium-223 dichloride",
+                    "dose": "55 kBq/kg",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks, 6 doses"
+                },
+                {
+                    "name": "Enzalutamide",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Denosumab or Zoledronic acid",
+                    "dose": "Mandatory",
+                    "route": "SC/IV",
+                    "schedule": "Per bone health guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "No visceral metastases; bone-metastatic; ARPI-naive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "PEACE-3",
+                "phase": "3",
+                "n_patients": "446",
+                "primary_endpoint": "rPFS",
+                "rPFS_HR": "0.69 (95% CI, 0.54-0.87; P = .0009)",
+                "OS_HR": "0.69 (95% CI, 0.52-0.90; P = .0031)"
+            },
+            "notes": "PEACE-3: rPFS 16.4 vs 19.4 months, OS 35.0 vs 42.3 months. Grade ≥3 AEs: 65.6% vs 55.8%. Fractures: 24.3% vs 13.4% (without bone agents fracture rate was 45.9% vs 22.3%). Mandatory concomitant bone-protecting agent use [675,676]."
+        },
+        {
+            "regimen_name": "Denosumab (SRE Prevention in mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Bone-metastatic, SRE prevention",
+            "treatment_modality": [
+                "bone-protective agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Denosumab",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "CRPC with bone metastases",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Fizazi et al. Lancet 2011",
+                "phase": "3",
+                "n_patients": "1904",
+                "primary_endpoint": "Time to first SRE",
+                "SRE_delay": "Median 20.7 vs 17.1 months (HR, 0.82; P = .008 for superiority)",
+                "SRE_reduction": "33% vs 44% at 15 months (zoledronic acid trial)"
+            },
+            "notes": "Preferred over zoledronic acid based on longer time to first SRE. Similar spinal cord compression, need for RT, and pathologic fracture rates. Hypocalcemia more common with denosumab (13% vs 6%). ONJ 1%-2%. Supplemental calcium and vitamin D recommended [684,687]."
+        },
+        {
+            "regimen_name": "Zoledronic Acid (SRE Prevention in mCRPC)",
+            "site": "M1 CRPC",
+            "setting": "Bone-metastatic, SRE prevention",
+            "treatment_modality": [
+                "bone-protective agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Zoledronic acid",
+                    "dose": "4 mg",
+                    "route": "IV",
+                    "schedule": "Every 12 weeks (preferred) or every 3-4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "CRPC with bone metastases; creatinine clearance ≥30 mL/min",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Saad et al. 2002/2004",
+                "phase": "3",
+                "n_patients": "643",
+                "primary_endpoint": "SREs at 15 months",
+                "SRE_reduction": "33% vs 44% (P = .02)",
+                "tTSRE": "Median 488 vs 321 days (P = .01)"
+            },
+            "notes": "Every-12-week dosing noninferior to every-4-week dosing (Himelstein et al. JAMA 2017). Dose reduction for CrCl 30-60 mL/min; hold for CrCl <30 mL/min. Not recommended in CSPC bone metastases [684,685,688,689]."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide",
+            "site": "Small Cell/Neuroendocrine Prostate Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Small cell/neuroendocrine prostate cancer",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Treatment for small cell/neuroendocrine prostate cancer is extrapolated from NCCN Guidelines for Small Cell Lung Cancer. Refer to NCCN SCLC guidelines for additional options [679-683]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide",
+            "site": "Small Cell/Neuroendocrine Prostate Cancer",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Small cell/neuroendocrine prostate cancer",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Extrapolated from NCCN SCLC guidelines. Carboplatin is an alternative to cisplatin [679-683]."
+        },
+        {
+            "regimen_name": "Docetaxel/Carboplatin",
+            "site": "Small Cell/Neuroendocrine Prostate Cancer",
+            "setting": "Any line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Per NCCN SCLC guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Small cell/neuroendocrine prostate cancer",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Refer to NCCN SCLC guidelines [679-683]."
+        },
+        {
+            "regimen_name": "Cabazitaxel/Carboplatin (NEPC)",
+            "site": "Small Cell/Neuroendocrine Prostate Cancer",
+            "setting": "Any line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabazitaxel",
+                    "dose": "20 or 25 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 4 mg/mL per minute",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Growth factor support",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Per supportive care guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Histology",
+                    "requirement": "Small cell/neuroendocrine prostate cancer or aggressive variant mCRPC",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Corn PG phase 1-2",
+                "phase": "1-2",
+                "n_patients": "160",
+                "PFS_HR": "0.69 (95% CI, 0.50-0.95; P = .018)"
+            },
+            "notes": "Can be considered for aggressive variant mCRPC or NEPC [622]."
+        },
+        {
+            "regimen_name": "Metastasis-Directed SBRT",
+            "site": "Metachronous Oligometastatic CSPC, Oligometastatic/oligoprogressive mCRPC",
+            "setting": "Metastasis-directed therapy",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Stereotactic body radiation therapy (SBRT)",
+                    "dose": "Per MDT dose guidelines (e.g., 30-35 Gy in 5 fractions)",
+                    "route": "N/A",
+                    "schedule": "As per MDT protocols"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Metastatic volume",
+                    "requirement": "Oligometastatic disease (≤5 by CT/MRI/bone scan or ≤10 by PSMA-PET)",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (metachronous oligorecurrent); Useful in certain circumstances (synchronous)",
+            "trial_data": {
+                "ORIOLE": "Phase 2, n=54, PFS HR 0.30 (P = .002)",
+                "STOMP": "Phase 2, n=62, ADT-free survival HR 0.60",
+                "EXTEND": "Phase 2, n=87, PFS HR 0.25 (P < .001)",
+                "ARTO": "Phase 2, n=157 (mCRPC), biochemical response 92% vs 68.3%"
+            },
+            "notes": "ORIOLE/STOMP combined analysis: pooled HR 0.44 (P < .001) for PFS at 52.5-month follow-up. EXTEND: PFS improved with MDT vs intermittent ADT alone. ARTO (mCRPC): PFS improved with MDRT+abiraterone (HR 0.35; P < .001). MDT may also use lymph node dissection in select cases [565-570,677]."
+        },
+        {
+            "regimen_name": "Mitoxantrone and Prednisone",
+            "site": "M1 CRPC",
+            "setting": "Palliation, post-everything",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitoxantrone",
+                    "dose": "12 mg/m2",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": "5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "None specific",
+                    "requirement": "Symptomatic patients unable to tolerate other therapies",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "No survival benefit demonstrated in two randomized trials. May provide palliation for pain. Adverse events similar to docetaxel but lower rates of grade 3-4 neutropenic fevers [633,634]."
+        },
+        {
+            "regimen_name": "Denosumab (Treatment-Related Bone Loss Prevention)",
+            "site": "Patients receiving ADT (any setting)",
+            "setting": "Bone health during ADT",
+            "treatment_modality": [
+                "bone-protective agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Denosumab",
+                    "dose": "60 mg",
+                    "route": "SC",
+                    "schedule": "Every 6 months"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRAX risk assessment",
+                    "requirement": "Elevated fracture risk based on FRAX; 10-year risk of hip fracture ≥3% or major osteoporotic fracture ≥20%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Smith et al. NEJM 2009",
+                "phase": "3",
+                "n_patients": "1468",
+                "BMD_increase": "6.7% at 24 months",
+                "fracture_reduction": "1.5% vs 3.9%"
+            },
+            "notes": "Recommended when absolute fracture risk warrants drug therapy. Baseline DEXA before ADT; follow-up DEXA after 1 year of therapy. Hypocalcemia risk factors: blastic bone metastases, renal impairment, vitamin D deficiency. Do not stop without bisphosphonate coverage due to rebound bone loss [528,532]."
+        },
+        {
+            "regimen_name": "Alendronate (Treatment-Related Bone Loss Prevention)",
+            "site": "Patients receiving ADT (any setting)",
+            "setting": "Bone health during ADT",
+            "treatment_modality": [
+                "bone-protective agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Alendronate",
+                    "dose": "70 mg",
+                    "route": "PO",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRAX risk assessment",
+                    "requirement": "Elevated fracture risk",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Alternative to denosumab and zoledronic acid for treatment-related bone loss during ADT [531]."
+        },
+        {
+            "regimen_name": "Zoledronic Acid (Treatment-Related Bone Loss Prevention)",
+            "site": "Patients receiving ADT (any setting)",
+            "setting": "Bone health during ADT",
+            "treatment_modality": [
+                "bone-protective agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Zoledronic acid",
+                    "dose": "5 mg",
+                    "route": "IV",
+                    "schedule": "Annually"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "FRAX risk assessment",
+                    "requirement": "Elevated fracture risk",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Alternative to denosumab and alendronate for treatment-related bone loss during ADT. Monitor renal function [529,530]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.780421"
+}

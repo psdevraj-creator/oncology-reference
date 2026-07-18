@@ -1,0 +1,714 @@
+{
+    "site_id": "thymic",
+    "site_display_name": "Thymic Cancer",
+    "archetype": "A",
+    "regimen_count": 21,
+    "regimens": [
+        {
+            "regimen_name": "CAP (Cyclophosphamide/Doxorubicin/Cisplatin)",
+            "site": "Thymoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "ECOG/SWOG/SECSG Intergroup Trial",
+                "phase": "2",
+                "n_patients": "29",
+                "response_rate": "50%",
+                "other_data": "3 complete responses and 12 partial responses documented"
+            },
+            "notes": "CAP is the preferred first-line regimen for thymoma based on response data. In the RYTHMIC prospective database study, CAP was associated with a higher objective response rate than other regimens (44% vs 17%, as exclusive systemic therapy) for advanced thymoma or thymic carcinoma [158]. Patients with thymoma should be evaluated clinically for signs of myasthenia gravis and other paraneoplastic syndromes with appropriate workup and treatment."
+        },
+        {
+            "regimen_name": "CAP (Cyclophosphamide/Doxorubicin/Cisplatin)/Prednisone",
+            "site": "Thymoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Used in a multidisciplinary approach with induction chemotherapy, followed by surgical resection, radiation therapy, and consolidation chemotherapy for unresectable malignant thymomas"
+            },
+            "notes": "This is an 'Other Recommended' first-line regimen for thymoma. The regimen has demonstrated efficacy in the treatment of thymic carcinomas, but it is not preferred due to its toxicity profile. Non-anthracycline regimens may be useful for patients who cannot tolerate the preferred regimen [62]."
+        },
+        {
+            "regimen_name": "ADOC (Doxorubicin/Cisplatin/Vincristine/Cyclophosphamide)",
+            "site": "Thymoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Used for invasive thymoma based on a 13-year experience"
+            },
+            "notes": "ADOC is an 'Other Recommended' first-line regimen for thymoma. Like other anthracycline-containing regimens, it has demonstrated efficacy but is not preferred due to its toxicity profile. Non-anthracycline regimens may be useful for patients who cannot tolerate the preferred regimen [5,66]."
+        },
+        {
+            "regimen_name": "PE (Cisplatin/Etoposide)",
+            "site": "Thymoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "EORTC Lung Cancer Cooperative Group Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Cisplatin and etoposide combination chemotherapy for locally advanced or metastatic thymoma"
+            },
+            "notes": "PE is a non-anthracycline 'Other Recommended' first-line regimen for thymoma. It can be used in combination with radiation therapy (RT) as definitive concurrent chemoradiation [6,166]. Regimens can be used with RT, as definitive concurrent chemoradiation [166]."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide/Ifosfamide",
+            "site": "Thymoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Intergroup Trial",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Combined etoposide, ifosfamide, and cisplatin in the treatment of patients with advanced thymoma and thymic carcinoma"
+            },
+            "notes": "Cisplatin/Etoposide/Ifosfamide is a non-anthracycline 'Other Recommended' first-line regimen for thymoma. Non-anthracycline regimens may be useful for patients who cannot tolerate the preferred regimen [7,169]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Thymic Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "WJOG4207L multicenter phase II study",
+                "phase": "2",
+                "n_patients": "39",
+                "response_rate": "36%",
+                "other_data": "1 complete response and 13 partial responses. Median progression-free survival 7.5 months, 2-year overall survival rate 71%"
+            },
+            "notes": "Carboplatin/Paclitaxel is the preferred first-line regimen for thymic carcinoma based on response rates reported in prospective clinical trials [2,3]. This regimen can also be used in combination with RT as definitive concurrent chemoradiation. Patients with untreated brain metastases or major standard contraindications to antiangiogenics were excluded from the RELEVENT or S1701 study populations."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Ramucirumab",
+            "site": "Thymic Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Ramucirumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RELEVENT phase II trial (NCT03921671)",
+                "phase": "2",
+                "n_patients": "35",
+                "response_rate": "80% (investigator assessment), 57.6% (central review)",
+                "other_data": "Median overall survival 43.8 months at median follow-up of 31.6 months"
+            },
+            "notes": "Carboplatin/Paclitaxel + Ramucirumab is a preferred first-line option for thymic carcinoma based on the single-arm phase 2 RELEVENT trial. There is no published experience using this as a preoperative therapy. Patients with untreated brain metastases or major standard contraindications to antiangiogenics were excluded from the study. The NCCN Panel notes there is no published experience using this as a preoperative therapy [8,197]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Atezolizumab",
+            "site": "Thymic Carcinoma",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "MARBLE phase 2 trial",
+                "phase": "2",
+                "n_patients": "48",
+                "response_rate": "56%",
+                "other_data": "Activity and safety of atezolizumab plus carboplatin and paclitaxel in patients with advanced or recurrent thymic carcinoma"
+            },
+            "notes": "Carboplatin/Paclitaxel + Atezolizumab was recently added as a first-line treatment option based on data from the phase 2 MARBLE trial [9]. PD-1/PD-L1 inhibitor therapy is not recommended for patients with thymoma. In patients with thymic carcinoma, there is concern for a higher rate of immune-related adverse events (eg, myocarditis) than seen in most other malignancies treated with PD-1/PD-L1 inhibitor therapy. See NCCN Guidelines for the Management of Immunotherapy-Related Toxicities. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab, with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Everolimus",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Phase II study of everolimus in patients with thymoma and thymic carcinoma previously treated with cisplatin-based chemotherapy"
+            },
+            "notes": "Everolimus is a preferred subsequent systemic therapy option for thymoma. It has demonstrated activity in patients previously treated with cisplatin-based chemotherapy [10]."
+        },
+        {
+            "regimen_name": "Gemcitabine/Capecitabine",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Capecitabine plus gemcitabine in thymic epithelial tumors: final analysis of a phase II trial"
+            },
+            "notes": "Gemcitabine/Capecitabine is a preferred subsequent therapy for thymoma. Gemcitabine or capecitabine may also be given as single agents. For information regarding DPYD testing, see NCCN Guidelines for Colon Cancer. Patients with certain genetic variants of DPYD that lead to DPD deficiency may be at increased risk of serious and life-threatening toxicities when treated with fluorouracil or capecitabine [11,12]."
+        },
+        {
+            "regimen_name": "Octreotide (including LAR)",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "hormonal therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Octreotide scan or dotatate PET/CT",
+                    "requirement": "Positive for octreotide-avid disease",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Eastern Cooperative Oncology Group Phase II Trial",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Octreotide alone or with prednisone in patients with advanced thymoma and thymic carcinoma"
+            },
+            "notes": "Octreotide is a preferred subsequent therapy for thymoma, but only if octreotide scan or dotatate PET/CT (dotatate PET/CT preferred if available) is positive for octreotide-avid disease. Nuclear medicine scan (octreotide scan or dotatate PET/CT) is required to assess for octreotide-avid disease [13]."
+        },
+        {
+            "regimen_name": "Octreotide (including LAR)/Prednisone",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "hormonal therapy",
+                "corticosteroid"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Octreotide scan or dotatate PET/CT",
+                    "requirement": "Positive for octreotide-avid disease",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Eastern Cooperative Oncology Group Phase II Trial",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Octreotide alone or with prednisone in patients with advanced thymoma and thymic carcinoma"
+            },
+            "notes": "Octreotide/Prednisone is a preferred subsequent therapy for thymoma, but only if octreotide scan or dotatate PET/CT (dotatate PET/CT preferred if available) is positive for octreotide-avid disease. This combination has also been studied as neoadjuvant treatment for unresectable thymic tumors [13,14]."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "A phase II study of pemetrexed in patients with recurrent thymoma and thymic carcinoma"
+            },
+            "notes": "Pemetrexed is a preferred subsequent therapy for thymoma [15]."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": null
+            },
+            "notes": "Fluorouracil/Leucovorin is an 'Other Recommended' subsequent therapy for thymoma. For information regarding DPYD testing, see NCCN Guidelines for Colon Cancer [16,130]."
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Case report",
+                "phase": null,
+                "n_patients": "1",
+                "response_rate": null,
+                "other_data": "A case of recurrent metastatic thymoma showing a marked response to paclitaxel monotherapy"
+            },
+            "notes": "Paclitaxel monotherapy is an 'Other Recommended' subsequent therapy for thymoma [17,176]."
+        },
+        {
+            "regimen_name": "Etoposide",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Single-institution experience",
+                "phase": null,
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Activity and safety of oral etoposide in pretreated patients with metastatic or recurrent thymic epithelial tumors"
+            },
+            "notes": "Etoposide monotherapy is considered useful in certain circumstances for subsequent treatment of thymoma [6,18,177]."
+        },
+        {
+            "regimen_name": "Ifosfamide",
+            "site": "Thymoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": null,
+                "other_data": "Treatment of invasive thymoma with single-agent ifosfamide"
+            },
+            "notes": "Ifosfamide monotherapy is considered useful in certain circumstances for subsequent treatment of thymoma [19,178]."
+        },
+        {
+            "regimen_name": "Lenvatinib",
+            "site": "Thymic Carcinoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "REMORA multicentre, phase 2 trial",
+                "phase": "2",
+                "n_patients": "42",
+                "response_rate": "38%",
+                "other_data": "Median overall survival 28.3 months, 36-month overall survival rate 35.7%"
+            },
+            "notes": "Lenvatinib is a preferred subsequent therapy for thymic carcinoma. There is a high risk for side effects and frequent dose reductions may be needed. The REMORA trial demonstrated activity in metastatic or recurrent thymic carcinoma [20,200,205]."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Thymic Carcinoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase 2 study",
+                "phase": "2",
+                "n_patients": null,
+                "response_rate": "22.5%",
+                "other_data": "Pembrolizumab in patients with thymic carcinoma: a single-arm, single-centre, phase 2 study"
+            },
+            "notes": "Pembrolizumab is a preferred subsequent therapy for thymic carcinoma. It is active as subsequent therapy but is also associated with a high rate of severe immune-related adverse events (15%). PD-1/PD-L1 inhibitor therapy is not recommended for patients with thymoma. In patients with thymic carcinoma, there is concern for a higher rate of immune-related adverse events (eg, myocarditis) than seen in most other malignancies treated with PD-1/PD-L1 inhibitor therapy. Grade 3–4 myocarditis has been reported in 5%–9% of patients with thymic carcinomas receiving pembrolizumab. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab, with different dosing and administration instructions. See NCCN Guidelines for the Management of Immunotherapy-Related Toxicities [21,22,182,201]."
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Thymic Carcinoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Open-label phase 2 trial",
+                "phase": "2",
+                "n_patients": "23",
+                "response_rate": "26%",
+                "other_data": "Partial response with sunitinib observed in 6 individuals (26%) out of 23 patients with chemotherapy-refractory thymic carcinoma"
+            },
+            "notes": "Sunitinib is a preferred subsequent therapy for thymic carcinoma, regardless of c-Kit mutation status. The single-arm phase 2 STYLE trial also evaluated sunitinib in type B3 thymoma and thymic carcinoma, with an overall response rate of 21.4% among 28 assessable patients with thymic carcinoma [23,202,203]."
+        },
+        {
+            "regimen_name": "Axitinib + Avelumab",
+            "site": "Thymic Carcinoma",
+            "setting": "Subsequent",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Axitinib",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                },
+                {
+                    "name": "Avelumab",
+                    "dose": null,
+                    "route": null,
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "CAVEATT phase 2 trial",
+                "phase": "2",
+                "n_patients": "32",
+                "response_rate": "34%",
+                "other_data": "Out of 32 patients, 27 had thymic carcinoma. Prior use of antiangiogenics was permitted; 4 patients previously received ramucirumab. Final median overall survival 23.4 months, 24-month overall survival rate 48.5%"
+            },
+            "notes": "Axitinib + Avelumab is an 'Other Recommended' subsequent treatment for thymic carcinoma based on the phase 2 CAVEATT trial. The response rate of patients who previously received an anti-angiogenic was lower than that of those who had not (15% vs 47%). PD-1/PD-L1 inhibitor therapy is not recommended in the neoadjuvant setting [24,207,208]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.362974"
+}

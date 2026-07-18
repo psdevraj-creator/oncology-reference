@@ -1,0 +1,1338 @@
+{
+    "site_id": "vaginal",
+    "site_display_name": "Vaginal Cancer",
+    "archetype": "D",
+    "regimen_count": 38,
+    "regimens": [
+        {
+            "regimen_name": "Cisplatin-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred for concurrent platinum-containing chemotherapy with EBRT. Extrapolated from cervical cancer. Chemoradiation may not be suitable for all patients; use with caution in older, frail, or those with multiple comorbidities [i]."
+        },
+        {
+            "regimen_name": "Carboplatin-based concurrent chemoradiation (if cisplatin intolerant)",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "concurrent with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred alternative if cisplatin is intolerant. Concurrent platinum-containing chemotherapy with EBRT [i]."
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on studies showing efficacy and tolerability when administered concomitantly with radiation [80]. Capecitabine use should be avoided in patients with certain DPYD variants [e]."
+        },
+        {
+            "regimen_name": "Gemcitabine-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on phase II study showing CR of 89.5% and ORR of 94.7% in advanced-stage IIIB cervical cancer [81]. Requires reduced dosing when used concurrently with radiation to avoid radiation toxicity."
+        },
+        {
+            "regimen_name": "Paclitaxel-based concurrent chemoradiation",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Invasive Stage I–IVA disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "For use if cisplatin and carboplatin are unavailable. Based on pilot study with CR in 8 out of 13 patients with locally advanced cervical cancer [82]."
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null,
+                    "optional": true
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "3",
+                "n_patients": "617",
+                "os": "28.6 months vs. 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.5 months vs. 8.2 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "hr": "0.60",
+                "ci": "95% CI, 0.49–0.74",
+                "orr": "68.1% vs. 50.2%"
+            },
+            "notes": "Preferred for PD-L1-positive tumors. Based on KEYNOTE-826 trial in cervical cancer [5]. Bevacizumab may be continued as maintenance therapy [i]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Pembrolizumab ± Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null,
+                    "optional": true
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "CPS ≥1",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-826",
+                "phase": "3",
+                "n_patients": "617",
+                "os": "28.6 months vs. 16.5 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "pfs": "10.5 months vs. 8.2 months (HR, 0.60; 95% CI, 0.49–0.74; P < .0001)",
+                "hr": "0.60",
+                "ci": "95% CI, 0.49–0.74",
+                "orr": "68.1% vs. 50.2%"
+            },
+            "notes": "Preferred for PD-L1-positive tumors. Based on KEYNOTE-826 trial in cervical cancer [5]. Bevacizumab may be continued as maintenance therapy [i]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j]."
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred based on GOG 240 trial in cervical cancer [6]. Bevacizumab may be continued as maintenance therapy [i]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Preferred based on GOG 240 trial in cervical cancer [6]. Bevacizumab may be continued as maintenance therapy [i]."
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": "4.8 vs. 2.8 months (P > .001)",
+                "hr": null,
+                "ci": null,
+                "orr": "36% vs. 19%"
+            },
+            "notes": "Other recommended option. Based on GOG 169 trial in cervical cancer [7]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "JCOG0505",
+                "phase": "3",
+                "n_patients": "253",
+                "os": "18.3 months vs. 17.5 months (HR, 0.994; 90% CI, 0.79–1.25; P = .032)",
+                "pfs": null,
+                "hr": "0.994",
+                "ci": "90% CI, 0.79–1.25",
+                "orr": null
+            },
+            "notes": "Other recommended option. Based on JCOG0505 trial showing non-inferiority to cisplatin/paclitaxel [9]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan + Bevacizumab",
+            "site": "Vaginal Cancer",
+            "setting": "First-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 240",
+                "phase": "3",
+                "n_patients": "452",
+                "os": "16.8 months vs. 13.3 months (P = .007)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended option based on GOG 240 trial [6]. Bevacizumab may be continued as maintenance therapy [i]."
+        },
+        {
+            "regimen_name": "Paclitaxel/Topotecan",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 204",
+                "phase": "3",
+                "n_patients": "513",
+                "os": "12.9 vs. 10 months (trends)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended option based on GOG 204 trial [8]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Cisplatin/Topotecan",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 179",
+                "phase": "3",
+                "n_patients": "294",
+                "os": "9.4 vs. 6.5 months (P = .017)",
+                "pfs": "4.6 vs. 2.9 months (P = .014)",
+                "hr": null,
+                "ci": null,
+                "orr": "27% vs. 13% (P = .004)"
+            },
+            "notes": "Other recommended option based on GOG 179 trial [9]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Cisplatin monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GOG 169",
+                "phase": "3",
+                "n_patients": "264",
+                "os": null,
+                "pfs": "2.8 months",
+                "hr": null,
+                "ci": null,
+                "orr": "19%"
+            },
+            "notes": "Most active single agent. Response rates approximately 20% to 30% with occasional CR. OS approximately 6 to 9 months [7,8]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Carboplatin monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "First-line or Second-line for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Single agent option. Tolerable and efficacious [9]. If not used previously, can be used as second-line or subsequent therapy [f]."
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for TMB-High tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "≥10 mut/Mb",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "29% (95% CI, 21–39)"
+            },
+            "notes": "Preferred for TMB-H (≥10 mut/Mb) tumors that have progressed following prior treatment. Based on KEYNOTE-158 trial [10]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j]."
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for PD-L1-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "98",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "14.6% (95% CI, 7.8%–24.2%)"
+            },
+            "notes": "Preferred for PD-L1-positive tumors (CPS ≥1). Based on KEYNOTE-158 trial [11]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j]."
+        },
+        {
+            "regimen_name": "Pembrolizumab monotherapy for MSI-H/dMMR tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H/dMMR",
+                    "requirement": null,
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "2",
+                "n_patients": "233",
+                "os": "23.5 months (95% CI, 13.5 months – NR)",
+                "pfs": "4.1 months (95% CI, 2.4–4.9 months)",
+                "hr": null,
+                "ci": null,
+                "orr": "34.3% (95% CI, 28.3%–40.8%)"
+            },
+            "notes": "Preferred for MSI-H/dMMR tumors. Based on KEYNOTE-158 trial [12]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [j]."
+        },
+        {
+            "regimen_name": "Bevacizumab monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bevacizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [6]."
+        },
+        {
+            "regimen_name": "Paclitaxel monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [13]."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [14]."
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [15]."
+        },
+        {
+            "regimen_name": "Fluorouracil",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [16]."
+        },
+        {
+            "regimen_name": "Gemcitabine monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [17]."
+        },
+        {
+            "regimen_name": "Pemetrexed",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pemetrexed",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [18]."
+        },
+        {
+            "regimen_name": "Topotecan monotherapy",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [19]."
+        },
+        {
+            "regimen_name": "Vinorelbine",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [20]."
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null
+            },
+            "notes": "Other recommended agent for second-line therapy [21]."
+        },
+        {
+            "regimen_name": "Tisotumab vedotin-tftv",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Tisotumab vedotin-tftv",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "innovaTV 204/GOG-3023/ENGOT-cx6",
+                "phase": "2",
+                "n_patients": "102",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "24% (95% CI, 16–33)"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on innovaTV 204 trial in cervical cancer [16]. FDA accelerated approval for recurrent or metastatic cervical cancer with disease progression on or after chemotherapy."
+        },
+        {
+            "regimen_name": "Cemiplimab",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Empower-Cervical-1",
+                "phase": "3",
+                "n_patients": "608",
+                "os": "12 vs. 8.5 months (HR, 0.69; 95% CI, 0.56–0.84; P < .001)",
+                "pfs": "2.8 vs. 2.9 months (HR, 0.75; 95% CI, 0.63–0.89; P < .001)",
+                "hr": "0.69",
+                "ci": "95% CI, 0.56–0.84",
+                "orr": "16% vs. 6.3%"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on Empower-Cervical-1 trial in cervical cancer [17]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "1-2",
+                "n_patients": "176",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "40% (95% CI, 26–56) for NIVO1+IPI3; 38% (95% CI, 29–48) for pooled NIVO1+IPI3"
+            },
+            "notes": "Other recommended for second-line or subsequent therapy based on CheckMate 358 trial [18,19]."
+        },
+        {
+            "regimen_name": "Nivolumab monotherapy for PD-L1-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 358",
+                "phase": "1-2",
+                "n_patients": "19",
+                "os": "12-month OS rate 77.5% (95% CI, 50.5%–91.0%)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "26.3% (95% CI, 9.1%–51.2%)"
+            },
+            "notes": "Useful in certain circumstances for PD-L1-positive tumors based on CheckMate 358 trial [18]. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [l]."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki for HER2-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "antibody-drug conjugate"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2",
+                    "requirement": "IHC 3+ or 2+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "2",
+                "n_patients": "267",
+                "os": "13.4 months (95% CI, 11.9–15.5)",
+                "pfs": "6.9 months (95% CI, 5.6–8.0)",
+                "hr": null,
+                "ci": null,
+                "orr": "37.1% (95% CI, 31.3–43.2)"
+            },
+            "notes": "Useful in certain circumstances for HER2-positive tumors (IHC 3+ or 2+) based on DESTINY-PanTumor02 trial [20]."
+        },
+        {
+            "regimen_name": "Selpercatinib for RET gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "1-2",
+                "n_patients": "41",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "44% (95% CI, 28.5–60.3)"
+            },
+            "notes": "Useful in certain circumstances for RET gene fusion-positive tumors based on LIBRETTO-001 trial [22,23]."
+        },
+        {
+            "regimen_name": "Larotrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase 1/2 studies",
+                "phase": "1-2",
+                "n_patients": "55",
+                "os": null,
+                "pfs": "not reached",
+                "hr": null,
+                "ci": null,
+                "orr": "75% (95% CI, 61%–85%)"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors based on clinical trials [25,26]."
+        },
+        {
+            "regimen_name": "Entrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Integrated analysis of ALKA-372-001, STARTRK-1, STARTRK-2",
+                "phase": "1-2",
+                "n_patients": "54",
+                "os": null,
+                "pfs": "13.8 months (95% CI, 10.1–19.9)",
+                "hr": null,
+                "ci": null,
+                "orr": "57% (95% CI, 43.2–70.8)"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors based on integrated analysis [23,24]."
+        },
+        {
+            "regimen_name": "Repotrectinib for NTRK gene fusion-positive tumors",
+            "site": "Vaginal Cancer",
+            "setting": "Second-line or Subsequent for Recurrent or Metastatic Disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1-2",
+                "n_patients": "48 (TKI-naïve); 40 (TKI-pretreated)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "58% (95% CI, 41–73) for TKI-naïve; 50% (95% CI, 35–65) for TKI-pretreated"
+            },
+            "notes": "Useful in certain circumstances for NTRK gene fusion-positive tumors, including those naïve to prior NTRK-targeted therapy or have progressed on prior NTRK therapy [21]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.503129"
+}

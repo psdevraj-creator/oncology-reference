@@ -1,0 +1,2217 @@
+{
+    "site_id": "small_bowel",
+    "site_display_name": "Small Bowel Cancer",
+    "archetype": "A",
+    "regimen_count": 66,
+    "regimens": [
+        {
+            "regimen_name": "FOLFOX",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, then 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFOX is recommended for adjuvant treatment of stage III pMMR/MSS small bowel adenocarcinoma, or for stage II with high-risk features such as T4, close/positive margins, few lymph nodes examined, tumor perforation, lymphovascular/perineural invasion, or poorly differentiated histology. The role of adjuvant chemotherapy remains controversial, and enrollment in clinical trials is encouraged. Data are extrapolated from colorectal cancer studies, as no patients with SBA were included in the IDEA pooled analysis of adjuvant colon cancer trials. The duration of therapy is typically 3–6 months for CAPEOX or 6 months for FOLFOX, fluorouracil/leucovorin, or capecitabine. For duodenal cancers with positive margin after adjuvant systemic therapy, sequential chemoradiation with capecitabine or infusional fluorouracil may be considered."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "2-hour infusion weekly x 6, repeated every 8 weeks for 4 cycles"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV bolus",
+                    "schedule": "1 hour after leucovorin, weekly x 6, repeated every 8 weeks for 4 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Fluorouracil/Leucovorin is an adjuvant treatment option for stage III pMMR/MSS small bowel adenocarcinoma or for stage II with high-risk features. It may also be considered for T3, N0, M0 tumors without high-risk features. The regimen is based on the Roswell Park regimen or weekly dosing as shown. Evidence is extrapolated from colorectal cancer data, and the benefit of adjuvant therapy in SBA is not definitively proven. Participation in clinical trials is preferred."
+        },
+        {
+            "regimen_name": "Simplified biweekly infusional Fluorouracil/Leucovorin (sLV5FU2)",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus followed by 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "sLV5FU2 is a simplified biweekly infusional regimen of fluorouracil and leucovorin used for adjuvant therapy in small bowel adenocarcinoma. It is an alternative to the weekly Roswell Park regimen. The regimen is extrapolated from colorectal cancer data, and its specific efficacy in SBA is not established from dedicated trials. It may be used for stage III disease or high-risk stage II."
+        },
+        {
+            "regimen_name": "Fluorouracil + RT",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant/Neoadjuvant",
+            "setting": "Adjuvant/Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "225 mg/m2",
+                    "route": "IV over 24 Hours (continuous infusion)",
+                    "schedule": "daily on Days 1–5 or 1–7 for 5 weeks with RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Fluorouracil with radiation therapy (chemo/RT) is considered for duodenal cancers with positive margins after resection, either as adjuvant therapy or for locally unresectable disease following induction chemotherapy. Database analysis suggests no survival benefit from adjuvant chemo/RT versus chemotherapy alone in resected duodenal adenocarcinoma, but it may be considered in selected cases. Preoperative chemo/RT should be considered for patients who remain unresectable after induction chemotherapy. Treatment is delivered using 3D-CRT or IMRT, with fluoropyrimidine-based chemotherapy given concurrently."
+        },
+        {
+            "regimen_name": "CAPEOX",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "CAPEOX is recommended for adjuvant treatment of stage III pMMR/MSS small bowel adenocarcinoma, or for stage II with high-risk features. The duration of therapy is 3–6 months. Evidence is extrapolated from colorectal cancer data; in the IDEA pooled analysis of adjuvant colon cancer trials, 3 months of CAPEOX showed noninferior 3-year disease-free survival compared to 6 months, with less toxicity, but no patients with SBA were included. North American patients may require lower doses of capecitabine due to higher toxicity."
+        },
+        {
+            "regimen_name": "FOLFOX + Atezolizumab",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "FOLFOX",
+                    "dose": "as per FOLFOX regimen",
+                    "route": "IV",
+                    "schedule": "every 2 weeks for 12 cycles (6 months)"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "840 mg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks for 12 cycles (6 months), then maintenance atezolizumab 840 mg IV every 2 weeks for 13 cycles (12 months total)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFOX combined with atezolizumab is a new adjuvant treatment recommendation for patients with dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype (e.g., TMB>50 mut/Mb) small bowel adenocarcinoma, specifically for T4, N0, M0 or any T, N1-2 stages. The role of adjuvant immunotherapy for those who received neoadjuvant immunotherapy is not defined. The regimen is based on the ATOMIC trial (Alliance A021502) for dMMR colon cancer, extrapolated to SBA. Enrollment in clinical trials is encouraged."
+        },
+        {
+            "regimen_name": "CAPEOX + Atezolizumab",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "CAPEOX",
+                    "dose": "as per CAPEOX regimen",
+                    "route": "IV/PO",
+                    "schedule": "every 3 weeks for 8 cycles (6 months)"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 8 cycles (6 months), then maintenance atezolizumab 1200 mg IV every 3 weeks for 8 cycles (12 months total)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "CAPEOX combined with atezolizumab is an adjuvant treatment option for patients with dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype (e.g., TMB>50 mut/Mb) small bowel adenocarcinoma, for T4, N0, M0 or any T, N1-2 stages. Similar to FOLFOX + atezolizumab, it is based on the ATOMIC trial for dMMR colon cancer. The regimen includes capecitabine at 1000 mg/m2 twice daily for 14 days every 3 weeks with oxaliplatin, plus atezolizumab. Participation in clinical trials is preferred."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000–1250 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Capecitabine monotherapy is an adjuvant treatment option for stage III pMMR/MSS small bowel adenocarcinoma or for stage II with high-risk features. It is typically given for 6 months. Evidence is extrapolated from colorectal cancer data. For duodenal cancers with positive margin, sequential chemoradiation with capecitabine may be considered after adjuvant systemic therapy. FDA boxed warning: test for DPYD variants before starting capecitabine unless immediate treatment is necessary."
+        },
+        {
+            "regimen_name": "Capecitabine + RT",
+            "site": "Small Bowel Adenocarcinoma, Adjuvant/Neoadjuvant",
+            "setting": "Adjuvant/Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily Monday–Friday, on days of radiation treatment only, throughout the duration of RT (typically 28–30 treatment days)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Capecitabine with radiation therapy (chemo/RT) is used for duodenal cancers with positive margins, either as adjuvant therapy or for locally unresectable disease following induction chemotherapy. It is an alternative to fluorouracil + RT. The regimen is extrapolated from rectal cancer data (e.g., neoadjuvant 5-FU or capecitabine plus radiation). RT is delivered using 3D-CRT or IMRT, and capecitabine is given concurrently at 825 mg/m2 twice daily on days of radiation."
+        },
+        {
+            "regimen_name": "Modified FOLFOX6",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, then 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "33",
+                "os": "17.3 months",
+                "pfs": "5.9 months",
+                "hr": null,
+                "ci": null,
+                "orr": "48.5% (95% CI, 31%–67%)"
+            },
+            "notes": "Modified FOLFOX6 is a first-line intensive therapy option for metastatic small bowel adenocarcinoma in pMMR/MSS patients. It may be used with or without bevacizumab. Discontinuation of oxaliplatin should be strongly considered after 3 to 4 months of therapy or sooner for unacceptable neurotoxicity, while maintaining other agents until progression. Oxaliplatin may be reintroduced if discontinued for neurotoxicity rather than disease progression. The majority of data on first-line treatment of metastatic SBA are for oxaliplatin-based regimens."
+        },
+        {
+            "regimen_name": "Modified FOLFOX7",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Modified FOLFOX7 is a variant of FOLFOX without the bolus fluorouracil, used as first-line therapy for metastatic small bowel adenocarcinoma. It may be combined with bevacizumab. The regimen is similar to Modified FOLFOX6 but omits the initial bolus dose of fluorouracil, which may reduce toxicity. Evidence is from retrospective studies and extrapolated from colorectal cancer data."
+        },
+        {
+            "regimen_name": "FOLFOX + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "FOLFOX",
+                    "dose": "as per FOLFOX regimen",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFOX plus bevacizumab is a first-line intensive therapy option for metastatic small bowel adenocarcinoma. Bevacizumab has been shown to be safe in advanced SBA, although efficacy has not been proven. It may be added to FOLFOX, CAPEOX, FOLFIRI, or FOLFIRINOX. Bevacizumab may be safely given at a rate of 0.5 mg/kg/min. An FDA-approved biosimilar is an appropriate substitute for bevacizumab."
+        },
+        {
+            "regimen_name": "CAPEOX (Capecitabine/Oxaliplatin)",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "30",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "50% (10% complete response)"
+            },
+            "notes": "CAPEOX is a first-line intensive therapy option for metastatic small bowel adenocarcinoma. It may be used with or without bevacizumab. A phase II trial showed an ORR of 50% with 10% complete response in advanced adenocarcinomas of the small bowel and ampulla of Vater. Discontinuation of oxaliplatin after 3–4 months is recommended to limit neurotoxicity. Evidence suggests North American patients may require lower doses of capecitabine due to higher toxicity."
+        },
+        {
+            "regimen_name": "CAPEOX + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "CAPEOX plus bevacizumab is a first-line therapy option for metastatic small bowel adenocarcinoma. A phase II study reported that CAPEOX combined with bevacizumab is safe and efficacious in patients with SBA. Bevacizumab is added at 7.5 mg/kg every 3 weeks. The combination may improve outcomes, but data are limited. An FDA-approved biosimilar for bevacizumab is acceptable."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30–90 minutes",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV infusion to match irinotecan infusion",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus Day 1, then 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFIRI is a first-line intensive therapy option for metastatic small bowel adenocarcinoma. It may be used with or without bevacizumab. While FOLFIRI has not been studied as first-line treatment for advanced SBA, it may be a reasonable first-line option based on extrapolation from colorectal cancer studies and its differing toxicity profile compared to oxaliplatin-based regimens. It is also a second-line option if not previously given."
+        },
+        {
+            "regimen_name": "FOLFIRI + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "FOLFIRI",
+                    "dose": "as per FOLFIRI regimen",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFIRI plus bevacizumab is a first-line option for metastatic small bowel adenocarcinoma. Bevacizumab may be added to FOLFIRI as to other regimens, and it has been shown to be safe in advanced SBA, although efficacy is not proven. The combination may be considered for patients with good performance status."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 Hours",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV over 30–90 minutes",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV push Day 1, then 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFIRINOX is a first-line intensive therapy option for metastatic small bowel adenocarcinoma. The role of FOLFIRINOX for SBA has not been formally evaluated, but it is extrapolated from the CAPIRINOX trial in advanced SBA, which showed a response rate of 37.5%. FOLFIRINOX is recommended instead of FOLFOXIRI because FOLFOXIRI uses a higher dose of fluorouracil (3200 mg/m2 over 48 hours), which may be more toxic in U.S. patients. The dose of fluorouracil here is 2400 mg/m2 over 46 hours, consistent with FOLFOX or FOLFIRI."
+        },
+        {
+            "regimen_name": "Modified FOLFIRINOX",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 Hours",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV over 30–90 minutes",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Modified FOLFIRINOX is a variant with lower irinotecan dose (150 mg/m2 instead of 180 mg/m2) and no bolus fluorouracil, used as first-line therapy for metastatic small bowel adenocarcinoma. It may be combined with bevacizumab. The modification aims to reduce toxicity while maintaining efficacy. Evidence is extrapolated from colorectal cancer studies."
+        },
+        {
+            "regimen_name": "FOLFIRINOX or Modified FOLFIRINOX + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "FOLFIRINOX or Modified FOLFIRINOX",
+                    "dose": "as per respective regimens",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFIRINOX or Modified FOLFIRINOX combined with bevacizumab is a first-line option for metastatic small bowel adenocarcinoma. Bevacizumab may be added to these intensive regimens. Data supporting the addition of bevacizumab are limited but suggest safety and possible efficacy based on retrospective studies."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1250 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Capecitabine monotherapy is a first-line option for metastatic small bowel adenocarcinoma in patients for whom intensive therapy is not recommended (e.g., older patients or those with comorbidities). It may be used with or without bevacizumab. The dose range is 850–1250 mg/m2 twice daily. Evidence is extrapolated from colorectal cancer data."
+        },
+        {
+            "regimen_name": "Capecitabine + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1250 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 3 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "7.5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Capecitabine plus bevacizumab is a first-line option for metastatic small bowel adenocarcinoma when intensive therapy is not recommended. The combination is based on data from colorectal cancer (e.g., AVEX trial in elderly patients) and extrapolated to SBA. Bevacizumab may improve outcomes but efficacy in SBA is not proven."
+        },
+        {
+            "regimen_name": "Fluorouracil/Leucovorin (Roswell Park regimen)",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV over 2 Hours",
+                    "schedule": "Days 1, 8, 15, 22, 29, and 36, repeated every 8 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV bolus",
+                    "schedule": "1 hour after start of leucovorin, on same days, repeated every 8 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "The Roswell Park regimen of fluorouracil and leucovorin is an option for first-line therapy in metastatic small bowel adenocarcinoma when intensive therapy is not recommended. It is a weekly regimen given for 6 weeks every 8 weeks. Evidence is extrapolated from colorectal cancer data."
+        },
+        {
+            "regimen_name": "Simplified Biweekly infusional Fluorouracil/LV (sLV5FU2)",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV over 2 Hours",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus followed by 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "sLV5FU2 is a simplified biweekly infusional regimen of fluorouracil and leucovorin used for first-line therapy in metastatic small bowel adenocarcinoma when intensive therapy is not recommended. It is an alternative to the weekly Roswell Park regimen and may be better tolerated."
+        },
+        {
+            "regimen_name": "Weekly Fluorouracil/Leucovorin",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "20 mg/m2",
+                    "route": "IV over 2 Hours",
+                    "schedule": "Day 1 every week"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV bolus injection",
+                    "schedule": "1 hour after start of leucovorin, every week"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Weekly fluorouracil and leucovorin is a low-dose regimen for first-line therapy in metastatic small bowel adenocarcinoma when intensive therapy is not recommended. It is an alternative to bolus or infusional regimens. Evidence is extrapolated from colorectal cancer studies."
+        },
+        {
+            "regimen_name": "Bolus or infusional Fluorouracil + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "First-line (Intensive therapy NOT recommended)",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "as per bolus or infusional regimen",
+                    "route": "IV",
+                    "schedule": "varies"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Bolus or infusional fluorouracil combined with bevacizumab is a first-line option for metastatic small bowel adenocarcinoma when intensive therapy is not recommended. The fluorouracil can be given as bolus or continuous infusion, and bevacizumab is added at 5 mg/kg every 2 weeks. This combination may be used for patients with lower tolerance for intensive regimens."
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "125 mg/m2",
+                    "route": "IV over 30–90 minutes",
+                    "schedule": "Days 1 and 8 every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Irinotecan monotherapy is a second-line or subsequent therapy option for metastatic small bowel adenocarcinoma if not previously given. It may be used with or without bevacizumab. Alternative dosing includes 180 mg/m2 every 2 weeks or 300–350 mg/m2 every 3 weeks. Evidence is limited and extrapolated from colorectal cancer data."
+        },
+        {
+            "regimen_name": "Irinotecan + Bevacizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Bevacizumab",
+                    "dose": "5 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Irinotecan plus bevacizumab is a second-line option for metastatic small bowel adenocarcinoma. Alternative dosing includes irinotecan 300–350 mg/m2 every 3 weeks with bevacizumab 7.5 mg/kg every 3 weeks. The combination is based on colorectal cancer data and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "2 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "400 mg",
+                    "route": "IV",
+                    "schedule": "every 6 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "4 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-high",
+                    "requirement": ">10 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "19",
+                "os": "not reached",
+                "pfs": "9.2 months",
+                "hr": null,
+                "ci": null,
+                "orr": "42.1%"
+            },
+            "notes": "Pembrolizumab is a PD-1 inhibitor approved for dMMR/MSI-H or TMB-high (>10 mut/Mb) solid tumors, including metastatic small bowel adenocarcinoma. It can be used as initial therapy or subsequent therapy. In the KEYNOTE-158 study, for 19 patients with SBA, ORR was 42.1% with three complete responses, median PFS 9.2 months, and median duration of response and OS not reached. The TMB-high category was changed from category 2B to category 2A in updates. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing."
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "480 mg",
+                    "route": "IV",
+                    "schedule": "every 4 weeks"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "CheckMate 142",
+                "phase": "II",
+                "n_patients": "74",
+                "os": "73% at 1 year",
+                "pfs": "50% at 1 year",
+                "hr": null,
+                "ci": null,
+                "orr": "31.1% (95% CI, 20.8–42.9)"
+            },
+            "notes": "Nivolumab is a PD-1 inhibitor approved for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It can be used as initial therapy or subsequent therapy. In the CheckMate 142 trial for dMMR CRC, ORR was 31.1%, with disease control for at least 12 weeks in 69%. PFS and OS were 50% and 73% at 1 year. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab for monotherapy but not for concurrent use with ipilimumab."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV over 30 minutes",
+                    "schedule": "once every 3 weeks for 4 doses, then nivolumab 3 mg/kg IV or 240 mg IV every 2 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV over 30 minutes",
+                    "schedule": "once every 3 weeks for 4 doses"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "CheckMate 142",
+                "phase": "II",
+                "n_patients": "119",
+                "os": "85% at 1 year",
+                "pfs": "71% at 1 year",
+                "hr": null,
+                "ci": null,
+                "orr": "55% (95% CI, 45.2–63.8)"
+            },
+            "notes": "Ipilimumab plus nivolumab is a PD-1/CTLA-4 combination immunotherapy for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It can be used as initial therapy or subsequent therapy. In the CheckMate 142 trial, ORR was 55%, disease control for at least 12 weeks was 80%, and PFS and OS were 71% and 85% at 1 year. Nivolumab plus ipilimumab may be considered as subsequent therapy if checkpoint inhibitor monotherapy was previously received."
+        },
+        {
+            "regimen_name": "Cemiplimab-rwlc",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab-rwlc",
+                    "dose": "350 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Cemiplimab-rwlc is a PD-1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect from data in other cancer types, as it has not been specifically studied in SBA. The dose is 350 mg IV every 3 weeks."
+        },
+        {
+            "regimen_name": "Retifanlimab-dlwr",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Retifanlimab-dlwr is a PD-1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect from other cancer types. The dose is 500 mg IV every 4 weeks."
+        },
+        {
+            "regimen_name": "Tislelizumab-jsgr",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Tislelizumab-jsgr is a PD-1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 200 mg IV every 3 weeks."
+        },
+        {
+            "regimen_name": "Toripalimab-tpzi",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Toripalimab-tpzi",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Toripalimab-tpzi is a PD-1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 3 mg/kg IV every 2 weeks."
+        },
+        {
+            "regimen_name": "Penpulimab-kcqx",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Penpulimab-kcqx",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Penpulimab-kcqx is a PD-1 inhibitor added in updates for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 200 mg IV every 2 weeks."
+        },
+        {
+            "regimen_name": "Atezolizumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Atezolizumab",
+                    "dose": "840 mg",
+                    "route": "IV",
+                    "schedule": "every 14 days"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "every 21 days"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1680 mg",
+                    "route": "IV",
+                    "schedule": "every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Atezolizumab is a PD-L1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. Dosing options are 840 mg every 14 days, 1200 mg every 21 days, or 1680 mg every 28 days. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab with different dosing."
+        },
+        {
+            "regimen_name": "Avelumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avelumab",
+                    "dose": "800 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Avelumab is a PD-L1 inhibitor included for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 800 mg IV every 14 days."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 doses, followed by 1000 mg IV every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "GARNET",
+                "phase": "I",
+                "n_patients": "23",
+                "os": "31.6 months",
+                "pfs": "8.1 months",
+                "hr": null,
+                "ci": "95% CI, 8.2–not reached",
+                "orr": "39.1% (95% CI, 19.7–61.5)"
+            },
+            "notes": "Dostarlimab-gxly is a PD-1 inhibitor approved for dMMR solid tumors, including metastatic small bowel adenocarcinoma. In the GARNET trial, for 23 patients with small-intestinal solid tumors, ORR was 39.1%, median PFS 8.1 months, and median OS 31.6 months. The regimen is 500 mg IV every 3 weeks for 4 doses, then 1000 mg IV every 6 weeks. It is an option for subsequent therapy if checkpoint inhibitor not previously given."
+        },
+        {
+            "regimen_name": "Cosibelimab-ipdl",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cosibelimab-ipdl",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Cosibelimab-ipdl is a PD-L1 inhibitor added in updates for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 1200 mg IV every 21 days."
+        },
+        {
+            "regimen_name": "Durvalumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Any line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "deficient mismatch repair or microsatellite instability-high",
+                    "mandatory": true
+                },
+                {
+                    "marker": "POLE/POLD1 mutation with ultra-hypermutated phenotype",
+                    "requirement": "e.g., TMB>50 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Durvalumab is a PD-L1 inhibitor added in updates for dMMR/MSI-H or POLE/POLD1 mutation with ultra-hypermutated phenotype metastatic small bowel adenocarcinoma. It is based on class effect. The dose is 1500 mg IV every 28 days."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "220–260 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "10",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": null,
+                "disease_control_rate": "50%"
+            },
+            "notes": "Albumin-bound paclitaxel (nab-paclitaxel) is a second-line option for metastatic small bowel adenocarcinoma. In a phase II trial of 13 patients with SBA, 10 evaluable patients had a disease control rate of 50%, with 2 partial responses and 3 stable disease. Common grade 3 or 4 toxicities included fatigue, neutropenia, and febrile neutropenia."
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75–100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Docetaxel is a taxane-based chemotherapy option for second-line or subsequent therapy in metastatic small bowel adenocarcinoma. Evidence is from retrospective studies, showing a 30% disease response rate and median time to progression of 3.8 months in a single-center review."
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "135–250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Paclitaxel is a taxane-based chemotherapy option for second-line or subsequent therapy in metastatic small bowel adenocarcinoma. It can be given every 3 weeks, weekly, or on days 1, 8, 15 every 28 days. Evidence is from retrospective studies and extrapolated from other cancers."
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel/Gemcitabine",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "125 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 every 28 days"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Albumin-bound paclitaxel combined with gemcitabine is a second-line option for metastatic small bowel adenocarcinoma. The regimen is based on data from other cancers and extrapolated to SBA. It is given every 28 days."
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8 every 21 days"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 8 every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Docetaxel combined with gemcitabine is a second-line option for metastatic small bowel adenocarcinoma. The regimen is given every 21 days, with gemcitabine on days 1 and 8 and docetaxel on day 8. Evidence is extrapolated from other cancers."
+        },
+        {
+            "regimen_name": "Gemcitabine/Paclitaxel",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 every 28 days"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "110 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Gemcitabine combined with paclitaxel is a second-line option for metastatic small bowel adenocarcinoma. The regimen is given every 28 days with both drugs on days 1, 8, and 15. Evidence is extrapolated from other cancers."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Carboplatin combined with paclitaxel is a second-line option for metastatic small bowel adenocarcinoma. Carboplatin is dosed at AUC 5 every 21 days. Evidence is extrapolated from other cancers."
+        },
+        {
+            "regimen_name": "GTX (Gemcitabine Fixed-Dose Rate/Docetaxel/Capecitabine)",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "750 mg/m2",
+                    "route": "IV at a rate of 10 mg/m2/min",
+                    "schedule": "Days 4 and 11 every 21 days"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "30 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 4 and 11 every 21 days"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "750 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "GTX regimen is a combination of gemcitabine, docetaxel, and capecitabine used as second-line therapy for metastatic small bowel adenocarcinoma. It is given every 21 days for 2–6 cycles. Evidence is limited and extrapolated from other cancers."
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "gene fusion present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "Pooled analysis of 3 studies",
+                "phase": "I/II",
+                "n_patients": "4 with colon cancer",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "75% (95% CI, 61%–85%) for whole population"
+            },
+            "notes": "Larotrectinib is an NTRK inhibitor approved for NTRK gene fusion-positive solid tumors, including metastatic small bowel adenocarcinoma. In a pooled analysis, ORR was 75% by independent review. It is well-tolerated with most AEs grade 1 or 2. Used as subsequent therapy if no satisfactory alternative treatments."
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "gene fusion present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase I/II studies",
+                "phase": "I/II",
+                "n_patients": "54",
+                "os": "21 months",
+                "pfs": "11 months",
+                "hr": null,
+                "ci": null,
+                "orr": "57% (95% CI, 43.2%–70.8%)"
+            },
+            "notes": "Entrectinib is an NTRK inhibitor approved for NTRK gene fusion-positive solid tumors, including metastatic small bowel adenocarcinoma. In an integrated analysis of 54 patients, ORR was 57%, median PFS 11 months, and median OS 21 months. It is well-tolerated with few discontinuations due to AEs. Used as subsequent therapy if no satisfactory alternative treatments."
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "daily for first 14 days, then increase to 160 mg twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "gene fusion present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "I/II",
+                "n_patients": "40 TKI-naïve, 48 TKI-pretreated",
+                "os": null,
+                "pfs": "12-month PFS 56% TKI-naïve, 22% TKI-pretreated",
+                "hr": null,
+                "ci": null,
+                "orr": "58% TKI-naïve, 50% TKI-pretreated"
+            },
+            "notes": "Repotrectinib is an NTRK inhibitor approved for NTRK gene fusion-positive solid tumors, including metastatic small bowel adenocarcinoma. In the TRIDENT-1 trial, for TKI-naïve patients, ORR was 58%, 12-month PFS 56%; for TKI-pretreated, ORR 50%, 12-month PFS 22%. It is used as subsequent therapy if no satisfactory alternative treatments, and shows activity in both NTRK TKI-naïve and pretreated patients."
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "twice daily for patients ≥50 kg"
+                },
+                {
+                    "name": "Selpercatinib",
+                    "dose": "120 mg",
+                    "route": "PO",
+                    "schedule": "twice daily for patients <50 kg"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "gene fusion present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "I/II",
+                "n_patients": "41 efficacy-evaluable, including 1 with small bowel cancer",
+                "os": "18 months",
+                "pfs": "13.2 months",
+                "hr": null,
+                "ci": null,
+                "orr": "43.9% (95% CI, 28.5%–60.3%)"
+            },
+            "notes": "Selpercatinib is a RET inhibitor approved for RET gene fusion-positive solid tumors, including metastatic small bowel adenocarcinoma. In the LIBRETTO-001 trial, among 41 efficacy-evaluable patients, ORR was 43.9%, with 2 complete responses (including one small bowel cancer patient). Median PFS was 13.2 months and OS 18 months. Used as subsequent therapy if no satisfactory alternative treatments."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "II",
+                "n_patients": "3 with small intestine adenocarcinoma",
+                "os": "21.8 months",
+                "pfs": "not evaluable",
+                "hr": null,
+                "ci": null,
+                "orr": "67%"
+            },
+            "notes": "Dabrafenib combined with trametinib is a BRAF/MEK inhibitor combination approved for BRAF V600E-mutated solid tumors, including metastatic small bowel adenocarcinoma. In the ROAR trial, for 3 patients with small intestine adenocarcinoma, ORR was 67%, median duration of response 7.7 months, and OS 21.8 months. It is used as subsequent therapy if no satisfactory alternative treatments."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 overexpression (IHC 3+)",
+                    "requirement": "immunohistochemistry 3+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02",
+                "phase": "II",
+                "n_patients": "1 with intestinal adenocarcinoma",
+                "os": "13.4 months",
+                "pfs": "6.9 months",
+                "hr": null,
+                "ci": null,
+                "orr": "37.1% overall, 61.3% for HER2 IHC 3+"
+            },
+            "notes": "Fam-trastuzumab deruxtecan-nxki is an HER2-directed antibody-drug conjugate approved for HER2-overexpressing (IHC 3+) solid tumors, including metastatic small bowel adenocarcinoma. In the DESTINY-PanTumor02 trial, ORR was 37.1% overall, with higher ORR in HER2 IHC 3+ tumors. It is used for previously treated patients and/or those with no available alternative treatment options. May not be indicated in patients with underlying lung issues due to lung toxicity (3.5% report of drug-related deaths from interstitial lung disease)."
+        },
+        {
+            "regimen_name": "Pertuzumab + Trastuzumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trastuzumab",
+                    "dose": "8 mg/kg IV loading dose on Day 1 of cycle 1, followed by 6 mg/kg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "every 21 days"
+                },
+                {
+                    "name": "Pertuzumab",
+                    "dose": "840 mg IV loading dose on Day 1 of cycle 1, followed by 420 mg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 overexpression/amplification",
+                    "requirement": "overexpression or amplification",
+                    "mandatory": true
+                },
+                {
+                    "marker": "RAS and BRAF wild-type",
+                    "requirement": "wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Pertuzumab combined with trastuzumab is a dual HER2-targeted therapy for HER2 overexpression/amplification and RAS/BRAF wild-type metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is extrapolated from colorectal cancer data (e.g., MyPathway study)."
+        },
+        {
+            "regimen_name": "Tucatinib + Trastuzumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trastuzumab",
+                    "dose": "8 mg/kg IV loading dose on Day 1 of cycle 1, followed by 6 mg/kg IV every 21 days",
+                    "route": "IV",
+                    "schedule": "every 21 days"
+                },
+                {
+                    "name": "Tucatinib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 overexpression/amplification",
+                    "requirement": "overexpression or amplification",
+                    "mandatory": true
+                },
+                {
+                    "marker": "RAS and BRAF wild-type",
+                    "requirement": "wild-type",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Tucatinib combined with trastuzumab is a HER2-targeted therapy for HER2 overexpression/amplification and RAS/BRAF wild-type metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is extrapolated from colorectal cancer data (e.g., MOUNTAINEER study)."
+        },
+        {
+            "regimen_name": "Encorafenib + Cetuximab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "400 mg/m2 IV followed by 250 mg/m2 IV weekly",
+                    "route": "IV",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Encorafenib combined with cetuximab is a BRAF inhibitor plus EGFR inhibitor therapy for BRAF V600E-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies (e.g., BEACON CRC trial) and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Encorafenib + Panitumumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Encorafenib combined with panitumumab is a BRAF inhibitor plus EGFR inhibitor therapy for BRAF V600E-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "FOLFOX/Encorafenib + Cetuximab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 hours) IV continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFOX combined with encorafenib and cetuximab is a triplet regimen for BRAF V600E-mutated metastatic small bowel adenocarcinoma. It is an option for subsequent line therapy if no previous treatment with oxaliplatin or BRAF-targeting regimen. The regimen includes encorafenib, cetuximab, and FOLFOX. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "FOLFOX/Encorafenib + Panitumumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "300 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 IV bolus on Day 1, followed by 1200 mg/m2/day x 2 Days (total 2400 mg/m2 over 46–48 Hours) IV continuous infusion",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "FOLFOX combined with encorafenib and panitumumab is a triplet regimen for BRAF V600E-mutated metastatic small bowel adenocarcinoma, similar to the cetuximab version. It is an option for subsequent line therapy if no previous treatment with oxaliplatin or BRAF-targeting regimen. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Adagrasib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Adagrasib is a KRAS G12C inhibitor approved for KRAS G12C-mutated solid tumors, including metastatic small bowel adenocarcinoma. It is used as monotherapy or in combination with cetuximab or panitumumab. Evidence is from colorectal cancer studies and extrapolated to SBA. The dose is 600 mg PO twice daily."
+        },
+        {
+            "regimen_name": "Sotorasib",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Sotorasib is a KRAS G12C inhibitor approved for KRAS G12C-mutated solid tumors, including metastatic small bowel adenocarcinoma. It is used as monotherapy or in combination with cetuximab or panitumumab. Evidence is from colorectal cancer studies and extrapolated to SBA. The dose is 960 mg PO once daily."
+        },
+        {
+            "regimen_name": "Adagrasib + Cetuximab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Adagrasib combined with cetuximab is a KRAS G12C inhibitor plus EGFR inhibitor therapy for KRAS G12C-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Adagrasib + Panitumumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Adagrasib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "twice daily"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Adagrasib combined with panitumumab is a KRAS G12C inhibitor plus EGFR inhibitor therapy for KRAS G12C-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Sotorasib + Cetuximab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Cetuximab",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Sotorasib combined with cetuximab is a KRAS G12C inhibitor plus EGFR inhibitor therapy for KRAS G12C-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        },
+        {
+            "regimen_name": "Sotorasib + Panitumumab",
+            "site": "Small Bowel Adenocarcinoma, Metastatic",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sotorasib",
+                    "dose": "960 mg",
+                    "route": "PO",
+                    "schedule": "once daily"
+                },
+                {
+                    "name": "Panitumumab",
+                    "dose": "6 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KRAS G12C mutation",
+                    "requirement": "mutation present",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "2A",
+            "trial_data": null,
+            "notes": "Sotorasib combined with panitumumab is a KRAS G12C inhibitor plus EGFR inhibitor therapy for KRAS G12C-mutated metastatic small bowel adenocarcinoma. It is an option for second-line and subsequent therapy. Evidence is from colorectal cancer studies and extrapolated to SBA."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:18.834313"
+}

@@ -1,0 +1,1626 @@
+{
+    "tier_1_regimens": [],
+    "tier_2_handbook": {
+        "hepatocellular_carcinoma": {
+            "clinical_features": {
+                "typical_presentation": "Hepatocellular carcinoma (HCC) is the most common primary malignancy of the liver, accounting for approximately 85% of cases. It predominantly arises in the setting of chronic liver disease and cirrhosis [1]. The clinical presentation is often insidious, with symptoms frequently appearing late in the disease course. Many patients are initially asymptomatic, with the tumor discovered during surveillance screening for those with known risk factors. When symptoms do occur, they can include vague right upper quadrant abdominal pain, malaise, fatigue, unintentional weight loss, and a palpable abdominal mass. In patients with decompensated cirrhosis, the development of new or worsening ascites, hepatic encephalopathy, or jaundice may herald the presence of HCC [1].",
+                "symptoms": [
+                    {
+                        "name": "Right upper quadrant pain",
+                        "detail": "Dull or aching pain in the right upper quadrant of the abdomen, often due to liver capsule stretching or tumor invasion.",
+                        "frequency": "Common in symptomatic presentations",
+                        "alarm": "Persistent or severe pain may indicate tumor hemorrhage, rupture, or extensive invasion."
+                    },
+                    {
+                        "name": "Weight loss",
+                        "detail": "Unintentional and often significant loss of body weight, a constitutional symptom associated with advanced malignancy.",
+                        "frequency": "Frequent in advanced disease",
+                        "alarm": "Unexplained weight loss >5-10% of body weight over 6-12 months."
+                    },
+                    {
+                        "name": "Abdominal fullness or early satiety",
+                        "detail": "Sensation of abdominal distension or feeling full after eating very little, potentially due to hepatomegaly, ascites, or tumor bulk.",
+                        "frequency": "Common",
+                        "alarm": "New onset in a cirrhotic patient."
+                    },
+                    {
+                        "name": "Fatigue and malaise",
+                        "detail": "Persistent tiredness and general feeling of being unwell, nonspecific but common in chronic liver disease and cancer.",
+                        "frequency": "Very common",
+                        "alarm": "Worsening beyond baseline for a patient with known cirrhosis."
+                    }
+                ],
+                "signs": [
+                    {
+                        "name": "Hepatomegaly",
+                        "detail": "Palpable enlargement of the liver, which may be nodular or tender.",
+                        "frequency": "Frequent on examination"
+                    },
+                    {
+                        "name": "Ascites",
+                        "detail": "Accumulation of fluid in the peritoneal cavity, presenting as abdominal distension and shifting dullness.",
+                        "frequency": "Common in advanced disease or decompensated cirrhosis"
+                    },
+                    {
+                        "name": "Jaundice",
+                        "detail": "Yellowing of the skin and sclera, indicating hepatic dysfunction or biliary obstruction.",
+                        "frequency": "More common in advanced or decompensated disease"
+                    },
+                    {
+                        "name": "Palpable abdominal mass",
+                        "detail": "A firm, irregular mass may be felt in the right upper quadrant or epigastrium.",
+                        "frequency": "Less common, indicates large tumor size"
+                    }
+                ],
+                "atypical_or_missed": [
+                    "Tumor thrombus in the portal or hepatic veins, which can be the initial finding.",
+                    "Acute presentation with spontaneous tumor rupture and hemoperitoneum, a surgical emergency.",
+                    "Extrahepatic metastases (e.g., to lung, bone) as the presenting feature, though uncommon.",
+                    "Incidental finding on imaging performed for other reasons in a non-cirrhotic liver."
+                ]
+            },
+            "red_flags": [
+                "Sudden, severe abdominal pain with signs of hemodynamic instability (may indicate tumor rupture).",
+                "Rapidly worsening liver function (new jaundice, encephalopathy, intractable ascites) in a patient with known cirrhosis.",
+                "New onset of vascular invasion signs (e.g., Budd-Chiari syndrome, portal vein thrombosis).",
+                "Constitutional symptoms (fever, night sweats) with liver lesion, raising concern for infection or aggressive biology."
+            ],
+            "investigations": {
+                "diagnostic": [
+                    {
+                        "test": "Multiphasic contrast-enhanced imaging (CT or MRI)",
+                        "rationale": "This is the cornerstone for non-invasive diagnosis of HCC in patients with cirrhosis. The classic hallmark is arterial phase hyperenhancement with washout in the portal venous or delayed phase [1].",
+                        "key_findings": "Arterial phase hyperenhancement followed by washout in portal venous/delayed phases, with or without an enhancing capsule (for lesions >1 cm). For nodules <1 cm in cirrhosis, short-interval (3-month) surveillance is recommended [1]."
+                    },
+                    {
+                        "test": "Contrast-enhanced Ultrasound (CEUS)",
+                        "rationale": "An alternative to CT/MRI for characterization of liver nodules in cirrhotic patients, showing similar enhancement patterns (arterial enhancement with washout).",
+                        "key_findings": "Same classical enhancement pattern as CT/MRI. May be used for problem-solving or if other contrast agents are contraindicated."
+                    },
+                    {
+                        "test": "Liver biopsy",
+                        "rationale": "Not routinely required if typical imaging features are present in a cirrhotic liver. Indicated for nodules with atypical imaging, for differential diagnosis, or to obtain tissue for molecular profiling in advanced disease [1].",
+                        "key_findings": "Histopathological confirmation of hepatocellular carcinoma. Can assess differentiation grade and microvascular invasion."
+                    }
+                ],
+                "staging": [
+                    {
+                        "test": "Multiphasic CT of abdomen/pelvis",
+                        "rationale": "Primary modality for assessing tumor extent, vascular invasion, extrahepatic spread, and for surgical planning.",
+                        "indication": "All patients with newly diagnosed or suspected HCC for staging and treatment planning."
+                    },
+                    {
+                        "test": "Multiphasic MRI of abdomen",
+                        "rationale": "Superior soft tissue contrast for detecting and characterizing liver lesions, assessing vascular invasion, and for indeterminate lesions on CT.",
+                        "indication": "All patients for staging; may be preferred for lesion characterization and assessment of biliary invasion."
+                    },
+                    {
+                        "test": "CT chest",
+                        "rationale": "To evaluate for pulmonary metastases, a common site of extrahepatic HCC spread.",
+                        "indication": "Part of standard staging workup for all patients."
+                    },
+                    {
+                        "test": "Bone scan or PET/CT",
+                        "rationale": "Not part of routine staging. Indicated for patients with suspected osseous symptoms or elevated alkaline phosphatase to evaluate for bone metastases.",
+                        "indication": "Symptomatic patients or when bone metastasis is clinically suspected."
+                    }
+                ],
+                "biomarkers": [
+                    {
+                        "test": "Alpha-fetoprotein (AFP)",
+                        "rationale": "The most widely used serum biomarker for HCC. Its level correlates with tumor burden and can be used for diagnosis, monitoring treatment response, and surveillance.",
+                        "when": "At diagnosis, periodically during surveillance, and to assess response to therapy.",
+                        "mandatory": "Yes, part of the standard diagnostic and surveillance algorithm for HCC in cirrhosis. Persistently rising AFP in a cirrhotic patient is highly suspicious."
+                    },
+                    {
+                        "test": "AFP-L3% (Lens culinaris agglutinin-reactive AFP)",
+                        "rationale": "A more specific marker for HCC compared to total AFP, as it is less affected by hepatic inflammation.",
+                        "when": "May be used to help differentiate HCC from benign liver lesions in cases of elevated AFP.",
+                        "mandatory": "No, not routinely mandatory but can be helpful in equivocal cases."
+                    },
+                    {
+                        "test": "Des-gamma-carboxy prothrombin (DCP, also known as PIVKA-II)",
+                        "rationale": "An independent serum marker for HCC that may have complementary value to AFP, particularly for AFP-negative tumors.",
+                        "when": "At diagnosis; may be used in conjunction with AFP.",
+                        "mandatory": "No, not part of standard NCCN screening but is referenced in some guidelines as an adjunct."
+                    }
+                ],
+                "do_not_miss": [
+                    "Vascular invasion: Detailed assessment of the portal vein, hepatic veins, and inferior vena cava for tumor thrombus is critical for staging and treatment selection.",
+                    "Extrahepatic disease: Must rule out metastases, particularly to the lungs, bones, and lymph nodes.",
+                    "Underlying liver function: Thorough evaluation of synthetic function (bilirubin, INR, albumin) and portal hypertension is essential to determine treatment eligibility (e.g., resection, transplant, systemic therapy).",
+                    "Performance status assessment."
+                ],
+                "avoid": [
+                    "Routine biopsy for lesions with classic HCC imaging features in a cirrhotic liver, as it is unnecessary and poses a risk of seeding.",
+                    "FDG-PET/CT for primary diagnosis or routine staging, as it has limited sensitivity for well-differentiated HCC.",
+                    "Tumor markers (e.g., AFP) as the sole diagnostic tool without correlative imaging."
+                ]
+            },
+            "staging": {
+                "system": "AJCC Cancer Staging Manual, 8th Edition. The TNM staging is used for resected pathology specimens. For clinical staging and treatment allocation, the Barcelona Clinic Liver Cancer (BCLC) system is often integrated, which incorporates tumor burden, liver function (Child-Pugh), and performance status [1].",
+                "t_stages": [
+                    {
+                        "stage": "T1",
+                        "description": "Solitary tumor without vascular invasion. T1a: ≤2 cm. T1b: >2 cm."
+                    },
+                    {
+                        "stage": "T2",
+                        "description": "Solitary tumor with vascular invasion, or multiple tumors, none >5 cm."
+                    },
+                    {
+                        "stage": "T3",
+                        "description": "Multiple tumors, at least one >5 cm."
+                    },
+                    {
+                        "stage": "T4",
+                        "description": "Tumor(s) with direct invasion of adjacent organs other than the gallbladder or with perforation of visceral peritoneum."
+                    }
+                ],
+                "n_stages": [
+                    {
+                        "stage": "N0",
+                        "description": "No regional lymph node metastasis."
+                    },
+                    {
+                        "stage": "N1",
+                        "description": "Regional lymph node metastasis."
+                    }
+                ],
+                "m_stages": [
+                    {
+                        "stage": "M0",
+                        "description": "No distant metastasis."
+                    },
+                    {
+                        "stage": "M1",
+                        "description": "Distant metastasis (including non-regional lymph nodes)."
+                    }
+                ],
+                "stage_groups": [
+                    {
+                        "group": "Stage I",
+                        "criteria": "T1, N0, M0",
+                        "clinical_meaning": "Early-stage, potentially curable with locoregional therapy (resection, transplant, ablation).",
+                        "five_yr_survival": "For very early/early stage (BCLC 0/A), 5-year survival rates after curative therapy can be >70% in selected patients.",
+                        "treatment_intent": "Curative."
+                    },
+                    {
+                        "group": "Stage II",
+                        "criteria": "T2, N0, M0",
+                        "clinical_meaning": "Intermediate stage, often characterized by vascular invasion or multifocality. May be candidates for liver transplantation in specific criteria (e.g., within Milan criteria).",
+                        "five_yr_survival": "Variable based on liver function and treatment; median survival with transarterial chemoembolization (TACE) is approximately 26 months.",
+                        "treatment_intent": "Curative or palliative."
+                    },
+                    {
+                        "group": "Stage IIIA",
+                        "criteria": "T3, N0, M0",
+                        "clinical_meaning": "Advanced locoregional disease with large or multifocal tumors.",
+                        "five_yr_survival": "Poor with locoregional therapies alone.",
+                        "treatment_intent": "Often palliative; may be downstaged for transplant or resection in selected cases."
+                    },
+                    {
+                        "group": "Stage IIIB",
+                        "criteria": "T4, N0, M0",
+                        "clinical_meaning": "Tumor with direct invasion of adjacent organs or peritoneal involvement.",
+                        "five_yr_survival": "Very poor.",
+                        "treatment_intent": "Palliative."
+                    },
+                    {
+                        "group": "Stage IIIC",
+                        "criteria": "Any T, N1, M0",
+                        "clinical_meaning": "Regional lymph node metastatic disease.",
+                        "five_yr_survival": "Very poor.",
+                        "treatment_intent": "Palliative."
+                    },
+                    {
+                        "group": "Stage IV",
+                        "criteria": "Any T, Any N, M1",
+                        "clinical_meaning": "Metastatic disease.",
+                        "five_yr_survival": "Median survival measured in months with systemic therapy.",
+                        "treatment_intent": "Palliative."
+                    }
+                ],
+                "staging_pearls": [
+                    "The prognosis in HCC is determined not only by tumor stage but also critically by the degree of underlying liver dysfunction (Child-Pugh class) and patient performance status (ECOG PS).",
+                    "For transplant staging, the Milan criteria (single tumor ≤5 cm or up to 3 tumors each ≤3 cm, no vascular invasion) and UCSF criteria are key determinants beyond TNM stage.",
+                    "Vascular invasion, especially macrovascular invasion, is a powerful independent prognostic factor and often classifies patients as having advanced (BCLC C) disease."
+                ]
+            }
+        },
+        "biliary_tract_cancers": {
+            "clinical_features": {
+                "typical_presentation": "Biliary tract cancers encompass a heterogeneous group of malignancies arising from the biliary epithelium, including intrahepatic cholangiocarcinoma (iCCA), perihilar cholangiocarcinoma (pCCA), distal cholangiocarcinoma (dCCA), and gallbladder cancer. The classic presentation varies by anatomic subsite. For perihilar and distal CCA, the hallmark symptom is obstructive jaundice (painless jaundice), often accompanied by pruritus, dark urine, and pale stools [2]. Weight loss and abdominal pain are common nonspecific symptoms. For intrahepatic cholangiocarcinoma, patients often present with a liver mass, vague right upper quadrant pain, and constitutional symptoms, as jaundice occurs only with extensive disease or central bile duct involvement [2]. Gallbladder cancer may be found incidentally after cholecystectomy or present with a palpable mass in the right upper quadrant (Courvoisier's sign).",
+                "symptoms": [
+                    {
+                        "name": "Obstructive jaundice",
+                        "detail": "Yellowing of the skin and sclera due to bile duct obstruction, a cardinal sign of extrahepatic biliary cancers (pCCA, dCCA).",
+                        "frequency": "Very common in pCCA and dCCA",
+                        "alarm": "Painless progressive jaundice is the classic alarm for a periampullary or biliary malignancy."
+                    },
+                    {
+                        "name": "Pruritus",
+                        "detail": "Intense itching due to deposition of bile salts in the skin, associated with cholestasis.",
+                        "frequency": "Common with obstructive jaundice",
+                        "alarm": "Persistent, unexplained pruritus warrants investigation."
+                    },
+                    {
+                        "name": "Weight loss and anorexia",
+                        "detail": "Significant unintentional weight loss and loss of appetite, common in advanced GI malignancies.",
+                        "frequency": "Frequent",
+                        "alarm": "Unexplained weight loss >5% body weight."
+                    },
+                    {
+                        "name": "Abdominal pain",
+                        "detail": "Often vague, located in the right upper quadrant or epigastrium. May be dull and constant.",
+                        "frequency": "Common",
+                        "alarm": "Persistent pain, especially if new."
+                    },
+                    {
+                        "name": "Fever and chills",
+                        "detail": "Can occur due to biliary obstruction leading to cholangitis (infection of the biliary tree).",
+                        "frequency": "Intermittent in patients with partial obstruction or stent-related infections",
+                        "alarm": "Charcot's triad (fever, jaundice, RUQ pain) or Reynolds' pentad (adding hypotension and altered mental status) indicate acute cholangitis, a medical emergency."
+                    }
+                ],
+                "signs": [
+                    {
+                        "name": "Jaundice",
+                        "detail": "Clinical icterus detectable on examination.",
+                        "frequency": "Present in most patients with pCCA/dCCA at diagnosis"
+                    },
+                    {
+                        "name": "Palpable gallbladder (Courvoisier's sign)",
+                        "detail": "A smooth, non-tender, palpable gallbladder in the setting of painless jaundice is highly suggestive of a periampullary or distal biliary malignancy.",
+                        "frequency": "Classic for distal CCA or pancreatic head cancer"
+                    },
+                    {
+                        "name": "Hepatomegaly",
+                        "detail": "Enlarged, possibly nodular liver, more common in intrahepatic CCA.",
+                        "frequency": "Variable"
+                    },
+                    {
+                        "name": "Ascites",
+                        "detail": "May be present in advanced disease, especially with peritoneal spread.",
+                        "frequency": "Occurs in advanced stages"
+                    }
+                ],
+                "atypical_or_missed": [
+                    "Intrahepatic cholangiocarcinoma may mimic metastatic disease or hepatocellular carcinoma on imaging, leading to initial misdiagnosis.",
+                    "Painless jaundice is often attributed to less serious causes initially, delaying workup.",
+                    "Gallbladder cancer is frequently found incidentally on pathology after cholecystectomy performed for presumed benign gallstone disease.",
+                    "Cholangiocarcinoma can present as recurrent pyogenic cholangitis in endemic areas.",
+                    "Tumor thrombus in the portal vein can be the dominant feature."
+                ]
+            },
+            "red_flags": [
+                "Painless, progressive jaundice in an older adult.",
+                "Recurrent cholangitis (fever, jaundice, abdominal pain) without an obvious stone cause.",
+                "New onset of biliary obstruction in a patient with a previously normal biliary system.",
+                "Incidental finding of a thickened gallbladder wall or a suspicious gallbladder lesion on imaging or pathology.",
+                "Rapidly worsening liver function tests with a cholestatic pattern."
+            ],
+            "investigations": {
+                "diagnostic": [
+                    {
+                        "test": "Multiphasic contrast-enhanced CT of the abdomen and pelvis",
+                        "rationale": "Primary imaging modality for evaluating the extent of biliary and vascular anatomy, tumor size, lymph node involvement, and distant metastases. Essential for surgical planning [2].",
+                        "key_findings": "For iCCA: Peripheral enhancing mass with progressive central enhancement. For pCCA/dCCA: Biliary ductal dilation proximal to an abrupt cutoff, mass, or stricture; direct vascular invasion."
+                    },
+                    {
+                        "test": "MRI/MRCP (Magnetic Resonance Cholangiopancreatography)",
+                        "rationale": "Superior to CT for characterizing liver lesions (iCCA), delineating the level and extent of biliary obstruction (pCCA/dCCA), and assessing for small peritoneal implants.",
+                        "key_findings": "T1 hypointense, T2 hyperintense lesion with delayed enhancement (iCCA). Precise mapping of biliary anatomy, tumor length, and vascular involvement (pCCA)."
+                    },
+                    {
+                        "test": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+                        "rationale": "Primarily therapeutic (stent placement, brushings) but also diagnostic. Allows direct cholangiography and tissue sampling.",
+                        "key_findings": "Stricture or filling defect on cholangiogram. Cytology or biopsy from brushings."
+                    },
+                    {
+                        "test": "Endoscopic Ultrasound (EUS) with fine-needle aspiration (FNA) or biopsy (FNB)",
+                        "rationale": "Highly sensitive for detecting and sampling distal bile duct, pancreatic head, and perigastric lymph node lesions.",
+                        "key_findings": "Visualization of the bile duct wall, mass, and adjacent structures. Acquisition of tissue for cytopathological diagnosis."
+                    },
+                    {
+                        "test": "Percutaneous transhepatic cholangiography (PTC)",
+                        "rationale": "Alternative to ERCP for biliary decompression and tissue sampling when ERCP is unsuccessful or anatomy is unfavorable (e.g., high biliary obstruction in pCCA).",
+                        "key_findings": "Direct visualization of the biliary tree proximal to obstruction."
+                    },
+                    {
+                        "test": "Diagnostic laparoscopy",
+                        "rationale": "To assess for peritoneal metastases or small surface liver metastases not seen on preoperative imaging, preventing non-therapeutic laparotomy.",
+                        "key_findings": "Peritoneal carcinomatosis, liver surface implants."
+                    }
+                ],
+                "staging": [
+                    {
+                        "test": "CT chest",
+                        "rationale": "To evaluate for pulmonary metastases.",
+                        "indication": "Standard staging workup for all biliary tract cancers."
+                    },
+                    {
+                        "test": "PET/CT",
+                        "rationale": "May detect occult metastatic disease not seen on CT/MRI, altering management in up to 20% of patients. Controversial in routine staging but considered in selected cases for pCCA and iCCA.",
+                        "indication": "Consider for resectable disease to rule out distant metastases or for equivocal lesions on CT/MRI."
+                    }
+                ],
+                "biomarkers": [
+                    {
+                        "test": "CA 19-9",
+                        "rationale": "The most widely used serum tumor marker for biliary tract cancers, especially pCCA and dCCA. It can be elevated in cholestasis from any cause, so it is not diagnostic. Useful for monitoring response to therapy and detecting recurrence.",
+                        "when": "At diagnosis and for surveillance after curative-intent therapy. Levels >100 U/mL may correlate with unresectable or metastatic disease.",
+                        "mandatory": "Yes, strongly recommended as part of baseline workup and follow-up."
+                    },
+                    {
+                        "test": "CEA (Carcinoembryonic Antigen)",
+                        "rationale": "Less specific and sensitive than CA 19-9 for biliary cancers but may be elevated.",
+                        "when": "Can be checked alongside CA 19-9 at baseline.",
+                        "mandatory": "No, not mandatory but may be used adjunctively."
+                    },
+                    {
+                        "test": "Molecular profiling (e.g., NGS, FISH for FGFR2 fusions, IDH1/2 mutations)",
+                        "rationale": "Increasingly important for identifying actionable mutations in advanced, refractory biliary cancers, guiding targeted therapy.",
+                        "when": "At diagnosis of advanced or metastatic disease, or upon progression on first-line chemotherapy.",
+                        "mandatory": "Recommended for all patients with advanced biliary tract cancer to identify potential eligibility for targeted therapies or clinical trials."
+                    }
+                ],
+                "do_not_miss": [
+                    "Complete biliary and vascular mapping for surgical planning (especially for pCCA, which requires complex hepatectomy and vascular reconstruction).",
+                    "Tissue diagnosis confirmation before initiating nonsurgical treatment.",
+                    "Evaluation for peritoneal metastases (diagnostic laparoscopy may be needed).",
+                    "Assessment of future liver remnant volume if major hepatectomy is planned.",
+                    "Identification of potentially actionable molecular alterations (FGFR2, IDH1, MSI-H, NTRK, BRAF)."
+                ],
+                "avoid": [
+                    "Routine biopsy for a classic-appearing mass in the setting of primary sclerosing cholangitis (PSC), where the risk of seeding is a concern, and the diagnosis is often made based on clinical, biochemical, and cholangiographic findings.",
+                    "Basing treatment decisions solely on elevated CA 19-9 without histological or unequivocal radiological diagnosis.",
+                    "Proceeding to major surgery without thorough staging, including consideration of diagnostic laparoscopy."
+                ]
+            },
+            "staging": {
+                "system": "AJCC Cancer Staging Manual, 8th Edition. Staging systems differ for intrahepatic cholangiocarcinoma (iCCA) versus perihilar (pCCA) and distal cholangiocarcinoma (dCCA) due to their distinct anatomy and surgical approaches [2].",
+                "t_stages": [
+                    {
+                        "stage": "Intrahepatic Cholangiocarcinoma (iCCA) - T stages",
+                        "description": "T1: Solitary tumor ≤5 cm without vascular invasion. T2: Solitary tumor >5 cm without vascular invasion, OR multiple tumors without vascular invasion. T3: Tumor with minor (e.g., first-order) branch portal vein or hepatic artery invasion. T4: Tumor with major (e.g., main portal vein or hepatic artery) branch invasion OR direct invasion of adjacent organs (other than gallbladder) or perforation of visceral peritoneum."
+                    },
+                    {
+                        "stage": "Perihilar Cholangiocarcinoma (pCCA) - T stages",
+                        "description": "T1: Tumor confined to the bile duct, with extension up to the muscle layer or fibrous tissue. T2a: Tumor invades beyond the wall of the bile duct to surrounding adipose tissue. T2b: Tumor invades adjacent hepatic parenchyma. T3: Tumor invades unilateral branches of the portal vein or hepatic artery. T4: Tumor invades main portal vein or its bilateral branches, or the main hepatic artery or its bilateral branches, or second-order biliary radicals."
+                    },
+                    {
+                        "stage": "Distal Cholangiocarcinoma (dCCA) - T stages",
+                        "description": "Tis: Carcinoma in situ. T1: Tumor invades the bile duct wall (lamina propria or muscular layer). T2a: Tumor invades beyond the bile duct wall to periductal fat. T2b: Tumor invades adjacent parenchyma of the pancreas, duodenum, or other adjacent organs. T3: Tumor invades the main pancreatic artery, gastroduodenal artery, or hepatic artery proper, or the celiac axis or superior mesenteric artery. T4: Tumor involving the celiac axis or superior mesenteric artery."
+                    }
+                ],
+                "n_stages": [
+                    {
+                        "stage": "N0",
+                        "description": "No regional lymph node metastasis."
+                    },
+                    {
+                        "stage": "N1 (for iCCA)",
+                        "description": "Metastasis to regional lymph nodes."
+                    },
+                    {
+                        "stage": "N1 (for pCCA)",
+                        "description": "Metastasis to periductal lymph nodes."
+                    },
+                    {
+                        "stage": "N1 (for dCCA)",
+                        "description": "Metastasis to regional lymph nodes (e.g., along the bile duct, hepatic artery, portal vein, posterior pancreaticoduodenal, and celiac lymph nodes)."
+                    },
+                    {
+                        "stage": "N2",
+                        "description": "For pCCA and dCCA: Metastasis to more distant regional lymph nodes (e.g., para-aortic, caval, superior mesenteric artery, or para-duodenal lymph nodes for pCCA; celiac, superior mesenteric, and para-aortic lymph nodes for dCCA). For iCCA, N2 is not defined in AJCC 8th; N1 includes all regional nodes."
+                    }
+                ],
+                "m_stages": [
+                    {
+                        "stage": "M0",
+                        "description": "No distant metastasis."
+                    },
+                    {
+                        "stage": "M1",
+                        "description": "Distant metastasis (including non-regional lymph nodes, peritoneal, or distant organ metastases)."
+                    }
+                ],
+                "stage_groups": [
+                    {
+                        "group": "Stage I (for iCCA)",
+                        "criteria": "T1, N0, M0",
+                        "clinical_meaning": "Small, solitary tumor without vascular invasion.",
+                        "five_yr_survival": "After resection, 5-year survival rates range from 30-65% depending on series.",
+                        "treatment_intent": "Curative with surgical resection."
+                    },
+                    {
+                        "group": "Stage II (for iCCA)",
+                        "criteria": "T2, N0, M0",
+                        "clinical_meaning": "Larger or multifocal tumor without vascular invasion.",
+                        "five_yr_survival": "Post-resection survival is lower than stage I, around 20-40%.",
+                        "treatment_intent": "Curative with surgical resection if feasible."
+                    },
+                    {
+                        "group": "Stage IIIA (for iCCA)",
+                        "criteria": "T3, N0, M0",
+                        "clinical_meaning": "Tumor with minor vascular invasion.",
+                        "five_yr_survival": "Poor, even with resection, often <20%.",
+                        "treatment_intent": "May be resectable with vascular reconstruction; otherwise palliative."
+                    },
+                    {
+                        "group": "Stage IIIB (for iCCA)",
+                        "criteria": "T4, N0, M0 or Any T, N1, M0",
+                        "clinical_meaning": "Tumor with major vascular invasion or direct invasion of adjacent organs/ peritoneum, OR with regional lymph node metastasis.",
+                        "five_yr_survival": "Very poor.",
+                        "treatment_intent": "Typically unresectable; palliative intent with chemotherapy."
+                    },
+                    {
+                        "group": "Stage IV (for iCCA)",
+                        "criteria": "Any T, Any N, M1",
+                        "clinical_meaning": "Metastatic disease.",
+                        "five_yr_survival": "Median survival <12 months with systemic therapy.",
+                        "treatment_intent": "Palliative."
+                    },
+                    {
+                        "group": "Stage Groups for pCCA and dCCA",
+                        "criteria": "Use the same T/N/M definitions as above, but stage groupings differ anatomically. For example, in pCCA, stage IIIA is T1-T3, N1, M0 and stage IIIB is T4, Any N, M0.",
+                        "clinical_meaning": "The primary determinant of resectability in pCCA is the extent of vascular and biliary involvement (T stage), which directly maps to the Bismuth-Corlette classification for tumor location.",
+                        "five_yr_survival": "Overall 5-year survival for resected pCCA is approximately 20-40%. For dCCA, it is slightly better at 30-50% after pancreaticoduodenectomy.",
+                        "treatment_intent": "Curative for resectable stages; palliative for advanced disease."
+                    }
+                ],
+                "staging_pearls": [
+                    "Resectability, not just AJCC stage, is the critical factor in management. For pCCA, the Blumgart T-staging system (based on vascular involvement and liver atrophy) is often used to predict resectability.",
+                    "For dCCA, the relationship to the pancreatic parenchyma and major vessels (like the SMA and celiac axis) determines resectability.",
+                    "The presence of peritoneal carcinomatosis, detected by diagnostic laparoscopy, upstages the disease to M1 and renders it unresectable.",
+                    "CA 19-9 levels, while not part of the TNM staging, correlate with tumor burden and prognosis. A very high CA 19-9 in the absence of biliary obstruction suggests advanced, often metastatic, disease."
+                ]
+            }
+        },
+        "hepatocellular_carcinoma_subtypes": [
+            {
+                "name": "Nodular HCC",
+                "description": "The most common macroscopic presentation, typically arising in a cirrhotic liver. It can be solitary, multinodular, or diffusely infiltrative.",
+                "frequency": "Most common pattern.",
+                "key_associations": "Strong association with cirrhosis from chronic hepatitis B or C, alcoholic liver disease, and non-alcoholic steatohepatitis (NASH)."
+            },
+            {
+                "name": "Fibrolamellar Hepatocellular Carcinoma",
+                "description": "A distinct histologic variant with a unique bimodal age distribution and generally better prognosis than conventional HCC. It is characterized by large malignant hepatocytes with a central fibrous scar surrounded by parallel lamellar bands of collagen.",
+                "frequency": "Rare, accounts for less than 1% of HCC cases.",
+                "key_associations": "Typically occurs in young, non-cirrhotic patients (median age 20-30 years). No strong association with viral hepatitis or cirrhosis. Genetic alteration involving the DNAJB1-PRKACA gene fusion is characteristic. [3]"
+            }
+        ],
+        "biliary_tract_cancer_subtypes": [
+            {
+                "name": "Intrahepatic Cholangiocarcinoma (iCCA)",
+                "description": "Adenocarcinoma arising from the intrahepatic bile ducts, proximal to the second-order bile ducts. It is the second most common primary hepatic malignancy after HCC.",
+                "frequency": "Accounts for 10-15% of primary liver cancers.",
+                "key_associations": "Associated with hepatobiliary fluke infections (in endemic areas), primary sclerosing cholangitis (PSC), hepatolithiasis, and chronic liver diseases. May have a viral hepatitis association distinct from HCC. [4]"
+            },
+            {
+                "name": "Perihilar Cholangiocarcinoma (pCCA) / Klatskin Tumor",
+                "description": "Adenocarcinoma occurring at the confluence of the right and left hepatic ducts, or involving the common hepatic duct. This is the most common type of cholangiocarcinoma.",
+                "frequency": "Approximately 50-60% of all cholangiocarcinomas.",
+                "key_associations": "Strongly associated with primary sclerosing cholangitis (PSC). The presence of PSC and inflammatory bowel disease is a significant risk factor. Presentation often includes obstructive jaundice. [5]"
+            },
+            {
+                "name": "Distal Cholangiocarcinoma (dCCA)",
+                "description": "Adenocarcinoma arising from the bile duct below the insertion of the cystic duct, near the ampulla of Vater. It is anatomically the most distal form of extrahepatic cholangiocarcinoma.",
+                "frequency": "Accounts for 20-30% of cholangiocarcinomas.",
+                "key_associations": "Anatomically adjacent to the pancreatic head. Can be difficult to distinguish from pancreatic ductal adenocarcinoma and ampullary carcinoma. May present with jaundice and weight loss. [6]"
+            },
+            {
+                "name": "Gallbladder Cancer",
+                "description": "Malignancy arising from the gallbladder epithelium. It is the most common biliary tract cancer worldwide, though its prognosis is often poor due to late-stage diagnosis.",
+                "frequency": "Most common biliary cancer globally.",
+                "key_associations": "Strong risk factors include gallstones (cholelithiasis), especially large stones (>3 cm), porcelain gallbladder, and chronic gallbladder inflammation. Incidence is higher in certain populations (e.g., females, Native Americans). [7]"
+            },
+            {
+                "name": "Ampulla of Vater Cancer",
+                "description": "Adenocarcinoma arising from the ampulla of Vater, the region where the common bile duct and pancreatic duct enter the duodenum. These are often grouped with pancreatic and distal bile duct cancers in management.",
+                "frequency": "Relatively rare compared to other BTCs.",
+                "key_associations": "May present earlier than other hepatobiliary cancers due to biliary or pancreatic duct obstruction leading to jaundice. Risk factors include familial adenomatous polyposis (FAP) and sporadic duodenal adenomas. [8]"
+            }
+        ],
+        "molecular_pathogenesis": {
+            "hepatocellular_carcinoma": "The molecular pathogenesis of HCC is complex and typically involves multistep carcinogenesis within the context of chronic liver disease. Key genomic events include mutations or alterations in the TERT promoter (found in ~60% of HCC), which confers a survival advantage to hepatocytes. The Wnt/β-catenin signaling pathway is frequently dysregulated, with activating mutations in CTNNB1 (β-catenin) occurring in ~30% of tumors. Other commonly mutated genes include TP53 (associated with aflatoxin B1 exposure and HBV infection), AXIN1, ARID1A, and NFE2L2. Chromosomal instability, including losses at 1p, 4q, 8p, 13q, and 16q, and gains at 1q and 8q, is common. Activation of the PI3K/AKT/mTOR and RAS/RAF/MEK/ERK pathways are critical drivers of proliferation and survival. The integration of viral DNA (HBV) into the host genome and the chronic inflammatory milieu (via cytokines like IL-6) create a pro-carcinogenic environment. [9]",
+            "biliary_tract_cancers": "Biliary tract cancers exhibit significant molecular heterogeneity based on anatomic subsite. For intrahepatic cholangiocarcinoma (iCCA), key driver mutations include IDH1 or IDH2 (in 10-20% of cases), leading to the production of the oncometabolite 2-hydroxyglutarate. FGFR2 gene fusions (e.g., FGFR2-BICC1) are found in approximately 10-15% of iCCA tumors and represent a actionable target. BRAF V600E mutations are present in ~5% of cases. For perihilar and distal cholangiocarcinomas, the molecular profile differs; they more closely resemble pancreatic adenocarcinoma, with a high frequency of KRAS mutations (20-30%), TP53 mutations, and SMAD4 alterations. Overexpression of the HER2 (ERBB2) oncogene is noted in a subset (10-20%) of gallbladder cancers. Chromatin remodeling gene mutations, such as ARID1A, ARID2, and PBRM1, are frequently identified across biliary cancer subtypes. Chronic inflammation is a unifying pathogenic driver, leading to DNA damage and activation of pro-tumorigenic pathways. [10,11]"
+        },
+        "epidemiology": {
+            "hepatocellular_carcinoma": {
+                "incidence": "HCC is the sixth most common cancer worldwide and the third leading cause of cancer-related death. Incidence rates are highest in East and Southeast Asia and sub-Saharan Africa, regions with high endemic hepatitis B virus (HBV) infection. In the United States, the incidence has been rising, with an age-adjusted rate of approximately 9.6 per 100,000 (SEER 2015-2019). There is a striking male predominance, with a male-to-female ratio of 2-3:1. Racial disparities are evident, with higher incidence and mortality rates among Asian/Pacific Islander and Hispanic populations compared to non-Hispanic White populations in the U.S. The median age at diagnosis in the U.S. is 65 years. [12,13]",
+                "mortality": "HCC has a high mortality rate, with a 5-year relative survival rate of approximately 21% for all stages (SEER 2015-2019). Survival is strongly stage-dependent; localized disease has a 5-year survival of ~35%, while distant disease has a 5-year survival of only ~3%.",
+                "trends": "The incidence and mortality of HCC have been increasing over the past several decades, largely attributed to the long-term sequelae of chronic hepatitis C virus (HCV) infection and, more recently, the rise of non-alcoholic steatohepatitis (NASH)-related liver disease. The incidence in the U.S. increased by 4.5% annually from 2010 to 2019. [13]",
+                "demographics": "Peak incidence occurs between ages 65-74. The male predominance is consistent across all racial and ethnic groups. Geographic variation is pronounced, with China alone accounting for ~50% of global cases."
+            },
+            "biliary_tract_cancers": {
+                "incidence": "Collectively, biliary tract cancers are relatively uncommon but are increasing in incidence globally. Gallbladder cancer is the most common BTC worldwide. In the United States, the annual age-adjusted incidence rates are approximately: gallbladder cancer (1.7 per 100,000), intrahepatic cholangiocarcinoma (1.4 per 100,000), and extrahepatic cholangiocarcinoma (1.1 per 100,000). Incidence varies significantly by geography and ethnicity. Gallbladder cancer shows striking ethnic disparities, with the highest rates in certain Native American populations (e.g., Pima, Tohono O'odham) and in Chile and northern India. Intrahepatic cholangiocarcinoma incidence is higher in parts of Southeast Asia (e.g., Thailand) due to liver fluke (Opisthorchis viverrini) infections. [14,15]",
+                "mortality": "Prognosis is generally poor across all subtypes due to late-stage presentation. The 5-year relative survival rate for all BTCs combined in the United States is approximately 5% (SEER 2012-2018). Gallbladder cancer has a 5-year survival of about 19% for localized disease but <5% for regional or distant disease. [16]",
+                "trends": "The incidence of intrahepatic cholangiocarcinoma has been increasing in many countries worldwide, while the incidence of extrahepatic and gallbladder cancers has been more stable or declining. [15]",
+                "demographics": "Gallbladder cancer shows a strong female predominance (F:M ratio ~2-6:1), especially in high-risk regions. Intrahepatic cholangiocarcinoma also shows a slight female predominance. The median age at diagnosis for all BTCs is generally between 65-75 years."
+            }
+        },
+        "risk_factors": [
+            {
+                "factor": "Hepatitis B Virus (HBV) Chronic Infection",
+                "type": "Infectious / Viral",
+                "detail": "Leading cause of HCC globally, especially in Asia and Africa. Causes cirrhosis and also promotes oncogenesis via direct insertional mutagenesis and viral oncoproteins (HBx). The risk is present even in the absence of cirrhosis.",
+                "strength": "Strong / Established. Associated with 5-100 fold increased risk."
+            },
+            {
+                "factor": "Hepatitis C Virus (HCV) Chronic Infection",
+                "type": "Infectious / Viral",
+                "detail": "The leading cause of HCC in the United States and Europe. Risk is mediated primarily through progressive hepatic fibrosis and cirrhosis. Direct-acting antivirals (DAAs) that cure HCV reduce but do not eliminate HCC risk.",
+                "strength": "Strong / Established. Associated with 15-20 fold increased risk in cirrhotics."
+            },
+            {
+                "factor": "Alcoholic Liver Disease / Cirrhosis",
+                "type": "Toxic / Metabolic",
+                "detail": "Chronic excessive alcohol consumption is a major cause of cirrhosis, which is the strongest single risk factor for HCC. The combination of alcohol with viral hepatitis synergistically increases risk.",
+                "strength": "Strong / Established. Cirrhosis from any etiology confers a 1-2% annual risk of developing HCC."
+            },
+            {
+                "factor": "Non-alcoholic Fatty Liver Disease (NAFLD) / Non-alcoholic Steatohepatitis (NASH)",
+                "type": "Metabolic",
+                "detail": "The fastest-growing cause of HCC in Western nations, often arising in the setting of metabolic syndrome (obesity, type 2 diabetes, dyslipidemia). Can develop HCC in the absence of advanced fibrosis or cirrhosis.",
+                "strength": "Strong / Established. Risk is increasing in parallel with the obesity epidemic."
+            },
+            {
+                "factor": "Aflatoxin B1 Exposure",
+                "type": "Environmental / Dietary",
+                "detail": "A potent hepatocarcinogen produced by Aspergillus fungi, contaminating staple grains (corn, peanuts) in tropical climates. Causes a specific A:T→G:C mutation in the TP53 gene (codon 249). Risk is synergistic with HBV infection.",
+                "strength": "Strong / Established. High exposure areas (sub-Saharan Africa, China) have high HCC incidence."
+            },
+            {
+                "factor": "Cirrhosis (from Any Cause)",
+                "type": "Pathophysiological State",
+                "detail": "The single most important risk factor for HCC. Approximately 80-90% of HCC cases arise in a cirrhotic liver. The annual HCC risk in cirrhotic patients ranges from 1-8%, varying by etiology and severity.",
+                "strength": "Strong / Established. HCC surveillance is recommended for this population."
+            },
+            {
+                "factor": "Primary Sclerosing Cholangitis (PSC)",
+                "type": "Autoimmune / Inflammatory",
+                "detail": "A chronic cholestatic liver disease strongly associated with inflammatory bowel disease (ulcerative colitis). It is the major risk factor for perihilar cholangiocarcinoma (pCCA). Patients with PSC have a lifetime risk of developing pCCA of 10-15%.",
+                "strength": "Strong / Established for pCCA."
+            },
+            {
+                "factor": "Gallstones (Cholelithiasis)",
+                "type": "Inflammatory / Mechanical",
+                "detail": "The primary risk factor for gallbladder cancer, particularly large stones (>3 cm), which cause chronic inflammation and irritation of the gallbladder mucosa.",
+                "strength": "Strong / Established. Gallbladder cancer risk is highest in populations with high prevalence of gallstones."
+            },
+            {
+                "factor": "Liver Fluke Infections (Opisthorchis viverrini, Clonorchis sinensis)",
+                "type": "Infectious / Parasitic",
+                "detail": "Chronic infection, common in Southeast Asia, causes chronic biliary inflammation and is a major risk factor for intrahepatic and perihilar cholangiocarcinoma.",
+                "strength": "Strong / Established. Designated as a Group 1 carcinogen by IARC."
+            },
+            {
+                "factor": "Intrahepatic Stones (Hepatolithiasis)",
+                "type": "Inflammatory",
+                "detail": "Stones within the intrahepatic bile ducts cause chronic biliary obstruction and recurrent cholangitis, significantly increasing the risk of intrahepatic cholangiocarcinoma.",
+                "strength": "Strong / Established."
+            },
+            {
+                "factor": "Familial Adenomatous Polyposis (FAP)",
+                "type": "Hereditary / Genetic",
+                "detail": "A syndrome caused by germline mutations in the APC gene. Patients have a markedly increased lifetime risk of ampullary carcinoma, among other gastrointestinal malignancies.",
+                "strength": "Strong / Established for ampulla of Vater cancer."
+            },
+            {
+                "factor": "Hereditary Hemochromatosis",
+                "type": "Hereditary / Metabolic",
+                "detail": "Iron overload disorder that can lead to cirrhosis and subsequently HCC. The risk is particularly elevated in patients who develop cirrhosis.",
+                "strength": "Moderate / Established. The risk is mediated via cirrhosis."
+            },
+            {
+                "factor": "Diabetes Mellitus Type 2",
+                "type": "Metabolic",
+                "detail": "An independent risk factor for HCC, especially in the absence of cirrhosis, though the risk is amplified by co-existing NAFLD/NASH. Also associated with increased risk of BTC.",
+                "strength": "Moderate / Established. Associated with 2-3 fold increased risk of HCC."
+            }
+        ],
+        "protective_factors": [
+            "Antiviral therapy for chronic hepatitis B and C (reduces but does not eliminate HCC risk after viral eradication)",
+            "Antifibrotic treatment for NASH (under investigation, but lifestyle modification and weight loss are established)",
+            "Coffee consumption (associated with reduced risk of HCC in observational studies)",
+            "Statins (associated with reduced risk of HCC in observational studies)",
+            "Aspirin use (emerging evidence suggests reduced risk of HCC and BTC with long-term use)"
+        ],
+        "management_principles": {
+            "overview": "The NCCN Guidelines for Hepatobiliary Cancers have been separated into the NCCN Guidelines for Hepatocellular Carcinoma and the NCCN Guidelines for Biliary Tract Cancers [1]. This separation acknowledges the distinct biological behaviors, staging systems, and treatment paradigms for these two major categories of hepatobiliary malignancies. The overarching management philosophy for both hepatocellular carcinoma (HCC) and biliary tract cancers (BTC) is multidisciplinary, with treatment decisions tailored to the specific disease site, stage, underlying liver function (e.g., cirrhosis, Child-Pugh score), and patient performance status. A core principle is to balance oncologic efficacy with the preservation of liver function, which is often compromised by the underlying liver disease. For localized disease, the intent is curative, often involving locoregional therapies. For advanced or metastatic disease, the intent shifts to palliation, aiming to extend survival and improve quality of life.",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Patients with early-stage, resectable or locally advanced HCC or BTC who are fit for surgery or curative locoregional therapy.",
+                    "approach": "Aggressive multimodal therapy, typically centered on surgical resection. For HCC, this may include ablation, transarterial chemoembolization (TACE), or transplant within strict criteria. For BTC, it includes adjuvant therapy following resection."
+                },
+                {
+                    "intent": "Palliative",
+                    "patient_group": "Patients with advanced, metastatic, or unresectable HCC or BTC, or those with significant comorbidities limiting aggressive treatment.",
+                    "approach": "Systemic therapy, with options guided by biomarkers (e.g., FGFR2 fusions for BTC, PD-L1 status for some immunotherapies), and supportive care. Locoregional therapies like TACE or radiation may be used for symptom control or to treat oligometastatic disease."
+                }
+            ],
+            "mdt_requirements": "A multidisciplinary team (MDT) is essential for optimal management. The team must include, at minimum, a hepatobiliary surgeon, a medical oncologist, and a radiation oncologist. Additional specialists should be involved as needed, including an interventional radiologist (for locoregional therapies), a hepatologist/gastroenterologist (for liver function assessment and management of cirrhosis), a diagnostic radiologist (for advanced imaging interpretation), and a pathologist. The MDT is responsible for determining resectability, selecting the appropriate locoregional or systemic therapies, managing treatment toxicities, and overseeing surveillance plans.",
+            "performance_status_guide": "Patient performance status (PS), typically assessed using the ECOG or Karnofsky scale, is a critical determinant of treatment eligibility. For curative therapies like major hepatectomy or intensive chemotherapy regimens, an ECOG PS of 0-1 is generally required. Patients with ECOG PS ≥2 are often not candidates for aggressive surgery or combination systemic therapies and are directed toward best supportive care or less intensive single-agent systemic options. The severity of underlying liver disease (Child-Pugh class) is equally important, particularly for HCC, where treatments like sorafenib or certain chemotherapies may be contraindicated in decompensated cirrhosis (Child-Pugh C)."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "hcc_very_early_early",
+                "title": "Very Early and Early Stage Hepatocellular Carcinoma (HCC)",
+                "branching_basis": [
+                    "Tumor size and number (Milan criteria)",
+                    "Liver function (Child-Pugh class)",
+                    "Patient's performance status and comorbidities",
+                    "Availability of liver transplant"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Solitary HCC ≤2 cm (very early) OR within Milan criteria (single tumor ≤5 cm or ≤3 tumors each ≤3 cm, no macrovascular invasion, no extrahepatic spread) AND Child-Pugh A or B class AND ECOG PS 0-1.",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Curative resection",
+                                "preference": "preferred if resectable and adequate liver reserve",
+                                "recommendation": "Resection is the first-line curative option for patients with sufficient functional liver reserve (typically Child-Pugh A, without portal hypertension) [2].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "ablation",
+                                "label": "Radiofrequency ablation (RFA) or Microwave ablation (MWA)",
+                                "preference": "preferred for very early HCC or as alternative to resection in patients with high surgical risk",
+                                "recommendation": "Ablation is an effective curative therapy, particularly for tumors ≤3 cm, and is the standard of care for patients not candidates for resection [3].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "transplant",
+                                "label": "Liver transplantation",
+                                "preference": "excellent option for eligible patients meeting Milan criteria and with decompensated cirrhosis",
+                                "recommendation": "Transplantation is a curative option that treats both the tumor and the underlying cirrhosis. It is indicated for patients with HCC within Milan criteria who are not optimal surgical candidates due to portal hypertension or poor liver function [4].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No standard adjuvant therapy is recommended after curative resection or ablation for very early/early HCC outside of a clinical trial."
+                        }
+                    },
+                    {
+                        "criteria": "HCC within Milan criteria but unresectable due to tumor location, insufficient liver reserve, or patient comorbidities; or awaiting transplant.",
+                        "options": [
+                            {
+                                "type": "locoregional",
+                                "label": "Transarterial chemoembolization (TACE)",
+                                "preference": "standard locoregional therapy for intermediate stage (BCLC B), but can be used as bridge to transplant or for downstaging",
+                                "recommendation": "TACE is the mainstay for unresectable HCC without vascular invasion or extrahepatic spread. It can downstage tumors to within transplant criteria [5].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "ablation",
+                                "label": "Radiofrequency ablation (RFA) or Microwave ablation (MWA)",
+                                "preference": "alternative for unresectable small HCC",
+                                "recommendation": "Ablation remains a curative-intent option for unresectable very early/early HCC.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy is standard."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "hcc_intermediate",
+                "title": "Intermediate Stage Hepatocellular Carcinoma (HCC)",
+                "branching_basis": [
+                    "Multinodular, asymptomatic tumors",
+                    "Vascular invasion status",
+                    "Liver function (Child-Pugh class)",
+                    "Response to TACE",
+                    "Systemic therapy options"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Multinodular HCC without macrovascular invasion or extrahepatic spread, Child-Pugh A or B class, ECOG PS 0.",
+                        "options": [
+                            {
+                                "type": "locoregional",
+                                "label": "Transarterial chemoembolization (TACE)",
+                                "preference": "standard of care for this stage",
+                                "recommendation": "TACE is the recommended first-line treatment for intermediate-stage HCC (BCLC B) [5].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "Systemic therapy for TACE-refractory disease",
+                                "preference": "for patients who progress on or are ineligible for TACE",
+                                "recommendation": "For patients with TACE-refractory disease or those who develop vascular invasion/extrahepatic spread, systemic therapy with atezolizumab plus bevacizumab or other regimens is indicated.",
+                                "linked_regimen_ids": [
+                                    "atezolizumab_bevacizumab_hcc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Adjuvant therapy after TACE is not standard."
+                        }
+                    },
+                    {
+                        "criteria": "HCC with macrovascular invasion (e.g., portal vein tumor thrombus) but no extrahepatic metastases.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Systemic therapy",
+                                "preference": "preferred due to high risk of microvascular spread",
+                                "recommendation": "Systemic therapy is recommended for HCC with macrovascular invasion. The preferred first-line regimen is atezolizumab plus bevacizumab [6].",
+                                "linked_regimen_ids": [
+                                    "atezolizumab_bevacizumab_hcc"
+                                ]
+                            },
+                            {
+                                "type": "locoregional",
+                                "label": "Transarterial radioembolization (TARE) or selected TACE",
+                                "preference": "may be considered in selected cases",
+                                "recommendation": "Selective locoregional therapies may be considered for selected patients with segmental portal vein involvement, but data are limited.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No standard adjuvant therapy."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "hcc_advanced_metastatic",
+                "title": "Advanced/Metastatic Hepatocellular Carcinoma (HCC)",
+                "branching_basis": [
+                    "Prior systemic therapy",
+                    "Biomarkers (PD-L1, not currently a predictive biomarker for HCC)",
+                    "Child-Pugh class",
+                    "Performance status",
+                    "Specific contraindications to certain agents"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Unresectable, locally advanced, or metastatic HCC; Child-Pugh A or B class; ECOG PS 0-1; no prior systemic therapy.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "First-line systemic therapy",
+                                "preference": "atezolizumab plus bevacizumab is preferred",
+                                "recommendation": "The combination of atezolizumab and bevacizumab is the preferred first-line systemic therapy, based on the IMbrave150 trial which demonstrated improved overall survival and progression-free survival compared with sorafenib [6].",
+                                "linked_regimen_ids": [
+                                    "atezolizumab_bevacizumab_hcc"
+                                ]
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "Alternative first-line options",
+                                "preference": "if atezolizumab/bevacizumab is contraindicated or not tolerated",
+                                "recommendation": "Alternatives include sorafenib or lenvatinib [7, 8]. The choice may be influenced by specific contraindications, e.g., risk of bleeding with bevacizumab in patients with varices.",
+                                "linked_regimen_ids": [
+                                    "sorafenib_hcc",
+                                    "lenvatinib_hcc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "This is a palliative setting; adjuvant therapy does not apply."
+                        }
+                    },
+                    {
+                        "criteria": "Progression on or intolerance to first-line systemic therapy.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Second-line systemic therapy",
+                                "preference": "based on prior therapy and biomarkers",
+                                "recommendation": "Options include regorafenib, cabozantinib, ramucirumab (if AFP ≥400 ng/mL), and pembrolizumab or nivolumab [9, 10, 11, 12].",
+                                "linked_regimen_ids": [
+                                    "regorafenib_hcc",
+                                    "cabozantinib_hcc",
+                                    "ramucirumab_hcc",
+                                    "pembrolizumab_hcc",
+                                    "nivolumab_hcc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ibc_resectable",
+                "title": "Resectable Intrahepatic Cholangiocarcinoma (ICC)",
+                "branching_basis": [
+                    "Tumor number and location",
+                    "Liver function",
+                    "Performance status",
+                    "Margin status (R0 vs R1/R2)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized ICC, resectable with negative margins (R0 resection anticipated), adequate liver reserve, ECOG PS 0-1.",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Anatomic hepatic resection",
+                                "preference": "standard of care for resectable ICC",
+                                "recommendation": "Complete surgical resection with negative margins (R0) is the only potentially curative treatment for ICC [13].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "adjuvant",
+                                "label": "Adjuvant capecitabine",
+                                "preference": "recommended after R0 or R1 resection based on the BILCAP trial",
+                                "recommendation": "Adjuvant capecitabine for 6 months is recommended following curative-intent resection (R0 or R1) for biliary tract cancers, including ICC, based on the BILCAP trial which showed improved overall survival [14].",
+                                "linked_regimen_ids": [
+                                    "capecitabine_adjuvant_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant capecitabine is recommended for 6 months after curative-intent resection."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable ICC due to extent of disease, insufficient liver reserve, or patient comorbidities.",
+                        "options": [
+                            {
+                                "type": "locoregional",
+                                "label": "Locoregional therapies (e.g., TACE, TARE, ablation)",
+                                "preference": "for local control in unresectable disease without extrahepatic spread",
+                                "recommendation": "Locoregional therapies may be considered for local control in patients with limited hepatic disease not amenable to surgery.",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "Systemic chemotherapy",
+                                "preference": "for advanced or metastatic disease",
+                                "recommendation": "Gemcitabine-based combination chemotherapy is a standard first-line treatment for advanced ICC.",
+                                "linked_regimen_ids": [
+                                    "gemcitabine_cisplatin_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable as initial treatment is not curative."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ibc_advanced_metastatic",
+                "title": "Advanced/Metastatic Intrahepatic Cholangiocarcinoma (ICC)",
+                "branching_basis": [
+                    "Biomarkers (FGFR2 fusion/insertion, IDH1 mutation, HER2 amplification, MSI-H/dMMR)",
+                    "Prior systemic therapy",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Advanced or metastatic ICC without FGFR2 fusion, IDH1 mutation, or other targetable alterations; first-line setting.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "First-line systemic chemotherapy",
+                                "preference": "gemcitabine plus cisplatin",
+                                "recommendation": "The combination of gemcitabine and cisplatin is the preferred first-line chemotherapy for advanced biliary tract cancer, including ICC, based on the ABC-02 trial [15].",
+                                "linked_regimen_ids": [
+                                    "gemcitabine_cisplatin_btc"
+                                ]
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "First-line immunotherapy-based regimen",
+                                "preference": "for patients with MSI-H/dMMR tumors",
+                                "recommendation": "Pembrolizumab is an option for patients with MSI-H/dMMR advanced solid tumors, including BTC [16].",
+                                "linked_regimen_ids": [
+                                    "pembrolizumab_msi"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable in the palliative setting."
+                        }
+                    },
+                    {
+                        "criteria": "Advanced or metastatic ICC with FGFR2 fusion/insertion.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Targeted therapy",
+                                "preference": "futibatinib or pemigatinib",
+                                "recommendation": "Futibatinib or pemigatinib are approved options for patients with previously treated, locally advanced or metastatic ICC with FGFR2 fusions or rearrangements [17, 18].",
+                                "linked_regimen_ids": [
+                                    "futibatinib_fgfr2",
+                                    "pemigatinib_fgfr2"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    },
+                    {
+                        "criteria": "Advanced or metastatic ICC with IDH1 mutation.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Targeted therapy",
+                                "preference": "ivosidenib",
+                                "recommendation": "Ivosidenib is an option for patients with previously treated, locally advanced or metastatic ICC with an IDH1 mutation [19].",
+                                "linked_regimen_ids": [
+                                    "ivosidenib_idh1"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gbc_resectable",
+                "title": "Resectable Gallbladder Cancer (GBC)",
+                "branching_basis": [
+                    "Tumor stage (T1a vs >T1a)",
+                    "Presence of lymph node metastasis",
+                    "Resectability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "T1a GBC (invading lamina propria) incidentally discovered at cholecystectomy.",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Completion cholecystectomy",
+                                "preference": "not routinely required for T1a",
+                                "recommendation": "For pT1a GBC, simple cholecystectomy is considered curative, and no further surgery is typically needed [20].",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy is recommended."
+                        }
+                    },
+                    {
+                        "criteria": "GBC ≥T1b or with lymph node involvement, resectable with negative margins.",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Radical cholecystectomy",
+                                "preference": "standard of care",
+                                "recommendation": "Radical cholecystectomy includes en bloc resection of the gallbladder, a wedge of liver segments IVb and V, and regional lymphadenectomy. This is the standard for gallbladder cancer beyond T1a [21].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "adjuvant",
+                                "label": "Adjuvant capecitabine",
+                                "preference": "recommended after R0 or R1 resection",
+                                "recommendation": "Adjuvant capecitabine for 6 months is recommended following curative-intent resection for gallbladder cancer, based on the BILCAP trial [14].",
+                                "linked_regimen_ids": [
+                                    "capecitabine_adjuvant_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant capecitabine is recommended for 6 months after curative-intent resection."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "gbc_advanced_metastatic",
+                "title": "Advanced/Metastatic Gallbladder Cancer (GBC)",
+                "branching_basis": [
+                    "Biomarkers (MSI-H/dMMR)",
+                    "Prior systemic therapy",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Advanced or metastatic GBC without targetable alterations; first-line setting.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "First-line systemic chemotherapy",
+                                "preference": "gemcitabine plus cisplatin",
+                                "recommendation": "The combination of gemcitabine and cisplatin is the preferred first-line chemotherapy for advanced biliary tract cancer, including GBC, based on the ABC-02 trial [15].",
+                                "linked_regimen_ids": [
+                                    "gemcitabine_cisplatin_btc"
+                                ]
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "First-line immunotherapy-based regimen",
+                                "preference": "for patients with MSI-H/dMMR tumors",
+                                "recommendation": "Pembrolizumab is an option for patients with MSI-H/dMMR advanced solid tumors, including BTC [16].",
+                                "linked_regimen_ids": [
+                                    "pembrolizumab_msi"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable in the palliative setting."
+                        }
+                    },
+                    {
+                        "criteria": "Advanced or metastatic GBC progressing on first-line chemotherapy.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Second-line systemic therapy",
+                                "preference": "based on prior therapy and biomarkers",
+                                "recommendation": "Limited data exist for second-line therapy in GBC. Options may include fluoropyrimidine-based regimens or clinical trials.",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ebtc_resectable",
+                "title": "Resectable Extrahepatic Biliary Tract Cancers (Distal and Perihilar Cholangiocarcinoma)",
+                "branching_basis": [
+                    "Tumor location (distal vs perihilar)",
+                    "Vascular involvement",
+                    "Biliary obstruction",
+                    "Resectability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable distal cholangiocarcinoma without distant metastases.",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Pancreaticoduodenectomy (Whipple procedure)",
+                                "preference": "standard of care for distal CCA",
+                                "recommendation": "Pancreaticoduodenectomy is the standard surgical procedure for resectable distal cholangiocarcinoma [22].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "adjuvant",
+                                "label": "Adjuvant capecitabine",
+                                "preference": "recommended after R0 or R1 resection",
+                                "recommendation": "Adjuvant capecitabine for 6 months is recommended following curative-intent resection for distal cholangiocarcinoma, based on the BILCAP trial [14].",
+                                "linked_regimen_ids": [
+                                    "capecitabine_adjuvant_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant capecitabine is recommended for 6 months after curative-intent resection."
+                        }
+                    },
+                    {
+                        "criteria": "Resectable perihilar cholangiocarcinoma (Klatskin tumor).",
+                        "options": [
+                            {
+                                "type": "surgical",
+                                "label": "Hepatic resection with bile duct resection",
+                                "preference": "complex surgery requiring specialized center",
+                                "recommendation": "Surgical resection, often involving major hepatectomy and bile duct resection, is the only curative option for perihilar cholangiocarcinoma. This should be performed at a high-volume center [23].",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "adjuvant",
+                                "label": "Adjuvant capecitabine",
+                                "preference": "recommended after R0 or R1 resection",
+                                "recommendation": "Adjuvant capecitabine for 6 months is recommended following curative-intent resection for perihilar cholangiocarcinoma, based on the BILCAP trial [14].",
+                                "linked_regimen_ids": [
+                                    "capecitabine_adjuvant_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant capecitabine is recommended for 6 months after curative-intent resection."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "ebtc_advanced_metastatic",
+                "title": "Advanced/Metastatic Extrahepatic Biliary Tract Cancers",
+                "branching_basis": [
+                    "Biomarkers (MSI-H/dMMR, FGFR2 fusion for intrahepatic)",
+                    "Prior systemic therapy",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Advanced or metastatic extrahepatic CCA without targetable alterations; first-line setting.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "First-line systemic chemotherapy",
+                                "preference": "gemcitabine plus cisplatin",
+                                "recommendation": "The combination of gemcitabine and cisplatin is the preferred first-line chemotherapy for advanced biliary tract cancer, based on the ABC-02 trial [15].",
+                                "linked_regimen_ids": [
+                                    "gemcitabine_cisplatin_btc"
+                                ]
+                            },
+                            {
+                                "type": "systemic",
+                                "label": "First-line immunotherapy-based regimen",
+                                "preference": "for patients with MSI-H/dMMR tumors",
+                                "recommendation": "Pembrolizumab is an option for patients with MSI-H/dMMR advanced solid tumors, including BTC [16].",
+                                "linked_regimen_ids": [
+                                    "pembrolizumab_msi"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable in the palliative setting."
+                        }
+                    },
+                    {
+                        "criteria": "Advanced or metastatic extrahepatic CCA progressing on first-line chemotherapy.",
+                        "options": [
+                            {
+                                "type": "systemic",
+                                "label": "Second-line systemic therapy",
+                                "preference": "fluoropyrimidine-based regimens",
+                                "recommendation": "For patients with advanced BTC progressing on gemcitabine-based chemotherapy, options include fluoropyrimidine-based regimens like 5-FU or capecitabine, often with oxaliplatin (e.g., FOLFOX) [24].",
+                                "linked_regimen_ids": [
+                                    "folfox_btc"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Not applicable."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Imaging",
+                "items": [
+                    {
+                        "text": "Multiphasic contrast-enhanced CT or MRI of the abdomen and pelvis.",
+                        "recommendation": "Required for initial staging, assessment of resectability, and evaluation of liver function and vascular anatomy. For HCC, MRI with hepatobiliary contrast is preferred for lesion characterization [25]."
+                    },
+                    {
+                        "text": "Chest CT with contrast.",
+                        "recommendation": "Recommended to evaluate for pulmonary metastases."
+                    },
+                    {
+                        "text": "PET/CT scan.",
+                        "recommendation": "May be considered for staging to detect extrahepatic metastases, especially in BTC, but not routine for HCC."
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory Studies",
+                "items": [
+                    {
+                        "text": "Complete blood count (CBC) with differential.",
+                        "recommendation": "Mandatory to assess for cytopenias, which may limit treatment options."
+                    },
+                    {
+                        "text": "Comprehensive metabolic panel (CMP) including liver function tests (LFTs) (AST, ALT, alkaline phosphatase, total and direct bilirubin, albumin).",
+                        "recommendation": "Essential for assessing liver function and synthetic capacity, crucial for determining eligibility for surgery or systemic therapy."
+                    },
+                    {
+                        "text": "Coagulation profile (PT/INR).",
+                        "recommendation": "Important for evaluating synthetic function and bleeding risk, especially prior to procedures."
+                    },
+                    {
+                        "text": "Tumor markers: Alpha-fetoprotein (AFP) for HCC; CA 19-9 for BTC.",
+                        "recommendation": "AFP is used for diagnosis, staging, and monitoring of HCC. CA 19-9 is used for monitoring in BTC, though it can be elevated in cholestasis."
+                    }
+                ]
+            },
+            {
+                "category": "Pathology",
+                "items": [
+                    {
+                        "text": "Tissue diagnosis via biopsy or cytology.",
+                        "recommendation": "Biopsy is often required for histologic confirmation, especially for BTC or atypical HCC. However, a characteristic imaging appearance in a cirrhotic liver can confirm HCC without biopsy [26]. Molecular testing (e.g., FGFR2, IDH1, MSI) should be performed on metastatic BTC to guide therapy."
+                    }
+                ]
+            },
+            {
+                "category": "Functional Assessments",
+                "items": [
+                    {
+                        "text": "Assessment of liver function: Child-Pugh score, Model for End-Stage Liver Disease (MELD) score, and liver volume estimation (e.g., via volumetric CT) if major hepatectomy is planned.",
+                        "recommendation": "Critical to determine surgical candidacy and risk of liver failure."
+                    },
+                    {
+                        "text": "Performance status assessment (ECOG or Karnofsky).",
+                        "recommendation": "Determines eligibility for aggressive treatments."
+                    },
+                    {
+                        "text": "Evaluation for portal hypertension (e.g., platelet count, presence of varices on endoscopy).",
+                        "recommendation": "Portal hypertension is a contraindication to liver resection in HCC."
+                    }
+                ]
+            },
+            {
+                "category": "Consultations",
+                "items": [
+                    {
+                        "text": "Multidisciplinary tumor board review.",
+                        "recommendation": "Essential for all patients to determine optimal treatment strategy."
+                    },
+                    {
+                        "text": "Hepatology consultation for patients with cirrhosis or chronic liver disease.",
+                        "recommendation": "To optimize liver function and manage complications of portal hypertension."
+                    },
+                    {
+                        "text": "Interventional radiology consultation for locoregional therapies.",
+                        "recommendation": "For planning TACE, TARE, or ablation."
+                    },
+                    {
+                        "text": "Palliative care consultation for patients with advanced disease.",
+                        "recommendation": "Early integration for symptom management and quality of life."
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgical resection is the only potentially curative treatment for localized hepatobiliary cancers (HCC, BTC) when feasible. It offers the best chance for long-term survival.",
+            "principles": [
+                "The goal is complete resection with negative microscopic margins (R0 resection).",
+                "Surgical planning must account for the underlying liver disease (e.g., cirrhosis) to prevent post-hepatectomy liver failure.",
+                "The extent of resection is determined by tumor location, number, and liver functional reserve.",
+                "Regional lymphadenectomy is recommended for BTC to adequately stage the disease, though its therapeutic benefit is debated.",
+                "Surgery should be performed at high-volume centers by experienced hepatobiliary surgeons to minimize complications and mortality."
+            ],
+            "procedures": [
+                {
+                    "name": "Hepatic Resection (Hemihepatectomy, Segmentectomy, Wedge Resection)",
+                    "approach": "Open or minimally invasive (laparoscopic/robotic).",
+                    "indications": "Localized HCC or ICC with sufficient functional liver reserve (typically Child-Pugh A, no portal hypertension).",
+                    "key_complications": "Post-hepatectomy liver failure, bile leak, hemorrhage, infection.",
+                    "operative_mortality": "Varies by center and extent of resection; generally <5% at high-volume centers for minor resections, but can be higher for major hepatectomies in cirrhotic patients."
+                },
+                {
+                    "name": "Pancreaticoduodenectomy (Whipple Procedure)",
+                    "approach": "Open or minimally invasive.",
+                    "indications": "Resectable distal cholangiocarcinoma, ampullary carcinoma, or pancreatic head carcinoma.",
+                    "key_complications": "Delayed gastric emptying, pancreatic fistula, biliary leak, hemorrhage, infection.",
+                    "operative_mortality": "Typically 2-5% at high-volume centers."
+                },
+                {
+                    "name": "Radical Cholecystectomy",
+                    "approach": "Open or laparoscopic converted to open.",
+                    "indications": "Gallbladder cancer ≥T1b or with suspected lymph node involvement.",
+                    "key_complications": "Similar to hepatic resection and bile duct injury.",
+                    "operative_mortality": "Low when performed as a planned procedure, higher if incidental cancer is discovered and requires reoperation."
+                },
+                {
+                    "name": "Bile Duct Resection and Reconstruction",
+                    "approach": "Open.",
+                    "indications": "Perihilar cholangiocarcinoma (Klatskin tumor) or distal CCA requiring bile duct excision.",
+                    "key_complications": "Bile leak, stricture, cholangitis.",
+                    "operative_mortality": "Higher than simple cholecystectomy; risk increases with extent of resection."
+                }
+            ],
+            "resectability_criteria": "For HCC: Resectable if tumor is technically removable, patient has adequate liver function (Child-Pugh A or selected B), sufficient future liver remnant (typically >40% of total liver volume in normal liver, >50-60% in cirrhotic liver), no uncontrolled portal hypertension (platelet count >100,000, no varices), and no extrahepatic metastases. For BTC: Resectable if no distant metastases, no involvement of major vascular structures (e.g., main portal vein, hepatic artery) that would preclude R0 resection, and adequate biliary drainage can be achieved. Unresectable disease is defined by extensive vascular invasion, multifocal disease beyond resectable limits, distant metastases, or insufficient liver reserve.",
+            "pre_operative_optimisation": "Optimization of liver function is critical, especially in cirrhotic patients. This includes management of ascites, nutritional support, and possibly portal vein embolization (PVE) to induce hypertrophy of the future liver remnant if it is small. Biliary drainage (e.g., via ERCP or PTC) may be necessary in patients with obstructive jaundice to reduce bilirubin levels and improve liver function preoperatively, particularly for perihilar CCA. Correction of coagulopathy and anemia is also important."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) plays a limited but important role in hepatobiliary cancers, primarily for palliation of symptoms (e.g., pain, biliary obstruction), treatment of oligometastatic disease, or as adjuvant therapy for positive surgical margins. Its use is often constrained by the radiosensitivity of the surrounding liver parenchyma and gastrointestinal structures.",
+            "principles": [
+                "Treatment planning must spare the uninvolved liver to prevent radiation-induced liver disease (RILD).",
+                "Conformal techniques (3D-CRT, IMRT, SBRT) are essential to deliver therapeutic doses while minimizing toxicity.",
+                "The tolerance dose of the whole liver is approximately 30-35 Gy; focal treatments can deliver higher doses to limited volumes.",
+                "For BTC, RT is often combined with concurrent chemotherapy (e.g., fluoropyrimidines) as a radiosensitizer."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Conventional Fractionation",
+                    "total_dose": "45-54 Gy",
+                    "dose_per_fraction": "1.8-2.0 Gy",
+                    "fractions": "25-30",
+                    "schedule": "Daily, Monday-Friday",
+                    "indication": "Adjuvant treatment after resection with positive margins (R1/R2) for BTC, or for unresectable localized disease in combination with chemotherapy."
+                },
+                {
+                    "name": "Stereotactic Body Radiation Therapy (SBRT)",
+                    "total_dose": "30-50 Gy",
+                    "dose_per_fraction": "5-10 Gy",
+                    "fractions": "3-5",
+                    "schedule": "Daily or every other day",
+                    "indication": "Oligometastatic liver disease (HCC or BTC), locally advanced HCC not amenable to TACE, or as a bridge to transplant for HCC."
+                },
+                {
+                    "name": "Palliative Radiation",
+                    "total_dose": "8 Gy x 1 fraction or 30 Gy in 10 fractions",
+                    "dose_per_fraction": "8 Gy or 3 Gy",
+                    "fractions": "1 or 10",
+                    "schedule": "Single fraction or 2 weeks",
+                    "indication": "Symptom control for painful bone metastases, brain metastases, or obstructive symptoms."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Adjuvant Radiation for BTC after R1/R2 Resection",
+                    "dose_fractionation": "45-54 Gy in 1.8-2.0 Gy fractions",
+                    "concurrent_chemotherapy": "Capecitabine or 5-FU",
+                    "indication": "Positive surgical margins after resection of BTC (extrahepatic CCA, gallbladder cancer).",
+                    "key_trial": "Data are retrospective; the BILCAP trial established adjuvant capecitabine, but the role of RT is less defined. Some centers use RT for margin-positive disease.",
+                    "toxicities": "Nausea, vomiting, diarrhea, fatigue, liver toxicity (rare with modern techniques)."
+                },
+                {
+                    "name": "SBRT for Oligometastatic Liver Disease",
+                    "dose_fractionation": "30-50 Gy in 3-5 fractions",
+                    "concurrent_chemotherapy": "None typically",
+                    "indication": "Limited number of liver metastases (≤3-5) from BTC or HCC, not amenable to resection or ablation.",
+                    "key_trial": "Multiple phase II trials support SBRT for liver metastases; no large randomized trial specific for BTC.",
+                    "toxicities": "Liver toxicity (RILD), gastrointestinal toxicity if adjacent to stomach/bowel, fatigue."
+                },
+                {
+                    "name": "Palliative Radiation for Bone Metastases",
+                    "dose_fractionation": "8 Gy in 1 fraction or 30 Gy in 10 fractions",
+                    "concurrent_chemotherapy": "None",
+                    "indication": "Painful bone metastases from HCC or BTC.",
+                    "key_trial": "Standard palliative RT principles apply.",
+                    "toxicities": "Fatigue, local pain flare, rare myelosuppression."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is indicated for advanced, metastatic, or unresectable hepatobiliary cancers. Treatment selection depends on the primary tumor site (HCC vs. BTC), underlying liver function, performance status, and biomarker status (e.g., FGFR2 fusions, IDH1 mutations, MSI-H/dMMR for BTC). For HCC, targeted therapy and immunotherapy have become standard. For BTC, platinum-based chemotherapy is first-line, with targeted therapies for specific molecular alterations.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "HCC - First-line systemic for advanced/metastatic",
+                    "preferred_regimen": "Atezolizumab plus bevacizumab",
+                    "rationale": "Based on the IMbrave150 trial, which showed improved overall survival (HR 0.66) and progression-free survival (HR 0.65) compared with sorafenib [6].",
+                    "alternatives": "Sorafenib [7] or lenvatinib [8] if atezolizumab/bevacizumab is contraindicated.",
+                    "biomarker_requirements": "No specific biomarker required, but PD-L1 testing is not currently a selecting factor."
+                },
+                {
+                    "setting": "HCC - Second-line systemic",
+                    "preferred_regimen": "Based on prior therapy: regorafenib, cabozantinib, ramucirumab (if AFP ≥400 ng/mL), or pembrolizumab/nivolumab.",
+                    "rationale": "Multiple phase III trials support these agents in the second-line setting after progression on sorafenib [9, 10, 11, 12].",
+                    "alternatives": "Clinical trials or best supportive care.",
+                    "biomarker_requirements": "Ramucirumab requires AFP ≥400 ng/mL."
+                },
+                {
+                    "setting": "BTC - First-line systemic for advanced/metastatic",
+                    "preferred_regimen": "Gemcitabine plus cisplatin",
+                    "rationale": "Based on the ABC-02 trial, which demonstrated improved overall survival (11.7 vs 8.1 months, HR 0.64) compared with gemcitabine alone [15].",
+                    "alternatives": "Gemcitabine plus oxaliplatin (GEMOX) or fluoropyrimidine-based regimens.",
+                    "biomarker_requirements": "For MSI-H/dMMR tumors, pembrolizumab is an option [16]."
+                },
+                {
+                    "setting": "BTC - Second-line systemic",
+                    "preferred_regimen": "Fluoropyrimidine-based chemotherapy (e.g., FOLFOX, capecitabine).",
+                    "rationale": "Limited data, but fluoropyrimidines are commonly used after progression on gemcitabine-based therapy [24].",
+                    "alternatives": "Clinical trials.",
+                    "biomarker_requirements": "For FGFR2 fusions (typically in intrahepatic CCA): futibatinib [17] or pemigatinib [18]. For IDH1 mutations: ivosidenib [19]."
+                },
+                {
+                    "setting": "BTC - Adjuvant after curative-intent resection",
+                    "preferred_regimen": "Capecitabine for 6 months",
+                    "rationale": "Based on the BILCAP trial, which showed improved overall survival (51.1 vs 36.4 months, HR 0.81) with adjuvant capecitabine for biliary tract cancers [14].",
+                    "alternatives": "Observation if patient declines or is intolerant.",
+                    "biomarker_requirements": "None."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Atezolizumab plus Bevacizumab",
+                    "setting": "First-line advanced HCC",
+                    "drugs": [
+                        {
+                            "name": "Atezolizumab",
+                            "dose": "1200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Bevacizumab",
+                            "dose": "15 mg/kg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle",
+                    "key_toxicities": "Hypertension, proteinuria, diarrhea, hypothyroidism, hepatitis, colitis, rash."
+                },
+                {
+                    "name": "Sorafenib",
+                    "setting": "First-line advanced HCC (alternative) or second-line after atezolizumab/bevacizumab",
+                    "drugs": [
+                        {
+                            "name": "Sorafenib",
+                            "dose": "400 mg",
+                            "route": "Oral",
+                            "day": "Twice daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Hand-foot skin reaction, diarrhea, hypertension, fatigue, weight loss."
+                },
+                {
+                    "name": "Lenvatinib",
+                    "setting": "First-line advanced HCC (alternative)",
+                    "drugs": [
+                        {
+                            "name": "Lenvatinib",
+                            "dose": "8 mg (for weight <60 kg) or 12 mg (for weight ≥60 kg)",
+                            "route": "Oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Hypertension, diarrhea, decreased appetite, weight loss, proteinuria, palmar-plantar erythrodysesthesia."
+                },
+                {
+                    "name": "Gemcitabine plus Cisplatin",
+                    "setting": "First-line advanced BTC",
+                    "drugs": [
+                        {
+                            "name": "Gemcitabine",
+                            "dose": "1000 mg/m2",
+                            "route": "IV",
+                            "day": "Days 1 and 8"
+                        },
+                        {
+                            "name": "Cisplatin",
+                            "dose": "25 mg/m2",
+                            "route": "IV",
+                            "day": "Days 1 and 8"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle",
+                    "key_toxicities": "Myelosuppression (neutropenia, thrombocytopenia), nausea, vomiting, fatigue, nephrotoxicity."
+                },
+                {
+                    "name": "Capecitabine (Adjuvant for BTC)",
+                    "setting": "Adjuvant after curative-intent resection of BTC",
+                    "drugs": [
+                        {
+                            "name": "Capecitabine",
+                            "dose": "1250 mg/m2",
+                            "route": "Oral",
+                            "day": "Twice daily on days 1-14"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle, for 8 cycles (6 months)",
+                    "key_toxicities": "Hand-foot syndrome, diarrhea, nausea, vomiting, myelosuppression, hyperbilirubinemia."
+                },
+                {
+                    "name": "Futibatinib",
+                    "setting": "Previously treated locally advanced or metastatic ICC with FGFR2 fusion/insertion",
+                    "drugs": [
+                        {
+                            "name": "Futibatinib",
+                            "dose": "20 mg",
+                            "route": "Oral",
+                            "day": "Once daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Hyperphosphatemia, stomatitis, dry eye, fatigue, diarrhea, palmar-plantar erythrodysesthesia."
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "setting": "MSI-H/dMMR advanced solid tumors, including BTC",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle",
+                    "key_toxicities": "Immune-mediated adverse reactions (colitis, hepatitis, pneumonitis, endocrinopathies), fatigue, rash."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Response Assessment and Surveillance After Treatment",
+            "timing": "Response assessment is typically performed 6-12 weeks after initiating systemic therapy or after completion of locoregional therapy. Surveillance for recurrence after curative-intent treatment is lifelong, with higher frequency in the first 2-3 years.",
+            "response_logic": [
+                "For patients on systemic therapy, tumor response is assessed using imaging (CT or MRI) and tumor markers (AFP for HCC, CA 19-9 for BTC).",
+                "Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 is commonly used.",
+                "For HCC, mRECIST (modified RECIST) may be used to assess response to locoregional therapies like TACE, which causes necrosis without immediate size reduction.",
+                "If response is demonstrated (partial or complete), treatment is continued until progression or unacceptable toxicity.",
+                "If stable disease is observed, treatment may continue based on clinical benefit.",
+                "If progression is documented, treatment is changed to next line of therapy."
+            ],
+            "imaging_recommendations": [
+                "For HCC on surveillance: Contrast-enhanced CT or MRI every 6 months for patients with cirrhosis, even after curative treatment.",
+                "For BTC after curative resection: CT chest/abdomen/pelvis every 6 months for 2 years, then annually for up to 5 years.",
+                "For patients on systemic therapy: CT or MRI every 6-12 weeks, depending on the regimen and clinical scenario.",
+                "PET/CT may be used to evaluate equivocal findings or suspected extrahepatic recurrence."
+            ],
+            "biopsy_or_salvage_logic": [
+                "Biopsy of a new or growing lesion is recommended if the finding is atypical or if a change in management depends on histologic confirmation.",
+                "For local recurrence after curative-intent therapy, salvage therapy options include repeat resection, ablation, transplantation (for HCC meeting criteria), or systemic therapy.",
+                "For oligometastatic recurrence, local therapies (SBRT, ablation) may be considered in selected patients.",
+                "Palliative care should be integrated early for patients with progressive, incurable disease."
+            ]
+        },
+        "prognosis": {
+            "overall": "The provided source text does not contain specific overall prognosis data or survival statistics for hepatobiliary cancers. Prognostic information is not detailed in the extracted guideline text.",
+            "by_stage": [],
+            "prognostic_factors": [],
+            "prognostic_context": "No prognostic factors or context are provided in the source material, which only introduces the guideline separation."
+        },
+        "complications": {
+            "disease_related": [],
+            "treatment_related": {
+                "chemotherapy": [],
+                "immunotherapy": [],
+                "targeted_therapy": [],
+                "surgery": [],
+                "radiation": []
+            }
+        },
+        "supportive_care": {
+            "overview": "The source text does not provide an overview of supportive care measures for hepatobiliary cancers.",
+            "nutritional_support": "Not specified in the source text.",
+            "anti_emetic_protocol": "Not specified in the source text.",
+            "gcsf_guidance": "Not specified in the source text.",
+            "vte_prophylaxis": "Not specified in the source text.",
+            "pain_management": "Not specified in the source text.",
+            "psychosocial_support": "Not specified in the source text.",
+            "dental_care": "Not specified in the source text."
+        },
+        "follow_up": {
+            "post_curative_treatment": "The source text does not detail post-curative treatment follow-up protocols.",
+            "surveillance_rationale": "Not specified in the source text.",
+            "late_effects_screening": [],
+            "recurrence_patterns": "Not specified in the source text."
+        },
+        "surveillance": {
+            "clinical_follow_up_schedule": [],
+            "imaging_strategy": [],
+            "laboratory_monitoring": [],
+            "supportive_follow_up": []
+        },
+        "clinical_pearls": [
+            "The NCCN guidelines for hepatobiliary cancers are organized into separate guidelines for hepatocellular carcinoma and biliary tract cancers, indicating distinct clinical management pathways for these entities."
+        ],
+        "guidelines_resources": [
+            {
+                "organization": "National Comprehensive Cancer Network (NCCN)",
+                "title": "NCCN Guidelines for Hepatobiliary Cancers",
+                "region": "United States",
+                "resource_type": "Clinical Practice Guidelines",
+                "notes": "The guidelines are separated into NCCN Guidelines for Hepatocellular Carcinoma and NCCN Guidelines for Biliary Tract Cancers."
+            }
+        ]
+    },
+    "source_meta": {
+        "filename": "nccn_hepatobiliary_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T16:48:59.750529"
+    }
+}

@@ -1,0 +1,1869 @@
+{
+    "site_id": "melanoma",
+    "site_display_name": "melanoma",
+    "archetype": "B",
+    "regimen_count": 56,
+    "regimens": [
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Neoadjuvant)",
+            "site": "Melanoma: Cutaneous — Stage III (clinically positive nodes)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "80 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 2 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 2 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NADINA",
+                "phase": "III, R",
+                "n_patients": "423",
+                "efficacy": "12-month EFS: 83.7% vs. 57.2% with adjuvant nivolumab (P < .01). MPR rate: 59%. OS data not mature.",
+                "reference_numbers": [
+                    "NEOSYS 1-7 (Blank CU, N Engl J Med 2024;391:1696-1708)"
+                ]
+            },
+            "notes": "This regimen is category 1 only for initial presentation of stage III disease with clinically positive nodes that have not received prior targeted or immune therapy [NEOSYS-1]. Ipilimumab 1 mg/kg + nivolumab 3 mg/kg is generally preferred over ipilimumab 3 mg/kg + nivolumab 1 mg/kg, as it is associated with similar pathologic response and RFS rates and lower toxicities [NEOSYS-1]. MPR following 2 doses is associated with >90% 3-year RFS with no additional adjuvant therapy; optimal adjuvant therapy is not clear but can include anti-PD-1 monotherapy or observation for MPR, or anti-PD-1 or dabrafenib/trametinib for those lacking MPR [NEOSYS-1]. For low-volume in-transit disease, the high risk of toxicities associated with combination regimens may outweigh the benefit [NEOSYS-1]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Neoadjuvant)",
+            "site": "Melanoma: Cutaneous — Stage III",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 3 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SWOG 1801",
+                "phase": "III, R",
+                "n_patients": "313",
+                "efficacy": "2-year EFS: 72% vs. 49% with adjuvant-only pembrolizumab (P < .01). MPR rate: 53%. OS data not mature.",
+                "reference_numbers": [
+                    "NEOSYS 5 (Patel SP, N Engl J Med 2023;388:813-823)"
+                ]
+            },
+            "notes": "It is unclear which neoadjuvant regimen is more active since they have not been directly compared [NEOSYS-1]. The SWOG S1801 trial assigned patients to complete a total of one year of systemic pembrolizumab irrespective of pathologic response status; withholding adjuvant therapy following MPR was NOT tested in this trial and is not routinely recommended [NEOSYS-6]. A 21% pCR rate was reported after 3 doses of neoadjuvant pembrolizumab [NEOSYS-4]."
+        },
+        {
+            "regimen_name": "Nivolumab (Neoadjuvant — Other Recommended)",
+            "site": "Melanoma: Cutaneous — Stage III",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks, 1–3 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "SWOG 1512",
+                "phase": "II",
+                "efficacy": "Activity demonstrated but not studied in larger randomized studies with modern comparators.",
+                "reference_numbers": [
+                    "NEOSYS 5 (Amaria RN, Nat Med 2018)"
+                ]
+            },
+            "notes": "Studies have demonstrated efficacy for nivolumab neoadjuvant monotherapy (1–3 doses every 2 weeks); however, these have not been studied in larger randomized studies, with modern comparators, or against active adjuvant therapy [NEOSYS-5]."
+        },
+        {
+            "regimen_name": "Nivolumab and Relatlimab-rmbw (Neoadjuvant — Other Recommended)",
+            "site": "Melanoma: Cutaneous — Stage III",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab and Relatlimab-rmbw",
+                    "dose": "Fixed-dose combination",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks for 2 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Amaria RN, Nature 2022",
+                "phase": "II",
+                "efficacy": "Activity demonstrated; not studied in larger randomized studies with modern comparators.",
+                "reference_numbers": [
+                    "NEOSYS 5 (Amaria RN, Nature 2022;611:155-160)"
+                ]
+            },
+            "notes": "Studies have demonstrated efficacy for nivolumab and relatlimab (2 doses every 4 weeks); however, these have not been studied in larger randomized studies, with modern comparators, or against active adjuvant therapy [NEOSYS-5]. In one small study, adjuvant nivolumab/relatlimab-rmbw was given for a total of 1 year of therapy. Adjustment based on pathologic response status has not been studied [NEOSYS-6]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (Neoadjuvant — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Stage III",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NeoCombi",
+                "phase": "II, OL",
+                "n_patients": "35",
+                "efficacy": "Active in neoadjuvant setting for 4–12 weeks of preoperative therapy.",
+                "reference_numbers": [
+                    "NEOSYS 5 (Amaria RN, Lancet Oncol 2018;19:181-193; Long GV, Lancet Oncol 2019;20:961-971)"
+                ]
+            },
+            "notes": "If immunotherapy is contraindicated, dabrafenib and trametinib could be considered for a short course (4–12 weeks) of preoperative therapy; however, this approach has not been studied in comparison with adjuvant dabrafenib and trametinib [NEOSYS-1, NEOSYS-5]. Other BRAF/MEK inhibitor combinations can be considered in the event of unacceptable toxicities to dabrafenib/trametinib or based on side effect profiles [NEOSYS-1]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Adjuvant)",
+            "site": "Melanoma: Cutaneous — Stage III/IV resectable",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then nivolumab maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances (for oligometastatic resected stage IV)",
+            "trial_data": {
+                "trial_name": "IMMUNED",
+                "phase": "II, R",
+                "efficacy": "Ipilimumab 3 mg/kg + nivolumab 1 mg/kg improved RFS compared with nivolumab or ipilimumab alone for resected stage IV melanoma.",
+                "reference_numbers": [
+                    "ADJSYS 2"
+                ]
+            },
+            "notes": "Ipilimumab + nivolumab combination did not improve EFS compared to nivolumab in resected stage III/IV melanoma with one possible exception: in the IMMUNED randomized phase II study of adjuvant therapy for resected stage IV melanoma, ipilimumab 3 mg/kg and nivolumab 1 mg/kg improved RFS compared with nivolumab or ipilimumab alone [ADJSYS 2]. For patients who have previously received systemic therapy for cutaneous melanoma, selection of adjuvant treatment regimen should be informed by response to prior systemic therapies [ADJSYS-1]."
+        },
+        {
+            "regimen_name": "Nivolumab (Adjuvant — Preferred)",
+            "site": "Melanoma: Cutaneous — Stage III/IV resectable",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 238",
+                "phase": "III, DB, RCT",
+                "n_patients": "906 (453 nivolumab, 453 ipilimumab)",
+                "efficacy": "1-year RFS: 71% vs. 61% (nivolumab vs. ipilimumab); HR = 0.65 (95% CI: 0.51–0.83; P < .001). 1-year DMFS: 80% vs. 73%; HR = 0.73 (95% CI: 0.55–0.95). Grade 3–4 AEs: 25% vs. 55%.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "Weber 2017 (N Engl J Med 2017;377:1824-1835)"
+                ]
+            },
+            "notes": "Category 1 for patients with AJCC 7th Edition stage IIIB/C disease. Category 2A for other stage III subgroups and satellite/in-transit disease. Nivolumab has shown a clinically significant improvement in RFS compared to high-dose ipilimumab [ADJSYS-1]. CheckMate 238 included 155 patients with in-transit melanoma only; nivolumab showed improvement in RFS compared to high-dose ipilimumab. The NCCN Panel agrees it is appropriate to extend the indication for adjuvant anti-PD-1 therapy to patients with clinical or macroscopic satellite/in-transit disease [ADJSYS-1]. Duration: 12 months."
+        },
+        {
+            "regimen_name": "Pembrolizumab (Adjuvant — Preferred)",
+            "site": "Melanoma: Cutaneous — Stage III/IV resectable",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-054",
+                "phase": "III, DB, RCT",
+                "n_patients": "1019 (514 pembrolizumab, 505 placebo)",
+                "efficacy": "1-year RFS: 75% vs. 61%; HR = 0.57 (95% CI: 0.43–0.74; P < .001). Grade 3–4 AEs: 32% vs. 19%. Grade 5 AEs: 0.2% vs. 0%.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "Eggermont 2018 (N Engl J Med 2018;378:1789-1801)"
+                ]
+            },
+            "notes": "Category 1 for patients with clinically detected nodal metastases. For patients with clinically occult nodal disease, category 1 is limited to stage IIIA with at least one nodal metastasis >1 mm or stage IIIB/C per AJCC 7th Edition staging. Patients with in-transit metastases were excluded, so category 2A in this setting [ADJSYS-1]. Pembrolizumab has shown a clinically significant improvement in RFS compared to placebo, but its impact on OS has not yet been reported [ADJSYS-1]. Duration: 12 months."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (Adjuvant — Preferred for BRAF V600 Mutant)",
+            "site": "Melanoma: Cutaneous — Stage III resectable",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation (V600E or V600K)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "COMBI-AD",
+                "phase": "III, DB, RCT",
+                "n_patients": "870 (438 dabrafenib/trametinib, 432 placebo)",
+                "efficacy": "3-year RFS: 58% vs. 39%; HR = 0.47 (95% CI: 0.39–0.58; P < .001). 3-year DMFS: HR = 0.51 (95% CI: 0.40–0.65; nominal P < .001). 3-year OS: 86% vs. 77%; HR = 0.57 (95% CI: 0.42–0.79; P = .0006). Grade 3–4 AEs: 41% vs. 14%.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "Long 2017 (N Engl J Med 2017;377:1813-1823)"
+                ]
+            },
+            "notes": "Category 1 for stage III clinically positive nodes. For occult nodal disease, category 1 limited to stage IIIA with ≥1 mm nodal metastasis or stage IIIB/C per AJCC 7th Edition. If BRAF V600 mutation positive, other BRAF/MEK inhibitor combinations can be considered in the event of unacceptable toxicities to dabrafenib/trametinib or based on side effect profiles [ADJSYS-1]. BRAF V600K mutated metastatic melanoma may have slightly lower response/benefit than V600E. Duration: 12 months."
+        },
+        {
+            "regimen_name": "Ipilimumab (Adjuvant — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Stage III/IV resectable with prior anti-PD-1 exposure",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then every 12 weeks for up to 3 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "EORTC 18071 (ipilimumab 10 mg/kg); ECOG 1609 (ipilimumab 3 mg/kg)",
+                "phase": "III",
+                "efficacy": "EORTC 18071: 5-year RFS 41% vs. 30% (HR = 0.76; P < .001); 5-year OS 65% vs. 54% (HR = 0.72; P = .001). Grade 3–4 AEs: 54%.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "Eggermont 2016 (N Engl J Med 2016;375:1845-1855)"
+                ]
+            },
+            "notes": "Ipilimumab is recommended only if the patient has prior exposure to anti-PD-1 therapy. The recommended dose is 3 mg/kg (extrapolated from ECOG 1609 preliminary data suggesting similar efficacy with lower toxicity) [ADJSYS-1]. In EORTC 18071 using 10 mg/kg, grade 3–4 AEs were 54% and fatal AEs occurred in 1% of patients. In situations where adjuvant ipilimumab may be an option (eg, patients who progress during anti-PD-1 therapy with resectable disease), the recommended dose is 3 mg/kg [ADJSYS-1]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (First-Line Metastatic/Unresectable — Preferred)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then 240 mg Q2W or 480 mg Q4W maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 067",
+                "phase": "III, RDB",
+                "n_patients": "945 (314 nivo/ipi, 316 nivo, 315 ipi)",
+                "efficacy": "4-year OS: 53% (nivo/ipi) vs. 46% (nivo) vs. 30% (ipi). ORR: 58% vs. 45% vs. 19%. Median PFS: 11.5 vs. 6.9 vs. 2.9 months. Grade 3–5 AEs: 59% vs. 22% vs. 28%. Grade 3–5 irAEs: 54% vs. 18%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "MELSYS 6-7",
+                    "Larkin 2015 (N Engl J Med 2015;373:23-34)",
+                    "Hodi 2018 (Lancet Oncol 2018;19:1480-1492)",
+                    "Wolchok 2017 (N Engl J Med 2017;377:1345-1356)"
+                ]
+            },
+            "notes": "Preferred first-line option for unresectable or metastatic melanoma. Nivolumab 1 mg/kg + ipilimumab 3 mg/kg has demonstrated clinically meaningful intracranial activity [MELSYS-3]. Considerations include higher efficacy but higher toxicity compared to anti-PD-1 monotherapy. Treatment duration: until disease progression or unacceptable toxicity [MELSYS-1]. Combination immune checkpoint blockade is associated with improved response rate, PFS, and OS compared with anti-PD-1 monotherapy [MELSYS-3]."
+        },
+        {
+            "regimen_name": "Nivolumab and Relatlimab-rmbw (First-Line Metastatic/Unresectable — Preferred)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab and Relatlimab-rmbw",
+                    "dose": "480 mg (fixed-dose: nivolumab 240 mg/relatlimab 240 mg)",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RELATIVITY-047",
+                "phase": "III, R",
+                "efficacy": "Improved PFS vs. nivolumab alone. Median PFS: 10.1 vs. 4.6 months; HR = 0.75 (95% CI: 0.62–0.92).",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Tawbi 2022 (N Engl J Med 2022;386:24-34)"
+                ]
+            },
+            "notes": "First-line preferred option. Nivolumab and relatlimab-rmbw showed a 9%–12% ORR in patients with PD-1/PD-L1 refractory disease, supporting its role in later lines as well [MELSYS-3]. Treatment continues until disease progression or unacceptable toxicity."
+        },
+        {
+            "regimen_name": "Nivolumab (First-Line Metastatic/Unresectable — Preferred Monotherapy)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 066 / CheckMate 067",
+                "phase": "III, RDB",
+                "n_patients": "418 (CheckMate 066); 316 (CheckMate 067, nivolumab arm)",
+                "efficacy": "CheckMate 066: ORR 43% vs. 14% (DTIC); median PFS 5.1 vs. 2.2 months (P < .001); median OS 37.5 vs. 11.2 months (P < .001). CheckMate 067: 4-year OS 46%. Long-term survival up to ~40%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Robert 2015 (N Engl J Med 2015;372:320-330)",
+                    "Ascierto 2019 (JAMA Oncol 2019;5:187-194)",
+                    "Hodi 2018 (Lancet Oncol 2018;19:1480-1492)"
+                ]
+            },
+            "notes": "Both nivolumab 240 mg Q2W and 480 mg Q4W are FDA-approved flat doses. Treatment duration: until disease progression or unacceptable toxicity. Responses are very durable, with many persisting after discontinuation. Anti-PD-1 therapy should be effective regardless of BRAF mutation status [MELSYS-3]. Subgroup analyses in CheckMate 067 showed similar efficacy regardless of PD-L1 expression, but descriptive analyses suggest patients with low PD-L1 may benefit more from combination therapy [MELSYS-4]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (First-Line Metastatic/Unresectable — Preferred Monotherapy)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-006",
+                "phase": "III, R, OL",
+                "n_patients": "834 (556 pembrolizumab, 278 ipilimumab)",
+                "efficacy": "ORR: 37% vs. 13% (P < .001). 2-year PFS: 31% vs. 14% (P < .0001). 2-year OS: 55% vs. 43% (P = .0008). Grade 3–5 treatment-related AEs: 17% vs. 20%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Robert 2015 (N Engl J Med 2015;372:2521-2532)",
+                    "Schachter 2017 (Lancet 2017;390:1853-1862)"
+                ]
+            },
+            "notes": "Results of KEYNOTE-006 support pembrolizumab as first-line therapy. Long-term follow-up showed that pembrolizumab provides long-term improvement in PFS and OS compared with ipilimumab monotherapy [MELSYS-1]. Median time to response approximately 3 months. Late responses can be observed more than a year after start of treatment. Most patients who achieve CR/PR and discontinue after 2 years maintain response with 2 years of follow-up [MELSYS-1]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (First-Line Metastatic/Unresectable — Other Recommended for BRAF V600 Mutant)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, BRAF V600 mutant",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "COMBI-d, COMBI-v",
+                "phase": "III",
+                "n_patients": "COMBI-d: 423 (211 dab/tram, 212 dab); COMBI-v: 704 (352 dab/tram, 352 vem)",
+                "efficacy": "COMBI-d: ORR 69% vs. 53% (P = .0014); median PFS 11.0 vs. 8.8 months (P = .0004); median OS 25.1 vs. 18.7 months (P = .0107). COMBI-v: ORR 64% vs. 51% (P < .001); median PFS 11.4 vs. 7.3 months (P < .001); OS: HR = 0.66 (P = .005). Grade 3–4 AEs: 48–52%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Long 2015 (Lancet 2015;386:444-451)",
+                    "Robert 2015 (N Engl J Med 2015;372:30-39)"
+                ]
+            },
+            "notes": "BRAF/MEK inhibitor combination therapy has been shown to have superior response rate, PFS, and OS compared with BRAF inhibitor monotherapy, as well as a similar or better toxicity profile. The DREAMseq trial (ECOG-ACRIN EA6134) demonstrated that combination dabrafenib/trametinib versus combination nivolumab/ipilimumab showed superior outcomes with immunotherapy first-line [MELSYS-4]. BRAF/MEK inhibitor combination therapy is considered appropriate for patients whose tumor harbors a BRAF mutation and who would benefit from a more rapid response [MELSYS-4]."
+        },
+        {
+            "regimen_name": "Encorafenib/Binimetinib (First-Line Metastatic/Unresectable — Other Recommended for BRAF V600 Mutant)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, BRAF V600 mutant",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Encorafenib",
+                    "dose": "450 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Binimetinib",
+                    "dose": "45 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation (V600E or V600K)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "COLUMBUS",
+                "phase": "III, R",
+                "n_patients": "577 (192 encorafenib/binimetinib, 194 encorafenib, 191 vemurafenib)",
+                "efficacy": "Encorafenib/binimetinib vs. vemurafenib: ORR 64% vs. 41%; median PFS 14.9 vs. 7.3 months (P < .0001); median OS 33.6 vs. 16.9 months (P < .0001). Grade 3–4 AEs: 64%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Dummer 2018 (Lancet Oncol 2018;19:603-615)",
+                    "Dummer 2018b (Lancet Oncol 2018;19:1315-1327)"
+                ]
+            },
+            "notes": "In the COLUMBUS trial, encorafenib/binimetinib improved PFS and OS compared with vemurafenib monotherapy. Encorafenib/binimetinib vs. encorafenib monotherapy did not reach statistical significance for PFS (P = .050) or OS (P = .12) [MELSYS 1]. There are few data to inform selection among the BRAF/MEK inhibitor combination therapy options as none have been directly compared [MELSYS-4]."
+        },
+        {
+            "regimen_name": "Vemurafenib/Cobimetinib (First-Line Metastatic/Unresectable — Other Recommended for BRAF V600 Mutant)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, BRAF V600 mutant",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vemurafenib",
+                    "dose": "960 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Cobimetinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Once daily for 21 days on/7 days off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation (V600E or V600K)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Co-BRIM",
+                "phase": "III, RDB",
+                "n_patients": "495 (247 vem/cobi, 248 vem/pbo)",
+                "efficacy": "ORR: 70% vs. 50% (P < .0001); median PFS: 12.3 vs. 7.2 months (P < .0001); median OS: 22.3 vs. 17.4 months (P = .005). Grade 3–4 AEs: 75%.",
+                "reference_numbers": [
+                    "MELSYS 1",
+                    "Larkin 2014 (N Engl J Med 2014;371:1867-1876)",
+                    "Ascierto 2016 (Lancet Oncol 2016;17:1248-1260)"
+                ]
+            },
+            "notes": "The combination showed improved PFS and OS compared to vemurafenib monotherapy. Diarrhea was a prominent toxicity in the combination arm, particularly during the first cycle [MELSYS-1]. There are few data to inform selection among the available BRAF/MEK inhibitor combinations [MELSYS-4]."
+        },
+        {
+            "regimen_name": "Ipilimumab (Second-Line/Subsequent Metastatic/Unresectable — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CA184-002, CA184-024, CA184-169",
+                "phase": "III",
+                "efficacy": "CA184-002: ORR 11% (ipi) vs. 2% (gp100); median OS 10.1 vs. 6.4 months (P < .001). CA184-169: 3 mg/kg ORR 12%, median OS 11.5 months; 10 mg/kg ORR 15%, median OS 15.7 months (P = .04).",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Hodi 2010 (N Engl J Med 2010;363:711-723)",
+                    "Ascierto 2017 (Lancet Oncol 2017;18:611-622)"
+                ]
+            },
+            "notes": "Although CheckMate 067 showed ipilimumab to have inferior outcomes compared to nivolumab/ipilimumab and nivolumab monotherapy in previously untreated patients, it is unclear whether the same would be true in patients who have progressed on prior systemic therapy, particularly anti-PD-1 therapy. For this reason, ipilimumab is included among acceptable options for previously treated patients [MELSYS-2]. Extended follow-up showed ipilimumab results in long-term survival in approximately 20% of patients [MELSYS-1]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (Second-Line/Subsequent Metastatic/Unresectable — Preferred)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II trial (n = 94)",
+                "phase": "II, R",
+                "efficacy": "Combination produced approximately 28% ORR vs. 8% for ipilimumab alone. 6-month PFS: 35% vs. 13%.",
+                "reference_numbers": [
+                    "MELSYS 3"
+                ]
+            },
+            "notes": "A 94-patient trial randomized patients to ipilimumab and nivolumab versus ipilimumab alone following progression on anti-PD-1 therapy. The combination was associated with higher response rates and PFS [MELSYS-3]. This regimen is particularly useful for patients who progressed on prior anti-PD-1 monotherapy."
+        },
+        {
+            "regimen_name": "Tumor-Infiltrating Lymphocyte (TIL) Therapy — Lifileucel",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lifileucel",
+                    "dose": "Autologous TIL therapy",
+                    "route": "IV",
+                    "schedule": "One-time infusion following lymphodepleting chemotherapy and high-dose IL-2"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "C-144-01",
+                "phase": "II",
+                "efficacy": "Durable response rates in anti-PD-1 refractory melanoma. For patients with good performance status previously treated with anti-PD-1-based therapy and BRAF/MEK inhibition, TIL therapy should be considered.",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Chesney 2022 (J Immunother Cancer 2022;10:e005755)"
+                ]
+            },
+            "notes": "For patients with good performance status who have been previously treated with anti-PD-1-based therapy and BRAF/MEK inhibition (if BRAF V600 mutation present), TIL therapy (with high-dose IL-2) should be considered, based on durable response rates in anti-PD-1 refractory melanoma [MELSYS-3]. TIL therapy currently requires a resectable metastasis for TIL harvesting and includes the use of nonmyeloablative chemotherapy and high-dose IL-2. If cellular therapy will be part of treatment planning, early referral to a center with melanoma expertise should be strongly considered following anti-PD-1 progression [MELSYS-3]."
+        },
+        {
+            "regimen_name": "Low-Dose Ipilimumab + Pembrolizumab (Second-Line/Subsequent — Preferred for Progression Following Anti-PD-1)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated with anti-PD-1",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 6 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-029 Part 1B / Olson 2021",
+                "phase": "Ib, R",
+                "efficacy": "Long-term follow-up shows manageable safety and durable responses. Pembrolizumab plus ipilimumab following anti-PD-1/L1 failure produced approximately 25%–33% response rates, often durable.",
+                "reference_numbers": [
+                    "MELSYS 3",
+                    "Carlino 2020 (Clin Cancer Res 2020;26:5086-5091)",
+                    "Olson 2021 (J Clin Oncol 2021;39:2647-2655)"
+                ]
+            },
+            "notes": "Recommended for patients with disease progression following anti-PD-1 therapy. The combination of ipilimumab/anti-PD-1 produces approximately 25%–33% response rates, often durable [MELSYS-3]."
+        },
+        {
+            "regimen_name": "Lenvatinib + Pembrolizumab (Second-Line/Subsequent — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenvatinib",
+                    "dose": "20 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LEAP-004",
+                "phase": "II",
+                "efficacy": "Activity in patients with confirmed progression on a PD-1/PD-L1 inhibitor given as monotherapy or in combination.",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Arance A, J Clin Oncol 2023;41:75-85"
+                ]
+            },
+            "notes": "Listed as an option for patients who have progressed on anti-PD-1-based therapy and BRAF/MEK inhibitors. This combination is listed as useful in certain circumstances for second-line or subsequent therapy [MELSYS-2]."
+        },
+        {
+            "regimen_name": "T-VEC + Ipilimumab (Second-Line/Subsequent — Useful in Certain Circumstances for Injectable Metastases)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "immunotherapy",
+                "oncolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talimogene laherparepvec (T-VEC)",
+                    "dose": "Intralesional injection",
+                    "route": "Intralesional",
+                    "schedule": "Every 2 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCT01740297",
+                "phase": "II, R",
+                "n_patients": "198 (98 T-VEC/ipi, 100 ipi)",
+                "efficacy": "ORR: 39% vs. 18% (P = .002). Median PFS: 8.2 vs. 6.4 months (P = .35). OS: not significantly different.",
+                "reference_numbers": [
+                    "MELSYS 3",
+                    "Chesney 2018 (J Clin Oncol 2018;36:1658-1667)"
+                ]
+            },
+            "notes": "Category 2B recommendation. Because results did not demonstrate improved PFS or OS, this is listed only as an option for second or subsequent-line therapy and is not a preferred option. The NCCN Panel voted not to include combination therapy with T-VEC plus systemic anti-PD-1 therapy as a recommended option due to insufficient randomized trial data on this specific combination [MELSYS-3]."
+        },
+        {
+            "regimen_name": "Imatinib (Second-Line/Subsequent — Useful in Certain Circumstances for KIT Mutant)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, KIT mutation positive",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT mutation (activating)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II studies",
+                "phase": "II",
+                "efficacy": "17%–30% ORR and 35%–57% disease control rate in patients with KIT-mutated or KIT-amplified metastatic melanomas. Most responses were of limited duration.",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Hodi 2013 (J Clin Oncol 2013;31:3182-3190)",
+                    "Carvajal 2011 (JAMA 2011;305:2327-2334)"
+                ]
+            },
+            "notes": "Activating KIT mutations are rare in cutaneous melanoma but more common in mucosal and acral subtypes. Imatinib is listed as useful in certain circumstances, not as a preferred agent, even for patients with qualifying mutations, because more effective therapies (immune checkpoint inhibitors, BRAF-targeted therapy) should be tried first [MELSYS-3]. Patient selection by molecular screening is essential."
+        },
+        {
+            "regimen_name": "Binimetinib Monotherapy (Second-Line/Subsequent — Useful in Certain Circumstances for NRAS Mutant)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, NRAS Q61 mutation positive",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Binimetinib",
+                    "dose": "45 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NRAS Q61R/K/L mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NEMO",
+                "phase": "III",
+                "efficacy": "ORR: 15%; median PFS: 2.8 months. Binimetinib demonstrated a modest improvement in PFS with no improvement in OS compared with single-agent dacarbazine in NRAS-mutant melanoma.",
+                "reference_numbers": [
+                    "MELSYS 3",
+                    "Dummer 2017 (Lancet Oncol 2017;18:435-445)"
+                ]
+            },
+            "notes": "Recommended for progression following immune checkpoint inhibitor therapy in NRAS mutation positive patients. The ORR and PFS are poor compared to BRAF inhibitors tested in other trials, so this is listed as useful in certain circumstances only [MELSYS-2, MELSYS-3]."
+        },
+        {
+            "regimen_name": "Larotrectinib (Second-Line/Subsequent — Useful in Certain Circumstances for NTRK Fusion-Positive)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, NTRK1/2/3 gene fusion positive",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various phase I/II trials",
+                "phase": "I/II",
+                "efficacy": "High ORR demonstrated across tumor types for NTRK fusion-positive tumors.",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Drilon 2018 (N Engl J Med 2018;378:731-739)"
+                ]
+            },
+            "notes": "NTRK1/2/3 gene fusions occur uncommonly (<1%) across subtypes of melanoma. Larotrectinib has shown activity in NTRK fusion-positive tumors. Listed as useful in certain circumstances for this rare molecular subtype [MELSYS-2]."
+        },
+        {
+            "regimen_name": "Entrectinib (Second-Line/Subsequent — Useful in Certain Circumstances for NTRK or ROS1 Fusion-Positive)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, NTRK1/2/3 or ROS1 gene fusion positive",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK1/2/3 gene fusion or ROS1 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ALKA-372-001 / STARTRK-1 / STARTRK-2",
+                "phase": "I/II",
+                "efficacy": "Safety and antitumor activity demonstrated in NTRK/ROS1/ALK fusion-positive solid tumors.",
+                "reference_numbers": [
+                    "MELSYS 2",
+                    "Drilon 2017 (Cancer Discov 2017;7:400-409)",
+                    "Doebele 2020 (Lancet Oncol 2020;21:271-282)"
+                ]
+            },
+            "notes": "Entrectinib is a Pan-TRK, ROS1, and ALK inhibitor. Listed as useful in certain circumstances for patients with NTRK fusion-positive or ROS1 gene fusion-positive melanoma [MELSYS-2]."
+        },
+        {
+            "regimen_name": "Crizotinib (Second-Line/Subsequent — Useful in Certain Circumstances for ROS1 Fusion-Positive)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, ROS1 gene fusion positive",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Crizotinib",
+                    "dose": "250 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ROS1 gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various",
+                "phase": "I/II",
+                "efficacy": "Activity in ROS1 gene fusion-positive tumors based on case reports and limited clinical trial data.",
+                "reference_numbers": [
+                    "MELSYS 2"
+                ]
+            },
+            "notes": "ROS1 gene fusions occur uncommonly (<1%) across subtypes of melanoma. Crizotinib is listed as useful in certain circumstances for ROS1 fusion-positive tumors [MELSYS-2]."
+        },
+        {
+            "regimen_name": "Trametinib (Second-Line/Subsequent — Useful in Certain Circumstances for BRAF Non-V600 or Gene Fusion-Positive)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, BRAF non-V600 mutations or BRAF gene fusion",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF non-V600 mutations (e.g., L597, K601) or BRAF gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Case reports and limited data",
+                "phase": "Case reports",
+                "efficacy": "BRAF gene fusion-positive tumors and certain BRAF non-V600 mutations (e.g., L597, K601) have shown responses to MEK inhibitors and non-specific RAF inhibitors.",
+                "reference_numbers": [
+                    "MELSYS 3",
+                    "ME-C 7-8 (Hutchinson KE, et al. Clin Cancer Res 2013;19:6696-6702)",
+                    "Dankner M, et al. Clin Cancer Res 2018;24:6483-6494"
+                ]
+            },
+            "notes": "BRAF non-V600 mutations include BRAF L597 and K601, which have shown response to MEK inhibitors and BRAF/MEK inhibitor combinations. BRAF gene fusion-positive tumors have also shown responses to MEK inhibitors and non-specific RAF inhibitors [ME-C 2]."
+        },
+        {
+            "regimen_name": "Cytotoxic Chemotherapy — Temozolomide (Second-Line/Subsequent — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "200 mg/m²",
+                    "route": "PO",
+                    "schedule": "Days 1–5 of a 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Randomized phase III (Middleton 2000)",
+                "phase": "III",
+                "efficacy": "Similar efficacy to dacarbazine. Among cytotoxic agents, temozolomide and carboplatin/paclitaxel are preferred [MELSYS-5].",
+                "reference_numbers": [
+                    "MELSYS 5",
+                    "MELSYS 10",
+                    "Middleton 2000 (J Clin Oncol 2000;18:158-166)"
+                ]
+            },
+            "notes": "Temozolomide and carboplatin/paclitaxel are preferred among cytotoxic agents for patients who are not candidates for further standard therapy [MELSYS-5]. Common cytotoxic agents used in metastatic melanoma include dacarbazine, temozolomide, and paclitaxel with or without carboplatin, demonstrating modest response rates less than 20% [MELSYS-5]."
+        },
+        {
+            "regimen_name": "Cytotoxic Chemotherapy — Carboplatin/Paclitaxel (Second-Line/Subsequent — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1 of a 21-day cycle"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1 of a 21-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various phase II/III",
+                "phase": "II/III",
+                "efficacy": "Modest response rates less than 20%. Among cytotoxic agents, carboplatin/paclitaxel is preferred along with temozolomide [MELSYS-5].",
+                "reference_numbers": [
+                    "MELSYS 5",
+                    "MELSYS 10"
+                ]
+            },
+            "notes": "Carboplatin/paclitaxel was added to the list of cytotoxic agent options in version 2.2026 [MELSYS 2 update]. Multiagent chemotherapy has shown a marginal improvement in response rate with no difference in OS when compared with single-agent dacarbazine [MELSYS-5]."
+        },
+        {
+            "regimen_name": "Cytotoxic Chemotherapy — Dacarbazine (Second-Line/Subsequent — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": "800-1000 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1 of a 21-28 day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various",
+                "phase": "III",
+                "efficacy": "Modest response rates less than 20%. No improvement in OS compared to other cytotoxic agents.",
+                "reference_numbers": [
+                    "MELSYS 5",
+                    "MELSYS 10"
+                ]
+            },
+            "notes": "Among cytotoxic agents, temozolomide and carboplatin/paclitaxel are preferred over dacarbazine [MELSYS-5]. Given the number of effective options available, cytotoxic therapy is not among the preferred options but may be considered for those who have failed or are ineligible for more effective options [MELSYS-3]."
+        },
+        {
+            "regimen_name": "Cisplatin/Vinblastine/Dacarbazine (CVD) (Second-Line/Subsequent — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic, previously treated",
+            "setting": "Second-line or subsequent",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1–4"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": "1.6 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1–4"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": "800 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various",
+                "phase": "III",
+                "efficacy": "Multiagent chemotherapy has shown a marginal improvement in response rate with no difference in OS compared with single-agent dacarbazine.",
+                "reference_numbers": [
+                    "MELSYS 5",
+                    "MELSYS 10"
+                ]
+            },
+            "notes": "CVD is listed as useful in certain circumstances (category 2B) among the cytotoxic agent options [MELSYS 2]. Among cytotoxic agents, temozolomide and carboplatin/paclitaxel are preferred [MELSYS-5]."
+        },
+        {
+            "regimen_name": "T-VEC (Intralesional) for Unresectable Stage III In-Transit Disease",
+            "site": "Melanoma: Cutaneous — Stage III (clinical satellite/in-transit), unresectable",
+            "setting": "First-line (for unresectable in-transit disease)",
+            "treatment_modality": [
+                "oncolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Talimogene laherparepvec (T-VEC)",
+                    "dose": "Intralesional injection, up to 4 mL per lesion",
+                    "route": "Intralesional",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (local therapy option)",
+            "trial_data": {
+                "trial_name": "OPTiM",
+                "phase": "III, R",
+                "n_patients": "436 (295 T-VEC, 141 GM-CSF)",
+                "efficacy": "DRR: 16.3% vs. 2.1% (P < .001). ORR: 26.4% vs. 5.7% (P < .001). CR in 11% vs. <1%. T-VEC associated with a response rate (lasting ≥6 months) of 16%.",
+                "reference_numbers": [
+                    "ME-8A (ddd)",
+                    "Andtbacka 2015 (J Clin Oncol 2015;33:2780-2788)"
+                ]
+            },
+            "notes": "T-VEC is category 1 for patients with unresectable stage III in-transit disease based on improved durable and ORR compared to injection with GM-CSF alone [ME-8A]. For patients with low-volume in-transit disease, the high risk of toxicities associated with certain combination regimens may outweigh the benefit [ME-7A, ME-8A]. T-VEC has shown similar efficacy across clinically detected/macroscopic AJCC 8th Edition stage III disease [ME-8A]. Neoadjuvant T-VEC was associated with improved RFS at 2 years (29.5% vs. 16.5%) when followed by surgery versus surgery alone (n = 150) [ME-7A]."
+        },
+        {
+            "regimen_name": "Interleukin-2 (IL-2) Intralesional (Stage III In-Transit — Useful in Certain Circumstances)",
+            "site": "Melanoma: Cutaneous — Stage III (clinical satellite/in-transit), unresectable",
+            "setting": "First-line (for unresectable in-transit disease)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Interleukin-2 (IL-2)",
+                    "dose": "Intralesional injection",
+                    "route": "Intralesional",
+                    "schedule": "Per institutional protocol"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various phase II and observational studies",
+                "phase": "II",
+                "efficacy": "CR in injected lesions may be as high as 70%. 80% for dermal, 73% for subcutaneous lesions.",
+                "reference_numbers": [
+                    "ME-8A",
+                    "Weide 2010 (Cancer 2010;116:4139-4146)"
+                ]
+            },
+            "notes": "Intralesional IL-2 is far less toxic than high-dose IV IL-2. Grade 1–2 adverse effects are common but manageable, and grade 3–4 toxicities are extremely rare [ME-8A]. Intralesional IL-2 is usually associated with an injection site inflammatory reaction with local swelling, erythema, pain, and sometimes necrosis [ME-8A]. Listed as useful in certain circumstances when T-VEC is not available [ME-8A]."
+        },
+        {
+            "regimen_name": "Isolated Limb Infusion (ILI) with Melphalan-Based Regimen",
+            "site": "Melanoma: Cutaneous — Stage III (clinical satellite/in-transit), unresectable, extremity-only",
+            "setting": "First-line (for unresectable in-transit disease confined to an extremity)",
+            "treatment_modality": [
+                "regional therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Melphalan",
+                    "dose": "Per institutional protocol (typically based on limb volume)",
+                    "route": "Intra-arterial (via isolated limb circuit)",
+                    "schedule": "Single infusion procedure"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analyses",
+                "phase": "II (pooled)",
+                "efficacy": "ORR: 73%. CR: 33% (range 26%–44% across studies). PR: 40%. SD: 14%.",
+                "reference_numbers": [
+                    "ME-8A (fff)",
+                    "Kroon 2014 (J Surg Oncol 2014;109:348-351)"
+                ]
+            },
+            "notes": "ILI is primarily used for patients with limb-only disease with progression on/contraindications to standard therapies. This procedure should only be done at centers with experience with ILI/ILP [ME-8A]. ILI is associated with lower rates of toxicity and morbidity compared with ILP [MS-41]. Addition of papaverine for cutaneous vasodilation has been shown to increase response rate but also the risk of regional toxicity [MS-41]."
+        },
+        {
+            "regimen_name": "Isolated Limb Perfusion (ILP) with Melphalan-Based Regimen",
+            "site": "Melanoma: Cutaneous — Stage III (clinical satellite/in-transit), unresectable, extremity-only",
+            "setting": "First-line (for unresectable in-transit disease confined to an extremity)",
+            "treatment_modality": [
+                "regional therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Melphalan",
+                    "dose": "Per institutional protocol",
+                    "route": "Intra-arterial (via isolated limb circuit)",
+                    "schedule": "Single procedure under hyperthermic conditions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Systematic review (Moreno-Ramirez 2010)",
+                "phase": "Systematic review (22 trials, n = 2018)",
+                "efficacy": "Median ORR: 90% (range 64%–100%). Median CR rate: 58% (range 25%–89%). CR with single-agent melphalan: 47%; with melphalan/actinomycin D: 45%–65%; with melphalan/TNF-alfa: up to 70%.",
+                "reference_numbers": [
+                    "ME-8A",
+                    "MS-41",
+                    "Moreno-Ramirez 2010 (Oncologist 2010;15:416-427)"
+                ]
+            },
+            "notes": "ILP is technically complex and invasive, making it challenging (or contraindicated) in elderly and frail patients, and difficult to reuse in the same patient in the event of recurrence or progression [MS-41]. A randomized trial comparing hyperthermic ILP with single-agent melphalan to combination melphalan and TNF-alfa did not show a significant difference in response rate [MS-41]. TNF-alfa is currently unavailable for use in the United States [MS-41]."
+        },
+        {
+            "regimen_name": "Nivolumab/Ipilimumab (Second-Line/Subsequent — Preferred for Brain Metastases)",
+            "site": "Melanoma: Cutaneous — Unresectable stage III or Stage IV metastatic with brain metastases",
+            "setting": "First-line (for brain metastases specifically)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then 240 mg Q2W maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 204, CA209-170",
+                "phase": "II",
+                "n_patients": "CheckMate 204: 94 (nivo/ipi). CA209-170 cohort A: 36 (nivo/ipi).",
+                "efficacy": "CheckMate 204: Intracranial ORR 50%; intracranial CR 31%. CA209-170 cohort A (asymptomatic, no prior brain Tx): intracranial ORR 57%; intracranial PFS 13.8 months. Nivo1+ipi3 has demonstrated clinically meaningful intracranial activity.",
+                "reference_numbers": [
+                    "ME-J",
+                    "SYSCON 1",
+                    "Tawbi 2018 (N Engl J Med 2018;379:722-730)",
+                    "Tawbi 2021 (Lancet Oncol 2021;22:1692-1704)"
+                ]
+            },
+            "notes": "For systemic therapy in patients with asymptomatic brain metastasis not requiring corticosteroids, combination therapy with nivolumab/ipilimumab is preferred in comparison to anti-PD-1 monotherapy or BRAF/MEK inhibitors due to superior intracranial activity [ME-J, SYSCON-1]. Systemic corticosteroids may interfere with the efficacy of nivolumab/ipilimumab and should be avoided in patients being considered for combination nivolumab/ipilimumab [ME-J]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib for Brain Metastases",
+            "site": "Melanoma: Cutaneous — BRAF V600 mutant metastatic melanoma with brain metastases",
+            "setting": "First-line or second-line (for brain metastases)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "COMBI-MB",
+                "phase": "II, OL, multicohort",
+                "n_patients": "125 across 4 cohorts",
+                "efficacy": "Cohort A (asymptomatic, no prior systemic Tx, no prior local brain Tx): intracranial ORR 58%; median intracranial PFS 5.6 months; OS 10.8 months. Cohort D (symptomatic): intracranial ORR 59%; median intracranial PFS 5.5 months; OS 11.5 months.",
+                "reference_numbers": [
+                    "ME-J",
+                    "MELSYS 4",
+                    "Davies 2017 (Lancet Oncol 2017;18:863-873)"
+                ]
+            },
+            "notes": "BRAF/MEK inhibitors result in a high intracranial response rate; however, PFS is shorter than reported data for extracranial disease. Patients treated with this approach are very likely to need subsequent brain-directed therapy and should be monitored closely [ME-J]. Dabrafenib/trametinib combination therapy may provide higher rates of response than single-agent BRAF inhibitor therapy [ME-J]."
+        },
+        {
+            "regimen_name": "Stereotactic Radiosurgery (SRS) for Brain Metastases",
+            "site": "Melanoma: Cutaneous — Melanoma brain metastases",
+            "setting": "Brain-directed therapy",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (brain-directed therapy)",
+            "trial_data": {
+                "trial_name": "RTOG 90-05, various retrospective studies",
+                "phase": "Retrospective studies, dose escalation",
+                "efficacy": "1-year local tumor control rates from 72% to 100% for patients with limited CNS disease, but lower rates for patients with multiple or large (>2 cm) tumors.",
+                "reference_numbers": [
+                    "ME-H 3",
+                    "ME-J",
+                    "Shaw 2000 (Int J Radiat Oncol Biol Phys 2000;47:291-298)"
+                ]
+            },
+            "notes": "SRS is the preferred radiation modality for melanoma brain metastases and can be delivered to multiple lesions depending on local experience and technology [ME-J]. Large lesions should be treated with fractionated SRS (3–5 fractions) to decrease the risk of radionecrosis [ME-J]. Adjuvant WBRT is not recommended after SRS/SRT for melanoma brain metastases [ME-J]. Dosing guidelines: lesions ≤20 mm receive up to 24 Gy; lesions 21–30 mm receive up to 18 Gy; lesions 31–40 mm receive up to 15 Gy [ME-H 3]."
+        },
+        {
+            "regimen_name": "Stereotactic Body Radiation Therapy (SBRT) for Extracranial Oligometastases",
+            "site": "Melanoma: Cutaneous — Oligometastatic melanoma",
+            "setting": "Local ablative therapy",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various retrospective studies",
+                "phase": "Retrospective",
+                "efficacy": "Higher doses utilizing conformal techniques such as SBRT may offer more durable local control and freedom from regional or distant progression.",
+                "reference_numbers": [
+                    "ME-H 4",
+                    "Stinauer 2011 (Radiat Oncol 2011;6:34)",
+                    "Franceschini 2017 (Br J Radiol 2017;90:20170257)"
+                ]
+            },
+            "notes": "SBRT may be considered for selected patients with oligometastasis [ME-H 4]. This potential benefit must be weighed against potential toxicities, and strict adherence to normal tissue constraints is recommended. Spine SBRT regimens include 16–24 Gy in 1 fraction, 20–24 Gy in 2 fractions, 24–27 Gy in 3 fractions, or 25–40 Gy in 5 fractions. SBRT for other body sites include 48–60 Gy in 3 fractions, 40–60 Gy in 4–5 fractions, or 16–24 Gy in 1 fraction [ME-H 4]."
+        },
+        {
+            "regimen_name": "Pembrolizumab + Ipilimumab (Low-Dose) Combination Therapy (Brain Metastases — Alternative First-Line)",
+            "site": "Melanoma: Cutaneous — BRAF V600 mutant metastatic melanoma, symptomatic brain metastases, untreated",
+            "setting": "First-line (for symptomatic BRAF-mutated brain metastases)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Once daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600 mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "COMBI-MB (Davies 2017)",
+                "phase": "II, OL",
+                "n_patients": "17 (Cohort D: symptomatic brain metastases)",
+                "efficacy": "Cohort D: intracranial ORR 59%; median intracranial PFS 5.5 months; OS 11.5 months.",
+                "reference_numbers": [
+                    "ME-J",
+                    "Davies 2017 (Lancet Oncol 2017;18:863-873)"
+                ]
+            },
+            "notes": "For select patients who are symptomatic with BRAF-mutated melanoma who have not been previously treated with a BRAF/MEK inhibitor, BRAF/MEK inhibitor combination therapy results in a high intracranial response rate. PFS is shorter than for extracranial disease. Patients treated with this approach are very likely to need subsequent brain-directed therapy and should be monitored closely [ME-J]."
+        },
+        {
+            "regimen_name": "Nivolumab (Adjuvant for Resected Stage IV — Preferred)",
+            "site": "Melanoma: Cutaneous — Resected stage IV metastatic disease (oligometastatic)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CheckMate 238 (subset)",
+                "phase": "III, DB, RCT",
+                "efficacy": "Nivolumab showed clinically significant improvement in RFS compared to high-dose ipilimumab. For stage IV resected patients, category 1.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "Weber 2017"
+                ]
+            },
+            "notes": "Category 1 for resected stage IV. The NCCN Panel agrees that it is appropriate to extend the indication for adjuvant anti-PD-1 therapy to patients with clinical or macroscopic satellite/in-transit disease and who are at significant risk of recurrence [ADJSYS-1]."
+        },
+        {
+            "regimen_name": "Ipilimumab (Adjuvant for Resected Stage IV with Prior Anti-PD-1 — Category 1)",
+            "site": "Melanoma: Cutaneous — Resected stage IV metastatic disease with prior anti-PD-1 exposure",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for 4 doses, then every 12 weeks for up to 3 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "EORTC 18071 (extrapolated)",
+                "phase": "III",
+                "efficacy": "Ipilimumab is included as an adjuvant treatment option for patients with resected stage IV disease who have prior exposure to anti-PD-1 agents based on extrapolation of data demonstrating efficacy as adjuvant treatment for resected stage III disease.",
+                "reference_numbers": [
+                    "ADJSYS-1",
+                    "ADJSYS 2"
+                ]
+            },
+            "notes": "Category 1 for resected nodal recurrence with prior anti-PD-1. Ipilimumab is no longer a recommended first-line adjuvant option for stage III disease at presentation but remains useful for patients who progress during anti-PD-1 therapy with resectable disease [ADJSYS-1]. The recommended dose is 3 mg/kg."
+        },
+        {
+            "regimen_name": "Tebentafusp-tebn",
+            "site": "Metastatic uveal melanoma, HLA-A*02:01-positive",
+            "setting": "First-line (previously untreated)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tebentafusp-tebn",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HLA-A*02:01",
+                    "requirement": "positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "category 1",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase III randomized trial",
+                "phase": "III",
+                "n_patients": "378",
+                "os": "1-year OS 73% vs 59% (control)",
+                "pfs": "6-month PFS 31% vs 19%",
+                "hr": null,
+                "ci": null,
+                "orr": "9% vs 5%"
+            },
+            "notes": "Tebentafusp-tebn is a bispecific gp100-HLA-A*02:01-directed T-cell receptor and CD3 T-cell engager. Treatment resulted in longer overall survival compared to investigator's choice of pembrolizumab, ipilimumab, or dacarbazine. Response rates are low, so symptomatic patients may be better palliated by liver-directed treatment first or may respond better to ipilimumab/nivolumab. [526, 537]"
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line and previously treated",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Phase II trials (Pelster et al, GEM-1402)",
+                "phase": "II",
+                "n_patients": "35, 52",
+                "os": "median OS 19.1 months (Pelster), 12.7 months (GEM-1402)",
+                "pfs": "median PFS 5.5 months (Pelster), 3.0 months (GEM-1402)",
+                "hr": null,
+                "ci": null,
+                "orr": "18% (Pelster), 32% (GEM-1402)"
+            },
+            "notes": "Nivolumab/ipilimumab has shown modest improvement in OS over historical benchmarks of chemotherapy. The dose used is nivolumab 1 mg/kg and ipilimumab 3 mg/kg. It is unknown whether other dosing regimens are equally effective. [534, 535]"
+        },
+        {
+            "regimen_name": "Ipilimumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line or later lines",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "10 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 cycles, then every 12 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Phase II studies (Piulats et al, Zimmer et al)",
+                "phase": "II",
+                "n_patients": "32, 47",
+                "os": "median OS 9.8 months (Piulats), 6.8 months (Zimmer)",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "6.5% (Piulats), 0% (Zimmer)"
+            },
+            "notes": "Ipilimumab monotherapy has shown limited clinical activity in metastatic uveal melanoma. Response rates are low. [527, 528]"
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "First-line or later lines",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Prospective studies",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": "median PFS 2.3 to 11 months",
+                "hr": null,
+                "ci": null,
+                "orr": "6% to 38%"
+            },
+            "notes": "Pembrolizumab is an anti-PD-1 antibody. It has shown low response rates in uveal melanoma. [530, 531]"
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Metastatic uveal melanoma",
+            "setting": "After progression on ipilimumab",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 172",
+                "phase": "II",
+                "n_patients": "734 (all melanoma, uveal subset not specified)",
+                "os": "1-year OS 63%",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "32% at week 12"
+            },
+            "notes": "Nivolumab monotherapy is an option for patients with disease progression on ipilimumab. [532, 533]"
+        },
+        {
+            "regimen_name": "Dacarbazine",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II/III trials",
+                "phase": "II/III",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Dacarbazine is a cytotoxic chemotherapy with low response rates in uveal melanoma. [522, 524]"
+        },
+        {
+            "regimen_name": "Temozolomide",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Temozolomide is an oral alkylating agent with low response rates. [547]"
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Paclitaxel is a taxane chemotherapy with low response rates. [539]"
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "orr": "low response rates"
+            },
+            "notes": "Albumin-bound paclitaxel is a nanoparticle formulation of paclitaxel. [540]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial",
+                "phase": "III",
+                "n_patients": "823",
+                "os": "median OS 11.3 months",
+                "pfs": "median PFS 4.2 months",
+                "hr": null,
+                "ci": null,
+                "orr": "18%"
+            },
+            "notes": "Carboplatin/paclitaxel is a combination chemotherapy regimen. [548]"
+        },
+        {
+            "regimen_name": "Trametinib",
+            "site": "Metastatic uveal melanoma",
+            "setting": "Later lines",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "18",
+                "os": null,
+                "pfs": "median PFS 3.6 months",
+                "hr": null,
+                "ci": null,
+                "orr": "5.6%"
+            },
+            "notes": "Trametinib is a MEK inhibitor. It is included based on positive data for selumetinib and the general lack of systemic therapy options. [555, 563]"
+        },
+        {
+            "regimen_name": "Melphalan percutaneous hepatic perfusion",
+            "site": "Metastatic uveal melanoma, hepatic-dominant",
+            "setting": "For liver-dominant metastatic disease",
+            "treatment_modality": [
+                "locoregional therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Melphalan",
+                    "dose": null,
+                    "route": "hepatic intra-arterial",
+                    "schedule": "procedure-based"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II and phase III trials",
+                "phase": "II/III",
+                "n_patients": "91, 123",
+                "os": "median OS 19.3 months vs 14.5 months (P=0.14)",
+                "pfs": "median PFS 9 vs 3.1 months",
+                "hr": null,
+                "ci": null,
+                "orr": "36.3% vs 12.5%"
+            },
+            "notes": "Melphalan percutaneous hepatic perfusion is a liver-directed therapy for patients with hepatic-dominant metastatic uveal melanoma with <50% liver involvement. It requires overnight stay in ICU for hemodynamic monitoring and should be performed only at experienced centers. [472, 473]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.517927"
+}

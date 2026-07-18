@@ -1,0 +1,1436 @@
+{
+    "site_id": "occult_primary",
+    "site_display_name": "Occult Primary",
+    "archetype": "A",
+    "regimen_count": 38,
+    "regimens": [
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (3-weekly)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "First-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175–200 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Hellenic Cooperative Oncology Group phase II study",
+                "phase": "II",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "38.7%",
+                "ci": null
+            },
+            "notes": "Well tolerated with ORR of 38.7% in a phase II study. Preferred regimen for adenocarcinoma of unknown primary [1]."
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (weekly)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "First-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15, repeat every 4 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "Not specified",
+                "ci": null
+            },
+            "notes": "Weekly schedule may be better tolerated for community-based clinics [2]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "First-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000–1250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GEFCAPI 02 trial",
+                "phase": "II",
+                "n_patients": "52",
+                "os": "11 months",
+                "pfs": "5 months",
+                "hr": null,
+                "ororr": "55%",
+                "ci": null
+            },
+            "notes": "Active regimen with median OS of 11 months in GEFCAPI 02 trial. Superior to cisplatin alone [3]."
+        },
+        {
+            "regimen_name": "CAPEOX",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "First-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1000 mg/m2",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–14, repeat every 3 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "51",
+                "os": "7.5 months",
+                "pfs": "2.5 months",
+                "hr": null,
+                "ororr": "11.7%",
+                "ci": null
+            },
+            "notes": "Active and well-tolerated for presumed GI primary adenocarcinoma [4]."
+        },
+        {
+            "regimen_name": "FOLFIRI",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "First-line or second-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, infusion to match irinotecan"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then continuous infusion over 2 days, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Retrospective study",
+                "phase": "Retrospective",
+                "n_patients": "32",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "50%",
+                "ci": null
+            },
+            "notes": "Preferred for presumed GI primary with ORR of 50% in retrospective study [5-9]."
+        },
+        {
+            "regimen_name": "mFOLFOX6",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "First-line for advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then continuous infusion over 2 days, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Not specified",
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Preferred for presumed GI primary based on equivalence to CapeOx in colorectal cancer [4,10]."
+        },
+        {
+            "regimen_name": "Capecitabine",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1250 mg/m2",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–14, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase III trial (NSABP C-06)",
+                "phase": "III",
+                "n_patients": "1987",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Single-agent capecitabine improved relapse-free survival in colon cancer [11]."
+        },
+        {
+            "regimen_name": "Carboplatin/Docetaxel",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "65 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "Not specified",
+                "os": "16.2 months",
+                "pfs": "5.5 months",
+                "hr": null,
+                "ororr": "22%",
+                "ci": null
+            },
+            "notes": "Active and well-tolerated with median OS of 16.2 months [12]."
+        },
+        {
+            "regimen_name": "Carboplatin/Gemcitabine",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Adelaide Cancer Trials and Education Collaborative study",
+                "phase": "II",
+                "n_patients": "46",
+                "os": "34 weeks",
+                "pfs": "18 weeks",
+                "hr": null,
+                "ororr": "30.5%",
+                "ci": null
+            },
+            "notes": "Response rate of 30.5% with manageable toxicity [13]."
+        },
+        {
+            "regimen_name": "Carboplatin/Irinotecan",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "45",
+                "os": "12.2 months",
+                "pfs": "4.8 months",
+                "hr": null,
+                "ororr": "41.9%",
+                "ci": null
+            },
+            "notes": "ORR of 41.9% but significant hematologic toxicities [14]."
+        },
+        {
+            "regimen_name": "Roswell Park Fluorouracil/Leucovorin",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, 22, 29, and 36"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Bolus 1 hour after Leucovorin, repeat every 8 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "NSABP C-03",
+                "phase": "III",
+                "n_patients": "1081",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Improved DFS and OS in colon cancer adjuvant setting [17]."
+        },
+        {
+            "regimen_name": "Simplified Fluorouracil/Leucovorin",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then continuous infusion over 2 days, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Not specified",
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Standard regimen for GI cancers [18]."
+        },
+        {
+            "regimen_name": "Weekly Fluorouracil/Leucovorin (bolus)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Bolus 1 hour after Leucovorin, repeat every week"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Randomized multicenter trial",
+                "phase": "III",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Weekly schedule for advanced colorectal cancer [19]."
+        },
+        {
+            "regimen_name": "Weekly Fluorouracil/Leucovorin (infusion)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "2600 mg/m2",
+                    "route": "IV",
+                    "schedule": "24-hour infusion plus Leucovorin 500 mg/m2 Day 1, repeat every week"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Randomized multicenter trial",
+                "phase": "III",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Alternative weekly infusion schedule [19]."
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "60–75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "29",
+                "os": "16 months",
+                "pfs": "6 months",
+                "hr": null,
+                "ororr": "37.9%",
+                "ci": null
+            },
+            "notes": "Active with ORR of 37.9% and median OS of 16 months [15]."
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II trial",
+                "phase": "II",
+                "n_patients": "35",
+                "os": "10 months",
+                "pfs": "2 months",
+                "hr": null,
+                "ororr": "40%",
+                "ci": null
+            },
+            "notes": "Active with ORR of 40% and median OS of 10 months [16]."
+        },
+        {
+            "regimen_name": "Capecitabine with Concurrent Radiation",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For localized disease with radiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "625–825 mg/m2",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–5, repeat every week for 5 weeks with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Not specified",
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Concurrent chemoradiation for localized disease [20]."
+        },
+        {
+            "regimen_name": "Fluorouracil with Concurrent Radiation",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For localized disease with radiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "200–250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 24 hours daily Days 1–5, repeat every week for 5 weeks with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Not specified",
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Concurrent chemoradiation for localized disease [21]."
+        },
+        {
+            "regimen_name": "Carboplatin/Oral Etoposide/Paclitaxel",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease, PS ECOG 0–1",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175–200 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "50 mg/day alternating with 100 mg/day",
+                    "route": "PO",
+                    "schedule": "Days 1–10, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial",
+                "phase": "III",
+                "n_patients": "93",
+                "os": "7.4 months",
+                "pfs": "3.3 months",
+                "hr": null,
+                "ororr": "18%",
+                "ci": null
+            },
+            "notes": "For patients with PS ECOG 0–1. ORR of 18% but higher toxicity than paclitaxel/carboplatin [33]."
+        },
+        {
+            "regimen_name": "FOLFIRINOX",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease, PS ECOG 0–1",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then continuous infusion over 2 days, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "PRODIGE trial",
+                "phase": "III",
+                "n_patients": "342",
+                "os": "11.1 months",
+                "pfs": "6.4 months",
+                "hr": null,
+                "ororr": "31.6%",
+                "ci": null
+            },
+            "notes": "For PS ECOG 0–1 with presumed GI primary. Significant toxicity but improved outcomes in pancreatic cancer [34]."
+        },
+        {
+            "regimen_name": "Gemcitabine/Irinotecan",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For patients ineligible for platinum-based chemotherapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial",
+                "phase": "III",
+                "n_patients": "Not specified",
+                "os": "8.5 months",
+                "pfs": "5.3 months",
+                "hr": null,
+                "ororr": "18%",
+                "ci": null
+            },
+            "notes": "For patients ineligible for platinum therapy. ORR of 18% and median OS of 8.5 months [35]."
+        },
+        {
+            "regimen_name": "mFOLFIRINOX",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified (presumed GI primary)",
+            "setting": "For advanced/metastatic disease, PS ECOG 0–1",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 2 days, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase III trial (adjuvant pancreatic cancer)",
+                "phase": "III",
+                "n_patients": "493",
+                "os": "54 months",
+                "pfs": "22 months",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "For PS ECOG 0–1 with presumed GI primary. Improved DFS and OS in adjuvant pancreatic cancer but high toxicity [36,37]."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Tumor must have BRAF V600E mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI-MATCH trial Subprotocol H",
+                "phase": "II",
+                "n_patients": "29",
+                "os": "28.6 months",
+                "pfs": "11.4 months",
+                "hr": null,
+                "ororr": "38%",
+                "ci": "90% CI, 22.9%–54.9%"
+            },
+            "notes": "For BRAF V600E-mutated solid tumors that progressed after prior therapy. ORR of 38% and median OS of 28.6 months [22]."
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For recurrent or advanced disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks for 4 doses, then 1000 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "Tumor must be dMMR or MSI-H",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "GARNET study",
+                "phase": "I",
+                "n_patients": "209",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "42%",
+                "ci": null
+            },
+            "notes": "For dMMR solid tumors that progressed on prior therapy. ORR of 42% with median duration of response of 35 months [23]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (dMMR/MSI-H)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg or 2 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "400 mg or 4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "Tumor must be dMMR or MSI-H",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233",
+                "os": "24 months",
+                "pfs": "4 months",
+                "hr": null,
+                "ororr": "34.3%",
+                "ci": null
+            },
+            "notes": "For dMMR/MSI-H solid tumors. ORR of 34.3% with median OS of 24 months [24-26]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (TMB-H)",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg or 2 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "400 mg or 4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "TMB-H",
+                    "requirement": "TMB ≥10 mut/Mb",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "102",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "29%",
+                "ci": null
+            },
+            "notes": "For TMB-H solid tumors. ORR of 29% with median duration of response not reached [24,25,30]."
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Tumor must have NTRK gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Pooled analysis of three trials",
+                "phase": "I/II",
+                "n_patients": "54",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "57%",
+                "ci": "95% CI, 43.2%–70.8%"
+            },
+            "notes": "For NTRK fusion-positive solid tumors. ORR of 57% with median duration of response of 10 months [27]."
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Tumor must have NTRK gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Three protocols",
+                "phase": "I/II",
+                "n_patients": "55",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "75%",
+                "ci": "95% CI, 61%–85%"
+            },
+            "notes": "For NTRK fusion-positive solid tumors. ORR of 75% with 71% maintaining response at 1 year [28]."
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "Once daily for 14 days, then twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Tumor must have NTRK gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1 trial",
+                "phase": "I/II",
+                "n_patients": "69",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "48%",
+                "ci": "95% CI, 36%–60%"
+            },
+            "notes": "For NTRK fusion-positive solid tumors. ORR of 48% in TKI-pretreated cohort [29]."
+        },
+        {
+            "regimen_name": "Selpercatinib",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "120 mg if <50 kg, 160 mg if ≥50 kg",
+                    "route": "PO",
+                    "schedule": "Twice daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Tumor must have RET gene fusion",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001 trial",
+                "phase": "I/II",
+                "n_patients": "41",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "44%",
+                "ci": null
+            },
+            "notes": "For RET fusion-positive solid tumors. ORR of 44% in evaluable patients [32]."
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki",
+            "site": "Occult Primary, Adenocarcinoma or Carcinoma Not Otherwise Specified",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2-positive (IHC 3+)",
+                    "requirement": "Tumor must be HER2-positive by IHC 3+",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02 phase II trial",
+                "phase": "II",
+                "n_patients": "267",
+                "os": "21.1 months",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "61.3%",
+                "ci": "95% CI, 49.4%–72.4%"
+            },
+            "notes": "For HER2-positive solid tumors. ORR of 61.3% and median OS of 21.1 months [31]."
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "700 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion Days 1–5, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Retrospective analysis",
+                "phase": "Retrospective",
+                "n_patients": "11",
+                "os": "10 months",
+                "pfs": "3 months",
+                "hr": null,
+                "ororr": "54.5%",
+                "ci": null
+            },
+            "notes": "Historically used for metastatic SCC. Response rate of 54.5% [43]."
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000–1250 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "GEFCAPI 02 trial",
+                "phase": "II",
+                "n_patients": "52",
+                "os": "11 months",
+                "pfs": "5 months",
+                "hr": null,
+                "ororr": "55%",
+                "ci": null
+            },
+            "notes": "Active with median OS of 11 months [3]."
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "II",
+                "n_patients": "37",
+                "os": "11 months",
+                "pfs": "4 months",
+                "hr": null,
+                "ororr": "42%",
+                "ci": "95% CI, 23%–61%"
+            },
+            "notes": "ORR of 42% with median OS of 11 months [44]."
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil with Concurrent Radiation (35-day cycle)",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For localized disease with radiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75–100 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1 and 29"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "750–1000 mg/m2",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 24 hours daily Days 1–4 and 29–32, 35-day cycle with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "CALGB 9781",
+                "phase": "III",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Concurrent chemoradiation for esophageal cancer [45]."
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil with Concurrent Radiation (21-day cycle)",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For localized disease with radiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "15 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "800 mg/m2",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 24 hours daily Days 1–5, 21-day cycle for 2 cycles with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "FFCD 9102",
+                "phase": "III",
+                "n_patients": "Not specified",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": null,
+                "ci": null
+            },
+            "notes": "Alternative concurrent chemoradiation schedule for esophageal cancer [46]."
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel/Fluorouracil",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For advanced/metastatic disease, PS ECOG 0–1",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "750 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion Days 1–5, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Randomized trial",
+                "phase": "III",
+                "n_patients": "213",
+                "os": "Not specified",
+                "pfs": "Not specified",
+                "hr": null,
+                "ororr": "80%",
+                "ci": null
+            },
+            "notes": "For PS ECOG 0–1. ORR of 80% in head and neck cancer but significant toxicity [47]."
+        },
+        {
+            "regimen_name": "Pembrolizumab (dMMR/MSI-H or TMB-H)",
+            "site": "Occult Primary, Squamous Cell Carcinoma",
+            "setting": "For advanced/metastatic disease after prior treatment",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg or 2 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 3 weeks"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "400 mg or 4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H or TMB-H",
+                    "requirement": "Tumor must be dMMR/MSI-H or TMB-H (≥10 mut/Mb)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "233",
+                "os": "24 months",
+                "pfs": "4 months",
+                "hr": null,
+                "ororr": "34.3%",
+                "ci": null
+            },
+            "notes": "For dMMR/MSI-H or TMB-H solid tumors [24-26,30]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:20.104145"
+}

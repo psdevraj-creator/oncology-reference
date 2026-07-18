@@ -1,0 +1,651 @@
+{
+    "site_id": "penile",
+    "site_display_name": "Penile Cancer",
+    "archetype": "B",
+    "regimen_count": 28,
+    "regimens": [
+        {
+            "regimen_name": "Topical Imiquimod 5% Cream",
+            "site": "Penis (PeIN or Ta)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "topical therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imiquimod 5%",
+                    "dose": "apply at night",
+                    "route": "topical",
+                    "schedule": "three times per week for 4–16 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "For patients with PeIN or Ta disease. Application site reactions may occur. Monitor for adherence and toxicity. Longer, less frequent application may have better response than shorter, more frequent application."
+        },
+        {
+            "regimen_name": "Topical Fluorouracil 5% Cream",
+            "site": "Penis (PeIN or Ta)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "topical therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil 5%",
+                    "dose": "apply twice daily",
+                    "route": "topical",
+                    "schedule": "for 2–6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "For patients with PeIN or Ta disease. Response rates vary (48% to 74%). Local toxicity and adverse events may occur. Treatment duration may be adjusted based on clinical response."
+        },
+        {
+            "regimen_name": "Laser Therapy (CO2, Nd:YAG, KTP)",
+            "site": "Penis (PeIN, Ta, pT1a)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "local therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "The use of therapeutic lasers (CO2, Nd:YAG, and KTP) to treat selected (clinical stage PeIN, Ta, and pT1a) primary penile tumors has been reported with acceptable outcomes. Perioperative application of 3%–5% acetic acid can identify HPV-infected skin. A plume evacuator is required. Laser settings vary by type (see Principles of Penile Organ-Sparing Approaches)."
+        },
+        {
+            "regimen_name": "Glansectomy with Skin Graft",
+            "site": "Penis (PeIN, Ta, T1)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Glansectomy may be considered for select patients with distal tumors (clinical stage PeIN, Ta, T1) on the glans or prepuce. For patients with pT1a disease, glansectomy is not recommended unless required to ensure complete tumor eradication with negative margins. Negative surgical margins should be determined from frozen sections. Treatment may be followed with a split- or full-thickness skin graft to create a neoglans. Local recurrence rates are low (2.6% to 16.7%)."
+        },
+        {
+            "regimen_name": "Wide Local Excision with Skin Graft",
+            "site": "Penis (PeIN, Ta, T1)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "For early-stage penile cancer confined to the skin with little or no invasion (clinical stage PeIN, Ta, T1). Surgical margins depend on location. Complete excision of the skin with a wide negative margin is needed and may require a split-thickness skin graft (STSG) or full-thickness skin graft (FTSG). If positive surgical margin(s), re-resection should be considered. 2-year recurrence rate may reach up to 50%."
+        },
+        {
+            "regimen_name": "Mohs Micrographic Surgery",
+            "site": "Penis (PeIN, Ta, T1)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "An alternative to wide local excision in select cases. Thin layers of cancerous skin are excised and viewed microscopically until a tissue layer is negative for the tumor. Allows for increased precision, although the success rate declines with higher stage disease. May be preferable for a small superficial lesion on the proximal shaft to avoid total penectomy for an otherwise fairly low-risk lesion."
+        },
+        {
+            "regimen_name": "Brachytherapy Alone (Interstitial Implant)",
+            "site": "Penis (T1–2, N0; tumor <4 cm)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For primary penile cancer (T1–2, N0) with tumor <4 cm, circumcision followed by brachytherapy alone (category 2B) should be performed with interstitial implant. Brachytherapy should only be performed in centers with significant experience. A 10-year cancer-specific survival of 92% has been reported for tumors confined to the glans."
+        },
+        {
+            "regimen_name": "External Beam Radiation Therapy (EBRT) Alone",
+            "site": "Penis (T1–2, N0; tumor <4 cm)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For primary penile cancer (T1–2, N0) with tumor <4 cm, EBRT alone (category 2B) total dose 65–70 Gy with conventional fractionation using appropriate bolus to primary penile lesion with 2 cm margins. Consider prophylactic EBRT to inguinal lymph nodes in patients who are not surgical candidates or who decline surgical management."
+        },
+        {
+            "regimen_name": "EBRT with Concurrent Chemotherapy",
+            "site": "Penis (T1–2, N0; tumor ≥4 cm or node-positive, surgically unresectable)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 3",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "For tumors ≥4 cm or node-positive disease that is surgically unresectable, circumcision followed by EBRT combined with chemotherapy (category 3). Total dose 65–70 Gy with conventional fractionation using appropriate bolus to primary penile lesion with 2 cm margins. For potential radiosensitizing agents, see Principles of Systemic Therapy."
+        },
+        {
+            "regimen_name": "Partial Penectomy",
+            "site": "Penis (pT1b, T2 or greater)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Partial penectomy should be considered the standard for high-grade primary penile tumors, provided that a functional penile stump can be preserved and negative margins are obtained. If a partial penectomy is not possible, a total penectomy should be performed. Intraoperative frozen sections are recommended to determine negative margins."
+        },
+        {
+            "regimen_name": "Total Penectomy",
+            "site": "Penis (pT1b, T2 or greater)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Total penectomy is necessary when there is invasion into the corpora cavernosum in order to achieve a negative margin, or if partial penectomy is not possible. Intraoperative frozen sections are recommended."
+        },
+        {
+            "regimen_name": "Bilateral Inguinal Lymph Node Dissection (ILND)",
+            "site": "Inguinal lymph nodes (intermediate/high-risk non-palpable)",
+            "setting": "Surgical staging/treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Indicated for patients with intermediate/high-risk features (T1b or any T2 or greater) and clinically negative groins. A modified/superficial inguinal dissection with intraoperative frozen section is an acceptable alternative. If positive lymph nodes are found on frozen section, convert to standard, full-template lymphadenectomy. Consider prophylactic EBRT (category 2B) to inguinal lymph nodes in patients who are not surgical candidates or who decline surgical management."
+        },
+        {
+            "regimen_name": "Dynamic Sentinel Node Biopsy (DSNB)",
+            "site": "Inguinal lymph nodes (intermediate/high-risk non-palpable)",
+            "setting": "Surgical staging",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "DSNB is recommended provided the treating physician has experience with this modality. If positive lymph nodes are found on DSNB, ILND is recommended. DSNB should be performed at tertiary care referral centers where at least 20 procedures are done per year. Not recommended in patients with palpable inguinal lymph nodes."
+        },
+        {
+            "regimen_name": "Percutaneous Lymph Node Biopsy",
+            "site": "Inguinal lymph nodes (palpable non-bulky or bulky)",
+            "setting": "Diagnostic procedure",
+            "treatment_modality": [
+                "diagnostic procedure"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Ultrasound- or CT-guided biopsy of the most accessible node, inguinal or pelvic. For patients with palpable nodes, this is favored to distinguish reactive lymph nodes from metastatic disease. A negative lymph node biopsy may be confirmed with an excisional biopsy."
+        },
+        {
+            "regimen_name": "Neoadjuvant TIP (Paclitaxel/Ifosfamide/Cisplatin)",
+            "site": "Inguinal lymph nodes (palpable bulky or enlarged pelvic)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 3 hours on Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1200 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Pagliaro et al. phase II study",
+                "phase": "II",
+                "n_patients": "30",
+                "primary_endpoint": "response rate",
+                "outcome": "50% response rate; improved PFS and OS associated with objective response"
+            },
+            "notes": "Preferred neoadjuvant chemotherapy prior to ILND or PLND in patients with ≥4 cm inguinal lymph nodes (fixed or mobile) if FNA is positive for metastatic penile cancer. Patients not eligible for TIP and who are surgical candidates should undergo surgery without neoadjuvant chemotherapy. Repeat every 3 to 4 weeks. Four courses are typically given."
+        },
+        {
+            "regimen_name": "Adjuvant TIP (Paclitaxel/Ifosfamide/Cisplatin)",
+            "site": "Inguinal/pelvic lymph nodes (post-ILND/PLND)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 3 hours on Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1200 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "By extrapolation from neoadjuvant data, it is reasonable to give 4 courses of TIP in the adjuvant setting if it was not given preoperatively and the pathology shows high-risk features. High-risk features include pelvic lymph node metastases, extranodal extension, bilateral inguinal lymph nodes involved, and ≥4 cm tumor in lymph nodes."
+        },
+        {
+            "regimen_name": "Adjuvant Cisplatin/Fluorouracil",
+            "site": "Inguinal/pelvic lymph nodes (post-ILND/PLND)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "800–1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion on Days 1–4 or Days 2–5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "70–80 mg/m2",
+                    "route": "IV",
+                    "schedule": "on Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Can be considered as an alternative to TIP in the adjuvant setting. There are no sufficient data to form conclusions about the use of adjuvant chemotherapy. Repeat every 3 to 4 weeks. For more information regarding DPYD testing, see NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Adjuvant Radiation Therapy or Chemoradiation",
+            "site": "Inguinal/pelvic lymph nodes (post-ILND/PLND)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": null,
+            "notes": "Can be considered for patients with high-risk features (pelvic lymph node metastases, extranodal extension, bilateral inguinal lymph nodes involved, ≥4 cm tumor in lymph nodes). EBRT to 45–50.4 Gy to inguinal and pelvic lymph nodes; boost gross nodes and areas of extracapsular extension to a total dose of 65–70 Gy. Treat primary site of disease if positive margin."
+        },
+        {
+            "regimen_name": "First-line TIP for Metastatic Disease",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 3 hours on Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": "1200 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 2 hours on Days 1–3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "Pagliaro et al. phase II study",
+                "phase": "II",
+                "n_patients": "30",
+                "primary_endpoint": "response rate",
+                "outcome": "50% response rate; improved PFS and OS associated with objective response"
+            },
+            "notes": "TIP is a reasonable first-line treatment for patients with metastatic penile cancer, including palliative treatment of patients with distant metastases. Repeat every 3 to 4 weeks. No randomized clinical trials due to rarity of penile cancer."
+        },
+        {
+            "regimen_name": "First-line Cisplatin/Fluorouracil",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "800–1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion on Days 1–4 or Days 2–5"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "70–80 mg/m2",
+                    "route": "IV",
+                    "schedule": "on Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": null,
+            "notes": "Cisplatin/Fluorouracil has been used historically for metastatic penile cancer and can be considered as an alternative to TIP. It appears to be effective for some patients, although the toxicities may be limiting and may require dose reductions. Repeat every 3 to 4 weeks. For more information regarding DPYD testing, see NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "First-line Cisplatin/Fluorouracil + Pembrolizumab followed by Pembrolizumab maintenance",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion daily on Days 1–4"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "70 mg/m2",
+                    "route": "IV",
+                    "schedule": "on Day 1"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "on Day 1 every 3 weeks for 6 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "HERCULES (LACOG 0218)",
+                "phase": "II",
+                "n_patients": "37",
+                "primary_endpoint": "ORR",
+                "outcome": "ORR 39.4%; median PFS 5.4 months; median OS 9.6 months"
+            },
+            "notes": "Followed by maintenance Pembrolizumab 200 mg IV on Day 1 every 3 weeks for up to 34 cycles. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions. Nonrandomized phase II trial."
+        },
+        {
+            "regimen_name": "First-line Carboplatin/Fluorouracil + Pembrolizumab followed by Pembrolizumab maintenance",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "on Day 1"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "on Day 1 every 3 weeks for 6 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "HERCULES (LACOG 0218)",
+                "phase": "II",
+                "n_patients": "37",
+                "primary_endpoint": "ORR",
+                "outcome": "ORR 39.4%; median PFS 5.4 months; median OS 9.6 months"
+            },
+            "notes": "Followed by maintenance Pembrolizumab 200 mg IV on Day 1 every 3 weeks for up to 34 cycles. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions. Nonrandomized phase II trial."
+        },
+        {
+            "regimen_name": "Subsequent-line Pembrolizumab Monotherapy (MSI-H/dMMR or TMB-H)",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "Subsequent-line systemic therapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks (or 400 mg every 6 weeks)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H or dMMR",
+                    "requirement": "tumor must be MSI-H or dMMR",
+                    "mandatory": true
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "TMB ≥10 mut/Mb",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158",
+                "phase": "II",
+                "n_patients": "not specified for penile cancer",
+                "primary_endpoint": "ORR",
+                "outcome": "ORR 34.3% (MSI-H/dMMR); median PFS 4.1 months; median OS 23.5 months"
+            },
+            "notes": "Pembrolizumab is preferred for subsequent-line treatment in patients with unresectable or metastatic MSI-H/dMMR or TMB-H tumors that have progressed following prior treatment and no satisfactory alternative treatment options. Any tumor-agnostic labels that cover penile cancer can be used based on results of MGPT. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab."
+        },
+        {
+            "regimen_name": "Subsequent-line Paclitaxel",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "Subsequent-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Di Lorenzo et al. phase 2 study",
+                "phase": "II",
+                "n_patients": "25",
+                "primary_endpoint": "response rate",
+                "outcome": "activity reported"
+            },
+            "notes": "May be considered in select patients, especially if not previously treated with a similar class of agent. No standard subsequent-line systemic therapy exists. Evidence to support palliative use of second-line therapy is limited."
+        },
+        {
+            "regimen_name": "Subsequent-line Cetuximab",
+            "site": "Metastatic/recurrent penile cancer",
+            "setting": "Subsequent-line systemic therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cetuximab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Carthon et al. phase II study",
+                "phase": "II",
+                "n_patients": "not specified",
+                "primary_endpoint": "response rate",
+                "outcome": "activity reported"
+            },
+            "notes": "May be considered in select patients, especially if not previously treated with a similar class of agent. No standard subsequent-line systemic therapy exists. Evidence to support palliative use of second-line therapy is limited."
+        },
+        {
+            "regimen_name": "Chemoradiation with Cisplatin +/- Fluorouracil",
+            "site": "Penile cancer (various settings)",
+            "setting": "Definitive or adjuvant",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred radiosensitizing agent combination for chemoradiation. Used for definitive treatment (category 3) or adjuvant setting. For potential agents and combinations, see Principles of Systemic Therapy."
+        },
+        {
+            "regimen_name": "Chemoradiation with Fluorouracil/Mitomycin",
+            "site": "Penile cancer (various settings)",
+            "setting": "Definitive or adjuvant",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": null,
+            "notes": "Preferred radiosensitizing agent combination for chemoradiation. Extrapolated from anal cancer studies."
+        },
+        {
+            "regimen_name": "Chemoradiation with Capecitabine",
+            "site": "Penile cancer (various settings)",
+            "setting": "Definitive or adjuvant",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": null,
+            "notes": "Other recommended radiosensitizing agent for chemoradiation. Extrapolated from rectal and anal cancer studies. For more information regarding DPYD testing, see NCCN Guidelines for Colon Cancer."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T17:00:33.006250"
+}

@@ -1,0 +1,2871 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Surgical Resection (Lobectomy) with Adjuvant Chemotherapy",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "surgery",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin/Etoposide (preferred)",
+                    "dose": "Cisplatin 75 mg/m² Day 1 and Etoposide 100 mg/m² Days 1, 2, 3",
+                    "route": "IV",
+                    "schedule": "Every 21 days, 4 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Nodal status",
+                    "requirement": "Clinical stage I-IIA (T1-2,N0,M0) with negative pathologic lymph node staging required before surgery",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Retrospective and SEER data",
+                "phase": "Retrospective",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": "5-year survival 40%-60% in patients with stage I disease",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Fewer than 5% of SCLC patients have true stage I-IIA disease [84]. Preferred operation is lobectomy with mediastinal lymph node dissection or systematic lymph node sampling (≥3 N2 and ≥1 N1 stations) [3-7]. Pneumonectomy should not be performed if needed to encompass nodal metastatic disease. Patients with N+ disease should receive concurrent or sequential chemoradiation. Patients with N1 may be considered for postoperative mediastinal radiation [97]. Small lesions presumed to be SCLC in non-smokers should be resected as they are likely misdiagnosed carcinoids. The Lung Cancer Study Group prospective randomized trial (Lad et al.) showed no benefit to surgery in patients who had responded to induction chemotherapy [92].",
+            "source_citation": {
+                "reference_numbers": [
+                    "84",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "92",
+                    "94",
+                    "95",
+                    "96",
+                    "97"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Stereotactic Ablative Radiotherapy (SABR) followed by Adjuvant Systemic Therapy",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for medically inoperable or inoperable stage I-IIA",
+            "treatment_modality": [
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "SABR to primary tumor",
+                    "dose": "Per SABR principles (see NCCN NSCLC guidelines)",
+                    "route": "External beam",
+                    "schedule": "Per SABR protocols"
+                },
+                {
+                    "name": "Systemic therapy (cisplatin/etoposide or carboplatin/etoposide)",
+                    "dose": "Per Principles of Systemic Therapy (SCL-E)",
+                    "route": "IV",
+                    "schedule": "Adjuvant, 4 cycles after SABR"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Performance status",
+                    "requirement": "Good PS required for adjuvant systemic therapy",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multi-institutional meta-analysis and SEER analysis",
+                "phase": "Meta-analysis of 7 studies (399 patients)",
+                "n_patients": "399 (meta-analysis); 2107 (SEER/NCDB analysis)",
+                "os_median": "31.4 months with SABR + chemotherapy vs. 14.3 months SABR alone (P=.02) [271]; 29.2 months SABR/chemotherapy vs. 31.2 months concurrent chemoradiation (P=.77) [10]",
+                "os_rates": "1-year OS 86% (95% CI, 74%-95%); 2-year OS 64% (95% CI, 46%-80%) [270]",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "SABR (also known as SBRT) is an option for select patients with clinically limited-stage I-IIA (T1-2,N0) SCLC who are medically inoperable or decline surgery [12,271]. Systemic therapy may be initiated first if time to initiation of SABR will be prolonged. 44% of patients in meta-analysis received chemotherapy and 13.8% received PCI [270]. Both ASTRO and the American Radium Society recommend SABR followed by adjuvant chemotherapy for medically inoperable patients [236,237]. Principles of SABR for SCLC are similar to those for NSCLC.",
+            "source_citation": {
+                "reference_numbers": [
+                    "12",
+                    "14",
+                    "265",
+                    "266",
+                    "267",
+                    "268",
+                    "269",
+                    "270",
+                    "271"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Concurrent Radiation Therapy (45 Gy BID)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for limited-stage IIB-IIIC (T3-4,N0,M0; T1-4,N1-3,M0)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Performance status",
+                    "requirement": "Good PS (0-2) required for concurrent chemoradiation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A (changed from Category 1 in Version 1.2027)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CONVERT trial",
+                "phase": "Phase 3 randomized",
+                "n_patients": "547",
+                "os_median": "30 months (45 Gy BID) vs. 25 months (66 Gy QD) [105]",
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "70%-90% response rates with cisplatin/etoposide + thoracic RT [105,106]"
+            },
+            "notes": "Four cycles of cytotoxic chemotherapy are recommended. Planned cycle length should be every 21-28 days during concurrent RT. RT should start early, with cycle 1 or 2 of systemic therapy (category 1) [10]. A shorter time from the start of any therapy to the end of RT (SER) is significantly associated with improved survival [11]. Accelerated 45 Gy in 3 weeks (1.5 Gy twice daily) is category 1 based on INT 0096 [19,20]. When BID fractionation is used, there should be at least a 6-hour interfraction interval. Use of myeloid growth factors is not recommended during concurrent cytotoxic chemotherapy plus RT (category 1 for not using GM-CSF) [1]. IMRT is preferred over 3D-CRT [1].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "19",
+                    "20",
+                    "105",
+                    "106",
+                    "10",
+                    "11"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Concurrent Radiation Therapy (66-70 Gy QD)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for limited-stage IIB-IIIC (T3-4,N0,M0; T1-4,N1-3,M0)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Performance status",
+                    "requirement": "Good PS (0-2) required",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CALGB 30610 (Alliance)/RTOG 0538",
+                "phase": "Phase 3 randomized",
+                "n_patients": "638",
+                "os_median": "30.5 months (70 Gy) vs. 28.5 months (45 Gy BID) (HR, 0.94; 95% CI, 0.75-1.17; P=.591) [29]",
+                "os_rates": null,
+                "hr": "0.94 (95% CI, 0.75-1.17)",
+                "ci": "0.75-1.17",
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Higher doses of 66-70 Gy are preferred if using once-daily fractionation. Two randomized phase 3 trials did not demonstrate superiority of 66-70 Gy over 45 Gy BID, but OS and toxicity were similar [28-30]. Recent phase 2/3 trials suggest high-dose accelerated RT (54-65 Gy) may produce improved OS or PFS compared to standard 45 Gy BID [31-34]. The CONVERT trial compared 45 Gy BID vs. 66 Gy QD [28]. CALGB 30610/RTOG 0538 compared 70 Gy QD vs. 45 Gy BID [29].",
+            "source_citation": {
+                "reference_numbers": [
+                    "24",
+                    "25",
+                    "26",
+                    "27",
+                    "28",
+                    "29",
+                    "30",
+                    "31",
+                    "32",
+                    "33",
+                    "34"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Concurrent Radiation Therapy (60 mg/m² cisplatin)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for limited-stage IIB-IIIC",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "60 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "120 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Performance status",
+                    "requirement": "Good PS (0-2) required",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A (changed from Category 1 in Version 1.2027)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INT 0096 / RTOG trial",
+                "phase": "Phase 3 randomized",
+                "n_patients": "412",
+                "os_median": "23 months (45 Gy BID) vs. 19 months (45 Gy QD) (P=.04) [3]",
+                "os_rates": "5-year OS 26% (BID) vs. 16% (QD) [3]",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "This cisplatin/etoposide dosing is based on the regimen used in the Turrisi et al. 1999 trial [3]. The 45 Gy BID over 3 weeks is category 1 superior to 45 Gy QD over 5 weeks. A shorter time from start of therapy to end of RT is associated with improved survival.",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide + Concurrent Radiation Therapy",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for limited-stage IIB-IIIC (when cisplatin contraindicated or not tolerated)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Cisplatin tolerance",
+                    "requirement": "Cisplatin contraindicated or not tolerated",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ADRIATIC trial subgroup analysis",
+                "phase": "Phase 3 randomized (subgroup)",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Carboplatin/etoposide is listed as a preferred option for limited-stage SCLC based on the subgroup analysis in the ADRIATIC trial [115,116]. This is listed as an option when cisplatin is contraindicated or not tolerated [footnote a]. Use of carboplatin carries a greater risk of myelosuppression compared to cisplatin [104].",
+            "source_citation": {
+                "reference_numbers": [
+                    "4",
+                    "115",
+                    "116"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Concurrent Radiation Therapy (25 mg/m² cisplatin Days 1-3)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for limited-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "JCOG trial",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "This is a split-dose cisplatin regimen with both cisplatin and etoposide administered on days 1, 2, and 3. Listed as an Other Recommended option for limited-stage SCLC. Four cycles are recommended.",
+            "source_citation": {
+                "reference_numbers": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Durvalumab Consolidation After Chemoradiation",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Adjuvant/consolidation for limited-stage SCLC after completion of systemic therapy + concurrent RT with no disease progression",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 every 28 days for up to 24 months"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Disease response",
+                    "requirement": "No disease progression after systemic therapy + concurrent RT",
+                    "mandatory": true
+                },
+                {
+                    "marker": "Performance status",
+                    "requirement": "Good PS required",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "ADRIATIC",
+                "phase": "Phase 3 randomized",
+                "n_patients": "530 (264 durvalumab vs. 266 placebo)",
+                "os_median": "55.9 months (durvalumab) vs. 33.4 months (placebo) (P=.01)",
+                "os_rates": "Statistically significant OS improvement",
+                "hr": null,
+                "ci": null,
+                "pfs_median": "16.6 months (durvalumab) vs. 9.2 months (placebo) (P=.02)",
+                "orr": null
+            },
+            "notes": "Category 1 recommendation based on ADRIATIC trial [5]. Durvalumab may be continued until disease progression or intolerable toxicity, or for a maximum of 24 months. Imaging every 8 weeks for the first 18 months and every 12 weeks after [footnote aa]. If PCI is considered, it should be given prior to durvalumab [footnote y]. For those with good PS who are medically inoperable or decision was made not to pursue surgical resection [footnote z].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "115"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide + Atezolizumab followed by Maintenance Atezolizumab (1200 mg Q3W)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC (without localized symptomatic sites or brain metastases)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, every 21 days x 4 cycles (induction), then maintenance 1200 mg Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 expression",
+                    "requirement": "Not required; used regardless of PD-L1 status",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "IMpower133",
+                "phase": "Phase 3 randomized",
+                "n_patients": "403",
+                "os_median": "12.3 months (atezolizumab + chemo) vs. 10.3 months (chemo alone) (HR, 0.76; 95% CI, 0.6-0.95; P=.0154) [118]",
+                "os_rates": "1-year OS 51.9% (atezolizumab) vs. 39.0% (chemo alone)",
+                "hr": "0.76 (95% CI, 0.6-0.95)",
+                "ci": "0.6-0.95",
+                "pfs_median": null,
+                "orr": "60% (atezolizumab + chemo) vs. 64% (chemo alone)"
+            },
+            "notes": "Category 1 for all components. Four cycles of cytotoxic chemotherapy are recommended, but some patients may receive up to 6 cycles based on response and tolerability [118,120]. Grade 3-4 adverse events: 67.7% (atezolizumab regimen) vs. 63.3% (chemo alone). Deaths: 4 (2%) in atezolizumab group vs. 11 (5.6%) in chemo alone group. Contraindications for PD-1/PD-L1 inhibitors include active or previously documented autoimmune disease and/or concurrent use of immunosuppressive agents [footnote d]. Maintenance immunotherapy should continue until progression or intolerable toxicity [footnote e]. Atezolizumab and hyaluronidase-tqjs subcutaneous injection may be substituted for IV atezolizumab [footnote f].",
+            "source_citation": {
+                "reference_numbers": [
+                    "6",
+                    "118",
+                    "120"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide + Atezolizumab followed by Maintenance Atezolizumab (1680 mg Q4W)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg (induction) / 1680 mg (maintenance)",
+                    "route": "IV",
+                    "schedule": "Induction: Day 1 every 21 days x 4 cycles; Maintenance: 1680 mg Day 1 every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 expression",
+                    "requirement": "Not required",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "IMpower133",
+                "phase": "Phase 3 randomized",
+                "n_patients": "403",
+                "os_median": "See IMpower133 data above",
+                "os_rates": null,
+                "hr": "0.76 (95% CI, 0.6-0.95)",
+                "ci": "0.6-0.95",
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "The 1680 mg every 28 days dose is an FDA-approved alternative schedule for maintenance atezolizumab. Category 1 recommendation is only for the 1200 mg dose based on the dose used in the clinical trial. Both atezolizumab and hyaluronidase-tqjs subcutaneous injection formulations are available.",
+            "source_citation": {
+                "reference_numbers": [
+                    "6",
+                    "118",
+                    "120"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide + Atezolizumab followed by Maintenance Lurbinectedin + Atezolizumab",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC (maintenance phase)",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Atezolizumab",
+                    "dose": "1200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1 (induction and maintenance)"
+                },
+                {
+                    "name": "Lurbinectedin",
+                    "dose": "3.2 mg/m²",
+                    "route": "IV",
+                    "schedule": "Maintenance: Day 1 every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Disease response",
+                    "requirement": "At least stable disease following 4 cycles of induction chemoimmunotherapy",
+                    "mandatory": true
+                },
+                {
+                    "marker": "Performance status",
+                    "requirement": "ECOG PS 0-1",
+                    "mandatory": true
+                },
+                {
+                    "marker": "Brain metastases",
+                    "requirement": "No history of brain metastases",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "IMforte",
+                "phase": "Phase 3 randomized",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": "0.73 (stratified, 95% CI, 0.57-0.95; P=.017) for OS",
+                "ci": "0.57-0.95",
+                "pfs_median": "Stratified HR, 0.54 (95% CI, 0.43-0.67; P<.0001) for PFS",
+                "orr": null
+            },
+            "notes": "Category 1 for all components. Consider adding lurbinectedin to maintenance atezolizumab in patients who have achieved at least stable disease following 4 cycles of induction chemoimmunotherapy, have an ECOG PS of 0-1, and no history of brain metastases [footnote g]. This regimen is not for use as re-treatment in subsequent-line therapy if lurbinectedin has been used previously [footnote h]. Patients in IMforte were randomized after platinum therapy only if they had response or stable disease; <10% of patients on the control arm received lurbinectedin after progression [7].",
+            "source_citation": {
+                "reference_numbers": [
+                    "7",
+                    "118",
+                    "120"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide + Durvalumab followed by Maintenance Durvalumab",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "80-100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Induction: Day 1 every 21 days x 4 cycles; Maintenance: Day 1 every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 expression",
+                    "requirement": "Not required",
+                    "mandatory": false
+                },
+                {
+                    "marker": "Brain metastases",
+                    "requirement": "Included patients with asymptomatic untreated brain metastases [footnote i]",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "CASPIAN",
+                "phase": "Phase 3 randomized",
+                "n_patients": "537",
+                "os_median": "13.0 months (durvalumab + chemo) vs. 10.3 months (chemo alone) (HR, 0.73; 95% CI, 0.59-0.91; P=.0047) [124]",
+                "os_rates": "1-year OS 52.8% (durvalumab) vs. 39.3% (chemo alone); 3-year analysis",
+                "hr": "0.73 (95% CI, 0.59-0.91)",
+                "ci": "0.59-0.91",
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Category 1 for all components. Most patients in CASPIAN received carboplatin (78%) [119,123]. Serious adverse events: 32% (durvalumab regimen) vs. 36% (chemo alone). Death rate from adverse events: 2% vs. 1%. Adding tremelimumab did not improve OS (10.4 vs. 10.5 months; HR, 0.82; 95% CI, 0.68-1.0) [123]. Included patients with asymptomatic untreated brain metastases [footnote i]. Contraindications for PD-1/PD-L1 inhibitors include autoimmune disease and/or immunosuppressive agents [footnote d].",
+            "source_citation": {
+                "reference_numbers": [
+                    "8",
+                    "119",
+                    "123",
+                    "124",
+                    "125"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide + Durvalumab followed by Maintenance Durvalumab",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75-80 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "80-100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Durvalumab",
+                    "dose": "1500 mg",
+                    "route": "IV",
+                    "schedule": "Induction: Day 1 every 21 days x 4 cycles; Maintenance: Day 1 every 28 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PD-L1 expression",
+                    "requirement": "Not required",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "CASPIAN",
+                "phase": "Phase 3 randomized",
+                "n_patients": "537",
+                "os_median": "See carboplatin/durvalumab entry above",
+                "os_rates": null,
+                "hr": "0.73 (95% CI, 0.59-0.91)",
+                "ci": "0.59-0.91",
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Category 1 for all components. Alternative to the carboplatin-based durvalumab regimen. Based on the CASPIAN trial which allowed either carboplatin or cisplatin. The cisplatin regimen is preferred for patients without contraindications to cisplatin.",
+            "source_citation": {
+                "reference_numbers": [
+                    "8",
+                    "119",
+                    "123"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide (without immunotherapy)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multiple phase 2/3 trials",
+                "phase": "Phase 2/3",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Other recommended regimen for extensive-stage SCLC when immunotherapy is not indicated or not tolerated. Four cycles recommended, though some patients may receive up to 6 cycles based on response and tolerability. Carboplatin carries greater risk of myelosuppression compared to cisplatin.",
+            "source_citation": {
+                "reference_numbers": [
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide (without immunotherapy)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Other recommended first-line regimen for extensive-stage SCLC when immunotherapy is not indicated. Cisplatin/etoposide is the most commonly used combination chemotherapy regimen for SCLC in general.",
+            "source_citation": {
+                "reference_numbers": [
+                    "10"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide (80 mg/m² cisplatin)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "80 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "80 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CLB 9732",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Alternative cisplatin/etoposide dosing for extensive-stage SCLC. This dosing is similar to that used in the Niell et al. CLB 9732 trial [11].",
+            "source_citation": {
+                "reference_numbers": [
+                    "11"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide (25 mg/m² cisplatin Days 1-3)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "25 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Evans et al.",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Split-dose cisplatin regimen for extensive-stage SCLC. Based on historical data [12].",
+            "source_citation": {
+                "reference_numbers": [
+                    "12"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Irinotecan",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Schmittel et al.",
+                "phase": "Phase 2 randomized",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Useful in certain circumstances for extensive-stage SCLC. A phase 3 randomized trial of 220 patients found median OS slightly improved with carboplatin/irinotecan compared with carboplatin/oral etoposide (8.5 vs. 7.1 months; P=.04) [129]. Meta-analysis suggested improvement in PFS and OS with irinotecan/platinum vs. etoposide/platinum [130]. The relatively small absolute survival benefit needs to be balanced against toxicity. If using irinotecan for patients with CNS disease, irinotecan may be preferred [footnote m].",
+            "source_citation": {
+                "reference_numbers": [
+                    "13",
+                    "129",
+                    "130"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Irinotecan (60/60 mg/m²)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "60 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "60 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "JCOG trial (Noda et al.)",
+                "phase": "Phase 3 randomized",
+                "n_patients": null,
+                "os_median": "12.8 months (cisplatin/irinotecan) vs. 9.4 months (cisplatin/etoposide) (P=.002) [126]",
+                "os_rates": "2-year survival 19.5% (cisplatin/irinotecan) vs. 5.2% (cisplatin/etoposide)",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Useful in certain circumstances. The Japanese JCOG trial showed improved OS with cisplatin/irinotecan vs. cisplatin/etoposide [126]. However, two subsequent large US phase 3 trials showed no significant difference [127,128]. Meta-analysis suggested improvement with irinotecan/platinum [130].",
+            "source_citation": {
+                "reference_numbers": [
+                    "14",
+                    "126",
+                    "127",
+                    "128",
+                    "130"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Irinotecan (30/65 mg/m²)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "30 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "65 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Hanna et al.",
+                "phase": "Phase 3 randomized",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Useful in certain circumstances. Based on the Hanna et al. trial comparing irinotecan/cisplatin with etoposide/cisplatin in patients with previously untreated extensive-stage SCLC [15,128].",
+            "source_citation": {
+                "reference_numbers": [
+                    "15",
+                    "128"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Tarlatamab-dlle",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy (second-line and beyond) for relapsed/refractory SCLC (PS 0-2)",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tarlatamab-dlle",
+                    "dose": "10 mg",
+                    "route": "IV",
+                    "schedule": "Per prescribing information (bispecific T-cell engager targeting DLL3 and CD3)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "DLL3 expression",
+                    "requirement": "DLL3 is abnormally expressed on the surface of the majority of SCLC cells (85-94%); specific testing requirement not specified in guidelines",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred (Category 1)",
+            "trial_data": {
+                "trial_name": "DeLLphi-301",
+                "phase": "Phase 3 randomized",
+                "n_patients": "509 (254 tarlatamab vs. 255 chemotherapy)",
+                "os_median": "13.6 months (tarlatamab) vs. 8.3 months (chemotherapy)",
+                "os_rates": "6-month OS 76% (tarlatamab) vs. 62% (chemo); 12-month OS 53% (tarlatamab) vs. 37% (chemo) [16]",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "Category 1 preferred regimen. Tarlatamab is a bispecific T-cell engager antibody targeting delta-like ligand 3 (DLL3) and CD3 [195]. DLL3 is expressed on 85-94% of SCLC cells. Grade 3+ adverse events: 54% (tarlatamab) vs. 80% (chemotherapy). Cytokine release syndrome observed in 56% of patients. Refer to NCCN Guidelines for Management of CAR T-Cell and Lymphocyte Engager-Related Toxicities [footnote l]. For extensive stage with disease progression on or after platinum-based chemotherapy [footnote k].",
+            "source_citation": {
+                "reference_numbers": [
+                    "16",
+                    "195",
+                    "196"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy (second-line and beyond) for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase 2 studies",
+                "phase": "Phase 2/3",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "47% response rate in phase 2 study (95% CI, 21.4%-1.9%) [197]"
+            },
+            "notes": "Preferred subsequent therapy option. Phase 2 study showed 47% response rate in relapsed/refractory SCLC [197]. Phase 2/3 trial showed comparable activity of irinotecan vs. topotecan [198]. For patients with CNS disease, consider using irinotecan [footnote m].",
+            "source_citation": {
+                "reference_numbers": [
+                    "17",
+                    "18",
+                    "197",
+                    "198"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Lurbinectedin",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy (second-line) for relapsed/refractory SCLC (if not previously used)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lurbinectedin",
+                    "dose": "3.2 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Lurbinectedin phase 2 basket trial",
+                "phase": "Phase 2",
+                "n_patients": "105",
+                "os_median": "16.2 months (95% CI, 9.6-upper level not reached) in subset analysis [200]",
+                "os_rates": "1-year OS 60.9%; 2-year OS 27.1% [200]",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "35% overall (95% CI, 26.2%-45.2%) [199]; 60% in subset of candidates for rechallenge (95% CI, 36.1%-86.9%) [200]"
+            },
+            "notes": "Preferred subsequent therapy option. Must not have been previously used. 57% of patients in the phase 2 trial had not received chemotherapy for ≥3 months [199]. Common grade 3-4 adverse events: anemia, leukopenia, neutropenia, thrombocytopenia. No treatment-related deaths reported. FDA approved based on clinical trial data.",
+            "source_citation": {
+                "reference_numbers": [
+                    "19",
+                    "20",
+                    "199",
+                    "200"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Platinum-Based Rechallenge (Carboplatin/Etoposide)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed SCLC with prolonged disease-free time",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5-6",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 2, 3"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase 3 trial (Baize et al.)",
+                "phase": "Phase 3 randomized",
+                "n_patients": "162",
+                "os_median": null,
+                "os_rates": null,
+                "hr": "0.57 (90% CI, 0.41-0.73; P=.004) for PFS [201]",
+                "ci": "0.41-0.73",
+                "pfs_median": "4.7 months (carboplatin/etoposide) vs. 2.7 months (oral topotecan) (90% CI, 3.9-5.5 vs. 2.3-3.2)",
+                "orr": null
+            },
+            "notes": "Preferred subsequent therapy option if there has been prolonged disease-free time. Retreatment with the original regimen with or without immunotherapy, or similar platinum-based regimen, is recommended [201-205]. Grade 3-4 adverse events included thrombocytopenia, neutropenia, anemia, febrile neutropenia, and asthenia. Two treatment-related deaths in the topotecan group; no deaths in the carboplatin/etoposide group.",
+            "source_citation": {
+                "reference_numbers": [
+                    "21",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "201",
+                    "202",
+                    "203",
+                    "204",
+                    "205"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Topotecan (IV or Oral)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy (second-line and beyond) for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "Not specified in guideline",
+                    "route": "IV or PO",
+                    "schedule": "Per prescribing information (IV or oral formulations available)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "von Pawel et al. (IV topotecan vs. CAV); O'Brien et al. (oral topotecan vs. BSC); Eckardt et al. (oral vs. IV)",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "os_median": "25.0 weeks (topotecan) vs. 24.7 weeks (CAV) [26]; 26 weeks (oral topotecan) vs. 14 weeks (BSC) [27]",
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "24.3% (topotecan) vs. 18.3% (CAV) [26]"
+            },
+            "notes": "Preferred subsequent therapy option. Efficacy and toxicity of oral and IV topotecan appear similar, and either route may be used [210,211]. Compared to CAV, topotecan caused less grade 4 neutropenia (37.8% vs. 51.4%; P<.001) and improved symptoms of dyspnea, anorexia, hoarseness, and fatigue [26]. Many oncologists note excessive toxicity with 1.5 mg/m² IV for 5 days; attenuated dosing may be equally efficacious with lower toxicity [209]. Oral topotecan improved OS compared with BSC (26 vs. 14 weeks) [27].",
+            "source_citation": {
+                "reference_numbers": [
+                    "26",
+                    "27",
+                    "28",
+                    "206",
+                    "207",
+                    "208",
+                    "209",
+                    "210",
+                    "211",
+                    "212",
+                    "213"
+                ]
+            }
+        },
+        {
+            "regimen_name": "CAV (Cyclophosphamide/Doxorubicin/Vincristine)",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "von Pawel et al.",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "os_median": "24.7 weeks (CAV) vs. 25.0 weeks (topotecan)",
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "18.3% (CAV) vs. 24.3% (topotecan)"
+            },
+            "notes": "Other recommended subsequent therapy option. CAV has similar efficacy to topotecan but with more grade 4 neutropenia and worse symptom profiles [26]. Specific drug doses are not provided in the NCCN SCLC guideline.",
+            "source_citation": {
+                "reference_numbers": [
+                    "26"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Docetaxel",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 (EORTC)",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "25% response rate in phase 2 trial in previously treated SCLC [218]"
+            },
+            "notes": "Other recommended subsequent therapy option. Phase 2 study showed 25% response rate in previously treated SCLC [218]. Reported toxicities included neutropenia and asthenia.",
+            "source_citation": {
+                "reference_numbers": [
+                    "29",
+                    "218"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 (ECOG 1597, van der Lee et al., Hoang et al.)",
+                "phase": "Phase 2",
+                "n_patients": "42 (ECOG 1597); 38 (van der Lee et al.)",
+                "os_median": "7.1 months (ECOG 1597); 17 weeks (van der Lee et al.)",
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "11.9% (ECOG 1597); 13% (van der Lee et al.)"
+            },
+            "notes": "Other recommended subsequent therapy option. Phase 2 trial in 42 patients showed 11.9% ORR and median OS 7.1 months [30]. Another trial in 38 resistant SCLC patients showed 13% ORR [31,32]. Grade 3-4 toxicities include neutropenia, thrombocytopenia, neurologic toxicity, and pulmonary toxicity.",
+            "source_citation": {
+                "reference_numbers": [
+                    "30",
+                    "31",
+                    "32"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC (if not previously treated with ICI)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "Not specified in guideline",
+                    "route": "IV or SC",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "CheckMate 032; CheckMate 331",
+                "phase": "Phase 1/2 (CM032); Phase 3 (CM331)",
+                "n_patients": "147 (CM032 nivolumab arm); 569 (CM331)",
+                "os_median": "7.5 months (nivolumab) vs. 8.4 months (chemotherapy) in CM331 (HR, 0.86; 95% CI, 0.72-1.04; P=.11) [213]",
+                "os_rates": "12-month OS 30.5%; 24-month OS 17.9% (CM032) [221,222]",
+                "hr": "0.86 (95% CI, 0.72-1.04)",
+                "ci": "0.72-1.04",
+                "pfs_median": null,
+                "orr": "11.6% (CM032 nivolumab monotherapy) [221]; 13.7% (CM331) [213]"
+            },
+            "notes": "Other recommended subsequent therapy option for patients not previously treated with ICI. CheckMate 032 showed 11.6% ORR and 21.9% for ipilimumab + nivolumab [221,222]. CheckMate 331 showed no significant OS improvement (HR, 0.86; P=.11) [213]. FDA has withdrawn subsequent therapy indications for nivolumab based on phase 3 data not showing OS improvement. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab [footnote n]. The use of nivolumab is discouraged if disease progresses on maintenance atezolizumab or durvalumab as first-line therapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "33",
+                    "34",
+                    "213",
+                    "221",
+                    "222",
+                    "225"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC (if not previously treated with ICI)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Not specified in guideline",
+                    "route": "IV or SC",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "KEYNOTE-028 and KEYNOTE-158",
+                "phase": "Phase 1b/2",
+                "n_patients": "83 (combined analysis)",
+                "os_median": "7.7 months (95% CI, 5.2-10.1)",
+                "os_rates": "12-month OS 34.3%",
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "19.3% (95% CI, 11.4%-29.4%) [226]"
+            },
+            "notes": "Other recommended subsequent therapy option for patients not previously treated with ICI. Combined analysis of KEYNOTE-028 and KEYNOTE-158 showed 19.3% ORR and median OS 7.7 months in patients who had received ≥2 prior lines [226]. OS and ORR were higher in PD-L1 positive patients. Grade 3-5 adverse events in 9.6% (8/83) of patients; two treatment-related deaths (pneumonitis and encephalitis). FDA has withdrawn subsequent therapy indication. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab [footnote o]. Use is discouraged if disease progresses on first-line maintenance ICI.",
+            "source_citation": {
+                "reference_numbers": [
+                    "35",
+                    "36",
+                    "226"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Oral Etoposide",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oral Etoposide",
+                    "dose": "Not specified in guideline",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 trials (Einhorn et al., Johnson et al.)",
+                "phase": "Phase 2",
+                "n_patients": "22 (Einhorn et al.); 26 (Johnson et al.)",
+                "os_median": "≥3.5 months (range, 1 to 15+) [37]",
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "45% (22 patients) [37]; 23% (26 patients) [38]"
+            },
+            "notes": "Other recommended subsequent therapy option. Phase 2 trial in 22 patients showed 45% ORR (95% CI, 27%-65%) [37]. Five patients were hospitalized for neutropenia and fever; two died from sepsis. Another trial showed 23% ORR [38].",
+            "source_citation": {
+                "reference_numbers": [
+                    "37",
+                    "38"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "Not specified in guideline",
+                    "route": "IV",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 trials (Yamamoto et al., Smit et al.)",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "24% (Yamamoto et al.) [39]; 29% (95% CI, 12%-51%) (Smit et al.) [40]"
+            },
+            "notes": "Other recommended subsequent therapy option. Phase 2 study showed 24% response rate in refractory/relapsed SCLC [39]. Another phase 2 study showed 29% ORR (95% CI, 12%-51%) [40]. A retrospective study in 185 patients showed 17% ORR during third-line or fourth-line therapy with paclitaxel [217]. Toxicity rates were similar in PS 2 vs. PS 0-1 (63% vs. 62%) [217].",
+            "source_citation": {
+                "reference_numbers": [
+                    "39",
+                    "40"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Temozolomide",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Subsequent therapy for relapsed/refractory SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Not specified in guideline",
+                    "route": "PO",
+                    "schedule": "Per prescribing information"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MGMT methylation",
+                    "requirement": "Methylated O6-methylguanine-DNA methyltransferase (MGMT) may be associated with improved response",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 (Pietanza et al., Zauderer et al.)",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": "23% (95% CI, 12%-37%) in sensitive SCLC [40]; ORR 38% with methylated MGMT vs. 7% unmethylated (P=.08) [40]"
+            },
+            "notes": "Other recommended subsequent therapy option. Data suggest temozolomide may be useful for patients with SCLC, especially those with brain metastases and methylated MGMT [40-42]. Phase 2 trial showed 23% ORR (95% CI, 12%-37%) in sensitive SCLC, with higher response in methylated MGMT (38% vs. 7%; P=.08).",
+            "source_citation": {
+                "reference_numbers": [
+                    "40",
+                    "41",
+                    "42"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Platinum-Based Therapy for Transformed SCLC from NSCLC with Oncogenic Driver",
+            "site": "Small cell lung cancer (SCLC) - Transformed from NSCLC with oncogenic driver",
+            "setting": "Primary treatment for transformed SCLC",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Platinum-based chemotherapy (cisplatin/etoposide or carboplatin/etoposide)",
+                    "dose": "Per Principles of Systemic Therapy (SCL-E)",
+                    "route": "IV",
+                    "schedule": "Per SCLC guidelines"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Oncogenic driver (e.g., EGFR mutation)",
+                    "requirement": "Documented oncogenic driver mutation in prior NSCLC",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended (limited data)",
+            "trial_data": {
+                "trial_name": "Retrospective series (Marcoux et al., Ferrer et al., Chai et al., Zhang et al.)",
+                "phase": "Retrospective",
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "This is a rare population of patients with very limited data to guide treatment [43-46]. Systemic cytotoxic chemotherapy is recommended using the NCCN Guidelines for SCLC [43,44]. The role of immunotherapy is unclear based on limited data [43-46]. If TKI is continued, ICI should be avoided due to known toxicity [45,47,48]. Consider referral to a center with expertise managing transformed SCLC.",
+            "source_citation": {
+                "reference_numbers": [
+                    "43",
+                    "44",
+                    "45",
+                    "46",
+                    "47",
+                    "48"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Systemic Therapy ± RT for Localized Symptomatic Sites in Extensive-Stage SCLC",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC with localized symptomatic sites",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Systemic therapy (platinum/etoposide ± immunotherapy per primary treatment regimens)",
+                    "dose": "Per primary treatment regimens",
+                    "route": "IV",
+                    "schedule": "Per primary treatment regimens"
+                },
+                {
+                    "name": "RT to symptomatic sites",
+                    "dose": "Palliative dosing (e.g., 30 Gy in 10 fractions, 20 Gy in 5 fractions, 8 Gy in 1 fraction)",
+                    "route": "External beam",
+                    "schedule": "Per Principles of Radiation Therapy"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "For extensive-stage SCLC with localized symptomatic sites including superior vena cava (SVC) syndrome, lobar obstruction, and bone metastases. Systemic therapy ± RT to symptomatic sites is recommended. If high risk of fracture due to osseous structural impairment, consider orthopedic stabilization and palliative external beam RT. For spinal cord compression: initiate steroids, systemic therapy + RT (typically sequential), see NCCN CNS Cancers guidelines. Dexamethasone 10 mg loading dose followed by 4-6 mg maintenance dose (IV or PO every 4-6 hours) [122].",
+            "source_citation": {
+                "reference_numbers": [
+                    "122"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Systemic Therapy ± Brain RT for Extensive-Stage SCLC with Brain Metastases",
+            "site": "Small cell lung cancer (SCLC)",
+            "setting": "Primary treatment for extensive-stage SCLC with brain metastases",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Systemic therapy (platinum/etoposide ± immunotherapy per primary treatment regimens)",
+                    "dose": "Per primary treatment regimens",
+                    "route": "IV",
+                    "schedule": "Per primary treatment regimens"
+                },
+                {
+                    "name": "Brain RT (WBRT or SRS)",
+                    "dose": "WBRT: 30 Gy in 10 fractions; SRS per protocol",
+                    "route": "External beam",
+                    "schedule": "Per Principles of Radiation Therapy"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_median": null,
+                "os_rates": null,
+                "hr": null,
+                "ci": null,
+                "pfs_median": null,
+                "orr": null
+            },
+            "notes": "For asymptomatic brain metastases: administer systemic therapy before initiating brain RT. For symptomatic brain metastases: brain RT before systemic therapy (unless immediate systemic therapy is indicated); initiate steroids. If brain metastases progress while on systemic therapy, brain RT should be initiated before completion of systemic therapy. WBRT dose: 30 Gy in 10 daily fractions. Consider adding memantine during and after RT. For patients with better prognosis (≥4 months), hippocampal-sparing WBRT using IMRT plus memantine is preferred.",
+            "source_citation": {
+                "reference_numbers": []
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Small cell lung cancer (SCLC) is defined as a poorly differentiated malignant epithelial tumor categorized as a high-grade neuroendocrine carcinoma [SCL-B]. According to the World Health Organization (WHO) classification system, SCLC is distinguished from other neuroendocrine tumors—particularly typical and atypical carcinoids—due to significant differences in epidemiology, genetics, treatment, and prognosis [SCL-B, MS-5]. SCLC is characterized by rapid doubling time, high growth fraction, and early development of widespread metastases [MS-3]. On histology, SCLC cells are described as small blue cells with scant cytoplasm, high nuclear-to-cytoplasmic ratio, fine granular nuclear chromatin, and absent or inconspicuous nucleoli [SCL-B]. The cells are round, oval, or spindle-shaped with molding and high mitotic counts [SCL-B]. An important distinguishing feature from large-cell neuroendocrine carcinoma (LCNEC) is the high nuclear-to-cytoplasmic ratio and paucity of nucleoli in SCLC [SCL-B]. The staging of SCLC uses a combined approach of the American Joint Committee on Cancer (AJCC) TNM staging system and the historic Veterans Administration (VA) two-stage classification [MS-6]. Limited-stage SCLC is defined as stage I–III (T any, N any, M0) that can be safely treated with definitive radiation doses, excluding T3–4 due to multiple extensive lung nodules or tumor/nodal volume too large to be encompassed in a tolerable radiation plan [Table 1]. Extensive-stage SCLC is defined as stage IV (T any, N any, M1a/b/c) or T3–4 with characteristics precluding safe radiation delivery [Table 1]. Approximately 95% of small cell carcinomas originate in the lung, though they can also arise from extrapulmonary sites including the nasopharynx, gastrointestinal tract, and genitourinary tract [MS-3]. The most useful characteristics for distinguishing SCLC from typical and atypical carcinoids are the mitotic count: SCLC has more than 10 mitoses per 2 mm² field, atypical carcinoid has 2–10 mitoses per 2 mm² field, and typical carcinoid has 0–1 mitoses per 2 mm² field [SCL-B].",
+        "subtypes": [
+            {
+                "name": "Pure SCLC",
+                "description": "Pure small cell carcinoma is the predominant histologic subtype, consisting entirely of SCLC morphology without any component of non-small cell lung cancer (NSCLC) histology. It is characterized by small blue cells with scant cytoplasm, high nuclear-to-cytoplasmic ratio, fine granular nuclear chromatin, and absent or inconspicuous nucleoli [SCL-B]. The Ki-67 proliferative index is typically 50% to 100% [SCL-B]. Immunohistochemical staining shows positivity for cytokeratin (AE1/AE3, CAM5.2), TTF-1 in 85% to 90% of cases, and neuroendocrine markers including INSM1, CD56/NCAM, synaptophysin, and chromogranin A in the majority of cases [SCL-B, MS-5].",
+                "frequency": "Majority of SCLC cases",
+                "key_associations": "Strongly associated with smoking; RB1 loss and/or aberrant p53 expression; neuroendocrine differentiation markers; DLL3 overexpression in 85–94% of tumors [MS-16]"
+            },
+            {
+                "name": "Combined SCLC",
+                "description": "Combined SCLC consists of both SCLC histology and NSCLC histology (squamous cell, adenocarcinoma, spindle/pleomorphic, and/or large cell) [SCL-B]. There is no minimal percentage of NSCLC histologic elements required; when any are present along with SCLC, this can be called combined SCLC, except in combination with LCNEC. For combined SCLC and LCNEC, at least 10% of the tumor should show LCNEC morphology [SCL-B]. Up to 30% of tumors from patients with SCLC, particularly those who received treatment, reveal areas of NSCLC differentiation (mainly large cell carcinoma) [MS-5].",
+                "frequency": "Up to 30% of treated SCLC cases",
+                "key_associations": "More frequent in limited-stage SCLC; treated using SCLC regimens because SCLC is the more aggressive component [MS-5]"
+            },
+            {
+                "name": "Transformed SCLC from NSCLC",
+                "description": "A rare population of patients who develop SCLC as a resistance mechanism following treatment of NSCLC with epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors or immune checkpoint inhibitors [MS-5, SCL-E4]. This represents histologic transformation rather than a primary SCLC subtype. Treatment should be systemic cytotoxic chemotherapy following SCLC guidelines [MS-16].",
+                "frequency": "Rare; specifically patients with actionable genomic alterations in NSCLC",
+                "key_associations": "EGFR-mutant NSCLC; resistance to TKIs; ICI use; referral to expert centers recommended [SCL-E4]"
+            }
+        ],
+        "molecular_pathogenesis": "The NCCN guidelines for SCLC provide limited specific information on molecular pathogenesis compared to other cancer types. However, several key molecular features are discussed throughout the document. SCLC is characterized by near-universal loss of RB1 expression and aberrant p53 expression, distinguishing it from carcinoid tumors which retain RB1 and show wild-type p53 staining [SCL-B]. High-grade neuroendocrine carcinomas demonstrate loss of RB1 expression and/or aberrant (mutation-type) p53 expression, characterized by either diffuse strong nuclear staining (overexpression) or complete absence of staining (null pattern) [SCL-B]. DLL3 (delta-like ligand 3) is abnormally expressed on the surface of the majority of SCLC cells (85–94%) and inhibits Notch signaling [MS-16]. This has become a therapeutic target with tarlatamab-dlle, a bispecific T-cell engager antibody targeting DLL3 and CD3 [MS-16]. Immunohistochemical markers show that nearly all SCLCs are positive for cytokeratin, with neuroendocrine differentiation markers (INSM1, CD56/NCAM, synaptophysin, chromogranin A) positive in approximately 95% of cases [SCL-B, MS-5]. Fewer than 5% of SCLCs are negative for all neuroendocrine markers [SCL-B]. POU2F3 immunohistochemical staining can be considered for cases with suspicious SCLC morphology without expression of neuroendocrine markers [SCL-B]. Biomarker testing via blood, tissue, or both can be considered in rare cases—particularly for patients with extensive-stage/relapsed SCLC who do not smoke tobacco, lightly smoke, have remote smoking history, or have diagnostic/therapeutic dilemma, or at time of relapse—if not previously done, because this may change management [SCL-1, SCL-B]. MGMT (methylguanine-DNA methyltransferase) methylation status has been assessed as a potential biomarker for temozolomide sensitivity in relapsed SCLC, with response rates improved for patients with methylated MGMT compared to unmethylated MGMT [MS-19].",
+        "epidemiology": {
+            "incidence": "Approximately 13% of lung tumors will be classified as SCLC in 2026 [MS-3]. In 2026, an estimated 30,000 new cases of SCLC will be diagnosed in the United States [MS-3]. Fewer than 5% of patients with SCLC have true stage I–IIA disease [MS-8]. Approximately one third present with limited disease confined to the chest, while approximately 66% present with overt hematogenous metastases [MS-3, MS-6].",
+            "mortality": "While most patients with SCLC respond to initial chemotherapy and RT, most patients eventually die of recurrent disease [MS-3]. Long-term survival is rare for patients with extensive-stage SCLC [MS-3].",
+            "trends": "The incidence of SCLC has been decreasing over time [MS-3]. However, the frequency in females is increasing and the male-to-female incidence ratio has been close to 1:1 in the last few years [MS-3].",
+            "demographics": "The median age at diagnosis is >70 years, and the incidence of SCLC increases with age [MS-14]. Nearly all cases of SCLC are attributable to cigarette smoking [MS-3]. No specific racial or ethnic stratified data are provided in the source document."
+        },
+        "risk_factors": [
+            {
+                "factor": "Cigarette smoking",
+                "type": "Environmental/behavioral",
+                "detail": "Nearly all cases of SCLC are attributable to cigarette smoking [MS-3]. Patients with SCLC who continue to smoke tobacco during treatment have increased toxicity and shorter survival [MS-3].",
+                "strength": "Primary etiologic factor; >95% attributable risk"
+            },
+            {
+                "factor": "Age",
+                "type": "Demographic",
+                "detail": "The incidence of SCLC increases with age with the median age at diagnosis being >70 years [MS-14]. Age <70 years is associated with favorable prognosis in limited-stage SCLC [MS-8].",
+                "strength": "Strong prognostic factor"
+            },
+            {
+                "factor": "Poor performance status",
+                "type": "Clinical",
+                "detail": "Poor PS (3–4) is among the most important adverse prognostic factors [MS-8]. Patients with good PS (0–2) are eligible for more aggressive treatment approaches.",
+                "strength": "Strong prognostic factor"
+            },
+            {
+                "factor": "Extensive-stage disease at diagnosis",
+                "type": "Clinical/staging",
+                "detail": "Approximately 66% of patients present with overt hematogenous metastases at diagnosis, commonly involving contralateral lung, liver, adrenal glands, brain, bones, and/or bone marrow [MS-6].",
+                "strength": "Primary determinant of treatment approach and prognosis"
+            },
+            {
+                "factor": "Elevated lactate dehydrogenase (LDH)",
+                "type": "Biomarker",
+                "detail": "Normal LDH is associated with favorable prognosis. Elevated LDH is associated with bulky disease and is an adverse prognostic factor [MS-8].",
+                "strength": "Established prognostic factor"
+            }
+        ],
+        "protective_factors": [
+            "Smoking cessation after successful treatment of SCLC is associated with fewer smoking-related second primary cancers [MS-15, Reference 192-194]"
+        ],
+        "management_principles": {
+            "overview": "The management of small cell lung cancer (SCLC) is multimodal, with treatment intent and approach dictated by disease stage, patient performance status (PS), and the presence of specific clinical scenarios. The overarching goal for limited-stage SCLC (LS-SCLC) is curative intent using a combination of systemic therapy and thoracic radiation therapy (RT), with surgery considered for a select subset of patients [1, 2]. For extensive-stage SCLC (ES-SCLC), the goal shifts to palliation and prolongation of survival, primarily through systemic therapy, with RT used for symptom control or in select cases for consolidative benefit [1, 16]. The workup and initiation of treatment should be expedited due to the aggressive nature of the disease, with studies performed in parallel to avoid delay [1]. A multidisciplinary evaluation is strongly recommended, particularly before any surgical intervention, to ensure optimal patient selection and treatment planning [1]. Integration of palliative care early in the treatment course is also advised to manage symptoms and discuss goals of care [1].",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Limited-stage SCLC (stage I–III that can be safely treated with definitive RT) with good PS (0–2).",
+                    "approach": "Concurrent chemoradiation is the standard of care (category 1) [1, 98, 99]. Four cycles of platinum/etoposide-based chemotherapy are recommended, with RT initiated early (cycle 1 or 2) [1, 10]. Consolidation durvalumab is recommended for patients without progression after chemoradiation (category 1) [1, 115]. For very early-stage disease (T1–2,N0), surgery (lobectomy) followed by adjuvant systemic therapy is an option, or stereotactic ablative radiotherapy (SABR) followed by systemic therapy for medically inoperable patients [1, 13, 14]. Prophylactic cranial irradiation (PCI) should be considered for responders, though its benefit is less clear in pathologic stage I [1, 42–44]."
+                },
+                {
+                    "intent": "Palliative",
+                    "patient_group": "Extensive-stage SCLC or limited-stage disease with poor PS (3–4) not due to SCLC.",
+                    "approach": "Systemic therapy with or without RT to symptomatic sites is the primary treatment [1, 16]. Preferred regimens combine platinum/etoposide with an immune checkpoint inhibitor (atezolizumab or durvalumab) [1, 118–120]. For patients with poor PS due to SCLC, systemic therapy may still be considered, but for poor PS not due to SCLC, individualized therapy including supportive care is recommended [1]. RT is used for palliation of symptomatic metastases (e.g., bone, brain, spinal cord compression) [1, 302–304]."
+                },
+                {
+                    "intent": "Subsequent/Palliative",
+                    "patient_group": "Relapsed or refractory SCLC.",
+                    "approach": "Treatment is based on clinical expertise and trial data, without strict adherence to chemotherapy-free interval categories [1]. Preferred options include tarlatamab-dlle, clinical trial enrollment, irinotecan, lurbinectedin (if not used previously), platinum-based rechallenge for sensitive relapse, or topotecan [1]. Nivolumab or pembrolizumab are options if not previously treated with an ICI [1]. Dose reduction or growth factor support should be considered for patients with PS 2 [1]."
+                }
+            ],
+            "mdt_requirements": "A multidisciplinary evaluation is recommended for all patients, particularly before surgical resection [1]. This should include input from medical oncology, radiation oncology, thoracic surgery, pathology, radiology, and pulmonology. Early integration of palliative care is also advised [1].",
+            "performance_status_guide": "Performance status is a key determinant of treatment eligibility and intensity. Patients with good PS (ECOG 0–2) are eligible for aggressive combined modality therapy [1]. Patients with poor PS (3–4) due to SCLC may receive systemic therapy with consideration of dose reduction or growth factor support, or may receive individualized therapy including supportive care [1]. For poor PS not attributable to SCLC, individualized treatment including supportive care is recommended [1]."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "limited_stage_T1_2N0M0",
+                "title": "Limited-Stage SCLC (Clinical Stage I–IIA: T1–2,N0,M0)",
+                "branching_basis": [
+                    "Performance status",
+                    "Surgical eligibility",
+                    "Patient preference"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Clinical stage I–IIA (T1–2,N0,M0), good PS (0–2), after standard staging evaluation including CT, brain imaging, FDG-PET/CT, and lymph node staging.",
+                        "options": [
+                            {
+                                "type": "Surgical resection",
+                                "label": "Lobectomy with mediastinal lymph node dissection or systematic lymph node sampling",
+                                "preference": "Preferred for medically operable patients",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic therapy",
+                                "label": "Adjuvant systemic therapy (4 cycles of platinum/etoposide) following surgery",
+                                "preference": "Required after resection",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "cisplatin_etoposide_limited"
+                                ]
+                            },
+                            {
+                                "type": "Radiation therapy",
+                                "label": "Postoperative mediastinal RT for N+ disease (concurrent or sequential with chemotherapy)",
+                                "preference": "Recommended for pathologic N2; may be considered for pathologic N1",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "SABR",
+                                "label": "Stereotactic ablative radiotherapy (SABR) to the primary tumor followed by adjuvant systemic therapy",
+                                "preference": "For medically inoperable patients or those who decline surgery",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "cisplatin_etoposide_limited"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant systemic therapy is recommended for all patients after complete resection (R0) or SABR. Postoperative mediastinal RT is recommended for N2 disease and may be considered for N1 disease [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Clinical stage I–IIA (T1–2,N0,M0), poor PS (3–4) due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Systemic therapy",
+                                "label": "Systemic therapy ± RT (concurrent or sequential)",
+                                "preference": "May be considered",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "cisplatin_etoposide_limited"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Treatment intent may be palliative; systemic therapy may be given with or without RT depending on tolerance and response [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Clinical stage I–IIA (T1–2,N0,M0), poor PS (3–4) not due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Supportive care",
+                                "label": "Individualized treatment including supportive care",
+                                "preference": "Appropriate",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Focus on palliative and supportive care [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "limited_stage_IIB_IIIC",
+                "title": "Limited-Stage SCLC (Clinical Stage IIB–IIIC: T3–4,N0,M0; T1–4,N1–3,M0)",
+                "branching_basis": [
+                    "Performance status",
+                    "Response to therapy"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Good PS (0–2).",
+                        "options": [
+                            {
+                                "type": "Chemoradiation",
+                                "label": "Systemic therapy + concurrent RT (category 1)",
+                                "preference": "Preferred",
+                                "recommendation": "Category 1",
+                                "linked_regimen_ids": [
+                                    "cisplatin_etoposide_limited",
+                                    "carboplatin_etoposide_limited"
+                                ]
+                            },
+                            {
+                                "type": "Consolidation immunotherapy",
+                                "label": "Durvalumab for patients without progression after chemoradiation",
+                                "preference": "Preferred (category 1)",
+                                "recommendation": "Category 1",
+                                "linked_regimen_ids": [
+                                    "durvalumab_consolidation"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Durvalumab consolidation is administered after completion of chemoradiation for up to 24 months [1, 115]."
+                        }
+                    },
+                    {
+                        "criteria": "Poor PS (3–4) due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Systemic therapy ± RT",
+                                "label": "Systemic therapy ± RT (concurrent or sequential)",
+                                "preference": "May be considered",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "cisplatin_etoposide_limited"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Treatment is individualized based on tolerance and response [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Poor PS (3–4) not due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Supportive care",
+                                "label": "Individualized treatment including supportive care",
+                                "preference": "Appropriate",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Focus on palliative and supportive care [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "extensive_stage_no_symptoms_brain_mets",
+                "title": "Extensive-Stage SCLC Without Localized Symptomatic Sites or Brain Metastases",
+                "branching_basis": [
+                    "Performance status",
+                    "Response to therapy"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Good PS (0–2).",
+                        "options": [
+                            {
+                                "type": "Systemic therapy",
+                                "label": "Platinum/etoposide + immune checkpoint inhibitor (atezolizumab or durvalumab) (category 1)",
+                                "preference": "Preferred",
+                                "recommendation": "Category 1",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide_atezolizumab",
+                                    "carboplatin_etoposide_durvalumab"
+                                ]
+                            },
+                            {
+                                "type": "Maintenance immunotherapy",
+                                "label": "Continue atezolizumab or durvalumab until progression or intolerable toxicity",
+                                "preference": "Preferred",
+                                "recommendation": "Category 1",
+                                "linked_regimen_ids": [
+                                    "atezolizumab_maintenance",
+                                    "durvalumab_maintenance"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Maintenance immunotherapy is administered after 4 cycles of induction chemoimmunotherapy [1, 118–120]."
+                        }
+                    },
+                    {
+                        "criteria": "Poor PS (3–4) due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Systemic therapy",
+                                "label": "Systemic therapy including supportive care",
+                                "preference": "May be considered",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Treatment is palliative; systemic therapy may be given with consideration of dose reduction [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Poor PS (3–4) not due to SCLC.",
+                        "options": [
+                            {
+                                "type": "Supportive care",
+                                "label": "Individualized therapy including supportive care",
+                                "preference": "Appropriate",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Focus on palliative and supportive care [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "extensive_stage_symptomatic_sites",
+                "title": "Extensive-Stage SCLC With Localized Symptomatic Sites",
+                "branching_basis": [
+                    "Type of symptomatic site",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Localized symptomatic sites (e.g., superior vena cava syndrome, lobar obstruction, bone metastases).",
+                        "options": [
+                            {
+                                "type": "Systemic therapy ± RT",
+                                "label": "Systemic therapy ± RT to symptomatic sites",
+                                "preference": "Recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide_atezolizumab",
+                                    "carboplatin_etoposide_durvalumab"
+                                ]
+                            },
+                            {
+                                "type": "Orthopedic intervention",
+                                "label": "Orthopedic stabilization and palliative EBRT for high-risk bone metastases",
+                                "preference": "Consider if high risk of fracture",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "RT is used for palliation of specific symptomatic sites [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Spinal cord compression.",
+                        "options": [
+                            {
+                                "type": "Steroids",
+                                "label": "Initiate steroids (dexamethasone 10 mg loading, then 4–6 mg maintenance)",
+                                "preference": "Immediately",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic therapy + RT",
+                                "label": "Systemic therapy + RT (typically sequential)",
+                                "preference": "Recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide_atezolizumab",
+                                    "carboplatin_etoposide_durvalumab"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Neurosurgical consultation may be considered [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "extensive_stage_brain_mets",
+                "title": "Extensive-Stage SCLC With Brain Metastases",
+                "branching_basis": [
+                    "Symptomatic vs asymptomatic",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Asymptomatic brain metastases.",
+                        "options": [
+                            {
+                                "type": "Systemic therapy first",
+                                "label": "Administer systemic therapy before initiating brain RT",
+                                "preference": "Recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide_atezolizumab",
+                                    "carboplatin_etoposide_durvalumab"
+                                ]
+                            },
+                            {
+                                "type": "Brain RT",
+                                "label": "Brain RT after completion of systemic therapy",
+                                "preference": "Standard",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "If brain metastases progress during systemic therapy, initiate brain RT before completion of systemic therapy [1]."
+                        }
+                    },
+                    {
+                        "criteria": "Symptomatic brain metastases.",
+                        "options": [
+                            {
+                                "type": "Brain RT",
+                                "label": "Brain RT before systemic therapy, unless immediate systemic therapy is indicated",
+                                "preference": "Preferred",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Steroids",
+                                "label": "Initiate steroids for symptomatic neurologic disease",
+                                "preference": "Immediately",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic therapy",
+                                "label": "Systemic therapy after brain RT or concurrently if indicated",
+                                "preference": "Standard",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide_atezolizumab",
+                                    "carboplatin_etoposide_durvalumab"
+                                ]
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "With neurologic symptoms, RT is preferred before systemic therapy [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "progressive_disease",
+                "title": "Progressive Disease (Relapse or Primary Progressive Disease)",
+                "branching_basis": [
+                    "Performance status",
+                    "Prior therapy",
+                    "Biomarker testing"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "PS 0–2.",
+                        "options": [
+                            {
+                                "type": "Subsequent systemic therapy",
+                                "label": "Tarlatamab-dlle (category 1 preferred), clinical trial, irinotecan, lurbinectedin (if not previously used), platinum rechallenge for sensitive relapse, or topotecan",
+                                "preference": "Preferred options listed",
+                                "recommendation": "Category 1 for tarlatamab-dlle",
+                                "linked_regimen_ids": [
+                                    "tarlatamab_dlle",
+                                    "irinotecan",
+                                    "lurbinectedin",
+                                    "platinum_rechallenge",
+                                    "topotecan"
+                                ]
+                            },
+                            {
+                                "type": "Immunotherapy",
+                                "label": "Nivolumab or pembrolizumab (if not previously treated with ICI)",
+                                "preference": "Other recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "nivolumab",
+                                    "pembrolizumab"
+                                ]
+                            },
+                            {
+                                "type": "Palliative care",
+                                "label": "Palliative symptom management including localized RT to symptomatic sites",
+                                "preference": "Appropriate as needed",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Consider biomarker testing if not previously done to determine clinical trial eligibility [1]."
+                        }
+                    },
+                    {
+                        "criteria": "PS 3–4.",
+                        "options": [
+                            {
+                                "type": "Palliative care",
+                                "label": "Palliative symptom management including localized RT to symptomatic sites",
+                                "preference": "Appropriate",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Focus on symptom control and quality of life [1]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "transformed_SCLC",
+                "title": "Transformed SCLC From NSCLC With an Oncogenic Driver",
+                "branching_basis": [
+                    "Prior oncogenic driver therapy",
+                    "Performance status"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Transformation to SCLC from NSCLC with an oncogenic driver (e.g., EGFR mutation).",
+                        "options": [
+                            {
+                                "type": "Referral",
+                                "label": "Consider referral to a center with expertise in transformed SCLC",
+                                "preference": "Recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            },
+                            {
+                                "type": "Systemic chemotherapy",
+                                "label": "Systemic cytotoxic chemotherapy using NCCN SCLC regimens",
+                                "preference": "Recommended",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": [
+                                    "carboplatin_etoposide"
+                                ]
+                            },
+                            {
+                                "type": "Immunotherapy caution",
+                                "label": "Avoid ICI if TKI is continued due to known toxicity",
+                                "preference": "Contraindicated in this context",
+                                "recommendation": "Category 2A",
+                                "linked_regimen_ids": []
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "This is a rare population with limited data. Immunotherapy role is unclear [1]."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Initial Diagnostic Evaluation",
+                "items": [
+                    {
+                        "text": "History and physical (H&P)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Pathology review (Principles of Pathologic Review, SCL-B)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Complete blood count (CBC)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Electrolytes, liver function tests (LFTs), blood urea nitrogen (BUN), creatinine",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Imaging studies based on Principles of Imaging (SCL-G): Chest/abdomen/pelvis CT with contrast, brain MRI (preferred) or CT with contrast",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Smoking cessation counseling and intervention",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Consider biomarker testing (in rare cases: extensive-stage/relapsed SCLC who do not smoke, lightly smoke, have remote smoking history, or diagnostic/therapeutic dilemma)",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Integrate palliative care",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Additional Workup for Limited Stage",
+                "items": [
+                    {
+                        "text": "If pleural effusion is present, thoracentesis is recommended; if inconclusive, consider thoracoscopy",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Pulmonary function tests (PFTs) during evaluation for surgery or definitive RT",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Multidisciplinary evaluation before surgery",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Bone imaging (radiographs or MRI) as appropriate if FDG-PET/CT equivocal",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Unilateral marrow aspiration/biopsy in select patients (e.g., nucleated RBCs on peripheral smear, neutropenia, or thrombocytopenia suggestive of bone marrow infiltration)",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Pathologic Lymph Node Staging",
+                "items": [
+                    {
+                        "text": "For clinical stage I–IIA (T1–2,N0,M0): recommended to confirm FDG-PET/CT results and rule out occult nodal disease before surgical resection",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "For clinical stage IIB–IIIC (T1–4,N0,M0; T1–4,N1–3,M0): consider pathologic lymph node staging, especially for cN0, if it would help determine RT fields",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Procedures include endobronchial ultrasound-guided biopsy (preferred if expertise exists), mediastinoscopy, mediastinotomy, esophageal ultrasound-guided biopsy, video-assisted thoracoscopy",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "If nodal involvement is established by one modality, additional modalities are not necessary, but staging biopsies of visible nodes in all accessible nodal stations is encouraged to inform RT targeting",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Staging Considerations",
+                "items": [
+                    {
+                        "text": "If extensive stage is established, further staging evaluation is optional and dependent on clinical situation; however, brain imaging is recommended",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "If FDG-PET/CT is not available, bone scan may be used to identify bone metastases; pathologic confirmation is recommended for isolated or equivocal lesions if involvement would change clinical management",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Bone marrow biopsy only if it changes clinical management (select patients with no other evidence of metastatic disease and suggestive peripheral blood findings)",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgical resection is an option for a select subset of patients with very early-stage SCLC (clinical stage I–IIA, T1–2,N0,M0) after comprehensive staging. It is not a standard treatment for most SCLC patients due to the aggressive nature and early metastatic potential of the disease [1].",
+            "principles": [
+                "Stage I–IIA SCLC is diagnosed in <5% of patients with SCLC [1].",
+                "Patients most likely to benefit are those with clinical stage I–IIA (T1–2,N0,M0) after standard staging evaluation [1].",
+                "Prior to resection, all patients should undergo mediastinoscopy or other surgical mediastinal staging to rule out occult nodal disease [1].",
+                "The preferred operation is lobectomy with mediastinal lymph node dissection or systematic lymph node sampling (e.g., ≥3 N2 and ≥1 N1 stations) [1].",
+                "In patients who do not smoke, small lesions presumed to be SCLC on biopsy should be resected because they are likely carcinoids that have been misdiagnosed [1].",
+                "Surgery may be considered for selected patients with T3 (based on size), N0 SCLC, if invasive mediastinal lymph node staging is negative [1].",
+                "Intraoperative diagnosis of likely SCLC: perform mediastinal lymph node dissection or sampling with frozen section; if resectable, perform anatomic resection, preferably lobectomy. Pneumonectomy should not be performed if needed to encompass nodal metastatic disease [1].",
+                "Patients who undergo complete resection should be treated with postoperative systemic therapy [1]."
+            ],
+            "procedures": [
+                {
+                    "name": "Lobectomy with mediastinal lymph node dissection or systematic lymph node sampling",
+                    "approach": "Open or minimally invasive (thoracoscopic). Systematic sampling should include ≥3 N2 and ≥1 N1 stations [1].",
+                    "indications": "Clinical stage I–IIA (T1–2,N0,M0) SCLC after negative pathologic mediastinal staging [1].",
+                    "key_complications": "Standard surgical risks: bleeding, infection, pneumothorax, prolonged air leak, bronchopleural fistula, arrhythmia, and mortality [1].",
+                    "operative_mortality": "Not specified in source; lobectomy mortality is generally low (1–3%) in high-volume centers."
+                }
+            ],
+            "resectability_criteria": "Surgical resection is considered for clinical stage I–IIA (T1–2,N0,M0) SCLC with negative pathologic mediastinal staging. For T3 (size) N0, surgery may be considered if invasive mediastinal staging is negative. Pneumonectomy is not recommended if needed to encompass nodal metastatic disease [1].",
+            "pre_operative_optimisation": "Multidisciplinary evaluation is recommended before any surgery. Pulmonary function tests (PFTs) should be performed during evaluation for surgery. Patients who do not smoke and have small lesions presumed to be SCLC should undergo resection to rule out carcinoid misdiagnosis [1]."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) plays a central role in the definitive treatment of limited-stage SCLC and a palliative or consolidative role in extensive-stage SCLC. It is also used for prophylactic cranial irradiation (PCI) and treatment of brain metastases [1].",
+            "principles": [
+                "RT has a potential role in all stages of SCLC, as part of either definitive or palliative therapy. Radiation oncology input should be provided for all patients early in the determination of treatment strategy [1].",
+                "To maximize tumor control and minimize toxicity, critical components include appropriate simulation, accurate target definition, conformal RT planning, and ensuring accurate delivery. A minimum standard is CT-planned three-dimensional (3D)-conformal RT [1].",
+                "Use of more advanced technologies is appropriate when needed to deliver adequate tumor doses while respecting normal tissue dose constraints. These include 4D-CT, FDG-PET/CT simulation, intensity-modulated RT (IMRT)/volumetric modulated arc therapy (VMAT), image-guided RT (IGRT), and motion management strategies [1].",
+                "IMRT is preferred over 3D-CRT based on reduced toxicity in the setting of concurrent chemotherapy/RT [1].",
+                "Quality assurance measures are essential and are covered in the NCCN Guidelines for Non-Small Cell Lung Cancer [1]."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Twice-daily accelerated RT (CONVERT trial schedule)",
+                    "total_dose": "45 Gy",
+                    "dose_per_fraction": "1.5 Gy",
+                    "fractions": "30 fractions",
+                    "schedule": "Over 3 weeks, twice daily with at least 6-hour interfraction interval",
+                    "indication": "Limited-stage SCLC (category 1) [1, 19, 20]."
+                },
+                {
+                    "name": "Once-daily conventional fractionation (higher dose)",
+                    "total_dose": "66–70 Gy",
+                    "dose_per_fraction": "2 Gy",
+                    "fractions": "33–35 fractions",
+                    "schedule": "Over 6.5–7 weeks",
+                    "indication": "Limited-stage SCLC when using once-daily fractionation (preferred) [1, 24–27]."
+                },
+                {
+                    "name": "Once-daily accelerated RT",
+                    "total_dose": "40–42 Gy",
+                    "dose_per_fraction": "2.67–2.8 Gy",
+                    "fractions": "15 fractions",
+                    "schedule": "Over 3 weeks",
+                    "indication": "Limited-stage SCLC; may produce similar outcomes as twice-daily 45 Gy [1, 21–23]."
+                },
+                {
+                    "name": "High-dose accelerated RT (simultaneous integrated boost)",
+                    "total_dose": "54 Gy to GTV",
+                    "dose_per_fraction": "1.8 Gy",
+                    "fractions": "30 fractions",
+                    "schedule": "Over 3 weeks, twice daily",
+                    "indication": "Limited-stage SCLC; demonstrated survival advantage over standard 45 Gy [1, 33, 34]."
+                },
+                {
+                    "name": "Consolidative thoracic RT for extensive-stage SCLC",
+                    "total_dose": "30 Gy",
+                    "dose_per_fraction": "3 Gy",
+                    "fractions": "10 fractions",
+                    "schedule": "Over 2 weeks",
+                    "indication": "Extensive-stage SCLC with complete or good response to systemic therapy, especially with residual thoracic disease and low-bulk extrathoracic metastatic disease [1, 36–39]."
+                },
+                {
+                    "name": "Prophylactic cranial irradiation (PCI)",
+                    "total_dose": "25 Gy",
+                    "dose_per_fraction": "2.5 Gy",
+                    "fractions": "10 fractions",
+                    "schedule": "Daily",
+                    "indication": "Limited-stage or extensive-stage SCLC with response to initial therapy (category 1 for LS-SCLC based on meta-analyses) [1, 42, 43]."
+                },
+                {
+                    "name": "Whole-brain RT (WBRT) for brain metastases",
+                    "total_dose": "30 Gy",
+                    "dose_per_fraction": "3 Gy",
+                    "fractions": "10 fractions",
+                    "schedule": "Daily",
+                    "indication": "Brain metastases from SCLC [1]."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Concurrent chemoradiation for limited-stage SCLC",
+                    "dose_fractionation": "45 Gy in 1.5 Gy fractions twice daily over 3 weeks (category 1) or 66–70 Gy in 2 Gy fractions once daily over 6.5–7 weeks",
+                    "concurrent_chemotherapy": "Platinum/etoposide (cisplatin 75 mg/m² Day 1, etoposide 100 mg/m² Days 1,2,3; or cisplatin 60 mg/m² Day 1, etoposide 120 mg/m² Days 1,2,3; or carboplatin AUC 5–6 Day 1, etoposide 100 mg/m² Days 1,2,3)",
+                    "indication": "Limited-stage SCLC (stage IIB–IIIC) with good PS (0–2) [1].",
+                    "key_trial": "CONVERT trial (twice-daily vs once-daily), INT 0096 (twice-daily vs conventional once-daily), CALGB 30610/RTOG 0538 (high-dose once-daily vs twice-daily) [1, 105, 19, 245].",
+                    "toxicities": "Esophagitis, pneumonitis, myelosuppression, fatigue [1]."
+                },
+                {
+                    "name": "Adjuvant durvalumab after chemoradiation",
+                    "dose_fractionation": "Durvalumab 1500 mg Day 1 every 28 days for up to 24 months",
+                    "concurrent_chemotherapy": "Not applicable (administered after chemoradiation)",
+                    "indication": "Limited-stage SCLC without disease progression after systemic therapy + concurrent RT [1].",
+                    "key_trial": "ADRIATIC trial: median OS 55.9 months vs 33.4 months (placebo), PFS 16.6 vs 9.2 months [1, 115].",
+                    "toxicities": "Immune-mediated adverse events (see NCCN Guidelines for Management of Immune Checkpoint Inhibitor-Related Toxicities) [1]."
+                },
+                {
+                    "name": "Consolidative thoracic RT for extensive-stage SCLC",
+                    "dose_fractionation": "30 Gy in 10 fractions, or individualized within range up to definitive dosing",
+                    "concurrent_chemotherapy": "Typically sequential after systemic therapy",
+                    "indication": "Selected patients with ES-SCLC with complete or good response to systemic therapy before immunotherapy, especially with residual thoracic disease and low-bulk extrathoracic metastatic disease [1, 36–39].",
+                    "key_trial": "Dutch CREST trial: improved 2-year OS and 6-month PFS [1, 38].",
+                    "toxicities": "Esophagitis, pneumonitis, myelosuppression [1]."
+                },
+                {
+                    "name": "Prophylactic cranial irradiation (PCI)",
+                    "dose_fractionation": "25 Gy in 10 fractions (preferred); shorter course 20 Gy in 5 fractions may be appropriate for selected ES-SCLC patients",
+                    "concurrent_chemotherapy": "Not recommended concurrently with chemotherapy; administer after resolution of acute toxicities of initial therapy",
+                    "indication": "LS-SCLC or ES-SCLC with good response to initial therapy [1, 42, 43].",
+                    "key_trial": "Meta-analyses showing decreased brain metastases and improved OS; EORTC trial in ES-SCLC [1, 42, 43, 45].",
+                    "toxicities": "Neurocognitive decline, fatigue, headache, nausea/vomiting; risk increased in patients ≥60 years [1, 47, 48]."
+                },
+                {
+                    "name": "Stereotactic radiosurgery (SRS) or stereotactic radiation therapy (SRT) for brain metastases",
+                    "dose_fractionation": "Variable; typically 18–24 Gy in 1–5 fractions",
+                    "concurrent_chemotherapy": "Not applicable",
+                    "indication": "Selected patients with limited number of brain metastases [1, 55–57].",
+                    "key_trial": "FIRE-SCLC cohort study comparing SRS vs WBRT [1, 55].",
+                    "toxicities": "Radionecrosis, neurocognitive effects (less than WBRT) [1]."
+                },
+                {
+                    "name": "Palliative RT for extracranial metastases",
+                    "dose_fractionation": "Common regimens: 30 Gy in 10 fractions, 20 Gy in 5 fractions, 8 Gy in 1 fraction",
+                    "concurrent_chemotherapy": "Not applicable",
+                    "indication": "Palliation of symptomatic metastases (e.g., painful bone lesions, spinal cord compression, obstructive atelectasis) [1, 302–304].",
+                    "key_trial": "ASTRO evidence-based guideline for palliative RT [1, 303].",
+                    "toxicities": "Site-specific toxicity (e.g., esophagitis, pneumonitis) [1]."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is essential for all stages of SCLC. For limited-stage disease, it is combined with thoracic RT for definitive treatment. For extensive-stage disease, it is the primary treatment, often combined with immunotherapy. The standard induction is four cycles of platinum/etoposide-based chemotherapy. Immunotherapy with atezolizumab or durvalumab is now a standard first-line component for extensive-stage disease and as consolidation for limited-stage disease [1].",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Primary or adjuvant therapy for limited-stage SCLC",
+                    "preferred_regimen": "Four cycles of cisplatin/etoposide or carboplatin/etoposide with concurrent RT (category 1 for good PS 0–2)",
+                    "rationale": "Platinum/etoposide is the standard chemotherapy backbone for limited-stage SCLC based on superiority in efficacy and toxicity over older alkylator/anthracycline regimens [1, 105–109]. Concurrent RT improves survival [1, 98, 99].",
+                    "alternatives": "Cisplatin 25 mg/m² Days 1,2,3 and Etoposide 100 mg/m² Days 1,2,3 [1].",
+                    "biomarker_requirements": "Not specified."
+                },
+                {
+                    "setting": "Consolidation therapy after chemoradiation for limited-stage SCLC",
+                    "preferred_regimen": "Durvalumab 1500 mg Day 1 every 28 days for up to 24 months (category 1)",
+                    "rationale": "ADRIATIC trial demonstrated significant OS and PFS improvement [1, 115].",
+                    "alternatives": "None listed.",
+                    "biomarker_requirements": "Not specified."
+                },
+                {
+                    "setting": "Primary therapy for extensive-stage SCLC",
+                    "preferred_regimen": "Platinum/etoposide + atezolizumab (category 1) or platinum/etoposide + durvalumab (category 1)",
+                    "rationale": "IMpower133 (atezolizumab) and CASPIAN (durvalumab) trials showed improved OS [1, 118–120, 123].",
+                    "alternatives": "Platinum/etoposide alone (other recommended), irinotecan-based regimens (useful in certain circumstances).",
+                    "biomarker_requirements": "Contraindications for PD-1/PD-L1 inhibitors may include active autoimmune disease or immunosuppressive agents [1]."
+                },
+                {
+                    "setting": "Subsequent therapy for relapsed/refractory SCLC",
+                    "preferred_regimen": "Tarlatamab-dlle (category 1), irinotecan, lurbinectedin (if not previously used), platinum rechallenge for sensitive relapse, topotecan",
+                    "rationale": "Tarlatamab-dlle showed improved OS vs chemotherapy in phase 3 trial [1, 196]. Other agents have activity in relapsed SCLC [1].",
+                    "alternatives": "Nivolumab or pembrolizumab (if not previously treated with ICI), CAV, docetaxel, gemcitabine, oral etoposide, paclitaxel, temozolomide.",
+                    "biomarker_requirements": "Consider biomarker testing if not previously done to determine clinical trial eligibility [1]."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Cisplatin/Etoposide (Limited-stage)",
+                    "setting": "Primary therapy for limited-stage SCLC with concurrent RT",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "75 mg/m²",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity, ototoxicity, neurotoxicity, nausea/vomiting [1]."
+                },
+                {
+                    "name": "Cisplatin/Etoposide (Limited-stage, alternative dosing)",
+                    "setting": "Primary therapy for limited-stage SCLC with concurrent RT",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "60 mg/m²",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "120 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Similar to above [1]."
+                },
+                {
+                    "name": "Carboplatin/Etoposide (Limited-stage)",
+                    "setting": "Primary therapy for limited-stage SCLC with concurrent RT",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 5–6",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        }
+                    ],
+                    "cycle_days": "21–28 days",
+                    "key_toxicities": "Myelosuppression (greater risk than cisplatin), nausea/vomiting [1]."
+                },
+                {
+                    "name": "Cisplatin/Etoposide (Limited-stage, other recommended)",
+                    "setting": "Primary therapy for limited-stage SCLC with concurrent RT",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "25 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Similar to above [1]."
+                },
+                {
+                    "name": "Carboplatin/Etoposide + Atezolizumab (Extensive-stage, induction)",
+                    "setting": "Primary therapy for extensive-stage SCLC",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 5",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        },
+                        {
+                            "name": "Atezolizumab",
+                            "dose": "1200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days for 4 cycles",
+                    "key_toxicities": "Myelosuppression, immune-mediated adverse events (e.g., pneumonitis, hepatitis, colitis) [1, 118, 120]."
+                },
+                {
+                    "name": "Atezolizumab maintenance (Extensive-stage)",
+                    "setting": "Maintenance after induction chemoimmunotherapy for extensive-stage SCLC",
+                    "drugs": [
+                        {
+                            "name": "Atezolizumab",
+                            "dose": "1200 mg",
+                            "route": "IV",
+                            "day": "Day 1 every 21 days"
+                        }
+                    ],
+                    "cycle_days": "21 days until progression or intolerable toxicity",
+                    "key_toxicities": "Immune-mediated adverse events [1, 118, 120]."
+                },
+                {
+                    "name": "Carboplatin/Etoposide + Durvalumab (Extensive-stage, induction)",
+                    "setting": "Primary therapy for extensive-stage SCLC",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 5–6",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "80–100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        },
+                        {
+                            "name": "Durvalumab",
+                            "dose": "1500 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days for 4 cycles",
+                    "key_toxicities": "Myelosuppression, immune-mediated adverse events [1, 119, 123]."
+                },
+                {
+                    "name": "Durvalumab maintenance (Extensive-stage)",
+                    "setting": "Maintenance after induction chemoimmunotherapy for extensive-stage SCLC",
+                    "drugs": [
+                        {
+                            "name": "Durvalumab",
+                            "dose": "1500 mg",
+                            "route": "IV",
+                            "day": "Day 1 every 28 days"
+                        }
+                    ],
+                    "cycle_days": "28 days until progression or intolerable toxicity",
+                    "key_toxicities": "Immune-mediated adverse events [1, 119, 123]."
+                },
+                {
+                    "name": "Carboplatin/Etoposide + Atezolizumab, then Lurbinectedin/Atezolizumab maintenance (Extensive-stage, IMforte regimen)",
+                    "setting": "Primary therapy for extensive-stage SCLC",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 5",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "100 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1, 2, 3"
+                        },
+                        {
+                            "name": "Atezolizumab",
+                            "dose": "1200 mg",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days for 4 cycles, then maintenance lurbinectedin 3.2 mg/m² Day 1 and atezolizumab 1200 mg Day 1 every 21 days",
+                    "key_toxicities": "Myelosuppression, immune-mediated adverse events; lurbinectedin adds myelosuppression and hepatotoxicity [1, 7]."
+                },
+                {
+                    "name": "Tarlatamab-dlle (Subsequent therapy)",
+                    "setting": "Subsequent therapy for relapsed/refractory SCLC",
+                    "drugs": [
+                        {
+                            "name": "Tarlatamab-dlle",
+                            "dose": "10 mg",
+                            "route": "IV",
+                            "day": "Every 2 weeks"
+                        }
+                    ],
+                    "cycle_days": "14 days until progression or intolerable toxicity",
+                    "key_toxicities": "Cytokine release syndrome (56%), neutropenia, lymphopenia, fatigue, hyponatremia, anemia [1, 196]."
+                },
+                {
+                    "name": "Irinotecan (Subsequent therapy)",
+                    "setting": "Subsequent therapy for relapsed/refractory SCLC",
+                    "drugs": [
+                        {
+                            "name": "Irinotecan",
+                            "dose": "350 mg/m²",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Myelosuppression, diarrhea, pulmonary toxicity [1, 197]."
+                },
+                {
+                    "name": "Lurbinectedin (Subsequent therapy)",
+                    "setting": "Subsequent therapy for relapsed/refractory SCLC",
+                    "drugs": [
+                        {
+                            "name": "Lurbinectedin",
+                            "dose": "3.2 mg/m²",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Myelosuppression (anemia, leukopenia, neutropenia, thrombocytopenia), hepatotoxicity [1, 199, 200]."
+                },
+                {
+                    "name": "Topotecan (Subsequent therapy)",
+                    "setting": "Subsequent therapy for relapsed/refractory SCLC",
+                    "drugs": [
+                        {
+                            "name": "Topotecan (IV)",
+                            "dose": "1.5 mg/m²",
+                            "route": "IV",
+                            "day": "Days 1–5"
+                        },
+                        {
+                            "name": "Topotecan (oral)",
+                            "dose": "2.3 mg/m²",
+                            "route": "PO",
+                            "day": "Days 1–5"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Myelosuppression (neutropenia, thrombocytopenia), mucositis, diarrhea [1, 206, 210]."
+                }
+            ],
+            "contraindications": "Contraindications for treatment with PD-1/PD-L1 inhibitors may include active or previously documented autoimmune disease and/or concurrent use of immunosuppressive agents. If TKI is continued for transformed SCLC from NSCLC with oncogenic driver, ICI should be avoided due to known toxicity [1, d]."
+        },
+        "treatment_response_assessment": {
+            "title": "Treatment Response Assessment",
+            "timing": "For patients receiving adjuvant systemic therapy ± RT or systemic therapy + concurrent RT, response assessment is recommended only after completion of initial therapy. For systemic therapy alone or sequential systemic therapy followed by RT, response assessment is recommended after every 2 cycles of systemic therapy and at completion of therapy. Repeating scans to assess response during adjuvant or initial treatment is not recommended in the absence of new symptoms [1].",
+            "response_logic": [
+                {
+                    "stage": "Limited stage",
+                    "response": "Complete response, partial response, or stable disease",
+                    "next_steps": "Proceed to adjuvant therapy (durvalumab consolidation) and consider PCI or MRI brain surveillance [1, 6]."
+                },
+                {
+                    "stage": "Limited stage",
+                    "response": "Primary progressive disease",
+                    "next_steps": "Proceed to subsequent therapy/palliative therapy [1, 8]."
+                },
+                {
+                    "stage": "Extensive stage",
+                    "response": "Complete response, partial response, or stable disease",
+                    "next_steps": "Continue maintenance immunotherapy if patient was started on chemoimmunotherapy. Consider thoracic RT for selected patients. Surveillance [1, 6]."
+                },
+                {
+                    "stage": "Extensive stage",
+                    "response": "Primary progressive disease",
+                    "next_steps": "Proceed to subsequent therapy/palliative therapy [1, 8]."
+                }
+            ],
+            "imaging_recommendations": [
+                {
+                    "stage": "Limited stage",
+                    "imaging": "C/A/P CT with contrast and brain MRI (preferred) with contrast or brain CT with contrast after completion of initial therapy [1, 6]."
+                },
+                {
+                    "stage": "Limited stage (systemic therapy alone or sequential RT)",
+                    "imaging": "C/A/P CT with contrast after every 2 cycles of systemic therapy and at completion of therapy [1, 6]."
+                },
+                {
+                    "stage": "Extensive stage",
+                    "imaging": "C/A/P CT with contrast after every 2–3 cycles of systemic therapy and at completion of therapy. Brain MRI (preferred) or brain CT with contrast every 3–4 months, or at frequency based on clinical indication [1, 6]."
+                },
+                {
+                    "stage": "Extensive stage with known brain metastases (systemic therapy before brain RT)",
+                    "imaging": "Brain MRI (preferred) or CT with contrast repeated after every 2 cycles of systemic therapy until brain RT is initiated [1, 6]."
+                },
+                {
+                    "stage": "Surveillance (limited stage)",
+                    "imaging": "Oncology follow-up visits every 3 months during years 1–2, every 6 months during year 3, then annually. Surveillance CT, brain MRI (preferred). New pulmonary nodule should initiate workup for potential new primary [1, 7]."
+                },
+                {
+                    "stage": "Surveillance (extensive stage)",
+                    "imaging": "Oncology follow-up visits every 2 months during year 1, every 3–4 months during years 2–3, every 6 months during years 4–5, then annually. Surveillance CT, brain MRI (preferred) [1, 7]."
+                },
+                {
+                    "stage": "General",
+                    "imaging": "FDG-PET/CT is not recommended for routine follow-up unless contrast CT or MRI is contraindicated [1]."
+                }
+            ],
+            "biopsy_or_salvage_logic": [
+                {
+                    "scenario": "New pulmonary nodule during surveillance",
+                    "action": "Should initiate workup for potential new primary lung cancer, as second primary tumors post-treatment frequently occur in patients with no evidence of SCLC [1, 190, 191]."
+                },
+                {
+                    "scenario": "Relapse or progressive disease",
+                    "action": "Consider genomic profiling of relapsed tumors if not previously done to determine clinical trial eligibility [1, cc]."
+                },
+                {
+                    "scenario": "CNS progression only",
+                    "action": "Continue systemic therapy and treat the brain metastases with RT [1, ee]."
+                }
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_lung_2.2026_1.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T17:01:08.024379"
+    },
+    "extraction_warnings": [
+        "  [CRITICAL] Uveal Melanoma/nccn_lung_2.2026_1.pdf: Regimen 'Carboplatin/Etoposide + Concurrent Radiation Therapy' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Uveal Melanoma/nccn_lung_2.2026_1.pdf: Regimen 'Carboplatin/Etoposide + Durvalumab followed by Maintenance Durvalumab' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Uveal Melanoma/nccn_lung_2.2026_1.pdf: Regimen 'Carboplatin/Etoposide (without immunotherapy)' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Uveal Melanoma/nccn_lung_2.2026_1.pdf: Regimen 'Platinum-Based Rechallenge (Carboplatin/Etoposide)' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required."
+    ]
+}

@@ -1,0 +1,3055 @@
+{
+    "site_id": "hodgkin_lymphoma",
+    "site_display_name": "Hodgkin Lymphoma",
+    "archetype": "F",
+    "regimen_count": 68,
+    "regimens": [
+        {
+            "regimen_name": "ABVD x 2 cycles followed by ISRT 20 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GHSG HD16",
+                "phase": "III",
+                "n_patients": "1150",
+                "os_data": "97.7% vs 97.5% at 5 years (30 Gy vs 20 Gy)",
+                "pfs_data": "93.7% vs 93.2% at 5 years (30 Gy vs 20 Gy)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For stage IA/IIA favorable disease by GHSG criteria (non-bulky, ≤2 nodal sites, ESR <50 mm/hr, no E-lesions). 20 Gy ISRT is sufficient for patients with non-bulky stage I–IIA disease, ESR <50 mm/hr, no extralymphatic lesions, and only 1 or 2 lymph node regions involved (HODG-3). Bleomycin should be used with caution in patients >60 years (HODG-9). Consider PFTs after 4 cycles of ABVD (HODG-4). Neutropenia is not a factor for delay of treatment or reduction of dose intensity with ABVD. Routine use of growth factors is not recommended with ABVD."
+        },
+        {
+            "regimen_name": "ABVD x 2 cycles followed by AVD x 4 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (ABVD cycles 1-2)"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (ABVD cycles 1-2 only)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (all cycles)"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (all cycles)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RATHL",
+                "phase": "III",
+                "n_patients": "1119 (advanced stage, 41.6% stage II with risk factors)",
+                "os_data": "93.2% vs 93.5% at 7 years (ABVD vs AVD)",
+                "pfs_data": "81% vs 79.2% at 7 years (ABVD vs AVD)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For early-stage favorable (GHSG criteria) with Deauville 1-3 after 2 cycles ABVD. Omission of bleomycin after negative PET results (Deauville 1-3) led to decreased incidence of pulmonary toxic effects compared to continued ABVD (HODG-7D). Also adapted from CALGB 50604 trial for Deauville 3 response only; outcomes for patients with Deauville 3 response were suboptimal (HODG-5)."
+        },
+        {
+            "regimen_name": "ABVD x 1 cycle + ISRT 30 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-2 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RAPID / EORTC H10F",
+                "phase": "III",
+                "n_patients": "754 (favorable group in H10F)",
+                "os_data": "No difference reported",
+                "pfs_data": "94.6% vs 90.8% at 3 years (IFRT vs observation in RAPID); 98.8% vs 85.4% at 10 years (ABVD+RT vs ABVD only in H10F)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For stage IA/IIA favorable disease by EORTC criteria (non-bulky, ≤3 nodal sites, ESR <50 mm/hr, no B symptoms). Total 3 cycles ABVD (1 before + 2 after interim PET). ISRT 30 Gy. The RAPID trial showed somewhat inferior PFS without RT, albeit no difference in OS. Among patients with initial disease ≥5 cm, those treated with CMT had superior EFS (HODG-5A)."
+        },
+        {
+            "regimen_name": "ABVD x 2 cycles + ISRT 30 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "EORTC H10U",
+                "phase": "III",
+                "n_patients": "1196",
+                "os_data": null,
+                "pfs_data": "91.4% vs 86.5% at 10 years (ABVD+INRT vs ABVD only for PET-negative)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For stage I/II unfavorable CHL with Deauville 1-3 after 2 cycles ABVD. Total 4 cycles ABVD + ISRT 30 Gy (adapted from H10U). Also applicable for stage IA/IIA favorable by GHSG or EORTC criteria with Deauville 3 after 2 cycles ABVD (HODG-5A)."
+        },
+        {
+            "regimen_name": "AVD x 4 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RATHL / H10U",
+                "phase": "III",
+                "n_patients": null,
+                "os_data": "93.2% vs 93.5% at 7 years (ABVD vs AVD)",
+                "pfs_data": "81% vs 79.2% at 7 years (ABVD vs AVD)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For early-stage favorable (GHSG criteria) or early-stage unfavorable disease with Deauville 1-3 after 2 cycles ABVD, as a chemotherapy-alone option. Omission of bleomycin after negative PET results (Deauville 1-3) led to decreased incidence of pulmonary toxic effects. Useful when CMT is not preferred (e.g., young patients where breast/heart constraints cannot be met, or doxorubicin dose would exceed 200 mg/m2) (HODG-4)."
+        },
+        {
+            "regimen_name": "BrECADD + G-CSF x 2 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Daily starting day 5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 4-5 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GHSG HD21",
+                "phase": "III",
+                "n_patients": "1500",
+                "os_data": "98.6% vs 98.2% at 4 years",
+                "pfs_data": "94.3% vs 90.9% at 4 years (BrECADD vs escalated BEACOPP)",
+                "hr_ci": "PFS HR for stage II: 0.35; stage III: 0.65; stage IV: 0.79",
+                "orr": null
+            },
+            "notes": "For early-stage favorable or unfavorable CHL with Deauville 4-5 after 2 cycles ABVD, as treatment escalation. While BrECADD has not been formally tested in this setting, its use as escalation therapy is reasonable given its improved safety profile compared to escalated BEACOPP (HODG-6). The HD21 trial demonstrated significantly lower treatment-related morbidity with BrECADD vs escalated BEACOPP (42% vs 59%; P<.0001). BrECADD eliminates bleomycin and procarbazine. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "Nivolumab-AVD x 4 cycles + ISRT 30 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "NIVAHL",
+                "phase": "II",
+                "n_patients": "109",
+                "os_data": "100% in both arms at 41 months",
+                "pfs_data": "100% (concomitant) vs 98% (sequential) at 41 months",
+                "hr_ci": null,
+                "orr": "100% (concomitant), 96% (sequential) after 2 cycles"
+            },
+            "notes": "For early-stage unfavorable CHL by GHSG criteria (HODG-6A). Final analysis of the NIVAHL trial showed 100% OS in both arms, with PFS of 100% in the concomitant arm and 98% in the sequential arm. Neutropenia is not a factor for delay of treatment or reduction of dose intensity with nivolumab-AVD. In the SWOG S1826 trial, growth factor support was optional."
+        },
+        {
+            "regimen_name": "BV-AVD + G-CSF x 4 cycles + ISRT 30 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "BREACH",
+                "phase": "II",
+                "n_patients": "170",
+                "os_data": null,
+                "pfs_data": "97.3% vs 92.6% at 2 years (BV-AVD vs ABVD)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For early-stage unfavorable CHL with supradiaphragmatic disease and ≥1 EORTC/LYSA unfavorable criterion (HODG-6A). At interim restaging following 2 cycles, 82.3% of patients in the BV-AVD arm achieved PET negativity vs 75.4% in the ABVD arm. Grade 3-4 AEs were more common in the BV-AVD arm (86% vs 69%). PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "BrECADD + G-CSF x 2 cycles (Stage IIB with large mediastinal mass/extranodal)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Daily starting day 5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GHSG HD21",
+                "phase": "III",
+                "n_patients": "1500 (234 with stage II disease)",
+                "os_data": "98.6% vs 98.2% at 4 years",
+                "pfs_data": "94.3% vs 90.9% at 4 years (BrECADD vs escalated BEACOPP)",
+                "hr_ci": "PFS HR for stage II: 0.35",
+                "orr": null
+            },
+            "notes": "For stage IIB with large mediastinal mass and/or extranodal disease (HODG-6B). Adapted from HD21 trial. While BrECADD + G-CSF has not been formally tested in this specific setting, its use is reasonable given the improved safety profile vs escalated BEACOPP. PJP prophylaxis is recommended. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "Nivolumab-AVD x 6 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SWOG S1826",
+                "phase": "III",
+                "n_patients": "970 (intent-to-treat cohort; median age 27.6 years, range 12-83.7)",
+                "os_data": "99% vs 98% at 2 years (nivolumab-AVD vs BV-AVD); OS HR 0.39 (95% CI 0.15-1.03)",
+                "pfs_data": "92% vs 83% at 2 years; HR for disease progression or death 0.45 (95% CI 0.3-0.65)",
+                "hr_ci": "PFS HR 0.45 (95% CI 0.3-0.65); EFS HR 0.50 (95% CI 0.36-0.71)",
+                "orr": null
+            },
+            "notes": "For stage III-IV CHL. Category 1, preferred treatment option based on SWOG S1826 trial. Growth factor support was optional during the trial. RT was administered sparingly (0.6% with nivolumab-AVD). Neutropenia is not a factor for delay of treatment or reduction of dose intensity with nivolumab-AVD. Some patients received ISRT 30 Gy on SWOG S1826 for Deauville 4-5 (1-2 lesions), ≥30% reduction in transverse diameter, residual nodal mass ≥2.5 cm, or residual extranodal lesion >1 cm."
+        },
+        {
+            "regimen_name": "BrECADD + G-CSF (PET2-adapted)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Daily starting day 5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles (receive 4 cycles total); Deauville 4-5 (receive 6 cycles total)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GHSG HD21",
+                "phase": "III",
+                "n_patients": "1500",
+                "os_data": "98.6% vs 98.2% at 4 years (BrECADD vs escalated BEACOPP)",
+                "pfs_data": "94.3% vs 90.9% at 4 years (BrECADD vs escalated BEACOPP)",
+                "hr_ci": "PFS HR 0.51 (PET2 negative, 4 cycles); HR 0.72 (PET2 positive, 6 cycles)",
+                "orr": null
+            },
+            "notes": "For stage III-IV CHL. Category 1, preferred treatment option based on GHSG HD21 trial. 64% of patients in both arms had negative FDG-PET/CT after cycle 2 and received 4 cycles of treatment. BrECADD was associated with significantly lower treatment-related morbidity (42% vs 59%; P<.0001). Grade 2+ peripheral neuropathy occurred in <10% of BrECADD arm; 88% had fully resolved at 1 year. Gonadal function recovery at 4 years was more common with BrECADD in females (95.3% vs 72.5%) and males (86% vs 39.2%). PJP prophylaxis is recommended for all BV-containing regimens."
+        },
+        {
+            "regimen_name": "BV-AVD + G-CSF x 6 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Required"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "ECHELON-1",
+                "phase": "III",
+                "n_patients": "1334 (670 ABVD; 664 BV-AVD)",
+                "os_data": "93.9% vs 89.4% at 6 years; HR 0.59 (P=.009)",
+                "pfs_data": "82.3% vs 74.5% at 6 years; HR 0.68",
+                "hr_ci": "OS HR 0.59 (P=.009); PFS HR 0.68",
+                "orr": null
+            },
+            "notes": "For stage III-IV CHL. Category 1, useful in certain circumstances. The ECHELON-1 trial design was not PET-adapted; consequently, superiority over PET-adapted ABVD according to the RATHL study has not been established. An interim FDG-PET/CT after 2 cycles may be helpful in further defining therapy. If performing interim FDG-PET/CT before completion of 6 cycles and FDG-PET is positive (Deauville 5), conduct biopsy; if positive, change therapy. PJP prophylaxis is recommended for all BV-containing regimens. Consider ISRT to initially bulky or remaining FDG-PET-positive sites at the end of therapy."
+        },
+        {
+            "regimen_name": "ABVD x 2 cycles then AVD x 4 cycles (Stage III-IV)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (ABVD cycles 1-2)"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (ABVD cycles 1-2 only)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (all cycles)"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (all cycles)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RATHL",
+                "phase": "III",
+                "n_patients": "1119",
+                "os_data": "91.6% at 7 years",
+                "pfs_data": "78.2% at 7 years",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For stage III-IV CHL when BV and CPI are not available or contraindicated. Omission of bleomycin after negative PET results (Deauville 1-3) led to decreased incidence of pulmonary toxic effects. If Deauville 4-5 after 2 cycles ABVD, escalation to BrECADD plus G-CSF is recommended."
+        },
+        {
+            "regimen_name": "ABVD x 2 cycles then BrECADD + G-CSF x 3 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-3"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-4"
+                },
+                {
+                    "name": "G-CSF",
+                    "dose": null,
+                    "route": "SC",
+                    "schedule": "Daily starting day 5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 4-5 after 2 cycles ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For stage III-IV CHL with Deauville 4-5 after 2 cycles ABVD. The Panel recommends escalation to BrECADD plus G-CSF rather than escalated BEACOPP despite lack of formal data in this setting due to improved safety profile (HODG-7D). The value of interim FDG-PET imaging is unclear for many clinical scenarios; all measures of response should be considered in the context of management decisions."
+        },
+        {
+            "regimen_name": "A(B)VD x 2 cycles + ISRT 20 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (use with caution in patients >60 years; do not use beyond 2 cycles)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GHSG HD10/HD13",
+                "phase": "III",
+                "n_patients": "287 (patients ≥60 years)",
+                "os_data": "5-year OS rate 67% (95% CI 58-74) for ABVD in elderly",
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years, stage I-II favorable disease by GHSG criteria, candidate for anthracycline. Bleomycin should be used with caution as it may not be tolerated in patients >60 years, and it should not be used beyond 2 cycles (HODG-B 2 of 8). Results of the HD10 and HD13 trials suggested limited benefit in patients ≥60 years receiving >2 cycles of bleomycin."
+        },
+        {
+            "regimen_name": "A(B)VD x 3 cycles + ISRT 30 Gy",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (use with caution in patients >60 years; do not use beyond 2 cycles)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GHSG HD10/HD13",
+                "phase": "III",
+                "n_patients": "287 (patients ≥60 years)",
+                "os_data": "5-year OS rate 67% (95% CI 58-74) for ABVD in elderly",
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years, stage I-II favorable disease by EORTC criteria, candidate for anthracycline. Bleomycin should be used with caution and not used beyond 2 cycles (HODG-B 2 of 8)."
+        },
+        {
+            "regimen_name": "A(B)VD x 2 cycles then AVD x 4 cycles (PET adapted)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15 (ABVD cycles 1-2 only)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Interim FDG-PET",
+                    "requirement": "Deauville score 1-3 after 2 cycles of ABVD",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "RATHL / H10U",
+                "phase": "III",
+                "n_patients": null,
+                "os_data": "93.2% vs 93.5% at 7 years (ABVD vs AVD)",
+                "pfs_data": "81% vs 79.2% at 7 years (ABVD vs AVD)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, stage I-II unfavorable disease. If FDG-PET negative after 2 cycles ABVD, treat with 4 additional cycles of AVD. Bleomycin should not be used beyond 2 cycles. If FDG-PET positive after 2 cycles ABVD, individualized treatment plan should be developed (HODG-B 2 of 8)."
+        },
+        {
+            "regimen_name": "BV x 2 cycles then AVD x 6 cycles conditionally followed by BV x 2 cycles",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1 (lead-in cycles 1-2, then consolidation cycles 7-8 if CR/PR)"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Evens et al.",
+                "phase": "II",
+                "n_patients": "48 (≥60 years with untreated stage II-IV HL)",
+                "os_data": "93% at 2 years",
+                "pfs_data": "84% at 2 years",
+                "hr_ci": null,
+                "orr": "95% ORR, 90% CR after 6 cycles of AVD"
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, stage I-II unfavorable or stage III-IV disease, candidate for anthracycline, no neuropathy. 77% completed 6 cycles of AVD, 73% received at least one BV consolidation. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "Nivolumab-AVD x 4 cycles + ISRT",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "S1826 (≥60 years subset)",
+                "phase": "III",
+                "n_patients": "103 (≥60 years with newly diagnosed stage III-IV CHL)",
+                "os_data": "96% vs 85% at 2 years (nivolumab-AVD vs BV-AVD; P=.005)",
+                "pfs_data": "89% vs 64% at 2 years (nivolumab-AVD vs BV-AVD; P=.001)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, stage III-IV disease, category 1, preferred. Subset analysis from S1826 showed nivolumab-AVD was superior and better tolerated than BV-AVD in patients ≥60 years. G-CSF was optional for nivolumab-AVD but required for BV-AVD arm. Nivolumab-AVD was associated with less febrile neutropenia, infections, and sepsis."
+        },
+        {
+            "regimen_name": "Nivolumab-AVD x 6 cycles (≥60 years)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Torka et al.",
+                "phase": "II",
+                "n_patients": "37 (≥60 years with newly diagnosed HL; 78% stage III-IV)",
+                "os_data": "96.4% at 2 years",
+                "pfs_data": "86.2% at 2 years",
+                "hr_ci": null,
+                "orr": "100% ORR, 97% CR"
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, any stage. No grade 3 or higher immune-mediated AEs were noted in this study."
+        },
+        {
+            "regimen_name": "BV-Nivolumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Friedberg et al.",
+                "phase": "II",
+                "n_patients": "21 (≥60 years with newly diagnosed advanced-stage HL)",
+                "os_data": "Median OS not reached at 51.6 months",
+                "pfs_data": "Median PFS not reached at 51.6 months",
+                "hr_ci": null,
+                "orr": "86% ORR, 67% CR"
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, not a candidate for anthracycline. 19% experienced sensory peripheral neuropathy, 19% motor peripheral neuropathy."
+        },
+        {
+            "regimen_name": "BV-DTIC ± ISRT",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Friedberg et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, any age, not a candidate for anthracycline, any stage. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "BV-Nivolumab ± ISRT",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Friedberg et al.",
+                "phase": "II",
+                "n_patients": "21 (≥60 years)",
+                "os_data": "Median OS not reached at 51.6 months",
+                "pfs_data": "Median PFS not reached at 51.6 months",
+                "hr_ci": null,
+                "orr": "86% ORR, 67% CR"
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, any age, not a candidate for anthracycline, any stage. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "Nivolumab ± ISRT (or Pembrolizumab ± ISRT)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL in adults age >60 years or unfit for intensive therapy, any age, not a candidate for anthracycline, any stage, if contraindications to BV (HODG-B 2 of 8)."
+        },
+        {
+            "regimen_name": "Single-agent Vinblastine",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line during pregnancy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For CHL during first trimester of pregnancy with severe symptoms or organ compromise. Consider referral to center with expertise, consider pregnancy termination and urgent treatment, or single-agent vinblastine followed by ABVD after the start of the second trimester. ABVD can be safely administered in the second and third trimesters with excellent maternal and fetal outcomes. Intensive regimens (escalated BEACOPP, BV+AVD) and RT should be avoided during pregnancy."
+        },
+        {
+            "regimen_name": "ABVD during pregnancy (2nd/3rd trimester)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "First-line during pregnancy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "96% ORR, 83% CR in Evens et al. analysis"
+            },
+            "notes": "For CHL during second or third trimester of pregnancy with severe symptoms or organ compromise. ABVD can be safely administered with excellent maternal and fetal outcomes. Work with high-risk obstetrics to avoid delivery while at nadir. Consultation with pharmacy recommended to ensure supportive medications are appropriate for pregnancy. G-CSF is category C in pregnancy. Ondansetron and metoclopramide are preferred antiemetics. Breastfeeding should be avoided in patients receiving chemotherapy postpartum."
+        },
+        {
+            "regimen_name": "ISRT (Involved-Site Radiation Therapy) alone",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": "84% FFP at 15 years for stage I; 73% for stage II (Australasian Radiation Oncology Lymphoma Group)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Preferred treatment for all patients with stage IA or contiguous stage IIA non-bulky disease. Dose: 30-36 Gy. The dose of 30 Gy is mainly used for NLPHL. ISRT fields generally include adjacent but clinically uninvolved nodes when treated with RT alone (HODG-C 2 of 16). Observation may be an option for highly selected patients with stage IA disease with a completely excised solitary lymph node."
+        },
+        {
+            "regimen_name": "Chemotherapy + Rituximab + ISRT",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1 (if using ABVD backbone)"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1 (if using ABVD backbone)"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1 (if using ABVD backbone)"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1 (if using ABVD backbone)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive (characteristic of NLPHL)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Recommended for patients with stage IB or IIB disease, and for very rare patients presenting with stage IA or IIA bulky disease. Generally, a brief course of chemotherapy (2-4 months) would be given with RT. Rituximab and hyaluronidase human injection for subcutaneous use may be substituted for rituximab after the first full dose by IV infusion."
+        },
+        {
+            "regimen_name": "Rituximab monotherapy",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line (palliation) or relapsed/refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive (characteristic of NLPHL)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Stanford / GHSG Phase II",
+                "phase": "II",
+                "n_patients": "40 (28 newly diagnosed stage IA; 12 relapsed/refractory)",
+                "os_data": "100% at 43 months (GHSG stage IA)",
+                "pfs_data": "81% at 36 months (GHSG stage IA); median FFP 10.2 months (Stanford)",
+                "hr_ci": null,
+                "orr": "100% ORR (86% CR, 14% PR in GHSG; 41% CR, 54% PR, 5% CRu in Stanford)"
+            },
+            "notes": "Can be used for palliation in select cases of stage IIA non-contiguous disease, or for stage III-IV disease if asymptomatic. Rituximab monotherapy is also an option for relapsed or refractory NLPHL. Rituximab maintenance for 2 years may be considered for patients treated with rituximab alone (HODG-17)."
+        },
+        {
+            "regimen_name": "CHOP + Rituximab",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line or relapsed/refractory",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "One of the most common chemotherapy regimens used at NCCN Member Institutions for NLPHL. Can be used as first-line treatment for advanced stage disease or in relapsed/refractory setting. For patients with stage III-IV disease, chemotherapy with rituximab ± ISRT is recommended."
+        },
+        {
+            "regimen_name": "CVbP + Rituximab",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line or relapsed/refractory",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Prednisolone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Anglo-French collaborative report",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "One of the most common chemotherapy regimens used at NCCN Member Institutions for NLPHL. Low-intensity chemotherapy option for early stage disease."
+        },
+        {
+            "regimen_name": "ABVD + Rituximab",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "First-line or relapsed/refractory",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Savage et al.",
+                "phase": "Retrospective",
+                "n_patients": "100 (89 ABVD+RT; 11 ABVD alone)",
+                "os_data": "93% at 10 years (ABVD with/without RT) vs 84% (RT alone historical)",
+                "pfs_data": "91% vs 65% at 10 years (ABVD with/without RT vs RT alone)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "One of the most common chemotherapy regimens used at NCCN Member Institutions for NLPHL. Based on data for patients with CHL, ABVD is often used. Savage et al. reported ABVD with or without RT associated with superior outcomes compared to RT alone for stage IA, IB, or IIA NLPHL."
+        },
+        {
+            "regimen_name": "Bendamustine",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-2"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Moskowitz et al.",
+                "phase": "II",
+                "n_patients": "36",
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "56% (34/36 evaluable patients); 33% CR, 19% PR by ITT analysis"
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy. Single-agent bendamustine showed activity in heavily pretreated relapsed/refractory HL. Also included as single-agent palliative therapy option for patients not candidates for HDT/ASCR."
+        },
+        {
+            "regimen_name": "Bendamustine/Carboplatin/Etoposide",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bendamustine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Budde et al.",
+                "phase": "I/II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "85% (70% CR)"
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy."
+        },
+        {
+            "regimen_name": "Decitabine/Pembrolizumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "epigenetic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Decitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Nie et al. / Wang et al.",
+                "phase": "II",
+                "n_patients": "86",
+                "os_data": null,
+                "pfs_data": "35 months (combination); 15.5 months (monotherapy)",
+                "hr_ci": "PFS HR 0.02 (combination vs monotherapy)",
+                "orr": "71% CR with combination vs 32% with monotherapy (PD-1 inhibitor naive)"
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy. Combination showed improved CR rates compared to camrelizumab monotherapy. Also showed activity in patients with prior PD-1 inhibitor exposure (ORR 52%, CR 36%)."
+        },
+        {
+            "regimen_name": "GCD (Gemcitabine/Cisplatin/Dexamethasone)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Crump et al. / Gopal et al.",
+                "phase": "III / II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy."
+        },
+        {
+            "regimen_name": "GEMOX (Gemcitabine/Oxaliplatin)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Gutierrez et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy. Also studied in combination with tislelizumab (HODG-B 5 of 8)."
+        },
+        {
+            "regimen_name": "GEMOX-tislelizumab-jsgr",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Ding et al.",
+                "phase": "II",
+                "n_patients": "30",
+                "os_data": null,
+                "pfs_data": "96% at 1 year",
+                "hr_ci": null,
+                "orr": "100% ORR, 96.7% CR"
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL. Followed by tislelizumab maintenance for 2 years in the study. Most AEs were grade 1-2."
+        },
+        {
+            "regimen_name": "GVD-Pembrolizumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Moskowitz et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line therapy for relapsed/refractory CHL. Resulted in a CR rate of 95% in transplant-eligible patients. All patients who had undergone transplant achieved remission at median follow-up of 13.5 months."
+        },
+        {
+            "regimen_name": "ICE-Nivolumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Mei et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": "95% at 2 years",
+                "pfs_data": "72% at 2 years; 94% for those bridged directly to autologous HCT",
+                "hr_ci": null,
+                "orr": "93% after nivolumab+ICE; 91% CR"
+            },
+            "notes": "Second-line and subsequent therapy option. Response-adapted design: patients in CR after nivolumab alone proceeded to autologous HCT, while those with progressive disease or not in CR received 2 cycles of nivolumab plus ICE."
+        },
+        {
+            "regimen_name": "ICE-Pembrolizumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Bryan et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL."
+        },
+        {
+            "regimen_name": "BV (Brentuximab Vedotin) alone",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Every 3 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD30",
+                    "requirement": "Positive (characteristic of CHL)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Younes et al. / Gopal et al.",
+                "phase": "II",
+                "n_patients": "102",
+                "os_data": "40.5 months median OS; 73% 3-year OS for CR patients",
+                "pfs_data": "5.6 months median PFS overall; 58% 3-year PFS for CR patients",
+                "hr_ci": null,
+                "orr": "75% ORR, 34% CR"
+            },
+            "notes": "For relapsed/refractory HL after HDT/ASCR or ≥2 prior chemotherapy regimens if not candidates for HDT/ASCR. Also included as single-agent palliative therapy option. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "BV-Bendamustine",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bendamustine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD30",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "O'Connor et al.",
+                "phase": "I/II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "DHAP (Dexamethasone/Cisplatin/High-Dose Cytarabine)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cytarabine (High-Dose)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Josting et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL. Commonly used salvage regimen before HDT/ASCR."
+        },
+        {
+            "regimen_name": "Gemcitabine/Bendamustine/Vinorelbine",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Bendamustine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Santoro et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "83% (73% CR, 10% PR)"
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL. Used as induction therapy before HDT/ASCR."
+        },
+        {
+            "regimen_name": "GVD (Gemcitabine/Vinorelbine/Liposomal Doxorubicin)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Pegylated Liposomal Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Bartlett et al. (CALGB 59804)",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL."
+        },
+        {
+            "regimen_name": "ICE (Ifosfamide/Carboplatin/Etoposide)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Moskowitz et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": "68% EFS at 43 months (with subsequent HDT/ASCR)",
+                "hr_ci": null,
+                "orr": "88% response rate to ICE and IFRT"
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL. Commonly used salvage regimen before HDT/ASCR. The role of RT may improve the chance of transitioning to HDT/ASCR."
+        },
+        {
+            "regimen_name": "ICE-BV",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD30",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Lynch et al.",
+                "phase": "I/II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option. PJP prophylaxis is recommended for all BV-containing regimens. Utilize with caution in those with neuropathy."
+        },
+        {
+            "regimen_name": "IGEV (Ifosfamide/Gemcitabine/Vinorelbine)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Santoro et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed/refractory CHL."
+        },
+        {
+            "regimen_name": "Nivolumab (relapsed/refractory, subsequent therapy)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (subsequent therapy)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Every 2 or 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "CheckMate 205",
+                "phase": "II",
+                "n_patients": "80 (after HDT/ASCR and BV)",
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "69% overall; 65-73% in each cohort; median duration of response 16.6 months"
+            },
+            "notes": "Therapy for disease refractory to at least 3 prior lines of subsequent therapy. Also included as single-agent palliative option for patients not candidates for HDT/ASCR. Post-allogeneic HCT, either nivolumab or pembrolizumab can be used with limited data. CPIs can be continued despite imaging progression if patients are deriving clinical benefit."
+        },
+        {
+            "regimen_name": "Pembrolizumab (relapsed/refractory, subsequent therapy)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (subsequent therapy)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Every 3 or 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "KEYNOTE-204",
+                "phase": "III",
+                "n_patients": "304 (151 pembrolizumab; 153 BV)",
+                "os_data": null,
+                "pfs_data": "13.2 months vs 8.3 months (P=.0027)",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Therapy for disease refractory to at least 3 prior lines of subsequent therapy. Also included as single-agent palliative option. Pembrolizumab vs BV in KEYNOTE-204 showed superior PFS with pembrolizumab (13.2 vs 8.3 months; P=.0027). Most common grade 3-5 TEAEs: pneumonitis (4% vs 1%), neutropenia (2% vs 7%), decreased neutrophil count (1% vs 5%), peripheral neuropathy (1% vs 3%)."
+        },
+        {
+            "regimen_name": "Vorinostat-Pembrolizumab",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "epigenetic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vorinostat",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Mei et al.",
+                "phase": "I/II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "72% ORR, 34% CR overall; 56% ORR, 11% CR in PD-1 refractory disease"
+            },
+            "notes": "For disease refractory to at least 3 prior lines of subsequent therapy. Consider referral for allogeneic HCT in appropriate patients."
+        },
+        {
+            "regimen_name": "Everolimus",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (palliation)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Johnston et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "47%"
+            },
+            "notes": "Single-agent palliative therapy option for patients not candidates for HDT/ASCR."
+        },
+        {
+            "regimen_name": "Gemcitabine (single agent)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (palliation)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Single-agent palliative therapy option for patients not candidates for HDT/ASCR."
+        },
+        {
+            "regimen_name": "Lenalidomide",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (palliation)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Fehniger et al.",
+                "phase": "II",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": "19%"
+            },
+            "notes": "Single-agent palliative therapy option for patients not candidates for HDT/ASCR."
+        },
+        {
+            "regimen_name": "Vinblastine (single agent)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (palliation)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Single-agent palliative therapy option for patients not candidates for HDT/ASCR."
+        },
+        {
+            "regimen_name": "ISRT (palliation for locally symptomatic disease)",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refractory (palliation)",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Single-agent palliative therapy option for patients not candidates for HDT/ASCR. Also strongly considered for selected sites of relapse that have not been previously irradiated in transplant-eligible patients."
+        },
+        {
+            "regimen_name": "Rituximab monotherapy (relapsed/refractory NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Weekly for 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "GHSG Phase II",
+                "phase": "II",
+                "n_patients": "15",
+                "os_data": "Median OS not reached at 63 months",
+                "pfs_data": "Median TTP 33 months",
+                "hr_ci": null,
+                "orr": "94% (8 CR, 6 PR)"
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed or refractory NLPHL. Rituximab maintenance for 2 years may be considered for patients treated with rituximab alone."
+        },
+        {
+            "regimen_name": "Rituximab + Bendamustine (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Bendamustine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1-2"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Prusila et al.",
+                "phase": "Retrospective",
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed or refractory NLPHL. Choice depends on prior therapies and prior toxicities."
+        },
+        {
+            "regimen_name": "Rituximab + DHAP (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Dexamethasone",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Cytarabine (High-Dose)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed or refractory NLPHL."
+        },
+        {
+            "regimen_name": "Rituximab + ICE (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed or refractory NLPHL."
+        },
+        {
+            "regimen_name": "Rituximab + ABVD (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Bleomycin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Days 1, 15"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option if not previously used (HODG-B 6 of 8)."
+        },
+        {
+            "regimen_name": "Rituximab + CHOP (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option if not previously used (HODG-B 6 of 8)."
+        },
+        {
+            "regimen_name": "Rituximab + CVbP (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Vinblastine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Prednisolone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "Days 1-5"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option if not previously used (HODG-B 6 of 8)."
+        },
+        {
+            "regimen_name": "Rituximab + IGEV (NLPHL)",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Ifosfamide",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Vinorelbine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os_data": null,
+                "pfs_data": null,
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Second-line and subsequent therapy option for relapsed or refractory NLPHL."
+        },
+        {
+            "regimen_name": "Rituximab followed by maintenance Rituximab",
+            "site": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma (NLPHL)",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": "375 mg/m2",
+                    "route": "IV",
+                    "schedule": "Induction: weekly x4; Maintenance: every 6 months for 2 years"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD20",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Advani et al. (Stanford)",
+                "phase": "II",
+                "n_patients": "39",
+                "os_data": "85.7% at 5 years (rituximab + maintenance)",
+                "pfs_data": "58.9% at 5 years (rituximab + maintenance) vs 39.1% (rituximab alone)",
+                "hr_ci": "Median PFS: 5.6 years vs 3 years (P=.26)",
+                "orr": "100% ORR (67% CR, 33% PR)"
+            },
+            "notes": "May be considered for patients treated with rituximab alone for relapsed/refractory NLPHL. Median PFS was not significantly improved with maintenance (P=.26). Rituximab as initial treatment was associated with a pattern of relapse with evidence of transformation to aggressive B-cell lymphoma, primarily in patients with intra-abdominal disease."
+        },
+        {
+            "regimen_name": "HDT/ASCR (High-Dose Therapy with Autologous Stem Cell Rescue) ± ISRT",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Relapsed/Refactory",
+            "treatment_modality": [
+                "high-dose chemotherapy",
+                "stem cell transplant",
+                "radiation therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "BNLI / GHSG-EBMT",
+                "phase": "III",
+                "n_patients": null,
+                "os_data": "No difference in OS",
+                "pfs_data": "Significant improvement in EFS/PFS/FFTF with HDT/ASCR",
+                "hr_ci": null,
+                "orr": null
+            },
+            "notes": "Category 1 for Deauville 1-3 following second-line therapy. PET negativity prior to HDT/ASCR is preferred. Strongly consider RT for selected sites that have not been previously irradiated. In patients without prior RT, TLI may be an appropriate component of HDT. Timing of RT may vary. Maintenance BV should be considered for patients with high risk of relapse and no prior BV exposure."
+        },
+        {
+            "regimen_name": "BV maintenance after HDT/ASCR",
+            "site": "Classic Hodgkin Lymphoma (CHL)",
+            "setting": "Post-HDT/ASCR maintenance",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for up to 16 cycles"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "CD30",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AETHERA",
+                "phase": "III",
+                "n_patients": "329",
+                "os_data": "No difference in OS",
+                "pfs_data": "59% vs 41% at 5 years; HR 0.52 (95% CI 0.38-0.72)",
+                "hr_ci": "HR 0.52 (95% CI 0.38-0.72)",
+                "orr": null
+            },
+            "notes": "For patients with high risk of relapse and no prior BV exposure. High risk defined as: primary refractory disease, duration of first CR <1 year, or relapse with extranodal or advanced-stage disease. Peripheral sensory neuropathy was common but improved or resolved in majority after discontinuation. The role of maintenance BV has not been well-defined in patients who received BV prior to maintenance therapy."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.630248"
+}

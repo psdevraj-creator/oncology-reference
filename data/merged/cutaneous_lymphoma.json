@@ -1,0 +1,1388 @@
+{
+    "site_id": "cutaneous_lymphoma",
+    "site_display_name": "Cutaneous Lymphoma",
+    "archetype": "F",
+    "regimen_count": 33,
+    "regimens": [
+        {
+            "regimen_name": "Local Involved-Site Radiation Therapy (ISRT) for PCFCL/PCMZL - Local/Regional Disease",
+            "site": "Primary Cutaneous Follicle Center Lymphoma (PCFCL) and Primary Cutaneous Marginal Zone Lymphoma (PCMZL) - Solitary/regional lesions (T1–T2)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Local involved-site radiation therapy (ISRT)",
+                    "dose": "24-30 Gy",
+                    "route": "external beam",
+                    "schedule": "fractionated conventional fractionation; for unilesional presentation at initial presentation 24–30 Gy is given as monotherapy with curative intent [CUTB-2]"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Retrospective analyses",
+                "phase": "Retrospective",
+                "n_patients": null,
+                "other_details": "In a retrospective analysis of 153 patients with PCBCL treated with RT as initial therapy, overall CR was 99% (151/153). Relapse rates for PCMZL, PCFCL, and PCDLBCL leg type were 60%, 29%, and 64%, and 5-year disease-specific survival rates were 95%, 97%, and 59%, respectively [Senff 2007, ref 48]. In another study of 42 patients with PCFCL and PCMZL treated with RT, CR was obtained in all patients. The 10-year RFS and OS rates were 71% and 87% [De Felice 2018, ref 50]. CR rate was 92%–95% and 5- and 10-year OS rates were 96%–97% and 89%–91% in Italian series of 467 PCBCL patients [Zinzani 2006, ref 5]"
+            },
+            "notes": "Local ISRT (24–30 Gy) is the preferred initial treatment for solitary/regional disease. Local ISRT is preferred as initial treatment, but not necessarily the preferred treatment for relapse [CUTB-2, footnote m]. For relapsed disease, low-dose RT (4 Gy) may be adequate [Neelis 2009, ref 51; Senff 2008, ref 54]. Surface margins of 1.0–1.5 cm are generally adequate; treatment with 6–9 MeV electrons (with surface bolus) provides adequate depth [PCLYM-A]. In PCFCL, 5-year OS rate is >95% with indolent course; PCMZL 5-year survival rate is 99% [CUTB/INTRO-1, refs 1,2]."
+        },
+        {
+            "regimen_name": "Rituximab Monotherapy for PCFCL/PCMZL - Generalized Skin Disease (T3)",
+            "site": "Primary Cutaneous Follicle Center Lymphoma (PCFCL) and Primary Cutaneous Marginal Zone Lymphoma (PCMZL) - Generalized disease (skin only), T3",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Rituximab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "standard rituximab dosing regimen"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Multiple retrospective series",
+                "phase": "Retrospective",
+                "n_patients": "15-16 per series",
+                "other_details": "In a retrospective analysis of 15 patients with indolent PCBCL, rituximab resulted in ORR of 87% (60% CR). ORR was 100% for PCFCL and 60% for PCMZL. Median duration of response was 24 months at median follow-up of 36 months [Morales 2008, ref 61]. In another series of 16 patients with PCBCL, 14 patients (88%) achieved CR with rituximab monotherapy; 35% of patients with CR eventually relapsed between 6 and 37 months [Valencak 2009, ref 62]. In real-world multicenter study of 235 CBCL patients, CR rates were 89% for surgical excision and RT compared to 59% for systemic rituximab [Nikolaou 2024, ref 63]"
+            },
+            "notes": "Rituximab and hyaluronidase human injection for subcutaneous use may be substituted for rituximab after patients have received the first full dose of rituximab by intravenous infusion. This substitution cannot be made for rituximab used in combination with ibritumomab tiuxetan. An FDA-approved biosimilar is an appropriate substitute for any recommended systemic biologic therapy in the NCCN Guidelines [CUTB-3, footnote s]. Rituximab monotherapy (intravenous and intralesional) has been shown to be effective for PCMZL and PCFCL. Intravenous rituximab may be more effective for patients with multiple lesions that cannot be managed effectively with local therapy [Heinzerling 2000, refs 58,59]. See monoclonal antibody and viral reactivation in the NCCN Guidelines for B-Cell Lymphomas [CUTB-3, footnote r]."
+        },
+        {
+            "regimen_name": "Observation for PCFCL/PCMZL - Generalized Skin-Only Disease (T3)",
+            "site": "Primary Cutaneous Follicle Center Lymphoma (PCFCL) and Primary Cutaneous Marginal Zone Lymphoma (PCMZL) - Generalized disease (skin only), T3",
+            "setting": "First-line",
+            "treatment_modality": [
+                "observation"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "other_details": null
+            },
+            "notes": "Observation is considered appropriate in asymptomatic patients with generalized disease confined to skin [CUTB-3, footnote q]. Given the excellent prognosis of PCFCL (5-year OS >95%) and PCMZL (5-year OS 99%), observation may be a reasonable option for asymptomatic patients with generalized skin-only disease. Additional imaging studies during the course of treatment are not needed. FDG-PET/CT or C/A/P CT with contrast at the end of treatment may be needed to assess response or if there is clinical suspicion of progressive disease [CUTB-3, footnote j]."
+        },
+        {
+            "regimen_name": "Chemoimmunotherapy for PC-DLBCL Leg Type",
+            "site": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type (PC-DLBCL, leg type)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Chemoimmunotherapy regimens",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "per NCCN Guidelines for B-Cell Lymphomas - DLBCL guidelines"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Retrospective analyses",
+                "phase": "Retrospective",
+                "n_patients": "60 (Grange 2007); 115 (Grange 2014); 28 (Kraft 2021)",
+                "other_details": "In a retrospective multicenter study from the French Study Group (60 patients), patients treated with anthracycline-based chemoimmunotherapy had a more favorable short-term outcome. CR rate was 92% among 12 patients treated with anthracycline-based chemoimmunotherapy vs 62% for other therapies. 2-year OS rates were 81% and 59%, respectively [Grange 2007, ref 79]. In French Study Group report (115 patients), 3- and 5-year survival rates were 80% and 74% for patients receiving multiagent chemoimmunotherapy vs 48% and 38% for less-intensive therapies [Grange 2014, ref 82]. In a retrospective analysis of 28 patients, R-CHOP with ISRT resulted in significantly longer median PFS compared to R-CHOP without ISRT (58 vs 14 months; P=.04) [Kraft 2021, ref 84]"
+            },
+            "notes": "PC-DLBCL, leg type is the rarest subtype (11%–19% of PCBCL) with usually aggressive course and poor prognosis (5-year OS rate is 50%). It should be treated with chemoimmunotherapy and localized RT. Complete staging with FDG-PET/CT is recommended. RT alone is less effective as remissions are often short-lived with higher rates of dissemination. Treat according to NCCN Guidelines for B-Cell Lymphomas - DLBCL [CUTB/INTRO-2]. Multiple skin lesions, inactivation of CDKN2A, and MYD88 L265P are associated with inferior prognosis [CUTB/INTRO-1]."
+        },
+        {
+            "regimen_name": "Skin-Directed Therapies (Limited/Local) for Stage IA MF",
+            "site": "Mycosis Fungoides - Stage IA (Limited skin involvement alone, <10% BSA)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "topical therapy",
+                "radiation therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Local radiation (ISRT)",
+                    "dose": "8-12 Gy; 24-30 Gy for unilesional presentation",
+                    "route": "external beam",
+                    "schedule": "conventional fractionation; up to 8 Gy can be given in a single fraction"
+                },
+                {
+                    "name": "UVB or narrowband UVB (NB-UVB) phototherapy",
+                    "dose": null,
+                    "route": "topical/phototherapy",
+                    "schedule": "per phototherapy principles (MFSS-C)"
+                },
+                {
+                    "name": "Topical corticosteroids",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "variable potency based on body region"
+                },
+                {
+                    "name": "Topical Imiquimod",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "for areas with few patches/plaques/small tumors"
+                },
+                {
+                    "name": "Topical Mechlorethamine (nitrogen mustard)",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "daily or less than daily initially"
+                },
+                {
+                    "name": "Topical retinoids (Bexarotene, Tazarotene)",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "variable"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Multiple retrospective and prospective studies",
+                "phase": "Phase II and retrospective",
+                "n_patients": null,
+                "other_details": "Topical corticosteroids resulted in ORR of 94% (63% CR; 13% PR) for T1 and 82% (25% CR; 57% PR) for T2 disease [Zackheim 1998, ref 47; Kartan 2021, ref 49]. Topical mechlorethamine ORR of 83% (50% CR) with higher ORR for T1 (93% vs 72%) [Kim 2003, ref 50]. Topical bexarotene gel ORR of 44% (8% CR) in phase III study [Heald 2003, ref 53]. Low-dose RT (8 Gy in single fraction) resulted in CR rate of 94% [Thomas 2013, ref 67]. Stage IA MF most often can be treated with skin-directed therapies alone [MFSS-A 3]"
+            },
+            "notes": "Stage IA MF most often can be treated with skin-directed therapies (alone or in combination with other skin-directed therapies). In patients with histologic evidence of FMF, skin disease may be less responsive to topical therapies. Systemic therapies should be reserved for patients with blood involvement or for whom skin-directed therapies do not provide sufficient disease control. Topical calcineurin inhibitors (Pimecrolimus, Tacrolimus) can be considered for affected areas of facial and genital skin and skin folds as steroid-sparing treatment [MFSS-A 2, MFSS-A 3]. Cumulative UV dose, particularly PUVA, carries higher risk of skin neoplasms [MFSS-A 2]."
+        },
+        {
+            "regimen_name": "Bexarotene + Skin-Directed Therapy for Stage IA MF",
+            "site": "Mycosis Fungoides - Stage IA (Limited skin involvement alone, <10% BSA)",
+            "setting": "First-line (selected cases)",
+            "treatment_modality": [
+                "targeted therapy",
+                "topical therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (systemic + skin-directed)",
+            "trial_data": {
+                "trial_name": "Phase II-III studies",
+                "phase": "Phase II-III",
+                "n_patients": "28 (Stage IA-IIA, 300 mg/m²); 15 (Stage IA-IIA, >300 mg/m²)",
+                "other_details": "In phase II–III studies, oral bexarotene (≥300 mg/m²) resulted in ORR of 45%–67% in early-stage and advanced-stage disease [Duvic 2001, ref 107]. For Stage IA-IIA: ORR was 54% for 300 mg/m²/day and 67% for >300 mg/m²/day [Table 1, MS-35]"
+            },
+            "notes": "Bexarotene is included as a preferred systemic therapy combined with skin-directed therapy for Stage IA. Bexarotene is an oral retinoid that can have prolonged disease control without cumulative toxicity. It is often considered for patients with higher skin burden with plaque disease. Bexarotene is associated with hypertriglyceridemia (79%) and central hypothyroidism (52%), which necessitates laboratory monitoring for triglycerides and free thyroxine (T4) [MFSS-A 9, footnote a]. Alternative retinoids (acitretin or isotretinoin) could be considered in place of bexarotene [MFSS-A 3]."
+        },
+        {
+            "regimen_name": "Interferon Alfa + Skin-Directed Therapy for Stage IA MF",
+            "site": "Mycosis Fungoides - Stage IA (Limited skin involvement alone, <10% BSA)",
+            "setting": "First-line (selected cases)",
+            "treatment_modality": [
+                "immunotherapy",
+                "topical therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC or IM",
+                    "schedule": "variable dosing"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (systemic + skin-directed)",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "other_details": "Interferon alfa has been evaluated in small studies. Peginterferon alfa-2a or ropeginterferon alfa-2b (if peginterferon alfa-2a is unavailable) may be substituted for other alpha interferon preparations [MFSS-A 9, footnote b]. IFN alfa is no longer commercially available [MFSS-A 1]"
+            },
+            "notes": "Peginterferon alfa-2a or ropeginterferon alfa-2b-njft (if peginterferon alfa-2a is unavailable) may be substituted for other alpha interferon preparations [MFSS-A 9, footnote b; refs Schiller 2017, Patsatsi 2022, Osman 2023, Mesa 2025]. IFN alfa is no longer commercially available. IFN combined with PUVA resulted in significantly higher CR rates (70% vs 38%) in a prospective randomized study [Stadler 1998, ref 193]. Combination of low-dose IFN alfa with PUVA resulted in ORR of 98% (84% CR) in early-stage MF [Rupoli 2005, ref 195]."
+        },
+        {
+            "regimen_name": "Methotrexate + Skin-Directed Therapy for Stage IA MF",
+            "site": "Mycosis Fungoides - Stage IA (Limited skin involvement alone, <10% BSA)",
+            "setting": "First-line (selected cases)",
+            "treatment_modality": [
+                "chemotherapy",
+                "topical therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (systemic + skin-directed)",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective",
+                "n_patients": null,
+                "other_details": "Low-dose methotrexate has been evaluated in retrospective studies. In a retrospective study of 69 patients with MF, low-dose methotrexate showed clinical benefit [Zackheim 2003, ref 127]"
+            },
+            "notes": "Methotrexate is included as a preferred systemic therapy combined with skin-directed therapy for Stage IA. Low-dose methotrexate has shown activity in CTCL in small studies. It can be used alone or in combination with skin-directed therapies."
+        },
+        {
+            "regimen_name": "Skin-Directed Therapies for Stage IB/IIA MF - Lower Skin Disease Burden",
+            "site": "Mycosis Fungoides - Stage IB (Skin-only disease with ≥10% BSA) and Stage IIA",
+            "setting": "First-line",
+            "treatment_modality": [
+                "topical therapy",
+                "phototherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Skin-directed therapies (limited/local)",
+                    "dose": null,
+                    "route": "topical/phototherapy",
+                    "schedule": "variable based on modality"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PROCLIPI study",
+                "phase": "Prospective",
+                "n_patients": "375",
+                "other_details": "In the PROCLIPI study, the use of systemic therapy was significantly associated with higher clinical stage, presence of plaques, and FMF. In a multivariate analysis, presence of plaques and FMF were significantly associated with the use of systemic therapy, and skin-directed therapy was superior to systemic therapy. ORR to first-line skin-directed therapy was 73% compared to 57% for systemic therapy [Quaglino 2021, ref 26]"
+            },
+            "notes": "Stage IB–IIA MF can be treated with skin-directed therapies (alone or in combination with other skin-directed therapies). For limited patches/plaques, skin-directed therapy can be considered as monotherapy. For extensive skin involvement, phototherapy may be given alone or in combination with other skin-directed therapies. TSEBT may be given alone or in combination with topical corticosteroids. In patients with histologic evidence of FMF, skin disease may be less responsive to topical therapies [MFSS-A 4]."
+        },
+        {
+            "regimen_name": "Systemic Therapy + Skin-Directed Therapy for Stage IB/IIA MF",
+            "site": "Mycosis Fungoides - Stage IB (Skin-only disease with ≥10% BSA) and Stage IIA",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy",
+                "topical therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly for first 28-day cycle, then days 1 and 15 of subsequent cycles"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "4-hour infusion on days 1, 8, and 15 of each 28-day cycle for up to 6 cycles"
+                },
+                {
+                    "name": "Vorinostat",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ALCANZA (brentuximab vedotin); MAVORIC (mogamulizumab)",
+                "phase": "Phase III RCT",
+                "n_patients": "97 (ALCANZA); 372 (MAVORIC)",
+                "other_details": "ALCANZA: brentuximab vedotin vs physician's choice in CD30-positive CTCL. ORR4: 55% vs 13%; median PFS: 17 vs 4 months [Prince 2017, ref 103; Horwitz 2021, ref 104]. MAVORIC: mogamulizumab vs vorinostat. ORR: 28% vs 5%; median PFS: 8 vs 3 months [Kim 2018, ref 105]"
+            },
+            "notes": "Systemic therapies (single agents or combination therapies) should be considered for patients with extensive skin involvement, higher skin disease burden, predominantly plaque disease, blood involvement, and/or inadequate response to skin-directed therapy. Patients with disease achieving a clinical benefit should be considered for maintenance or tapering of regimens to optimize response duration [MFSS-A 4]. LCT-MF was not an exclusion criteria for Study 302 (denileukin diftitox) but no patients with LCT-MF were enrolled [MFSS-A 4, footnote 10]."
+        },
+        {
+            "regimen_name": "TSEBT + Systemic Therapy for Stage IB/IIA MF with Higher Skin Disease Burden",
+            "site": "Mycosis Fungoides - Stage IB (Skin-only disease with ≥10% BSA) and Stage IIA",
+            "setting": "First-line (higher skin disease burden)",
+            "treatment_modality": [
+                "radiation therapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Total Skin Electron Beam Therapy (TSEBT)",
+                    "dose": "12-36 Gy",
+                    "route": "external beam",
+                    "schedule": "generally 4-6 Gy per week; lower doses (12 Gy) over 2-3 weeks"
+                },
+                {
+                    "name": "Adjuvant systemic therapy (IFN or bexarotene)",
+                    "dose": null,
+                    "route": "PO/SC",
+                    "schedule": "ongoing/maintenance"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Pooled analysis of 3 phase-II trials (low-dose TSEBT); UK CLG study",
+                "phase": "Phase II",
+                "n_patients": "33 (pooled); 103 (UK CLG)",
+                "other_details": "Pooled analysis of 3 phase-II trials evaluating low-dose TSEBT (12 Gy; 1 Gy per fraction over 3 weeks) in 33 patients reported ORR of 88% (9 patients with CR). Median time to response was 8 weeks and median duration of clinical benefit was 71 weeks [Hoppe 2015, ref 74]. UK CLG study: 103 patients with MF treated with low-dose TSEBT (12 Gy), ORR was 87% (18% CR and 69% PR) and median PFS was 13 months [Morris 2017, ref 77]"
+            },
+            "notes": "It is common practice to follow TSEBT with systemic therapies to maintain response. There are limited safety data for the use of TSEBT in combination with systemic retinoids, HDAC inhibitors (vorinostat or romidepsin), or mogamulizumab [MFSS-A 2]. Lower-dose TSEBT (10-12 Gy) may be associated with fewer short-term complications and better ability to re-treat progressive disease. TSEBT may not be well tolerated in patients with erythrodermic disease [MFSS-A 10]. Adjuvant systemic therapy may improve response rate and PFS in patients with stage IIB disease receiving TSEBT."
+        },
+        {
+            "regimen_name": "Systemic Therapy ± Local RT for Stage IIB MF - Limited Tumor Disease",
+            "site": "Mycosis Fungoides - Stage IIB (Tumor Stage Disease) - Limited Tumor Disease",
+            "setting": "First-line",
+            "treatment_modality": [
+                "radiation therapy",
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Local RT",
+                    "dose": "8-12 Gy",
+                    "route": "external beam",
+                    "schedule": "conventional fractionation"
+                },
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly for first 28-day cycle, then days 1 and 15"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle for up to 6 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ALCANZA; MAVORIC",
+                "phase": "Phase III RCT",
+                "n_patients": "97 (ALCANZA); 372 (MAVORIC)",
+                "other_details": "ALCANZA: brentuximab vedotin ORR4 55% vs 13% for physician's choice; median PFS 17 vs 4 months [Prince 2017, ref 103]. MAVORIC: mogamulizumab ORR 28% vs 5% for vorinostat; median PFS 8 vs 3 months [Kim 2018, ref 105]. In the MAVORIC trial, patients with MF-LCT were excluded [MFSS-A 5]"
+            },
+            "notes": "RT is preferred for limited tumor lesions. Topical therapies alone are often inadequate for tumor stage disease. Adjuvant systemic biologic therapy may be considered after TSEBT for generalized tumor lesions. ECP may be more appropriate as systemic therapy in patients with some blood involvement (B1 or B2) [MFSS-A 5]. Alternative retinoids (acitretin or isotretinoin) could be considered in place of bexarotene [MFSS-A 5, footnote 6]."
+        },
+        {
+            "regimen_name": "TSEBT + Combination Therapies for Stage IIB MF - Generalized Tumor Disease",
+            "site": "Mycosis Fungoides - Stage IIB (Tumor Stage Disease) - Generalized Tumor Disease",
+            "setting": "First-line",
+            "treatment_modality": [
+                "radiation therapy",
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Total Skin Electron Beam Therapy (TSEBT)",
+                    "dose": "12-36 Gy",
+                    "route": "external beam",
+                    "schedule": "4-6 Gy per week"
+                },
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Denileukin diftitox-cxdl",
+                    "dose": "9 mcg/kg/day",
+                    "route": "IV",
+                    "schedule": "over 60 minutes for 5 days every 21 days up to 8 cycles"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Retinoid + Interferon alfa",
+                    "dose": null,
+                    "route": "PO + SC/IM",
+                    "schedule": "combination therapy"
+                },
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly first cycle, then days 1 and 15"
+                },
+                {
+                    "name": "Pralatrexate",
+                    "dose": "15 mg/m²",
+                    "route": "IV",
+                    "schedule": "weekly for 3 out of 4 weeks"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Study 302 (denileukin diftitox); ALCANZA; MAVORIC",
+                "phase": "Phase II-III",
+                "n_patients": "69 (Study 302); 97 (ALCANZA); 372 (MAVORIC)",
+                "other_details": "Study 302: Denileukin diftitox-cxdl ORR 42% (36% by IRC); median duration of response 9 months. ORR higher for stage IIB disease (46%) vs IA-IIA (37%) or stage III (20%) [Foss 2025, ref 106]. ALCANZA: brentuximab vedotin ORR4 55% vs 13% [Prince 2017, ref 103]. MAVORIC: mogamulizumab ORR 28% vs 5% for vorinostat [Kim 2018, ref 105]"
+            },
+            "notes": "Systemic therapy + skin-directed therapy with combination therapies for generalized tumor lesions. There was no correlation between CD25 expression and the efficacy of denileukin diftitox [MFSS-A 9, footnote d]. CD30 positivity was defined as CD30 expression in ≥10% of total lymphoid cells in the ALCANZA trial; responses have been seen in patients with a low level of CD30 positivity [MFSS-A 9, footnote c]. LCT-MF was not an exclusion criteria for Study 302 but no patients with LCT-MF were enrolled [MFSS-A 9, footnote 10]."
+        },
+        {
+            "regimen_name": "Systemic Therapy + Skin-Directed Therapy for Stage III MF (Erythrodermic Disease)",
+            "site": "Mycosis Fungoides - Stage III (Erythrodermic Disease)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy",
+                "phototherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Extracorporeal photopheresis (ECP)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "typically every 2-4 weeks"
+                },
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly for first 28-day cycle, then days 1 and 15"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle for up to 6 cycles"
+                },
+                {
+                    "name": "ECP + Interferon alfa or retinoid",
+                    "dose": null,
+                    "route": "IV + SC/IM/PO",
+                    "schedule": "combination therapy"
+                },
+                {
+                    "name": "ECP + Interferon alfa + retinoid",
+                    "dose": null,
+                    "route": "IV + SC/IM/PO",
+                    "schedule": "triple combination therapy"
+                },
+                {
+                    "name": "Retinoid + Interferon alfa",
+                    "dose": null,
+                    "route": "PO + SC/IM",
+                    "schedule": "combination therapy"
+                },
+                {
+                    "name": "Vorinostat",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ALCANZA; MAVORIC; meta-analysis of ECP",
+                "phase": "Phase III RCT and meta-analysis",
+                "n_patients": "97 (ALCANZA); 372 (MAVORIC); >400 (ECP meta-analysis)",
+                "other_details": "ALCANZA: brentuximab vedotin superior to physician's choice for previously treated MF ≥ stage IB [Prince 2017, ref 103]. MAVORIC: mogamulizumab superior to vorinostat; ORR higher in patients with blood involvement (stage III/IV) than stage IIB or IB/IIA [Kim 2018, ref 105]. ECP meta-analysis: ORR 56% with 15% CR; ORR 58% (15% CR) for erythrodermic disease [Zic 2003, ref 184]"
+            },
+            "notes": "ECP may be more appropriate as systemic therapy in patients with some blood involvement (B1 or B2) [MFSS-A 6, footnote 4]. Phototherapy and TSEBT may be associated with increased toxicity in patients with erythroderma; modification of dose/schedule may be considered [MFSS-A 6, footnote 5]. Patients with erythrodermic disease are at increased risk for secondary infection with skin pathogens and systemic antibiotic therapy should be considered [MFSS-A 6, footnote 8]. Romidepsin was associated with a high rate of reduction in pruritus score irrespective of clinical objective response [MFSS-11, MFSS-A 6]."
+        },
+        {
+            "regimen_name": "Systemic Therapy for Low-Intermediate Burden Sézary Syndrome (Stage IVA1/IVA2)",
+            "site": "Sézary Syndrome (Stage IVA1 or IVA2) - Low-Intermediate Burden (eg, ASC <5 K/mm³)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bexarotene",
+                    "dose": "≥300 mg/m²",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "Extracorporeal photopheresis (ECP)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "typically every 2-4 weeks"
+                },
+                {
+                    "name": "Interferon alfa",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Methotrexate",
+                    "dose": "low-dose",
+                    "route": "PO/SC/IM",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly for first 28-day cycle, then days 1 and 15"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle for up to 6 cycles"
+                },
+                {
+                    "name": "Vorinostat",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                },
+                {
+                    "name": "ECP + Interferon alfa or retinoid",
+                    "dose": null,
+                    "route": "IV + SC/IM/PO",
+                    "schedule": "combination"
+                },
+                {
+                    "name": "ECP + Interferon alfa + retinoids",
+                    "dose": null,
+                    "route": "IV + SC/IM/PO",
+                    "schedule": "triple combination"
+                },
+                {
+                    "name": "Retinoid + Interferon alfa",
+                    "dose": null,
+                    "route": "PO + SC/IM",
+                    "schedule": "combination"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAVORIC; ECP meta-analysis",
+                "phase": "Phase III RCT; meta-analysis",
+                "n_patients": "372 (MAVORIC); >400 (ECP meta-analysis)",
+                "other_details": "MAVORIC: mogamulizumab ORR higher in patients with blood involvement. Compartment-specific ORRs for mogamulizumab were 42% (skin), 68% (blood), and 17% (LN) [Kim 2018, ref 105]. ECP meta-analysis: ORR 43% (10% CR) for SS [Zic 2003, ref 184]"
+            },
+            "notes": "For low-intermediate burden Sézary syndrome (ASC <5 K/mm³). ECP is generally given for at least 6 months and may be more appropriate as systemic therapy for patients with or at risk of blood involvement (B1 or B2) [MFSS-A 7]. Rapid progression has been reported in patients receiving pembrolizumab who test positive for HTLV [MFSS-A 9, footnote e]. Disease flare is seen in some patients (especially in patients with erythrodermic MF or SS) with pembrolizumab and should be distinguished from disease progression [Khodadoust 2020, ref 124]."
+        },
+        {
+            "regimen_name": "Mogamulizumab + Skin-Directed Therapy for High Burden Sézary Syndrome (Stage IVA1/IVA2)",
+            "site": "Sézary Syndrome (Stage IVA1 or IVA2) - High Burden (eg, ASC >5 K/mm³)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mogamulizumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "weekly for first 28-day cycle, then days 1 and 15 of subsequent cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "MAVORIC",
+                "phase": "Phase III RCT",
+                "n_patients": "372",
+                "other_details": "MAVORIC: mogamulizumab ORR 28% vs 5% for vorinostat. In post-hoc subgroup analysis, ORR for mogamulizumab was 36% for stage IV disease. Compartment-specific ORRs were 42% (skin), 68% (blood), 17% (LN). Blood involvement (B1/B2) associated with higher ORR, PFS, and TTNT. Patients with B2 blood involvement: ORR 37%, median PFS 11 months, TTNT 20 months [Kim 2018, ref 105; Cowan 2021, ref 171; Beylot-Barry 2023, ref 172]"
+            },
+            "notes": "Mogamulizumab is preferred for high-burden Sézary syndrome. The clinical benefit with mogamulizumab was higher in patients with stage III or stage IV disease, especially in patients with B1 and B2 blood involvement. CCR4 expression was not a requirement for participation in the MAVORIC trial. A drug-induced skin eruption (which can mimic CTCL) was the most frequent adverse event leading to treatment discontinuation. Loss of CCR4 expression and emergence of CCR4 genomic alterations might be associated with resistance to mogamulizumab [Beygi 2022, ref 31]. Skin biopsy recommended to rule out disease progression in patients experiencing drug-induced skin eruptions [MFSS-A 7]."
+        },
+        {
+            "regimen_name": "Brentuximab Vedotin + Skin-Directed Therapy for High Burden Sézary Syndrome",
+            "site": "Sézary Syndrome (Stage IVA1 or IVA2) - High Burden (eg, ASC >5 K/mm³)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II studies",
+                "phase": "Phase II",
+                "n_patients": null,
+                "other_details": "In other phase II studies, clinical responses with brentuximab vedotin were observed across all CD30 expression levels including negligible CD30 expression, and in patients with high blood Sézary cell count. Patients with SS were excluded from the ALCANZA trial [MFSS-A 7; Kim 2015, ref 164]"
+            },
+            "notes": "Brentuximab vedotin is listed as Other Recommended for high-burden SS. In the ALCANZA trial, patients with SS (B2 blood involvement) were excluded. Efficacy of brentuximab vedotin in patients with SS has been demonstrated in a small case series of 13 patients [Lewis 2021, ref 168]. Peripheral neuropathy was the most common adverse event (69%) in the ALCANZA trial; 86% had complete resolution or improvement to grades 1 and 2 at median follow-up of 46 months [MFSS-A 7]."
+        },
+        {
+            "regimen_name": "Pembrolizumab for Relapsed/Refractory MF/SS",
+            "site": "Mycosis Fungoides/Sézary Syndrome - Relapsed/Refractory Disease",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "2 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CITN-10 (Phase II)",
+                "phase": "Phase II",
+                "n_patients": "24 (Stage IIB-IVB)",
+                "other_details": "In a phase II trial, pembrolizumab resulted in durable responses in both MF and SS with ORR of 38% and median duration of response not reached at median follow-up of 58 weeks. Pembrolizumab was associated with a skin flare reaction, occurring exclusively in patients with SS; the flare reaction correlated with high PD-1 expression on Sezary cells and should be distinguished from disease progression. 1-year PFS rate was 65% [Khodadoust 2020, ref 124; Table 1, MS-36]"
+            },
+            "notes": "Pembrolizumab is included as Useful in Certain Circumstances with a category 2B recommendation. Rapid progression has been reported in patients receiving pembrolizumab who test positive for HTLV. Disease flare is seen in some patients (especially in patients with erythrodermic MF or SS) and should be distinguished from disease progression [MFSS-A 9, footnote e; Khodadoust 2020, ref 124]. Pembrolizumab may be used for relapsed/refractory disease after multiple prior therapies [MFSS-A 8]."
+        },
+        {
+            "regimen_name": "Suggested Regimens for MF with Large-Cell Transformation (LCT)",
+            "site": "Mycosis Fungoides with Large-Cell Transformation",
+            "setting": "First-line / Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Pralatrexate",
+                    "dose": "15-30 mg/m²",
+                    "route": "IV",
+                    "schedule": "weekly for 3 of 4 weeks"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle for up to 6 cycles"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "2 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Multiagent chemotherapy (PTCL-NOS regimens)",
+                    "dose": "see NCCN Guidelines for T-Cell Lymphomas",
+                    "route": "IV",
+                    "schedule": "per PTCL-B 3 of 8"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred / Other Recommended",
+            "trial_data": {
+                "trial_name": "PROPEL (pralatrexate); phase II studies",
+                "phase": "Phase II",
+                "n_patients": "24 (MF with LCT in PROPEL subgroup)",
+                "other_details": "In the PROPEL trial subgroup of patients with relapsed/refractory LCT of MF, pralatrexate (30 mg/m²) resulted in ORR of 58% (25% by independent review). Median PFS was 5 months and OS was 13 months [Foss 2012, ref 116]. Gemcitabine has shown ORR of 57% in heavily pretreated MF with median TTNT of 12 months [Weiner 2024, ref 146]"
+            },
+            "notes": "Systemic therapy with skin-directed therapy is the initial treatment for generalized cutaneous or extracutaneous lesions with LCT. In the MAVORIC trial, patients with MF-LCT were excluded [MFSS-A 12]. CD30 expression may be seen in 30%–50% of cases with LCT, which may have implications for CD30-directed therapies. Patients with localized LCT could be treated with EBRT alone. Selected patients may be candidates for allogeneic HCT [MFSS-12]. In patients requiring chemotherapy, single agents are preferred over combination chemotherapy [MFSS-A 8, treatment consideration 3]."
+        },
+        {
+            "regimen_name": "Relapsed/Refractory Disease to Multiple Prior Therapies for MF/SS",
+            "site": "Mycosis Fungoides/Sézary Syndrome - Relapsed or Refractory Disease to Multiple Prior Therapies",
+            "setting": "Relapsed/Refractory (multiple prior therapies)",
+            "treatment_modality": [
+                "immunotherapy",
+                "targeted therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alemtuzumab",
+                    "dose": "30 mg IV or 3-15 mg SC",
+                    "route": "IV or SC",
+                    "schedule": "variable; lower doses SC shown lower incidence of infectious complications"
+                },
+                {
+                    "name": "Chlorambucil",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Duvelisib",
+                    "dose": "15 mg daily initially",
+                    "route": "PO",
+                    "schedule": "daily with dose modification; doses ranged from 15 mg once every other day to BID"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": null,
+                    "route": "IV/PO",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Lenalidomide",
+                    "dose": "10 mg daily initially",
+                    "route": "PO",
+                    "schedule": "daily, dose increased by 5 mg every 28 days to max 25 mg daily"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "2 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                },
+                {
+                    "name": "Pentostatin",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "for CNS involvement at some NCCN Member Institutions"
+                },
+                {
+                    "name": "Multiagent chemotherapy (PTCL-NOS regimens)",
+                    "dose": "see NCCN Guidelines for T-Cell Lymphomas",
+                    "route": "IV",
+                    "schedule": "per PTCL-B 3 of 8"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Various phase II studies",
+                "phase": "Phase II",
+                "n_patients": null,
+                "other_details": "Alemtuzumab: ORR 55% (32% CR) with IV 30 mg in phase II [Lundin 2003, ref 119]. SC alemtuzumab: ORR 86% (21% CR) in SS [Bernengo 2007, ref 120]. Pralatrexate: ORR 41% (6% CR) overall; 45% at recommended dose of 15 mg/m² [Horwitz 2012, ref 115]. Lenalidomide: initial dosing 25 mg daily for 21 days amended to 10 mg daily due to fatigue and tumor flare reactions [Querfeld 2014, ref h in MFSS-A 9]"
+            },
+            "notes": "Lower doses of alemtuzumab administered subcutaneously have shown lower incidence of infectious complications. While alemtuzumab is no longer commercially available, it may be obtained for clinical use. Recommend CMV monitoring AND PJP prophylaxis [MFSS-A 9, footnote f; PCLYM-C]. Duvelisib dosing used in published series was lower than that used in other studies [MFSS-A 9, footnote g; Bazewicz 2024]. Lenalidomide dosing initially 25 mg daily for 21 days amended to 10 mg daily due to debilitating fatigue and transient tumor flare reactions [MFSS-A 9, footnote h; Querfeld 2014]. Temozolomide is used for CNS involvement at some NCCN Member Institutions. Brentuximab vedotin may be considered based on other referenced trials."
+        },
+        {
+            "regimen_name": "Allogeneic HCT for Advanced MF/SS",
+            "site": "Mycosis Fungoides/Sézary Syndrome - Stage IIB-IV Disease Refractory to Multiple Prior Therapies",
+            "setting": "Relapsed/Refractory (after multiple lines of therapy)",
+            "treatment_modality": [
+                "hematopoietic cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Allogeneic hematopoietic cell transplant (HCT)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "conditioning regimens vary; non-myeloablative conditioning with TSEBT + TLI + ATG has been studied"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CUTALLO (prospective, propensity score-matched); EBMT registry analysis",
+                "phase": "Prospective controlled; retrospective",
+                "n_patients": "99 (CUTALLO); 60 (EBMT)",
+                "other_details": "CUTALLO: median PFS significantly longer in allogeneic HCT group (9 vs 3 months; P<.0001). 1-year PFS rates: 51% (HCT) vs 14% (non-HCT). 1-year cumulative incidence of relapse: 45% (HCT) vs 86% (non-HCT) [de Masson 2023, ref 233]. EBMT: 5-year PFS and OS rates were 32% and 46%; 7-year survival rates 44% and 30% [Duarte 2014, ref 224]. Systematic review/meta-analysis: pooled PFS and OS rates of 36% and 59% [Iqbal 2020, ref 232]"
+            },
+            "notes": "Allogeneic HCT may be considered for appropriate patients with stage IIB–IV disease that is refractory to multiple primary treatment options. Patients with erythrodermic MF and SS appear to receive the most benefit despite high post-transplant relapse rate. Allogeneic HCT is associated with better outcomes in patients with disease responding to primary treatment prior to transplant [MFSS-9, MFSS-11, footnote ii]. Non-myeloablative conditioning regimen of TSEBT + TLI + ATG has been studied prospectively [Weng 2020, ref 237; Morris 2024, ref 238]. Autologous HCT is not recommended for CTCL due to short duration of response [MFSS-A 12]. A transplant decision requires careful counseling to weigh risks vs likelihood of long-term benefits."
+        },
+        {
+            "regimen_name": "ISRT for PC-ALCL - Solitary or Grouped Lesions",
+            "site": "Primary Cutaneous Anaplastic Large Cell Lymphoma (PC-ALCL) - Solitary or grouped lesions",
+            "setting": "First-line",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Involved-site radiation therapy (ISRT)",
+                    "dose": "24 Gy for curative treatment; doses as low as 6 Gy used at some institutions",
+                    "route": "external beam",
+                    "schedule": "conventional fractionation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Dutch Cutaneous Lymphoma Group; ILROG multi-institutional study",
+                "phase": "Retrospective",
+                "n_patients": "79 (Dutch); 56 (ILROG)",
+                "other_details": "Dutch CLG: RT or surgical excision resulted in CR rate of 100% in PC-ALCL; skin-only relapse in 41% and extracutaneous disease in 10% after median follow-up of 61 months [Bekkenk 2000, ref 261]. ILROG: cCR rate of 95% and local control rate of 98% after median follow-up of 4 years; CRs seen with doses as low as 6 Gy, suggesting lower RT dose of <30 Gy may be appropriate [Million 2016, ref 283]"
+            },
+            "notes": "ISRT alone is recommended for solitary or grouped lesions. Surgical excision (with or without ISRT) is also recommended. Small lesions may be excised with minimal non-disfiguring surgery [PCTLD-4]. The regression of lesions may occur in up to 44% of cases [PCTLD-4, footnote q]. RT for curative treatment: 24 Gy [PCLYM-A 3]. Doses as low as 6 Gy used at some Member Institutions, but data are limited regarding response and duration [PCLYM-A 3]. Palliative RT: 2 Gy x 2 or 4 Gy x 1 [PCLYM-A 3]."
+        },
+        {
+            "regimen_name": "Systemic Therapy for PC-ALCL - Multifocal Lesions",
+            "site": "Primary Cutaneous Anaplastic Large Cell Lymphoma (PC-ALCL) - Multifocal lesions",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Methotrexate (≤50 mg weekly)",
+                    "dose": "≤50 mg",
+                    "route": "PO",
+                    "schedule": "weekly"
+                },
+                {
+                    "name": "Systemic retinoids (bexarotene)",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Pralatrexate",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Interferon",
+                    "dose": null,
+                    "route": "SC/IM",
+                    "schedule": "variable (category 3)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A (preferred); Category 3 (interferon)",
+            "guideline_category": "Preferred (brentuximab vedotin); Other Recommended (others)",
+            "trial_data": {
+                "trial_name": "ALCANZA; Dutch Registry; phase II studies",
+                "phase": "Phase III RCT; retrospective",
+                "n_patients": "31 (PC-ALCL subset of ALCANZA); 41 (Dutch multifocal)",
+                "other_details": "ALCANZA: In 31 patients with previously treated PC-ALCL, ORR lasting ≥4 months significantly higher for brentuximab vedotin vs physician's choice (75% vs 20%); CR proportion higher (31% vs 7%) [Prince 2017, ref 103]. Dutch Registry: In 41 patients with multifocal lesions, RT (n=21), systemic chemotherapy (n=9), and low-dose methotrexate (n=7) were most common; ORRs of 100%, 100%, and 57%, respectively. Presence of >5 skin lesions associated with higher risk of extracutaneous relapse [Melchers 2018, ref 291]"
+            },
+            "notes": "Brentuximab vedotin is the preferred systemic treatment option. Low-dose methotrexate, pralatrexate, systemic retinoids (bexarotene), and interferon are included as options for other recommended regimens. IFN alfa is no longer commercially available; peginterferon alfa-2a or ropeginterferon alfa-2b may be substituted [PCTLD-4, footnote x]. Observation (if asymptomatic) is appropriate for patients with multifocal lesions [PCTLD-4]. Skin-directed therapies (MFSS-A) may be combined with systemic therapy. Limit of ≤5 skin lesions was associated with lower risk of extracutaneous relapse (20% vs 56% for >5 lesions) [Melchers 2018, ref 291]."
+        },
+        {
+            "regimen_name": "Brentuximab Vedotin ± ISRT for PC-ALCL with Regional Node Involvement",
+            "site": "Primary Cutaneous Anaplastic Large Cell Lymphoma (PC-ALCL) - With regional node involvement (N1)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for up to 16 cycles"
+                },
+                {
+                    "name": "Involved-site radiation therapy (ISRT)",
+                    "dose": "24 Gy",
+                    "route": "external beam",
+                    "schedule": "conventional fractionation; may include LN ± primary skin lesions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Dutch Cutaneous Lymphoma Group",
+                "phase": "Retrospective",
+                "n_patients": "11 (PC-ALCL with regional node involvement)",
+                "other_details": "In Dutch CLG report, 9 of 11 patients with PC-ALCL and regional node involvement received CHOP-like multiagent chemotherapy as initial therapy (82%), resulting in CR in 8 patients (88%). However, 5 of 8 patients experienced skin relapses. After median follow-up of 58 months, disease-related 5-year survival rate was 91% [Bekkenk 2000, ref 261]"
+            },
+            "notes": "Brentuximab vedotin ± ISRT is the preferred option. ISRT in selected cases is also an option. ISRT to include LN(s) ± primary skin lesions [PCTLD-4, footnote y]. Excludes systemic ALCL. Brentuximab vedotin + CHP (cyclophosphamide, doxorubicin, and prednisone) is included as an option under other recommended regimens based on ECHELON-2 results [Horwitz 2019, ref 292]. Multiagent chemotherapy (CHOP or CHOEP) ± ISRT is included as an option for selected cases [PCTLD-4]."
+        },
+        {
+            "regimen_name": "Observation or Skin-Directed Therapies for Lymphomatoid Papulosis",
+            "site": "Lymphomatoid Papulosis (LyP)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "observation",
+                "topical therapy",
+                "phototherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Observation",
+                    "dose": null,
+                    "route": null,
+                    "schedule": "preferred for asymptomatic patients"
+                },
+                {
+                    "name": "Topical steroids",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Phototherapy (NB-UVB preferred over PUVA)",
+                    "dose": null,
+                    "route": "phototherapy",
+                    "schedule": "per phototherapy principles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Dutch CLG; retrospective multicenter studies",
+                "phase": "Retrospective",
+                "n_patients": "118 (Dutch CLG); 252 (multicenter)",
+                "other_details": "Dutch CLG: topical steroids and phototherapy were most common initial treatments (56% and 35%); CR or PR common but none resulted in sustained CR [Bekkenk 2000, ref 261]. Multicenter study (252 patients): CR rate 48%; median DFS 11 months overall, 23 months for phototherapy (P<.03). Type A LyP and first-line treatment other than phototherapy were associated with increased risk of early cutaneous relapse [Fernandez-de-Misa 2018, ref 303]"
+            },
+            "notes": "Observation is preferred for asymptomatic patients. Life-long follow-up is warranted due to high risk for second lymphoid malignancies (MF or ALCL) [PCTLD-5, footnote dd]. NB-UVB is generally preferred over PUVA [PCTLD-5, footnote bb]. LyP is not considered a malignant disorder. Multiagent chemotherapy often leads to reduction/clearance of lesions but rapid recurrence is a consistent finding [MFSS/INTRO-1]. LyP has been reported to be associated with MF, PC-ALCL, systemic ALCL, or Hodgkin lymphoma [PCTLD/INTRO-1]."
+        },
+        {
+            "regimen_name": "Methotrexate for Lymphomatoid Papulosis - Extensive Lesions",
+            "site": "Lymphomatoid Papulosis (LyP) - Extensive lesions",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Methotrexate",
+                    "dose": "10-35 mg weekly",
+                    "route": "PO",
+                    "schedule": "weekly; satisfactory disease control at 7.5- to 10-mg weekly doses"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Multiple retrospective studies",
+                "phase": "Retrospective",
+                "n_patients": "45; 28",
+                "other_details": "In retrospective study of 45 patients with LyP and other CD30+ PCTLD, low-dose methotrexate (≤25 mg) resulted in satisfactory disease control in 87% of patients; median total duration of treatment was >39 months. After discontinuation, 25% remained free of disease relapse during follow-up of 24 to 227 months [Vonderheid 1996, ref 304]. Another study of 28 patients showed satisfactory disease control at 7.5- to 10-mg weekly doses [Bruijn 2015, ref 293]"
+            },
+            "notes": "Methotrexate is widely used for the treatment of LyP. It is indicated for extensive lesions. Low-dose methotrexate can achieve satisfactory disease control. Recurrence is common after discontinuation. Some patients remain disease-free after discontinuation [MFSS-5, PCTLD-5]."
+        },
+        {
+            "regimen_name": "Brentuximab Vedotin for Refractory Lymphomatoid Papulosis",
+            "site": "Lymphomatoid Papulosis (LyP) - Refractory disease",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Brentuximab vedotin",
+                    "dose": "1.8 mg/kg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase II study",
+                "phase": "Phase II",
+                "n_patients": "12",
+                "other_details": "In a phase II study of 12 patients with refractory LyP, brentuximab vedotin resulted in ORR of 100% and CR rate of 58%. Median duration of response was 20 weeks. Grade 1 or 2 peripheral neuropathy was the most common adverse event reported in 10 patients (83%) [Lewis 2017, ref 314]"
+            },
+            "notes": "Brentuximab vedotin is included as an option for LyP that is refractory to multiple primary treatment options. Peripheral neuropathy is a significant concern; further studies needed to optimize dosing [MFSS-5, PCTLD-5]."
+        },
+        {
+            "regimen_name": "Observation/Local Therapy for Primary Cutaneous Indolent T-Cell LPD (PCSM-TLPD/PCA-TLPD)",
+            "site": "Primary Cutaneous Indolent T-Cell Lymphoproliferative Disorders (PCSM-TLPD and PCA-TLPD)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "observation",
+                "topical therapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Observation",
+                    "dose": null,
+                    "route": null,
+                    "schedule": "preferred approach"
+                },
+                {
+                    "name": "Topical or intralesional steroids",
+                    "dose": null,
+                    "route": "topical",
+                    "schedule": "for symptomatic patients"
+                },
+                {
+                    "name": "Low-dose radiation therapy",
+                    "dose": "4 Gy in 1-2 fractions",
+                    "route": "external beam",
+                    "schedule": "for symptomatic patients"
+                },
+                {
+                    "name": "Surgical excision",
+                    "dose": null,
+                    "route": "surgical",
+                    "schedule": "for symptomatic patients"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (observation); Useful in Certain Circumstances (treatment)",
+            "trial_data": {
+                "trial_name": "Retrospective case series",
+                "phase": "Retrospective",
+                "n_patients": null,
+                "other_details": "5-year OS rate of 100% for both PCSM-TLPD and PCA-TLPD; relapse is rare for PCSM-TLPD and uncommon for PCA-TLPD [INCTLD-2, Table 1]. Low-dose RT (4 Gy) has been shown to be effective for PCSM-TLPD [Ward 2023, ref 322; Wu 2025, ref 323]"
+            },
+            "notes": "Aggressive treatment is not needed for confirmed cases. Surveillance imaging is not needed due to low risk of relapse. Systemic therapy is usually not needed and frequently can be avoided. PCSM-TLPD typically shows CD4+ T-follicular helper phenotype; PCA-TLPD expresses CD8 with cytotoxic phenotype [INCTLD-1, INCTLD-2]. Both entities present with isolated asymptomatic nodules or plaques with frequent spontaneous regression after biopsy. In cases not behaving indolently (generalized skin lesions, rapidly growing tumors, loss of pan-T-cell markers), alternative diagnoses such as PTCL should be considered [INCTLD-1]."
+        },
+        {
+            "regimen_name": "Cyclosporine ± Prednisone for SPTCL with HLH/Systemic Disease/High Tumor Burden",
+            "site": "Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL) - With HLH, systemic disease, or high tumor burden",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclosporine",
+                    "dose": "≥5 mg/kg/day (typically initiated at 3-5 mg/kg/day)",
+                    "route": "PO",
+                    "schedule": "in divided doses; higher dosage may be necessary; dose adjustment based on response and tolerance"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "variable"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Multiple case series",
+                "phase": "Retrospective",
+                "n_patients": "11 (across case series)",
+                "other_details": "In 11 patients with SPTCL receiving CsA, 6 achieved PFS ranging from 9 to 24 months [refs 44-46, 50]. CsA with prednisone showed ORR of 94% [Guitart 2022, ref 4]. Combination of oral steroids and CsA led to CR of 85% among 16 patients and was associated with estimated 5-year disease-specific survival of 88% [Lopez-Lerma 2018, ref 27]"
+            },
+            "notes": "Cyclosporine (≥5 mg/kg/day) with or without prednisone is included as a useful in certain circumstances option for first-line therapy for SPTCL with HLH/systemic disease/high tumor burden. Start with etoposide-based regimens to control HLH first and then move to disease-specific therapies [SPTCL-2, footnote f]. Consider ISRT for single lesion or limited disease with or without symptoms or HLH [SPTCL-2, footnote e]. In patients with disease responding to first-line therapy, consider slow tapering as tolerated or cyclosporine maintenance [SPTCL-2, footnote h]. HAVCR2 mutations appear to confer resistance to CHOP chemotherapy, necessitating immunosuppressive regimens or HCT [Discussion, MS-71]."
+        },
+        {
+            "regimen_name": "Etoposide-Based Combination Chemotherapy for SPTCL with HLH/Systemic Disease/High Tumor Burden",
+            "site": "Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL) - With HLH, systemic disease, or high tumor burden",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "CHOEP (cyclophosphamide, doxorubicin, vincristine, etoposide, and prednisone)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "per standard CHOEP regimen"
+                },
+                {
+                    "name": "DA-EPOCH (dose-adjusted etoposide, prednisone, vincristine, cyclophosphamide, and doxorubicin)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "per standard DA-EPOCH regimen"
+                },
+                {
+                    "name": "ESHA + platinum (etoposide, methylprednisolone, high-dose cytarabine + cisplatin or oxaliplatin)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "per protocol"
+                },
+                {
+                    "name": "ICE (ifosfamide, carboplatin, and etoposide)",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "per standard ICE regimen"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Retrospective analyses",
+                "phase": "Retrospective",
+                "n_patients": "73 (large retrospective analysis); 17 (HLH subset)",
+                "other_details": "In a large retrospective analysis of 75 patients with SPTCL, 73 received chemotherapy. ORR was 72% (47% CR, 22% PR) [Guitart 2022, ref 4]. Treatment of 17 patients with SPTCL with HLH resulted in ORR of 88% [Ou 2023, ref 17]. In a comparison of immunosuppressive drugs vs polychemotherapy, patients who received polychemotherapy had significantly lower CR rate (28%) vs immunosuppressive drugs (81%) [Michonneau 2017, ref 20]"
+            },
+            "notes": "Start with etoposide-based regimens to control HLH first and then move to disease-specific therapies [SPTCL-2, footnote f]. Etoposide-based combination chemotherapy regimens are appropriate options for patients eligible for transplant [SPTCL-2, footnote g]. Consider ISRT for single lesion or limited disease with or without symptoms or HLH [SPTCL-2, footnote e]. Inadequate response may lead to consideration of alternate regimens. Patients who do not respond may be considered for allogeneic HCT or clinical trial [SPTCL-2]."
+        },
+        {
+            "regimen_name": "Cyclosporine/Methotrexate/Bexarotene for SPTCL Without HLH and Low Tumor Burden",
+            "site": "Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL) - Without HLH and low tumor burden (localized or limited subcutaneous disease)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "immunotherapy",
+                "chemotherapy",
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclosporine (≥5 mg/kg/day)",
+                    "dose": "≥5 mg/kg/day (typically initiated at 3-5 mg/kg/day)",
+                    "route": "PO",
+                    "schedule": "in divided doses; higher dosage may be necessary"
+                },
+                {
+                    "name": "Methotrexate (PO/SC/IM)",
+                    "dose": null,
+                    "route": "PO/SC/IM",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Bexarotene (PO)",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "variable"
+                },
+                {
+                    "name": "Prednisone",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": "variable"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Multiple retrospective case series",
+                "phase": "Retrospective",
+                "n_patients": "14 (methotrexate); 13 (bexarotene)",
+                "other_details": "Methotrexate: Among 14 patients with SPTCL, ORR was 58% (5 CR, 2 PR); all patients without HLH had positive response as first-line therapy [Guitart 2022, ref 4]. Bexarotene: ORR of 82% (11/13) in SPTCL; durable responses observed at 57, 58, and 92 months; median duration of response 26 months; median PFS 38 months [Mehta 2012, ref 52]"
+            },
+            "notes": "Single agents (CsA, methotrexate, or bexarotene), with or without prednisone, can be considered as options for first-line therapy for SPTCL without HLH and low tumor burden [SPTCL-3]. Observation or maintenance with single agents is recommended for patients with CR/PR. Consider ISRT for single lesion or limited disease [SPTCL-3, footnote e]. In patients with disease responding to first-line therapy, consider slow tapering as tolerated or cyclosporine maintenance [SPTCL-3, footnote h]. Patients with disease achieving a clinical benefit should be considered for maintenance or tapering of regimens [SPTCL-3, footnote i]."
+        },
+        {
+            "regimen_name": "Pralatrexate or Romidepsin for SPTCL Without HLH and Low Tumor Burden",
+            "site": "Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL) - Without HLH and low tumor burden",
+            "setting": "First-line / Relapsed/Refractory",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pralatrexate",
+                    "dose": "15 mg/m²",
+                    "route": "IV",
+                    "schedule": "weekly for 3 of 4 weeks"
+                },
+                {
+                    "name": "Romidepsin",
+                    "dose": "14 mg/m²",
+                    "route": "IV",
+                    "schedule": "days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Case reports and small series",
+                "phase": "Case reports/small series",
+                "n_patients": "5 (pralatrexate); 9 (romidepsin single agent)",
+                "other_details": "Pralatrexate: In a study of 22 patients with cytotoxic CTCLs, 7 patients with SPTCL received pralatrexate as single-agent therapy, resulting in median TTNT of 18 months [Mou 2024, ref 54]. Pralatrexate induced metabolic remission for >18 months in relapsed SPTCL [Ong 2019, ref 55]. Romidepsin: Among 22 patients with SPTCL, 9 received romidepsin as single agent, median TTNT 10 months [Mou 2024, ref 54]. Case reports showed CR with romidepsin [Jothishankar 2020, ref 59; Bashey 2012, ref 58]"
+            },
+            "notes": "Pralatrexate or romidepsin, with or without prednisone, can be given as additional therapies if other treatment options are insufficient [SPTCL-3]. Pralatrexate was successful as bridging therapy to allogeneic HCT in selected patients. Romidepsin was effective in SPTCL refractory to multiple prior therapies. Consider allogeneic HCT in selected patients [SPTCL-3]. Patients may experience relapse; retreatment with same or alternate regimen may be considered. Relapsed or refractory disease after multiple previous therapies may warrant clinical trial or allogeneic HCT."
+        },
+        {
+            "regimen_name": "Allogeneic HCT for Refractory SPTCL",
+            "site": "Subcutaneous Panniculitis-Like T-Cell Lymphoma (SPTCL) - Relapsed or Refractory Disease After Multiple Previous Therapies",
+            "setting": "Relapsed/Refractory",
+            "treatment_modality": [
+                "hematopoietic cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Allogeneic hematopoietic cell transplant",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": "conditioning regimens vary"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Case series",
+                "phase": "Retrospective",
+                "n_patients": "5 (Mou 2024); various case reports",
+                "other_details": "Mou et al reported that 5 patients with SPTCL with HLH who underwent allogeneic HCT were all alive after median follow-up of 3 years [Mou 2024, ref 54]. HCT led to durable remissions in patients with SPTCL with HLH (range 30-132 months) and equivalent 3-year survival (80%) when compared to patients without HLH [Lin 2019, ref 65]. Autologous HCT was also successful in case reports [refs 61, 64-66]"
+            },
+            "notes": "Allogeneic HCT may be considered for patients with relapsed or refractory disease after multiple previous therapies. HCT has led to durable remissions in patients with SPTCL with HLH. Both allogeneic and autologous HCT have been reported as successful in various case reports and small series. HCT is generally reserved for patients with progressive or refractory disease after first-line systemic therapy [SPTCL-2, SPTCL-3]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.456302"
+}

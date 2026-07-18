@@ -1,0 +1,847 @@
+{
+    "site_id": "anal",
+    "site_display_name": "Anal",
+    "archetype": "D",
+    "regimen_count": 24,
+    "regimens": [
+        {
+            "regimen_name": "Fluorouracil/Mitomycin + RT (mitomycin 10 mg/m2)",
+            "site": "Anal canal cancer, locoregional disease",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion Days 1-4 and 29-32"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus Days 1 and 29 (capped at 20 mg)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RTOG 98-11",
+                "phase": "3",
+                "n_patients": "682",
+                "os": "78.3% at 5 years for mitomycin group",
+                "pfs": "67.8% at 5 years for mitomycin group",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This regimen is a standard chemoradiation option for localized anal canal cancer, supported by the RTOG 98-11 trial, which showed improved 5-year disease-free survival (67.8% vs 57.8%, P=0.006) and overall survival (78.3% vs 70.7%, P=0.026) compared to cisplatin-based chemoRT. Mitomycin is given on Days 1 and 29, capped at 20 mg, with continuous infusion fluorouracil during weeks 1 and 5 of radiation. This combination is considered preferred due to superior efficacy and evidence from randomized trials. Treatment should be administered with intensity-modulated radiation therapy (IMRT) to reduce toxicity. [1,2]"
+        },
+        {
+            "regimen_name": "Fluorouracil/Mitomycin + RT (mitomycin 12 mg/m2)",
+            "site": "Anal canal cancer, locoregional disease",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion Days 1-4 and 29-32"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "12 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus day 1 (capped at 20 mg)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "RTOG 98-11",
+                "phase": "3",
+                "n_patients": "682",
+                "os": "78.3% at 5 years for mitomycin group",
+                "pfs": "67.8% at 5 years for mitomycin group",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This variant uses a single bolus of mitomycin at 12 mg/m2 on Day 1, capped at 20 mg, with continuous infusion fluorouracil during weeks 1 and 5 of radiation. It is also supported by the RTOG 98-11 trial data. The single-dose mitomycin may be used to reduce toxicity while maintaining efficacy. This regimen is appropriate for patients who may tolerate mitomycin well. The choice between 10 mg/m2 on two days or 12 mg/m2 on one day may depend on institutional protocols. Both are considered preferred options. [1,2]"
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin + RT (mitomycin 10 mg/m2)",
+            "site": "Anal canal cancer, locoregional disease",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily Monday-Friday, on days of radiation treatment only, throughout the duration of RT (typically 28-30 treatment days)"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "10 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus Days 1 and 29 (capped at 20 mg)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Capecitabine is an oral fluoropyrimidine prodrug used as an alternative to intravenous 5-fluorouracil in chemoradiation for anal cancer. It is given twice daily on radiation treatment days, providing continuous radiation sensitization. This regimen is supported by retrospective studies and phase II trials showing similar efficacy and potentially lower hematologic toxicity compared to 5-FU. Mitomycin is given on Days 1 and 29, capped at 20 mg. This option is convenient for patients and is considered preferred. DPYD testing should be considered prior to initiation due to fluoropyrimidine-associated toxicity risks. [3,4]"
+        },
+        {
+            "regimen_name": "Capecitabine/Mitomycin + RT (mitomycin 12 mg/m2)",
+            "site": "Anal canal cancer, locoregional disease",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily Monday-Friday, on days of radiation treatment only, throughout the duration of RT (typically 28-30 treatment days)"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "12 mg/m2",
+                    "route": "IV",
+                    "schedule": "bolus Day 1 (capped at 20 mg)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This variant uses a single bolus of mitomycin at 12 mg/m2 on Day 1 with capecitabine given twice daily on radiation days. It is an alternative to the two-dose mitomycin schedule, based on similar principles as the 5-FU regimen. The single-dose mitomycin may reduce treatment complexity. This regimen is also preferred for localized anal canal cancer. Capecitabine dosing is the same as above, and DPYD testing is recommended. [3,4]"
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil + RT",
+            "site": "Anal canal cancer, locoregional disease",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion Days 1-4"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "RTOG 98-11",
+                "phase": "3",
+                "n_patients": "682",
+                "os": "70.7% at 5 years for cisplatin group",
+                "pfs": "57.8% at 5 years for cisplatin group",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This regimen replaces mitomycin with cisplatin in chemoradiation for anal cancer. It is considered an alternative but has category 2B designation due to inferior outcomes in RTOG 98-11, where 5-year DFS was 57.8% vs 67.8% for mitomycin (P=0.006). However, it may be used in patients who cannot tolerate mitomycin. The regimen is administered every 4 weeks with radiation. Cisplatin can cause nephrotoxicity and ototoxicity, so hydration and electrolyte monitoring are required. [5]"
+        },
+        {
+            "regimen_name": "Local Excision",
+            "site": "Perianal cancer, T1,N0 well or moderately differentiated or select T2,N0 (that does not involve sphincter)",
+            "setting": "Primary treatment",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Local excision with 1-cm margins is an option for select perianal cancers that are superficial, well or moderately differentiated, and do not involve the sphincter. After excision, if margins are adequate, observation is recommended. If margins are inadequate, re-excision is preferred, or local RT with or without chemotherapy may be considered. This approach aims to preserve sphincter function and avoid the morbidity of chemoradiation. Careful surveillance is necessary due to risk of recurrence. [ANAL-2]"
+        },
+        {
+            "regimen_name": "Re-excision or Local RT ± Fluorouracil/Mitomycin or Capecitabine/Mitomycin or Cisplatin/Fluorouracil",
+            "site": "Perianal cancer with inadequate margins after local excision",
+            "setting": "Primary treatment for inadequate margins",
+            "treatment_modality": [
+                "surgery",
+                "radiation therapy",
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "varies",
+                    "route": "IV",
+                    "schedule": "with RT"
+                },
+                {
+                    "name": "Mitomycin",
+                    "dose": "varies",
+                    "route": "IV",
+                    "schedule": "with RT"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "varies",
+                    "route": "PO",
+                    "schedule": "with RT"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "varies",
+                    "route": "IV",
+                    "schedule": "with RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "When local excision of perianal cancer results in inadequate margins, re-excision is the preferred option. If re-excision is not feasible, local radiation therapy with or without concurrent chemotherapy (fluorouracil/mitomycin, capecitabine/mitomycin, or cisplatin/fluorouracil category 2B) can be considered. The choice depends on tumor characteristics and patient factors. The goal is to achieve local control while minimizing toxicity. [ANAL-2]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel + Retifanlimab-dlwr",
+            "site": "Metastatic anal cancer (or inguinal node recurrence)",
+            "setting": "First-line therapy for metastatic disease or recurrent inguinal node disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15"
+                },
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 28 days for 6 cycles, then followed by Retifanlimab-dlwr 500 mg IV Day 1 repeat every 28 days for up to 7 cycles"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "POD1UM-303/InterAACT 2",
+                "phase": "3",
+                "n_patients": "null",
+                "os": "29.2 months for retifanlimab arm vs 23.0 months for chemotherapy arm",
+                "pfs": "9.30 months for retifanlimab arm vs 7.39 months for chemotherapy arm",
+                "hr": "0.63",
+                "ci": "95% CI, 7.5–11.3 vs 7.1–7.7",
+                "orr": "null"
+            },
+            "notes": "This regimen combines chemotherapy with the PD-1 inhibitor retifanlimab for first-line treatment of metastatic or recurrent anal cancer. It is based on the POD1UM-303/InterAACT 2 trial, which met its primary endpoint with improved PFS (HR=0.63, P=0.0006) and a trend toward improved OS. Retifanlimab is given concurrently with carboplatin/paclitaxel for 6 cycles, followed by maintenance retifanlimab for up to 7 cycles. This is the preferred first-line option. Alternate checkpoint inhibitor therapy options include cemiplimab-rwlc, dostarlimab-gxly, nivolumab, pembrolizumab, penpulimab-kcqx, tislelizumab-jsgr, or toripalimab-tpzi due to drug class effect. [13,21]"
+        },
+        {
+            "regimen_name": "CAPEOX (Capecitabine/Oxaliplatin)",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Capecitabine",
+                    "dose": "1000 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily for 14 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "CAPEOX is a platinum-based chemotherapy regimen used for metastatic anal cancer. It is an alternative to carboplatin/paclitaxel and is listed as other recommended in first-line and second-line settings. The regimen is repeated every 3 weeks. Oxaliplatin should be discontinued after 3 to 4 months or sooner for neurotoxicity, while maintaining capecitabine until progression. DPYD testing is recommended before capecitabine initiation. This regimen is based on data from colorectal cancer and extrapolated to anal cancer. [6]"
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "InterAACT",
+                "phase": "2",
+                "n_patients": "91",
+                "os": "20 months",
+                "pfs": "8.1 months",
+                "hr": "2.0 for OS vs cisplatin/fluorouracil",
+                "ci": "95% CI, 1.15–3.47",
+                "orr": "59%"
+            },
+            "notes": "This regimen uses carboplatin AUC 5 with paclitaxel 175 mg/m2 every 21 days. It is an alternative to the retifanlimab combination and is based on the InterAACT trial, which showed similar response rates but better tolerability compared to cisplatin/fluorouracil. Median OS was 20 months and PFS was 8.1 months. Another dosing schedule uses paclitaxel 80 mg/m2 weekly. This is an other recommended option for first-line therapy and second-line if not previously given. [7,8]"
+        },
+        {
+            "regimen_name": "FOLFCIS (Leucovorin/Fluorouracil/Cisplatin)",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "over 30 minutes on Day 1 (with Leucovorin)"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1 (with Cisplatin)"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1000 mg/m2/day x 2 days",
+                    "route": "IV",
+                    "schedule": "bolus Day 1, then continuous infusion over 46-48 hours"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "22.1 months",
+                "pfs": "7.1 months",
+                "hr": "null",
+                "ci": "null",
+                "orr": "48%"
+            },
+            "notes": "FOLFCIS is a combination of leucovorin, fluorouracil, and cisplatin given every 2 weeks. It is an other recommended option for metastatic anal cancer. A retrospective study of 53 patients showed an ORR of 48%, PFS of 7.1 months, and OS of 22.1 months. Cisplatin and leucovorin are given concurrently on Day 1, followed by fluorouracil bolus and infusion. This regimen is used based on extrapolation and retrospective data. [9]"
+        },
+        {
+            "regimen_name": "FOLFOX (Leucovorin/Fluorouracil/Oxaliplatin)",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m2 bolus then 1200 mg/m2/day x 2 days",
+                    "route": "IV",
+                    "schedule": "bolus Day 1, then continuous infusion over 46-48 hours"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "FOLFOX is a standard chemotherapy regimen used in gastrointestinal cancers and is listed as an other recommended option for metastatic anal cancer. It is given every 2 weeks. The panel recommends considering discontinuation of oxaliplatin after 3 to 4 months due to neurotoxicity while maintaining fluorouracil and leucovorin until progression. Oxaliplatin may be reintroduced if discontinued for neurotoxicity rather than disease progression. Safety data in anal cancer are limited, but it is used based on consensus. [10]"
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "60 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1000 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "continuous infusion Days 1-4"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "InterAACT",
+                "phase": "2",
+                "n_patients": "91",
+                "os": "12.3 months",
+                "pfs": "5.7 months",
+                "hr": "null",
+                "ci": "null",
+                "orr": "57%"
+            },
+            "notes": "This regimen uses cisplatin 60 mg/m2 with continuous infusion fluorouracil 1000 mg/m2/day for 4 days, repeated every 3 weeks. It has category 2B designation due to higher toxicity compared to carboplatin/paclitaxel in the InterAACT trial, with more grade ≥3 toxicity (76% vs 71%) and serious adverse events (62% vs 36%). Median OS was 12.3 months and PFS was 5.7 months. It is an other recommended option for patients who have not received platinum-based therapy previously. [11]"
+        },
+        {
+            "regimen_name": "Modified DCF (Docetaxel/Cisplatin/Fluorouracil)",
+            "site": "Metastatic anal cancer",
+            "setting": "First-line or second-line therapy (if not previously given)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "40 mg/m2",
+                    "route": "IV",
+                    "schedule": "Day 1"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m2/day x 2 days",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 46-48 hours"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2B",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "Epitopes-HPV02",
+                "phase": "2",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "11.0 months",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Modified DCF is a triplet chemotherapy regimen given every 2 weeks. It is an other recommended option for metastatic anal cancer, with category 2B designation due to concerns about higher toxicity. A phase II trial showed a median PFS of 11.0 months for the modified regimen, with 53% of patients experiencing grade 3-4 adverse events. The most common toxicities were neutropenia, diarrhea, and asthenia. This regimen may be considered for patients with good performance status. [14]"
+        },
+        {
+            "regimen_name": "Cemiplimab-rwlc",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cemiplimab-rwlc",
+                    "dose": "350 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Cemiplimab-rwlc is a PD-1 inhibitor approved for cutaneous squamous cell carcinoma and extrapolated to anal cancer. It is listed as a preferred option for second-line therapy based on extrapolation from other cancers. The dose is 350 mg IV every 3 weeks. There are no specific biomarker requirements. Toxicities are immune-related and should be managed per NCCN guidelines for immune checkpoint inhibitor toxicities. [15,16]"
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks for 4 doses followed by 1000 mg IV every 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Dostarlimab-gxly is a PD-1 inhibitor approved for dMMR solid tumors and extrapolated to anal cancer. It is listed as a preferred option for second-line therapy. The dosing involves 500 mg every 3 weeks for 4 doses, then maintenance with 1000 mg every 6 weeks. There is no specific biomarker requirement for anal cancer use. This agent is included based on drug class effect and extrapolation from other indications. [17]"
+        },
+        {
+            "regimen_name": "Nivolumab",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "NCI9673",
+                "phase": "2",
+                "n_patients": "37",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "24%"
+            },
+            "notes": "Nivolumab is a PD-1 inhibitor that has shown activity in metastatic anal cancer in a phase 2 trial (NCI9673), with an ORR of 24% (95% CI, 15-33). The standard dose is 240 mg IV every 2 weeks, but other schedules include 3 mg/kg every 2 weeks, 480 mg every 4 weeks, or 6 mg/kg every 4 weeks. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted. This is a preferred second-line option. [18]"
+        },
+        {
+            "regimen_name": "Pembrolizumab",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "KEYNOTE-028",
+                "phase": "1b",
+                "n_patients": "24",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "17%"
+            },
+            "notes": "Pembrolizumab is a PD-1 inhibitor with activity in anal cancer shown in KEYNOTE-028 (ORR 17%) and KEYNOTE-158 (ORR 11% in MSI-H tumors). The dose is 200 mg IV every 3 weeks, with alternatives including 2 mg/kg every 3 weeks, 400 mg every 6 weeks, or 4 mg/kg every 6 weeks. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted. This is a preferred second-line option. [19]"
+        },
+        {
+            "regimen_name": "Penpulimab-kcqx",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Penpulimab-kcqx",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Penpulimab-kcqx is a PD-1 inhibitor added as a preferred option for second-line metastatic anal cancer. The dose is 200 mg IV every 2 weeks. It is included based on extrapolation from other indications and drug class effect. There are no specific biomarker requirements for anal cancer use. This agent is new to the guidelines and provides another immunotherapy option. [20]"
+        },
+        {
+            "regimen_name": "Retifanlimab-dlwr",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Retifanlimab-dlwr",
+                    "dose": "500 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 28 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "POD1UM-202",
+                "phase": "2",
+                "n_patients": "94",
+                "os": "10.1 months",
+                "pfs": "2.3 months",
+                "hr": "null",
+                "ci": "null",
+                "orr": "13.8%"
+            },
+            "notes": "Retifanlimab-dlwr is a PD-1 inhibitor studied in the POD1UM-202 trial for second-line metastatic anal cancer, showing an ORR of 13.8% (95% CI, 7.6-22.5%), median PFS of 2.3 months, and OS of 10.1 months. The dose is 500 mg IV every 28 days. This is a preferred second-line option, especially for patients who have not received prior immunotherapy. [21]"
+        },
+        {
+            "regimen_name": "Tislelizumab-jsgr",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Tislelizumab-jsgr",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Tislelizumab-jsgr is a PD-1 inhibitor listed as a preferred option for second-line metastatic anal cancer. The dose is 200 mg IV every 3 weeks. It is included based on extrapolation from other malignancies and drug class effect. There are no specific biomarker requirements for anal cancer use. This agent provides an additional immunotherapy choice. [22-25]"
+        },
+        {
+            "regimen_name": "Toripalimab-tpzi",
+            "site": "Metastatic anal cancer",
+            "setting": "Second-line and subsequent therapy (if no prior immunotherapy received)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Toripalimab-tpzi",
+                    "dose": "3 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "preferred",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Toripalimab-tpzi is a PD-1 inhibitor listed as a preferred option for second-line metastatic anal cancer. The dose is 3 mg/kg IV every 2 weeks. It is included based on extrapolation from other cancers and drug class effect. There are no specific biomarker requirements for anal cancer use. This agent is part of the expanding immunotherapy options for anal cancer. [26]"
+        },
+        {
+            "regimen_name": "Fluorouracil + RT (for local control in metastatic setting)",
+            "site": "Metastatic anal cancer with symptomatic primary",
+            "setting": "Chemo/RT for local control",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "225 mg/m2",
+                    "route": "IV",
+                    "schedule": "continuous infusion over 24 hours daily on Days 1-5 or 1-7; repeat every 3 weeks for 5 weeks with RT"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "This regimen uses continuous infusion fluorouracil at 225 mg/m2/day during radiation for local control in metastatic anal cancer. It is intended for patients with symptomatic bulky primary tumors to achieve palliation. The chemotherapy is given concurrently with radiation, typically for 5 weeks. This is an other recommended option for local control in the metastatic setting. [27-29]"
+        },
+        {
+            "regimen_name": "Capecitabine + RT (for local control in metastatic setting)",
+            "site": "Metastatic anal cancer with symptomatic primary",
+            "setting": "Chemo/RT for local control",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "825 mg/m2",
+                    "route": "PO",
+                    "schedule": "twice daily Monday-Friday, on days of radiation treatment only, throughout the duration of RT (typically 28-30 treatment days)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "category 2A",
+            "guideline_category": "other recommended",
+            "trial_data": {
+                "trial_name": "null",
+                "phase": "null",
+                "n_patients": "null",
+                "os": "null",
+                "pfs": "null",
+                "hr": "null",
+                "ci": "null",
+                "orr": "null"
+            },
+            "notes": "Capecitabine is used as an oral fluoropyrimidine for chemoradiation in metastatic anal cancer for local control. It is given twice daily on radiation days, providing continuous sensitization. This is an alternative to intravenous fluorouracil and is considered other recommended. It may be used for palliation of symptoms from the primary tumor. DPYD testing is recommended before initiation. [30-32]"
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T15:24:19.136934"
+}

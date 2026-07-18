@@ -1,0 +1,2582 @@
+{
+    "site_id": "Neuroendocrine",
+    "site_display_name": "Neuroendocrine Tumours",
+    "archetype": "B",
+    "regimen_count": 77,
+    "regimens": [
+        {
+            "regimen_name": "Octreotide acetate LAR",
+            "site": "GI tract well-differentiated Grade 1/2 NETs",
+            "setting": "First-line for clinically significant tumor burden or progressive disease; also first-line for carcinoid syndrome symptom control",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks. Higher doses (up to 60 mg once a month) may be useful in select cases after progression on standard doses [162,165,166]. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID can be added."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor likely to benefit from SSTR-directed therapy",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 1 for nonfunctional GI NETs (with everolimus)",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "PROMID",
+                "phase": "III",
+                "n_patients": "85",
+                "os": "Median OS 84.7 months octreotide vs 83.7 months placebo (HR 0.83; 95% CI 0.44-1.46; P=.51)",
+                "pfs": "Median TTP 14.3 months octreotide vs 6 months placebo (P=.000072)",
+                "hr": "0.83",
+                "ci": "0.44-1.46",
+                "p_value": ".51",
+                "or": null,
+                "notes": "Antiproliferative effect demonstrated [5,6]. CLARINET trial showed antiproliferative effect of lanreotide in advanced well-differentiated GEP NETs [6,7,8]. Post-study treatment included octreotide LAR in 38 of 43 patients in placebo arm."
+            },
+            "notes": "For symptom and/or tumor control, octreotide acetate LAR 20-30 mg IM every 4 weeks is recommended. Higher doses have been shown to be safe. For breakthrough symptoms, octreotide 100-250 mcg SC TID can be considered. If injection site-related complications occur, consider switching to another SSA. The effectiveness of everolimus in the treatment of patients with carcinoid syndrome has not been established [NE-G 1]."
+        },
+        {
+            "regimen_name": "Lanreotide",
+            "site": "GI tract well-differentiated Grade 1/2 NETs",
+            "setting": "First-line for clinically significant tumor burden or progressive disease; also first-line for carcinoid syndrome symptom control",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks. Higher doses (up to 120 mg every 14 days) may be useful in select cases after progression on standard doses [162]. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID can be added."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor likely to benefit from SSTR-directed therapy",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CLARINET",
+                "phase": "III",
+                "n_patients": "204",
+                "os": "Not reported at final analysis",
+                "pfs": "PFS not reached vs 18 months (HR 0.47; 95% CI 0.30-0.73; P<.001)",
+                "hr": "0.47",
+                "ci": "0.30-0.73",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "Lanreotide showed antiproliferative effect in advanced well-differentiated metastatic grade 1 and grade 2 GEP NETs [6]. Open-label extension estimated PFS at 32.8 months (95% CI 30.9-68.0) [161]."
+            },
+            "notes": "For symptom and/or tumor control, lanreotide 120 mg SC every 4 weeks is recommended. Higher doses have been shown to be safe. If injection site-related complications occur, consider switching to another SSA. The CLARINET FORTE phase 2 study demonstrated feasibility of reduced dosing interval (120 mg every 14 days) in patients with progressive disease [162]."
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "GI tract well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locally advanced or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 if prior treatment with Everolimus or Lutetium Lu 177 dotatate",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CABINET",
+                "phase": "III",
+                "n_patients": "extrapancreatic cohort",
+                "os": "Median OS 21.9 months cabozantinib vs 19.7 months placebo",
+                "pfs": "Median PFS 8.4 months cabozantinib vs 3.9 months placebo",
+                "hr": "0.38",
+                "ci": "0.25-0.59",
+                "p_value": "<.001",
+                "or": "5% cabozantinib vs 0% placebo",
+                "notes": "Patients randomized 2:1 to cabozantinib or placebo. 62% of patients in cabozantinib arm had grade 3-5 adverse events possibly related to treatment, compared to 27% in placebo arm. Cabozantinib approved for PanNETs and extrapancreatic NETs in 2025 [1,177]."
+            },
+            "notes": "Category 1 if prior treatment with Everolimus or Lutetium Lu 177 dotatate. In the extrapancreatic NET cohort, stratified HR for progression or death was 0.38 [1]. Cabozantinib was approved for these indications in 2025."
+        },
+        {
+            "regimen_name": "Everolimus",
+            "site": "GI tract well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locally advanced or metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 for nonfunctional tumors",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RADIANT-4",
+                "phase": "III",
+                "n_patients": "302",
+                "os": null,
+                "pfs": "Median PFS 11.0 months everolimus vs 3.9 months placebo",
+                "hr": "0.48",
+                "ci": "0.35-0.67",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "Double-blind, placebo-controlled, phase 3 trial. Randomized 2:1 to everolimus or placebo in patients with progressive, non-functional lung or GI NETs [3,173]. Patients were not receiving an SSA at the time of study enrollment. Drug-related grade 3/4 adverse events included stomatitis (9%), infections (7%), diarrhea (7%), anemia (4%), fatigue (3%), and hyperglycemia (3%) [173]."
+            },
+            "notes": "Everolimus is an inhibitor of mTOR. Effectiveness of everolimus in the treatment of patients with carcinoid syndrome has not been established [2,3]. RADIANT-2 trial randomized 429 patients with advanced NETs and carcinoid syndrome to everolimus/octreotide vs placebo/octreotide. PFS 16.4 months vs 11.3 months (P=.026) but did not meet predefined statistical significance threshold [2,168]. RADIANT-4 included 90 patients with lung primary. Exploratory analysis showed improved PFS for lung NET subgroup (HR 0.50; 95% CI 0.28-0.88) [3,173,175]. Adverse events include stomatitis, rash, fatigue, diarrhea, and rare pneumonitis [170-172]."
+        },
+        {
+            "regimen_name": "Lutetium Lu 177 dotatate (PRRT) - for GI NETs",
+            "site": "GI tract well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive disease on octreotide LAR or lanreotide",
+            "treatment_modality": [
+                "radiolabeled somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 dotatate",
+                    "dose": "200 mCi",
+                    "route": "IV",
+                    "schedule": "Every 8 weeks for a total of 4 treatments"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor uptake greater than normal liver on SSTR-PET/CT or SSTR-PET/MRI",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 1 for progressive midgut tumors",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NETTER-1",
+                "phase": "III",
+                "n_patients": "229",
+                "os": "Median OS 48.0 months lutetium Lu 177 dotatate vs 36.3 months high-dose octreotide (HR 0.84; P=.30)",
+                "pfs": "Not reached vs 8.4 months (P<.0001)",
+                "hr": "0.84",
+                "ci": "0.44-1.46",
+                "p_value": "<.0001",
+                "or": "18% lutetium Lu 177 dotatate vs 3% high-dose octreotide (P<.001)",
+                "notes": "Randomized trial in advanced midgut NETs comparing lutetium Lu 177 dotatate plus octreotide LAR to high-dose octreotide LAR (60 mg every 4 weeks) [5,164,165]. Amino acid solution administered 30 minutes before, concurrently with, and 3 hours after lutetium Lu 177 dotatate for nephroprotection [NE-J]."
+            },
+            "notes": "Randomized data suggest superior outcomes in terms of PFS and response rates with PRRT compared to small molecules. Significant impact on overall survival is lacking [9,10]. Key eligibility: Well-differentiated NET; SSTR expression by NET; adequate bone marrow, renal, and hepatic function. PRRT should generally be avoided in patients with GFR <30 and used with caution in GFR 30-50 [NE-J]. Prior surgical evaluation should be performed before PRRT. Resection of primary tumors may reduce risk of PRRT-induced bowel obstruction [NE-J]. Short-term toxicities include nausea/vomiting related to amino acid infusion. Long-term risks include myelosuppression, secondary myelodysplastic syndrome and leukemia, renal toxicity, hepatic toxicity, and embryo-fetal toxicity [NE-J]."
+        },
+        {
+            "regimen_name": "Capecitabine/Temozolomide",
+            "site": "Lung/Thymus well-differentiated NETs (atypical carcinoid with Ki-67/mitotic index in higher end of spectrum)",
+            "setting": "Distant metastases with clinically significant tumor burden, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": "Median OS 68 months (95% CI 35.3-100.7 months) in small retrospective study [200]; median OS 30.4 months in another study [201]",
+                "pfs": "Median PFS 13 months (95% CI 4.4-21.6 months) in small retrospective study [200]; median PFS 9.0 months in another study [201]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "30% in small retrospective study [200]",
+                "notes": "Capecitabine and temozolomide can be considered for intermediate-grade/atypical tumors with Ki-67 proliferative index and mitotic index in the higher end of the defined spectrum [198,202]. Temozolomide monotherapy showed PRs in 14% of patients in a retrospective study of 31 patients with progressive metastatic bronchial NETs [199]."
+            },
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer. Temozolomide either administered alone or in combination with capecitabine is an option to manage tumor burden and any associated symptoms in patients with lung/thymic NETs [198,199]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide",
+            "site": "Lung/Thymus well-differentiated NETs (atypical carcinoid with Ki-67/mitotic index in higher end of spectrum)",
+            "setting": "Distant metastases with clinically significant tumor burden, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": null,
+                "notes": "Carboplatin/etoposide can be considered for intermediate-grade/atypical tumors with Ki-67 proliferative index and mitotic index in the higher end of the defined spectrum [198,202]."
+            },
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide",
+            "site": "Lung/Thymus well-differentiated NETs (atypical carcinoid with Ki-67/mitotic index in higher end of spectrum)",
+            "setting": "Distant metastases with clinically significant tumor burden, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": null,
+                "notes": "Cisplatin/etoposide can be considered for intermediate-grade/atypical tumors with Ki-67 proliferative index and mitotic index in the higher end of the defined spectrum [198,202,203]."
+            },
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Temozolomide",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II (retrospective)",
+                "n_patients": "31",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "14% PR in retrospective study of progressive metastatic bronchial NETs [199]",
+                "notes": "Temozolomide monotherapy was associated with PRs in 14% of patients in a retrospective study of 31 patients [199]."
+            },
+            "notes": "Temozolomide monotherapy can be considered for intermediate-grade/atypical tumors with Ki-67 proliferative index and mitotic index in the higher end of the defined spectrum [198,199]. Ekeblad et al. reported temozolomide as monotherapy was effective in treatment of advanced malignant neuroendocrine tumors [18]."
+        },
+        {
+            "regimen_name": "Oxaliplatin-based therapy (CAPEOX or FOLFOX)",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "CAPEOX (Capecitabine/Oxaliplatin)",
+                    "dose": "Per regimen specifications",
+                    "route": "PO/IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "FOLFOX (Leucovorin/Fluorouracil/Oxaliplatin)",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Oxaliplatin-based therapy (eg, CAPEOX or FOLFOX) is listed as Other Recommended for lung/thymus NETs. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Everolimus",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, evidence of disease progression, or intermediate-grade disease (atypical carcinoid)",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 for nonfunctional lung NETs",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RADIANT-4",
+                "phase": "III",
+                "n_patients": "302 (90 with lung primary)",
+                "os": null,
+                "pfs": "Median PFS 11.0 months everolimus vs 3.9 months placebo overall; lung subgroup HR 0.50 (95% CI 0.28-0.88) with 9.2 months vs 3.6 months",
+                "hr": "0.48",
+                "ci": "0.35-0.67",
+                "p_value": "<.00001",
+                "or": null,
+                "notes": "RADIANT-4 included 90 patients with lung primary (63 everolimus, 27 placebo). RADIANT-2 included 44 patients with lung NETs (including 9 atypical carcinoids); PFS HR 0.72 (95% CI 0.31-1.68, P=.228) [175,197]. Effectiveness of everolimus in carcinoid syndrome not established [2,3,175,197]."
+            },
+            "notes": "Category 1 for nonfunctional lung NETs. Exploratory subgroup analysis from RADIANT-4 showed improved PFS by central review (HR 0.50; 95% CI 0.28-0.88) in the everolimus arm (9.2 months) compared to the placebo arm (3.6 months) for lung NETs [175]. Adverse events include stomatitis, rash, fatigue, and diarrhea [170-172]."
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, evidence of disease progression, intermediate-grade disease, or symptomatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 if prior treatment with Everolimus",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CABINET",
+                "phase": "III",
+                "n_patients": "lung/thymic subgroup: 33 cabozantinib vs 16 placebo",
+                "os": null,
+                "pfs": "Median PFS 8.4 months cabozantinib vs 3.9 months placebo overall; lung/thymic HR 0.17 (95% CI 0.07-0.42)",
+                "hr": "0.38",
+                "ci": "0.25-0.59",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "In the extrapancreatic NET cohort, lung/thymic NETs accounted for 33/134 patients in cabozantinib arm and 16/69 patients in placebo arm. Stratified HR for progression/death in lung/thymic subgroup was 0.17 [1]."
+            },
+            "notes": "Category 1 if prior treatment with Everolimus. Cabozantinib approved for extrapancreatic NETs in 2025 [1,177]."
+        },
+        {
+            "regimen_name": "Lutetium Lu 177 dotatate (PRRT) - for Lung/Thymic NETs",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Progressive disease on octreotide LAR or lanreotide, if SSTR-positive",
+            "treatment_modality": [
+                "radiolabeled somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 dotatate",
+                    "dose": "200 mCi",
+                    "route": "IV",
+                    "schedule": "Every 8 weeks for a total of 4 treatments"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor uptake greater than normal liver on SSTR-PET/CT or SSTR-PET/MRI",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": "Median OS 58.8 months (n=114) [205]; Median OS 63 months (95% CI 55-72 months) in Dutch cohort including bronchial NETs [204]",
+                "pfs": "Median PFS 20.1 months typical bronchial carcinoid, 15.7 months atypical bronchial carcinoid (n=34) [206]; Median PFS 29 months (95% CI 26-33 months) in Dutch cohort [204]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": null,
+                "notes": "Meta-analysis of 18 studies with 1920 patients found pooled disease response rate of 29%-31% and combined disease control rate of 74%-81% [194]. While prospective randomized studies are lacking for lung NETs, data from retrospective studies support efficacy [204,205,206]."
+            },
+            "notes": "Treatment with lutetium Lu 177 dotatate is a recommended option for patients with SSTR+ lung or thymic distant metastatic NETs with disease progression on octreotide LAR or lanreotide. A tumor is deemed SSTR-positive if the uptake in measurable lesions is greater than the liver [NE-J]."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, evidence of disease progression, or symptomatic disease",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks. Higher doses (up to 60 mg once a month) may be useful in select cases after progression on standard doses. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID can be added."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity and/or hormonal symptoms",
+                    "requirement": "Tumor SSTR-positive and/or hormonal symptoms",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SPINET",
+                "phase": "III",
+                "n_patients": "77",
+                "os": null,
+                "pfs": "Median PFS 16.6 months (95% CI 11.3-21.9 months) for lanreotide; typical carcinoid PFS 21.9 months lanreotide vs 13.9 months placebo; atypical carcinoid 13.8 months vs 11.0 months",
+                "hr": "0.94",
+                "ci": "not calculable",
+                "p_value": ".866",
+                "or": "14% lanreotide vs 0% placebo (not statistically significant)",
+                "notes": "SPINET trial randomized 77 patients with bronchopulmonary NETs to lanreotide vs placebo [196]. Primary endpoint of centrally confirmed PFS showed no statistically significant difference. Patients were able to transition from double-blind to open-label phase to receive lanreotide."
+            },
+            "notes": "Patients can be considered for treatment with octreotide LAR or lanreotide if the tumor is SSTR-positive and/or associated with hormonal symptoms [NE-G 2]. The Panel notes that no clear consensus exists on the timing of initiation in asymptomatic patients with metastatic NETs and low tumor burden."
+        },
+        {
+            "regimen_name": "Lanreotide",
+            "site": "Lung/Thymus well-differentiated NETs",
+            "setting": "Distant metastases with clinically significant tumor burden, evidence of disease progression, or symptomatic disease",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks. Higher doses (up to 120 mg every 14 days) may be useful in select cases after progression on standard doses."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity and/or hormonal symptoms",
+                    "requirement": "Tumor SSTR-positive and/or hormonal symptoms",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "SPINET",
+                "phase": "III",
+                "n_patients": "77",
+                "os": null,
+                "pfs": "Median PFS 16.6 months (95% CI 11.3-21.9 months) overall; typical carcinoid 21.9 months vs 13.9 months placebo; atypical carcinoid 13.8 months vs 11.0 months",
+                "hr": "0.94",
+                "ci": "not calculable",
+                "p_value": ".866",
+                "or": "14% lanreotide vs 0% placebo (not statistically significant)",
+                "notes": "Phase III SPINET trial randomized 77 patients with bronchopulmonary NETs (typical and atypical carcinoids) to lanreotide plus best supportive care vs placebo plus best supportive care [196]."
+            },
+            "notes": "For symptom and/or tumor control, lanreotide 120 mg SC every 4 weeks is recommended. Higher doses have been shown to be safe."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Locoregional advanced and/or distant metastatic disease, if SSTR-positive",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks. Higher doses (up to 60 mg once a month) may be useful in select cases after progression on standard doses. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor SSTR-positive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CLARINET",
+                "phase": "III",
+                "n_patients": "204 (included PanNETs)",
+                "os": null,
+                "pfs": "PFS not reached vs 18 months (HR 0.47; 95% CI 0.30-0.73; P<.001)",
+                "hr": "0.47",
+                "ci": "0.30-0.73",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "CLARINET included nonfunctioning pancreatic or intestinal NETs [6,160]. PROMID showed antiproliferative effect of octreotide LAR in advanced NETs of the midgut (TTP 14.3 vs 6 months; P=.000072) [5,158]. The CLARINET FORTE phase 2 study demonstrated feasibility of reduced dosing interval (lanreotide 120 mg every 14 days) in patients with PanNETs with progression on lanreotide (median PFS 5.6 months; 95% CI 5.5-8.3) [162]."
+            },
+            "notes": "For patients with insulinoma, octreotide acetate LAR or lanreotide should be used only if SSTR-based imaging is positive. In the absence of SSTRs, octreotide acetate LAR or lanreotide can profoundly worsen hypoglycemia. Treatment with octreotide acetate LAR or lanreotide will likely be of greatest benefit in patients with SSTR-positive tumors [6,160]. After clinical, symptomatic, or radiographic progression on standard SSA doses, above-label dosing may be useful in select cases [162,165,166]."
+        },
+        {
+            "regimen_name": "Lanreotide",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Locoregional advanced and/or distant metastatic disease, if SSTR-positive",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks. Higher doses (up to 120 mg every 14 days) may be useful in select cases after progression on standard doses."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor SSTR-positive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CLARINET",
+                "phase": "III",
+                "n_patients": "204 (included PanNETs)",
+                "os": null,
+                "pfs": "PFS not reached vs 18 months (HR 0.47; 95% CI 0.30-0.73; P<.001)",
+                "hr": "0.47",
+                "ci": "0.30-0.73",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "CLARINET FORTE showed lanreotide 120 mg every 14 days feasible in patients with progressive PanNETs (median PFS 5.6 months; 95% CI 5.5-8.3) [162]."
+            },
+            "notes": "For patients with insulinoma, lanreotide should be used only if SSTR-based imaging is positive [162,263]."
+        },
+        {
+            "regimen_name": "Everolimus",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locoregional advanced and/or distant metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Everolimus",
+                    "dose": "10 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 for progressive disease",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RADIANT-3",
+                "phase": "III",
+                "n_patients": "410",
+                "os": "Median OS 44.0 months (95% CI 35.6-51.8 months) everolimus vs 37.7 months (95% CI 29.1-45.8 months) placebo (HR 0.94; 95% CI 0.73-1.20; P=.30)",
+                "pfs": "Median PFS 11.0 months everolimus vs 4.6 months placebo (P<.001)",
+                "hr": "0.35",
+                "ci": "0.27-0.45",
+                "p_value": "<.001",
+                "or": null,
+                "notes": "Randomized, double-blind, placebo-controlled, phase III trial [19,287,288]. Subset analysis suggested PFS benefit is independent of prior or concurrent SSA therapy or prior chemotherapy [289]. Adverse events include stomatitis, hyperglycemia, rash, diarrhea, and rare pneumonitis [170-172]."
+            },
+            "notes": "Category 1 for progressive disease. Everolimus is an inhibitor of mTOR. Adverse events include stomatitis, hyperglycemia, rash, diarrhea, and rare pneumonitis [170-172,287,288]."
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locoregional advanced and/or distant metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "37.5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 for progressive disease",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "III",
+                "n_patients": "171",
+                "os": "Median OS 38.6 months (95% CI 25.6-56.4 months) sunitinib vs 29.1 months (95% CI 16.4-36.8 months) placebo (HR 0.73; 95% CI 0.50-1.06; P=.094)",
+                "pfs": "Median PFS 12.6 months (95% CI 11.1-20.6 months) sunitinib vs 5.8 months (95% CI 3.8-7.2 months) placebo",
+                "hr": "0.32",
+                "ci": "0.18-0.55",
+                "p_value": ".000015",
+                "or": null,
+                "notes": "Multicenter randomized study by blinded independent central review [20,290]. No significant difference in OS; 69% of patients on placebo arm subsequently received sunitinib [20,291]. Long-term treatment (median 87.1 weeks) did not alter the safety profile [291]. Adverse events include fatigue, rare congestive heart failure, diarrhea, mucositis, and weakness [292,293]."
+            },
+            "notes": "Category 1 for progressive disease. Sunitinib is an oral VEGF receptor tyrosine kinase inhibitor. Adverse events include fatigue, rare congestive heart failure, diarrhea, mucositis, and weakness [290-293]."
+        },
+        {
+            "regimen_name": "Cabozantinib",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locoregional advanced and/or distant metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "60 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1 if prior treatment with Everolimus, Lutetium Lu 177 dotatate, or Sunitinib",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "CABINET",
+                "phase": "III",
+                "n_patients": "pancreatic cohort",
+                "os": "Median OS 40.0 months cabozantinib vs 31.1 months placebo",
+                "pfs": "Median PFS 13.8 months cabozantinib vs 4.4 months placebo",
+                "hr": "0.23",
+                "ci": "0.12-0.42",
+                "p_value": "<.001",
+                "or": "19% cabozantinib vs 0% placebo",
+                "notes": "Patients with PanNETs had to have had prior treatment with everolimus, sunitinib, or lutetium Lu 177 dotatate PRRT. 65% of patients in cabozantinib arm had grade 3/4 adverse event possibly related to treatment, compared to 23% in placebo arm [1,177]. Approved for PanNETs in 2025."
+            },
+            "notes": "Category 1 if prior treatment with Everolimus, Lutetium Lu 177 dotatate, or Sunitinib. Approved for PanNETs in 2025 [1,177]."
+        },
+        {
+            "regimen_name": "Capecitabine/Temozolomide",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locoregional advanced and/or distant metastatic disease; preferred when tumor response is needed for symptoms or cytoreduction",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine/Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ECOG-ACRIN E2211",
+                "phase": "II (randomized)",
+                "n_patients": null,
+                "os": "Median OS 58.7 months temozolomide/capecitabine vs 53.8 months temozolomide alone (HR 0.82; P=.42)",
+                "pfs": "Median PFS 22.7 months temozolomide/capecitabine vs 14.4 months temozolomide alone (HR 0.58; P=.022)",
+                "hr": "0.58",
+                "ci": null,
+                "p_value": ".022",
+                "or": null,
+                "notes": "Randomized phase II study [21,299]. Temozolomide-based therapy is the most commonly used chemotherapy regimen for PanNET. Temozolomide with or without capecitabine may have more activity in tumors arising in the pancreas compared to GI NETs [295,298]."
+            },
+            "notes": "Preferred when tumor response is needed for symptoms or cytoreduction. Temozolomide with or without capecitabine may have more activity in tumors arising in the pancreas compared to GI NETs [21,295-299]. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "FOLFOX (Leucovorin/Fluorouracil/Oxaliplatin)",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Locoregional advanced and/or distant metastatic disease with bulky, symptomatic, and/or progressive disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "os": "ORR 45.2% in aggressive PanNETs after prior capecitabine/temozolomide; disease control rate 93.5%; median PFS 6 months (95% CI 5.0-7.0 months); median OS 16 months (95% CI 11.3-20.7 months) from start of study, 67 months (95% CI 49.8-84.2 months) from time of diagnosis [304]",
+                "pfs": "Median PFS 9 months and OS 30 months in study with 89 PanNET patients [180]; Median PFS 12.6 months and OS 29.4 months in study with 33 PanNET patients [303]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "45.2% in aggressive PanNETs [304]; PR rate 30% in 89 PanNET patients [180]; disease control rate 83.3% [303]",
+                "notes": "Other cytotoxic agents also have activity in PanNETs [180,302,303,304]."
+            },
+            "notes": "Listed as Other Recommended for PanNETs. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "CAPEOX (Capecitabine/Oxaliplatin)",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Locoregional advanced and/or distant metastatic disease with bulky, symptomatic, and/or progressive disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "Response rates 23% poorly differentiated, 30% well-differentiated [305]",
+                "notes": "Combination of capecitabine and oxaliplatin assessed in a phase II study with response rates of 23% in poorly differentiated and 30% in well-differentiated disease [305]."
+            },
+            "notes": "Listed as Other Recommended for PanNETs. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Lutetium Lu 177 dotatate (PRRT) - for PanNETs",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Progressive locoregional advanced and/or distant metastatic disease, if SSTR-positive and progression on octreotide LAR or lanreotide",
+            "treatment_modality": [
+                "radiolabeled somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 dotatate",
+                    "dose": "200 mCi",
+                    "route": "IV",
+                    "schedule": "Every 8 weeks for a total of 4 treatments"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor uptake greater than normal liver on SSTR-PET/CT or SSTR-PET/MRI",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "OCLURANDOM",
+                "phase": "II (randomized, noncomparative)",
+                "n_patients": "84 (37% with Ki-67 >10%)",
+                "os": null,
+                "pfs": "12-month PFS rate 80.5% lutetium Lu 177 dotatate vs 42% sunitinib; median PFS 20.7 months vs 11 months",
+                "hr": null,
+                "ci": "12-month PFS: 90% CI 67.5%-89.9% lutetium; 90% CI 29.1%-55.5% sunitinib",
+                "p_value": null,
+                "or": null,
+                "notes": "Prospective, randomized, noncomparative phase II study [10,308]. ORR 54% with 6 CRs in Dutch cohort of 133 PanNET patients [204]."
+            },
+            "notes": "Randomized data suggest superior outcomes in terms of PFS and response rates with PRRT compared to small molecules. Significant impact on overall survival is lacking [9,10]. PRRT with lutetium Lu 177 dotatate has been associated with symptomatic and biochemical responses in functional metastatic PanNETs [307]."
+        },
+        {
+            "regimen_name": "Capecitabine/Temozolomide - for WDG3 Favorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, favorable biology (Ki-67 <55%, slow-growing, positive SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease, unresectable with clinically significant tumor burden or evidence of disease progression",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine/Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": "<55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective",
+                "n_patients": null,
+                "os": "OS 31.7 months in well-differentiated grade 3 NETs; response rate 41% [369]",
+                "pfs": "Time to treatment failure 5.7 months in well-differentiated grade 3 NETs [369]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "27.3% for capecitabine/temozolomide in retrospective study [376]; 41% in well-differentiated grade 3 NETs [369]",
+                "notes": "Capecitabine/temozolomide had the longest median PFS (12.0 months) in retrospective study [376]. Temozolomide, with or without capecitabine, may have more activity in tumors arising in the pancreas compared to GI NETs [29,368,369]."
+            },
+            "notes": "For favorable biology WDG3 NETs. Temozolomide, with or without capecitabine, may have more activity in tumors arising in the pancreas compared to GI NETs [29]. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Temozolomide - for WDG3 Favorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, favorable biology (Ki-67 <55%, slow-growing, positive SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease, unresectable with clinically significant tumor burden or evidence of disease progression",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": "<55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Temozolomide, with or without capecitabine, may have more activity in tumors arising in the pancreas compared to GI NETs [29]. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "FOLFOX - for WDG3 Favorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, favorable biology (Ki-67 <55%, slow-growing, positive SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease, unresectable with clinically significant tumor burden or evidence of disease progression",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin/Fluorouracil/Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": "<55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective",
+                "n_patients": null,
+                "os": null,
+                "pfs": "Median PFS 6.9 months for FOLFOX [376]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "56.4% for FOLFOX in retrospective study [376]",
+                "notes": "FOLFOX had the highest ORR (56.4%) in retrospective study of grade 3 NETs [376]."
+            },
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "CAPEOX - for WDG3 Favorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, favorable biology (Ki-67 <55%, slow-growing, positive SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease, unresectable with clinically significant tumor burden or evidence of disease progression",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine/Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "PO/IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": "<55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Pembrolizumab - for WDG3 Favorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, favorable biology (Ki-67 <55%, slow-growing, positive SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease, unresectable with clinically significant tumor burden or evidence of disease progression",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Microsatellite instability-high",
+                    "mandatory": false
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Mismatch repair deficient",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden-high (>=10 mut/Mb), as determined by an FDA-approved test",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Pembrolizumab can be considered for patients with MSI-H, dMMR, or advanced TMB-H tumors (>=10 mut/Mb) that have progressed following prior treatment and have no satisfactory alternative treatment options [30,31,370,371]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Capecitabine/Temozolomide - for WDG3 Unfavorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, unfavorable biology (Ki-67 >=55%, faster-growing, negative SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine/Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": ">=55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer. Temozolomide, with or without capecitabine, may have more activity in tumors arising in the pancreas compared to GI NETs [29]."
+        },
+        {
+            "regimen_name": "Temozolomide - for WDG3 Unfavorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, unfavorable biology (Ki-67 >=55%, faster-growing, negative SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": ">=55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Temozolomide, with or without capecitabine, may have more activity in tumors arising in the pancreas compared to GI NETs [29]. For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Irinotecan-based therapy (eg, Cisplatin/Irinotecan, FOLFIRI)",
+            "site": "Well-Differentiated Grade 3 NETs, unfavorable biology (Ki-67 >=55%, faster-growing, negative SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin/Irinotecan",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "FOLFIRI (Leucovorin/Fluorouracil/Irinotecan)",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Ki-67",
+                    "requirement": ">=55%",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Irinotecan-based therapy extrapolated from NEC data [377,379-382]. For information regarding UGT1A1 testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab - for WDG3 Unfavorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, unfavorable biology (Ki-67 >=55%, faster-growing, negative SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "DART SWOG S1609",
+                "phase": "II",
+                "n_patients": null,
+                "os": "Median OS 14.8 months [384]; Median OS 8.7 months [386]; Median OS 5.8 months nivolumab/ipilimumab vs 7.2 months nivolumab (NIPINEC study)",
+                "pfs": "Median PFS 4.8 months [384]; 6-month PFS 32% [386]; Median PFS 1.9 months nivolumab/ipilimumab vs 1.8 months nivolumab (NIPINEC study)",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "44% in non-pancreatic high-grade NECs [385]; 26% in additional cohort [386]; 24% in CA209-538 [384]; 14.9% in NIPINEC vs 7.2% nivolumab",
+                "notes": "Category 2B. Some studies assessing this combination did not distinguish between G3 NETs and NECs [383-386]. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab [NE-G 5]."
+            },
+            "notes": "Category 2B. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Pembrolizumab - for WDG3 Unfavorable Biology",
+            "site": "Well-Differentiated Grade 3 NETs, unfavorable biology (Ki-67 >=55%, faster-growing, negative SSTR-based PET imaging)",
+            "setting": "Locally advanced/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Microsatellite instability-high",
+                    "mandatory": false
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Mismatch repair deficient",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden-high (>=10 mut/Mb), as determined by an FDA-approved test",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Pembrolizumab can be considered for patients with MSI-H, dMMR, or advanced TMB-H tumors (>=10 mut/Mb) that have progressed following prior treatment and have no satisfactory alternative treatment options [30,31,370,371]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Carboplatin/etoposide and cisplatin/etoposide are most commonly used in first-line therapy [393]. For locoregional unresectable disease, concurrent chemoradiation with carboplatin/etoposide or cisplatin/etoposide is recommended. There are no comparative data to define optimal treatment after first-line systemic therapy [NE-G 6]."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "TOPIC-NEC",
+                "phase": "III",
+                "n_patients": null,
+                "os": "Median OS 12.5 months etoposide/cisplatin vs 10.9 months irinotecan/cisplatin (HR 1.04; P=.80) [380]",
+                "pfs": "Median PFS 5.6 months etoposide/cisplatin vs 5.1 months irinotecan/cisplatin (HR 1.06; P=.80) [380]",
+                "hr": "1.04",
+                "ci": null,
+                "p_value": ".80",
+                "or": null,
+                "notes": "Randomized trial comparing etoposide/cisplatin vs irinotecan/cisplatin in advanced NECs of the digestive system [380]. Grade 3 and 4 adverse events occurred more frequently with etoposide plus cisplatin."
+            },
+            "notes": "Cisplatin/etoposide and cisplatin/irinotecan showed comparable efficacy in TOPIC-NEC trial [380]. There are no comparative data to define optimal treatment after first-line systemic therapy [NE-G 6]."
+        },
+        {
+            "regimen_name": "Cisplatin/Irinotecan - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "TOPIC-NEC",
+                "phase": "III",
+                "n_patients": null,
+                "os": "Median OS 10.9 months irinotecan/cisplatin vs 12.5 months etoposide/cisplatin (HR 1.04; P=.80) [380]",
+                "pfs": "Median PFS 5.1 months irinotecan/cisplatin vs 5.6 months etoposide/cisplatin (HR 1.06; P=.80) [380]",
+                "hr": "1.06",
+                "ci": null,
+                "p_value": ".80",
+                "or": null,
+                "notes": "Comparable efficacy to etoposide/cisplatin in TOPIC-NEC trial [380]."
+            },
+            "notes": "For information regarding UGT1A1 testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Capecitabine/Temozolomide - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine/Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "FOLFIRI (Leucovorin/Fluorouracil/Irinotecan) - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD and UGT1A1 testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "FOLFOX - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin/Fluorouracil/Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Temozolomide - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Resectable, locoregional unresectable, or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "For information regarding DPYD testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "FOLFIRINOX (Leucovorin/Fluorouracil/Irinotecan/Oxaliplatin) - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Locoregional unresectable or metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin/Fluorouracil/Irinotecan/Oxaliplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective",
+                "n_patients": "35",
+                "os": "Median OS 20.6 months (95% CI 17.2-30.6 months) [377]",
+                "pfs": "Median PFS 12 months (95% CI 9.2-16.2 months) [377]",
+                "hr": null,
+                "ci": "95% CI 17.2-30.6 months OS; 95% CI 9.2-16.2 months PFS",
+                "p_value": null,
+                "or": "77% objective response (79% in 14 patients with Ki-67 <55%) [377]",
+                "notes": "Only 2 out of 35 patients had grade 3 NETs [377]."
+            },
+            "notes": "For information regarding DPYD and UGT1A1 testing, see the NCCN Guidelines for Colon Cancer."
+        },
+        {
+            "regimen_name": "Carboplatin/Irinotecan - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Carboplatin/irinotecan has potential utility in NECs [377,381,382]."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease with progression following chemotherapy",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "DART SWOG S1609",
+                "phase": "II",
+                "n_patients": null,
+                "os": "Median OS 14.8 months [384]; Median OS 8.7 months [386]",
+                "pfs": "Median PFS 4.8 months [384]; Median PFS 2.0 months [386]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "44% in non-pancreatic high-grade NECs [385]; 26% in additional cohort (median Ki-67 80%) [386]; 24% in CA209-538 [384]",
+                "notes": "Combination of ipilimumab and nivolumab is an option for metastatic disease if the disease progresses following chemotherapy [384-386,400]."
+            },
+            "notes": "Category 2B. Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Pembrolizumab - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "MSI-H",
+                    "requirement": "Microsatellite instability-high",
+                    "mandatory": false
+                },
+                {
+                    "marker": "dMMR",
+                    "requirement": "Mismatch repair deficient",
+                    "mandatory": false
+                },
+                {
+                    "marker": "TMB-H",
+                    "requirement": "Tumor mutational burden-high (>=10 mut/Mb), as determined by an FDA-approved test",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Pembrolizumab can be considered for patients with MSI-H, dMMR, or advanced TMB-H tumors (>=10 mut/Mb) that have progressed following prior treatment and have no satisfactory alternative treatment options [30,31,370,371,402]. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Mutation-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Dabrafenib + trametinib can be considered for patients with BRAF V600E mutation-positive tumors that have progressed following prior treatment and have no satisfactory alternative treatment options [38,403]."
+        },
+        {
+            "regimen_name": "Entrectinib - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Fusion-positive, without a known acquired resistance mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Entrectinib can be considered for patients with NTRK gene fusion-positive tumors without a known acquired resistance mutation, that are metastatic or where surgical resection is likely to result in severe morbidity, and that have no satisfactory alternative treatments or that have progressed following treatment [39,404,405]."
+        },
+        {
+            "regimen_name": "Larotrectinib - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Fusion-positive, without a known acquired resistance mutation",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Larotrectinib can be considered for patients with NTRK gene fusion-positive tumors without a known acquired resistance mutation, that are metastatic or where surgical resection is likely to result in severe morbidity, and that have no satisfactory alternative treatments or that have progressed following treatment [39,406]."
+        },
+        {
+            "regimen_name": "Repotrectinib - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Repotrectinib can also be considered for patients with NTRK gene fusion-positive tumors that progressed on a prior NTRK-targeted treatment [42,407]."
+        },
+        {
+            "regimen_name": "Selpercatinib - for Extrapulmonary PDNEC",
+            "site": "Extrapulmonary Poorly Differentiated: Neuroendocrine Carcinoma/Large or Small Cell Carcinoma/Mixed Neuroendocrine-Non-Neuroendocrine Neoplasm",
+            "setting": "Metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Selpercatinib can be considered for patients with RET gene fusion-positive tumors that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options [43,408]."
+        },
+        {
+            "regimen_name": "Belzutifan - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "LITESPARK-015 (Cohort A1)",
+                "phase": "II",
+                "n_patients": "60",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": "26% (95% CI 17%-38%)",
+                "p_value": null,
+                "notes": "Median duration of response 20.4 months (95% CI 8.3 months-not reached). 32% of 60 patients taking baseline antihypertensive agents experienced a decrease of >=50% in at least one antihypertensive agent [44,460]."
+            },
+            "notes": "Belzutifan was approved by the FDA in 2025 for the treatment of pheochromocytoma or paraganglioma [460]."
+        },
+        {
+            "regimen_name": "Cabozantinib - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Natalie",
+                "phase": "II",
+                "n_patients": "17",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": "25.0% (95% CI 7.3%-52.4%) achieved primary endpoint of overall response",
+                "p_value": null,
+                "notes": "Single-arm phase II trial in patients with progressive and unresectable metastatic PCC or PGL [45,461]."
+            },
+            "notes": ""
+        },
+        {
+            "regimen_name": "Sunitinib 37.5 mg daily - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "37.5 mg",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "FIRSTMAPPP",
+                "phase": "II (randomized, double-blind)",
+                "n_patients": null,
+                "os": "Median OS 26.1 months sunitinib vs 49.5 months placebo",
+                "pfs": "Median PFS 8.9 months sunitinib vs 3.6 months placebo; 12-month PFS rate 36% sunitinib vs 19% placebo",
+                "hr": null,
+                "ci": "12-month PFS: 90% CI 23%-50% sunitinib; 90% CI 11%-31% placebo",
+                "p_value": null,
+                "or": "36.1% sunitinib vs 8.3% placebo",
+                "notes": "Academic, multicentre, international, randomised, placebo-controlled, double-blind, phase 2 trial [46,466]. Sunitinib was also evaluated in the nonrandomized SUTNET clinical trial (12-month PFS rate 53.4%; median PFS 14.1 months; ORR 15.6%; median OS 49 months) [476]."
+            },
+            "notes": ""
+        },
+        {
+            "regimen_name": "CVD (Cyclophosphamide/Vincristine/Dacarbazine) - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Dacarbazine",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective (long-term follow-up)",
+                "n_patients": "18",
+                "os": "Response median survival 6.4 years vs non-responders 3.7 years [468]",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": "11% CR, 44% PR in long-term follow-up of 18 patients [478]",
+                "notes": "Long-term follow-up of 18 patients with metastatic PCCs or PGLs treated with CVD showed 11% CR, 44% PR [478]."
+            },
+            "notes": "Systemic chemotherapy including CVD or temozolomide is an option for patients with locally unresectable or distant metastatic secreting tumors."
+        },
+        {
+            "regimen_name": "Temozolomide - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Temozolomide has demonstrated efficacy in patients with PCCs or PGLs, especially in those with the SDHB mutation (although this finding needs to be validated) [469,479]. A randomized study of temozolomide with or without a PARP inhibitor is ongoing (NCT04394858)."
+        },
+        {
+            "regimen_name": "Lutetium Lu 177 dotatate (PRRT) - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "radiolabeled somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 dotatate",
+                    "dose": "200 mCi",
+                    "route": "IV",
+                    "schedule": "Every 8 weeks for a total of 4 treatments"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor uptake greater than normal liver on SSTR-PET/CT or SSTR-PET/MRI",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "Retrospective",
+                "n_patients": "various cohorts",
+                "os": "Median OS 49.6 months [472]; Median OS not reached with median follow-up 28 months [480]; 86% of patients achieved PFS at 6 months with mean PFS 19.1 months (interim analysis) [488]",
+                "pfs": "Median PFS 21.6 months [472]; Median PFS 39 months [480]; Mean PFS 19.1 months (interim analysis) [488]",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": null,
+                "notes": "A retrospective study of 22 patients determined PRRT resulted in improved outcomes (median OS 49.6 months, median PFS 21.6 months) [472]. Patients with Ki-67 <15% had improved OS and PFS [472]. Systematic review/meta-analysis of 201 patients showed ORR 25% (95% CI 19%-32%), disease control rate 84% (95% CI 77%-89%) [481]. Data are limited on use of PRRT in this setting [47,48]."
+            },
+            "notes": "Data are limited on the use of PRRT with lutetium Lu 177 dotatate in PCC/PGL setting. Currently there are no randomized data, but reports of treatment efficacy and favorable outcomes exist [3-10]. Prospective studies ongoing (NCT03206060, NCT06045260, NCT05636618)."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR or Lanreotide - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks. For breakthrough symptoms, octreotide 100-250 mcg SC TID can be considered."
+                },
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks. For breakthrough symptoms, octreotide 100-250 mcg SC TID can be considered."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor SSTR-positive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Phase II study (lanreotide)",
+                "phase": "II",
+                "n_patients": "18",
+                "os": null,
+                "pfs": "15 patients had stable disease at one year, 3 had progressive disease",
+                "hr": null,
+                "ci": null,
+                "p_value": null,
+                "or": null,
+                "notes": "Data about antiproliferative effects of SSAs in SSTR+ tumors are limited and clinical trials are ongoing (NCT03946527) [cc]."
+            },
+            "notes": "Extrapolating from established treatment for other types of functional NETs, use of SSAs for hormone excess and symptom control can be considered. Data about antiproliferative effects of SSAs are limited and clinical trials are ongoing (NCT03946527) [cc]. If injection site-related complications occur, consider switching to another SSA."
+        },
+        {
+            "regimen_name": "Selpercatinib - for Pheochromocytoma/Paraganglioma",
+            "site": "Pheochromocytoma/Paraganglioma",
+            "setting": "Locally unresectable/distant metastases",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Fusion-positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001",
+                "phase": "I/II",
+                "n_patients": "6 PCC patients",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": "PR/CR in 4 of 6 patients; stable disease in 2 patients",
+                "p_value": null,
+                "notes": "Selpercatinib was evaluated in the multicohort phase I/II LIBRETTO-1 study in patients with RET fusions [43,465]. 5 of 6 patients with PCC had MEN2 syndrome."
+            },
+            "notes": "Selpercatinib can be considered for patients with RET gene fusion-positive tumors that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options."
+        },
+        {
+            "regimen_name": "Cisplatin/Etoposide ± Doxorubicin ± Mitotane",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "adrenolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications (optional)"
+                },
+                {
+                    "name": "Mitotane",
+                    "dose": "Per regimen specifications (target levels 14-20 mcg/mL)",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications (optional)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "FIRM-ACT",
+                "phase": "III (randomized controlled)",
+                "n_patients": null,
+                "os": "14.8 months vs 12.0 months (HR 0.79; 95% CI 0.61-1.02; P=.07); crossover: OS 17.1 months etoposide/doxorubicin/cisplatin/mitotane vs 4.7 months streptozocin/mitotane [432]",
+                "pfs": "Median PFS 5.0 months etoposide/doxorubicin/cisplatin/mitotane vs 2.1 months streptozocin/mitotane (HR 0.55; 95% CI 0.43-0.69; P<.001) [432]",
+                "hr": "0.79",
+                "ci": "0.61-1.02",
+                "p_value": ".07",
+                "or": "23.2% etoposide/doxorubicin/cisplatin/mitotane vs 9.2% streptozocin/mitotane (P<.001) [432]",
+                "notes": "Analysis from international randomized controlled phase III FIRM-ACT trial comparing etoposide, doxorubicin, cisplatin, and mitotane vs streptozocin and mitotane with crossover design [432]. Rates of serious adverse events were similar. A study analyzing the combination of mitotane with cisplatin, etoposide, and doxorubicin in 72 patients yielded ORR 49% (WHO criteria) [430]."
+            },
+            "notes": "Monitor Mitotane blood levels. Target levels of 14-20 mcg/mL if tolerated. Steady-state levels may be reached several months after initiation. Life-long hydrocortisone ± fludrocortisone replacement usually required with Mitotane. Mitotane may have more benefit for control of hormone symptoms than control of tumor. Optimal duration is unknown. The role of adjuvant chemotherapy is under investigation [NE-G 8]."
+        },
+        {
+            "regimen_name": "Carboplatin/Etoposide ± Doxorubicin ± Mitotane",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "chemotherapy",
+                "adrenolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "Per regimen specifications",
+                    "route": "IV/PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications (optional)"
+                },
+                {
+                    "name": "Mitotane",
+                    "dose": "Per regimen specifications (target levels 14-20 mcg/mL)",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications (optional)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Monitor Mitotane blood levels. Target levels of 14-20 mcg/mL if tolerated. Steady-state levels may be reached several months after initiation. Life-long hydrocortisone ± fludrocortisone replacement usually required with Mitotane. Mitotane may have more benefit for control of hormone symptoms than control of tumor. Optimal duration is unknown. The role of adjuvant chemotherapy is under investigation [NE-G 8]."
+        },
+        {
+            "regimen_name": "Cabozantinib - for Adrenocortical Carcinoma",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cabozantinib",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II",
+                "n_patients": "18",
+                "os": null,
+                "pfs": "Median PFS 6 months (95% CI 4.3 months-not reached)",
+                "hr": null,
+                "ci": "95% CI 4.3 months-not reached",
+                "p_value": null,
+                "or": "72.2% (95% CI 46.5%-90.3%) achieved PFS at 4 months",
+                "notes": "Single-arm phase II trial [51,433]."
+            },
+            "notes": ""
+        },
+        {
+            "regimen_name": "Mitotane monotherapy",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "adrenolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitotane",
+                    "dose": "Target levels 14-20 mcg/mL",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications; steady-state levels may be reached several months after initiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Monitor Mitotane blood levels. Target levels of 14-20 mcg/mL if tolerated. Steady-state levels may be reached several months after initiation. Life-long hydrocortisone ± fludrocortisone replacement usually required with Mitotane. Mitotane may have more benefit for control of hormone symptoms than control of tumor. PR rates are thought to occur in 10%-30% of patients [429]. Optimal duration is unknown."
+        },
+        {
+            "regimen_name": "Pembrolizumab - for Adrenocortical Carcinoma",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "II",
+                "n_patients": null,
+                "os": "Median OS 24.9 months [434]",
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": "23% ORR [434]; 14% (95% CI 2%-43%) in smaller study [435]; 15% ORR with 54% clinical benefit rate [436]",
+                "p_value": null,
+                "notes": "A small phase II study in patients with advanced ACCs found an ORR of 23% and a disease control rate of 52% [434]."
+            },
+            "notes": "Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Mitotane + Pembrolizumab",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy",
+                "adrenolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitotane",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted for IV pembrolizumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab - for Adrenocortical Carcinoma",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": "Per regimen specifications",
+                    "route": "IV",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "NCI/SWOG S1609 (DART)",
+                "phase": "II",
+                "n_patients": "21 (adrenocortical cohort)",
+                "os": "Median OS 15.8 months (95% CI 6.6-28.9 months)",
+                "pfs": "Median PFS 1.8 months (95% CI 1.7-7.1 months)",
+                "hr": null,
+                "ci": "95% CI 6.6-28.9 months OS; 95% CI 1.7-7.1 months PFS",
+                "p_value": null,
+                "or": "14%",
+                "notes": "Phase II basket trial [437]."
+            },
+            "notes": "Nivolumab and hyaluronidase-nvhy is not approved for concurrent use with IV ipilimumab; however, for nivolumab monotherapy, nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab with different dosing and administration instructions."
+        },
+        {
+            "regimen_name": "Osilodrostat - for Adrenocortical Carcinoma (symptom control)",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Locoregional unresectable/metastatic disease",
+            "treatment_modality": [
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Osilodrostat",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Studies have demonstrated efficacy of osilodrostat in the setting of cortisol excess in states like adrenal adenomas, adrenal carcinomas, and ectopic ACTH syndrome [55,56]."
+        },
+        {
+            "regimen_name": "Adjuvant Mitotane",
+            "site": "Adrenocortical Carcinoma",
+            "setting": "Adjuvant (post-resection, high risk for local recurrence)",
+            "treatment_modality": [
+                "adrenolytic therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Mitotane",
+                    "dose": "Target levels 14-20 mcg/mL",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Consider",
+            "trial_data": {
+                "trial_name": "ADIUVO",
+                "phase": "III",
+                "n_patients": "91",
+                "os": "5-year OS 95% mitotane vs 86% surveillance",
+                "pfs": null,
+                "hr": "0.74",
+                "ci": "0.30-1.85",
+                "or": null,
+                "p_value": null,
+                "notes": "Randomized phase 3 trial of adjuvant mitotane vs surveillance in low to intermediate risk ACC. 5-year RFS 79% mitotane vs 75% surveillance [425]. Study ended early due to slow recruitment."
+            },
+            "notes": "High-risk local recurrence features include positive margins, Ki-67 >10%, rupture of capsule, large size, and high grade. Monitor Mitotane blood levels. Target levels of 14-20 mcg/mL if tolerated. Steady-state levels may be reached several months after initiation. Life-long hydrocortisone ± fludrocortisone replacement usually required with Mitotane. Mitotane may have more benefit for control of hormone symptoms than control of tumor. Optimal duration is unknown. The role of adjuvant chemotherapy is under investigation. Consider enrollment in clinical trial [AGT-5,423,424,425]."
+        },
+        {
+            "regimen_name": "Telotristat ethyl",
+            "site": "GI tract well-differentiated Grade 1/2 NETs (carcinoid syndrome)",
+            "setting": "Refractory diarrhea due to carcinoid syndrome",
+            "treatment_modality": [
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Telotristat ethyl",
+                    "dose": "250 mg",
+                    "route": "PO",
+                    "schedule": "TID"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TELESTAR",
+                "phase": "III",
+                "n_patients": "135",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": null,
+                "p_value": null,
+                "notes": "Multicenter, randomized, double-blind, placebo-controlled phase III trial [220]. Mean BM frequency reductions per day from baseline to week 12: placebo -0.9, telotristat 250 mg -1.7, telotristat 500 mg -2.1. Both telotristat dosages significantly decreased mean urinary 5-HIAA compared to placebo at week 12 (P<.001) [220]. Treatment-related adverse events reported in 45.2% of patients in long-term TELEPATH study [223]."
+            },
+            "notes": "Telotristat ethyl is a small-molecule tryptophan hydroxylase (TPH) inhibitor, which decreases urinary 5-HIAA levels and frequency of bowel movements in patients with carcinoid syndrome. Patients should be evaluated for pancreatic exocrine deficiency and bile acid diarrhea. Symptomatic benefit can sometimes be delayed for several weeks after initiation. Compared to placebo, treatment with telotristat did not result in a statistically significant change in the number of observed flushing episodes [220-223]."
+        },
+        {
+            "regimen_name": "First-line Lutetium Lu 177 dotatate PRRT",
+            "site": "Gastroenteropancreatic NETs (GI tract and Pancreas)",
+            "setting": "First-line for SSTR-positive, Ki-67 >=10%, and clinically significant tumor burden",
+            "treatment_modality": [
+                "radiolabeled somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Lutetium Lu 177 dotatate",
+                    "dose": "200 mCi",
+                    "route": "IV",
+                    "schedule": "Every 8 weeks for a total of 4 treatments, typically along with octreotide acetate LAR or lanreotide"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor uptake greater than normal liver on SSTR-PET/CT or SSTR-PET/MRI",
+                    "mandatory": true
+                },
+                {
+                    "marker": "Ki-67",
+                    "requirement": ">=10%",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NETTER-2",
+                "phase": "III (open-label, randomised)",
+                "n_patients": "226",
+                "os": "OS data not mature at time of analysis",
+                "pfs": "Median PFS 22.8 months (95% CI 19.4 months-not estimated) lutetium Lu 177 dotatate vs 8.5 months (95% CI 7.7-13.8 months) control arm",
+                "hr": null,
+                "ci": "95% CI 19.4 months-not estimated; 95% CI 7.7-13.8 months control",
+                "p_value": "<.0001",
+                "or": null,
+                "notes": "Enrolled patients with advanced high-risk SSTR+ GEP-NET (Ki-67 index 10%-55%) in the first-line setting [4,166]. Median Ki-67 index was 16% (range 12%-25%), 65% had G2 disease, 46% had GI primary, 54% had PanNET. Consistent benefit across all subgroups including G2 vs G3 and pancreas vs non-pancreas vs small intestine primary [166]. One case of myelodysplasia was noted in lutetium Lu 177 dotatate plus octreotide LAR group."
+            },
+            "notes": "First-line PRRT (typically along with octreotide acetate LAR or lanreotide) can be considered in patients with advanced GEP-NETs with Ki-67 10%-55% [NE-J]. In the absence of a clear survival benefit and long-term safety data, the use of lutetium Lu 177 dotatate plus octreotide LAR or lanreotide in the first-line setting should be individualized."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR or Lanreotide - for Carcinoid Syndrome",
+            "site": "GI tract well-differentiated Grade 1/2 NETs (carcinoid syndrome)",
+            "setting": "Symptom control for carcinoid syndrome",
+            "treatment_modality": [
+                "somatostatin analog",
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks. Higher doses have been shown to be safe. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID."
+                },
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks. Higher doses have been shown to be safe. For breakthrough symptoms, short-acting octreotide 100-250 mcg SC TID."
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ELECT",
+                "phase": "III (randomized, double-blind, placebo-controlled)",
+                "n_patients": "115",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": null,
+                "p_value": ".017",
+                "notes": "Lanreotide arm required less frequent short-acting octreotide (33.7% vs 48.5%; P=.017) [216]. Improvement in symptom control irrespective of prior octreotide use [216,217]."
+            },
+            "notes": "Therapeutic levels of octreotide would not be expected to be reached for 10-14 days after LAR injection. Short-acting SC octreotide PRN can help address suboptimal symptom control quickly. For patients with carcinoid syndrome, an echocardiogram should be performed every 1-3 years or as clinically indicated for patients without CHD, and at least annually for patients with established CHD [NET-14,225-227]."
+        },
+        {
+            "regimen_name": "Diazoxide + Everolimus + diet",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs (Insulinoma)",
+            "setting": "Preoperative/symptom management",
+            "treatment_modality": [
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Diazoxide",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                },
+                {
+                    "name": "Everolimus",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": null,
+            "notes": "For insulinomas, stabilize glucose levels with diet (complex carbohydrates) and/or diazoxide or everolimus [264-266,285]. The hyperglycemia associated with everolimus can be leveraged to stabilize glucose levels in patients with insulinomas [285]. Octreotide acetate LAR or lanreotide can be considered but only if tumor expresses SSTRs. In the absence of SSTRs, octreotide acetate LAR or lanreotide can profoundly worsen hypoglycemia [263,283,284]."
+        },
+        {
+            "regimen_name": "High-dose PPIs ± Octreotide acetate LAR or Lanreotide",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs (Gastrinoma)",
+            "setting": "Locoregional disease, management of gastric hypersecretion and hormone symptoms",
+            "treatment_modality": [
+                "symptom control",
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Proton pump inhibitors (PPIs)",
+                    "dose": "High-dose",
+                    "route": "PO",
+                    "schedule": "Generally given two times a day"
+                },
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks"
+                },
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": null,
+            "notes": "Manage gastric hypersecretion with high-dose PPIs, generally given two times a day. Consider octreotide acetate LAR or lanreotide for additional hormone symptom control [NE-K 3]. Short-acting octreotide can be added for rapid relief of symptoms or for breakthrough symptoms."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR or Lanreotide - for VIPoma",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs (VIPoma)",
+            "setting": "Locoregional disease, management of hormone symptoms",
+            "treatment_modality": [
+                "somatostatin analog",
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks"
+                },
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": null,
+            "notes": "Octreotide acetate LAR or lanreotide are the first-line management for control of hormone symptoms in VIPoma. Correct electrolyte imbalance (K+, Mg2+, HCO3-) and dehydration. Corticosteroids can be effective in patients with SSTR-refractory disease [NE-K 3]. Short-acting octreotide can be added for rapid relief of symptoms or for breakthrough symptoms."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR or Lanreotide + diabetes management",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs (Glucagonoma)",
+            "setting": "Locoregional disease, management of hormone symptoms",
+            "treatment_modality": [
+                "somatostatin analog",
+                "symptom control"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR",
+                    "dose": "20-30 mg",
+                    "route": "IM",
+                    "schedule": "Every 4 weeks"
+                },
+                {
+                    "name": "Lanreotide",
+                    "dose": "120 mg",
+                    "route": "SC",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Recommended",
+            "trial_data": null,
+            "notes": "Octreotide acetate LAR or lanreotide are the first-line management for control of hormone symptoms in glucagonoma. Treat hyperglycemia and diabetes, as appropriate [NE-K 3]. Short-acting octreotide can be added for rapid relief of symptoms or for breakthrough symptoms."
+        },
+        {
+            "regimen_name": "Belzutifan - for VHL-associated PanNET",
+            "site": "Pancreas well-differentiated Grade 1/2 NETs (VHL syndrome)",
+            "setting": "Resectable or progressive PanNET in setting of germline VHL alteration",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Belzutifan",
+                    "dose": "Per regimen specifications",
+                    "route": "PO",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "VHL germline alteration",
+                    "requirement": "Germline VHL alteration",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "LITESPARK-004",
+                "phase": "II",
+                "n_patients": "22 patients with PanNET (61 total in study)",
+                "os": null,
+                "pfs": null,
+                "hr": null,
+                "ci": null,
+                "or": "91% in 22 patients with PanNET; 14% achieved CR (follow-up report after median 37.8 months confirmed 91% ORR, CR in 7/22 [32%]) [261,262]",
+                "p_value": null,
+                "notes": "Median time to response 5.5 months (range 2.5-16.4 months), median duration of response not reached [261]. Decision to use belzutifan in small resectable tumors needs to be individualized. Data for use for larger tumors, locally advanced, and distant disease are extremely limited. Clinical trials ongoing (NCT04924075). Most common grade 3 adverse events were anemia (8%), hypertension (8%), and fatigue (5%) [262]."
+            },
+            "notes": "Belzutifan is an oral HIF2α inhibitor approved in 2021 for VHL disease-associated tumors including PanNETs [261,262]. Data for the use of belzutifan for larger tumors, locally advanced unresectable tumors, and distant disease are extremely limited. Clinical trials are ongoing (NCT04924075)."
+        },
+        {
+            "regimen_name": "SSTR-directed systemic therapy (excluding PRRT) - for SSTR-Negative Disease",
+            "site": "SSTR-Negative Disease of Well-Differentiated Grade 1/2 NETs",
+            "setting": "Locoregional advanced and/or distant metastatic disease",
+            "treatment_modality": [
+                "varies based on tumor type"
+            ],
+            "drugs": [
+                {
+                    "name": "Systemic therapy based on tumor type (excluding PRRT)",
+                    "dose": "Per regimen specifications based on tumor type",
+                    "route": "Per regimen specifications",
+                    "schedule": "Per regimen specifications"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR negativity",
+                    "requirement": "Insufficient uptake on SSTR-based imaging (lower than liver, Krenning score 0-2)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Treatment approach",
+            "trial_data": null,
+            "notes": "SSTR-negative refers to tumors that show insufficient uptake on SSTR-based imaging (lower than liver, Krenning score 0-2). SSTR-negative disease and mixed SSTR-positive/negative disease is more common with higher grade (G3) disease and atypical lung carcinoid. Consider use of SSAs in patients with SSTR-negative disease and non-functional tumors. Close follow-up (eg, restaging scans every 3-6 months) is recommended for patients with SSTR-negative disease who are treated with SSAs [SSTRNEG-1,286]. PRRT can be considered for mixed SSTR-positive/negative disease but might not work as well as for homogeneous SSTR-positive disease."
+        },
+        {
+            "regimen_name": "Octreotide acetate LAR or Lanreotide (above-label dosing)",
+            "site": "GI tract, Lung/Thymus, and Pancreas well-differentiated Grade 1/2 NETs",
+            "setting": "Disease progression on standard SSA doses, SSTR-positive",
+            "treatment_modality": [
+                "somatostatin analog"
+            ],
+            "drugs": [
+                {
+                    "name": "Octreotide acetate LAR (above-label)",
+                    "dose": "Up to 60 mg",
+                    "route": "IM",
+                    "schedule": "Once a month"
+                },
+                {
+                    "name": "Lanreotide (above-label)",
+                    "dose": "Up to 120 mg",
+                    "route": "SC",
+                    "schedule": "Every 14 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SSTR positivity",
+                    "requirement": "Tumor SSTR-positive",
+                    "mandatory": false
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "CLARINET FORTE",
+                "phase": "II",
+                "n_patients": null,
+                "os": null,
+                "pfs": "Median PFS 8.3 months (95% CI 5.6-11.1) midgut NETs with lanreotide 120 mg every 14 days; Median PFS 5.6 months (95% CI 5.5-8.3) PanNETs with lanreotide 120 mg every 14 days [162]",
+                "hr": null,
+                "ci": "95% CI 5.6-11.1 midgut; 95% CI 5.5-8.3 PanNETs",
+                "p_value": null,
+                "or": null,
+                "notes": "NETTER-1 and NETTER-2 control arms used octreotide LAR 60 mg/month [164-166]. Above-label dosing is feasible and may provide benefit [162,165,166]."
+            },
+            "notes": "After clinical, symptomatic, or radiographic progression on standard SSA doses, for symptom and/or tumor control, above-label dosing octreotide LAR (up to 60 mg once a month) or lanreotide (up to 120 mg every 14 days) may be useful in select cases [162,165,166]. The Panel notes that most studies assessing high-dose SSAs have focused on patients with low-risk tumors [162,164,165]."
+        }
+    ],
+    "references": {},
+    "generated": "2026-07-18T17:01:00.453034"
+}
