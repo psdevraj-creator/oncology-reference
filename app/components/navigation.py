@@ -17,11 +17,12 @@ def sidebar_nav(sections: list[dict], active_section: str = "") -> dbc.Nav:
     for sec in sections:
         is_active = sec.get("id") == active_section
         nav_items.append(
-            dbc.NavLink(
-                sec.get("label", sec.get("id", "")),
-                href=f"#{sec.get('id', '')}",
-                active=is_active,
-                className="sidebar-link",
+            dbc.NavItem(
+                html.A(
+                    sec.get("label", sec.get("id", "")),
+                    href=f"#{sec.get('id', '')}",
+                    className=f"sidebar-link nav-link {'active' if is_active else ''}",
+                )
             )
         )
     return dbc.Nav(nav_items, vertical=True, pills=True, className="sidebar-nav flex-column")
