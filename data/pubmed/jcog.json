@@ -1,0 +1,13 @@
+{
+  "pmid": "42200782",
+  "title": "2D-JCOG: Transforming 1D 1H NMR Spectra into J-&#x3b4; Correlation Maps via the Shared Splitting Theorem and Graph Neural Networks.",
+  "abstract": "Scalar coupling constants and their associated coupling networks encode essential structural information in 1 H NMR spectra, yet their automated extraction remains challenging. Traditional multiplet analysis relies on first-order approximations that fail under spectral congestion, impurities, or strong coupling conditions, while iterative quantum-mechanical (QM) methods require precise initial estimates and often suffer from convergence issues. We present 2D-JCOG (J-COrrelation via Graph neural networks), a deep learning framework that transforms 1D 1 H NMR peak lists into 2D J-&#x3b4; correlation maps revealing the coupling topology. The method is grounded in the Shared Splitting Theorem (SST), which establishes that coupled multiplets must share at least one common splitting regardless of coupling strength. This physical invariant provides the inductive bias for a heterogeneous Graph Neural Network architecture where splitting candidates are represented as nodes connected by SST-based similarity edges. The network employs a hybrid message-passing strategy: transformer-style attention layers with physics-aware edge weighting validate SST partnerships by learning to gate connections based on quantum mechanical consistency features, while mean-aggregation layers aggregate hierarchical context from multiplet regions. Training on QM-simulated spectra with exact ground truth, the model achieves 92-96% recall and 82-91% precision across varying spectral complexity levels. Validation on experimental spectra from the GISSMO database demonstrates 91.9% recall with a mean J-value error of 0.113 Hz. 2D-JCOG provides a robust alternative to classical multiplet analysis, extending applicability to moderately coupled systems, where first-order rules break down. While not intended to replace iterative QM methods for severely strongly coupled spin systems, it offers automated J-coupling extraction with direct visualization of coupling connectivity for routine spectral analysis.",
+  "journal": "Anal Chem",
+  "year": "2026",
+  "authors": [
+    "Cobas C"
+  ],
+  "doi": "10.1021/acs.analchem.6c00383",
+  "query_date": "2026-07-18T20:49:53.135913",
+  "trial_name": "JCOG"
+}

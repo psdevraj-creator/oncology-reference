@@ -1,0 +1,17 @@
+{
+  "pmid": "41706811",
+  "title": "Multi-strategy remora optimization algorithm for color multi-threshold image segmentation.",
+  "abstract": "Image segmentation is a fundamental step in image processing, yet determining the optimal thresholds for multi-threshold segmentation remains a computationally challenging task as the search space expands exponentially with the number of thresholds. To effectively address this issue, this paper proposes a Multi-Strategy Remora Optimization Algorithm (MSROA) designed for efficient color image segmentation. MSROA improves upon the standard algorithm by integrating a Beta random restart strategy with a \"prior\" property to prevent stagnation in local optima, alongside a random walk with fast predation and an elite learning strategy to enhance convergence speed and solution accuracy. The optimization performance of MSROA was rigorously evaluated on the CEC2017 and CEC2020 benchmark test suites. Wilcoxon rank-sum tests confirmed that MSROA achieves statistically significant improvements over seven state-of-the-art comparison algorithms. Furthermore, the algorithm was applied to color image segmentation tasks using Otsu's method and Kapur's entropy as objective functions. Experimental results on standard datasets demonstrate that MSROA not only identifies optimal threshold combinations more accurately but also yields segmented images with superior quality. Quantitative evaluations show that MSROA consistently achieves higher Peak Signal-to-Noise Ratio (PSNR), Feature Similarity Index Measure (FSIM), and Structural Similarity Index Measure (SSIM) values compared to competitors, proving its capability to effectively preserve fine textures and edge details even at high threshold levels. The source code of MSROA is publicly available at https://github.com/wencs666/MSROA.",
+  "journal": "PLoS One",
+  "year": "2026",
+  "authors": [
+    "Jia H",
+    "Wen C",
+    "Rao H",
+    "Abualigah L",
+    "Abdel-Salam M"
+  ],
+  "doi": "10.1371/journal.pone.0342261",
+  "query_date": "2026-07-18T21:03:24.317698",
+  "trial_name": "REMORA"
+}
