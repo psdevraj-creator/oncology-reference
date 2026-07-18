@@ -11,7 +11,7 @@ Usage:
     python sync_and_deploy.py --data-only   # Only sync data, skip git push
     python sync_and_deploy.py --push-only   # Only git push, skip data sync
     python sync_and_deploy.py --dry-run     # Preview what would be synced
-    python sync_and_deploy.py --source "D:\path\to\Oncology topics page"
+    python sync_and_deploy.py --source "C:/Users/.../Oncology topics page"
 """
 
 import argparse
