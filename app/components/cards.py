@@ -11,31 +11,25 @@ def disease_card(site: dict) -> dbc.Col:
     return dbc.Col(
         html.A(
             dbc.Card([
-                html.Div(
-                    className="card-accent-bar",
-                    style={"backgroundColor": accent},
-                ),
+                html.Div(className="card-accent-bar", style={"backgroundColor": accent}),
                 dbc.CardBody([
-                    html.Div([
-                        html.Span(site.get("emoji", ""), className="card-emoji"),
-                        html.Span(site["display_name"], className="card-site-name"),
-                    ], className="card-site-header"),
+                    html.Div(site.get("emoji", ""), className="card-emoji"),
+                    html.H5(site["display_name"], className="card-site-name"),
                     html.P(
-                        desc if desc else f"Clinical reference with {regimens} regimens",
+                        desc if desc else f"{regimens} regimens — clinical reference",
                         className="card-description",
                     ),
                     html.Div([
-                        dbc.Badge(f"{regimens} regimens", color="primary", className="card-badge"),
+                        dbc.Badge(f"{regimens} regimens", color="primary", className="card-badge rounded-pill"),
                         dbc.Badge(
                             f"Type {site.get('archetype', '?')}",
                             color="secondary",
-                            className="card-badge",
+                            className="card-badge rounded-pill",
                         ),
                     ], className="card-badges"),
                 ]),
             ],
                 className="disease-card shadow-sm h-100",
-                style={"borderTop": f"3px solid {accent}"},
             ),
             href=f"/disease/{site_id}",
             className="text-decoration-none",
