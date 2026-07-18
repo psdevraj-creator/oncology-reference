@@ -479,9 +479,16 @@ def _render_systemic_therapy(value: dict) -> list:
     return components
 
 
+_handbook_render_cache: dict[int, list] = {}
+
+
 def render_handbook(handbook: dict[str, Any]) -> list:
     if not handbook:
         return [html.P("No handbook data available for this site.", className="text-muted")]
+
+    cache_key = id(handbook)
+    if cache_key in _handbook_render_cache:
+        return _handbook_render_cache[cache_key]
 
     from app.components.staging_viewer import (
         render_prognosis,
@@ -542,4 +549,5 @@ def render_handbook(handbook: dict[str, Any]) -> list:
             continue
         all_components.append(html.Div(id=key, children=render_section(key, value)))
 
+    _handbook_render_cache[cache_key] = all_components
     return all_components

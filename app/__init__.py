@@ -1,11 +1,10 @@
 import dash
-import dash_bootstrap_components as dbc
 
 
 def create_app() -> dash.Dash:
     app = dash.Dash(
         __name__,
-        external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],
+        external_stylesheets=["/assets/bootstrap.min.css", "/assets/bootstrap-icons.css"],
         suppress_callback_exceptions=True,
         title="Oncology Interactive Handbook",
         update_title=None,

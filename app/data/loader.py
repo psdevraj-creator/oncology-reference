@@ -1,10 +1,30 @@
-import json
+import json as _stdlib_json
 import logging
 import re
 from pathlib import Path
 from typing import Any, Optional
 
 import pandas as pd
+
+try:
+    import orjson
+
+    def _json_loads(data: bytes | str) -> Any:
+        if isinstance(data, str):
+            data = data.encode("utf-8")
+        return orjson.loads(data)
+
+    def _json_load(path: Path) -> Any:
+        return orjson.loads(path.read_bytes())
+except ImportError:
+    def _json_loads(data: bytes | str) -> Any:
+        if isinstance(data, bytes):
+            data = data.decode("utf-8")
+        return _stdlib_json.loads(data)
+
+    def _json_load(path: Path) -> Any:
+        with open(path, encoding="utf-8") as fh:
+            return _stdlib_json.load(fh)
 
 from app.config import SITES_REGISTRY_PATH, MERGED_DATA_DIR, INTERMEDIATE_DATA_DIR
 
@@ -19,17 +39,17 @@ _references: dict[str, dict[str, Any]] = {}
 _pubmed_cache: dict[str, dict[str, Any]] = {}
 
 _loaded = False
+_handbooks_loaded = False
 
 
 def load_all() -> None:
-    global _sites, _sites_by_id, _handbooks, _regimens_df, _all_regimens, _references, _loaded
+    global _sites, _sites_by_id, _regimens_df, _all_regimens, _references, _loaded
 
     if _loaded:
         return
 
     logger.info("Loading site registry from %s", SITES_REGISTRY_PATH)
-    with open(SITES_REGISTRY_PATH, encoding="utf-8") as fh:
-        registry = json.load(fh)
+    registry = _json_load(SITES_REGISTRY_PATH)
 
     _sites = [s for s in registry.get("sites", []) if s.get("status") == "active"]
     _sites_by_id = {s["id"]: s for s in _sites}
@@ -42,9 +62,8 @@ def load_all() -> None:
 
         if merged_path.exists():
             try:
-                with open(merged_path, encoding="utf-8") as fh:
-                    merged = json.load(fh)
-            except (json.JSONDecodeError, OSError) as exc:
+                merged = _json_load(merged_path)
+            except Exception as exc:
                 logger.warning("Skipping merged JSON for %s: %s", site_id, exc)
                 continue
 
@@ -56,23 +75,45 @@ def load_all() -> None:
 
             _references[site_id] = merged.get("references", {})
 
+    _all_regimens = all_regimens
+    _regimens_df = pd.DataFrame(all_regimens) if all_regimens else pd.DataFrame()
+    _loaded = True
+    _load_pubmed_cache()
+    logger.info("Loaded %d regimens, %d pubmed entries", len(all_regimens), len(_pubmed_cache))
+
+
+def _load_handbooks() -> None:
+    global _handbooks, _handbooks_loaded
+    if _handbooks_loaded:
+        return
+    _ensure_loaded()
+
+    for site in _sites:
+        site_id = site["id"]
         inter_dir = INTERMEDIATE_DATA_DIR / site_id
         if inter_dir.exists():
             json_files = sorted(inter_dir.glob("*.json"))
             if json_files:
                 try:
-                    with open(json_files[0], encoding="utf-8") as fh:
-                        inter = json.load(fh)
+                    inter = _json_load(json_files[0])
                     _handbooks[site_id] = inter.get("tier_2_handbook", {})
-                except (json.JSONDecodeError, OSError) as exc:
+                except Exception as exc:
                     logger.warning("Skipping intermediate JSON for %s: %s", site_id, exc)
+    _handbooks_loaded = True
 
-    _all_regimens = all_regimens
-    _regimens_df = pd.DataFrame(all_regimens) if all_regimens else pd.DataFrame()
-    _loaded = True
-    _load_pubmed_cache()
-    logger.info("Loaded %d regimens, %d handbooks, %d pubmed entries",
-                len(all_regimens), len(_handbooks), len(_pubmed_cache))
+
+def _load_single_handbook(site_id: str) -> dict[str, Any]:
+    inter_dir = INTERMEDIATE_DATA_DIR / site_id
+    if not inter_dir.exists():
+        return {}
+    json_files = sorted(inter_dir.glob("*.json"))
+    if not json_files:
+        return {}
+    try:
+        inter = _json_load(json_files[0])
+        return inter.get("tier_2_handbook", {})
+    except Exception:
+        return {}
 
 
 def _load_pubmed_cache() -> None:
@@ -82,8 +123,7 @@ def _load_pubmed_cache() -> None:
         return
     for pf in pubmed_dir.glob("*.json"):
         try:
-            with open(pf, encoding="utf-8") as fh:
-                data = json.load(fh)
+            data = _json_load(pf)
             name = data.get("trial_name", pf.stem)
             _pubmed_cache[_normalize_key(name)] = data
         except Exception:
@@ -111,7 +151,12 @@ def get_site(site_id: str) -> Optional[dict[str, Any]]:
 
 def get_handbook(site_id: str) -> dict[str, Any]:
     _ensure_loaded()
-    return _handbooks.get(site_id, {})
+    if site_id in _handbooks:
+        return _handbooks[site_id]
+    data = _load_single_handbook(site_id)
+    if data:
+        _handbooks[site_id] = data
+    return data
 
 
 def get_regimens_df() -> pd.DataFrame:
