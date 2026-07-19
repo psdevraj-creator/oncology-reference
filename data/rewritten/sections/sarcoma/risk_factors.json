@@ -1,53 +1,47 @@
 {
   "sections": [
     {
-      "heading": "Risk Factors",
-      "content": "[{\"factor\": \"Prior Radiation Therapy\", \"type\": \"Environmental/iatrogenic\", \"detail\": \"Radiation-associated sarcomas are a well-established entity. The risk is cumulative with dose and increases with time since radiation, often developing decades after exposure.\", \"strength\": \"Strong association; a recognized cause of secondary malignancy.\"}, {\"factor\": \"Genetic Cancer Syndromes\", \"type\": \"Hereditary\", \"detail\": \"Germline mutations in several genes confer an increased predisposition to STS. Key syndromes include:\\n- Li-Fraumeni syndrome (germline TP53 mutations): Associated with increased risk of multiple cancers, including STS (12-21% incidence).\\n- Neurofibromatosis type 1 (NF1): Patients are at risk for multiple sarcomas, most notably malignant peripheral nerve sheath tumor (MPNST).\\n- Familial adenomatous polyposis (FAP) / Gardner syndrome (germline APC mutations): Desmoid tumors occur in 7.5% to 16% of patients with FAP.\\n- Hereditary retinoblastoma (germline RB1 mutation): Associated with increased risk of STS, particularly leiomyosarcoma.\\n- Carney-Stratakis syndrome (germline SDH subunit mutations): Predisposes to GIST and paragangliomas.\", \"strength\": \"Strong, well-established genetic predisposition.\"}, {\"factor\": \"Chemical Exposure\", \"type\": \"Environmental\", \"detail\": \"Exposure to certain chemicals, such as herbicides (e.g., Agent Orange) and vinyl chloride, has been associated with an increased risk of hepatic angiosarcoma and other sarcomas.\", \"strength\": \"Moderate to strong, depending on the specific chemical and exposure level.\"}, {\"factor\": \"Chronic Lymphedema\", \"type\": \"Acquired condition\", \"detail\": \"Long-standing lymphedema, particularly post-mastectomy, is a risk factor for lymphangiosarcoma (Stewart-Treves syndrome).\", \"strength\": \"Strong, though rare, association.\"}, {\"factor\": \"Viral Infections\", \"type\": \"Infectious\", \"detail\": \"Human herpesvirus 8 (HHV-8) is causally associated with Kaposi sarcoma, particularly in the setting of immunosuppression (e.g., HIV/AIDS).\", \"strength\": \"Strong, causative association for a specific subtype.\"}]"
+      "heading": "Genetic",
+      "content": "Germline mutations in several genes confer an increased predisposition to STS. Key syndromes include:\n- Li-Fraumeni syndrome (germline TP53 mutations): Associated with increased risk of multiple cancers, including STS (12-21% incidence).\n- Neurofibromatosis type 1 (NF1): Patients are at risk for multiple sarcomas, most notably malignant peripheral nerve sheath tumor (MPNST).\n- Familial adenomatous polyposis (FAP) / Gardner syndrome (germline APC mutations): Desmoid tumors occur in 7.5% to 16% of patients with FAP.\n- Hereditary retinoblastoma (germline RB1 mutation): Associated with increased risk of STS, particularly leiomyosarcoma.\n- Carney-Stratakis syndrome (germline SDH subunit mutations): Predisposes to GIST and paragangliomas."
     }
   ],
-  "waterfall": {
-    "labels": [
-      "Genetic"
-    ],
-    "values": [
-      45
-    ],
-    "types": [
-      "Genetic"
-    ]
-  },
   "cards": [
     {
       "factor": "Prior Radiation Therapy",
-      "type": "Environmental/iatrogenic",
-      "strength": "Strong association; a recognized cause of secondary malignancy.",
+      "type": "Medical",
+      "strength": "High",
       "detail": "Radiation-associated sarcomas are a well-established entity. The risk is cumulative with dose and increases with time since radiation, often developing decades after exposure."
     },
     {
       "factor": "Genetic Cancer Syndromes",
-      "type": "Hereditary",
-      "strength": "Strong, well-established genetic predisposition.",
+      "type": "Genetic",
+      "strength": "High",
       "detail": "Germline mutations in several genes confer an increased predisposition to STS. Key syndromes include:\n- Li-Fraumeni syndrome (germline TP53 mutations): Associated with increased risk of multiple cancers, including STS (12-21% incidence).\n- Neurofibromatosis type 1 (NF1): Patients are at risk for multiple sarcomas, most notably malignant peripheral nerve sheath tumor (MPNST).\n- Familial adenomatous polyposis (FAP) / Gardner syndrome (germline APC mutations): Desmoid tumors occur in 7.5% to 16% of patients with FAP.\n- Hereditary retinoblastoma (germline RB1 mutation): Associated with increased risk of STS, particularly leiomyosarcoma.\n- Carney-Stratakis syndrome (germline SDH subunit mutations): Predisposes to GIST and paragangliomas."
     },
     {
       "factor": "Chemical Exposure",
       "type": "Environmental",
-      "strength": "Moderate to strong, depending on the specific chemical and exposure level.",
+      "strength": "Moderate",
       "detail": "Exposure to certain chemicals, such as herbicides (e.g., Agent Orange) and vinyl chloride, has been associated with an increased risk of hepatic angiosarcoma and other sarcomas."
     },
     {
       "factor": "Chronic Lymphedema",
-      "type": "Acquired condition",
-      "strength": "Strong, though rare, association.",
+      "type": "Medical",
+      "strength": "High",
       "detail": "Long-standing lymphedema, particularly post-mastectomy, is a risk factor for lymphangiosarcoma (Stewart-Treves syndrome)."
     },
     {
       "factor": "Viral Infections",
-      "type": "Infectious",
-      "strength": "Strong, causative association for a specific subtype.",
+      "type": "Environmental",
+      "strength": "High",
       "detail": "Human herpesvirus 8 (HHV-8) is causally associated with Kaposi sarcoma, particularly in the setting of immunosuppression (e.g., HIV/AIDS)."
     }
   ],
+  "waterfall": {
+    "labels": [],
+    "values": [],
+    "types": []
+  },
   "_section": "risk_factors",
   "_site_id": "sarcoma",
   "_chars_in": 2092

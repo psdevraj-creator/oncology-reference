@@ -2,7 +2,7 @@
   "sections": [
     {
       "heading": "Prognosis",
-      "content": "Breast cancer is the most common malignancy in females in the United States and is second only to lung cancer as a cause of cancer death. The American Cancer Society has estimated that 313,510 Americans will be diagnosed with breast cancer and 42,780 will die of disease in the United States in 2024 [1,2]. Prognosis varies significantly by tumor biology (HR status, HER2 expression), stage at diagnosis, and genomic profile. Patients with HR-positive, HER2-negative tumors generally have the most favorable long-term outcomes due to the availability of effective endocrine therapies. Triple-negative breast cancer (TNBC) is associated with the most aggressive clinical course and highest risk of early recurrence. HER2-positive disease, historically associated with poor prognosis, has been transformed by targeted therapies, with median overall survival exceeding 5 years for metastatic disease in the modern treatment era. Achieving pathologic complete response (pCR) to preoperative systemic therapy is associated with favorable disease-free and OS, particularly for TNBC and HER2-positive subtypes [255-257]."
+      "content": "Breast cancer is the most common malignancy in females in the United States and is second only to lung cancer as a cause of cancer death. The American Cancer Society has estimated that 313,510 Americans will be diagnosed with breast cancer and 42,780 will die of disease in the United States in 2024 [1,2]. Prognosis varies significantly by tumor biology (HR status, HER2 expression), stage at diagnosis, and genomic profile. Patients with HR-positive, HER2-negative tumors generally have the most favorable long-term outcomes due to the availability of effective endocrine therapies. Triple-negative breast cancer (TNBC) is associated with the most aggressive clinical course and highest risk of early recurrence. HER2-positive disease, historically associated with poor prognosis, has been transformed by targeted therapies, with median overall survival exceeding 5 years for metastatic disease in the modern treatment era. Achieving pathologic complete response (pCR) to preoperative systemic therapy is associated with favorable disease-free and OS, particularly for TNBC and HER2-positive subtypes [255-257].\n\nStage 0 (DCIS): Near 100% breast cancer-specific survival. Approximately 50% of local recurrences after initial treatment for pure DCIS are invasive in nature, while the remainder recur as pure DCIS. Whole breast RT following BCS reduces ipsilateral breast tumor recurrence (IBTR) rates for all DCIS by 50%-70% [DCIS-1 footnote n].\nStage I-II (cT1-2, cN0-1, M0): 90-99% overall survival for early-stage invasive breast cancer. Multiple randomized trials document that mastectomy is equivalent to BCT (BCS with WBRT) with respect to OS as primary treatment for the majority of patients with stage I and stage II breast cancers (category 1) [113-117].\nStage III (locally advanced): Variable depending on substage and response to preoperative therapy. Preoperative systemic therapy is indicated for inoperable breast cancer including inflammatory breast cancer, bulky cN2 axillary nodes, cN3 nodal disease, and cT4 tumors. Data from numerous studies in patients with stage III disease suggest that postoperative RT improves local control even for patients who have a pCR to neoadjuvant chemotherapy [205-208].\nStage IV (M1) / Recurrent: Median OS ranges from approximately 20-40+ months depending on subtype and line of therapy. The primary treatment approach for metastatic breast cancer with an intact primary tumor is systemic therapy, with consideration of surgery after initial systemic treatment for those requiring palliation. Treatment is guided by tumor biology including HR and HER2 status, genomic profiling, and germline BRCA1/2 status.\n\nThe risk of recurrence between years 5 and 20 is considerable in patients treated with initial 5 years of endocrine therapy [318]. For patients with HR-positive, HER2-negative disease, gene expression assays such as the 21-gene assay (Oncotype DX) provide prognostic information by predicting distant recurrence risk and predictive information regarding chemotherapy benefit. Among patients with pN0, HR-positive, HER2-negative tumors with a recurrence score between 0-10, the risk of distant recurrence is low (<4%) and these patients derive no incremental benefit from adjuvant chemotherapy. Those with a recurrence score ≥31 have a higher risk of distant recurrence and derive significant benefit from adjuvant chemotherapy [286,352,353]. For node-positive disease, the RxPONDER trial demonstrated that premenopausal women with hormone receptor-positive, HER2-negative, node-positive breast cancer and a recurrence score up to 25 benefited from adjuvant chemotherapy, while postmenopausal women did not [358]."
     }
   ],
   "chart": {
@@ -13,42 +13,77 @@
       "IV"
     ],
     "os": [
-      99,
-      85,
-      55,
-      28
+      null,
+      null,
+      null,
+      null
     ]
   },
   "factors": [
     {
-      "factor": "HR status (ER/PR)",
-      "impact": "Favorable",
-      "detail": "Patients with HR-positive, HER2-negative tumors generally have the most favorable long-term outcomes due to the availability of effective endocrine therapies."
+      "factor": "Tumor size (T stage) at diagnosis",
+      "impact": "Variable",
+      "detail": "Tumor size (T stage) at diagnosis"
     },
     {
-      "factor": "Triple-negative breast cancer (TNBC)",
-      "impact": "Unfavorable",
-      "detail": "Triple-negative breast cancer (TNBC) is associated with the most aggressive clinical course and highest risk of early recurrence."
+      "factor": "Regional lymph node involvement (N stage)",
+      "impact": "Variable",
+      "detail": "Regional lymph node involvement (N stage)"
     },
     {
-      "factor": "HER2 status",
-      "impact": "Unfavorable (historically)",
-      "detail": "HER2-positive disease, historically associated with poor prognosis, has been transformed by targeted therapies, with median overall survival exceeding 5 years for metastatic disease in the modern treatment era."
+      "factor": "Histologic grade (Nottingham combined histologic grade: G1-G3)",
+      "impact": "Variable",
+      "detail": "Histologic grade (Nottingham combined histologic grade: G1-G3)"
     },
     {
-      "factor": "Pathologic complete response (pCR)",
-      "impact": "Favorable",
-      "detail": "Achieving pathologic complete response (pCR) to preoperative systemic therapy is associated with favorable disease-free and OS, particularly for TNBC and HER2-positive subtypes [255-257]."
+      "factor": "Estrogen receptor (ER) status",
+      "impact": "Variable",
+      "detail": "Estrogen receptor (ER) status: patients with 1%-100% ER IHC staining are considered ER+ and eligible for endocrine therapies"
     },
     {
-      "factor": "Residual cancer burden (RCB)",
-      "impact": "Favorable (lower burden)",
-      "detail": "Residual cancer burden (RCB) after neoadjuvant chemotherapy, which is prognostic within each breast cancer subtype [275]."
+      "factor": "Progesterone receptor (PR) status",
+      "impact": "Variable",
+      "detail": "Progesterone receptor (PR) status"
     },
     {
-      "factor": "Genomic profile (21-gene recurrence score)",
-      "impact": "Variable (low score favorable, high score unfavorable)",
-      "detail": "For patients with HR-positive, HER2-negative disease, gene expression assays such as the 21-gene assay (Oncotype DX) provide prognostic information by predicting distant recurrence risk and predictive information regarding chemotherapy benefit."
+      "factor": "HER2 (ERBB2) status by IHC and/or ISH",
+      "impact": "Variable",
+      "detail": "HER2 (ERBB2) status by IHC and/or ISH"
+    },
+    {
+      "factor": "Lymphovascular invasion (LVI)",
+      "impact": "Variable",
+      "detail": "Lymphovascular invasion (LVI)"
+    },
+    {
+      "factor": "Age at diagnosis",
+      "impact": "Variable",
+      "detail": "Age at diagnosis"
+    },
+    {
+      "factor": "Menopausal status",
+      "impact": "Variable",
+      "detail": "Menopausal status"
+    },
+    {
+      "factor": "Genomic profile (21-gene recurrence score, 70-gene MammaPrint, others)",
+      "impact": "Variable",
+      "detail": "Genomic profile (21-gene recurrence score, 70-gene MammaPrint, others)"
+    },
+    {
+      "factor": "Germline BRCA1/2 pathogenic variants (approximately 5% of all breast cancer patients carry these)",
+      "impact": "Variable",
+      "detail": "Germline BRCA1/2 pathogenic variants (approximately 5% of all breast cancer patients carry these)"
+    },
+    {
+      "factor": "Pathologic response to preoperative systemic therapy (RCB score)",
+      "impact": "Variable",
+      "detail": "Pathologic response to preoperative systemic therapy (RCB score)"
+    },
+    {
+      "factor": "Residual cancer burden (RCB) after neoadjuvant chemotherapy, which is prognostic within each breast cancer subtype [275]",
+      "impact": "Variable",
+      "detail": "Residual cancer burden (RCB) after neoadjuvant chemotherapy, which is prognostic within each breast cancer subtype [275]"
     }
   ],
   "_section": "prognosis",

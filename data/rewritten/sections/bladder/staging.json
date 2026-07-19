@@ -2,7 +2,7 @@
   "sections": [
     {
       "heading": "TNM",
-      "content": "AJCC Cancer Staging Manual, 8th edition (2017) TNM system for bladder cancer [19].\n\nt_stages: [{\"stage\": \"TX\", \"description\": \"Primary tumor cannot be assessed.\"}, {\"stage\": \"T0\", \"description\": \"No evidence of primary tumor.\"}, {\"stage\": \"Ta\", \"description\": \"Noninvasive papillary carcinoma.\"}, {\"stage\": \"CIS (Tis)\", \"description\": \"Urothelial carcinoma in situ: 'flat tumor'.\"}, {\"stage\": \"T1\", \"description\": \"Tumor invades lamina propria (subepithelial connective tissue).\"}, {\"stage\": \"T2\", \"description\": \"Tumor invades muscularis propria.\"}, {\"stage\": \"T2a\", \"description\": \"Tumor invades superficial muscularis propria (inner half).\"}, {\"stage\": \"T2b\", \"description\": \"Tumor invades deep muscularis propria (outer half).\"}, {\"stage\": \"T3\", \"description\": \"Tumor invades perivesical tissue.\"}, {\"stage\": \"T3a\", \"description\": \"Microscopically.\"}, {\"stage\": \"T3b\", \"description\": \"Macroscopically (extravesical mass).\"}, {\"stage\": \"T4\", \"description\": \"Extravesical tumor directly invades adjacent structures.\"}, {\"stage\": \"T4a\", \"description\": \"Invades prostatic stroma, seminal vesicles, uterus, or vagina.\"}, {\"stage\": \"T4b\", \"description\": \"Invades pelvic wall or abdominal wall.\"}],\n\nn_stages: [{\"stage\": \"NX\", \"description\": \"Regional lymph nodes cannot be assessed.\"}, {\"stage\": \"N0\", \"description\": \"No lymph node metastasis.\"}, {\"stage\": \"N1\", \"description\": \"Single regional lymph node metastasis in the true pelvis (perivesical, obturator, internal and external iliac, or sacral).\"}, {\"stage\": \"N2\", \"description\": \"Multiple regional lymph node metastasis in the true pelvis.\"}, {\"stage\": \"N3\", \"description\": \"Lymph node metastasis to the common iliac lymph nodes.\"}],\n\nm_stages: [{\"stage\": \"M0\", \"description\": \"No distant metastasis.\"}, {\"stage\": \"M1\", \"description\": \"Distant metastasis.\"}, {\"stage\": \"M1a\", \"description\": \"Distant metastasis limited to lymph nodes beyond the common iliacs.\"}, {\"stage\": \"M1b\", \"description\": \"Non-lymph-node distant metastases.\"}],\n\nstage_groups: [{\"group\": \"Stage 0a\", \"criteria\": \"Ta, N0, M0\", \"clinical_meaning\": \"Noninvasive papillary carcinoma confined to the urothelium.\", \"five_yr_survival\": \"Excellent (>90%); treatment intent: curative with intravesical therapy.\", \"treatment_intent\": \"Curative; intravesical therapy and surveillance.\"}, {\"group\": \"Stage 0is\", \"criteria\": \"CIS (Tis), N0, M0\", \"clinical_meaning\": \"Flat high-grade carcinoma in situ.\", \"five_yr_survival\": \"Excellent with treatment; risk of progression if untreated.\", \"treatment_intent\": \"Curative; intravesical BCG.\"}, {\"group\": \"Stage I\", \"criteria\": \"T1, N0, M0\", \"clinical_meaning\": \"Tumor invades lamina propria.\", \"five_yr_survival\": \"~80-90%; risk of progression depends on grade and other features.\", \"treatment_intent\": \"Curative; TURBT ± intravesical therapy; consider cystectomy for high-risk features.\"}, {\"group\": \"Stage II\", \"criteria\": \"T2a or T2b, N0, M0\", \"clinical_meaning\": \"Tumor invades muscularis propria.\", \"five_yr_survival\": \"~50-60%; requires definitive treatment.\", \"treatment_intent\": \"Curative; neoadjuvant chemotherapy followed by cystectomy or bladder-preserving chemoradiation.\"}, {\"group\": \"Stage IIIA\", \"criteria\": \"T3a, T3b, T4a, or T1-T4a with N1, N0, M0\", \"clinical_meaning\": \"Tumor extends into perivesical fat or involves prostate/uterus/vagina, or with single pelvic lymph node metastasis.\", \"five_yr_survival\": \"~30-40%; aggressive multimodal therapy needed.\", \"treatment_intent\": \"Curative intent with neoadjuvant chemotherapy, cystectomy, and/or chemoradiation.\"}, {\"group\": \"Stage IIIB\", \"criteria\": \"T1-T4a, N2 or N3, M0\", \"clinical_meaning\": \"Multiple regional or common iliac lymph node involvement.\", \"five_yr_survival\": \"~15-25%; systemic therapy and consolidation local therapy.\", \"treatment_intent\": \"Curative intent in selected cases with aggressive systemic therapy and local consolidation.\"}, {\"group\": \"Stage IVA\", \"criteria\": \"T4b, any N, M0; or any T, any N, M1a\", \"clinical_meaning\": \"Locally advanced disease fixed to pelvic/abdominal wall or distant lymph node metastases beyond common iliacs.\", \"five_yr_survival\": \"<10%; palliative intent usually.\", \"treatment_intent\": \"Palliative; systemic therapy, possible consolidative local therapy in responders.\"}, {\"group\": \"Stage IVB\", \"criteria\": \"Any T, any N, M1b\", \"clinical_meaning\": \"Distant visceral metastases.\", \"five_yr_survival\": \"<5%; palliative intent.\", \"treatment_intent\": \"Palliative; systemic therapy to prolong survival and maintain quality of life.\"}],\n\nstaging_pearls: [\"Clinical stage (c) is based on EUA, TURBT, and imaging; pathologic stage (p) requires cystectomy and lymph node dissection.\", \"Approximately 42% of patients are upstaged at cystectomy, highlighting the limitations of clinical staging.\", \"pT1 sub-staging may have prognostic value but is not widely utilized.\", \"Presence of lymphovascular invasion, variant histology, and prostatic urethral involvement are high-risk features.\", \"The 8th edition subdiv"
+      "content": "{\"system\": \"AJCC Cancer Staging Manual, 8th edition (2017) TNM system for bladder cancer [19].\", \"t_stages\": [{\"stage\": \"TX\", \"description\": \"Primary tumor cannot be assessed.\"}, {\"stage\": \"T0\", \"description\": \"No evidence of primary tumor.\"}, {\"stage\": \"Ta\", \"description\": \"Noninvasive papillary carcinoma.\"}, {\"stage\": \"CIS (Tis)\", \"description\": \"Urothelial carcinoma in situ: 'flat tumor'.\"}, {\"stage\": \"T1\", \"description\": \"Tumor invades lamina propria (subepithelial connective tissue).\"}, {\"stage\": \"T2\", \"description\": \"Tumor invades muscularis propria.\"}, {\"stage\": \"T2a\", \"description\": \"Tumor invades superficial muscularis propria (inner half).\"}, {\"stage\": \"T2b\", \"description\": \"Tumor invades deep muscularis propria (outer half).\"}, {\"stage\": \"T3\", \"description\": \"Tumor invades perivesical tissue.\"}, {\"stage\": \"T3a\", \"description\": \"Microscopically.\"}, {\"stage\": \"T3b\", \"description\": \"Macroscopically (extravesical mass).\"}, {\"stage\": \"T4\", \"description\": \"Extravesical tumor directly invades adjacent structures.\"}, {\"stage\": \"T4a\", \"description\": \"Invades prostatic stroma, seminal vesicles, uterus, or vagina.\"}, {\"stage\": \"T4b\", \"description\": \"Invades pelvic wall or abdominal wall.\"}], \"n_stages\": [{\"stage\": \"NX\", \"description\": \"Regional lymph nodes cannot be assessed.\"}, {\"stage\": \"N0\", \"description\": \"No lymph node metastasis.\"}, {\"stage\": \"N1\", \"description\": \"Single regional lymph node metastasis in the true pelvis (perivesical, obturator, internal and external iliac, or sacral).\"}, {\"stage\": \"N2\", \"description\": \"Multiple regional lymph node metastasis in the true pelvis.\"}, {\"stage\": \"N3\", \"description\": \"Lymph node metastasis to the common iliac lymph nodes.\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastasis.\"}, {\"stage\": \"M1\", \"description\": \"Distant metastasis.\"}, {\"stage\": \"M1a\", \"description\": \"Distant metastasis limited to lymph nodes beyond the common iliacs.\"}, {\"stage\": \"M1b\", \"description\": \"Non-lymph-node distant metastases.\"}], \"stage_groups\": [{\"group\": \"Stage 0a\", \"criteria\": \"Ta, N0, M0\", \"clinical_meaning\": \"Noninvasive papillary carcinoma confined to the urothelium.\", \"five_yr_survival\": \"Excellent (>90%); treatment intent: curative with intravesical therapy.\", \"treatment_intent\": \"Curative; intravesical therapy and surveillance.\"}, {\"group\": \"Stage 0is\", \"criteria\": \"CIS (Tis), N0, M0\", \"clinical_meaning\": \"Flat high-grade carcinoma in situ.\", \"five_yr_survival\": \"Excellent with treatment; risk of progression if untreated.\", \"treatment_intent\": \"Curative; intravesical BCG.\"}, {\"group\": \"Stage I\", \"criteria\": \"T1, N0, M0\", \"clinical_meaning\": \"Tumor invades lamina propria.\", \"five_yr_survival\": \"~80-90%; risk of progression depends on grade and other features.\", \"treatment_intent\": \"Curative; TURBT ± intravesical therapy; consider cystectomy for high-risk features.\"}, {\"group\": \"Stage II\", \"criteria\": \"T2a or T2b, N0, M0\", \"clinical_meaning\": \"Tumor invades muscularis propria.\", \"five_yr_survival\": \"~50-60%; requires definitive treatment.\", \"treatment_intent\": \"Curative; neoadjuvant chemotherapy followed by cystectomy or bladder-preserving chemoradiation.\"}, {\"group\": \"Stage IIIA\", \"criteria\": \"T3a, T3b, T4a, or T1-T4a with N1, N0, M0\", \"clinical_meaning\": \"Tumor extends into perivesical fat or involves prostate/uterus/vagina, or with single pelvic lymph node metastasis.\", \"five_yr_survival\": \"~30-40%; aggressive multimodal therapy needed.\", \"treatment_intent\": \"Curative intent with neoadjuvant chemotherapy, cystectomy, and/or chemoradiation.\"}, {\"group\": \"Stage IIIB\", \"criteria\": \"T1-T4a, N2 or N3, M0\", \"clinical_meaning\": \"Multiple regional or common iliac lymph node involvement.\", \"five_yr_survival\": \"~15-25%; systemic therapy and consolidation local therapy.\", \"treatment_intent\": \"Curative intent in selected cases with aggressive systemic therapy and local consolidation.\"}, {\"group\": \"Stage IVA\", \"criteria\": \"T4b, any N, M0; or any T, any N, M1a\", \"clinical_meaning\": \"Locally advanced disease fixed to pelvic/abdominal wall or distant lymph node metastases beyond common iliacs.\", \"five_yr_survival\": \"<10%; palliative intent usually.\", \"treatment_intent\": \"Palliative; systemic therapy, possible consolidative local therapy in responders.\"}, {\"group\": \"Stage IVB\", \"criteria\": \"Any T, any N, M1b\", \"clinical_meaning\": \"Distant visceral metastases.\", \"five_yr_survival\": \"<5%; palliative intent.\", \"treatment_intent\": \"Palliative; systemic therapy to prolong survival and maintain quality of life.\"}], \"staging_pearls\": [\"Clinical stage (c) is based on EUA, TURBT, and imaging; pathologic stage (p) requires cystectomy and lymph node dissection.\", \"Approximately 42% of patients are upstaged at cystectomy, highlighting the limitations of clinical staging.\", \"pT1 sub-staging may have prognostic value but is not widely utilized.\", \"Presence of lymphovascular invasion, variant histology, and prostatic urethral involvement are high-risk features.\", \"The 8th edition subdiv"
     }
   ],
   "t_stages": [
@@ -19,7 +19,7 @@
       "description": "Noninvasive papillary carcinoma."
     },
     {
-      "category": "Tis",
+      "category": "CIS (Tis)",
       "description": "Urothelial carcinoma in situ: 'flat tumor'."
     },
     {
@@ -105,49 +105,49 @@
   ],
   "stage_groups": [
     {
-      "stage": "Stage 0a",
+      "stage": "0a",
       "t": "Ta",
       "n": "N0",
       "m": "M0"
     },
     {
-      "stage": "Stage 0is",
-      "t": "Tis",
+      "stage": "0is",
+      "t": "CIS (Tis)",
       "n": "N0",
       "m": "M0"
     },
     {
-      "stage": "Stage I",
+      "stage": "I",
       "t": "T1",
       "n": "N0",
       "m": "M0"
     },
     {
-      "stage": "Stage II",
-      "t": "T2a/T2b",
+      "stage": "II",
+      "t": "T2a or T2b",
       "n": "N0",
       "m": "M0"
     },
     {
-      "stage": "Stage IIIA",
-      "t": "T3a,T3b,T4a,T1-T4a",
-      "n": "N0/N1",
+      "stage": "IIIA",
+      "t": "T3a, T3b, T4a, or T1-T4a",
+      "n": "N1 or N0",
       "m": "M0"
     },
     {
-      "stage": "Stage IIIB",
+      "stage": "IIIB",
       "t": "T1-T4a",
-      "n": "N2/N3",
+      "n": "N2 or N3",
       "m": "M0"
     },
     {
-      "stage": "Stage IVA",
-      "t": "T4b/any T",
+      "stage": "IVA",
+      "t": "T4b or any T",
       "n": "any N",
-      "m": "M0/M1a"
+      "m": "M0 or M1a"
     },
     {
-      "stage": "Stage IVB",
+      "stage": "IVB",
       "t": "any T",
       "n": "any N",
       "m": "M1b"
@@ -155,16 +155,24 @@
   ],
   "chart": {
     "stages": [
+      "0a",
+      "0is",
       "I",
       "II",
-      "III",
-      "IV"
+      "IIIA",
+      "IIIB",
+      "IVA",
+      "IVB"
     ],
     "os": [
-      85,
-      55,
-      30,
-      5
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   "_section": "staging",

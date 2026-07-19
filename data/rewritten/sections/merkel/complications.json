@@ -2,100 +2,159 @@
   "sections": [
     {
       "heading": "Complications",
-      "content": "disease_related: [complication: Locoregional recurrence, management: Up to half of all MCC cases develop locoregional recurrence [14-20]. Median time to recurrence is about 8 to 9 months, with 90% of recurrences occurring within 24 months [17,18,48,138]. Locoregional recurrence is associated with development of distant metastasis and poorer DSS and OS. Treatment options include clinical trial enrollment (preferred), systemic therapy, RT, or surgery [MCC-6]; complication: Distant metastasis, management: Nearly one-third develop distant metastases [8-15]. Most likely sites include distant lymph nodes or skin, bone/bone marrow, lung/pleura, liver, followed by pancreas, adrenal glands, brain, kidneys, subcutaneous tissue, or muscle [16,72,101,102,138,277-279]. Treatment includes systemic therapy, RT, surgery in highly selective circumstances, or best supportive care [MCC-5]; complication: Second primary malignancies, management: Patients with MCC are at higher risk for prior, concurrent, or subsequent second primary malignancies including SCC, BCC, melanoma, CLL, NHLs, lung, breast, and kidney cancers [19,23,35,91,94,97-104]. Skin self-examination education is important [MCC-6]]; treatment_related: {chemotherapy: [Treatment-related adverse events (TRAEs) occurring in 68%-77% of patients receiving systemic therapy, Grade 3 or 4 AEs occurring in 5%-21% with checkpoint immunotherapies, Reported rates of toxic death with chemotherapy between 3% and 10%, with patients who are older being at higher risk [234,277,306], Platinum-based chemotherapy (carboplatin/cisplatin with etoposide) carries risks of nephrotoxicity, myelosuppression, and ototoxicity, CAV regimen (cyclophosphamide, doxorubicin/epirubicin, vincristine) carries risks of cardiotoxicity (doxorubicin) and neurotoxicity (vincristine)], immunotherapy: [Treatment-related adverse events (TRAEs) similar for avelumab, pembrolizumab, and nivolumab with rates of 68%-77%, Grade 3 or 4 AEs occurring in 5%-21%, Immune-related AEs seen in <20% of patients receiving avelumab, all grade 1 or 2 [282-287,293,295-297], Safety profiles for checkpoint immunotherapies are significantly different from cytotoxic therapies; clinician and patient education is critical for safe administration [MCC-D], Ipilimumab + nivolumab: Grade 3 or 4 TRAEs observed in 40% (cohort A) and 32% (cohort B) in the randomized phase 2 trial [291], TRAE incidence higher for combination ipilimumab + nivolumab than nivolumab monotherapy (47% vs 28%) [292], Checkpoint inhibitor-related toxicities require monitoring per NCCN Guidelines for Management of Immunotherapy-Related Toxicities], targeted_therapy: [Pazopanib: No unusual toxicities reported in a case series of 5 patients [319]; generally well tolerated with disease stabilization in 4 patients, Somatostatin analogs (octreotide LAR): Generally well tolerated; disease stabilization achieved in 47% of patients in a phase II study [316]], surgery: [Surgical margins should be balanced with morbidity of surgery to achieve primary tissue closure and avoid undue delay to adjuvant RT [MCC-C], Potential for wound healing complications, especially when close to critical structures (eye, mouth), Reconstruction involving extensive tissue movement should be delayed until negative histologic margins verified and SLNB performed if indicated [MCC-C], SLNB itself carries risks including lymphedema (particularly with groin nodal basin), wound infection, and seroma formation, In-transit disease: Hyperthermic isolated limb infusion/perfusion (HILP) carries procedure-specific risks; complete responses reported in 86% of patients but with rates of locoregional recurrence and distant metastasis [315]], radiation: [Radiation treatments should be given by a practicing radiation oncologist with radiation physics support [MCC-B], Application of bolus over the primary tumor should be considered; use of surface dosimeters recommended to verify delivered dose [MCC-B], Adjuvant RT delays >7 to 8 weeks associated with worse outcomes [240,241], Hypofractionation should be avoided in higher risk patients due to limited data [MCC-B], Caution using multiple fractions >5 Gy/fraction when targets involve cartilage or bone [MCC-B], Lymphedema risk, particularly for patients with existing lymphedema or at high risk (high BMI, groin nodal basin, current smoker) [MCC-B], Skin toxicity (radiation dermatitis) is expected during and after treatment]}"
+      "content": "{\"disease_related\": [{\"complication\": \"Locoregional recurrence\", \"management\": \"Up to half of all MCC cases develop locoregional recurrence [14-20]. Median time to recurrence is about 8 to 9 months, with 90% of recurrences occurring within 24 months [17,18,48,138]. Locoregional recurrence is associated with development of distant metastasis and poorer DSS and OS. Treatment options include clinical trial enrollment (preferred), systemic therapy, RT, or surgery [MCC-6]\"}, {\"complication\": \"Distant metastasis\", \"management\": \"Nearly one-third develop distant metastases [8-15]. Most likely sites include distant lymph nodes or skin, bone/bone marrow, lung/pleura, liver, followed by pancreas, adrenal glands, brain, kidneys, subcutaneous tissue, or muscle [16,72,101,102,138,277-279]. Treatment includes systemic therapy, RT, surgery in highly selective circumstances, or best supportive care [MCC-5]\"}, {\"complication\": \"Second primary malignancies\", \"management\": \"Patients with MCC are at higher risk for prior, concurrent, or subsequent second primary malignancies including SCC, BCC, melanoma, CLL, NHLs, lung, breast, and kidney cancers [19,23,35,91,94,97-104]. Skin self-examination education is important [MCC-6]\"}], \"treatment_related\": {\"chemotherapy\": [\"Treatment-related adverse events (TRAEs) occurring in 68%-77% of patients receiving systemic therapy\", \"Grade 3 or 4 AEs occurring in 5%-21% with checkpoint immunotherapies\", \"Reported rates of toxic death with chemotherapy between 3% and 10%, with patients who are older being at higher risk [234,277,306]\", \"Platinum-based chemotherapy (carboplatin/cisplatin with etoposide) carries risks of nephrotoxicity, myelosuppression, and ototoxicity\", \"CAV regimen (cyclophosphamide, doxorubicin/epirubicin, vincristine) carries risks of cardiotoxicity (doxorubicin) and neurotoxicity (vincristine)\"], \"immunotherapy\": [\"Treatment-related adverse events (TRAEs) similar for avelumab, pembrolizumab, and nivolumab with rates of 68%-77%\", \"Grade 3 or 4 AEs occurring in 5%-21%\", \"Immune-related AEs seen in <20% of patients receiving avelumab, all grade 1 or 2 [282-287,293,295-297]\", \"Safety profiles for checkpoint immunotherapies are significantly different from cytotoxic therapies; clinician and patient education is critical for safe administration [MCC-D]\", \"Ipilimumab + nivolumab: Grade 3 or 4 TRAEs observed in 40% (cohort A) and 32% (cohort B) in the randomized phase 2 trial [291]\", \"TRAE incidence higher for combination ipilimumab + nivolumab than nivolumab monotherapy (47% vs 28%) [292]\", \"Checkpoint inhibitor-related toxicities require monitoring per NCCN Guidelines for Management of Immunotherapy-Related Toxicities\"], \"targeted_therapy\": [\"Pazopanib: No unusual toxicities reported in a case series of 5 patients [319]; generally well tolerated with disease stabilization in 4 patients\", \"Somatostatin analogs (octreotide LAR): Generally well tolerated; disease stabilization achieved in 47% of patients in a phase II study [316]\"], \"surgery\": [\"Surgical margins should be balanced with morbidity of surgery to achieve primary tissue closure and avoid undue delay to adjuvant RT [MCC-C]\", \"Potential for wound healing complications, especially when close to critical structures (eye, mouth)\", \"Reconstruction involving extensive tissue movement should be delayed until negative histologic margins verified and SLNB performed if indicated [MCC-C]\", \"SLNB itself carries risks including lymphedema (particularly with groin nodal basin), wound infection, and seroma formation\", \"In-transit disease: Hyperthermic isolated limb infusion/perfusion (HILP) carries procedure-specific risks; complete responses reported in 86% of patients but with rates of locoregional recurrence and distant metastasis [315]\"], \"radiation\": [\"Radiation treatments should be given by a practicing radiation oncologist with radiation physics support [MCC-B]\", \"Application of bolus over the primary tumor should be considered; use of surface dosimeters recommended to verify delivered dose [MCC-B]\", \"Adjuvant RT delays >7 to 8 weeks associated with worse outcomes [240,241]\", \"Hypofractionation should be avoided in higher risk patients due to limited data [MCC-B]\", \"Caution using multiple fractions >5 Gy/fraction when targets involve cartilage or bone [MCC-B]\", \"Lymphedema risk, particularly for patients with existing lymphedema or at high risk (high BMI, groin nodal basin, current smoker) [MCC-B]\", \"Skin toxicity (radiation dermatitis) is expected during and after treatment\"]}}"
     }
   ],
-  "chart": {
-    "labels": [
-      "Locoregional recurrence",
-      "Distant metastasis",
-      "Systemic therapy TRAEs",
-      "Grade 3/4 AEs with checkpoint immunotherapies",
-      "Toxic death with chemotherapy",
-      "Immune-related AEs with avelumab",
-      "Ipilimumab+nivolumab Grade 3/4 TRAEs",
-      "Combination ipilimumab+nivolumab TRAEs",
-      "Nivolumab monotherapy TRAEs"
-    ],
-    "values": [
-      50,
-      33,
-      77,
-      21,
-      10,
-      20,
-      40,
-      47,
-      28
-    ],
-    "severities": [
-      "severe",
-      "severe",
-      "moderate",
-      "severe",
-      "severe",
-      "mild",
-      "severe",
-      "moderate",
-      "moderate"
-    ]
-  },
   "cards": [
     {
       "name": "Locoregional recurrence",
-      "incidence": "50%",
-      "severity": "severe",
-      "detail": "Up to half of all MCC cases develop locoregional recurrence [14-20]. Median time to recurrence is about 8 to 9 months, with 90% of recurrences occurring within 24 months [17,18,48,138]. Locoregional recurrence is associated with development of distant metastasis and poorer DSS and OS. Treatment options include clinical trial enrollment (preferred), systemic therapy, RT, or surgery [MCC-6]"
+      "detail": "Up to half of all MCC cases develop locoregional recurrence [14-20]. Median time to recurrence is about 8 to 9 months, with 90% of recurrences occurring within 24 months [17,18,48,138]. Locoregional recurrence is associated with development of distant metastasis and poorer DSS and OS. Treatment options include clinical trial enrollment (preferred), systemic therapy, RT, or surgery [MCC-6]",
+      "incidence": null,
+      "severity": "severe"
     },
     {
       "name": "Distant metastasis",
-      "incidence": "33%",
-      "severity": "severe",
-      "detail": "Nearly one-third develop distant metastases [8-15]. Most likely sites include distant lymph nodes or skin, bone/bone marrow, lung/pleura, liver, followed by pancreas, adrenal glands, brain, kidneys, subcutaneous tissue, or muscle [16,72,101,102,138,277-279]. Treatment includes systemic therapy, RT, surgery in highly selective circumstances, or best supportive care [MCC-5]"
+      "detail": "Nearly one-third develop distant metastases [8-15]. Most likely sites include distant lymph nodes or skin, bone/bone marrow, lung/pleura, liver, followed by pancreas, adrenal glands, brain, kidneys, subcutaneous tissue, or muscle [16,72,101,102,138,277-279]. Treatment includes systemic therapy, RT, surgery in highly selective circumstances, or best supportive care [MCC-5]",
+      "incidence": null,
+      "severity": "severe"
     },
     {
-      "name": "Systemic therapy TRAEs",
-      "incidence": "77%",
-      "severity": "moderate",
-      "detail": "Treatment-related adverse events (TRAEs) occurring in 68%-77% of patients receiving systemic therapy"
+      "name": "Second primary malignancies",
+      "detail": "Patients with MCC are at higher risk for prior, concurrent, or subsequent second primary malignancies including SCC, BCC, melanoma, CLL, NHLs, lung, breast, and kidney cancers [19,23,35,91,94,97-104]. Skin self-examination education is important [MCC-6]",
+      "incidence": null,
+      "severity": "moderate"
     },
     {
-      "name": "Grade 3/4 AEs with checkpoint immunotherapies",
-      "incidence": "21%",
-      "severity": "severe",
-      "detail": "Grade 3 or 4 AEs occurring in 5%-21% with checkpoint immunotherapies"
+      "name": "Treatment-related adverse events",
+      "detail": "Treatment-related adverse events (TRAEs) occurring in 68%-77% of patients receiving systemic therapy",
+      "incidence": null,
+      "severity": "moderate"
     },
     {
-      "name": "Toxic death with chemotherapy",
-      "incidence": "10%",
-      "severity": "severe",
-      "detail": "Reported rates of toxic death with chemotherapy between 3% and 10%, with patients who are older being at higher risk [234,277,306]"
+      "name": "Grade 3 or 4 adverse events",
+      "detail": "Grade 3 or 4 AEs occurring in 5%-21% with checkpoint immunotherapies",
+      "incidence": null,
+      "severity": "severe"
     },
     {
-      "name": "Immune-related AEs with avelumab",
-      "incidence": "20%",
-      "severity": "mild",
-      "detail": "Immune-related AEs seen in <20% of patients receiving avelumab, all grade 1 or 2 [282-287,293,295-297]"
+      "name": "Toxic death",
+      "detail": "Reported rates of toxic death with chemotherapy between 3% and 10%, with patients who are older being at higher risk [234,277,306]",
+      "incidence": null,
+      "severity": "severe"
     },
     {
-      "name": "Ipilimumab+nivolumab Grade 3/4 TRAEs",
-      "incidence": "40%",
-      "severity": "severe",
-      "detail": "Ipilimumab + nivolumab: Grade 3 or 4 TRAEs observed in 40% (cohort A) and 32% (cohort B) in the randomized phase 2 trial [291]"
+      "name": "Nephrotoxicity",
+      "detail": "Platinum-based chemotherapy (carboplatin/cisplatin with etoposide) carries risks of nephrotoxicity",
+      "incidence": null,
+      "severity": "moderate"
     },
     {
-      "name": "Combination ipilimumab+nivolumab TRAEs",
-      "incidence": "47%",
-      "severity": "moderate",
-      "detail": "TRAE incidence higher for combination ipilimumab + nivolumab than nivolumab monotherapy (47% vs 28%) [292]"
+      "name": "Myelosuppression",
+      "detail": "Platinum-based chemotherapy (carboplatin/cisplatin with etoposide) carries risks of myelosuppression",
+      "incidence": null,
+      "severity": "moderate"
     },
     {
-      "name": "Nivolumab monotherapy TRAEs",
-      "incidence": "28%",
-      "severity": "moderate",
-      "detail": "TRAE incidence higher for combination ipilimumab + nivolumab than nivolumab monotherapy (47% vs 28%) [292]"
+      "name": "Ototoxicity",
+      "detail": "Platinum-based chemotherapy (carboplatin/cisplatin with etoposide) carries risks of ototoxicity",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Cardiotoxicity",
+      "detail": "CAV regimen (cyclophosphamide, doxorubicin/epirubicin, vincristine) carries risks of cardiotoxicity (doxorubicin)",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Neurotoxicity",
+      "detail": "CAV regimen (cyclophosphamide, doxorubicin/epirubicin, vincristine) carries risks of neurotoxicity (vincristine)",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Treatment-related adverse events (immunotherapy)",
+      "detail": "Treatment-related adverse events (TRAEs) similar for avelumab, pembrolizumab, and nivolumab with rates of 68%-77%",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Grade 3 or 4 adverse events (immunotherapy)",
+      "detail": "Grade 3 or 4 AEs occurring in 5%-21%",
+      "incidence": null,
+      "severity": "severe"
+    },
+    {
+      "name": "Immune-related adverse events",
+      "detail": "Immune-related AEs seen in <20% of patients receiving avelumab, all grade 1 or 2 [282-287,293,295-297]",
+      "incidence": null,
+      "severity": "mild"
+    },
+    {
+      "name": "Grade 3 or 4 TRAEs (ipilimumab+nivolumab)",
+      "detail": "Grade 3 or 4 TRAEs observed in 40% (cohort A) and 32% (cohort B) in the randomized phase 2 trial [291]",
+      "incidence": null,
+      "severity": "severe"
+    },
+    {
+      "name": "TRAEs (combination therapy)",
+      "detail": "TRAE incidence higher for combination ipilimumab + nivolumab than nivolumab monotherapy (47% vs 28%) [292]",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Wound healing complications",
+      "detail": "Potential for wound healing complications, especially when close to critical structures (eye, mouth)",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Lymphedema",
+      "detail": "SLNB itself carries risks including lymphedema (particularly with groin nodal basin)",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Wound infection",
+      "detail": "SLNB itself carries risks including wound infection",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Seroma",
+      "detail": "SLNB itself carries risks including seroma formation",
+      "incidence": null,
+      "severity": "mild"
+    },
+    {
+      "name": "Locoregional recurrence (HILP)",
+      "detail": "In-transit disease: Hyperthermic isolated limb infusion/perfusion (HILP) carries procedure-specific risks; rates of locoregional recurrence and distant metastasis",
+      "incidence": null,
+      "severity": "severe"
+    },
+    {
+      "name": "Distant metastasis (HILP)",
+      "detail": "In-transit disease: Hyperthermic isolated limb infusion/perfusion (HILP) carries procedure-specific risks; rates of locoregional recurrence and distant metastasis",
+      "incidence": null,
+      "severity": "severe"
+    },
+    {
+      "name": "Lymphedema (radiation)",
+      "detail": "Lymphedema risk, particularly for patients with existing lymphedema or at high risk (high BMI, groin nodal basin, current smoker) [MCC-B]",
+      "incidence": null,
+      "severity": "moderate"
+    },
+    {
+      "name": "Radiation dermatitis",
+      "detail": "Skin toxicity (radiation dermatitis) is expected during and after treatment",
+      "incidence": null,
+      "severity": "moderate"
     }
   ],
+  "chart": {
+    "labels": [],
+    "values": []
+  },
   "_section": "complications",
   "_site_id": "merkel",
   "_chars_in": 4542

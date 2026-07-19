@@ -1,29 +1,61 @@
 {
   "sections": [
     {
-      "heading": "Risk Factors",
-      "content": "Tobacco smoking is an established risk factor for RCC development [MS-4].\nObesity is an established risk factor for RCC development [MS-4].\nHypertension is an established risk factor for RCC development [MS-4].\nA family history of RCC may indicate an inherited predisposition, such as a hereditary RCC syndrome [MS-5].\nSeveral hereditary syndromes predispose to RCC, including von Hippel-Lindau (VHL) disease, hereditary leiomyomatosis and renal cell cancer (HLRCC), Birt-Hogg-Dubé syndrome, and others [MS-4, MS-32].\nAlmost exclusively associated with renal medullary carcinoma [MS-30]."
+      "heading": "Genetic",
+      "content": "A family history of RCC may indicate an inherited predisposition, such as a hereditary RCC syndrome [MS-5]. Several hereditary syndromes predispose to RCC, including von Hippel-Lindau (VHL) disease, hereditary leiomyomatosis and renal cell cancer (HLRCC), Birt-Hogg-Dubé syndrome, and others [MS-4, MS-32]. Almost exclusively associated with renal medullary carcinoma [MS-30]."
+    },
+    {
+      "heading": "Lifestyle",
+      "content": "Tobacco smoking is an established risk factor for RCC development [MS-4]. Obesity is an established risk factor for RCC development [MS-4]."
+    },
+    {
+      "heading": "Medical",
+      "content": "Hypertension is an established risk factor for RCC development [MS-4]."
     }
   ],
-  "waterfall": {
-    "labels": [
-      "F"
-    ],
-    "values": [
-      45
-    ],
-    "types": [
-      "Genetic"
-    ]
-  },
   "cards": [
+    {
+      "factor": "Smoking",
+      "type": "Lifestyle",
+      "strength": "High",
+      "detail": "Tobacco smoking is an established risk factor for RCC development [MS-4]."
+    },
+    {
+      "factor": "Obesity",
+      "type": "Lifestyle",
+      "strength": "High",
+      "detail": "Obesity is an established risk factor for RCC development [MS-4]."
+    },
+    {
+      "factor": "Hypertension",
+      "type": "Medical",
+      "strength": "High",
+      "detail": "Hypertension is an established risk factor for RCC development [MS-4]."
+    },
+    {
+      "factor": "Family history of RCC",
+      "type": "Genetic",
+      "strength": "Moderate",
+      "detail": "A family history of RCC may indicate an inherited predisposition, such as a hereditary RCC syndrome [MS-5]."
+    },
     {
       "factor": "Hereditary RCC syndromes",
       "type": "Genetic",
-      "strength": "Strong",
+      "strength": "High",
       "detail": "Several hereditary syndromes predispose to RCC, including von Hippel-Lindau (VHL) disease, hereditary leiomyomatosis and renal cell cancer (HLRCC), Birt-Hogg-Dubé syndrome, and others [MS-4, MS-32]."
+    },
+    {
+      "factor": "Sickle-cell trait or disease",
+      "type": "Genetic",
+      "strength": "High",
+      "detail": "Almost exclusively associated with renal medullary carcinoma [MS-30]."
     }
   ],
+  "waterfall": {
+    "labels": [],
+    "values": [],
+    "types": []
+  },
   "_section": "risk_factors",
   "_site_id": "kidney",
   "_chars_in": 1143

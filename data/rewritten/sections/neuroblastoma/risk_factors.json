@@ -1,65 +1,54 @@
 {
-  "sections": [
-    {
-      "heading": "Risk Factors",
-      "content": "Genetic predisposition: Familial neuroblastoma cases are rare (estimated to be about 1%–2% of all cases) and have been associated with germline gain-of-function ALK mutations and loss-of-function PHOX2B mutations [12-16]. Other genetic syndromes associated with neuroblastoma include Li-Fraumeni syndrome and those caused by mutations in RAS pathway genes (Costello syndrome, Noonan syndrome, neurofibromatosis) [13].\nMYCN amplification: Amplification of the MYCN oncogene is associated with aggressive disease and is the strongest independent prognostic risk factor included in the neuroblastoma risk classification system [47,57,58].\nUnfavorable Histology: Classification as Unfavorable Histology (UH) by the International Neuroblastoma Pathology Classification (INPC) is a key prognostic factor, based on age at diagnosis, grade of neuroblastic differentiation, and mitosis-karyorrhexis index (MKI) [39,40].\nSegmental Chromosomal Aberrations (SCAs): SCAs, such as loss of 1p or 11q and gain of 17q, are associated with inferior outcomes, particularly in MYCN non-amplified tumors [47,59].\nDiploid DNA content (DI = 1): A DNA index (DI) = 1 (diploid) may be associated with aggressive disease, depending on other factors including age [47].\nAdvanced age at diagnosis: Age ≥18 months at diagnosis is associated with high-risk disease, especially for metastatic (Stage M) tumors [47].\nAdvanced stage at diagnosis: Distant metastatic disease (INRG Stage M) is a feature of high-risk neuroblastoma, particularly in patients ≥12 months of age [47]."
-    }
-  ],
-  "waterfall": {
-    "labels": [
-      "F"
-    ],
-    "values": [
-      45
-    ],
-    "types": [
-      "Genetic"
-    ]
-  },
+  "sections": [],
   "cards": [
     {
       "factor": "Genetic predisposition",
       "type": "Genetic",
-      "strength": "Moderate",
+      "strength": "High",
       "detail": "Familial neuroblastoma cases are rare (estimated to be about 1%–2% of all cases) and have been associated with germline gain-of-function ALK mutations and loss-of-function PHOX2B mutations [12-16]. Other genetic syndromes associated with neuroblastoma include Li-Fraumeni syndrome and those caused by mutations in RAS pathway genes (Costello syndrome, Noonan syndrome, neurofibromatosis) [13]."
     },
     {
       "factor": "MYCN amplification",
-      "type": "Molecular",
+      "type": "Genetic",
       "strength": "High",
       "detail": "Amplification of the MYCN oncogene is associated with aggressive disease and is the strongest independent prognostic risk factor included in the neuroblastoma risk classification system [47,57,58]."
     },
     {
       "factor": "Unfavorable Histology",
-      "type": "Pathologic",
+      "type": "Medical",
       "strength": "High",
       "detail": "Classification as Unfavorable Histology (UH) by the International Neuroblastoma Pathology Classification (INPC) is a key prognostic factor, based on age at diagnosis, grade of neuroblastic differentiation, and mitosis-karyorrhexis index (MKI) [39,40]."
     },
     {
       "factor": "Segmental Chromosomal Aberrations (SCAs)",
-      "type": "Genomic",
+      "type": "Genetic",
       "strength": "Moderate",
       "detail": "SCAs, such as loss of 1p or 11q and gain of 17q, are associated with inferior outcomes, particularly in MYCN non-amplified tumors [47,59]."
     },
     {
       "factor": "Diploid DNA content (DI = 1)",
-      "type": "Genomic",
+      "type": "Genetic",
       "strength": "Moderate",
       "detail": "A DNA index (DI) = 1 (diploid) may be associated with aggressive disease, depending on other factors including age [47]."
     },
     {
       "factor": "Advanced age at diagnosis",
-      "type": "Clinical",
+      "type": "Demographic",
       "strength": "High",
       "detail": "Age ≥18 months at diagnosis is associated with high-risk disease, especially for metastatic (Stage M) tumors [47]."
     },
     {
       "factor": "Advanced stage at diagnosis",
-      "type": "Clinical",
+      "type": "Medical",
       "strength": "High",
       "detail": "Distant metastatic disease (INRG Stage M) is a feature of high-risk neuroblastoma, particularly in patients ≥12 months of age [47]."
     }
   ],
+  "waterfall": {
+    "labels": [],
+    "values": [],
+    "types": []
+  },
   "_section": "risk_factors",
   "_site_id": "neuroblastoma",
   "_chars_in": 2212

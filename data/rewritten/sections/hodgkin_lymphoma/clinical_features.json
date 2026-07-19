@@ -47,45 +47,53 @@
       "detail": "Unexplained fever >38°C not attributable to infection",
       "frequency": "Common B symptom; defines B substage",
       "alarm": true
+    },
+    {
+      "name": "Painless lymphadenopathy",
+      "detail": "Most commonly cervical, supraclavicular, or mediastinal; may be firm, non-tender, and matted",
+      "frequency": "Most common presenting sign",
+      "alarm": false
+    },
+    {
+      "name": "Mediastinal mass",
+      "detail": "May be detected on chest radiograph; bulky mediastinal disease defined as MMR >0.33 or MTR >0.35",
+      "frequency": "Present in a significant proportion of early-stage patients",
+      "alarm": false
+    },
+    {
+      "name": "Hepatosplenomegaly",
+      "detail": "Enlargement of liver and/or spleen on physical examination or imaging",
+      "frequency": "Less common at presentation; splenic involvement is an E-lesion for staging",
+      "alarm": false
+    },
+    {
+      "name": "Splenomegaly",
+      "detail": "Splenic involvement classified as E-lesion or stage IIIS depending on pattern",
+      "frequency": "Present in a subset of patients",
+      "alarm": false
     }
   ],
   "alarms": [
     {
-      "name": "Red Flag",
+      "name": "B symptoms",
       "detail": "Unexplained fevers >38°C, drenching night sweats, or weight loss >10% of body weight within 6 months prior to diagnosis"
     },
     {
-      "name": "Red Flag",
+      "name": "Night sweats",
       "detail": "Drenching sweats that may require changing bedding, distinct from mild nocturnal perspiration"
     },
     {
-      "name": "Red Flag",
+      "name": "Weight loss",
       "detail": "Unexplained weight loss >10% of body weight within 6 months of diagnosis"
     },
     {
-      "name": "Red Flag",
+      "name": "Fever",
       "detail": "Unexplained fever >38°C not attributable to infection"
     }
   ],
   "chart": {
-    "labels": [
-      "B symptoms",
-      "Alcohol intolerance",
-      "Pruritus",
-      "Fatigue",
-      "Night sweats",
-      "Weight loss",
-      "Fever"
-    ],
-    "values": [
-      60,
-      30,
-      50,
-      70,
-      80,
-      80,
-      80
-    ]
+    "labels": [],
+    "values": []
   },
   "_section": "clinical_features",
   "_site_id": "hodgkin_lymphoma",

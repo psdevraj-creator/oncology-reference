@@ -57,48 +57,42 @@
     {
       "name": "Hypertension (paroxysmal or sustained)",
       "detail": "PCCs release catecholamines (epinephrine and norepinephrine) and their metabolites metanephrine and normetanephrine, resulting in hypertension, arrhythmia, and/or hyperglycemia. Symptoms include sweating, paroxysmal headache, pallor episodes, and syncope (very rare) [NE-A 2 of 4]. PGLs secrete catecholamines in abo",
-      "frequency": "No numeric frequency provided",
+      "frequency": "Common in pheochromocytomas/paragangliomas; also seen in carcinoid syndrome (less common) and ACTH-producing tumors",
       "alarm": false
     }
   ],
   "alarms": [
     {
-      "name": "Red Flag",
+      "name": "Diarrhea",
       "detail": "Carcinoid syndrome–associated diarrhea is caused by serotonin and other vasoactive peptides. Diarrhea is multifactorial in NET patients and may also be caused by direct side effects from somatostatin analogs (SSAs), pancreatic exocrine insufficiency resulting in steatorrhea, bile malabsorption from ileocecectomy or cholecystectomy, and short-gut syndrome [NE-K]."
     },
     {
-      "name": "Red Flag",
+      "name": "Peptic ulcer disease",
       "detail": "Gastrinomas secrete gastrin, causing recurrent peptic ulcers, dyspepsia, and diarrhea. Approximately 70% of patients with MEN1 and gastrinoma have tumors in the duodenum [244]. Zollinger-Ellison syndrome results from gastrin hypersecretion."
     },
     {
-      "name": "Red Flag",
+      "name": "Hypoglycemia",
       "detail": "Insulinomas secrete insulin resulting in fasting or nocturnal hypoglycemia. Approximately 70% to 90% of sporadic insulinomas are benign and can be cured surgically. Evaluation with a 72-hour fast tests serum insulin, pro-insulin, and C-peptide during concurrent hypoglycemia [245]."
     },
     {
-      "name": "Red Flag",
+      "name": "Necrolytic migratory erythema",
       "detail": "Characteristic dermatitis of glucagonomas, often accompanied by hyperglycemia or diabetes mellitus, weight loss, cachexia, and a hypercoagulable state (10%–33% risk of thromboembolic events) [270,271]."
     },
     {
-      "name": "Red Flag",
+      "name": "Watery diarrhea with hypokalemia and achlorhydria (WDHA syndrome)",
       "detail": "VIPomas secrete vasoactive intestinal peptide causing severe secretory diarrhea with profound electrolyte depletion and dehydration. Also known as Verner-Morrison syndrome."
     },
     {
-      "name": "Red Flag",
+      "name": "Cushing syndrome",
       "detail": "Ectopic adrenocorticotropic hormone (ACTH) production by bronchial or thymic NETs can cause Cushing syndrome. Bronchial and thymic NETs have been associated with ectopic ACTH production [98,99]. Also may occur from adrenal adenoma, adrenal carcinoma, pituitary adenoma, or ectopic sources (lung or thymic NETs). Clinical features include central weight gain, striae, hypertension, hyperglycemia, depression, hirsutism, and muscle weakness [NE-A 2 of 4]."
     }
   ],
   "chart": {
     "labels": [
-      "Flushing",
-      "Peptic ulcer disease",
-      "Hypoglycemia",
-      "Necrolytic migratory erythema"
+      "Peptic ulcer disease"
     ],
     "values": [
-      18,
-      10,
-      70,
-      15
+      "10%"
     ]
   },
   "_section": "clinical_features",

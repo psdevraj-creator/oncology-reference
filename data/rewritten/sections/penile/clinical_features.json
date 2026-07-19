@@ -41,35 +41,45 @@
       "detail": "Fatigue, weight loss.",
       "frequency": "May indicate advanced or metastatic disease.",
       "alarm": true
+    },
+    {
+      "name": "Phimosis",
+      "detail": "Tight foreskin that cannot be retracted over the glans. It is a significant risk factor and can obscure visualization of the primary tumor, delaying diagnosis.",
+      "frequency": "Present in 25% to 60% of penile cancer patients.",
+      "alarm": false
+    },
+    {
+      "name": "Penile mass or ulceration",
+      "detail": "Direct visualization and palpation of the primary tumor on the penile shaft, glans, or prepuce.",
+      "frequency": "Cardinal sign.",
+      "alarm": false
+    },
+    {
+      "name": "Inguinal lymphadenopathy",
+      "detail": "Palpable enlargement of inguinal lymph nodes. Note: 30% to 50% of palpable nodes are inflammatory, not metastatic.",
+      "frequency": "Present at diagnosis in a significant subset.",
+      "alarm": false
+    },
+    {
+      "name": "Edema of penis/scrotum/legs",
+      "detail": "May occur with advanced disease causing lymphatic obstruction.",
+      "frequency": "Less common, indicates advanced local/regional disease.",
+      "alarm": false
     }
   ],
   "alarms": [
     {
-      "name": "Red Flag",
+      "name": "Palpable inguinal lymphadenopathy",
       "detail": "Enlarged, palpable lymph nodes in the groin region."
     },
     {
-      "name": "Red Flag",
+      "name": "Constitutional symptoms",
       "detail": "Fatigue, weight loss."
     }
   ],
   "chart": {
-    "labels": [
-      "Palpable/visible penile lesion",
-      "Penile pain",
-      "Penile discharge or bleeding",
-      "Foul odor",
-      "Palpable inguinal lymphadenopathy",
-      "Constitutional symptoms"
-    ],
-    "values": [
-      90,
-      70,
-      70,
-      30,
-      50,
-      40
-    ]
+    "labels": [],
+    "values": []
   },
   "_section": "clinical_features",
   "_site_id": "penile",
