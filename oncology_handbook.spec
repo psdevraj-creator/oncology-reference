@@ -7,6 +7,13 @@ from pathlib import Path
 _root = Path(SPECPATH).resolve()
 _site_pkgs = Path(sys.executable).parent / "Lib" / "site-packages"
 
+from PyInstaller.utils.hooks import collect_data_files, collect_submodules
+
+_dmc_datas = collect_data_files("dash_mantine_components")
+_cyto_datas = collect_data_files("dash_cytoscape")
+_dmc_hidden = collect_submodules("dash_mantine_components")
+_cyto_hidden = collect_submodules("dash_cytoscape")
+
 a = Analysis(
     [str(_root / "desktop_launcher.py")],
     pathex=[str(_root)],
@@ -14,10 +21,7 @@ a = Analysis(
     datas=[
         (str(_root / "data"), "data"),
         (str(_root / "app" / "assets"), "app/assets"),
-        (str(_site_pkgs / "dash_mantine_components" / "package-info.json"), "dash_mantine_components"),
-        (str(_site_pkgs / "dash_cytoscape" / "metadata.json"), "dash_cytoscape"),
-        (str(_site_pkgs / "dash_cytoscape" / "package.json"), "dash_cytoscape"),
-    ],
+    ] + _dmc_datas + _cyto_datas,
     hiddenimports=[
         "dash",
         "dash_bootstrap_components",
@@ -74,7 +78,7 @@ a = Analysis(
         "app.data.rewriters.base",
         "app.data.rewriters.prompts",
         "app.data.rewriters.rewrite_all",
-    ],
+    ] + _dmc_hidden + _cyto_hidden,
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
