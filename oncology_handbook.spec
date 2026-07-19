@@ -101,7 +101,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name="oncology_handbook_v3",
+    name="oncology_handbook",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
