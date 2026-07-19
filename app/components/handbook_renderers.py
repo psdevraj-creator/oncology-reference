@@ -32,6 +32,12 @@ from app.components.viz.dashboards import (
 from app.components.viz.pathways import management_flowchart
 
 REWRITTEN_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "rewritten" / "sections"
+if not REWRITTEN_DIR.exists():
+    import sys as _sys
+    if getattr(_sys, "frozen", False):
+        REWRITTEN_DIR = Path(_sys._MEIPASS) / "data" / "rewritten" / "sections"
+    elif not REWRITTEN_DIR.exists():
+        pass
 
 
 def _load_enriched(site_id: str | None, section: str) -> dict | None:
@@ -91,32 +97,19 @@ def render_subtypes(value, site_id: str = "") -> list:
     if not isinstance(value, list) or not value:
         return components
 
-    # Build sunburst from subtype names + frequency
-    labels = ["All Subtypes"]
-    parents = [""]
-    values = [100]
-    for s in value:
-        if isinstance(s, dict):
-            name = s.get("name", "")
-            desc = s.get("description", "") or s.get("detail", "")
-            freq = s.get("frequency", "")
-            labels.append(name)
-            parents.append("All Subtypes")
+    # Try enriched cache for sunburst data
+    if site_id:
+        enriched = _load_enriched(site_id, "subtypes")
+        if enriched and enriched.get("sunburst_data"):
+            sd = enriched["sunburst_data"]
             try:
-                val = float(str(freq).replace("%", "").split("-")[-1].strip())
-            except (ValueError, AttributeError):
-                val = 0
-            values.append(val)
+                fig = subtypes_sunburst({"labels": sd["labels"], "parents": sd["parents"], "values": sd["values"]})
+                if fig:
+                    components.append(dcc.Graph(figure=fig, config={"displayModeBar": False}, className="mb-4"))
+            except Exception:
+                pass
 
-    if len(labels) > 1:
-        try:
-            fig = subtypes_sunburst({"labels": labels, "parents": parents, "values": values})
-            if fig:
-                components.append(dcc.Graph(figure=fig, config={"displayModeBar": False}, className="mb-4"))
-        except Exception:
-            pass
-
-    # Subtype cards
+    # Subtype cards (always render, no chart dependency)
     cards = []
     colors = ["#6366f1", "#ec4899", "#f59e0b", "#10b981", "#3b82f6", "#8b5cf6"]
     for i, s in enumerate(value):
@@ -131,7 +124,6 @@ def render_subtypes(value, site_id: str = "") -> list:
             ))
     if cards:
         components.append(dmc.SimpleGrid(cols={"base": 1, "sm": 2}, spacing="md", children=cards))
-
     return components
 
 
@@ -602,17 +594,20 @@ def render_treatment_response(value: dict, site_id: str = "") -> list:
     if not isinstance(value, dict):
         return components
 
-    timeline_items = []
     for key, sub_val in value.items():
         label = key.replace("_", " ").title()
         if isinstance(sub_val, str) and sub_val.strip():
-            timeline_items.append({"title": label, "body": sub_val, "icon": "bi-camera"})
+            components.append(dmc.Paper([
+                dmc.Text(label, size="sm", fw=600, c="#1a5276", mb=4),
+                dcc.Markdown(sub_val, className="section-text"),
+            ], shadow="xs", radius="md", p="md", withBorder=True, className="definition-paper"))
         elif isinstance(sub_val, list):
-            for item in sub_val:
-                if isinstance(item, str):
-                    timeline_items.append({"title": label, "body": item, "icon": "bi-camera"})
-    if timeline_items:
-        components.append(timeline_component(timeline_items, color="#6366f1"))
+            text = "\n\n".join(f"- {item}" for item in sub_val if isinstance(item, str))
+            if text:
+                components.append(dmc.Paper([
+                    dmc.Text(label, size="sm", fw=600, c="#1a5276", mb=4),
+                    dcc.Markdown(text, className="section-text"),
+                ], shadow="xs", radius="md", p="md", withBorder=True, className="definition-paper"))
     return components
 
 
@@ -651,35 +646,60 @@ def render_enhanced_prognosis(value: dict, site_id: str = "") -> list:
             className="definition-blockquote",
         ))
 
-    if isinstance(value.get("by_stage"), list):
-        stages = []
-        os5 = []
+    # Try enriched cache first for survival chart
+    chart_stages = []; chart_os = []
+    if site_id:
+        enriched = _load_enriched(site_id, "prognosis")
+        if enriched:
+            ec = enriched.get("chart", {})
+            if ec.get("stages") and ec.get("os"):
+                chart_stages = ec["stages"]
+                chart_os = ec["os"]
+
+    # Fallback: parse from raw by_stage data
+    if not chart_stages and isinstance(value.get("by_stage"), list):
         for item in value["by_stage"]:
             if isinstance(item, dict):
-                stages.append(item.get("stage", ""))
+                chart_stages.append(item.get("stage", ""))
                 try:
-                    surv_str = str(item.get("survival", item.get("os_5yr", "")))
-                    os5.append(float(surv_str.replace("%", "").split("-")[-1].strip()))
+                    surv_str = str(item.get("os_5yr", item.get("survival", "")))
+                    if surv_str.strip():
+                        chart_os.append(float(surv_str.replace("%", "").split("-")[-1].strip()))
+                    else:
+                        chart_os.append(0)
                 except (ValueError, AttributeError):
-                    os5.append(0)
-        if stages and os5:
-            try:
-                fig = prognosis_bars({"stages": stages, "os_5yr": os5})
-                if fig:
-                    components.append(dcc.Graph(figure=fig, config={"displayModeBar": False}, className="mb-4"))
-            except Exception:
-                pass
+                    chart_os.append(0)
 
-    if isinstance(value.get("prognostic_factors"), list):
+    # Only show chart if >=2 valid non-zero values
+    if chart_stages and any(v > 0 for v in chart_os) and sum(1 for v in chart_os if v > 0) >= 2:
+        try:
+            fig = prognosis_bars({"stages": chart_stages, "os_5yr": chart_os})
+            if fig:
+                components.append(dcc.Graph(figure=fig, config={"displayModeBar": False}, className="mb-4"))
+        except Exception:
+            pass
+
+    # Prognostic factors cards
+    factors = []
+    if site_id:
+        enriched = _load_enriched(site_id, "prognosis")
+        if enriched and enriched.get("factors"):
+            factors = enriched["factors"]
+    if not factors and isinstance(value.get("prognostic_factors"), list):
+        factors = value["prognostic_factors"]
+
+    if factors:
         cards = []
-        for pf in value["prognostic_factors"]:
+        for pf in factors:
             if isinstance(pf, str):
                 cards.append(vibrantsym_card(title="", body=pf, icon="bi-clipboard-data", color="#6366f1"))
             elif isinstance(pf, dict):
+                impact = str(pf.get("impact", ""))
+                color = "#10b981" if "favorable" in impact.lower() else "#ef4444"
                 cards.append(vibrantsym_card(
                     title=pf.get("factor", ""), body=pf.get("detail", ""),
-                    icon="bi-clipboard-data",
-                    color="#10b981" if "favorable" in str(pf.get("impact", "")).lower() else "#ef4444",
+                    icon="bi-clipboard-data", color=color,
+                    extra=[dmc.Badge(impact, color=color.replace("#", ""), variant="light")] if impact else None,
                 ))
         if cards:
             components.append(html.H4("Prognostic Factors", className="subsection-heading"))

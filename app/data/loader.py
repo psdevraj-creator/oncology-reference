@@ -26,7 +26,7 @@ except ImportError:
         with open(path, encoding="utf-8") as fh:
             return _stdlib_json.load(fh)
 
-from app.config import SITES_REGISTRY_PATH, MERGED_DATA_DIR, INTERMEDIATE_DATA_DIR
+from app.config import SITES_REGISTRY_PATH, MERGED_DATA_DIR, INTERMEDIATE_DATA_DIR, DATA_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -118,7 +118,7 @@ def _load_single_handbook(site_id: str) -> dict[str, Any]:
 
 def _load_pubmed_cache() -> None:
     global _pubmed_cache
-    pubmed_dir = Path(__file__).resolve().parent.parent.parent / "data" / "pubmed"
+    pubmed_dir = DATA_DIR / "pubmed"
     if not pubmed_dir.exists():
         return
     for pf in pubmed_dir.glob("*.json"):

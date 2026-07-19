@@ -2,6 +2,7 @@ from dash import dcc, html
 
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
+from app.config import DESKTOP_MODE
 
 
 def create_layout():
@@ -45,6 +46,11 @@ def create_layout():
                         "Not a substitute for clinical judgment.",
                         className="text-muted text-center small",
                     ),
+                    *([dbc.Button(
+                        [html.I(className="bi bi-power me-1"), "Stop Server"],
+                        id="stop-server-btn", color="danger", outline=True, size="sm",
+                        className="mx-auto d-block mt-2",
+                    )] if DESKTOP_MODE else []),
                 ], fluid=True),
                 className="app-footer",
             ),

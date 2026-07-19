@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os as _os
+
 import pandas as pd
 from dash import Input, Output, State, html
 
@@ -406,3 +408,26 @@ def register_callbacks(app) -> None:
             return [], html.P("Could not fetch abstract details.", className="text-danger small")
 
         return results, html.P(f"Found {len(ids)} results for '{term}'.", className="text-muted small mt-2")
+
+    # ── Desktop shutdown ───────────────────────────────────────────
+    from app.config import DESKTOP_MODE
+
+    if DESKTOP_MODE:
+        @app.server.route("/shutdown", methods=["POST"])
+        def shutdown_server():
+            _os._exit(0)
+            return "OK"
+
+        @app.callback(
+            Output("stop-server-btn", "children"),
+            Input("stop-server-btn", "n_clicks"),
+            prevent_initial_call=True,
+        )
+        def stop_server(n_clicks):
+            import requests
+            try:
+                requests.post(f"http://127.0.0.1:{_os.environ.get('PORT', 8080)}/shutdown", timeout=1)
+            except Exception:
+                pass
+            _os._exit(0)
+            return "Stopping..."
