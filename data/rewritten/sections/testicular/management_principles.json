@@ -1,0 +1,159 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Testicular germ cell tumors (GCTs) are highly curable malignancies requiring a multidisciplinary approach integrating surgery, systemic therapy, and radiation therapy based on histologic subtype (seminoma vs nonseminoma), stage, and risk classification. The NCCN Guidelines provide evidence-based recommendations for all stages of testicular GCTs with the goal of maximizing cure rates while minimizing unnecessary side effects, complications, and late toxicities. Testicular GCTs are broadly categorized into seminoma and nonseminoma subtypes, which have different natural histories and treatment approaches. When both seminoma and nonseminoma elements are present, management follows nonseminoma guidelines. Together, these guidelines aim to maximize the potential for cure and to avoid unnecessary side effects, complications, and late toxicities [MS-2]."
+    },
+    {
+      "heading": "Curative Intent",
+      "content": "Patient group: All stages of testicular GCTs. Approach: The primary goal is cure with treatment intensity adapted to disease stage and risk. Stage I disease has cure rates approaching 100% regardless of management strategy. Even metastatic disease is cured in the majority of patients, with 5-year overall survival rates of 96% for good-risk disease, 89% for intermediate-risk, and 67% for poor-risk nonseminoma per IGCCCG update data [MS-23]."
+    },
+    {
+      "heading": "Risk-adapted treatment for Stage I Nonseminoma",
+      "content": "Patient group: Stage I nonseminoma. Approach: Risk factors for recurrence include lymphovascular invasion (LVI), invasion of spermatic cord, or invasion of scrotum. Some centers consider predominance of embryonal carcinoma as an additional risk factor. Surveillance is preferred for low-risk patients while all three options (surveillance, RPLND, or adjuvant BEP x1) should be carefully considered for high-risk patients [MS-18]."
+    },
+    {
+      "heading": "Risk-adapted treatment for Metastatic Disease",
+      "content": "Patient group: Metastatic disease. Approach: IGCCCG risk classification guides first-line chemotherapy intensity: good-risk disease (3 cycles BEP or 4 cycles EP), intermediate-risk (4 cycles BEP preferred), and poor-risk (4 cycles BEP preferred or 4 cycles VIP for patients at risk for bleomycin toxicity) [TEST-D, TEST-E]."
+    },
+    {
+      "heading": "MDT Requirements",
+      "content": "Multidisciplinary team involvement is essential. The guidelines recommend referral to high-volume centers for: patients with poor-risk disease [MS-23], residual masses with abnormal AFP and/or beta-hCG levels [NSEM-7], retroperitoneal lymph node dissection (RPLND) [TEST-H], post-chemotherapy RPLND in complex cases [TEST-H], brain metastases treatment planning [MS-28], and extragonadal germ cell tumors [TEST-D]. Shared decision-making with patients is recommended for stage IIA/IIB seminoma treatment options [SEM-3]. Social work referral is recommended considering social determinants of health that may affect treatment follow-through [SEM-1]."
+    },
+    {
+      "heading": "Performance Status Guide",
+      "content": "Performance status assessment guides treatment intensity. Poor-risk patients with mediastinal primary nonseminoma require VIP or BEP with careful pulmonary functioning monitoring [MS-17]. Bleomycin-free regimens should be considered in patients at increased risk for bleomycin toxicity including those with reduced GFR, older age, or lung disease [TEST-E]. G-CSFs should be used with high-risk febrile neutropenia regimens including TIP, VeIP, and VIP [TEST-F]. The guidelines do not provide specific performance status cutoffs but emphasize individualized treatment decisions."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Testicular GCT Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Histologic Subtype? (Seminoma vs Nonseminoma)",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Seminoma Management (Follow specific guidelines)",
+        "type": "treatment"
+      },
+      {
+        "id": "n4",
+        "label": "Stage? (Stage I vs Metastatic)",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Risk Assessment (LVI, etc.)",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Surveillance (Preferred for low risk)",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Consider All Options: Surveillance, RPLND, or BEP x1 (High risk)",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "IGCCCG Risk Classification (Good, Intermediate, Poor)",
+        "type": "decision"
+      },
+      {
+        "id": "n9",
+        "label": "3xBEP or 4xEP (Good risk)",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "4xBEP (Intermediate risk)",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "4xBEP or 4xVIP (Poor risk)",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Initial diagnosis"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Seminoma"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Nonseminoma or mixed (follow nonseminoma guidelines)"
+      },
+      {
+        "source": "n4",
+        "target": "n5",
+        "label": "Stage I"
+      },
+      {
+        "source": "n4",
+        "target": "n8",
+        "label": "Metastatic"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "Low risk (no LVI, etc.)"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "High risk (LVI, invasion of spermatic cord or scrotum)"
+      },
+      {
+        "source": "n8",
+        "target": "n9",
+        "label": "Good risk"
+      },
+      {
+        "source": "n8",
+        "target": "n10",
+        "label": "Intermediate risk"
+      },
+      {
+        "source": "n8",
+        "target": "n11",
+        "label": "Poor risk"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "All stages of testicular GCTs: The primary goal is cure with treatment intensity adapted to disease stage and risk. Stage I disease has cure rates approaching 100% regardless of management strategy. Even metastatic disease is cured in the majority of patients, with 5-year overall survival rates of 96% for good-risk disease, 89% for intermediate-risk, and 67% for poor-risk nonseminoma per IGCCCG update data [MS-23].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Risk-adapted treatment (Stage I nonseminoma)",
+      "detail": "Stage I nonseminoma: Risk factors for recurrence include lymphovascular invasion (LVI), invasion of spermatic cord, or invasion of scrotum. Some centers consider predominance of embryonal carcinoma as an additional risk factor. Surveillance is preferred for low-risk patients while all three options (surveillance, RPLND, or adjuvant BEP x1) should be carefully considered for high-risk patients [MS-18].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Risk-adapted treatment (Metastatic disease)",
+      "detail": "Metastatic disease: IGCCCG risk classification guides first-line chemotherapy intensity: good-risk disease (3 cycles BEP or 4 cycles EP), intermediate-risk (4 cycles BEP preferred), and poor-risk (4 cycles BEP preferred or 4 cycles VIP for patients at risk for bleomycin toxicity) [TEST-D, TEST-E].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "testicular",
+  "_chars_in": 3494
+}

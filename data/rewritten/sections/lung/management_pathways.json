@@ -1,0 +1,244 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"limited_stage_T1_2N0M0\", \"title\": \"Limited-Stage SCLC (Clinical Stage I–IIA: T1–2,N0,M0)\", \"branching_basis\": [\"Performance status\", \"Surgical eligibility\", \"Patient preference\"], \"nodes\": [{\"criteria\": \"Clinical stage I–IIA (T1–2,N0,M0), good PS (0–2), after standard staging evaluation including CT, brain imaging, FDG-PET/CT, and lymph node staging.\", \"options\": [{\"type\": \"Surgical resection\", \"label\": \"Lobectomy with mediastinal lymph node dissection or systematic lymph node sampling\", \"preference\": \"Preferred for medically operable patients\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic therapy\", \"label\": \"Adjuvant systemic therapy (4 cycles of platinum/etoposide) following surgery\", \"preference\": \"Required after resection\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": [\"cisplatin_etoposide_limited\"]}, {\"type\": \"Radiation therapy\", \"label\": \"Postoperative mediastinal RT for N+ disease (concurrent or sequential with chemotherapy)\", \"preference\": \"Recommended for pathologic N2; may be considered for pathologic N1\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}, {\"type\": \"SABR\", \"label\": \"Stereotactic ablative radiotherapy (SABR) to the primary tumor followed by adjuvant systemic therapy\", \"preference\": \"For medically inoperable patients or those who decline surgery\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": [\"cisplatin_etoposide_limited\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant systemic therapy is recommended for all patients after complete resection (R0) or SABR. Postoperative mediastinal RT is recommended for N2 disease and may be considered for N1 disease [1].\"}}, {\"criteria\": \"Clinical stage I–IIA (T1–2,N0,M0), poor PS (3–4) due to SCLC.\", \"options\": [{\"type\": \"Systemic therapy\", \"label\": \"Systemic therapy ± RT (concurrent or sequential)\", \"preference\": \"May be considered\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": [\"cisplatin_etoposide_limited\"]}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Treatment intent may be palliative; systemic therapy may be given with or without RT depending on tolerance and response [1].\"}}, {\"criteria\": \"Clinical stage I–IIA (T1–2,N0,M0), poor PS (3–4) not due to SCLC.\", \"options\": [{\"type\": \"Supportive care\", \"label\": \"Individualized treatment including supportive care\", \"preference\": \"Appropriate\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Focus on palliative and supportive care [1].\"}}]}, {\"pathway_id\": \"limited_stage_IIB_IIIC\", \"title\": \"Limited-Stage SCLC (Clinical Stage IIB–IIIC: T3–4,N0,M0; T1–4,N1–3,M0)\", \"branching_basis\": [\"Performance status\", \"Response to therapy\"], \"nodes\": [{\"criteria\": \"Good PS (0–2).\", \"options\": [{\"type\": \"Chemoradiation\", \"label\": \"Systemic therapy + concurrent RT (category 1)\", \"preference\": \"Preferred\", \"recommendation\": \"Category 1\", \"linked_regimen_ids\": [\"cisplatin_etoposide_limited\", \"carboplatin_etoposide_limited\"]}, {\"type\": \"Consolidation immunotherapy\", \"label\": \"Durvalumab for patients without progression after chemoradiation\", \"preference\": \"Preferred (category 1)\", \"recommendation\": \"Category 1\", \"linked_regimen_ids\": [\"durvalumab_consolidation\"]}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Durvalumab consolidation is administered after completion of chemoradiation for up to 24 months [1, 115].\"}}, {\"criteria\": \"Poor PS (3–4) due to SCLC.\", \"options\": [{\"type\": \"Systemic therapy ± RT\", \"label\": \"Systemic therapy ± RT (concurrent or sequential)\", \"preference\": \"May be considered\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": [\"cisplatin_etoposide_limited\"]}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Treatment is individualized based on tolerance and response [1].\"}}, {\"criteria\": \"Poor PS (3–4) not due to SCLC.\", \"options\": [{\"type\": \"Supportive care\", \"label\": \"Individualized treatment including supportive care\", \"preference\": \"Appropriate\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Focus on palliative and supportive care [1].\"}}]}, {\"pathway_id\": \"extensive_stage_no_symptoms_brain_mets\", \"title\": \"Extensive-Stage SCLC Without Localized Symptomatic Sites or Brain Metastases\", \"branching_basis\": [\"Performance status\", \"Response to therapy\"], \"nodes\": [{\"criteria\": \"Good PS (0–2).\", \"options\": [{\"type\": \"Systemic therapy\", \"label\": \"Platinum/etoposide + immune checkpoint inhibitor (atezolizumab or durvalumab) (category 1)\", \"preference\": \"Preferred\", \"recommendation\": \"Category 1\", \"linked_regimen_ids\": [\"carboplatin_etoposide_atezolizumab\", \"carboplatin_etoposide_durvalumab\"]}, {\"type\": \"Maintenance immunotherapy\", \"label\": \"Continue atezolizumab or durvalumab until progression or intolerable toxicity\", \"preference\": \"Preferred\", \"recommendation\": \"Category 1\", \"linked_regimen_ids\": [\"atezolizumab_maintenance\", \"durvalumab_maintenance\"]}], \"adju"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Limited-Stage SCLC (Clinical Stage I–IIA: T1–2,N0,M0)",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Clinical stage I–IIA (T1–2,N0,M0)",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Good PS (0–2), after standard staging",
+          "type": "decision"
+        },
+        {
+          "id": "d2",
+          "label": "Poor PS (3–4) due to SCLC",
+          "type": "decision"
+        },
+        {
+          "id": "d3",
+          "label": "Poor PS (3–4) not due to SCLC",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Lobectomy with mediastinal lymph node dissection or systematic lymph node sampling",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "SABR to primary tumor",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Adjuvant systemic therapy (4 cycles platinum/etoposide)",
+          "type": "treatment"
+        },
+        {
+          "id": "t4",
+          "label": "Postoperative mediastinal RT for N+ disease",
+          "type": "treatment"
+        },
+        {
+          "id": "t5",
+          "label": "Systemic therapy ± RT (concurrent or sequential)",
+          "type": "treatment"
+        },
+        {
+          "id": "t6",
+          "label": "Individualized treatment including supportive care",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "d1",
+          "label": "PS 0–2"
+        },
+        {
+          "source": "d0",
+          "target": "d2",
+          "label": "PS 3–4 due to SCLC"
+        },
+        {
+          "source": "d0",
+          "target": "d3",
+          "label": "PS 3–4 not due to SCLC"
+        },
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Surgically operable (preferred)"
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "Medically inoperable or declines surgery"
+        },
+        {
+          "source": "t1",
+          "target": "t3",
+          "label": "After R0 resection"
+        },
+        {
+          "source": "t2",
+          "target": "t3",
+          "label": "After SABR"
+        },
+        {
+          "source": "t1",
+          "target": "t4",
+          "label": "If pN2 (recommended) or pN1 (consider)"
+        },
+        {
+          "source": "d2",
+          "target": "t5",
+          "label": "May be considered"
+        },
+        {
+          "source": "d3",
+          "target": "t6",
+          "label": "Appropriate"
+        }
+      ]
+    },
+    {
+      "title": "Limited-Stage SCLC (Clinical Stage IIB–IIIC: T3–4,N0,M0; T1–4,N1–3,M0)",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Clinical stage IIB–IIIC",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Good PS (0–2)",
+          "type": "decision"
+        },
+        {
+          "id": "d2",
+          "label": "Poor PS (3–4) due to SCLC",
+          "type": "decision"
+        },
+        {
+          "id": "d3",
+          "label": "Poor PS (3–4) not due to SCLC",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Systemic therapy + concurrent RT (category 1)",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Durvalumab consolidation (after chemoradiation)",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Systemic therapy ± RT (concurrent or sequential)",
+          "type": "treatment"
+        },
+        {
+          "id": "t4",
+          "label": "Individualized treatment including supportive care",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "d1",
+          "label": "PS 0–2"
+        },
+        {
+          "source": "d0",
+          "target": "d2",
+          "label": "PS 3–4 due to SCLC"
+        },
+        {
+          "source": "d0",
+          "target": "d3",
+          "label": "PS 3–4 not due to SCLC"
+        },
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Preferred (category 1)"
+        },
+        {
+          "source": "t1",
+          "target": "t2",
+          "label": "No progression after chemoradiation"
+        },
+        {
+          "source": "d2",
+          "target": "t3",
+          "label": "May be considered"
+        },
+        {
+          "source": "d3",
+          "target": "t4",
+          "label": "Appropriate"
+        }
+      ]
+    },
+    {
+      "title": "Extensive-Stage SCLC Without Localized Symptomatic Sites or Brain Metastases",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Extensive-stage SCLC, no localized symptoms or brain mets",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Good PS (0–2)",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Platinum/etoposide + immune checkpoint inhibitor (atezolizumab or durvalumab) (category 1)",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Maintenance immunotherapy (atezolizumab or durvalumab)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "d1",
+          "label": "PS 0–2"
+        },
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Preferred"
+        },
+        {
+          "source": "t1",
+          "target": "t2",
+          "label": "Continue until progression or intolerable toxicity"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "lung",
+  "_chars_in": 5000
+}

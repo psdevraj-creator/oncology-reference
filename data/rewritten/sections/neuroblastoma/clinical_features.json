@@ -1,0 +1,113 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Neuroblastoma is a cancer originating from the developing sympathetic nervous system, typically presenting in children under 5 years of age, with an average age at diagnosis between 1 and 2 years. The most common presentation is an abdominal mass or abdominal distension, often discovered incidentally or during a physical examination. Patients may exhibit a range of symptoms including loss of appetite, weight loss, irritability, constipation, fever, hypertension, anemia, paralysis, bruising or swelling around the eyes (periorbital ecchymoses, also known as 'raccoon eyes'), bone pain, and pancytopenia. On examination, signs such as a palpable abdominal mass, hepatomegaly, or organomegaly may be noted. Neurologic symptoms like weakness or paralysis can occur if the tumor extends into the spinal canal. Paraneoplastic syndromes, though rare, may present initially, such as opsoclonus-myoclonus-ataxia syndrome (OMAS) or vasoactive intestinal peptide tumor (VIPoma) syndrome. The clinical presentation varies based on the tumor location, which can include the adrenal gland, retroperitoneum, mediastinum, or other sites along the sympathetic nervous system [1,2,19].\n\nSigns:\n- Palpable abdominal mass: Often firm, irregular, and may cross the midline; can be detected on physical exam. Frequency: Common in abdominal neuroblastoma.\n- Hepatomegaly or organomegaly: Especially in stage MS disease in infants, where liver metastases cause massive enlargement. Frequency: Frequent in stage MS.\n- Neurologic deficits: Weakness, sensory loss, or bowel/bladder dysfunction from spinal cord compression. Frequency: Occasional, requires urgent MRI.\n- Hypertension: May be due to catecholamine secretion or renal artery encasement. Frequency: Uncommon but important.\n- Proptosis or periorbital ecchymoses: Signs of orbital metastases. Frequency: Rare, but pathognomonic.\n\nAtypical or missed presentations:\n- Presentations with isolated paraneoplastic syndromes, such as OMAS, where neurologic symptoms may precede tumor detection, delaying diagnosis.\n- Infants with stage MS disease presenting with isolated hepatomegaly or skin nodules, which can be mistaken for other conditions like hemangiomas.\n- Tumors in unusual locations (e.g., thoracic) that may not cause obvious masses, leading to delayed recognition.\n- Nonspecific symptoms like fever or failure to thrive in very young infants, which can mimic infection or other pediatric illnesses."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Abdominal mass or distension",
+      "detail": "Most common symptom, often painless and discovered on physical exam or imaging.",
+      "frequency": "Common, reported in many patients.",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss and appetite loss",
+      "detail": "General constitutional symptoms, may be due to tumor burden or metabolic effects.",
+      "frequency": "Frequent, but nonspecific.",
+      "alarm": true
+    },
+    {
+      "name": "Irritability and constipation",
+      "detail": "Can result from abdominal mass effect or paraneoplastic syndromes.",
+      "frequency": "Common in pediatric patients.",
+      "alarm": false
+    },
+    {
+      "name": "Fever and hypertension",
+      "detail": "Fever may indicate infection or tumor-related inflammation; hypertension can occur due to catecholamine secretion.",
+      "frequency": "Occasional, hypertension is less common but notable.",
+      "alarm": true
+    },
+    {
+      "name": "Anemia and pancytopenia",
+      "detail": "Due to bone marrow involvement or chronic disease.",
+      "frequency": "Common, especially in advanced disease.",
+      "alarm": true
+    },
+    {
+      "name": "Paralysis or neurologic deficits",
+      "detail": "May indicate spinal cord compression from paraspinal tumor extension.",
+      "frequency": "Less common, but critical.",
+      "alarm": true
+    },
+    {
+      "name": "Bone pain",
+      "detail": "Suggests metastatic involvement to bone.",
+      "frequency": "Frequent in metastatic disease.",
+      "alarm": true
+    },
+    {
+      "name": "Periorbital ecchymoses or bruising",
+      "detail": "Classic sign associated with orbital metastases, often called 'raccoon eyes'.",
+      "frequency": "Rare, but highly suggestive.",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Most common symptom, often painless and discovered on physical exam or imaging."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "General constitutional symptoms, may be due to tumor burden or metabolic effects."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Fever may indicate infection or tumor-related inflammation; hypertension can occur due to catecholamine secretion."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Due to bone marrow involvement or chronic disease."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "May indicate spinal cord compression from paraspinal tumor extension."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Suggests metastatic involvement to bone."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Classic sign associated with orbital metastases, often called 'raccoon eyes'."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Abdominal mass or distension",
+      "Weight loss and appetite loss",
+      "Irritability and constipation",
+      "Fever and hypertension",
+      "Anemia and pancytopenia",
+      "Paralysis or neurologic deficits",
+      "Bone pain",
+      "Periorbital ecchymoses or bruising"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "neuroblastoma",
+  "_chars_in": 4477
+}

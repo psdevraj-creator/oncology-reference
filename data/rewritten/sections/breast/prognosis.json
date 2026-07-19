@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "heading": "Prognosis",
+      "content": "Breast cancer is the most common malignancy in females in the United States and is second only to lung cancer as a cause of cancer death. The American Cancer Society has estimated that 313,510 Americans will be diagnosed with breast cancer and 42,780 will die of disease in the United States in 2024 [1,2]. Prognosis varies significantly by tumor biology (HR status, HER2 expression), stage at diagnosis, and genomic profile. Patients with HR-positive, HER2-negative tumors generally have the most favorable long-term outcomes due to the availability of effective endocrine therapies. Triple-negative breast cancer (TNBC) is associated with the most aggressive clinical course and highest risk of early recurrence. HER2-positive disease, historically associated with poor prognosis, has been transformed by targeted therapies, with median overall survival exceeding 5 years for metastatic disease in the modern treatment era. Achieving pathologic complete response (pCR) to preoperative systemic therapy is associated with favorable disease-free and OS, particularly for TNBC and HER2-positive subtypes [255-257]."
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      99,
+      85,
+      55,
+      28
+    ]
+  },
+  "factors": [
+    {
+      "factor": "HR status (ER/PR)",
+      "impact": "Favorable",
+      "detail": "Patients with HR-positive, HER2-negative tumors generally have the most favorable long-term outcomes due to the availability of effective endocrine therapies."
+    },
+    {
+      "factor": "Triple-negative breast cancer (TNBC)",
+      "impact": "Unfavorable",
+      "detail": "Triple-negative breast cancer (TNBC) is associated with the most aggressive clinical course and highest risk of early recurrence."
+    },
+    {
+      "factor": "HER2 status",
+      "impact": "Unfavorable (historically)",
+      "detail": "HER2-positive disease, historically associated with poor prognosis, has been transformed by targeted therapies, with median overall survival exceeding 5 years for metastatic disease in the modern treatment era."
+    },
+    {
+      "factor": "Pathologic complete response (pCR)",
+      "impact": "Favorable",
+      "detail": "Achieving pathologic complete response (pCR) to preoperative systemic therapy is associated with favorable disease-free and OS, particularly for TNBC and HER2-positive subtypes [255-257]."
+    },
+    {
+      "factor": "Residual cancer burden (RCB)",
+      "impact": "Favorable (lower burden)",
+      "detail": "Residual cancer burden (RCB) after neoadjuvant chemotherapy, which is prognostic within each breast cancer subtype [275]."
+    },
+    {
+      "factor": "Genomic profile (21-gene recurrence score)",
+      "impact": "Variable (low score favorable, high score unfavorable)",
+      "detail": "For patients with HR-positive, HER2-negative disease, gene expression assays such as the 21-gene assay (Oncotype DX) provide prognostic information by predicting distant recurrence risk and predictive information regarding chemotherapy benefit."
+    }
+  ],
+  "_section": "prognosis",
+  "_site_id": "breast",
+  "_chars_in": 4771
+}

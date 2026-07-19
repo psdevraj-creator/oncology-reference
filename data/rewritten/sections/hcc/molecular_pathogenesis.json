@@ -1,0 +1,92 @@
+{
+  "sections": [
+    {
+      "heading": "HCC Genomic Landscape",
+      "content": "Hepatocellular carcinoma is associated with a complex landscape of genomic alterations. The development of HCC is a multistep process often arising from chronic liver inflammation and cirrhosis, leading to genomic instability and clonal expansion. Key oncogenic signaling pathways implicated in HCC include the Wnt/β-catenin, PI3K/AKT/mTOR, RAS/MAPK, MET, and insulin-like growth factor (IGF) pathways. Mutations in the TP53 tumor suppressor gene and in the promoter region of the telomerase reverse transcriptase (TERT) gene are common events in HCC pathogenesis. While these molecular alterations are recognized, the source text does not provide specific mutation frequencies for these genes in HCC. The molecular pathogenesis is distinct from other primary liver cancers, such as intrahepatic cholangiocarcinoma, which harbors different predominant genomic alterations. For example, the fibrolamellar variant of HCC is characterized by a specific recurrent fusion transcript, DNAJB1-PRKACA, which is a defining molecular feature of this subtype. The source text notes that tumor multigene panel testing (MGPT) is not routinely indicated for HCC but should be considered on a case-by-case basis, particularly for patients with advanced disease, atypical histology, or to identify potential targetable alterations in the rare setting of NTRK fusions or RET fusions. The role of immune-related biomarkers such as microsatellite instability (MSI), mismatch repair (MMR) status, tumor mutational burden (TMB), and PD-L1 expression is not established for patient selection in HCC, as immune checkpoint inhibitors have shown clinical benefit without requiring these selections."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "TERT",
+        "type": "gene"
+      },
+      {
+        "id": "DNAJB1",
+        "type": "gene"
+      },
+      {
+        "id": "PRKACA",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "targetable"
+      },
+      {
+        "id": "RET",
+        "type": "targetable"
+      },
+      {
+        "id": "Wnt/β-catenin",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K/AKT/mTOR",
+        "type": "pathway"
+      },
+      {
+        "id": "RAS/MAPK",
+        "type": "pathway"
+      },
+      {
+        "id": "MET",
+        "type": "pathway"
+      },
+      {
+        "id": "IGF",
+        "type": "pathway"
+      }
+    ],
+    "edges": []
+  },
+  "summaries": [
+    {
+      "pathway": "Wnt/β-catenin",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "PI3K/AKT/mTOR",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "RAS/MAPK",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "MET",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "IGF",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "hcc",
+  "_chars_in": 1673
+}

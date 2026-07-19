@@ -1,0 +1,504 @@
+{
+  "sections": [
+    {
+      "heading": "Endometrial Carcinoma",
+      "content": "Endometrial carcinoma exhibits distinct molecular pathogenesis. The TCGA classification identifies four clinically significant molecular subgroups: 1) POLE-mutated: Characterized by mutations in the exonuclease domain of DNA polymerase epsilon (POLE), often high-grade but with excellent prognosis. Hotspot mutations include P286R and V411L. 2) Microsatellite Instability-High (MSI-H) / Mismatch Repair Deficient (dMMR): Results from defective DNA mismatch repair, often due to MLH1 promoter methylation or germline mutations (Lynch syndrome). Associated with intermediate prognosis and potential sensitivity to immune checkpoint inhibitors. 3) No Specific Molecular Profile (NSMP): Corresponds to copy-number-low/wild-type p53 tumors. Typically endometrioid histology, estrogen-dependent, with favorable prognosis. 4) p53 Aberrant: Characterized by TP53 mutations, associated with serous histology, high copy-number alterations, and the worst prognosis. Requires multimodality treatment. Molecular testing for POLE mutations, MMR/MSI status, and p53 IHC is recommended to complement morphologic assessment (ENDO-A)."
+    },
+    {
+      "heading": "Uterine Sarcomas",
+      "content": "For uterine sarcomas, molecular profiling is key for classification: - Low-grade ESS: Associated with JAZF1::SUZ12, JAZF1::PHF1, EPC1::PHF1 fusions. - High-grade ESS: YWHAE::NUTM2 fusions, ZC3H7B::BCOR fusions, or BCOR internal tandem duplication. - Leiomyosarcoma: Complex karyotypes; commonly altered genes include TP53, ATRX, RB1, PTEN. - PEComa: TSC1/TSC2 mutations, TFE3 fusions. - IMT: ALK rearrangements. - RMS: DICER1 mutations (embryonal), FOXO1 fusions (alveolar). Comprehensive genomic profiling is encouraged in metastatic disease to identify targets like NTRK, RET, and TMB (UTSARC-A). [References: ENDO-A, UTSARC-A, Discussion MS-4, MS-32-34]"
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "POLE",
+        "type": "gene"
+      },
+      {
+        "id": "MLH1",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "JAZF1",
+        "type": "gene"
+      },
+      {
+        "id": "SUZ12",
+        "type": "gene"
+      },
+      {
+        "id": "PHF1",
+        "type": "gene"
+      },
+      {
+        "id": "EPC1",
+        "type": "gene"
+      },
+      {
+        "id": "YWHAE",
+        "type": "gene"
+      },
+      {
+        "id": "NUTM2",
+        "type": "gene"
+      },
+      {
+        "id": "ZC3H7B",
+        "type": "gene"
+      },
+      {
+        "id": "BCOR",
+        "type": "gene"
+      },
+      {
+        "id": "ATRX",
+        "type": "gene"
+      },
+      {
+        "id": "RB1",
+        "type": "gene"
+      },
+      {
+        "id": "PTEN",
+        "type": "gene"
+      },
+      {
+        "id": "TSC1",
+        "type": "gene"
+      },
+      {
+        "id": "TSC2",
+        "type": "gene"
+      },
+      {
+        "id": "TFE3",
+        "type": "gene"
+      },
+      {
+        "id": "ALK",
+        "type": "gene"
+      },
+      {
+        "id": "DICER1",
+        "type": "gene"
+      },
+      {
+        "id": "FOXO1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "DNA_replication_fidelity",
+        "type": "pathway"
+      },
+      {
+        "id": "p53_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "Estrogen_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "JAZF1_SUZ12_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "JAZF1_PHF1_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "EPC1_PHF1_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "YWHAE_NUTM2_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "ZC3H7B_BCOR_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "BCOR_ITD_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "Chromatin_remodeling",
+        "type": "pathway"
+      },
+      {
+        "id": "Cell_cycle",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K_AKT_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "mTOR_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "TFE3_fusion_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "ALK_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "FOXO1_fusion_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "DICER1_miRNA_processing",
+        "type": "pathway"
+      },
+      {
+        "id": "NTRK_fusion_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "RET_fusion_signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "MSIH_dMMR",
+        "type": "targetable"
+      },
+      {
+        "id": "TMB_high",
+        "type": "targetable"
+      },
+      {
+        "id": "immune_checkpoint_inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "POLE",
+        "target": "DNA_replication_fidelity",
+        "type": "activates"
+      },
+      {
+        "source": "MLH1",
+        "target": "MSIH_dMMR",
+        "type": "inhibits"
+      },
+      {
+        "source": "TP53",
+        "target": "p53_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "JAZF1",
+        "target": "JAZF1_SUZ12_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "SUZ12",
+        "target": "JAZF1_SUZ12_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "JAZF1",
+        "target": "JAZF1_PHF1_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "PHF1",
+        "target": "JAZF1_PHF1_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "EPC1",
+        "target": "EPC1_PHF1_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "PHF1",
+        "target": "EPC1_PHF1_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "YWHAE",
+        "target": "YWHAE_NUTM2_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "NUTM2",
+        "target": "YWHAE_NUTM2_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "ZC3H7B",
+        "target": "ZC3H7B_BCOR_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "BCOR",
+        "target": "ZC3H7B_BCOR_fusion",
+        "type": "activates"
+      },
+      {
+        "source": "BCOR",
+        "target": "BCOR_ITD_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "ATRX",
+        "target": "Chromatin_remodeling",
+        "type": "activates"
+      },
+      {
+        "source": "RB1",
+        "target": "Cell_cycle",
+        "type": "inhibits"
+      },
+      {
+        "source": "PTEN",
+        "target": "PI3K_AKT_signaling",
+        "type": "inhibits"
+      },
+      {
+        "source": "TSC1",
+        "target": "mTOR_signaling",
+        "type": "inhibits"
+      },
+      {
+        "source": "TSC2",
+        "target": "mTOR_signaling",
+        "type": "inhibits"
+      },
+      {
+        "source": "TFE3",
+        "target": "TFE3_fusion_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "ALK",
+        "target": "ALK_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "FOXO1",
+        "target": "FOXO1_fusion_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "DICER1",
+        "target": "DICER1_miRNA_processing",
+        "type": "activates"
+      },
+      {
+        "source": "NTRK",
+        "target": "NTRK_fusion_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "RET",
+        "target": "RET_fusion_signaling",
+        "type": "activates"
+      },
+      {
+        "source": "immune_checkpoint_inhibitors",
+        "target": "MSIH_dMMR",
+        "type": "targets"
+      },
+      {
+        "source": "immune_checkpoint_inhibitors",
+        "target": "TMB_high",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "DNA_replication_fidelity",
+      "genes": [
+        "POLE"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "p53_signaling",
+      "genes": [
+        "TP53"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Estrogen_signaling",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "JAZF1_SUZ12_fusion",
+      "genes": [
+        "JAZF1",
+        "SUZ12"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "JAZF1_PHF1_fusion",
+      "genes": [
+        "JAZF1",
+        "PHF1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "EPC1_PHF1_fusion",
+      "genes": [
+        "EPC1",
+        "PHF1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "YWHAE_NUTM2_fusion",
+      "genes": [
+        "YWHAE",
+        "NUTM2"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "ZC3H7B_BCOR_fusion",
+      "genes": [
+        "ZC3H7B",
+        "BCOR"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "BCOR_ITD_signaling",
+      "genes": [
+        "BCOR"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Chromatin_remodeling",
+      "genes": [
+        "ATRX"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Cell_cycle",
+      "genes": [
+        "RB1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "PI3K_AKT_signaling",
+      "genes": [
+        "PTEN"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "mTOR_signaling",
+      "genes": [
+        "TSC1",
+        "TSC2"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "TFE3_fusion_signaling",
+      "genes": [
+        "TFE3"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "ALK_signaling",
+      "genes": [
+        "ALK"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "FOXO1_fusion_signaling",
+      "genes": [
+        "FOXO1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "DICER1_miRNA_processing",
+      "genes": [
+        "DICER1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "NTRK_fusion_signaling",
+      "genes": [
+        "NTRK"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "RET_fusion_signaling",
+      "genes": [
+        "RET"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "MSIH_dMMR",
+      "genes": [
+        "MLH1"
+      ],
+      "drugs": "immune checkpoint inhibitors",
+      "targetable": true
+    },
+    {
+      "pathway": "TMB_high",
+      "genes": [],
+      "drugs": "immune checkpoint inhibitors",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "uterine",
+  "_chars_in": 1773
+}

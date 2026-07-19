@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is the mainstay for MM, including immunomodulatory drugs (IMiDs), proteasome inhibitors (PIs), monoclonal antibodies (e.g., anti-CD38), and novel agents (e.g., bispecific antibodies, CAR T-cell therapy). Regimens are categorized as preferred, other recommended, or useful in certain circumstances based on evidence and toxicity profiles. Treatment is tailored to disease stage, risk, prior therapies, and patient factors."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dara-VRd",
+      "drugs": [
+        "Daratumumab 1800 mg SC weekly (cycles 1-3), then every 2 weeks on day 1, 8, 15, 22 of 28-day cycle",
+        "Bortezomib 1.3 mg/m2 SC on day 1, 4, 8, 11 of 21-day cycle",
+        "Lenalidomide 25 mg PO on day 1-14 of 21-day cycle",
+        "Dexamethasone 40 mg PO weekly (20 mg for >65 years) on day 1, 8, 15, 22"
+      ],
+      "detail": "Neutropenia (62.1% grade 3/4), thrombocytopenia (29.1% grade 3/4), infusion-related reactions, infections [MYEL-G]."
+    },
+    {
+      "name": "Dara-Rd",
+      "drugs": [
+        "Daratumumab 1800 mg SC weekly (cycles 1-2), then every 2 weeks on day 1, 8, 15, 22 of 28-day cycle",
+        "Lenalidomide 25 mg PO on day 1-21 of 28-day cycle",
+        "Dexamethasone 40 mg PO weekly (20 mg for >65 years) on day 1, 8, 15, 22"
+      ],
+      "detail": "Neutropenia (54% grade 3/4), pneumonia (19%), lymphopenia (16%) [MYEL-G]."
+    },
+    {
+      "name": "KRd (Carfilzomib/Lenalidomide/Dexamethasone)",
+      "drugs": [
+        "Carfilzomib 27 mg/m2 IV (twice weekly) or 70 mg/m2 IV (once weekly) on day 1, 2, 8, 9, 15, 16 of 28-day cycle (twice weekly) or 1, 8, 15 of 28-day cycle (once weekly)",
+        "Lenalidomide 25 mg PO on day 1-21 of 28-day cycle",
+        "Dexamethasone 40 mg PO weekly on day 1, 8, 15, 22"
+      ],
+      "detail": "Cardiac"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "High-Risk Smoldering Myeloma",
+      "body": "Daratumumab monotherapy (category 1) or lenalidomide monotherapy (category 2B) in select patients",
+      "icon": "bi-0-circle-fill"
+    },
+    {
+      "title": "1st Line - Newly Diagnosed, HCT-Eligible",
+      "body": "Dara-VRd (daratumumab/bortezomib/lenalidomide/dexamethasone) or Isa-VRd (isatuximab-irfc/bortezomib/lenalidomide/dexamethasone) (category 1)",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "1st Line - Newly Diagnosed, HCT-Ineligible",
+      "body": "Dara-Rd (daratumumab/lenalidomide/dexamethasone) for all; Dara-VRd or Isa-VRd for patients <80 years who are not frail (category 1)",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "2nd Line - Relapsed/Refractory (1-3 Prior Lines)",
+      "body": "Depends on refractory status: for lenalidomide-sensitive, KRd (category 1); for bortezomib-refractory, Dara-Rd or Isa-Kd (category 1); for anti-CD38-refractory, KPd or VMP (category 1)",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "3rd Line - Relapsed/Refractory (≥3 Prior Lines)",
+      "body": "CAR T-cell therapy (cilta-cel or ide-cel) or bispecific antibodies (elranatamab, teclistamab, talquetamab, linvoseltamab) (category 1)",
+      "icon": "bi-3-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "myeloma",
+  "_chars_in": 5000
+}

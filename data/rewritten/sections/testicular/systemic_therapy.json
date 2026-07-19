@@ -1,0 +1,80 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is the primary treatment for metastatic germ cell tumors and is based on cisplatin combination chemotherapy. The IGCCCG risk classification system guides treatment intensity. For stage I nonseminoma, adjuvant chemotherapy with one cycle of BEP reduces relapse risk. Testicular GCTs are highly chemosensitive with cure rates of approximately 90% for good-risk disease [MS-23]."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Stage I Nonseminoma Adjuvant",
+      "drugs": "Etoposide, Cisplatin, Bleomycin",
+      "detail": "5-year relapse rate 3.2% with LVI, 1.6% without LVI. Survival exceeds 98%. One cycle preferred due to lower toxicity compared to 2 cycles [MS-18]. Alternatives: Surveillance, Nerve-sparing RPLND. Biomarker requirements: Normal post-orchiectomy AFP and beta-hCG."
+    },
+    {
+      "name": "Stage IS Nonseminoma",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Cisplatin)",
+      "detail": "Elevated tumor markers indicate occult metastatic disease requiring systemic therapy [NSEM-2]. No alternatives listed. Biomarker requirements: Persistently elevated or rising AFP and/or beta-hCG post-orchiectomy."
+    },
+    {
+      "name": "Stage IIA/IIB Nonseminoma (normal markers)",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Cisplatin)",
+      "detail": "Standard first-line chemotherapy for good-risk metastatic disease [NSEM-3]. Alternatives: Nerve-sparing RPLND. Biomarker requirements: Normal post-orchiectomy markers."
+    },
+    {
+      "name": "Good-Risk Metastatic (Stages IS, IIA-IIC, IIIA)",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Cisplatin)",
+      "detail": "Both are category 1 preferred regimens with approximately 90% cure rate. No statistically significant difference in OS (96% vs 92%; P=.096) [MS-23]. Alternatives: EP x4 if bleomycin contraindication. Biomarker requirements: AFP <1,000 ng/mL, hCG <5,000 IU/L, LDH <1.5x ULN for nonseminoma."
+    },
+    {
+      "name": "Intermediate-Risk Metastatic (Stage IIIB)",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Ifosfamide, Cisplatin)",
+      "detail": "Approximately 70% cure rate [MS-23]. Alternatives: VIP x4 (category 1) for bleomycin contraindication, BEP x3 or EP x4 if intermediate risk based solely on LDH 1.5-3x ULN. Biomarker requirements: AFP 1,000-10,000 ng/mL or hCG 5,000-50,000 IU/L or LDH 1.5-10x ULN."
+    },
+    {
+      "name": "Poor-Risk Metastatic (Stage IIIC)",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Ifosfamide, Cisplatin)",
+      "detail": "Less than 50% achieve durable complete response. Referral to high-volume center recommended [MS-23]. Alternatives: VIP x4 (category 1) for bleomycin contraindication. Biomarker requirements: AFP >10,000 ng/mL or hCG >50,000 IU/L or LDH >10x ULN or nonpulmonary visceral metastases or mediastinal primary."
+    },
+    {
+      "name": "Good-Risk Metastatic Seminoma",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Cisplatin)",
+      "detail": "Standard treatment for good-risk seminoma. Consider intensification for LDH >2.5x ULN [MS-15]. Alternatives: EP x4 if bleomycin contraindication. Biomarker requirements: No nonpulmonary visceral metastases, normal AFP."
+    },
+    {
+      "name": "Intermediate-Risk Metastatic Seminoma",
+      "drugs": "Etoposide, Cisplatin, Bleomycin (or Etoposide, Ifosfamide, Cisplatin)",
+      "detail": "Stage IIIC with non-pulmonary visceral metastases [MS-15]. Alternatives: VIP x4 for bleomycin contraindication. Biomarker requirements: Non-pulmonary visceral metastases (bone, liver, brain)."
+    },
+    {
+      "name": "Second-Line Chemotherapy (Relapsed GCTs)",
+      "drugs": "Paclitaxel, Ifosfamide, Cisplatin; Vinblastine, Ifosfamide, Cisplatin; or High-dose Carboplatin, Etoposide",
+      "detail": "Preferred conventional-dose regimens. High-dose chemotherapy based on retrospective data showing superiority over conventional-dose [MS-25]. Alternatives: Clinical trial, High-dose carboplatin/etoposide with stem cell support, Paclitaxel/ifosfamide followed by high-dose carboplatin/etoposide. Biomarker requirements: None specific; treatment based on relapse status."
+    },
+    {
+      "name": "Third-Line Chemotherapy",
+      "drugs": "High-dose Carboplatin, Etoposide; Gemcitabine, Oxaliplatin, Paclitaxel; Gemcitabine, Oxaliplatin; Gemcitabine, Paclitaxel; Oral Etoposide; Various targeted agents",
+      "detail": "Clinical trial preferred for patients who received prior high-dose chemotherapy [SEM-8, NSEM-10]. Alternatives: Conventional-dose third-line chemotherapy, Gemcitabine/oxaliplatin/paclitaxel, Gemcitabine/oxaliplatin, Gemcitabine/paclitaxel, Oral etoposide, Pan-cancer tumor-agnostic treatments for actionable mutations. Biomarker requirements: Molecular testing including NGS and IHC for biomarker-driven therapy."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line",
+      "body": "BEP x1 (adjuvant), BEP x3 or EP x4 (good-risk), BEP x4 or VIP x4 (intermediate/poor-risk), BEP x3 or EP x4 (seminoma good-risk), BEP x4 or VIP x4 (seminoma intermediate-risk)",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "2nd Line",
+      "body": "TIP x4, VeIP x4, High-dose Carboplatin/Etoposide with stem cell support",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "3rd Line",
+      "body": "High-dose chemotherapy (if not previously received), Clinical trial, Gemcitabine/Oxaliplatin/Paclitaxel, Gemcitabine/Oxaliplatin, Gemcitabine/Paclitaxel, Oral Etoposide, Tumor-agnostic targeted therapy",
+      "icon": "bi-3-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "testicular",
+  "_chars_in": 5000
+}

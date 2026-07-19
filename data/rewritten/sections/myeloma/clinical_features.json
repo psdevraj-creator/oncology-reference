@@ -1,0 +1,93 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Multiple myeloma (MM) is a malignant neoplasm of plasma cells that typically accumulates in the bone marrow, leading to bone destruction, elevated blood calcium, and anemia, as well as renal damage from secreted monoclonal protein (M-protein). It is most frequently diagnosed in people aged 65 to 74 years, with a median age of 69 years. The American Cancer Society estimated 36,100 new cases and 12,030 deaths in the United States in 2025 [2]. Globally, age-standardized prevalence, mortality, and disability-adjusted life years have increased from 1990 to 2021, with higher burden in males [3]. Patients often present with symptoms related to organ damage from M-protein or plasma cell infiltration, such as bone pain, fatigue, weakness, weight loss, nausea, constipation, and confusion."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Bone pain",
+      "detail": "A common symptom due to osteolytic lesions or fractures. Pain may be localized or diffuse.",
+      "frequency": "Common",
+      "alarm": true
+    },
+    {
+      "name": "Fatigue and weakness",
+      "detail": "Often due to anemia or renal dysfunction.",
+      "frequency": "Common",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss",
+      "detail": "May occur due to metabolic changes or decreased oral intake.",
+      "frequency": "Common",
+      "alarm": true
+    },
+    {
+      "name": "Nausea and constipation",
+      "detail": "Can result from hypercalcemia or renal insufficiency.",
+      "frequency": "Common",
+      "alarm": true
+    },
+    {
+      "name": "Confusion",
+      "detail": "May be due to hypercalcemia, uremia, or hyperviscosity.",
+      "frequency": "Less common",
+      "alarm": true
+    },
+    {
+      "name": "Recurrent infections",
+      "detail": "Due to immune dysfunction from abnormal plasma cells and treatment.",
+      "frequency": "Common",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Severe or new-onset pain may indicate pathological fracture or spinal cord compression."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Rapidly worsening fatigue may signal disease progression or complications like infection."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained weight loss could indicate advanced disease or other comorbidities."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Persistent symptoms may indicate severe hypercalcemia or renal failure."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Acute confusion requires urgent evaluation for metabolic or neurological emergencies."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Severe infections (e.g., pneumonia, sepsis) are medical emergencies."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Bone pain",
+      "Fatigue and weakness",
+      "Weight loss",
+      "Nausea and constipation",
+      "Confusion",
+      "Recurrent infections"
+    ],
+    "values": [
+      70,
+      70,
+      70,
+      70,
+      30,
+      70
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "myeloma",
+  "_chars_in": 3479
+}

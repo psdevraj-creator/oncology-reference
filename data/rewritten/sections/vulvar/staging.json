@@ -1,0 +1,111 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "{\"system\": \"FIGO 2021 (revised from 2009 FIGO system). The updated 2021 system incorporates revised depth of invasion measurement methodology (measured from basement membrane of deepest adjacent dysplastic rete ridge), revised lymph node metastases definition, and allows incorporation of cross-sectional imaging findings [ST-1, MS-4, MS-5].\", \"t_stages\": [{\"stage\": \"IA\", \"description\": \"Tumor size ≤2 cm and stromal invasion ≤1 mm [ST-1].\"}, {\"stage\": \"IB\", \"description\": \"Tumor size >2 cm or stromal invasion >1 mm [ST-1].\"}, {\"stage\": \"II\", \"description\": \"Tumor of any size with extension to lower one-third of the urethra, lower one-third of the vagina, or lower one-third of the anus, with negative nodes [ST-1].\"}, {\"stage\": \"IIIA\", \"description\": \"Tumor of any size with disease extension to upper two-thirds of the urethra, upper two-thirds of the vagina, bladder mucosa, or rectal mucosa, or with regional lymph node metastases ≤5 mm [ST-1].\"}, {\"stage\": \"IIIB\", \"description\": \"Regional lymph node metastases >5 mm [ST-1].\"}, {\"stage\": \"IIIC\", \"description\": \"Regional lymph node metastases with extracapsular spread [ST-1].\"}, {\"stage\": \"IVA\", \"description\": \"Disease fixed to pelvic bone, or fixed or ulcerated regional lymph node metastases [ST-1].\"}, {\"stage\": \"IVB\", \"description\": \"Distant metastases [ST-1].\"}], \"n_stages\": [{\"stage\": \"Negative (N0)\", \"description\": \"No regional lymph node metastases. Applies to stages I and II [ST-1].\"}, {\"stage\": \"≤5 mm (N1, stage IIIA)\", \"description\": \"Regional lymph node metastases ≤5 mm. Regional refers to inguinal and femoral lymph nodes [ST-1].\"}, {\"stage\": \">5 mm (N2, stage IIIB)\", \"description\": \"Regional lymph node metastases >5 mm [ST-1].\"}, {\"stage\": \"With extracapsular spread (N3, stage IIIC)\", \"description\": \"Regional lymph node metastases with extracapsular spread [ST-1].\"}, {\"stage\": \"Fixed or ulcerated (stage IVA)\", \"description\": \"Fixed or ulcerated regional lymph node metastases [ST-1].\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastases. Applies to stages I through IVA [ST-1].\"}, {\"stage\": \"M1 (stage IVB)\", \"description\": \"Distant metastases [ST-1].\"}], \"stage_groups\": [{\"group\": \"Stage I\", \"criteria\": \"Tumor size ≤2 cm and stromal invasion ≤1 mm (stage IA), or tumor size >2 cm or stromal invasion >1 mm with negative nodes (stage IB). Nodes are clinically/pathologically negative [ST-1, MS-4].\", \"clinical_meaning\": \"Localized disease. Stage IA has <1% risk of lymphatic metastasis; stage IB has >8% risk of nodal metastasis [MS-5, MS-6].\", \"five_yr_survival\": \"85.7% for localized disease (stages I/II) based on SEER database 2015–2021 [MS-1].\", \"treatment_intent\": \"Curative. Stage IA: simple partial vulvectomy with observation. Stage IB/select stage II: radical partial vulvectomy with ipsilateral or bilateral inguinofemoral LN evaluation [VULVA-2].\"}, {\"group\": \"Stage II\", \"criteria\": \"Tumor of any size with extension to lower one-third of the urethra, lower one-third of the vagina, or lower one-third of the anus, with negative nodes [ST-1].\", \"clinical_meaning\": \"Localized disease with extension to adjacent lower structures. Negative nodal status is favorable [ST-1].\", \"five_yr_survival\": \"85.7% for localized disease (stages I/II) based on SEER database 2015–2021 [MS-1].\", \"treatment_intent\": \"Curative. Radical partial vulvectomy with ipsilateral or bilateral inguinofemoral LN evaluation [VULVA-2].\"}, {\"group\": \"Stage III\", \"criteria\": \"Tumor of any size with extension to upper adjacent perineal structures (IIIA), or regional lymph node metastases ≤5 mm (IIIA), >5 mm (IIIB), or with extracapsular spread (IIIC) [ST-1].\", \"clinical_meaning\": \"Locally advanced disease with regional lymph node involvement. Nodal status is the most important prognostic factor [MS-4]. Stage IIIC with extracapsular extension has poorer prognosis [MS-4].\", \"five_yr_survival\": \"49.71% for regional or locally advanced disease (stages III/IVA) based on SEER database 2015–2021 [MS-1].\", \"treatment_intent\": \"Curative with combined modality therapy. EBRT with concurrent chemotherapy is standard. Adjuvant RT (category 1 for ≥2 LNs positive or ENE) [VULVA-4].\"}, {\"group\": \"Stage IVA\", \"criteria\": \"Disease fixed to pelvic bone, or fixed or ulcerated regional lymph node metastases [ST-1].\", \"clinical_meaning\": \"Advanced local disease with invasion of critical structures or bulky/ulcerated nodal disease. May be unresectable without significant morbidity [MS-4].\", \"five_yr_survival\": \"49.71% for regional or locally advanced disease (stages III/IVA) based on SEER database 2015–2021 [MS-1].\", \"treatment_intent\": \"Curative intent with combined modality therapy (EBRT + concurrent chemotherapy). Surgery may be considered for residual disease after chemoradiation [VULVA-5, VULVA-6].\"}, {\"group\": \"Stage IVB\", \"criteria\": \"Distant metastases [ST-1].\", \"clinical_meaning\": \"Metastatic disease beyond the pelvis. Prognosis is poor [MS-1].\", \"five_yr_survival\": \"21.9% for patients with st"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "T1a",
+      "description": "Tumor size ≤2 cm and stromal invasion ≤1 mm"
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor size >2 cm or stromal invasion >1 mm"
+    },
+    {
+      "category": "T2",
+      "description": "Tumor of any size with extension to lower one-third of the urethra, lower one-third of the vagina, or lower one-third of the anus, with negative nodes"
+    },
+    {
+      "category": "T3",
+      "description": "Tumor of any size with disease extension to upper two-thirds of the urethra, upper two-thirds of the vagina, bladder mucosa, or rectal mucosa"
+    },
+    {
+      "category": "T4",
+      "description": "Disease fixed to pelvic bone"
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "N0",
+      "description": "No regional lymph node metastases. Applies to stages I and II."
+    },
+    {
+      "category": "N1",
+      "description": "Regional lymph node metastases ≤5 mm. Regional refers to inguinal and femoral lymph nodes."
+    },
+    {
+      "category": "N2",
+      "description": "Regional lymph node metastases >5 mm."
+    },
+    {
+      "category": "N3",
+      "description": "Regional lymph node metastases with extracapsular spread."
+    },
+    {
+      "category": "N4",
+      "description": "Fixed or ulcerated regional lymph node metastases."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastases. Applies to stages I through IVA."
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastases."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "I",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "II",
+      "t": "T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "III",
+      "t": "T1-T3",
+      "n": "N1-N3",
+      "m": "M0"
+    },
+    {
+      "stage": "IVA",
+      "t": "T4",
+      "n": "N0-N3",
+      "m": "M0"
+    },
+    {
+      "stage": "IVB",
+      "t": "any",
+      "n": "any",
+      "m": "M1"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      85.7,
+      85.7,
+      49.71,
+      21.9
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "vulvar",
+  "_chars_in": 5000
+}

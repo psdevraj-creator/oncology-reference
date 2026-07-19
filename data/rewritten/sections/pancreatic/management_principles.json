@@ -1,0 +1,264 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Decisions about diagnosis, resectability, and management of pancreatic cancer should involve multidisciplinary consultation at high-volume centers using appropriate imaging studies [INTRO]. The Panel unanimously endorses participation in clinical trials over standard or accepted therapy [INTRO]. Systemic therapy is used in all stages of pancreatic cancer, including neoadjuvant therapy (resectable or borderline resectable), adjuvant therapy, and first-line or subsequent therapy for locally advanced, metastatic, and recurrent disease [PANC-G]. Goals of systemic therapy should be discussed with patients prior to initiation of therapy, and enrollment in a clinical trial is strongly encouraged [PANC-G]. Less common variants, such as squamous/adenosquamous carcinomas, are treated similarly to adenocarcinoma. There are insufficient data supporting the efficacy of any of the recommended regimens for these rare subtypes. For mixed histologies, the Panel recommends treating the more aggressive histology [PANC-G, PANC-9A footnote nn]. An FDA-approved biosimilar is an appropriate substitute for any recommended systemic biologic therapy in the NCCN Guidelines [PANC-G]. Resections should be done at institutions that perform at least 15–20 pancreatic resections annually [PANC-A 1 of 8]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Multidisciplinary Consultation at High-Volume Center",
+        "type": "treatment"
+      },
+      {
+        "id": "n1",
+        "label": "Resectability and Stage Assessment",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Resectable (No Metastases)",
+        "type": "outcome"
+      },
+      {
+        "id": "n3",
+        "label": "Borderline Resectable",
+        "type": "outcome"
+      },
+      {
+        "id": "n4",
+        "label": "Locally Advanced (No Metastases)",
+        "type": "outcome"
+      },
+      {
+        "id": "n5",
+        "label": "Metastatic",
+        "type": "outcome"
+      },
+      {
+        "id": "n6",
+        "label": "Recurrent Disease",
+        "type": "outcome"
+      },
+      {
+        "id": "n8",
+        "label": "Upfront Surgery",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Neoadjuvant Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Restaging and Resection",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Neoadjuvant Therapy at High-Volume Center",
+        "type": "treatment"
+      },
+      {
+        "id": "n13",
+        "label": "Induction Chemotherapy (4-6 months)",
+        "type": "treatment"
+      },
+      {
+        "id": "n14",
+        "label": "Chemoradiation/SBRT (Direct)",
+        "type": "treatment"
+      },
+      {
+        "id": "n15",
+        "label": "Chemoradiation/SBRT after Induction",
+        "type": "treatment"
+      },
+      {
+        "id": "n16",
+        "label": "Systemic Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n17",
+        "label": "Maintenance Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n18",
+        "label": "Metastasis-Directed Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n19",
+        "label": "Palliative and Best Supportive Care",
+        "type": "treatment"
+      },
+      {
+        "id": "n20",
+        "label": "Single-Agent Chemotherapy or Palliative RT",
+        "type": "treatment"
+      },
+      {
+        "id": "n21",
+        "label": "Clinical Trial Preferred",
+        "type": "treatment"
+      },
+      {
+        "id": "n22",
+        "label": "Systemic Therapy ± Chemoradiation/SBRT",
+        "type": "treatment"
+      },
+      {
+        "id": "n23",
+        "label": "Surgical Re-resection",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n0",
+        "target": "n1",
+        "label": "Imaging Studies"
+      },
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Resectable, no metastases"
+      },
+      {
+        "source": "n1",
+        "target": "n3",
+        "label": "Borderline resectable"
+      },
+      {
+        "source": "n1",
+        "target": "n4",
+        "label": "Locally advanced"
+      },
+      {
+        "source": "n1",
+        "target": "n5",
+        "label": "Metastatic"
+      },
+      {
+        "source": "n1",
+        "target": "n6",
+        "label": "Recurrent after resection"
+      },
+      {
+        "source": "n2",
+        "target": "n8",
+        "label": "Absence of high-risk features"
+      },
+      {
+        "source": "n2",
+        "target": "n9",
+        "label": "With or without high-risk features"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": "After neoadjuvant therapy, restaging and resection"
+      },
+      {
+        "source": "n3",
+        "target": "n11",
+        "label": "Neoadjuvant therapy preferred at high-volume center"
+      },
+      {
+        "source": "n11",
+        "target": "n10",
+        "label": "Restaging and resection if no progression"
+      },
+      {
+        "source": "n4",
+        "target": "n13",
+        "label": "Good or intermediate PS, candidate for induction chemo"
+      },
+      {
+        "source": "n4",
+        "target": "n14",
+        "label": "Not candidate for induction chemo"
+      },
+      {
+        "source": "n13",
+        "target": "n15",
+        "label": "Selected patients without systemic metastases"
+      },
+      {
+        "source": "n5",
+        "target": "n16",
+        "label": "Good or intermediate PS (ECOG 0-2)"
+      },
+      {
+        "source": "n5",
+        "target": "n19",
+        "label": "Poor PS (ECOG 3)"
+      },
+      {
+        "source": "n16",
+        "target": "n17",
+        "label": "After response/stable disease, consider maintenance"
+      },
+      {
+        "source": "n16",
+        "target": "n18",
+        "label": "Selected oligometastatic patients at high-volume center"
+      },
+      {
+        "source": "n19",
+        "target": "n20",
+        "label": "Consider single-agent chemo or palliative RT"
+      },
+      {
+        "source": "n6",
+        "target": "n21",
+        "label": "Preferred: clinical trial"
+      },
+      {
+        "source": "n6",
+        "target": "n22",
+        "label": "Alternative: systemic therapy ± RT"
+      },
+      {
+        "source": "n6",
+        "target": "n23",
+        "label": "Local recurrence in select patients after restaging"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative (resectable disease)",
+      "detail": "Surgery in absence of high-risk features (without neoadjuvant therapy) or neoadjuvant therapy with or without high-risk features followed by surgery [PANC-2]. For resectable disease, upfront surgery remains an option for patients without high-risk features, though neoadjuvant therapy may also be considered [MS-12].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative (borderline resectable disease)",
+      "detail": "Neoadjuvant therapy followed by restaging and resection in patients without disease progression that precludes surgery. Upfront resection in patients with borderline resectable disease is no longer recommended [MS-13]. Neoadjuvant therapy is preferred at or coordinated through a high-volume center [PANC-2A footnote n].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative (locally advanced disease)",
+      "detail": "Systemic therapy or induction chemotherapy (preferably 4–6 months) followed by chemoradiation or SBRT in selected patients without systemic metastases. Chemoradiation or SBRT alone in patients who are not candidates for induction chemotherapy [PANC-10].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative (metastatic disease)",
+      "detail": "Systemic therapy, potentially with maintenance therapy after response/stable disease, or metastasis-directed therapy at a high-volume center for selected oligometastatic patients [PANC-11]. For poor PS (ECOG 3), palliative and best supportive care with consideration of single-agent chemotherapy or palliative RT [PANC-G 6 of 13].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative (recurrent disease)",
+      "detail": "Clinical trial preferred, or systemic therapy ± chemoradiation or SBRT if not previously done. For local recurrence in select patients, surgical re-resection may be considered after detailed restaging assessment and formulation of a multimodal therapy care plan [PANC-6, PANC-6A footnote ii].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "pancreatic",
+  "_chars_in": 4350
+}

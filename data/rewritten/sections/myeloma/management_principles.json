@@ -1,0 +1,197 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of multiple myeloma (MM) and related plasma cell disorders involves a risk-adapted, multimodal approach. Treatment decisions are guided by disease stage (e.g., solitary plasmacytoma, smoldering myeloma, symptomatic MM), risk stratification (e.g., ISS, R-ISS, R2-ISS, IMS-IMWG), patient factors (age, performance status, frailty, comorbidities), and molecular characteristics (cytogenetic abnormalities, MRD status). The primary goal for symptomatic MM is to achieve deep and durable responses, while minimizing toxicity. Supportive care, including bone-modifying agents, infection prophylaxis, and management of complications (renal impairment, hypercalcemia, VTE), is integral to improving outcomes. For asymptomatic conditions like smoldering myeloma, observation or early intervention based on risk is considered. Clinical trial participation is encouraged for all eligible patients. The NCCN Panel emphasizes equitable and inclusive clinical trial design to address disparities, particularly in Black/African American individuals who have higher myeloma incidence and distinct biological features [MYEL-F]."
+    },
+    {
+      "heading": "MDT Requirements",
+      "content": "Treatment recommendations should be made after joint consultation and/or discussion by a multidisciplinary team including hematologists/oncologists, radiation oncologists, surgeons (for plasmacytomas or fractures), radiologists, pathologists, and palliative care specialists. For complex cases like CNS disease, involvement of neurologists and neurosurgeons is advised [MYEL-D, MYEL-H]."
+    },
+    {
+      "heading": "Performance Status Guide",
+      "content": "Frailty assessment should be considered in older adults using tools like the IMWG Myeloma Frailty Score Calculator. Performance status influences regimen selection: frail patients may start with 2- or 3-drug regimens with dose modifications, and steroids should be reduced or discontinued based on response and toxicity. Renal dysfunction and advanced age are not contraindications to autologous HCT but may require adjusted dosing [MYEL-F, MYEL-G]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Diagnosis of Plasma Cell Disorder",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Solitary Plasmacytoma (osseous or extramedullary) with minimal marrow involvement (<10% clonal plasma cells)",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Radiation therapy (RT) to the involved site; surgery for structural instability or neurologic compromise",
+        "type": "treatment"
+      },
+      {
+        "id": "n4",
+        "label": "Close surveillance for progression to MM",
+        "type": "outcome"
+      },
+      {
+        "id": "n5",
+        "label": "Smoldering (asymptomatic) myeloma",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Risk stratification using Mayo 2018/IMWG 20/2/20 criteria",
+        "type": "decision"
+      },
+      {
+        "id": "n7",
+        "label": "Low-risk: observation at 3-6 month intervals",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "High-risk: consider clinical trial or early therapy with single-agent daratumumab (cat1) or lenalidomide (cat2B)",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Symptomatic MM (newly diagnosed)",
+        "type": "decision"
+      },
+      {
+        "id": "n10",
+        "label": "HCT-eligible: Primary therapy with quadruplet regimens (e.g., Dara-VRd, Isa-VRd); then autologous HCT; then maintenance therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "HCT-ineligible or deferred: Regimens like D-Rd, Dara-VRd (for non-frail patients <80 years); then maintenance",
+        "type": "treatment"
+      },
+      {
+        "id": "n12",
+        "label": "Previously treated MM (relapsed/refractory)",
+        "type": "decision"
+      },
+      {
+        "id": "n13",
+        "label": "Based on prior therapies: triplet regimens, CAR T-cell therapy (cilta-cel, ide-cel), bispecific antibodies (elranatamab, teclistamab), or clinical trials; consider re-challenge if relapse >6 months",
+        "type": "treatment"
+      },
+      {
+        "id": "n14",
+        "label": "Refractory disease with lack of treatment options",
+        "type": "decision"
+      },
+      {
+        "id": "n15",
+        "label": "Palliative care: symptom management with specialist, supportive care, hospice",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Solitary plasmacytoma (osseous or extramedullary) with minimal marrow involvement (<10% clonal plasma cells)"
+      },
+      {
+        "source": "n1",
+        "target": "n5",
+        "label": "Smoldering (asymptomatic) myeloma"
+      },
+      {
+        "source": "n1",
+        "target": "n9",
+        "label": "Symptomatic MM (newly diagnosed)"
+      },
+      {
+        "source": "n1",
+        "target": "n12",
+        "label": "Previously treated MM"
+      },
+      {
+        "source": "n1",
+        "target": "n14",
+        "label": "Refractory disease with lack of treatment options"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Treatment indicated"
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "label": "Post-treatment surveillance"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "Assess risk"
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "label": "Low risk (per Mayo 2018/IMWG 20/2/20)"
+      },
+      {
+        "source": "n6",
+        "target": "n8",
+        "label": "High risk"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": "HCT eligible"
+      },
+      {
+        "source": "n9",
+        "target": "n11",
+        "label": "HCT ineligible or deferred"
+      },
+      {
+        "source": "n12",
+        "target": "n13",
+        "label": "Select regimen based on prior therapy"
+      },
+      {
+        "source": "n14",
+        "target": "n15",
+        "label": "Initiate palliative care"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative intent",
+      "detail": "Intent: Curative intent\nPatient group: Solitary plasmacytoma (osseous or extramedullary) with minimal marrow involvement (<10% clonal plasma cells)\nApproach: Radiation therapy (RT) to the involved site is the intervention of choice. Surgery may be considered for structural instability or neurologic compromise. Close surveillance for progression to MM is required [MYEL-2, MYEL-D].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Disease control/prevention of progression",
+      "detail": "Intent: Disease control/prevention of progression\nPatient group: Smoldering (asymptomatic) myeloma\nApproach: Risk stratification using Mayo 2018/IMWG 20/2/20 criteria. Low-risk patients may be observed at 3-6 month intervals. High-risk patients may consider clinical trials or early therapy with single-agent daratumumab (category 1) or lenalidomide (category 2B) [MYEL-3].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Remission induction and deep response",
+      "detail": "Intent: Remission induction and deep response\nPatient group: Symptomatic MM (newly diagnosed)\nApproach: Primary therapy with quadruplet regimens preferred for HCT-eligible patients (e.g., Dara-VRd, Isa-VRd). For HCT-ineligible or deferred, regimens like D-Rd, Dara-VRd (for non-frail patients <80 years) are preferred. Autologous HCT is standard for eligible patients. Maintenance therapy post-HCT is recommended [MYEL-4, MYEL-5, MYEL-G].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Disease control in relapsed/refractory MM",
+      "detail": "Intent: Disease control in relapsed/refractory MM\nPatient group: Previously treated MM\nApproach: Treatment based on prior therapies, refractory status, and depth of response. Options include triplet regimens, CAR T-cell therapy (e.g., cilta-cel, ide-cel), bispecific antibodies (e.g., elranatamab, teclistamab), or clinical trials. Consider re-challenge with prior agents if relapse after >6 months [MYEL-6, MYEL-G].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative care",
+      "detail": "Intent: Palliative care\nPatient group: Refractory disease with lack of treatment options\nApproach: Symptom management with palliative care specialist, supportive care, and hospice initiation as appropriate [MYEL-6].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "myeloma",
+  "_chars_in": 3961
+}

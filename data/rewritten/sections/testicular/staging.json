@@ -1,0 +1,161 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "{\"system\": \"AJCC 8th Edition TNM Staging Classification (2017) with serum marker (S) component unique to testicular cancer\", \"t_stages\": [{\"stage\": \"cTX\", \"description\": \"Primary tumor cannot be assessed\"}, {\"stage\": \"cT0\", \"description\": \"No evidence of primary tumor\"}, {\"stage\": \"cTis\", \"description\": \"Germ cell neoplasia in situ\"}, {\"stage\": \"cT4\", \"description\": \"Tumor invades scrotum with or without vascular/lymphatic invasion\"}, {\"stage\": \"pTX\", \"description\": \"Primary tumor cannot be assessed\"}, {\"stage\": \"pT0\", \"description\": \"No evidence of primary tumor\"}, {\"stage\": \"pTis\", \"description\": \"Germ cell neoplasia in situ\"}, {\"stage\": \"pT1\", \"description\": \"Tumor limited to testis (including rete testis invasion) without lymphovascular invasion. Substage pT1a: tumor smaller than 3 cm. Substage pT1b: tumor 3 cm or larger.\"}, {\"stage\": \"pT2\", \"description\": \"Tumor limited to testis (including rete testis invasion) with lymphovascular invasion OR tumor invading hilar soft tissue or epididymis or penetrating visceral mesothelial layer covering the external surface of tunica albuginea with or without lymphovascular invasion\"}, {\"stage\": \"pT3\", \"description\": \"Tumor directly invades spermatic cord soft tissue with or without lymphovascular invasion. NOTE: The Panel recommends staging tumors with discontinuous invasion of the spermatic cord as pT3 (high-risk stage I) and NOT as M1 (stage III) as recommended by the 8th edition AJCC [ST-1, MS-5, MS-17].\"}, {\"stage\": \"pT4\", \"description\": \"Tumor invades scrotum with or without lymphovascular invasion\"}], \"n_stages\": [{\"stage\": \"cNX\", \"description\": \"Regional lymph nodes cannot be assessed\"}, {\"stage\": \"cN0\", \"description\": \"No regional lymph node metastasis\"}, {\"stage\": \"cN1\", \"description\": \"Metastasis with a lymph node mass 2 cm or smaller in greatest dimension OR multiple lymph nodes, none larger than 2 cm in greatest dimension\"}, {\"stage\": \"cN2\", \"description\": \"Metastasis with a lymph node mass larger than 2 cm but not larger than 5 cm in greatest dimension OR multiple lymph nodes, any one mass larger than 2 cm but not larger than 5 cm in greatest dimension\"}, {\"stage\": \"cN3\", \"description\": \"Metastasis with a lymph node mass larger than 5 cm in greatest dimension\"}, {\"stage\": \"pNX\", \"description\": \"Regional lymph nodes cannot be assessed\"}, {\"stage\": \"pN0\", \"description\": \"No regional lymph node metastasis\"}, {\"stage\": \"pN1\", \"description\": \"Metastasis with a lymph node mass 2 cm or smaller in greatest dimension and less than or equal to five nodes positive, none larger than 2 cm in greatest dimension\"}, {\"stage\": \"pN2\", \"description\": \"Metastasis with a lymph node mass larger than 2 cm but not larger than 5 cm in greatest dimension; or more than five nodes positive, none larger than 5 cm; or evidence of extranodal extension of tumor\"}, {\"stage\": \"pN3\", \"description\": \"Metastasis with a lymph node mass larger than 5 cm in greatest dimension\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastases\"}, {\"stage\": \"M1\", \"description\": \"Distant metastases\"}, {\"stage\": \"M1a\", \"description\": \"Non-retroperitoneal nodal or pulmonary metastases\"}, {\"stage\": \"M1b\", \"description\": \"Non-pulmonary visceral metastases\"}], \"serum_marker_stages\": [{\"stage\": \"SX\", \"description\": \"Marker studies not available or not performed\"}, {\"stage\": \"S0\", \"description\": \"Marker study levels within normal limits\"}, {\"stage\": \"S1\", \"description\": \"LDH <1.5 x N (upper limit of normal) AND hCG (mIU/mL) <5,000 AND AFP (ng/mL) <1,000\"}, {\"stage\": \"S2\", \"description\": \"LDH 1.5-10 x N OR hCG (mIU/mL) 5,000-50,000 OR AFP (ng/mL) 1,000-10,000\"}, {\"stage\": \"S3\", \"description\": \"LDH >10 x N OR hCG (mIU/mL) >50,000 OR AFP (ng/mL) >10,000\"}], \"stage_groups\": [{\"group\": \"Stage 0\", \"criteria\": \"pTis N0 M0 S0\", \"clinical_meaning\": \"Germ cell neoplasia in situ (GCNIS) — precursor lesion\", \"five_yr_survival\": null, \"treatment_intent\": \"curative\"}, {\"group\": \"Stage I\", \"criteria\": \"pT1-T4 N0 M0 SX\", \"clinical_meaning\": \"Disease limited to the testis with normal post-orchiectomy markers. Overall survival for stage I approaches 100% regardless of management strategy.\", \"five_yr_survival\": \"~100% overall survival for stage I\", \"treatment_intent\": \"curative\"}, {\"group\": \"Stage IA\", \"criteria\": \"pT1 N0 M0 S0\", \"clinical_meaning\": \"Tumor limited to testis without lymphovascular invasion; normal post-orchiectomy markers\", \"five_yr_survival\": \"~100%\", \"treatment_intent\": \"curative\"}, {\"group\": \"Stage IB\", \"criteria\": \"pT2, pT3, or pT4 N0 M0 S0\", \"clinical_meaning\": \"Tumor with lymphovascular invasion, spermatic cord invasion, or scrotal invasion; normal post-orchiectomy markers\", \"five_yr_survival\": \"~100%\", \"treatment_intent\": \"curative\"}, {\"group\": \"Stage IS\", \"criteria\": \"Any pT/TX N0 M0 S1-3\", \"clinical_meaning\": \"Normal imaging but persistently elevated post-orchiectomy serum tumor markers indicating occult metastatic disease. Elevated tumor markers increase risk of disease outside retroperitone\"}]}"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "cTX",
+      "description": "Primary tumor cannot be assessed"
+    },
+    {
+      "category": "cT0",
+      "description": "No evidence of primary tumor"
+    },
+    {
+      "category": "cTis",
+      "description": "Germ cell neoplasia in situ"
+    },
+    {
+      "category": "cT4",
+      "description": "Tumor invades scrotum with or without vascular/lymphatic invasion"
+    },
+    {
+      "category": "pTX",
+      "description": "Primary tumor cannot be assessed"
+    },
+    {
+      "category": "pT0",
+      "description": "No evidence of primary tumor"
+    },
+    {
+      "category": "pTis",
+      "description": "Germ cell neoplasia in situ"
+    },
+    {
+      "category": "pT1",
+      "description": "Tumor limited to testis (including rete testis invasion) without lymphovascular invasion. Substage pT1a: tumor smaller than 3 cm. Substage pT1b: tumor 3 cm or larger."
+    },
+    {
+      "category": "pT2",
+      "description": "Tumor limited to testis (including rete testis invasion) with lymphovascular invasion OR tumor invading hilar soft tissue or epididymis or penetrating visceral mesothelial layer covering the external surface of tunica albuginea with or without lymphovascular invasion"
+    },
+    {
+      "category": "pT3",
+      "description": "Tumor directly invades spermatic cord soft tissue with or without lymphovascular invasion. NOTE: The Panel recommends staging tumors with discontinuous invasion of the spermatic cord as pT3 (high-risk stage I) and NOT as M1 (stage III) as recommended by the 8th edition AJCC [ST-1, MS-5, MS-17]."
+    },
+    {
+      "category": "pT4",
+      "description": "Tumor invades scrotum with or without lymphovascular invasion"
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "cNX",
+      "description": "Regional lymph nodes cannot be assessed"
+    },
+    {
+      "category": "cN0",
+      "description": "No regional lymph node metastasis"
+    },
+    {
+      "category": "cN1",
+      "description": "Metastasis with a lymph node mass 2 cm or smaller in greatest dimension OR multiple lymph nodes, none larger than 2 cm in greatest dimension"
+    },
+    {
+      "category": "cN2",
+      "description": "Metastasis with a lymph node mass larger than 2 cm but not larger than 5 cm in greatest dimension OR multiple lymph nodes, any one mass larger than 2 cm but not larger than 5 cm in greatest dimension"
+    },
+    {
+      "category": "cN3",
+      "description": "Metastasis with a lymph node mass larger than 5 cm in greatest dimension"
+    },
+    {
+      "category": "pNX",
+      "description": "Regional lymph nodes cannot be assessed"
+    },
+    {
+      "category": "pN0",
+      "description": "No regional lymph node metastasis"
+    },
+    {
+      "category": "pN1",
+      "description": "Metastasis with a lymph node mass 2 cm or smaller in greatest dimension and less than or equal to five nodes positive, none larger than 2 cm in greatest dimension"
+    },
+    {
+      "category": "pN2",
+      "description": "Metastasis with a lymph node mass larger than 2 cm but not larger than 5 cm in greatest dimension; or more than five nodes positive, none larger than 5 cm; or evidence of extranodal extension of tumor"
+    },
+    {
+      "category": "pN3",
+      "description": "Metastasis with a lymph node mass larger than 5 cm in greatest dimension"
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastases"
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastases"
+    },
+    {
+      "category": "M1a",
+      "description": "Non-retroperitoneal nodal or pulmonary metastases"
+    },
+    {
+      "category": "M1b",
+      "description": "Non-pulmonary visceral metastases"
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "Stage 0",
+      "t": "pTis",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "Stage I",
+      "t": "pT1-T4",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "Stage IA",
+      "t": "pT1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "Stage IB",
+      "t": "pT2, pT3, or pT4",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "Stage IS",
+      "t": "Any pT/TX",
+      "n": "N0",
+      "m": "M0"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "IA",
+      "IB"
+    ],
+    "os": [
+      100,
+      100,
+      100
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "testicular",
+  "_chars_in": 5000
+}

@@ -1,0 +1,156 @@
+{
+  "sections": [
+    {
+      "heading": "Complications",
+      "content": "{\"disease_related\": [{\"complication\": \"Bone metastases and skeletal-related events\", \"management\": \"Denosumab 120 mg SQ every 4 weeks (category 1, preferred) or zoledronic acid 4 mg IV every 12 weeks for prevention of symptomatic SREs in patients with bone-metastatic CRPC. EBRT for palliation of painful bone metastases. Radium-223 for symptomatic bone metastases without visceral metastases. Bisphosphonates or denosumab for bone loss prevention in castration-sensitive patients on ADT based on FRAX risk assessment.\"}, {\"complication\": \"Spinal cord compression\", \"management\": \"Emergency MRI for suspected spinal cord compression; emergent decompressive surgery if feasible followed by RT, or RT alone. EBRT can be considered for patients with limited life expectancy.\"}, {\"complication\": \"Pathologic fracture\", \"management\": \"Surgical fixation as needed; antiresorptive therapy with denosumab or zoledronic acid for prevention; calcium and vitamin D supplementation; evaluation of fall risk; weight-bearing exercises.\"}, {\"complication\": \"Urinary obstruction\", \"management\": \"TURP for bladder outlet obstruction; nephrostomy tubes or ureteral stents for ureteral obstruction; palliative RT to prostate if appropriate.\"}, {\"complication\": \"Visceral metastases (liver, lung, adrenal, brain)\", \"management\": \"Systemic therapy based on prior treatments and biomarker status; palliative RT for symptom control; chemotherapy with platinum-based regimens if neuroendocrine features present.\"}, {\"complication\": \"Local recurrence after definitive therapy\", \"management\": \"PSA monitoring per post-treatment protocols; secondary therapy options include RT (for post-RP recurrence), local secondary therapy including cryotherapy, HIFU, IRE, reirradiation, or RP (for post-RT recurrence); systemic therapy if metastatic disease present.\"}, {\"complication\": \"Progression to neuroendocrine/small cell prostate cancer\", \"management\": \"Biopsy of metastatic lesions to identify small cell/neuroendocrine histology; cytotoxic chemotherapy with cisplatin/etoposide, carboplatin/etoposide, docetaxel/carboplatin, or cabazitaxel/carboplatin; consult NCCN Guidelines for Small Cell Lung Cancer for additional options.\"}], \"treatment_related\": {\"chemotherapy\": [\"Docetaxel: neutropenia, leukopenia, febrile neutropenia, neutropenic infections, fluid retention, hypersensitivity reaction, hepatic function impairment, neuropathy, fatigue, nausea, vomiting, alopecia, diarrhea\", \"Cabazitaxel: febrile neutropenia, severe diarrhea (6%), fatigue (5%), nausea/vomiting, anemia (11%), thrombocytopenia (4%), sepsis, renal failure; lower neuropathy than docetaxel especially at 20 mg/m2\", \"Mitoxantrone: similar adverse events to docetaxel but lower rates of grade 3-4 neutropenic fevers, cardiovascular events, nausea and vomiting, metabolic disturbances, and neurologic events\"], \"immunotherapy\": [\"Sipuleucel-T: mild to moderate chills (54.1%), pyrexia (29.3%), headache (16.0%); usually transient; not recommended if visceral metastases present\", \"Pembrolizumab: severe immune-mediated adverse reactions including pneumonitis, colitis, hepatitis, myocarditis, endocrinopathies, exfoliative dermatologic conditions, renal failure, nephritis, ocular toxicities\"], \"targeted_therapy\": [\"PARP inhibitors (olaparib, rucaparib, niraparib, talazoparib): anemia (including requiring transfusion), fatigue, nausea, vomiting, anorexia, weight loss, diarrhea, thrombocytopenia, creatinine elevation; rare but serious: thromboembolic events, drug-induced pneumonitis, theoretical risk of myelodysplasia or acute myeloid leukemia\", \"PARP inhibitor combinations with ARPIs: higher rates of anemia (29% with niraparib/abiraterone vs 4.6% control), hypertension, and grade 3-4 adverse events (75% vs 59% for niraparib arm)\", \"Abiraterone: hypertension, hypokalemia, edema, fatigue, hot flushes, liver toxicity, cardiac events (rare atrial fibrillation)\", \"Enzalutamide: fatigue, seizures (0.9%), hypertension\", \"Apalutamide: rash (24%), fracture (11%), hypothyroidism (8%)\", \"Darolutamide: fatigue, pain in extremity, rash\", \"Lu-177-PSMA-617: anemia, thrombocytopenia, lymphopenia, fatigue\"], \"surgery\": [\"Radical prostatectomy: urinary incontinence (20-50% requiring ≥1 pad/day), erectile dysfunction (40-60%), penile shortening, urethral or bladder neck contracture/stricture; anastomotic strictures increase risk of long-term incontinence\", \"Pelvic lymph node dissection: lymphocele, lymphedema, deep vein thrombosis, vascular injury\", \"Secondary RP after RT: significantly higher morbidity including incontinence, erectile dysfunction, bladder neck contracture, and rectal injury\"], \"radiation\": [\"External beam RT: acute GI toxicity (rectal urgency, frequency, diarrhea), acute GU toxicity (urinary frequency, urgency, dysuria); late GI toxicity (rectal bleeding, fistula); late GU toxicity (urethral stricture, hematuria)\", \"Brachytherapy: urinary frequency, urgency, retention; erectile dysfunction; rectal injury; urethral stricture\"]}}"
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Cabazitaxel - severe diarrhea",
+      "Cabazitaxel - fatigue",
+      "Cabazitaxel - anemia",
+      "Cabazitaxel - thrombocytopenia",
+      "Sipuleucel-T - chills",
+      "Sipuleucel-T - pyrexia",
+      "Sipuleucel-T - headache",
+      "Enzalutamide - seizures",
+      "Apalutamide - rash",
+      "Apalutamide - fracture",
+      "Apalutamide - hypothyroidism",
+      "Radical prostatectomy - urinary incontinence",
+      "Radical prostatectomy - erectile dysfunction",
+      "PARP combo - anemia",
+      "PARP combo - grade 3-4 adverse events"
+    ],
+    "values": [
+      6,
+      5,
+      11,
+      4,
+      54.1,
+      29.3,
+      16.0,
+      0.9,
+      24,
+      11,
+      8,
+      20,
+      40,
+      29,
+      75
+    ],
+    "severities": [
+      "severe",
+      "moderate",
+      "moderate",
+      "moderate",
+      "mild to moderate",
+      "mild to moderate",
+      "mild to moderate",
+      "severe",
+      "moderate",
+      "severe",
+      "mild",
+      "moderate",
+      "moderate",
+      "severe",
+      "severe"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Cabazitaxel - severe diarrhea",
+      "incidence": "6%",
+      "severity": "severe",
+      "detail": "Cabazitaxel: febrile neutropenia, severe diarrhea (6%), fatigue (5%), nausea/vomiting, anemia (11%), thrombocytopenia (4%), sepsis, renal failure; lower neuropathy than docetaxel especially at 20 mg/m2"
+    },
+    {
+      "name": "Cabazitaxel - fatigue",
+      "incidence": "5%",
+      "severity": "moderate",
+      "detail": "Cabazitaxel: febrile neutropenia, severe diarrhea (6%), fatigue (5%), nausea/vomiting, anemia (11%), thrombocytopenia (4%), sepsis, renal failure; lower neuropathy than docetaxel especially at 20 mg/m2"
+    },
+    {
+      "name": "Cabazitaxel - anemia",
+      "incidence": "11%",
+      "severity": "moderate",
+      "detail": "Cabazitaxel: febrile neutropenia, severe diarrhea (6%), fatigue (5%), nausea/vomiting, anemia (11%), thrombocytopenia (4%), sepsis, renal failure; lower neuropathy than docetaxel especially at 20 mg/m2"
+    },
+    {
+      "name": "Cabazitaxel - thrombocytopenia",
+      "incidence": "4%",
+      "severity": "moderate",
+      "detail": "Cabazitaxel: febrile neutropenia, severe diarrhea (6%), fatigue (5%), nausea/vomiting, anemia (11%), thrombocytopenia (4%), sepsis, renal failure; lower neuropathy than docetaxel especially at 20 mg/m2"
+    },
+    {
+      "name": "Sipuleucel-T - chills",
+      "incidence": "54.1%",
+      "severity": "mild to moderate",
+      "detail": "Sipuleucel-T: mild to moderate chills (54.1%), pyrexia (29.3%), headache (16.0%); usually transient; not recommended if visceral metastases present"
+    },
+    {
+      "name": "Sipuleucel-T - pyrexia",
+      "incidence": "29.3%",
+      "severity": "mild to moderate",
+      "detail": "Sipuleucel-T: mild to moderate chills (54.1%), pyrexia (29.3%), headache (16.0%); usually transient; not recommended if visceral metastases present"
+    },
+    {
+      "name": "Sipuleucel-T - headache",
+      "incidence": "16.0%",
+      "severity": "mild to moderate",
+      "detail": "Sipuleucel-T: mild to moderate chills (54.1%), pyrexia (29.3%), headache (16.0%); usually transient; not recommended if visceral metastases present"
+    },
+    {
+      "name": "Enzalutamide - seizures",
+      "incidence": "0.9%",
+      "severity": "severe",
+      "detail": "Enzalutamide: fatigue, seizures (0.9%), hypertension"
+    },
+    {
+      "name": "Apalutamide - rash",
+      "incidence": "24%",
+      "severity": "moderate",
+      "detail": "Apalutamide: rash (24%), fracture (11%), hypothyroidism (8%)"
+    },
+    {
+      "name": "Apalutamide - fracture",
+      "incidence": "11%",
+      "severity": "severe",
+      "detail": "Apalutamide: rash (24%), fracture (11%), hypothyroidism (8%)"
+    },
+    {
+      "name": "Apalutamide - hypothyroidism",
+      "incidence": "8%",
+      "severity": "mild",
+      "detail": "Apalutamide: rash (24%), fracture (11%), hypothyroidism (8%)"
+    },
+    {
+      "name": "Radical prostatectomy - urinary incontinence",
+      "incidence": "20% (range 20-50%)",
+      "severity": "moderate",
+      "detail": "Radical prostatectomy: urinary incontinence (20-50% requiring ≥1 pad/day), erectile dysfunction (40-60%), penile shortening, urethral or bladder neck contracture/stricture; anastomotic strictures increase risk of long-term incontinence"
+    },
+    {
+      "name": "Radical prostatectomy - erectile dysfunction",
+      "incidence": "40% (range 40-60%)",
+      "severity": "moderate",
+      "detail": "Radical prostatectomy: urinary incontinence (20-50% requiring ≥1 pad/day), erectile dysfunction (40-60%), penile shortening, urethral or bladder neck contracture/stricture; anastomotic strictures increase risk of long-term incontinence"
+    },
+    {
+      "name": "PARP combo - anemia",
+      "incidence": "29%",
+      "severity": "severe",
+      "detail": "PARP inhibitor combinations with ARPIs: higher rates of anemia (29% with niraparib/abiraterone vs 4.6% control), hypertension, and grade 3-4 adverse events (75% vs 59% for niraparib arm)"
+    },
+    {
+      "name": "PARP combo - grade 3-4 adverse events",
+      "incidence": "75%",
+      "severity": "severe",
+      "detail": "PARP inhibitor combinations with ARPIs: higher rates of anemia (29% with niraparib/abiraterone vs 4.6% control), hypertension, and grade 3-4 adverse events (75% vs 59% for niraparib arm)"
+    }
+  ],
+  "_section": "complications",
+  "_site_id": "prostate",
+  "_chars_in": 5000
+}

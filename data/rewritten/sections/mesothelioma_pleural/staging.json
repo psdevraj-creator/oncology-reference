@@ -1,0 +1,147 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "AJCC Cancer Staging System, 9th edition [ST-1, ST-2].\n\nT categories:\nTX: Primary tumor cannot be assessed.\nT0: No evidence of primary tumor.\nT1: Tumor limited to the ipsilateral pleura with Psum ≤12 mm and no involvement of the fissure (Fmax ≤5 mm). Psum is the sum of three measurements of maximal pleural thickness along the chest wall or mediastinum in upper, middle, and lower divisions. Fmax is the maximal thickness along fissures on sagittal images [ST-1].\nT2: Tumor involving each of the ipsilateral pleura with Psum ≤12 mm and with any of the following: involvement of the fissure (Fmax >5 mm), mediastinal fat invasion, solitary area of chest wall soft tissue invasion; OR tumor involving each of the ipsilateral pleura with Psum >12 mm but ≤30 mm, with or without involvement of the fissure, mediastinal fat invasion, or solitary area of chest wall soft tissue invasion [ST-1].\nT3: Tumor involving the ipsilateral pleura with Psum >30 mm, with or without involvement of the fissure (Fmax >5 mm), mediastinal fat invasion, or solitary area of chest wall soft tissue invasion [ST-1].\nT4: Tumor with invasion of any of the following: chest wall bony invasion (rib), mediastinal organs (heart, spine, esophagus, trachea, great vessels), diffuse chest wall invasion, direct tumor extension through the diaphragm or pericardium, direct tumor extension to the contralateral pleura, presence of malignant pericardial effusion [ST-1].\n\nN categories:\nNX: Regional lymph nodes cannot be assessed.\nN0: No tumor involvement of regional lymph node(s).\nN1: Tumor involvement of ipsilateral bronchopulmonary, hilar, or mediastinal (including the internal mammary, peridiaphragmatic, pericardial fat pad, or intercostal lymph nodes) regional lymph nodes [ST-2].\nN2: Tumor involvement of contralateral mediastinal, ipsilateral, or contralateral supraclavicular lymph nodes [ST-2].\n\nM categories:\nM0: No distant metastasis.\nM1: Distant metastasis [ST-2].\n\nStage groups:\nStage I: T1 N0 M0. Clinical meaning: Tumor limited to ipsilateral pleura without lymph node involvement or distant metastasis. 5-year survival: Not explicitly stated; overall median survival ~1 year, 5-year survival about 5-10% [MS-2].\nStage II: T2 N0 M0 or T1 N1 M0. Clinical meaning: Tumor with limited extension or ipsilateral lymph node involvement, no distant metastasis. 5-year survival: Not specified; poor, median OS ~1 year.\nStage IIIA: T2 N1 M0 or T3 N0-N1 M0 or T1-T3 N2 M0. Clinical meaning: Locally advanced with possible mediastinal lymph node involvement. 5-year survival: Not specified; diminished with N2 disease.\nStage IIIB: T4 Any N M0. Clinical meaning: Tumor invasion of adjacent structures, unresectable. 5-year survival: Poor; median OS <1 year.\nStage IV: Any T Any N M1. Clinical meaning: Distant metastatic disease. 5-year survival: Very poor; median OS <1 year."
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed."
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor."
+    },
+    {
+      "category": "T1",
+      "description": "Tumor limited to the ipsilateral pleura with Psum ≤12 mm and no involvement of the fissure (Fmax ≤5 mm). Psum is the sum of three measurements of maximal pleural thickness along the chest wall or mediastinum in upper, middle, and lower divisions. Fmax is the maximal thickness along fissures on sagittal images [ST-1]."
+    },
+    {
+      "category": "T2",
+      "description": "Tumor involving each of the ipsilateral pleura with Psum ≤12 mm and with any of the following: involvement of the fissure (Fmax >5 mm), mediastinal fat invasion, solitary area of chest wall soft tissue invasion; OR tumor involving each of the ipsilateral pleura with Psum >12 mm but ≤30 mm, with or without involvement of the fissure, mediastinal fat invasion, or solitary area of chest wall soft tissue invasion [ST-1]."
+    },
+    {
+      "category": "T3",
+      "description": "Tumor involving the ipsilateral pleura with Psum >30 mm, with or without involvement of the fissure (Fmax >5 mm), mediastinal fat invasion, or solitary area of chest wall soft tissue invasion [ST-1]."
+    },
+    {
+      "category": "T4",
+      "description": "Tumor with invasion of any of the following: chest wall bony invasion (rib), mediastinal organs (heart, spine, esophagus, trachea, great vessels), diffuse chest wall invasion, direct tumor extension through the diaphragm or pericardium, direct tumor extension to the contralateral pleura, presence of malignant pericardial effusion [ST-1]."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "NX",
+      "description": "Regional lymph nodes cannot be assessed."
+    },
+    {
+      "category": "N0",
+      "description": "No tumor involvement of regional lymph node(s)."
+    },
+    {
+      "category": "N1",
+      "description": "Tumor involvement of ipsilateral bronchopulmonary, hilar, or mediastinal (including the internal mammary, peridiaphragmatic, pericardial fat pad, or intercostal lymph nodes) regional lymph nodes [ST-2]."
+    },
+    {
+      "category": "N2",
+      "description": "Tumor involvement of contralateral mediastinal, ipsilateral, or contralateral supraclavicular lymph nodes [ST-2]."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis."
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis [ST-2]."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "I",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "II",
+      "t": "T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "II",
+      "t": "T1",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T2",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T3",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T3",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T1",
+      "n": "N2",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T2",
+      "n": "N2",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T3",
+      "n": "N2",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIB",
+      "t": "T4",
+      "n": "NX",
+      "m": "M0"
+    },
+    {
+      "stage": "IV",
+      "t": "TX",
+      "n": "NX",
+      "m": "M1"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      7.5,
+      0,
+      0,
+      0
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "mesothelioma_pleural",
+  "_chars_in": 5000
+}

@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\"role\": \"Radiation therapy (RT) plays a limited but important role in hepatobiliary cancers, primarily for palliation of symptoms (e.g., pain, biliary obstruction), treatment of oligometastatic disease, or as adjuvant therapy for positive surgical margins. Its use is often constrained by the radiosensitivity of the surrounding liver parenchyma and gastrointestinal structures.\", \"principles\": [\"Treatment planning must spare the uninvolved liver to prevent radiation-induced liver disease (RILD).\", \"Conformal techniques (3D-CRT, IMRT, SBRT) are essential to deliver therapeutic doses while minimizing toxicity.\", \"The tolerance dose of the whole liver is approximately 30-35 Gy; focal treatments can deliver higher doses to limited volumes.\", \"For BTC, RT is often combined with concurrent chemotherapy (e.g., fluoropyrimidines) as a radiosensitizer.\"], \"dose_frameworks\": [{\"name\": \"Conventional Fractionation\", \"total_dose\": \"45-54 Gy\", \"dose_per_fraction\": \"1.8-2.0 Gy\", \"fractions\": \"25-30\", \"schedule\": \"Daily, Monday-Friday\", \"indication\": \"Adjuvant treatment after resection with positive margins (R1/R2) for BTC, or for unresectable localized disease in combination with chemotherapy.\"}, {\"name\": \"Stereotactic Body Radiation Therapy (SBRT)\", \"total_dose\": \"30-50 Gy\", \"dose_per_fraction\": \"5-10 Gy\", \"fractions\": \"3-5\", \"schedule\": \"Daily or every other day\", \"indication\": \"Oligometastatic liver disease (HCC or BTC), locally advanced HCC not amenable to TACE, or as a bridge to transplant for HCC.\"}, {\"name\": \"Palliative Radiation\", \"total_dose\": \"8 Gy x 1 fraction or 30 Gy in 10 fractions\", \"dose_per_fraction\": \"8 Gy or 3 Gy\", \"fractions\": \"1 or 10\", \"schedule\": \"Single fraction or 2 weeks\", \"indication\": \"Symptom control for painful bone metastases, brain metastases, or obstructive symptoms.\"}], \"approaches\": [{\"name\": \"Adjuvant Radiation for BTC after R1/R2 Resection\", \"dose_fractionation\": \"45-54 Gy in 1.8-2.0 Gy fractions\", \"concurrent_chemotherapy\": \"Capecitabine or 5-FU\", \"indication\": \"Positive surgical margins after resection of BTC (extrahepatic CCA, gallbladder cancer).\", \"key_trial\": \"Data are retrospective; the BILCAP trial established adjuvant capecitabine, but the role of RT is less defined. Some centers use RT for margin-positive disease.\", \"toxicities\": \"Nausea, vomiting, diarrhea, fatigue, liver toxicity (rare with modern techniques).\"}, {\"name\": \"SBRT for Oligometastatic Liver Disease\", \"dose_fractionation\": \"30-50 Gy in 3-5 fractions\", \"concurrent_chemotherapy\": \"None typically\", \"indication\": \"Limited number of liver metastases (≤3-5) from BTC or HCC, not amenable to resection or ablation.\", \"key_trial\": \"Multiple phase II trials support SBRT for liver metastases; no large randomized trial specific for BTC.\", \"toxicities\": \"Liver toxicity (RILD), gastrointestinal toxicity if adjacent to stomach/bowel, fatigue.\"}, {\"name\": \"Palliative Radiation for Bone Metastases\", \"dose_fractionation\": \"8 Gy in 1 fraction or 30 Gy in 10 fractions\", \"concurrent_chemotherapy\": \"None\", \"indication\": \"Painful bone metastases from HCC or BTC.\", \"key_trial\": \"Standard palliative RT principles apply.\", \"toxicities\": \"Fatigue, local pain flare, rare myelosuppression.\"}]}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Conventional Fractionation",
+      "value": 49.5,
+      "unit": "Gy"
+    },
+    {
+      "label": "Stereotactic Body Radiation Therapy (SBRT)",
+      "value": 40,
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative Radiation - Single Fraction",
+      "value": 8,
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative Radiation - 10 Fractions",
+      "value": 30,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Conventional Fractionation",
+      "body": "45-54 Gy in 25-30 fractions (1.8-2.0 Gy/fraction), daily M-F",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Stereotactic Body Radiation Therapy (SBRT)",
+      "body": "30-50 Gy in 3-5 fractions (5-10 Gy/fraction), daily or every other day",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Palliative Radiation - Single Fraction",
+      "body": "8 Gy in 1 fraction",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Palliative Radiation - 10 Fractions",
+      "body": "30 Gy in 10 fractions (3 Gy/fraction), 2 weeks",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "hepatobiliary",
+  "_chars_in": 3216
+}

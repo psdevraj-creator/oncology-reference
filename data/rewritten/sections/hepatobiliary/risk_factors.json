@@ -1,0 +1,138 @@
+{
+  "sections": [
+    {
+      "heading": "Risk Factors",
+      "content": "Hepatitis B Virus (HBV) Chronic Infection (Infectious / Viral) - Strong / Established. Associated with 5-100 fold increased risk.\nHepatitis C Virus (HCV) Chronic Infection (Infectious / Viral) - Strong / Established. Associated with 15-20 fold increased risk in cirrhotics.\nAlcoholic Liver Disease / Cirrhosis (Toxic / Metabolic) - Strong / Established. Cirrhosis from any etiology confers a 1-2% annual risk of developing HCC.\nNon-alcoholic Fatty Liver Disease (NAFLD) / Non-alcoholic Steatohepatitis (NASH) (Metabolic) - Strong / Established. Risk is increasing in parallel with the obesity epidemic.\nAflatoxin B1 Exposure (Environmental / Dietary) - Strong / Established. High exposure areas (sub-Saharan Africa, China) have high HCC incidence.\nCirrhosis (from Any Cause) (Pathophysiological State) - Strong / Established. HCC surveillance is recommended for this population.\nPrimary Sclerosing Cholangitis (PSC) (Autoimmune / Inflammatory) - Strong / Established for pCCA.\nGallstones (Cholelithiasis) (Inflammatory / Mechanical) - Strong / Established. Gallbladder cancer risk is highest in populations with high prevalence of gallstones.\nLiver Fluke Infections (Opisthorchis viverrini, Clonorchis sinensis) (Infectious / Parasitic) - Strong / Established. Designated as a Group 1 carcinogen by IARC.\nIntrahepatic Stones (Hepatolithiasis) (Inflammatory) - Strong / Established.\nFamilial Adenomatous Polyposis (FAP) (Hereditary / Genetic) - Strong / Established for ampulla of Vater cancer.\nHereditary Hemochromatosis (Hereditary / Metabolic) - Moderate / Established. The risk is mediated via cirrhosis.\nDiabetes Mellitus Type 2 (Metabolic) - Moderate / Established. Associated with 2-3 fold increased risk of HCC."
+    }
+  ],
+  "waterfall": {
+    "labels": [
+      "HBV",
+      "HCV",
+      "Alcoholic Liver Disease",
+      "NAFLD/NASH",
+      "Aflatoxin B1",
+      "Cirrhosis",
+      "PSC",
+      "Gallstones",
+      "Liver Flukes",
+      "Intrahepatic Stones",
+      "FAP",
+      "Hemochromatosis",
+      "Diabetes Type 2"
+    ],
+    "values": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      50,
+      50
+    ],
+    "types": [
+      "Infectious / Viral",
+      "Infectious / Viral",
+      "Toxic / Metabolic",
+      "Metabolic",
+      "Environmental / Dietary",
+      "Pathophysiological State",
+      "Autoimmune / Inflammatory",
+      "Inflammatory / Mechanical",
+      "Infectious / Parasitic",
+      "Inflammatory",
+      "Hereditary / Genetic",
+      "Hereditary / Metabolic",
+      "Metabolic"
+    ]
+  },
+  "cards": [
+    {
+      "factor": "Hepatitis B Virus (HBV) Chronic Infection",
+      "type": "Infectious / Viral",
+      "strength": "Strong / Established. Associated with 5-100 fold increased risk.",
+      "detail": "Leading cause of HCC globally, especially in Asia and Africa. Causes cirrhosis and also promotes oncogenesis via direct insertional mutagenesis and viral oncoproteins (HBx). The risk is present even in the absence of cirrhosis."
+    },
+    {
+      "factor": "Hepatitis C Virus (HCV) Chronic Infection",
+      "type": "Infectious / Viral",
+      "strength": "Strong / Established. Associated with 15-20 fold increased risk in cirrhotics.",
+      "detail": "The leading cause of HCC in the United States and Europe. Risk is mediated primarily through progressive hepatic fibrosis and cirrhosis. Direct-acting antivirals (DAAs) that cure HCV reduce but do not eliminate HCC risk."
+    },
+    {
+      "factor": "Alcoholic Liver Disease / Cirrhosis",
+      "type": "Toxic / Metabolic",
+      "strength": "Strong / Established. Cirrhosis from any etiology confers a 1-2% annual risk of developing HCC.",
+      "detail": "Chronic excessive alcohol consumption is a major cause of cirrhosis, which is the strongest single risk factor for HCC. The combination of alcohol with viral hepatitis synergistically increases risk."
+    },
+    {
+      "factor": "Non-alcoholic Fatty Liver Disease (NAFLD) / Non-alcoholic Steatohepatitis (NASH)",
+      "type": "Metabolic",
+      "strength": "Strong / Established. Risk is increasing in parallel with the obesity epidemic.",
+      "detail": "The fastest-growing cause of HCC in Western nations, often arising in the setting of metabolic syndrome (obesity, type 2 diabetes, dyslipidemia). Can develop HCC in the absence of advanced fibrosis or cirrhosis."
+    },
+    {
+      "factor": "Aflatoxin B1 Exposure",
+      "type": "Environmental / Dietary",
+      "strength": "Strong / Established. High exposure areas (sub-Saharan Africa, China) have high HCC incidence.",
+      "detail": "A potent hepatocarcinogen produced by Aspergillus fungi, contaminating staple grains (corn, peanuts) in tropical climates. Causes a specific A:T→G:C mutation in the TP53 gene (codon 249). Risk is synergistic with HBV infection."
+    },
+    {
+      "factor": "Cirrhosis (from Any Cause)",
+      "type": "Pathophysiological State",
+      "strength": "Strong / Established. HCC surveillance is recommended for this population.",
+      "detail": "The single most important risk factor for HCC. Approximately 80-90% of HCC cases arise in a cirrhotic liver. The annual HCC risk in cirrhotic patients ranges from 1-8%, varying by etiology and severity."
+    },
+    {
+      "factor": "Primary Sclerosing Cholangitis (PSC)",
+      "type": "Autoimmune / Inflammatory",
+      "strength": "Strong / Established for pCCA.",
+      "detail": "A chronic cholestatic liver disease strongly associated with inflammatory bowel disease (ulcerative colitis). It is the major risk factor for perihilar cholangiocarcinoma (pCCA). Patients with PSC have a lifetime risk of developing pCCA of 10-15%."
+    },
+    {
+      "factor": "Gallstones (Cholelithiasis)",
+      "type": "Inflammatory / Mechanical",
+      "strength": "Strong / Established. Gallbladder cancer risk is highest in populations with high prevalence of gallstones.",
+      "detail": "The primary risk factor for gallbladder cancer, particularly large stones (>3 cm), which cause chronic inflammation and irritation of the gallbladder mucosa."
+    },
+    {
+      "factor": "Liver Fluke Infections (Opisthorchis viverrini, Clonorchis sinensis)",
+      "type": "Infectious / Parasitic",
+      "strength": "Strong / Established. Designated as a Group 1 carcinogen by IARC.",
+      "detail": "Chronic infection, common in Southeast Asia, causes chronic biliary inflammation and is a major risk factor for intrahepatic and perihilar cholangiocarcinoma."
+    },
+    {
+      "factor": "Intrahepatic Stones (Hepatolithiasis)",
+      "type": "Inflammatory",
+      "strength": "Strong / Established.",
+      "detail": "Stones within the intrahepatic bile ducts cause chronic biliary obstruction and recurrent cholangitis, significantly increasing the risk of intrahepatic cholangiocarcinoma."
+    },
+    {
+      "factor": "Familial Adenomatous Polyposis (FAP)",
+      "type": "Hereditary / Genetic",
+      "strength": "Strong / Established for ampulla of Vater cancer.",
+      "detail": "A syndrome caused by germline mutations in the APC gene. Patients have a markedly increased lifetime risk of ampullary carcinoma, among other gastrointestinal malignancies."
+    },
+    {
+      "factor": "Hereditary Hemochromatosis",
+      "type": "Hereditary / Metabolic",
+      "strength": "Moderate / Established. The risk is mediated via cirrhosis.",
+      "detail": "Iron overload disorder that can lead to cirrhosis and subsequently HCC. The risk is particularly elevated in patients who develop cirrhosis."
+    },
+    {
+      "factor": "Diabetes Mellitus Type 2",
+      "type": "Metabolic",
+      "strength": "Moderate / Established. Associated with 2-3 fold increased risk of HCC.",
+      "detail": "An independent risk factor for HCC, especially in the absence of cirrhosis, though the risk is amplified by co-existing NAFLD/NASH. Also associated with increased risk of BTC."
+    }
+  ],
+  "_section": "risk_factors",
+  "_site_id": "hepatobiliary",
+  "_chars_in": 4889
+}

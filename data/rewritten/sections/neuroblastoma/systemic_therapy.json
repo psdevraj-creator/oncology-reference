@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy for neuroblastoma is risk-stratified. Low-risk patients generally do not require systemic therapy or receive minimal chemotherapy. Intermediate-risk patients receive moderate-intensity multiagent chemotherapy. High-risk patients receive intensive multiagent induction chemotherapy, followed by consolidation with high-dose chemotherapy and autologous stem cell rescue, and post-consolidation immunotherapy. The combination of irinotecan, temozolomide, and GD2-directed antibody therapy is widely used at relapse. Emerging targeted therapies (ALK inhibitors, eflornithine) are being incorporated [NEUROB-D 1 of 13]."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Low-risk disease (INRG L1, non-MYCN amplified)",
+      "drugs": "Observation or surgery alone; chemotherapy rarely needed [NEUROB-3]",
+      "detail": "Rationale: Excellent outcomes (>90% 5-year EFS, >97% 5-year OS) with minimal or no therapy [NEUROB-C]. Alternatives: None; therapy reduction is the goal for favorable biology. Biomarker requirements: MYCN amplification assessment required for risk assignment; if detected in incompletely resected L1, reassign to high-risk [NEUROB-2]."
+    },
+    {
+      "name": "Intermediate-risk disease",
+      "drugs": "Carboplatin/Cyclophosphamide/Doxorubicin/Etoposide alternating regimens (2–8 cycles based on risk factors); or SIOPEN Carboplatin/Etoposide alternating with Cyclophosphamide/Doxorubicin/Vincristine [NEUROB-D 2 of 13]",
+      "detail": "Rationale: Response- and biology-based therapy maintained excellent outcomes (5-year EFS 85.1%, 5-year OS 95.8%) while reducing therapy for favorable biology patients [NEUROB-D 1 of 13, NEUROB-C]. Alternatives: Subsequent-line chemotherapy if inadequate response (e.g., cyclophosphamide/topotecan per Twist CJ, et al. J Clin Oncol 2019) [NEUROB-D 2 of 13]. Biomarker requirements: MYCN amplification, histology (FH/UH), DNA index, SCA status to determine cycle count [NEUROB-4–6]."
+    },
+    {
+      "name": "High-risk disease: Induction",
+      "drugs": "ANBL12P1 or ANBL1531 (5-cycle) induction; ANBL0532 (6-cycle) also acceptable [NEUROB-D 3 of 13]. Regimen includes topotecan/cyclophosphamide (cycles 1–2), cisplatin/etoposide (cycles 3, 5), vincristine/doxorubicin/cyclophosphamide (cycle 4) [NEUROB-D 7 of 13].",
+      "detail": "Rationale: 80% end-induction response rate (PR or better); ~9% progression. Reduced nephrotoxicity/cardiac toxicity with evolution of regimens [NEUROB-D 3 of 13]. Alternatives: Other published chemotherapy regimens achieving similar end-induction response rates could be considered as alternatives [NEUROB-D 3 of 13]. Early ALK inhibitors under investigation (not recommended outside clinical trials) [NEUROB-D 3 of 13]. Biomarker requirements: ALK alterations: early ALK inhibitor use under investigation [NEUROB-D 3 of 13]."
+    },
+    {
+      "name": "High-risk disease: Consolidation",
+      "drugs": "Tandem transplant: Thiotepa/Cyclophosphamide followed by Carboplatin/Etoposide/Melphalan [NEUROB-D 8 of 13, NEUROB-D 5 of 13]",
+      "detail": "Rationale: Significantly improved EFS with tandem vs single transplant (3-year EFS 61.6% vs 48.4%) [NEUROB-D 5 of 13]. Alternatives: Single transplant with full-dose CEM for special high-risk subgroups (L2 ≥18 months, MYCN non-amplified, UH; or M 12–<18 months, MYCN non-amplified, unfavorable features) [NEUROB-D 5 of 13]. BuMel conditioning regimen (preferred in Europe; COG ANBL12P1 demonstrated feasibility) [NEUROB-D 5 of 13]. Biomarker requirements: MYCN status and other risk factors to determine tandem vs single transplant [NEUROB-D 5 of 13]."
+    },
+    {
+      "name": "High-risk disease: Post-consolidation",
+      "drugs": "Isotretinoin/Sargramostim + Dinutuximab (ANBL0032 regimen) [NEUROB-D 9 of 13]",
+      "detail": "Rationale: ANBL0032 demonstrated significant improvement in EFS: 2-year EFS 66% vs 46% with isotretinoin alone [NEUROB-D 6 of 13]. Alternatives: Dinutuximab beta with isotretinoin without sargramostim (European approach) [NEUROB-D 6 of 13]. Interleukin-2 is no longer included (SIOPEN HR-NBL1: no benefit, increased toxicity) [NEUROB-D 6 of 13]. Biomarker requirements: None specified for post-consolidation therapy selection."
+    },
+    {
+      "name": "High-risk disease: Continuation",
+      "drugs": "Eflornithine (DFMO) 750 mg/m² ± 250 mg/m² PO twice daily for up to 2 years [NEUROB-D 9 of 13]",
+      "detail": "Rationale: FDA-approved December 2023. Propensity score-matched analysis: EFS HR 0.48 (95% CI 0.27–0.85), OS HR 0.32 (95% CI 0.15–0.70) [NEUROB-D 6 of 13]. Alternatives: Observation after completion of immunotherapy [NEUROB-D 6 of 13]. Biomarker requirements: Patient must be in remission with at least a PR to prior systemic agents and have completed post-consolidation immunotherapy with an anti-GD2 antibody [NEUROB-D 9 of 13]."
+    },
+    {
+      "name": "Relapsed/refractory disease: First relapse",
+      "drugs": "The combination of irinotecan, temozolomide, and GD2-directed antibody therapy [from overview]",
+      "detail": "Detail not fully provided in by_stage_and_setting; overview mentions widely used at relapse. Additional text from overview: 'The combination of irinotecan, temozolomide, and GD2-directed antibody therapy is widely used at relapse.'"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line (High-risk Induction)",
+      "body": "Topotecan/cyclophosphamide → cisplatin/etoposide → vincristine/doxorubicin/cyclophosphamide (5-6 cycles) [NEUROB-D 7 of 13]",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "2nd Line (Consolidation)",
+      "body": "Tandem transplant: Thiotepa/Cyclophosphamide then Carboplatin/Etoposide/Melphalan; or single CEM [NEUROB-D 8 of 13]",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "3rd Line (Post-consolidation)",
+      "body": "Isotretinoin/Sargramostim + Dinutuximab (6 cycles) [NEUROB-D 9 of 13]",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "4th Line (Continuation)",
+      "body": "Eflornithine (DFMO) PO for up to 2 years [NEUROB-D 9 of 13]",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "5th Line (Relapsed/Refractory)",
+      "body": "Irinotecan + temozolomide + anti-GD2 antibody [overview]",
+      "icon": "bi-1-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "neuroblastoma",
+  "_chars_in": 5000
+}

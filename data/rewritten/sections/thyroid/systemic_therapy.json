@@ -1,0 +1,96 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is used for recurrent, persistent, or metastatic thyroid carcinoma not amenable to surgery or RAI. Kinase inhibitors and targeted therapies have improved outcomes. Traditional cytotoxic chemotherapy has minimal efficacy in differentiated thyroid cancer. [11, 311, THYR-B]"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Lenvatinib",
+      "drugs": [
+        {
+          "name": "lenvatinib",
+          "dose": "24 mg orally once daily",
+          "route": "oral",
+          "day": "daily"
+        }
+      ],
+      "detail": "Setting: RAI-refractory differentiated thyroid carcinoma. Cycle days: Continued until progression or unacceptable toxicity. Key toxicities: Hypertension (68%), diarrhea (59%), palmar-plantar erythrodysesthesia (32%), weight loss (31%), decreased appetite (31%). Serious treatment-related adverse events 16%. [322]"
+    },
+    {
+      "name": "Sorafenib",
+      "drugs": [
+        {
+          "name": "sorafenib",
+          "dose": "400 mg orally twice daily",
+          "route": "oral",
+          "day": "daily"
+        }
+      ],
+      "detail": "Setting: RAI-refractory differentiated thyroid carcinoma. Cycle days: Continued until progression or unacceptable toxicity. Key toxicities: Palmar-plantar erythrodysesthesia (76%), diarrhea (68%), alopecia (67%), rash (50%). [328]"
+    },
+    {
+      "name": "Dabrafenib/Trametinib",
+      "drugs": [
+        {
+          "name": "dabrafenib",
+          "dose": "150 mg orally twice daily",
+          "route": "oral",
+          "day": "daily"
+        },
+        {
+          "name": "trametinib",
+          "dose": "2 mg orally once daily",
+          "route": "oral",
+          "day": "daily"
+        }
+      ],
+      "detail": "Setting: BRAF V600E-mutated RAI-refractory differentiated thyroid carcinoma or anaplastic carcinoma. Cycle days: Continued until progression or unacceptable toxicity. Key toxicities: Fever (37–38%), fatigue (38%), nausea (35%), rash (35%). [541]"
+    },
+    {
+      "name": "Selpercatinib",
+      "drugs": [
+        {
+          "name": "selpercatinib",
+          "dose": "160 mg orally twice daily",
+          "route": "oral",
+          "day": "daily"
+        }
+      ],
+      "detail": "Setting: RET-mutant medullary thyroid carcinoma or RET fusion-positive thyroid carcinoma. Cycle days: Continued until progression or unacceptable toxicity. Key toxicities: Hypertension (42%), diarrhea (42%), dry mouth (37%), headache (26%). [350, 491]"
+    },
+    {
+      "name": "Vandetanib",
+      "drugs": [
+        {
+          "name": "vandetanib",
+          "dose": "300 mg orally once daily",
+          "route": "oral",
+          "day": "daily"
+        }
+      ],
+      "detail": "Setting: Progressive, metastatic medullary thyroid carcinoma. Cycle days: Continued until progression or unacceptable toxicity. Key toxicities: [No key toxicities provided in input]. Note: The input for vandetanib does not include key_toxicities; only the drug name and dose were given. Please refer to full prescribing information."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "RAI-Refractory Differentiated Thyroid Carcinoma (Papillary, Follicular, Oncocytic) with Progressive/Symptomatic Disease",
+      "body": "Preferred regimen: Lenvatinib (category 1) or sorafenib (category 1). For BRAF V600E-mutant, consider dabrafenib/trametinib. For NTRK fusion-positive, larotrectinib, entrectinib, or repotrectinib. For RET fusion-positive, selpercatinib or pralsetinib. For MSI-H/dMMR or TMB-H (≥10 mut/Mb), pembrolizumab. Rationale: Phase 3 trials show improved PFS (lenvatinib: 18.3 vs. 3.6 months; sorafenib: 10.8 vs. 5.8 months; cabozantinib: not reached vs. 1.9 months). [322, 328, 361] Alternatives: Cabozantinib after progression on lenvatinib/sorafenib (category 1 for papillary, 2A for follicular/oncocytic). Ipilimumab/nivolumab (oncocytic only). Carboplatin/pemetrexed. Clinical trials. [THYR-B] Biomarker requirements: Molecular testing for actionable alterations (ALK, NTRK, BRAF, RET fusions; dMMR, MSI, TMB) recommended. Testing preferably on tumor tissue; ctDNA if tumor not available. [PAP-10, FOLL-9, ONC-9]",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "Locally Advanced/Metastatic Medullary Thyroid Carcinoma",
+      "body": "Preferred regimen: For RET-mutant disease: selpercatinib (category 1) or pralsetinib (category 2B). For all others: vandetanib (category 1) or cabozantinib (category 1). Rationale: Selpercatinib improved PFS vs. cabozantinib/vandetanib (median not reached vs. 16.8 months; HR 0.28). Vandetanib and cabozantinib improved PFS in phase 3 trials (HR 0.46 and 0.28, respectively). [481, 485, 491] Alternatives: Lutetium DOTATATE (somatostatin receptor-positive). Dacarbazine-based chemotherapy. Other small-molecule kinase inhibitors (sorafenib, sunitinib, lenvatinib, pazopanib) if trials or preferred options not available. [THYR-B] Biomarker requirements: Germline RET PV testing for all patients. Somatic RET testing for germline wild-type/unknown. [MEDU-6, MEDU-7]",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "Anaplastic Thyroid Carcinoma, Metastatic or Unresectable Locoregional",
+      "body": "Preferred regimen: For BRAF V600E-mutated tumors: dabrafenib/trametinib or binimetinib/encorafenib. For RET fusion-positive: pralsetinib or selpercatinib. For NTRK fusion-positive: entrectinib, larotrectinib, repotrectinib. For non-RAS tumors: ipilimumab/nivolumab. Rationale: Dabrafenib/trametinib showed ORR 56% in BRAF V600E-mutated ATC. Ipilimumab/nivolumab based on phase 2 data in aggressive thyroid carcinoma. [541, 547, 548] Alternatives: Lenvatinib/pembrolizumab. Carboplatin/pemetrexed after prior treatment. Cisplatin/doxorubicin. Paclitaxel. Clinical trials. [THYR-B] Biomarker requirements: Biomarker testing should include BRAF, NTRK1/2/3, ALK, and RET. BRAF IHC recommended due to faster turnaround. Testing on tumor tissue preferred. [ANAP-1]",
+      "icon": "bi-3-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "thyroid",
+  "_chars_in": 5000
+}

@@ -1,0 +1,92 @@
+{
+  "sections": [
+    {
+      "heading": "Prognosis",
+      "content": "Prognosis for CNS cancers is highly variable depending on tumor type, histologic grade, molecular features, patient age, and performance status. Glioblastoma, the most common malignant primary brain tumor in adults, has a 5-year survival rate around 6%, with higher rates among younger age groups. WHO grade 2-3 gliomas generally have better outcomes, particularly those with favorable molecular profiles. Brain metastases prognosis depends on primary tumor type, number and volume of metastases, patient performance status, and extracranial disease control. Primary CNS lymphoma prognosis has improved with treatment advances. Meningiomas, most of which are WHO grade 1, generally have favorable outcomes with surgical resection. Ependymomas and medulloblastomas in adults are rare but have distinct prognostic profiles based on molecular subtyping."
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      99,
+      85,
+      55,
+      6
+    ]
+  },
+  "factors": [
+    {
+      "factor": "IDH1/2 mutation status",
+      "impact": "Favorable",
+      "detail": "favorable prognostic marker for OS in grade 2-3 gliomas"
+    },
+    {
+      "factor": "1p/19q codeletion",
+      "impact": "Favorable",
+      "detail": "confers favorable prognosis and predictive of response to alkylating systemic therapy with or without RT"
+    },
+    {
+      "factor": "MGMT promoter methylation",
+      "impact": "Favorable",
+      "detail": "strong prognostic biomarker and predictive for benefit from temozolomide in high-grade gliomas"
+    },
+    {
+      "factor": "ATRX mutation",
+      "impact": "Favorable",
+      "detail": "associated with IDH mutations; loss of ATRX immunostaining suggests astrocytoma"
+    },
+    {
+      "factor": "TERT promoter mutation",
+      "impact": "Unfavorable",
+      "detail": "associated with reduced OS in IDH wild-type gliomas"
+    },
+    {
+      "factor": "H3K27M mutation",
+      "impact": "Unfavorable",
+      "detail": "associated with very poor prognosis regardless of histologic appearance"
+    },
+    {
+      "factor": "Extent of resection",
+      "impact": "Favorable",
+      "detail": "GTR associated with decreased mortality and lower risk of progression in low-grade gliomas"
+    },
+    {
+      "factor": "Karnofsky Performance Status",
+      "impact": "Favorable",
+      "detail": "KPS ≥60 vs <60 determines treatment intensity"
+    },
+    {
+      "factor": "Age",
+      "impact": "Unfavorable",
+      "detail": "older age associated with worse prognosis in glioblastoma"
+    },
+    {
+      "factor": "CDKN2A/B homozygous deletion",
+      "impact": "Unfavorable",
+      "detail": "associated with grade 4 status in IDH-mutant astrocytomas"
+    },
+    {
+      "factor": "Medulloblastoma molecular subtype",
+      "impact": "Favorable",
+      "detail": "WNT-activated associated with markedly better prognosis"
+    },
+    {
+      "factor": "Meningioma grade and extent of resection",
+      "impact": "Favorable",
+      "detail": "Simpson classification correlates with recurrence"
+    },
+    {
+      "factor": "Brain metastasis volume and rate of developing new metastases",
+      "impact": "Unfavorable",
+      "detail": "more important than number for prognosis"
+    }
+  ],
+  "_section": "prognosis",
+  "_site_id": "cns",
+  "_chars_in": 5000
+}

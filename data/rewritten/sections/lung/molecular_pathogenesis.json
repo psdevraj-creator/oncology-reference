@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "heading": "SCLC",
+      "content": "The NCCN guidelines for SCLC provide limited specific information on molecular pathogenesis compared to other cancer types. However, several key molecular features are discussed throughout the document. SCLC is characterized by near-universal loss of RB1 expression and aberrant p53 expression, distinguishing it from carcinoid tumors which retain RB1 and show wild-type p53 staining [SCL-B]. High-grade neuroendocrine carcinomas demonstrate loss of RB1 expression and/or aberrant (mutation-type) p53 expression, characterized by either diffuse strong nuclear staining (overexpression) or complete absence of staining (null pattern) [SCL-B]. DLL3 (delta-like ligand 3) is abnormally expressed on the surface of the majority of SCLC cells (85–94%) and inhibits Notch signaling [MS-16]. This has become a therapeutic target with tarlatamab-dlle, a bispecific T-cell engager antibody targeting DLL3 and CD3 [MS-16]. Immunohistochemical markers show that nearly all SCLCs are positive for cytokeratin, with neuroendocrine differentiation markers (INSM1, CD56/NCAM, synaptophysin, chromogranin A) positive in approximately 95% of cases [SCL-B, MS-5]. Fewer than 5% of SCLCs are negative for all neuroendocrine markers [SCL-B]. POU2F3 immunohistochemical staining can be considered for cases with suspicious SCLC morphology without expression of neuroendocrine markers [SCL-B]. Biomarker testing via blood, tissue, or both can be considered in rare cases—particularly for patients with extensive-stage/relapsed SCLC who do not smoke tobacco, lightly smoke, have remote smoking history, or have diagnostic/therapeutic dilemma, or at time of relapse—if not previously done, because this may change management [SCL-1, SCL-B]. MGMT (methylguanine-DNA methyltransferase) methylation status has been assessed as a potential biomarker for temozolomide sensitivity in relapsed SCLC, with response rates improved for patients with methylated MGMT compared to unmethylated MGMT [MS-19]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "DLL3",
+        "type": "targetable"
+      },
+      {
+        "id": "Notch",
+        "type": "pathway"
+      },
+      {
+        "id": "RB1",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "CD3",
+        "type": "gene"
+      },
+      {
+        "id": "tarlatamab-dlle",
+        "type": "drug"
+      },
+      {
+        "id": "temozolomide",
+        "type": "drug"
+      },
+      {
+        "id": "INSM1",
+        "type": "gene"
+      },
+      {
+        "id": "NCAM",
+        "type": "gene"
+      },
+      {
+        "id": "synaptophysin",
+        "type": "gene"
+      },
+      {
+        "id": "chromogranin A",
+        "type": "gene"
+      },
+      {
+        "id": "POU2F3",
+        "type": "gene"
+      },
+      {
+        "id": "MGMT",
+        "type": "gene"
+      }
+    ],
+    "edges": [
+      {
+        "source": "DLL3",
+        "target": "Notch",
+        "type": "inhibits"
+      },
+      {
+        "source": "tarlatamab-dlle",
+        "target": "DLL3",
+        "type": "targets"
+      },
+      {
+        "source": "tarlatamab-dlle",
+        "target": "CD3",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "Notch signaling",
+      "genes": [
+        "DLL3"
+      ],
+      "drugs": "tarlatamab-dlle",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "lung",
+  "_chars_in": 1970
+}

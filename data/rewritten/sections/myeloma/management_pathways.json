@@ -1,0 +1,217 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway: Management of Solitary Plasmacytoma",
+      "content": "{\"pathway_id\": \"solitary_plasmacytoma\", \"title\": \"Management of Solitary Plasmacytoma\", \"branching_basis\": [\"site (osseous vs. extramedullary)\", \"marrow involvement (<10% clonal plasma cells)\", \"risk of progression to MM\"], \"nodes\": [{\"criteria\": \"Biopsy-proven solitary lesion of bone or soft tissue with clonal plasma cells, normal skeletal survey/MRI of spine/pelvis, absence of myeloma-defining events, and clonal BMPCs <10%\", \"options\": [{\"type\": \"Radiation therapy\", \"label\": \"Primary treatment\", \"preference\": \"Preferred\", \"recommendation\": \"RT to involved site: 40-50 Gy in 1.8-2.0 Gy fractions (20-25 fractions). For plasmacytomas <5 cm, 35-40 Gy is acceptable [MYEL-2, MYEL-D].\", \"linked_regimen_ids\": []}, {\"type\": \"Surgery\", \"label\": \"If structurally unstable or neurologic compromise\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Consider surgery for instability or mass effect [MYEL-2].\", \"linked_regimen_ids\": []}, {\"type\": \"Clinical trial\", \"label\": \"Alternative option\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Consider clinical trial participation [MYEL-2].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant systemic therapy routinely recommended. Systemic therapy may be indicated for high risk of progression based on clinical context [MYEL-2].\"}}]}"
+    },
+    {
+      "heading": "Pathway: Management of Smoldering (Asymptomatic) Myeloma",
+      "content": "{\"pathway_id\": \"smoldering_myeloma\", \"title\": \"Management of Smoldering (Asymptomatic) Myeloma\", \"branching_basis\": [\"risk stratification (Mayo 2018/IMWG 20/2/20 criteria)\", \"disease progression markers\"], \"nodes\": [{\"criteria\": \"Low risk (0 risk factors per 20/2/20: BMPCs >20%, M-protein >2 g/dL, FLCr >20)\", \"options\": [{\"type\": \"Observation\", \"label\": \"Active monitoring\", \"preference\": \"Category 1\", \"recommendation\": \"Observe at 3-6 month intervals with regular lab assessments and imaging [MYEL-3].\", \"linked_regimen_ids\": []}, {\"type\": \"Clinical trial\", \"label\": \"Alternative\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Enroll in clinical trial if available [MYEL-3].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No immediate therapy indicated. Close surveillance for progression to symptomatic MM.\"}}, {\"criteria\": \"High risk (≥2 risk factors per 20/2/20 criteria)\", \"options\": [{\"type\": \"Clinical trial\", \"label\": \"Preferred option\", \"preference\": \"Preferred\", \"recommendation\": \"Strongly recommend enrollment in ongoing clinical trial [MYEL-3].\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic therapy\", \"label\": \"For select patients\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Consider single-agent daratumumab (category 1) or lenalidomide (category 2B) based on shared decision-making [MYEL-3].\", \"linked_regimen_ids\": [\"daratumumab\", \"lenalidomide\"]}, {\"type\": \"Observation\", \"label\": \"Close monitoring\", \"preference\": \"Category 1\", \"recommendation\": \"Observe at 3-month intervals as clinically indicated, with prompt initiation of therapy upon progression [MYEL-3].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Therapy is not adjuvant but may be initiated early to delay progression. Risk criteria guide intervention.\"}}]}"
+    },
+    {
+      "heading": "Pathway: Management of Newly Diagnosed Symptomatic Multiple Myeloma",
+      "content": "{\"pathway_id\": \"newly_diagnosed_symptomatic_mm\", \"title\": \"Management of Newly Diagnosed Symptomatic Multiple Myeloma\", \"branching_basis\": [\"HCT eligibility\", \"frailty status\", \"cytogenetic risk\", \"patient preferences\"], \"nodes\": [{\"criteria\": \"HCT-eligible patients (all ages, no absolute contraindications)\", \"options\": [{\"type\": \"Primary therapy (induction)\", \"label\": \"Quadruplet regimen preferred\", \"preference\": \"Preferred\", \"recommendation\": \"Dara-VRd (daratumumab/bortezomib/lenalidomide/dexamethasone) or Isa-VRd (isatuximab-irfc/bortezomib/lenalidomide/dexamethasone) [category 1]. Collect stem cells within first 6 cycles [MYEL-4, MYEL-G].\", \"linked_regimen_ids\": [\"dara-VRd\", \"Isa-VRd\"]}, {\"type\": \"Autologous HCT\", \"label\": \"Post-induction consolidation\", \"preference\": \"Category 1\", \"recommendation\": \"Proceed to high-dose melphalan and autologous HCT after induction. Collect sufficient stem cells for up to 2 transplants if appropriate [MYEL-5].\", \"linked_regimen_ids\": []}, {\"type\": \"Maintenance therapy\", \"label\": \"Post-HCT\", \"preference\": \"Category 1\", \"recommendation\": \"Lenalidomide maintenance [category 1]. For high-risk MM, consider doublet maintenance (e.g., carfilzomib/lenalidomide, daratumumab/lenalidomide) [MYEL-5, MYEL-G].\", \"linked_regimen_ids\": [\"lenalidomide\", \"carfilzomib/lenalidomide\", \"daratumumab/lenalidomide\"]}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Induction therapy is part of primary treatment, not adjuvant. Maintenance therapy post-HCT aims to prolong remission.\"}}, {\"criteria\": \"HCT-ineligible or deferred (age >70, significant comorbidities, frailty, or patient choice)\", \"options\": [{\"type\": \"Primary therapy\", \"label\": \"Quadruplet or triplet regimen\", \"preference\": \"Preferred\", \"recommendation\": \"Dara-Rd (daratum\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant needed.\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Management of Solitary Plasmacytoma",
+      "nodes": [
+        {
+          "id": "sp_decision1",
+          "label": "Biopsy-proven solitary lesion of bone or soft tissue with clonal plasma cells, normal skeletal survey/MRI of spine/pelvis, absence of myeloma-defining events, and clonal BMPCs <10%",
+          "type": "decision"
+        },
+        {
+          "id": "sp_treat1",
+          "label": "Radiation therapy (Primary treatment) - Preferred: RT to involved site: 40-50 Gy in 1.8-2.0 Gy fractions (20-25 fractions). For plasmacytomas <5 cm, 35-40 Gy is acceptable [MYEL-2, MYEL-D].",
+          "type": "treatment"
+        },
+        {
+          "id": "sp_treat2",
+          "label": "Surgery (If structurally unstable or neurologic compromise) - Useful in certain circumstances: Consider surgery for instability or mass effect [MYEL-2].",
+          "type": "treatment"
+        },
+        {
+          "id": "sp_treat3",
+          "label": "Clinical trial (Alternative option) - Useful in certain circumstances: Consider clinical trial participation [MYEL-2].",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "sp_decision1",
+          "target": "sp_treat1",
+          "label": "Preferred"
+        },
+        {
+          "source": "sp_decision1",
+          "target": "sp_treat2",
+          "label": "Useful in certain circumstances"
+        },
+        {
+          "source": "sp_decision1",
+          "target": "sp_treat3",
+          "label": "Useful in certain circumstances"
+        }
+      ]
+    },
+    {
+      "title": "Management of Smoldering (Asymptomatic) Myeloma",
+      "nodes": [
+        {
+          "id": "sm_top_decision",
+          "label": "Risk stratification (Mayo 2018/IMWG 20/2/20 criteria)",
+          "type": "decision"
+        },
+        {
+          "id": "sm_risk_low",
+          "label": "Low risk (0 risk factors per 20/2/20: BMPCs >20%, M-protein >2 g/dL, FLCr >20)",
+          "type": "decision"
+        },
+        {
+          "id": "sm_risk_high",
+          "label": "High risk (≥2 risk factors per 20/2/20 criteria)",
+          "type": "decision"
+        },
+        {
+          "id": "sm_treat_low1",
+          "label": "Observation (Active monitoring) - Category 1: Observe at 3-6 month intervals with regular lab assessments and imaging [MYEL-3].",
+          "type": "treatment"
+        },
+        {
+          "id": "sm_treat_low2",
+          "label": "Clinical trial (Alternative) - Useful in certain circumstances: Enroll in clinical trial if available [MYEL-3].",
+          "type": "treatment"
+        },
+        {
+          "id": "sm_treat_high1",
+          "label": "Clinical trial (Preferred option) - Preferred: Strongly recommend enrollment in ongoing clinical trial [MYEL-3].",
+          "type": "treatment"
+        },
+        {
+          "id": "sm_treat_high2",
+          "label": "Systemic therapy (For select patients) - Useful in certain circumstances: Consider single-agent daratumumab (category 1) or lenalidomide (category 2B) based on shared decision-making [MYEL-3].",
+          "type": "treatment"
+        },
+        {
+          "id": "sm_treat_high3",
+          "label": "Observation (Close monitoring) - Category 1: Observe at 3-month intervals as clinically indicated, with prompt initiation of therapy upon progression [MYEL-3].",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "sm_top_decision",
+          "target": "sm_risk_low",
+          "label": "Low risk"
+        },
+        {
+          "source": "sm_top_decision",
+          "target": "sm_risk_high",
+          "label": "High risk"
+        },
+        {
+          "source": "sm_risk_low",
+          "target": "sm_treat_low1",
+          "label": "Category 1"
+        },
+        {
+          "source": "sm_risk_low",
+          "target": "sm_treat_low2",
+          "label": "Useful in certain circumstances"
+        },
+        {
+          "source": "sm_risk_high",
+          "target": "sm_treat_high1",
+          "label": "Preferred"
+        },
+        {
+          "source": "sm_risk_high",
+          "target": "sm_treat_high2",
+          "label": "Useful in certain circumstances"
+        },
+        {
+          "source": "sm_risk_high",
+          "target": "sm_treat_high3",
+          "label": "Category 1"
+        }
+      ]
+    },
+    {
+      "title": "Management of Newly Diagnosed Symptomatic Multiple Myeloma",
+      "nodes": [
+        {
+          "id": "nd_top_decision",
+          "label": "HCT eligibility, frailty status, cytogenetic risk, patient preferences",
+          "type": "decision"
+        },
+        {
+          "id": "nd_eligible",
+          "label": "HCT-eligible patients (all ages, no absolute contraindications)",
+          "type": "decision"
+        },
+        {
+          "id": "nd_ineligible",
+          "label": "HCT-ineligible or deferred (age >70, significant comorbidities, frailty, or patient choice)",
+          "type": "decision"
+        },
+        {
+          "id": "nd_induction",
+          "label": "Primary therapy (induction) - Quadruplet regimen preferred: Dara-VRd (daratumumab/bortezomib/lenalidomide/dexamethasone) or Isa-VRd (isatuximab-irfc/bortezomib/lenalidomide/dexamethasone) [category 1]. Collect stem cells within first 6 cycles [MYEL-4, MYEL-G].",
+          "type": "treatment"
+        },
+        {
+          "id": "nd_hct",
+          "label": "Autologous HCT (Post-induction consolidation) - Category 1: Proceed to high-dose melphalan and autologous HCT after induction. Collect sufficient stem cells for up to 2 transplants if appropriate [MYEL-5].",
+          "type": "treatment"
+        },
+        {
+          "id": "nd_maintenance",
+          "label": "Maintenance therapy (Post-HCT) - Category 1: Lenalidomide maintenance [category 1]. For high-risk MM, consider doublet maintenance (e.g., carfilzomib/lenalidomide, daratumumab/lenalidomide) [MYEL-5, MYEL-G].",
+          "type": "treatment"
+        },
+        {
+          "id": "nd_primary_ineligible",
+          "label": "Primary therapy (Quadruplet or triplet regimen) - Preferred: Dara-Rd (daratum",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "nd_top_decision",
+          "target": "nd_eligible",
+          "label": "Eligible"
+        },
+        {
+          "source": "nd_top_decision",
+          "target": "nd_ineligible",
+          "label": "Ineligible/Deferred"
+        },
+        {
+          "source": "nd_eligible",
+          "target": "nd_induction",
+          "label": "Preferred"
+        },
+        {
+          "source": "nd_induction",
+          "target": "nd_hct",
+          "label": "Proceed to HCT after induction"
+        },
+        {
+          "source": "nd_hct",
+          "target": "nd_maintenance",
+          "label": "Post-HCT maintenance"
+        },
+        {
+          "source": "nd_ineligible",
+          "target": "nd_primary_ineligible",
+          "label": "Preferred"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "myeloma",
+  "_chars_in": 5000
+}

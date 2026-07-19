@@ -1,0 +1,78 @@
+{
+  "sections": [
+    {
+      "heading": "Risk Factors",
+      "content": "- Age: Risk increases dramatically with age. Prostate cancer is rare before age 50, and the majority of cases are diagnosed in men over 65. (Strength: Strong)\n- Race/Ethnicity: Black men have a 67% higher incidence and significantly higher mortality compared to White men. The reasons are multifactorial, likely involving a combination of genetic, biological, social, and healthcare access factors [11]. (Strength: Strong)\n- Family History: A first-degree relative with prostate cancer increases risk 2- to 3-fold. The risk is higher with multiple affected relatives or a relative diagnosed at a young age (<60 years) [16]. Specific hereditary cancer syndromes, such as Hereditary Breast and Ovarian Cancer (HBOC) syndrome (due to germline BRCA1/2 mutations) and Lynch syndrome, significantly elevate risk [6]. (Strength: Strong)\n- Germline Genetic Mutations: Pathogenic germline mutations in homologous recombination repair (HRR) genes, particularly BRCA2, are associated with a 2- to 6-fold increased risk of prostate cancer and more aggressive disease. Mutations in ATM, PALB2, and CHEK2 also increase risk [6, 17]. (Strength: Strong)\n- Geographic Location: Incidence is highest in North America, Northwestern Europe, Australia, and the Caribbean. It is lower in Asia and Africa, though migrating populations from low-risk areas gradually adopt the higher risk of their new region, suggesting lifestyle and environmental factors. (Strength: Moderate)\n- Diet and Obesity: High consumption of red meat and high-fat dairy products, and low consumption of fruits and vegetables, may be associated with a slightly increased risk. Obesity (high BMI) is linked to a higher risk of aggressive prostate cancer. (Strength: Moderate)\n- Androgen Levels: Higher endogenous androgen levels or androgen receptor activity are thought to promote prostate cancer development. (Strength: Moderate)\n- History of Prostatitis: Some studies suggest a possible association with an increased risk, but evidence is not consistent. (Strength: Weak/Inconsistent)\n- PSA Screening: Widespread use of PSA testing leads to increased detection of prostate cancer (overdiagnosis), including many indolent tumors that might not have caused symptoms or death during a patient's lifetime. (Strength: Impact on Incidence (not causative))"
+    }
+  ],
+  "waterfall": {
+    "labels": [
+      "Germline Genetic Mutations"
+    ],
+    "values": [
+      45
+    ],
+    "types": [
+      "Genetic"
+    ]
+  },
+  "cards": [
+    {
+      "factor": "Age",
+      "type": "Non-modifiable",
+      "strength": "High",
+      "detail": "Risk increases dramatically with age. Prostate cancer is rare before age 50, and the majority of cases are diagnosed in men over 65."
+    },
+    {
+      "factor": "Race/Ethnicity",
+      "type": "Non-modifiable",
+      "strength": "High",
+      "detail": "Black men have a 67% higher incidence and significantly higher mortality compared to White men. The reasons are multifactorial, likely involving a combination of genetic, biological, social, and healthcare access factors [11]."
+    },
+    {
+      "factor": "Family History",
+      "type": "Non-modifiable",
+      "strength": "High",
+      "detail": "A first-degree relative with prostate cancer increases risk 2- to 3-fold. The risk is higher with multiple affected relatives or a relative diagnosed at a young age (<60 years) [16]. Specific hereditary cancer syndromes, such as Hereditary Breast and Ovarian Cancer (HBOC) syndrome (due to germline BRCA1/2 mutations) and Lynch syndrome, significantly elevate risk [6]."
+    },
+    {
+      "factor": "Germline Genetic Mutations",
+      "type": "Genetic",
+      "strength": "High",
+      "detail": "Pathogenic germline mutations in homologous recombination repair (HRR) genes, particularly BRCA2, are associated with a 2- to 6-fold increased risk of prostate cancer and more aggressive disease. Mutations in ATM, PALB2, and CHEK2 also increase risk [6, 17]."
+    },
+    {
+      "factor": "Geographic Location",
+      "type": "Non-modifiable",
+      "strength": "Medium",
+      "detail": "Incidence is highest in North America, Northwestern Europe, Australia, and the Caribbean. It is lower in Asia and Africa, though migrating populations from low-risk areas gradually adopt the higher risk of their new region, suggesting lifestyle and environmental factors."
+    },
+    {
+      "factor": "Diet and Obesity",
+      "type": "Modifiable/Lifestyle",
+      "strength": "Medium",
+      "detail": "High consumption of red meat and high-fat dairy products, and low consumption of fruits and vegetables, may be associated with a slightly increased risk. Obesity (high BMI) is linked to a higher risk of aggressive prostate cancer."
+    },
+    {
+      "factor": "Androgen Levels",
+      "type": "Physiologic",
+      "strength": "Medium",
+      "detail": "Higher endogenous androgen levels or androgen receptor activity are thought to promote prostate cancer development."
+    },
+    {
+      "factor": "History of Prostatitis",
+      "type": "Medical",
+      "strength": "Low",
+      "detail": "Some studies suggest a possible association with an increased risk, but evidence is not consistent."
+    },
+    {
+      "factor": "PSA Screening",
+      "type": "Detection-related",
+      "strength": "Low",
+      "detail": "Widespread use of PSA testing leads to increased detection of prostate cancer (overdiagnosis), including many indolent tumors that might not have caused symptoms or death during a patient's lifetime."
+    }
+  ],
+  "_section": "risk_factors",
+  "_site_id": "prostate",
+  "_chars_in": 2788
+}

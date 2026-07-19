@@ -1,0 +1,85 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "Radiation therapy (RT) plays a central role in the definitive treatment of limited-stage SCLC and a palliative or consolidative role in extensive-stage SCLC. It is also used for prophylactic cranial irradiation (PCI) and treatment of brain metastases [1].\n\nPrinciples:\n- RT has a potential role in all stages of SCLC, as part of either definitive or palliative therapy. Radiation oncology input should be provided for all patients early in the determination of treatment strategy [1].\n- To maximize tumor control and minimize toxicity, critical components include appropriate simulation, accurate target definition, conformal RT planning, and ensuring accurate delivery. A minimum standard is CT-planned three-dimensional (3D)-conformal RT [1].\n- Use of more advanced technologies is appropriate when needed to deliver adequate tumor doses while respecting normal tissue dose constraints. These include 4D-CT, FDG-PET/CT simulation, intensity-modulated RT (IMRT)/volumetric modulated arc therapy (VMAT), image-guided RT (IGRT), and motion management strategies [1].\n- IMRT is preferred over 3D-CRT based on reduced toxicity in the setting of concurrent chemotherapy/RT [1].\n- Quality assurance measures are essential and are covered in the NCCN Guidelines for Non-Small Cell Lung Cancer [1].\n\nDose Frameworks:\n1. Twice-daily accelerated RT (CONVERT trial schedule): total dose 45 Gy, dose per fraction 1.5 Gy, 30 fractions, over 3 weeks twice daily. Indication: Limited-stage SCLC (category 1).\n2. Once-daily conventional fractionation (higher dose): total dose 66–70 Gy, dose per fraction 2 Gy, 33–35 fractions, over 6.5–7 weeks. Indication: Limited-stage SCLC when using once-daily fractionation (preferred).\n3. Once-daily accelerated RT: total dose 40–42 Gy, dose per fraction 2.67–2.8 Gy, 15 fractions, over 3 weeks. Indication: Limited-stage SCLC; may produce similar outcomes as twice-daily 45 Gy.\n4. High-dose accelerated RT (simultaneous integrated boost): total dose 54 Gy to GTV, dose per fraction 1.8 Gy, 30 fractions, over 3 weeks twice daily. Indication: Limited-stage SCLC; demonstrated survival advantage over standard 45 Gy.\n5. Consolidative thoracic RT for extensive-stage SCLC: total dose 30 Gy, dose per fraction 3 Gy, 10 fractions, over 2 weeks. Indication: Extensive-stage SCLC with complete or good response to systemic therapy, especially with residual thoracic disease and low-bulk extrathoracic metastatic disease.\n6. Prophylactic cranial irradiation (PCI): total dose 25 Gy, dose per fraction 2.5 Gy, 10 fractions, daily. Indication: Limited-stage or extensive-stage SCLC with response to initial therapy (category 1 for LS-SCLC based on meta-analyses).\n7. Whole-brain RT (WBRT) for brain metastases: total dose 30 Gy, dose per fraction 3 Gy, 10 fractions, daily. Indication: Brain metastases from SCLC.\n\nApproaches:\n- Concurrent chemoradiation for limited-stage SCLC: dose fractionation 45 Gy in 1.5 Gy fractions twice daily over 3 weeks (category 1) or 66–70 Gy in 2 Gy fractions once daily over 6.5–7 weeks; concurrent chemotherapy: Platinum/etoposide; indication: Limited-stage SCLC (stage IIB–IIIC) with good PS (0–2); key trials: CONVERT, INT 0096, CALGB 30610/RTOG 0538; toxicities: esophagitis, pneumonitis, myelosuppression, fatigue.\n- Adjuvant durvalumab after chemoradiation: dose fractionation Durvalumab 1500 mg Day 1 every 28 days for up to 24 months; indication: Limited-stage SCLC without disease progression after systemic therapy + concurrent RT; key trial: ADRIATIC; toxicities: immune-mediated adverse events.\n- Consolidative thoracic RT for extensive-stage SCLC: dose fractionation 30 Gy in 10 fractions, or individualized within range up to definitive dosing; typically sequential after systemic therapy; indication: Selected patients with ES-SCLC."
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Twice-daily accelerated RT (CONVERT trial schedule)",
+      "value": 45,
+      "unit": "Gy"
+    },
+    {
+      "label": "Once-daily conventional fractionation (higher dose)",
+      "value": 66,
+      "unit": "Gy"
+    },
+    {
+      "label": "Once-daily accelerated RT",
+      "value": 40,
+      "unit": "Gy"
+    },
+    {
+      "label": "High-dose accelerated RT (simultaneous integrated boost)",
+      "value": 54,
+      "unit": "Gy"
+    },
+    {
+      "label": "Consolidative thoracic RT for extensive-stage SCLC",
+      "value": 30,
+      "unit": "Gy"
+    },
+    {
+      "label": "Prophylactic cranial irradiation (PCI)",
+      "value": 25,
+      "unit": "Gy"
+    },
+    {
+      "label": "Whole-brain RT (WBRT) for brain metastases",
+      "value": 30,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Twice-daily accelerated RT (CONVERT trial schedule)",
+      "body": "30 fractions, 1.5 Gy per fraction, over 3 weeks twice daily, at least 6-hour interfraction interval",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Once-daily conventional fractionation (higher dose)",
+      "body": "33–35 fractions, 2 Gy per fraction, over 6.5–7 weeks",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Once-daily accelerated RT",
+      "body": "15 fractions, 2.67–2.8 Gy per fraction, over 3 weeks",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "High-dose accelerated RT (simultaneous integrated boost)",
+      "body": "30 fractions, 1.8 Gy per fraction, over 3 weeks twice daily",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Consolidative thoracic RT for extensive-stage SCLC",
+      "body": "10 fractions, 3 Gy per fraction, over 2 weeks",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Prophylactic cranial irradiation (PCI)",
+      "body": "10 fractions, 2.5 Gy per fraction, daily",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Whole-brain RT (WBRT) for brain metastases",
+      "body": "10 fractions, 3 Gy per fraction, daily",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "lung",
+  "_chars_in": 5000
+}

@@ -1,0 +1,96 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is the primary treatment for unresectable or metastatic BTCs. First-line standard is gemcitabine/cisplatin with or without immunotherapy (durvalumab or pembrolizumab). Second-line options include FOLFOX, FOLFIRI, liposomal irinotecan combinations, and targeted therapies based on biomarker testing. Adjuvant capecitabine is recommended for resected disease."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Capecitabine",
+      "drugs": [
+        "capecitabine"
+      ],
+      "detail": "Hand-foot syndrome, diarrhea, myelosuppression"
+    },
+    {
+      "name": "Cisplatin/Gemcitabine + Durvalumab",
+      "drugs": [
+        "durvalumab",
+        "cisplatin",
+        "gemcitabine"
+      ],
+      "detail": "Nausea, myelosuppression, fatigue, hepatotoxicity, immune-related adverse events"
+    },
+    {
+      "name": "Cisplatin/Gemcitabine + Pembrolizumab",
+      "drugs": [
+        "pembrolizumab",
+        "cisplatin",
+        "gemcitabine"
+      ],
+      "detail": "Nausea, myelosuppression, fatigue, immune-related adverse events"
+    },
+    {
+      "name": "FOLFOX",
+      "drugs": [
+        "oxaliplatin",
+        "leucovorin",
+        "fluorouracil"
+      ],
+      "detail": "Neuropathy, myelosuppression, mucositis"
+    },
+    {
+      "name": "Ivosidenib",
+      "drugs": [
+        "ivosidenib"
+      ],
+      "detail": "QT prolongation, differentiation syndrome, hepatotoxicity"
+    },
+    {
+      "name": "Futibatinib",
+      "drugs": [
+        "futibatinib"
+      ],
+      "detail": "Hyperphosphatemia, stomatitis, dry eye, nail toxicity"
+    },
+    {
+      "name": "Dabrafenib/Trametinib",
+      "drugs": [
+        "dabrafenib",
+        "trametinib"
+      ],
+      "detail": "Fever, fatigue, nausea, rash, cardiac toxicity"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Adjuvant Therapy",
+      "body": "Preferred: Capecitabine (category 1). Alternatives: Capecitabine/gemcitabine, cisplatin/gemcitabine, single-agent gemcitabine or fluorouracil/leucovorin.",
+      "icon": "bi-flag-fill"
+    },
+    {
+      "title": "Neoadjuvant Therapy",
+      "body": "Preferred: Regimens used for unresectable/metastatic disease. Alternatives: Clinical trial participation.",
+      "icon": "bi-box"
+    },
+    {
+      "title": "1st Line",
+      "body": "Preferred: Cisplatin/gemcitabine + durvalumab (category 1) OR cisplatin/gemcitabine + pembrolizumab (category 1). Alternatives: Cisplatin/gemcitabine (category 1), albumin-bound paclitaxel/gemcitabine, capecitabine/gemcitabine, capecitabine/oxaliplatin, FOLFOX, gemcitabine/oxaliplatin, single agents.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "2nd Line",
+      "body": "Preferred: FOLFOX. Alternatives: FOLFIRI, fluorouracil/leucovorin/liposomal irinotecan (category 2B), regorafenib (category 2B), or regimens used in first-line if not previously used.",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "Targeted Therapy",
+      "body": "Preferred: Varies by biomarker (e.g., ivosidenib for IDH1-mutated, futibatinib for FGFR2 fusion/rearranged, dabrafenib/trametinib for BRAF V600E). Alternatives: Clinical trials.",
+      "icon": "bi-target"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "biliary",
+  "_chars_in": 5000
+}

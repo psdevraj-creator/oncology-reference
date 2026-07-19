@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is used in the adjuvant setting for resected high-risk Stage II and Stage III disease, and as primary treatment for locally unresectable or metastatic SBA. Treatment recommendations are largely extrapolated from colorectal cancer (CRC) data. Participation in clinical trials is especially encouraged. The choice of regimen depends on performance status, comorbidities, prior therapy, and tumor biomarker status (especially MMR/MSI, BRAF, HER2, NTRK, RET, KRAS G12C, TMB). Many regimens are Category 2A."
+    }
+  ],
+  "cards": [
+    {
+      "name": "FOLFOX",
+      "drugs": "Oxaliplatin 85 mg/m2 IV Day 1, Leucovorin 400 mg/m2 IV Day 1, Fluorouracil 400 mg/m2 IV bolus then 1200 mg/m2/day continuous infusion Day 1",
+      "detail": "Setting: Adjuvant, First-line Metastatic. Cycle Days: Repeat every 2 weeks. Key Toxicities: Peripheral neuropathy, myelosuppression, mucositis, diarrhea, nausea/vomiting, fatigue. Discontinuation of oxaliplatin after 3-4 months should be strongly considered to limit neurotoxicity."
+    },
+    {
+      "name": "CAPEOX",
+      "drugs": "Oxaliplatin 130 mg/m2 IV Day 1, Capecitabine (dose not provided)",
+      "detail": "Setting: Adjuvant, First-line Metastatic. Cycle Days: Repeat every 2 weeks. Key Toxicities: (not provided)"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Adjuvant (pMMR/MSS)",
+      "body": "Preferred: FOLFOX or CAPEOX for 3-6 months. Alternatives: Fluorouracil/Leucovorin or capecitabine for 6 months.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "Adjuvant (dMMR/MSI-H)",
+      "body": "Preferred: FOLFOX + atezolizumab or CAPEOX + atezolizumab. Alternatives: FOLFOX or CAPEOX alone.",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "Initial Therapy for Metastatic (pMMR/MSS)",
+      "body": "Intensive: FOLFOX/CAPEOX ± bevacizumab, FOLFIRI ± bevacizumab, FOLFIRINOX ± bevacizumab. Non-intensive: Capecitabine or 5-FU/LV ± bevacizumab. BRAF V600E: FOLFOX/encorafenib + cetuximab/panitumumab. TMB-high: pembrolizumab.",
+      "icon": "bi-3-circle-fill"
+    },
+    {
+      "title": "Second-Line and Subsequent (pMMR/MSS)",
+      "body": "CAPEOX, FOLFIRI, FOLFOX, irinotecan, or taxane ± bevacizumab. Biomarker-directed: BRAF V600E, HER2, NTRK, RET, KRAS G12C. TMB-high: pembrolizumab.",
+      "icon": "bi-4-circle-fill"
+    },
+    {
+      "title": "Any Line (dMMR/MSI-H)",
+      "body": "Checkpoint inhibitor monotherapy or combination (nivolumab + ipilimumab). Alternatives: Chemotherapy as for pMMR/MSS.",
+      "icon": "bi-5-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "small_bowel",
+  "_chars_in": 5000
+}

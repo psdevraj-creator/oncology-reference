@@ -1,0 +1,186 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The molecular pathogenesis of ovarian cancer is highly subtype-dependent."
+    },
+    {
+      "heading": "High-grade serous carcinoma",
+      "content": "High-grade serous carcinoma is characterized by near-universal TP53 mutations (>96%), and frequently exhibits homologous recombination deficiency (HRD) due to germline or somatic BRCA1/2 mutations or other alterations in HR genes (e.g., BRIP1, RAD51C/D). This genomic instability is a key therapeutic target for PARP inhibitors."
+    },
+    {
+      "heading": "Low-grade serous carcinoma",
+      "content": "In contrast, low-grade serous carcinomas are driven by activating mutations in the MAPK pathway, with BRAF V600E mutations found in approximately 30-50% and KRAS mutations in 20-30% of cases. TP53 mutations are rare in this subtype."
+    },
+    {
+      "heading": "Endometrioid and clear cell carcinomas",
+      "content": "Endometrioid and clear cell carcinomas are often associated with endometriosis and have distinct molecular profiles. Endometrioid carcinomas frequently harbor CTNNB1 (beta-catenin) mutations, ARID1A mutations, and microsatellite instability (MSI) due to defects in mismatch repair. Clear cell carcinomas commonly show ARID1A mutations and PIK3CA mutations."
+    },
+    {
+      "heading": "Mucinous carcinomas",
+      "content": "Mucinous carcinomas often have KRAS mutations."
+    },
+    {
+      "heading": "Malignant germ cell tumors",
+      "content": "Malignant germ cell tumors have distinct pathogenesis, with dysgerminomas associated with overexpression of KIT."
+    },
+    {
+      "heading": "Sex cord-stromal tumors",
+      "content": "Sex cord-stromal tumors, such as adult granulosa cell tumors, are characterized by a pathognomonic somatic FOXL2 C134W mutation."
+    },
+    {
+      "heading": "Small cell carcinoma of the ovary, hypercalcemic type (SCCOHT)",
+      "content": "Small cell carcinoma of the ovary, hypercalcemic type (SCCOHT) is defined by bi-allelic loss-of-function mutations in the SMARCA4 (BRG1) gene."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA2",
+        "type": "gene"
+      },
+      {
+        "id": "BRIP1",
+        "type": "gene"
+      },
+      {
+        "id": "RAD51C",
+        "type": "gene"
+      },
+      {
+        "id": "RAD51D",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "KRAS",
+        "type": "gene"
+      },
+      {
+        "id": "CTNNB1",
+        "type": "gene"
+      },
+      {
+        "id": "ARID1A",
+        "type": "gene"
+      },
+      {
+        "id": "PIK3CA",
+        "type": "gene"
+      },
+      {
+        "id": "KIT",
+        "type": "gene"
+      },
+      {
+        "id": "FOXL2",
+        "type": "gene"
+      },
+      {
+        "id": "SMARCA4",
+        "type": "gene"
+      },
+      {
+        "id": "MAPK pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "HRD",
+        "type": "pathway"
+      },
+      {
+        "id": "Mismatch repair",
+        "type": "pathway"
+      },
+      {
+        "id": "PARP inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "BRAF",
+        "target": "MAPK pathway",
+        "type": "activates"
+      },
+      {
+        "source": "KRAS",
+        "target": "MAPK pathway",
+        "type": "activates"
+      },
+      {
+        "source": "BRCA1",
+        "target": "HRD",
+        "type": "inhibits"
+      },
+      {
+        "source": "BRCA2",
+        "target": "HRD",
+        "type": "inhibits"
+      },
+      {
+        "source": "BRIP1",
+        "target": "HRD",
+        "type": "inhibits"
+      },
+      {
+        "source": "RAD51C",
+        "target": "HRD",
+        "type": "inhibits"
+      },
+      {
+        "source": "RAD51D",
+        "target": "HRD",
+        "type": "inhibits"
+      },
+      {
+        "source": "PARP inhibitors",
+        "target": "HRD",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "MAPK pathway",
+      "genes": [
+        "BRAF",
+        "KRAS"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "HRD",
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "BRIP1",
+        "RAD51C",
+        "RAD51D"
+      ],
+      "drugs": "PARP inhibitors",
+      "targetable": true
+    },
+    {
+      "pathway": "mismatch repair",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "ovarian",
+  "_chars_in": 1424
+}

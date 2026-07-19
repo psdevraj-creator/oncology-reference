@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of ovarian, fallopian tube, and primary peritoneal cancer requires a multimodal approach, including surgery, systemic therapy, and sometimes radiation therapy. Treatment is individualized based on disease stage, histologic subtype, molecular biomarkers, and patient factors. A gynecologic oncologist should be involved in the assessment and treatment of all patients. Clinical trial participation is encouraged when applicable."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Diagnosis of ovarian, fallopian tube, or primary peritoneal cancer",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Involve gynecologic oncologist and MDT",
+        "type": "treatment"
+      },
+      {
+        "id": "n3",
+        "label": "Assess stage, histology, biomarkers, performance status",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Curative intent: Primary cytoreductive surgery followed by adjuvant chemo ± bevacizumab ± PARPi maintenance",
+        "type": "treatment"
+      },
+      {
+        "id": "n5",
+        "label": "Neoadjuvant intent: NACT (platinum ± bevacizumab) then interval debulking surgery",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Palliative intent: Systemic therapy, hormonal therapy, RT; consider secondary CRS for platinum-sensitive isolated recurrence",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": ""
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": ""
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "label": "Early-stage/complete cytoreduction possible"
+      },
+      {
+        "source": "n3",
+        "target": "n5",
+        "label": "Bulky advanced (stage IIIC/IV) or poor surgical candidate"
+      },
+      {
+        "source": "n3",
+        "target": "n6",
+        "label": "Recurrent/persistent disease not curable"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patients with newly diagnosed ovarian, fallopian tube, or primary peritoneal cancer, particularly those with early-stage disease or advanced disease amenable to complete cytoreduction. Primary cytoreductive surgery (PCS) followed by adjuvant platinum-based chemotherapy, often combined with bevacizumab or followed by PARP inhibitor maintenance therapy for patients with homologous recombination deficiency (HRD) or BRCA mutations. Neoadjuvant chemotherapy (NACT) followed by interval debulking surgery (IDS) is an alternative for patients with bulky disease unlikely to be optimally resected upfront.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative",
+      "detail": "Patients with recurrent or persistent disease not amenable to curative-intent therapy. Systemic therapy (chemotherapy, targeted therapy, immunotherapy), hormonal therapy, and/or palliative radiation therapy to control symptoms, improve quality of life, and prolong survival. Secondary cytoreductive surgery may be considered for select patients with platinum-sensitive, isolated recurrent disease.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Adjuvant",
+      "detail": "Patients who have undergone primary surgery and have residual microscopic or macroscopic disease. Postoperative systemic therapy to reduce the risk of recurrence and treat residual disease. The choice of regimen depends on stage, histology, and biomarker status.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Neoadjuvant",
+      "detail": "Patients with advanced-stage disease (e.g., stage IIIC/IV) who are poor surgical candidates or unlikely to achieve optimal cytoreduction with primary surgery. Systemic therapy (platinum-based chemotherapy ± bevacizumab) given prior to surgery to reduce tumor burden and improve the likelihood of successful interval cytoreduction.",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "ovarian",
+  "_chars_in": 3206
+}

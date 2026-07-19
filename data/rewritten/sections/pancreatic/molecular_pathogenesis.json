@@ -1,0 +1,320 @@
+{
+  "sections": [
+    {
+      "heading": "Molecular Pathogenesis Overview",
+      "content": "The molecular pathogenesis of pancreatic adenocarcinoma involves a stepwise accumulation of genetic and epigenetic alterations."
+    },
+    {
+      "heading": "KRAS and RAS-MAPK Pathway",
+      "content": "The most common driver mutation is in the KRAS oncogene (present in >90% of cases), leading to constitutive activation of the RAS-MAPK signaling pathway, which promotes cell proliferation and survival."
+    },
+    {
+      "heading": "Tumor Suppressor Genes",
+      "content": "Inactivating mutations in tumor suppressor genes are also frequent: TP53 (>75% of cases), SMAD4 (DPC4, ~55%), and CDKN2A/p16 (~90% via deletion, mutation, or promoter methylation)."
+    },
+    {
+      "heading": "TGF-β/SMAD Pathway",
+      "content": "The TGF-β/SMAD pathway is disrupted by SMAD4 loss, altering growth control and immune evasion."
+    },
+    {
+      "heading": "Chromatin Remodeling Genes",
+      "content": "Other recurrently mutated genes include ARID1A, TGFBR2, and chromatin remodeling genes (e.g., MLL, MLL3, KMT2C)."
+    },
+    {
+      "heading": "Homologous Recombination Repair and PARP Inhibitors",
+      "content": "Homologous recombination repair genes, such as BRCA1, BRCA2, and PALB2, are mutated in approximately 5-7% of pancreatic adenocarcinomas, leading to genomic instability and sensitivity to platinum-based chemotherapies and PARP inhibitors."
+    },
+    {
+      "heading": "MSI/dMMR and Immune Checkpoint Inhibitors",
+      "content": "Microsatellite instability (MSI) and mismatch repair deficiency (dMMR) occur in <2% of cases but are therapeutically relevant due to responsiveness to immune checkpoint inhibitors."
+    },
+    {
+      "heading": "Other Actionable Alterations and NGS",
+      "content": "Other actionable molecular alterations include NTRK gene fusions (<1%), BRAF V600E mutations (~1-2%), HER2 amplification (<5%), and RET fusions (<1%). These are identified via next-generation sequencing (NGS) and guide targeted therapy."
+    },
+    {
+      "heading": "Tumor Mutational Burden and Immunotherapy",
+      "content": "Tumor mutational burden (TMB) is also assessed to predict immunotherapy response."
+    },
+    {
+      "heading": "Tumor Microenvironment and Chemoresistance",
+      "content": "The tumor microenvironment is characterized by a dense desmoplastic stroma, immunosuppressive cells, and hypovascularity, which contribute to chemoresistance."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "KRAS",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "SMAD4",
+        "type": "gene"
+      },
+      {
+        "id": "CDKN2A",
+        "type": "gene"
+      },
+      {
+        "id": "ARID1A",
+        "type": "gene"
+      },
+      {
+        "id": "TGFBR2",
+        "type": "gene"
+      },
+      {
+        "id": "MLL",
+        "type": "gene"
+      },
+      {
+        "id": "MLL3",
+        "type": "gene"
+      },
+      {
+        "id": "KMT2C",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA2",
+        "type": "gene"
+      },
+      {
+        "id": "PALB2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "HER2",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "RAS_MAPK_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "TGF_beta_SMAD_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "chromatin_remodeling_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "HRR_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "Mismatch_repair_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "platinum_based_chemotherapy",
+        "type": "drug"
+      },
+      {
+        "id": "PARP_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "immune_checkpoint_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "TRK_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "BRAF_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "HER2_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "RET_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "MSI_dMMR",
+        "type": "targetable"
+      },
+      {
+        "id": "TMB",
+        "type": "targetable"
+      }
+    ],
+    "edges": [
+      {
+        "source": "KRAS",
+        "target": "RAS_MAPK_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "BRAF",
+        "target": "RAS_MAPK_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "SMAD4",
+        "target": "TGF_beta_SMAD_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "TGFBR2",
+        "target": "TGF_beta_SMAD_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "ARID1A",
+        "target": "chromatin_remodeling_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "MLL",
+        "target": "chromatin_remodeling_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "MLL3",
+        "target": "chromatin_remodeling_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "KMT2C",
+        "target": "chromatin_remodeling_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "BRCA1",
+        "target": "HRR_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "BRCA2",
+        "target": "HRR_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "PALB2",
+        "target": "HRR_pathway",
+        "type": "activates"
+      },
+      {
+        "source": "platinum_based_chemotherapy",
+        "target": "HRR_pathway",
+        "type": "targets"
+      },
+      {
+        "source": "PARP_inhibitor",
+        "target": "HRR_pathway",
+        "type": "targets"
+      },
+      {
+        "source": "immune_checkpoint_inhibitor",
+        "target": "MSI_dMMR",
+        "type": "targets"
+      },
+      {
+        "source": "immune_checkpoint_inhibitor",
+        "target": "TMB",
+        "type": "targets"
+      },
+      {
+        "source": "TRK_inhibitor",
+        "target": "NTRK",
+        "type": "targets"
+      },
+      {
+        "source": "BRAF_inhibitor",
+        "target": "BRAF",
+        "type": "targets"
+      },
+      {
+        "source": "HER2_inhibitor",
+        "target": "HER2",
+        "type": "targets"
+      },
+      {
+        "source": "RET_inhibitor",
+        "target": "RET",
+        "type": "targets"
+      },
+      {
+        "source": "Mismatch_repair_pathway",
+        "target": "MSI_dMMR",
+        "type": "inhibits"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "RAS_MAPK_pathway",
+      "genes": [
+        "KRAS",
+        "BRAF"
+      ],
+      "drugs": "BRAF_inhibitor",
+      "targetable": true
+    },
+    {
+      "pathway": "TGF_beta_SMAD_pathway",
+      "genes": [
+        "SMAD4",
+        "TGFBR2"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "chromatin_remodeling_pathway",
+      "genes": [
+        "ARID1A",
+        "MLL",
+        "MLL3",
+        "KMT2C"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "HRR_pathway",
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "PALB2"
+      ],
+      "drugs": "platinum_based_chemotherapy,PARP_inhibitor",
+      "targetable": true
+    },
+    {
+      "pathway": "Mismatch_repair_pathway",
+      "genes": [],
+      "drugs": "immune_checkpoint_inhibitor",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "pancreatic",
+  "_chars_in": 1615
+}

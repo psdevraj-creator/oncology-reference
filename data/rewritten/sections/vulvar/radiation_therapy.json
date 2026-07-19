@@ -1,0 +1,90 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\"role\": \"Radiation therapy (RT) is used as adjuvant therapy after surgery, as part of primary therapy for locally advanced disease, or for palliation in recurrent/metastatic disease.\", \"principles\": [\"RT technique and doses should maximize tumor control while limiting normal tissue toxicity.\", \"Intensity-modulated RT (IMRT) is preferred to reduce dose to normal tissues and allow dose escalation.\", \"Postoperative adjuvant treatment should be initiated within 6–8 weeks of surgery.\", \"Concurrent chemotherapy (typically cisplatin) is used as a radiosensitizer for locally advanced or node-positive disease.\", \"Bolus should be used to ensure adequate dosing to superficial target volumes.\"], \"dose_frameworks\": [{\"name\": \"Adjuvant therapy (postoperative, negative margins)\", \"total_dose\": \"45–50 Gy\", \"dose_per_fraction\": \"1.8–2 Gy\", \"fractions\": \"25–28\", \"schedule\": \"Once daily, 5 days per week\", \"indication\": \"Close margins, LVSI, >5 mm depth of invasion\"}, {\"name\": \"Adjuvant therapy (postoperative, close or positive margins)\", \"total_dose\": \"54–60 Gy\", \"dose_per_fraction\": \"1.8 Gy\", \"fractions\": \"30–33\", \"schedule\": \"Once daily, 5 days per week\", \"indication\": \"Positive margins, high-risk features\"}, {\"name\": \"Definitive therapy (unresectable disease)\", \"total_dose\": \"59.4–64.8 Gy\", \"dose_per_fraction\": \"1.8 Gy\", \"fractions\": \"33–36\", \"schedule\": \"Once daily, 5 days per week\", \"indication\": \"Locally advanced, unresectable disease\"}, {\"name\": \"Boost for bulky/persistent disease\", \"total_dose\": \"Up to 70 Gy\", \"dose_per_fraction\": \"1.8–2 Gy\", \"fractions\": \"35–39\", \"schedule\": \"Once daily, 5 days per week\", \"indication\": \"Bulky residual disease after initial RT\"}], \"approaches\": [{\"name\": \"Adjuvant RT for node-positive disease\", \"dose_fractionation\": \"50–60 Gy to groins and pelvis\", \"concurrent_chemotherapy\": \"Cisplatin (preferred) or carboplatin if cisplatin intolerant\", \"indication\": \"≥2 positive nodes or extranodal extension\", \"key_trial\": \"GOG 37 showed survival benefit for adjuvant RT vs. pelvic node resection\", \"toxicities\": \"Skin reaction, fatigue, diarrhea, bladder irritation, lymphedema\"}, {\"name\": \"Concurrent chemoradiation for locally advanced disease\", \"dose_fractionation\": \"59.4–64.8 Gy to primary tumor and nodes\", \"concurrent_chemotherapy\": \"Cisplatin (preferred), carboplatin, or cisplatin/fluorouracil\", \"indication\": \"Unresectable locally advanced disease\", \"key_trial\": \"GOG 101 and GOG 205 showed high response rates and feasibility of surgery after chemoradiation\", \"toxicities\": \"Acute: diarrhea, bladder irritation, mucocutaneous reaction; late: fibrosis, stenosis\"}, {\"name\": \"Palliative RT\", \"dose_fractionation\": \"30 Gy in 10 fractions or 8 Gy x 1 fraction\", \"concurrent_chemotherapy\": \"None typically\", \"indication\": \"Symptom control in metastatic or recurrent disease\", \"key_trial\": \"SABR-COMET trial showed benefit for ablative therapy in oligometastatic disease\", \"toxicities\": \"Site-specific acute and late effects\"}]}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose",
+      "value": 45,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 54,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 59.4,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 70,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 50,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 59.4,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 30,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 8,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Adjuvant therapy (postoperative, negative margins)",
+      "body": "Total dose: 45–50 Gy, dose per fraction: 1.8–2 Gy, fractions: 25–28, schedule: Once daily, 5 days per week, indication: Close margins, LVSI, >5 mm depth of invasion",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Adjuvant therapy (postoperative, close or positive margins)",
+      "body": "Total dose: 54–60 Gy, dose per fraction: 1.8 Gy, fractions: 30–33, schedule: Once daily, 5 days per week, indication: Positive margins, high-risk features",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive therapy (unresectable disease)",
+      "body": "Total dose: 59.4–64.8 Gy, dose per fraction: 1.8 Gy, fractions: 33–36, schedule: Once daily, 5 days per week, indication: Locally advanced, unresectable disease",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Boost for bulky/persistent disease",
+      "body": "Total dose: Up to 70 Gy, dose per fraction: 1.8–2 Gy, fractions: 35–39, schedule: Once daily, 5 days per week, indication: Bulky residual disease after initial RT",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Adjuvant RT for node-positive disease",
+      "body": "Dose: 50–60 Gy to groins and pelvis, concurrent chemo: Cisplatin (preferred) or carboplatin if cisplatin intolerant, indication: ≥2 positive nodes or extranodal extension",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Concurrent chemoradiation for locally advanced disease",
+      "body": "Dose: 59.4–64.8 Gy to primary tumor and nodes, concurrent chemo: Cisplatin (preferred), carboplatin, or cisplatin/fluorouracil, indication: Unresectable locally advanced disease",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Palliative RT",
+      "body": "Dose: 30 Gy in 10 fractions or 8 Gy x 1 fraction, concurrent chemo: None typically, indication: Symptom control in metastatic or recurrent disease",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "vulvar",
+  "_chars_in": 2977
+}

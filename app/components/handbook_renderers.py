@@ -48,7 +48,7 @@ def _load_enriched(site_id: str | None, section: str) -> dict | None:
 
 # ── Epidemiology ──────────────────────────────────────────────────────
 
-def render_epidemiology(value: dict) -> list:
+def render_epidemiology(value, site_id: str = "") -> list:
     components = [html.H3("Epidemiology", className="section-heading")]
     if not isinstance(value, dict):
         return components + [dcc.Markdown(str(value), className="section-text")]
@@ -86,7 +86,7 @@ def render_epidemiology(value: dict) -> list:
 
 # ── Subtypes ──────────────────────────────────────────────────────────
 
-def render_subtypes(value: list) -> list:
+def render_subtypes(value, site_id: str = "") -> list:
     components = [html.H3("Subtypes", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -137,15 +137,35 @@ def render_subtypes(value: list) -> list:
 
 # ── Molecular Pathogenesis ────────────────────────────────────────────
 
-def render_molecular_pathogenesis(value: str) -> list:
+def render_molecular_pathogenesis(value: str, site_id: str = "") -> list:
     components = [html.H3("Molecular Pathogenesis", className="section-heading")]
     if not isinstance(value, str) or not value.strip():
         return components
 
-    # Split into paragraphs, detect pathway names, group into accordion items
+    if site_id:
+        enriched = _load_enriched(site_id, "molecular_pathogenesis")
+        if enriched and enriched.get("sections"):
+            net_enriched = enriched.get("network", {})
+            if net_enriched.get("nodes"):
+                from app.components.viz.pathways import molecular_network
+                net = molecular_network(net_enriched)
+                if net:
+                    components.append(
+                        dmc.Paper(dcc.Loading(net), shadow="sm", radius="md", p="sm", className="mb-4",
+                                  style={"overflow": "hidden"})
+                    )
+            for sec in enriched["sections"]:
+                components.append(
+                    dmc.Blockquote(
+                        dcc.Markdown(sec["content"], className="section-text"),
+                        cite=sec.get("heading", "Pathway"),
+                        className="definition-blockquote",
+                    )
+                )
+            return components
+
     paragraphs = [p.strip() for p in value.split("\n\n") if p.strip()]
     if len(paragraphs) <= 1:
-        # Single block: use Blockquote
         components.append(
             dmc.Paper(
                 dcc.Markdown(value, className="section-text"),
@@ -155,7 +175,6 @@ def render_molecular_pathogenesis(value: str) -> list:
         )
         return components
 
-    # Try to detect pathway names from bold markers or key terms
     items = []
     pathway_keywords = ["pathway", "signaling", "receptor", "kinase", "mutation",
                         "DNA repair", "cell cycle", "apoptosis", "invasion", "immune"]
@@ -184,7 +203,7 @@ def render_molecular_pathogenesis(value: str) -> list:
 
 # ── Risk Factors ──────────────────────────────────────────────────────
 
-def render_risk_factors(value: list) -> list:
+def render_risk_factors(value: list, site_id: str = "") -> list:
     components = [html.H3("Risk Factors", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -216,7 +235,7 @@ def render_risk_factors(value: list) -> list:
 
 # ── Protective Factors ────────────────────────────────────────────────
 
-def render_protective_factors(value: list) -> list:
+def render_protective_factors(value: list, site_id: str = "") -> list:
     components = [html.H3("Protective Factors", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -236,7 +255,7 @@ def render_protective_factors(value: list) -> list:
 
 # ── Clinical Features ─────────────────────────────────────────────────
 
-def render_clinical_features(value) -> list:
+def render_clinical_features(value, site_id: str = "") -> list:
     components = [html.H3("Clinical Features", className="section-heading")]
     if not value:
         return components
@@ -286,7 +305,7 @@ def render_clinical_features(value) -> list:
 
 # ── Red Flags ────────────────────────────────────────────────────────
 
-def render_red_flags(value: list) -> list:
+def render_red_flags(value: list, site_id: str = "") -> list:
     components = [html.H3("Red Flags", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -302,7 +321,7 @@ def render_red_flags(value: list) -> list:
 
 # ── Investigations ────────────────────────────────────────────────────
 
-def render_investigations(value) -> list:
+def render_investigations(value, site_id: str = "") -> list:
     components = [html.H3("Investigations", className="section-heading")]
     if not value:
         return components
@@ -346,7 +365,7 @@ def render_investigations(value) -> list:
 
 # ── Surgery ───────────────────────────────────────────────────────────
 
-def render_surgery(value: dict) -> list:
+def render_surgery(value: dict, site_id: str = "") -> list:
     components = [html.H3("Surgery", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -386,7 +405,7 @@ def render_surgery(value: dict) -> list:
 
 # ── Complications ─────────────────────────────────────────────────────
 
-def render_complications(value: dict) -> list:
+def render_complications(value: dict, site_id: str = "") -> list:
     components = [html.H3("Complications", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -414,7 +433,7 @@ def render_complications(value: dict) -> list:
 
 # ── Supportive Care ───────────────────────────────────────────────────
 
-def render_supportive_care(value: dict) -> list:
+def render_supportive_care(value: dict, site_id: str = "") -> list:
     components = [html.H3("Supportive Care", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -455,7 +474,7 @@ def render_supportive_care(value: dict) -> list:
 
 # ── Follow-Up ─────────────────────────────────────────────────────────
 
-def render_follow_up(value: dict) -> list:
+def render_follow_up(value: dict, site_id: str = "") -> list:
     components = [html.H3("Follow-Up", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -475,7 +494,7 @@ def render_follow_up(value: dict) -> list:
 
 # ── Clinical Pearls ───────────────────────────────────────────────────
 
-def render_clinical_pearls(value: list) -> list:
+def render_clinical_pearls(value: list, site_id: str = "") -> list:
     components = [html.H3("Clinical Pearls", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -493,7 +512,7 @@ def render_clinical_pearls(value: list) -> list:
 
 # ── Special Situations ────────────────────────────────────────────────
 
-def render_special_situations(value: list) -> list:
+def render_special_situations(value: list, site_id: str = "") -> list:
     components = [html.H3("Special Situations", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -517,7 +536,7 @@ def render_special_situations(value: list) -> list:
 
 # ── Guidelines & Resources ────────────────────────────────────────────
 
-def render_guidelines_resources(value: list) -> list:
+def render_guidelines_resources(value: list, site_id: str = "") -> list:
     components = [html.H3("Guidelines & Resources", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
@@ -539,7 +558,7 @@ def render_guidelines_resources(value: list) -> list:
 
 # ── Management Principles ─────────────────────────────────────────────
 
-def render_management_principles(value: dict) -> list:
+def render_management_principles(value: dict, site_id: str = "") -> list:
     components = [html.H3("Management Principles", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -578,7 +597,7 @@ def render_management_principles(value: dict) -> list:
 
 # ── Treatment Response Assessment ─────────────────────────────────────
 
-def render_treatment_response(value: dict) -> list:
+def render_treatment_response(value: dict, site_id: str = "") -> list:
     components = [html.H3("Treatment Response Assessment", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -599,7 +618,7 @@ def render_treatment_response(value: dict) -> list:
 
 # ── Surveillance ──────────────────────────────────────────────────────
 
-def render_surveillance(value: dict) -> list:
+def render_surveillance(value: dict, site_id: str = "") -> list:
     components = [html.H3("Surveillance", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -620,7 +639,7 @@ def render_surveillance(value: dict) -> list:
 
 # ── Prognosis ─────────────────────────────────────────────────────────
 
-def render_enhanced_prognosis(value: dict) -> list:
+def render_enhanced_prognosis(value: dict, site_id: str = "") -> list:
     components = [html.H3("Prognosis", className="section-heading")]
     if not isinstance(value, dict):
         return components

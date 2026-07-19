@@ -1,0 +1,121 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Testicular cancer most often presents as a painless or painful testicular nodule, mass, enlargement, or induration (hardening). Many patients present with testicular discomfort or swelling suggestive of epididymitis or orchitis. Germ cell tumors (GCTs) comprise 95% of malignant tumors arising in the testes and are broadly categorized into two main histologic subtypes: seminoma and nonseminoma. Seminomas and nonseminomas typically occur at about the same rate, but nonseminomas tend to be more aggressive and often include multiple cell types. The four types of nonseminomas are embryonal carcinoma, choriocarcinoma, yolk sac tumor, and teratoma. Most nonseminomas are mixed tumors of these four subtypes. Testicular cancer accounts for <1% of new cancer cases with a majority of patients being diagnosed between the ages of 20 and 34 years. The global incidence has been steadily rising over the past several decades, with an estimated 9,810 new cases projected in the United States in 2026 [MS-2]. Several risk factors have been identified, including personal or family history of testicular cancer and cryptorchidism [MS-2]. An estimated 630 deaths will occur from testicular cancer in the United States in 2026, reflecting the excellent 5-year relative survival rate (~94%) [MS-2]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Painless testicular nodule or mass",
+      "detail": "Most common presentation; a firm, hard mass within the testis that may be painless or painful.",
+      "frequency": "Most frequent presenting symptom",
+      "alarm": false
+    },
+    {
+      "name": "Testicular discomfort or swelling",
+      "detail": "Often mistaken for or suggestive of epididymitis or orchitis; patients may have received a trial of antibiotics which is never warranted in a suspicious mass but can be considered in pain without a mass.",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Testicular induration (hardening)",
+      "detail": "Hardening of the testicular tissue detected on physical examination.",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Testicular enlargement",
+      "detail": "Diffuse or focal enlargement of the testis.",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Gynecomastia",
+      "detail": "Breast enlargement may occur due to hormonal effects of hCG-producing tumors.",
+      "frequency": "Less common",
+      "alarm": false
+    },
+    {
+      "name": "Low back or flank pain",
+      "detail": "May indicate retroperitoneal lymphadenopathy from metastatic disease.",
+      "frequency": "Less common; more typical of advanced disease",
+      "alarm": true
+    },
+    {
+      "name": "Supraclavicular lymphadenopathy",
+      "detail": "Enlarged lymph nodes of the lower neck or upper chest, indicating lymphatic spread.",
+      "frequency": "Uncommon; indicates advanced disease",
+      "alarm": true
+    },
+    {
+      "name": "Retroperitoneal mass symptoms",
+      "detail": "Abdominal fullness, nausea, or early satiety from large retroperitoneal nodal masses.",
+      "frequency": "Uncommon; indicates advanced disease",
+      "alarm": true
+    },
+    {
+      "name": "Neurologic symptoms",
+      "detail": "Headache, seizures, focal deficits, or altered mental status may indicate brain metastases.",
+      "frequency": "Rare",
+      "alarm": true
+    },
+    {
+      "name": "Symptoms of disseminated disease",
+      "detail": "Weight loss, fatigue, dyspnea from pulmonary metastases, bone pain from skeletal metastases.",
+      "frequency": "Uncommon; indicates advanced disease",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "May indicate retroperitoneal lymphadenopathy from metastatic disease."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Enlarged lymph nodes of the lower neck or upper chest, indicating lymphatic spread."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Abdominal fullness, nausea, or early satiety from large retroperitoneal nodal masses."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Headache, seizures, focal deficits, or altered mental status may indicate brain metastases."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Weight loss, fatigue, dyspnea from pulmonary metastases, bone pain from skeletal metastases."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Painless testicular nodule or mass",
+      "Testicular discomfort or swelling",
+      "Testicular induration (hardening)",
+      "Testicular enlargement",
+      "Gynecomastia",
+      "Low back or flank pain",
+      "Supraclavicular lymphadenopathy",
+      "Retroperitoneal mass symptoms",
+      "Neurologic symptoms",
+      "Symptoms of disseminated disease"
+    ],
+    "values": [
+      70,
+      50,
+      50,
+      50,
+      20,
+      20,
+      10,
+      10,
+      5,
+      10
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "testicular",
+  "_chars_in": 4914
+}

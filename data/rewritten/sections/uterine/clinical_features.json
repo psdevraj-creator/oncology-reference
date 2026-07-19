@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "The classic presentation of endometrial carcinoma is abnormal uterine bleeding, most commonly postmenopausal bleeding (vaginal bleeding after menopause), which prompts investigation. In premenopausal women, it may manifest as menorrhagia or intermenstrual bleeding. Patients may also present with pelvic pain or pressure, though this is less common. For uterine sarcomas, presentation often includes a rapidly enlarging pelvic mass, which may be painful, or abnormal bleeding. Adenosarcomas may present as a polypoid mass protruding through the cervix."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Abnormal uterine bleeding",
+      "detail": "The most common symptom, occurring in about 90% of patients. This includes postmenopausal bleeding, metrorrhagia, or menorrhagia.",
+      "frequency": "90%",
+      "alarm": true
+    },
+    {
+      "name": "Pelvic pain or pressure",
+      "detail": "May be present due to tumor size or local spread.",
+      "frequency": "Less common than bleeding",
+      "alarm": false
+    },
+    {
+      "name": "Pelvic mass",
+      "detail": "More common in sarcomas, which may present as a rapidly growing mass.",
+      "frequency": "Common in uterine sarcomas",
+      "alarm": true
+    },
+    {
+      "name": "Vaginal discharge",
+      "detail": "May be serosanguinous or purulent.",
+      "frequency": "Occasional",
+      "alarm": false
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Yes, postmenopausal bleeding is an alarm symptom requiring urgent evaluation."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Yes, a new or enlarging pelvic mass is concerning."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Abnormal uterine bleeding",
+      "Pelvic pain or pressure",
+      "Pelvic mass",
+      "Vaginal discharge"
+    ],
+    "values": [
+      90,
+      0,
+      0,
+      0
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "uterine",
+  "_chars_in": 2384
+}

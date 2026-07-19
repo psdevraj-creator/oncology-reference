@@ -1,0 +1,189 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Vaginal cancer is a rare gynecologic malignancy representing 1% to 2% of all gynecologic neoplasms. The majority of cases are squamous cell carcinoma (SCC), accounting for 80% to 90% of cases, most commonly arising in the upper portion of the posterior wall of the vagina. The predominant pathway for vaginal SCC is HPV infection, predominantly high-risk HPV types with the most common type being HPV16. In the 2020 WHO Classification of Female Genital Tumors, vaginal SCC is categorized into HPV-associated and HPV-independent types based upon pathogenesis [11]. Primary treatment with curative intent for patients with vaginal cancer typically consists of radiation, surgery, chemoradiation, or a combination of these treatments, with options varying by cancer stage. For the majority of vaginal cancers, radiation is used rather than surgery as primary treatment due to improved organ preservation. The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control [5]. Many of the treatment recommendations for vaginal cancer are extrapolated from cervical cancer due to similarities in disease etiology and tumor biology, as prospective trials specific to vaginal cancer have not been feasible given the rarity of the disease. All NCCN recommendations are category 2A unless otherwise indicated, meaning they are based on lower-level evidence with uniform NCCN consensus (≥85% support of the Panel) that the intervention is appropriate."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Vaginal Cancer Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Stage and Intent Assessment",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Stage I-IVA (Curative)",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Stage IVB or Recurrent/Metastatic (Palliative)",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Stage I",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Stage II-IVA",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Lesion <2cm and thickness ≤5mm",
+        "type": "decision"
+      },
+      {
+        "id": "n8",
+        "label": "Intracavitary Brachytherapy Alone",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Lesion >2cm or unfavourable",
+        "type": "decision"
+      },
+      {
+        "id": "n10",
+        "label": "EBRT + Brachytherapy ± Concurrent Platinum Chemo",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Surgery (Resection + Lymph Node Assessment) for select cases",
+        "type": "treatment"
+      },
+      {
+        "id": "n12",
+        "label": "Chemoradiation + Brachytherapy (preferred) or EBRT + Brachytherapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n13",
+        "label": "Limited Disease",
+        "type": "decision"
+      },
+      {
+        "id": "n14",
+        "label": "Disseminated Disease",
+        "type": "decision"
+      },
+      {
+        "id": "n15",
+        "label": "Systemic Therapy + Local Treatment of Primary and Metastases",
+        "type": "treatment"
+      },
+      {
+        "id": "n16",
+        "label": "Systemic Therapy ± Palliative RT + Best Supportive Care",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": ""
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Curative intent (Stage I-IVA)"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Palliative intent (Stage IVB or recurrent/metastatic)"
+      },
+      {
+        "source": "n3",
+        "target": "n5",
+        "label": "Stage I"
+      },
+      {
+        "source": "n3",
+        "target": "n6",
+        "label": "Stage II-IVA"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "Assess lesion size and thickness"
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "label": "Favorable (small)"
+      },
+      {
+        "source": "n7",
+        "target": "n9",
+        "label": "Unfavourable (large)"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": ""
+      },
+      {
+        "source": "n3",
+        "target": "n11",
+        "label": "Select cases for surgery"
+      },
+      {
+        "source": "n6",
+        "target": "n11",
+        "label": "Select cases for surgery"
+      },
+      {
+        "source": "n6",
+        "target": "n12",
+        "label": "Primary treatment"
+      },
+      {
+        "source": "n4",
+        "target": "n13",
+        "label": "Assess disease extent"
+      },
+      {
+        "source": "n13",
+        "target": "n15",
+        "label": "Limited disease"
+      },
+      {
+        "source": "n4",
+        "target": "n14",
+        "label": "Disseminated disease"
+      },
+      {
+        "source": "n14",
+        "target": "n16",
+        "label": ""
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patients with invasive vaginal cancer Stage I–IVA. Radiation therapy (preferred) for the majority of patients due to improved organ preservation. For Stage I, intracavitary brachytherapy alone may be used in select favorable cases with small lesions <2 cm and limited thickness (≤5 mm). For lesions >2 cm confined to the vagina, EBRT with intracavitary brachytherapy (interstitial if >0.5 cm residual thickness at brachytherapy) ± concurrent platinum-containing chemotherapy is recommended. For Stage II–IVA, chemoradiation + brachytherapy (preferred) or EBRT + brachytherapy is recommended. Concurrent platinum-containing chemotherapy utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant). Surgery (resection ± lymph node assessment) is considered only for select cases where complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required [VAG-1, VAG-2].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative/Control",
+      "detail": "Patients with recurrent or metastatic vaginal cancer (Stage IVB or recurrent distant metastases). Systemic therapy is the basis of treatment. For limited disease, systemic therapy with consideration of local treatment of the primary (chemoradiation ± brachytherapy) and local treatment of metastases (surgery for select patients, individualized EBRT, or local ablative therapies such as radiofrequency ablation, cryoablation, or SBRT). For disseminated disease, systemic therapy ± palliative RT and best supportive care. Comprehensive molecular profiling should be considered for better selection of systemic therapy. Patients with refractory systemic cancer warrant a comprehensive coordinated approach involving hospice care, pain consultants, and emotional and spiritual support [VAG-6].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "vaginal",
+  "_chars_in": 4354
+}

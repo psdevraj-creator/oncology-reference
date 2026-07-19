@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "heading": "MYCN Amplification",
+      "content": "Key genomic events in neuroblastoma include amplification of the MYCN oncogene, which is associated with aggressive disease and is the strongest independent prognostic risk factor [47,57,58]. Amplification status can be assessed by fluorescence in situ hybridization (FISH), microarray, or next-generation sequencing (NGS); it is defined as >8 copies per cell or ≥4-fold increase [9]."
+    },
+    {
+      "heading": "Segmental Chromosomal Aberrations",
+      "content": "Segmental chromosomal aberrations (SCAs), which may be associated with aggressive disease depending on other factors, are also important. The most extensively studied SCAs include loss of genetic material from chromosomes 1p and 11q, and gain of 17q; loss of 3p or 4p and gains of 1q or 2p are also considered [47,59]. SCAs can be assessed by microarray or NGS [9,10]."
+    },
+    {
+      "heading": "Tumor Cell Ploidy",
+      "content": "Tumor cell ploidy, evaluated by flow cytometry or estimated by NGS, is another prognostic factor; a DNA index (DI) = 1 may be associated with aggressive disease, depending on other factors including age [47]."
+    },
+    {
+      "heading": "ALK Alterations",
+      "content": "Furthermore, amplification and sequence variants in the ALK gene predict response to targeted agents in patients with relapsed/refractory disease [14-17]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "MYCN",
+        "type": "gene"
+      },
+      {
+        "id": "ALK",
+        "type": "targetable"
+      }
+    ],
+    "edges": []
+  },
+  "summaries": [
+    {
+      "pathway": "MYCN amplification",
+      "genes": [
+        "MYCN"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "ALK alterations",
+      "genes": [
+        "ALK"
+      ],
+      "drugs": "targeted agents",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "neuroblastoma",
+  "_chars_in": 1117
+}

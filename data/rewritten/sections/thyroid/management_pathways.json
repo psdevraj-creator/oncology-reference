@@ -1,0 +1,193 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "Pathway ID: papillary_low_risk\nTitle: Low-Risk Papillary Thyroid Carcinoma\nBranching Basis:\n- Tumor size ≤4 cm, confined to thyroid, no extrathyroidal extension (ETE), no lymph node metastases (N0/NX), no distant metastases (M0), favorable histology.\nNode Criteria: Tumor ≤4 cm, unifocal or multifocal (all foci ≤1 cm), no ETE, no lymph node metastases, postoperative unstimulated thyroglobulin (Tg) <1 ng/mL, negative postoperative ultrasound.\nOption: Surgery\nLabel: Lobectomy (preferred) or total thyroidectomy (category 2B).\nPreference: Preferred: Lobectomy. Total thyroidectomy may be considered for bilateral nodularity or patient preference.\nRecommendation: Category 2A.\nOption: RAI\nLabel: Not typically recommended.\nPreference: Not recommended if all low-risk criteria are present.\nRecommendation: Category 2A."
+    },
+    {
+      "heading": "Pathway",
+      "content": "Pathway ID: papillary_high_risk\nTitle: High-Risk Papillary Thyroid Carcinoma\nBranching Basis:\n- Tumor >4 cm, ETE, lymph node metastases (N1), distant metastases (M1), aggressive histology (tall cell, columnar cell, hobnail, diffuse sclerosing, solid/trabecular), differentiated high-grade carcinoma.\nNode Criteria: Any high-risk feature (e.g., T3/T4, N1, M1, aggressive histology).\nOption: Surgery\nLabel: Total thyroidectomy with therapeutic neck dissection for clinically apparent/biopsy-proven disease.\nPreference: Preferred.\nRecommendation: Category 2A.\nOption: RAI\nLabel: Typically recommended for remnant ablation or adjuvant therapy.\nPreference: Recommended.\nRecommendation: Category 2A.\nAdjuvant: RAI is recommended based on clinicopathologic risk factors (PAP-4). Dose depends on risk (30–50 mCi for ablation, 75–150 mCi for adjuvant, 100–200 mCi for known disease). [THYR-C]"
+    },
+    {
+      "heading": "Pathway",
+      "content": "Pathway ID: follicular_oncocytic\nTitle: Follicular and Oncocytic Carcinoma\nBranching Basis:\n- Histology (follicular or oncocytic), invasion pattern (capsular vs. vascular), tumor size, lymph node involvement (less common in follicular).\nNode Criteria: Follicular neoplasm on FNA (Bethesda IV), clinical suspicion of malignancy.\nOption: Surgery\nLabel: Lobectomy/isthmusectomy for diagnostic/therapeutic purposes. Total thyroidectomy if bilateral nodularity or tumor >4 cm.\nPreference: Preferred.\nRecommendation: Category 2A.\nNode Criteria: Confirmed invasive follicular/oncocytic carcinoma (e.g., extensive vascular invasion, gross ETE).\nOption: Surgery\nLabel: Total thyroidectomy with therapeutic neck dissection for involved compartments.\nPreference: Preferred.\nRecommendation: Category 2A.\nOption: RAI\nLabel: Selective recommendation based on clinicopathologic factors (e.g., large tumor, vascular invasion, N1, Tg levels).\nPreference: Individually determined.\nRecommendation: Category 2A.\nAdjuvant: RAI decisions are based on clinicopathologic factors (FOLL-3, ONC-3). Oncocytic carcinoma is often non-iodine-avid, so FDG-PET may be considered. [FOLL-9, ONC-9]"
+    },
+    {
+      "heading": "Pathway",
+      "content": "Pathway ID: medullary\nTitle: Medullary Thyroid Carcinoma\nBranching Basis:\n- Sporadic vs. hereditary (germline RET PV), RET mutation risk level, presence of pheochromocytoma/hyperparathyroidism.\nNode Criteria: Sporadic MTC diagnosed on FNA.\nOption: Surgery\nLabel: Total thyroidectomy with central neck dissection (level VI). Therapeutic lateral neck dissection for clinically involved nodes.\nPreference: Preferred.\nRecommendation: Category 2A.\nOption: Systemic_therapy\nLabel: For unresectable, recurrent, or metastatic disease.\nPreference: Preferred: Selpercatinib for RET-mutant disease; vandetanib or cabozantinib for others.\nRecommendation: Category 1 for vandetanib, cabozantinib, and selpercatinib in RET-mutant disease.\nNode Criteria: Hereditary MTC with germline RET PV (MEN2A/MEN2B)."
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Low-Risk Papillary Thyroid Carcinoma",
+      "nodes": [
+        {
+          "id": "papillary_low_risk_d0",
+          "label": "Tumor ≤4 cm, unifocal or multifocal (all foci ≤1 cm), no ETE, no lymph node metastases, postoperative unstimulated thyroglobulin (Tg) <1 ng/mL, negative postoperative ultrasound.",
+          "type": "decision"
+        },
+        {
+          "id": "papillary_low_risk_t0_0",
+          "label": "Surgery: Lobectomy (preferred) or total thyroidectomy (category 2B). Preference: Preferred: Lobectomy. Total thyroidectomy may be considered for bilateral nodularity or patient preference. Recommendation: Category 2A.",
+          "type": "treatment"
+        },
+        {
+          "id": "papillary_low_risk_t0_1",
+          "label": "RAI: Not typically recommended. Preference: Not recommended if all low-risk criteria are present. Recommendation: Category 2A.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "papillary_low_risk_d0",
+          "target": "papillary_low_risk_t0_0",
+          "label": "Surgery"
+        },
+        {
+          "source": "papillary_low_risk_d0",
+          "target": "papillary_low_risk_t0_1",
+          "label": "RAI"
+        }
+      ]
+    },
+    {
+      "title": "High-Risk Papillary Thyroid Carcinoma",
+      "nodes": [
+        {
+          "id": "papillary_high_risk_d0",
+          "label": "Any high-risk feature (e.g., T3/T4, N1, M1, aggressive histology).",
+          "type": "decision"
+        },
+        {
+          "id": "papillary_high_risk_t0_0",
+          "label": "Surgery: Total thyroidectomy with therapeutic neck dissection for clinically apparent/biopsy-proven disease. Preference: Preferred. Recommendation: Category 2A.",
+          "type": "treatment"
+        },
+        {
+          "id": "papillary_high_risk_t0_1",
+          "label": "RAI: Typically recommended for remnant ablation or adjuvant therapy. Preference: Recommended. Recommendation: Category 2A.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "papillary_high_risk_d0",
+          "target": "papillary_high_risk_t0_0",
+          "label": "Surgery"
+        },
+        {
+          "source": "papillary_high_risk_d0",
+          "target": "papillary_high_risk_t0_1",
+          "label": "RAI"
+        }
+      ]
+    },
+    {
+      "title": "Follicular and Oncocytic Carcinoma",
+      "nodes": [
+        {
+          "id": "follicular_oncocytic_d0",
+          "label": "Follicular neoplasm on FNA (Bethesda IV), clinical suspicion of malignancy.",
+          "type": "decision"
+        },
+        {
+          "id": "follicular_oncocytic_t0_0",
+          "label": "Surgery: Lobectomy/isthmusectomy for diagnostic/therapeutic purposes. Total thyroidectomy if bilateral nodularity or tumor >4 cm. Preference: Preferred. Recommendation: Category 2A.",
+          "type": "treatment"
+        },
+        {
+          "id": "follicular_oncocytic_d1",
+          "label": "Confirmed invasive follicular/oncocytic carcinoma (e.g., extensive vascular invasion, gross ETE).",
+          "type": "decision"
+        },
+        {
+          "id": "follicular_oncocytic_t1_0",
+          "label": "Surgery: Total thyroidectomy with therapeutic neck dissection for involved compartments. Preference: Preferred. Recommendation: Category 2A.",
+          "type": "treatment"
+        },
+        {
+          "id": "follicular_oncocytic_t1_1",
+          "label": "RAI: Selective recommendation based on clinicopathologic factors (e.g., large tumor, vascular invasion, N1, Tg levels). Preference: Individually determined. Recommendation: Category 2A.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "follicular_oncocytic_d0",
+          "target": "follicular_oncocytic_t0_0",
+          "label": "Surgery"
+        },
+        {
+          "source": "follicular_oncocytic_t0_0",
+          "target": "follicular_oncocytic_d1",
+          "label": "If pathology confirms invasive carcinoma (extensive vascular invasion, gross ETE)"
+        },
+        {
+          "source": "follicular_oncocytic_d1",
+          "target": "follicular_oncocytic_t1_0",
+          "label": "Surgery"
+        },
+        {
+          "source": "follicular_oncocytic_d1",
+          "target": "follicular_oncocytic_t1_1",
+          "label": "RAI"
+        }
+      ]
+    },
+    {
+      "title": "Medullary Thyroid Carcinoma",
+      "nodes": [
+        {
+          "id": "medullary_d0",
+          "label": "Sporadic vs. hereditary (germline RET PV), RET mutation risk level, presence of pheochromocytoma/hyperparathyroidism.",
+          "type": "decision"
+        },
+        {
+          "id": "medullary_d1",
+          "label": "Sporadic MTC diagnosed on FNA.",
+          "type": "decision"
+        },
+        {
+          "id": "medullary_t1_0",
+          "label": "Surgery: Total thyroidectomy with central neck dissection (level VI). Therapeutic lateral neck dissection for clinically involved nodes. Preference: Preferred. Recommendation: Category 2A.",
+          "type": "treatment"
+        },
+        {
+          "id": "medullary_t1_1",
+          "label": "Systemic_therapy: For unresectable, recurrent, or metastatic disease. Preference: Preferred: Selpercatinib for RET-mutant disease; vandetanib or cabozantinib for others. Recommendation: Category 1 for vandetanib, cabozantinib, and selpercatinib in RET-mutant disease.",
+          "type": "treatment"
+        },
+        {
+          "id": "medullary_d2",
+          "label": "Hereditary MTC with germline RET PV (MEN2A/MEN2B).",
+          "type": "decision"
+        }
+      ],
+      "edges": [
+        {
+          "source": "medullary_d0",
+          "target": "medullary_d1",
+          "label": "Sporadic"
+        },
+        {
+          "source": "medullary_d0",
+          "target": "medullary_d2",
+          "label": "Hereditary"
+        },
+        {
+          "source": "medullary_d1",
+          "target": "medullary_t1_0",
+          "label": "Surgery"
+        },
+        {
+          "source": "medullary_d1",
+          "target": "medullary_t1_1",
+          "label": "Systemic_therapy"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "thyroid",
+  "_chars_in": 5000
+}

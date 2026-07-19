@@ -1,0 +1,239 @@
+{
+  "sections": [
+    {
+      "heading": "Medically Operable, Low-Risk Features",
+      "content": "Branching basis: Surgical operability, Cytoreduction achievability, Histology (epithelioid), Absence of high-risk features. Criteria: Patient is medically operable, complete cytoreduction is achievable, and has low-risk features (defined as epithelioid histology and absence of ANY high-risk features). Options: [Cytoreductive surgery (CRS) + hyperthermic intraperitoneal (IP) chemotherapy (HIPEC) - Preferred - Category 2A - linked regimen IDs: PEM-C_HIPEC_Cis/Dox, PEM-C_HIPEC_Cis, PEM-C_HIPEC_Carbo, PEM-C_HIPEC_Cis/Mito]. Adjuvant: If no high-risk features are identified post-surgery, imaging surveillance is sufficient."
+    },
+    {
+      "heading": "Medically Operable, High-Risk Features",
+      "content": "Branching basis: Surgical operability, Cytoreduction achievability, Presence of ANY high-risk feature. Criteria: Patient is medically operable and complete cytoreduction is achievable, but presence of ANY surgical/pathologic high-risk feature (biphasic/sarcomatoid histology, nodal metastasis, Ki-67 >9%, thrombocytosis, PS=2, bicavitary disease, high disease burden/PCI >17, CC >1). Options: [Cytoreductive surgery (CRS) + hyperthermic intraperitoneal (IP) chemotherapy (HIPEC) - Preferred - Category 2A - linked regimen IDs: PEM-C_HIPEC_Cis/Dox, PEM-C_HIPEC_Cis, PEM-C_HIPEC_Carbo, PEM-C_HIPEC_Cis/Mito]. Adjuvant: If high-risk features are identified post-surgery, adjuvant systemic therapy is recommended."
+    },
+    {
+      "heading": "Medically Inoperable or Complete Cytoreduction Not Achievable",
+      "content": "Branching basis: Surgical operability, Cytoreduction achievability. Criteria 1: Patient is medically inoperable, complete cytoreduction is not achievable, OR presence of ANY high-risk feature precluding surgery. Options 1: [Systemic therapy - Preferred - Category 2A - linked regimen IDs: PEM-D_Epi_1L_Pref, PEM-D_BiSar_1L_Pref]. Criteria 2: Subsequent evaluation after initial systemic therapy shows patient is now medically operable and complete cytoreduction is achievable. Options 2: [Consider CRS + HIPEC - Other recommended - Category 2A - linked regimen IDs: PEM-C_HIPEC_Cis/Dox, PEM-C_HIPEC_Cis, PEM-C_HIPEC_Carbo, PEM-C_HIPEC_Cis/Mito; Imaging surveillance - Preferred - Category 2A - no linked regimens]. Adjuvant: N/A."
+    },
+    {
+      "heading": "Progression After Prior CRS+HIPEC",
+      "content": "Branching basis: Prior treatment history, Disease progression. Criteria: Patient has progression of disease after prior CRS and HIPEC. Options: [Systemic therapy - Preferred - Category 2A - linked regimen IDs: PEM-D_Epi_Sub_Pref, PEM-D_BiSar_Sub_Pref; Repeat CRS + HIPEC (if >12 months from prior procedure and otherwise operable) - Useful in certain circumstances - Category 2A - linked regimen IDs: PEM-C_HIPEC_Cis/Dox, PEM-C_HIPEC_Cis, PEM-C_HIPEC_Carbo, PEM-C_HIPEC_Cis/Mito]. Adjuvant: N/A."
+    },
+    {
+      "heading": "Systemic Therapy for Biphasic or Sarcomatoid Histology",
+      "content": "Branching basis: Histology (Biphasic/Sarcomatoid). Criteria: Patient has biphasic or sarcomatoid peritoneal mesothelioma and requires systemic therapy (e.g., medically inoperable, high-risk features). Options: [Ipilimumab + Nivolumab - Preferred - Category 2A - linked regimen IDs: PEM-D_IpiNivo; (Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab - Other recommended - Category 2A - linked regimen IDs: PEM-D_PemPlatBev; (Carboplatin or Cisplatin)/Pemetrexed - Other recommended - Category 2A - linked regimen IDs: PEM-D_PemPlat]. Adjuvant: N/A."
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Medically Operable, Low-Risk Features",
+      "nodes": [
+        {
+          "id": "low_risk_d1",
+          "label": "Patient is medically operable, complete cytoreduction achievable, low-risk features?",
+          "type": "decision"
+        },
+        {
+          "id": "low_risk_t1",
+          "label": "Cytoreductive surgery (CRS) + hyperthermic intraperitoneal (IP) chemotherapy (HIPEC)",
+          "type": "treatment"
+        },
+        {
+          "id": "low_risk_d2",
+          "label": "High-risk features identified post-surgery?",
+          "type": "decision"
+        },
+        {
+          "id": "low_risk_t2",
+          "label": "Imaging surveillance",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "low_risk_d1",
+          "target": "low_risk_t1",
+          "label": "Criteria met"
+        },
+        {
+          "source": "low_risk_t1",
+          "target": "low_risk_d2",
+          "label": "Post-surgery"
+        },
+        {
+          "source": "low_risk_d2",
+          "target": "low_risk_t2",
+          "label": "No high-risk features"
+        }
+      ]
+    },
+    {
+      "title": "Medically Operable, High-Risk Features",
+      "nodes": [
+        {
+          "id": "high_risk_d1",
+          "label": "Patient is medically operable, complete cytoreduction achievable, high-risk features present?",
+          "type": "decision"
+        },
+        {
+          "id": "high_risk_t1",
+          "label": "Cytoreductive surgery (CRS) + hyperthermic intraperitoneal (IP) chemotherapy (HIPEC)",
+          "type": "treatment"
+        },
+        {
+          "id": "high_risk_d2",
+          "label": "High-risk features identified post-surgery?",
+          "type": "decision"
+        },
+        {
+          "id": "high_risk_t2",
+          "label": "Adjuvant systemic therapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "high_risk_d1",
+          "target": "high_risk_t1",
+          "label": "Criteria met"
+        },
+        {
+          "source": "high_risk_t1",
+          "target": "high_risk_d2",
+          "label": "Post-surgery"
+        },
+        {
+          "source": "high_risk_d2",
+          "target": "high_risk_t2",
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "title": "Medically Inoperable or Complete Cytoreduction Not Achievable",
+      "nodes": [
+        {
+          "id": "inop_d1",
+          "label": "Medically inoperable or incomplete cytoreduction?",
+          "type": "decision"
+        },
+        {
+          "id": "inop_t1",
+          "label": "Systemic therapy",
+          "type": "treatment"
+        },
+        {
+          "id": "inop_d2",
+          "label": "Subsequent evaluation: now medically operable and complete cytoreduction achievable?",
+          "type": "decision"
+        },
+        {
+          "id": "inop_t2",
+          "label": "Consider CRS + HIPEC",
+          "type": "treatment"
+        },
+        {
+          "id": "inop_t3",
+          "label": "Imaging surveillance",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "inop_d1",
+          "target": "inop_t1",
+          "label": "Criteria met"
+        },
+        {
+          "source": "inop_t1",
+          "target": "inop_d2",
+          "label": "After systemic therapy"
+        },
+        {
+          "source": "inop_d2",
+          "target": "inop_t2",
+          "label": "Criteria met"
+        },
+        {
+          "source": "inop_d2",
+          "target": "inop_t3",
+          "label": "Criteria met"
+        }
+      ]
+    },
+    {
+      "title": "Progression After Prior CRS+HIPEC",
+      "nodes": [
+        {
+          "id": "post_crs_d1",
+          "label": "Progression after prior CRS+HIPEC?",
+          "type": "decision"
+        },
+        {
+          "id": "post_crs_t1",
+          "label": "Systemic therapy",
+          "type": "treatment"
+        },
+        {
+          "id": "post_crs_t2",
+          "label": "Repeat CRS + HIPEC (if >12 months from prior procedure and otherwise operable)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "post_crs_d1",
+          "target": "post_crs_t1",
+          "label": "Preferred"
+        },
+        {
+          "source": "post_crs_d1",
+          "target": "post_crs_t2",
+          "label": "Useful in certain circumstances"
+        }
+      ]
+    },
+    {
+      "title": "Systemic Therapy for Biphasic or Sarcomatoid Histology",
+      "nodes": [
+        {
+          "id": "biphasic_d1",
+          "label": "Biphasic/sarcomatoid histology and requires systemic therapy?",
+          "type": "decision"
+        },
+        {
+          "id": "biphasic_t1",
+          "label": "Ipilimumab + Nivolumab",
+          "type": "treatment"
+        },
+        {
+          "id": "biphasic_t2",
+          "label": "(Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab",
+          "type": "treatment"
+        },
+        {
+          "id": "biphasic_t3",
+          "label": "(Carboplatin or Cisplatin)/Pemetrexed",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "biphasic_d1",
+          "target": "biphasic_t1",
+          "label": "Preferred"
+        },
+        {
+          "source": "biphasic_d1",
+          "target": "biphasic_t2",
+          "label": "Other recommended"
+        },
+        {
+          "source": "biphasic_d1",
+          "target": "biphasic_t3",
+          "label": "Other recommended"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "mesothelioma_peritoneal",
+  "_chars_in": 4883
+}

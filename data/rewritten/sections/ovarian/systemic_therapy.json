@@ -1,0 +1,70 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is a cornerstone of ovarian cancer treatment, used in adjuvant, neoadjuvant, and recurrent settings. Platinum-based chemotherapy is standard. Targeted therapies (PARP inhibitors, bevacizumab) and immunotherapies are used based on biomarkers. Treatment is tailored by stage, histology, and molecular profile."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Carboplatin/Paclitaxel every 3 weeks",
+      "drugs": [
+        "Paclitaxel",
+        "Carboplatin"
+      ],
+      "detail": "Setting: Primary therapy for stage I-IV disease. Drugs: Paclitaxel 175 mg/m2 IV day 1, Carboplatin AUC 5-6 IV day 1. Cycle days: Repeat every 21 days for 3-6 cycles. Key toxicities: Myelosuppression, neuropathy, alopecia, nausea, fatigue, hypersensitivity reactions (platinum)."
+    },
+    {
+      "name": "GOG-218 regimen (Carboplatin/Paclitaxel + Bevacizumab)",
+      "drugs": [
+        "Paclitaxel",
+        "Carboplatin",
+        "Bevacizumab"
+      ],
+      "detail": "Setting: Primary therapy for stage II-IV disease. Drugs: Paclitaxel 175 mg/m2 IV day 1, Carboplatin AUC 6 IV day 1, Bevacizumab 15 mg/kg IV day 1 (starting cycle 2). Cycle days: Repeat every 21 days for 6 cycles; continue bevacizumab for up to 22 cycles total. Key toxicities: Hypertension, proteinuria, hemorrhage, GI perforation, wound healing complications."
+    },
+    {
+      "name": "ICON-7 regimen (Carboplatin/Paclitaxel + Bevacizumab)",
+      "drugs": [
+        "Paclitaxel",
+        "Carboplatin",
+        "Bevacizumab"
+      ],
+      "detail": "Setting: Primary therapy for stage II-IV disease. Drugs: Paclitaxel 175 mg/m2 IV day 1, Carboplatin AUC 5-6 IV day 1, Bevacizumab 7.5 mg/kg IV day 1. Cycle days: Repeat every 21 days for 6 cycles; continue bevacizumab for up to 12 additional cycles. Key toxicities: Similar to GOG-218."
+    },
+    {
+      "name": "Carboplatin/Gemcitabine + Bevacizumab (OCEANS)",
+      "drugs": [
+        "Gemcitabine",
+        "Carboplatin",
+        "Bevacizumab"
+      ],
+      "detail": "Setting: Recurrent platinum-sensitive disease. Drugs: Gemcitabine 1000 mg/m2 IV day 1 and 8, Carboplatin AUC 4 IV day 1, Bevacizumab 15 mg/kg IV day 1. Cycle days: Repeat every 21 days. Key toxicities: Myelosuppression, nausea, fatigue, hypertension, proteinuria."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line",
+      "body": "Adjuvant therapy for stage I disease (high-grade serous, endometrioid grade 2/3): Carboplatin/paclitaxel every 3 weeks for 3-6 cycles. Adjuvant therapy for stage II-IV disease: Carboplatin/paclitaxel ± bevacizumab (GOG-218/ICON-7 regimen) every 3 weeks for 6 cycles. Neoadjuvant therapy for advanced disease: Carboplatin/paclitaxel ± bevacizumab for 3-4 cycles.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "Maintenance",
+      "body": "Based on BRCA/HRD status and prior bevacizumab use. For BRCA-mutated: olaparib, niraparib, or rucaparib. For BRCA wild-type/HRD-positive: olaparib+bevacizumab or niraparib+bevacizumab if bevacizumab used during primary therapy.",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "2nd Line",
+      "body": "Recurrent platinum-sensitive disease: Combination platinum-based chemotherapy ± bevacizumab (e.g., carboplatin/gemcitabine ± bevacizumab).",
+      "icon": "bi-3-circle-fill"
+    },
+    {
+      "title": "3rd Line",
+      "body": "Recurrent platinum-resistant disease: Non-platinum-based chemotherapy ± bevacizumab (e.g., weekly paclitaxel ± bevacizumab, liposomal doxorubicin ± bevacizumab) or mirvetuximab soravtansine-gynx for FRα-expressing tumors.",
+      "icon": "bi-4-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "ovarian",
+  "_chars_in": 5000
+}

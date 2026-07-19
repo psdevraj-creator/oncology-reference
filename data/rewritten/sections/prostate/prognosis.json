@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "heading": "Prognosis",
+      "content": "For all stages combined, the 5-year relative survival rate for prostate cancer is 97% [1]. The comparatively low death rate suggests that increased public awareness with earlier detection and treatment has affected mortality from this prevalent cancer, but is also complicated by screening-related lead-time bias and detection of indolent cancers. Researchers estimate that prostate cancer will account for 11% of male cancer deaths in the United States in 2025, with an estimated 35,770 deaths [1]. The age-adjusted death rate from prostate cancer declined by 52% from 1993 to 2017, but the death rate has become more stable in recent years, with a 0.5% annual decrease from 2012 through 2022 [1]. Large inequities exist in incidence and mortality: the incidence rate in Black individuals is 67% higher than in white individuals, and the mortality rate is two to four times higher than all other racial and ethnic groups [11]. However, overall prognosis by race appears similar when patients are treated with the same guideline-concordant care [12]."
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      100,
+      100,
+      93,
+      31
+    ]
+  },
+  "factors": [
+    {
+      "factor": "Low NCCN risk group",
+      "impact": "Favorable",
+      "detail": "NCCN risk group stratification based on T stage, Grade Group (Gleason score), and PSA level"
+    },
+    {
+      "factor": "Long PSA doubling time (>12 months)",
+      "impact": "Favorable",
+      "detail": "PSA doubling time (PSADT): shorter PSADT (<12 months) associated with higher risk of progression and death from prostate cancer"
+    },
+    {
+      "factor": "Low volume of metastatic disease (CHAARTED low-volume)",
+      "impact": "Favorable",
+      "detail": "Volume of metastatic disease (CHAARTED criteria: high-volume defined by visceral metastasis or ≥4 bone lesions with ≥1 beyond vertebral bodies and pelvis)"
+    },
+    {
+      "factor": "Low Gleason grade and low pattern 4 percentage",
+      "impact": "Favorable",
+      "detail": "Gleason grade and pattern 4 percentage: Grade Group 3 (4+3) has higher risk than Grade Group 2 (3+4)"
+    },
+    {
+      "factor": "Absence of intraductal and cribriform histology",
+      "impact": "Favorable",
+      "detail": "Intraductal and cribriform histology: associated with poor prognosis and increased risk of metastases"
+    },
+    {
+      "factor": "Absence of germline mutations (BRCA2, ATM, CHEK2)",
+      "impact": "Favorable",
+      "detail": "Germline mutations (BRCA2, ATM, CHEK2): associated with more aggressive phenotype and significantly reduced survival times"
+    },
+    {
+      "factor": "Younger age and fewer comorbidities",
+      "impact": "Favorable",
+      "detail": "Age and comorbidities: affect life expectancy estimation and treatment recommendation"
+    },
+    {
+      "factor": "Low PSA density, low number/percentage of positive cores",
+      "impact": "Favorable",
+      "detail": "PSA density, number of positive cores, and percentage of positive cores"
+    },
+    {
+      "factor": "Absence of adverse pathologic features (post-surgical)",
+      "impact": "Favorable",
+      "detail": "Adverse pathologic features (post-surgical): positive margins, seminal vesicle invasion, extracapsular extension"
+    },
+    {
+      "factor": "Low 22-gene genomic classifier (Decipher) score",
+      "impact": "Favorable",
+      "detail": "22-gene genomic classifier (Decipher): independently prognostic for distant metastasis, prostate cancer-specific mortality, and overall survival in multiple randomized trials"
+    },
+    {
+      "factor": "Low Multimodal AI (MMAI) biomarker risk",
+      "impact": "Favorable",
+      "detail": "Multimodal AI (MMAI) biomarker: independently prognostic for distant metastasis, PCSM, and death after DM in high- and very-high-risk disease"
+    },
+    {
+      "factor": "Equitable treatment access regardless of race/ethnicity",
+      "impact": "Favorable",
+      "detail": "Race/ethnicity: Black individuals have higher incidence and mortality, though outcomes appear similar with equitable treatment"
+    }
+  ],
+  "_section": "prognosis",
+  "_site_id": "prostate",
+  "_chars_in": 5000
+}

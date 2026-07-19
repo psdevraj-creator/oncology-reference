@@ -1,0 +1,144 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Biliary tract cancers (BTCs) are highly lethal malignancies requiring a multidisciplinary approach. Treatment philosophy emphasizes complete surgical resection as the only potentially curative option for resectable disease, with multimodal therapy (systemic therapy, locoregional therapy, radiation) integrated for advanced stages. The approach is guided by tumor subsite (gallbladder, intrahepatic, extrahepatic cholangiocarcinoma), resectability status, and presence of metastases. Clinical trial participation is encouraged for all stages [1].\n\nMultidisciplinary team (MDT) evaluation is mandatory for all patients with BTCs to determine resectability, optimize staging, and guide treatment decisions. MDT should include hepatobiliary surgeons, medical oncologists, radiation oncologists, radiologists, pathologists, gastroenterologists, and palliative care specialists. For patients with hilar cholangiocarcinoma, consultation with a transplant center is recommended for select cases [2].\n\nPerformance status (PS) is a key determinant of treatment tolerance. Patients with ECOG PS 0-1 are candidates for all standard therapies. For PS 2, reduced-intensity regimens or clinical trials are appropriate. PS ≥3 indicates best supportive care. Biliary drainage should be considered for symptomatic jaundice prior to systemic therapy to improve PS and allow treatment [3]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Multidisciplinary Team Evaluation",
+        "type": "treatment"
+      },
+      {
+        "id": "n2",
+        "label": "Assess Resectability",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Surgical Resection",
+        "type": "treatment"
+      },
+      {
+        "id": "n4",
+        "label": "Assess Disease Extent",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Neoadjuvant Therapy or Clinical Trial",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Assess Performance Status",
+        "type": "decision"
+      },
+      {
+        "id": "n7",
+        "label": "Standard Systemic Therapy (Gem/Cis + IO)",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "Reduced Intensity Regimen or Clinical Trial",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Best Supportive Care",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Assess Node/Margin Status",
+        "type": "decision"
+      },
+      {
+        "id": "n11",
+        "label": "Adjuvant Therapy (Capecitabine or Chemoradiation)",
+        "type": "treatment"
+      },
+      {
+        "id": "n12",
+        "label": "Observation",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": ""
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Resectable"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Unresectable"
+      },
+      {
+        "source": "n3",
+        "target": "n10",
+        "label": "Post-surgery"
+      },
+      {
+        "source": "n10",
+        "target": "n11",
+        "label": "Node+ or Margin+"
+      },
+      {
+        "source": "n10",
+        "target": "n12",
+        "label": "Node- and Margin-"
+      },
+      {
+        "source": "n4",
+        "target": "n5",
+        "label": "Locally Advanced"
+      },
+      {
+        "source": "n4",
+        "target": "n6",
+        "label": "Metastatic"
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "label": "PS 0-1"
+      },
+      {
+        "source": "n6",
+        "target": "n8",
+        "label": "PS 2"
+      },
+      {
+        "source": "n6",
+        "target": "n9",
+        "label": "PS ≥3"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Surgery is the primary treatment with intent to achieve negative margins. Adjuvant systemic therapy (preferred: capecitabine) or chemoradiation is recommended for node-positive or margin-positive disease. For locally advanced unresectable disease, neoadjuvant systemic therapy or clinical trial participation is considered to evaluate tumor biology and avoid futile surgery.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative/Control",
+      "detail": "Systemic therapy (preferred: gemcitabine/cisplatin + immunotherapy) is the mainstay. Locoregional therapies (ablation, TACE, Y90) and radiation may be considered for symptom control or oligometastatic disease. Best supportive care is an option for poor performance status.",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "biliary",
+  "_chars_in": 2321
+}

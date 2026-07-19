@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "heading": "Introduction and MAPK Pathway",
+      "content": "Cutaneous melanoma is driven by aberrant activation of signaling pathways controlling cell proliferation, survival, and differentiation. The mitogen-activated protein kinase (MAPK) pathway is the most commonly dysregulated pathway in cutaneous melanoma [146-148]."
+    },
+    {
+      "heading": "BRAF Mutations",
+      "content": "BRAF mutations, occurring in approximately 40%-50% of cutaneous melanomas, are the most frequent driver alterations. BRAF encodes a serine/threonine kinase that activates the MAPK pathway; activating mutations at codon 600 lead to constitutive kinase activity and unrestrained cell growth [146,44]. BRAF V600E accounts for approximately 80% of BRAF mutations, V600K for approximately 15%, and V600R/M/D/G for approximately 5% [44,ME-C2]. BRAF mutations are more common in melanomas arising on intermittently sun-exposed skin, in younger patients, and with truncal location [43]. BRAF mutations outside codon 600, including non-V600 mutations and BRAF gene fusions, occur in approximately 5% of melanomas [ME-C2]. BRAF gene fusion-positive tumors have shown responses to MEK inhibitors and non-specific RAF inhibitors [ME-C2]."
+    },
+    {
+      "heading": "NRAS Mutations",
+      "content": "NRAS mutations, encoding a GTPase that activates MAPK and other signaling pathways, are present in approximately 15% of melanomas across all sun-exposure patterns and anatomic sites [43, ME-C2]. NRAS mutations correlate with poor survival in both localized and advanced disease [60]."
+    },
+    {
+      "heading": "KIT Mutations",
+      "content": "KIT (proto-oncogene c-KIT) encodes a receptor tyrosine kinase; activating mutations are present in approximately 10%-15% of melanomas arising on mucosal surfaces (vulvovaginal, anorectal, sinonasal) and acral sites, and in 2%-3% of chronically sun-exposed skin melanomas, but are extremely rare in melanomas arising on intermittently sun-exposed skin [38,54, ME-C2]. KIT mutations across multiple hotspots show differential sensitivity to KIT inhibitors; exon 11 and 13 mutations (e.g., W557R, V559D, L576P, K642E) demonstrate high sensitivity to imatinib, while exon 17 mutations (e.g., D816H) show minimal sensitivity [55-58, ME-C2]."
+    },
+    {
+      "heading": "Other Genomic Drivers",
+      "content": "Other uncommon genomic drivers detectable by multigene panel testing (MGPT) include gene fusions in NTRK1/2/3, ALK, and ROS1, each occurring in less than 1% of melanomas across subtypes [ME-C2]."
+    },
+    {
+      "heading": "Germline Predisposition",
+      "content": "Germline predisposition genes associated with familial melanoma include CDKN2A, CDK4, MC1R, BAP1 (especially for uveal melanoma), TERT, POT1, and MITF; additional cancer predisposition genes with increased melanoma risk include TP53, PTEN, CHEK2, BRCA1/2, BLM, and ATM [6,15-17,66,67, ME-A1]. PTEN loss of function is associated with melanoma pathogenesis [ME-A1]."
+    },
+    {
+      "heading": "Tumor Mutational Burden",
+      "content": "Tumor mutational burden (TMB) appears to correlate with response to immune checkpoint inhibitors, with higher mutation burden potentially increasing neoantigen production and immunogenicity [72-74, ME-C4]."
+    },
+    {
+      "heading": "Circulating Tumor DNA",
+      "content": "Circulating tumor DNA (ctDNA) has shown potential utility in melanoma; detectable ctDNA following surgical resection of stage III/IV melanoma correlates with worse prognosis in adjuvant studies, though most patients have no detectable ctDNA postoperatively [ME-C3]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "NRAS",
+        "type": "gene"
+      },
+      {
+        "id": "KIT",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK3",
+        "type": "gene"
+      },
+      {
+        "id": "ALK",
+        "type": "gene"
+      },
+      {
+        "id": "ROS1",
+        "type": "gene"
+      },
+      {
+        "id": "CDKN2A",
+        "type": "gene"
+      },
+      {
+        "id": "CDK4",
+        "type": "gene"
+      },
+      {
+        "id": "MC1R",
+        "type": "gene"
+      },
+      {
+        "id": "BAP1",
+        "type": "gene"
+      },
+      {
+        "id": "TERT",
+        "type": "gene"
+      },
+      {
+        "id": "POT1",
+        "type": "gene"
+      },
+      {
+        "id": "MITF",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "PTEN",
+        "type": "gene"
+      },
+      {
+        "id": "CHEK2",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA2",
+        "type": "gene"
+      },
+      {
+        "id": "BLM",
+        "type": "gene"
+      },
+      {
+        "id": "ATM",
+        "type": "gene"
+      },
+      {
+        "id": "MAPK",
+        "type": "pathway"
+      },
+      {
+        "id": "MEK inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "RAF inhibitors (non-specific)",
+        "type": "drug"
+      },
+      {
+        "id": "KIT inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "imatinib",
+        "type": "drug"
+      },
+      {
+        "id": "immune checkpoint inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "BRAF",
+        "target": "MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "NRAS",
+        "target": "MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "KIT inhibitors",
+        "target": "KIT",
+        "type": "targets"
+      },
+      {
+        "source": "imatinib",
+        "target": "KIT",
+        "type": "targets"
+      },
+      {
+        "source": "MEK inhibitors",
+        "target": "MAPK",
+        "type": "targets"
+      },
+      {
+        "source": "RAF inhibitors (non-specific)",
+        "target": "BRAF",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "MAPK",
+      "genes": [
+        "BRAF",
+        "NRAS"
+      ],
+      "drugs": "MEK inhibitors,RAF inhibitors (non-specific)",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "melanoma",
+  "_chars_in": 3041
+}

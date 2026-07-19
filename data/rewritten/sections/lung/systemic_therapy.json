@@ -1,0 +1,90 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is essential for all stages of SCLC. For limited-stage disease, it is combined with thoracic RT for definitive treatment. For extensive-stage disease, it is the primary treatment, often combined with immunotherapy. The standard induction is four cycles of platinum/etoposide-based chemotherapy. Immunotherapy with atezolizumab or durvalumab is now a standard first-line component for extensive-stage disease and as consolidation for limited-stage disease [1]."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Cisplatin/Etoposide (Limited-stage)",
+      "drugs": [
+        "Cisplatin",
+        "Etoposide"
+      ],
+      "detail": "Setting: Primary therapy for limited-stage SCLC with concurrent RT. Drugs: Cisplatin 75 mg/m² IV Day 1; Etoposide 100 mg/m² IV Days 1, 2, 3. Cycle days: 21 days. Key toxicities: Myelosuppression, nephrotoxicity, ototoxicity, neurotoxicity, nausea/vomiting [1]."
+    },
+    {
+      "name": "Cisplatin/Etoposide (Limited-stage, alternative dosing)",
+      "drugs": [
+        "Cisplatin",
+        "Etoposide"
+      ],
+      "detail": "Setting: Primary therapy for limited-stage SCLC with concurrent RT. Drugs: Cisplatin 60 mg/m² IV Day 1; Etoposide 120 mg/m² IV Days 1, 2, 3. Cycle days: 21 days. Key toxicities: Similar to above [1]."
+    },
+    {
+      "name": "Carboplatin/Etoposide (Limited-stage)",
+      "drugs": [
+        "Carboplatin",
+        "Etoposide"
+      ],
+      "detail": "Setting: Primary therapy for limited-stage SCLC with concurrent RT. Drugs: Carboplatin AUC 5–6 IV Day 1; Etoposide 100 mg/m² IV Days 1, 2, 3. Cycle days: 21–28 days. Key toxicities: Myelosuppression (greater risk than cisplatin), nausea/vomiting [1]."
+    },
+    {
+      "name": "Cisplatin/Etoposide (Limited-stage, other recommended)",
+      "drugs": [
+        "Cisplatin",
+        "Etoposide"
+      ],
+      "detail": "Setting: Primary therapy for limited-stage SCLC with concurrent RT. Drugs: Cisplatin 25 mg/m² IV Days 1, 2, 3; Etoposide 100 mg/m² IV Days 1, 2, 3. Cycle days: 21 days. Key toxicities: Similar to above [1]."
+    },
+    {
+      "name": "Carboplatin/Etoposide + Atezolizumab (Extensive-stage, induction)",
+      "drugs": [
+        "Carboplatin",
+        "Etoposide",
+        "Atezolizumab"
+      ],
+      "detail": "Setting: Primary therapy for extensive-stage SCLC. Drugs: Carboplatin AUC 5 IV Day 1; Etoposide 100 mg/m² IV Days 1, 2, 3; Atezolizumab 1200 mg IV Day 1. Cycle days: 21 days for 4 cycles. Key toxicities: Myelosuppression, immune-mediated adverse events (e.g., pneumonitis, hepatitis, colitis) [1, 118, 120]."
+    },
+    {
+      "name": "Atezolizumab maintenance (Extensive-stage)",
+      "drugs": [
+        "Atezolizumab"
+      ],
+      "detail": "Setting: Maintenance after induction chemoimmunotherapy for extensive-stage SCLC. Drugs: Atezolizumab 1200 mg IV Day 1. Cycle days: 28 days. Key toxicities: Immune-mediated adverse events [1]."
+    },
+    {
+      "name": "Durvalumab consolidation (Limited-stage)",
+      "drugs": [
+        "Durvalumab"
+      ],
+      "detail": "Setting: Consolidation therapy after chemoradiation for limited-stage SCLC. Drugs: Durvalumab 1500 mg IV Day 1 every 28 days for up to 24 months. Key toxicities: Immune-mediated adverse events. Rationale: ADRIATIC trial demonstrated significant OS and PFS improvement [1, 115]."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line (Limited-stage)",
+      "body": "Cisplatin/Etoposide or Carboplatin/Etoposide with concurrent RT (category 1 for good PS 0–2). Alternatives: Cisplatin 25 mg/m² Days 1,2,3 + Etoposide 100 mg/m² Days 1,2,3.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "1st Line (Extensive-stage)",
+      "body": "Platinum/etoposide + atezolizumab (category 1) or platinum/etoposide + durvalumab (category 1). Alternatives: Platinum/etoposide alone, irinotecan-based regimens.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "Consolidation (Limited-stage)",
+      "body": "Durvalumab 1500 mg every 28 days for up to 24 months (category 1). Alternatives: None listed.",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "Subsequent Therapy (Relapsed/Refractory)",
+      "body": "Tarlatamab-dlle (category 1), irinotecan, lurbinectedin (if not previously used), platinum rechallenge for sensitive relapse, topotecan. Alternatives: Nivolumab, pembrolizumab, CAV, docetaxel, gemcitabine, oral etoposide, paclitaxel, temozolomide.",
+      "icon": "bi-3-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "lung",
+  "_chars_in": 5000
+}

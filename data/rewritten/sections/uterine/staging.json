@@ -1,0 +1,177 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "{\"system\": \"All staging in this guideline is based on the 2009 FIGO surgical staging system and the AJCC Cancer Staging Manual, 8th Edition.\", \"t_stages\": [{\"stage\": \"TX\", \"description\": \"Primary tumor cannot be assessed.\"}, {\"stage\": \"T0\", \"description\": \"No evidence of primary tumor.\"}, {\"stage\": \"T1\", \"description\": \"Tumor confined to the corpus uteri, including endocervical glandular involvement.\"}, {\"stage\": \"T1a\", \"description\": \"Tumor limited to the endometrium or invading less than half the myometrium.\"}, {\"stage\": \"T1b\", \"description\": \"Tumor invading one half or more of the myometrium.\"}, {\"stage\": \"T2\", \"description\": \"Tumor invading the stromal connective tissue of the cervix but not extending beyond the uterus. Does NOT include endocervical glandular involvement.\"}, {\"stage\": \"T3\", \"description\": \"Tumor involving serosa, adnexa, vagina, or parametrium.\"}, {\"stage\": \"T3a\", \"description\": \"Tumor involving the serosa and/or adnexa (direct extension or metastasis).\"}, {\"stage\": \"T3b\", \"description\": \"Vaginal involvement (direct extension or metastasis) or parametrial involvement.\"}, {\"stage\": \"T4\", \"description\": \"Tumor invading the bladder mucosa and/or bowel mucosa (bullous edema is not sufficient to classify a tumor as T4).\"}], \"n_stages\": [{\"stage\": \"NX\", \"description\": \"Regional lymph nodes cannot be assessed.\"}, {\"stage\": \"N0\", \"description\": \"No regional lymph node metastasis.\"}, {\"stage\": \"N0(i+)\", \"description\": \"Isolated tumor cells in regional lymph node(s) no greater than 0.2 mm.\"}, {\"stage\": \"N1\", \"description\": \"Regional lymph node metastasis to pelvic lymph nodes.\"}, {\"stage\": \"N1mi\", \"description\": \"Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to pelvic lymph nodes.\"}, {\"stage\": \"N1a\", \"description\": \"Regional lymph node metastasis (greater than 2.0 mm in diameter) to pelvic lymph nodes.\"}, {\"stage\": \"N2\", \"description\": \"Regional lymph node metastasis to para-aortic lymph nodes, with or without positive pelvic lymph nodes.\"}, {\"stage\": \"N2mi\", \"description\": \"Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes.\"}, {\"stage\": \"N2a\", \"description\": \"Regional lymph node metastasis (greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes.\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastasis.\"}, {\"stage\": \"M1\", \"description\": \"Distant metastasis (includes metastasis to inguinal lymph nodes, intraperitoneal disease, lung, liver, or bone). It excludes metastasis to pelvic or para-aortic lymph nodes, vagina, uterine serosa, or adnexa.\"}], \"stage_groups\": [{\"group\": \"Stage I\", \"criteria\": \"T1, N0, M0\", \"clinical_meaning\": \"Tumor confined to the corpus uteri.\", \"five_yr_survival\": \"Not explicitly stated in the source text for this group alone; varies by histology and grade.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IA\", \"criteria\": \"T1a, N0, M0\", \"clinical_meaning\": \"Tumor limited to the endometrium or invading less than half the myometrium.\", \"five_yr_survival\": \"Excellent for low-grade endometrioid histology.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IB\", \"criteria\": \"T1b, N0, M0\", \"clinical_meaning\": \"Tumor invading one half or more of the myometrium.\", \"five_yr_survival\": \"Varies by grade; worse for high-grade histologies.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage II\", \"criteria\": \"T2, N0, M0\", \"clinical_meaning\": \"Tumor invading cervical stroma but not beyond uterus.\", \"five_yr_survival\": \"Intermediate; influenced by grade and other factors.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage III\", \"criteria\": \"T3, N0, M0\", \"clinical_meaning\": \"Tumor involving serosa, adnexa, vagina, or parametrium.\", \"five_yr_survival\": \"Poor for high-grade histologies; better for low-grade endometrioid.\", \"treatment_intent\": \"Curative with multimodality therapy.\"}, {\"group\": \"Stage IIIA\", \"criteria\": \"T3a, N0, M0\", \"clinical_meaning\": \"Tumor involving serosa and/or adnexa.\", \"five_yr_survival\": \"Variable.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IIIB\", \"criteria\": \"T3b, N0, M0\", \"clinical_meaning\": \"Vaginal or parametrial involvement.\", \"five_yr_survival\": \"Variable.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IIIC1\", \"criteria\": \"T1-T3, N1/N1mi/N1a, M0\", \"clinical_meaning\": \"Regional lymph node metastasis to pelvic lymph nodes.\", \"five_yr_survival\": \"Significantly worse than node-negative disease.\", \"treatment_intent\": \"Curative with systemic therapy ± radiation.\"}, {\"group\": \"Stage IIIC2\", \"criteria\": \"T1-T3, N2/N2mi/N2a, M0\", \"clinical_meaning\": \"Regional lymph node metastasis to para-aortic lymph nodes, with or without positive pelvic nodes.\", \"five_yr_survival\": \"Worse than IIIC1.\", \"treatment_intent\": \"Curative with systemic therapy ± radiation.\"}, {\"group\": \"Stage IVA\", \"criteria\": \"T4, Any N, M0\", \"clinical_meaning\": \"\"}], \"five_yr_survival\": \"Not explicitly stated for this group.\", \"treatment_intent\": \"Curative.\"}"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed."
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor."
+    },
+    {
+      "category": "T1",
+      "description": "Tumor confined to the corpus uteri, including endocervical glandular involvement."
+    },
+    {
+      "category": "T1a",
+      "description": "Tumor limited to the endometrium or invading less than half the myometrium."
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor invading one half or more of the myometrium."
+    },
+    {
+      "category": "T2",
+      "description": "Tumor invading the stromal connective tissue of the cervix but not extending beyond the uterus. Does NOT include endocervical glandular involvement."
+    },
+    {
+      "category": "T3",
+      "description": "Tumor involving serosa, adnexa, vagina, or parametrium."
+    },
+    {
+      "category": "T3a",
+      "description": "Tumor involving the serosa and/or adnexa (direct extension or metastasis)."
+    },
+    {
+      "category": "T3b",
+      "description": "Vaginal involvement (direct extension or metastasis) or parametrial involvement."
+    },
+    {
+      "category": "T4",
+      "description": "Tumor invading the bladder mucosa and/or bowel mucosa (bullous edema is not sufficient to classify a tumor as T4)."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "NX",
+      "description": "Regional lymph nodes cannot be assessed."
+    },
+    {
+      "category": "N0",
+      "description": "No regional lymph node metastasis."
+    },
+    {
+      "category": "N0(i+)",
+      "description": "Isolated tumor cells in regional lymph node(s) no greater than 0.2 mm."
+    },
+    {
+      "category": "N1",
+      "description": "Regional lymph node metastasis to pelvic lymph nodes."
+    },
+    {
+      "category": "N1mi",
+      "description": "Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to pelvic lymph nodes."
+    },
+    {
+      "category": "N1a",
+      "description": "Regional lymph node metastasis (greater than 2.0 mm in diameter) to pelvic lymph nodes."
+    },
+    {
+      "category": "N2",
+      "description": "Regional lymph node metastasis to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+    },
+    {
+      "category": "N2mi",
+      "description": "Regional lymph node metastasis (greater than 0.2 mm but not greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+    },
+    {
+      "category": "N2a",
+      "description": "Regional lymph node metastasis (greater than 2.0 mm in diameter) to para-aortic lymph nodes, with or without positive pelvic lymph nodes."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis."
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis (includes metastasis to inguinal lymph nodes, intraperitoneal disease, lung, liver, or bone). It excludes metastasis to pelvic or para-aortic lymph nodes, vagina, uterine serosa, or adnexa."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "I",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA",
+      "t": "T1a",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IB",
+      "t": "T1b",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "II",
+      "t": "T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "III",
+      "t": "T3",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T3a",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIB",
+      "t": "T3b",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIC1",
+      "t": "T1",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIC2",
+      "t": "T1",
+      "n": "N2",
+      "m": "M0"
+    },
+    {
+      "stage": "IVA",
+      "t": "T4",
+      "n": "N0",
+      "m": "M0"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "uterine",
+  "_chars_in": 5000
+}

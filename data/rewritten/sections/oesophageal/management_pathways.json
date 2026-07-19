@@ -1,0 +1,151 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"scc_locoregional_medically_fit\", \"title\": \"Squamous Cell Carcinoma - Locoregional Disease (Stage I-IVA, except T4b/unresectable N3) - Medically Fit for Surgery\", \"branching_basis\": [\"Histology (SCC)\", \"Clinical stage (T and N categories)\", \"Tumor location (proximal, middle, distal)\", \"Performance status\", \"Patient preference for surgery\"], \"nodes\": [{\"criteria\": \"pTis (in situ carcinoma) or pT1a (lamina propria/muscularis mucosae invasion).\", \"options\": [{\"type\": \"Endoscopic therapy\", \"label\": \"Endoscopic resection (ER) ± ablation\", \"preference\": \"Preferred\", \"recommendation\": \"ER (EMR or ESD) ± ablation is the preferred primary treatment for patients with pTis or pT1a disease. Ablation may be needed if there is multifocal high-grade dysplasia/carcinoma in situ. The goal is complete removal/eradication of early-stage disease and pre-neoplastic tissue.\", \"linked_regimen_ids\": []}, {\"type\": \"Surgical\", \"label\": \"Esophagectomy\", \"preference\": \"Alternative\", \"recommendation\": \"Esophagectomy is indicated for patients with extensive pTis or pT1a, especially nodular disease not adequately controlled by endoscopic therapy.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A. After successful endoscopic therapy, patients undergo endoscopic surveillance per ESOPH-A. After esophagectomy, surveillance per ESOPH-9.\"}}, {\"criteria\": \"pT1b, N0 (submucosal invasion, no lymph node metastasis).\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Esophagectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Esophagectomy (transhiatal, transthoracic, or minimally invasive; gastric reconstruction preferred) is the recommended primary treatment. A feeding jejunostomy may be placed for postoperative nutritional support.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A. Surveillance per ESOPH-9.\"}}, {\"criteria\": \"cT1b-cT2,N0 (low-risk lesions: <3 cm, well-differentiated).\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Esophagectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Esophagectomy is the recommended primary treatment for low-risk cT1b-cT2,N0 lesions.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A. Surveillance per ESOPH-9.\"}}, {\"criteria\": \"cT2,N0 (high-risk lesions: LVI, ≥3 cm, poorly differentiated) OR cT1b-cT2,N+ OR cT3-cT4a, Any N.\", \"options\": [{\"type\": \"Neoadjuvant/Perioperative\", \"label\": \"Preoperative chemoradiation\", \"preference\": \"Preferred (for cT2,N0 high-risk and cT1b-cT2,N+)\", \"recommendation\": \"Preoperative chemoradiation is the preferred primary treatment. Preferred regimens include paclitaxel and carboplatin (category 1) or fluorouracil and oxaliplatin (category 1). Histologic confirmation of suspected positive nodes is desirable.\", \"linked_regimen_ids\": [\"scc_preop_crt_taxol_carbo\", \"scc_preop_crt_folfox\"]}, {\"type\": \"Definitive\", \"label\": \"Definitive chemoradiation\", \"preference\": \"Preferred (for cT3-cT4a)\", \"recommendation\": \"Definitive chemoradiation is appropriate for patients who decline surgery or have cT4b (unresectable) tumors. Preferred regimens are the same as for preoperative chemoradiation.\", \"linked_regimen_ids\": [\"scc_definitive_crt_taxol_carbo\", \"scc_definitive_crt_folfox\"]}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"After preoperative chemoradiation, restaging with FDG-PET/CT and EGD/biopsy is performed. Management based on response (see treatment_response_assessment). After definitive chemoradiation, surveillance per ESOPH-9.\"}}, {\"criteria\": \"cT4b (unresectable: invasion of trachea, great vessels, vertebral body, or heart).\", \"options\": [{\"type\": \"Definitive\", \"label\": \"Chemotherapy alone\", \"preference\": \"Consider\", \"recommendation\": \"Consider chemotherapy alone in the setting of invasion of trachea, great vessels, or heart.\", \"linked_regimen_ids\": [\"scc_systemic_chemo\"]}, {\"type\": \"Palliative\", \"label\": \"Palliative/endoluminal stenting\", \"preference\": \"Consider\", \"recommendation\": \"For select patients, consider endoluminal stenting when appropriate for symptom palliation.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"These patients are generally managed with palliative intent (ESOPH-10).\"}}]}"
+    },
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"scc_locoregional_nonsurgical\", \"title\": \"Squamous Cell Carcinoma - Locoregional Disease (Stage I-IVA, except T4b/unresectable N3) - Nonsurgical Candidates\", \"branching_basis\": [\"Histology (SCC)\", \"Clinical stage\", \"Performance status (ability to tolerate chemoradiation)\", \"Patient preference\"], \"nodes\": [{\"criteria\": \"pTis, pT1a (nonsurgical candidate).\", \"options\": [{\"type\": \"Endoscopic therapy\", \"label\": \"ER ± ablation or ablation alone\", \"preference\": \"Preferred\", \"recommendation\": \"Endoscopic therapies (ER ± ablation, or ablation for pTis) are the recommended primary treatment for nonsurgical candidates with pTis or pT1a disease.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Follow-up with endo\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Squamous Cell Carcinoma - Locoregional Disease (Stage I-IVA, except T4b/unresectable N3) - Medically Fit for Surgery",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "pTis (in situ carcinoma) or pT1a (lamina propria/muscularis mucosae invasion).",
+          "type": "decision"
+        },
+        {
+          "id": "d2",
+          "label": "pT1b, N0 (submucosal invasion, no lymph node metastasis).",
+          "type": "decision"
+        },
+        {
+          "id": "d3",
+          "label": "cT1b-cT2,N0 (low-risk lesions: <3 cm, well-differentiated).",
+          "type": "decision"
+        },
+        {
+          "id": "d4",
+          "label": "cT2,N0 (high-risk lesions: LVI, ≥3 cm, poorly differentiated) OR cT1b-cT2,N+ OR cT3-cT4a, Any N.",
+          "type": "decision"
+        },
+        {
+          "id": "d5",
+          "label": "cT4b (unresectable: invasion of trachea, great vessels, vertebral body, or heart).",
+          "type": "decision"
+        },
+        {
+          "id": "t1a",
+          "label": "Endoscopic resection (ER) ± ablation",
+          "type": "treatment"
+        },
+        {
+          "id": "t1b",
+          "label": "Esophagectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Esophagectomy (transhiatal, transthoracic, or minimally invasive; gastric reconstruction preferred)",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Esophagectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "t4a",
+          "label": "Preoperative chemoradiation (paclitaxel and carboplatin or fluorouracil and oxaliplatin)",
+          "type": "treatment"
+        },
+        {
+          "id": "t4b",
+          "label": "Definitive chemoradiation (paclitaxel and carboplatin or fluorouracil and oxaliplatin)",
+          "type": "treatment"
+        },
+        {
+          "id": "t5a",
+          "label": "Chemotherapy alone",
+          "type": "treatment"
+        },
+        {
+          "id": "t5b",
+          "label": "Palliative/endoluminal stenting",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1a",
+          "label": "Preferred primary treatment for pTis/pT1a. Endoscopic resection (ER) ± ablation."
+        },
+        {
+          "source": "d1",
+          "target": "t1b",
+          "label": "Alternative for extensive pTis/pT1a, especially nodular disease not controlled by endoscopic therapy."
+        },
+        {
+          "source": "d2",
+          "target": "t2",
+          "label": "Recommended primary treatment for pT1b,N0."
+        },
+        {
+          "source": "d3",
+          "target": "t3",
+          "label": "Recommended primary treatment for low-risk cT1b-cT2,N0."
+        },
+        {
+          "source": "d4",
+          "target": "t4a",
+          "label": "Preferred for cT2,N0 high-risk and cT1b-cT2,N+ (category 1)."
+        },
+        {
+          "source": "d4",
+          "target": "t4b",
+          "label": "Preferred for cT3-cT4a, Any N, or for patients who decline surgery."
+        },
+        {
+          "source": "d5",
+          "target": "t5a",
+          "label": "Consider in setting of invasion of trachea, great vessels, or heart."
+        },
+        {
+          "source": "d5",
+          "target": "t5b",
+          "label": "Consider for select patients for symptom palliation."
+        }
+      ]
+    },
+    {
+      "title": "Squamous Cell Carcinoma - Locoregional Disease (Stage I-IVA, except T4b/unresectable N3) - Nonsurgical Candidates",
+      "nodes": [
+        {
+          "id": "d6",
+          "label": "pTis, pT1a (nonsurgical candidate).",
+          "type": "decision"
+        },
+        {
+          "id": "t6",
+          "label": "ER ± ablation or ablation alone",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d6",
+          "target": "t6",
+          "label": "Preferred primary treatment for nonsurgical candidates with pTis or pT1a."
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "oesophageal",
+  "_chars_in": 5000
+}

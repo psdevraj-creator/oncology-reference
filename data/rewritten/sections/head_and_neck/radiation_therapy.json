@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "Radiation therapy is a critical modality in the treatment of head and neck cancers, used as definitive treatment (RT alone or concurrent systemic therapy/RT), adjuvant therapy (postoperative RT or systemic therapy/RT), or palliative therapy. For nasopharyngeal carcinoma, RT (with or without chemotherapy) is nearly always preferred for all stages. For early-stage laryngeal and oropharyngeal cancers, RT is an effective alternative to surgery. IMRT is the preferred radiation modality for most head and neck cancers due to its ability to reduce dose to critical structures and decrease long-term toxicities such as xerostomia. Proton therapy is an area of active investigation and may be considered when normal tissue constraints cannot be met by photon-based therapy, or when photon-based therapy causes compromise of standard radiation dosing to tumor or postoperative volumes [RAD-A 1 of 7, ORPH-A 1 of 2, OR-A 1 of 2, HYPO-A 1 of 2, GLOT-A 1 of 2, SUPRA-A 1 of 2, NASO-A, ETHM-A, MAXI-A, OCC-A 1 of 2, SALI-A, MM-A].\n\nPrinciples:\n- All patients should be evaluated by a radiation oncologist prior to treatment to review staging and imaging to determine the extent of disease, exclude the presence of a synchronous primary tumor, assess functional status, and evaluate for potential RT options [RAD-A 1 of 7].\n- Target delineation and optimal dose distribution require experience in head and neck imaging and a thorough understanding of patterns of disease spread. Standards for target definition, dose specification, fractionation (with and without concurrent chemotherapy), and normal tissue constraints are still evolving [RAD-A 1 of 7].\n- IMRT (preferred) or other conformal techniques (helical tomotherapy, VMAT, and proton beam therapy) may be used as appropriate depending on the stage, tumor location, physician training/experience, and available physics support [RAD-A 1 of 7].\n- Advanced RT technologies such as IMRT, tomotherapy, VMAT, IGRT, and PBT may offer clinically relevant advantages in specific instances to spare important OARs, such as the brain, brain stem, cochlea, semicircular canals, optic chiasm and cranial nerves, retina, lacrimal glands, cornea, spinal cord, brachial plexus, mucosa, salivary glands, bone (skull base and mandible), pharyngeal constrictors, larynx, and esophagus, and decrease the risk for late, normal tissue damage while still achieving the primary goal of local tumor control [RAD-A 1 of 7].\n- Since the advantages of these techniques include tightly conformal doses and steep gradients next to normal tissues, target definition and delineation and treatment delivery verification require careful monitoring to avoid the risk of tumor geographic miss and subsequent decrease in local tumor control [RAD-A 1 of 7].\n- Image guidance is required to provide assurance of accurate daily delivery. Anatomical changes including rapidly shrinking tumors, changes in air cavities, or significant weight loss may necessitate repeat diagnostic imaging and replanning (adaptive treatment) [RAD-A 1 of 7].\n- The preferred interval between resection and initiation of postoperative RT is ≤6 weeks [OR-A 2 of 2, ORPH-A 2 of 2, HYPO-A 2 of 2, GLOT-A 2 of 2, SUPRA-A 2 of 2, ETHM-A, MAXI-A, ADV-A 2 of 2, OCC-A 2 of 2, SALI-A, MM-A].\n\nDose Frameworks:\n1. High-risk PTV (Gross Disease) - Definitive RT: Total dose 66-70 Gy, dose per fraction 2.0 Gy/fraction (or 2.2 Gy/fraction for 66 Gy), fractions 33-35 fractions, schedule Daily Monday-Friday in 6-7 weeks, indication Definitive treatment for primary tumor and involved lymph nodes for most head and neck subsites\n2. High-risk PTV (Gross Disease) - Concomitant Boost Accelerated RT: Total dose 72 Gy, dose per fraction 1.8 Gy/fraction (large field) + 1.5 Gy boost as second daily fraction during last 12 treatment days, fractions 30 fractions (large field) + 12 fractions (boost), schedule 6 weeks, indication Definitive treatment for head and neck cancers, particularly when using accelerated fractionation\n3. High-risk PTV (Gross Disease) - Hyperfractionation: Total dose 81.6 Gy (up to 74.4-81.6 Gy for T2,N0-1 oropharynx), dose per fraction 1.2 Gy/fraction, fractions 68 fractions (or 62-68 fractions for oropharynx T2,N0-1), schedule Twice daily, 6-7 weeks, indication Definitive treatment for head and neck cancers, particularly when tumor is abutting brain or optic structures, or for improved locoregional control\n4. High-risk PTV (Gross Disease) - Alternative: Total dose 69.96 Gy, dose per fraction 2.12 Gy/fraction, fractions 33 fractions, schedule Daily Monday-Friday, indication Not specified in the provided text"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose (High-risk PTV (Gross Disease) - Definitive RT)",
+      "value": 70,
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractions (High-risk PTV (Gross Disease) - Definitive RT)",
+      "value": 35,
+      "unit": "fractions"
+    },
+    {
+      "label": "Dose (High-risk PTV (Gross Disease) - Concomitant Boost Accelerated RT)",
+      "value": 72,
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractions (High-risk PTV (Gross Disease) - Concomitant Boost Accelerated RT)",
+      "value": 42,
+      "unit": "fractions"
+    },
+    {
+      "label": "Dose (High-risk PTV (Gross Disease) - Hyperfractionation)",
+      "value": 81.6,
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractions (High-risk PTV (Gross Disease) - Hyperfractionation)",
+      "value": 68,
+      "unit": "fractions"
+    },
+    {
+      "label": "Dose (High-risk PTV (Gross Disease) - Alternative)",
+      "value": 69.96,
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractions (High-risk PTV (Gross Disease) - Alternative)",
+      "value": 33,
+      "unit": "fractions"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "High-risk PTV (Gross Disease) - Definitive RT",
+      "body": "Daily Monday-Friday in 6-7 weeks. Indication: Definitive treatment for primary tumor and involved lymph nodes for most head and neck subsites",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "High-risk PTV (Gross Disease) - Concomitant Boost Accelerated RT",
+      "body": "6 weeks. Indication: Definitive treatment for head and neck cancers, particularly when using accelerated fractionation",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "High-risk PTV (Gross Disease) - Hyperfractionation",
+      "body": "Twice daily, 6-7 weeks. Indication: Definitive treatment for head and neck cancers, particularly when tumor is abutting brain or optic structures, or for improved locoregional control",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "High-risk PTV (Gross Disease) - Alternative",
+      "body": "Daily Monday-Friday. Indication: Not specified in the provided text",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "head_and_neck",
+  "_chars_in": 5000
+}

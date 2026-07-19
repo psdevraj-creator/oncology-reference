@@ -1,0 +1,210 @@
+{
+  "sections": [
+    {
+      "heading": "Management of Ampullary Adenoma",
+      "content": "{\"pathway_id\": \"ampullary_adenoma\", \"title\": \"Management of Ampullary Adenoma\", \"branching_basis\": [\"Endoscopic resectability\", \"Presence of high-grade dysplasia\", \"Margins after resection\"], \"nodes\": [{\"criteria\": \"Benign ampullary adenoma confirmed, without suspicion of adenocarcinoma\", \"options\": [{\"type\": \"Endoscopic removal\", \"label\": \"Preferred if technically feasible at high-volume center\", \"preference\": \"Preferred\", \"recommendation\": \"Endoscopic ampullectomy is recommended for adenomas without suspicion of adenocarcinoma, including those with high-grade dysplasia [AMP-2, MS-5].\", \"linked_regimen_ids\": []}, {\"type\": \"Surgical ampullectomy\", \"label\": \"If endoscopic removal not possible\", \"preference\": \"Other recommended\", \"recommendation\": \"Can be chosen at surgical centers with expertise [AMP-2].\", \"linked_regimen_ids\": []}, {\"type\": \"Pancreatoduodenectomy\", \"label\": \"If endoscopic removal not possible or for deeper invasion\", \"preference\": \"Other recommended\", \"recommendation\": \"Pancreatoduodenectomy is indicated if endoscopic removal is not possible or if there is suspicion of adenocarcinoma [AMP-2, MS-5].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable for benign adenomas.\"}}, {\"criteria\": \"Positive margins after endoscopic removal\", \"options\": [{\"type\": \"Re-excision\", \"label\": \"Endoscopic or surgical\", \"preference\": \"Other recommended\", \"recommendation\": \"Re-excision can be considered [AMP-2].\", \"linked_regimen_ids\": []}, {\"type\": \"Pancreatoduodenectomy\", \"label\": \"If re-excision not feasible or for persistent positive margins\", \"preference\": \"Other recommended\", \"recommendation\": \"Pancreatoduodenectomy is recommended [AMP-2].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable for adenomas.\"}}, {\"criteria\": \"Adenocarcinoma found on pathology after resection of adenoma\", \"options\": [{\"type\": \"Treat as ampullary adenocarcinoma\", \"label\": \"Proceed to adenocarcinoma pathways\", \"preference\": \"Preferred\", \"recommendation\": \"Follow guidelines for ampullary adenocarcinoma based on stage [AMP-2, MS-5].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant therapy may be indicated based on pathologic staging of adenocarcinoma.\"}}]}"
+    },
+    {
+      "heading": "Localized Ampullary Adenocarcinoma without High-Risk Features",
+      "content": "{\"pathway_id\": \"localized_early\", \"title\": \"Localized Ampullary Adenocarcinoma without High-Risk Features\", \"branching_basis\": [\"Resectability\", \"Performance status\", \"Histologic subtype\"], \"nodes\": [{\"criteria\": \"Localized disease, no metastases, resectable, good performance status\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Pancreatoduodenectomy (preferred)\", \"preference\": \"Preferred\", \"recommendation\": \"Pancreatoduodenectomy is the standard surgical approach for localized disease [AMP-4, MS-6].\", \"linked_regimen_ids\": []}, {\"type\": \"Adjuvant therapy\", \"label\": \"Postoperative based on stage\", \"preference\": \"Recommended\", \"recommendation\": \"Adjuvant systemic therapy is recommended within 12 weeks of surgery. For stage I, adjuvant chemotherapy or observation; for stages II and III, adjuvant chemotherapy ± chemoradiation [AMP-5, MS-9].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant therapy is based on final pathologic stage and histologic subtype.\"}}, {\"criteria\": \"Localized disease, resectable, but with high-risk features (equivocal imaging, elevated markers, large tumors, etc.)\", \"options\": [{\"type\": \"Neoadjuvant therapy\", \"label\": \"Consider systemic therapy with or without chemoradiation\", \"preference\": \"Other recommended\", \"recommendation\": \"Neoadjuvant systemic therapy may be considered, with regimens varying by histologic subtype. Participation in a clinical trial is encouraged [AMP-4, MS-6, MS-9].\", \"linked_regimen_ids\": [\"neoadjuvant_pancreatobiliary\", \"neoadjuvant_intestinal\"]}, {\"type\": \"Surgery\", \"label\": \"Pancreatoduodenectomy after neoadjuvant therapy if resectable\", \"preference\": \"Preferred\", \"recommendation\": \"Surgery is performed after neoadjuvant therapy and restaging [AMP-4].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Post-surgical adjuvant therapy depends on response to neoadjuvant therapy and final pathology.\"}}, {\"criteria\": \"Locally advanced, unresectable disease\", \"options\": [{\"type\": \"Systemic therapy\", \"label\": \"First-line based on subtype and PS\", \"preference\": \"Preferred\", \"recommendation\": \"Treated similarly to metastatic disease with systemic therapy. Chemoradiation may be considered for local control [AMP-4, MS-12].\", \"linked_regimen_ids\": [\"first_line_metastatic\"]}, {\"type\": \"Consider tertiary referral\", \"label\": \"For second opinion on unresectability\", \"preference\": \"Other recommended\", \"recommendation\": \"Refer to tertiary cancer center for assessment [AMP-4].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable; palliative intent.\"}}]}"
+    },
+    {
+      "heading": "Postoperative Adjuvant Tr",
+      "content": "{\"pathway_id\": \"postoperative_adjuvant\", \"title\": \"Postoperative Adjuvant Tr"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Management of Ampullary Adenoma",
+      "nodes": [
+        {
+          "id": "amp_d1",
+          "label": "Benign ampullary adenoma confirmed, without suspicion of adenocarcinoma",
+          "type": "decision"
+        },
+        {
+          "id": "amp_t1",
+          "label": "Endoscopic removal",
+          "type": "treatment"
+        },
+        {
+          "id": "amp_t2",
+          "label": "Surgical ampullectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "amp_t3",
+          "label": "Pancreatoduodenectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "amp_d2",
+          "label": "Positive margins after endoscopic removal",
+          "type": "decision"
+        },
+        {
+          "id": "amp_t4",
+          "label": "Re-excision",
+          "type": "treatment"
+        },
+        {
+          "id": "amp_t5",
+          "label": "Pancreatoduodenectomy (for positive margins)",
+          "type": "treatment"
+        },
+        {
+          "id": "amp_d3",
+          "label": "Adenocarcinoma found on pathology after resection of adenoma",
+          "type": "decision"
+        },
+        {
+          "id": "amp_t6",
+          "label": "Treat as ampullary adenocarcinoma",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "amp_d1",
+          "target": "amp_t1",
+          "label": "Endoscopic resectability: feasible at high-volume center"
+        },
+        {
+          "source": "amp_d1",
+          "target": "amp_t2",
+          "label": "Endoscopic removal not possible"
+        },
+        {
+          "source": "amp_d1",
+          "target": "amp_t3",
+          "label": "Endoscopic removal not possible or deeper invasion"
+        },
+        {
+          "source": "amp_t1",
+          "target": "amp_d2",
+          "label": "Margins assessed after endoscopic removal"
+        },
+        {
+          "source": "amp_d2",
+          "target": "amp_t4",
+          "label": "Re-excision feasible"
+        },
+        {
+          "source": "amp_d2",
+          "target": "amp_t5",
+          "label": "Re-excision not feasible or persistent positive margins"
+        },
+        {
+          "source": "amp_t1",
+          "target": "amp_d3",
+          "label": "Pathology result after endoscopic removal"
+        },
+        {
+          "source": "amp_t2",
+          "target": "amp_d3",
+          "label": "Pathology result after surgical ampullectomy"
+        },
+        {
+          "source": "amp_t3",
+          "target": "amp_d3",
+          "label": "Pathology result after pancreatoduodenectomy"
+        },
+        {
+          "source": "amp_d3",
+          "target": "amp_t6",
+          "label": "Adenocarcinoma confirmed"
+        }
+      ]
+    },
+    {
+      "title": "Localized Ampullary Adenocarcinoma without High-Risk Features",
+      "nodes": [
+        {
+          "id": "loc_d1",
+          "label": "Localized disease, no metastases, resectable, good PS",
+          "type": "decision"
+        },
+        {
+          "id": "loc_t1",
+          "label": "Pancreatoduodenectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_t2",
+          "label": "Adjuvant therapy based on stage",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_d2",
+          "label": "Localized disease, resectable, but with high-risk features",
+          "type": "decision"
+        },
+        {
+          "id": "loc_t3",
+          "label": "Neoadjuvant systemic therapy ± chemoradiation",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_t4",
+          "label": "Pancreatoduodenectomy after neoadjuvant therapy",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_d3",
+          "label": "Locally advanced, unresectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "loc_t5",
+          "label": "Systemic therapy (first-line)",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_t6",
+          "label": "Consider tertiary referral",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "loc_d1",
+          "target": "loc_t1",
+          "label": "Resectable, good PS"
+        },
+        {
+          "source": "loc_t1",
+          "target": "loc_t2",
+          "label": "Postoperative based on stage"
+        },
+        {
+          "source": "loc_d2",
+          "target": "loc_t3",
+          "label": "High-risk features present"
+        },
+        {
+          "source": "loc_t3",
+          "target": "loc_t4",
+          "label": "After neoadjuvant therapy, if resectable"
+        },
+        {
+          "source": "loc_d3",
+          "target": "loc_t5",
+          "label": "Unresectable, palliative intent"
+        },
+        {
+          "source": "loc_d3",
+          "target": "loc_t6",
+          "label": "For second opinion on unresectability"
+        }
+      ]
+    },
+    {
+      "title": "Postoperative Adjuvant Tr",
+      "nodes": [],
+      "edges": []
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "ampullary",
+  "_chars_in": 5000
+}

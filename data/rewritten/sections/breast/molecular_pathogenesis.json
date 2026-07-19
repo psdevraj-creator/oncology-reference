@@ -1,0 +1,411 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Breast cancer is a molecularly heterogeneous disease driven by diverse genomic alterations."
+    },
+    {
+      "heading": "Targetable Genomic Alterations",
+      "content": "Germline BRCA1/2 pathogenic variants (PVs) are found in approximately 5% of all breast cancer patients, with higher rates among those with HER2-negative disease [BINV-Q 2, 7]. These mutations impair homologous recombination DNA repair, creating sensitivity to PARP inhibitors such as olaparib (median PFS 7.0 vs 4.2 months; HR 0.58; P < .001) and talazoparib (median PFS 8.6 vs 5.6 months; HR 0.54; P < .001) in the metastatic setting [MS-83]. PIK3CA activating mutations occur in approximately 40% of hormone receptor-positive, HER2-negative breast cancers and are targetable with PI3K pathway inhibitors; the INAVO120 trial demonstrated improved PFS with fulvestrant/inavolisib/palbociclib versus fulvestrant/placebo/palbociclib (15.0 vs 7.3 months; HR 0.43; 95% CI 0.32–0.59) [BINV-Q 6, MS-63]. ESR1 mutations are frequently detected after exposure to aromatase inhibitors and are targetable with elacestrant, imlunestrant, or vepdegestrant [BINV-Q 6]. AKT1 activating mutations and PTEN inactivating mutations/genomic changes are targetable with capivasertib/fulvestrant (PFS 7.2 vs 3.6 months overall in CAPItello-291) [BINV-Q 6, MS-65]. Germline PALB2 PVs confer sensitivity to olaparib (ORR 75% in a phase II study) [MS-83]. NTRK1/2/3 gene fusions, though rare, are targetable with larotrectinib, entrectinib, or repotrectinib [BINV-Q 7]. Microsatellite instability-high (MSI-H) or mismatch repair deficient (dMMR) tumors respond to pembrolizumab or dostarlimab-gxly [BINV-Q 7]. RET gene fusions are targetable with selpercatinib [BINV-Q 7]. High tumor mutational burden (≥10 mut/Mb) predicts response to pembrolizumab [BINV-Q 7]. HER2 (ERBB2) activating mutations, distinct from HER2 amplification, are targetable with neratinib/trastuzumab/fulvestrant (ORR 39% in the SUMMIT trial) or tucatinib/trastuzumab [BINV-Q 8]. Somatic BRCA1/2 mutations may also predict olaparib benefit (ORR 33% in germline non-BRCA1/2 HR-related gene carriers) [BINV-Q 8]. FGFR1-3 gene fusions/mutations are emerging targets for erdafitinib [BINV-Q 8]."
+    },
+    {
+      "heading": "Gene Expression Profiling",
+      "content": "Gene expression profiling reveals distinct molecular subtypes: the 21-gene recurrence score (Oncotype DX) stratifies risk and predicts chemotherapy benefit in HR-positive/HER2-negative disease, with TAILORx demonstrating no chemotherapy benefit for recurrence scores 0–10 and RxPONDER showing chemotherapy benefit for premenopausal patients with scores up to 25 [BINV-N]. The 70-gene (MammaPrint), 50-gene (Prosigna/PAM50), and 12-gene (EndoPredict) assays provide prognostic information [BINV-N]. The Breast Cancer Index predicts benefit from extended endocrine therapy [BINV-N]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA2",
+        "type": "gene"
+      },
+      {
+        "id": "PIK3CA",
+        "type": "gene"
+      },
+      {
+        "id": "ESR1",
+        "type": "gene"
+      },
+      {
+        "id": "AKT1",
+        "type": "gene"
+      },
+      {
+        "id": "PTEN",
+        "type": "gene"
+      },
+      {
+        "id": "PALB2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK3",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "ERBB2",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR1",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR2",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR3",
+        "type": "gene"
+      },
+      {
+        "id": "PARP",
+        "type": "gene"
+      },
+      {
+        "id": "HomologousRecombination",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "AKT pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "MismatchRepair",
+        "type": "pathway"
+      },
+      {
+        "id": "olaparib",
+        "type": "drug"
+      },
+      {
+        "id": "talazoparib",
+        "type": "drug"
+      },
+      {
+        "id": "fulvestrant",
+        "type": "drug"
+      },
+      {
+        "id": "inavolisib",
+        "type": "drug"
+      },
+      {
+        "id": "palbociclib",
+        "type": "drug"
+      },
+      {
+        "id": "elacestrant",
+        "type": "drug"
+      },
+      {
+        "id": "imlunestrant",
+        "type": "drug"
+      },
+      {
+        "id": "vepdegestrant",
+        "type": "drug"
+      },
+      {
+        "id": "capivasertib",
+        "type": "drug"
+      },
+      {
+        "id": "larotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "entrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "repotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "id": "dostarlimab-gxly",
+        "type": "drug"
+      },
+      {
+        "id": "selpercatinib",
+        "type": "drug"
+      },
+      {
+        "id": "neratinib",
+        "type": "drug"
+      },
+      {
+        "id": "trastuzumab",
+        "type": "drug"
+      },
+      {
+        "id": "tucatinib",
+        "type": "drug"
+      },
+      {
+        "id": "erdafitinib",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "BRCA1",
+        "target": "HomologousRecombination",
+        "type": "inhibits"
+      },
+      {
+        "source": "BRCA2",
+        "target": "HomologousRecombination",
+        "type": "inhibits"
+      },
+      {
+        "source": "PALB2",
+        "target": "HomologousRecombination",
+        "type": "inhibits"
+      },
+      {
+        "source": "PIK3CA",
+        "target": "PI3K pathway",
+        "type": "activates"
+      },
+      {
+        "source": "AKT1",
+        "target": "AKT pathway",
+        "type": "activates"
+      },
+      {
+        "source": "PTEN",
+        "target": "PI3K pathway",
+        "type": "inhibits"
+      },
+      {
+        "source": "olaparib",
+        "target": "PARP",
+        "type": "targets"
+      },
+      {
+        "source": "talazoparib",
+        "target": "PARP",
+        "type": "targets"
+      },
+      {
+        "source": "inavolisib",
+        "target": "PI3K pathway",
+        "type": "targets"
+      },
+      {
+        "source": "fulvestrant",
+        "target": "ESR1",
+        "type": "targets"
+      },
+      {
+        "source": "elacestrant",
+        "target": "ESR1",
+        "type": "targets"
+      },
+      {
+        "source": "imlunestrant",
+        "target": "ESR1",
+        "type": "targets"
+      },
+      {
+        "source": "vepdegestrant",
+        "target": "ESR1",
+        "type": "targets"
+      },
+      {
+        "source": "capivasertib",
+        "target": "AKT1",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "selpercatinib",
+        "target": "RET",
+        "type": "targets"
+      },
+      {
+        "source": "neratinib",
+        "target": "ERBB2",
+        "type": "targets"
+      },
+      {
+        "source": "trastuzumab",
+        "target": "ERBB2",
+        "type": "targets"
+      },
+      {
+        "source": "tucatinib",
+        "target": "ERBB2",
+        "type": "targets"
+      },
+      {
+        "source": "erdafitinib",
+        "target": "FGFR1",
+        "type": "targets"
+      },
+      {
+        "source": "erdafitinib",
+        "target": "FGFR2",
+        "type": "targets"
+      },
+      {
+        "source": "erdafitinib",
+        "target": "FGFR3",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "HomologousRecombination",
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "PALB2"
+      ],
+      "drugs": "olaparib,talazoparib",
+      "targetable": true
+    },
+    {
+      "pathway": "PI3K pathway",
+      "genes": [
+        "PIK3CA",
+        "PTEN"
+      ],
+      "drugs": "inavolisib",
+      "targetable": true
+    },
+    {
+      "pathway": "AKT pathway",
+      "genes": [
+        "AKT1",
+        "PTEN"
+      ],
+      "drugs": "capivasertib",
+      "targetable": true
+    },
+    {
+      "pathway": "MismatchRepair",
+      "genes": [],
+      "drugs": "pembrolizumab,dostarlimab-gxly",
+      "targetable": true
+    },
+    {
+      "pathway": "ESR1 mutations",
+      "genes": [
+        "ESR1"
+      ],
+      "drugs": "elacestrant,imlunestrant,vepdegestrant,fulvestrant",
+      "targetable": true
+    },
+    {
+      "pathway": "HER2 (ERBB2) mutations",
+      "genes": [
+        "ERBB2"
+      ],
+      "drugs": "neratinib,trastuzumab,tucatinib",
+      "targetable": true
+    },
+    {
+      "pathway": "NTRK fusions",
+      "genes": [
+        "NTRK1",
+        "NTRK2",
+        "NTRK3"
+      ],
+      "drugs": "larotrectinib,entrectinib,repotrectinib",
+      "targetable": true
+    },
+    {
+      "pathway": "RET fusions",
+      "genes": [
+        "RET"
+      ],
+      "drugs": "selpercatinib",
+      "targetable": true
+    },
+    {
+      "pathway": "FGFR fusions/mutations",
+      "genes": [
+        "FGFR1",
+        "FGFR2",
+        "FGFR3"
+      ],
+      "drugs": "erdafitinib",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "breast",
+  "_chars_in": 2711
+}

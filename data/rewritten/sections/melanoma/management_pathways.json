@@ -1,0 +1,173 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"melanoma_in_situ\", \"title\": \"Stage 0 In Situ Melanoma\", \"branching_basis\": [\"lesion subtype (LM vs non-LM)\", \"surgical feasibility\", \"patient comorbidities\"], \"nodes\": [{\"criteria\": \"Melanoma in situ confirmed by pathology\", \"options\": [{\"type\": \"surgery\", \"label\": \"Wide excision\", \"preference\": \"preferred\", \"recommendation\": \"Surgical excision with 0.5-1 cm margins (category 1)\", \"linked_regimen_ids\": []}, {\"type\": \"topical\", \"label\": \"Topical imiquimod 5% cream\", \"preference\": \"useful_in_certain_circumstances\", \"recommendation\": \"For LM subtype when surgery is not performed, or for positive margins after surgical excision (off-label use). In a phase 3 trial of imiquimod vs RT for complex LM, 95% response rates at 6 months with comparable efficacy and safety [11].\", \"linked_regimen_ids\": []}, {\"type\": \"radiation\", \"label\": \"Radiation therapy\", \"preference\": \"useful_in_certain_circumstances\", \"recommendation\": \"For select patients with LM when surgery is not possible or desired\", \"linked_regimen_ids\": []}, {\"type\": \"observation\", \"label\": \"Active surveillance\", \"preference\": \"useful_in_certain_circumstances\", \"recommendation\": \"May be appropriate for patients with poor functional status and/or limited life expectancy\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant systemic therapy indicated for melanoma in situ\"}}]}, {\"pathway_id\": \"stage_ia_thin\", \"title\": \"Stage IA Melanoma (T1a: <0.8 mm, no ulceration)\", \"branching_basis\": [\"Breslow thickness\", \"ulceration\", \"risk factors for SLN positivity\"], \"nodes\": [{\"criteria\": \"Stage IA, T1a, Breslow <0.8 mm without ulceration, no adverse features. Risk of positive SLN <5%\", \"options\": [{\"type\": \"surgery\", \"label\": \"Wide excision with 1 cm margin\", \"preference\": \"preferred\", \"recommendation\": \"Category 1. SLNB is not generally recommended unless significant uncertainty about adequacy of microstaging [5], [6].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant systemic therapy for stage I disease\"}}]}, {\"pathway_id\": \"stage_ib_thin\", \"title\": \"Stage IB Melanoma (T1b: <0.8 mm with ulceration or 0.8-1.0 mm ± ulceration)\", \"branching_basis\": [\"ulceration\", \"mitotic rate\", \"Breslow thickness\", \"additional adverse features\"], \"nodes\": [{\"criteria\": \"Clinical stage IB, T1b. Risk of positive SLN 5-10%. Includes T1a lesions with Breslow >0.5 mm and adverse features (age ≤42, head/neck location, lymphovascular invasion, mitotic rate ≥2/mm²)\", \"options\": [{\"type\": \"surgery\", \"label\": \"Wide excision with 1 cm margin with SLNB\", \"preference\": \"preferred\", \"recommendation\": \"Category 1 for wide excision. Discuss and consider SLNB for these patients [5], [6], [12].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant systemic therapy for stage I disease. If SLNB positive, manage per stage III pathway.\"}}]}, {\"pathway_id\": \"stage_ib_ii_high_risk\", \"title\": \"Stage IB (T2a) or Stage II (T2b or higher)\", \"branching_basis\": [\"pathologic stage\", \"BRAF mutation status\", \"patient risk-benefit assessment\"], \"nodes\": [{\"criteria\": \"Clinical stage IB (T2a) or II (T2b+), clinically negative nodes\", \"options\": [{\"type\": \"surgery\", \"label\": \"Wide excision with SLNB\", \"preference\": \"preferred\", \"recommendation\": \"Wide excision (1-2 cm margin for T1.01-2.0 mm; 2 cm margin for >2.0 mm). SLNB recommended [5], [6].\", \"linked_regimen_ids\": []}, {\"type\": \"systemic\", \"label\": \"Adjuvant therapy for pathologic stage IIB/IIC\", \"preference\": \"preferred\", \"recommendation\": \"For pathologic stage IIB/IIC: systemic therapy and/or primary tumor site RT to reduce local recurrence (category 2B). Adjuvant anti-PD-1 (nivolumab or pembrolizumab) is approved. Shared decision-making required, weighing recurrence risk against approximately 15% risk of lifelong endocrine dysfunction [7], [13].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"For pathologic stage IIB/IIC: consider adjuvant systemic therapy (anti-PD-1 or dabrafenib/trametinib if BRAF V600+) and/or RT to primary tumor site for select patients at high risk for local recurrence (T4, desmoplastic histology, neurotropism, close margins, microsatellites) [7], [13].\"}}]}, {\"pathway_id\": \"stage_iiib_microsatellites\", \"title\": \"Stage IIIB Microscopic Satellites (No SLN or SLN Negative)\", \"branching_basis\": [\"SLNB status\", \"microsatellitosis extent\"], \"nodes\": [{\"criteria\": \"Microscopic satellites in biopsy/wide excision specimen from primary lesion. Stage at least IIIB (N1c) regardless of SLNB status\", \"options\": [{\"type\": \"surgery\", \"label\": \"Wide excision with SLNB\", \"preference\": \"preferred\", \"recommendation\": \"SLNB should be considered, especially if it will alter disease management decisions [14].\", \"linked_regimen_ids\": []}, {\"type\": \"systemic\", \"label\": \"Consider adjuvant systemic therapy\", \"preference\": \"useful_in_certain_circumstances\", \"recommendation\": \"For stage IIIB disease based on mic\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Stage 0 In Situ Melanoma",
+      "nodes": [
+        {
+          "id": "melanoma_in_situ_decision",
+          "label": "Melanoma in situ confirmed by pathology",
+          "type": "decision"
+        },
+        {
+          "id": "melanoma_in_situ_treatment_0",
+          "label": "Wide excision: Surgical excision with 0.5-1 cm margins (category 1)",
+          "type": "treatment"
+        },
+        {
+          "id": "melanoma_in_situ_treatment_1",
+          "label": "Topical imiquimod 5% cream: For LM subtype when surgery is not performed, or for positive margins after surgical excision (off-label use). In a phase 3 trial of imiquimod vs RT for complex LM, 95% response rates at 6 months with comparable efficacy and safety [11].",
+          "type": "treatment"
+        },
+        {
+          "id": "melanoma_in_situ_treatment_2",
+          "label": "Radiation therapy: For select patients with LM when surgery is not possible or desired",
+          "type": "treatment"
+        },
+        {
+          "id": "melanoma_in_situ_treatment_3",
+          "label": "Active surveillance: May be appropriate for patients with poor functional status and/or limited life expectancy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "melanoma_in_situ_decision",
+          "target": "melanoma_in_situ_treatment_0",
+          "label": "Wide excision"
+        },
+        {
+          "source": "melanoma_in_situ_decision",
+          "target": "melanoma_in_situ_treatment_1",
+          "label": "Topical imiquimod 5% cream"
+        },
+        {
+          "source": "melanoma_in_situ_decision",
+          "target": "melanoma_in_situ_treatment_2",
+          "label": "Radiation therapy"
+        },
+        {
+          "source": "melanoma_in_situ_decision",
+          "target": "melanoma_in_situ_treatment_3",
+          "label": "Active surveillance"
+        }
+      ]
+    },
+    {
+      "title": "Stage IA Melanoma (T1a: <0.8 mm, no ulceration)",
+      "nodes": [
+        {
+          "id": "stage_ia_thin_decision",
+          "label": "Stage IA, T1a, Breslow <0.8 mm without ulceration, no adverse features. Risk of positive SLN <5%",
+          "type": "decision"
+        },
+        {
+          "id": "stage_ia_thin_treatment_0",
+          "label": "Wide excision with 1 cm margin: Category 1. SLNB is not generally recommended unless significant uncertainty about adequacy of microstaging [5], [6].",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "stage_ia_thin_decision",
+          "target": "stage_ia_thin_treatment_0",
+          "label": "Wide excision with 1 cm margin"
+        }
+      ]
+    },
+    {
+      "title": "Stage IB Melanoma (T1b: <0.8 mm with ulceration or 0.8-1.0 mm ± ulceration)",
+      "nodes": [
+        {
+          "id": "stage_ib_thin_decision",
+          "label": "Clinical stage IB, T1b. Risk of positive SLN 5-10%. Includes T1a lesions with Breslow >0.5 mm and adverse features (age ≤42, head/neck location, lymphovascular invasion, mitotic rate ≥2/mm²)",
+          "type": "decision"
+        },
+        {
+          "id": "stage_ib_thin_treatment_0",
+          "label": "Wide excision with 1 cm margin with SLNB: Category 1 for wide excision. Discuss and consider SLNB for these patients [5], [6], [12].",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "stage_ib_thin_decision",
+          "target": "stage_ib_thin_treatment_0",
+          "label": "Wide excision with 1 cm margin with SLNB"
+        }
+      ]
+    },
+    {
+      "title": "Stage IB (T2a) or Stage II (T2b or higher)",
+      "nodes": [
+        {
+          "id": "stage_ib_ii_high_risk_decision",
+          "label": "Clinical stage IB (T2a) or II (T2b+), clinically negative nodes",
+          "type": "decision"
+        },
+        {
+          "id": "stage_ib_ii_high_risk_treatment_0",
+          "label": "Wide excision with SLNB: Wide excision (1-2 cm margin for T1.01-2.0 mm; 2 cm margin for >2.0 mm). SLNB recommended [5], [6].",
+          "type": "treatment"
+        },
+        {
+          "id": "stage_ib_ii_high_risk_treatment_1",
+          "label": "Adjuvant therapy for pathologic stage IIB/IIC: For pathologic stage IIB/IIC: systemic therapy and/or primary tumor site RT to reduce local recurrence (category 2B). Adjuvant anti-PD-1 (nivolumab or pembrolizumab) is approved. Shared decision-making required, weighing recurrence risk against approximately 15% risk of lifelong endocrine dysfunction [7], [13].",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "stage_ib_ii_high_risk_decision",
+          "target": "stage_ib_ii_high_risk_treatment_0",
+          "label": "Wide excision with SLNB"
+        },
+        {
+          "source": "stage_ib_ii_high_risk_decision",
+          "target": "stage_ib_ii_high_risk_treatment_1",
+          "label": "Adjuvant therapy for pathologic stage IIB/IIC"
+        }
+      ]
+    },
+    {
+      "title": "Stage IIIB Microscopic Satellites (No SLN or SLN Negative)",
+      "nodes": [
+        {
+          "id": "stage_iiib_microsatellites_decision",
+          "label": "Microscopic satellites in biopsy/wide excision specimen from primary lesion. Stage at least IIIB (N1c) regardless of SLNB status",
+          "type": "decision"
+        },
+        {
+          "id": "stage_iiib_microsatellites_treatment_0",
+          "label": "Wide excision with SLNB: SLNB should be considered, especially if it will alter disease management decisions [14].",
+          "type": "treatment"
+        },
+        {
+          "id": "stage_iiib_microsatellites_treatment_1",
+          "label": "Consider adjuvant systemic therapy: For stage IIIB disease based on mic",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "stage_iiib_microsatellites_decision",
+          "target": "stage_iiib_microsatellites_treatment_0",
+          "label": "Wide excision with SLNB"
+        },
+        {
+          "source": "stage_iiib_microsatellites_decision",
+          "target": "stage_iiib_microsatellites_treatment_1",
+          "label": "Consider adjuvant systemic therapy"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "melanoma",
+  "_chars_in": 5000
+}

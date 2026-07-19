@@ -516,7 +516,7 @@ def _render_systemic_therapy(value: dict) -> list:
 _handbook_render_cache: dict[int, list] = {}
 
 
-def render_handbook(handbook: dict[str, Any]) -> list:
+def render_handbook(handbook: dict[str, Any], site_id: str = "") -> list:
     if not handbook:
         return [html.P("No handbook data available for this site.", className="text-muted")]
 
@@ -566,31 +566,31 @@ def render_handbook(handbook: dict[str, Any]) -> list:
 
     custom_renderers = {
         "definition": _render_definition,
-        "epidemiology": render_epidemiology,
-        "subtypes": render_subtypes,
-        "molecular_pathogenesis": render_molecular_pathogenesis,
-        "risk_factors": render_risk_factors,
-        "protective_factors": render_protective_factors,
-        "clinical_features": render_clinical_features,
-        "red_flags": render_red_flags,
-        "investigations": render_investigations,
+        "epidemiology": lambda v: render_epidemiology(v, site_id),
+        "subtypes": lambda v: render_subtypes(v, site_id),
+        "molecular_pathogenesis": lambda v: render_molecular_pathogenesis(v, site_id),
+        "risk_factors": lambda v: render_risk_factors(v, site_id),
+        "protective_factors": lambda v: render_protective_factors(v, site_id),
+        "clinical_features": lambda v: render_clinical_features(v, site_id),
+        "red_flags": lambda v: render_red_flags(v, site_id),
+        "investigations": lambda v: render_investigations(v, site_id),
         "staging": render_staging,
-        "management_principles": render_management_principles,
+        "management_principles": lambda v: render_management_principles(v, site_id),
         "management_pathways": _render_management_pathways,
         "pretreatment_evaluation": _render_pretreatment_evaluation,
-        "surgery": render_surgery,
+        "surgery": lambda v: render_surgery(v, site_id),
         "radiation_therapy": render_radiation_therapy,
         "systemic_therapy": _render_systemic_therapy,
-        "treatment_response_assessment": render_treatment_response,
-        "surveillance": render_surveillance,
-        "complications": render_complications,
-        "supportive_care": render_supportive_care,
-        "prognosis": render_enhanced_prognosis,
-        "follow_up": render_follow_up,
+        "treatment_response_assessment": lambda v: render_treatment_response(v, site_id),
+        "surveillance": lambda v: render_surveillance(v, site_id),
+        "complications": lambda v: render_complications(v, site_id),
+        "supportive_care": lambda v: render_supportive_care(v, site_id),
+        "prognosis": lambda v: render_enhanced_prognosis(v, site_id),
+        "follow_up": lambda v: render_follow_up(v, site_id),
         "key_trials": render_trials,
-        "clinical_pearls": render_clinical_pearls,
-        "special_situations": render_special_situations,
-        "guidelines_resources": render_guidelines_resources,
+        "clinical_pearls": lambda v: render_clinical_pearls(v, site_id),
+        "special_situations": lambda v: render_special_situations(v, site_id),
+        "guidelines_resources": lambda v: render_guidelines_resources(v, site_id),
     }
 
     all_components: list = []

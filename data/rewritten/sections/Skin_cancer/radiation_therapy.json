@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\"role\": \"RT is a primary treatment option for nonsurgical candidates or when patient preference and other factors lead to its choice. It is also used adjuvantly for positive margins or high-risk features after surgery, and for regional disease.\", \"principles\": [\"Refer to the ASTRO Guideline on Definitive and Postoperative Radiation Therapy for Basal and Squamous Cell Cancers of the Skin for general indications and dose recommendations [1].\", \"Protracted fractionation is associated with improved cosmetic results and should be utilized for poorly vascularized or cartilaginous areas.\", \"For extensive perineural invasion (PNI) or involvement of named nerves (particularly in the head and neck region), consider including the course of the cranial nerve proximally.\", \"Perineural tumor spread (PNTS), defined as clinically or radiographically apparent macroscopic spread along nerves, warrants comprehensive coverage of the involved and potentially interconnected cranial nerve pathways.\", \"RT is contraindicated for genetic conditions predisposing to skin cancer (e.g., basal cell nevus syndrome [Gorlin syndrome]) and relatively contraindicated for patients with connective tissue diseases (e.g., scleroderma).\", \"Given higher complication rates, reirradiation should not be routinely utilized for recurrent disease within a prior radiation field.\", \"Consider elective nodal irradiation (ENI) in cases of multiple high-risk pathologic features, especially in immunocompromised patients.\", \"Recommendations for external beam RT (EBRT) apply to both photons and electrons.\", \"Image-guided radiation therapy (IGRT) is considered best practice when treating with intensity-modulated radiation therapy (IMRT), proton beam radiotherapy, or 3D conformal radiation.\", \"Application of bolus over the primary tumor should be considered to ensure full dose to the surface.\", \"Radiation treatments should be given by a practicing radiation oncologist with radiation physics support.\"], \"dose_frameworks\": [{\"name\": \"Adjuvant RT\", \"total_dose\": \"BED10 of 60–79 Gy\", \"dose_per_fraction\": \"1.8–2 Gy\", \"fractions\": \"30–33\", \"schedule\": \"Conventional fractionation (five daily treatments per week)\", \"indication\": \"Postoperative setting for positive margins or high-risk features.\"}, {\"name\": \"Adjuvant RT Hypofractionation\", \"total_dose\": \"BED10 of 48–70 Gy\", \"dose_per_fraction\": \"2.5–6 Gy\", \"fractions\": \"5–20\", \"schedule\": \"Hypofractionated\", \"indication\": \"Alternative fractionation schedules.\"}, {\"name\": \"Definitive EBRT Conventional\", \"total_dose\": \"BED10 of 70–84 Gy\", \"dose_per_fraction\": \"1.8–2 Gy\", \"fractions\": \"33–42\", \"schedule\": \"Conventional fractionation\", \"indication\": \"Definitive treatment for primary tumors.\"}, {\"name\": \"Definitive EBRT Hypofractionation\", \"total_dose\": \"BED10 of 48–72 Gy\", \"dose_per_fraction\": \"2.5–7 Gy\", \"fractions\": \"5–22\", \"schedule\": \"Hypofractionated\", \"indication\": \"Definitive treatment, especially for older patients or those unable to attend protracted course.\"}, {\"name\": \"Regional Disease Conventional\", \"total_dose\": \"66–70 Gy (gross), 60 Gy (dissected basins), 50–66 Gy (PNTS)\", \"dose_per_fraction\": \"1.8–2 Gy\", \"fractions\": \"25–35\", \"schedule\": \"Conventional fractionation\", \"indication\": \"Postoperative or definitive treatment of regional lymph node disease.\"}, {\"name\": \"S-ITM RT\", \"total_dose\": \"50–70 Gy\", \"dose_per_fraction\": \"Varies\", \"fractions\": \"Varies\", \"schedule\": \"Over 5–7 weeks\", \"indication\": \"For resected or unresected satellitosis/in-transit metastasis.\"}], \"approaches\": [{\"name\": \"Definitive External Beam RT (EBRT)\", \"dose_fractionation\": \"See dose frameworks above.\", \"concurrent_chemotherapy\": \"May be considered in select cases for laCSCC after multidisciplinary discussion.\", \"indication\": \"Nonsurgical candidates with local, regional, or locally advanced disease.\", \"key_trial\": \"\", \"toxicities\": \"Poor cosmetic outcomes (telangiectasia, skin pigmentation changes, fibrosis), non-healing ulcers (especially for SCC in situ), soft tissue/cartilage/bone necrosis, decreased sensation, cataracts (periorbital lesions).\"}, {\"name\": \"Adjuvant EBRT\", \"dose_fractionation\": \"See dose frameworks above.\", \"concurrent_chemotherapy\": \"Consider concurrent systemic therapy for high-risk regional disease with ENE or incompletely resected nodes.\", \"indication\": \"Positive margins after surgery or high-risk features (PNI, tumor ≥6 cm, recurrent, etc.).\", \"key_trial\": \"\", \"toxicities\": \"As above.\"}, {\"name\": \"Brachytherapy\", \"dose_fractionation\": \"Custom surface mold applicators: 3 Gy x 16 fractions (daily) or 5 Gy x 8 fractions (2x/week). Interstitial brachytherapy: Goal BED10 at least 60 Gy (e.g., 4.4 Gy x 10 fractions BID). Shielded single channel applicators: 3 Gy x 12–16 fractions (daily).\", \"concurrent_chemotherapy\": \"Not specified.\", \"indication\": \"Particularly for head and neck sites. Surface applicators for superficial tumors (<5 mm depth). Interstitial for deeper tumors.\", \"key_trial\": \"\", \"toxicities\": \"Potential for t\"}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose",
+      "value": 60,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 48,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 70,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 48,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 66,
+      "unit": "Gy"
+    },
+    {
+      "label": "Dose",
+      "value": 50,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Adjuvant RT",
+      "body": "Dose per fraction: 1.8–2 Gy, Fractions: 30–33, Schedule: Conventional fractionation (five daily treatments per week), Indication: Postoperative setting for positive margins or high-risk features.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Adjuvant RT Hypofractionation",
+      "body": "Dose per fraction: 2.5–6 Gy, Fractions: 5–20, Schedule: Hypofractionated, Indication: Alternative fractionation schedules.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive EBRT Conventional",
+      "body": "Dose per fraction: 1.8–2 Gy, Fractions: 33–42, Schedule: Conventional fractionation, Indication: Definitive treatment for primary tumors.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive EBRT Hypofractionation",
+      "body": "Dose per fraction: 2.5–7 Gy, Fractions: 5–22, Schedule: Hypofractionated, Indication: Definitive treatment, especially for older patients or those unable to attend protracted course.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Regional Disease Conventional",
+      "body": "Dose per fraction: 1.8–2 Gy, Fractions: 25–35, Schedule: Conventional fractionation, Indication: Postoperative or definitive treatment of regional lymph node disease.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "S-ITM RT",
+      "body": "Dose per fraction: Varies, Fractions: Varies, Schedule: Over 5–7 weeks, Indication: For resected or unresected satellitosis/in-transit metastasis.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "Skin_cancer",
+  "_chars_in": 5000
+}

@@ -1,0 +1,167 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"localized_resectable_clinical_n0\", \"title\": \"Clinical N0 Disease: Local MCC Only, Surgically Resectable\", \"branching_basis\": [\"Surgical resectability\", \"Sentinel Lymph Node Biopsy (SLNB) result\", \"Presence of adverse risk factors for local recurrence\", \"Surgical margin status\"], \"nodes\": [{\"criteria\": \"Surgically resectable local MCC\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Primary Excision\", \"preference\": \"Recommended\", \"recommendation\": \"Excision with 1- to 2-cm margins, or Mohs/peripheral and deep en face margin assessment (PDEMA) in certain circumstances [MCC-2, footnote i, j]. SLNB with appropriate immunopanel should be performed prior to or at the time of definitive excision [MCC-2, footnote h].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant treatment is determined by pathology results. Key factors: margin status, SLNB result, and adverse risk factors (LVI, immunosuppression, primary tumor >1 cm, close/positive margins, head/neck site).\"}}, {\"criteria\": \"Pathology: Clear margins AND No adverse risk factors\", \"options\": [{\"type\": \"Observation\", \"label\": \"Observation\", \"preference\": \"Preferred\", \"recommendation\": \"Observation is recommended for the primary site and the nodal basin if SLNB is negative [MCC-2].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant therapy recommended.\"}}, {\"criteria\": \"Pathology: Clear margins AND ≥1 adverse risk factors\", \"options\": [{\"type\": \"Radiation Therapy\", \"label\": \"Adjuvant RT to Primary Tumor Site\", \"preference\": \"Recommended\", \"recommendation\": \"Adjuvant RT is recommended [MCC-2, footnote n]. If adjuvant RT is planned, narrower clinical margins are acceptable with the goal of clear or microscopically positive margins [MCC-2, footnote l].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant RT recommended due to high risk of local recurrence.\"}}, {\"criteria\": \"Pathology: Microscopically positive margins\", \"options\": [{\"type\": \"Radiation Therapy\", \"label\": \"Adjuvant RT to Primary Tumor Site\", \"preference\": \"Preferred\", \"recommendation\": \"Adjuvant RT is the preferred additional treatment [MCC-2]. Re-excision may be considered if RT is not feasible or planned.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant RT preferred over re-excision.\"}}, {\"criteria\": \"Pathology: Grossly positive margins and further resection not possible\", \"options\": [{\"type\": \"Radiation Therapy\", \"label\": \"Adjuvant RT to Primary Tumor Site\", \"preference\": \"Recommended\", \"recommendation\": \"Adjuvant RT is recommended [MCC-2, footnote n].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant RT recommended.\"}}, {\"criteria\": \"SLNB Result: Positive\", \"options\": [{\"type\": \"Diagnostic\", \"label\": \"Baseline Imaging\", \"preference\": \"Recommended\", \"recommendation\": \"Baseline imaging via whole-body FDG-PET/CT (preferred) or CT with contrast of chest, abdomen, pelvis, and neck (if head/neck primary) [MCC-2, footnote m]. MRI of the brain if clinical suspicion of brain metastases or direct extension.\", \"linked_regimen_ids\": []}, {\"type\": \"Surgery\", \"label\": \"Node Dissection\", \"preference\": \"An option\", \"recommendation\": \"Therapeutic lymph node dissection (TLND) is an option for the involved nodal basin [MCC-2].\", \"linked_regimen_ids\": []}, {\"type\": \"Radiation Therapy\", \"label\": \"Adjuvant RT to Nodal Basin\", \"preference\": \"Preferred\", \"recommendation\": \"RT to the nodal basin is a preferred option, especially following node dissection with multiple involved nodes and/or extranodal extension (ENE) [MCC-2].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Management of the positive SLN is required, typically with TLND and/or RT to the nodal basin.\"}}, {\"criteria\": \"SLNB Result: Negative\", \"options\": [{\"type\": \"Observation\", \"label\": \"Observation of Nodal Basin\", \"preference\": \"Preferred\", \"recommendation\": \"Observation is the preferred management [MCC-2].\", \"linked_regimen_ids\": []}, {\"type\": \"Radiation Therapy\", \"label\": \"Consider RT to Nodal Basin\", \"preference\": \"Consider for select high-risk scenarios\", \"recommendation\": \"May consider RT to the nodal basin for certain high-risk clinical scenarios (e.g., compromised SLNB, high risk of false-negative, profound immunosuppression) [MCC-2, footnote p].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Observation standard; RT considered only in specific high-risk situations.\"}}]}, {\"pathway_id\": \"localized_locally_advanced_clinical_n0\", \"title\": \"Clinical N0 Disease: Locally Advanced MCC When Curative Surgery and RT Are Not Feasible\", \"branching_basis\": [\"Surgical candidacy\", \"Response to neoadjuvant immunotherapy\"], \"nodes\": [{\"criteria\": \"Clinical N0, locally advanced MCC, surgical candidate\", \"options\": [{\"type\": \"Systemic Therapy\", \"label\": \"Neoadjuvant Nivolumab\", \"preference\": \"Consider\", \"recommendat"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Clinical N0 Disease: Local MCC Only, Surgically Resectable",
+      "nodes": [
+        {
+          "id": "p1_n1",
+          "label": "Primary Excision",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n2",
+          "label": "Margin and Risk Assessment",
+          "type": "decision"
+        },
+        {
+          "id": "p1_n3",
+          "label": "Observation (Primary Site)",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n4",
+          "label": "Adjuvant RT to Primary Site",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n5",
+          "label": "Re-excision",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n6",
+          "label": "Decision: RT or Re-excision?",
+          "type": "decision"
+        },
+        {
+          "id": "p1_n7",
+          "label": "SLNB Result",
+          "type": "decision"
+        },
+        {
+          "id": "p1_n8",
+          "label": "Baseline Imaging",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n9",
+          "label": "Therapeutic Node Dissection",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n10",
+          "label": "Adjuvant RT to Nodal Basin",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n11",
+          "label": "Observation of Nodal Basin",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_n12",
+          "label": "Consider RT to Nodal Basin (High-Risk)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p1_n1",
+          "target": "p1_n2",
+          "label": "Post-excision pathology"
+        },
+        {
+          "source": "p1_n1",
+          "target": "p1_n7",
+          "label": "Post-excision SLNB result"
+        },
+        {
+          "source": "p1_n2",
+          "target": "p1_n3",
+          "label": "Clear margins, no adverse risk factors"
+        },
+        {
+          "source": "p1_n2",
+          "target": "p1_n4",
+          "label": "Clear margins, ≥1 adverse risk factors"
+        },
+        {
+          "source": "p1_n2",
+          "target": "p1_n6",
+          "label": "Microscopically positive margins"
+        },
+        {
+          "source": "p1_n2",
+          "target": "p1_n4",
+          "label": "Grossly positive margins"
+        },
+        {
+          "source": "p1_n6",
+          "target": "p1_n4",
+          "label": "RT feasible (preferred)"
+        },
+        {
+          "source": "p1_n6",
+          "target": "p1_n5",
+          "label": "RT not feasible"
+        },
+        {
+          "source": "p1_n7",
+          "target": "p1_n8",
+          "label": "Positive"
+        },
+        {
+          "source": "p1_n7",
+          "target": "p1_n11",
+          "label": "Negative (standard)"
+        },
+        {
+          "source": "p1_n7",
+          "target": "p1_n12",
+          "label": "Negative with high-risk features"
+        },
+        {
+          "source": "p1_n8",
+          "target": "p1_n9",
+          "label": "Option: TLND"
+        },
+        {
+          "source": "p1_n8",
+          "target": "p1_n10",
+          "label": "Option: RT to nodal basin"
+        }
+      ]
+    },
+    {
+      "title": "Clinical N0 Disease: Locally Advanced MCC When Curative Surgery and RT Are Not Feasible",
+      "nodes": [
+        {
+          "id": "p2_n1",
+          "label": "Surgical Candidacy",
+          "type": "decision"
+        },
+        {
+          "id": "p2_n2",
+          "label": "Neoadjuvant Nivolumab",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p2_n1",
+          "target": "p2_n2",
+          "label": "Surgical candidate"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "merkel",
+  "_chars_in": 5000
+}

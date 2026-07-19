@@ -1,0 +1,84 @@
+{
+  "sections": [
+    {
+      "heading": "Differentiated Thyroid Carcinomas (PTC, FTC, oncocytic)",
+      "content": "Differentiated thyroid carcinomas (PTC, FTC, oncocytic) are characterized by alterations in the RAS/RAF/MAPK signaling pathway. BRAF V600E is the most common driver mutation in PTC, occurring in about 45% of cases; it is associated with poorer prognosis when concurrent with TERT promoter mutations. RET/PTC rearrangements and RAS mutations are also frequent in PTC. Follicular and oncocytic carcinomas commonly harbor RAS mutations, PAX8/PPARγ rearrangements, and, in the case of oncocytic carcinoma, unique mitochondrial DNA variations and copy number alterations."
+    },
+    {
+      "heading": "NIFTP",
+      "content": "NIFTP, formerly a subtype of PTC, is characterized by RAS, PAX8/PPARγ, and/or BRAF mutations (excluding BRAF V600E) [Discussion, MS-5, MS-9, MS-10, MS-16, MS-53]."
+    },
+    {
+      "heading": "Medullary Thyroid Carcinoma",
+      "content": "Medullary thyroid carcinoma is driven by mutations in the RET proto-oncogene. Germline RET PVs cause hereditary forms (MEN2A, MEN2B, familial MTC). Somatic RET mutations (e.g., in codons 11, 13, 16) are found in at least 25% of sporadic MTC tumors and are associated with poorer prognosis [MEDU-1, MEDU-3, Discussion, MS-30, MS-31]."
+    },
+    {
+      "heading": "Anaplastic Thyroid Carcinoma",
+      "content": "Anaplastic thyroid carcinoma is characterized by loss of differentiation and multiple genetic alterations, including TP53 mutations, TERT promoter mutations, and, in a subset, BRAF V600E mutations (~20-40%). Approximately 50% of ATCs arise from or are coexistent with a differentiated thyroid carcinoma [ANAP-1, THYR-B 3/5, Discussion, MS-37, MS-51]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "TERT",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "RAS",
+        "type": "gene"
+      },
+      {
+        "id": "PAX8/PPARγ",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "RAS/RAF/MAPK",
+        "type": "pathway"
+      }
+    ],
+    "edges": [
+      {
+        "source": "BRAF",
+        "target": "RAS/RAF/MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "RAS",
+        "target": "RAS/RAF/MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "RET",
+        "target": "RAS/RAF/MAPK",
+        "type": "activates"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "RAS/RAF/MAPK",
+      "genes": [
+        "BRAF",
+        "RAS",
+        "RET"
+      ],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "thyroid",
+  "_chars_in": 1483
+}

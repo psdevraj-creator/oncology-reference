@@ -1,0 +1,497 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Biliary tract cancers harbor clinically relevant genomic alterations that differ by anatomic subsite. Tumor genomic profiling is recommended for patients with unresectable or metastatic BTCs. Key events include:"
+    },
+    {
+      "heading": "FGFR2 fusions",
+      "content": "- **FGFR2 gene fusions/rearrangements**: Found in approximately 9%–15% of intrahepatic CCAs and are rare in other subsites. These lead to constitutive activation of FGFR signaling, promoting cell proliferation and tumorigenesis. Targetable by pemigatinib, futibatinib, and erdafitinib [BIL-B 5 of 8, BIL-C 3 of 5, MS-29]."
+    },
+    {
+      "heading": "IDH1 mutations",
+      "content": "- **IDH1 mutations**: Occur in approximately 10%–20% of intrahepatic CCAs and are rare in other subsites. Mutations (most commonly at codon 132, R132X) lead to accumulation of the oncometabolite 2-hydroxyglutarate, impairing cellular differentiation. Targetable by ivosidenib [BIL-B 5 of 8, BIL-C 3 of 5, MS-29]."
+    },
+    {
+      "heading": "BRAF V600E",
+      "content": "- **BRAF V600E mutations**: Present in approximately 1%–5% of BTCs. This mutation results in constitutive activation of the MAPK signaling pathway. Targetable by dabrafenib/trametinib [BIL-B 4 of 8, BIL-C 3 of 5, MS-28]."
+    },
+    {
+      "heading": "NTRK fusions",
+      "content": "- **NTRK1/2/3 gene fusions**: Estimated to occur in <1% of BTCs. These fusions lead to expression of oncogenic TRK fusion proteins. Targetable by larotrectinib, entrectinib, and repotrectinib [BIL-B 4 of 8, BIL-C 3 of 5, MS-26]."
+    },
+    {
+      "heading": "MSI-H/dMMR",
+      "content": "- **MSI-H/dMMR**: Present in approximately 1%–3% of BTCs. Results from deficient DNA mismatch repair. Predicts response to immune checkpoint inhibitors like pembrolizumab [BIL-B 4 of 8, BIL-C 3 of 5, MS-26]."
+    },
+    {
+      "heading": "TMB-H",
+      "content": "- **TMB-H**: Found in <5% of advanced BTCs. Predicts response to immune checkpoint inhibitors [BIL-B 3 of 8, BIL-C 3 of 5, MS-27]."
+    },
+    {
+      "heading": "HER2 alterations",
+      "content": "- **HER2 (ERBB2) overexpression/amplification/activating mutations**: Present in approximately 5%–20% of CCAs and 15%–30% of gallbladder cancers. A member of the ErbB/EGFR family that activates downstream proliferative pathways. Targetable by trastuzumab deruxtecan, pertuzumab/trastuzumab, tucatinib/trastuzumab, and zanidatamab [BIL-B 6 of 8, BIL-C 3 of 5, MS-30]."
+    },
+    {
+      "heading": "NRG1 fusions",
+      "content": "- **NRG1 gene fusions**: Found in <1% of BTCs, more commonly in iCCA and eCCA. Targetable by zenocutuzumab-zbco [BIL-B 6 of 8, BIL-C 3 of 5]."
+    },
+    {
+      "heading": "KRAS G12C",
+      "content": "- **KRAS G12C mutation**: Reported in about 1% of BTCs. Targetable by adagrasib [BIL-B 6 of 8, BIL-C 3 of 5, MS-32]."
+    },
+    {
+      "heading": "RET fusions",
+      "content": "- **RET gene fusions**: Rare (<1%). Targetable by pralsetinib and selpercatinib [BIL-B 6 of 8, BIL-C 3 of 5, MS-32]."
+    },
+    {
+      "heading": "Inherited syndromes",
+      "content": "Additionally, up to 10%–15% of BTCs may be associated with inherited cancer predisposition syndromes. Germline alterations in high- to moderate-penetrance genes like BRCA1/2, MLH1, MSH2, PALB2, and ATM have been identified in roughly 9%–11% of cases [BIL-B 1 of 8, MS-25]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "FGFR2",
+        "type": "gene"
+      },
+      {
+        "id": "IDH1",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK3",
+        "type": "gene"
+      },
+      {
+        "id": "ERBB2",
+        "type": "gene"
+      },
+      {
+        "id": "NRG1",
+        "type": "gene"
+      },
+      {
+        "id": "KRAS",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA1",
+        "type": "gene"
+      },
+      {
+        "id": "BRCA2",
+        "type": "gene"
+      },
+      {
+        "id": "MLH1",
+        "type": "gene"
+      },
+      {
+        "id": "MSH2",
+        "type": "gene"
+      },
+      {
+        "id": "PALB2",
+        "type": "gene"
+      },
+      {
+        "id": "ATM",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "MAPK signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "DNA mismatch repair",
+        "type": "pathway"
+      },
+      {
+        "id": "ErbB/EGFR signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "TRK signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "RET signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "IDH1 oncometabolite pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "FGFR2 fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "IDH1 mutation",
+        "type": "targetable"
+      },
+      {
+        "id": "BRAF V600E",
+        "type": "targetable"
+      },
+      {
+        "id": "NTRK fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "MSI-H/dMMR",
+        "type": "targetable"
+      },
+      {
+        "id": "TMB-H",
+        "type": "targetable"
+      },
+      {
+        "id": "HER2 alteration",
+        "type": "targetable"
+      },
+      {
+        "id": "NRG1 fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "KRAS G12C",
+        "type": "targetable"
+      },
+      {
+        "id": "RET fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "pemigatinib",
+        "type": "drug"
+      },
+      {
+        "id": "futibatinib",
+        "type": "drug"
+      },
+      {
+        "id": "erdafitinib",
+        "type": "drug"
+      },
+      {
+        "id": "ivosidenib",
+        "type": "drug"
+      },
+      {
+        "id": "dabrafenib",
+        "type": "drug"
+      },
+      {
+        "id": "trametinib",
+        "type": "drug"
+      },
+      {
+        "id": "larotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "entrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "repotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "pembrolizumab",
+        "type": "drug"
+      },
+      {
+        "id": "trastuzumab deruxtecan",
+        "type": "drug"
+      },
+      {
+        "id": "pertuzumab",
+        "type": "drug"
+      },
+      {
+        "id": "trastuzumab",
+        "type": "drug"
+      },
+      {
+        "id": "tucatinib",
+        "type": "drug"
+      },
+      {
+        "id": "zanidatamab",
+        "type": "drug"
+      },
+      {
+        "id": "zenocutuzumab-zbco",
+        "type": "drug"
+      },
+      {
+        "id": "adagrasib",
+        "type": "drug"
+      },
+      {
+        "id": "pralsetinib",
+        "type": "drug"
+      },
+      {
+        "id": "selpercatinib",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "FGFR2 fusion",
+        "target": "FGFR signaling",
+        "type": "activates"
+      },
+      {
+        "source": "BRAF V600E",
+        "target": "MAPK signaling",
+        "type": "activates"
+      },
+      {
+        "source": "NTRK fusion",
+        "target": "TRK signaling",
+        "type": "activates"
+      },
+      {
+        "source": "HER2 alteration",
+        "target": "ErbB/EGFR signaling",
+        "type": "activates"
+      },
+      {
+        "source": "NRG1 fusion",
+        "target": "ErbB/EGFR signaling",
+        "type": "activates"
+      },
+      {
+        "source": "KRAS G12C",
+        "target": "MAPK signaling",
+        "type": "activates"
+      },
+      {
+        "source": "RET fusion",
+        "target": "RET signaling",
+        "type": "activates"
+      },
+      {
+        "source": "IDH1 mutation",
+        "target": "IDH1 oncometabolite pathway",
+        "type": "activates"
+      },
+      {
+        "source": "pemigatinib",
+        "target": "FGFR2 fusion",
+        "type": "targets"
+      },
+      {
+        "source": "futibatinib",
+        "target": "FGFR2 fusion",
+        "type": "targets"
+      },
+      {
+        "source": "erdafitinib",
+        "target": "FGFR2 fusion",
+        "type": "targets"
+      },
+      {
+        "source": "ivosidenib",
+        "target": "IDH1 mutation",
+        "type": "targets"
+      },
+      {
+        "source": "dabrafenib",
+        "target": "BRAF V600E",
+        "type": "targets"
+      },
+      {
+        "source": "trametinib",
+        "target": "BRAF V600E",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK fusion",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK fusion",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK fusion",
+        "type": "targets"
+      },
+      {
+        "source": "pembrolizumab",
+        "target": "MSI-H/dMMR",
+        "type": "targets"
+      },
+      {
+        "source": "trastuzumab deruxtecan",
+        "target": "HER2 alteration",
+        "type": "targets"
+      },
+      {
+        "source": "pertuzumab",
+        "target": "HER2 alteration",
+        "type": "targets"
+      },
+      {
+        "source": "trastuzumab",
+        "target": "HER2 alteration",
+        "type": "targets"
+      },
+      {
+        "source": "tucatinib",
+        "target": "HER2 alteration",
+        "type": "targets"
+      },
+      {
+        "source": "zanidatamab",
+        "target": "HER2 alteration",
+        "type": "targets"
+      },
+      {
+        "source": "zenocutuzumab-zbco",
+        "target": "NRG1 fusion",
+        "type": "targets"
+      },
+      {
+        "source": "adagrasib",
+        "target": "KRAS G12C",
+        "type": "targets"
+      },
+      {
+        "source": "pralsetinib",
+        "target": "RET fusion",
+        "type": "targets"
+      },
+      {
+        "source": "selpercatinib",
+        "target": "RET fusion",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "FGFR2 fusion",
+      "genes": [
+        "FGFR2"
+      ],
+      "drugs": "pemigatinib,futibatinib,erdafitinib",
+      "targetable": true
+    },
+    {
+      "pathway": "IDH1 mutation",
+      "genes": [
+        "IDH1"
+      ],
+      "drugs": "ivosidenib",
+      "targetable": true
+    },
+    {
+      "pathway": "BRAF V600E",
+      "genes": [
+        "BRAF"
+      ],
+      "drugs": "dabrafenib,trametinib",
+      "targetable": true
+    },
+    {
+      "pathway": "NTRK fusion",
+      "genes": [
+        "NTRK1",
+        "NTRK2",
+        "NTRK3"
+      ],
+      "drugs": "larotrectinib,entrectinib,repotrectinib",
+      "targetable": true
+    },
+    {
+      "pathway": "MSI-H/dMMR",
+      "genes": [],
+      "drugs": "pembrolizumab",
+      "targetable": true
+    },
+    {
+      "pathway": "TMB-H",
+      "genes": [],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "HER2 alteration",
+      "genes": [
+        "ERBB2"
+      ],
+      "drugs": "trastuzumab deruxtecan,pertuzumab,trastuzumab,tucatinib,zanidatamab",
+      "targetable": true
+    },
+    {
+      "pathway": "NRG1 fusion",
+      "genes": [
+        "NRG1"
+      ],
+      "drugs": "zenocutuzumab-zbco",
+      "targetable": true
+    },
+    {
+      "pathway": "KRAS G12C",
+      "genes": [
+        "KRAS"
+      ],
+      "drugs": "adagrasib",
+      "targetable": true
+    },
+    {
+      "pathway": "RET fusion",
+      "genes": [
+        "RET"
+      ],
+      "drugs": "pralsetinib,selpercatinib",
+      "targetable": true
+    },
+    {
+      "pathway": "Inherited cancer predisposition",
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "MLH1",
+        "MSH2",
+        "PALB2",
+        "ATM"
+      ],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "biliary",
+  "_chars_in": 2651
+}

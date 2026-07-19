@@ -1,0 +1,143 @@
+{
+  "sections": [
+    {
+      "heading": "OVERVIEW",
+      "content": "Bladder cancer is characterized by a high mutational burden, with The Cancer Genome Atlas ranking it as the third most mutated cancer. Genomic profiling of advanced urothelial carcinoma reveals that 93% of cases harbor at least one clinically relevant genetic alteration, with a mean of 2.6 per case. The most commonly mutated genes include CDKN2A (in 34% of tumors), FGFR3 (21%), PIK3CA (20%), and ERBB2 (17%). FGFR3 alterations, including sequence variants, copy number changes, and rearrangements (particularly gene fusions), are therapeutically targetable with erdafitinib. HER2 overexpression, detected by immunohistochemistry (IHC), is a biomarker for fam-trastuzumab deruxtecan-nxki. Microsatellite instability (MSI) and/or mismatch repair (MMR) deficiency are evaluated to identify patients who may benefit from immune checkpoint inhibitors. Programmed death-ligand 1 (PD-L1) expression is a predictive biomarker for certain immunotherapies. Other recurrent genomic alterations involve chromatin remodeling genes (e.g., KMT2D, ARID1A), DNA damage response genes (e.g., RB1, TP53), and telomere maintenance genes (e.g., TERT promoter mutations). These molecular alterations drive key oncogenic pathways, including the fibroblast growth factor receptor (FGFR) pathway, the PI3K/AKT/mTOR pathway, and the receptor tyrosine kinase/RAS pathway, offering opportunities for targeted therapies."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "CDKN2A",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR3",
+        "type": "gene"
+      },
+      {
+        "id": "PIK3CA",
+        "type": "gene"
+      },
+      {
+        "id": "ERBB2",
+        "type": "gene"
+      },
+      {
+        "id": "KMT2D",
+        "type": "gene"
+      },
+      {
+        "id": "ARID1A",
+        "type": "gene"
+      },
+      {
+        "id": "RB1",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "TERT",
+        "type": "gene"
+      },
+      {
+        "id": "PD-L1",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K/AKT/mTOR pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "receptor tyrosine kinase/RAS pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "erdafitinib",
+        "type": "drug"
+      },
+      {
+        "id": "fam-trastuzumab deruxtecan-nxki",
+        "type": "drug"
+      },
+      {
+        "id": "immune checkpoint inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "erdafitinib",
+        "target": "FGFR3",
+        "type": "targets"
+      },
+      {
+        "source": "fam-trastuzumab deruxtecan-nxki",
+        "target": "ERBB2",
+        "type": "targets"
+      },
+      {
+        "source": "immune checkpoint inhibitors",
+        "target": "PD-L1",
+        "type": "targets"
+      },
+      {
+        "source": "FGFR3",
+        "target": "FGFR pathway",
+        "type": "activates"
+      },
+      {
+        "source": "PIK3CA",
+        "target": "PI3K/AKT/mTOR pathway",
+        "type": "activates"
+      },
+      {
+        "source": "ERBB2",
+        "target": "receptor tyrosine kinase/RAS pathway",
+        "type": "activates"
+      },
+      {
+        "source": "FGFR3",
+        "target": "receptor tyrosine kinase/RAS pathway",
+        "type": "activates"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "FGFR pathway",
+      "genes": [
+        "FGFR3"
+      ],
+      "drugs": "erdafitinib",
+      "targetable": true
+    },
+    {
+      "pathway": "PI3K/AKT/mTOR pathway",
+      "genes": [
+        "PIK3CA"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "receptor tyrosine kinase/RAS pathway",
+      "genes": [
+        "ERBB2",
+        "FGFR3"
+      ],
+      "drugs": "fam-trastuzumab deruxtecan-nxki",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "bladder",
+  "_chars_in": 1394
+}

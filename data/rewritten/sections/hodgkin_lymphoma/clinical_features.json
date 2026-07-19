@@ -1,0 +1,93 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Hodgkin lymphoma is an uncommon malignancy of B-cell origin with two peaks of incidence: ages 15–30 years and adults aged ≥55 years [1]. The classic presentation involves painless lymphadenopathy, most commonly in the cervical, supraclavicular, or mediastinal regions. Patients may present with B symptoms including unexplained fevers >38°C, drenching night sweats, or weight loss >10% of body weight within 6 months of diagnosis. Associated symptoms include alcohol intolerance, pruritus, fatigue, and impaired performance status. CHL accounts for 95% of Hodgkin lymphoma in Western countries, while NLPHL accounts for approximately 5% [3]. CHL is characterized by Reed-Sternberg cells in an inflammatory background, whereas NLPHL is characterized by lymphocytic-histiocytic (LP or \"popcorn\") cells and lacks Reed-Sternberg cells [1,3]. The majority of patients with CHL present with early-stage disease, but a significant proportion present with advanced-stage disease involving lymph node regions on both sides of the diaphragm."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "B symptoms",
+      "detail": "Unexplained fevers >38°C, drenching night sweats, or weight loss >10% of body weight within 6 months prior to diagnosis",
+      "frequency": "Common in advanced-stage disease; presence defines B substage (stage IB, IIB, IIIB, IIIB)",
+      "alarm": true
+    },
+    {
+      "name": "Alcohol intolerance",
+      "detail": "Pain or discomfort at sites of lymphoma involvement triggered by alcohol consumption",
+      "frequency": "Less common but relatively specific to Hodgkin lymphoma",
+      "alarm": false
+    },
+    {
+      "name": "Pruritus",
+      "detail": "Generalized or localized pruritus that may be severe and debilitating",
+      "frequency": "Reported in a proportion of patients at diagnosis",
+      "alarm": false
+    },
+    {
+      "name": "Fatigue",
+      "detail": "Significant fatigue impacting performance status",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Night sweats",
+      "detail": "Drenching sweats that may require changing bedding, distinct from mild nocturnal perspiration",
+      "frequency": "Common B symptom; defines B substage",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss",
+      "detail": "Unexplained weight loss >10% of body weight within 6 months of diagnosis",
+      "frequency": "Common B symptom; defines B substage",
+      "alarm": true
+    },
+    {
+      "name": "Fever",
+      "detail": "Unexplained fever >38°C not attributable to infection",
+      "frequency": "Common B symptom; defines B substage",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained fevers >38°C, drenching night sweats, or weight loss >10% of body weight within 6 months prior to diagnosis"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Drenching sweats that may require changing bedding, distinct from mild nocturnal perspiration"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained weight loss >10% of body weight within 6 months of diagnosis"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained fever >38°C not attributable to infection"
+    }
+  ],
+  "chart": {
+    "labels": [
+      "B symptoms",
+      "Alcohol intolerance",
+      "Pruritus",
+      "Fatigue",
+      "Night sweats",
+      "Weight loss",
+      "Fever"
+    ],
+    "values": [
+      60,
+      30,
+      50,
+      70,
+      80,
+      80,
+      80
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "hodgkin_lymphoma",
+  "_chars_in": 4330
+}

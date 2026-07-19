@@ -1,0 +1,137 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Head and neck cancers encompass diverse subsites with distinct presentations. Oral cavity cancers (buccal mucosa, floor of mouth, oral tongue, alveolar ridge, retromolar trigone, hard palate) typically present as a non-healing ulcer or mass, with pain, dysphagia, or odynophagia [OR-1]. Oropharyngeal cancers (base of tongue, tonsil, soft palate, posterior pharyngeal wall) often present with a neck mass, especially in HPV-positive disease, along with sore throat, dysphagia, or otalgia [ORPH-1]. HPV-positive oropharyngeal cancer is increasing in incidence, especially in men, and patients tend to be younger with less tobacco exposure [Discussion MS-3]. HPV-negative oropharyngeal cancer is linked to tobacco and alcohol, presenting with larger primaries and worse prognosis. Laryngeal cancers: glottic tumors cause early hoarseness, while supraglottic tumors present with dysphagia, otalgia, or neck mass; subglottic tumors are rare and present with stridor or dyspnea [GLOT-1, SUPRA-1]. Hypopharyngeal cancers (pyriform sinus, postcricoid, posterior pharyngeal wall) often present late with dysphagia, odynophagia, referred otalgia, and neck mass; prognosis is poor [HYPO-1]. Nasopharyngeal carcinoma (NPC) is endemic in Southeast Asia and associated with EBV; classic presentation includes cervical lymphadenopathy, epistaxis, nasal obstruction, conductive hearing loss, and cranial neuropathies [NASO-1]. Sinonasal tumors (ethmoid and maxillary sinus) present with unilateral nasal obstruction, epistaxis, facial pain, or proptosis; histologies include squamous cell carcinoma, adenocarcinoma, esthesioneuroblastoma, and undifferentiated carcinoma [ETHM-1, MAXI-1]. Salivary gland tumors (parotid, submandibular, minor) typically present as a painless, slow-growing mass; malignancy is suspected with facial nerve palsy, rapid growth, or fixation [SALI-1]. Occult primary presents as a cervical lymph node metastasis without an identifiable primary after thorough workup [OCC-1]. Mucosal melanoma of the head and neck presents as a pigmented or non-pigmented lesion in the nasal cavity, sinuses, or oral cavity, often with epistaxis or mass [MM-1]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Neck mass",
+      "detail": "Painless or painful cervical lymphadenopathy, often firm or fixed, may be cystic in HPV-positive oropharyngeal cancer.",
+      "frequency": "Very common in oropharyngeal, hypopharyngeal, and nasopharyngeal cancers; may be first sign in occult primary.",
+      "alarm": true
+    },
+    {
+      "name": "Hoarseness",
+      "detail": "Change in voice quality lasting >3 weeks; common in glottic laryngeal cancer.",
+      "frequency": "Present in >90% of glottic cancers, often early stage.",
+      "alarm": true
+    },
+    {
+      "name": "Dysphagia/Odynophagia",
+      "detail": "Pain or difficulty swallowing, often with referred otalgia.",
+      "frequency": "Common in oropharyngeal, hypopharyngeal, and supraglottic laryngeal cancers.",
+      "alarm": true
+    },
+    {
+      "name": "Oral ulcer or mass",
+      "detail": "Non-healing ulcer, erythroplakia, or leukoplakia in the oral cavity.",
+      "frequency": "Common in oral cavity cancers.",
+      "alarm": true
+    },
+    {
+      "name": "Epistaxis and nasal obstruction",
+      "detail": "Unilateral epistaxis, nasal congestion, or discharge.",
+      "frequency": "Common in sinonasal and nasopharyngeal cancers.",
+      "alarm": true
+    },
+    {
+      "name": "Otalgia",
+      "detail": "Referred ear pain, often unilateral, without otoscopic findings.",
+      "frequency": "Common in oropharyngeal, hypopharyngeal, and laryngeal cancers.",
+      "alarm": true
+    },
+    {
+      "name": "Cranial neuropathy",
+      "detail": "Facial numbness, diplopia, or other cranial nerve deficits.",
+      "frequency": "More common in nasopharyngeal and sinonasal cancers due to skull base invasion.",
+      "alarm": true
+    },
+    {
+      "name": "Visible or palpable primary lesion",
+      "detail": "Ulcerated, exophytic, or infiltrative mass in oral cavity, oropharynx, or larynx on examination.",
+      "frequency": "Present in most oral cavity and laryngeal cancers; oropharyngeal tumors may be occult.",
+      "alarm": false
+    },
+    {
+      "name": "Cervical lymphadenopathy",
+      "detail": "Enlarged, firm, or matted lymph nodes in the neck; may be cystic in HPV-positive disease.",
+      "frequency": "Present in 30–60% of patients at diagnosis depending on subsite.",
+      "alarm": true
+    },
+    {
+      "name": "Vocal cord immobility",
+      "detail": "Impaired or fixed vocal cord on laryngoscopy, indicating paraglottic space invasion.",
+      "frequency": "Common in T3–T4 laryngeal cancers.",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Persistent neck mass >2 weeks requires urgent investigation, especially if >3 cm, fixed, or matted."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Persistent hoarseness >3 weeks warrants laryngeal examination."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Progressive dysphagia or odynophagia, especially with weight loss."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Lesion >2 weeks without healing, especially in high-risk patients (tobacco/alcohol)."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unilateral symptoms, especially with associated cranial neuropathy or proptosis."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Persistent unilateral otalgia, especially with dysphagia or neck mass."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Any cranial nerve deficit, particularly V1–V3 or VI, warrants urgent imaging."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Multiple, bilateral, or fixed nodes suggest advanced disease."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Indicates advanced laryngeal cancer."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Neck mass",
+      "Hoarseness",
+      "Dysphagia/Odynophagia",
+      "Oral ulcer or mass",
+      "Epistaxis and nasal obstruction",
+      "Otalgia",
+      "Cranial neuropathy",
+      "Visible or palpable primary lesion",
+      "Cervical lymphadenopathy",
+      "Vocal cord immobility"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "head_and_neck",
+  "_chars_in": 5000
+}

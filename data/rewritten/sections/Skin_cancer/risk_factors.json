@@ -1,0 +1,120 @@
+{
+  "sections": [
+    {
+      "heading": "Risk Factors",
+      "content": "[{\"factor\": \"Chronic Sun Exposure and Sunburns\", \"type\": \"Environmental\", \"detail\": \"The most recognized environmental carcinogen. Chronic sun exposure, total site-specific exposure, and number of site-specific sunburns are strongly correlated with development of SCC.\", \"strength\": \"Strong association\", \"citation\": \"[4,38-40]\"}, {\"factor\": \"Indoor Tanning\", \"type\": \"Environmental\", \"detail\": \"Any exposure to indoor tanning increases the risk of SCC by 67%.\", \"strength\": \"Strong association (meta-analysis)\", \"citation\": \"[36,37]\"}, {\"factor\": \"Light Skin Pigmentation\", \"type\": \"Host\", \"detail\": \"Individuals with light skin, hair, and eye color are at greatest risk for UV-induced SCC.\", \"strength\": \"Strong association\", \"citation\": \"[32,33]\"}, {\"factor\": \"Actinic Keratoses (AKs) and Bowen's Disease\", \"type\": \"Precursor Lesions\", \"detail\": \"AKs and Bowen's disease (SCC in situ), if left untreated, can progress to invasive SCC.\", \"strength\": \"Strong association\", \"citation\": \"[41,42]\"}, {\"factor\": \"Organ Transplantation and Immunosuppression\", \"type\": \"Host/iatrogenic\", \"detail\": \"Immunosuppression (e.g., organ transplantation, lymphoma, CLL, drug-induced, HIV) is a major risk factor. Transplant recipients have a 5-fold to 113-fold increased incidence of SCC compared to the general population.\", \"strength\": \"Very strong association\", \"citation\": \"[19,20,43-48]\"}, {\"factor\": \"Scars and Chronic Wounds (Marjolin's Ulcer)\", \"type\": \"Host\", \"detail\": \"SCC can develop in scars from burns, chronic ulcers, or other injuries, known as Marjolin's ulcer. These lesions tend to be difficult to treat and have higher risk of recurrence.\", \"strength\": \"Strong association\", \"citation\": \"[49,50]\"}, {\"factor\": \"Genetic Syndromes\", \"type\": \"Hereditary\", \"detail\": \"Rare genetic syndromes greatly predispose individuals to SCC, including xeroderma pigmentosum (XP), recessive dystrophic epidermolysis bullosa (RDEB), and albinism.\", \"strength\": \"Very strong association\", \"citation\": \"[21,22,51,52]\"}, {\"factor\": \"Prior Radiation Therapy\", \"type\": \"Environmental/Iatrogenic\", \"detail\": \"SCC arising in areas previously irradiated for unrelated conditions is a risk factor for recurrence or metastasis.\", \"strength\": \"Strong association\", \"citation\": \"[53,54]\"}, {\"factor\": \"Chronic Inflammation\", \"type\": \"Host\", \"detail\": \"SCC arising from sites of chronic scarring or inflammation has increased rates of metastasis.\", \"strength\": \"Strong association\", \"citation\": \"[4,9,55]\"}, {\"factor\": \"Male Sex\", \"type\": \"Host\", \"detail\": \"While not explicitly quantified in this guideline, SCC incidence is generally higher in males, likely due to greater cumulative sun exposure.\", \"strength\": \"Moderate association\", \"citation\": \"[56]\"}, {\"factor\": \"Increasing Age\", \"type\": \"Host\", \"detail\": \"Incidence increases with age, reflecting cumulative UV exposure.\", \"strength\": \"Strong association\", \"citation\": \"[4,30]\"}]"
+    }
+  ],
+  "waterfall": {
+    "labels": [
+      "Organ Transplantation and Immunosuppression",
+      "Genetic Syndromes",
+      "Chronic Sun Exposure and Sunburns",
+      "Indoor Tanning",
+      "Light Skin Pigmentation",
+      "Actinic Keratoses (AKs) and Bowen's Disease",
+      "Scars and Chronic Wounds (Marjolin's Ulcer)",
+      "Prior Radiation Therapy",
+      "Chronic Inflammation",
+      "Increasing Age",
+      "Male Sex"
+    ],
+    "values": [
+      45,
+      45,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      15
+    ],
+    "types": [
+      "Host/iatrogenic",
+      "Hereditary",
+      "Environmental",
+      "Environmental",
+      "Host",
+      "Precursor Lesions",
+      "Host",
+      "Environmental/Iatrogenic",
+      "Host",
+      "Host",
+      "Host"
+    ]
+  },
+  "cards": [
+    {
+      "factor": "Chronic Sun Exposure and Sunburns",
+      "type": "Environmental",
+      "strength": "High",
+      "detail": "The most recognized environmental carcinogen. Chronic sun exposure, total site-specific exposure, and number of site-specific sunburns are strongly correlated with development of SCC."
+    },
+    {
+      "factor": "Indoor Tanning",
+      "type": "Environmental",
+      "strength": "High",
+      "detail": "Any exposure to indoor tanning increases the risk of SCC by 67%."
+    },
+    {
+      "factor": "Light Skin Pigmentation",
+      "type": "Host",
+      "strength": "High",
+      "detail": "Individuals with light skin, hair, and eye color are at greatest risk for UV-induced SCC."
+    },
+    {
+      "factor": "Actinic Keratoses (AKs) and Bowen's Disease",
+      "type": "Precursor Lesions",
+      "strength": "High",
+      "detail": "AKs and Bowen's disease (SCC in situ), if left untreated, can progress to invasive SCC."
+    },
+    {
+      "factor": "Organ Transplantation and Immunosuppression",
+      "type": "Host/iatrogenic",
+      "strength": "Very High",
+      "detail": "Immunosuppression (e.g., organ transplantation, lymphoma, CLL, drug-induced, HIV) is a major risk factor. Transplant recipients have a 5-fold to 113-fold increased incidence of SCC compared to the general population."
+    },
+    {
+      "factor": "Scars and Chronic Wounds (Marjolin's Ulcer)",
+      "type": "Host",
+      "strength": "High",
+      "detail": "SCC can develop in scars from burns, chronic ulcers, or other injuries, known as Marjolin's ulcer. These lesions tend to be difficult to treat and have higher risk of recurrence."
+    },
+    {
+      "factor": "Genetic Syndromes",
+      "type": "Hereditary",
+      "strength": "Very High",
+      "detail": "Rare genetic syndromes greatly predispose individuals to SCC, including xeroderma pigmentosum (XP), recessive dystrophic epidermolysis bullosa (RDEB), and albinism."
+    },
+    {
+      "factor": "Prior Radiation Therapy",
+      "type": "Environmental/Iatrogenic",
+      "strength": "High",
+      "detail": "SCC arising in areas previously irradiated for unrelated conditions is a risk factor for recurrence or metastasis."
+    },
+    {
+      "factor": "Chronic Inflammation",
+      "type": "Host",
+      "strength": "High",
+      "detail": "SCC arising from sites of chronic scarring or inflammation has increased rates of metastasis."
+    },
+    {
+      "factor": "Male Sex",
+      "type": "Host",
+      "strength": "Moderate",
+      "detail": "While not explicitly quantified in this guideline, SCC incidence is generally higher in males, likely due to greater cumulative sun exposure."
+    },
+    {
+      "factor": "Increasing Age",
+      "type": "Host",
+      "strength": "High",
+      "detail": "Incidence increases with age, reflecting cumulative UV exposure."
+    }
+  ],
+  "_section": "risk_factors",
+  "_site_id": "Skin_cancer",
+  "_chars_in": 2914
+}

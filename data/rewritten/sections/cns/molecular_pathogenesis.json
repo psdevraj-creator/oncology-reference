@@ -1,0 +1,326 @@
+{
+  "sections": [
+    {
+      "heading": "IDH1_and_IDH2_mutation",
+      "content": "IDH1 and IDH2 are metabolic enzymes. Specific mutations (most commonly IDH1 R132H) lead to aberrant production of D-2-hydroxyglutarate (2-HG), an oncometabolite that causes epigenetic modifications [9]. IDH1 R132H is reliably screened by mutation-specific IHC; if negative, sequencing of IDH1 and IDH2 is recommended to detect less common mutations [BRAIN-E 2 of 10]. IDH mutations define WHO grade 2 and 3 astrocytomas and oligodendrogliomas, and grade 4 IDH-mutant astrocytomas. Their presence distinguishes lower-grade gliomas from glioblastomas (IDH wild-type) [12,18]. Prior to age 55, sequencing is required if R132H immunostain is negative or if glioma is grade 2 or 3 histologically."
+    },
+    {
+      "heading": "1p19q_codeletion",
+      "content": "Represents unbalanced chromosome translocation t(1;19)(q10;p10) leading to whole-arm deletion of 1p and 19q [22]. Strongly associated with oligodendroglial histology [23]. Detectable by array-based genomic copy number testing (preferable) or FISH. IDH-mutant gliomas without loss of ATRX should be strongly considered for 1p/19q testing even if not clearly oligodendroglial by histology. IDH wild-type gliomas do not contain true whole-arm 1p/19q codeletion, so testing is unnecessary in definitely IDH wild-type tumors [24]. Confers favorable prognosis and predicts response to alkylating chemotherapy [26,27]."
+    },
+    {
+      "heading": "TERT_promoter_mutation",
+      "content": "TERT encodes telomerase, responsible for maintaining telomere length. Mutations in the noncoding promoter region cause increased TERT protein expression [41]. Nearly always present in 1p/19q codeleted oligodendrogliomas and found in most glioblastomas [28,29]. Absence of TERT promoter mutation coupled with IDH mutation strongly suggests astrocytoma. In IDH-mutant, 1p/19q codeleted oligodendrogliomas, absence of TERT promoter mutation is associated with worse OS (HR, 2.72; 95% CI, 1.05–7.04; P = .04) [49]."
+    },
+    {
+      "heading": "ATRX_mutation",
+      "content": "Encodes a chromatin regulator protein; loss-of-function mutations enable alternative lengthening of telomeres [37]. Strongly associated with IDH mutations and nearly always mutually exclusive with 1p/19q codeletion [38,39]. ATRX deficiency coupled with IDH1/2 mutation and TP53 mutation is typical of astrocytoma. Detection by IHC for loss of wild-type expression and/or sequencing [38]."
+    },
+    {
+      "heading": "MGMT_promoter_methylation",
+      "content": "MGMT encodes a DNA repair enzyme that reverses alkylation damage, causing tumor resistance to temozolomide and nitrosourea-based therapy. Methylation of the MGMT promoter silences MGMT expression, making tumors more sensitive to alkylating agents [28]. MGMT promoter methylation is strongly associated with IDH1/2 mutations and genome-wide epigenetic changes [4]. Confers a survival advantage in glioblastoma and is used for risk stratification in clinical trials [33]. Particularly useful in treatment decisions for older adult patients with high-grade gliomas [34,35]. Tested by methylation-specific PCR (most validated), pyrosequencing [72,73]."
+    },
+    {
+      "heading": "EGFR_amplification",
+      "content": "Found in a subset of glioblastomas. Combined with gain of chromosome 7, loss of chromosome 10, and/or TERT promoter mutation, can define glioblastoma diagnosis even without histologic grade 4 features [22,24]."
+    },
+    {
+      "heading": "H3_3A_mutation",
+      "content": "H3K27M mutation (lysine-to-methionine substitution in H3-3A gene) inhibits trimethylation of H3.3 histone [34,35]. Most common histone mutation in brain tumors. Diffuse midline gliomas should be screened for this mutation. H3K27M gliomas typically do not have MGMT promoter methylation and have poor prognosis. G34V/R mutation occurs in cerebral hemisphere gliomas in children and younger adults, IDH wild-type but ATRX and TP53 mutant [6]. When diagnosis of DMG H3 K27-altered is considered, CSF-tDNA testing should be considered [BRAIN-E 4 of 10]."
+    },
+    {
+      "heading": "BRAF_mutation_and_fusion",
+      "content": "Activating BRAF V600E mutation found in 60%–80% of PXAs, 30% of DNETs, 20% of gangliogliomas, 5% of PAs, and <5% of glioblastomas [57-62]. BRAF fusions (KIAA1549-BRAF) are typical of pilocytic astrocytomas, especially posterior fossa [57-59]. BRAF V600E tumors may respond to BRAF inhibitors [54,60,61]. Tumors with BRAF fusions tend to be indolent with occasional recurrence but rarely progress to lethality [59,60]."
+    },
+    {
+      "heading": "CDKN2A_B_deletion",
+      "content": "Homozygous deletion of CDKN2A/B on 9p21 is now considered evidence of grade 4 status in IDH-mutant astrocytomas even without necrosis or microvascular proliferation [6,23,30-33]. Strong adverse prognostic factor in diffuse malignant IDH-mutant gliomas [30]."
+    },
+    {
+      "heading": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+      "content": "Approximately 2% of glioblastomas have tumors that are hypermutated and DNA replication repair deficient. These tumors often have giant cell variant features or are classified as 'diffuse pediatric-type high-grade glioma, RTK1 subtype, subclass A' by DNA methylation array. Detected by TMB-H with biallelic inactivation of canonical mismatch repair genes (MSH2, MSH6, MLH1, or PMS2). May be sporadic or ass"
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "IDH1",
+        "type": "gene"
+      },
+      {
+        "id": "IDH2",
+        "type": "gene"
+      },
+      {
+        "id": "TERT",
+        "type": "gene"
+      },
+      {
+        "id": "ATRX",
+        "type": "gene"
+      },
+      {
+        "id": "MGMT",
+        "type": "gene"
+      },
+      {
+        "id": "EGFR",
+        "type": "gene"
+      },
+      {
+        "id": "H3-3A",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene",
+        "targetable": true
+      },
+      {
+        "id": "CDKN2A",
+        "type": "gene"
+      },
+      {
+        "id": "CDKN2B",
+        "type": "gene"
+      },
+      {
+        "id": "MSH2",
+        "type": "gene"
+      },
+      {
+        "id": "MSH6",
+        "type": "gene"
+      },
+      {
+        "id": "MLH1",
+        "type": "gene"
+      },
+      {
+        "id": "PMS2",
+        "type": "gene"
+      },
+      {
+        "id": "temozolomide",
+        "type": "drug"
+      },
+      {
+        "id": "nitrosourea",
+        "type": "drug"
+      },
+      {
+        "id": "BRAF_inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "alkylating_chemotherapy",
+        "type": "drug"
+      },
+      {
+        "id": "IDH1_and_IDH2_mutation",
+        "type": "pathway"
+      },
+      {
+        "id": "1p19q_codeletion",
+        "type": "pathway"
+      },
+      {
+        "id": "TERT_promoter_mutation",
+        "type": "pathway"
+      },
+      {
+        "id": "ATRX_mutation",
+        "type": "pathway"
+      },
+      {
+        "id": "MGMT_promoter_methylation",
+        "type": "pathway"
+      },
+      {
+        "id": "EGFR_amplification",
+        "type": "pathway"
+      },
+      {
+        "id": "H3_3A_mutation",
+        "type": "pathway"
+      },
+      {
+        "id": "BRAF_mutation_and_fusion",
+        "type": "pathway"
+      },
+      {
+        "id": "CDKN2A_B_deletion",
+        "type": "pathway"
+      },
+      {
+        "id": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+        "type": "pathway"
+      }
+    ],
+    "edges": [
+      {
+        "source": "IDH1_and_IDH2_mutation",
+        "target": "IDH1",
+        "type": "activates"
+      },
+      {
+        "source": "IDH1_and_IDH2_mutation",
+        "target": "IDH2",
+        "type": "activates"
+      },
+      {
+        "source": "TERT_promoter_mutation",
+        "target": "TERT",
+        "type": "activates"
+      },
+      {
+        "source": "ATRX_mutation",
+        "target": "ATRX",
+        "type": "inhibits"
+      },
+      {
+        "source": "MGMT_promoter_methylation",
+        "target": "MGMT",
+        "type": "inhibits"
+      },
+      {
+        "source": "EGFR_amplification",
+        "target": "EGFR",
+        "type": "activates"
+      },
+      {
+        "source": "H3_3A_mutation",
+        "target": "H3-3A",
+        "type": "inhibits"
+      },
+      {
+        "source": "BRAF_mutation_and_fusion",
+        "target": "BRAF",
+        "type": "activates"
+      },
+      {
+        "source": "CDKN2A_B_deletion",
+        "target": "CDKN2A",
+        "type": "inhibits"
+      },
+      {
+        "source": "CDKN2A_B_deletion",
+        "target": "CDKN2B",
+        "type": "inhibits"
+      },
+      {
+        "source": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+        "target": "MSH2",
+        "type": "inhibits"
+      },
+      {
+        "source": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+        "target": "MSH6",
+        "type": "inhibits"
+      },
+      {
+        "source": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+        "target": "MLH1",
+        "type": "inhibits"
+      },
+      {
+        "source": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+        "target": "PMS2",
+        "type": "inhibits"
+      },
+      {
+        "source": "BRAF_inhibitor",
+        "target": "BRAF",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "IDH1_and_IDH2_mutation",
+      "genes": [
+        "IDH1",
+        "IDH2"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "1p19q_codeletion",
+      "genes": [],
+      "drugs": "alkylating_chemotherapy",
+      "targetable": false
+    },
+    {
+      "pathway": "TERT_promoter_mutation",
+      "genes": [
+        "TERT"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "ATRX_mutation",
+      "genes": [
+        "ATRX"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "MGMT_promoter_methylation",
+      "genes": [
+        "MGMT"
+      ],
+      "drugs": "temozolomide, nitrosourea",
+      "targetable": false
+    },
+    {
+      "pathway": "EGFR_amplification",
+      "genes": [
+        "EGFR"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "H3_3A_mutation",
+      "genes": [
+        "H3-3A"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "BRAF_mutation_and_fusion",
+      "genes": [
+        "BRAF"
+      ],
+      "drugs": "BRAF_inhibitor",
+      "targetable": true
+    },
+    {
+      "pathway": "CDKN2A_B_deletion",
+      "genes": [
+        "CDKN2A",
+        "CDKN2B"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "glioblastoma_IDH_wildtype_replication_repair_deficiency",
+      "genes": [
+        "MSH2",
+        "MSH6",
+        "MLH1",
+        "PMS2"
+      ],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "cns",
+  "_chars_in": 5000
+}

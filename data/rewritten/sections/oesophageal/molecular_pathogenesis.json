@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "heading": "Esophageal Carcinogenesis Overview",
+      "content": "Esophageal carcinogenesis involves a multistep accumulation of genetic and epigenetic alterations."
+    },
+    {
+      "heading": "Adenocarcinoma Progression",
+      "content": "For adenocarcinoma, the sequence typically progresses from normal squamous epithelium to intestinal metaplasia (Barrett's esophagus), low-grade dysplasia, high-grade dysplasia, and invasive cancer. Key molecular events include overexpression of growth factors/receptors (e.g., HER2/ERBB2 amplification, EGFR overexpression), loss of tumor suppressors (e.g., TP53 mutations, CDKN2A loss), and alterations in DNA damage response pathways. Chromosomal abnormalities include gains of chromosomes 8q, 20q, and losses of 4q and 18q. Specific oncogenic drivers include: HER2 (ERBB2) amplification (15-30% of adenocarcinomas), which activates the PI3K-AKT and RAS-MAPK pathways; recurrent mutations in TP53 (>80% of cases), CDKN2A, ARID1A, and SMAD4."
+    },
+    {
+      "heading": "Squamous Cell Carcinoma",
+      "content": "For squamous cell carcinoma, tobacco carcinogens (e.g., nitrosamines) cause direct DNA damage, leading to TP53 mutations (often atypical, causing a G:C to T:A transversion), amplification of CCND1 (cyclin D1) on 11q13, and loss of CDKN2A."
+    },
+    {
+      "heading": "MSI-H/dMMR",
+      "content": "Tumors with MSI-H/dMMR have defects in DNA mismatch repair genes (e.g., MLH1, MSH2, MSH6, PMS2), resulting in a high mutational burden and sensitivity to immune checkpoint inhibitors."
+    },
+    {
+      "heading": "PD-L1 and Immune Evasion",
+      "content": "PD-L1 overexpression is an immune evasion mechanism, where tumor cells express PD-L1 to inhibit T-cell activity via PD-1."
+    },
+    {
+      "heading": "Rare Actionable Alterations",
+      "content": "NTRK, RET gene fusions, and BRAF V600E mutations are rare but actionable alterations in both histologic subtypes [10, 147, 148, 150, 162-164, 403-406, 431]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "HER2",
+        "type": "gene"
+      },
+      {
+        "id": "EGFR",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "CDKN2A",
+        "type": "gene"
+      },
+      {
+        "id": "ARID1A",
+        "type": "gene"
+      },
+      {
+        "id": "SMAD4",
+        "type": "gene"
+      },
+      {
+        "id": "CCND1",
+        "type": "gene"
+      },
+      {
+        "id": "MLH1",
+        "type": "gene"
+      },
+      {
+        "id": "MSH2",
+        "type": "gene"
+      },
+      {
+        "id": "MSH6",
+        "type": "gene"
+      },
+      {
+        "id": "PMS2",
+        "type": "gene"
+      },
+      {
+        "id": "PD-L1",
+        "type": "gene"
+      },
+      {
+        "id": "PD-1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "PI3K-AKT",
+        "type": "pathway"
+      },
+      {
+        "id": "RAS-MAPK",
+        "type": "pathway"
+      },
+      {
+        "id": "DNA mismatch repair",
+        "type": "pathway"
+      },
+      {
+        "id": "Immune checkpoint",
+        "type": "pathway"
+      },
+      {
+        "id": "HER2 amplification",
+        "type": "targetable"
+      },
+      {
+        "id": "MSI-H/dMMR",
+        "type": "targetable"
+      },
+      {
+        "id": "NTRK fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "RET fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "BRAF V600E",
+        "type": "targetable"
+      },
+      {
+        "id": "immune checkpoint inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "HER2 amplification",
+        "target": "PI3K-AKT",
+        "type": "activates"
+      },
+      {
+        "source": "HER2 amplification",
+        "target": "RAS-MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "MLH1",
+        "target": "MSI-H/dMMR",
+        "type": "inhibits"
+      },
+      {
+        "source": "MSH2",
+        "target": "MSI-H/dMMR",
+        "type": "inhibits"
+      },
+      {
+        "source": "MSH6",
+        "target": "MSI-H/dMMR",
+        "type": "inhibits"
+      },
+      {
+        "source": "PMS2",
+        "target": "MSI-H/dMMR",
+        "type": "inhibits"
+      },
+      {
+        "source": "PD-L1",
+        "target": "PD-1",
+        "type": "inhibits"
+      },
+      {
+        "source": "immune checkpoint inhibitors",
+        "target": "PD-1",
+        "type": "targets"
+      },
+      {
+        "source": "immune checkpoint inhibitors",
+        "target": "PD-L1",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "PI3K-AKT",
+      "genes": [
+        "HER2"
+      ],
+      "drugs": "",
+      "targetable": true
+    },
+    {
+      "pathway": "RAS-MAPK",
+      "genes": [
+        "HER2"
+      ],
+      "drugs": "",
+      "targetable": true
+    },
+    {
+      "pathway": "DNA mismatch repair",
+      "genes": [
+        "MLH1",
+        "MSH2",
+        "MSH6",
+        "PMS2"
+      ],
+      "drugs": "immune checkpoint inhibitors",
+      "targetable": true
+    },
+    {
+      "pathway": "Immune checkpoint",
+      "genes": [
+        "PD-L1",
+        "PD-1"
+      ],
+      "drugs": "immune checkpoint inhibitors",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "oesophageal",
+  "_chars_in": 1543
+}

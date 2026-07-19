@@ -1,0 +1,84 @@
+{
+  "sections": [
+    {
+      "heading": "Risk Factors",
+      "content": "Cigarette Smoking: Cigarette smoking is firmly linked to an increased risk of pancreatic cancer. The risk is proportional to the number of cigarettes smoked per day and duration of smoking. Approximately 20-25% of pancreatic cancers are attributable to smoking. Cessation of smoking reduces the risk over time.\n\nObesity and Physical Inactivity: Elevated body mass index (BMI) is associated with an increased risk, with a dose-response relationship. Higher BMI during early adulthood is linked to increased pancreatic cancer mortality. Low levels of physical activity also confer an increased risk.\n\nDiabetes Mellitus: New-onset diabetes (within 3 years of pancreatic cancer diagnosis) may be a paraneoplastic syndrome caused by the cancer. Long-standing diabetes (≥5 years) is a risk factor, though the association weakens with longer duration, possibly due to treatment effects. Prediabetes (impaired fasting glucose) is also associated with increased risk.\n\nChronic Pancreatitis: Chronic pancreatitis is a well-established risk factor, with a 7.2-fold increased risk. The risk is highest in the first 2 years after diagnosis but remains elevated for up to 10 years.\n\nHereditary Genetic Syndromes: Germline mutations in several genes confer increased risk, including BRCA1, BRCA2, PALB2, CDKN2A, MLH1, MSH2, MSH6, PMS2, STK11, ATM, and TP53. The lifetime risk for carriers of BRCA2 mutations is approximately 3-5%, and for Lynch syndrome genes it is around 3-4%.\n\nFamily History: A first-degree relative with pancreatic cancer increases the risk. The risk is further elevated with multiple affected relatives or early age of onset.\n\nHeavy Alcohol Consumption: Heavy alcohol use (≥3 drinks per day) is associated with an increased risk, possibly mediated through pancreatitis.\n\nPeriodontal Disease: Periodontal disease is associated with an increased risk, even after adjusting for other risk factors such as smoking and BMI.\n\nOccupational Exposures: Exposure to certain chemicals and heavy metals, including beta-naphthylamine, benzidine, pesticides, asbestos, benzene, and chlorinated hydrocarbons, is associated with increased risk.\n\nLow Vitamin D Levels: Some studies suggest an association between low plasma 25-hydroxyvitamin D levels and increased risk, but results are contradictory."
+    }
+  ],
+  "waterfall": {
+    "labels": [
+      "Cigarette Smoking"
+    ],
+    "values": [
+      22
+    ],
+    "types": [
+      "Environmental/Lifestyle"
+    ]
+  },
+  "cards": [
+    {
+      "factor": "Cigarette Smoking",
+      "type": "Environmental/Lifestyle",
+      "strength": "Strong association. Relative risk (RR) approximately 1.5-2.0 for current smokers compared to never-smokers (Bosetti et al., Ann Oncol 2012).",
+      "detail": "Cigarette smoking is firmly linked to an increased risk of pancreatic cancer. The risk is proportional to the number of cigarettes smoked per day and duration of smoking. Approximately 20-25% of pancreatic cancers are attributable to smoking. Cessation of smoking reduces the risk over time."
+    },
+    {
+      "factor": "Obesity and Physical Inactivity",
+      "type": "Lifestyle/Metabolic",
+      "strength": "Meta-analysis shows a RR of 1.19 (95% CI 1.10-1.29) for overweight individuals (BMI 25-29.9) and 1.51 (95% CI 1.31-1.74) for obese individuals (BMI ≥30) compared to normal weight. Physical activity: RR 0.93 (95% CI 0.88-0.98) for high vs. low activity (Behrens et al., Eur J Epidemiol 2015).",
+      "detail": "Elevated body mass index (BMI) is associated with an increased risk, with a dose-response relationship. Higher BMI during early adulthood is linked to increased pancreatic cancer mortality. Low levels of physical activity also confer an increased risk."
+    },
+    {
+      "factor": "Diabetes Mellitus",
+      "type": "Metabolic",
+      "strength": "Meta-analysis of 44 studies shows that the strength of association decreases with duration of diabetes. Patients with pancreatic cancer and diabetes have worse overall survival (14.4 vs. 21.7 months, P<0.001).",
+      "detail": "New-onset diabetes (within 3 years of pancreatic cancer diagnosis) may be a paraneoplastic syndrome caused by the cancer. Long-standing diabetes (≥5 years) is a risk factor, though the association weakens with longer duration, possibly due to treatment effects. Prediabetes (impaired fasting glucose) is also associated with increased risk."
+    },
+    {
+      "factor": "Chronic Pancreatitis",
+      "type": "Inflammatory",
+      "strength": "Strong association. Odds ratio (OR) 7.2 (95% CI 2.3-22.8) in a pooled analysis (Bracci et al., Cancer Causes Control 2009).",
+      "detail": "Chronic pancreatitis is a well-established risk factor, with a 7.2-fold increased risk. The risk is highest in the first 2 years after diagnosis but remains elevated for up to 10 years."
+    },
+    {
+      "factor": "Hereditary Genetic Syndromes",
+      "type": "Genetic",
+      "strength": "Strong genetic predisposition. Genetic counseling and testing are recommended for all patients with pancreatic cancer.",
+      "detail": "Germline mutations in several genes confer increased risk, including BRCA1, BRCA2, PALB2, CDKN2A, MLH1, MSH2, MSH6, PMS2, STK11, ATM, and TP53. The lifetime risk for carriers of BRCA2 mutations is approximately 3-5%, and for Lynch syndrome genes it is around 3-4%."
+    },
+    {
+      "factor": "Family History",
+      "type": "Genetic",
+      "strength": "OR 2.0-3.0 for one first-degree relative; higher with more affected relatives.",
+      "detail": "A first-degree relative with pancreatic cancer increases the risk. The risk is further elevated with multiple affected relatives or early age of onset."
+    },
+    {
+      "factor": "Heavy Alcohol Consumption",
+      "type": "Lifestyle",
+      "strength": "Moderate association. RR 1.22 (95% CI 1.13-1.32) for high consumption (Bagnardi et al., Br J Cancer 2015).",
+      "detail": "Heavy alcohol use (≥3 drinks per day) is associated with an increased risk, possibly mediated through pancreatitis."
+    },
+    {
+      "factor": "Periodontal Disease",
+      "type": "Infectious/Inflammatory",
+      "strength": "Meta-analysis shows a summary RR of 1.64 (95% CI 1.23-2.18) for periodontal disease (Maisonneuve et al., Ann Oncol 2017).",
+      "detail": "Periodontal disease is associated with an increased risk, even after adjusting for other risk factors such as smoking and BMI."
+    },
+    {
+      "factor": "Occupational Exposures",
+      "type": "Environmental",
+      "strength": "Moderate association based on occupational studies.",
+      "detail": "Exposure to certain chemicals and heavy metals, including beta-naphthylamine, benzidine, pesticides, asbestos, benzene, and chlorinated hydrocarbons, is associated with increased risk."
+    },
+    {
+      "factor": "Low Vitamin D Levels",
+      "type": "Nutritional",
+      "strength": "Inconsistent evidence. Pooled analysis of case-control studies shows a positive association (OR 1.13 per 10 ng/mL increase; 95% CI 1.07-1.19) (Waterhouse et al., Ann Oncol 2015).",
+      "detail": "Some studies suggest an association between low plasma 25-hydroxyvitamin D levels and increased risk, but results are contradictory."
+    }
+  ],
+  "_section": "risk_factors",
+  "_site_id": "pancreatic",
+  "_chars_in": 4382
+}

@@ -1,0 +1,149 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"invasive_stage_i\", \"title\": \"Invasive Vaginal Cancer Stage I – Primary Treatment\", \"branching_basis\": [\"FIGO stage\", \"tumor size (≤2 cm vs >2 cm)\", \"tumor thickness (≤5 mm vs >5 mm)\", \"residual thickness after EBRT at time of brachytherapy\", \"surgical resectability\", \"patient fitness for chemoradiation\"], \"nodes\": [{\"criteria\": \"Stage I, favorable cases: small lesions <2 cm and limited thickness (≤5 mm)\", \"options\": [{\"type\": \"radiation\", \"label\": \"Intracavitary brachytherapy alone\", \"preference\": \"preferred (for select favorable cases)\", \"recommendation\": \"Category 2A. Intracavitary brachytherapy alone is appropriate for very-early-stage vaginal cancers (<5 mm) not requiring EBRT. LDR data suggest improved outcomes with doses of approximately 60–70 Gy EQD2 to the vaginal surface. HDR data are more varied, with total doses in the range of 50–60 Gy EQD2. Common regimens include 5 Gy x 8 fractions or 8 Gy x 5 fractions to the vaginal surface, with treatments delivered twice per week.\", \"linked_regimen_ids\": []}, {\"type\": \"radiation\", \"label\": \"EBRT + intracavitary brachytherapy ± concurrent platinum-containing chemotherapy\", \"preference\": \"recommended\", \"recommendation\": \"Category 2A. For lesions >2 cm confined to the vagina. Interstitial brachytherapy if >0.5 cm residual thickness at brachytherapy. Concurrent platinum-containing chemotherapy utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant).\", \"linked_regimen_ids\": [\"cisplatin_concurrent_rt\", \"carboplatin_concurrent_rt\"]}, {\"type\": \"surgery\", \"label\": \"Surgical resection ± lymph node assessment\", \"preference\": \"only for select cases\", \"recommendation\": \"Category 2A. Surgery is only recommended if a complete resection with clear margins is feasible without excessive morbidity and with likelihood that no adjuvant RT would be required. For microscopic lesions at the top of the vagina, upper vaginectomy ± hysterectomy may be reasonable. A radical hysterectomy may be appropriate for macroscopic lesions (<2 cm). For proximal lesions involving the upper two thirds of the vagina, pelvic lymph nodes should be assessed. For distal lesions involving the lower one third of the vagina, inguinal lymph nodes should be assessed.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Post-surgical adjuvant therapy is based on pathologic risk factors. If negative margins and negative lymph nodes if removed: observe with follow-up/surveillance. If close or positive margin(s) for invasive disease or positive lymph nodes: adjuvant RT or chemoradiation and/or brachytherapy. In select patients, re-excision may be considered. The management of positive margins for HSIL should be individualized.\"}}]}, {\"pathway_id\": \"invasive_stage_ii_to_iva\", \"title\": \"Invasive Vaginal Cancer Stage II–IVA – Primary Treatment\", \"branching_basis\": [\"FIGO stage (II, III, IVA)\", \"patient fitness for chemoradiation\", \"age and comorbidities\"], \"nodes\": [{\"criteria\": \"Stage II–IVA disease\", \"options\": [{\"type\": \"radiation_oncology\", \"label\": \"Chemoradiation + brachytherapy\", \"preference\": \"preferred\", \"recommendation\": \"Category 2A. Platinum-based chemoradiation with brachytherapy is the preferred modality for definitive management. Concurrent chemotherapy has been shown in many series to improve outcomes and is often used in stage II–IV disease. Concurrent platinum-containing chemotherapy with EBRT utilizes cisplatin as a single agent (or carboplatin if cisplatin intolerant). Chemoradiation may not be suitable for all patients and should be used with caution in patients who are older, frail, and/or have multiple comorbidities.\", \"linked_regimen_ids\": [\"cisplatin_concurrent_rt\", \"carboplatin_concurrent_rt\"]}, {\"type\": \"radiation_oncology\", \"label\": \"EBRT + brachytherapy\", \"preference\": \"recommended\", \"recommendation\": \"Category 2A. The addition of brachytherapy to EBRT is preferred as the combination has been shown to improve disease control. Overall treatment time should not extend beyond 8 weeks and treatment delays/interruptions need to be minimized.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable. These patients receive definitive treatment, not post-surgical adjuvant therapy.\"}}]}, {\"pathway_id\": \"postoperative_adjuvant_therapy\", \"title\": \"Postoperative Adjuvant Therapy Based on Risk Factors\", \"branching_basis\": [\"margin status\", \"lymph node status\", \"pathologic risk factors\"], \"nodes\": [{\"criteria\": \"Negative margins AND negative lymph nodes if removed\", \"options\": [{\"type\": \"surveillance\", \"label\": \"Observe\", \"preference\": \"recommended\", \"recommendation\": \"Category 2A. Observation with follow-up/surveillance per VAG-4 protocol.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"No adjuvant therapy required.\"}}, {\"criteria\": \"Close or positive margin(s) for invasive disease OR positive lymph nodes\", \"options\": [{\"type\": \"radiation_oncology\", \"label\": \"Adjuvant RT or chemoradiation and/or brachytherapy\", \"preference\": \"recommended\", \"recommendation\": \"Category 2A. Adjuvant therapy based on risk factors.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Adjuvant therapy indicated.\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Invasive Vaginal Cancer Stage I – Primary Treatment",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Stage I, favorable cases: small lesions <2 cm and limited thickness (≤5 mm)",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Intracavitary brachytherapy alone",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "EBRT + intracavitary brachytherapy ± concurrent platinum-containing chemotherapy",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Surgical resection ± lymph node assessment",
+          "type": "treatment"
+        },
+        {
+          "id": "d2",
+          "label": "Post-surgical pathologic risk factors",
+          "type": "decision"
+        },
+        {
+          "id": "t4",
+          "label": "Observe with follow-up/surveillance",
+          "type": "treatment"
+        },
+        {
+          "id": "t5",
+          "label": "Adjuvant RT or chemoradiation and/or brachytherapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Intracavitary brachytherapy alone"
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "EBRT + intracavitary brachytherapy ± concurrent platinum-containing chemotherapy"
+        },
+        {
+          "source": "d1",
+          "target": "t3",
+          "label": "Surgical resection ± lymph node assessment"
+        },
+        {
+          "source": "t3",
+          "target": "d2",
+          "label": "Post-surgical assessment"
+        },
+        {
+          "source": "d2",
+          "target": "t4",
+          "label": "Negative margins AND negative lymph nodes if removed"
+        },
+        {
+          "source": "d2",
+          "target": "t5",
+          "label": "Close or positive margin(s) for invasive disease OR positive lymph nodes"
+        }
+      ]
+    },
+    {
+      "title": "Invasive Vaginal Cancer Stage II–IVA – Primary Treatment",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Stage II–IVA disease",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Chemoradiation + brachytherapy",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "EBRT + brachytherapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Chemoradiation + brachytherapy"
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "EBRT + brachytherapy"
+        }
+      ]
+    },
+    {
+      "title": "Postoperative Adjuvant Therapy Based on Risk Factors",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Margin and lymph node status",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Observe",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Adjuvant RT or chemoradiation and/or brachytherapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Negative margins AND negative lymph nodes if removed"
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "Close or positive margin(s) for invasive disease OR positive lymph nodes"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "vaginal",
+  "_chars_in": 5000
+}

@@ -1,0 +1,25 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "Definitive treatment for locally advanced disease (Stage IB3-IVA) and medically inoperable early-stage disease. Adjuvant treatment after hysterectomy for intermediate-risk (GOG/Sedlis criteria) and high-risk (positive nodes, margins, parametrium) features. Palliative treatment for recurrent/metastatic disease.\n\nPrinciples:\n- CT-based treatment planning with conformal blocking is standard. MRI is best for soft tissue assessment; FDG-PET/CT is useful for nodal volume definition.\n- IMRT is preferred to minimize toxicities in definitive and post-hysterectomy settings.\n- Brachytherapy is a critical component of definitive RT for intact cervix. Image-guided adaptive brachytherapy (IGABT) with MRI improves outcomes.\n- Concurrent platinum-containing chemotherapy (cisplatin, or carboplatin if cisplatin intolerant) is standard with definitive EBRT for locally advanced disease.\n- Optimal results when treatment is completed within 8 weeks.\n- SBRT is not an appropriate routine alternative to brachytherapy.\n- Reirradiation (IORT, brachytherapy, SBRT, IMRT, proton) is highly customized.\n\nDose Frameworks:\n- Whole Pelvic EBRT (Microscopic Disease): 40-45 Gy at 1.8-2.0 Gy per fraction, 25-28 fractions, daily 5 days/week. Indication: Initial treatment for definitive RT (intact cervix) or adjuvant RT post-hysterectomy.\n- Boost to Gross Nodes (SIB with IMRT): 54-63 Gy at 2.1-2.3 Gy per fraction, 25-30 fractions, concurrent with whole pelvis SIB. Indication: Gross unresected nodal disease.\n- Brachytherapy (Point A Dose, LDR Equivalent): 70-80 Gy, LDR 40-70 cGy/h. Indication: Boost for intact cervix after EBRT.\n- Brachytherapy (HR-CTV D90, EQD2): ≥85 Gy (preferred); 75-80 Gy for very small tumors. Indication: Definitive boost for intact cervix.\n- Post-Hysterectomy Vaginal Cuff Boost: 15-18 Gy (5-6 Gy x 3 fractions), HDR brachytherapy to upper 3-4 cm. Indication: Positive or close vaginal margins after radical hysterectomy.\n\nApproaches:\n- Definitive Chemoradiation (Intact Cervix): EBRT 45 Gy + concurrent cisplatin ± pembrolizumab, followed by brachytherapy to HR-CTV D90 ≥85 Gy. Key trial: KEYNOTE-A18.\n- Adjuvant Radiation (Post-Hysterectomy): EBRT 45-50 Gy to pelvis ± vaginal cuff boost. Concurrent cisplatin for high-risk. Key trials: GOG 92, GOG 109.\n- Adjuvant Extended-Field Radiation: EBRT to pelvis and para-aorta to L3/L4 level, 45 Gy. Concurrent cisplatin. Key trial: GOG studies.\n- Reirradiation: Highly individualized. High risk of severe late toxicity."
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose",
+      "value": 45,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Regimen",
+      "body": "Whole Pelvic EBRT: 45 Gy in 28 fractions (1.8-2.0 Gy/fraction, daily). Boost: brachytherapy to HR-CTV D90 ≥85 Gy or nodal SIB 54-63 Gy. Adjuvant: 45-50 Gy ± vaginal cuff boost.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "cervical",
+  "_chars_in": 4228
+}

@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "International Neuroblastoma Risk Group (INRG) Staging System (INRGSS), which is used prior to treatment and incorporates image-defined risk factors (IDRFs).\n\nt_stages: [{\"stage\": \"L1\", \"description\": \"Localized tumor not involving vital structures as defined by the list of IDRFs, and confined to one body compartment.\"}, {\"stage\": \"L2\", \"description\": \"Locoregional tumor with presence of one or more IDRFs.\"}]\n\nn_stages: [{\"stage\": \"Not explicitly defined in INRGSS\", \"description\": \"INRG staging does not separate nodal status; nodal involvement is considered part of locoregional disease in L2 stage.\"}]\n\nm_stages: [{\"stage\": \"M\", \"description\": \"Distant metastatic disease (except stage MS).\"}, {\"stage\": \"MS\", \"description\": \"Metastatic disease in children younger than 18 months, with metastases confined to skin, liver, and/or bone marrow (<10% involvement).\"}]\n\nstage_groups: [{\"group\": \"Low-risk\", \"criteria\": \"INRG L1 with any age and non-amplified MYCN; or L1 with MYCN-amplified and completely resected; or asymptomatic MS with favorable biology (age <12 months, favorable histology, DI >1, no SCA).\", \"clinical_meaning\": \"Excellent prognosis; treatment with surgery alone or observation.\", \"five_yr_survival\": \"5-year EFS 90.7% ± 1.0%, OS 97.9% ± 0.5% [1].\", \"treatment_intent\": \"Curative with minimal toxicity.\"}, {\"group\": \"Intermediate-risk\", \"criteria\": \"Varies by stage: e.g., L1 with MYCN-amplified and incompletely resected; L2 with specific age, histology, and biologic features; M with age <18 months and favorable biology; MS with symptoms or unfavorable biology.\", \"clinical_meaning\": \"Generally good prognosis; treatment involves chemotherapy and surgery.\", \"five_yr_survival\": \"5-year EFS 85.1% ± 1.4%, OS 95.8% ± 0.8% [1].\", \"treatment_intent\": \"Curative, often with reduced therapy for favorable biology.\"}, {\"group\": \"High-risk\", \"criteria\": \"L1 with MYCN-amplified and incompletely resected; L2 with age ≥18 months or unfavorable features; M with age ≥18 months or unfavorable features (e.g., MYCN amplification, UH, DI=1, SCA+); or MYCN amplification in any stage.\", \"clinical_meaning\": \"Aggressive disease with higher relapse risk; intensive multimodal therapy required.\", \"five_yr_survival\": \"5-year EFS 51.2% ± 1.4%, OS 62.5% ± 1.3% [1].\", \"treatment_intent\": \"Curative with intensive therapy including induction, consolidation, and post-consolidation phases.\"}]\n\nstaging_pearls: [\"IDRFs are key for distinguishing L1 vs. L2 disease; they include factors like vascular encasement, spinal cord invasion, and organ infiltration, as detailed in Principles of Imaging.\", \"Staging must be completed before treatment initiation to guide risk classification and therapy.\", \"For infants <6 months with small adrenal tumors (≤3.1 cm solid or ≤5 cm cystic), observation without biopsy is recommended, and MIBG scan is not required unless metastatic symptoms are present.\", \"The revised INRC uses RECIST criteria for soft tissue response and no longer includes urinary catecholamine levels for assessment.\", \"Differences exist between COG and international risk classifiers; for example, some intermediate-risk patients in North America may be treated as high-risk elsewhere.\"]"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "L1",
+      "description": "Localized tumor not involving vital structures as defined by the list of IDRFs, and confined to one body compartment."
+    },
+    {
+      "category": "L2",
+      "description": "Locoregional tumor with presence of one or more IDRFs."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "Not explicitly defined in INRGSS",
+      "description": "INRG staging does not separate nodal status; nodal involvement is considered part of locoregional disease in L2 stage."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M",
+      "description": "Distant metastatic disease (except stage MS)."
+    },
+    {
+      "category": "MS",
+      "description": "Metastatic disease in children younger than 18 months, with metastases confined to skin, liver, and/or bone marrow (<10% involvement)."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "Low-risk",
+      "t": "L1",
+      "n": "any (not explicitly staged)",
+      "m": "M0 or asymptomatic MS"
+    },
+    {
+      "stage": "Intermediate-risk",
+      "t": "L1 or L2",
+      "n": "any (not explicitly staged)",
+      "m": "M0 or M (favorable biology, age <18 months) or MS (unfavorable biology)"
+    },
+    {
+      "stage": "High-risk",
+      "t": "L1, L2, or any",
+      "n": "any (not explicitly staged)",
+      "m": "M (age ≥18 months or unfavorable biology) or M0 with MYCN amplification"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "Low-risk",
+      "Intermediate-risk",
+      "High-risk"
+    ],
+    "os": [
+      98,
+      96,
+      63
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "neuroblastoma",
+  "_chars_in": 3225
+}

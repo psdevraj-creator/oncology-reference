@@ -1,0 +1,193 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"field_cancerization\", \"title\": \"Field Cancerization/Confluent Epidermal Dysplasia\", \"branching_basis\": [\"Clinical presentation of diffuse actinic keratoses and superficial (in situ) SCC\"], \"nodes\": [{\"criteria\": \"Field cancerization defined as UV-induced confluent dysplasia clinically manifested as diffuse actinic keratoses and superficial (in situ) SCC\", \"options\": [{\"type\": \"Prevention\", \"label\": \"Sunscreen, Nicotinamide\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Topical\", \"label\": \"Calcipotriene/Fluorouracil (preferred), Fluorouracil (preferred), Imiquimod, Tirbanibulin, Diclofenac (category 2B)\", \"preference\": \"Preferred: Calcipotriene/Fluorouracil, Fluorouracil\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Destructive\", \"label\": \"Ablative laser vermilionectomy or electrosurgical destruction, Ablative skin resurfacing (e.g., laser, dermabrasion), Chemical peels (Trichloroacetic acid), Cryotherapy, Curettage and electrodesiccation (C&E)\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Other\", \"label\": \"Capecitabine (for severe refractory disease), Photodynamic therapy (PDT) (e.g., topical Aminolevulinic acid [ALA], Porfimer sodium), Systemic retinoids (e.g., Acitretin, Isotretinoin)\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"\"}}]}"
+    },
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"low_risk_local\", \"title\": \"Low-Risk Cutaneous Squamous Cell Carcinoma (CSCC)\", \"branching_basis\": [\"Risk factors for local recurrence, metastases, or death (SCC-2)\", \"Treatment options (SCC-4)\"], \"nodes\": [{\"criteria\": \"Low-risk local CSCC: Trunk, extremities <2 cm; well-defined borders; primary tumor; no immunosuppression; no prior RT or chronic inflammation; no rapid growth; no neurologic symptoms; well or moderately differentiated; low-risk histologic subtype; depth <2 mm and no invasion beyond subcutaneous fat; no perineural involvement; no lymphatic or vascular involvement\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Curettage and electrodesiccation (C&E), Shave removal, Mohs or other forms of PDEMA, Standard excision with 4- to 6-mm clinical margins and postoperative margin assessment\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Radiation\", \"label\": \"Consultation with radiation oncologist for nonsurgical candidates\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"\"}}]}"
+    },
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"high_very_high_risk_local_curable\", \"title\": \"High-Risk/Very-High-Risk CSCC Where Surgery or RT Has High Likelihood of Cure\", \"branching_basis\": [\"Risk factors for local recurrence, metastases, or death (SCC-2)\", \"Pathologic findings\", \"Resectability\"], \"nodes\": [{\"criteria\": \"High-risk/very-high-risk CSCC meeting criteria from SCC-2 with curative intent possible\", \"options\": [{\"type\": \"Treatment Planning\", \"label\": \"Multidisciplinary consultation, Consider sentinel lymph node biopsy (SLNB)\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Primary Treatment\", \"label\": \"Mohs or other forms of PDEMA (preferred for very high risk), Standard excision with wider surgical margins, Definitive RT for nonsurgical candidates\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Additional Treatment (Positive Margins)\", \"label\": \"Re-resect if feasible, RT, If surgery and/or RT are not curative\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}, {\"type\": \"Additional Treatment (Negative Margins)\", \"label\": \"Consider adjuvant RT if extensive perineural, large or named nerve involvement, or other poor prognostic features\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant RT can be considered for CSCCs with gross clinical radiologic PNI, multifocal histologic nerve invasion, ≥6 cm tumor diameter, recurrent tumors, high risk for regional or distant metastasis, close surgical margins where further surgery cannot be performed, and desmoplastic or infiltrative tumors in patients who are chronically immunosuppressed [e, oo].\"}}]}"
+    },
+    {
+      "heading": "Pathway",
+      "content": "{\"pathway_id\": \"very_high_risk_local_metastasis_risk\", \"title\": \"Very-High-Risk CSCC with Significant Risk of Extensive Local Recurrence or Nodal Metastasis\", \"branching_basis\": [\"Risk factors for local recurrence, metastases, or death (SCC-2)\", \"Neoadjuvant therapy consideration\"], \"nodes\": [{\"criteria\": \"Very-high-risk CSCC with significant risk of extensive local recurrence, nodal, or in-transit metastasis\", \"options\": [{\"type\": \"Treatment Planning\", \"label\": \"Multidisciplinary consultation, Radiologic staging (MRI/CT/ultrasound), Consider SLNB, Consider neoadjuvant therapy with Cemiplimab-rwlc\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": [\"Cemiplimab-rwlc_neoadjuvant\"]}, {\"type\": \"Primary Treatment\", \"label\": \"Mohs or other form\", \"preference\": \"\", \"recommendation\": \"\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Field Cancerization/Confluent Epidermal Dysplasia",
+      "nodes": [
+        {
+          "id": "d_0_0",
+          "label": "Field cancerization defined as UV-induced confluent dysplasia clinically manifested as diffuse actinic keratoses and superficial (in situ) SCC",
+          "type": "decision"
+        },
+        {
+          "id": "t_0_0_0",
+          "label": "Sunscreen, Nicotinamide",
+          "type": "treatment"
+        },
+        {
+          "id": "t_0_0_1",
+          "label": "Calcipotriene/Fluorouracil (preferred), Fluorouracil (preferred), Imiquimod, Tirbanibulin, Diclofenac (category 2B)",
+          "type": "treatment"
+        },
+        {
+          "id": "t_0_0_2",
+          "label": "Ablative laser vermilionectomy or electrosurgical destruction, Ablative skin resurfacing (e.g., laser, dermabrasion), Chemical peels (Trichloroacetic acid), Cryotherapy, Curettage and electrodesiccation (C&E)",
+          "type": "treatment"
+        },
+        {
+          "id": "t_0_0_3",
+          "label": "Capecitabine (for severe refractory disease), Photodynamic therapy (PDT) (e.g., topical Aminolevulinic acid [ALA], Porfimer sodium), Systemic retinoids (e.g., Acitretin, Isotretinoin)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_0_0",
+          "target": "t_0_0_0",
+          "label": "Prevention"
+        },
+        {
+          "source": "d_0_0",
+          "target": "t_0_0_1",
+          "label": "Topical"
+        },
+        {
+          "source": "d_0_0",
+          "target": "t_0_0_2",
+          "label": "Destructive"
+        },
+        {
+          "source": "d_0_0",
+          "target": "t_0_0_3",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "title": "Low-Risk Cutaneous Squamous Cell Carcinoma (CSCC)",
+      "nodes": [
+        {
+          "id": "d_1_0",
+          "label": "Low-risk local CSCC: Trunk, extremities <2 cm; well-defined borders; primary tumor; no immunosuppression; no prior RT or chronic inflammation; no rapid growth; no neurologic symptoms; well or moderately differentiated; low-risk histologic subtype; depth <2 mm and no invasion beyond subcutaneous fat; no perineural involvement; no lymphatic or vascular involvement",
+          "type": "decision"
+        },
+        {
+          "id": "t_1_0_0",
+          "label": "Curettage and electrodesiccation (C&E), Shave removal, Mohs or other forms of PDEMA, Standard excision with 4- to 6-mm clinical margins and postoperative margin assessment",
+          "type": "treatment"
+        },
+        {
+          "id": "t_1_0_1",
+          "label": "Consultation with radiation oncologist for nonsurgical candidates",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_1_0",
+          "target": "t_1_0_0",
+          "label": "Surgical"
+        },
+        {
+          "source": "d_1_0",
+          "target": "t_1_0_1",
+          "label": "Radiation"
+        }
+      ]
+    },
+    {
+      "title": "High-Risk/Very-High-Risk CSCC Where Surgery or RT Has High Likelihood of Cure",
+      "nodes": [
+        {
+          "id": "d_2_0",
+          "label": "High-risk/very-high-risk CSCC meeting criteria from SCC-2 with curative intent possible",
+          "type": "decision"
+        },
+        {
+          "id": "t_2_0_0",
+          "label": "Multidisciplinary consultation, Consider sentinel lymph node biopsy (SLNB)",
+          "type": "treatment"
+        },
+        {
+          "id": "t_2_0_1",
+          "label": "Mohs or other forms of PDEMA (preferred for very high risk), Standard excision with wider surgical margins, Definitive RT for nonsurgical candidates",
+          "type": "treatment"
+        },
+        {
+          "id": "t_2_0_2",
+          "label": "Re-resect if feasible, RT, If surgery and/or RT are not curative",
+          "type": "treatment"
+        },
+        {
+          "id": "t_2_0_3",
+          "label": "Consider adjuvant RT if extensive perineural, large or named nerve involvement, or other poor prognostic features",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_2_0",
+          "target": "t_2_0_0",
+          "label": "Treatment Planning"
+        },
+        {
+          "source": "d_2_0",
+          "target": "t_2_0_1",
+          "label": "Primary Treatment"
+        },
+        {
+          "source": "d_2_0",
+          "target": "t_2_0_2",
+          "label": "Additional Treatment (Positive Margins)"
+        },
+        {
+          "source": "d_2_0",
+          "target": "t_2_0_3",
+          "label": "Additional Treatment (Negative Margins)"
+        }
+      ]
+    },
+    {
+      "title": "Very-High-Risk CSCC with Significant Risk of Extensive Local Recurrence or Nodal Metastasis",
+      "nodes": [
+        {
+          "id": "d_3_0",
+          "label": "Very-high-risk CSCC with significant risk of extensive local recurrence, nodal, or in-transit metastasis",
+          "type": "decision"
+        },
+        {
+          "id": "t_3_0_0",
+          "label": "Multidisciplinary consultation, Radiologic staging (MRI/CT/ultrasound), Consider SLNB, Consider neoadjuvant therapy with Cemiplimab-rwlc",
+          "type": "treatment"
+        },
+        {
+          "id": "t_3_0_1",
+          "label": "Mohs or other form",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_3_0",
+          "target": "t_3_0_0",
+          "label": "Treatment Planning"
+        },
+        {
+          "source": "d_3_0",
+          "target": "t_3_0_1",
+          "label": "Primary Treatment"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "Skin_cancer",
+  "_chars_in": 5000
+}

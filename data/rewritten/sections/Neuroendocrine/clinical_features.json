@@ -1,0 +1,107 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Neuroendocrine tumors (NETs) are a broad family of neoplasms arising from the diffuse endocrine system, most commonly originating in the gastrointestinal tract, lungs/bronchi, thymus, and pancreas [1,2]. Patients may present with symptoms of hormone hypersecretion (functional tumors) or with mass-effect symptoms (nonfunctional tumors). Approximately 8% to 28% of patients with GI NETs develop carcinoid syndrome [102,103], characterized by flushing, diarrhea, bronchoconstriction, and cardiac valvular fibrosis. Pancreatic NETs (PanNETs) include functioning tumors such as gastrinomas (peptic ulcers), insulinomas (fasting hypoglycemia), glucagonomas (necrolytic migratory erythema), and VIPomas (watery diarrhea, hypokalemia, achlorhydria). Nonfunctional PanNETs account for approximately 60% to 91% of cases [14,73]. Pheochromocytomas (PCCs) and paragangliomas (PGLs) present with hypertension, tachycardia, sweating, and paroxysmal headache. Adrenocortical carcinomas (ACCs) present with symptoms of hormone excess in approximately 60% of patients or with tumor-related symptoms such as abdominal pain and weight loss [21]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Flushing",
+      "detail": "Episodic cutaneous vasodilation, predominantly in the face and upper trunk, typically occurring in the context of carcinoid syndrome. Serotonin, histamine, tachykinins, and other vasoactive substances contribute to flushing. Etiology of flushing is less well understood than that of diarrhea [12,100].",
+      "frequency": "Common in carcinoid syndrome (8%–28% of all GI NETs); rarely seen without liver metastases unless retroperitoneal disease is present",
+      "alarm": false
+    },
+    {
+      "name": "Diarrhea",
+      "detail": "Carcinoid syndrome–associated diarrhea is caused by serotonin and other vasoactive peptides. Diarrhea is multifactorial in NET patients and may also be caused by direct side effects from somatostatin analogs (SSAs), pancreatic exocrine insufficiency resulting in steatorrhea, bile malabsorption from ileocecectomy or cholecystectomy, and short-gut syndrome [NE-K].",
+      "frequency": "Common in carcinoid syndrome; also seen in VIPomas (profuse watery diarrhea with electrolyte depletion), glucagonomas, and somatostatinomas (diarrhea/steatorrhea)",
+      "alarm": true
+    },
+    {
+      "name": "Peptic ulcer disease",
+      "detail": "Gastrinomas secrete gastrin, causing recurrent peptic ulcers, dyspepsia, and diarrhea. Approximately 70% of patients with MEN1 and gastrinoma have tumors in the duodenum [244]. Zollinger-Ellison syndrome results from gastrin hypersecretion.",
+      "frequency": "Characteristic of gastrinomas; associated with gastrinoma (10% of functioning PanNETs) [232]",
+      "alarm": true
+    },
+    {
+      "name": "Hypoglycemia",
+      "detail": "Insulinomas secrete insulin resulting in fasting or nocturnal hypoglycemia. Approximately 70% to 90% of sporadic insulinomas are benign and can be cured surgically. Evaluation with a 72-hour fast tests serum insulin, pro-insulin, and C-peptide during concurrent hypoglycemia [245].",
+      "frequency": "Characteristic of insulinomas (≤70% of functioning PanNETs; only 10% associated with metastases) [232]",
+      "alarm": true
+    },
+    {
+      "name": "Necrolytic migratory erythema",
+      "detail": "Characteristic dermatitis of glucagonomas, often accompanied by hyperglycemia or diabetes mellitus, weight loss, cachexia, and a hypercoagulable state (10%–33% risk of thromboembolic events) [270,271].",
+      "frequency": "Characteristic of glucagonomas (~15% of functioning PanNETs) [232]",
+      "alarm": true
+    },
+    {
+      "name": "Watery diarrhea with hypokalemia and achlorhydria (WDHA syndrome)",
+      "detail": "VIPomas secrete vasoactive intestinal peptide causing severe secretory diarrhea with profound electrolyte depletion and dehydration. Also known as Verner-Morrison syndrome.",
+      "frequency": "Characteristic of VIPomas (rare functioning PanNETs) [233]",
+      "alarm": true
+    },
+    {
+      "name": "Cushing syndrome",
+      "detail": "Ectopic adrenocorticotropic hormone (ACTH) production by bronchial or thymic NETs can cause Cushing syndrome. Bronchial and thymic NETs have been associated with ectopic ACTH production [98,99]. Also may occur from adrenal adenoma, adrenal carcinoma, pituitary adenoma, or ectopic sources (lung or thymic NETs). Clinical features include central weight gain, striae, hypertension, hyperglycemia, depression, hirsutism, and muscle weakness [NE-A 2 of 4].",
+      "frequency": "Uncommon; seen in bronchial and thymic NETs, and adrenal cortical carcinoma",
+      "alarm": true
+    },
+    {
+      "name": "Acromegaly",
+      "detail": "GH-secreting pituitary adenomas in MEN1 syndrome, or rarely ectopic GH secretion by other NETs.",
+      "frequency": "Uncommon",
+      "alarm": false
+    },
+    {
+      "name": "Hypertension (paroxysmal or sustained)",
+      "detail": "PCCs release catecholamines (epinephrine and norepinephrine) and their metabolites metanephrine and normetanephrine, resulting in hypertension, arrhythmia, and/or hyperglycemia. Symptoms include sweating, paroxysmal headache, pallor episodes, and syncope (very rare) [NE-A 2 of 4]. PGLs secrete catecholamines in abo",
+      "frequency": "No numeric frequency provided",
+      "alarm": false
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Carcinoid syndrome–associated diarrhea is caused by serotonin and other vasoactive peptides. Diarrhea is multifactorial in NET patients and may also be caused by direct side effects from somatostatin analogs (SSAs), pancreatic exocrine insufficiency resulting in steatorrhea, bile malabsorption from ileocecectomy or cholecystectomy, and short-gut syndrome [NE-K]."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Gastrinomas secrete gastrin, causing recurrent peptic ulcers, dyspepsia, and diarrhea. Approximately 70% of patients with MEN1 and gastrinoma have tumors in the duodenum [244]. Zollinger-Ellison syndrome results from gastrin hypersecretion."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Insulinomas secrete insulin resulting in fasting or nocturnal hypoglycemia. Approximately 70% to 90% of sporadic insulinomas are benign and can be cured surgically. Evaluation with a 72-hour fast tests serum insulin, pro-insulin, and C-peptide during concurrent hypoglycemia [245]."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Characteristic dermatitis of glucagonomas, often accompanied by hyperglycemia or diabetes mellitus, weight loss, cachexia, and a hypercoagulable state (10%–33% risk of thromboembolic events) [270,271]."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "VIPomas secrete vasoactive intestinal peptide causing severe secretory diarrhea with profound electrolyte depletion and dehydration. Also known as Verner-Morrison syndrome."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Ectopic adrenocorticotropic hormone (ACTH) production by bronchial or thymic NETs can cause Cushing syndrome. Bronchial and thymic NETs have been associated with ectopic ACTH production [98,99]. Also may occur from adrenal adenoma, adrenal carcinoma, pituitary adenoma, or ectopic sources (lung or thymic NETs). Clinical features include central weight gain, striae, hypertension, hyperglycemia, depression, hirsutism, and muscle weakness [NE-A 2 of 4]."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Flushing",
+      "Peptic ulcer disease",
+      "Hypoglycemia",
+      "Necrolytic migratory erythema"
+    ],
+    "values": [
+      18,
+      10,
+      70,
+      15
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "Neuroendocrine",
+  "_chars_in": 5000
+}

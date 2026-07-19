@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "AJCC 8th Edition (2017) TNM Staging System for Pancreatic Cancer. T stages: TX (primary tumor cannot be assessed), T0 (no evidence of primary tumor), Tis (carcinoma in situ, includes high-grade PanIN-3, IPMN with high-grade dysplasia, MCN with high-grade dysplasia), T1 (tumor ≤2 cm in greatest dimension), T1a (≤0.5 cm), T1b (>0.5 cm and <1 cm), T1c (1–2 cm), T2 (>2 cm and ≤4 cm), T3 (>4 cm), T4 (involves celiac axis, superior mesenteric artery, and/or common hepatic artery, regardless of size). N stages: NX (cannot be assessed), N0 (no regional lymph node metastases), N1 (metastasis in 1–3 regional lymph nodes), N2 (metastasis in ≥4 regional lymph nodes). M stages: M0 (no distant metastasis), M1 (distant metastasis, including non-regional lymph node metastasis). Stage groups: Stage 0 (Tis N0 M0), Stage IA (T1 N0 M0), Stage IB (T2 N0 M0), Stage IIA (T3 N0 M0), Stage IIB (T1-3 N1 M0), Stage III (T1-3 N2 M0 or T4 Any N M0), Stage IV (Any T Any N M1)."
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed"
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor"
+    },
+    {
+      "category": "Tis",
+      "description": "Carcinoma in situ (includes high-grade PanIN-3, IPMN with high-grade dysplasia, MCN with high-grade dysplasia)"
+    },
+    {
+      "category": "T1",
+      "description": "Tumor ≤2 cm in greatest dimension"
+    },
+    {
+      "category": "T1a",
+      "description": "Tumor ≤0.5 cm in greatest dimension"
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor >0.5 cm and <1 cm in greatest dimension"
+    },
+    {
+      "category": "T1c",
+      "description": "Tumor 1–2 cm in greatest dimension"
+    },
+    {
+      "category": "T2",
+      "description": "Tumor >2 cm and ≤4 cm in greatest dimension"
+    },
+    {
+      "category": "T3",
+      "description": "Tumor >4 cm in greatest dimension"
+    },
+    {
+      "category": "T4",
+      "description": "Tumor involves the celiac axis, superior mesenteric artery, and/or common hepatic artery, regardless of size"
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "NX",
+      "description": "Regional lymph nodes cannot be assessed"
+    },
+    {
+      "category": "N0",
+      "description": "No regional lymph node metastases"
+    },
+    {
+      "category": "N1",
+      "description": "Metastasis in 1–3 regional lymph nodes"
+    },
+    {
+      "category": "N2",
+      "description": "Metastasis in ≥4 regional lymph nodes"
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis"
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis (including non-regional lymph node metastasis)"
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "0",
+      "t": "Tis",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IB",
+      "t": "T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIA",
+      "t": "T3",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIB",
+      "t": "T1-3",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "III",
+      "t": "T1-3 or T4",
+      "n": "N2 or Any N",
+      "m": "M0"
+    },
+    {
+      "stage": "IV",
+      "t": "Any T",
+      "n": "Any N",
+      "m": "M1"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      44,
+      15,
+      5,
+      3
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "pancreatic",
+  "_chars_in": 3910
+}

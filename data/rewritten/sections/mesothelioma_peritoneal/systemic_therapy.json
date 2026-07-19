@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy is a cornerstone of treatment for patients who are not candidates for CRS+HIPEC, have high-risk features precluding upfront surgery, or develop recurrence after local therapies. Recommendations are primarily extrapolated from clinical trials in pleural mesothelioma, as PeM is rare and dedicated trials are limited [21, 74]. Regimens are stratified by histology (epithelioid vs. biphasic/sarcomatoid) and line of therapy. Broad molecular tumor profiling is recommended to identify rare driver alterations (e.g., ALK rearrangements) for which targeted therapies may be available [27, 28, PEM-D footnote b].\n\nFirst-Line Therapy for Epithelioid Histology - Preferred Regimen: (Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab; (Carboplatin or Cisplatin)/Pemetrexed; Ipilimumab + Nivolumab [1-11]. Rationale: Based on evidence from pleural mesothelioma trials (e.g., MAPS, CheckMate 743) extrapolated to PeM. Combination immunotherapy (Ipi/Nivo) is a preferred option based on improved survival data in pleural disease [11]. Alternatives: (Carboplatin or Cisplatin)/Gemcitabine; Pemetrexed alone; Vinorelbine (Useful in Certain Circumstances) [12-16]. Biomarker Requirements: PD-L1 testing is not required before initiating immune checkpoint inhibitors based on current data [85, 88]. ALK rearrangement testing is recommended to identify patients who may respond to ALK inhibitors [32, 37, 53, 54].\n\nFirst-Line Therapy for Biphasic or Sarcomatoid Histology - Preferred Regimen: Ipilimumab + Nivolumab [11]. Rationale: CheckMate 743 demonstrated superior OS for Ipi/Nivo versus chemotherapy in unresectable pleural mesothelioma, including non-epithelioid histology [11]. Alternatives: (Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab; (Carboplatin or Cisplatin)/Pemetrexed (Other Recommended) [1-9]. Biomarker Requirements: As above.\n\nSubsequent Therapy (After Progression on First-Line) - Preferred Regimen: If initial therapy was chemotherapy: Nivolumab or Ipilimumab + Nivolumab. If initial therapy was Ipi/Nivo: (Carboplatin or Cisplatin)/Pemetrexed +/- Bevacizumab [17-19]. Rationale: CONFIRM trial showed nivolumab improved OS versus placebo in relapsed mesothelioma after platinum-based chemotherapy [18]. Pemetrexed rechallenge can be considered if good prior response [29, PEM-D footnote e]. Alternatives: Pemetrexed; Atezolizumab + Bevacizumab (only if no prior ICI exposure); Gemcitabine; Vinorelbine (Other Recommended) [20-26]. Biomarker Requirements: As above. Atezolizumab + Bevacizumab should only be considered if patients have not been previously treated with immune checkpoint inhibitors [22, PEM-D footnote h]."
+    }
+  ],
+  "cards": [
+    {
+      "name": "Pemetrexed + Platinum",
+      "drugs": "Pemetrexed, Cisplatin or Carboplatin",
+      "detail": "Name: Pemetrexed + Platinum; Setting: First-line and subsequent therapy for epithelioid histology; subsequent therapy for biphasic/sarcomatoid. Drugs: Pemetrexed 500 mg/m2 IV day 1, Cisplatin 75 mg/m2 IV day 1 OR Carboplatin AUC 5 IV day 1. Cycle: Every 21 days. Key toxicities: Neutropenia, anemia, thrombocytopenia, nausea, vomiting, fatigue, nephrotoxicity (with cisplatin)."
+    },
+    {
+      "name": "Pemetrexed + Platinum + Bevacizumab",
+      "drugs": "Pemetrexed, Cisplatin, Bevacizumab",
+      "detail": "Name: Pemetrexed + Platinum + Bevacizumab; Setting: First-line for epithelioid; subsequent therapy. Drugs: Pemetrexed 500 mg/m2 IV day 1, Cisplatin 75 mg/m2 IV day 1, Bevacizumab 15 mg/kg IV day 1. Cycle: Every 21 days. Key toxicities: As above plus hypertension, proteinuria, bleeding, thromboembolic events."
+    },
+    {
+      "name": "Ipilimumab + Nivolumab",
+      "drugs": "Ipilimumab, Nivolumab",
+      "detail": "Name: Ipilimumab + Nivolumab; Setting: First-line for biphasic/sarcomatoid; first-line and subsequent for epithelioid. Drugs: Ipilimumab 1 mg/kg IV day 1, Nivolumab 3 mg/kg IV day 1. Cycle: Every 3 weeks for 4 cycles (induction), then nivolumab 240 mg IV every 2 weeks or 480 mg IV every 4 weeks for maintenance. Key toxicities: Immune-mediated adverse events (colitis, hepatitis, pneumonitis, endocrinopathies, dermatologic toxicity), fatigue."
+    },
+    {
+      "name": "Atezolizumab + Bevacizumab",
+      "drugs": "Atezolizumab, Bevacizumab",
+      "detail": "Name: Atezolizumab + Bevacizumab; Setting: Subsequent therapy only if no prior ICI exposure. Drugs: Atezolizumab 1200 mg IV day 1, Bevacizumab 15 mg/kg IV day 1. Cycle: Every 21 days. Key toxicities: Hypertension, proteinuria, fatigue, immune-mediated adverse events."
+    },
+    {
+      "name": "Nivolumab Monotherapy",
+      "drugs": "Nivolumab",
+      "detail": "Name: Nivolumab Monotherapy; Setting: Subsequent therapy if chemotherapy was first-line. Drugs: Nivolumab 240 mg IV day 1. Cycle: Every 2 weeks. Key toxicities: Fatigue, rash, pruritus, immune-mediated adverse events."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line (Epithelioid)",
+      "body": "Preferred: (Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab; (Carboplatin or Cisplatin)/Pemetrexed; Ipilimumab + Nivolumab. Alternatives: (Carboplatin or Cisplatin)/Gemcitabine; Pemetrexed alone; Vinorelbine.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "1st Line (Biphasic/Sarcomatoid)",
+      "body": "Preferred: Ipilimumab + Nivolumab. Alternatives: (Carboplatin or Cisplatin)/Pemetrexed + Bevacizumab; (Carboplatin or Cisplatin)/Pemetrexed.",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "Subsequent Therapy",
+      "body": "If initial chemo: Nivolumab or Ipilimumab + Nivolumab. If initial Ipi/Nivo: (Carboplatin or Cisplatin)/Pemetrexed +/- Bevacizumab. Alternatives: Pemetrexed; Atezolizumab + Bevacizumab (no prior ICI); Gemcitabine; Vinorelbine.",
+      "icon": "bi-2-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "mesothelioma_peritoneal",
+  "_chars_in": 5000
+}

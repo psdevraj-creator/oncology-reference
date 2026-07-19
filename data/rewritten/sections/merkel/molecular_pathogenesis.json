@@ -1,0 +1,171 @@
+{
+  "sections": [
+    {
+      "heading": "Molecular pathogenesis bifurcation",
+      "content": "The molecular pathogenesis of Merkel cell carcinoma (MCC) is largely bifurcated based on the presence or absence of Merkel cell polyomavirus (MCPyV)."
+    },
+    {
+      "heading": "Virus-positive MCC",
+      "content": "In virus-positive MCC, which comprises 43% to 100% of cases, the clonal integration of MCPyV into the host genome is an early oncogenic event. The virus expresses truncated forms of the Large T antigen and small T antigen. These oncoproteins drive proliferation by inactivating key tumor suppressor proteins: the Large T antigen binds to and inhibits retinoblastoma protein (pRb), while both antigens can interfere with p53 pathway function. This viral-driven model results in a tumor with a relatively low mutational burden."
+    },
+    {
+      "heading": "Virus-negative MCC",
+      "content": "In contrast, virus-negative MCC arises through a UV radiation-dependent pathway, evidenced by a high mutational burden and a characteristic UV signature (cytosine to thymine transitions). Genetic analyses of these tumors frequently show mutations in tumor suppressor genes, including TP53 and RB1. Additionally, alterations in other cancer-associated genes have been reported."
+    },
+    {
+      "heading": "Germline mutations in early-onset cases",
+      "content": "Genomic studies have noted that approximately 20% of patients under 50 years of age with MCC may harbor germline mutations in known cancer-associated genes, suggesting a potential heritable component in early-onset cases."
+    },
+    {
+      "heading": "Biological heterogeneity and immunotherapy",
+      "content": "The distinct molecular pathways contribute to the biological heterogeneity of MCC, with virus-negative tumors being more heavily mutated and potentially more susceptible to immunotherapies like PD-1/PD-L1 inhibitors. The high expression of programmed death-ligand 1 (PD-L1) in some MCC tumors, regardless of viral status, provides a rationale for the efficacy of checkpoint inhibitor therapy."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "MCPyV",
+        "type": "gene"
+      },
+      {
+        "id": "Large_T_antigen",
+        "type": "gene"
+      },
+      {
+        "id": "small_T_antigen",
+        "type": "gene"
+      },
+      {
+        "id": "pRb",
+        "type": "gene"
+      },
+      {
+        "id": "p53",
+        "type": "gene"
+      },
+      {
+        "id": "p53_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "RB1",
+        "type": "gene"
+      },
+      {
+        "id": "PD-1",
+        "type": "gene"
+      },
+      {
+        "id": "PD-L1",
+        "type": "targetable"
+      },
+      {
+        "id": "UV_radiation_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "PD-1_PD-L1_inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "checkpoint_inhibitor_therapy",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "MCPyV",
+        "target": "Large_T_antigen",
+        "type": "activates"
+      },
+      {
+        "source": "MCPyV",
+        "target": "small_T_antigen",
+        "type": "activates"
+      },
+      {
+        "source": "Large_T_antigen",
+        "target": "pRb",
+        "type": "inhibits"
+      },
+      {
+        "source": "Large_T_antigen",
+        "target": "p53_pathway",
+        "type": "inhibits"
+      },
+      {
+        "source": "small_T_antigen",
+        "target": "p53_pathway",
+        "type": "inhibits"
+      },
+      {
+        "source": "UV_radiation_pathway",
+        "target": "TP53",
+        "type": "inhibits"
+      },
+      {
+        "source": "UV_radiation_pathway",
+        "target": "RB1",
+        "type": "inhibits"
+      },
+      {
+        "source": "PD-1_PD-L1_inhibitors",
+        "target": "PD-L1",
+        "type": "targets"
+      },
+      {
+        "source": "PD-1_PD-L1_inhibitors",
+        "target": "PD-1",
+        "type": "targets"
+      },
+      {
+        "source": "checkpoint_inhibitor_therapy",
+        "target": "PD-L1",
+        "type": "targets"
+      },
+      {
+        "source": "checkpoint_inhibitor_therapy",
+        "target": "PD-1",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "MCPyV-driven pathway",
+      "genes": [
+        "Large T antigen",
+        "small T antigen",
+        "pRb",
+        "p53"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "UV-driven pathway",
+      "genes": [
+        "TP53",
+        "RB1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "PD-1/PD-L1 checkpoint pathway",
+      "genes": [
+        "PD-1",
+        "PD-L1"
+      ],
+      "drugs": "PD-1/PD-L1 inhibitors, checkpoint inhibitor therapy",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "merkel",
+  "_chars_in": 1667
+}

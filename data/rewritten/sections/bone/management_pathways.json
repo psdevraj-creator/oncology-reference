@@ -1,0 +1,218 @@
+{
+  "sections": [
+    {
+      "heading": "Atypical Cartilaginous Tumors (Low-Grade Intracompartmental Appendicular Tumors)",
+      "content": "{\n  \"pathway_id\": \"chondrosarcoma_atypical_cartilaginous\",\n  \"title\": \"Atypical Cartilaginous Tumors (Low-Grade Intracompartmental Appendicular Tumors)\",\n  \"branching_basis\": [\"Histologic grade (low-grade)\", \"Location (intracompartmental, appendicular)\", \"Resectability\"],\n  \"nodes\": [\n    {\n      \"criteria\": \"Low-grade intracompartmental appendicular tumors (atypical cartilaginous tumors)\",\n      \"options\": [\n        {\n          \"type\": \"surgery\",\n          \"label\": \"Intralesional excision ± surgical adjuvant\",\n          \"preference\": \"preferred\",\n          \"recommendation\": \"Wide excision optional in expendable bones [CHON-2].\",\n          \"linked_regimen_ids\": []\n        },\n        {\n          \"type\": \"observation\",\n          \"label\": \"Observation\",\n          \"preference\": \"alternative\",\n          \"recommendation\": \"Acceptable option for selected patients.\",\n          \"linked_regimen_ids\": []\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": false,\n        \"summary\": \"No standard chemotherapy options for conventional chondrosarcoma grades 1–3. Ivosidenib may be an option for IDH1-mutant tumors [BONE-B 1 of 7].\"\n      }\n    }\n  ]\n}"
+    },
+    {
+      "heading": "Low-Grade Extracompartmental Appendicular Tumors, Grade I Axial Tumors, High-Grade (Grade II/III), Clear Cell, or Extracompartmental Chondrosarcoma",
+      "content": "{\n  \"pathway_id\": \"chondrosarcoma_low_grade_axial_high_grade_clear_cell\",\n  \"title\": \"Low-Grade Extracompartmental Appendicular Tumors, Grade I Axial Tumors, High-Grade (Grade II/III), Clear Cell, or Extracompartmental Chondrosarcoma\",\n  \"branching_basis\": [\"Histologic grade\", \"Location (axial vs appendicular)\", \"Compartmental status\", \"Resectability\"],\n  \"nodes\": [\n    {\n      \"criteria\": \"Resectable disease\",\n      \"options\": [\n        {\n          \"type\": \"surgery\",\n          \"label\": \"Wide excision\",\n          \"preference\": \"preferred\",\n          \"recommendation\": \"Must achieve histologically negative surgical margins. May be limb-sparing or amputation [CHON-3, BONE-A].\",\n          \"linked_regimen_ids\": []\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": false,\n        \"summary\": \"Adjuvant RT may be considered for positive margins or large extracompartmental tumors (category 2B). Radiation is not needed for negative margins [BONE-C 1 of 6].\"\n      }\n    },\n    {\n      \"criteria\": \"Borderline resectable or unresectable disease\",\n      \"options\": [\n        {\n          \"type\": \"radiation_therapy\",\n          \"label\": \"Consider RT (category 2B)\",\n          \"preference\": \"useful_in_certain_circumstances\",\n          \"recommendation\": \"Consider RT with specialized techniques (e.g., proton beam) for unresectable disease or if positive margins are likely [BONE-C 1 of 6].\",\n          \"linked_regimen_ids\": []\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": false,\n        \"summary\": \"Not applicable for primary treatment in this setting.\"\n      }\n    },\n    {\n      \"criteria\": \"Metastatic disease (oligometastatic or widespread)\",\n      \"options\": [\n        {\n          \"type\": \"surgery\",\n          \"label\": \"Surgical excision of all sites if possible\",\n          \"preference\": \"preferred_for_oligometastatic\",\n          \"recommendation\": \"For oligometastatic disease, surgical excision of all sites if possible [CHON-4].\",\n          \"linked_regimen_ids\": []\n        },\n        {\n          \"type\": \"radiation_therapy\",\n          \"label\": \"Consider RT for unresectable sites\",\n          \"preference\": \"useful_in_certain_circumstances\",\n          \"recommendation\": \"Consider radiation for unresectable sites or as part of palliation [CHON-4].\",\n          \"linked_regimen_ids\": []\n        },\n        {\n          \"type\": \"systemic_therapy\",\n          \"label\": \"Consider systemic therapy (for widespread disease)\",\n          \"preference\": \"useful_in_certain_circumstances\",\n          \"recommendation\": \"Dasatinib and pazopanib are category 2A options. Ivosidenib for IDH1-mutant tumors. Consider MGPT, TMB, MMR/MSI testing [BONE-B 1 of 7, CHON-4].\",\n          \"linked_regimen_ids\": [\"dasatinib_metastatic_chondrosarcoma\", \"pazopanib_metastatic_chondrosarcoma\", \"ivosidenib_idh1_mutant\"]\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": false,\n        \"summary\": \"Not applicable.\"\n      }\n    }\n  ]\n}"
+    },
+    {
+      "heading": "Mesenchymal Chondrosarcoma",
+      "content": "{\n  \"pathway_id\": \"chondrosarcoma_mesenchymal\",\n  \"title\": \"Mesenchymal Chondrosarcoma\",\n  \"branching_basis\": [\"Histologic subtype (mesenchymal)\", \"Resectability\", \"Metastatic status\"],\n  \"nodes\": [\n    {\n      \"criteria\": \"Localized, resectable disease\",\n      \"options\": [\n        {\n          \"type\": \"surgery\",\n          \"label\": \"Wide excision\",\n          \"preference\": \"preferred\",\n          \"recommendation\": \"With negative margins [CHON-3].\",\n          \"linked_regimen_ids\": []\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": true,\n        \"summary\": \"Consider Ewing sarcoma regimens (category 2B) or doxorubicin-based regimens (doxorubicin alone or doxorubicin/ifosfamide/mesna) as adjuvant/neoadjuvant therapy [BONE-B 1 of 7].\"\n      }\n    },\n    {\n      \"criteria\": \"Unresectable or metastatic disease\",\n      \"options\": [\n        {\n          \"type\": \"systemic_therapy\",\n          \"label\": \"Systemic therapy\",\n          \"preference\": \"preferred\",\n          \"recommendation\": \"Ewing sarcoma regimens (category 2B), doxorubicin monotherapy, or doxorubicin/ifosfamide/mesna [BONE-B 1 of 7].\",\n          \"linked_regimen_ids\": [\"ewing_sarcoma_regimens_mesenchymal\", \"doxorubicin_mesenchymal\", \"doxorubicin_ifosfamide_mesenchymal\"]\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": false,\n        \"summary\": \"Not applicable.\"\n      }\n    }\n  ]\n}"
+    },
+    {
+      "heading": "Dedifferentiated Chondrosarcoma",
+      "content": "{\n  \"pathway_id\": \"chondrosarcoma_dedifferentiated\",\n  \"title\": \"Dedifferentiated Chondrosarcoma\",\n  \"branching_basis\": [\"Histologic subtype (dedifferentiated)\", \"Resectability\", \"Metastatic status\"],\n  \"nodes\": [\n    {\n      \"criteria\": \"Localized, resectable disease\",\n      \"options\": [\n        {\n          \"type\": \"surgery\",\n          \"label\": \"Wide excision\",\n          \"preference\": \"preferred\",\n          \"recommendation\": \"With negative margins [CHON-3].\",\n          \"linked_regimen_ids\": []\n        }\n      ],\n      \"adjuvant_logic\": {\n        \"applies\": true,\n        \"summary\": \"May consider treating as osteosarcoma (catego\"\n      }\n    }\n  ]\n}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Atypical Cartilaginous Tumors (Low-Grade Intracompartmental Appendicular Tumors)",
+      "nodes": [
+        {
+          "id": "p1_d1",
+          "label": "Low-grade intracompartmental appendicular tumors (atypical cartilaginous tumors)",
+          "type": "decision"
+        },
+        {
+          "id": "p1_t1",
+          "label": "Intralesional excision ± surgical adjuvant",
+          "type": "treatment"
+        },
+        {
+          "id": "p1_t2",
+          "label": "Observation",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p1_d1",
+          "target": "p1_t1",
+          "label": "Intralesional excision ± surgical adjuvant"
+        },
+        {
+          "source": "p1_d1",
+          "target": "p1_t2",
+          "label": "Observation"
+        }
+      ]
+    },
+    {
+      "title": "Low-Grade Extracompartmental Appendicular Tumors, Grade I Axial Tumors, High-Grade (Grade II/III), Clear Cell, or Extracompartmental Chondrosarcoma",
+      "nodes": [
+        {
+          "id": "p2_d1",
+          "label": "Resectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "p2_t1",
+          "label": "Wide excision",
+          "type": "treatment"
+        },
+        {
+          "id": "p2_t1_adj",
+          "label": "Adjuvant RT may be considered for positive margins or large extracompartmental tumors (category 2B). Radiation is not needed for negative margins [BONE-C 1 of 6].",
+          "type": "treatment"
+        },
+        {
+          "id": "p2_d2",
+          "label": "Borderline resectable or unresectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "p2_t2",
+          "label": "Consider RT (category 2B)",
+          "type": "treatment"
+        },
+        {
+          "id": "p2_d3",
+          "label": "Metastatic disease (oligometastatic or widespread)",
+          "type": "decision"
+        },
+        {
+          "id": "p2_t3",
+          "label": "Surgical excision of all sites if possible",
+          "type": "treatment"
+        },
+        {
+          "id": "p2_t4",
+          "label": "Consider RT for unresectable sites",
+          "type": "treatment"
+        },
+        {
+          "id": "p2_t5",
+          "label": "Consider systemic therapy (for widespread disease)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p2_d1",
+          "target": "p2_t1",
+          "label": "Wide excision"
+        },
+        {
+          "source": "p2_t1",
+          "target": "p2_t1_adj",
+          "label": "Adjuvant RT may be considered for positive margins or large extracompartmental tumors (category 2B). Radiation is not needed for negative margins [BONE-C 1 of 6]."
+        },
+        {
+          "source": "p2_d2",
+          "target": "p2_t2",
+          "label": "Consider RT (category 2B)"
+        },
+        {
+          "source": "p2_d3",
+          "target": "p2_t3",
+          "label": "Surgical excision of all sites if possible"
+        },
+        {
+          "source": "p2_d3",
+          "target": "p2_t4",
+          "label": "Consider RT for unresectable sites"
+        },
+        {
+          "source": "p2_d3",
+          "target": "p2_t5",
+          "label": "Consider systemic therapy (for widespread disease)"
+        }
+      ]
+    },
+    {
+      "title": "Mesenchymal Chondrosarcoma",
+      "nodes": [
+        {
+          "id": "p3_d1",
+          "label": "Localized, resectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "p3_t1",
+          "label": "Wide excision",
+          "type": "treatment"
+        },
+        {
+          "id": "p3_t1_adj",
+          "label": "Consider Ewing sarcoma regimens (category 2B) or doxorubicin-based regimens (doxorubicin alone or doxorubicin/ifosfamide/mesna) as adjuvant/neoadjuvant therapy [BONE-B 1 of 7].",
+          "type": "treatment"
+        },
+        {
+          "id": "p3_d2",
+          "label": "Unresectable or metastatic disease",
+          "type": "decision"
+        },
+        {
+          "id": "p3_t2",
+          "label": "Systemic therapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p3_d1",
+          "target": "p3_t1",
+          "label": "Wide excision"
+        },
+        {
+          "source": "p3_t1",
+          "target": "p3_t1_adj",
+          "label": "Consider Ewing sarcoma regimens (category 2B) or doxorubicin-based regimens (doxorubicin alone or doxorubicin/ifosfamide/mesna) as adjuvant/neoadjuvant therapy [BONE-B 1 of 7]."
+        },
+        {
+          "source": "p3_d2",
+          "target": "p3_t2",
+          "label": "Systemic therapy"
+        }
+      ]
+    },
+    {
+      "title": "Dedifferentiated Chondrosarcoma",
+      "nodes": [
+        {
+          "id": "p4_d1",
+          "label": "Localized, resectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "p4_t1",
+          "label": "Wide excision",
+          "type": "treatment"
+        },
+        {
+          "id": "p4_t1_adj",
+          "label": "May consider treating as osteosarcoma (catego",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "p4_d1",
+          "target": "p4_t1",
+          "label": "Wide excision"
+        },
+        {
+          "source": "p4_t1",
+          "target": "p4_t1_adj",
+          "label": "May consider treating as osteosarcoma (catego"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "bone",
+  "_chars_in": 5000
+}

@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\"principles\": [\"Modern radiotherapy involves smaller fields and lower doses than historically used [TEST-C].\", \"CT-based AP-PA 3D-CRT has lower Dmean and D50% for kidneys, liver, and bowel compared to IMRT. IMRT is not necessary. Proton therapy can be considered [TEST-C].\", \"RT should start once orchiectomy wound has fully healed. Patients treated 5 days per week [TEST-C].\", \"Antiemetic prophylaxis encouraged at least 2 hours prior to each treatment [TEST-C].\", \"Discussion of semen analysis and sperm banking prior to treatment if clinically indicated [TEST-C].\", \"Non-contrast CT simulation with patient supine, arms at sides, in treatment position [TEST-C].\", \"All patients except those with bilateral orchiectomy should be treated with scrotal shield [TEST-C].\", \"Linear accelerators with >6 MV photons should be used when possible [TEST-C].\"], \"dose_frameworks\": [{\"name\": \"Stage I Seminoma Adjuvant RT\", \"total_dose\": \"20 Gy (preferred), 25.5 Gy, 19.8 Gy, or 21.6 Gy\", \"dose_per_fraction\": \"2.0 Gy, 1.5 Gy, 1.8 Gy, or 1.8 Gy respectively\", \"fractions\": \"10, 17, 11, or 12 respectively\", \"schedule\": \"Daily fractions over 2-3.5 weeks\", \"indications\": \"Adjuvant treatment for stage I seminoma after orchiectomy [TEST-C].\"}, {\"name\": \"Stage IIA Seminoma RT\", \"total_dose\": \"30 Gy (1-2 cm disease)\", \"dose_per_fraction\": \"1.8-2.0 Gy\", \"fractions\": \"Approximately 16-17 fractions\", \"schedule\": \"Two consecutive phases: modified dog-leg fields to 20-25.5 Gy then cone down\", \"indications\": \"Clinical stage IIA seminoma with non-bulky disease [TEST-C].\"}, {\"name\": \"Stage IIB Seminoma RT\", \"total_dose\": \"36 Gy (2-3 cm disease)\", \"dose_per_fraction\": \"1.8-2.0 Gy\", \"fractions\": \"Approximately 20 fractions\", \"schedule\": \"Two consecutive phases: modified dog-leg fields to 20-25.5 Gy then cone down\", \"indications\": \"Clinical stage IIB seminoma with non-bulky disease [TEST-C].\"}], \"approaches\": [{\"name\": \"Para-aortic Strip Fields RT (Stage I)\", \"dose_fractionation\": \"20 Gy in 10 fractions of 2.0 Gy each (preferred) or alternative schedules\", \"concurrent_chemotherapy\": \"None\", \"indication\": \"Stage I seminoma adjuvant treatment\", \"key_trial\": \"MRC TE18/EORTC 30942 trial comparing 20 Gy vs 30 Gy showing no difference in relapse rates [MS-10]\", \"toxicities\": \"Late toxicities including secondary malignancies, potential cardiovascular effects. Long-term follow-up studies indicate increased late toxicities with RT [MS-10].\"}, {\"name\": \"Modified Dog-Leg Fields + Cone Down (Stage IIA/B)\", \"dose_fractionation\": \"Initial phase: 20-25.5 Gy; Cone down to 30 Gy (IIA) or 36 Gy (IIB)\", \"concurrent_chemotherapy\": \"None (separate approach from chemotherapy)\", \"indication\": \"Clinical stage IIA/IIB seminoma\", \"key_trial\": \"Classen et al trial establishing standard field arrangements [MS-14]\", \"toxicities\": \"Acute: nausea, fatigue, diarrhea. Late: secondary malignancies, potential cardiovascular effects [MS-14]\"}, {\"name\": \"Carboplatin + Involved-Node RT (SAKK 01/10)\", \"dose_fractionation\": \"Single-dose carboplatin followed by involved-node RT\", \"concurrent_chemotherapy\": \"Sequential, not concurrent\", \"indication\": \"Stage IIA/IIB seminoma (category 2B)\", \"key_trial\": \"SAKK 01/10: 3-year PFS 93.7% [SEM-3, MS-14]\", \"toxicities\": \"Grade 3-4: neutropenia 4%, thrombocytopenia 3%, vomiting 1%. No treatment-related deaths or late toxic effects reported [MS-14]\"}]}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Stage I Adjuvant RT - Dose",
+      "value": 20,
+      "unit": "Gy (10 fractions)"
+    },
+    {
+      "label": "Stage I Adjuvant RT - Dose",
+      "value": 25.5,
+      "unit": "Gy (17 fractions)"
+    },
+    {
+      "label": "Stage I Adjuvant RT - Dose",
+      "value": 19.8,
+      "unit": "Gy (11 fractions)"
+    },
+    {
+      "label": "Stage I Adjuvant RT - Dose",
+      "value": 21.6,
+      "unit": "Gy (12 fractions)"
+    },
+    {
+      "label": "Stage IIA Seminoma RT - Dose",
+      "value": 30,
+      "unit": "Gy (~16-17 fractions)"
+    },
+    {
+      "label": "Stage IIB Seminoma RT - Dose",
+      "value": 36,
+      "unit": "Gy (~20 fractions)"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Stage I Seminoma Adjuvant RT",
+      "body": "Total dose: 20 Gy (preferred), 25.5 Gy, 19.8 Gy, or 21.6 Gy. Fractions: 10, 17, 11, or 12 respectively. Daily fractions over 2-3.5 weeks.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Stage IIA Seminoma RT",
+      "body": "Total dose: 30 Gy (1-2 cm disease). Dose per fraction: 1.8-2.0 Gy. Approximately 16-17 fractions. Two consecutive phases: modified dog-leg fields to 20-25.5 Gy then cone down.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Stage IIB Seminoma RT",
+      "body": "Total dose: 36 Gy (2-3 cm disease). Dose per fraction: 1.8-2.0 Gy. Approximately 20 fractions. Two consecutive phases: modified dog-leg fields to 20-25.5 Gy then cone down.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Para-aortic Strip Fields RT (Stage I)",
+      "body": "Dose/fractionation: 20 Gy in 10 fractions of 2.0 Gy each (preferred) or alternative schedules. Indication: Stage I seminoma adjuvant treatment.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Modified Dog-Leg Fields + Cone Down (Stage IIA/B)",
+      "body": "Initial phase: 20-25.5 Gy; Cone down to 30 Gy (IIA) or 36 Gy (IIB). Indication: Clinical stage IIA/IIB seminoma.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Carboplatin + Involved-Node RT (SAKK 01/10)",
+      "body": "Single-dose carboplatin followed by involved-node RT. Indication: Stage IIA/IIB seminoma (category 2B).",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "testicular",
+  "_chars_in": 3569
+}

@@ -1,0 +1,109 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Thyroid carcinoma management is guided by histologic subtype, tumor stage, and patient factors. The primary treatment is surgery, followed by radioactive iodine (RAI) ablation in selected patients and thyroid hormone therapy. Management is multidisciplinary, involving endocrinology, surgery, oncology, and radiology. The goal is to maximize cure rates while minimizing morbidity, considering the typically excellent prognosis of differentiated thyroid carcinomas (10-year survival >90%) and the poor prognosis of anaplastic carcinoma (median survival ~5 months). [1, 8, 11, 522, 524]"
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Thyroid Carcinoma Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Multidisciplinary Team Consultation",
+        "type": "treatment"
+      },
+      {
+        "id": "n3",
+        "label": "Assess Histology, Stage, Patient Factors & Performance Status",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Active Surveillance (Low-risk Papillary Microcarcinoma ≤1cm)",
+        "type": "treatment"
+      },
+      {
+        "id": "n5",
+        "label": "Surgery ± RAI Ablation ± TSH Suppression",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Systemic Therapy / EBRT / Supportive Care",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Recurrence/Progression Monitoring",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "All patients"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "After MDT consultation"
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "label": "Low-risk papillary microcarcinoma (≤1cm, no aggressive features)"
+      },
+      {
+        "source": "n3",
+        "target": "n5",
+        "label": "Localized/locoregional differentiated or medullary carcinoma; good performance status"
+      },
+      {
+        "source": "n3",
+        "target": "n6",
+        "label": "Advanced, metastatic, RAI-refractory, anaplastic; consider performance status"
+      },
+      {
+        "source": "n4",
+        "target": "n7",
+        "label": "Neck ultrasound every 6 months x 1-2 years, then annually; consider surgery if progression"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "Monitor for recurrence, TSH suppression, RAI as indicated"
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "label": "Monitor response; clinical trials if appropriate"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patients with localized or locoregional disease (e.g., papillary, follicular, oncocytic, medullary carcinomas). Surgical resection (total thyroidectomy or lobectomy) is the primary curative treatment. For differentiated carcinomas, RAI ablation may be used to eliminate residual disease or as adjuvant therapy. TSH suppression with levothyroxine is standard. For medullary carcinoma, total thyroidectomy with central neck dissection is indicated. [3, 375, 430, 431]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative",
+      "detail": "Patients with advanced, recurrent, or metastatic disease not amenable to curative treatment (e.g., RAI-refractory differentiated thyroid cancer, advanced medullary carcinoma, anaplastic carcinoma). Systemic therapy (e.g., tyrosine kinase inhibitors, immunotherapy), external beam radiation therapy (EBRT), and supportive care. Clinical trials are encouraged. [11, 322, 328, 430, 431, 520]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Surveillance",
+      "detail": "Patients with low-risk papillary thyroid microcarcinoma (≤1 cm) without aggressive features. Active surveillance with neck ultrasound every 6 months for 1–2 years, then annually, with consideration for surgery if growth or new features develop. [3, 380–384, THYR-D]",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "thyroid",
+  "_chars_in": 2651
+}

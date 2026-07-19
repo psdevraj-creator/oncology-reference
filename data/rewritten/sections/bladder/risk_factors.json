@@ -1,0 +1,90 @@
+{
+  "sections": [
+    {
+      "heading": "Risk Factors",
+      "content": "[{\"factor\": \"Tobacco smoking\", \"type\": \"Behavioral\", \"detail\": \"The most established risk factor, accounting for approximately 50% of cases in men and 30% in women. Risk increases with duration and intensity of smoking and persists for years after cessation.\", \"strength\": \"Strong; cigarettes are the primary source, but pipe, cigar, and pipe smoking also increase risk.\"}, {\"factor\": \"Occupational and environmental exposures\", \"type\": \"Environmental\", \"detail\": \"Exposure to aromatic amines (e.g., 2-naphthylamine, 4-aminobiphenyl), polycyclic aromatic hydrocarbons, and chlorinated solvents (e.g., trichloroethylene) in industries such as dye, rubber, leather, painting, and metalworking.\", \"strength\": \"Moderate to strong; well-established in occupational settings.\"}, {\"factor\": \"Pelvic radiation therapy\", \"type\": \"Therapeutic\", \"detail\": \"Prior radiation therapy for cancers of the cervix, prostate, or other pelvic malignancies increases the risk of bladder cancer, typically after a latent period of several years.\", \"strength\": \"Moderate; risk is dose-dependent.\"}, {\"factor\": \"Certain medications\", \"type\": \"Pharmacological\", \"detail\": \"Chronic use of cyclophosphamide (an alkylating agent) and pioglitazone (a thiazolidinedione diabetes medication) has been associated with increased risk.\", \"strength\": \"Moderate; based on epidemiological studies.\"}, {\"factor\": \"Chronic urinary tract irritation or infection\", \"type\": \"Inflammatory/Infectious\", \"detail\": \"Long-term indwelling catheters, bladder stones, and chronic urinary tract infections are risk factors. Schistosoma haematobium infection is a major cause of squamous cell carcinoma in endemic regions.\", \"strength\": \"Moderate; particularly strong for squamous cell carcinoma in schistosomiasis-endemic areas.\"}, {\"factor\": \"Personal or family history of bladder cancer\", \"type\": \"Genetic/Familial\", \"detail\": \"A personal history of bladder cancer increases the risk of recurrence and new tumors. First-degree relatives of patients with bladder cancer have a modestly increased risk, suggesting a hereditary component.\", \"strength\": \"Moderate; family history may indicate shared genetic or environmental exposures.\"}, {\"factor\": \"Lynch syndrome\", \"type\": \"Genetic\", \"detail\": \"An autosomal dominant disorder caused by germline mutations in DNA mismatch repair genes (MLH1, MSH2, MSH6, PMS2), leading to a significantly increased risk of urothelial carcinoma, particularly of the upper tract.\", \"strength\": \"Strong; lifetime risk of urothelial carcinoma is up to 8%.\"}, {\"factor\": \"Male sex\", \"type\": \"Demographic\", \"detail\": \"Men have a 3–4 fold higher incidence than women, which may be related to differences in smoking prevalence, occupational exposures, and hormonal factors.\", \"strength\": \"Strong; consistent across populations.\"}, {\"factor\": \"White race\", \"type\": \"Demographic\", \"detail\": \"White individuals have a higher incidence compared to Black individuals in the United States, although Black patients present with more advanced disease.\", \"strength\": \"Moderate; incidence differences may be influenced by socioeconomic and environmental factors.\"}, {\"factor\": \"Obesity\", \"type\": \"Metabolic\", \"detail\": \"Obesity is associated with a modestly increased risk of bladder cancer, potentially mediated by chronic inflammation and hormonal dysregulation.\", \"strength\": \"Moderate; meta-analyses suggest a positive association.\"}, {\"factor\": \"Diabetes mellitus\", \"type\": \"Metabolic\", \"detail\": \"Type 2 diabetes mellitus is associated with an increased risk of bladder cancer, possibly due to hyperinsulinemia or medications used to treat diabetes.\", \"strength\": \"Moderate; evidence from meta-analyses is consistent.\"}]"
+    }
+  ],
+  "waterfall": {
+    "labels": [
+      "Tobacco smoking"
+    ],
+    "values": [
+      45
+    ],
+    "types": [
+      "Behavioral"
+    ]
+  },
+  "cards": [
+    {
+      "factor": "Tobacco smoking",
+      "type": "Behavioral",
+      "strength": "Strong",
+      "detail": "The most established risk factor, accounting for approximately 50% of cases in men and 30% in women. Risk increases with duration and intensity of smoking and persists for years after cessation."
+    },
+    {
+      "factor": "Occupational and environmental exposures",
+      "type": "Environmental",
+      "strength": "Moderate to strong",
+      "detail": "Exposure to aromatic amines (e.g., 2-naphthylamine, 4-aminobiphenyl), polycyclic aromatic hydrocarbons, and chlorinated solvents (e.g., trichloroethylene) in industries such as dye, rubber, leather, painting, and metalworking."
+    },
+    {
+      "factor": "Pelvic radiation therapy",
+      "type": "Therapeutic",
+      "strength": "Moderate",
+      "detail": "Prior radiation therapy for cancers of the cervix, prostate, or other pelvic malignancies increases the risk of bladder cancer, typically after a latent period of several years."
+    },
+    {
+      "factor": "Certain medications",
+      "type": "Pharmacological",
+      "strength": "Moderate",
+      "detail": "Chronic use of cyclophosphamide (an alkylating agent) and pioglitazone (a thiazolidinedione diabetes medication) has been associated with increased risk."
+    },
+    {
+      "factor": "Chronic urinary tract irritation or infection",
+      "type": "Inflammatory/Infectious",
+      "strength": "Moderate",
+      "detail": "Long-term indwelling catheters, bladder stones, and chronic urinary tract infections are risk factors. Schistosoma haematobium infection is a major cause of squamous cell carcinoma in endemic regions."
+    },
+    {
+      "factor": "Personal or family history of bladder cancer",
+      "type": "Genetic/Familial",
+      "strength": "Moderate",
+      "detail": "A personal history of bladder cancer increases the risk of recurrence and new tumors. First-degree relatives of patients with bladder cancer have a modestly increased risk, suggesting a hereditary component."
+    },
+    {
+      "factor": "Lynch syndrome",
+      "type": "Genetic",
+      "strength": "Strong",
+      "detail": "An autosomal dominant disorder caused by germline mutations in DNA mismatch repair genes (MLH1, MSH2, MSH6, PMS2), leading to a significantly increased risk of urothelial carcinoma, particularly of the upper tract."
+    },
+    {
+      "factor": "Male sex",
+      "type": "Demographic",
+      "strength": "Strong",
+      "detail": "Men have a 3–4 fold higher incidence than women, which may be related to differences in smoking prevalence, occupational exposures, and hormonal factors."
+    },
+    {
+      "factor": "White race",
+      "type": "Demographic",
+      "strength": "Moderate",
+      "detail": "White individuals have a higher incidence compared to Black individuals in the United States, although Black patients present with more advanced disease."
+    },
+    {
+      "factor": "Obesity",
+      "type": "Metabolic",
+      "strength": "Moderate",
+      "detail": "Obesity is associated with a modestly increased risk of bladder cancer, potentially mediated by chronic inflammation and hormonal dysregulation."
+    },
+    {
+      "factor": "Diabetes mellitus",
+      "type": "Metabolic",
+      "strength": "Moderate",
+      "detail": "Type 2 diabetes mellitus is associated with an increased risk of bladder cancer, possibly due to hyperinsulinemia or medications used to treat diabetes."
+    }
+  ],
+  "_section": "risk_factors",
+  "_site_id": "bladder",
+  "_chars_in": 3690
+}

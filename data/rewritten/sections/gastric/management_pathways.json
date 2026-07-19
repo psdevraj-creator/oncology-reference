@@ -1,0 +1,269 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"localized_early_stage\", \"title\": \"Localized Disease: cTis or cT1a or Superficial cT1b\", \"branching_basis\": [\"Clinical T-stage\", \"Medical fitness for surgery\"], \"nodes\": [{\"criteria\": \"cTis or cT1a (medically fit)\", \"options\": [{\"type\": \"Endoscopic\", \"label\": \"Endoscopic Resection (ER)\", \"preference\": \"Preferred for staging and potential cure\", \"recommendation\": \"ER (EMR or ESD) is essential for accurate staging of early-stage cancers and can be therapeutic. Curative features include small size (≤2 cm), superficial invasion (T1a or T1b ≤500 µm), well or moderately differentiated, complete excision with negative margins.\", \"linked_regimen_ids\": []}, {\"type\": \"Surgical\", \"label\": \"Surgery\", \"preference\": \"Appropriate for ≥T1b cancer or actively bleeding cancer, or when postoperative therapy is preferred\", \"recommendation\": \"Gastrectomy with lymphadenectomy.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"For pTis or pT1a, N0 (including superficial pT1b) following R0 resection, observation is recommended due to relatively good prognosis and lack of evidence for benefit from postoperative therapy.\"}}, {\"criteria\": \"cTis or cT1a (nonsurgical candidate)\", \"options\": [{\"type\": \"Endoscopic\", \"label\": \"Endoscopic Resection (ER)\", \"preference\": \"Recommended\", \"recommendation\": \"ER is recommended for nonsurgical candidates with cTis or cT1a tumors.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}, {\"criteria\": \"Superficial cT1b (medically fit, potentially resectable)\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Surgery\", \"preference\": \"Recommended\", \"recommendation\": \"Surgery as primary therapy is appropriate for ≥T1b cancer.\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Postoperative management depends on final pathologic stage and margin status (see GAST-4).\"}}]}, {\"pathway_id\": \"locoregional_resectable\", \"title\": \"Locoregional Disease (cM0, Any N): Medically Fit, Potentially Resectable\", \"branching_basis\": [\"Clinical T-stage\", \"Biomarker status (MSI-H/dMMR)\"], \"nodes\": [{\"criteria\": \"cT2 or higher, Any N (non-MSI-H/dMMR)\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Surgery\", \"preference\": \"Option\", \"recommendation\": \"Surgery as primary therapy is appropriate.\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic\", \"label\": \"Perioperative Systemic Therapy\", \"preference\": \"Category 1 recommendation\", \"recommendation\": \"Perioperative systemic therapy is a category 1 recommendation for localized gastric cancer. Preferred regimens include FLOT (category 1) or fluoropyrimidine and oxaliplatin.\", \"linked_regimen_ids\": [\"perioperative_FLOT\", \"perioperative_flox\"]}, {\"type\": \"Immunotherapy\", \"label\": \"Consider Neoadjuvant/Perioperative ICI\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Consider neoadjuvant or perioperative immune checkpoint inhibitor(s) (ICI) if tumor is MSI-H/dMMR. Multidisciplinary evaluation is recommended.\", \"linked_regimen_ids\": [\"neoadjuvant_pembrolizumab_MSI\", \"neoadjuvant_nivoipi_MSI\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Response assessment is performed after neoadjuvant/perioperative therapy. Management is then based on surgical outcomes (GAST-4/GAST-5).\"}}, {\"criteria\": \"cT2 or higher, Any N (MSI-H/dMMR)\", \"options\": [{\"type\": \"Surgical\", \"label\": \"Surgery\", \"preference\": \"Option\", \"recommendation\": \"Surgery as primary therapy is appropriate.\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic\", \"label\": \"Perioperative Systemic Therapy\", \"preference\": \"Option\", \"recommendation\": \"Perioperative systemic therapy is an option.\", \"linked_regimen_ids\": [\"perioperative_FLOT\", \"perioperative_flox\"]}, {\"type\": \"Immunotherapy\", \"label\": \"Consider Neoadjuvant/Perioperative ICI\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"In patients with a MSI-H/dMMR tumor, perioperative immunotherapy should be considered in consultation with a multidisciplinary team. Gastrectomy with appropriate lymphadenectomy remains the standard approach outside of prospective organ-preservation clinical trials.\", \"linked_regimen_ids\": [\"neoadjuvant_pembrolizumab_MSI\", \"neoadjuvant_nivoipi_MSI\", \"neoadjuvant_dostarlimab_MSI\", \"neoadjuvant_tremelidurva_MSI\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Response assessment includes FDG-PET/CT (5–8 weeks after therapy) as clinically indicated, EGD and biopsy. If radiologic and endoscopic complete response occurs, gastrectomy remains the standard outside of organ-preservation trials. Immunotherapy treatment should be given for at least 1 year (counting perioperative and adjuvant settings).\"}}]}, {\"pathway_id\": \"locoregional_unresectable\", \"title\": \"Locoregional Disease (cM0, Any N): Medically Fit, Surgically Unresectable\", \"branching_basis\": [\"Surgical resectability after staging\"], \"nodes\": [{\"criteria\": \"Surgically unresectable after laparoscopic staging\", \"options\": [{\"type\": \"Combined Modality\", \"label\": \"Chemoradi\"}]}]}]"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Localized Disease: cTis or cT1a or Superficial cT1b",
+      "nodes": [
+        {
+          "id": "loc_early_start",
+          "label": "Localized Disease: cTis or cT1a or Superficial cT1b\nBranching: Clinical T-stage, Medical fitness for surgery",
+          "type": "decision"
+        },
+        {
+          "id": "loc_early_crit1",
+          "label": "cTis or cT1a (medically fit)",
+          "type": "decision"
+        },
+        {
+          "id": "loc_early_opt1a",
+          "label": "Endoscopic Resection (ER)\nPreferred for staging and potential cure\nER (EMR or ESD) is essential for accurate staging of early-stage cancers and can be therapeutic. Curative features include small size (≤2 cm), superficial invasion (T1a or T1b ≤500 µm), well or moderately differentiated, complete excision with negative margins.",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_early_opt1b",
+          "label": "Surgery\nAppropriate for ≥T1b cancer or actively bleeding cancer, or when postoperative therapy is preferred\nGastrectomy with lymphadenectomy.",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_early_crit2",
+          "label": "cTis or cT1a (nonsurgical candidate)",
+          "type": "decision"
+        },
+        {
+          "id": "loc_early_opt2a",
+          "label": "Endoscopic Resection (ER)\nRecommended\nER is recommended for nonsurgical candidates with cTis or cT1a tumors.",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_early_crit3",
+          "label": "Superficial cT1b (medically fit, potentially resectable)",
+          "type": "decision"
+        },
+        {
+          "id": "loc_early_opt3a",
+          "label": "Surgery\nRecommended\nSurgery as primary therapy is appropriate for ≥T1b cancer.",
+          "type": "treatment"
+        },
+        {
+          "id": "loc_early_adj3",
+          "label": "Adjuvant: Postoperative management depends on final pathologic stage and margin status (see GAST-4).",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "loc_early_start",
+          "target": "loc_early_crit1",
+          "label": "Criteria"
+        },
+        {
+          "source": "loc_early_start",
+          "target": "loc_early_crit2",
+          "label": "Criteria"
+        },
+        {
+          "source": "loc_early_start",
+          "target": "loc_early_crit3",
+          "label": "Criteria"
+        },
+        {
+          "source": "loc_early_crit1",
+          "target": "loc_early_opt1a",
+          "label": "Preferred"
+        },
+        {
+          "source": "loc_early_crit1",
+          "target": "loc_early_opt1b",
+          "label": "Appropriate for ≥T1b"
+        },
+        {
+          "source": "loc_early_crit2",
+          "target": "loc_early_opt2a",
+          "label": "Recommended"
+        },
+        {
+          "source": "loc_early_crit3",
+          "target": "loc_early_opt3a",
+          "label": "Recommended"
+        },
+        {
+          "source": "loc_early_opt3a",
+          "target": "loc_early_adj3",
+          "label": "Adjuvant logic applies"
+        }
+      ]
+    },
+    {
+      "title": "Locoregional Disease (cM0, Any N): Medically Fit, Potentially Resectable",
+      "nodes": [
+        {
+          "id": "locreg_res_start",
+          "label": "Locoregional Disease (cM0, Any N): Medically Fit, Potentially Resectable\nBranching: Clinical T-stage, Biomarker status (MSI-H/dMMR)",
+          "type": "decision"
+        },
+        {
+          "id": "locreg_res_crit1",
+          "label": "cT2 or higher, Any N (non-MSI-H/dMMR)",
+          "type": "decision"
+        },
+        {
+          "id": "locreg_res_opt1a",
+          "label": "Surgery\nOption\nSurgery as primary therapy is appropriate.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_opt1b",
+          "label": "Perioperative Systemic Therapy\nCategory 1 recommendation\nPerioperative systemic therapy is a category 1 recommendation for localized gastric cancer. Preferred regimens include FLOT (category 1) or fluoropyrimidine and oxaliplatin.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_opt1c",
+          "label": "Consider Neoadjuvant/Perioperative ICI\nUseful in certain circumstances\nConsider neoadjuvant or perioperative immune checkpoint inhibitor(s) (ICI) if tumor is MSI-H/dMMR. Multidisciplinary evaluation is recommended.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_crit2",
+          "label": "cT2 or higher, Any N (MSI-H/dMMR)",
+          "type": "decision"
+        },
+        {
+          "id": "locreg_res_opt2a",
+          "label": "Surgery\nOption\nSurgery as primary therapy is appropriate.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_opt2b",
+          "label": "Perioperative Systemic Therapy\nOption\nPerioperative systemic therapy is an option.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_opt2c",
+          "label": "Consider Neoadjuvant/Perioperative ICI\nUseful in certain circumstances\nIn patients with a MSI-H/dMMR tumor, perioperative immunotherapy should be considered in consultation with a multidisciplinary team. Gastrectomy with appropriate lymphadenectomy remains the standard approach outside of prospective organ-preservation clinical trials.",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_adj1",
+          "label": "Adjuvant: Response assessment is performed after neoadjuvant/perioperative therapy. Management is then based on surgical outcomes (GAST-4/GAST-5).",
+          "type": "treatment"
+        },
+        {
+          "id": "locreg_res_adj2",
+          "label": "Adjuvant: Response assessment includes FDG-PET/CT (5–8 weeks after therapy) as clinically indicated, EGD and biopsy. If radiologic and endoscopic complete response occurs, gastrectomy remains the standard outside of organ-preservation trials. Immunotherapy treatment should be given for at least 1 year (counting perioperative and adjuvant settings).",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "locreg_res_start",
+          "target": "locreg_res_crit1",
+          "label": "Criteria"
+        },
+        {
+          "source": "locreg_res_start",
+          "target": "locreg_res_crit2",
+          "label": "Criteria"
+        },
+        {
+          "source": "locreg_res_crit1",
+          "target": "locreg_res_opt1a",
+          "label": "Option"
+        },
+        {
+          "source": "locreg_res_crit1",
+          "target": "locreg_res_opt1b",
+          "label": "Category 1 recommendation"
+        },
+        {
+          "source": "locreg_res_crit1",
+          "target": "locreg_res_opt1c",
+          "label": "Useful in certain circumstances"
+        },
+        {
+          "source": "locreg_res_crit2",
+          "target": "locreg_res_opt2a",
+          "label": "Option"
+        },
+        {
+          "source": "locreg_res_crit2",
+          "target": "locreg_res_opt2b",
+          "label": "Option"
+        },
+        {
+          "source": "locreg_res_crit2",
+          "target": "locreg_res_opt2c",
+          "label": "Useful in certain circumstances"
+        },
+        {
+          "source": "locreg_res_opt1a",
+          "target": "locreg_res_adj1",
+          "label": "Adjuvant logic (non-MSI-H/dMMR)"
+        },
+        {
+          "source": "locreg_res_opt1b",
+          "target": "locreg_res_adj1",
+          "label": "Adjuvant logic (non-MSI-H/dMMR)"
+        },
+        {
+          "source": "locreg_res_opt1c",
+          "target": "locreg_res_adj1",
+          "label": "Adjuvant logic (non-MSI-H/dMMR)"
+        },
+        {
+          "source": "locreg_res_opt2a",
+          "target": "locreg_res_adj2",
+          "label": "Adjuvant logic (MSI-H/dMMR)"
+        },
+        {
+          "source": "locreg_res_opt2b",
+          "target": "locreg_res_adj2",
+          "label": "Adjuvant logic (MSI-H/dMMR)"
+        },
+        {
+          "source": "locreg_res_opt2c",
+          "target": "locreg_res_adj2",
+          "label": "Adjuvant logic (MSI-H/dMMR)"
+        }
+      ]
+    },
+    {
+      "title": "Locoregional Disease (cM0, Any N): Medically Fit, Surgically Unresectable",
+      "nodes": [
+        {
+          "id": "locreg_unres_start",
+          "label": "Locoregional Disease (cM0, Any N): Medically Fit, Surgically Unresectable\nBranching: Surgical resectability after staging",
+          "type": "decision"
+        },
+        {
+          "id": "locreg_unres_crit1",
+          "label": "Surgically unresectable after laparoscopic staging",
+          "type": "decision"
+        },
+        {
+          "id": "locreg_unres_opt1a",
+          "label": "Chemoradi (incomplete input)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "locreg_unres_start",
+          "target": "locreg_unres_crit1",
+          "label": "Criteria"
+        },
+        {
+          "source": "locreg_unres_crit1",
+          "target": "locreg_unres_opt1a",
+          "label": "Option"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "gastric",
+  "_chars_in": 5000
+}

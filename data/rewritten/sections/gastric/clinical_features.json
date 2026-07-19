@@ -1,0 +1,73 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Vague upper abdominal discomfort: Nonspecific upper abdominal symptoms that may be attributed to benign conditions, contributing to diagnostic delay (Common in early-stage disease). Dyspepsia: Epigastric discomfort, early satiety, or postprandial fullness may be present (Common). Weight loss: Unintentional weight loss is a common presenting symptom, especially in advanced disease (Frequent in advanced disease). Anorexia: Loss of appetite may be an early or late symptom (Common). Dysphagia: Difficulty swallowing, particularly with proximal or EGJ tumors (Variable, more common with proximal tumors). Hematemesis or melena: Acute severe bleeding may occur, directly from the tumor or as a consequence of therapy; patients with acute severe bleeding should undergo prompt endoscopic assessment (Common in advanced disease)."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vague upper abdominal discomfort",
+      "detail": "Nonspecific upper abdominal symptoms that may be attributed to benign conditions, contributing to diagnostic delay",
+      "frequency": "Common in early-stage disease",
+      "alarm": false
+    },
+    {
+      "name": "Dyspepsia",
+      "detail": "Epigastric discomfort, early satiety, or postprandial fullness may be present",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Weight loss",
+      "detail": "Unintentional weight loss is a common presenting symptom, especially in advanced disease",
+      "frequency": "Frequent in advanced disease",
+      "alarm": false
+    },
+    {
+      "name": "Anorexia",
+      "detail": "Loss of appetite may be an early or late symptom",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Dysphagia",
+      "detail": "Difficulty swallowing, particularly with proximal or EGJ tumors",
+      "frequency": "Variable, more common with proximal tumors",
+      "alarm": false
+    },
+    {
+      "name": "Hematemesis or melena",
+      "detail": "Acute severe bleeding may occur, directly from the tumor or as a consequence of therapy; patients with acute severe bleeding should undergo prompt endoscopic assessment",
+      "frequency": "Common in advanced disease",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Hematemesis or melena",
+      "detail": "Acute severe bleeding may occur, directly from the tumor or as a consequence of therapy; patients with acute severe bleeding should undergo prompt endoscopic assessment"
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Vague upper abdominal discomfort",
+      "Dyspepsia",
+      "Weight loss",
+      "Anorexia",
+      "Dysphagia",
+      "Hematemesis or melena"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "gastric",
+  "_chars_in": 4110
+}

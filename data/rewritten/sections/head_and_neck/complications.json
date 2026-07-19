@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "heading": "Complications",
+      "content": "Disease-related complications: Dysphagia and aspiration (management: Swallowing evaluation and therapy; feeding tube placement if severe; speech-language pathology involvement.), Airway obstruction (management: Tracheostomy or tumor debulking as indicated.), Pain (management: Multimodal analgesia including opioids; referral to pain management and palliative care.), Hemorrhage (from tumor erosion) (management: Urgent evaluation; possible embolization or surgical intervention.), Malnutrition and weight loss (management: Nutritional assessment and support; enteral feeding via NG or PEG tube per NUTR-A guidelines.), Speech and voice changes (management: Speech-language therapy; possible prosthetic or surgical voice restoration.).\n\nTreatment-related complications - Chemotherapy: Cisplatin: nephrotoxicity (requires hydration and monitoring), ototoxicity, peripheral neuropathy, nausea/emesis, myelosuppression, hypomagnesemia. Carboplatin: less nephrotoxicity but more myelosuppression; alternative for cisplatin-ineligible patients. 5-FU: mucositis, diarrhea, hand-foot syndrome; requires DPYD testing consideration (see NCCN Guidelines for Colon Cancer). Docetaxel/paclitaxel: peripheral neuropathy, neutropenia, alopecia, hypersensitivity reactions. Cetuximab: acneiform rash (80%+), infusion reactions (15%), hypomagnesemia; inferior to cisplatin in HPV+ oropharynx when combined with RT [Gillison 2019, Mehanna 2019].\n\nImmunotherapy: Pembrolizumab/nivolumab: immune-related adverse events (irAEs) including pneumonitis, colitis, hepatitis, endocrinopathies (thyroiditis, hypophysitis), dermatitis, and rare myocarditis. Requires monitoring per NCCN Guidelines for Management of Immunotherapy-Related Toxicities. Toripalimab: similar irAE profile; used in nasopharyngeal carcinoma. Subcutaneous formulations (nivolumab + hyaluronidase, pembrolizumab + hyaluronidase) have different dosing and administration compared to IV.\n\nTargeted therapy: Afatinib: diarrhea, rash, stomatitis, paronychia; used second-line for platinum-refractory disease (LUX-Head & Neck 1). Enfortumab vedotin: peripheral neuropathy, skin reactions, hyperglycemia. Erdafitinib: hyperphosphatemia, central serous retinopathy, nail disorders, stomatitis (category 2B for FGFR-altered tumors). Trastuzumab deruxtecan: interstitial lung disease, nausea, myelosuppression; used for HER2+ salivary gland tumors. BRAF/MEK inhibitors (dabrafenib/trametinib): pyrexia, rash, arthralgia, risk of secondary malignancies; avoid concurrent RT due to severe toxicity [Anker 2016].\n\nSurgery: Wound complications: infection, dehiscence, fistula (pharyngocutaneous especially after salvage laryngectomy) [Hasan 2017]. Free flap failure: requires microvascular expertise; risk factors include smoking, prior RT. Nerve injury: facial nerve (parotid surgery), spinal accessory nerve (neck dissection), hypoglossal, vagus, phrenic. Lymphedema of head and neck: may develop years after treatment; requires referral for lymphatic decompression therapy. Swallowing dysfunction after transoral robotic surgery or total laryngectomy: speech/swallowing rehabilitation needed. Tracheostomy complications: infection, bleeding, stenosis, accidental decannulation.\n\nRadiation: Xerostomia: dose-dependent; IMRT reduces risk (PARSPORT trial: grade 2+ xerostomia 29% IMRT vs 83% conventional RT at 2 years) [Nutting 2011]. Dysphagia and pharyngeal stricture: dose to pharyngeal constrictors associated with late swallowing dysfunction; DARS trial showed dysphagia-optimized IMRT improved swallowing [Nutting 2023]. Osteoradionecrosis (ORN) of the mandible: risk increases with dose >70 Gy; dental evaluation and prophylactic extractions at least 2 weeks before RT recommended. Hypothyroidism: TSH monitoring every 6–12 months; incidence 20–25% after neck irradiation [Colevas 2001]. Carotid artery stenosis: risk up to 30% at 10 years; venous duplex ultrasound every 3 years recommended if neck irradiated [Carpenter 2025]. Hypopituitarism: screening with AM cortisol, GH, free T4, prolactin, LH/FSH, ACTH, TSH, testosterone annually after skull base RT (category 2B) [VanKoevering 2020]. Pneumonitis (rare with modern techniques), brachial plexopathy, temporal lobe necrosis (nasopharynx), hearing loss (cochlear dose)."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Cetuximab acneiform rash",
+      "Cetuximab infusion reaction",
+      "Xerostomia (grade 2+)",
+      "Hypothyroidism",
+      "Carotid stenosis"
+    ],
+    "values": [
+      80,
+      15,
+      29,
+      25,
+      30
+    ],
+    "severities": [
+      "moderate",
+      "moderate",
+      "moderate",
+      "mild",
+      "severe"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Cetuximab acneiform rash",
+      "incidence": "80%",
+      "severity": "moderate",
+      "detail": "Cetuximab: acneiform rash (80%+), infusion reactions (15%), hypomagnesemia; inferior to cisplatin in HPV+ oropharynx when combined with RT [Gillison 2019, Mehanna 2019]."
+    },
+    {
+      "name": "Cetuximab infusion reaction",
+      "incidence": "15%",
+      "severity": "moderate",
+      "detail": "Cetuximab: acneiform rash (80%+), infusion reactions (15%), hypomagnesemia; inferior to cisplatin in HPV+ oropharynx when combined with RT [Gillison 2019, Mehanna 2019]."
+    },
+    {
+      "name": "Xerostomia (grade 2+)",
+      "incidence": "29%",
+      "severity": "moderate",
+      "detail": "Xerostomia: dose-dependent; IMRT reduces risk (PARSPORT trial: grade 2+ xerostomia 29% IMRT vs 83% conventional RT at 2 years) [Nutting 2011]."
+    },
+    {
+      "name": "Hypothyroidism",
+      "incidence": "25%",
+      "severity": "mild",
+      "detail": "Hypothyroidism: TSH monitoring every 6–12 months; incidence 20–25% after neck irradiation [Colevas 2001]."
+    },
+    {
+      "name": "Carotid stenosis",
+      "incidence": "30%",
+      "severity": "severe",
+      "detail": "Carotid artery stenosis: risk up to 30% at 10 years; venous duplex ultrasound every 3 years recommended if neck irradiated [Carpenter 2025]."
+    }
+  ],
+  "_section": "complications",
+  "_site_id": "head_and_neck",
+  "_chars_in": 4479
+}

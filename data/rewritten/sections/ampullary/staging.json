@@ -1,0 +1,155 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "{\"system\": \"AJCC Cancer Staging Manual, Eighth Edition (2017)\", \"t_stages\": [{\"stage\": \"TX\", \"description\": \"Primary tumor cannot be assessed.\"}, {\"stage\": \"T0\", \"description\": \"No evidence of primary tumor.\"}, {\"stage\": \"Tis\", \"description\": \"Carcinoma in situ.\"}, {\"stage\": \"T1\", \"description\": \"Tumor limited to ampulla of Vater or sphincter of Oddi or tumor invades beyond the sphincter of Oddi (perisphincteric invasion) and/or into the duodenal submucosa.\"}, {\"stage\": \"T1a\", \"description\": \"Tumor limited to ampulla of Vater or sphincter of Oddi.\"}, {\"stage\": \"T1b\", \"description\": \"Tumor invades beyond the sphincter of Oddi (perisphincteric invasion) and/or into the duodenal submucosa.\"}, {\"stage\": \"T2\", \"description\": \"Tumor invades into the muscularis propria of the duodenum.\"}, {\"stage\": \"T3\", \"description\": \"Tumor directly invades the pancreas (up to 0.5 cm) or tumor extends more than 0.5 cm into the pancreas, or extends into peripancreatic or periduodenal tissue or duodenal serosa without involvement of the celiac axis or superior mesenteric artery.\"}, {\"stage\": \"T3a\", \"description\": \"Tumor directly invades pancreas (up to 0.5 cm).\"}, {\"stage\": \"T3b\", \"description\": \"Tumor extends more than 0.5 cm into the pancreas, or extends into peripancreatic tissue or periduodenal tissue or duodenal serosa without involvement of the celiac axis or superior mesenteric artery.\"}, {\"stage\": \"T4\", \"description\": \"Tumor involves the celiac axis, superior mesenteric artery, and/or common hepatic artery, irrespective of size.\"}], \"n_stages\": [{\"stage\": \"NX\", \"description\": \"Regional lymph nodes cannot be assessed.\"}, {\"stage\": \"N0\", \"description\": \"No regional lymph node metastasis.\"}, {\"stage\": \"N1\", \"description\": \"Metastasis to one to three regional lymph nodes.\"}, {\"stage\": \"N2\", \"description\": \"Metastasis to four or more regional lymph nodes.\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastasis.\"}, {\"stage\": \"M1\", \"description\": \"Distant metastasis.\"}], \"stage_groups\": [{\"group\": \"Stage 0\", \"criteria\": \"Tis, N0, M0\", \"clinical_meaning\": \"Carcinoma in situ; excellent prognosis with surgical resection.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IA\", \"criteria\": \"T1a, N0, M0\", \"clinical_meaning\": \"Tumor limited to the ampulla of Vater or sphincter of Oddi; excellent prognosis with surgery.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IB\", \"criteria\": \"T1b, T2, N0, M0\", \"clinical_meaning\": \"Tumor invades beyond the sphincter of Oddi/duodenal submucosa or into the duodenal muscularis propria; good prognosis with surgery.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IIA\", \"criteria\": \"T3a, N0, M0\", \"clinical_meaning\": \"Tumor directly invades the pancreas (up to 0.5 cm); intermediate prognosis; surgery with consideration of adjuvant therapy.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IIB\", \"criteria\": \"T3b, N0, M0\", \"clinical_meaning\": \"Tumor extends more than 0.5 cm into the pancreas or into peripancreatic/periduodenal tissue; higher risk of recurrence; adjuvant therapy often recommended.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IIIA\", \"criteria\": \"T1a, T1b, T2, T3a, T3b, N1, M0\", \"clinical_meaning\": \"Regional lymph node metastasis (1-3 nodes); higher risk; adjuvant systemic therapy recommended.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative\"}, {\"group\": \"Stage IIIB\", \"criteria\": \"T4, any N, M0; or any T, N2, M0\", \"clinical_meaning\": \"Tumor involves major vascular structures (T4) or extensive lymph node metastasis (4 or more nodes); often considered locally advanced; multidisciplinary management including neoadjuvant therapy may be considered.\", \"five_yr_survival\": null, \"treatment_intent\": \"Curative or palliative, depending on resectability\"}, {\"group\": \"Stage IV\", \"criteria\": \"Any T, any N, M1\", \"clinical_meaning\": \"Distant metastatic disease; not curable with surgery; systemic therapy and palliative care.\", \"five_yr_survival\": null, \"treatment_intent\": \"Palliative\"}], \"staging_pearls\": [\"The ampulla of Vater is anatomically complex, comprising the ampulla, intraduodenal bile duct, and intraduodenal pancreatic duct. Tumors can arise from any component, making staging challenging.\", \"Adequate lymph node assessment is critical for staging. The panel consensus is to assess at least 12 lymph nodes in pancreatoduodenectomy specimens, though this may be more challenging after neoadjuvant therapy.\", \"The distinction between pancreatobiliary and intestinal histologic subtypes is important for prognosis and may influence therapy, but is not part of the TNM staging system.\", \"AJCC staging for ampullary adenocarcinoma is specific to this site and differs from staging for pancreatic or biliary cancers.\", \"Use of a standardized radiology reporting template (e.g., the Pancreatic Adenocarcinoma Radiology Reporting Template) is recommen"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed."
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor."
+    },
+    {
+      "category": "Tis",
+      "description": "Carcinoma in situ."
+    },
+    {
+      "category": "T1",
+      "description": "Tumor limited to ampulla of Vater or sphincter of Oddi or tumor invades beyond the sphincter of Oddi (perisphincteric invasion) and/or into the duodenal submucosa."
+    },
+    {
+      "category": "T1a",
+      "description": "Tumor limited to ampulla of Vater or sphincter of Oddi."
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor invades beyond the sphincter of Oddi (perisphincteric invasion) and/or into the duodenal submucosa."
+    },
+    {
+      "category": "T2",
+      "description": "Tumor invades into the muscularis propria of the duodenum."
+    },
+    {
+      "category": "T3",
+      "description": "Tumor directly invades the pancreas (up to 0.5 cm) or tumor extends more than 0.5 cm into the pancreas, or extends into peripancreatic or periduodenal tissue or duodenal serosa without involvement of the celiac axis or superior mesenteric artery."
+    },
+    {
+      "category": "T3a",
+      "description": "Tumor directly invades pancreas (up to 0.5 cm)."
+    },
+    {
+      "category": "T3b",
+      "description": "Tumor extends more than 0.5 cm into the pancreas, or extends into peripancreatic tissue or periduodenal tissue or duodenal serosa without involvement of the celiac axis or superior mesenteric artery."
+    },
+    {
+      "category": "T4",
+      "description": "Tumor involves the celiac axis, superior mesenteric artery, and/or common hepatic artery, irrespective of size."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "NX",
+      "description": "Regional lymph nodes cannot be assessed."
+    },
+    {
+      "category": "N0",
+      "description": "No regional lymph node metastasis."
+    },
+    {
+      "category": "N1",
+      "description": "Metastasis to one to three regional lymph nodes."
+    },
+    {
+      "category": "N2",
+      "description": "Metastasis to four or more regional lymph nodes."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis."
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "0",
+      "t": "Tis",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA",
+      "t": "T1a",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IB",
+      "t": "T1b, T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIA",
+      "t": "T3a",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIB",
+      "t": "T3b",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIA",
+      "t": "T1a, T1b, T2, T3a, T3b",
+      "n": "N1",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIB",
+      "t": "T4",
+      "n": "any N",
+      "m": "M0"
+    },
+    {
+      "stage": "IIIB",
+      "t": "any T",
+      "n": "N2",
+      "m": "M0"
+    },
+    {
+      "stage": "IV",
+      "t": "any T",
+      "n": "any N",
+      "m": "M1"
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "ampullary",
+  "_chars_in": 5000
+}

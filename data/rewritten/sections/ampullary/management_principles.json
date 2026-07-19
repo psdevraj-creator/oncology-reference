@@ -1,0 +1,112 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of ampullary adenocarcinoma is rooted in a multidisciplinary, stage-adapted approach that integrates local and systemic therapies with curative intent for localized disease and palliative intent for metastatic or recurrent disease. Treatment philosophy emphasizes early detection, accurate histologic subtyping (pancreatobiliary vs. intestinal), and molecular profiling to guide therapy selection. The ampulla of Vater is an anatomically complex region, and tumors here often present with early symptoms like jaundice, which may allow for earlier intervention compared to other periampullary cancers. Prognosis varies significantly based on TNM stage, differentiation grade, lymph node involvement, resection margin status, and histologic subtype, with the intestinal subtype generally having a more favorable prognosis than the pancreatobiliary subtype. A multimodal strategy is employed, with surgery (pancreatoduodenectomy) serving as the cornerstone for resectable disease, while systemic therapy is utilized in the neoadjuvant, adjuvant, and metastatic settings. Radiation therapy plays a complementary role in select scenarios to enhance local control. Supportive care and palliation are integral throughout the disease continuum to manage symptoms such as biliary obstruction, pain, and nutritional deficiencies, thereby maintaining quality of life [MS-2, MS-6, AMP-G]."
+    },
+    {
+      "heading": "Multidisciplinary Team Requirements",
+      "content": "Multidisciplinary consultation is essential for optimal management. The team should include expertise from diagnostic imaging, interventional endoscopy, medical oncology, radiation oncology, surgery, pathology, geriatric medicine, genetic counseling, and palliative care. Consultation with a registered dietitian is also recommended to address nutritional needs. Decisions about diagnostic management, resectability, and treatment planning should be made at high-volume centers with experience in periampullary cancers [AMP-3, MS-6]."
+    },
+    {
+      "heading": "Performance Status Guide",
+      "content": "Performance status (PS) is a critical determinant of treatment eligibility and intensity. Good PS is defined as ECOG 0–1 with good biliary drainage and adequate nutritional intake. Intermediate PS is defined as ECOG 2, where dose or schedule adjustments may be considered. Poor PS is defined as ECOG 3, for which palliative and best supportive care is preferred, though systemic or targeted therapy may be considered in selected cases [AMP-6, AMP-7, MS-12]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Diagnosis of Ampullary Adenocarcinoma",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Multidisciplinary Assessment (Stage, Resectability, Performance Status)",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Curative Intent: Pancreatoduodenectomy ± Neoadjuvant Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n4",
+        "label": "Adjuvant Intent: Postoperative Systemic Therapy ± Chemoradiation",
+        "type": "treatment"
+      },
+      {
+        "id": "n5",
+        "label": "Palliative Intent: Systemic Therapy and Supportive Care",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Salvage Intent: Clinical Trials or Alternative Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Best Supportive Care Only",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Initial diagnosis"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Localized resectable, good PS (ECOG 0-1)"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Resected, post-surgery"
+      },
+      {
+        "source": "n2",
+        "target": "n5",
+        "label": "Metastatic or locally advanced unresectable"
+      },
+      {
+        "source": "n2",
+        "target": "n6",
+        "label": "Progression after prior therapy"
+      },
+      {
+        "source": "n2",
+        "target": "n7",
+        "label": "Poor PS (ECOG 3) or ineligible for aggressive therapy"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative Intent",
+      "detail": "Localized, resectable disease - Primary treatment is surgical resection (pancreatoduodenectomy). Neoadjuvant systemic therapy with or without chemoradiation may be considered for high-risk features, including equivocal imaging, markedly elevated tumor markers, large tumors, significant lymphadenopathy, or poor nutritional status. Adjuvant therapy is recommended postoperatively based on pathologic stage [AMP-4, AMP-5, MS-6, MS-9].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Adjuvant Intent",
+      "detail": "Resected ampullary adenocarcinoma - Adjuvant systemic therapy is initiated within 12 weeks of surgery if medically fit. The regimen depends on histologic subtype and stage. For stage I, adjuvant chemotherapy or observation may be considered; for stages II and III, chemotherapy is recommended, often with subsequent chemoradiation for higher-risk features. Total duration of systemic therapy is typically 6 months [AMP-5, MS-9, MS-10].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative Intent",
+      "detail": "Metastatic or locally advanced unresectable disease - Systemic therapy is the mainstay, with regimens tailored to performance status and histologic subtype. Local therapies like radiation or surgery for oligometastatic disease may be considered for symptom control or in select cases with response to systemic therapy. Best supportive care is emphasized for poor performance status [AMP-6, MS-12].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Salvage Intent",
+      "detail": "Disease progression after prior therapy - Options include clinical trials, alternative systemic regimens, targeted therapy based on molecular profiling, or palliative radiation for symptom relief. Treatment selection is guided by prior therapies, performance status, and molecular markers [AMP-7, MS-14].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "ampullary",
+  "_chars_in": 4270
+}

@@ -1,0 +1,174 @@
+{
+  "sections": [
+    {
+      "heading": "Molecular Pathogenesis",
+      "content": "The molecular pathogenesis of soft tissue sarcomas is highly diverse and often defines specific histologic entities. Sarcomas can be broadly divided into two major genetic groups: 1) sarcomas with specific genetic alterations (e.g., chromosomal translocations or point mutations) and usually simple karyotypes; and 2) sarcomas with non-specific genetic alterations and complex unbalanced karyotypes. For translocation sarcomas, the fusion genes resulting from chromosomal translocations provide crucial diagnostic and prognostic information. For example, in alveolar rhabdomyosarcoma, the PAX7-FOXO1 fusion is associated with a more favorable prognosis compared to PAX3-FOXO1. In synovial sarcoma, the SS18-SSX fusion type (SS18-SSX1 vs. SS18-SSX2) may have prognostic implications, though data is conflicting. In myxoid/round cell liposarcoma, the fusion transcript type (FUS-DDIT3 vs. EWSR1-DDIT3) does not appear to affect outcome. Molecular diagnostic techniques used include conventional cytogenetics, fluorescence in situ hybridization (FISH), polymerase chain reaction (PCR), and next-generation sequencing (NGS). NGS may be beneficial for identifying actionable mutations, selecting patients for immunotherapy (e.g., based on TMB-H or MSI-H status), and enrolling patients in clinical trials. Key recurrent genetic aberrations are listed in the guidelines' table (SARC-C). Some notable examples include: Alveolar RMS: PAX3::FOXO1 or PAX7::FOXO1. Synovial sarcoma: SS18::SSX1 or SS18::SSX2. Myxoid/round cell liposarcoma: FUS::DDIT3 or EWSR1::DDIT3. Dermatofibrosarcoma protuberans: COL1A1::PDGFB. Desmoid fibromatosis: CTNNB1 or APC mutations. Solitary fibrous tumor: NAB2::STAT6 fusion. Alveolar soft part sarcoma: ASPL::TFE3 fusion. Inflammatory myofibroblastic tumor (ALK-rearranged): Various ALK fusions (e.g., TPM3::ALK, CLTC::ALK). The guidelines emphasize that molecular testing should be interpreted in the context of clinical and pathologic features and should not replace expert pathology review. Technical limitations exist, and negative results do not always exclude a suspected diagnosis."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "PAX7",
+        "type": "gene"
+      },
+      {
+        "id": "FOXO1",
+        "type": "gene"
+      },
+      {
+        "id": "PAX3",
+        "type": "gene"
+      },
+      {
+        "id": "SS18",
+        "type": "gene"
+      },
+      {
+        "id": "SSX1",
+        "type": "gene"
+      },
+      {
+        "id": "SSX2",
+        "type": "gene"
+      },
+      {
+        "id": "FUS",
+        "type": "gene"
+      },
+      {
+        "id": "DDIT3",
+        "type": "gene"
+      },
+      {
+        "id": "EWSR1",
+        "type": "gene"
+      },
+      {
+        "id": "COL1A1",
+        "type": "gene"
+      },
+      {
+        "id": "PDGFB",
+        "type": "gene"
+      },
+      {
+        "id": "CTNNB1",
+        "type": "gene"
+      },
+      {
+        "id": "APC",
+        "type": "gene"
+      },
+      {
+        "id": "NAB2",
+        "type": "gene"
+      },
+      {
+        "id": "STAT6",
+        "type": "gene"
+      },
+      {
+        "id": "ASPL",
+        "type": "gene"
+      },
+      {
+        "id": "TFE3",
+        "type": "gene"
+      },
+      {
+        "id": "ALK",
+        "type": "gene"
+      },
+      {
+        "id": "TPM3",
+        "type": "gene"
+      },
+      {
+        "id": "CLTC",
+        "type": "gene"
+      }
+    ],
+    "edges": []
+  },
+  "summaries": [
+    {
+      "pathway": "Alveolar RMS",
+      "genes": [
+        "PAX3",
+        "PAX7",
+        "FOXO1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Synovial sarcoma",
+      "genes": [
+        "SS18",
+        "SSX1",
+        "SSX2"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Myxoid/round cell liposarcoma",
+      "genes": [
+        "FUS",
+        "DDIT3",
+        "EWSR1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Dermatofibrosarcoma protuberans",
+      "genes": [
+        "COL1A1",
+        "PDGFB"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Desmoid fibromatosis",
+      "genes": [
+        "CTNNB1",
+        "APC"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Solitary fibrous tumor",
+      "genes": [
+        "NAB2",
+        "STAT6"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Alveolar soft part sarcoma",
+      "genes": [
+        "ASPL",
+        "TFE3"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Inflammatory myofibroblastic tumor",
+      "genes": [
+        "ALK",
+        "TPM3",
+        "CLTC"
+      ],
+      "drugs": "",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "sarcoma",
+  "_chars_in": 2109
+}

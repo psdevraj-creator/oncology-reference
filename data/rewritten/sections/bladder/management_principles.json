@@ -1,0 +1,204 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Bladder cancer management is driven by three fundamental clinical categories: non-muscle-invasive disease (NMIBC), muscle-invasive non-metastatic disease (MIBC), and metastatic disease. The treatment philosophy differs fundamentally across these categories. For NMIBC, the primary goal is to reduce recurrences and prevent progression to a more advanced stage while minimizing treatment-related adverse events. For MIBC, a multidisciplinary approach combining systemic therapy, surgery, and/or radiation is required, with the goal of achieving cure. For metastatic disease, the objective is to prolong survival and maintain quality of life using agents with different mechanisms of action. Approximately 84,530 new cases of bladder cancer are diagnosed annually in the United States, with a median age at diagnosis of 73 years. Risk factors include smoking, personal or family history, pelvic radiation, environmental and occupational exposures, chronic urinary tract infection, male sex, white race, obesity, diabetes, and Lynch syndrome. The clinical spectrum ranges from indolent low-grade papillary lesions to aggressive muscle-invasive and metastatic disease [1,2,3,7]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Determine disease category",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Non-muscle-invasive (NMIBC)",
+        "type": "outcome"
+      },
+      {
+        "id": "n3",
+        "label": "Muscle-invasive non-metastatic (MIBC)",
+        "type": "outcome"
+      },
+      {
+        "id": "n4",
+        "label": "Metastatic disease",
+        "type": "outcome"
+      },
+      {
+        "id": "n5",
+        "label": "Assess risk group (low, intermediate, high)",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Low risk: TURBT + surveillance for recurrence",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Intermediate risk: TURBT + risk-stratified intravesical therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "High risk: TURBT + intravesical therapy or cystectomy if BCG-unresponsive",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Assess stage (II, IIIA, IIIB, IVA)",
+        "type": "decision"
+      },
+      {
+        "id": "n10",
+        "label": "Stage II-IIIA: Neoadjuvant cisplatin-based chemo + radical cystectomy (category 1) or TURBT + concurrent chemoradiotherapy (category 1) or perioperative/sandwich immunotherapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Stage IIIB: Downstaging systemic therapy + consolidation local therapy (cystectomy or RT) or concurrent chemoradiotherapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n12",
+        "label": "Stage IVA M0/M1a: Systemic therapy or chemoradiotherapy, with reassessment and consideration of consolidative local therapy in selected responders",
+        "type": "treatment"
+      },
+      {
+        "id": "n13",
+        "label": "Assess performance status and cisplatin eligibility",
+        "type": "decision"
+      },
+      {
+        "id": "n14",
+        "label": "Cisplatin-eligible: Cisplatin-based combination systemic therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n15",
+        "label": "Cisplatin-ineligible: Carboplatin-based or other non-cisplatin regimens",
+        "type": "treatment"
+      },
+      {
+        "id": "n16",
+        "label": "Palliative radiotherapy as needed",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "NMIBC"
+      },
+      {
+        "source": "n1",
+        "target": "n3",
+        "label": "MIBC"
+      },
+      {
+        "source": "n1",
+        "target": "n4",
+        "label": "Metastatic"
+      },
+      {
+        "source": "n2",
+        "target": "n5",
+        "label": "Risk stratification"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "Low"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "Intermediate"
+      },
+      {
+        "source": "n5",
+        "target": "n8",
+        "label": "High"
+      },
+      {
+        "source": "n3",
+        "target": "n9",
+        "label": "Stage assessment"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": "Stage II-IIIA"
+      },
+      {
+        "source": "n9",
+        "target": "n11",
+        "label": "Stage IIIB"
+      },
+      {
+        "source": "n9",
+        "target": "n12",
+        "label": "Stage IVA M0/M1a"
+      },
+      {
+        "source": "n4",
+        "target": "n13",
+        "label": "Eligibility assessment"
+      },
+      {
+        "source": "n13",
+        "target": "n14",
+        "label": "Cisplatin-eligible"
+      },
+      {
+        "source": "n13",
+        "target": "n15",
+        "label": "Cisplatin-ineligible"
+      },
+      {
+        "source": "n14",
+        "target": "n16",
+        "label": "Palliation as needed"
+      },
+      {
+        "source": "n15",
+        "target": "n16",
+        "label": "Palliation as needed"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative - NMIBC (low, intermediate, and high risk)",
+      "detail": "TURBT with risk-stratified intravesical therapy or cystectomy for BCG-unresponsive disease; surveillance for recurrence",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative - MIBC stages II and IIIA (cT2–cT4a, N0–N1)",
+      "detail": "Neoadjuvant cisplatin-based chemotherapy followed by radical cystectomy (category 1), or bladder preservation with TURBT plus concurrent chemoradiotherapy (category 1), or perioperative/sandwich immunotherapy strategies",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative - MIBC stage IIIB (cT1–cT4a, N2–3)",
+      "detail": "Downstaging systemic therapy followed by consolidation local therapy (cystectomy or RT), or concurrent chemoradiotherapy",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative - Stage IVA M0 (cT4b, any N, M0) or M1a (any T, any N, M1a)",
+      "detail": "Systemic therapy or chemoradiotherapy, with reassessment and consideration of consolidative local therapy in selected responders",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative - Stage IVB metastatic disease (any T, any N, M1b)",
+      "detail": "Systemic therapy to prolong survival and maintain quality of life; palliative RT as needed",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "bladder",
+  "_chars_in": 4352
+}

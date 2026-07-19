@@ -1,0 +1,133 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Pancreatic adenocarcinoma often presents late with non-specific symptoms, leading to delayed diagnosis. The classic presentation includes painless jaundice for tumors in the pancreatic head, weight loss, and new-onset diabetes. Symptoms often develop insidiously and are nonspecific, contributing to late-stage diagnosis [MS-5]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Jaundice",
+      "detail": "Painless obstructive jaundice is a hallmark for pancreatic head tumors, caused by bile duct obstruction. It is often the presenting symptom leading to diagnosis.",
+      "frequency": "Common, especially for head lesions",
+      "alarm": true
+    },
+    {
+      "name": "Abdominal pain",
+      "detail": "Dull, epigastric pain that may radiate to the back, often worse after meals and when lying down. Caused by tumor invasion of retroperitoneal nerves or obstruction of the pancreatic duct.",
+      "frequency": "Common, often at presentation",
+      "alarm": true
+    },
+    {
+      "name": "Unintentional weight loss",
+      "detail": "Significant and unintentional weight loss is a frequent symptom, often due to malabsorption, anorexia, and catabolic state.",
+      "frequency": "Very common, >80% of patients",
+      "alarm": true
+    },
+    {
+      "name": "Anorexia",
+      "detail": "Loss of appetite is common and may be related to tumor effects, pain, or treatment.",
+      "frequency": "Common",
+      "alarm": false
+    },
+    {
+      "name": "Nausea and vomiting",
+      "detail": "May be caused by gastric outlet obstruction from a pancreatic head tumor, or as a side effect of treatments.",
+      "frequency": "Less common, can be a late symptom",
+      "alarm": true
+    },
+    {
+      "name": "Pancreatitis",
+      "detail": "New-onset pancreatitis can be the first manifestation of a pancreatic tumor obstructing the pancreatic duct.",
+      "frequency": "Uncommon",
+      "alarm": true
+    },
+    {
+      "name": "Pruritus",
+      "detail": "Generalized itching due to bile salt deposition in the skin from obstructive jaundice.",
+      "frequency": "Common with jaundice",
+      "alarm": true
+    },
+    {
+      "name": "Jaundice (sign)",
+      "detail": "Yellow discoloration of skin and sclera.",
+      "frequency": "Common with obstructive jaundice",
+      "alarm": false
+    },
+    {
+      "name": "Palpable gallbladder (Courvoisier sign)",
+      "detail": "A non-tender, distended gallbladder palpable in the right upper quadrant, indicative of distal bile duct obstruction.",
+      "frequency": "Variable, more common in pancreatic head tumors",
+      "alarm": false
+    },
+    {
+      "name": "Ascites",
+      "detail": "Fluid accumulation in the abdomen, indicating peritoneal dissemination or portal hypertension.",
+      "frequency": "Uncommon at presentation, more common in advanced disease",
+      "alarm": false
+    },
+    {
+      "name": "Cachexia",
+      "detail": "Severe weight loss and muscle wasting.",
+      "frequency": "Common in advanced disease",
+      "alarm": false
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Jaundice",
+      "detail": "Painless obstructive jaundice is a hallmark for pancreatic head tumors, caused by bile duct obstruction. It is often the presenting symptom leading to diagnosis."
+    },
+    {
+      "name": "Abdominal pain",
+      "detail": "Dull, epigastric pain that may radiate to the back, often worse after meals and when lying down. Caused by tumor invasion of retroperitoneal nerves or obstruction of the pancreatic duct."
+    },
+    {
+      "name": "Unintentional weight loss",
+      "detail": "Significant and unintentional weight loss is a frequent symptom, often due to malabsorption, anorexia, and catabolic state."
+    },
+    {
+      "name": "Nausea and vomiting",
+      "detail": "May be caused by gastric outlet obstruction from a pancreatic head tumor, or as a side effect of treatments."
+    },
+    {
+      "name": "Pancreatitis",
+      "detail": "New-onset pancreatitis can be the first manifestation of a pancreatic tumor obstructing the pancreatic duct."
+    },
+    {
+      "name": "Pruritus",
+      "detail": "Generalized itching due to bile salt deposition in the skin from obstructive jaundice."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "New-onset diabetes in an older adult without classic risk factors"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained worsening of pre-existing diabetes"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Recurrent pancreatitis without clear etiology"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Deep vein thrombrosis (Trousseau syndrome) as a paraneoplastic phenomenon"
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained depression or fatigue"
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Unintentional weight loss"
+    ],
+    "values": [
+      80
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "pancreatic",
+  "_chars_in": 2939
+}

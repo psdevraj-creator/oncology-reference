@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "heading": "Systemic",
+      "content": "Systemic therapy for CNS tumors includes alkylating agents, targeted therapies, immunotherapies, and intrathecal treatments. Blood-brain barrier penetration is a key consideration. Treatment is often based on histology and molecular markers [BRAIN-D, GLIO-A].\n\nBy stage and setting:\n- Adjuvant treatment, WHO grade 2 oligodendroglioma (IDH-mutant, 1p19q codeleted), KPS ≥60: Preferred: RT + adjuvant PCV (category 1). Alternatives: RT + adjuvant temozolomide; RT + concurrent and adjuvant temozolomide. Biomarker requirements: IDH-mutant, 1p19q codeleted.\n- Adjuvant treatment, glioblastoma, IDH-wild-type, KPS ≥60, age ≤70: Preferred: RT + concurrent temozolomide and adjuvant temozolomide + TTF (category 1). Alternatives: RT + concurrent and adjuvant temozolomide. Biomarker requirements: None.\n- Recurrent or progressive glioblastoma, KPS ≥60: Preferred: Bevacizumab; Temozolomide (if prior long interval); Lomustine; Carmustine; PCV; IDH inhibitor (if IDH-mutant). Alternatives: Regorafenib; Combination therapy with bevacizumab. Biomarker requirements: MGMT methylation may predict response to alkylating agents.\n- Relapsed or refractory primary CNS lymphoma: Preferred: High-dose methotrexate rechallenge (if prior long response); Other systemic therapies (ibrutinib, rituximab, temozolomide, lenalidomide, pomalidomide); High-dose chemotherapy with stem cell rescue (category 2B). Alternatives: Tisagenlecleucel; Axicabtagene ciloleucel. Biomarker requirements: None.\n- Brain metastases from NSCLC with EGFR mutation: Preferred: Osimertinib; Lazertinib + Amivantamab-vmjw (for exon 19 del/L858R). Alternatives: Other EGFR-TKIs (erlotinib, afatinib); Chemotherapy combinations. Biomarker requirements: EGFR sensitizing mutation.\n- Brain metastases from melanoma with BRAF V600E mutation: Preferred: Dabrafenib/Trametinib; Cobimetinib/Vemurafenib. Alternatives: Immunotherapy (ipilimumab/nivolumab). Biomarker requirements: BRAF V600E mutation.\n- Progressive vestibular schwannoma in NF2-SWN: Preferred: Bevacizumab (preferred); Brigatinib. Alternatives: Everolimus; Lapatinib. Biomarker requirements: NF2 germline mutation."
+    }
+  ],
+  "cards": [
+    {
+      "name": "PCV (procarbazine, lomustine, vincristine)",
+      "drugs": "Procarbazine, Lomustine, Vincristine",
+      "detail": "Setting: Adjuvant for grade 2/3 oligodendroglioma. Cycle days: 28. Key toxicities: Myelosuppression, nausea, neuropathy."
+    },
+    {
+      "name": "Temozolomide adjuvant (Stupp regimen)",
+      "drugs": "Temozolomide",
+      "detail": "Setting: Glioblastoma adjuvant. Cycle days: 28 (5/28 schedule). Key toxicities: Lymphopenia, fatigue, nausea, myelosuppression."
+    },
+    {
+      "name": "Bevacizumab",
+      "drugs": "Bevacizumab",
+      "detail": "Setting: Recurrent glioblastoma, brain metastases, NF2-SWN. Cycle days: 28. Key toxicities: Hypertension, proteinuria, hemorrhage, thromboembolism."
+    },
+    {
+      "name": "High-dose methotrexate for PCNSL",
+      "drugs": "Methotrexate, Leucovorin",
+      "detail": "Setting: Induction for PCNSL. Cycle days: 14-21. Key toxicities: Nephrotoxicity, mucositis, myelosuppression."
+    },
+    {
+      "name": "Vorasidenib",
+      "drugs": "Vorasidenib",
+      "detail": "Setting: IDH-mutant glioma (grade 2) with residual/recurrent disease. Cycle days: Continuous. Key toxicities: ALT elevation, fatigue, headache."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1st Line (Adjuvant)",
+      "body": "RT + adjuvant PCV (for oligodendroglioma); RT + concurrent temozolomide and adjuvant temozolomide + TTF (for glioblastoma)",
+      "icon": "bi-1-circle-fill"
+    },
+    {
+      "title": "2nd Line (Recurrent/Progressive)",
+      "body": "Bevacizumab; Temozolomide; Lomustine; Carmustine; PCV; IDH inhibitor (if IDH-mutant); Regorafenib; Bevacizumab combinations",
+      "icon": "bi-2-circle-fill"
+    },
+    {
+      "title": "3rd Line (Relapsed/Refractory PCNSL)",
+      "body": "High-dose methotrexate rechallenge; Ibrutinib; Rituximab; Temozolomide; Lenalidomide; Pomalidomide; High-dose chemotherapy with stem cell rescue; Tisagenlecleucel; Axicabtagene ciloleucel",
+      "icon": "bi-3-circle-fill"
+    },
+    {
+      "title": "4th Line (Brain metastases)",
+      "body": "Osimertinib/Lazertinib+Amivantamab (NSCLC EGFR+); Dabrafenib/Trametinib or Cobimetinib/Vemurafenib (melanoma BRAF V600E+)",
+      "icon": "bi-4-circle-fill"
+    },
+    {
+      "title": "5th Line (Progressive vestibular schwannoma in NF2-SWN)",
+      "body": "Bevacizumab; Brigatinib; Everolimus; Lapatinib",
+      "icon": "bi-5-circle-fill"
+    }
+  ],
+  "_section": "systemic_therapy",
+  "_site_id": "cns",
+  "_chars_in": 4596
+}

@@ -1,0 +1,182 @@
+{
+  "sections": [
+    {
+      "heading": "Genomic Events",
+      "content": "The predominant molecular pathway for vaginal squamous intraepithelial lesions (SIL) and squamous cell carcinoma (SCC) is infection with high-risk human papillomavirus (HPV), with HPV16 being the most common type detected in 46% to 77% of vaginal cancers [5]. In HPV-associated tumors, viral oncoproteins E6 and E7 inactivate the tumor suppressors p53 and pRb, respectively, driving carcinogenesis. For HPV-independent SCC, which is more common in postmenopausal individuals, TP53 mutations are a key early event, leading to aberrant p53 protein accumulation detectable by immunohistochemistry (IHC) [VAG-A 1]."
+    },
+    {
+      "heading": "Driver Mutations",
+      "content": "Key driver mutations include TP53 inactivation in HPV-independent tumors. Comprehensive molecular profiling may reveal actionable alterations including NTRK gene fusions (found in ~1% of all solid tumors) [MS-7], RET gene fusions, HER2 overexpression/amplification (observed in approximately 2% to 6% of cervical cancers, a related site) [MS-8], and high tumor mutational burden (TMB) or microsatellite instability-high (MSI-H) status [MS-6]."
+    },
+    {
+      "heading": "Signaling Pathways",
+      "content": "The HPV-driven pathway involves dysregulation of the p53 and pRb tumor suppressor pathways. Immune checkpoint pathways involving PD-1/PD-L1 are relevant for immunotherapy; PD-L1 expression is a predictive biomarker [MS-5]."
+    },
+    {
+      "heading": "Chromosomal Abnormalities",
+      "content": "NTRK and RET gene fusions are actionable chromosomal rearrangements recommended for testing via comprehensive genomic profiling [VAG-A 2]."
+    },
+    {
+      "heading": "Biomarker Prevalence",
+      "content": "HPV is detected in approximately 40% to 70% of all vulvar and vaginal cancers [5]. p53 aberrant expression is a hallmark of HPV-independent tumors. Comprehensive molecular profiling is recommended for advanced or metastatic disease to assess for MSI-H, TMB, NTRK, and RET fusions for pan-tumor targeted therapy opportunities [VAG-A 2]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "HPV_E6",
+        "type": "gene"
+      },
+      {
+        "id": "HPV_E7",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "RB1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "ERBB2",
+        "type": "gene"
+      },
+      {
+        "id": "PDCD1",
+        "type": "gene"
+      },
+      {
+        "id": "CD274",
+        "type": "gene"
+      },
+      {
+        "id": "HPV_driven_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "p53_pRb_tumor_suppressor_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "Immune_checkpoint_pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "NTRK_fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "RET_fusion",
+        "type": "targetable"
+      },
+      {
+        "id": "HER2_overexpression_amplification",
+        "type": "targetable"
+      },
+      {
+        "id": "MSI_H",
+        "type": "targetable"
+      },
+      {
+        "id": "TMB",
+        "type": "targetable"
+      },
+      {
+        "id": "PD_L1_expression",
+        "type": "targetable"
+      },
+      {
+        "id": "TRK_inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "RET_inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "HER2_inhibitors",
+        "type": "drug"
+      },
+      {
+        "id": "PD1_PDL1_inhibitors",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "HPV_E6",
+        "target": "TP53",
+        "type": "inhibits"
+      },
+      {
+        "source": "HPV_E7",
+        "target": "RB1",
+        "type": "inhibits"
+      },
+      {
+        "source": "TRK_inhibitors",
+        "target": "NTRK_fusion",
+        "type": "targets"
+      },
+      {
+        "source": "RET_inhibitors",
+        "target": "RET_fusion",
+        "type": "targets"
+      },
+      {
+        "source": "HER2_inhibitors",
+        "target": "HER2_overexpression_amplification",
+        "type": "targets"
+      },
+      {
+        "source": "PD1_PDL1_inhibitors",
+        "target": "PD_L1_expression",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "HPV-driven pathway",
+      "genes": [
+        "HPV_E6",
+        "HPV_E7",
+        "TP53",
+        "RB1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "p53/pRb tumor suppressor pathway",
+      "genes": [
+        "TP53",
+        "RB1"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "Immune checkpoint pathway",
+      "genes": [
+        "PDCD1",
+        "CD274"
+      ],
+      "drugs": "PD1_PDL1_inhibitors",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "vaginal",
+  "_chars_in": 1884
+}

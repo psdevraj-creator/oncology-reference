@@ -1,0 +1,436 @@
+{
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Rectal cancer molecular pathogenesis encompasses multiple genomic events, signaling pathways, and chromosomal abnormalities that define distinct biologic subtypes and guide therapeutic decision-making."
+    },
+    {
+      "heading": "RAS/RAF Pathway",
+      "content": "KRAS and NRAS mutations (affecting exons 2, 3, and 4) are key oncogenic drivers in colorectal cancer. Patients with any known KRAS or NRAS mutation should not receive anti-EGFR therapy with cetuximab or panitumumab, as these mutations confer resistance, unless given as part of a regimen targeting a KRAS G12C mutation [REC-B 5]. BRAF V600E mutation renders response to panitumumab or cetuximab highly unlikely [REC-B 5]. BRAF V600E mutation testing via immunohistochemistry (IHC) is an option [REC-B 5]. Encorafenib-based regimens (combined with cetuximab or panitumumab, with or without FOLFIRI or FOLFOX) are specifically indicated for BRAF V600E-mutant metastatic disease [REC-F 4]. Patients with BRAF mutations other than V600E may be considered for anti-EGFR therapy [REC-F footnote c]."
+    },
+    {
+      "heading": "Mismatch Repair/Microsatellite Instability",
+      "content": "Deficient mismatch repair (dMMR) results from loss of function in MLH1, MSH2, MSH6, or PMS2 proteins. MMR proteins function as heterodimers (MLH1/PMS2 and MSH2/MSH6), so loss of one protein typically results in loss of its heterodimer partner [REC-B 6]. Loss of MLH1 expression in the presence of BRAF V600E mutation generally excludes Lynch syndrome diagnosis, though approximately 1% of BRAF V600E-mutant cancers with MLH1 loss still harbor Lynch syndrome [REC-B 5]. IHC testing looks at protein expression of all four MMR genes, and interpretation should report either \"retained for all MMR proteins\" or \"loss of expression of (one or more of the MMR proteins)\" [REC-B 6]. dMMR/MSI-H status is the primary determinant of eligibility for immune checkpoint inhibitor immunotherapy [REC-F 5]. Testing can be performed by IHC for protein expression, PCR for microsatellite instability, or as part of validated multigene panel testing [REC-B 5]."
+    },
+    {
+      "heading": "PI3K Pathway Alterations",
+      "content": "Somatic PI3K pathway alterations include mutations in PIK3CA exons 9 and 20, other PIK3CA mutations, PIK3R1 mutations, PTEN mutations, and deep deletions of PTEN [REC-2 footnote m]. These alterations are clinically significant for stage II–III disease, as PIK3CA-mutant tumors benefit from adjuvant aspirin therapy (100–162 mg PO daily for 3 years after surgery). The ALASCCA trial reported hazard ratios for time to recurrence of 0.49 (95% CI, 0.24–0.98; P = .044) for PIK3CA exon 9/20 mutations and 0.42 (95% CI, 0.21–0.83; P = .013) for other PI3K pathway alterations with aspirin versus placebo [MS-30]. Molecular profiling to include somatic PI3K pathway alterations should be performed on all stage II and III colorectal cancer tumors [REC-3A]."
+    },
+    {
+      "heading": "POLE/POLD1 Proofreading Deficiency",
+      "content": "Pathogenic variants in the exonuclease domains of POLE and POLD1 result in loss of DNA replication proofreading function, leading to ultra-hypermutated tumors with TMB exceeding 50 mutations per megabase [REC-B 7]. Somatic POLE mutations occur in approximately 2–8% of predominantly MSS/pMMR colorectal cancers, while somatic POLD1 mutations are extremely rare [REC-B 7]. Germline pathogenic variants predispose patients to polymerase proofreading-associated polyposis (PPAP) [REC-B 7]. These tumors exhibit enhanced immune responses due to numerous neoantigens and demonstrate favorable prognosis with excellent response to immune checkpoint inhibitor therapy [REC-B 7]."
+    },
+    {
+      "heading": "NTRK Gene Fusions",
+      "content": "NTRK 1/2/3 gene fusions are extremely rare in colorectal cancers, occurring in approximately 0.35% of cases (8 of 2314 CRCs in one cohort) [REC-B 6]. These fusions are confined to tumors that are wild-type for KRAS, NRAS, and BRAF. Seven of eight CRCs harboring NTRK fusions were found in the dMMR/MSI-H subset [REC-B 6]. TRK inhibitors (larotrectinib, entrectinib, repotrectinib) demonstrate activity exclusively in tumors with NTRK gene fusions, not point mutations [REC-B 6]. RNA-based next-generation sequencing appears to be the optimal detection method, as it provides direct evidence of functional transcription [REC-B 6]."
+    },
+    {
+      "heading": "RET Gene Fusions",
+      "content": "Activating RET gene fusions involving the C-terminal kinase domain lead to constitutive upregulation of RET kinase activity, promoting cell proliferation and survival through downstream MAPK and PI3K signaling pathways [REC-B 7]. The most common fusion partners reported in CRC include KIF5B, CCDC6, and NCOA4 [REC-B 7]. Selpercatinib is FDA-approved for RET fusion-positive solid tumors [REC-B 7]. Caution should be used in interpreting RET gene fusion results from ctDNA/RNA assays following targeted therapy with EGFR inhibitors [REC-B 7]."
+    },
+    {
+      "heading": "HER2 (ERBB2) Overexpression/Amplification",
+      "content": "HER2 positivity is defined as IHC 3+ staining in >50% of tumor cells (intense membrane staining that can be circumferential, basolateral, or lateral) or amplification by FISH (HER2:CEP17 ratio ≥2 in >50% of cells) [REC-B 6]. Anti-HER2 therapies including"
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "KRAS",
+        "type": "gene"
+      },
+      {
+        "id": "NRAS",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "EGFR",
+        "type": "gene"
+      },
+      {
+        "id": "MLH1",
+        "type": "gene"
+      },
+      {
+        "id": "MSH2",
+        "type": "gene"
+      },
+      {
+        "id": "MSH6",
+        "type": "gene"
+      },
+      {
+        "id": "PMS2",
+        "type": "gene"
+      },
+      {
+        "id": "PIK3CA",
+        "type": "gene"
+      },
+      {
+        "id": "PIK3R1",
+        "type": "gene"
+      },
+      {
+        "id": "PTEN",
+        "type": "gene"
+      },
+      {
+        "id": "POLE",
+        "type": "gene"
+      },
+      {
+        "id": "POLD1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK2",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK3",
+        "type": "gene"
+      },
+      {
+        "id": "RET",
+        "type": "gene"
+      },
+      {
+        "id": "ERBB2",
+        "type": "gene"
+      },
+      {
+        "id": "RAS/RAF Pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "Mismatch Repair",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K Pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "POLE/POLD1 Proofreading Deficiency",
+        "type": "pathway"
+      },
+      {
+        "id": "NTRK Gene Fusions",
+        "type": "pathway"
+      },
+      {
+        "id": "RET Gene Fusions",
+        "type": "pathway"
+      },
+      {
+        "id": "HER2 (ERBB2) Overexpression/Amplification",
+        "type": "pathway"
+      },
+      {
+        "id": "cetuximab",
+        "type": "drug"
+      },
+      {
+        "id": "panitumumab",
+        "type": "drug"
+      },
+      {
+        "id": "encorafenib",
+        "type": "drug"
+      },
+      {
+        "id": "FOLFIRI",
+        "type": "drug"
+      },
+      {
+        "id": "FOLFOX",
+        "type": "drug"
+      },
+      {
+        "id": "aspirin",
+        "type": "drug"
+      },
+      {
+        "id": "larotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "entrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "repotrectinib",
+        "type": "drug"
+      },
+      {
+        "id": "selpercatinib",
+        "type": "drug"
+      },
+      {
+        "id": "immune checkpoint inhibitor",
+        "type": "drug"
+      },
+      {
+        "id": "anti-HER2 therapy",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "KRAS",
+        "target": "RAS/RAF Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "NRAS",
+        "target": "RAS/RAF Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "BRAF",
+        "target": "RAS/RAF Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "cetuximab",
+        "target": "EGFR",
+        "type": "targets"
+      },
+      {
+        "source": "panitumumab",
+        "target": "EGFR",
+        "type": "targets"
+      },
+      {
+        "source": "RAS/RAF Pathway",
+        "target": "cetuximab",
+        "type": "inhibits"
+      },
+      {
+        "source": "RAS/RAF Pathway",
+        "target": "panitumumab",
+        "type": "inhibits"
+      },
+      {
+        "source": "encorafenib",
+        "target": "BRAF",
+        "type": "targets"
+      },
+      {
+        "source": "MLH1",
+        "target": "Mismatch Repair",
+        "type": "inhibits"
+      },
+      {
+        "source": "MSH2",
+        "target": "Mismatch Repair",
+        "type": "inhibits"
+      },
+      {
+        "source": "MSH6",
+        "target": "Mismatch Repair",
+        "type": "inhibits"
+      },
+      {
+        "source": "PMS2",
+        "target": "Mismatch Repair",
+        "type": "inhibits"
+      },
+      {
+        "source": "Mismatch Repair",
+        "target": "immune checkpoint inhibitor",
+        "type": "activates"
+      },
+      {
+        "source": "PIK3CA",
+        "target": "PI3K Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "PIK3R1",
+        "target": "PI3K Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "PTEN",
+        "target": "PI3K Pathway",
+        "type": "activates"
+      },
+      {
+        "source": "aspirin",
+        "target": "PI3K Pathway",
+        "type": "inhibits"
+      },
+      {
+        "source": "POLE",
+        "target": "immune checkpoint inhibitor",
+        "type": "activates"
+      },
+      {
+        "source": "POLD1",
+        "target": "immune checkpoint inhibitor",
+        "type": "activates"
+      },
+      {
+        "source": "NTRK1",
+        "target": "NTRK Gene Fusions",
+        "type": "activates"
+      },
+      {
+        "source": "NTRK2",
+        "target": "NTRK Gene Fusions",
+        "type": "activates"
+      },
+      {
+        "source": "NTRK3",
+        "target": "NTRK Gene Fusions",
+        "type": "activates"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "larotrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "entrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK1",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK2",
+        "type": "targets"
+      },
+      {
+        "source": "repotrectinib",
+        "target": "NTRK3",
+        "type": "targets"
+      },
+      {
+        "source": "RET",
+        "target": "RET Gene Fusions",
+        "type": "activates"
+      },
+      {
+        "source": "selpercatinib",
+        "target": "RET",
+        "type": "targets"
+      },
+      {
+        "source": "ERBB2",
+        "target": "HER2 (ERBB2) Overexpression/Amplification",
+        "type": "activates"
+      },
+      {
+        "source": "anti-HER2 therapy",
+        "target": "ERBB2",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "RAS/RAF Pathway",
+      "genes": [
+        "KRAS",
+        "NRAS",
+        "BRAF"
+      ],
+      "drugs": "cetuximab, panitumumab, encorafenib",
+      "targetable": true
+    },
+    {
+      "pathway": "Mismatch Repair",
+      "genes": [
+        "MLH1",
+        "MSH2",
+        "MSH6",
+        "PMS2"
+      ],
+      "drugs": "immune checkpoint inhibitor",
+      "targetable": true
+    },
+    {
+      "pathway": "PI3K Pathway",
+      "genes": [
+        "PIK3CA",
+        "PIK3R1",
+        "PTEN"
+      ],
+      "drugs": "aspirin",
+      "targetable": true
+    },
+    {
+      "pathway": "POLE/POLD1 Proofreading Deficiency",
+      "genes": [
+        "POLE",
+        "POLD1"
+      ],
+      "drugs": "immune checkpoint inhibitor",
+      "targetable": true
+    },
+    {
+      "pathway": "NTRK Gene Fusions",
+      "genes": [
+        "NTRK1",
+        "NTRK2",
+        "NTRK3"
+      ],
+      "drugs": "larotrectinib, entrectinib, repotrectinib",
+      "targetable": true
+    },
+    {
+      "pathway": "RET Gene Fusions",
+      "genes": [
+        "RET"
+      ],
+      "drugs": "selpercatinib",
+      "targetable": true
+    },
+    {
+      "pathway": "HER2 (ERBB2) Overexpression/Amplification",
+      "genes": [
+        "ERBB2"
+      ],
+      "drugs": "anti-HER2 therapy",
+      "targetable": true
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "lower_gi",
+  "_chars_in": 5000
+}

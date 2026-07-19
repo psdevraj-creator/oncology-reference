@@ -1,0 +1,113 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Peritoneal mesothelioma (PeM) is a rare cancer originating in mesothelial surfaces of the peritoneum, accounting for approximately 15% of all mesotheliomas, with the remaining approximately 85% arising from the pleura [1]. It is estimated that PeM occurs in approximately 300 to 400 people in the United States every year [10]. The mean age at diagnosis is approximately 69 years [11]. Unlike pleural mesothelioma, which is more common in males, PeM is diagnosed in approximately equal numbers of males and females [11]. PeM may occur in younger patients compared with pleural mesothelioma, which typically occurs in older patients [11]. Patients with PeM commonly present with abdominal signs and symptoms, including ascites (occurring in 77% of patients), abdominal pain (69%), abdominal distension, and an abdominal mass (30%) [11,21,38]. Patients often have a high symptom burden compared with patients who have other types of cancer [11]. Additional presenting symptoms include weight loss, fatigue, anorexia, asthenia, nausea, early satiety, and intestinal obstruction [11,21,38]. Although PeM can spread extensively within the abdomen, it less commonly metastasizes beyond the abdominal cavity [24]. One-year overall survival is approximately 46% in patients with PeM, and 5-year overall survival is about 20%; cure is rare [2,11,121-124]. Survival is improved for patients who are able to undergo complete cytoreductive surgery (CRS) with intraperitoneal chemotherapy [12-16]. Many patients with PeM have idiopathic disease [20]. Similar to pleural mesothelioma, the histologic subtypes of PeM include epithelioid (most common), sarcomatoid, and biphasic (also known as mixed, containing both epithelioid and sarcomatoid components) [4,17-19]. Patients with epithelioid histology have better outcomes than those with either biphasic or sarcomatoid histologies [15]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Ascites",
+      "detail": "Accumulation of fluid within the peritoneal cavity, present in approximately 77% of patients at diagnosis. May cause abdominal distension, early satiety, and discomfort.",
+      "frequency": "77%",
+      "alarm": true
+    },
+    {
+      "name": "Abdominal pain",
+      "detail": "Present in approximately 69% of patients. May be diffuse or localized, and may be related to peritoneal tumor burden, adhesions, or organ involvement.",
+      "frequency": "69%",
+      "alarm": true
+    },
+    {
+      "name": "Abdominal distension",
+      "detail": "Visible or palpable enlargement of the abdomen, which may result from ascites, tumor mass effect, or both.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Abdominal mass",
+      "detail": "Palpable mass noted on physical examination, present in approximately 30% of patients.",
+      "frequency": "30%",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss",
+      "detail": "Unintentional weight loss, which may be associated with anorexia, cachexia, or high symptom burden.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": true
+    },
+    {
+      "name": "Fatigue",
+      "detail": "Persistent tiredness and lack of energy, common in mesothelioma and often associated with high symptom burden.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Anorexia",
+      "detail": "Loss of appetite, which may contribute to weight loss and nutritional compromise.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Asthenia",
+      "detail": "Physical weakness and lack of strength.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Nausea",
+      "detail": "Feeling of sickness that may lead to vomiting; may result from peritoneal irritation, bowel involvement, or ascites.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Early satiety",
+      "detail": "Feeling of fullness after eating small amounts of food, often related to ascites or peritoneal disease compressing the stomach.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": false
+    },
+    {
+      "name": "Intestinal obstruction",
+      "detail": "Blockage of the bowel that may result from peritoneal tumor encasing or compressing bowel loops. May present with nausea, vomiting, abdominal pain, and inability to pass flatus or stool.",
+      "frequency": "Common (frequency not specified numerically)",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Accumulation of fluid within the peritoneal cavity, present in approximately 77% of patients at diagnosis. May cause abdominal distension, early satiety, and discomfort."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Present in approximately 69% of patients. May be diffuse or localized, and may be related to peritoneal tumor burden, adhesions, or organ involvement."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Palpable mass noted on physical examination, present in approximately 30% of patients."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unintentional weight loss, which may be associated with anorexia, cachexia, or high symptom burden."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Blockage of the bowel that may result from peritoneal tumor encasing or compressing bowel loops. May present with nausea, vomiting, abdominal pain, and inability to pass flatus or stool."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Ascites",
+      "Abdominal pain",
+      "Abdominal mass"
+    ],
+    "values": [
+      77,
+      69,
+      30
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "mesothelioma_peritoneal",
+  "_chars_in": 5000
+}

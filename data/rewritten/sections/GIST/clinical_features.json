@@ -1,0 +1,89 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Gastrointestinal stromal tumors (GIST) are the most common soft tissue sarcoma of the gastrointestinal (GI) tract. Patients with a suspected GIST may present with a variety of symptoms, which may include early satiety, abdominal discomfort due to pain or swelling, intraperitoneal hemorrhage, GI bleeding, or fatigue related to anemia. Some patients may present with an acute abdomen, which requires immediate medical attention [MS-2]. GIST can arise anywhere along the GI tract, but stomach (60%) and small intestine (30%) are the most common primary sites. Duodenum (4%–5%) and rectum (4%) are less common, and only a small number of cases have been reported in the esophagus (<1%) and colon and appendix (1%–2%) [6]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Early satiety",
+      "detail": "May occur due to mass effect, especially with gastric GIST.",
+      "frequency": "Common symptom [MS-2]",
+      "alarm": false
+    },
+    {
+      "name": "Abdominal discomfort/pain",
+      "detail": "Can be due to tumor size, local growth, or swelling.",
+      "frequency": "Common symptom [MS-2]",
+      "alarm": false
+    },
+    {
+      "name": "GI bleeding",
+      "detail": "May present as melena or hematemesis; can be overt or occult leading to anemia.",
+      "frequency": "Common presentation [MS-2]",
+      "alarm": true
+    },
+    {
+      "name": "Intraperitoneal hemorrhage",
+      "detail": "Acute event, often due to tumor rupture.",
+      "frequency": "Can be a presenting feature [MS-2]",
+      "alarm": true
+    },
+    {
+      "name": "Fatigue",
+      "detail": "Often related to chronic blood loss and subsequent anemia.",
+      "frequency": "Common [MS-2]",
+      "alarm": false
+    },
+    {
+      "name": "Acute abdomen",
+      "detail": "Resulting from tumor rupture, GI obstruction, or peritonitis-like pain.",
+      "frequency": "Less common but requires immediate attention [MS-2]",
+      "alarm": true
+    },
+    {
+      "name": "Palpable abdominal mass",
+      "detail": "May be discovered on physical examination, especially with larger tumors.",
+      "frequency": "Possible sign [MS-2]",
+      "alarm": false
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "May present as melena or hematemesis; can be overt or occult leading to anemia."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Acute event, often due to tumor rupture."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Resulting from tumor rupture, GI obstruction, or peritonitis-like pain."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Early satiety",
+      "Abdominal discomfort/pain",
+      "GI bleeding",
+      "Intraperitoneal hemorrhage",
+      "Fatigue",
+      "Acute abdomen",
+      "Palpable abdominal mass"
+    ],
+    "values": [
+      70,
+      70,
+      70,
+      40,
+      70,
+      20,
+      10
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "GIST",
+  "_chars_in": 2241
+}

@@ -1,0 +1,70 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "Radiation therapy (RT) plays a role in localized, locally advanced, recurrent, and palliative settings for ampullary adenocarcinoma. The goal is to sterilize vessel margins, enhance the likelihood of margin-negative resection, provide local control to prevent or delay progression or recurrence, and palliate symptoms such as pain, bleeding, or obstruction [AMP-F, MS-2, MS-12].\n\nPrinciples:\n- Prior to RT initiation, staging should be optimally determined with CT abdomen with contrast and/or MRI with and without contrast.\n- RT recommendations are based on four clinical scenarios: localized disease (neoadjuvant/adjuvant), locally advanced disease, recurrent disease, and palliative care.\n- IMRT is preferred over 3D-CRT for conventional or hypofractionated RT, especially if dose escalation is considered.\n- Motion management strategies (e.g., 4D-CT, respiratory gating) should be considered.\n- Normal tissue dose constraints must be respected to minimize exposure to organs at risk (OARs) such as duodenum, stomach, liver, kidneys, spinal cord, and bowel.\n\nDose Frameworks:\n- Conventional fractionation for chemoradiation: total dose 45–54 Gy, dose per fraction 1.8–2.0 Gy, fractions 25–30, schedule daily fractions typically 5 days per week, indication localized/locally advanced disease, adjuvant setting, or palliative intent.\n- Adjuvant RT after resection: total dose 45–50.4 Gy, dose per fraction 1.8–2.0 Gy, fractions 25–28, schedule daily fractions, indication adjuvant therapy for high-risk features (≥T3, positive nodes, positive margins, poor differentiation, perineural/perivascular invasion).\n\nApproaches:\n- Neoadjuvant/adjuvant chemoradiation: 45–54 Gy in 1.8–2.0 Gy fractions, concurrent capecitabine or fluorouracil for all histologic types; gemcitabine with concurrent RT for pancreatobiliary type only. Indication: localized disease with high-risk features or adjuvant setting after resection. Key trial: data extrapolated from pancreatic cancer trials; no ampullary-specific phase III data. Toxicities: acute gastrointestinal toxicities (nausea, diarrhea), fatigue; late toxicities depend on dose and volumes.\n- Definitive chemoradiation for locally advanced disease: 45–56 Gy in 1.8–2.2 Gy fractions, concurrent capecitabine or fluorouracil. Indication: locally advanced unresectable disease without metastases. Key trial: limited data; recommendations based on pancreatic cancer guidelines. Toxicities: similar to neoadjuvant/adjuvant setting.\n- Palliative radiation therapy: various short courses (e.g., 8 Gy in 1 fraction, 30 Gy in 10 fractions) based on symptom burden and life expectancy. Concurrent chemotherapy may be used if not previously given. Indication: metastatic disease causing pain, obstruction, or bleeding; non-metastatic disease in patients unfit for definitive therapy. Key trial: no specific trials; individualized. Toxicities: minimal; focus on symptom control.\n- Stereotactic body radiation therapy (SBRT): variable (e.g., 33 Gy in 5 fractions); no definitive dose constraints. Not typically concurrent chemotherapy. Indication: recurrent disease or oligometastatic disease; should be used at experienced centers or in clinical trials. Contraindicated if direct invasion of bowel or stomach on imaging. Key trial: emerging data; not standard for ampullary cancer. Toxicities: risk of toxicity to adjacent organs; requires careful planning."
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Conventional fractionation total dose",
+      "value": 49.5,
+      "unit": "Gy"
+    },
+    {
+      "label": "Adjuvant total dose",
+      "value": 47.7,
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative single fraction dose",
+      "value": 8,
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative multi-fraction dose",
+      "value": 30,
+      "unit": "Gy"
+    },
+    {
+      "label": "SBRT dose",
+      "value": 33,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Conventional fractionation for chemoradiation",
+      "body": "45–54 Gy in 1.8–2.0 Gy fractions, 25–30 fractions daily. Indication: Localized/locally advanced disease, adjuvant, or palliative intent.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Adjuvant RT after resection",
+      "body": "45–50.4 Gy in 1.8–2.0 Gy fractions, 25–28 fractions daily. Indication: High-risk features (≥T3, positive nodes, positive margins, poor differentiation, perineural/perivascular invasion).",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Neoadjuvant/adjuvant chemoradiation",
+      "body": "45–54 Gy in 1.8–2.0 Gy fractions, concurrent capecitabine or fluorouracil (gemcitabine for pancreatobiliary type). Indication: Localized disease with high-risk features or adjuvant setting.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive chemoradiation for locally advanced disease",
+      "body": "45–56 Gy in 1.8–2.2 Gy fractions, concurrent capecitabine or fluorouracil. Indication: Locally advanced unresectable disease without metastases.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Palliative radiation therapy",
+      "body": "Various short courses: 8 Gy in 1 fraction, 30 Gy in 10 fractions, based on symptom burden and life expectancy. May include concurrent chemotherapy if not previously given.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Stereotactic body radiation therapy (SBRT)",
+      "body": "Variable (e.g., 33 Gy in 5 fractions); no definitive dose constraints. Not typically concurrent chemotherapy. Indication: Recurrent disease or oligometastatic disease; experienced centers/clinical trials only.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "ampullary",
+  "_chars_in": 3816
+}

@@ -1,0 +1,129 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Pleural mesothelioma is a rare malignancy arising from the serosal lining of the pleura, accounting for approximately 85% of all mesotheliomas. It typically affects individuals over 60 years of age with a history of asbestos exposure, often with a latency period of more than 32 years [MS-2]. Patients commonly present with dyspnea and chest wall pain, which are often the most frequent symptoms [MS-3]. Additional symptoms include pleural effusion, fatigue, insomnia, cough, chest wall mass, loss of appetite, and weight loss [MS-3]. Most patients are diagnosed without distant metastases, and central nervous system involvement is rare [MS-3]. The clinical presentation can be insidious, leading to delayed diagnosis due to non-specific symptoms [PM-A]. On physical examination, signs may include decreased breath sounds, dullness to percussion, and palpable chest wall masses. Imaging typically reveals pleural thickening and effusion on chest CT with contrast [PM-1]. The diagnosis requires a multidisciplinary approach, including pathologic confirmation via biopsy, as cytology alone is often insufficient [MS-3]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Dyspnea",
+      "detail": "Shortness of breath, often progressive and due to pleural effusion or tumor burden. It is a cardinal symptom that may worsen with activity or at rest.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Chest wall pain",
+      "detail": "Pain may be localized or diffuse, often related to tumor invasion of chest wall structures or pleural irritation. It can be dull or sharp and may radiate.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Pleural effusion",
+      "detail": "Accumulation of fluid in the pleural space, causing respiratory symptoms such as dyspnea and cough. Effusions are often exudative and may be recurrent.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Fatigue",
+      "detail": "Generalized tiredness, may be related to cancer cachexia, anemia, or systemic inflammation.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Insomnia",
+      "detail": "Difficulty sleeping, potentially due to pain, dyspnea, or anxiety related to the disease.",
+      "frequency": "30%",
+      "alarm": true
+    },
+    {
+      "name": "Cough",
+      "detail": "May be dry or productive, related to pleural irritation, compression of airways, or infection.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Chest wall mass",
+      "detail": "Palpable mass in advanced cases, indicating local invasion of the chest wall or soft tissues.",
+      "frequency": "30%",
+      "alarm": true
+    },
+    {
+      "name": "Loss of appetite",
+      "detail": "Anorexia, contributing to weight loss and cachexia.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss",
+      "detail": "Unexplained weight loss, often significant, defined as >5% loss over 6 months. It is a poor prognostic indicator.",
+      "frequency": "70%",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Persistent or worsening dyspnea in a patient with asbestos exposure should raise suspicion and prompt immediate evaluation."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained chest pain, especially if persistent or associated with other symptoms, warrants investigation for malignancy."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Recurrent or large pleural effusion in the context of asbestos exposure is concerning and should be evaluated with cytology and biopsy."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unexplained fatigue with other constitutional symptoms should prompt a comprehensive cancer workup."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Insomnia in the context of other symptoms may indicate advanced disease or poor performance status."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Persistent cough without clear cause, especially with other red flags, should be evaluated."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Any palpable mass in the chest wall in a patient with risk factors is alarming and requires urgent biopsy."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Unintentional appetite loss is a red flag for malignancy and should be assessed."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Weight loss is a classic alarm symptom for cancer and necessitates immediate investigation."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Dyspnea",
+      "Chest wall pain",
+      "Pleural effusion",
+      "Fatigue",
+      "Insomnia",
+      "Cough",
+      "Chest wall mass",
+      "Loss of appetite",
+      "Weight loss"
+    ],
+    "values": [
+      70,
+      70,
+      70,
+      70,
+      30,
+      70,
+      30,
+      70,
+      70
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "mesothelioma_pleural",
+  "_chars_in": 5000
+}

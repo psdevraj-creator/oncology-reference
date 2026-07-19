@@ -1,0 +1,299 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Merkel Cell Carcinoma (MCC) is an aggressive cutaneous neuroendocrine neoplasm with high rates of locoregional recurrence and distant metastasis. Treatment philosophy is multimodal, with surgery being the primary treatment for resectable disease, supplemented by adjuvant radiation therapy (RT) based on risk factors. Systemic therapy, particularly immune checkpoint inhibitors (ICIs), is central for advanced, inoperable, or metastatic disease. A multidisciplinary approach is universally recommended due to the rarity and complexity of MCC [1]. The management paradigm has shifted with the advent of ICIs (avelumab, pembrolizumab, nivolumab, retifanlimab-dlwr), which demonstrate improved durable response rates and survival compared to historical cytotoxic chemotherapy [2-5]. Treatment decisions are heavily influenced by disease stage, patient performance status, comorbidities (especially immunosuppression), and anatomic location."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Multidisciplinary Consultation (specialized center)",
+        "type": "treatment"
+      },
+      {
+        "id": "n1",
+        "label": "Clinical Staging (N0, N+, M1)",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "N0 (Localized, Clinical N0)",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Surgical Excision + Sentinel Lymph Node Biopsy (SLNB)",
+        "type": "treatment"
+      },
+      {
+        "id": "n4",
+        "label": "Risk Factor Assessment (margins, LVI, immunosupp, >1cm, SLNB+, head/neck)",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Adjuvant Radiation Therapy (RT)",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Regular Clinical Follow-up (skin/LN exam, imaging)",
+        "type": "outcome"
+      },
+      {
+        "id": "n7",
+        "label": "Unresectable N0 (Locally Advanced)",
+        "type": "decision"
+      },
+      {
+        "id": "n8",
+        "label": "Neoadjuvant Nivolumab",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Re-evaluate Resectability",
+        "type": "decision"
+      },
+      {
+        "id": "n10",
+        "label": "Definitive RT (durable local control)",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Systemic Therapy with ICI (avelumab, pembro, nivo, retifanlimab)",
+        "type": "treatment"
+      },
+      {
+        "id": "n12",
+        "label": "N+ or In-transit Disease (Regional)",
+        "type": "decision"
+      },
+      {
+        "id": "n13",
+        "label": "Node Dissection + RT",
+        "type": "treatment"
+      },
+      {
+        "id": "n14",
+        "label": "In-transit Management (surgery, RT, systemic, T-VEC, HILP/HIAC)",
+        "type": "treatment"
+      },
+      {
+        "id": "n15",
+        "label": "M1 Metastatic Disease",
+        "type": "decision"
+      },
+      {
+        "id": "n16",
+        "label": "Clinical Trial Enrollment",
+        "type": "treatment"
+      },
+      {
+        "id": "n17",
+        "label": "Systemic ICI",
+        "type": "treatment"
+      },
+      {
+        "id": "n18",
+        "label": "RT/Surgery for Oligometastases/Symptom Control",
+        "type": "treatment"
+      },
+      {
+        "id": "n19",
+        "label": "Best Supportive Care",
+        "type": "treatment"
+      },
+      {
+        "id": "n20",
+        "label": "Surveillance and Salvage (Recurrence management per stage)",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n0",
+        "target": "n1",
+        "label": "Before primary treatment"
+      },
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Clinical N0 (no nodal or distant mets)"
+      },
+      {
+        "source": "n1",
+        "target": "n12",
+        "label": "Clinical N+ or in-transit (regional)"
+      },
+      {
+        "source": "n1",
+        "target": "n15",
+        "label": "Clinical M1 (distant metastases)"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Resectable (surgical candidate)"
+      },
+      {
+        "source": "n2",
+        "target": "n7",
+        "label": "Unresectable (comorbidities or tumor characteristics)"
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "label": "Post-surgery evaluation"
+      },
+      {
+        "source": "n4",
+        "target": "n5",
+        "label": "Adverse risk factors present (LVI, immunosupp, >1cm, close/positive margin, SLNB+, head/neck)"
+      },
+      {
+        "source": "n4",
+        "target": "n6",
+        "label": "No adverse risk factors"
+      },
+      {
+        "source": "n5",
+        "target": "n20",
+        "label": "After RT, enter surveillance"
+      },
+      {
+        "source": "n6",
+        "target": "n20",
+        "label": "Ongoing follow-up leads to salvage if recurrence"
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "label": "Consider neoadjuvant nivolumab for potential resectability"
+      },
+      {
+        "source": "n7",
+        "target": "n10",
+        "label": "Non-surgical candidate, definitive RT"
+      },
+      {
+        "source": "n7",
+        "target": "n11",
+        "label": "Non-surgical candidate, systemic ICI"
+      },
+      {
+        "source": "n8",
+        "target": "n9",
+        "label": "After neoadjuvant, re-evaluate"
+      },
+      {
+        "source": "n9",
+        "target": "n3",
+        "label": "Resectable → curative surgery"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": "Still unresectable → definitive RT"
+      },
+      {
+        "source": "n9",
+        "target": "n11",
+        "label": "Still unresectable → systemic ICI"
+      },
+      {
+        "source": "n12",
+        "target": "n13",
+        "label": "Nodal metastases"
+      },
+      {
+        "source": "n12",
+        "target": "n14",
+        "label": "In-transit disease"
+      },
+      {
+        "source": "n13",
+        "target": "n20",
+        "label": "After node dissection + RT"
+      },
+      {
+        "source": "n14",
+        "target": "n20",
+        "label": "After in-transit management"
+      },
+      {
+        "source": "n15",
+        "target": "n16",
+        "label": "Clinical trial preferred"
+      },
+      {
+        "source": "n15",
+        "target": "n17",
+        "label": "Systemic ICI standard"
+      },
+      {
+        "source": "n15",
+        "target": "n18",
+        "label": "Oligometastases/symptom control"
+      },
+      {
+        "source": "n15",
+        "target": "n19",
+        "label": "Best supportive care for unfit"
+      },
+      {
+        "source": "n16",
+        "target": "n20",
+        "label": "After clinical trial"
+      },
+      {
+        "source": "n17",
+        "target": "n20",
+        "label": "After systemic ICI"
+      },
+      {
+        "source": "n18",
+        "target": "n20",
+        "label": "After local therapy"
+      },
+      {
+        "source": "n19",
+        "target": "n20",
+        "label": "Best supportive care ongoing"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative - Localized (Clinical N0)",
+      "detail": "Surgical excision is the cornerstone. The extent of adjuvant RT is guided by surgical margin status and presence of adverse risk factors (lymphovascular invasion [LVI], immunosuppression, tumor >1 cm, close/positive margins, positive sentinel lymph node biopsy [SLNB], head/neck primary). For patients who are surgical candidates, SLNB is an important staging tool. Neoadjuvant nivolumab may be considered for select patients with locally advanced disease to potentially convert to resectability [3].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative - Locally Advanced (Clinical N0, unresectable)",
+      "detail": "Multidisciplinary consultation is required. For surgical candidates, neoadjuvant anti-PD-1 therapy (nivolumab) is considered to assess response and enable subsequent curative local therapy. For non-surgical candidates, a discussion between definitive RT for durable local control versus systemic therapy is recommended [MCC-3].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative - Regional (Clinical N+ / In-transit)",
+      "detail": "Management of the primary tumor follows the localized pathway. For the nodal basin, node dissection plus RT is preferred. For in-transit disease, options include clinical trial, surgery, RT, or systemic therapy. Additional local considerations (T-VEC, hyperthermic isolated limb perfusion/infusion) are useful in certain circumstances [MCC-4].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative / Palliative - Metastatic (Clinical M1)",
+      "detail": "Clinical trial enrollment is preferred. Systemic therapy with ICIs is the standard approach. RT and/or surgery may be considered in highly selective circumstances for oligometastases or symptom control. Best supportive care is an option [MCC-5].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Surveillance and Salvage",
+      "detail": "Regular clinical follow-up with skin and lymph node exams is recommended. Imaging and biomarker testing (MCPyV antibodies, ctDNA) are performed as clinically indicated, with routine imaging surveillance considered for high-risk patients. Treatment of recurrence follows the pathway for the respective recurrent stage (e.g., regional recurrence treated per N+ pathway) [MCC-6].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "merkel",
+  "_chars_in": 4481
+}

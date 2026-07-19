@@ -1,0 +1,183 @@
+{
+  "sections": [
+    {
+      "heading": "Adenocarcinoma/Carcinoma NOS: Predominant and Isolated Cervical Nodes",
+      "content": "Adenocarcinoma or carcinoma not otherwise specified (Carcinoma NOS) with predominant and isolated cervical node metastases.\nOptions:\n- Follow workup for isolated cervical nodes (Mandatory): Perform neck/chest/abdomen/pelvis CT if not done. Consider endoscopy if clinically indicated. Perform appropriate IHC stains. Treat per NCCN Guidelines for Head and Neck Cancers if primary is found.\n- Treat as per Head and Neck Cancers (Preferred): If a head and neck primary is identified or suspected, manage according to the NCCN Guidelines for Head and Neck Cancers."
+    },
+    {
+      "heading": "Adenocarcinoma/Carcinoma NOS: Supraclavicular Nodes",
+      "content": "Adenocarcinoma/Carcinoma NOS with supraclavicular node involvement.\nOptions:\n- Additional Workup (Mandatory): Perform neck/chest/abdomen/pelvis CT if not done. Consider endoscopy if clinically indicated. Perform appropriate IHC. Consider mammogram (intact breast tissue) and PSA (>40 y with prostate). Treat per NCCN disease-specific guidelines if primary found.\n- Locoregional/Systemic therapy (Other recommended): Consider radiation therapy (RT) to the nodal basin if clinically indicated. Systemic therapy may be considered based on clinical scenario and patient factors."
+    },
+    {
+      "heading": "Adenocarcinoma/Carcinoma NOS: Axillary Nodes",
+      "content": "Adenocarcinoma/Carcinoma NOS with axillary node involvement.\nOptions:\n- Breast-focused workup (Mandatory): Perform mammogram (in those with intact breast tissue including gynecomastia). If nondiagnostic and histopathologic evidence for breast cancer, breast MRI and/or breast ultrasound indicated. Perform appropriate IHC. Consider PSA (>40 y with prostate).\n- Treat per Breast Cancer Guidelines (Preferred): If breast cancer is confirmed or highly suspected, treat per NCCN Guidelines for Breast Cancer Screening and Diagnosis and NCCN Guidelines for Breast Cancer."
+    },
+    {
+      "heading": "Adenocarcinoma/Carcinoma NOS: Mediastinum",
+      "content": "Adenocarcinoma/Carcinoma NOS with mediastinal involvement.\nOptions:\n- Age-stratified workup (Mandatory): Perform chest/abdomen/pelvis CT if not done. Test beta-hCG and alpha-fetoprotein. Consider testicular ultrasound if markers elevated (in those with testes, <50 y). Perform appropriate IHC. Consider mammogram and PSA.\n- Age-based treatment decision (Preferred): <40 y: Treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or Ovarian Cancer. 40 to <50 y: Treat as poor-risk germ cell tumor OR per NCCN Guidelines for Non-Small Cell Lung Cancer. ≥50 y: Treat per NCCN Guidelines for Non-Small Cell Lung Cancer."
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Adenocarcinoma/Carcinoma NOS: Predominant and Isolated Cervical Nodes",
+      "nodes": [
+        {
+          "id": "d_cervical_criteria",
+          "label": "Adenocarcinoma or carcinoma NOS with predominant and isolated cervical node metastases.",
+          "type": "decision"
+        },
+        {
+          "id": "t_cervical_workup",
+          "label": "Follow workup for isolated cervical nodes",
+          "type": "treatment"
+        },
+        {
+          "id": "t_cervical_treat_h_n",
+          "label": "Treat as per Head and Neck Cancers",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_cervical_criteria",
+          "target": "t_cervical_workup",
+          "label": "Option: Follow workup"
+        },
+        {
+          "source": "d_cervical_criteria",
+          "target": "t_cervical_treat_h_n",
+          "label": "Option: Treat as per Head and Neck Cancers"
+        }
+      ]
+    },
+    {
+      "title": "Adenocarcinoma/Carcinoma NOS: Supraclavicular Nodes",
+      "nodes": [
+        {
+          "id": "d_supraclavicular_criteria",
+          "label": "Adenocarcinoma/Carcinoma NOS with supraclavicular node involvement.",
+          "type": "decision"
+        },
+        {
+          "id": "t_supraclavicular_workup",
+          "label": "Additional Workup",
+          "type": "treatment"
+        },
+        {
+          "id": "t_supraclavicular_therapy",
+          "label": "Locoregional/Systemic therapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_supraclavicular_criteria",
+          "target": "t_supraclavicular_workup",
+          "label": "Option: Additional Workup"
+        },
+        {
+          "source": "d_supraclavicular_criteria",
+          "target": "t_supraclavicular_therapy",
+          "label": "Option: Locoregional/Systemic therapy"
+        }
+      ]
+    },
+    {
+      "title": "Adenocarcinoma/Carcinoma NOS: Axillary Nodes",
+      "nodes": [
+        {
+          "id": "d_axillary_criteria",
+          "label": "Adenocarcinoma/Carcinoma NOS with axillary node involvement.",
+          "type": "decision"
+        },
+        {
+          "id": "t_axillary_workup",
+          "label": "Breast-focused workup",
+          "type": "treatment"
+        },
+        {
+          "id": "t_axillary_treat_breast",
+          "label": "Treat per Breast Cancer Guidelines",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_axillary_criteria",
+          "target": "t_axillary_workup",
+          "label": "Option: Breast-focused workup"
+        },
+        {
+          "source": "d_axillary_criteria",
+          "target": "t_axillary_treat_breast",
+          "label": "Option: Treat per Breast Cancer Guidelines"
+        }
+      ]
+    },
+    {
+      "title": "Adenocarcinoma/Carcinoma NOS: Mediastinum",
+      "nodes": [
+        {
+          "id": "d_mediastinal_criteria",
+          "label": "Adenocarcinoma/Carcinoma NOS with mediastinal involvement.",
+          "type": "decision"
+        },
+        {
+          "id": "t_mediastinal_workup",
+          "label": "Age-stratified workup",
+          "type": "treatment"
+        },
+        {
+          "id": "d_mediastinal_age",
+          "label": "Age-based treatment decision",
+          "type": "decision"
+        },
+        {
+          "id": "t_mediastinal_young",
+          "label": "<40 y: Treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or Ovarian Cancer",
+          "type": "treatment"
+        },
+        {
+          "id": "t_mediastinal_mid",
+          "label": "40 to <50 y: Treat as poor-risk germ cell tumor OR per NCCN Guidelines for Non-Small Cell Lung Cancer",
+          "type": "treatment"
+        },
+        {
+          "id": "t_mediastinal_old",
+          "label": "≥50 y: Treat per NCCN Guidelines for Non-Small Cell Lung Cancer",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d_mediastinal_criteria",
+          "target": "t_mediastinal_workup",
+          "label": "Option: Age-stratified workup"
+        },
+        {
+          "source": "d_mediastinal_criteria",
+          "target": "d_mediastinal_age",
+          "label": "Option: Age-based treatment decision"
+        },
+        {
+          "source": "d_mediastinal_age",
+          "target": "t_mediastinal_young",
+          "label": "Age <40 y"
+        },
+        {
+          "source": "d_mediastinal_age",
+          "target": "t_mediastinal_mid",
+          "label": "Age 40 to <50 y"
+        },
+        {
+          "source": "d_mediastinal_age",
+          "target": "t_mediastinal_old",
+          "label": "Age ≥50 y"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "occult_primary",
+  "_chars_in": 5000
+}

@@ -1,0 +1,162 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The NCCN Guidelines emphasize a multidisciplinary team (MDT) approach as essential for the treatment of localized gastric cancer. Treatment philosophy integrates surgery, systemic therapy, and radiation therapy based on disease stage, biomarker status, and patient fitness. Best supportive care is an integral part of treatment, especially in patients with unresectable, recurrent, or metastatic disease. The primary goal for localized disease is curative resection with negative margins, often combined with perioperative systemic therapy. For advanced disease, systemic therapy aims to prolong survival and improve quality of life. Clinical trial participation is strongly encouraged throughout the disease course. The panel believes that combined modality therapy for localized esophagogastric cancer is optimally delivered with an infrastructure that encourages multidisciplinary treatment decision-making by members of all relevant disciplines taking care of these patients."
+    },
+    {
+      "heading": "Multidisciplinary Team Requirements",
+      "content": "The NCCN Panel believes that comprehensive care for gastric cancer requires expertise in several disciplines, including surgical oncology, medical oncology, radiation oncology, gastroenterology, radiology, and pathology. The presence of nutritional services, social workers, nurses, palliative care specialists, and other supporting disciplines is also desirable. The infrastructure should encourage multidisciplinary treatment decision-making with joint review of patient data. Frequent meetings (once a week or every 2 weeks) are encouraged. All relevant disciplines should be encouraged to participate. Long-term therapeutic strategies should be developed after adequate staging procedures are completed but ideally prior to any therapy. A brief documentation of the consensus recommendation(s) by the MDT may be useful. Recommendations made by the MDT may be considered advisory to the primary treating physicians. Re-presentation of select patient outcomes after therapy is an effective educational method."
+    },
+    {
+      "heading": "Performance Status Guide",
+      "content": "Performance status is a critical factor in treatment decision-making. The Eastern Cooperative Oncology Group Performance Status Scale (ECOG PS) and the Karnofsky Performance Status Scale (KPS) are commonly used. Patients with a KPS score <60% or an ECOG PS score ≥3 should be offered palliative/best supportive care only. Systemic therapy or chemoradiation (only if locally unresectable and not previously received) can be offered in addition to palliative/best supportive care for patients with better performance status (KPS score of ≥60% or ECOG PS score ≤2). The choice of systemic therapy regimens is dependent on performance status and medical comorbidities. Two-drug cytotoxic regimens are preferred for patients with advanced disease due to lower toxicity. The use of three cytotoxic drugs should be reserved for patients who are medically fit with excellent PS and easy access to frequent toxicity evaluations."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Assess Stage, Biomarkers, Performance Status",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Localized & Resectable & Good PS (Curative Intent)",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Unresectable/Metastatic or Poor PS (Palliative Intent)",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Endoscopic Resection (ER)",
+        "type": "treatment"
+      },
+      {
+        "id": "n5",
+        "label": "Surgery + Perioperative Systemic Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Consider Neoadjuvant ICI for MSI-H/dMMR",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Postoperative Path Stage-Directed Management",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "Best Supportive Care Only (if PS ≥3)",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Systemic Therapy ± BSC (if PS ≤2)",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Chemoradiation (Locally Unresectable, No Prior RT)",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Cure",
+        "type": "outcome"
+      },
+      {
+        "id": "n12",
+        "label": "Prolonged Survival & Quality of Life",
+        "type": "outcome"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Localized, resectable, good PS"
+      },
+      {
+        "source": "n1",
+        "target": "n3",
+        "label": "Unresectable/metastatic or poor PS"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "cTis/cT1a"
+      },
+      {
+        "source": "n2",
+        "target": "n5",
+        "label": "cT1b+ or higher"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "MSI-H/dMMR"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "Other biomarker"
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "label": "After ICI consideration"
+      },
+      {
+        "source": "n7",
+        "target": "n11",
+        "label": "Curative resection achieved"
+      },
+      {
+        "source": "n3",
+        "target": "n8",
+        "label": "PS ≥3 (KPS <60%)"
+      },
+      {
+        "source": "n3",
+        "target": "n9",
+        "label": "PS ≤2 (KPS ≥60%)"
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "label": "Locally unresectable and no prior RT"
+      },
+      {
+        "source": "n9",
+        "target": "n12",
+        "label": "Systemic therapy ongoing"
+      },
+      {
+        "source": "n10",
+        "target": "n12",
+        "label": "After chemoradiation"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patient Group: Patients with localized disease (cTis, cT1a, or cT1b-high to cT4a, N any, M0) who are medically fit and potentially resectable.\nApproach: Multimodal therapy with the primary intent of achieving cure. For early-stage (cTis or cT1a) tumors, endoscopic resection (ER) may be sufficient. For resectable T1b or higher tumors, surgery is the primary treatment, with perioperative systemic therapy (category 1) recommended for cT2 or higher, any N. For MSI-H/dMMR tumors, neoadjuvant or perioperative immune checkpoint inhibitor (ICI) therapy may be considered. Postoperative management is dictated by pathologic stage and extent of lymph node dissection.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative",
+      "detail": "Patient Group: Patients with unresectable locoregional disease, metastatic disease (cM1), or those who are nonsurgical candidates.\nApproach: Treatment focuses on symptom control, prolonging survival, and improving quality of life. Options include systemic therapy, chemoradiation (for locally unresectable disease not previously treated), and best supportive care. The selection of therapy is heavily dependent on performance status, biomarker status (HER2, PD-L1, CLDN18.2, MSI/MMR), and prior treatment. A multimodality interdisciplinary approach to palliative care is encouraged.",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "gastric",
+  "_chars_in": 4313
+}

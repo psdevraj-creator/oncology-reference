@@ -1,0 +1,117 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"potentially_resectable_or_transplantable\", \"title\": \"Potentially Resectable or Transplantable HCC\", \"branching_basis\": [\"Tumor burden resectability\", \"Transplant criteria eligibility (UNOS)\", \"Performance status and comorbidities\", \"Liver function (CTP class)\", \"Presence of portal hypertension\"], \"nodes\": [{\"criteria\": \"Potentially resectable or transplantable by tumor burden; and operable by performance status or comorbidity. Undergoes multidisciplinary evaluation to assess liver reserve and comorbidity, and staging workup (HCC-3).\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Resection\", \"preference\": \"Preferred if resection criteria are met (CTP Class A, no portal hypertension, suitable tumor location, adequate liver reserve and remnant).\", \"recommendation\": \"Liver resection is a potentially curative option. In highly selected patients with CTP Class B, limited resection may be considered [HCC-4, HCC-F].\", \"linked_regimen_ids\": []}, {\"type\": \"Surgery\", \"label\": \"Transplantation\", \"preference\": \"Preferred if transplant criteria are met (UNOS criteria). Refer to liver transplant center. Bridge therapy as indicated.\", \"recommendation\": \"Liver transplantation is a potentially curative option for early HCC with cirrhosis, treating both tumor and underlying liver disease [HCC-4, HCC-F].\", \"linked_regimen_ids\": []}, {\"type\": \"Locoregional Therapy\", \"label\": \"Ablation\", \"preference\": \"Preferred locoregional therapy for small, properly located tumors in patients not candidates for surgery.\", \"recommendation\": \"Ablation (microwave/radiofrequency or percutaneous ethanol injection) should be considered as definitive curative-intent treatment in well-selected patients with tumors ≤3 cm when performed at experienced centers [HCC-4, HCC-G].\", \"linked_regimen_ids\": []}, {\"type\": \"Locoregional Therapy\", \"label\": \"Arterially Directed Therapies or Radiation Therapy (RT)\", \"preference\": \"Other locoregional options.\", \"recommendation\": \"Arterially directed therapies or RT may be considered based on disease characteristics and expertise [HCC-4].\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic Therapy\", \"label\": \"Systemic Therapy\", \"preference\": \"Not first-line for this curable stage but may be considered for specific situations.\", \"recommendation\": \"Systemic therapy may be considered if deemed ineligible for transplant and with unresectable disease after locoregional therapy assessment, or for high-risk features warranting adjuvant consideration (though adjuvant data is evolving) [HCC-4].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": \"Yes, for high-risk features after curative-intent therapy.\", \"summary\": \"For patients who undergo curative-intent resection or ablation, the role of adjuvant therapy is evolving. The IMbrave050 trial showed improved recurrence-free survival with atezolizumab + bevacizumab vs. active surveillance, but an updated analysis showed the benefit was not sustained; thus, it is not included as a standard option [MS-41]. Adjuvant antiviral therapy is recommended for patients with viral hepatitis to reduce recurrence [HCC-F, MS-41]. Post-resection, surveillance with cross-sectional imaging and AFP every 3-6 months for 2 years, then every 6 months is recommended [HCC-4].\"}}]}, {\"pathway_id\": \"liver_confined_unresectable_ineligible_transplant\", \"title\": \"Liver-Confined, Unresectable, Ineligible for Transplant\", \"branching_basis\": [\"Tumor burden\", \"Liver function (CTP class, portal hypertension)\", \"Performance status\", \"Access to locoregional therapies\", \"Prior locoregional therapy response\"], \"nodes\": [{\"criteria\": \"Liver-confined, unresectable HCC, deemed ineligible for transplant due to inadequate hepatic reserve, tumor location, or extent of disease.\", \"options\": [{\"type\": \"Locoregional Therapy\", \"label\": \"Ablation, Arterially Directed Therapies, or RT\", \"preference\": \"Locoregional therapies are the primary approach. Choice depends on extent/location, hepatic reserve, and institutional capabilities.\", \"recommendation\": \"Ablation is preferred for small tumors. Arterially directed therapies (TACE, TAE, radioembolization) are options for tumors not amenable to ablation. RT (including SBRT) is a treatment option, especially when other therapies have failed or are contraindicated [HCC-5, HCC-G, HCC-H].\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic Therapy\", \"label\": \"Systemic Therapy\", \"preference\": \"An option, particularly if there is progression on or after locoregional therapy.\", \"recommendation\": \"Systemic therapy should be considered. Preferred first-line regimens include atezolizumab + bevacizumab, durvalumab + tremelimumab-actl, or ipilimumab + nivolumab [HCC-I, HCC-5].\", \"linked_regimen_ids\": [\"atezolizumab_bevacizumab\", \"durvalumab_tremelimumab\", \"ipilimumab_nivolumab\"]}, {\"type\": \"Other\", \"label\": \"Clinical Trial or Best Supportive Care\", \"preference\": \"Appropriate options at any point.\", \"recommendation\": \"Clinical trial enrollment is encouraged. Best supportive care is an option for patients who are not candidates for or decline other treatments [HCC-I, HCC-5].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": null}]}]"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Potentially Resectable or Transplantable HCC",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Potentially resectable or transplantable by tumor burden; and operable by performance status or comorbidity. Undergoes multidisciplinary evaluation to assess liver reserve and comorbidity, and staging workup (HCC-3).",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Resection",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Transplantation",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Ablation",
+          "type": "treatment"
+        },
+        {
+          "id": "t4",
+          "label": "Arterially Directed Therapies or Radiation Therapy (RT)",
+          "type": "treatment"
+        },
+        {
+          "id": "t5",
+          "label": "Systemic Therapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "Preferred if resection criteria are met (CTP Class A, no portal hypertension, suitable tumor location, adequate liver reserve and remnant)."
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "Preferred if transplant criteria are met (UNOS criteria). Refer to liver transplant center. Bridge therapy as indicated."
+        },
+        {
+          "source": "d1",
+          "target": "t3",
+          "label": "Preferred locoregional therapy for small, properly located tumors in patients not candidates for surgery."
+        },
+        {
+          "source": "d1",
+          "target": "t4",
+          "label": "Other locoregional options."
+        },
+        {
+          "source": "d1",
+          "target": "t5",
+          "label": "Not first-line for this curable stage but may be considered for specific situations."
+        }
+      ]
+    },
+    {
+      "title": "Liver-Confined, Unresectable, Ineligible for Transplant",
+      "nodes": [
+        {
+          "id": "d2",
+          "label": "Liver-confined, unresectable HCC, deemed ineligible for transplant due to inadequate hepatic reserve, tumor location, or extent of disease.",
+          "type": "decision"
+        },
+        {
+          "id": "t6",
+          "label": "Ablation, Arterially Directed Therapies, or RT",
+          "type": "treatment"
+        },
+        {
+          "id": "t7",
+          "label": "Systemic Therapy",
+          "type": "treatment"
+        },
+        {
+          "id": "t8",
+          "label": "Clinical Trial or Best Supportive Care",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d2",
+          "target": "t6",
+          "label": "Locoregional therapies are the primary approach. Choice depends on extent/location, hepatic reserve, and institutional capabilities."
+        },
+        {
+          "source": "d2",
+          "target": "t7",
+          "label": "An option, particularly if there is progression on or after locoregional therapy."
+        },
+        {
+          "source": "d2",
+          "target": "t8",
+          "label": "Appropriate options at any point."
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "hcc",
+  "_chars_in": 5000
+}

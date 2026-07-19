@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The NCCN Guidelines for Hepatobiliary Cancers have been separated into the NCCN Guidelines for Hepatocellular Carcinoma and the NCCN Guidelines for Biliary Tract Cancers [1]. This separation acknowledges the distinct biological behaviors, staging systems, and treatment paradigms for these two major categories of hepatobiliary malignancies. The overarching management philosophy for both hepatocellular carcinoma (HCC) and biliary tract cancers (BTC) is multidisciplinary, with treatment decisions tailored to the specific disease site, stage, underlying liver function (e.g., cirrhosis, Child-Pugh score), and patient performance status. A core principle is to balance oncologic efficacy with the preservation of liver function, which is often compromised by the underlying liver disease. For localized disease, the intent is curative, often involving locoregional therapies. For advanced or metastatic disease, the intent shifts to palliation, aiming to extend survival and improve quality of life."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Multidisciplinary Team Assessment",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Curative Intent: Surgery, Ablation, TACE, Transplant",
+        "type": "treatment"
+      },
+      {
+        "id": "n3",
+        "label": "Palliative Intent: Systemic Therapy, Supportive Care",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Localized disease, ECOG 0-1, Child-Pugh A/B"
+      },
+      {
+        "source": "n1",
+        "target": "n3",
+        "label": "Advanced/Metastatic, ECOG ≥2, Child-Pugh C"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative Intent",
+      "detail": "Patients with early-stage, resectable or locally advanced HCC or BTC who are fit for surgery or curative locoregional therapy. Aggressive multimodal therapy, typically centered on surgical resection. For HCC, this may include ablation, transarterial chemoembolization (TACE), or transplant within strict criteria. For BTC, it includes adjuvant therapy following resection.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative Intent",
+      "detail": "Patients with advanced, metastatic, or unresectable HCC or BTC, or those with significant comorbidities limiting aggressive treatment. Systemic therapy, with options guided by biomarkers (e.g., FGFR2 fusions for BTC, PD-L1 status for some immunotherapies), and supportive care. Locoregional therapies like TACE or radiation may be used for symptom control or to treat oligometastatic disease.",
+      "color": "#3b82f6"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "hepatobiliary",
+  "_chars_in": 3324
+}

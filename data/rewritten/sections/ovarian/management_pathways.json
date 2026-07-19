@@ -1,0 +1,187 @@
+{
+  "sections": [
+    {
+      "heading": "Newly Diagnosed Stage IA or IB Epithelial Ovarian Cancer (Fertility Not Desired)",
+      "content": "{\"pathway_id\": \"newly_diagnosed_stage_ia_ib_early_stage_epithelial\", \"title\": \"Newly Diagnosed Stage IA or IB Epithelial Ovarian Cancer (Fertility Not Desired)\", \"branching_basis\": [\"stage\", \"histology\", \"grade\", \"residual disease\", \"biomarker status\", \"patient age and comorbidities\"], \"nodes\": [{\"criteria\": \"Stage IA or IB, high-grade serous or endometrioid (grade 2/3) carcinoma, no residual disease after surgery.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Hysterectomy/BSO with comprehensive staging\", \"preference\": \"Preferred\", \"recommendation\": \"Complete surgical staging including hysterectomy, bilateral salpingo-oophorectomy (BSO), omentectomy, lymph node dissection, and peritoneal biopsies.\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic Therapy\", \"label\": \"Observation or adjuvant platinum-based chemotherapy\", \"preference\": \"Observation for low-risk patients; chemotherapy for high-risk features\", \"recommendation\": \"Observe for patients with stage IA grade 1 tumors. For stage IA grade 2/3 or stage IB, consider adjuvant carboplatin/paclitaxel for 3-6 cycles.\", \"linked_regimen_ids\": [\"carboplatin_paclitaxel_stage_i\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant chemotherapy may be offered for high-grade histology or stage IC disease. Observation is appropriate for stage IA grade 1 tumors.\"}}]}"
+    },
+    {
+      "heading": "Newly Diagnosed Stage II-IV Epithelial Ovarian Cancer",
+      "content": "{\"pathway_id\": \"newly_diagnosed_stage_ii_iv_epithelial\", \"title\": \"Newly Diagnosed Stage II-IV Epithelial Ovarian Cancer\", \"branching_basis\": [\"surgical candidacy\", \"likelihood of optimal cytoreduction\", \"stage\", \"histology\", \"biomarker status\"], \"nodes\": [{\"criteria\": \"Surgical candidate, optimal cytoreduction likely (fertility not desired).\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Primary cytoreductive surgery (PCS)\", \"preference\": \"Preferred\", \"recommendation\": \"Hysterectomy/BSO with comprehensive staging and maximal cytoreductive effort. Goal is complete resection (R0) or optimal residual disease (<1 cm).\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic Therapy\", \"label\": \"Adjuvant platinum-based chemotherapy ± bevacizumab\", \"preference\": \"Preferred\", \"recommendation\": \"Carboplatin/paclitaxel every 3 weeks for 6 cycles. Consider addition of bevacizumab (GOG-218/ICON-7 regimen) for high-risk disease.\", \"linked_regimen_ids\": [\"carboplatin_paclitaxel_stage_ii_iv\", \"gog218_regimen\", \"icon7_regimen\"]}, {\"type\": \"Maintenance Therapy\", \"label\": \"PARP inhibitor or bevacizumab maintenance\", \"preference\": \"Based on biomarkers\", \"recommendation\": \"For patients with germline/somatic BRCA1/2 mutation or HRD: olaparib, niraparib, or rucaparib. If bevacizumab used, consider olaparib+bevacizumab or niraparib+bevacizumab. If no BRCA/HRD: bevacizumab maintenance or observe.\", \"linked_regimen_ids\": [\"olaparib_maintenance\", \"niraparib_maintenance\", \"rucaparib_maintenance\", \"olaparib_bevacizumab_maintenance\", \"niraparib_bevacizumab_maintenance\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant platinum-based chemotherapy is standard. Maintenance therapy with PARP inhibitors or bevacizumab may be added based on biomarkers and prior treatment.\"}}, {\"criteria\": \"Poor surgical candidate or low likelihood of optimal cytoreduction.\", \"options\": [{\"type\": \"Systemic Therapy\", \"label\": \"Neoadjuvant chemotherapy (NACT)\", \"preference\": \"Preferred (category 1)\", \"recommendation\": \"Platinum-based chemotherapy ± bevacizumab for 3-4 cycles before reassessment for interval debulking surgery (IDS).\", \"linked_regimen_ids\": [\"carboplatin_paclitaxel_neoadjuvant\", \"gog218_regimen_neoadjuvant\", \"icon7_regimen_neoadjuvant\"]}, {\"type\": \"Surgery\", \"label\": \"Interval debulking surgery (IDS)\", \"preference\": \"Preferred after 3-4 cycles\", \"recommendation\": \"Hysterectomy/BSO with maximal cytoreduction. Consider HIPEC/cisplatin for stage III disease.\", \"linked_regimen_ids\": []}, {\"type\": \"Systemic Therapy\", \"label\": \"Adjuvant chemotherapy after IDS\", \"preference\": \"Preferred\", \"recommendation\": \"Complete a total of 6 cycles of platinum-based chemotherapy. May consider IP/IV regimen for optimally debulked patients.\", \"linked_regimen_ids\": [\"ip_iv_cisplatin_paclitaxel\", \"ip_iv_carboplatin_paclitaxel\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"NACT followed by IDS and adjuvant chemotherapy is an alternative to PCS. Maintenance therapy as above.\"}}]}"
+    },
+    {
+      "heading": "Recurrent Platinum-Sensitive Ovarian Cancer",
+      "content": "{\"pathway_id\": \"recurrent_platinum_sensitive\", \"title\": \"Recurrent Platinum-Sensitive Ovarian Cancer\", \"branching_basis\": [\"time to recurrence\", \"surgical candidacy\", \"volume of disease\", \"prior therapies\", \"biomarker status\"], \"nodes\": [{\"criteria\": \"Relapse ≥6 months after completing prior platinum-based chemotherapy, isolated or limited foci of disease, good performance status, no ascites.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Secondary cytoreductive surgery\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Consider for patients with isolated or limited recurrent disease amenable to complete resection. May be combined with platinum-based chemotherapy.\"}]}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Newly Diagnosed Stage IA or IB Epithelial Ovarian Cancer (Fertility Not Desired)",
+      "nodes": [
+        {
+          "id": "n1",
+          "label": "Stage IA or IB, high-grade serous or endometrioid (grade 2/3) carcinoma, no residual disease after surgery.",
+          "type": "decision"
+        },
+        {
+          "id": "n2",
+          "label": "Hysterectomy/BSO with comprehensive staging",
+          "type": "treatment"
+        },
+        {
+          "id": "n3",
+          "label": "Observation or adjuvant platinum-based chemotherapy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "n1",
+          "target": "n2",
+          "label": "Proceed to surgery"
+        },
+        {
+          "source": "n2",
+          "target": "n3",
+          "label": "Decide on adjuvant therapy"
+        }
+      ]
+    },
+    {
+      "title": "Newly Diagnosed Stage II-IV Epithelial Ovarian Cancer",
+      "nodes": [
+        {
+          "id": "n1",
+          "label": "Surgical candidacy and likelihood of optimal cytoreduction",
+          "type": "decision"
+        },
+        {
+          "id": "n2",
+          "label": "Surgical candidate, optimal cytoreduction likely (fertility not desired).",
+          "type": "decision"
+        },
+        {
+          "id": "n3",
+          "label": "Primary cytoreductive surgery (PCS)",
+          "type": "treatment"
+        },
+        {
+          "id": "n4",
+          "label": "Adjuvant platinum-based chemotherapy ± bevacizumab",
+          "type": "treatment"
+        },
+        {
+          "id": "n5",
+          "label": "PARP inhibitor or bevacizumab maintenance",
+          "type": "treatment"
+        },
+        {
+          "id": "n6",
+          "label": "Poor surgical candidate or low likelihood of optimal cytoreduction.",
+          "type": "decision"
+        },
+        {
+          "id": "n7",
+          "label": "Neoadjuvant chemotherapy (NACT)",
+          "type": "treatment"
+        },
+        {
+          "id": "n8",
+          "label": "Interval debulking surgery (IDS)",
+          "type": "treatment"
+        },
+        {
+          "id": "n9",
+          "label": "Adjuvant chemotherapy after IDS",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "n1",
+          "target": "n2",
+          "label": "Optimal cytoreduction likely, surgical candidate"
+        },
+        {
+          "source": "n2",
+          "target": "n3",
+          "label": "Proceed to surgery"
+        },
+        {
+          "source": "n3",
+          "target": "n4",
+          "label": "Start adjuvant chemotherapy"
+        },
+        {
+          "source": "n4",
+          "target": "n5",
+          "label": "Consider maintenance therapy"
+        },
+        {
+          "source": "n1",
+          "target": "n6",
+          "label": "Low likelihood or poor candidate"
+        },
+        {
+          "source": "n6",
+          "target": "n7",
+          "label": "Start neoadjuvant therapy"
+        },
+        {
+          "source": "n7",
+          "target": "n8",
+          "label": "Proceed to interval debulking"
+        },
+        {
+          "source": "n8",
+          "target": "n9",
+          "label": "Complete adjuvant chemotherapy"
+        }
+      ]
+    },
+    {
+      "title": "Recurrent Platinum-Sensitive Ovarian Cancer",
+      "nodes": [
+        {
+          "id": "n1",
+          "label": "Relapse ≥6 months after completing prior platinum-based chemotherapy, isolated or limited foci of disease, good performance status, no ascites.",
+          "type": "decision"
+        },
+        {
+          "id": "n2",
+          "label": "Secondary cytoreductive surgery",
+          "type": "treatment"
+        },
+        {
+          "id": "n3",
+          "label": "Platinum-based chemotherapy ± bevacizumab",
+          "type": "treatment"
+        },
+        {
+          "id": "n4",
+          "label": "Maintenance therapy (PARP/bevacizumab)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "n1",
+          "target": "n2",
+          "label": "Consider secondary cytoreduction"
+        },
+        {
+          "source": "n2",
+          "target": "n3",
+          "label": "Proceed to platinum-based chemotherapy"
+        },
+        {
+          "source": "n3",
+          "target": "n4",
+          "label": "Consider maintenance therapy"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "ovarian",
+  "_chars_in": 5000
+}

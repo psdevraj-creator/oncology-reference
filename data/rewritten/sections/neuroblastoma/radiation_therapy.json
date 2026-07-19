@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "RT is indicated for nearly all cases of high-risk neuroblastoma and in exceedingly rare circumstances for patients with non–high-risk disease. For example, symptomatic patients (stage MS) with severe ongoing organ dysfunction with inadequate response to initial chemotherapy may benefit from RT; multidisciplinary discussion is recommended [NEUROB-H 1 of 3]. The primary site is always irradiated. Metastatic sites are only irradiated if there is concern for active disease after completion of induction chemotherapy, demonstrated by MIBG/FDG uptake and/or persistent soft-tissue mass >1 cm³ [NEUROB-H 1 of 3].\n\nPrinciples:\n- RT will be delivered after recovery from high-dose chemotherapy with stem cell rescue unless there is an indication for emergent RT [NEUROB-H 1 of 3].\n- Intensity-modulated RT (IMRT) or proton therapy can be used to reduce the risk and/or magnitude of side effects [NEUROB-H 1 of 3].\n- If radiation to metastatic sites is indicated, they should be irradiated concurrently with the primary site [NEUROB-H 1 of 3].\n- The Panel recognizes that not all metastatic sites may be feasibly targeted by external beam radiotherapy [NEUROB-H 1 of 3].\n- Boosting residual disease after surgery to 36 Gy did not improve cumulative incidence of local progression [NEUROB-H 2 of 3, footnote a].\n- The Panel does not recommend extending radiotherapy fields to include uninvolved draining nodal stations (A3973 data) or augmenting dose to gross residual tumor (ANBL0532 data) [NEUROB-D 5 of 13].\n\nDose frameworks:\n- Primary site and involved regional lymph nodes: 21.6 Gy total, 1.8 Gy/fraction, 12 fractions, delivered after recovery from high-dose chemotherapy with stem cell rescue. Standard dose for primary site irradiation in high-risk neuroblastoma [NEUROB-H 2 of 3].\n- Metastatic sites concerning for active disease: 21.6 Gy total, 1.8 Gy/fraction, 12 fractions, delivered concurrently with primary site RT after transplant recovery. Sites with MIBG/FDG uptake or persistent soft-tissue mass >1 cm³ at end of induction [NEUROB-H 2 of 3].\n- Emergent RT: 4.5 Gy total, 1.5 Gy/fraction, 3 fractions, emergent setting. Indications: Hepatomegaly leading to respiratory distress; orbit or optic pathway disease leading to vision loss [NEUROB-H 2 of 3].\n\nApproaches:\n- Primary site consolidative RT: 21.6 Gy in 1.8 Gy/fraction (12 fractions). No concurrent chemotherapy. Delivered after recovery from high-dose chemotherapy with stem cell rescue. Key trials: ANBL0532 (boosting to 36 Gy did not improve local control), A3973 (extending fields not beneficial). Toxicities: organ-specific constraints (kidney V18 Gy <25% contralateral, mean ≤14.4 Gy; liver mean <18 Gy; vertebrae min 18 Gy; bilateral lungs V20 Gy <30%) [NEUROB-H 2 of 3].\n- Metastatic site RT: 21.6 Gy in 1.8 Gy/fraction (12 fractions). No concurrent chemotherapy. Indication: residual metastatic disease at end of induction. Key trials: Casey et al. 2018, Polishchuk et al. 2014. Toxicities: site-dependent.\n- Emergent RT: 4.5 Gy in 1.5 Gy/fraction (3 fractions). No concurrent chemotherapy. Indication: hepatomegaly with respiratory distress, orbit/optic pathway disease leading to vision loss [NEUROB-H 2 of 3]."
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Primary and metastatic site dose",
+      "value": 21.6,
+      "unit": "Gy"
+    },
+    {
+      "label": "Emergent RT dose",
+      "value": 4.5,
+      "unit": "Gy"
+    },
+    {
+      "label": "Boost dose (not recommended)",
+      "value": 36,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Primary site RT",
+      "body": "21.6 Gy in 12 fractions of 1.8 Gy each, after recovery from high-dose chemotherapy with stem cell rescue.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Metastatic site RT",
+      "body": "21.6 Gy in 12 fractions of 1.8 Gy each, concurrently with primary site RT after transplant recovery.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Emergent RT",
+      "body": "4.5 Gy in 3 fractions of 1.5 Gy each, for hepatomegaly or optic pathway compromise.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Boost (not recommended)",
+      "body": "36 Gy boost to residual disease after surgery did not improve local progression [ANBL0532].",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "neuroblastoma",
+  "_chars_in": 4370
+}

@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "heading": "MOLECULAR PATHOGENESIS",
+      "content": "The molecular pathogenesis of GIST is driven by constitutive activation of tyrosine kinase signaling pathways, primarily through oncogenic mutations in KIT or PDGFRA receptor tyrosine kinase genes [1,10]. Approximately 80% of GIST harbor mutations in the KIT gene, which encodes a transmembrane receptor involved in cell growth and survival [9,10]. Most KIT mutations occur in exon 11 (juxtamembrane domain), leading to ligand-independent activation; mutations in exon 9 (extracellular domain) are less common and often associated with intestinal GIST [13]. Rarely, mutations in exons 13 or 17 (tyrosine kinase domain) occur [14]. About 5%–10% of GIST have mutations in the PDGFRA gene, a related receptor tyrosine kinase, with the majority affecting exon 18 (tyrosine kinase domain), such as the D842V mutation [11,15]. These mutations result in gain-of-function, driving tumor proliferation via downstream pathways like RAS/MAPK and PI3K/AKT. In 10%–15% of GIST, neither KIT nor PDGFRA mutations are detectable (wild-type GIST); the majority of these have functional inactivation of the succinate dehydrogenase (SDH) complex due to mutations in SDH subunits (SDHA, SDHB, SDHC, SDHD) or epigenetic silencing, leading to metabolic reprogramming and tumorigenesis [16,18,19]. SDH-deficient GIST often arise in younger patients and have a distinct clinical behavior [83]. Other rare genomic events include BRAF V600E mutations (activating the MAPK pathway), inactivating NF1 mutations (affecting RAS regulation), and gene fusions involving NTRK or FGFR, which can serve as alternative drivers [21,93,101]. Chromosomal abnormalities, such as deletions of chromosome 14q and 22q, are frequently observed and may contribute to loss of tumor suppressor genes [7]. These molecular alterations dictate response to targeted therapies, such as tyrosine kinase inhibitors (TKIs), and are essential for risk stratification and treatment planning [GIST-B]."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "KIT",
+        "type": "gene"
+      },
+      {
+        "id": "PDGFRA",
+        "type": "gene"
+      },
+      {
+        "id": "SDHA",
+        "type": "gene"
+      },
+      {
+        "id": "SDHB",
+        "type": "gene"
+      },
+      {
+        "id": "SDHC",
+        "type": "gene"
+      },
+      {
+        "id": "SDHD",
+        "type": "gene"
+      },
+      {
+        "id": "BRAF",
+        "type": "gene"
+      },
+      {
+        "id": "NF1",
+        "type": "gene"
+      },
+      {
+        "id": "NTRK",
+        "type": "gene"
+      },
+      {
+        "id": "FGFR",
+        "type": "gene"
+      },
+      {
+        "id": "RAS/MAPK",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K/AKT",
+        "type": "pathway"
+      },
+      {
+        "id": "Tyrosine kinase signaling",
+        "type": "pathway"
+      },
+      {
+        "id": "Metabolic reprogramming",
+        "type": "pathway"
+      },
+      {
+        "id": "TKIs",
+        "type": "drug"
+      }
+    ],
+    "edges": [
+      {
+        "source": "KIT",
+        "target": "RAS/MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "KIT",
+        "target": "PI3K/AKT",
+        "type": "activates"
+      },
+      {
+        "source": "KIT",
+        "target": "Tyrosine kinase signaling",
+        "type": "activates"
+      },
+      {
+        "source": "PDGFRA",
+        "target": "RAS/MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "PDGFRA",
+        "target": "PI3K/AKT",
+        "type": "activates"
+      },
+      {
+        "source": "PDGFRA",
+        "target": "Tyrosine kinase signaling",
+        "type": "activates"
+      },
+      {
+        "source": "BRAF",
+        "target": "RAS/MAPK",
+        "type": "activates"
+      },
+      {
+        "source": "NF1",
+        "target": "RAS/MAPK",
+        "type": "inhibits"
+      },
+      {
+        "source": "TKIs",
+        "target": "KIT",
+        "type": "targets"
+      },
+      {
+        "source": "TKIs",
+        "target": "PDGFRA",
+        "type": "targets"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "RAS/MAPK",
+      "genes": [
+        "KIT",
+        "PDGFRA",
+        "BRAF",
+        "NF1"
+      ],
+      "drugs": "TKIs",
+      "targetable": true
+    },
+    {
+      "pathway": "PI3K/AKT",
+      "genes": [
+        "KIT",
+        "PDGFRA"
+      ],
+      "drugs": "TKIs",
+      "targetable": true
+    },
+    {
+      "pathway": "Tyrosine kinase signaling",
+      "genes": [
+        "KIT",
+        "PDGFRA"
+      ],
+      "drugs": "TKIs",
+      "targetable": true
+    },
+    {
+      "pathway": "Metabolic reprogramming",
+      "genes": [
+        "SDHA",
+        "SDHB",
+        "SDHC",
+        "SDHD"
+      ],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "GIST",
+  "_chars_in": 1943
+}

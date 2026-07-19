@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"resectable_disease\", \"title\": \"Resectable Disease\", \"branching_basis\": [\"resectability status\", \"high-risk features\", \"patient fitness\", \"molecular profiling\"], \"nodes\": [{\"criteria\": \"No arterial tumor contact (celiac axis, SMA, or CHA); no tumor contact with SMV/PV or ≤180° contact without contour irregularity [PANC-C]\", \"options\": [{\"type\": \"surgery\", \"label\": \"Surgery in absence of high-risk features (without neoadjuvant therapy)\", \"preference\": \"option\", \"recommendation\": \"If patient lacks high-risk features (equivocal/indeterminate imaging, markedly elevated CA 19-9, large primary tumors, large regional lymph nodes, excessive weight loss, extreme pain) [PANC-2A footnote m]\", \"linked_regimen_ids\": []}, {\"type\": \"neoadjuvant_therapy\", \"label\": \"Neoadjuvant therapy with or without high-risk features followed by surgery\", \"preference\": \"option\", \"recommendation\": \"Preferred neoadjuvant regimens include Albumin-bound Paclitaxel/Gemcitabine, FOLFIRINOX or modified FOLFIRINOX [PANC-G 1 of 13]\", \"linked_regimen_ids\": [\"nab_paclitaxel_gemcitabine\", \"folfirinox\", \"cisplatin_gemcitabine_bral2\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"For patients who did not receive prior neoadjuvant therapy: Capecitabine/Gemcitabine (category 1), modified FOLFIRINOX (category 1) are preferred [PANC-G 2 of 13]. For patients who received prior neoadjuvant therapy, adjuvant options depend on response to neoadjuvant therapy and other clinical considerations. Total duration of systemic therapy is typically 6 months [PANC-5A footnote dd].\"}}, {\"criteria\": \"Medically inoperable patient with resectable disease by imaging\", \"options\": [{\"type\": \"non_surgical\", \"label\": \"Treat as locally advanced disease\", \"preference\": \"preferred\", \"recommendation\": \"Refer to locally advanced disease pathway [PANC-2]\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable for medically inoperable patients.\"}}]}, {\"pathway_id\": \"borderline_resectable_disease\", \"title\": \"Borderline Resectable Disease, No Metastases\", \"branching_basis\": [\"biopsy status\", \"resectability status\", \"treatment response\", \"molecular profiling\"], \"nodes\": [{\"criteria\": \"Biopsy positive for adenocarcinoma, borderline resectable by imaging criteria [PANC-C]. Pancreatic head/uncinate: solid tumor contact with CHA without extension to CA or hepatic artery bifurcation; solid tumor contact with SMA ≤180°. Pancreatic body/tail: solid tumor contact with CA ≤180°. Venous: solid tumor contact with SMV or PV >180°, or ≤180° with contour irregularity or thrombosis [PANC-C]\", \"options\": [{\"type\": \"neoadjuvant_therapy\", \"label\": \"Neoadjuvant therapy\", \"preference\": \"preferred\", \"recommendation\": \"Upfront resection is no longer recommended. Neoadjuvant therapy preferred at or coordinated through high-volume center [PANC-3, PANC-2A footnote n]\", \"linked_regimen_ids\": [\"nab_paclitaxel_gemcitabine\", \"folfirinox\", \"cisplatin_gemcitabine_bral2\", \"paxg\"]}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"After neoadjuvant therapy and successful resection, adjuvant therapy may be considered based on response to neoadjuvant therapy and clinical factors [PANC-5A footnote dd].\"}}, {\"criteria\": \"Biopsy negative or cancer not confirmed\", \"options\": [{\"type\": \"biopsy\", \"label\": \"Repeat biopsy (EUS-guided preferred)\", \"preference\": \"preferred\", \"recommendation\": \"EUS-guided biopsy preferred. If cancer not confirmed after repeat biopsy, consider referral to high-volume center for evaluation [PANC-3]. If biopsy remains negative after 2-3 attempts, refer to high-volume center [MS-10].\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable until diagnosis is confirmed.\"}}]}, {\"pathway_id\": \"neoadjuvant_response\", \"title\": \"Treatment Response Following Neoadjuvant Therapy\", \"branching_basis\": [\"radiologic response\", \"CA 19-9 response\", \"metabolic response\", \"clinical improvement\"], \"nodes\": [{\"criteria\": \"Significant response: significant reduction of tumor size/volume on CT/MRI (RECIST), significant reduction of CA19-9/CEA, and/or significant reduction of PET SUV/metabolic tumor volume [PANC-D Table 1]\", \"options\": [{\"type\": \"surgery\", \"label\": \"Surgical resection recommended\", \"preference\": \"preferred\", \"recommendation\": \"Independent of degree of vascular involvement if R0 resection is technically feasible. If response warrants resection but technically unfeasible locally, second opinion at center with expertise in vascular resections recommended [PANC-D Table 1]\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Consolidative chemoradiation may be considered after chemotherapy and prior to surgical resection [PANC-D Table 1].\"}}, {\"criteria\": \"Minimal response: stable or minimal reduction of tumor size/volume, CA19-9, and/or PET SUV [PANC-D Table 1]\", \"options\": [{\"type\": \"surgery\", \"label\": \"Surgical resection considered in select cases\", \"preference\": \"option\", \"recommendation\": \"\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable.\"}}]}]"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Resectable Disease",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Criteria: No arterial tumor contact (celiac axis, SMA, or CHA); no tumor contact with SMV/PV or ≤180° contact without contour irregularity [PANC-C]",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Surgery in absence of high-risk features (without neoadjuvant therapy)",
+          "type": "treatment"
+        },
+        {
+          "id": "t2",
+          "label": "Neoadjuvant therapy with or without high-risk features followed by surgery",
+          "type": "treatment"
+        },
+        {
+          "id": "d2",
+          "label": "Criteria: Medically inoperable patient with resectable disease by imaging",
+          "type": "decision"
+        },
+        {
+          "id": "t3",
+          "label": "Treat as locally advanced disease",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "t1",
+          "label": "If patient lacks high-risk features (equivocal/indeterminate imaging, markedly elevated CA 19-9, large primary tumors, large regional lymph nodes, excessive weight loss, extreme pain) [PANC-2A footnote m]"
+        },
+        {
+          "source": "d1",
+          "target": "t2",
+          "label": "Preferred neoadjuvant regimens include Albumin-bound Paclitaxel/Gemcitabine, FOLFIRINOX or modified FOLFIRINOX [PANC-G 1 of 13]"
+        },
+        {
+          "source": "d2",
+          "target": "t3",
+          "label": "Refer to locally advanced disease pathway [PANC-2]"
+        }
+      ]
+    },
+    {
+      "title": "Borderline Resectable Disease, No Metastases",
+      "nodes": [
+        {
+          "id": "d3",
+          "label": "Criteria: Biopsy positive for adenocarcinoma, borderline resectable by imaging criteria [PANC-C]",
+          "type": "decision"
+        },
+        {
+          "id": "t4",
+          "label": "Neoadjuvant therapy",
+          "type": "treatment"
+        },
+        {
+          "id": "d4",
+          "label": "Criteria: Biopsy negative or cancer not confirmed",
+          "type": "decision"
+        },
+        {
+          "id": "t5",
+          "label": "Repeat biopsy (EUS-guided preferred)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d3",
+          "target": "t4",
+          "label": "Upfront resection is no longer recommended. Neoadjuvant therapy preferred at or coordinated through high-volume center [PANC-3, PANC-2A footnote n]"
+        },
+        {
+          "source": "d4",
+          "target": "t5",
+          "label": "EUS-guided biopsy preferred. If cancer not confirmed after repeat biopsy, consider referral to high-volume center for evaluation [PANC-3]. If biopsy remains negative after 2-3 attempts, refer to high-volume center [MS-10]."
+        }
+      ]
+    },
+    {
+      "title": "Treatment Response Following Neoadjuvant Therapy",
+      "nodes": [
+        {
+          "id": "d5",
+          "label": "Criteria: Significant response: significant reduction of tumor size/volume on CT/MRI (RECIST), significant reduction of CA19-9/CEA, and/or significant reduction of PET SUV/metabolic tumor volume [PANC-D Table 1]",
+          "type": "decision"
+        },
+        {
+          "id": "t6",
+          "label": "Surgical resection recommended",
+          "type": "treatment"
+        },
+        {
+          "id": "d6",
+          "label": "Criteria: Minimal response: stable or minimal reduction of tumor size/volume, CA19-9, and/or PET SUV [PANC-D Table 1]",
+          "type": "decision"
+        },
+        {
+          "id": "t7",
+          "label": "Surgical resection considered in select cases",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d5",
+          "target": "t6",
+          "label": "Independent of degree of vascular involvement if R0 resection is technically feasible. If response warrants resection but technically unfeasible locally, second opinion at center with expertise in vascular resections recommended [PANC-D Table 1]"
+        },
+        {
+          "source": "d6",
+          "target": "t7",
+          "label": "Consider surgery based on clinical factors"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "pancreatic",
+  "_chars_in": 5000
+}

@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of renal cell carcinoma (RCC) requires a multidisciplinary approach, emphasizing nephron-sparing surgery when feasible and risk stratification for adjuvant and systemic therapy decisions. Treatment intent varies from curative for localized disease to palliative for advanced stages. Active surveillance is a viable option for select patients with small renal masses and significant comorbidities. For metastatic disease, the choice of systemic therapy is guided by histology, risk stratification (MSKCC/IMDC), and prior therapy history. Supportive care and management of treatment-related toxicities are integral throughout the disease trajectory. [KID-A, KID-D]"
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "RCC Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Assess Stage and Treatment Intent",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Localized Disease (Stages I-III, resectable T4, M0)",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Advanced/Relapsed Disease (Stage IV, M1, unresectable)",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Surgical Resection (Partial/Radical Nephrectomy)",
+        "type": "treatment"
+      },
+      {
+        "id": "n6",
+        "label": "Ablative Techniques (Ablation/SBRT)",
+        "type": "treatment"
+      },
+      {
+        "id": "n7",
+        "label": "Active Surveillance",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "Cytoreductive Nephrectomy",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Systemic Therapy (guided by histology, risk, prior therapy)",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Adjuvant Pembrolizumab (high-risk clear cell)",
+        "type": "treatment"
+      },
+      {
+        "id": "n11",
+        "label": "Best Supportive Care",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": ""
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Localized (Curative intent)"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Advanced/Palliative"
+      },
+      {
+        "source": "n3",
+        "target": "n5",
+        "label": "Surgical candidate, PS 0-1"
+      },
+      {
+        "source": "n3",
+        "target": "n6",
+        "label": "Medically inoperable, suitable for ablation"
+      },
+      {
+        "source": "n3",
+        "target": "n7",
+        "label": "Small mass, significant comorbidities"
+      },
+      {
+        "source": "n5",
+        "target": "n10",
+        "label": "High-risk clear cell (stage II grade4/sarcomatoid, stage III)"
+      },
+      {
+        "source": "n4",
+        "target": "n8",
+        "label": "Excellent PS (<2, no brain mets)"
+      },
+      {
+        "source": "n4",
+        "target": "n9",
+        "label": "Candidate for systemic therapy"
+      },
+      {
+        "source": "n4",
+        "target": "n11",
+        "label": "Poor PS / unfit for active treatment"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patient group: Localized RCC (Stages I-III, resectable T4, M0). Approach: Primary treatment involves surgical resection (partial or radical nephrectomy) or ablative techniques (percutaneous ablation, SBRT) for medically inoperable patients. Adjuvant pembrolizumab is recommended for clear cell histology with high-risk features (stage II grade 4 ± sarcomatoid, stage III). Neoadjuvant systemic therapy may be considered for select patients with large or locally advanced tumors to achieve cytoreduction. [KID-1, KID-2, KID-3]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative/Control",
+      "detail": "Patient group: Stage IV (M1, unresectable T4, M0) or relapsed disease. Approach: Treatment aims to prolong survival and maintain quality of life. Options include systemic therapy (first-line and subsequent lines), cytoreductive nephrectomy in selected patients, and metastasectomy or SBRT for oligometastatic disease. Best supportive care is recommended for all patients. [KID-3, KID-4]",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "kidney",
+  "_chars_in": 2621
+}

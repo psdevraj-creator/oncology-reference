@@ -1,0 +1,177 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "{\"system\": \"AJCC Cancer Staging Manual, 8th Edition (2017) TNM System\", \"t_stages\": [{\"stage\": \"TX\", \"description\": \"Primary tumor cannot be assessed.\"}, {\"stage\": \"T0\", \"description\": \"No evidence of primary tumor.\"}, {\"stage\": \"Tis\", \"description\": \"Carcinoma in situ (Penile intraepithelial neoplasia [PeIN]).\"}, {\"stage\": \"Ta\", \"description\": \"Noninvasive localized squamous cell carcinoma.\"}, {\"stage\": \"T1\", \"description\": \"Tumor invades lamina propria (glans), dermis/lamina propria/dartos fascia (foreskin), or connective tissue between epidermis and corpora (shaft), with or without lymphovascular invasion (LVI) or perineural invasion (PNI), and is or is not high grade.\"}, {\"stage\": \"T1a\", \"description\": \"Tumor is without LVI or PNI and is not high grade (i.e., not grade 3 or sarcomatoid).\"}, {\"stage\": \"T1b\", \"description\": \"Tumor exhibits LVI and/or PNI or is high grade (i.e., grade 3 or sarcomatoid).\"}, {\"stage\": \"T2\", \"description\": \"Tumor invades into corpus spongiosum (either glans or ventral shaft) with or without urethral invasion.\"}, {\"stage\": \"T3\", \"description\": \"Tumor invades into corpora cavernosum (including tunica albuginea) with or without urethral invasion.\"}, {\"stage\": \"T4\", \"description\": \"Tumor invades into adjacent structures (i.e., scrotum, prostate, pubic bone).\"}], \"n_stages\": [{\"stage\": \"Clinical (cN)\", \"substage\": \"cNX\", \"description\": \"Regional lymph nodes cannot be assessed.\"}, {\"stage\": \"Clinical (cN)\", \"substage\": \"cN0\", \"description\": \"No palpable or visibly enlarged inguinal lymph nodes.\"}, {\"stage\": \"Clinical (cN)\", \"substage\": \"cN1\", \"description\": \"Palpable mobile unilateral inguinal lymph node.\"}, {\"stage\": \"Clinical (cN)\", \"substage\": \"cN2\", \"description\": \"Palpable mobile ≥2 unilateral inguinal nodes OR bilateral inguinal lymph nodes.\"}, {\"stage\": \"Clinical (cN)\", \"substage\": \"cN3\", \"description\": \"Palpable fixed inguinal nodal mass OR pelvic lymphadenopathy unilateral or bilateral.\"}, {\"stage\": \"Pathologic (pN)\", \"substage\": \"pNX\", \"description\": \"Lymph node metastasis cannot be established.\"}, {\"stage\": \"Pathologic (pN)\", \"substage\": \"pN0\", \"description\": \"No lymph node metastasis.\"}, {\"stage\": \"Pathologic (pN)\", \"substage\": \"pN1\", \"description\": \"≤2 unilateral inguinal metastases, no extranodal extension (ENE).\"}, {\"stage\": \"Pathologic (pN)\", \"substage\": \"pN2\", \"description\": \"≥3 unilateral inguinal metastases OR bilateral metastases.\"}, {\"stage\": \"Pathologic (pN)\", \"substage\": \"pN3\", \"description\": \"ENE of lymph node metastases OR pelvic lymph node metastases, no ENE.\"}], \"m_stages\": [{\"stage\": \"M0\", \"description\": \"No distant metastasis.\"}, {\"stage\": \"M1\", \"description\": \"Distant metastasis present.\"}], \"stage_groups\": [{\"group\": \"Stage 0is\", \"criteria\": \"Tis, N0, M0\", \"clinical_meaning\": \"Carcinoma in situ (PeIN).\", \"five_yr_survival\": \"Not specified in staging table.\", \"treatment_intent\": \"Curative (organ-sparing approaches possible).\"}, {\"group\": \"Stage 0a\", \"criteria\": \"Ta, N0, M0\", \"clinical_meaning\": \"Noninvasive localized squamous cell carcinoma.\", \"five_yr_survival\": \"Not specified in staging table.\", \"treatment_intent\": \"Curative (organ-sparing approaches possible).\"}, {\"group\": \"Stage I\", \"criteria\": \"T1a, N0, M0\", \"clinical_meaning\": \"Tumor invades lamina propria/dermis/connective tissue without LVI/PNI and not high grade. No nodal or distant metastasis.\", \"five_yr_survival\": \"Localized disease: 79% 5-year survival.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IIA\", \"criteria\": \"T1b, N0, M0 OR T2, N0, M0\", \"clinical_meaning\": \"T1b: Tumor with LVI/PNI or high grade. T2: Tumor invades corpus spongiosum. No nodal or distant metastasis.\", \"five_yr_survival\": \"Not specified separately; part of localized group.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IIB\", \"criteria\": \"T3, N0, M0\", \"clinical_meaning\": \"Tumor invades corpora cavernosum. No nodal or distant metastasis.\", \"five_yr_survival\": \"Not specified separately; part of localized group.\", \"treatment_intent\": \"Curative.\"}, {\"group\": \"Stage IIIA\", \"criteria\": \"T1-3, N1, M0\", \"clinical_meaning\": \"Primary tumor T1 to T3 with clinically or pathologically positive unilateral mobile inguinal node(s) ≤2 without ENE. No distant metastasis.\", \"five_yr_survival\": \"Regional disease: 57% 5-year survival.\", \"treatment_intent\": \"Curative (may require multimodal therapy).\"}, {\"group\": \"Stage IIIB\", \"criteria\": \"T1-3, N2, M0\", \"clinical_meaning\": \"Primary tumor T1 to T3 with multiple unilateral or bilateral positive inguinal nodes. No distant metastasis.\", \"five_yr_survival\": \"Regional disease: 57% 5-year survival.\", \"treatment_intent\": \"Curative (multimodal therapy).\"}, {\"group\": \"Stage IV\", \"criteria\": \"T4, Any N, M0 OR Any T, N3, M0 OR Any T, Any N, M1\", \"clinical_meaning\": \"T4: Tumor invades adjacent structures. N3: Fixed inguinal node or pelvic node metastasis. M1: Distant metastasis.\", \"five_yr_survival\": \"Distant disease: 10% 5-year survival.\", \"treatment_intent\": \"Palliative (with intent to pro\"}]}"
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed."
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor."
+    },
+    {
+      "category": "Tis",
+      "description": "Carcinoma in situ (Penile intraepithelial neoplasia [PeIN])."
+    },
+    {
+      "category": "Ta",
+      "description": "Noninvasive localized squamous cell carcinoma."
+    },
+    {
+      "category": "T1",
+      "description": "Tumor invades lamina propria (glans), dermis/lamina propria/dartos fascia (foreskin), or connective tissue between epidermis and corpora (shaft), with or without lymphovascular invasion (LVI) or perineural invasion (PNI), and is or is not high grade."
+    },
+    {
+      "category": "T1a",
+      "description": "Tumor is without LVI or PNI and is not high grade (i.e., not grade 3 or sarcomatoid)."
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor exhibits LVI and/or PNI or is high grade (i.e., grade 3 or sarcomatoid)."
+    },
+    {
+      "category": "T2",
+      "description": "Tumor invades into corpus spongiosum (either glans or ventral shaft) with or without urethral invasion."
+    },
+    {
+      "category": "T3",
+      "description": "Tumor invades into corpora cavernosum (including tunica albuginea) with or without urethral invasion."
+    },
+    {
+      "category": "T4",
+      "description": "Tumor invades into adjacent structures (i.e., scrotum, prostate, pubic bone)."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "cNX",
+      "description": "Regional lymph nodes cannot be assessed."
+    },
+    {
+      "category": "cN0",
+      "description": "No palpable or visibly enlarged inguinal lymph nodes."
+    },
+    {
+      "category": "cN1",
+      "description": "Palpable mobile unilateral inguinal lymph node."
+    },
+    {
+      "category": "cN2",
+      "description": "Palpable mobile ≥2 unilateral inguinal nodes OR bilateral inguinal lymph nodes."
+    },
+    {
+      "category": "cN3",
+      "description": "Palpable fixed inguinal nodal mass OR pelvic lymphadenopathy unilateral or bilateral."
+    },
+    {
+      "category": "pNX",
+      "description": "Lymph node metastasis cannot be established."
+    },
+    {
+      "category": "pN0",
+      "description": "No lymph node metastasis."
+    },
+    {
+      "category": "pN1",
+      "description": "≤2 unilateral inguinal metastases, no extranodal extension (ENE)."
+    },
+    {
+      "category": "pN2",
+      "description": "≥3 unilateral inguinal metastases OR bilateral metastases."
+    },
+    {
+      "category": "pN3",
+      "description": "ENE of lymph node metastases OR pelvic lymph node metastases, no ENE."
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis."
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis present."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "Stage 0is",
+      "t": "Tis",
+      "n": "N0",
+      "m": "M0",
+      "survival": null
+    },
+    {
+      "stage": "Stage 0a",
+      "t": "Ta",
+      "n": "N0",
+      "m": "M0",
+      "survival": null
+    },
+    {
+      "stage": "Stage I",
+      "t": "T1a",
+      "n": "N0",
+      "m": "M0",
+      "survival": 79
+    },
+    {
+      "stage": "Stage IIA",
+      "t": "T1b",
+      "n": "N0",
+      "m": "M0",
+      "survival": null
+    },
+    {
+      "stage": "Stage IIB",
+      "t": "T3",
+      "n": "N0",
+      "m": "M0",
+      "survival": null
+    },
+    {
+      "stage": "Stage IIIA",
+      "t": "T1-3",
+      "n": "N1",
+      "m": "M0",
+      "survival": 57
+    },
+    {
+      "stage": "Stage IIIB",
+      "t": "T1-3",
+      "n": "N2",
+      "m": "M0",
+      "survival": 57
+    },
+    {
+      "stage": "Stage IV",
+      "t": "T4",
+      "n": "Any N",
+      "m": "M0",
+      "survival": 10
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      79,
+      79,
+      57,
+      10
+    ]
+  },
+  "_section": "staging",
+  "_site_id": "penile",
+  "_chars_in": 5000
+}

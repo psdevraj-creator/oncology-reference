@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Cutaneous melanoma most commonly presents as a pigmented skin lesion that may exhibit changes in size, shape, color, or elevation. Classic presentations include a new or changing pigmented lesion with asymmetry, border irregularity, color variation (multiple shades of brown, black, red, white, or blue), diameter greater than 6 mm, and evolution over time (the ABCDE criteria). Lesions may be asymptomatic or pruritic, and some patients report bleeding or crusting. Melanoma can arise de novo (the majority, >80%–90%) or from pre-existing nevi. Clinical subtypes include superficial spreading melanoma (most common subtype in lighter-skinned populations), nodular melanoma (which may present as a rapidly growing, amelanotic, or ulcerated dome-shaped nodule and accounts for a disproportionate number of advanced-stage diagnoses), lentigo maligna (typically occurring on chronically sun-damaged skin of the head and neck in older individuals, presenting as a large, slowly enlarging, irregularly pigmented macule), and acral lentiginous melanoma (occurring on palms, soles, or subungual sites, representing the most common subtype in individuals with darker skin tones) [1,2,3,6,28,36,37]. The lesion is most often identified by the patient or during routine skin examination by a clinician. Risk factors include older age (typically >50 years), male sex, phenotypic predisposition (atypical/dysplastic nevi, high nevus count, fair skin, red hair, blue eyes, tendency to sunburn, Fitzpatrick skin type I), personal history of melanoma or non-melanoma skin cancer, family history of melanoma, immunosuppression, prior radiation exposure, and ultraviolet radiation exposure including indoor tanning [1,3,6,7,11-14,19,20,26,27,44,45,61,62,65,68-70]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "New or changing pigmented lesion",
+      "detail": "A new mole or a change in an existing mole in size, shape, color, or elevation; the ABCDE criteria (Asymmetry, Border irregularity, Color variation, Diameter >6 mm, Evolution) guide clinical suspicion",
+      "frequency": "Most common presentation; majority of melanomas are identified by patient self-detection or clinical examination",
+      "alarm": true
+    },
+    {
+      "name": "Itching or bleeding",
+      "detail": "Pruritus, bleeding, crusting, or ulceration of a pigmented lesion; these features may indicate a more advanced or ulcerated melanoma",
+      "frequency": "Variable; reported in a subset of patients",
+      "alarm": true
+    },
+    {
+      "name": "Palpable lymphadenopathy",
+      "detail": "Enlarged, firm, non-tender regional lymph nodes may indicate nodal metastasis (stage III disease); regional nodal basin corresponds to the anatomical location of the primary tumor",
+      "frequency": "Clinical stage III disease; approximately 15%–20% of patients present with clinically evident nodal disease",
+      "alarm": true
+    },
+    {
+      "name": "Symptoms of metastatic disease",
+      "detail": "Weight loss, fatigue, bone pain (skeletal metastases), headaches or neurological symptoms (brain metastases), dyspnea or cough (pulmonary metastases), abdominal pain or jaundice (visceral metastases)",
+      "frequency": "Stage IV disease; historically <10% five-year survival, now improved with modern therapies [31-34]",
+      "alarm": true
+    },
+    {
+      "name": "Subungual or acral presentation",
+      "detail": "A pigmented band on a nail, a dark lesion on the palm or sole, or ulceration/bleeding of a digit; may be mistaken for trauma or fungal infection",
+      "frequency": "Less common overall but represents the most common melanoma subtype in patients with darker skin tones [36,37,84]",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "New or changing pigmented lesion",
+      "detail": "A new mole or a change in an existing mole in size, shape, color, or elevation; the ABCDE criteria (Asymmetry, Border irregularity, Color variation, Diameter >6 mm, Evolution) guide clinical suspicion"
+    },
+    {
+      "name": "Itching or bleeding",
+      "detail": "Pruritus, bleeding, crusting, or ulceration of a pigmented lesion; these features may indicate a more advanced or ulcerated melanoma"
+    },
+    {
+      "name": "Palpable lymphadenopathy",
+      "detail": "Enlarged, firm, non-tender regional lymph nodes may indicate nodal metastasis (stage III disease); regional nodal basin corresponds to the anatomical location of the primary tumor"
+    },
+    {
+      "name": "Symptoms of metastatic disease",
+      "detail": "Weight loss, fatigue, bone pain (skeletal metastases), headaches or neurological symptoms (brain metastases), dyspnea or cough (pulmonary metastases), abdominal pain or jaundice (visceral metastases)"
+    },
+    {
+      "name": "Subungual or acral presentation",
+      "detail": "A pigmented band on a nail, a dark lesion on the palm or sole, or ulceration/bleeding of a digit; may be mistaken for trauma or fungal infection"
+    }
+  ],
+  "chart": {
+    "labels": [
+      "New or changing pigmented lesion",
+      "Itching or bleeding",
+      "Palpable lymphadenopathy",
+      "Symptoms of metastatic disease",
+      "Subungual or acral presentation"
+    ],
+    "values": [
+      70,
+      20,
+      15,
+      5,
+      10
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "melanoma",
+  "_chars_in": 5000
+}

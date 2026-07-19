@@ -1,0 +1,181 @@
+{
+  "sections": [
+    {
+      "heading": "TNM",
+      "content": "American Joint Committee on Cancer (AJCC) 8th Edition (2017) TNM Staging Classification for Carcinoma of the Stomach. This system includes clinical staging (cTNM), pathologic staging (pTNM), and post-neoadjuvant pathologic staging (ypTNM). Tumors involving the EGJ with an epicenter located >2 cm into the proximal stomach are staged as gastric carcinomas. Tumors involving the EGJ with an epicenter ≤2 cm into the proximal stomach are staged as esophageal carcinomas. Cancers within the gastric cardia not involving the EGJ are staged as gastric carcinomas."
+    }
+  ],
+  "t_stages": [
+    {
+      "category": "TX",
+      "description": "Primary tumor cannot be assessed"
+    },
+    {
+      "category": "T0",
+      "description": "No evidence of primary tumor"
+    },
+    {
+      "category": "Tis",
+      "description": "Carcinoma in situ: intraepithelial tumor without invasion of the lamina propria, high-grade dysplasia"
+    },
+    {
+      "category": "T1",
+      "description": "Tumor invades the lamina propria, muscularis mucosae, or submucosa"
+    },
+    {
+      "category": "T1a",
+      "description": "Tumor invades the lamina propria or muscularis mucosae"
+    },
+    {
+      "category": "T1b",
+      "description": "Tumor invades the submucosa. Superficial pT1b is defined as ≤500 μm invasion of submucosa; deep pT1b is defined as >500 μm invasion of submucosa."
+    },
+    {
+      "category": "T2",
+      "description": "Tumor invades the muscularis propria. A tumor may penetrate the muscularis propria with extension into the gastrocolic or gastrohepatic ligaments, or into the greater or lesser omentum, without perforation of the visceral peritoneum covering these structures; in this case, the tumor is classified as T3."
+    },
+    {
+      "category": "T3",
+      "description": "Tumor penetrates the subserosal connective tissue without invasion of the visceral peritoneum or adjacent structures"
+    },
+    {
+      "category": "T4",
+      "description": "Tumor invades the serosa (visceral peritoneum) or adjacent structures"
+    },
+    {
+      "category": "T4a",
+      "description": "Tumor invades the serosa (visceral peritoneum). If there is perforation of the visceral peritoneum covering the gastric ligaments or the omentum, the tumor should be classified as T4a."
+    },
+    {
+      "category": "T4b",
+      "description": "Tumor invades adjacent structures/organs. The adjacent structures of the stomach include the spleen, transverse colon, liver, diaphragm, pancreas, abdominal wall, adrenal gland, kidney, small intestine, and retroperitoneum."
+    }
+  ],
+  "n_stages": [
+    {
+      "category": "NX",
+      "description": "Regional lymph node(s) cannot be assessed"
+    },
+    {
+      "category": "N0",
+      "description": "No regional lymph node metastasis"
+    },
+    {
+      "category": "N1",
+      "description": "Metastasis in 1 to 2 regional lymph nodes"
+    },
+    {
+      "category": "N2",
+      "description": "Metastasis in 3 to 6 regional lymph nodes"
+    },
+    {
+      "category": "N3",
+      "description": "Metastasis in 7 or more regional lymph nodes"
+    },
+    {
+      "category": "N3a",
+      "description": "Metastasis in 7 to 15 regional lymph nodes"
+    },
+    {
+      "category": "N3b",
+      "description": "Metastasis in 16 or more regional lymph nodes"
+    }
+  ],
+  "m_stages": [
+    {
+      "category": "M0",
+      "description": "No distant metastasis"
+    },
+    {
+      "category": "M1",
+      "description": "Distant metastasis. Positive peritoneal cytology (in the absence of visible peritoneal implants) is defined as pM1 disease."
+    }
+  ],
+  "stage_groups": [
+    {
+      "stage": "0",
+      "t": "Tis",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA",
+      "t": "T2",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIA",
+      "t": "T1",
+      "n": "N1-3",
+      "m": "M0"
+    },
+    {
+      "stage": "IIA",
+      "t": "T2",
+      "n": "N1-3",
+      "m": "M0"
+    },
+    {
+      "stage": "IIB",
+      "t": "T3",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IIB",
+      "t": "T4a",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "III",
+      "t": "T3",
+      "n": "N1-3",
+      "m": "M0"
+    },
+    {
+      "stage": "III",
+      "t": "T4a",
+      "n": "N1-3",
+      "m": "M0"
+    },
+    {
+      "stage": "IVA",
+      "t": "T4b",
+      "n": "Any N",
+      "m": "M0"
+    },
+    {
+      "stage": "IVB",
+      "t": "Any T",
+      "n": "Any N",
+      "m": "M1"
+    },
+    {
+      "stage": "0 (Pathologic)",
+      "t": "Tis",
+      "n": "N0",
+      "m": "M0"
+    },
+    {
+      "stage": "IA (Pathologic)",
+      "t": "T1",
+      "n": "N0",
+      "m": "M0"
+    }
+  ],
+  "chart": {
+    "stages": [],
+    "os": []
+  },
+  "_section": "staging",
+  "_site_id": "gastric",
+  "_chars_in": 5000
+}

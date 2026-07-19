@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\"role\": \"RT is used as an adjuvant to surgery for patients with resectable tumors (especially for positive margins) or as definitive therapy in patients with tumors not amenable to surgery. Specialized techniques should be considered to allow high-dose therapy while maximizing normal tissue sparing [BONE-C 1 of 6].\", \"principles\": [\"Patients should be strongly encouraged to have RT at the same specialized center that is providing surgical and systemic interventions [BONE-C 1 of 6].\", \"Specialized techniques such as intensity-modulated RT (IMRT); particle beam RT with protons, carbon ions, or other heavy ions; or stereotactic radiosurgery (SRS) should be considered as indicated [BONE-C 1 of 6].\", \"RT doses listed in the algorithm are for conventional fractionated regimens (1.8–2.0 Gy). Alternative total dose and fractionation schemes are necessary for specialized techniques such as SRS and stereotactic body RT (SBRT) [BONE-C 1 of 6].\", \"For Ewing sarcoma, RT should start by week 12 of VDC/IE chemotherapy or week 18 of VIDE and is given concurrently with chemotherapy, withholding anthracyclines during RT per the Womer Protocol [BONE-C 3 of 6].\", \"Postoperative RT should begin within 60 days of surgery [BONE-C 3 of 6].\"], \"dose_frameworks\": [{\"name\": \"Conventional Fractionation\", \"total_dose\": \"Varies by histology and setting (e.g., 70 Gy for chondrosarcoma microscopically positive margins; 45-55.8 Gy for Ewing sarcoma primary tumor; 50-60 Gy for GCTB; 55-70 Gy for osteosarcoma).\", \"dose_per_fraction\": \"1.8–2.0 Gy\", \"fractions\": \"Varies (e.g., 25-39 fractions for 45 Gy, 35-39 fractions for 70 Gy).\", \"schedule\": \"Daily, 5 days per week.\", \"indication\": \"Standard adjuvant or definitive RT for most bone sarcomas.\"}, {\"name\": \"Stereotactic Body RT (SBRT) / Stereotactic Radiosurgery (SRS)\", \"total_dose\": \"Varies by site and intent (e.g., 24-60 Gy for oligometastases, 36-45 Gy for primary tumors in select cases).\", \"dose_per_fraction\": \"High dose per fraction (e.g., 6-24 Gy per fraction).\", \"fractions\": \"1-5 fractions.\", \"schedule\": \"Daily or every other day.\", \"indication\": \"Oligometastases, unresectable primary tumors in select cases (e.g., chordoma, chondrosarcoma), recurrent disease.\"}], \"approaches\": [{\"name\": \"Adjuvant RT for Positive Margins\", \"dose_fractionation\": \"55 Gy with 9–13 Gy boost to microscopic disease (total 64-68 Gy) for osteosarcoma. 45 Gy followed by cone-down to 55.8 Gy for Ewing sarcoma with positive margins.\", \"concurrent_chemotherapy\": \"Yes, for Ewing sarcoma (withholding anthracyclines). Not standard for osteosarcoma.\", \"indication\": \"Microscopically positive margins after surgery for osteosarcoma, Ewing sarcoma, and potentially other sarcomas.\", \"key_trial\": \"Not specified in the text.\", \"toxicities\": \"Fibrosis, necrosis, secondary malignancy risk.\"}, {\"name\": \"Definitive RT for Unresectable Disease\", \"dose_fractionation\": \">70 Gy for chondrosarcoma/chordoma with specialized techniques. 45-55.8 Gy for Ewing sarcoma.\", \"concurrent_chemotherapy\": \"Yes for Ewing sarcoma (concurrent with chemotherapy). Not standard for chondrosarcoma/chordoma.\", \"indication\": \"Unresectable primary bone sarcomas (e.g., chordoma, chondrosarcoma, Ewing sarcoma).\", \"key_trial\": \"Not specified in the text.\", \"toxicities\": \"Organ-specific depending on location (e.g., neurological, gastrointestinal).\"}, {\"name\": \"Hemithorax Irradiation\", \"dose_fractionation\": \"15–20 Gy (1.5 Gy/fraction) followed by cone-down to primary site.\", \"concurrent_chemotherapy\": \"Yes for Ewing sarcoma.\", \"indication\": \"Chest wall primaries with extensive ipsilateral pleural involvement (Ewing sarcoma).\", \"key_trial\": \"Not specified in the text.\", \"toxicities\": \"Pneumonitis, esophagitis, cardiac toxicity.\"}, {\"name\": \"Whole Lung Irradiation (WLI)\", \"dose_fractionation\": \"15 Gy (1.5 Gy/fraction) for patients <14 years; 18 Gy (1.5 Gy/fraction) for patients >14 years.\", \"concurrent_chemotherapy\": \"Yes for Ewing sarcoma.\", \"indication\": \"Pulmonary metastases following completion of chemotherapy/metastasectomy (Ewing sarcoma, category 3).\", \"key_trial\": \"Not specified in the text.\", \"toxicities\": \"Pneumonitis, pulmonary fibrosis.\"}, {\"name\": \"RT for GCTB\", \"dose_fractionation\": \"50–60 Gy conventional fractionation.\", \"concurrent_chemotherapy\": \"Not applicable.\", \"indication\": \"Unresectable, progressive, or recurrent disease that has not responded to denosumab, serial embolizations, or other treatments.\", \"key_trial\": \"Not specified in the text.\", \"toxicities\": \"Increased risk of malignant transformation noted in some studies.\"}]}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose",
+      "value": 50,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Conventional Fractionation",
+      "body": "1.8–2.0 Gy per fraction, total 45-70 Gy depending on histology and setting, daily 5 days per week.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "SBRT/SRS",
+      "body": "High dose per fraction (6-24 Gy), 1-5 fractions, for oligometastases or select primary tumors.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Adjuvant RT for Positive Margins",
+      "body": "55 Gy + 9-13 Gy boost (total 64-68 Gy) for osteosarcoma; 45 Gy cone-down to 55.8 Gy for Ewing sarcoma.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive RT for Unresectable",
+      "body": ">70 Gy for chondrosarcoma/chordoma; 45-55.8 Gy for Ewing sarcoma.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Hemithorax Irradiation",
+      "body": "15-20 Gy (1.5 Gy/fraction) then cone-down to primary site for Ewing sarcoma chest wall primaries.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Whole Lung Irradiation",
+      "body": "15 Gy (<14 yrs) or 18 Gy (>14 yrs) at 1.5 Gy/fraction for pulmonary metastases.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "RT for GCTB",
+      "body": "50-60 Gy conventional fractionation for unresectable/recurrent disease.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "bone",
+  "_chars_in": 4575
+}

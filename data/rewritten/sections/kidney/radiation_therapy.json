@@ -1,0 +1,130 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "Radiation therapy (RT) is primarily used for palliation of symptomatic metastases and as a definitive or adjuvant treatment for select patients with localized disease who are not surgical candidates. SBRT is the preferred modality for most indications due to superior local control. [KID-B]\n\nPrinciples:\n- SBRT should be considered as the primary radiation modality in all situations unless precluded by anatomic site, proximity to organs at risk (OAR), or past treatments. [KID-B]\n- A biopsy should be obtained whenever possible prior to SBRT. [KID-B]\n- All patients should have a urologic evaluation. [KID-B]\n- Strict adherence to normal tissue constraints is mandatory to minimize toxicity. [KID-B]\n- For primary disease, SBRT is an option for non-optimal surgical candidates with T1 and T2a tumors (≤10 cm). When tumors abut bowel, a 5-fraction schedule with strict adherence to bowel constraints is recommended. Volumetric image guidance with motion management is required. On-table adaptive technology should be considered when available. [KID-B]\n- For distant metastatic disease, SBRT is preferred for oligometastases unless metastasectomy is planned or SBRT cannot be delivered. SBRT may offer more durable local control. [KID-B]\n\nDose Frameworks:\n- Primary Disease - Single Fraction: 25-26 Gy, 1 fraction\n- Primary Disease - 3 Fractions: 39-48 Gy, 3 fractions\n- Primary Disease - 4 Fractions: 48 Gy, 4 fractions\n- Primary Disease - 5 Fractions: 40-50 Gy, 5 fractions\n\nApproaches:\n- SBRT for Primary Disease: Dose fractionation as above. Concurrent chemo: None. Indication: Non-optimal surgical candidates with T1a, T1b, stage II, stage III RCC. Key trial: TROG 15.03 FASTRACK II. Toxicities: Mostly grade 1-2; grade 3 in 10%.\n- SBRT for Distant Metastatic Disease: Spine: 16-24 Gy/1fx, 24-28 Gy/2fx, 24-30 Gy/3fx, 30-40 Gy/5fx. Other sites: 16-24 Gy/1fx, 48-60 Gy/3fx, 40-60 Gy/4-5fx. Concurrent chemo: No. Indication: Oligometastasis. Key trial: SABR-COMET. Toxicities: Site-specific.\n- Palliative Radiation Therapy: 8 Gy/1fx, 20 Gy/5fx, 30 Gy/10fx. Indication: Symptomatic extracranial metastases. Toxicities: Well-tolerated.\n- Stereotactic Radiosurgery (SRS) for Brain Metastases: ≤20mm: ≤24 Gy; 21-30mm: ≤18 Gy; 31-40mm: ≤15 Gy; or fractionated (24-27 Gy/3fx, 25-35 Gy/5fx). Indication: Brain metastases. Key trial: RTOG 90-05. Toxicities: Radionecrosis, headache, seizures."
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Primary Disease - Single Fraction (1 fr.)",
+      "value": "25-26",
+      "unit": "Gy"
+    },
+    {
+      "label": "Primary Disease - 3 Fractions",
+      "value": "39-48",
+      "unit": "Gy"
+    },
+    {
+      "label": "Primary Disease - 4 Fractions",
+      "value": "48",
+      "unit": "Gy"
+    },
+    {
+      "label": "Primary Disease - 5 Fractions",
+      "value": "40-50",
+      "unit": "Gy"
+    },
+    {
+      "label": "Spine SBRT - 1 Fraction",
+      "value": "16-24",
+      "unit": "Gy"
+    },
+    {
+      "label": "Spine SBRT - 2 Fractions",
+      "value": "24-28",
+      "unit": "Gy"
+    },
+    {
+      "label": "Spine SBRT - 3 Fractions",
+      "value": "24-30",
+      "unit": "Gy"
+    },
+    {
+      "label": "Spine SBRT - 5 Fractions",
+      "value": "30-40",
+      "unit": "Gy"
+    },
+    {
+      "label": "Other Sites SBRT - 1 Fraction",
+      "value": "16-24",
+      "unit": "Gy"
+    },
+    {
+      "label": "Other Sites SBRT - 3 Fractions",
+      "value": "48-60",
+      "unit": "Gy"
+    },
+    {
+      "label": "Other Sites SBRT - 4-5 Fractions",
+      "value": "40-60",
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative - 1 Fraction",
+      "value": "8",
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative - 5 Fractions",
+      "value": "20",
+      "unit": "Gy"
+    },
+    {
+      "label": "Palliative - 10 Fractions",
+      "value": "30",
+      "unit": "Gy"
+    },
+    {
+      "label": "SRS ≤20mm",
+      "value": "24",
+      "unit": "Gy"
+    },
+    {
+      "label": "SRS 21-30mm",
+      "value": "18",
+      "unit": "Gy"
+    },
+    {
+      "label": "SRS 31-40mm",
+      "value": "15",
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractionated SRT 3 fx",
+      "value": "24-27",
+      "unit": "Gy"
+    },
+    {
+      "label": "Fractionated SRT 5 fx",
+      "value": "25-35",
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "SBRT for Primary Disease",
+      "body": "Dose fractionation: Single fraction 25-26 Gy (≤4cm), 3 fractions 39-48 Gy (4-10cm), 4 fractions 48 Gy, 5 fractions 40-50 Gy (larger/OAR constraints). Indication: Non-optimal surgical candidates with T1a (cat. 2A), T1b (2A), stage II (2B), stage III (3) RCC. Key trial: TROG 15.03 FASTRACK II (100% local control at 12 months). Toxicities: Grade 1-2; grade 3 in 10%.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "SBRT for Distant Metastatic Disease",
+      "body": "Spine: 16-24 Gy/1fx, 24-28 Gy/2fx, 24-30 Gy/3fx, 30-40 Gy/5fx. Other sites: 16-24 Gy/1fx, 48-60 Gy/3fx, 40-60 Gy/4-5fx. Indication: Oligometastatic disease. Key trial: SABR-COMET (improved PFS). Toxicities: Site-specific; strict OAR constraints required.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Palliative Radiation Therapy",
+      "body": "Dose fractionation: 8 Gy/1fx, 20 Gy/5fx, 30 Gy/10fx. Indication: Symptomatic extracranial metastases. Toxicities: Generally well-tolerated.",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Stereotactic Radiosurgery (SRS) for Brain Metastases",
+      "body": "Dose based on size: ≤20mm: ≤24 Gy; 21-30mm: ≤18 Gy; 31-40mm: ≤15 Gy. Larger tumors: fractionated SRT 24-27 Gy/3fx or 25-35 Gy/5fx. Indication: Brain metastases, primary or post-resection. Key trial: RTOG 90-05. Toxicities: Risk of radionecrosis, headache, seizures.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "kidney",
+  "_chars_in": 4471
+}

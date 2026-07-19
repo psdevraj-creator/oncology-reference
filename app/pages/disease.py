@@ -77,7 +77,7 @@ def layout(site_id: str) -> list:
                     ),
                 ]),
 
-                html.Div(id="disease-content", children=render_handbook(handbook)),
+                html.Div(id="disease-content", children=render_handbook(handbook, site_id)),
             ], xs=12, md=9, lg=10, className="content-col"),
         ]),
     ]

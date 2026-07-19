@@ -1,0 +1,274 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "Anal carcinoma is primarily managed with concurrent chemoradiation (chemoRT), a paradigm established after Nigro and colleagues observed complete tumor regression with preoperative 5-fluorouracil (5-FU)–based concurrent chemotherapy and radiation in 1974 [122]. Prior to this, patients with invasive anal carcinoma were routinely treated with abdominoperineal resection (APR); however, local recurrence rates were high, 5-year survival was only 40% to 70%, and morbidity with permanent colostomy was considerable [15]. The current treatment philosophy is organ-preserving: definitive chemoRT achieves cure in the majority of patients while avoiding permanent colostomy. All recommendations are category 2A unless otherwise indicated, reflecting uniform NCCN consensus based on lower-level evidence. Clinical trial participation is encouraged when applicable and available [NCCN]. The NCCN Guidelines Panel believes that a multidisciplinary approach including physicians from gastroenterology, medical oncology, surgical oncology, radiation oncology, and radiology is necessary for treating individuals with anal carcinoma [MS-23]. Surgery (APR) is reserved for biopsy-proven recurrent or persistent disease following primary treatment, or for the small subset of very early lesions amenable to local excision. Systemic therapy is the backbone of treatment for metastatic disease, with recent evidence supporting the addition of immune checkpoint inhibitors to first-line chemotherapy [234]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Anal Carcinoma Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "n2",
+        "label": "Assess Performance Status and HIV Status",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Candidate for Intensive Therapy?",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Metastatic?",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Subsite: Anal Canal or Perianal?",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Perianal: T1N0 well/mod or select T2N0?",
+        "type": "decision"
+      },
+      {
+        "id": "n7",
+        "label": "Local Excision with 1cm margins",
+        "type": "treatment"
+      },
+      {
+        "id": "n8",
+        "label": "Margins Adequate?",
+        "type": "decision"
+      },
+      {
+        "id": "n9",
+        "label": "Re-excision (preferred) or consider local RT ± chemotherapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Observe (surveillance)",
+        "type": "outcome"
+      },
+      {
+        "id": "n11",
+        "label": "Perianal: T1N0 poorly diff, T2-4N0, or any T N+",
+        "type": "outcome"
+      },
+      {
+        "id": "n12",
+        "label": "Treatment Selection: Local excision pathway or definitive chemoRT",
+        "type": "decision"
+      },
+      {
+        "id": "n13",
+        "label": "Definitive Concurrent ChemoRT (mitomycin/5-FU, mitomycin/capecitabine, or cisplatin/5-FU)",
+        "type": "treatment"
+      },
+      {
+        "id": "n14",
+        "label": "Response Assessment after Primary Treatment",
+        "type": "decision"
+      },
+      {
+        "id": "n15",
+        "label": "Recurrent or Persistent Disease?",
+        "type": "decision"
+      },
+      {
+        "id": "n16",
+        "label": "APR with colostomy; consider immunotherapy before APR",
+        "type": "treatment"
+      },
+      {
+        "id": "n17",
+        "label": "Surveillance",
+        "type": "outcome"
+      },
+      {
+        "id": "n18",
+        "label": "Metastatic Disease",
+        "type": "outcome"
+      },
+      {
+        "id": "n19",
+        "label": "First-line Systemic Therapy (carboplatin/paclitaxel + retifanlimab-dlwr)",
+        "type": "treatment"
+      },
+      {
+        "id": "n20",
+        "label": "Consider Local RT for symptomatic bulky primary",
+        "type": "treatment"
+      },
+      {
+        "id": "n21",
+        "label": "Not candidate for intensive therapy: consider capecitabine + RT or RT alone",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "assess"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "evaluate"
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "label": "yes"
+      },
+      {
+        "source": "n3",
+        "target": "n21",
+        "label": "no"
+      },
+      {
+        "source": "n4",
+        "target": "n18",
+        "label": "yes"
+      },
+      {
+        "source": "n4",
+        "target": "n5",
+        "label": "no"
+      },
+      {
+        "source": "n5",
+        "target": "n13",
+        "label": "anal canal"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "perianal"
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "label": "yes"
+      },
+      {
+        "source": "n6",
+        "target": "n12",
+        "label": "no"
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "label": "post-excision"
+      },
+      {
+        "source": "n8",
+        "target": "n10",
+        "label": "yes"
+      },
+      {
+        "source": "n8",
+        "target": "n9",
+        "label": "no"
+      },
+      {
+        "source": "n9",
+        "target": "n8",
+        "label": "re-evaluate margins"
+      },
+      {
+        "source": "n12",
+        "target": "n7",
+        "label": "local excision"
+      },
+      {
+        "source": "n12",
+        "target": "n13",
+        "label": "definitive chemoRT"
+      },
+      {
+        "source": "n13",
+        "target": "n14",
+        "label": "after treatment"
+      },
+      {
+        "source": "n14",
+        "target": "n15",
+        "label": "assess"
+      },
+      {
+        "source": "n15",
+        "target": "n16",
+        "label": "yes"
+      },
+      {
+        "source": "n15",
+        "target": "n17",
+        "label": "no (complete response)"
+      },
+      {
+        "source": "n16",
+        "target": "n17",
+        "label": "after salvage"
+      },
+      {
+        "source": "n18",
+        "target": "n19",
+        "label": "first-line"
+      },
+      {
+        "source": "n19",
+        "target": "n20",
+        "label": "if symptomatic bulky primary"
+      },
+      {
+        "source": "n20",
+        "target": "n17",
+        "label": "continue surveillance"
+      },
+      {
+        "source": "n21",
+        "target": "n17",
+        "label": "alternative treatment"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Non-metastatic anal canal cancer (stage I–III, including positive para-aortic lymph nodes that can be included in the radiation field): Concurrent chemoRT with mitomycin/5-FU, mitomycin/capecitabine, or cisplatin/5-FU (category 2B) [ANAL-1, ANAL-B 1 of 5]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative",
+      "detail": "T1N0 well or moderately differentiated or select T2N0 perianal cancer not involving the sphincter: Local excision with 1-cm margins; if margins adequate, observe; if margins inadequate, re-excision preferred or consider local RT ± chemotherapy [ANAL-2, ANAL-A]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Curative",
+      "detail": "T1N0 poorly differentiated or T2–T4 N0 or any T N+ perianal cancer: Local excision → re-excision (preferred) if inadequate margins, or consider local RT ± chemotherapy; OR definitive chemoRT as for anal canal cancer [ANAL-2]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Palliative",
+      "detail": "Metastatic anal carcinoma (any subsite): First-line systemic therapy (preferred: carboplatin/paclitaxel + retifanlimab-dlwr); chemo/RT to the primary site may be considered for local control of symptomatic bulky primary [ANAL-1, ANAL-B 2 of 5, ANAL-C 4 of 6]",
+      "color": "#10b981"
+    },
+    {
+      "title": "Salvage",
+      "detail": "Locally recurrent or persistent disease after prior chemoRT: APR with colostomy; immunotherapy (nivolumab, pembrolizumab, retifanlimab-dlwr, cemiplimab-rwlc, dostarlimab-gxly, tislelizumab-jsgr, toripalimab-tpzi, or penpulimab-kcqx) (category 2B) may be considered before proceeding to APR based on institutional experience [ANAL-3, ANAL-4]",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "anal",
+  "_chars_in": 5000
+}

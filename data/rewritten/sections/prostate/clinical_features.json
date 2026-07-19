@@ -1,0 +1,85 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Prostate cancer is often diagnosed following an abnormal digital rectal examination (DRE) or an elevated prostate-specific antigen (PSA) level, frequently discovered during screening or routine evaluation. The initial suspicion of prostate cancer is based on these findings. A definitive diagnosis requires biopsies of the prostate, usually performed by a urologist using a needle under transrectal ultrasound (TRUS) guidance. A pathologist assigns a Gleason primary and secondary grade to the biopsy specimen. Many patients are asymptomatic at the time of diagnosis, particularly those detected through PSA-based screening. Prostate cancer is the most common cancer in men in the United States, with an estimated 313,780 new cases diagnosed in 2025, accounting for 30% of new cancer cases in men. The lifetime risk of developing prostate cancer is 1 in 8. For all stages combined, the 5-year relative survival rate for prostate cancer is 97%. When symptoms do occur, they may include urinary symptoms (difficulty starting or stopping urination, weak or interrupted flow, frequent urination especially at night, difficulty emptying the bladder completely, and burning or pain during urination), bone pain, unexplained weight loss, and fatigue. These symptoms are more common in advanced disease."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Urinary obstruction symptoms",
+      "detail": "Difficulty starting urination, weak or interrupted urinary stream, frequent urination especially at night (nocturia), difficulty emptying the bladder completely. These may result from local prostate enlargement.",
+      "frequency": "Common in locally advanced disease; less common in early-stage disease detected through screening",
+      "alarm": false
+    },
+    {
+      "name": "Bone pain",
+      "detail": "Pain in the back, hips, ribs, or other bones may indicate osseous metastatic disease. Bone metastases are a common site of spread.",
+      "frequency": "More common in advanced/metastatic disease",
+      "alarm": true
+    },
+    {
+      "name": "Unexplained weight loss",
+      "detail": "Significant unexplained weight loss may indicate advanced or metastatic disease.",
+      "frequency": "Less common; more typical of advanced disease",
+      "alarm": true
+    },
+    {
+      "name": "Fatigue",
+      "detail": "Persistent unexplained fatigue may be associated with advanced disease or bone metastases.",
+      "frequency": "Common in advanced disease; also an adverse effect of ADT",
+      "alarm": false
+    },
+    {
+      "name": "Hematuria",
+      "detail": "Blood in the urine may occur with locally advanced disease involving the bladder or urethra.",
+      "frequency": "Uncommon; more typical of locally advanced disease",
+      "alarm": true
+    },
+    {
+      "name": "Pathologic fracture",
+      "detail": "Fractures occurring with minimal trauma in the setting of bone metastases. May be the initial presentation of metastatic disease.",
+      "frequency": "Uncommon; seen in advanced bone metastatic disease",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Pain in the back, hips, ribs, or other bones may indicate osseous metastatic disease. Bone metastases are a common site of spread."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Significant unexplained weight loss may indicate advanced or metastatic disease."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Blood in the urine may occur with locally advanced disease involving the bladder or urethra."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Fractures occurring with minimal trauma in the setting of bone metastases. May be the initial presentation of metastatic disease."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Urinary obstruction symptoms",
+      "Bone pain",
+      "Unexplained weight loss",
+      "Fatigue",
+      "Hematuria",
+      "Pathologic fracture"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "prostate",
+  "_chars_in": 5000
+}

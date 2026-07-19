@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "heading": "Symptoms",
+      "content": "Small bowel adenocarcinoma (SBA) often presents with a complication of the tumor rather than early, localized symptoms. The most common presenting symptom is abdominal pain, frequently described as cramping and associated with a partial or complete small bowel obstruction. For duodenal tumors, this may manifest as gastric outlet obstruction with nausea, vomiting, and early satiety. A significant proportion of patients (approximately 25% to 33%) present with occult gastrointestinal bleeding, which can lead to iron-deficiency anemia and fatigue. Other presenting complaints include unexplained weight loss, a palpable abdominal mass, or jaundice specifically for tumors of the second portion of the duodenum that obstruct the ampulla or distal bile duct. The diagnosis is often delayed because symptoms are nonspecific and can mimic more common benign gastrointestinal conditions, leading to a higher stage at diagnosis compared to colorectal cancer [SBA-A 1 of 2, Discussion MS-5]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Abdominal pain",
+      "detail": "Often cramping in nature, may be intermittent if partial obstruction is present.",
+      "frequency": "70%",
+      "alarm": true
+    },
+    {
+      "name": "Nausea and vomiting",
+      "detail": "May indicate gastric outlet obstruction (duodenal tumors) or high-grade small bowel obstruction.",
+      "frequency": "60%",
+      "alarm": true
+    },
+    {
+      "name": "Occult gastrointestinal bleeding / Anemia",
+      "detail": "Bleeding can be chronic and occult, leading to iron-deficiency anemia, fatigue, and pallor.",
+      "frequency": "29%",
+      "alarm": true
+    },
+    {
+      "name": "Weight loss",
+      "detail": "Unintentional weight loss may be due to malabsorption, anorexia, or advanced disease.",
+      "frequency": "50%",
+      "alarm": true
+    },
+    {
+      "name": "Jaundice",
+      "detail": "Specifically for ampullary or periampullary duodenal tumors causing biliary obstruction.",
+      "frequency": "15%",
+      "alarm": true
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Red Flag",
+      "detail": "Persistent or worsening pain suggests obstruction or locally advanced disease."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Vomiting of bilious material or feculent vomiting suggests significant obstruction."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Melena or hematochezia, symptomatic anemia."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Significant, unexplained weight loss (>5% body weight over 6-12 months)."
+    },
+    {
+      "name": "Red Flag",
+      "detail": "Painless jaundice suggests malignant biliary obstruction."
+    }
+  ],
+  "chart": {
+    "labels": [
+      "Abdominal pain",
+      "Nausea and vomiting",
+      "Occult gastrointestinal bleeding / Anemia",
+      "Weight loss",
+      "Jaundice"
+    ],
+    "values": [
+      70,
+      60,
+      29,
+      50,
+      15
+    ]
+  },
+  "_section": "clinical_features",
+  "_site_id": "small_bowel",
+  "_chars_in": 3543
+}

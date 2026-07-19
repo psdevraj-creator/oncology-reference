@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "heading": "Prognosis",
+      "content": "Pancreatic adenocarcinoma carries a poor prognosis, with an estimated 5-year overall survival rate of 11% for all stages combined. In 2026, an estimated 67,530 people will be diagnosed with pancreatic cancer and 52,740 will die from the disease in the United States, making it the fourth leading cause of cancer-related death. Prognosis is heavily influenced by disease stage at diagnosis, with only a minority of patients presenting with localized disease amenable to curative-intent resection. Even after complete resection, recurrence rates are high. Systemic therapy has modestly improved outcomes for advanced disease, but survival remains measured in months for most patients with metastatic disease.\n\nStage I (T1-3, N0, M0): Data for stage-specific 5-year survival are not explicitly provided in the source. However, patients with resectable disease (which includes most stage I) who undergo curative-intent surgery followed by adjuvant therapy have median overall survival ranging from 20.1 to 28.0 months under optimal clinical trial conditions. Context: Includes resectable and potentially borderline resectable tumors. Treatment involves surgery with or without neoadjuvant/adjuvant therapy.\n\nStage II (T1-3, N1, M0 or T3, N0, M0): Not explicitly provided. Survival is intermediate, heavily dependent on nodal status (N1 vs N2) and response to therapy. Context: Often borderline resectable or locally advanced. Multimodality therapy including neoadjuvant/induction chemotherapy and possible chemoradiation is standard.\n\nStage III (Any T, N2, M0 or T4, Any N, M0): Not explicitly provided. Prognosis is poor for locally advanced disease, with median overall survival typically 12-18 months with modern systemic regimens. Context: Locally advanced, unresectable disease. Primary treatment is systemic therapy with possible consolidation chemoradiation or SBRT.\n\nStage IV (Any T, Any N, M1): Less than 3%. Median overall survival with first-line chemotherapy ranges from approximately 6.8 to 12.1 months depending on regimen and performance status. Context: Metastatic disease. Treatment is palliative systemic therapy with a goal of prolonging survival and maintaining quality of life."
+    }
+  ],
+  "chart": {
+    "stages": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "os": [
+      null,
+      null,
+      null,
+      3
+    ]
+  },
+  "factors": [
+    {
+      "factor": "R0 resection",
+      "impact": "Favorable",
+      "detail": "Resection status (R0 vs. R1/R2) is a major prognostic factor for resected disease."
+    },
+    {
+      "factor": "R1/R2 resection",
+      "impact": "Unfavorable",
+      "detail": "Resection status (R0 vs. R1/R2) is a major prognostic factor for resected disease."
+    },
+    {
+      "factor": "Lymph node involvement",
+      "impact": "Unfavorable",
+      "detail": "Lymph node involvement (N1/N2 status and lymph node ratio) strongly influences prognosis after resection."
+    },
+    {
+      "factor": "Tumor size and T-stage",
+      "impact": "Unfavorable",
+      "detail": "Tumor size and T-stage."
+    },
+    {
+      "factor": "ECOG performance status 0-1",
+      "impact": "Favorable",
+      "detail": "Performance status (ECOG 0-1 vs. 2-3) is critical for tolerating therapy and survival in advanced disease."
+    },
+    {
+      "factor": "ECOG performance status 2-3",
+      "impact": "Unfavorable",
+      "detail": "Performance status (ECOG 0-1 vs. 2-3) is critical for tolerating therapy and survival in advanced disease."
+    },
+    {
+      "factor": "Elevated CA 19-9 levels",
+      "impact": "Unfavorable",
+      "detail": "CA 19-9 levels: elevated baseline levels and failure to normalize with treatment are associated with poorer outcomes."
+    },
+    {
+      "factor": "Germline BRCA1/2 mutations",
+      "impact": "Favorable",
+      "detail": "Presence of specific molecular alterations (e.g., germline BRCA1/2 mutations, MSI-H/dMMR) may influence response to specific therapies and thus prognosis."
+    },
+    {
+      "factor": "MSI-H/dMMR",
+      "impact": "Favorable",
+      "detail": "Presence of specific molecular alterations (e.g., germline BRCA1/2 mutations, MSI-H/dMMR) may influence response to specific therapies and thus prognosis."
+    },
+    {
+      "factor": "Resectable disease at presentation",
+      "impact": "Favorable",
+      "detail": "Disease stage at presentation (resectable, borderline resectable, locally advanced, metastatic)."
+    },
+    {
+      "factor": "Unresectable disease at presentation (locally advanced or metastatic)",
+      "impact": "Unfavorable",
+      "detail": "Disease stage at presentation (resectable, borderline resectable, locally advanced, metastatic)."
+    }
+  ],
+  "_section": "prognosis",
+  "_site_id": "pancreatic",
+  "_chars_in": 3681
+}

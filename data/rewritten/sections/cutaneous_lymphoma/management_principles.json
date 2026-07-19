@@ -1,0 +1,164 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of cutaneous lymphomas requires a multidisciplinary approach involving dermatology, pathology, hematology/oncology, and radiation oncology. Treatment goals are individualized and often focus on controlling symptoms, reducing disease burden, and minimizing progression risk, as most therapies (except allogeneic hematopoietic cell transplant [HCT]) are not curative. Therapeutic decisions are guided by disease subtype, stage, clinical presentation, and prognostic factors. For indolent entities like mycosis fungoides (MF) and primary cutaneous B-cell lymphomas (PCBCL), skin-directed therapies are preferred for limited disease, while systemic therapy is reserved for advanced or refractory cases. Aggressive subtypes such as primary cutaneous diffuse large B-cell lymphoma (PCDLBCL), leg type, or transformed MF require prompt systemic chemoimmunotherapy. Supportive care for symptom management, particularly pruritus and infection prevention, is integral throughout the disease course."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Diagnosis of Cutaneous Lymphoma",
+        "type": "decision"
+      },
+      {
+        "id": "n2",
+        "label": "Assess Subtype",
+        "type": "decision"
+      },
+      {
+        "id": "n3",
+        "label": "Indolent Subtype (MF, PCBCL)",
+        "type": "decision"
+      },
+      {
+        "id": "n4",
+        "label": "Aggressive Subtype (PCDLBCL, transformed MF)",
+        "type": "decision"
+      },
+      {
+        "id": "n5",
+        "label": "Assess Disease Extent",
+        "type": "decision"
+      },
+      {
+        "id": "n6",
+        "label": "Limited Disease",
+        "type": "outcome"
+      },
+      {
+        "id": "n7",
+        "label": "Extensive/Refractory Disease",
+        "type": "outcome"
+      },
+      {
+        "id": "n8",
+        "label": "Skin-Directed Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n9",
+        "label": "Systemic Therapy",
+        "type": "treatment"
+      },
+      {
+        "id": "n10",
+        "label": "Assess Performance Status",
+        "type": "decision"
+      },
+      {
+        "id": "n11",
+        "label": "Good PS (ECOG 0-1)",
+        "type": "outcome"
+      },
+      {
+        "id": "n12",
+        "label": "Poor PS (ECOG ≥2)",
+        "type": "outcome"
+      },
+      {
+        "id": "n13",
+        "label": "Intensive Systemic Therapy (combination chemo, HCT)",
+        "type": "treatment"
+      },
+      {
+        "id": "n14",
+        "label": "Less Aggressive Therapy (single-agent, supportive care)",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "label": "Proceed"
+      },
+      {
+        "source": "n2",
+        "target": "n3",
+        "label": "Indolent subtypes"
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "label": "Aggressive subtypes"
+      },
+      {
+        "source": "n3",
+        "target": "n5",
+        "label": "Proceed"
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "label": "Limited"
+      },
+      {
+        "source": "n5",
+        "target": "n7",
+        "label": "Extensive/Refractory"
+      },
+      {
+        "source": "n6",
+        "target": "n8",
+        "label": "Select"
+      },
+      {
+        "source": "n7",
+        "target": "n9",
+        "label": "Select"
+      },
+      {
+        "source": "n4",
+        "target": "n10",
+        "label": "Proceed"
+      },
+      {
+        "source": "n10",
+        "target": "n11",
+        "label": "Good PS"
+      },
+      {
+        "source": "n10",
+        "target": "n12",
+        "label": "Poor PS"
+      },
+      {
+        "source": "n11",
+        "target": "n13",
+        "label": "Opt for intensive"
+      },
+      {
+        "source": "n12",
+        "target": "n14",
+        "label": "Opt for less aggressive"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Intent",
+      "detail": "Intent: Palliative/Symptom Control\nPatient Group: All patients with symptomatic disease\nApproach: Prioritize therapies with favorable toxicity profiles (e.g., skin-directed therapies, topical agents) to improve quality of life without significant cumulative toxicity. Maintenance or tapering of regimens may be considered for patients with clinical benefit to optimize response duration.",
+      "color": "#10b981"
+    },
+    {
+      "title": "Intent",
+      "detail": "Intent: Disease Modification\nPatient Group: Patients with extensive or high-risk disease\nApproach: Use systemic agents (e.g., mogamulizumab, brentuximab vedotin) or combinations (e.g., chemoimmunotherapy for PCDLBCL, leg type) to reduce disease burden and delay progression. Allogeneic HCT may be considered for eligible patients with refractory advanced-stage MF/SS.",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "cutaneous_lymphoma",
+  "_chars_in": 2574
+}

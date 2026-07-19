@@ -1,0 +1,30 @@
+{
+  "sections": [
+    {
+      "heading": "RT",
+      "content": "{\n  \"role\": \"Radiation therapy (RT) is primarily used in the postoperative adjuvant setting for patients who received less than a D2 lymph node dissection, and for palliation of symptoms (bleeding, pain, dysphagia) in patients with advanced disease. It is also a component of definitive chemoradiation for patients with locally advanced, surgically unresectable disease who are not candidates for surgery.\",\n  \"principles\": [\n    \"Treatment recommendations should be made after joint consultation and discussion by a multidisciplinary team.\",\n    \"All available information from pretreatment diagnostic studies (CT, EUS, EGD, FDG-PET/CT) should be used to determine the target volume.\",\n    \"CT simulation and conformal treatment planning (3D-CRT or IMRT) should be used.\",\n    \"Image guidance may be used to enhance clinical targeting.\",\n    \"In general, Siewert Type I and II tumors should be managed with RT guidelines applicable to esophageal and EGJ cancers. Siewert Type III tumors may be managed with either esophageal/EGJ or gastric cancer RT guidelines depending on tumor bulk.\",\n    \"Treatment interruptions or dose reductions for manageable acute toxicities should be avoided. Careful patient monitoring and aggressive supportive care are preferable.\"\n  ],\n  \"dose_frameworks\": [\n    {\n      \"name\": \"Adjuvant Postoperative Chemoradiation\",\n      \"total_dose\": \"45–50.4 Gy\",\n      \"dose_per_fraction\": \"1.8 Gy\",\n      \"fractions\": \"25–28\",\n      \"schedule\": \"Daily, 5 days per week\",\n      \"indication\": \"Patients with R0 or R1 resection for gastric or EGJ adenocarcinoma who received less than a D2 lymph node dissection. Recommended for all patients following an R1 resection. Also an option for patients with pT2, N0 tumors with high-risk features.\"\n    },\n    {\n      \"name\": \"Definitive Chemoradiation for Unresectable Disease\",\n      \"total_dose\": \"45–50.4 Gy\",\n      \"dose_per_fraction\": \"1.8 Gy\",\n      \"fractions\": \"25–28\",\n      \"schedule\": \"Daily, 5 days per week\",\n      \"indication\": \"Patients with locally advanced, surgically unresectable disease who are not candidates for surgery.\"\n    },\n    {\n      \"name\": \"Palliative Radiation\",\n      \"total_dose\": \"Variable (e.g., 30 Gy in 10 fractions)\",\n      \"dose_per_fraction\": \"Variable\",\n      \"fractions\": \"Variable\",\n      \"schedule\": \"Variable\",\n      \"indication\": \"Symptom control for bleeding, pain, or dysphagia in patients with advanced disease.\"\n    }\n  ],\n  \"approaches\": [\n    {\n      \"name\": \"Adjuvant Chemoradiation with Concurrent Fluoropyrimidine\",\n      \"dose_fractionation\": \"45–50.4 Gy in 25–28 fractions\",\n      \"concurrent_chemotherapy\": \"Fluoropyrimidine (infusional fluorouracil or capecitabine). Leucovorin is indicated with certain fluorouracil-based regimens.\",\n      \"indication\": \"Postoperative adjuvant therapy after less than D2 dissection (category 1).\",\n      \"key_trial\": \"INT-0116 (Macdonald et al., N Engl J Med 2001).\",\n      \"toxicities\": \"Grade 3–4 hematologic (54%) and GI (33%) toxicities were reported in the original trial. Nausea, diarrhea, and hematologic toxicity are common.\"\n    },\n    {\n      \"name\": \"Definitive Chemoradiation with Fluoropyrimidine ± Platinum\",\n      \"dose_fractionation\": \"45–50.4 Gy in 25–28 fractions\",\n      \"concurrent_chemotherapy\": \"Preferred: Fluoropyrimidine, Fluorouracil and oxaliplatin, Fluorouracil and cisplatin. Other: Fluoropyrimidine and paclitaxel (category 2B).\",\n      \"indication\": \"Unresectable locally advanced disease if not previously received.\",\n      \"key_trial\": \"PRODIGE5/ACCORD17 (Conroy et al., Lancet Oncol 2014) for FOLFOX vs fluorouracil/cisplatin in esophageal cancer (extrapolated).\",\n      \"toxicities\": \"Myelosuppression, esophagitis, nausea, diarrhea.\"\n    }\n  ]\n}"
+    }
+  ],
+  "gauges": [
+    {
+      "label": "Dose",
+      "value": 50,
+      "unit": "Gy"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Adjuvant Chemoradiation with Concurrent Fluoropyrimidine",
+      "body": "Dose: 45–50.4 Gy in 25–28 fractions. Concurrent chemo: Fluoropyrimidine (infusional fluorouracil or capecitabine). Leucovorin indicated. Indication: Postoperative after less than D2 dissection. Key trial: INT-0116. Toxicities: Grade 3–4 hematologic (54%) and GI (33%).",
+      "icon": "bi-lightning-charge"
+    },
+    {
+      "title": "Definitive Chemoradiation with Fluoropyrimidine ± Platinum",
+      "body": "Dose: 45–50.4 Gy in 25–28 fractions. Concurrent chemo: Fluoropyrimidine, FOLFOX, or cisplatin-based. Indication: Unresectable locally advanced. Key trial: PRODIGE5/ACCORD17. Toxicities: Myelosuppression, esophagitis, nausea, diarrhea.",
+      "icon": "bi-lightning-charge"
+    }
+  ],
+  "_section": "radiation_therapy",
+  "_site_id": "gastric",
+  "_chars_in": 3466
+}

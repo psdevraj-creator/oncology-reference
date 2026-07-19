@@ -1,0 +1,152 @@
+{
+  "sections": [
+    {
+      "heading": "Clinical Stage I PM with Epithelioid Histology - Surgical Evaluation and Treatment",
+      "content": "{\"pathway_id\":\"clinical_stage_i_epithelioid_surgical_evaluation\",\"title\":\"Clinical Stage I PM with Epithelioid Histology - Surgical Evaluation and Treatment\",\"branching_basis\":[\"Clinical stage I\",\"Epithelioid histology\",\"Medical operability\",\"PS 0-2\",\"Surgical resectability\"],\"nodes\":[{\"criteria\":\"Clinical stage I PM with epithelioid histology, PS 0-2, medically operable\",\"options\":[{\"type\":\"systemic_therapy\",\"label\":\"Systemic therapy (preferred primary treatment)\",\"preference\":\"Preferred\",\"recommendation\":\"Systemic therapy is the preferred primary treatment for clinical stage I PM with epithelioid histology. Pleural IMRT may be considered sequentially.\",\"linked_regimen_ids\":[\"first_line_ici_nivo_ipi\",\"first_line_pembro_chemo\",\"first_line_chemo_bev\"]},{\"type\":\"surgical_evaluation\",\"label\":\"Surgical evaluation for potential resection\",\"preference\":\"Alternative\",\"recommendation\":\"Surgical evaluation should be considered only for select patients. The benefit of surgical resection is unclear. If surgery is deemed viable, P/D is recommended over EPP. FDG-PET/CT and invasive mediastinal staging required before surgery.\",\"linked_regimen_ids\":[]}],\"adjuvant_logic\":{\"applies\":true,\"summary\":\"If surgery is pursued, systemic therapy can be given as either induction or adjuvant therapy. Sequential pleural IMRT at a center with experience may be considered after surgery and/or systemic therapy.\"}},{\"criteria\":\"Clinical stage I PM with epithelioid histology, PS 0-2, asymptomatic with minimal disease burden\",\"options\":[{\"type\":\"observation\",\"label\":\"Observation for progression\",\"preference\":\"Acceptable\",\"recommendation\":\"Observation may be considered if systemic therapy is planned at the time of symptomatic or radiographic progression.\"}],\"adjuvant_logic\":{\"applies\":false,\"summary\":\"\"}}]}"
+    },
+    {
+      "heading": "Clinical Stage I PM with Epithelioid Histology - Surgical Treatment Pathway",
+      "content": "{\"pathway_id\":\"clinical_stage_i_epithelioid_surgical_pathway\",\"title\":\"Clinical Stage I PM with Epithelioid Histology - Surgical Treatment Pathway\",\"branching_basis\":[\"Clinical stage I\",\"Epithelioid histology\",\"Surgical resectability determined at exploration\"],\"nodes\":[{\"criteria\":\"Surgical exploration reveals resectable disease\",\"options\":[{\"type\":\"surgery\",\"label\":\"Pleurectomy/decortication (P/D)\",\"preference\":\"Preferred surgical option\",\"recommendation\":\"P/D is the preferred surgical treatment option. Consider sequential pleural IMRT after P/D.\",\"linked_regimen_ids\":[\"adjuvant_chemo_pemetrexed\"]},{\"type\":\"radiation\",\"label\":\"Sequential pleural IMRT\",\"preference\":\"Consider\",\"recommendation\":\"Consider sequential pleural IMRT at centers with experience. Should only be performed in carefully selected patients at centers with experience.\",\"linked_regimen_ids\":[]}],\"adjuvant_logic\":{\"applies\":true,\"summary\":\"After recovery from surgery, patients should be referred for adjuvant therapy, which may include chemotherapy and RT.\"}},{\"criteria\":\"Surgical exploration reveals unresectable disease\",\"options\":[{\"type\":\"systemic_therapy\",\"label\":\"Systemic therapy and consider sequential pleural IMRT\",\"preference\":\"Standard\",\"recommendation\":\"Systemic therapy and consider sequential pleural IMRT.\",\"linked_regimen_ids\":[\"first_line_ici_nivo_ipi\",\"first_line_pembro_chemo\"]}],\"adjuvant_logic\":{\"applies\":false,\"summary\":\"\"}}]}"
+    },
+    {
+      "heading": "Clinical Stage II-IV PM with Epithelioid Histology; Sarcomatoid or Biphasic Histology (Any Stage); or Medically Inoperable",
+      "content": "{\"pathway_id\":\"stage_ii_iv_epithelioid_sarcomatoid_biphasic_medically_inoperable\",\"title\":\"Clinical Stage II-IV PM with Epithelioid Histology; Sarcomatoid or Biphasic Histology (Any Stage); or Medically Inoperable\",\"branching_basis\":[\"Clinical stage II-IV\",\"Histologic subtype (epithelioid, sarcomatoid, biphasic)\",\"Medical operability\",\"PS 0-2\"],\"nodes\":[{\"criteria\":\"Clinical stage II-IV with epithelioid histology OR sarcomatoid/biphasic histology at any stage OR medically inoperable any stage; PS 0-2\",\"options\":[{\"type\":\"systemic_therapy\",\"label\":\"First-line systemic therapy\",\"preference\":\"Preferred\",\"recommendation\":\"Systemic therapy is the primary treatment. ICI-based regimens are favored for non-epithelioid histology.\",\"linked_regimen_ids\":[\"first_line_ici_nivo_ipi\",\"first_line_pembro_chemo\"]}],\"adjuvant_logic\":{\"applies\":false,\"summary\":\"\"}},{\"criteria\":\"Asymptomatic with minimal disease burden, PS 0-2\",\"options\":[{\"type\":\"observation\",\"label\":\"Observation for progression\",\"preference\":\"May be considered\",\"recommendation\":\"Observation may be considered for patients who are not eligible for surgery and are asymptomatic with minimal burden of disease if systemic therapy is planned when progression occurs.\"}],\"adjuvant_logic\":{\"applies\":false,\"summary\":\"\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Clinical Stage I PM with Epithelioid Histology - Surgical Evaluation and Treatment",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Clinical stage I PM with epithelioid histology, PS 0-2, medically operable. Adjuvant: If surgery is pursued, systemic therapy can be given as either induction or adjuvant therapy. Sequential pleural IMRT at a center with experience may be considered after surgery and/or systemic therapy.",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Clinical stage I PM with epithelioid histology, PS 0-2, asymptomatic with minimal disease burden",
+          "type": "decision"
+        },
+        {
+          "id": "t0_0",
+          "label": "Systemic therapy (preferred primary treatment): Systemic therapy is the preferred primary treatment for clinical stage I PM with epithelioid histology. Pleural IMRT may be considered sequentially.",
+          "type": "treatment"
+        },
+        {
+          "id": "t0_1",
+          "label": "Surgical evaluation for potential resection: Surgical evaluation should be considered only for select patients. The benefit of surgical resection is unclear. If surgery is deemed viable, P/D is recommended over EPP. FDG-PET/CT and invasive mediastinal staging required before surgery.",
+          "type": "treatment"
+        },
+        {
+          "id": "t1_0",
+          "label": "Observation for progression: Observation may be considered if systemic therapy is planned at the time of symptomatic or radiographic progression.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "t0_0",
+          "label": "systemic_therapy"
+        },
+        {
+          "source": "d0",
+          "target": "t0_1",
+          "label": "surgical_evaluation"
+        },
+        {
+          "source": "d1",
+          "target": "t1_0",
+          "label": "observation"
+        }
+      ]
+    },
+    {
+      "title": "Clinical Stage I PM with Epithelioid Histology - Surgical Treatment Pathway",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Surgical exploration reveals resectable disease. Adjuvant: After recovery from surgery, patients should be referred for adjuvant therapy, which may include chemotherapy and RT.",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Surgical exploration reveals unresectable disease",
+          "type": "decision"
+        },
+        {
+          "id": "t0_0",
+          "label": "Pleurectomy/decortication (P/D): P/D is the preferred surgical treatment option. Consider sequential pleural IMRT after P/D.",
+          "type": "treatment"
+        },
+        {
+          "id": "t0_1",
+          "label": "Sequential pleural IMRT: Consider sequential pleural IMRT at centers with experience. Should only be performed in carefully selected patients at centers with experience.",
+          "type": "treatment"
+        },
+        {
+          "id": "t1_0",
+          "label": "Systemic therapy and consider sequential pleural IMRT: Systemic therapy and consider sequential pleural IMRT.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "t0_0",
+          "label": "surgery"
+        },
+        {
+          "source": "d0",
+          "target": "t0_1",
+          "label": "radiation"
+        },
+        {
+          "source": "d1",
+          "target": "t1_0",
+          "label": "systemic_therapy"
+        }
+      ]
+    },
+    {
+      "title": "Clinical Stage II-IV PM with Epithelioid Histology; Sarcomatoid or Biphasic Histology (Any Stage); or Medically Inoperable",
+      "nodes": [
+        {
+          "id": "d0",
+          "label": "Clinical stage II-IV with epithelioid histology OR sarcomatoid/biphasic histology at any stage OR medically inoperable any stage; PS 0-2",
+          "type": "decision"
+        },
+        {
+          "id": "d1",
+          "label": "Asymptomatic with minimal disease burden, PS 0-2",
+          "type": "decision"
+        },
+        {
+          "id": "t0_0",
+          "label": "First-line systemic therapy: Systemic therapy is the primary treatment. ICI-based regimens are favored for non-epithelioid histology.",
+          "type": "treatment"
+        },
+        {
+          "id": "t1_0",
+          "label": "Observation for progression: Observation may be considered for patients who are not eligible for surgery and are asymptomatic with minimal burden of disease if systemic therapy is planned when progression occurs.",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d0",
+          "target": "t0_0",
+          "label": "systemic_therapy"
+        },
+        {
+          "source": "d1",
+          "target": "t1_0",
+          "label": "observation"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "mesothelioma_pleural",
+  "_chars_in": 5000
+}

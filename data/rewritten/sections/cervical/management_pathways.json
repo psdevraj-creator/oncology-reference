@@ -1,0 +1,273 @@
+{
+  "sections": [
+    {
+      "heading": "Stage IA1, No LVSI - Fertility Sparing",
+      "content": "[{\"pathway_id\": \"early_stage_ia1_no_lvsi_fertility_sparing\", \"title\": \"Stage IA1, No LVSI - Fertility Sparing\", \"branching_basis\": [\"Fertility desire\", \"Margin status after cone biopsy\", \"Medical operability\"], \"nodes\": [{\"criteria\": \"Stage IA1 (no LVSI) on cone biopsy with negative margins (preferred non-fragmented specimen with at least 1-mm margins); patient desires fertility preservation.\", \"options\": [{\"type\": \"Surveillance\", \"label\": \"Observe\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}, {\"type\": \"Surgery\", \"label\": \"Cone biopsy (CKC preferred, LEEP acceptable) + SLN mapping or pelvic lymphadenectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Not applicable for this pathway.\"}}]}"
+    },
+    {
+      "heading": "Stage IA1, No LVSI - Non-Fertility Sparing",
+      "content": "[{\"pathway_id\": \"early_stage_ia1_no_lvsi_non_fertility_sparing\", \"title\": \"Stage IA1, No LVSI - Non-Fertility Sparing\", \"branching_basis\": [\"Margin status after cone biopsy\", \"Medical operability\"], \"nodes\": [{\"criteria\": \"Stage IA1 (no LVSI) on cone biopsy. Negative margins and medically inoperable.\", \"options\": [{\"type\": \"Surveillance\", \"label\": \"Observe\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}, {\"criteria\": \"Negative margins and medically operable.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Type A hysterectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}, {\"criteria\": \"Positive margins for carcinoma and medically inoperable.\", \"options\": [{\"type\": \"Surgery/RT\", \"label\": \"Repeat cone biopsy (preferred) or Brachytherapy ± pelvic EBRT\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}, {\"criteria\": \"Positive margins for dysplasia or carcinoma and medically operable.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Consider repeat cone biopsy; or Type A hysterectomy (if margins positive for dysplasia) + SLN mapping or pelvic lymphadenectomy; or Type B radical hysterectomy (if margins positive for carcinoma) + SLN mapping or pelvic lymphadenectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Proceed to adjuvant treatment assessment based on surgical findings (CERV-6).\"}}]}"
+    },
+    {
+      "heading": "Stage IA1, With LVSI",
+      "content": "[{\"pathway_id\": \"early_stage_ia1_with_lvsi\", \"title\": \"Stage IA1, With LVSI\", \"branching_basis\": [\"Fertility desire\", \"Margin status after cone/LEEP\", \"Specimen integrity\"], \"nodes\": [{\"criteria\": \"Stage IA1 with LVSI based on cone/LEEP. Patient desires fertility preservation.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Cone biopsy (with negative margins) + pelvic SLN mapping/lymphadenectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}, {\"criteria\": \"Stage IA1 with LVSI, negative margins (or when specimen integrity unknown). Non-fertility sparing.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Type A hysterectomy + SLN mapping or pelvic lymphadenectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}, {\"type\": \"Radiation\", \"label\": \"Pelvic EBRT ± brachytherapy ± concurrent platinum-containing chemotherapy\", \"preference\": \"Other recommended\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"For surgical pathway, proceed to adjuvant treatment assessment based on findings (CERV-6).\"}}, {\"criteria\": \"Stage IA1 with LVSI, positive margins for dysplasia or carcinoma. Non-fertility sparing.\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Consider repeat cone biopsy; or Type A hysterectomy (if margins positive for dysplasia) + SLN mapping or pelvic lymphadenectomy; or Type B radical hysterectomy (if margins positive for carcinoma) + SLN mapping or pelvic lymphadenectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Proceed to adjuvant treatment assessment based on surgical findings (CERV-6).\"}}]}"
+    },
+    {
+      "heading": "Stage IA2-IB1, Fertility Sparing",
+      "content": "[{\"pathway_id\": \"early_stage_ia2_ib1_fertility_sparing\", \"title\": \"Stage IA2-IB1, Fertility Sparing\", \"branching_basis\": [\"Conservative surgery criteria met\", \"Tumor size\", \"Histology\", \"LVSI\", \"Margins\", \"Imaging\"], \"nodes\": [{\"criteria\": \"Stage IA2-IB1 based on cone biopsy; all conservative surgery criteria must be met: No LVSI (preferred), negative cone margins for cancer (preferred), squamous cell (any grade) or usual type adenocarcinoma (grade 1 or 2 only) (preferred), tumor size ≤2 cm, depth of invasion ≤10 mm on LEEP/cone, negative imaging for locoregional disease (MRI recommended).\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Cone biopsy with negative margins + SLN mapping (if risk factors); or Radical trachelectomy + SLN mapping\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A\", \"linked_regimen_ids\": []}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"N/A\"}}]}"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Stage IA1, No LVSI - Fertility Sparing",
+      "nodes": [
+        {
+          "id": "S1",
+          "label": "Stage IA1, No LVSI - Fertility Sparing",
+          "type": "decision"
+        },
+        {
+          "id": "D1",
+          "label": "Stage IA1 (no LVSI) on cone biopsy with negative margins (preferred non-fragmented specimen with at least 1-mm margins); patient desires fertility preservation.",
+          "type": "decision"
+        },
+        {
+          "id": "T1",
+          "label": "Observe (Surveillance, Preferred, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T2",
+          "label": "Cone biopsy (CKC preferred, LEEP acceptable) + SLN mapping or pelvic lymphadenectomy (Surgery, Preferred, Category 2A)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "S1",
+          "target": "D1",
+          "label": ""
+        },
+        {
+          "source": "D1",
+          "target": "T1",
+          "label": ""
+        },
+        {
+          "source": "D1",
+          "target": "T2",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "title": "Stage IA1, No LVSI - Non-Fertility Sparing",
+      "nodes": [
+        {
+          "id": "S2",
+          "label": "Stage IA1, No LVSI - Non-Fertility Sparing",
+          "type": "decision"
+        },
+        {
+          "id": "D2a",
+          "label": "Stage IA1 (no LVSI) on cone biopsy. Negative margins and medically inoperable.",
+          "type": "decision"
+        },
+        {
+          "id": "D2b",
+          "label": "Negative margins and medically operable.",
+          "type": "decision"
+        },
+        {
+          "id": "D2c",
+          "label": "Positive margins for carcinoma and medically inoperable.",
+          "type": "decision"
+        },
+        {
+          "id": "D2d",
+          "label": "Positive margins for dysplasia or carcinoma and medically operable.",
+          "type": "decision"
+        },
+        {
+          "id": "T2a",
+          "label": "Observe (Surveillance, Preferred, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T2b",
+          "label": "Type A hysterectomy (Surgery, Preferred, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T2c",
+          "label": "Repeat cone biopsy (preferred) or Brachytherapy ± pelvic EBRT (Surgery/RT, Preferred, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T2d",
+          "label": "Consider repeat cone biopsy; or Type A hysterectomy (if margins positive for dysplasia) + SLN mapping or pelvic lymphadenectomy; or Type B radical hysterectomy (if margins positive for carcinoma) + SLN mapping or pelvic lymphadenectomy (Surgery, Preferred, Category 2A). Adjuvant: Proceed to adjuvant treatment assessment based on surgical findings (CERV-6).",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "S2",
+          "target": "D2a",
+          "label": "Negative margins, medically inoperable"
+        },
+        {
+          "source": "S2",
+          "target": "D2b",
+          "label": "Negative margins, medically operable"
+        },
+        {
+          "source": "S2",
+          "target": "D2c",
+          "label": "Positive margins for carcinoma, medically inoperable"
+        },
+        {
+          "source": "S2",
+          "target": "D2d",
+          "label": "Positive margins for dysplasia or carcinoma, medically operable"
+        },
+        {
+          "source": "D2a",
+          "target": "T2a",
+          "label": ""
+        },
+        {
+          "source": "D2b",
+          "target": "T2b",
+          "label": ""
+        },
+        {
+          "source": "D2c",
+          "target": "T2c",
+          "label": ""
+        },
+        {
+          "source": "D2d",
+          "target": "T2d",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "title": "Stage IA1, With LVSI",
+      "nodes": [
+        {
+          "id": "S3",
+          "label": "Stage IA1, With LVSI",
+          "type": "decision"
+        },
+        {
+          "id": "D3a",
+          "label": "Stage IA1 with LVSI based on cone/LEEP. Patient desires fertility preservation.",
+          "type": "decision"
+        },
+        {
+          "id": "D3b",
+          "label": "Stage IA1 with LVSI, negative margins (or when specimen integrity unknown). Non-fertility sparing.",
+          "type": "decision"
+        },
+        {
+          "id": "D3c",
+          "label": "Stage IA1 with LVSI, positive margins for dysplasia or carcinoma. Non-fertility sparing.",
+          "type": "decision"
+        },
+        {
+          "id": "T3a",
+          "label": "Cone biopsy (with negative margins) + pelvic SLN mapping/lymphadenectomy (Surgery, Preferred, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T3b_surg",
+          "label": "Type A hysterectomy + SLN mapping or pelvic lymphadenectomy (Surgery, Preferred, Category 2A). Adjuvant: For surgical pathway, proceed to adjuvant treatment assessment based on findings (CERV-6).",
+          "type": "treatment"
+        },
+        {
+          "id": "T3b_rad",
+          "label": "Pelvic EBRT ± brachytherapy ± concurrent platinum-containing chemotherapy (Radiation, Other recommended, Category 2A)",
+          "type": "treatment"
+        },
+        {
+          "id": "T3c",
+          "label": "Consider repeat cone biopsy; or Type A hysterectomy (if margins positive for dysplasia) + SLN mapping or pelvic lymphadenectomy; or Type B radical hysterectomy (if margins positive for carcinoma) + SLN mapping or pelvic lymphadenectomy (Surgery, Preferred, Category 2A). Adjuvant: Proceed to adjuvant treatment assessment based on surgical findings (CERV-6).",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "S3",
+          "target": "D3a",
+          "label": "Fertility preservation desired"
+        },
+        {
+          "source": "S3",
+          "target": "D3b",
+          "label": "Non-fertility sparing, negative margins or specimen integrity unknown"
+        },
+        {
+          "source": "S3",
+          "target": "D3c",
+          "label": "Non-fertility sparing, positive margins"
+        },
+        {
+          "source": "D3a",
+          "target": "T3a",
+          "label": ""
+        },
+        {
+          "source": "D3b",
+          "target": "T3b_surg",
+          "label": "Surgical option (Preferred)"
+        },
+        {
+          "source": "D3b",
+          "target": "T3b_rad",
+          "label": "Radiation option (Other recommended)"
+        },
+        {
+          "source": "D3c",
+          "target": "T3c",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "title": "Stage IA2-IB1, Fertility Sparing",
+      "nodes": [
+        {
+          "id": "S4",
+          "label": "Stage IA2-IB1, Fertility Sparing",
+          "type": "decision"
+        },
+        {
+          "id": "D4",
+          "label": "Stage IA2-IB1 based on cone biopsy; all conservative surgery criteria must be met: No LVSI (preferred), negative cone margins for cancer (preferred), squamous cell (any grade) or usual type adenocarcinoma (grade 1 or 2 only) (preferred), tumor size ≤2 cm, depth of invasion ≤10 mm on LEEP/cone, negative imaging for locoregional disease (MRI recommended).",
+          "type": "decision"
+        },
+        {
+          "id": "T4",
+          "label": "Cone biopsy with negative margins + SLN mapping (if risk factors); or Radical trachelectomy + SLN mapping (Surgery, Preferred, Category 2A)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "S4",
+          "target": "D4",
+          "label": ""
+        },
+        {
+          "source": "D4",
+          "target": "T4",
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "cervical",
+  "_chars_in": 5000
+}

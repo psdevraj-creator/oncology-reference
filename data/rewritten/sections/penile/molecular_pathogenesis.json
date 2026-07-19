@@ -1,0 +1,112 @@
+{
+  "sections": [
+    {
+      "heading": "HPV and Oncoproteins",
+      "content": "The molecular pathogenesis of penile cancer is closely linked to human papillomavirus (HPV) infection, detected in 45% to 80% of cases, particularly HPV types 16, 6, and 18. HPV oncoproteins E6 and E7 inactivate tumor suppressors p53 and pRb, respectively, leading to genomic instability and carcinogenesis. HPV-positive tumors often show better prognosis, possibly due to immune recognition."
+    },
+    {
+      "heading": "p53 Pathway Alterations",
+      "content": "In HPV-independent tumors, alterations in the p53 pathway are common, often due to mutations in TP53."
+    },
+    {
+      "heading": "Other Molecular Events",
+      "content": "Other molecular events include overexpression of EGFR, cyclin D1, and activation of the PI3K/AKT/mTOR pathway."
+    },
+    {
+      "heading": "Chromosomal Abnormalities",
+      "content": "Chromosomal abnormalities such as gains at 8q and losses at 3p, 8p, and 13q have been reported."
+    },
+    {
+      "heading": "Multigene Panel Testing",
+      "content": "Multigene panel testing (MGPT) in Clinical Laboratory Improvement Amendments (CLIA)-approved laboratories can identify rare and actionable mutations and fusions, which may guide therapy in advanced disease. [6,7,8]"
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "id": "E6",
+        "type": "gene"
+      },
+      {
+        "id": "E7",
+        "type": "gene"
+      },
+      {
+        "id": "p53",
+        "type": "gene"
+      },
+      {
+        "id": "pRb",
+        "type": "gene"
+      },
+      {
+        "id": "TP53",
+        "type": "gene"
+      },
+      {
+        "id": "EGFR",
+        "type": "gene"
+      },
+      {
+        "id": "cyclin D1",
+        "type": "gene"
+      },
+      {
+        "id": "PI3K",
+        "type": "gene"
+      },
+      {
+        "id": "AKT",
+        "type": "gene"
+      },
+      {
+        "id": "mTOR",
+        "type": "gene"
+      },
+      {
+        "id": "p53 pathway",
+        "type": "pathway"
+      },
+      {
+        "id": "PI3K/AKT/mTOR pathway",
+        "type": "pathway"
+      }
+    ],
+    "edges": [
+      {
+        "source": "E6",
+        "target": "p53",
+        "type": "inhibits"
+      },
+      {
+        "source": "E7",
+        "target": "pRb",
+        "type": "inhibits"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "pathway": "p53 pathway",
+      "genes": [
+        "p53",
+        "TP53"
+      ],
+      "drugs": "",
+      "targetable": false
+    },
+    {
+      "pathway": "PI3K/AKT/mTOR pathway",
+      "genes": [
+        "PI3K",
+        "AKT",
+        "mTOR"
+      ],
+      "drugs": "",
+      "targetable": false
+    }
+  ],
+  "_section": "molecular_pathogenesis",
+  "_site_id": "penile",
+  "_chars_in": 916
+}

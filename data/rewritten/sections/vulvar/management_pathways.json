@@ -1,0 +1,322 @@
+{
+  "sections": [
+    {
+      "heading": "Primary Treatment of Early-Stage Vulvar SCC/Adenocarcinoma (Stage I and Select Stage II)",
+      "content": "Criteria: Stage IA (≤1 mm invasion), lateral lesion (≥2 cm from midline), clinically negative nodes. Options: Surgery - Simple partial vulvectomy (preferred). Recommendation: Observe after resection if negative margins; if pathology reveals >1 mm invasion, additional surgery may be warranted. Adjuvant: No adjuvant therapy needed for Stage IA with negative margins.\n\nCriteria: Stage IB (>1 mm invasion) or select Stage II, lateral lesion (≥2 cm from midline), clinically negative nodes. Options: Surgery - Radical partial vulvectomy + ipsilateral inguinofemoral lymph node evaluation (SLNB or lymphadenectomy) (preferred). Recommendation: Sentinel lymph node biopsy (SLNB) or ipsilateral inguinofemoral lymphadenectomy; if SLNB not detected, complete lymphadenectomy required. Adjuvant: Therapy based on primary tumor risk factors (close margins, LVSI, tumor size, depth of invasion, pattern of invasion) and nodal pathology. If negative margins and nodes, observe; if positive margins, re-excision or adjuvant EBRT; if nodal metastases, adjuvant RT ± chemotherapy.\n\nCriteria: Stage IB or select Stage II, near midline or midline lesions (anterior or posterior), clinically negative nodes. Options: Surgery - Radical partial vulvectomy + bilateral inguinofemoral lymph node evaluation (SLNB or lymphadenectomy) (preferred). Recommendation: Bilateral SLNB or bilateral inguinofemoral lymphadenectomy; if SLNB not detected on side, complete lymphadenectomy required. Adjuvant: Therapy based on primary tumor risk factors and nodal status as above."
+    },
+    {
+      "heading": "Adjuvant Therapy Based on Primary Tumor Risk Factors",
+      "content": "Criteria: Negative margins after resection. Options: Observation - Surveillance (preferred); Radiation Therapy - Adjuvant EBRT to primary site (other recommended). Recommendation: Observe if no other high-risk features; consider EBRT for other invasive disease risk factors (close margins, LVSI, tumor size, depth of invasion, pattern of invasion). Adjuvant: No adjuvant therapy for negative margins without high-risk factors.\n\nCriteria: Positive margins for invasive disease. Options: Surgery - Re-excision (preferred); Radiation Therapy - Adjuvant EBRT to primary site (alternative). Recommendation: Re-excision to achieve negative margins; if not feasible or margins remain positive, use EBRT. Adjuvant: Re-excision or adjuvant EBRT for positive margins."
+    },
+    {
+      "heading": "Adjuvant Therapy Based on Nodal Evaluation",
+      "content": "Criteria: Lymph nodes negative (sentinel or inguinofemoral). Options: Observation - Surveillance (preferred). Recommendation: No adjuvant nodal therapy. Adjuvant: No adjuvant nodal therapy for negative nodes.\n\nCriteria: Single positive SLN ≤2 mm metastasis. Options: Radiation Therapy - EBRT ± concurrent chemotherapy (preferred). Recommendation: Adjuvant RT to groin ± chemotherapy; category 2A. Adjuvant: Adjuvant RT ± chemotherapy for micrometastatic nodal disease.\n\nCriteria: Positive SLN >2 mm metastasis. Options: Surgery - Complete inguinofemoral lymphadenectomy (preferred); Radiation Therapy - EBRT ± concurrent chemotherapy (alternative). Recommendation: Lymphadenectomy followed by EBRT ± concurrent chemotherapy; if not suitable for surgery, use EBRT ± chemo. Adjuvant: Adjuvant RT ± chemotherapy for macrometastatic nodal disease."
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Primary Treatment of Early-Stage Vulvar SCC/Adenocarcinoma (Stage I and Select Stage II)",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Determine stage and tumor location",
+          "type": "decision"
+        },
+        {
+          "id": "d2",
+          "label": "Stage IA, lateral, clinically negative nodes",
+          "type": "decision"
+        },
+        {
+          "id": "t1",
+          "label": "Simple partial vulvectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "d3",
+          "label": "Pathology: invasion depth >1 mm?",
+          "type": "decision"
+        },
+        {
+          "id": "t2",
+          "label": "Additional surgery (if >1 mm invasion)",
+          "type": "treatment"
+        },
+        {
+          "id": "t3",
+          "label": "Surveillance (if ≤1 mm and negative margins)",
+          "type": "treatment"
+        },
+        {
+          "id": "d4",
+          "label": "Stage IB/II, lateral, clinically negative nodes",
+          "type": "decision"
+        },
+        {
+          "id": "t4",
+          "label": "Radical partial vulvectomy + ipsilateral inguinofemoral LN evaluation",
+          "type": "treatment"
+        },
+        {
+          "id": "d5",
+          "label": "Post-surgery pathology: margins and nodes",
+          "type": "decision"
+        },
+        {
+          "id": "t5",
+          "label": "Observation (negative margins, negative nodes)",
+          "type": "treatment"
+        },
+        {
+          "id": "t6",
+          "label": "Re-excision or EBRT (positive margins)",
+          "type": "treatment"
+        },
+        {
+          "id": "t7",
+          "label": "Adjuvant RT ± chemo (nodal metastases)",
+          "type": "treatment"
+        },
+        {
+          "id": "d6",
+          "label": "Stage IB/II, midline, clinically negative nodes",
+          "type": "decision"
+        },
+        {
+          "id": "t8",
+          "label": "Radical partial vulvectomy + bilateral inguinofemoral LN evaluation",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d1",
+          "target": "d2",
+          "label": "Stage IA, lateral"
+        },
+        {
+          "source": "d1",
+          "target": "d4",
+          "label": "Stage IB/II, lateral"
+        },
+        {
+          "source": "d1",
+          "target": "d6",
+          "label": "Stage IB/II, midline"
+        },
+        {
+          "source": "d2",
+          "target": "t1",
+          "label": "Proceed with surgery"
+        },
+        {
+          "source": "t1",
+          "target": "d3",
+          "label": "Pathology review"
+        },
+        {
+          "source": "d3",
+          "target": "t2",
+          "label": "Yes (>1 mm)"
+        },
+        {
+          "source": "d3",
+          "target": "t3",
+          "label": "No (≤1 mm)"
+        },
+        {
+          "source": "d4",
+          "target": "t4",
+          "label": "Proceed with surgery"
+        },
+        {
+          "source": "t4",
+          "target": "d5",
+          "label": "Post-surgery evaluation"
+        },
+        {
+          "source": "d5",
+          "target": "t5",
+          "label": "Negative margins and nodes"
+        },
+        {
+          "source": "d5",
+          "target": "t6",
+          "label": "Positive margins"
+        },
+        {
+          "source": "d5",
+          "target": "t7",
+          "label": "Nodal metastases"
+        },
+        {
+          "source": "d6",
+          "target": "t8",
+          "label": "Proceed with surgery"
+        },
+        {
+          "source": "t8",
+          "target": "d5",
+          "label": "Post-surgery evaluation"
+        }
+      ]
+    },
+    {
+      "title": "Adjuvant Therapy Based on Primary Tumor Risk Factors",
+      "nodes": [
+        {
+          "id": "d7",
+          "label": "Margins after resection",
+          "type": "decision"
+        },
+        {
+          "id": "d8",
+          "label": "Negative margins",
+          "type": "decision"
+        },
+        {
+          "id": "t9",
+          "label": "Surveillance (no other high-risk features)",
+          "type": "treatment"
+        },
+        {
+          "id": "t10",
+          "label": "Adjuvant EBRT to primary site (if high-risk features present)",
+          "type": "treatment"
+        },
+        {
+          "id": "d9",
+          "label": "Positive margins for invasive disease",
+          "type": "decision"
+        },
+        {
+          "id": "t11",
+          "label": "Re-excision (preferred)",
+          "type": "treatment"
+        },
+        {
+          "id": "t12",
+          "label": "Adjuvant EBRT to primary site (alternative)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d7",
+          "target": "d8",
+          "label": "Negative margins"
+        },
+        {
+          "source": "d7",
+          "target": "d9",
+          "label": "Positive margins for invasive disease"
+        },
+        {
+          "source": "d8",
+          "target": "t9",
+          "label": "No high-risk features"
+        },
+        {
+          "source": "d8",
+          "target": "t10",
+          "label": "High-risk features (close margins, LVSI, size, depth, pattern)"
+        },
+        {
+          "source": "d9",
+          "target": "t11",
+          "label": "If re-excision feasible"
+        },
+        {
+          "source": "d9",
+          "target": "t12",
+          "label": "If re-excision not feasible or margins remain positive"
+        }
+      ]
+    },
+    {
+      "title": "Adjuvant Therapy Based on Nodal Evaluation",
+      "nodes": [
+        {
+          "id": "d10",
+          "label": "Sentinel or inguinofemoral node status",
+          "type": "decision"
+        },
+        {
+          "id": "d11",
+          "label": "Negative nodes",
+          "type": "decision"
+        },
+        {
+          "id": "t13",
+          "label": "Surveillance (no adjuvant nodal therapy)",
+          "type": "treatment"
+        },
+        {
+          "id": "d12",
+          "label": "Single positive SLN ≤2 mm",
+          "type": "decision"
+        },
+        {
+          "id": "t14",
+          "label": "EBRT ± concurrent chemotherapy",
+          "type": "treatment"
+        },
+        {
+          "id": "d13",
+          "label": "Positive SLN >2 mm",
+          "type": "decision"
+        },
+        {
+          "id": "t15",
+          "label": "Complete inguinofemoral lymphadenectomy (preferred) followed by EBRT ± chemo",
+          "type": "treatment"
+        },
+        {
+          "id": "t16",
+          "label": "EBRT ± concurrent chemotherapy (alternative, if not suitable for surgery)",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "d10",
+          "target": "d11",
+          "label": "Lymph nodes negative"
+        },
+        {
+          "source": "d10",
+          "target": "d12",
+          "label": "Single positive SLN ≤2 mm"
+        },
+        {
+          "source": "d10",
+          "target": "d13",
+          "label": "Positive SLN >2 mm"
+        },
+        {
+          "source": "d11",
+          "target": "t13",
+          "label": "Proceed with surveillance"
+        },
+        {
+          "source": "d12",
+          "target": "t14",
+          "label": "Administer RT ± chemo"
+        },
+        {
+          "source": "d13",
+          "target": "t15",
+          "label": "If patient candidate for surgery"
+        },
+        {
+          "source": "d13",
+          "target": "t16",
+          "label": "If patient not suitable for surgery"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "vulvar",
+  "_chars_in": 5000
+}

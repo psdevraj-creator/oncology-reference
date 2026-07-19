@@ -1,0 +1,114 @@
+{
+  "sections": [
+    {
+      "heading": "Overview",
+      "content": "The management of hepatocellular carcinoma (HCC) requires a comprehensive, multimodal approach due to the complexity of treating both the malignancy and the underlying chronic liver disease/cirrhosis. The fundamental philosophy is to integrate curative-intent therapies (surgical resection, liver transplantation, and ablation) whenever feasible, while employing locoregional and systemic therapies for unresectable or metastatic disease. A multidisciplinary team (MDT) is essential for individualized treatment planning [HCC-3, HCC-4, HCC-5, HCC-6]. Treatment decisions are heavily influenced by tumor burden (extent, number, size, location, vascular invasion), liver function (Child-Pugh class, portal hypertension), patient performance status, and comorbidities [HCC-3]. The goals of care range from curative intent for early-stage disease to life-prolonging and palliative intent for advanced disease. Participation in clinical trials is encouraged for all stages [HCC-1, HCC-6]."
+    }
+  ],
+  "flowchart": {
+    "nodes": [
+      {
+        "id": "start",
+        "label": "HCC Diagnosis",
+        "type": "outcome"
+      },
+      {
+        "id": "mdt",
+        "label": "Multidisciplinary Team Evaluation",
+        "type": "treatment"
+      },
+      {
+        "id": "assessment",
+        "label": "Assess: Tumor Burden, Liver Function, Performance Status, Comorbidities",
+        "type": "decision"
+      },
+      {
+        "id": "curative",
+        "label": "Curative-Intent Therapies: Resection, Transplantation, or Ablation",
+        "type": "treatment"
+      },
+      {
+        "id": "bridging",
+        "label": "Bridging/Downstaging Locoregional Therapy for Transplant Candidates",
+        "type": "treatment"
+      },
+      {
+        "id": "loco",
+        "label": "Locoregional Therapies (TACE, TAE, Radioembolization, RT)",
+        "type": "treatment"
+      },
+      {
+        "id": "systemic",
+        "label": "Systemic Therapy and/or Palliative Care",
+        "type": "treatment"
+      },
+      {
+        "id": "trials",
+        "label": "Clinical Trials (consider at any stage)",
+        "type": "treatment"
+      }
+    ],
+    "edges": [
+      {
+        "source": "start",
+        "target": "mdt",
+        "label": "Refer to MDT"
+      },
+      {
+        "source": "mdt",
+        "target": "assessment",
+        "label": "Staging and evaluation"
+      },
+      {
+        "source": "assessment",
+        "target": "curative",
+        "label": "Resectable/transplant candidate, preserved PS, small tumors"
+      },
+      {
+        "source": "assessment",
+        "target": "loco",
+        "label": "Liver-confined, unresectable, not transplant candidate"
+      },
+      {
+        "source": "assessment",
+        "target": "systemic",
+        "label": "Extrahepatic/metastatic or ineligible for locoregional"
+      },
+      {
+        "source": "curative",
+        "target": "bridging",
+        "label": "If transplant candidate requiring bridging/downstaging"
+      },
+      {
+        "source": "loco",
+        "target": "systemic",
+        "label": "Progression on locoregional therapy"
+      },
+      {
+        "source": "start",
+        "target": "trials",
+        "label": "Clinical trials option at all stages"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "title": "Curative",
+      "detail": "Patients with potentially resectable or transplantable HCC by tumor burden, and operable by performance status or comorbidity (HCC-4). Liver resection (preferred if criteria met) and/or liver transplantation (preferred if transplant criteria met). For small, properly located tumors, ablation is considered a preferred curative-intent locoregional therapy in well-selected patients during multidisciplinary review. Bridging or downstaging locoregional therapies may be indicated for transplant candidates [HCC-4].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Life-prolonging/Locoregional control",
+      "detail": "Patients with liver-confined, unresectable HCC who are deemed ineligible for transplant (HCC-5). Locoregional therapies are the primary approach. Options include ablation (preferred), arterially directed therapies (e.g., TACE, TAE, radioembolization), and radiation therapy (RT). Systemic therapy is an option and should be considered for progression on or after locoregional therapy. Clinical trials are also an option [HCC-5].",
+      "color": "#10b981"
+    },
+    {
+      "title": "Systemic/Palliative",
+      "detail": "Patients with extrahepatic/metastatic disease, or liver-confined disease ineligible for resection, transplant, or locoregional therapy (HCC-6). Systemic therapy is a mainstay. Clinical trials, best supportive care, and RT (for symptom control or selected sites) are also key options. Locoregional therapy may be reconsidered in select cases after multidisciplinary review [HCC-6].",
+      "color": "#10b981"
+    }
+  ],
+  "_section": "management_principles",
+  "_site_id": "hcc",
+  "_chars_in": 3824
+}

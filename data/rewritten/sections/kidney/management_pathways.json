@@ -1,0 +1,239 @@
+{
+  "sections": [
+    {
+      "heading": "Pathway",
+      "content": "[{\"pathway_id\": \"localized_stage_I_T1a\", \"title\": \"Management of Stage I (T1a) Renal Cell Carcinoma\", \"branching_basis\": [\"Tumor size (≤4 cm)\", \"Patient fitness and comorbidities\", \"Tumor location and complexity\", \"Patient preference\"], \"nodes\": [{\"criteria\": \"Clinical stage T1a (tumor ≤4 cm, confined to kidney)\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Partial nephrectomy (preferred)\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A. Recommended for patients with solitary kidney, bilateral tumors, chronic kidney disease, or a normal contralateral kidney. [KID-1]\"}, {\"type\": \"Ablation\", \"label\": \"Percutaneous ablation\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A for T1a. Suitable for patients who are not surgical candidates or prefer a less invasive approach. [KID-1]\"}, {\"type\": \"Radiation\", \"label\": \"Stereotactic body radiation therapy (SBRT)\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A. For non-optimal surgical candidates. Requires referral to high-volume center. [KID-1, KID-B]\"}, {\"type\": \"Active Surveillance\", \"label\": \"Active surveillance\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A. For patients with small renal masses, competing risks of death, or significant comorbidities. Entails serial imaging with timely intervention if growth is noted. [KID-1]\"}, {\"type\": \"Surgery\", \"label\": \"Radical nephrectomy\", \"preference\": \"Other recommended\", \"recommendation\": \"Category 2A. In select patients if partial nephrectomy is not technically feasible. [KID-1]\"}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Adjuvant therapy is not indicated for stage I disease.\"}}]}, {\"pathway_id\": \"localized_stage_I_T1b\", \"title\": \"Management of Stage I (T1b) Renal Cell Carcinoma\", \"branching_basis\": [\"Tumor size (4-7 cm)\", \"Patient fitness and comorbidities\", \"Tumor location and complexity\", \"Patient preference\"], \"nodes\": [{\"criteria\": \"Clinical stage T1b (tumor >4 cm but ≤7 cm, confined to kidney)\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Partial nephrectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A. Recommended if technically feasible and provides oncologic outcomes comparable to radical nephrectomy. [KID-1]\"}, {\"type\": \"Surgery\", \"label\": \"Radical nephrectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A. An alternative if partial nephrectomy is not feasible. [KID-1]\"}, {\"type\": \"Active Surveillance\", \"label\": \"Active surveillance\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A. In select patients with competing risks. [KID-1]\"}, {\"type\": \"Ablation\", \"label\": \"Percutaneous ablation\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2B. In select patients not eligible for surgery. [KID-1]\"}, {\"type\": \"Radiation\", \"label\": \"SBRT\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A. For non-optimal surgical candidates. [KID-1, KID-B]\"}], \"adjuvant_logic\": {\"applies\": false, \"summary\": \"Adjuvant therapy is not indicated for stage I disease.\"}}]}, {\"pathway_id\": \"localized_stage_II\", \"title\": \"Management of Stage II Renal Cell Carcinoma\", \"branching_basis\": [\"Histology (clear cell vs. non-clear cell)\", \"Grade (Grade 4 ± sarcomatoid features)\", \"Patient fitness for surgery\"], \"nodes\": [{\"criteria\": \"Stage II (T2, N0, M0), clear cell histology\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Partial nephrectomy or radical nephrectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A. Radical nephrectomy is standard; partial nephrectomy may be considered if technically feasible. [KID-2]\"}, {\"type\": \"Radiation\", \"label\": \"SBRT\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2B. For non-optimal surgical candidates. [KID-2, KID-B]\"}, {\"type\": \"Adjuvant Therapy\", \"label\": \"Adjuvant pembrolizumab\", \"preference\": \"Preferred (for Grade 4 tumors)\", \"recommendation\": \"Category 1. For Grade 4 tumors with clear cell histology ± sarcomatoid features. [KID-2]\"}, {\"type\": \"Adjuvant Therapy\", \"label\": \"Adjuvant belzutifan + pembrolizumab\", \"preference\": \"Preferred (for Grade 4 tumors)\", \"recommendation\": \"Category 2A. For Grade 4 tumors with clear cell histology ± sarcomatoid features. [KID-2]\"}, {\"type\": \"Surveillance\", \"label\": \"Surveillance\", \"preference\": \"Useful in certain circumstances\", \"recommendation\": \"Category 2A. An option if adjuvant therapy is not indicated or chosen. [KID-2]\"}], \"adjuvant_logic\": {\"applies\": true, \"summary\": \"Adjuvant therapy (pembrolizumab or belzutifan + pembrolizumab) is recommended for Grade 4 tumors with clear cell histology ± sarcomatoid features.\"}}, {\"criteria\": \"Stage II, non-clear cell histology\", \"options\": [{\"type\": \"Surgery\", \"label\": \"Partial nephrectomy or radical nephrectomy\", \"preference\": \"Preferred\", \"recommendation\": \"Category 2A. [KID-2]\"}, {\"type\": \"Radiation\", \"label\": \"SBRT\", \"preference\": \"Useful in certain circc[... truncated for brevity]"
+    }
+  ],
+  "flowcharts": [
+    {
+      "title": "Management of Stage I (T1a) Renal Cell Carcinoma",
+      "nodes": [
+        {
+          "id": "t1a_decision",
+          "label": "Clinical stage T1a (tumor ≤4 cm, confined to kidney)",
+          "type": "decision"
+        },
+        {
+          "id": "t1a_pn",
+          "label": "Partial nephrectomy (preferred)",
+          "type": "treatment"
+        },
+        {
+          "id": "t1a_ablation",
+          "label": "Percutaneous ablation",
+          "type": "treatment"
+        },
+        {
+          "id": "t1a_sbrt",
+          "label": "Stereotactic body radiation therapy (SBRT)",
+          "type": "treatment"
+        },
+        {
+          "id": "t1a_as",
+          "label": "Active surveillance",
+          "type": "treatment"
+        },
+        {
+          "id": "t1a_rn",
+          "label": "Radical nephrectomy",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "t1a_decision",
+          "target": "t1a_pn",
+          "label": "Preferred. Category 2A. Recommended for patients with solitary kidney, bilateral tumors, chronic kidney disease, or a normal contralateral kidney. [KID-1]"
+        },
+        {
+          "source": "t1a_decision",
+          "target": "t1a_ablation",
+          "label": "Useful in certain circumstances. Category 2A for T1a. Suitable for patients who are not surgical candidates or prefer a less invasive approach. [KID-1]"
+        },
+        {
+          "source": "t1a_decision",
+          "target": "t1a_sbrt",
+          "label": "Useful in certain circumstances. Category 2A. For non-optimal surgical candidates. Requires referral to high-volume center. [KID-1, KID-B]"
+        },
+        {
+          "source": "t1a_decision",
+          "target": "t1a_as",
+          "label": "Useful in certain circumstances. Category 2A. For patients with small renal masses, competing risks of death, or significant comorbidities. Entails serial imaging with timely intervention if growth is noted. [KID-1]"
+        },
+        {
+          "source": "t1a_decision",
+          "target": "t1a_rn",
+          "label": "Other recommended. Category 2A. In select patients if partial nephrectomy is not technically feasible. [KID-1]"
+        }
+      ]
+    },
+    {
+      "title": "Management of Stage I (T1b) Renal Cell Carcinoma",
+      "nodes": [
+        {
+          "id": "t1b_decision",
+          "label": "Clinical stage T1b (tumor >4 cm but ≤7 cm, confined to kidney)",
+          "type": "decision"
+        },
+        {
+          "id": "t1b_pn",
+          "label": "Partial nephrectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "t1b_rn",
+          "label": "Radical nephrectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "t1b_as",
+          "label": "Active surveillance",
+          "type": "treatment"
+        },
+        {
+          "id": "t1b_ablation",
+          "label": "Percutaneous ablation",
+          "type": "treatment"
+        },
+        {
+          "id": "t1b_sbrt",
+          "label": "SBRT",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "t1b_decision",
+          "target": "t1b_pn",
+          "label": "Preferred. Category 2A. Recommended if technically feasible and provides oncologic outcomes comparable to radical nephrectomy. [KID-1]"
+        },
+        {
+          "source": "t1b_decision",
+          "target": "t1b_rn",
+          "label": "Preferred. Category 2A. An alternative if partial nephrectomy is not feasible. [KID-1]"
+        },
+        {
+          "source": "t1b_decision",
+          "target": "t1b_as",
+          "label": "Useful in certain circumstances. Category 2A. In select patients with competing risks. [KID-1]"
+        },
+        {
+          "source": "t1b_decision",
+          "target": "t1b_ablation",
+          "label": "Useful in certain circumstances. Category 2B. In select patients not eligible for surgery. [KID-1]"
+        },
+        {
+          "source": "t1b_decision",
+          "target": "t1b_sbrt",
+          "label": "Useful in certain circumstances. Category 2A. For non-optimal surgical candidates. [KID-1, KID-B]"
+        }
+      ]
+    },
+    {
+      "title": "Management of Stage II Renal Cell Carcinoma",
+      "nodes": [
+        {
+          "id": "st2_root",
+          "label": "Stage II (T2, N0, M0)",
+          "type": "decision"
+        },
+        {
+          "id": "st2_clear",
+          "label": "Clear cell histology",
+          "type": "decision"
+        },
+        {
+          "id": "st2_nonclear",
+          "label": "Non-clear cell histology",
+          "type": "decision"
+        },
+        {
+          "id": "st2_clear_surg",
+          "label": "Partial nephrectomy or radical nephrectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_clear_sbrt",
+          "label": "SBRT",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_clear_adjpembro",
+          "label": "Adjuvant pembrolizumab",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_clear_adjbelz",
+          "label": "Adjuvant belzutifan + pembrolizumab",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_clear_surv",
+          "label": "Surveillance",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_nonclear_surg",
+          "label": "Partial nephrectomy or radical nephrectomy",
+          "type": "treatment"
+        },
+        {
+          "id": "st2_nonclear_sbrt",
+          "label": "SBRT",
+          "type": "treatment"
+        }
+      ],
+      "edges": [
+        {
+          "source": "st2_root",
+          "target": "st2_clear",
+          "label": "Clear cell histology"
+        },
+        {
+          "source": "st2_root",
+          "target": "st2_nonclear",
+          "label": "Non-clear cell histology"
+        },
+        {
+          "source": "st2_clear",
+          "target": "st2_clear_surg",
+          "label": "Preferred. Category 2A. Radical nephrectomy is standard; partial nephrectomy may be considered if technically feasible. [KID-2]"
+        },
+        {
+          "source": "st2_clear",
+          "target": "st2_clear_sbrt",
+          "label": "Useful in certain circumstances. Category 2B. For non-optimal surgical candidates. [KID-2, KID-B]"
+        },
+        {
+          "source": "st2_clear",
+          "target": "st2_clear_adjpembro",
+          "label": "Preferred (for Grade 4 tumors). Category 1. For Grade 4 tumors with clear cell histology ± sarcomatoid features. [KID-2]"
+        },
+        {
+          "source": "st2_clear",
+          "target": "st2_clear_adjbelz",
+          "label": "Preferred (for Grade 4 tumors). Category 2A. For Grade 4 tumors with clear cell histology ± sarcomatoid features. [KID-2]"
+        },
+        {
+          "source": "st2_clear",
+          "target": "st2_clear_surv",
+          "label": "Useful in certain circumstances. Category 2A. An option if adjuvant therapy is not indicated or chosen. [KID-2]"
+        },
+        {
+          "source": "st2_nonclear",
+          "target": "st2_nonclear_surg",
+          "label": "Preferred. Category 2A. [KID-2]"
+        },
+        {
+          "source": "st2_nonclear",
+          "target": "st2_nonclear_sbrt",
+          "label": "Useful in certain circumstances. [KID-2]"
+        }
+      ]
+    }
+  ],
+  "_section": "management_pathways",
+  "_site_id": "kidney",
+  "_chars_in": 5000
+}
