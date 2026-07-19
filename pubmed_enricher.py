@@ -1,29 +1,26 @@
 #!/usr/bin/env python3
 """
-PubMed Trial Enricher v2 — Smart Multi-Strategy Search
+PubMed Trial Enricher v3 — Simple direct search.
+Sends full trial name to PubMed. No parsing, no scoring — PubMed's own
+relevance engine handles disambiguation.
 
-Instead of sending raw trial names to PubMed, this extracts:
-  • Trial acronyms (CHECKMATE-025, KEYNOTE-522)
-  • Drug names (pembrolizumab, cisplatin) via suffix detection
-  • Author names (Baratti et al. 2013)
-  • NCT / protocol numbers
-Then constructs optimal PubMed E-utilities queries with fallback strategies.
+Query strategy:
+  1. "{trial_name}"[Title] AND (trial[Title/Abstract] OR cancer[Title/Abstract])
+     → contextualized phrase search — filters out geographic/animal matches
+  2. "{trial_name}"[All Fields]
+     → fallback: full phrase anywhere
 
 Usage:
-    python pubmed_enricher.py                          # Use NCBI_API_KEY from env
-    python pubmed_enricher.py --api-key YOUR_KEY       # Provide key directly
-    python pubmed_enricher.py --force                  # Re-query all trials
-    python pubmed_enricher.py --dry-run                # Preview queries
-    python pubmed_enricher.py --max 50                 # Limit for testing
+    python pubmed_enricher.py                          # use NCBI_API_KEY from env
+    python pubmed_enricher.py --force                  # re-query all trials
+    python pubmed_enricher.py --max 10                 # limit for testing
 
 Called automatically by: sync_and_deploy.py --pubmed
 """
 
-import hashlib
 import json
 import os
 import re
-import sys
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -36,62 +33,14 @@ DATA_DIR = SCRIPT_DIR / "data"
 MERGED_DIR = DATA_DIR / "merged"
 INTERMEDIATE_DIR = DATA_DIR / "intermediate"
 PUBMED_DIR = DATA_DIR / "pubmed"
-OVERIDES_FILE = PUBMED_DIR / "nct_overrides.json"
+NCT_OVERRIDES_FILE = PUBMED_DIR / "nct_overrides.json"
 CACHE_MAX_AGE_DAYS = 30
 
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 REQUEST_DELAY = 0.20
 
-NCCN_REF_PATTERN = re.compile(r"^\d{6,}")
-ET_AL_PATTERN = re.compile(r"\((.+?)\s+et\s+al\.?\s+\d{4}\)")
 
-DRUG_SUFFIXES = re.compile(
-    r"\b(\w+(?:mab|nib|mide|mus|stat|parib|sertib|ciclib|dent|cept|ximab|zumab|tinib|lisib|rafenib|zomib|cycline|platin|tecan|inib|mib|parib|aciclib))\b",
-    re.IGNORECASE,
-)
-KNOWN_DRUGS = re.compile(
-    r"\b(Pembrolizumab|Nivolumab|Atezolizumab|Avelumab|Durvalumab|Ipilimumab|"
-    r"Bevacizumab|Cetuximab|Panitumumab|Trastuzumab|Pertuzumab|Rituximab|"
-    r"Cisplatin|Carboplatin|Oxaliplatin|Gemcitabine|Paclitaxel|Docetaxel|"
-    r"Doxorubicin|Epirubicin|Irinotecan|Capecitabine|Fluorouracil|Methotrexate|"
-    r"Cyclophosphamide|Ifosfamide|Etoposide|Topotecan|Vinorelbine|Vinblastine|"
-    r"Vincristine|Dacarbazine|Temozolomide|Lomustine|Procarbazine|"
-    r"Imatinib|Dasatinib|Nilotinib|Erlotinib|Gefitinib|Afatinib|Osimertinib|"
-    r"Sunitinib|Sorafenib|Pazopanib|Cabozantinib|Axitinib|Lenvatinib|Regorafenib|"
-    r"Vemurafenib|Dabrafenib|Trametinib|Cobimetinib|Binimetinib|"
-    r"Encorafenib|Larotrectinib|Entrectinib|Crizotinib|Alectinib|Ceritinib|"
-    r"Brigatinib|Lorlatinib|Palbociclib|Ribociclib|Abemaciclib|"
-    r"Olaparib|Niraparib|Rucaparib|Talazoparib|Veliparib|"
-    r"Pomalidomide|Lenalidomide|Thalidomide|Bortezomib|Carfilzomib|Ixazomib|"
-    r"Daratumumab|Elotuzumab|Isatuximab|Belantamab|Selinexor|Venetoclax|"
-    r"Abiraterone|Enzalutamide|Apalutamide|Darolutamide|Radium|Lutetium|"
-    r"Tisotumab|Sacituzumab|Trastuzumab|Enfortumab|Cemiplimab|Dostarlimab|"
-    r"Relatlimab|Toripalimab|Tislelizumab|Camrelizumab|Sintilimab|"
-    r"Copanlisib|Idelalisib|Duvelisib|Tazemetostat|"
-    r"Bispecific|CAR[- ]T|BCMA|CD19|CD20|CD30|CD33|CD38|CDK4\/6|"
-    r"BRAF|MEK|EGFR|ALK|ROS1|RET|NTRK|HER2|PD-1|PD-L1|CTLA-4|PARP|mTOR|PI3K|FGFR|"
-    r"VEGF|HDAC|BTK|FLT3|IDH|JAK|KRAS|BRCA|MSI|dMMR|TMB)\b",
-    re.IGNORECASE,
-)
-
-CANCER_TERMS = re.compile(
-    r"\b(Cancer|Carcinoma|Sarcoma|Lymphoma|Leukemia|Myeloma|Melanoma|"
-    r"Mesothelioma|Glioma|Blastoma|Neoplasm|Tumor|Malignancy|"
-    r"Breast|Lung|Colon|Rectal|Gastric|Pancreatic|Ovarian|Cervical|"
-    r"Endometrial|Uterine|Prostate|Bladder|Renal|Hepatocellular|HCC|"
-    r"Cholangiocarcinoma|Thyroid|Head and Neck|Oesophageal|Esophageal|"
-    r"Glioblastoma|Neuroblastoma|Thymic|Thymoma|Mesothelioma|Testicular|"
-    r"Penile|Vulvar|Vaginal|Anal|Kaposi|Merkel|Neuroendocrine|GIST|"
-    r"Advanced|Metastatic|Recurrent|Refractory|Unresectable|Inoperable)\b",
-    re.IGNORECASE,
-)
-
-AUTHOR_YEAR = re.compile(r"^([A-Z][a-z]+(?:\s+(?:et|&)\s+al\.?)?)[\s,;]*[\(\[\.]?\s*(\d{4})", re.IGNORECASE)
-NCT_PATTERN = re.compile(r"NCT\d{8}", re.IGNORECASE)
-BASED_ON_PATTERN = re.compile(r"^based\s+(on|upon)\s", re.IGNORECASE)
-DESCRIPTIVE_PREFIX = re.compile(r"^(a|an)\s+(phase|randomi[sz]ed|open[-\s]label|multi[-\s]cohort)", re.IGNORECASE)
-COMBINED_TRIAL = re.compile(r"^([A-Z][A-Z0-9\-_\. ]{2,25})(?:\s*;\s*|\s+(?:and|&)\s+)(.+)", re.IGNORECASE)
-
+# ── Helpers ────────────────────────────────────────────────────
 
 def get_api_key() -> Optional[str]:
     key = os.environ.get("NCBI_API_KEY", "")
@@ -107,136 +56,54 @@ def get_api_key() -> Optional[str]:
     return None
 
 
-def normalize_trial_name(name: str) -> str:
+def normalize_name(name: str) -> str:
     name = name.strip()
-    if NCCN_REF_PATTERN.match(name):
-        m = ET_AL_PATTERN.search(name)
-        if m:
-            return m.group(1).strip()
-        return ""
+    # Strip trailing noise
     name = re.sub(r"\s*trial\s*$", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*study\s*$", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*(?:phase\s*[IV1-3]+)\s*$", "", name, flags=re.IGNORECASE)
     return name.strip()
 
 
-def normalize_filename(name: str) -> str:
+def safe_filename(name: str) -> str:
     safe = re.sub(r"[^a-z0-9_]", "_", name.lower().strip())
-    safe = re.sub(r"_+", "_", safe)
-    safe = safe.strip("_")
-    if len(safe) > 100:
-        safe = safe[:100]
-    return safe or hashlib.md5(name.encode()).hexdigest()[:12]
+    safe = re.sub(r"_+", "_", safe).strip("_")[:80]
+    return safe or f"trial_{abs(hash(name)) % 1000000:06d}"
 
 
-def extract_key_terms(name: str) -> dict:
-    result = {
-        "acronyms": [],
-        "drugs": [],
-        "cancers": [],
-        "authors": [],
-        "year": "",
-        "nct_ids": [],
-        "is_based_on": False,
-        "is_descriptive": False,
-    }
-
-    result["is_based_on"] = bool(BASED_ON_PATTERN.match(name))
-    result["is_descriptive"] = bool(DESCRIPTIVE_PREFIX.match(name))
-
-    for m in NCT_PATTERN.finditer(name):
-        result["nct_ids"].append(m.group(0))
-
-    for m in KNOWN_DRUGS.finditer(name):
-        result["drugs"].append(m.group(0))
-    if not result["drugs"]:
-        for m in DRUG_SUFFIXES.finditer(name):
-            result["drugs"].append(m.group(0))
-
-    for m in CANCER_TERMS.finditer(name):
-        result["cancers"].append(m.group(0))
-
-    m = AUTHOR_YEAR.match(name)
-    if m:
-        result["authors"].append(m.group(1).strip())
-        result["year"] = m.group(2)
-
-    m = COMBINED_TRIAL.match(name)
-    if m:
-        result["acronyms"].append(m.group(1).strip())
-        m2 = COMBINED_TRIAL.match(m.group(2).strip())
-        if m2:
-            result["acronyms"].append(m2.group(1).strip())
-    else:
-        short = re.match(r"^([A-Z][A-Z0-9\-_\. ]{2,30})$", name)
-        if short:
-            result["acronyms"].append(name.strip())
-
-    return result
+def load_nct_overrides() -> dict:
+    if not NCT_OVERRIDES_FILE.exists():
+        return {}
+    try:
+        return json.loads(NCT_OVERRIDES_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
-def build_queries(name: str) -> list[str]:
-    terms = extract_key_terms(name)
+def score_word_overlap(text_a: str, text_b: str) -> float:
+    """Simple word overlap score between two strings. Returns 0-1."""
+    wa = set(text_a.lower().split())
+    wb = set(text_b.lower().split())
+    if not wa or not wb:
+        return 0
+    return len(wa & wb) / min(len(wa), len(wb))
 
-    if terms["is_based_on"] or (not terms["acronyms"] and not terms["drugs"] and not terms["authors"] and not terms["nct_ids"] and len(name) < 5):
-        return []
 
-    queries = []
-
-    for nct in terms["nct_ids"]:
-        queries.append(f'{nct}[Secondary Source ID]')
-        queries.append(f'{nct}[All Fields]')
-
-    for acronym in terms["acronyms"]:
-        clean = acronym.strip().strip('."\';:')
-        queries.append(f'"{clean}"[Title]')
-        queries.append(f'{clean}[Title] AND (cancer OR carcinoma OR tumor OR neoplasm)[Title/Abstract]')
-
-    if terms["authors"] and terms["year"]:
-        author = terms["authors"][0]
-        queries.append(f'{author}[Author] AND {terms["year"]}[Date - Publication]')
-        queries.append(f'{author}[Author] AND ({terms["year"]}[Date - Publication] OR {terms["year"]}[Date - Create])')
-
-    drugs = list(dict.fromkeys(terms["drugs"]))[:3]
-    cancers = list(dict.fromkeys(terms["cancers"]))[:2]
-
-    if drugs:
-        drug_q = " OR ".join(f'"{d}"[Title/Abstract]' for d in drugs)
-        base = f'({drug_q})'
-        if cancers:
-            cancer_q = " OR ".join(f'"{c}"[Title/Abstract]' for c in cancers)
-            base += f' AND ({cancer_q})'
-        queries.append(f'{base} AND (trial[Title/Abstract] OR study[Title/Abstract] OR phase[Title])')
-        queries.append(f'{base} AND clinical trial[Publication Type]')
-
-    if terms["is_descriptive"] and not terms["acronyms"]:
-        short = name[:200]
-        queries.append(f'"{short}"[Title]')
-
-    if not queries:
-        if len(name) <= 60:
-            queries.append(f'"{name}"[Title/Abstract] AND (trial OR study)[Title/Abstract]')
-        elif len(name) <= 100:
-            short = " ".join(name.split()[:5])
-            queries.append(f'"{short}"[Title/Abstract] AND clinical trial[Publication Type]')
-
-    return queries
-
+# ── Trial collection ───────────────────────────────────────────
 
 def collect_trial_names() -> set[str]:
     trials: set[str] = set()
 
     for jf in sorted(MERGED_DIR.glob("*.json")):
         try:
-            with open(jf, encoding="utf-8") as f:
-                data = json.load(f)
-        except (json.JSONDecodeError, OSError):
+            data = json.loads(jf.read_text(encoding="utf-8"))
+        except Exception:
             continue
         for r in data.get("regimens", []):
             td = r.get("trial_data")
             if isinstance(td, dict) and td.get("trial_name"):
-                name = normalize_trial_name(td["trial_name"])
-                if name:
+                name = normalize_name(td["trial_name"])
+                if name and len(name) > 2:
                     trials.add(name)
 
     for site_dir in sorted(INTERMEDIATE_DIR.iterdir()):
@@ -244,29 +111,26 @@ def collect_trial_names() -> set[str]:
             continue
         for jf in sorted(site_dir.glob("*.json")):
             try:
-                with open(jf, encoding="utf-8") as f:
-                    data = json.load(f)
-            except (json.JSONDecodeError, OSError):
+                data = json.loads(jf.read_text(encoding="utf-8"))
+            except Exception:
                 continue
             for t in data.get("tier_2_handbook", {}).get("key_trials", []):
                 if not isinstance(t, dict):
                     continue
-                acronym = (t.get("acronym") or "").strip()
-                if acronym:
-                    name = normalize_trial_name(acronym)
-                    if name:
-                        trials.add(name)
-                full = (t.get("full_name") or "").strip()
-                if full and full != acronym:
-                    name = normalize_trial_name(full)
-                    if name:
-                        trials.add(name)
+                for k in ("acronym", "full_name"):
+                    val = (t.get(k) or "").strip()
+                    if val:
+                        name = normalize_name(val)
+                        if name and len(name) > 2:
+                            trials.add(name)
 
     return trials
 
 
-def pubmed_search_multi(query: str, api_key: Optional[str] = None) -> list[str]:
-    """Search PubMed, return up to 5 PMIDs for relevance scoring."""
+# ── PubMed API ─────────────────────────────────────────────────
+
+def pubmed_search(query: str, api_key: Optional[str] = None) -> Optional[str]:
+    """Search PubMed, return the best (first) PMID. PubMed ranks by relevance."""
     url = f"{EUTILS_BASE}/esearch.fcgi"
     params = {"db": "pubmed", "term": query, "retmax": "5", "retmode": "json"}
     if api_key:
@@ -280,61 +144,25 @@ def pubmed_search_multi(query: str, api_key: Optional[str] = None) -> list[str]:
         return []
 
 
-def relevance_score(pubmed_data: dict, trial_name: str, terms: dict) -> int:
-    """Score a PubMed result for relevance to the trial (0-100).
-    
-    >60: Excellent match — highly likely correct
-    40-60: Good match — probably correct
-    20-40: Weak match — suspect
-    <20: Probable mismatch — reject
-    """
-    title = (pubmed_data.get("title") or "").lower()
-    abstract = (pubmed_data.get("abstract") or "").lower()
-    combined = title + " " + abstract
-    score = 0
-
-    acronyms = terms.get("acronyms", [])
-    drugs = terms.get("drugs", [])
-    cancers = terms.get("cancers", [])
-
-    # Acronym in title (highest weight)
-    for acro in acronyms:
-        acro_lower = acro.lower().strip()
-        if acro_lower in title:
-            score += 45
-        elif acro_lower in abstract:
-            score += 20
-
-    # Drug names in title/abstract
-    drug_count = sum(1 for d in drugs if d.lower() in combined)
-    if drug_count > 0:
-        score += min(drug_count * 12, 30)
-
-    # Cancer type match
-    cancer_count = sum(1 for c in cancers if c.lower() in combined)
-    score += min(cancer_count * 8, 20)
-
-    # Penalize clearly non-oncology content
-    non_oncology = ["fish", "ocean", "sunfish", "mola", "forensic", "trauma",
-                    "accident", "earthquake", "volcano", "botanical", "zoology"]
-    for word in non_oncology:
-        if word in combined:
-            score -= 30  # Heavy penalty for clearly unrelated content
-
-    # Bonus: clinical trial in publication type or title
-    if "trial" in title or "clinical trial" in pubmed_data.get("journal", "").lower():
-        score += 5
-
-    # NCT ID match in abstract
-    nct_ids = terms.get("nct_ids", [])
-    for nct in nct_ids:
-        if nct.lower() in abstract:
-            score += 20
-
-    return max(0, min(score, 100))
+def pick_best_pmid(pmids: list[str], api_key: Optional[str] = None) -> Optional[str]:
+    """Pick the best PMID, skipping corrigenda/errata/secondary analyses."""
+    if not pmids:
+        return None
+    skip_words = ("corrigendum", "erratum", "patient-reported outcomes", "quality of life",
+                  "correction to", "correction:")
+    for pmid in pmids:
+        data = pubmed_fetch(pmid, api_key, fetch_abstract=False)
+        if not data:
+            continue
+        title_lower = data.get("title", "").lower()
+        if any(w in title_lower for w in skip_words):
+            continue
+        return pmid
+    # All were corrigenda — return the first one anyway
+    return pmids[0]
 
 
-def pubmed_fetch(pmid: str, api_key: Optional[str] = None) -> Optional[dict]:
+def pubmed_fetch(pmid: str, api_key: Optional[str] = None, fetch_abstract: bool = True) -> Optional[dict]:
     url = f"{EUTILS_BASE}/efetch.fcgi"
     params = {"db": "pubmed", "id": pmid, "rettype": "xml", "retmode": "xml"}
     if api_key:
@@ -343,67 +171,76 @@ def pubmed_fetch(pmid: str, api_key: Optional[str] = None) -> Optional[dict]:
         resp = requests.get(url, params=params, timeout=15)
         resp.raise_for_status()
         text = resp.text
-
-        abstract = ""
-        title = ""
-        journal = ""
-        year = ""
-        authors: list[str] = []
-        doi = ""
-
-        m_title = re.search(r"<ArticleTitle>(.+?)</ArticleTitle>", text, re.DOTALL)
-        if m_title:
-            title = re.sub(r"<[^>]+>", "", m_title.group(1)).strip()
-
-        m_abs = re.search(r"<AbstractText[^>]*>(.+?)</AbstractText>", text, re.DOTALL)
-        if not m_abs:
-            m_abs = re.search(r"<Abstract>(.+?)</Abstract>", text, re.DOTALL)
-        if m_abs:
-            abstract = re.sub(r"<[^>]+>", " ", m_abs.group(1)).strip()
-            abstract = re.sub(r"\s+", " ", abstract)
-
-        m_journal = re.search(r"<ISOAbbreviation>(.+?)</ISOAbbreviation>", text)
-        if not m_journal:
-            m_journal = re.search(r"<Title>(.+?)</Title>", text[: text.find("<Abstract") if "<Abstract" in text else 2000], re.DOTALL)
-        if m_journal:
-            journal = re.sub(r"<[^>]+>", "", m_journal.group(1)).strip()
-
-        m_year = re.search(r"<PubDate>.*?<Year>(\d{4})</Year>", text, re.DOTALL)
-        if m_year:
-            year = m_year.group(1)
-
-        for m in re.finditer(r"<Author[^>]*>.*?<LastName>(.+?)</LastName>.*?<Initials>(.+?)</Initials>", text, re.DOTALL):
-            authors.append(f"{m.group(1)} {m.group(2)}")
-
-        m_doi = re.search(r'<ArticleId IdType="doi">(.+?)</ArticleId>', text)
-        if m_doi:
-            doi = m_doi.group(1)
-
-        return {
-            "pmid": pmid,
-            "title": title,
-            "abstract": abstract,
-            "journal": journal,
-            "year": year,
-            "authors": authors[:5],
-            "doi": doi,
-            "query_date": datetime.now().isoformat(),
-        }
     except Exception:
         return None
 
+    # Title (always needed)
+    m_title = re.search(r"<ArticleTitle>(.+?)</ArticleTitle>", text, re.DOTALL)
+    title = ""
+    if m_title:
+        title = re.sub(r"<[^>]+>", "", m_title.group(1)).strip()
 
-def is_already_cached(trial_name: str) -> bool:
-    fn = normalize_filename(trial_name)
-    cache_path = PUBMED_DIR / f"{fn}.json"
-    if not cache_path.exists():
+    result = {"title": title}
+
+    if not fetch_abstract:
+        return result
+
+    # Full fetch
+    abstract = ""
+    m_abs = re.search(r"<AbstractText[^>]*>(.+?)</AbstractText>", text, re.DOTALL)
+    if not m_abs:
+        m_abs = re.search(r"<Abstract>(.+?)</Abstract>", text, re.DOTALL)
+    if m_abs:
+        abstract = re.sub(r"<[^>]+>", " ", m_abs.group(1)).strip()
+        abstract = re.sub(r"\s+", " ", abstract)
+
+    journal = ""
+    year = ""
+    authors: list[str] = []
+    doi = ""
+
+    m_journal = re.search(r"<ISOAbbreviation>(.+?)</ISOAbbreviation>", text)
+    if not m_journal:
+        m_journal = re.search(r"<Title>(.+?)</Title>",
+            text[:text.find("<Abstract") if "<Abstract" in text else 2000], re.DOTALL)
+    if m_journal:
+        journal = re.sub(r"<[^>]+>", "", m_journal.group(1)).strip()
+
+    m_year = re.search(r"<PubDate>.*?<Year>(\d{4})</Year>", text, re.DOTALL)
+    if m_year:
+        year = m_year.group(1)
+
+    for m in re.finditer(r"<Author[^>]*>.*?<LastName>(.+?)</LastName>.*?<Initials>(.+?)</Initials>",
+                        text, re.DOTALL):
+        authors.append(f"{m.group(1)} {m.group(2)}")
+
+    m_doi = re.search(r'<ArticleId IdType="doi">(.+?)</ArticleId>', text)
+    if m_doi:
+        doi = m_doi.group(1)
+
+    result.update({
+        "pmid": pmid,
+        "abstract": abstract,
+        "journal": journal,
+        "year": year,
+        "authors": authors[:5],
+        "doi": doi,
+        "query_date": datetime.now().isoformat(),
+    })
+    return result
+
+
+# ── Caching ────────────────────────────────────────────────────
+
+def is_cached(trial_name: str) -> bool:
+    fp = PUBMED_DIR / f"{safe_filename(trial_name)}.json"
+    if not fp.exists():
         return False
     try:
-        with open(cache_path, encoding="utf-8") as f:
-            data = json.load(f)
-        query_date = data.get("query_date", "")
-        if query_date:
-            dt = datetime.fromisoformat(query_date)
+        data = json.loads(fp.read_text(encoding="utf-8"))
+        qd = data.get("query_date", "")
+        if qd:
+            dt = datetime.fromisoformat(qd)
             if datetime.now() - dt < timedelta(days=CACHE_MAX_AGE_DAYS):
                 return True
     except Exception:
@@ -411,14 +248,62 @@ def is_already_cached(trial_name: str) -> bool:
     return False
 
 
+def save_cache(trial_name: str, data: dict):
+    data["trial_name"] = trial_name
+    fp = PUBMED_DIR / f"{safe_filename(trial_name)}.json"
+    PUBMED_DIR.mkdir(parents=True, exist_ok=True)
+    fp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ── PMID cross-verification (NCT vs PubMed) ────────────────────
+
+def verify_pmid(trial_name: str, nct_trial: dict, pubmed_pmid: str,
+                api_key: Optional[str] = None) -> Optional[dict]:
+    """When NCT provides PMIDs (trial sponsor), trust them and prefer RESULT type.
+    Cross-check: fetch the NCT PMID. If it's valid clinical content, use it.
+    Only fall back to PubMed search if all NCT PMIDs fail."""
+    nct_pmid_list = []
+    for p in nct_trial.get("pmids", []):
+        if isinstance(p, str):
+            nct_pmid_list.append(p)
+        elif isinstance(p, dict):
+            nct_pmid_list.append(p["pmid"])
+
+    if not nct_pmid_list:
+        return pubmed_fetch(pubmed_pmid, api_key)
+
+    # Try NCT PMIDs — prefer RESULT type (actual trial paper)
+    # Fall through to DERIVED type (subgroup analyses) if RESULT not available
+    for pmid in nct_pmid_list:
+        data = pubmed_fetch(pmid, api_key)
+        if data and data.get("title"):
+            title_lower = data["title"].lower()
+            # Skip protocol/design papers if we have other options
+            if ("design and rationale" in title_lower or "study protocol" in title_lower):
+                continue
+            data["_source"] = "nct-verified"
+            return data
+
+    # If only protocol papers found, use the first one
+    for pmid in nct_pmid_list:
+        data = pubmed_fetch(pmid, api_key)
+        if data:
+            data["_source"] = "nct-verified (protocol)"
+            return data
+
+    # NCT PMIDs all failed — fall back to PubMed
+    return pubmed_fetch(pubmed_pmid, api_key)
+
+
+# ── Main ───────────────────────────────────────────────────────
+
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="Smart PubMed trial enrichment for oncology handbook")
-    parser.add_argument("--api-key", type=str, default=None, help="NCBI API key")
+    parser = argparse.ArgumentParser(description="Simple PubMed trial enricher — direct trial name search")
+    parser.add_argument("--api-key", type=str, default=None)
     parser.add_argument("--force", action="store_true", help="Re-query all trials")
-    parser.add_argument("--dry-run", action="store_true", help="Preview only")
-    parser.add_argument("--max", type=int, default=0, help="Limit trials (testing)")
+    parser.add_argument("--max", type=int, default=0, help="Limit for testing")
     args = parser.parse_args()
 
     api_key = args.api_key or get_api_key()
@@ -435,123 +320,69 @@ def main():
     all_trials = collect_trial_names()
     print(f"Unique trial names: {len(all_trials)}")
 
+    nct_overrides = load_nct_overrides()
+    print(f"NCT cross-reference: {len(nct_overrides)} trials available")
+
     to_query: list[str] = []
-    skipped = 0
     for name in sorted(all_trials):
-        terms = extract_key_terms(name)
-        queries = build_queries(name)
-        if not queries and terms["is_based_on"]:
-            skipped += 1
+        if len(name) < 3:
             continue
-        if not queries and not terms["acronyms"] and not terms["drugs"] and not terms["authors"] and not terms["nct_ids"]:
-            skipped += 1
-            continue
-        if not args.force and is_already_cached(name):
+        if not args.force and is_cached(name):
             continue
         to_query.append(name)
 
     if args.max and 0 < args.max < len(to_query):
-        to_query = to_query[: args.max]
+        to_query = to_query[:args.max]
 
-    already = len(all_trials) - len(to_query) - skipped
-    print(f"Cached: {already}, Skipped (non-trial): {skipped}, To query: {len(to_query)}")
-
-    # Load NCT-verified overrides
-    nct_overrides = {}
-    if OVERIDES_FILE.exists():
-        try:
-            with open(OVERIDES_FILE, encoding="utf-8") as f:
-                nct_overrides = json.load(f)
-        except Exception:
-            pass
-    print(f"NCT overrides: {len(nct_overrides)} trials")
-
-    if args.dry_run:
-        print("\n[Dry run] Query strategy preview:")
-        for name in to_query[:20]:
-            queries = build_queries(name)
-            print(f"\n  Trial: {name[:80]}")
-            for q in queries[:3]:
-                print(f"    -> {q[:120]}")
-        return
+    already = len(all_trials) - len(to_query)
+    print(f"Cached: {already}, To query: {len(to_query)}")
 
     if not to_query:
-        print("All trials cached or skipped. Done.")
+        print("All trials cached. Done.")
         return
 
     success = 0
     no_match = 0
     errors = 0
-    rejected = 0
     start_time = time.time()
 
     for i, name in enumerate(to_query, 1):
-        print(f"[{i}/{len(to_query)}] {name[:50]:<50} ", end="", flush=True)
+        print(f"[{i}/{len(to_query)}] {name[:55]:<55} ", end="", flush=True)
 
-        # Check NCT overrides first — verified correct PMIDs
-        override = nct_overrides.get(name)
-        if override:
-            for pmid in override["pmids"]:
-                data = pubmed_fetch(pmid, api_key)
-                if data:
-                    data["trial_name"] = name
-                    data["relevance_score"] = 100  # NCT-verified
-                    data["nct_id"] = override.get("nct_id", "")
-                    fn = normalize_filename(name)
-                    cache_path = PUBMED_DIR / f"{fn}.json"
-                    with open(cache_path, "w", encoding="utf-8") as f:
-                        json.dump(data, f, ensure_ascii=False, indent=2)
-                    print(f"NCT-OK (PMID:{pmid})")
-                    success += 1
-                    break
+        # Query: try NCT first (trial sponsor verified), fallback to PubMed search
+        clean = name.strip().replace('"', '')
+
+        nct_trial = nct_overrides.get(name)
+        if nct_trial and nct_trial.get("pmids"):
+            data = verify_pmid(name, nct_trial, "", api_key)
+            if data:
+                save_cache(name, data)
+                src = data.pop("_source", "")
+                print(f"NCT-OK (PMID:{data['pmid']})")
+                success += 1
             else:
-                print(f"NCT-FAIL (no fetchable PMID)")
+                print("NCT-FAIL")
                 errors += 1
             continue
 
-        queries = build_queries(name)
-        if not queries:
+        pmids = pubmed_search(f'"{clean}" AND (trial OR cancer OR carcinoma OR chemotherapy)', api_key)
+        if not pmids:
+            pmids = pubmed_search(f'"{clean}"', api_key)
+
+        pmid = pick_best_pmid(pmids, api_key)
+
+        if not pmid:
+            print("NO MATCH")
             no_match += 1
-            continue
-
-        terms = extract_key_terms(name)
-        best_candidate = None
-        best_score = -1
-
-        # Search with all query strategies, scoring each result
-        seen_pmids = set()
-        for q in queries[:5]:
-            pmids = pubmed_search_multi(q, api_key)
-            for pmid in pmids:
-                if pmid in seen_pmids:
-                    continue
-                seen_pmids.add(pmid)
-                data = pubmed_fetch(pmid, api_key)
-                if data:
-                    score = relevance_score(data, name, terms)
-                    if score > best_score:
-                        best_score = score
-                        data["relevance_score"] = score
-                        best_candidate = data
-            if best_score >= 60:  # Excellent match — stop searching
-                break
-            time.sleep(0.08)
-
-        if best_candidate and best_score >= 30:
-            best_candidate["trial_name"] = name
-            fn = normalize_filename(name)
-            cache_path = PUBMED_DIR / f"{fn}.json"
-            with open(cache_path, "w", encoding="utf-8") as f:
-                json.dump(best_candidate, f, ensure_ascii=False, indent=2)
-            print(f"OK (PMID:{best_candidate['pmid']}, score={best_score})")
-            success += 1
-        elif best_candidate:
-            # Found something but too low confidence — reject
-            rejected += 1
-            print(f"REJECT (best score={best_score}, PMID:{best_candidate['pmid']})")
         else:
-            print(f"NO MATCH")
-            no_match += 1
+            data = pubmed_fetch(pmid, api_key)
+            if data:
+                save_cache(name, data)
+                print(f"OK (PMID:{data['pmid']})")
+                success += 1
+            else:
+                print("FETCH ERR")
+                errors += 1
 
         if i < len(to_query):
             time.sleep(delay)
@@ -566,7 +397,6 @@ def main():
     print()
     print(f"Done in {elapsed:.0f}s")
     print(f"  Success:  {success}")
-    print(f"  Rejected (low score): {rejected}")
     print(f"  No match: {no_match}")
     print(f"  Errors:   {errors}")
     print(f"  Cache:    {len(list(PUBMED_DIR.glob('*.json')))} files")
