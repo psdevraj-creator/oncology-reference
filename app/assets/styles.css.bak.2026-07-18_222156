@@ -1,0 +1,292 @@
+:root {
+  --clinical-primary: #1a5276;
+  --clinical-secondary: #2c7ba0;
+  --clinical-accent: #e67e22;
+  --clinical-danger: #c0392b;
+  --clinical-success: #27ae60;
+  --clinical-warning: #f39c12;
+  --clinical-light: #ecf0f1;
+  --clinical-dark: #2c3e50;
+  --clinical-gray: #7f8c8d;
+  --hero-gradient: linear-gradient(135deg, #0d2b45 0%, #1a5276 40%, #1a6e5c 100%);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f5f7fa;
+  color: #212529;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-navbar {
+  border-bottom: 3px solid var(--clinical-accent);
+  background: var(--clinical-dark) !important;
+}
+
+.navbar-brand-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.3px;
+}
+
+.app-content {
+  min-height: calc(100vh - 180px);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100%;
+}
+
+.app-footer {
+  padding: 1.5rem 0;
+  background-color: #fff;
+  border-top: 1px solid #e9ecef;
+}
+
+/* ── Hero ─────────────────────────────────────── */
+.hero-section {
+  background: var(--hero-gradient);
+  margin: 0;
+  padding: 3rem 1.5rem 3.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,255,255,0.06), transparent);
+  pointer-events: none;
+}
+.hero-inner { max-width: 720px; margin: 0 auto; }
+.hero-title { color: #fff; font-size: 2.25rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: -0.5px; }
+.hero-subtitle { color: rgba(255,255,255,0.82); font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.75rem; max-width: 560px; margin-left: auto; margin-right: auto; }
+.hero-search-wrapper { position: relative; max-width: 500px; margin: 0 auto; }
+.hero-search-input { width: 100%; padding: 14px 20px 14px 48px !important; border: none !important; border-radius: 12px !important; font-size: 0.95rem !important; box-shadow: 0 4px 24px rgba(0,0,0,0.18); outline: none !important; background: #fff !important; transition: box-shadow 0.2s; }
+.hero-search-input:focus { box-shadow: 0 4px 32px rgba(0,0,0,0.28) !important; }
+.hero-search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: #95a5a6; font-size: 1.1rem; }
+
+/* ── Stats Row ────────────────────────────────── */
+.stats-row { max-width: 960px; margin: -2rem auto 0; padding: 0 1.5rem; position: relative; z-index: 2; }
+.stat-card { border: none; border-radius: 12px; background: #fff; padding: 0.25rem 0; }
+.stat-card .card-body { padding: 1.25rem 0.5rem; }
+.stat-number { font-size: 2rem; font-weight: 700; color: var(--clinical-dark); line-height: 1.1; }
+.stat-label { font-size: 0.8rem; font-weight: 500; color: var(--clinical-gray); text-transform: uppercase; letter-spacing: 0.6px; margin-top: 2px; }
+
+/* ── Section Dividers ─────────────────────────── */
+.section-divider { margin: 2.5rem auto 2rem; max-width: 960px; opacity: 0.25; }
+.section-header { max-width: 960px; margin: 0 auto 1.5rem; padding: 0 1.5rem; }
+.section-title { font-size: 1.35rem; font-weight: 700; color: var(--clinical-dark); margin-bottom: 0.25rem; }
+.section-description { font-size: 0.9rem; color: var(--clinical-gray); line-height: 1.5; margin: 0; }
+
+/* ── Disease Grid ─────────────────────────────── */
+.disease-grid { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+
+/* ── Disease Cards ────────────────────────────── */
+.disease-card {
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fff 0%, #f9fafb 100%);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+}
+.disease-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.14) !important;
+}
+.card-accent-bar { height: 6px; width: 100%; opacity: 0.85; }
+.disease-card .card-body { padding: 1.25rem !important; }
+.card-emoji { font-size: 2.4rem; margin-bottom: 0.4rem; line-height: 1; }
+.card-site-name { font-size: 1.05rem; font-weight: 700; color: var(--clinical-dark); margin-bottom: 0.3rem; line-height: 1.25; }
+.card-description { font-size: 0.8rem; color: var(--clinical-gray); line-height: 1.45; margin-bottom: 0.65rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-badges { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+.card-badge { font-size: 0.7rem; font-weight: 500; }
+
+/* ── Sidebar ──────────────────────────────────── */
+.sidebar-col { border-right: 1px solid #dee2e6; min-height: calc(100vh - 200px); background: #fff; }
+.sticky-sidebar { position: sticky; top: 1rem; max-height: calc(100vh - 120px); overflow-y: auto; }
+.sidebar-nav .sidebar-link { color: var(--clinical-dark); padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.85rem; transition: all 0.15s ease; }
+.sidebar-nav .sidebar-link:hover { background-color: #e8f4f8; text-decoration: none; }
+.sidebar-nav .sidebar-link.active { background-color: var(--clinical-primary); color: #fff; }
+
+/* ── Handbook Section Headings ────────────────── */
+.section-heading {
+  color: var(--clinical-primary);
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 6px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.2px;
+}
+.subsection-heading {
+  color: var(--clinical-secondary);
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+  font-weight: 650;
+  font-size: 1rem;
+}
+.section-text { font-size: 0.95rem; line-height: 1.65; color: #374151; }
+.section-text p { margin-bottom: 0.85rem; }
+.section-text ul, .section-text ol { margin-bottom: 0.85rem; padding-left: 1.5rem; }
+
+/* ── Key-Value Pairs ──────────────────────────── */
+.kv-pair { padding: 0.4rem 0.75rem; margin-bottom: 2px; background: #f8f9fa; border-radius: 6px; font-size: 0.9rem; }
+.kv-pair:hover { background: #e9ecef; }
+.kv-pair strong { color: var(--clinical-dark); margin-right: 0.35rem; }
+
+/* ── Styled Lists ─────────────────────────────── */
+.styled-list { padding-left: 1.5rem; font-size: 0.9rem; line-height: 1.6; }
+.styled-list li { margin-bottom: 0.35rem; }
+.styled-list li::marker { color: var(--clinical-secondary); }
+
+/* ── Alarm / Boolean ──────────────────────────── */
+.alarm-on {
+  color: #dc3545;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+}
+.alarm-on::before { content: '\26A0\FE0F '; }
+.alarm-off { display: none; }
+
+/* ── Frequency & Strength Badges ──────────────── */
+.frequency-badge { font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.3px; }
+.strength-badge { font-size: 0.7rem; font-weight: 500; }
+
+/* ── Symptom Cards ────────────────────────────── */
+.symptom-card { border: none; border-radius: 10px; background: #fff; border-left: 3px solid #dee2e6; transition: box-shadow 0.15s; }
+.symptom-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.symptom-card.symptom-alarm { border-left-color: var(--clinical-danger); background: #fff5f5; }
+.symptom-card .card-body { padding: 0.85rem 1.1rem !important; }
+.symptom-header { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.3rem; }
+.symptom-header strong { font-size: 0.92rem; color: var(--clinical-dark); }
+.symptom-detail { font-size: 0.83rem; color: var(--clinical-gray); line-height: 1.5; margin: 0; }
+
+/* ── Risk Factor Cards ────────────────────────── */
+.risk-factor-card { border: none; border-radius: 10px; background: #fff; border-left: 3px solid var(--clinical-accent); transition: box-shadow 0.15s; }
+.risk-factor-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.risk-factor-card .card-body { padding: 0.85rem 1.1rem !important; }
+.rf-header { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.3rem; }
+.rf-header strong { font-size: 0.92rem; color: var(--clinical-dark); }
+.rf-detail { font-size: 0.83rem; color: var(--clinical-gray); line-height: 1.5; margin: 0; }
+
+/* ── Epidemiology Stat Cards ──────────────────── */
+.stat-grid { margin-bottom: 1rem; }
+.mini-stat-card { border: none; border-radius: 12px; background: #fff; border-top: 3px solid var(--clinical-secondary); transition: transform 0.15s; }
+.mini-stat-card:hover { transform: translateY(-2px); }
+.mini-stat-card .card-body { padding: 1rem 0.75rem !important; }
+.stat-card-icon { font-size: 1.4rem; margin-bottom: 0.25rem; }
+.stat-card-value { font-size: 1.15rem; font-weight: 700; line-height: 1.2; }
+.stat-card-label { font-size: 0.72rem; color: var(--clinical-gray); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+
+/* ── Pearl Cards ──────────────────────────────── */
+.pearl-card { border: none; border-radius: 10px; background: #fffef5; border-left: 3px solid var(--clinical-warning); transition: box-shadow 0.15s; }
+.pearl-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.pearl-card .card-body { padding: 0.75rem 1.1rem !important; display: flex; gap: 0.6rem; align-items: flex-start; }
+.pearl-number { font-weight: 700; color: var(--clinical-warning); font-size: 0.95rem; min-width: 1.5rem; flex-shrink: 0; }
+.pearl-text { font-size: 0.88rem; color: var(--clinical-dark); line-height: 1.5; margin: 0; }
+
+/* ── Investigation Cards ──────────────────────── */
+.investigation-card { border: none; border-radius: 10px; background: #f8f9ff; border-left: 3px solid #7c3aed; transition: box-shadow 0.15s; }
+.investigation-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.investigation-card .card-body { padding: 0.8rem 1.1rem !important; }
+.inv-name { font-size: 0.9rem; color: var(--clinical-dark); }
+.inv-rationale { margin: 0.2rem 0 0; }
+.inv-findings { margin: 0.15rem 0 0; color: var(--clinical-success); }
+
+/* ── Subtype Cards ────────────────────────────── */
+.subtype-card { border: none; border-radius: 10px; background: #fff; border-left: 3px solid var(--clinical-secondary); transition: box-shadow 0.15s; }
+.subtype-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.subtype-card .card-body { padding: 0.85rem 1.1rem !important; }
+.subtype-header { margin-bottom: 0.25rem; }
+.subtype-header strong { font-size: 0.92rem; }
+.subtype-desc { font-size: 0.83rem; color: var(--clinical-gray); line-height: 1.5; margin: 0; }
+
+/* ── Timeline Cards ───────────────────────────── */
+.timeline-card { border: none; border-radius: 10px; background: #fff; border-left: 3px solid var(--clinical-gray); transition: box-shadow 0.15s; }
+.timeline-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.timeline-card .card-body { padding: 0.65rem 1rem !important; }
+.timeline-item { display: flex; align-items: flex-start; gap: 0.5rem; }
+.timeline-icon { font-size: 1rem; flex-shrink: 0; line-height: 1.4; }
+.timeline-text { font-size: 0.88rem; color: var(--clinical-dark); line-height: 1.5; }
+
+/* ── Complication Cards ───────────────────────── */
+.complication-group { margin-top: 0.75rem; margin-bottom: 0.4rem; font-size: 0.95rem; color: var(--clinical-dark); }
+.complication-card { border: none; border-radius: 10px; transition: box-shadow 0.15s; }
+.complication-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.complication-card .card-body { padding: 0.75rem 1.1rem !important; }
+.complication-card .card-body p { font-size: 0.88rem; line-height: 1.5; }
+
+/* ── Supportive Care ──────────────────────────── */
+.supportive-sub { margin-top: 0.6rem; margin-bottom: 0.3rem; font-size: 0.92rem; color: var(--clinical-secondary); }
+
+/* ── Investigation Group ──────────────────────── */
+.investigation-group { margin-top: 0.5rem; margin-bottom: 0.3rem; font-size: 0.92rem; color: #7c3aed; }
+
+/* ── Search (legacy) ──────────────────────────── */
+.search-bar .form-control { border-radius: 8px; padding: 10px 16px; font-size: 0.95rem; }
+.search-bar .input-group-text { border-radius: 8px 0 0 8px; background: #fff; }
+
+/* ── Filters ──────────────────────────────────── */
+.filter-label { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; color: var(--clinical-gray); margin-bottom: 4px; }
+.filter-bar { border-radius: 8px; }
+.filter-dropdown .Select-control { border-radius: 6px; }
+
+/* ── Staging Tables ───────────────────────────── */
+.staging-table th { background-color: #f1f3f5; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+.staging-table td:first-child { font-weight: 600; white-space: nowrap; }
+
+/* ── Callouts ─────────────────────────────────── */
+.callout-warning { border-left: 4px solid var(--clinical-warning); border-radius: 4px; }
+.callout-pearl { border-left: 4px solid var(--clinical-primary); border-radius: 4px; }
+.callout-success { border-left: 4px solid var(--clinical-success); border-radius: 4px; }
+.callout-danger { border-left: 4px solid var(--clinical-danger); border-radius: 4px; }
+
+/* ── Regimen Detail ───────────────────────────── */
+.regimen-detail-panel { border: 1px solid #dee2e6; border-radius: 12px; max-height: 650px; overflow-y: auto; }
+
+/* ── Trial Cards ──────────────────────────────── */
+.trial-card { border: none; border-radius: 10px; transition: box-shadow 0.15s; }
+.trial-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.08); }
+.trial-card-title { font-size: 1rem; font-weight: 700; color: #1a5276; }
+
+/* ── Trial Outcomes Comparison ────────────────── */
+.trial-outcomes-comparison { padding: 0.5rem 0; }
+
+/* ── Forest Plot ──────────────────────────────── */
+.forest-plot-container { background: #fff; border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+
+/* ── Breadcrumb ───────────────────────────────── */
+.breadcrumb-nav { background: transparent; padding: 0; margin-bottom: 1rem; }
+
+/* ── Tables (Dash DataTable) ──────────────────── */
+.dash-spreadsheet-container .dash-spreadsheet-inner { font-size: 0.85rem; }
+.dash-table-container .row { margin: 0; }
+
+/* ── Scrollbar ────────────────────────────────── */
+.custom-scroll::-webkit-scrollbar { width: 6px; }
+.custom-scroll::-webkit-scrollbar-track { background: #f1f1f1; }
+.custom-scroll::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 3px; }
+
+/* ── Responsive ───────────────────────────────── */
+@media (max-width: 768px) {
+  .hero-title { font-size: 1.6rem; }
+  .hero-subtitle { font-size: 0.9rem; }
+  .hero-section { padding: 2rem 1rem 2.5rem; }
+  .hero-search-input { padding: 12px 16px 12px 42px !important; font-size: 0.9rem !important; }
+  .stats-row { margin-top: -1.5rem; padding: 0 0.5rem; }
+  .stat-number { font-size: 1.5rem; }
+  .sidebar-col { display: none; }
+  .content-col { padding-left: 0 !important; }
+  .app-navbar .navbar-brand-text { font-size: 1rem; }
+  .disease-grid { padding: 0 0.5rem 2rem; }
+  .section-header { padding: 0 1rem; }
+  .mini-stat-card .card-body { padding: 0.75rem 0.5rem !important; }
+  .stat-card-value { font-size: 1rem; }
+  .card-emoji { font-size: 1.8rem; }
+  .section-heading { font-size: 1.1rem; margin-top: 1.75rem; }
+}

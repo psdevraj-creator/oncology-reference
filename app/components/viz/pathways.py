@@ -7,7 +7,14 @@ from __future__ import annotations
 
 import dash_cytoscape as cyto
 
-cyto.load_extra_layouts()
+_extra_layouts_loaded = False
+
+
+def _ensure_extra_layouts():
+    global _extra_layouts_loaded
+    if not _extra_layouts_loaded:
+        cyto.load_extra_layouts()
+        _extra_layouts_loaded = True
 
 
 _VIVID_STYLESHEET = [
@@ -131,6 +138,7 @@ def _build_cyto(elements: list[dict], layout_name: str = "breadthfirst",
 
 
 def molecular_network(data: dict) -> cyto.Cytoscape | None:
+    _ensure_extra_layouts()
     """Cytoscape network for molecular pathways and gene interactions.
 
     Expected data format:
@@ -162,6 +170,7 @@ def molecular_network(data: dict) -> cyto.Cytoscape | None:
 
 
 def pathway_flowchart(data: dict) -> cyto.Cytoscape | None:
+    _ensure_extra_layouts()
     """Cytoscape flowchart for treatment decision trees.
 
     Expected data format:
@@ -193,6 +202,7 @@ def pathway_flowchart(data: dict) -> cyto.Cytoscape | None:
 
 
 def management_flowchart(data: dict) -> cyto.Cytoscape | None:
+    _ensure_extra_layouts()
     """Management algorithm flowchart from structured pathway data."""
     nodes = data.get("nodes", [])
     edges = data.get("edges", [])

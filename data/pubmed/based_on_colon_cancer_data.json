@@ -1,0 +1,17 @@
+{
+  "title": "Machine learning-guided dose-time optimization and experimental validation enhance coumarin therapeutics in oncology.",
+  "pmid": "42471409",
+  "abstract": "Coumarins are a group of naturally occurring compounds that have garnered significant interest for their potential anticancer properties, characterized by targeted effects and low toxicity. Despite this promise, the therapeutic application of certain coumarins is limited by insufficient data and inconsistencies in experimental results. To tackle these challenges, this study aims to explore the use of regression-based machine learning (ML) models to infer dose-exposure time windows corresponding to approximately 50% cell viability for natural coumarins esculetin, umbelliprenin, auraptene and galbanic acid across multiple human cancer cell lines. Extensive in vitro data from 64 peer-reviewed studies were extracted based on inclusion criteria, focusing on dose, time, and cell viability for four coumarins. Eight highly utilized ML regression algorithms, including Gradient Boosting Regressor (GBR), Histogram-based Gradient Boosting Regressor (HGBR), Random Forest Regressor (RFR), Extreme Gradient Boosting Regressor (XGBR), Support Vector Regressor (SVR), and regularized linear models Lasso, Ridge, and Elastic Net were employed to analyze the dataset and elucidate dose-response relationships. To validate ML predictions, in vitro experiments on a human colon carcinoma cell line, specifically not included in the original dataset, were conducted. Auraptene and galbanic acid were extracted from Ferula szowitsiana using thin layer chromatography, and LoVo cells were treated for 24, 48, and 72&#xa0;h and evaluated for viability and apoptosis. The data analysis demonstrated that esculetin, umbelliprenin, and auraptene consistently exhibited robust dose-response dynamics, with notable time-dependent enhancements in their anticancer activity. Galbanic acid, however, showed cytotoxicity primarily at higher concentrations and with prolonged exposure. Interestingly, the predictions made by the gradient boosting ensemble models regarding the effects of auraptene and galbanic acid were validated through in vitro experiments on LoVo cells. Predictions from the remaining non-ensemble models, although in some cases consistent with the experimental outcomes, were not considered reliable for validation due to their comparatively low R 2 scores. This research establishes grounds and proof of principle for understanding the efficacy of coumarins utilizing ML, highlighting their potential in contemporary oncology. Experimental analysis showing that the ensemble model predictions align with in vitro results provides initial support for the potential of ML to help reduce experimental complexity, though further validation across additional cell lines and coumarins is warranted.",
+  "journal": "Sci Rep",
+  "year": "2026",
+  "authors": [
+    "Nasiri JA",
+    "Moazzen MS",
+    "Seyedshazileh S",
+    "Pourhasani A",
+    "Iranshahi M"
+  ],
+  "doi": "10.1038/s41598-026-62953-x",
+  "query_date": "2026-07-19T16:40:04.862768",
+  "trial_name": "Based on colon cancer data"
+}

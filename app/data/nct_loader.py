@@ -25,6 +25,20 @@ class NCTLoader:
             return
         if not NCT_DIR.exists():
             return
+
+        # Try pre-built index first
+        prebuilt_index = PROJECT_ROOT / "data" / "prebuilt" / "nct_index.json"
+        if prebuilt_index.exists():
+            try:
+                index_data = json.loads(prebuilt_index.read_text(encoding="utf-8"))
+                self._index = index_data.get("index", {})
+                self._by_nct = index_data.get("by_nct", {})
+                if self._index or self._by_nct:
+                    self._loaded = True
+                    return
+            except Exception:
+                pass
+
         for f in NCT_DIR.glob("*.json"):
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))

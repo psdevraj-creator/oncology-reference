@@ -3,8 +3,6 @@ from typing import Any, Optional
 
 import dash_bootstrap_components as dbc
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
 from dash import dcc, html
 
 from app.data.loader import get_pubmed_data as _get_pubmed
@@ -151,6 +149,7 @@ def _trial_short_label(trial: dict) -> str:
 
 
 def render_forest_plot(trials: list[dict[str, Any]], height: int = 500) -> html.Div:
+    import plotly.graph_objects as go
     plot_data: list[dict] = []
     for t in trials:
         enriched = _enrich_trial(t)
@@ -222,6 +221,7 @@ def render_forest_plot(trials: list[dict[str, Any]], height: int = 500) -> html.
 
 
 def render_survival_bars(trials: list[dict[str, Any]], height: int = 400) -> html.Div:
+    import plotly.express as px
     rows = []
     for t in trials:
         enriched = _enrich_trial(t)
@@ -256,6 +256,7 @@ def render_survival_bars(trials: list[dict[str, Any]], height: int = 400) -> htm
 
 
 def render_phase_donut(trials: list[dict[str, Any]], height: int = 320) -> html.Div:
+    import plotly.graph_objects as go
     counts: dict[str, int] = {}
     for t in trials:
         phase = str(t.get("phase", "")).strip().upper()
@@ -300,6 +301,7 @@ def render_phase_donut(trials: list[dict[str, Any]], height: int = 320) -> html.
 
 
 def render_trial_timeline(trials: list[dict[str, Any]], height: int = 350) -> html.Div:
+    import plotly.express as px
     rows = []
     for t in trials:
         year = t.get("year", "")
@@ -343,6 +345,7 @@ def render_trial_timeline(trials: list[dict[str, Any]], height: int = 350) -> ht
 
 
 def render_orr_waterfall(trials: list[dict[str, Any]], height: int = 400) -> html.Div:
+    import plotly.graph_objects as go
     rows = []
     for t in trials:
         enriched = _enrich_trial(t)

@@ -34,16 +34,20 @@ _sites: list[dict[str, Any]] = []
 _sites_by_id: dict[str, dict[str, Any]] = {}
 _handbooks: dict[str, dict[str, Any]] = {}
 _regimens_df: pd.DataFrame = pd.DataFrame()
-_all_regimens: list[dict[str, Any]] = []
 _references: dict[str, dict[str, Any]] = {}
 _pubmed_cache: dict[str, dict[str, Any]] = {}
 
 _loaded = False
-_handbooks_loaded = False
+_pubmed_loaded = False
+
+_cached_settings: dict[str | None, list[str]] = {}
+_cached_modalities: dict[str | None, list[str]] = {}
+_cached_biomarkers: dict[str | None, list[str]] = {}
 
 
 def load_all() -> None:
-    global _sites, _sites_by_id, _regimens_df, _all_regimens, _references, _loaded
+    global _sites, _sites_by_id, _regimens_df, _references, _loaded, \
+        _cached_settings, _cached_modalities, _cached_biomarkers
 
     if _loaded:
         return
@@ -54,6 +58,24 @@ def load_all() -> None:
     _sites = [s for s in registry.get("sites", []) if s.get("status") == "active"]
     _sites_by_id = {s["id"]: s for s in _sites}
     logger.info("Loaded %d active sites", len(_sites))
+
+    # Try pre-built feather first
+    prebuilt_dir = DATA_DIR / "prebuilt"
+    feather_path = prebuilt_dir / "regimens.feather"
+    if feather_path.exists():
+        try:
+            _regimens_df = pd.read_feather(feather_path)
+            # Convert numpy array columns back to lists for compatibility
+            for col in ["drugs", "biomarkers", "treatment_modality"]:
+                if col in _regimens_df.columns:
+                    _regimens_df[col] = _regimens_df[col].apply(
+                        lambda x: x.tolist() if hasattr(x, 'tolist') else (x if isinstance(x, list) else [])
+                    )
+            _loaded = True
+            logger.info("Loaded %d regimens from pre-built feather", len(_regimens_df))
+            return
+        except Exception as exc:
+            logger.warning("Failed to read pre-built feather: %s", exc)
 
     all_regimens: list[dict[str, Any]] = []
     for site in _sites:
@@ -75,31 +97,50 @@ def load_all() -> None:
 
             _references[site_id] = merged.get("references", {})
 
-    _all_regimens = all_regimens
     _regimens_df = pd.DataFrame(all_regimens) if all_regimens else pd.DataFrame()
     _loaded = True
-    _load_pubmed_cache()
-    logger.info("Loaded %d regimens, %d pubmed entries", len(all_regimens), len(_pubmed_cache))
+
+    # Pre-flatten columns for table display
+    if not _regimens_df.empty:
+        _regimens_df = _pre_flatten_regimens(_regimens_df)
+
+    # Pre-compute filter dropdown values
+    if not _regimens_df.empty:
+        _cached_settings[None] = sorted(_regimens_df["setting"].dropna().unique().tolist())
+        _cached_modalities[None] = sorted(
+            m for m in _regimens_df["treatment_modality"].explode().dropna().unique() if m
+        )
+        all_markers: set[str] = set()
+        for bios in _regimens_df["biomarkers"].dropna():
+            if isinstance(bios, list):
+                for b in bios:
+                    if isinstance(b, dict):
+                        all_markers.add(b.get("marker", ""))
+        _cached_biomarkers[None] = sorted(m for m in all_markers if m)
+
+    logger.info("Loaded %d regimens", len(all_regimens))
 
 
-def _load_handbooks() -> None:
-    global _handbooks, _handbooks_loaded
-    if _handbooks_loaded:
-        return
-    _ensure_loaded()
-
-    for site in _sites:
-        site_id = site["id"]
-        inter_dir = INTERMEDIATE_DATA_DIR / site_id
-        if inter_dir.exists():
-            json_files = sorted(inter_dir.glob("*.json"))
-            if json_files:
-                try:
-                    inter = _json_load(json_files[0])
-                    _handbooks[site_id] = inter.get("tier_2_handbook", {})
-                except Exception as exc:
-                    logger.warning("Skipping intermediate JSON for %s: %s", site_id, exc)
-    _handbooks_loaded = True
+def _pre_flatten_regimens(df: pd.DataFrame) -> pd.DataFrame:
+    """Pre-flatten Drugs, Biomarkers, Modality columns at load time."""
+    out = df.copy()
+    if "drugs" in out.columns:
+        out["Drugs"] = out["drugs"].apply(
+            lambda drugs: " + ".join(d.get("name", "?") for d in drugs if isinstance(d, dict))
+            if isinstance(drugs, list) else ""
+        )
+    if "biomarkers" in out.columns:
+        out["Biomarkers"] = out["biomarkers"].apply(
+            lambda bios: "; ".join(
+                f"{b.get('marker', '')}" + (f": {b.get('requirement', '')}" if b.get("requirement") else "")
+                for b in bios if isinstance(b, dict)
+            ) if isinstance(bios, list) else ""
+        )
+    if "treatment_modality" in out.columns:
+        out["Modality"] = out["treatment_modality"].apply(
+            lambda x: ", ".join(str(m) for m in x) if isinstance(x, list) else ""
+        )
+    return out
 
 
 def _load_single_handbook(site_id: str) -> dict[str, Any]:
@@ -117,10 +158,25 @@ def _load_single_handbook(site_id: str) -> dict[str, Any]:
 
 
 def _load_pubmed_cache() -> None:
-    global _pubmed_cache
+    global _pubmed_cache, _pubmed_loaded
+    if _pubmed_loaded:
+        return
     pubmed_dir = DATA_DIR / "pubmed"
     if not pubmed_dir.exists():
+        _pubmed_loaded = True
         return
+
+    # Try pre-built index first
+    prebuilt_index = DATA_DIR / "prebuilt" / "pubmed_index.json"
+    if prebuilt_index.exists():
+        try:
+            _pubmed_cache = _json_load(prebuilt_index)
+            _pubmed_loaded = True
+            logger.info("Loaded %d pubmed entries from pre-built index", len(_pubmed_cache))
+            return
+        except Exception:
+            pass
+
     for pf in pubmed_dir.glob("*.json"):
         try:
             data = _json_load(pf)
@@ -128,6 +184,7 @@ def _load_pubmed_cache() -> None:
             _pubmed_cache[_normalize_key(name)] = data
         except Exception:
             pass
+    _pubmed_loaded = True
 
 
 def _normalize_key(name: str) -> str:
@@ -173,7 +230,9 @@ def get_regimens_for_site(site_id: str) -> pd.DataFrame:
 
 def get_all_regimens() -> list[dict[str, Any]]:
     _ensure_loaded()
-    return _all_regimens
+    if _regimens_df.empty:
+        return []
+    return _regimens_df.to_dict("records")
 
 
 def get_references(site_id: str) -> dict[str, Any]:
@@ -188,53 +247,76 @@ def site_exists(site_id: str) -> bool:
 
 def get_all_settings(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
-    if site_id:
-        df = get_regimens_for_site(site_id)
+    sid: str | None = site_id
+    if sid is not None and sid in _cached_settings:
+        return _cached_settings[sid]
+    if sid is None and None in _cached_settings:
+        return _cached_settings[None]
+    if sid:
+        df = get_regimens_for_site(sid)
         if df.empty:
             return []
-        vals = df["setting"].dropna().unique().tolist()
-    else:
-        if _regimens_df.empty:
-            return []
-        vals = _regimens_df["setting"].dropna().unique().tolist()
-    return sorted(vals)
+        vals = sorted(df["setting"].dropna().unique().tolist())
+        _cached_settings[sid] = vals
+        return vals
+    if _regimens_df.empty:
+        return []
+    vals = sorted(_regimens_df["setting"].dropna().unique().tolist())
+    _cached_settings[None] = vals
+    return vals
 
 
 def get_all_modalities(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
-    modalities: set[str] = set()
-    source = _all_regimens
-    if site_id:
-        source = [r for r in _all_regimens if r.get("_site_id") == site_id]
-    for row in source:
-        mods = row.get("treatment_modality")
-        if not mods or not isinstance(mods, list):
-            continue
-        for m in mods:
-            modalities.add(m)
-    return sorted(modalities)
+    sid: str | None = site_id
+    if sid is not None and sid in _cached_modalities:
+        return _cached_modalities[sid]
+    if sid is None and None in _cached_modalities:
+        return _cached_modalities[None]
+    if sid:
+        df = get_regimens_for_site(sid)
+        if df.empty:
+            return []
+        vals = sorted(m for m in df["treatment_modality"].explode().dropna().unique() if m)
+        _cached_modalities[sid] = vals
+        return vals
+    if _regimens_df.empty:
+        return []
+    vals = sorted(m for m in _regimens_df["treatment_modality"].explode().dropna().unique() if m)
+    _cached_modalities[None] = vals
+    return vals
 
 
 def get_all_biomarkers(site_id: Optional[str] = None) -> list[str]:
     _ensure_loaded()
+    sid: str | None = site_id
+    if sid is not None and sid in _cached_biomarkers:
+        return _cached_biomarkers[sid]
+    if sid is None and None in _cached_biomarkers:
+        return _cached_biomarkers[None]
     markers: set[str] = set()
-    source = _all_regimens
-    if site_id:
-        source = [r for r in _all_regimens if r.get("_site_id") == site_id]
-    for r in source:
-        biomarkers = r.get("biomarkers")
-        if not biomarkers or not isinstance(biomarkers, list):
-            continue
-        for b in biomarkers:
-            if isinstance(b, dict):
-                markers.add(b.get("marker", ""))
-    return sorted(m for m in markers if m)
+    source_df = get_regimens_for_site(sid) if sid else _regimens_df
+    if source_df.empty:
+        return []
+    for bios in source_df["biomarkers"].dropna():
+        if isinstance(bios, list):
+            for b in bios:
+                if isinstance(b, dict):
+                    markers.add(b.get("marker", ""))
+    vals = sorted(m for m in markers if m)
+    cache_key: str | None = sid if sid else None
+    _cached_biomarkers[cache_key] = vals
+    return vals
 
 
 def get_pubmed_data(trial_name: str) -> Optional[dict[str, Any]]:
     _ensure_loaded()
     if not trial_name:
         return None
+
+    # Lazy-load pubmed cache on first lookup
+    if not _pubmed_loaded:
+        _load_pubmed_cache()
 
     name = trial_name.strip()
 
@@ -271,4 +353,6 @@ def get_pubmed_data(trial_name: str) -> Optional[dict[str, Any]]:
 
 def get_all_pubmed() -> dict[str, dict[str, Any]]:
     _ensure_loaded()
+    if not _pubmed_loaded:
+        _load_pubmed_cache()
     return _pubmed_cache

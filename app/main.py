@@ -2,8 +2,6 @@ from app import create_app
 from app.callbacks import register_callbacks
 from app.data import loader
 
-loader.load_all()
-
 app = create_app()
 
 from app.layout import create_layout

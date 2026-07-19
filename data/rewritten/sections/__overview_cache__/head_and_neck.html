@@ -1,0 +1,706 @@
+<style>
+  .ov-section {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    border: 1px solid #e9edf2;
+  }
+  .ov-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1e3a5f;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1e3a5f;
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+  .ov-subheading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e3a5f;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  .ov-prose {
+    color: #1f2a3a;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+  }
+  .ov-note {
+    color: #7a8a9e;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  .ov-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 16px;
+    font-size: 0.9rem;
+  }
+  .ov-table th {
+    background: #eef2f7;
+    color: #1e3a5f;
+    font-weight: 600;
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 2px solid #1e3a5f;
+  }
+  .ov-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e3e8ee;
+    color: #1f2a3a;
+  }
+  .ov-table tr:hover td {
+    background: #f7f9fc;
+  }
+  .ov-bar-chart .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .ov-bar-chart .bar-label {
+    width: 180px;
+    font-size: 0.85rem;
+    color: #1f2a3a;
+    flex-shrink: 0;
+  }
+  .ov-bar-chart .bar-track {
+    flex: 1;
+    background: #eef2f7;
+    border-radius: 4px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ov-bar-chart .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: #1e3a5f;
+    transition: width 0.3s;
+  }
+  .ov-bar-chart .bar-value {
+    margin-left: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1e3a5f;
+    min-width: 50px;
+  }
+  .ov-bar-chart .bar-fill.blue { background: #1e3a5f; }
+  .ov-bar-chart .bar-fill.teal { background: #2d8f8f; }
+  .ov-bar-chart .bar-fill.green { background: #3a9b5e; }
+  .ov-bar-chart .bar-fill.orange { background: #d97a2b; }
+  .ov-bar-chart .bar-fill.purple { background: #7b5ea7; }
+  .ov-bar-chart .bar-fill.red { background: #b33d3d; }
+  .ov-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin: 12px 0;
+  }
+  .ov-card {
+    background: #f8faff;
+    border: 1px solid #dde4ed;
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  }
+  .ov-card-title {
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .ov-card-detail {
+    color: #2a3a4e;
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+  .ov-card .ov-card-badge {
+    display: inline-block;
+    background: #eef2f7;
+    color: #1e3a5f;
+    font-size: 0.75rem;
+    padding: 2px 10px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+  }
+  .ov-alert {
+    background: #fef6e6;
+    border-left: 4px solid #d97a2b;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .ov-alert .alert-title {
+    font-weight: 600;
+    color: #b85e1a;
+    font-size: 0.88rem;
+  }
+  .ov-alert .alert-detail {
+    color: #2a3a4e;
+    font-size: 0.88rem;
+    margin-top: 2px;
+  }
+  .ov-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 12px 0;
+  }
+  .ov-stat-card {
+    background: #f8faff;
+    border: 1px solid #dde4ed;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: center;
+  }
+  .ov-stat-card .stat-label {
+    font-size: 0.8rem;
+    color: #5a6a7e;
+    margin-bottom: 4px;
+  }
+  .ov-stat-card .stat-value {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1e3a5f;
+  }
+  .ov-stat-card .stat-unit {
+    font-size: 0.85rem;
+    color: #5a6a7e;
+    margin-left: 2px;
+  }
+  .ov-details {
+    margin: 8px 0 12px;
+    background: #f8faff;
+    border: 1px solid #dde4ed;
+    border-radius: 6px;
+    padding: 8px 12px;
+  }
+  .ov-details summary {
+    font-weight: 600;
+    color: #1e3a5f;
+    cursor: pointer;
+    padding: 4px 0;
+  }
+  .ov-details .flow-step {
+    padding: 4px 0 4px 20px;
+    color: #1f2a3a;
+    font-size: 0.9rem;
+    border-left: 2px solid #dde4ed;
+    margin-left: 8px;
+  }
+  .ov-details .flow-step .step-label {
+    font-weight: 500;
+  }
+  .ov-details .flow-step .step-type {
+    font-size: 0.75rem;
+    color: #5a6a7e;
+    background: #eef2f7;
+    padding: 1px 8px;
+    border-radius: 10px;
+    margin-left: 6px;
+  }
+  .ov-timeline-table th {
+    background: #eef2f7;
+    color: #1e3a5f;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-bottom: 2px solid #1e3a5f;
+    text-align: left;
+  }
+  .ov-timeline-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e3e8ee;
+    color: #1f2a3a;
+    font-size: 0.9rem;
+    vertical-align: top;
+  }
+  .ov-timeline-table .icon-col {
+    width: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .ov-two-col-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 16px;
+    font-size: 0.9rem;
+  }
+  .ov-two-col-table th {
+    background: #eef2f7;
+    color: #1e3a5f;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-bottom: 2px solid #1e3a5f;
+    text-align: left;
+  }
+  .ov-two-col-table td {
+    padding: 6px 12px;
+    border-bottom: 1px solid #e3e8ee;
+    color: #1f2a3a;
+  }
+  .ov-staging-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 16px;
+    font-size: 0.9rem;
+  }
+  .ov-staging-table th {
+    background: #1e3a5f;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  .ov-staging-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #dde4ed;
+    color: #1f2a3a;
+  }
+  .ov-staging-table tr:nth-child(even) td {
+    background: #f7f9fc;
+  }
+  .ov-property-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .ov-property-item {
+    background: #f8faff;
+    border: 1px solid #dde4ed;
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .ov-property-item .prop-label {
+    font-size: 0.8rem;
+    color: #5a6a7e;
+    margin-bottom: 2px;
+  }
+  .ov-property-item .prop-value {
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 1rem;
+  }
+  .ov-property-item .prop-unit {
+    color: #5a6a7e;
+    font-size: 0.85rem;
+    margin-left: 2px;
+  }
+  .ov-late-effects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+    margin: 12px 0;
+  }
+  .ov-late-card {
+    background: #f8faff;
+    border: 1px solid #dde4ed;
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+  .ov-late-card .late-name {
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+  .ov-late-card .late-detail {
+    color: #2a3a4e;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .ov-treatment-category {
+    background: #f0f4fa;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+  }
+  .ov-treatment-category .cat-title {
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+  }
+  .ov-treatment-category .cat-item {
+    color: #1f2a3a;
+    font-size: 0.88rem;
+    padding: 2px 0;
+    border-bottom: 1px dashed #e3e8ee;
+  }
+  .ov-treatment-category .cat-item:last-child {
+    border-bottom: none;
+  }
+  .ov-waterfall .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .ov-waterfall .bar-label {
+    width: 140px;
+    font-size: 0.85rem;
+    color: #1f2a3a;
+    flex-shrink: 0;
+  }
+  .ov-waterfall .bar-track {
+    flex: 1;
+    background: #eef2f7;
+    border-radius: 4px;
+    height: 22px;
+    overflow: hidden;
+  }
+  .ov-waterfall .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+  }
+  .ov-waterfall .bar-value {
+    margin-left: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1e3a5f;
+    min-width: 50px;
+  }
+  .ov-waterfall .bar-fill.infectious { background: #2d8f8f; }
+  .ov-waterfall .bar-fill.behavioral { background: #d97a2b; }
+  .ov-waterfall .bar-fill.genetic { background: #7b5ea7; }
+  .ov-waterfall .bar-fill.occupational { background: #3a9b5e; }
+  .ov-waterfall .bar-fill.demographic { background: #1e3a5f; }
+  .ov-waterfall .bar-fill.medical { background: #b33d3d; }
+  .ov-waterfall .bar-fill.behavioral-environmental { background: #5a8a8a; }
+  .ov-branching-basis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .ov-branching-basis .basis-tag {
+    background: #eef2f7;
+    color: #1e3a5f;
+    font-size: 0.8rem;
+    padding: 2px 12px;
+    border-radius: 12px;
+    border: 1px solid #dde4ed;
+  }
+  @media (max-width: 600px) {
+    .ov-section { padding: 14px 16px; }
+    .ov-bar-chart .bar-row { flex-wrap: wrap; }
+    .ov-bar-chart .bar-label { width: 100%; margin-bottom: 2px; }
+    .ov-cards { grid-template-columns: 1fr; }
+    .ov-stat-grid { grid-template-columns: repeat(2, 1fr); }
+    .ov-property-list { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+
+<!-- Clinical Features -->
+<section id="ov-clinical_features" class="ov-section">
+  <h2 class="ov-heading">Clinical Features</h2>
+  <div class="ov-prose">Head and neck cancers encompass diverse subsites with distinct presentations. Oral cavity cancers (buccal mucosa, floor of mouth, oral tongue, alveolar ridge, retromolar trigone, hard palate) typically present as a non-healing ulcer or mass, with pain, dysphagia, or odynophagia [OR-1]. Oropharyngeal cancers (base of tongue, tonsil, soft palate, posterior pharyngeal wall) often present with a neck mass, especially in HPV-positive disease, along with sore throat, dysphagia, or otalgia [ORPH-1]. HPV-positive oropharyngeal cancer is increasing in incidence, especially in men, and patients tend to be younger with less tobacco exposure [Discussion MS-3]. HPV-negative oropharyngeal cancer is linked to tobacco and alcohol, presenting with larger primaries and worse prognosis. Laryngeal cancers: glottic tumors cause early hoarseness, while supraglottic tumors present with dysphagia, otalgia, or neck mass; subglottic tumors are rare and present with stridor or dyspnea [GLOT-1, SUPRA-1]. Hypopharyngeal cancers (pyriform sinus, postcricoid, posterior pharyngeal wall) often present late with dysphagia, odynophagia, referred otalgia, and neck mass; prognosis is poor [HYPO-1]. Nasopharyngeal carcinoma (NPC) is endemic in Southeast Asia and associated with EBV; classic presentation includes cervical lymphadenopathy, epistaxis, nasal obstruction, conductive hearing loss, and cranial neuropathies [NASO-1]. Sinonasal tumors (ethmoid and maxillary sinus) present with unilateral nasal obstruction, epistaxis, facial pain, or proptosis; histologies include squamous cell carcinoma, adenocarcinoma, esthesioneuroblastoma, and undifferentiated carcinoma [ETHM-1, MAXI-1]. Salivary gland tumors (parotid, submandibular, minor) typically present as a painless, slow-growing mass; malignancy is suspected with facial nerve palsy, rapid growth, or fixation [SALI-1]. Occult primary presents as a cervical lymph node metastasis without an identifiable primary after thorough workup [OCC-1]. Mucosal melanoma of the head and neck presents as a pigmented or non-pigmented lesion in the nasal cavity, sinuses, or oral cavity, often with epistaxis or mass [MM-1].</div>
+  
+  <div class="ov-subheading">Symptoms</div>
+  <table class="ov-table">
+    <thead>
+      <tr><th>Symptom</th><th>Detail</th><th>Frequency</th><th>Alarm</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Neck mass</td><td>Painless or painful cervical lymphadenopathy, often firm or fixed, may be cystic in HPV-positive oropharyngeal cancer.</td><td>Very common in oropharyngeal, hypopharyngeal, and nasopharyngeal cancers; may be first sign in occult primary.</td><td>✓</td></tr>
+      <tr><td>Hoarseness</td><td>Change in voice quality lasting >3 weeks; common in glottic laryngeal cancer.</td><td>Present in >90% of glottic cancers, often early stage.</td><td>✓</td></tr>
+      <tr><td>Dysphagia/Odynophagia</td><td>Pain or difficulty swallowing, often with referred otalgia.</td><td>Common in oropharyngeal, hypopharyngeal, and supraglottic laryngeal cancers.</td><td>✓</td></tr>
+      <tr><td>Oral ulcer or mass</td><td>Non-healing ulcer, erythroplakia, or leukoplakia in the oral cavity.</td><td>Common in oral cavity cancers.</td><td>✓</td></tr>
+      <tr><td>Epistaxis and nasal obstruction</td><td>Unilateral epistaxis, nasal congestion, or discharge.</td><td>Common in sinonasal and nasopharyngeal cancers.</td><td>✓</td></tr>
+      <tr><td>Otalgia</td><td>Referred ear pain, often unilateral, without otoscopic findings.</td><td>Common in oropharyngeal, hypopharyngeal, and laryngeal cancers.</td><td>✓</td></tr>
+      <tr><td>Cranial neuropathy</td><td>Facial numbness, diplopia, or other cranial nerve deficits.</td><td>More common in nasopharyngeal and sinonasal cancers due to skull base invasion.</td><td>✓</td></tr>
+      <tr><td>Visible or palpable primary lesion</td><td>Ulcerated, exophytic, or infiltrative mass in oral cavity, oropharynx, or larynx on examination.</td><td>Present in most oral cavity and laryngeal cancers; oropharyngeal tumors may be occult.</td><td> </td></tr>
+      <tr><td>Cervical lymphadenopathy</td><td>Enlarged, firm, or matted lymph nodes in the neck; may be cystic in HPV-positive disease.</td><td>Present in 30–60% of patients at diagnosis depending on subsite.</td><td>✓</td></tr>
+      <tr><td>Vocal cord immobility</td><td>Impaired or fixed vocal cord on laryngoscopy, indicating paraglottic space invasion.</td><td>Common in T3–T4 laryngeal cancers.</td><td>✓</td></tr>
+    </tbody>
+  </table>
+  
+  <div class="ov-subheading">Red Flags</div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Persistent neck mass >2 weeks requires urgent investigation, especially if >3 cm, fixed, or matted.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Persistent hoarseness >3 weeks warrants laryngeal examination.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Progressive dysphagia or odynophagia, especially with weight loss.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Lesion >2 weeks without healing, especially in high-risk patients (tobacco/alcohol).</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Unilateral symptoms, especially with associated cranial neuropathy or proptosis.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Persistent unilateral otalgia, especially with dysphagia or neck mass.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Any cranial nerve deficit, particularly V1–V3 or VI, warrants urgent imaging.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Multiple, bilateral, or fixed nodes suggest advanced disease.</div></div>
+  <div class="ov-alert"><span class="alert-title">Red Flag</span><div class="alert-detail">Indicates advanced laryngeal cancer.</div></div>
+  
+  <div class="ov-subheading">Symptom Frequency</div>
+  <div class="bar-chart">
+    <div class="bar-row"><span class="bar-label">Neck mass</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Hoarseness</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Dysphagia/Odynophagia</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Oral ulcer or mass</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Epistaxis and nasal obstruction</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Otalgia</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Cranial neuropathy</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Visible or palpable primary lesion</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Cervical lymphadenopathy</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+    <div class="bar-row"><span class="bar-label">Vocal cord immobility</span><div class="bar-track"><div class="bar-fill blue" style="width:0%"></div></div><span class="bar-value">0%</span></div>
+  </div>
+</section>
+
+<!-- Risk Factors -->
+<section id="ov-risk_factors" class="ov-section">
+  <h2 class="ov-heading">Risk Factors</h2>
+  <div class="ov-prose">Tobacco use (cigarettes, cigars, pipes, smokeless tobacco) - Strongly associated with oral cavity, oropharynx (HPV-negative), hypopharynx, larynx, and nasopharynx cancers. Risk increases with duration and intensity (pack-years). Smoking decreases efficacy of radiotherapy and adversely affects survival [Discussion MS-5, MS-21]. Strength: Established causal relationship; RR 5-25 for current smokers vs. never-smokers. Alcohol consumption - Synergistic with tobacco; particularly for oral cavity, oropharynx, hypopharynx, and larynx cancers. Heavy drinking (≥3 drinks/day) significantly increases risk [Discussion MS-5]. Strength: Established causal; RR 2-5 for heavy drinkers vs. nondrinkers, synergistic with tobacco. Human papillomavirus (HPV) infection, especially HPV16 - Primary cause of oropharyngeal squamous cell carcinoma (tonsil and base of tongue). HPV16 accounts for ~90% of HPV-positive cases. Oral HPV infection increases risk of oropharyngeal cancer [Discussion MS-3]. Strength: Causal; attributable fraction ~90% in US oropharyngeal cancers; OR ~15-50 for HPV16 seropositivity. Epstein-Barr virus (EBV) infection - Key etiologic factor for nasopharyngeal carcinoma, particularly in endemic regions. EBV DNA detectable in tumor tissue and plasma; high viral load associated with worse prognosis [Discussion MS-41]. Strength: Causal; EBV positivity in >95% of nonkeratinizing nasopharyngeal carcinoma. Occupational exposures (wood dust, leather, nickel, formaldehyde) - Specifically for sinonasal cancers. Wood dust exposure is strongly linked to adenocarcinoma of the ethmoid sinus. Nickel refining, leather dust, and formaldehyde are also associated [Discussion MS-52]. Strength: Established; wood dust RR ~5-50 for ethmoid adenocarcinoma. Genetic predisposition - Family history of head and neck cancer increases risk. Patients with Fanconi anemia, dyskeratosis congenita, and Li-Fraumeni syndrome have elevated risk. Genome-wide association studies have identified risk loci at 4q21, 4q25, 12q24, and other regions [OR-1]. Strength: Moderate to high in specific syndromes; modest for common variants. Male sex - Incidence rates 2-4 times higher in men across most subsites. For oropharyngeal cancer, the male-to-female ratio is 4-5:1 for HPV-positive cases [Discussion MS-3]. Strength: Established; male sex is an independent risk factor. Immunosuppression (HIV/AIDS, organ transplantation) - Increased risk of HPV-related head and neck cancers. HIV-positive individuals have higher rates of oral and oropharyngeal cancers [Discussion MS-4]. Strength: Well-established; RR 2-6 in HIV/AIDS. Betel quid and areca nut chewing - Common in South and Southeast Asia; associated with oral cavity and oropharyngeal cancers. Synergistic with tobacco and alcohol [Discussion MS-5]. Strength: Causal; RR 5-20 for betel quid chewers. Poor oral hygiene and chronic irritation - Chronic dental trauma, poor dental status, and chronic oral infections may contribute to oral cavity cancer risk [Discussion MS-31]. Strength: Weak to moderate; evidence limited.</div>
+  
+  <div class="ov-subheading">Attributable Fraction (Waterfall)</div>
+  <div class="bar-chart">
+    <div class="bar-row"><span class="bar-label">HPV16</span><div class="bar-track"><div class="bar-fill infectious" style="width:90%"></div></div><span class="bar-value">90%</span></div>
+  </div>
+  
+  <div class="ov-subheading">Detailed Risk Factors</div>
+  <div class="ov-cards">
+    <div class="ov-card"><div class="ov-card-title">Tobacco use (cigarettes, cigars, pipes, smokeless tobacco)</div><div class="ov-card-badge">Behavioral · High</div><div class="ov-card-detail">Strongly associated with oral cavity, oropharynx (HPV-negative), hypopharynx, larynx, and nasopharynx cancers. Risk increases with duration and intensity (pack-years). Smoking decreases efficacy of radiotherapy and adversely affects survival [Discussion MS-5, MS-21].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Alcohol consumption</div><div class="ov-card-badge">Behavioral · High</div><div class="ov-card-detail">Synergistic with tobacco; particularly for oral cavity, oropharynx, hypopharynx, and larynx cancers. Heavy drinking (≥3 drinks/day) significantly increases risk [Discussion MS-5].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Human papillomavirus (HPV) infection, especially HPV16</div><div class="ov-card-badge">Infectious · High</div><div class="ov-card-detail">Primary cause of oropharyngeal squamous cell carcinoma (tonsil and base of tongue). HPV16 accounts for ~90% of HPV-positive cases. Oral HPV infection increases risk of oropharyngeal cancer [Discussion MS-3].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Epstein-Barr virus (EBV) infection</div><div class="ov-card-badge">Infectious · High</div><div class="ov-card-detail">Key etiologic factor for nasopharyngeal carcinoma, particularly in endemic regions. EBV DNA detectable in tumor tissue and plasma; high viral load associated with worse prognosis [Discussion MS-41].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Occupational exposures (wood dust, leather, nickel, formaldehyde)</div><div class="ov-card-badge">Occupational · High</div><div class="ov-card-detail">Specifically for sinonasal cancers. Wood dust exposure is strongly linked to adenocarcinoma of the ethmoid sinus. Nickel refining, leather dust, and formaldehyde are also associated [Discussion MS-52].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Genetic predisposition</div><div class="ov-card-badge">Genetic · Medium</div><div class="ov-card-detail">Family history of head and neck cancer increases risk. Patients with Fanconi anemia, dyskeratosis congenita, and Li-Fraumeni syndrome have elevated risk. Genome-wide association studies have identified risk loci at 4q21, 4q25, 12q24, and other regions [OR-1].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Male sex</div><div class="ov-card-badge">Demographic · Medium</div><div class="ov-card-detail">Incidence rates 2-4 times higher in men across most subsites. For oropharyngeal cancer, the male-to-female ratio is 4-5:1 for HPV-positive cases [Discussion MS-3].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Immunosuppression (HIV/AIDS, organ transplantation)</div><div class="ov-card-badge">Medical · Medium</div><div class="ov-card-detail">Increased risk of HPV-related head and neck cancers. HIV-positive individuals have higher rates of oral and oropharyngeal cancers [Discussion MS-4].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Betel quid and areca nut chewing</div><div class="ov-card-badge">Behavioral · High</div><div class="ov-card-detail">Common in South and Southeast Asia; associated with oral cavity and oropharyngeal cancers. Synergistic with tobacco and alcohol [Discussion MS-5].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Poor oral hygiene and chronic irritation</div><div class="ov-card-badge">Behavioral/Environmental · Low</div><div class="ov-card-detail">Chronic dental trauma, poor dental status, and chronic oral infections may contribute to oral cavity cancer risk [Discussion MS-31].</div></div>
+  </div>
+</section>
+
+<!-- Molecular Pathogenesis -->
+<section id="ov-molecular_pathogenesis" class="ov-section">
+  <h2 class="ov-heading">Molecular Pathogenesis</h2>
+  <div class="ov-prose">Head and neck squamous cell carcinoma (HNSCC) develops through two major molecular pathways: HPV-associated and HPV-unrelated. HPV-positive oropharyngeal cancers are driven by expression of the E6 and E7 oncogenes, which inactivate tumor suppressor proteins p53 and pRb, respectively, leading to genomic instability. Upregulation of p16 protein, a surrogate marker of HPV DNA, results from pRb inactivation. Genetic profiling shows HPV-positive tumors are molecularly distinct from HPV-negative HNSCC, with fewer TP53 mutations but frequent alterations in PIK3CA (activating mutations) and loss of TRAF3 [Discussion MS-3].</div>
+  <div class="ov-prose">HPV-negative HNSCC is characterized by mutations in TP53 (85-90% of tumors), CDKN2A (p16) inactivation, and amplification of CCND1 and EGFR. EGFR overexpression is common and associated with poor prognosis [Discussion MS-21]. Promoter mutations in TERT are frequent. Whole-exome sequencing has identified recurrent alterations in NOTCH1, FAT1, and CASP8.</div>
+  <div class="ov-prose">For salivary gland tumors, translocations are hallmark events: mucoepidermoid carcinoma has CRTC1-MAML2 fusion; adenoid cystic carcinoma shows MYB-NFIB fusion; secretory carcinoma (mammary analogue) has ETV6-NTRK3 fusion. Salivary duct carcinoma frequently shows HER2 amplification and androgen receptor expression [SALI-B].</div>
+  <div class="ov-prose">Sinonasal undifferentiated carcinoma (SNUC) may harbor IDH2 R172X mutations.</div>
+  <div class="ov-prose">NUT midline carcinoma is defined by NUTM1 rearrangements.</div>
+  <div class="ov-prose">Mucosal melanoma shows distinct genomic features: frequent mutations in NRAS (15-19%), KIT (7-26%), and NF1 (18%), with lower BRAF mutation rates (5-8%) compared to cutaneous melanoma [Discussion MS-65]. Recurrent amplifications of CDK4, MDM2, and TERT are common.</div>
+  <div class="ov-prose">In nasopharyngeal carcinoma, EBV infection is a key etiologic factor, with latent membrane protein 1 (LMP1) driving NF-κB signaling and genomic instability.</div>
+  
+  <div class="ov-subheading">Key Genes and Pathways</div>
+  <table class="ov-two-col-table">
+    <thead><tr><th>Gene / Pathway</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td>E6</td><td>gene</td></tr>
+      <tr><td>E7</td><td>gene</td></tr>
+      <tr><td>p53</td><td>gene</td></tr>
+      <tr><td>pRb</td><td>gene</td></tr>
+      <tr><td>p16</td><td>gene</td></tr>
+      <tr><td>PIK3CA</td><td>gene</td></tr>
+      <tr><td>TRAF3</td><td>gene</td></tr>
+      <tr><td>CCND1</td><td>gene</td></tr>
+      <tr><td>EGFR</td><td>gene</td></tr>
+      <tr><td>TERT</td><td>gene</td></tr>
+      <tr><td>NOTCH1</td><td>gene</td></tr>
+      <tr><td>FAT1</td><td>gene</td></tr>
+      <tr><td>CASP8</td><td>gene</td></tr>
+      <tr><td>CRTC1</td><td>gene</td></tr>
+      <tr><td>MAML2</td><td>gene</td></tr>
+      <tr><td>MYB</td><td>gene</td></tr>
+      <tr><td>NFIB</td><td>gene</td></tr>
+      <tr><td>ETV6</td><td>gene</td></tr>
+      <tr><td>NTRK3</td><td>gene</td></tr>
+      <tr><td>HER2</td><td>gene</td></tr>
+      <tr><td>androgen receptor</td><td>gene</td></tr>
+      <tr><td>IDH2</td><td>gene</td></tr>
+      <tr><td>NUTM1</td><td>gene</td></tr>
+      <tr><td>NRAS</td><td>gene</td></tr>
+      <tr><td>KIT</td><td>gene</td></tr>
+      <tr><td>NF1</td><td>gene</td></tr>
+      <tr><td>BRAF</td><td>gene</td></tr>
+      <tr><td>CDK4</td><td>gene</td></tr>
+      <tr><td>MDM2</td><td>gene</td></tr>
+      <tr><td>LMP1</td><td>gene</td></tr>
+      <tr><td>HPV-associated pathway</td><td>pathway</td></tr>
+      <tr><td>HPV-unrelated pathway</td><td>pathway</td></tr>
+      <tr><td>p53 inactivation</td><td>pathway</td></tr>
+      <tr><td>pRb inactivation</td><td>pathway</td></tr>
+      <tr><td>NF-κB signaling</td><td>pathway</td></tr>
+    </tbody>
+  </table>
+  
+  <div class="ov-subheading">Pathway Summaries</div>
+  <table class="ov-table">
+    <thead><tr><th>Pathway</th><th>Genes</th></tr></thead>
+    <tbody>
+      <tr><td>HPV-associated HNSCC</td><td>E6, E7, p53, pRb, p16, PIK3CA, TRAF3</td></tr>
+      <tr><td>HPV-negative HNSCC</td><td>p53, p16, CCND1, EGFR, TERT, NOTCH1, FAT1, CASP8</td></tr>
+      <tr><td>Salivary gland tumors</td><td>CRTC1, MAML2, MYB, NFIB, ETV6, NTRK3, HER2, androgen receptor</td></tr>
+      <tr><td>Sinonasal undifferentiated carcinoma</td><td>IDH2</td></tr>
+      <tr><td>NUT midline carcinoma</td><td>NUTM1</td></tr>
+      <tr><td>Mucosal melanoma</td><td>NRAS, KIT, NF1, BRAF, CDK4, MDM2, TERT</td></tr>
+      <tr><td>Nasopharyngeal carcinoma</td><td>LMP1</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Staging & TNM Classification -->
+<section id="ov-staging" class="ov-section">
+  <h2 class="ov-heading">Staging &amp; TNM Classification</h2>
+  <div class="ov-prose">American Joint Committee on Cancer (AJCC) 8th and 9th editions, TNM classification. For most head and neck sites, AJCC 8th edition is used (oral cavity, oropharynx p16-negative, hypopharynx, larynx, nasal cavity/paranasal sinuses, major salivary glands, mucosal melanoma, occult primary). For nasopharynx, AJCC 9th edition (2021) is now adopted. For HPV-mediated oropharyngeal cancer, AJCC 8th edition with separate staging is used, but 9th edition updates are noted. [ST-1 through ST-19]</div>
+  
+  <div class="ov-subheading">T Categories</div>
+  <table class="ov-staging-table">
+    <thead><tr><th>Category</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td>TX</td><td></td></tr>
+      <tr><td>Tis</td><td></td></tr>
+      <tr><td>T1 – Oral Cavity</td><td></td></tr>
+      <tr><td>T2 – Oral Cavity</td><td></td></tr>
+      <tr><td>T3 – Oral Cavity</td><td></td></tr>
+      <tr><td>T4a – Oral Cavity</td><td>Moderately advanced local disease: tumor >4 cm with DOI >10 mm or invades adjacent structures (through cortical bone of mandible/maxilla, maxillary sinus, skin of face). Superficial erosion of bone/tooth socket alone by gingival primary is not T4.</td></tr>
+      <tr><td>T4b – Oral Cavity</td><td>Very advanced local disease: tumor invades masticator space, pterygoid plates, skull base, and/or encases internal carotid artery.</td></tr>
+      <tr><td>T1 – Oropharynx (p16-negative)</td><td></td></tr>
+      <tr><td>T2 – Oropharynx (p16-negative)</td><td></td></tr>
+      <tr><td>T3 – Oropharynx (p16-negative)</td><td></td></tr>
+      <tr><td>T4a – Oropharynx (p16-negative)</td><td>Moderately advanced: tumor invades larynx, extrinsic muscle of tongue, medial pterygoid, hard palate, or mandible.</td></tr>
+      <tr><td>T4b – Oropharynx (p16-negative)</td><td>Very advanced: tumor invades lateral pterygoid muscle, pterygoid plates, lateral nasopharynx, skull base, or encases carotid artery.</td></tr>
+      <tr><td>T1 – HPV-mediated Oropharynx</td><td></td></tr>
+      <tr><td>T2 – HPV-mediated Oropharynx</td><td></td></tr>
+      <tr><td>T3 – HPV-mediated Oropharynx</td><td></td></tr>
+      <tr><td>T4 – HPV-mediated Oropharynx</td><td>Moderately advanced local disease: tumor invades larynx, extrinsic muscle of tongue, medial pterygoid, hard palate, mandible, or beyond. T4b is not used for HPV-mediated disease; all T4 is considered T4.</td></tr>
+      <tr><td>T1 – Hypopharynx</td><td></td></tr>
+      <tr><td>T2 – Hypopharynx</td><td>Tumor invades more than one subsite or adjacent site, or >2 cm but ≤4 cm without fixation of hemilarynx.</td></tr>
+      <tr><td>T3 – Hypopharynx</td><td></td></tr>
+      <tr><td>T4a – Hypopharynx</td><td>Moderately advanced: tumor invades thyroid/cricoid cartilage, hyoid bone, thyroid gland, esophageal muscle, or central compartment soft tissue.</td></tr>
+      <tr><td>T4b – Hypopharynx</td><td>Very advanced: tumor invades prevertebral fascia, encases carotid artery, or involves mediastinal structures.</td></tr>
+      <tr><td>Tis – Larynx (Glottic/Supraglottic/Subglottic)</td><td></td></tr>
+      <tr><td>T1 – Supraglottis</td><td></td></tr>
+      <tr><td>T2 – Supraglottis</td><td>Tumor invades mucosa of more than one adjacent subsite of supraglottis or glottis or region outside supraglottis (e.g., base of tongue, vallecula, medial wall of pyriform sinus) without fixation.</td></tr>
+      <tr><td>T3 – Supraglottis</td><td>Tumor limited to larynx with vocal cord fixation and/or invades postcricoid area, preepiglottic space, paraglottic space, and/or inner cortex of thyroid cartilage.</td></tr>
+      <tr><td>T4a – Supraglottis</td><td>Moderately advanced: tumor invades through outer cortex of thyroid cartilage and/or invades tissues beyond larynx (trachea, soft tissues of neck, strap muscles, thyroid, esophagus).</td></tr>
+      <tr><td>T4b – Supraglottis</td><td>Very advanced: tumor invades prevertebral space, encases carotid artery, or invades mediastinal structures.</td></tr>
+      <tr><td>T1 – Glottis</td><td>Tumor limited to vocal cord(s) (may involve anterior or posterior commissure) with normal mobility. T1a: one cord; T1b: both cords.</td></tr>
+      <tr><td>T2 – Glottis</td><td>Tumor extends to supraglottis and/or subglottis, and/or with impaired vocal cord mobility.</td></tr>
+      <tr><td>T3 – Glottis</td><td>Tumor limited to larynx with vocal cord fixation and/or invasion of paraglottic space and/or inner cortex of thyroid cartilage.</td></tr>
+    </tbody>
+  </table>
+  
+  <div class="ov-note">Detailed information not available in source.</div>
+</section>
+
+<!-- Management Principles -->
+<section id="ov-management_principles" class="ov-section">
+  <h2 class="ov-heading">Management Principles</h2>
+  <div class="ov-prose">The management of head and neck cancers requires a multidisciplinary approach integrating surgery, radiation oncology, medical oncology, and a wide range of support services. The NCCN guidelines emphasize that all patients need access to the full range of specialists with expertise in the comprehensive care of head and neck cancer for optimal treatment and follow-up [TEAM-1]. Outcomes are improved when patients are treated at high-volume centers [Discussion]. The choice of treatment modality—single-modality (surgery or RT) versus combined modality (e.g., surgery plus radiation or chemoradiation)—depends on the specific site of disease, histology, stage, and baseline comorbid conditions [Discussion]. Single-modality treatment is generally recommended for early-stage (stage I or II) HPV-unrelated cancers. Surgery is usually preferred for oral cavity and paranasal sinus cancers, while RT with or without chemotherapy is nearly always preferred for all stages of nasopharyngeal carcinoma and more advanced stages of HPV-related oropharyngeal cancer [Discussion]. For the approximately 60% of patients with locally or regionally advanced disease at diagnosis, combined modality therapy is generally recommended [Discussion]. Equipoise exists between the choices of surgery or RT as the primary treatment modality for stage I and II HPV-associated and -unassociated disease, often based on local institutional expertise and/or perceived relative morbidity [Discussion]. Participation in clinical trials is a preferred or recommended treatment option in many situations [Discussion]. The NCCN Panel has tried to create clinical trials with evidence-based practices while providing a statement of consensus as to the acceptable range of treatment options [Discussion]. Treatment should be individualized based on patient characteristics and goals of therapy [SYST-A 1 of 7]. Key components for all patients include smoking cessation counseling and alcohol use counseling, as well as screening for distress [OR-1, ORPH-1, HYPO-1, GLOT-1, SUPRA-1, NASO-1, ETHM-1, OCC-1, SALI-1, MM-1]. Fertility/reproductive counseling should be offered [OR-1, ORPH-1, HYPO-1, GLOT-1, SUPRA-1, NASO-1, ETHM-1, OCC-1, SALI-1, MM-1]. Screening for hepatitis B for patients undergoing cancer therapy is recommended [OR-1, ORPH-1, HYPO-1, GLOT-1, SUPRA-1, NASO-1, ETHM-1, OCC-1, SALI-1, MM-1].</div>
+  
+  <div class="ov-subheading">Treatment Decision Flow</div>
+  <details class="ov-details"><summary>Multidisciplinary team evaluation (surgery, radiation oncology, medical oncology, support services)</summary>
+    <div class="flow-step">→ Determine treatment intent: Curative vs Palliative</div>
+    <details class="ov-details" style="margin-left:20px"><summary>Curative intent</summary>
+      <div class="flow-step">→ Assess primary site, stage, HPV status, comorbidities</div>
+      <details class="ov-details" style="margin-left:20px"><summary>Is stage I/II (early-stage)?</summary>
+        <div class="flow-step">→ Yes: Single-modality treatment: surgery or RT (consider equipoise, clinical trial)</div>
+        <details class="ov-details" style="margin-left:20px"><summary>No (advanced)</summary>
+          <div class="flow-step">→ Is stage III/IV (locoregionally advanced)?</div>
+          <details class="ov-details" style="margin-left:20px"><summary>Assess organ preservation candidacy</summary>
+            <div class="flow-step">→ Yes (organ preservation candidate): Concurrent systemic therapy/RT or induction chemo+RT for responders</div>
+            <div class="flow-step">→ No (advanced, not organ preservation candidate): Combined modality therapy: surgery+adjuvant RT/CRT or definitive CRT/induction chemo+RT</div>
+          </details>
+          <div class="flow-step">→ Yes (advanced, not organ preservation candidate): Combined modality therapy: surgery+adjuvant RT/CRT or definitive CRT/induction chemo+RT</div>
+        </details>
+      </details>
+    </details>
+    <details class="ov-details" style="margin-left:20px"><summary>Palliative intent (if known M1 or incurable)</summary>
+      <div class="flow-step">→ Is disease metastatic (M1) or unresectable recurrent?</div>
+      <div class="flow-step">→ Yes: Palliative-intent: clinical trial, systemic therapy, palliative RT, best supportive care</div>
+    </details>
+    <div class="flow-step">→ Outcome: individualize treatment, high-volume centers improve outcomes</div>
+  </details>
+  
+  <div class="ov-subheading">Treatment Approaches</div>
+  <div class="ov-cards">
+    <div class="ov-card"><div class="ov-card-title">Curative-intent treatment for newly diagnosed locoregionally confined disease</div><div class="ov-card-detail">Patient group: Patients with stage I-II (early-stage) disease who are candidates for single-modality therapy; patients with stage III-IV (locoregionally advanced) disease who are candidates for combined modality therapy. Approach: Early-stage: single-modality treatment with surgery or radiation therapy. Locoregionally advanced: combined modality therapy, typically surgery followed by risk-based adjuvant therapy (RT or systemic therapy/RT), or definitive concurrent systemic therapy/RT, or induction chemotherapy followed by RT or systemic therapy/RT. The specific approach depends on the primary site, HPV status (for oropharynx), and tumor extent.</div></div>
+    <div class="ov-card"><div class="ov-card-title">Organ preservation or function preservation</div><div class="ov-card-detail">Patient group: Patients with laryngeal or hypopharyngeal cancer for whom total laryngectomy is indicated; patients with locally advanced oropharyngeal cancer where surgical morbidity is high. Approach: Concurrent systemic therapy/RT is the standard approach for larynx preservation in patients with advanced laryngeal cancer, based on the results of the RTOG 91-11 trial [Discussion]. For hypopharynx cancer, induction chemotherapy followed by definitive RT in responders is an alternative to laryngopharyngectomy [Discussion]. In oropharyngeal cancer, definitive RT or systemic therapy/RT is often preferred over upfront surgery for HPV-associated cT4 or cN3 disease to avoid triple modality therapy and additional treatment-induced morbidity [Discussion].</div></div>
+    <div class="ov-card"><div class="ov-card-title">Palliative-intent treatment for incurable disease</div><div class="ov-card-detail">Patient group: Patients with metastatic (M1) disease at initial presentation, or with recurrent/persistent disease that is unresectable and not amenable to curative-intent reirradiation. Approach: Enrollment in a clinical trial is preferred. Systemic therapy, with the goal of palliation and survival prolongation, is the mainstay of treatment. Palliative RT may be used for symptom control (e.g., pain, bleeding, airway obstruction). Best supportive care is appropriate for patients with poor performance status [ADV-2, ADV-4]. For patients with newly diagnosed metastatic NPC, systemic therapy with or without consolidative locoregional RT may be considered for selected patients [NASO-3].</div></div>
+  </div>
+</section>
+
+<!-- Management Pathways -->
+<section id="ov-management_pathways" class="ov-section">
+  <h2 class="ov-heading">Management Pathways</h2>
+  
+  <div class="ov-subheading">Oral Cavity Cancer: T1-2,N0</div>
+  <div class="ov-branching-basis"><span class="basis-tag">Clinical T stage</span><span class="basis-tag">Clinical N stage</span><span class="basis-tag">Surgical candidacy</span><span class="basis-tag">Depth of invasion</span></div>
+  <details class="ov-details"><summary>T1-2, N0 oral cavity cancer, patient is a surgical candidate</summary>
+    <div class="flow-step">Preferred: Resection of primary ± neck dissection (guided by tumor location, depth of invasion, and imaging) [category 2A]</div>
+    <div class="flow-step">Other recommended: Resection of primary + SLN biopsy [category 2A]</div>
+    <div class="flow-step">Other recommended: Definitive RT [category 2A]</div>
+    <details class="ov-details" style="margin-left:20px"><summary>Adjuvant treatment determined by pathologic findings</summary>
+      <div class="flow-step">Adjuvant treatment is determined by pathologic findings from neck dissection. For SLN pN0, no further neck surgery is needed. If SLN pN+ or SLN identification unsuccessful, a neck dissection is performed. Pathologic assessment of the resected primary and neck determines the need for adjuvant RT or systemic therapy/RT based on the presence of adverse pathologic features (extranodal extension, positive margins, close margins, pT3/pT4, pN2/pN3, nodal disease in levels IV/V, perineural, vascular, or lymphatic invasion). For no positive nodes and no adverse features: observation. For one positive node without adverse features: consider RT. For adverse features without positive margin: consider RT (for other risk features) or systemic therapy/RT (for extranodal extension ± positive margin). For positive margin: re-resection if feasible and consider RT if negative margins, or consider systemic therapy/RT [OR-2].</div>
+    </details>
+  </details>
+  <details class="ov-details"><summary>T1-2, N0 oral cavity cancer, patient is not a surgical candidate or declines surgery</summary>
+    <div class="flow-step">Preferred: Definitive RT [category 2A]</div>
+    <div class="flow-step">No adjuvant therapy is applicable after definitive RT. Follow-up includes post-treatment neck evaluation [FOLL-A 2 of 2].</div>
+  </details>
+  
+  <div class="ov-subheading">Oral Cavity Cancer: T3,N0 or T1-3,N1-3 or T4a,N0-3 (Resectable)</div>
+  <div class="ov-branching-basis"><span class="basis-tag">Clinical T stage</span><span class="basis-tag">Clinical N stage</span><span class="basis-tag">Resectability</span><span class="basis-tag">PD-L1 CPS status</span><span class="basis-tag">N stage for neoadjuvant pembrolizumab</span></div>
+  <details class="ov-details"><summary>T3,N0; T1-3,N1-3; T4a,N0-3; surgery preferred</summary>
+    <div class="flow-step">Preferred: Resection of primary ± ipsilateral or bilateral neck dissection [category 2A]</div>
+    <div class="flow-step">Other recommended: Neoadjuvant pembrolizumab (if PD-L1 positive [CPS ≥ 1], except for N3 disease) [category 2A]</div>
+    <div class="flow-step">Other recommended: Clinical trials [N/A]</div>
+    <details class="ov-details" style="margin-left:20px"><summary>Adjuvant treatment based on pathologic findings</summary>
+      <div class="flow-step">Adjuvant treatment is based on pathologic findings from surgery. For N0,N1,N2a-b,N3: resection of primary ± ipsilateral or bilateral neck dissection. For N2c (bilateral): resection of primary and bilateral neck dissection. No adverse pathologic features: consider RT. Adverse pathologic features: if extranodal extension ± positive margin → systemic therapy/RT (category 1); if other risk features → RT or consider systemic therapy/RT. Positive margin: systemic therapy/RT (category 1) or re-resection if feasible and consider RT if negative margins. If neoadjuvant pembrolizumab was received: RT + pembrolizumab (with cisplatin if extranodal extension and/or positive margin) followed by adjuvant pembrolizumab [OR-3].</div>
+    </details>
+  </details>
+  <details class="ov-details"><summary>Selected patients who decline surgery</summary>
+    <div class="flow-step">Preferred: Treatment for Very Advanced Head and Neck Cancer (ADV-1) [category 2A]</div>
+    <div class="flow-step">These patients are managed under the very advanced cancer pathway.</div>
+  </details>
+  
+  <div class="ov-subheading">Oropharyngeal Cancer (p16-negative): T1-2,N0-1</div>
+  <div class="ov-branching-basis"><span class="basis-tag">HPV/p16 status</span><span class="basis-tag">Clinical T stage</span><span class="basis-tag">Clinical N stage</span><span class="basis-tag">Surgical candidacy</span><span class="basis-tag">PD-L1 CPS status</span></div>
+  <details class="ov-details"><summary>T1-2, N0-1, p16-negative, patient is a candidate for either primary modality</summary>
+    <div class="flow-step">Other recommended: Resection of primary and ipsilateral or bilateral neck dissection [category 2A]</div>
+    <div class="flow-step">Other recommended: Definitive RT [category 2A]</div>
+    <div class="flow-step">Other recommended: Concurr [incomplete]</div>
+    <div class="flow-step">Adjuvant logic not specified.</div>
+  </details>
+  
+  <div class="ov-subheading">Detailed Flowcharts</div>
+  <details class="ov-details"><summary>Oral Cavity Cancer: T1-2,N0</summary>
+    <div class="flow-step"><span class="step-label">Decision:</span> T1-2, N0 oral cavity cancer, patient is a surgical candidate</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Resection primary ± ND (preferred) — Resection of primary ± neck dissection (guided by tumor location, depth of invasion, and imaging) [preferred, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Resection primary + SLN biopsy (other) — Resection of primary + SLN biopsy [other recommended, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Definitive RT (other) — Definitive RT [other recommended, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ After surgery – pathologic assessment needed</div>
+    <div class="flow-step" style="margin-left:40px">→ No positive nodes and no adverse features: Observation</div>
+    <div class="flow-step" style="margin-left:40px">→ One positive node without adverse features: Consider RT</div>
+    <div class="flow-step" style="margin-left:40px">→ Adverse features (extranodal extension ± positive margin) or other risk features: Consider RT or systemic therapy/RT</div>
+    <div class="flow-step" style="margin-left:40px">→ Positive margin: Systemic therapy/RT or re-resection if feasible and RT if negative margins</div>
+    <div class="flow-step"><span class="step-label">Decision:</span> T1-2, N0 oral cavity cancer, patient is not a surgical candidate or declines surgery</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Definitive RT (preferred) — Definitive RT [preferred, category 2A]</div>
+  </details>
+  <details class="ov-details"><summary>Oral Cavity Cancer: T3,N0 or T1-3,N1-3 or T4a,N0-3 (Resectable)</summary>
+    <div class="flow-step"><span class="step-label">Decision:</span> T3,N0; T1-3,N1-3; T4a,N0-3; surgery preferred</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Surgery (preferred) — Resection of primary ± ipsilateral or bilateral neck dissection [preferred, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Neoadjuvant pembrolizumab (other) — Neoadjuvant pembrolizumab (if PD-L1 positive [CPS ≥ 1], except for N3) [other recommended, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Clinical trials (other) — Clinical trials [other recommended]</div>
+    <div class="flow-step" style="margin-left:20px">→ After surgery – pathologic assessment</div>
+    <div class="flow-step" style="margin-left:40px">→ No adverse pathologic features: consider RT</div>
+    <div class="flow-step" style="margin-left:40px">→ Extranodal extension ± positive margin: systemic therapy/RT (category 1)</div>
+    <div class="flow-step" style="margin-left:40px">→ Other risk features (e.g., pT3/T4, pN2/N3, PNI, LVI): RT or consider systemic therapy/RT</div>
+    <div class="flow-step" style="margin-left:40px">→ Positive margin: systemic therapy/RT (category 1) or re-resection if feasible and RT if negative margins</div>
+    <div class="flow-step" style="margin-left:40px">→ Neoadjuvant pembrolizumab received: RT + pembrolizumab (with cisplatin if ENE/+) then adjuvant pembrolizumab</div>
+    <div class="flow-step"><span class="step-label">Decision:</span> Selected patients who decline surgery</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Definitive RT (preferred) — Treatment for Very Advanced Head and Neck Cancer (ADV-1) [preferred, category 2A]</div>
+  </details>
+  <details class="ov-details"><summary>Oropharyngeal Cancer (p16-negative): T1-2,N0-1</summary>
+    <div class="flow-step"><span class="step-label">Decision:</span> T1-2, N0-1, p16-negative, patient is a candidate for either primary modality</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Surgery (other) — Resection of primary and ipsilateral or bilateral neck dissection [other recommended, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Definitive RT (other) — Definitive RT [other recommended, category 2A]</div>
+    <div class="flow-step" style="margin-left:20px">→ Option: Systemic therapy (Concurr – incomplete) — Concurr [incomplete]</div>
+  </details>
+</section>
+
+<!-- Radiation Therapy -->
+<section id="ov-radiation_therapy" class="ov-section">
+  <h2 class="ov-heading">Radiation Therapy</h2>
+  <div class="ov-prose">Radiation therapy is a critical modality in the treatment of head and neck cancers, used as definitive treatment (RT alone or concurrent systemic therapy/RT), adjuvant therapy (postoperative RT or systemic therapy/RT), or palliative therapy. For nasopharyngeal carcinoma, RT (with or without chemotherapy) is nearly always preferred for all stages. For early-stage laryngeal and oropharyngeal cancers, RT is an effective alternative to surgery. IMRT is the preferred radiation modality for most head and neck cancers due to its ability to reduce dose to critical structures and decrease long-term toxicities such as xerostomia. Proton therapy is an area of active investigation and may be considered when normal tissue constraints cannot be met by photon-based therapy, or when photon-based therapy causes compromise of standard radiation dosing to tumor or postoperative volumes [RAD-A 1 of 7, ORPH-A 1 of 2, OR-A 1 of 2, HYPO-A 1 of 2, GLOT-A 1 of 2, SUPRA-A 1 of 2, NAS

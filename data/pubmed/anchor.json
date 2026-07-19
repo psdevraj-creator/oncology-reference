@@ -1,14 +1,17 @@
 {
-  "pmid": "42468561",
-  "title": "Anchor-free temporal localization of apnea events from EEG/EOG with state-space models.",
-  "abstract": "Reduced-channel polysomnography (PSG) and electroencephalography/electrooculography (EEG/EOG) signals can support obstructive sleep apnea (OSA) screening, but many learning-based systems use coarse epoch-level classification and generalize poorly across datasets. We introduce ApneaTime, an anchor-free temporal localization framework for apnea/hypopnea boundary detection from EEG/EOG with auxiliary sleep-stage prediction.&amp;#xD;Approach. ApneaTime combines multi-resolution time-frequency convolutional encoding, a state-space sequence backbone, and an anchor-free center-offset head for variable-duration respiratory events. Self-supervised pretraining, weak supervision, domain-adversarial learning, and contrastive/prototype regularization are used to improve robustness under limited event labels and cohort shift.&amp;#xD;Main results. In in-dataset evaluations, ApneaTime improved event F1 from 70.4% to 78.5%, mean average precision from 75.8% to 84.5%, and mean intersection-over-union from 0.47 to 0.56 compared with the recurrent baseline. Under SHHS-to-MESA transfer,&amp;#xD;F1 increased from 60.2% to 70.1% and mean average precision from 65.5% to 78.0%. Expected calibration error decreased from 9.8% to 5.3%, and to 2.1% after temperature scaling. The model has 8.2 million parameters and achieved a GPU real-time factor of approximately 1.5.&amp;#xD;Significance. ApneaTime provides calibrated event-level apnea/hypopnea localization from reduced-channel EEG/EOG recordings. The results support EEG/EOG-based sleep apnea monitoring when full respiratory PSG channels are unavailable or impractical.",
-  "journal": "Physiological measurement",
+  "title": "Measuring group&#x2011; and individual&#x2011;level change of FACIT- fatigue, NFLymSI-18 and PROMIS fatigue measures (4a, 7a and 13a) in lymphoma.",
+  "pmid": "42471544",
+  "abstract": "Fatigue significantly impacts quality of life in lymphoma patients. Multiple patient-reported fatigue measures are used in lymphoma research, including FACIT-Fatigue and PROMIS Fatigue instruments, but direct comparisons of their responsiveness and ability to detect individual-level change in this population are lacking. This study evaluated the responsiveness and sensitivity to individual-level change of Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-Fatigue), Patient-Reported Outcomes Measurement Information System (PROMIS) Fatigue measures (4a, 7a, and 13a), and NFLyMSI-18 Lymphoma Symptom Index in patients with lymphoma.",
+  "journal": "J Patient Rep Outcomes",
   "year": "2026",
   "authors": [
-    "Elmi Z",
-    "Elmi S"
+    "Kuharic M",
+    "Webster KA",
+    "Zola AR",
+    "Corona ME",
+    "Patten EA"
   ],
-  "doi": "10.1088/1361-6579/ae8ca8",
-  "query_date": "2026-07-18T19:13:46.691037",
+  "doi": "10.1186/s41687-026-01154-6",
+  "query_date": "2026-07-19T16:36:09.848298",
   "trial_name": "ANCHOR"
 }

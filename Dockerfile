@@ -16,10 +16,10 @@ ENV PYTHONUNBUFFERED=1
 
 EXPOSE 8080
 
-CMD exec gunicorn app.main:server \
+CMD exec gunicorn --preload app.main:server \
     --bind "0.0.0.0:${PORT:-8080}" \
-    --workers 2 \
-    --threads 4 \
+    --workers 1 \
+    --threads 8 \
     --timeout 120 \
     --access-logfile - \
     --error-logfile - \

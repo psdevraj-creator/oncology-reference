@@ -19,8 +19,6 @@ from typing import Optional
 
 import dash_bootstrap_components as dbc
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
 from dash import dcc, html
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -201,6 +199,7 @@ def render_outcomes_table(trials: list[dict]) -> html.Div:
 # ── Forest plot (HR comparison) ────────────────────────────────
 
 def render_forest_summary(trials: list[dict], height: int = 450) -> html.Div:
+    import plotly.graph_objects as go
     """Forest plot comparing hazard ratios across trials."""
     if not trials:
         return html.Div("No trial data for forest plot", className="text-muted p-3")
@@ -276,6 +275,7 @@ def render_forest_summary(trials: list[dict], height: int = 450) -> html.Div:
 # ── Enrollment comparison chart ────────────────────────────────
 
 def render_enrollment_chart(trials: list[dict], height: int = 350) -> html.Div:
+    import plotly.express as px
     """Horizontal bar chart comparing trial enrollment sizes."""
     if not trials:
         return html.Div("", className="p-3")
@@ -324,6 +324,7 @@ def render_enrollment_chart(trials: list[dict], height: int = 350) -> html.Div:
 # ── Toxicity heatmap ───────────────────────────────────────────
 
 def render_toxicity_heatmap(trials: list[dict], height: int = 400) -> html.Div:
+    import plotly.graph_objects as go
     """Heatmap of grade 3+ toxicities across trials."""
     if not trials:
         return html.Div("", className="p-3")

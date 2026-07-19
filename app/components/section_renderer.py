@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 from typing import Any
 
 import dash_bootstrap_components as dbc
@@ -513,16 +514,40 @@ def _render_systemic_therapy(value: dict) -> list:
     return components
 
 
-_handbook_render_cache: dict[int, list] = {}
+_handbook_render_cache: dict[int | str, list] = {}
+_MAX_RENDER_CACHE = 10
+
+REWRITTEN_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "rewritten" / "sections"
+
+
+def _load_all_enriched(site_id: str) -> dict[str, dict]:
+    """Load all enriched sections for a site in one batch."""
+    if not site_id or not REWRITTEN_DIR.exists():
+        return {}
+    site_dir = REWRITTEN_DIR / site_id
+    if not site_dir.exists():
+        return {}
+    result: dict[str, dict] = {}
+    for f in sorted(site_dir.glob("*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            result[f.stem] = data
+        except (json.JSONDecodeError, OSError):
+            pass
+    return result
 
 
 def render_handbook(handbook: dict[str, Any], site_id: str = "") -> list:
     if not handbook:
         return [html.P("No handbook data available for this site.", className="text-muted")]
 
-    cache_key = id(handbook)
+    # Use site_id for cache key for deterministic caching across requests
+    cache_key = site_id or id(handbook)
     if cache_key in _handbook_render_cache:
         return _handbook_render_cache[cache_key]
+
+    # Batch-load all enriched sections once
+    enriched_all = _load_all_enriched(site_id)
 
     from app.components.staging_viewer import (
         render_radiation_therapy,
@@ -567,8 +592,8 @@ def render_handbook(handbook: dict[str, Any], site_id: str = "") -> list:
     custom_renderers = {
         "definition": _render_definition,
         "epidemiology": lambda v: render_epidemiology(v, site_id),
-        "subtypes": lambda v: render_subtypes(v, site_id),
-        "molecular_pathogenesis": lambda v: render_molecular_pathogenesis(v, site_id),
+        "subtypes": lambda v: render_subtypes(v, site_id, enriched_all),
+        "molecular_pathogenesis": lambda v: render_molecular_pathogenesis(v, site_id, enriched_all),
         "risk_factors": lambda v: render_risk_factors(v, site_id),
         "protective_factors": lambda v: render_protective_factors(v, site_id),
         "clinical_features": lambda v: render_clinical_features(v, site_id),
@@ -585,7 +610,7 @@ def render_handbook(handbook: dict[str, Any], site_id: str = "") -> list:
         "surveillance": lambda v: render_surveillance(v, site_id),
         "complications": lambda v: render_complications(v, site_id),
         "supportive_care": lambda v: render_supportive_care(v, site_id),
-        "prognosis": lambda v: render_enhanced_prognosis(v, site_id),
+        "prognosis": lambda v: render_enhanced_prognosis(v, site_id, enriched_all),
         "follow_up": lambda v: render_follow_up(v, site_id),
         "key_trials": render_trials,
         "clinical_pearls": lambda v: render_clinical_pearls(v, site_id),
@@ -623,4 +648,8 @@ def render_handbook(handbook: dict[str, Any], site_id: str = "") -> list:
         all_components.append(html.Div(id=key, children=render_section(key, value)))
 
     _handbook_render_cache[cache_key] = all_components
+    # LRU eviction: keep last N sites in cache
+    if len(_handbook_render_cache) > _MAX_RENDER_CACHE:
+        oldest = next(iter(_handbook_render_cache))
+        del _handbook_render_cache[oldest]
     return all_components

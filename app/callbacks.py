@@ -17,7 +17,7 @@ from app.data.loader import (
     get_sites,
     site_exists,
 )
-from app.data.transforms import flatten_regimens_for_table, extract_trial_outcomes
+from app.data.transforms import extract_trial_outcomes
 from app.pages import disease, home, regimens, trials
 
 
@@ -66,10 +66,10 @@ def _search_regimens(df: pd.DataFrame, term: str) -> pd.DataFrame:
             if isinstance(x, list) else False
         )
 
-    flat = flatten_regimens_for_table(df)
+    # Pre-flattened columns (already in DF from load_all)
     for col in ["Drugs", "Biomarkers", "Modality"]:
-        if col in flat.columns:
-            mask |= flat[col].astype(str).str.lower().str.contains(term, na=False)
+        if col in df.columns:
+            mask |= df[col].astype(str).str.lower().str.contains(term, na=False)
 
     return df[mask]
 
@@ -168,12 +168,11 @@ def register_callbacks(app) -> None:
             if term:
                 df = _search_regimens(df, term)
 
-        df_flat = flatten_regimens_for_table(df)
-        table_cols = [c for c in REGIMEN_DISPLAY_COLS if c["id"] in df_flat.columns]
+        table_cols = [c for c in REGIMEN_DISPLAY_COLS if c["id"] in df.columns]
 
         return [
             create_table(
-                data=df_flat.to_dict("records"),
+                data=df.to_dict("records"),
                 columns=table_cols,
                 id="regimen-table",
                 row_selectable="single",
@@ -317,8 +316,6 @@ def register_callbacks(app) -> None:
             return [], ""
 
         import json as _json
-        import os as _os
-        import time as _time
         import re as _re
 
         try:
@@ -350,14 +347,15 @@ def register_callbacks(app) -> None:
         if not ids:
             return [], html.P(f"No PubMed results for '{term}'.", className="text-muted small")
 
-        results = []
-        for pmid in ids[:8]:
+        import concurrent.futures
+
+        def _fetch_pmid(pmid: str) -> dbc.Card | None:
             efetch_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
             efetch_params = {"db": "pubmed", "id": pmid, "rettype": "xml", "retmode": "xml"}
             if api_key:
                 efetch_params["api_key"] = api_key
             try:
-                r2 = requests.get(efetch_url, params=efetch_params, timeout=10)
+                r2 = requests.get(efetch_url, params=efetch_params, timeout=5)
                 r2.raise_for_status()
                 text = r2.text
 
@@ -384,7 +382,7 @@ def register_callbacks(app) -> None:
                     journal = m_j.group(1).strip()
 
                 import dash_bootstrap_components as dbc
-                results.append(dbc.Card(
+                return dbc.Card(
                     dbc.CardBody([
                         html.A(
                             title or f"PMID: {pmid}",
@@ -397,12 +395,15 @@ def register_callbacks(app) -> None:
                                className="small text-muted mb-0"),
                     ]),
                     className="mb-2 shadow-sm",
-                ))
-
+                )
             except Exception:
-                continue
+                return None
 
-            _time.sleep(0.15)
+        max_workers = min(4, len(ids))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
+            futures = [pool.submit(_fetch_pmid, str(pmid)) for pmid in ids[:8]]
+            results_set = [f.result() for f in concurrent.futures.as_completed(futures)]
+        results = [r for r in results_set if r is not None]
 
         if not results:
             return [], html.P("Could not fetch abstract details.", className="text-danger small")

@@ -146,15 +146,14 @@ def render_epidemiology(value, site_id: str = "") -> list:
 
 # ── Subtypes ──────────────────────────────────────────────────────────
 
-def render_subtypes(value, site_id: str = "") -> list:
+def render_subtypes(value, site_id: str = "", enriched_all: dict | None = None) -> list:
     components = [html.H3("Subtypes", className="section-heading")]
     if not isinstance(value, list) or not value:
         return components
 
     # Try enriched cache for sunburst data
-    if site_id:
-        enriched = _load_enriched(site_id, "subtypes")
-        if enriched and enriched.get("sunburst_data"):
+    enriched = (enriched_all or {}).get("subtypes") if enriched_all else _load_enriched(site_id, "subtypes")
+    if enriched and enriched.get("sunburst_data"):
             sd = enriched["sunburst_data"]
             try:
                 fig = subtypes_sunburst({"labels": sd["labels"], "parents": sd["parents"], "values": sd["values"]})
@@ -183,14 +182,13 @@ def render_subtypes(value, site_id: str = "") -> list:
 
 # ── Molecular Pathogenesis ────────────────────────────────────────────
 
-def render_molecular_pathogenesis(value: str, site_id: str = "") -> list:
+def render_molecular_pathogenesis(value: str, site_id: str = "", enriched_all: dict | None = None) -> list:
     components = [html.H3("Molecular Pathogenesis", className="section-heading")]
     if not isinstance(value, str) or not value.strip():
         return components
 
-    if site_id:
-        enriched = _load_enriched(site_id, "molecular_pathogenesis")
-        if enriched and enriched.get("sections"):
+    enriched = (enriched_all or {}).get("molecular_pathogenesis") if enriched_all else _load_enriched(site_id, "molecular_pathogenesis")
+    if enriched and enriched.get("sections"):
             net_enriched = enriched.get("network", {})
             if net_enriched.get("nodes"):
                 from app.components.viz.pathways import molecular_network
@@ -679,7 +677,7 @@ def render_surveillance(value: dict, site_id: str = "") -> list:
 
 # ── Prognosis ─────────────────────────────────────────────────────────
 
-def render_enhanced_prognosis(value: dict, site_id: str = "") -> list:
+def render_enhanced_prognosis(value: dict, site_id: str = "", enriched_all: dict | None = None) -> list:
     components = [html.H3("Prognosis", className="section-heading")]
     if not isinstance(value, dict):
         return components
@@ -691,15 +689,16 @@ def render_enhanced_prognosis(value: dict, site_id: str = "") -> list:
             className="definition-blockquote",
         ))
 
+    # Batch-loaded enriched data for chart + factors
+    enriched = (enriched_all or {}).get("prognosis") if enriched_all else _load_enriched(site_id, "prognosis")
+
     # Try enriched cache first for survival chart
     chart_stages = []; chart_os = []
-    if site_id:
-        enriched = _load_enriched(site_id, "prognosis")
-        if enriched:
-            ec = enriched.get("chart", {})
-            if ec.get("stages") and ec.get("os"):
-                chart_stages = ec["stages"]
-                chart_os = ec["os"]
+    if enriched:
+        ec = enriched.get("chart", {})
+        if ec.get("stages") and ec.get("os"):
+            chart_stages = ec["stages"]
+            chart_os = ec["os"]
 
     # Fallback: parse from raw by_stage data
     if not chart_stages and isinstance(value.get("by_stage"), list):
@@ -726,10 +725,8 @@ def render_enhanced_prognosis(value: dict, site_id: str = "") -> list:
 
     # Prognostic factors cards
     factors = []
-    if site_id:
-        enriched = _load_enriched(site_id, "prognosis")
-        if enriched and enriched.get("factors"):
-            factors = enriched["factors"]
+    if enriched and enriched.get("factors"):
+        factors = enriched["factors"]
     if not factors and isinstance(value.get("prognostic_factors"), list):
         factors = value["prognostic_factors"]
 
