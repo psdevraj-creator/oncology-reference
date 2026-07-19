@@ -3,75 +3,17 @@ from __future__ import annotations
 import os as _os
 
 import pandas as pd
-from dash import Input, Output, State, html
+from dash import ClientsideFunction, Input, Output, State, html
 
 from app.components.cards import category_sections
-from app.components.tables import create_table
 from app.data.category_map import group_sites_by_system
 from app.data.loader import (
-    get_all_settings,
-    get_all_modalities,
-    get_all_biomarkers,
-    get_regimens_df,
     get_regimens_for_site,
     get_sites,
     site_exists,
 )
 from app.data.transforms import extract_trial_outcomes
 from app.pages import disease, home, regimens, trials
-
-
-REGIMEN_DISPLAY_COLS = [
-    {"name": "Regimen", "id": "regimen_name"},
-    {"name": "Setting", "id": "setting"},
-    {"name": "Modality", "id": "Modality"},
-    {"name": "Drugs", "id": "Drugs"},
-    {"name": "Biomarkers", "id": "Biomarkers"},
-    {"name": "Evidence", "id": "evidence_level"},
-    {"name": "Category", "id": "guideline_category"},
-]
-
-
-def _search_regimens(df: pd.DataFrame, term: str) -> pd.DataFrame:
-    mask = pd.Series(False, index=df.index)
-
-    for col in ["regimen_name", "setting", "notes", "evidence_level", "guideline_category"]:
-        if col in df.columns:
-            mask |= df[col].astype(str).str.lower().str.contains(term, na=False)
-
-    if "drugs" in df.columns:
-        mask |= df["drugs"].apply(
-            lambda x: any(
-                term in str(d.get("name", "")).lower()
-                or term in str(d.get("dose", "")).lower()
-                or term in str(d.get("schedule", "")).lower()
-                for d in x if isinstance(d, dict)
-            )
-            if isinstance(x, list) else False
-        )
-
-    if "biomarkers" in df.columns:
-        mask |= df["biomarkers"].apply(
-            lambda x: any(
-                term in str(b.get("marker", "")).lower()
-                or term in str(b.get("requirement", "")).lower()
-                for b in x if isinstance(b, dict)
-            )
-            if isinstance(x, list) else False
-        )
-
-    if "treatment_modality" in df.columns:
-        mask |= df["treatment_modality"].apply(
-            lambda x: any(term in str(m).lower() for m in x)
-            if isinstance(x, list) else False
-        )
-
-    # Pre-flattened columns (already in DF from load_all)
-    for col in ["Drugs", "Biomarkers", "Modality"]:
-        if col in df.columns:
-            mask |= df[col].astype(str).str.lower().str.contains(term, na=False)
-
-    return df[mask]
 
 
 def register_callbacks(app) -> None:
@@ -124,62 +66,16 @@ def register_callbacks(app) -> None:
             grouped = {k: v for k, v in grouped.items() if k == active_system}
         return category_sections(grouped)
 
-    @app.callback(
-        Output("regimen-table-container", "children"),
+    # ── Clientside: filter regimens in browser from dcc.Store ───
+    app.clientside_callback(
+        ClientsideFunction(namespace="regimen", function_name="filter"),
+        Output("regimen-table", "data"),
+        Input("regimen-store", "data"),
         Input("setting-filter", "value"),
         Input("modality-filter", "value"),
         Input("biomarker-filter", "value"),
         Input("regimen-search", "value"),
-        State("url", "pathname"),
     )
-    def filter_regimens(settings, modalities, biomarkers, search_term, pathname):
-        site_id = None
-        if pathname and pathname.startswith("/regimens/"):
-            parts = pathname.split("/regimens/", 1)
-            if len(parts) > 1 and parts[1]:
-                site_id = parts[1].rstrip("/")
-
-        if site_id and site_exists(site_id):
-            df = get_regimens_for_site(site_id)
-        else:
-            df = get_regimens_df()
-
-        if df.empty:
-            return [html.P("No regimens available.", className="text-muted")]
-
-        if settings:
-            df = df[df["setting"].isin(settings)]
-        if modalities:
-            df = df[df["treatment_modality"].apply(
-                lambda x: any(m in modalities for m in x)
-                if isinstance(x, list) else False
-            )]
-        if biomarkers:
-            def _has_biomarker(row_bios, target):
-                if not isinstance(row_bios, list):
-                    return False
-                for b in row_bios:
-                    if isinstance(b, dict) and b.get("marker", "") in target:
-                        return True
-                return False
-            df = df[df["biomarkers"].apply(lambda x: _has_biomarker(x, biomarkers))]
-        if search_term:
-            term = search_term.lower().strip()
-            if term:
-                df = _search_regimens(df, term)
-
-        table_cols = [c for c in REGIMEN_DISPLAY_COLS if c["id"] in df.columns]
-
-        return [
-            create_table(
-                data=df.to_dict("records"),
-                columns=table_cols,
-                id="regimen-table",
-                row_selectable="single",
-                selected_rows=[],
-                page_size=20,
-            ),
-        ]
 
     @app.callback(
         Output("regimen-detail", "children"),

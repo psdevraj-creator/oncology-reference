@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import dash_bootstrap_components as dbc
-from dash import html
+from dash import dcc, html
 
 from app.components.filters import search_bar, filter_bar
 from app.components.navigation import breadcrumb
@@ -47,6 +47,7 @@ def layout(site_id: str | None = None) -> list:
 
     df_flat = flatten_regimens_for_table(df)
     table_cols = [c for c in REGIMEN_DISPLAY_COLS if c["id"] in df_flat.columns]
+    store_data = df_flat.to_dict("records")
 
     return [
         breadcrumb(crumbs),
@@ -65,9 +66,11 @@ def layout(site_id: str | None = None) -> list:
             biomarkers=get_all_biomarkers(site_id),
         ),
 
+        dcc.Store(id="regimen-store", data=store_data),
+
         html.Div(id="regimen-table-container", children=[
             create_table(
-                data=df_flat.to_dict("records"),
+                data=store_data,
                 columns=table_cols,
                 id="regimen-table",
                 row_selectable="single",

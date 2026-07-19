@@ -12,4 +12,18 @@ def create_app() -> dash.Dash:
             {"name": "viewport", "content": "width=device-width, initial-scale=1"},
         ],
     )
+
+    # Register service worker for offline/cached repeat visits
+    app.index_string = app.index_string.replace(
+        "</head>",
+        """<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/assets/service-worker.js');
+  });
+}
+</script>
+</head>""",
+    )
+
     return app
