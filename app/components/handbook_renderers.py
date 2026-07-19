@@ -52,6 +52,60 @@ def _load_enriched(site_id: str | None, section: str) -> dict | None:
     return None
 
 
+_TITLE_KEYS = ["name", "title", "factor", "complication", "situation", "procedure",
+               "test", "test_name", "intent", "regimen_name", "pathway", "category"]
+_BODY_KEYS = ["detail", "description", "content", "body", "text", "notes",
+              "management", "key_message", "evidence", "summary", "rationale",
+              "indications", "recommendation", "overview"]
+
+
+def _dict_to_card(item: dict, icon: str = "bi-file-medical",
+                  color: str = "#6366f1", extra_badges: list | None = None) -> dmc.Paper:
+    """Universal dict renderer: detects title/body from any key set, never dumps raw JSON."""
+    title = ""
+    body_parts = []
+
+    # Find title from known keys
+    for k in _TITLE_KEYS:
+        if k in item and item[k]:
+            title = str(item[k])
+            break
+    if not title:
+        # Use first short string key as title
+        for k, v in item.items():
+            if isinstance(v, str) and len(v) < 100:
+                title = v
+                break
+
+    # Build body from remaining keys
+    for k, v in item.items():
+        if k == title or (isinstance(v, str) and v == title):
+            continue
+        if isinstance(v, str) and v.strip():
+            if k in _BODY_KEYS or len(v) > 50:
+                body_parts.append(v)
+            else:
+                body_parts.append(f"**{k.replace('_', ' ').title()}**: {v}")
+        elif isinstance(v, (list, dict)):
+            body_parts.append(str(v))
+
+    # Extra badges (type, strength, frequency, severity)
+    extras = list(extra_badges or [])
+    for k in ["type", "strength", "frequency", "severity", "category"]:
+        if k in item and item[k]:
+            c = color.replace("#", "") if color else "blue"
+            extras.append(dmc.Badge(str(item[k]), color=c if isinstance(item[k], str) else "gray",
+                                     variant="light", size="sm"))
+
+    return vibrantsym_card(
+        title=title or "Details",
+        body="\n\n".join(body_parts) if body_parts else json.dumps(item, ensure_ascii=False, indent=1),
+        icon=icon,
+        color=color,
+        extra=extras if extras else None,
+    )
+
+
 # ── Epidemiology ──────────────────────────────────────────────────────
 
 def render_epidemiology(value, site_id: str = "") -> list:
@@ -411,12 +465,12 @@ def render_complications(value: dict, site_id: str = "") -> list:
             components.append(html.H4(label, className="subsection-heading"))
             cards = []
             for item in items:
-                text = item if isinstance(item, str) else item.get("detail", str(item))
-                name = item if isinstance(item, str) else item.get("name", "")
-                cards.append(vibrantsym_card(
-                    title=name, body=text, icon="bi-exclamation-circle",
-                    color=color,
-                ))
+                if isinstance(item, dict):
+                    cards.append(_dict_to_card(item, icon="bi-exclamation-circle", color=color))
+                elif isinstance(item, str):
+                    cards.append(vibrantsym_card(
+                        title="", body=item, icon="bi-exclamation-circle", color=color,
+                    ))
             if cards:
                 components.append(dmc.SimpleGrid(cols={"base": 1, "sm": 2}, spacing="md", children=cards))
 
@@ -511,12 +565,7 @@ def render_special_situations(value: list, site_id: str = "") -> list:
     cards = []
     for item in value:
         if isinstance(item, dict):
-            title = item.get("title", item.get("name", item.get("situation", "")))
-            body = item.get("detail", item.get("description", item.get("content", str(item))))
-            cards.append(vibrantsym_card(
-                title=title, body=body, icon="bi-exclamation-diamond",
-                color="#ec4899",
-            ))
+            cards.append(_dict_to_card(item, icon="bi-exclamation-diamond", color="#ec4899"))
         elif isinstance(item, str):
             cards.append(vibrantsym_card(
                 title="", body=item, icon="bi-exclamation-diamond", color="#ec4899",
@@ -535,14 +584,10 @@ def render_guidelines_resources(value: list, site_id: str = "") -> list:
     cards = []
     for item in value:
         if isinstance(item, dict):
-            name = item.get("name", item.get("title", ""))
             org = item.get("organisation", item.get("org", ""))
-            detail = item.get("detail", item.get("description", ""))
-            cards.append(vibrantsym_card(
-                title=name, body=detail, icon="bi-journal-check",
-                color="#6366f1",
-                extra=[dmc.Badge(org, color="indigo", variant="light")] if org else None,
-            ))
+            extra = [dmc.Badge(org, color="indigo", variant="light")] if org else None
+            cards.append(_dict_to_card(item, icon="bi-journal-check", color="#6366f1",
+                                       extra_badges=extra))
     if cards:
         components.append(dmc.SimpleGrid(cols={"base": 1, "sm": 2}, spacing="md", children=cards))
     return components
