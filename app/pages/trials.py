@@ -13,6 +13,7 @@ from app.components.trial_viz import (
     render_trial_card,
     render_trial_timeline,
 )
+from app.components.evidence_viz import render_evidence_dashboard
 from app.data.loader import (
     get_handbook,
     get_pubmed_data,
@@ -117,6 +118,10 @@ def layout(site_id: str | None = None) -> list:
             dbc.Col(render_orr_waterfall(all_with_data), xs=12, md=6),
             dbc.Col(render_trial_timeline(all_with_data), xs=12, md=6),
         ], className="mb-3"),
+
+        html.Hr(),
+        html.H5("Evidence Dashboard", className="mb-3"),
+        render_evidence_dashboard(all_with_data),
 
         html.Hr(),
         html.H5(f"Trial Summaries ({len(trials)})", className="mb-3"),
