@@ -8,6 +8,17 @@ import plotly.graph_objects as go
 from dash import dcc, html
 
 from app.data.loader import get_pubmed_data as _get_pubmed
+from app.data.nct_loader import get_nct_loader
+
+
+_nct = None
+
+
+def _ensure_nct():
+    global _nct
+    if _nct is None:
+        _nct = get_nct_loader()
+    return _nct
 
 
 def _parse_hr(value: Any) -> Optional[float]:
@@ -408,6 +419,24 @@ def render_trial_card(trial: dict[str, Any], pubmed_data: Optional[dict] = None,
             target="_blank",
             className="text-decoration-none",
         ))
+
+    # NCT verified data badges
+    nct_loader = _ensure_nct()
+    nct_data = nct_loader.lookup_by_trial_name(str(acronym)) if acronym else None
+    if nct_data and nct_data.get("nct_id"):
+        nct_id = nct_data["nct_id"]
+        badge_row.append(html.A(
+            dbc.Badge(f"{nct_id}", color="primary", className="me-1 rounded-pill"),
+            href=f"https://clinicaltrials.gov/study/{nct_id}",
+            target="_blank",
+            className="text-decoration-none",
+        ))
+        if nct_data.get("has_results"):
+            badge_row.append(dbc.Badge("NCT Results", color="warning", className="me-1 rounded-pill"))
+        # Override enrollment with verified data
+        nct_n = nct_data.get("enrollment")
+        if nct_n and not n_val:
+            n_val = nct_n
 
     body_items = []
     if population:

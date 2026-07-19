@@ -36,6 +36,7 @@ DATA_DIR = SCRIPT_DIR / "data"
 MERGED_DIR = DATA_DIR / "merged"
 INTERMEDIATE_DIR = DATA_DIR / "intermediate"
 PUBMED_DIR = DATA_DIR / "pubmed"
+OVERIDES_FILE = PUBMED_DIR / "nct_overrides.json"
 CACHE_MAX_AGE_DAYS = 30
 
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
@@ -264,19 +265,73 @@ def collect_trial_names() -> set[str]:
     return trials
 
 
-def pubmed_search(query: str, api_key: Optional[str] = None) -> Optional[str]:
+def pubmed_search_multi(query: str, api_key: Optional[str] = None) -> list[str]:
+    """Search PubMed, return up to 5 PMIDs for relevance scoring."""
     url = f"{EUTILS_BASE}/esearch.fcgi"
-    params = {"db": "pubmed", "term": query, "retmax": "1", "retmode": "json"}
+    params = {"db": "pubmed", "term": query, "retmax": "5", "retmode": "json"}
     if api_key:
         params["api_key"] = api_key
     try:
         resp = requests.get(url, params=params, timeout=15)
         resp.raise_for_status()
         data = resp.json()
-        ids = data.get("esearchresult", {}).get("idlist", [])
-        return ids[0] if ids else None
+        return data.get("esearchresult", {}).get("idlist", [])
     except Exception:
-        return None
+        return []
+
+
+def relevance_score(pubmed_data: dict, trial_name: str, terms: dict) -> int:
+    """Score a PubMed result for relevance to the trial (0-100).
+    
+    >60: Excellent match — highly likely correct
+    40-60: Good match — probably correct
+    20-40: Weak match — suspect
+    <20: Probable mismatch — reject
+    """
+    title = (pubmed_data.get("title") or "").lower()
+    abstract = (pubmed_data.get("abstract") or "").lower()
+    combined = title + " " + abstract
+    score = 0
+
+    acronyms = terms.get("acronyms", [])
+    drugs = terms.get("drugs", [])
+    cancers = terms.get("cancers", [])
+
+    # Acronym in title (highest weight)
+    for acro in acronyms:
+        acro_lower = acro.lower().strip()
+        if acro_lower in title:
+            score += 45
+        elif acro_lower in abstract:
+            score += 20
+
+    # Drug names in title/abstract
+    drug_count = sum(1 for d in drugs if d.lower() in combined)
+    if drug_count > 0:
+        score += min(drug_count * 12, 30)
+
+    # Cancer type match
+    cancer_count = sum(1 for c in cancers if c.lower() in combined)
+    score += min(cancer_count * 8, 20)
+
+    # Penalize clearly non-oncology content
+    non_oncology = ["fish", "ocean", "sunfish", "mola", "forensic", "trauma",
+                    "accident", "earthquake", "volcano", "botanical", "zoology"]
+    for word in non_oncology:
+        if word in combined:
+            score -= 30  # Heavy penalty for clearly unrelated content
+
+    # Bonus: clinical trial in publication type or title
+    if "trial" in title or "clinical trial" in pubmed_data.get("journal", "").lower():
+        score += 5
+
+    # NCT ID match in abstract
+    nct_ids = terms.get("nct_ids", [])
+    for nct in nct_ids:
+        if nct.lower() in abstract:
+            score += 20
+
+    return max(0, min(score, 100))
 
 
 def pubmed_fetch(pmid: str, api_key: Optional[str] = None) -> Optional[dict]:
@@ -401,6 +456,16 @@ def main():
     already = len(all_trials) - len(to_query) - skipped
     print(f"Cached: {already}, Skipped (non-trial): {skipped}, To query: {len(to_query)}")
 
+    # Load NCT-verified overrides
+    nct_overrides = {}
+    if OVERIDES_FILE.exists():
+        try:
+            with open(OVERIDES_FILE, encoding="utf-8") as f:
+                nct_overrides = json.load(f)
+        except Exception:
+            pass
+    print(f"NCT overrides: {len(nct_overrides)} trials")
+
     if args.dry_run:
         print("\n[Dry run] Query strategy preview:")
         for name in to_query[:20]:
@@ -417,39 +482,76 @@ def main():
     success = 0
     no_match = 0
     errors = 0
+    rejected = 0
     start_time = time.time()
 
     for i, name in enumerate(to_query, 1):
+        print(f"[{i}/{len(to_query)}] {name[:50]:<50} ", end="", flush=True)
+
+        # Check NCT overrides first — verified correct PMIDs
+        override = nct_overrides.get(name)
+        if override:
+            for pmid in override["pmids"]:
+                data = pubmed_fetch(pmid, api_key)
+                if data:
+                    data["trial_name"] = name
+                    data["relevance_score"] = 100  # NCT-verified
+                    data["nct_id"] = override.get("nct_id", "")
+                    fn = normalize_filename(name)
+                    cache_path = PUBMED_DIR / f"{fn}.json"
+                    with open(cache_path, "w", encoding="utf-8") as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
+                    print(f"NCT-OK (PMID:{pmid})")
+                    success += 1
+                    break
+            else:
+                print(f"NCT-FAIL (no fetchable PMID)")
+                errors += 1
+            continue
+
         queries = build_queries(name)
         if not queries:
             no_match += 1
             continue
 
-        print(f"[{i}/{len(to_query)}] {name[:55]:<55} ", end="", flush=True)
+        terms = extract_key_terms(name)
+        best_candidate = None
+        best_score = -1
 
-        pmid = None
+        # Search with all query strategies, scoring each result
+        seen_pmids = set()
         for q in queries[:5]:
-            pmid = pubmed_search(q, api_key)
-            if pmid:
+            pmids = pubmed_search_multi(q, api_key)
+            for pmid in pmids:
+                if pmid in seen_pmids:
+                    continue
+                seen_pmids.add(pmid)
+                data = pubmed_fetch(pmid, api_key)
+                if data:
+                    score = relevance_score(data, name, terms)
+                    if score > best_score:
+                        best_score = score
+                        data["relevance_score"] = score
+                        best_candidate = data
+            if best_score >= 60:  # Excellent match — stop searching
                 break
             time.sleep(0.08)
 
-        if not pmid:
-            print("NO MATCH")
-            no_match += 1
+        if best_candidate and best_score >= 30:
+            best_candidate["trial_name"] = name
+            fn = normalize_filename(name)
+            cache_path = PUBMED_DIR / f"{fn}.json"
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump(best_candidate, f, ensure_ascii=False, indent=2)
+            print(f"OK (PMID:{best_candidate['pmid']}, score={best_score})")
+            success += 1
+        elif best_candidate:
+            # Found something but too low confidence — reject
+            rejected += 1
+            print(f"REJECT (best score={best_score}, PMID:{best_candidate['pmid']})")
         else:
-            data = pubmed_fetch(pmid, api_key)
-            if data:
-                data["trial_name"] = name
-                fn = normalize_filename(name)
-                cache_path = PUBMED_DIR / f"{fn}.json"
-                with open(cache_path, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                print(f"OK (PMID:{pmid})")
-                success += 1
-            else:
-                print("FETCH ERR")
-                errors += 1
+            print(f"NO MATCH")
+            no_match += 1
 
         if i < len(to_query):
             time.sleep(delay)
@@ -464,6 +566,7 @@ def main():
     print()
     print(f"Done in {elapsed:.0f}s")
     print(f"  Success:  {success}")
+    print(f"  Rejected (low score): {rejected}")
     print(f"  No match: {no_match}")
     print(f"  Errors:   {errors}")
     print(f"  Cache:    {len(list(PUBMED_DIR.glob('*.json')))} files")
