@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 _root = Path(SPECPATH).resolve()
+_site_pkgs = Path(sys.executable).parent / "Lib" / "site-packages"
 
 a = Analysis(
     [str(_root / "desktop_launcher.py")],
@@ -13,6 +14,9 @@ a = Analysis(
     datas=[
         (str(_root / "data"), "data"),
         (str(_root / "app" / "assets"), "app/assets"),
+        (str(_site_pkgs / "dash_mantine_components" / "package-info.json"), "dash_mantine_components"),
+        (str(_site_pkgs / "dash_cytoscape" / "metadata.json"), "dash_cytoscape"),
+        (str(_site_pkgs / "dash_cytoscape" / "package.json"), "dash_cytoscape"),
     ],
     hiddenimports=[
         "dash",

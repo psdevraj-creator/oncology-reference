@@ -38,6 +38,14 @@ def _open_browser(port: int, delay: float = 2.0):
     webbrowser.open(f"http://localhost:{port}")
 
 
+def _show_fatal_error(msg: str):
+    try:
+        import ctypes
+        ctypes.windll.user32.MessageBoxW(0, msg, "Oncology Handbook — Fatal Error", 0x10)
+    except Exception:
+        pass
+
+
 def main():
     log_fh = _setup_logging()
     try:
@@ -53,12 +61,12 @@ def main():
         print("Close this window or click 'Stop Server' in the app to exit.")
         server.run(host="127.0.0.1", port=port, debug=False, use_reloader=False)
     except Exception as e:
-        print(f"FATAL ERROR: {e}", file=sys.stderr)
         import traceback
+        err_msg = f"An error occurred starting the Oncology Handbook:\n\n{type(e).__name__}: {e}\n\nDetails written to: {_LOG_FILE}"
+        print(f"FATAL ERROR: {e}", file=sys.stderr)
         traceback.print_exc()
         _restore_logging(log_fh)
-        print(f"\nAn error occurred. Check {_LOG_FILE} for details.")
-        input("Press Enter to exit...")
+        _show_fatal_error(err_msg)
         sys.exit(1)
     finally:
         _restore_logging(log_fh)
