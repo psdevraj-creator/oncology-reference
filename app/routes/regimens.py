@@ -62,19 +62,20 @@ def _safe_falsy(v):
 
 
 def _process_regimen(r: dict) -> dict:
+    # Normalize ALL values — pandas to_dict() can return ndarray for object cols
+    r = {k: v.tolist() if hasattr(v, 'tolist') else v for k, v in r.items()}
     setting = r.get("setting", "") or ""
     subsite = _extract_subsite(r.get("site", ""))
     intent = _classify_intent(setting)
     line = _classify_line(setting)
-    modality = r.get("Modality", "") if not _safe_falsy(r.get("Modality")) else ""
-    evidence = r.get("evidence_level", "") if not _safe_falsy(r.get("evidence_level")) else ""
-    guideline = r.get("guideline_category", "") if not _safe_falsy(r.get("guideline_category")) else ""
+    modality = (r.get("Modality") or "") if not _safe_falsy(r.get("Modality")) else ""
+    evidence = (r.get("evidence_level") or "") if not _safe_falsy(r.get("evidence_level")) else ""
+    guideline = (r.get("guideline_category") or "") if not _safe_falsy(r.get("guideline_category")) else ""
     drugs_raw = r.get("drugs", [])
     if isinstance(drugs_raw, list):
         drug_names = [d.get("name", "") for d in drugs_raw if isinstance(d, dict)]
         drugs_short = " + ".join(drug_names)
     else:
-        drugs_raw = drugs_raw.tolist() if hasattr(drugs_raw, 'tolist') else drugs_raw
         drugs_short = str(drugs_raw) if not _safe_falsy(drugs_raw) else ""
     raw_td = r.get("trial_data")
     if isinstance(raw_td, (list, tuple)):
@@ -82,13 +83,17 @@ def _process_regimen(r: dict) -> dict:
     if not isinstance(raw_td, dict):
         raw_td = {}
     trial_data = _trial_summary(raw_td)
+    drugs_out = drugs_raw if isinstance(drugs_raw, list) else []
+    biomarkers_out = r.get("biomarkers", [])
+    if not isinstance(biomarkers_out, list):
+        biomarkers_out = []
     return {
         "regimen_name": r.get("regimen_name", ""),
         "setting": setting, "subsite": subsite, "intent": intent, "line": line,
         "modality": modality, "drugs_short": drugs_short,
         "evidence_level": evidence, "guideline_category": guideline,
         "has_trial": trial_data is not None,
-        "drugs": r.get("drugs", []), "biomarkers": r.get("biomarkers", []),
+        "drugs": drugs_out, "biomarkers": biomarkers_out,
         "trial_data": trial_data, "notes": r.get("notes", ""),
         "site_name": r.get("_site_display", r.get("_site_id", "")),
         "site_id": r.get("_site_id", ""),
