@@ -1,0 +1,192 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container-fluid py-3">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/"><i class="bi bi-house me-1"></i>Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ site.display_name }}</li>
+    </ol>
+  </nav>
+
+  <div class="row g-0">
+    <div class="col-12 col-md-3 col-lg-2 sidebar-col">
+      <div class="sticky-sidebar p-3">
+        <h5 class="mb-3"><i class="bi bi-list-ul me-1"></i>Sections</h5>
+        <nav id="toc-sidebar">
+          {% for item in toc %}
+          <a class="toc-link" href="#{{ item.id }}">
+            <i class="bi bi-{{ item.icon }} me-1"></i>{{ item.label }}
+          </a>
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-9 col-lg-10 content-col">
+      <div class="disease-header-accent"></div>
+
+      <div class="disease-header mb-3">
+        <h2 class="mb-1">{{ site.display_name }}</h2>
+        <div class="mb-2">
+          <span class="badge bg-primary me-1">Archetype {{ site.archetype | default("?") }}</span>
+          <span class="badge bg-secondary me-1">{{ regimen_count }} regimens</span>
+          <span class="badge bg-light text-dark border">{{ site.id }}</span>
+        </div>
+        {% if site.description %}
+        <p class="text-muted mb-0">{{ site.description }}</p>
+        {% endif %}
+      </div>
+
+      <div id="disease-content"
+           x-data="{ search: '', matches: [], currentIdx: 0, originalContent: '' }"
+           x-init="originalContent = $el.innerHTML">
+
+        <div class="search-sticky">
+          <input type="search" class="form-control" placeholder="Search within this page..."
+                 x-model="search"
+                 @input.debounce="doSearch()">
+          <div class="search-nav" x-show="matches.length > 0" x-cloak>
+            <button class="search-nav-btn" @click="prevMatch()" :disabled="matches.length === 0">&larr;</button>
+            <span class="match-count" x-text="(currentIdx + 1) + ' of ' + matches.length"></span>
+            <button class="search-nav-btn" @click="nextMatch()" :disabled="matches.length === 0">&rarr;</button>
+            <button class="search-clear" @click="clearSearch()">&times;</button>
+          </div>
+        </div>
+
+        <div id="handbook-content">
+          {{ handbook_html | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Collapsible sections via heading click
+    document.addEventListener('click', function(e) {
+      var heading = e.target.closest('.section-heading');
+      if (!heading) return;
+      var block = heading.closest('.section-block');
+      if (!block) return;
+
+      var icon = heading.querySelector('.collapse-icon');
+      var content = block.querySelector('.section-block > .section-heading + *');
+      if (!content) return;
+
+      var isOpen = !block.classList.contains('x-collapsed');
+      block.classList.toggle('x-collapsed', isOpen);
+
+      // Toggle all sibling elements after heading
+      var siblings = [];
+      var next = content;
+      while (next) {
+        siblings.push(next);
+        next = next.nextElementSibling;
+      }
+      siblings.forEach(function(el) {
+        el.style.display = isOpen ? 'none' : '';
+      });
+
+      if (icon) icon.classList.toggle('is-closed', isOpen);
+    });
+
+    // Search: doSearch, prevMatch, nextMatch, clearSearch functions
+    var handbookEl = document.getElementById('handbook-content');
+    if (handbookEl) {
+      var originalHTML = handbookEl.innerHTML;
+
+      window.doSearch = function() {
+        var el = document.querySelector('[x-data]');
+        if (!el) return;
+        var search = Alpine.$data(el).search || '';
+
+        if (!search) {
+          handbookEl.innerHTML = originalHTML;
+          Alpine.$data(el).matches = [];
+          Alpine.$data(el).currentIdx = 0;
+          return;
+        }
+
+        // Restore original content first
+        handbookEl.innerHTML = originalHTML;
+
+        var q = search.toLowerCase();
+        var blocks = handbookEl.querySelectorAll('.section-block');
+        var matches = [];
+
+        blocks.forEach(function(block, idx) {
+          var text = block.textContent.toLowerCase();
+          if (text.includes(q)) {
+            matches.push(block);
+            block.style.display = '';
+            // Highlight matching text
+            highlightText(block, q);
+          } else {
+            block.style.display = 'none';
+          }
+        });
+
+        Alpine.$data(el).matches = matches;
+        Alpine.$data(el).currentIdx = 0;
+
+        if (matches.length > 0) {
+          matches[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+          matches[0].classList.add('search-current');
+        }
+      };
+
+      window.nextMatch = function() {
+        var el = document.querySelector('[x-data]');
+        if (!el) return;
+        var data = Alpine.$data(el);
+        if (data.matches.length === 0) return;
+        data.matches.forEach(function(b) { b.classList.remove('search-current'); });
+        data.currentIdx = (data.currentIdx + 1) % data.matches.length;
+        data.matches[data.currentIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        data.matches[data.currentIdx].classList.add('search-current');
+      };
+
+      window.prevMatch = function() {
+        var el = document.querySelector('[x-data]');
+        if (!el) return;
+        var data = Alpine.$data(el);
+        if (data.matches.length === 0) return;
+        data.matches.forEach(function(b) { b.classList.remove('search-current'); });
+        data.currentIdx = (data.currentIdx - 1 + data.matches.length) % data.matches.length;
+        data.matches[data.currentIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        data.matches[data.currentIdx].classList.add('search-current');
+      };
+
+      window.clearSearch = function() {
+        var el = document.querySelector('[x-data]');
+        if (!el) return;
+        Alpine.$data(el).search = '';
+        handbookEl.innerHTML = originalHTML;
+        Alpine.$data(el).matches = [];
+        Alpine.$data(el).currentIdx = 0;
+      };
+
+      function highlightText(block, query) {
+        var walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT, null, false);
+        var textNodes = [];
+        while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+        textNodes.forEach(function(node) {
+          var text = node.textContent;
+          var idx = text.toLowerCase().indexOf(query);
+          if (idx === -1) return;
+          var span = document.createElement('span');
+          span.innerHTML = text.substring(0, idx) + '<mark class="search-hl">' + text.substring(idx, idx + query.length) + '</mark>' + text.substring(idx + query.length);
+          node.parentNode.replaceChild(span, node);
+        });
+      }
+    }
+  });
+</script>
+
+<style>
+  [x-cloak] { display: none !important; }
+</style>
+{% endblock %}

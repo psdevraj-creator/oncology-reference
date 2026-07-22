@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="hero-section">
+  <div class="hero-inner">
+    <div class="hero-icon">🧬</div>
+    <h1 class="hero-title">Oncology Handbook</h1>
+    <p class="hero-subtitle">
+      Staging, regimens, RT doses, key trials, biomarkers, and FRCR pearls &mdash;
+      structured and searchable across 41 disease sites.
+    </p>
+    <div class="hero-search-wrapper">
+      <input type="search"
+             id="home-search"
+             name="q"
+             class="hero-search-input form-control"
+             placeholder="Search diseases, regimens, biomarkers..."
+             autocomplete="off"
+             hx-get="/search"
+             hx-trigger="keyup changed delay:250ms"
+             hx-target="#disease-grid-container"
+             hx-include="#filter-strip"
+             hx-push-url="true"
+             hx-indicator="#search-spinner"
+             value="{{ query }}">
+      <i class="bi bi-search hero-search-icon"></i>
+      <div id="search-spinner" class="htmx-indicator text-center py-2">
+        <div class="spinner-border spinner-border-sm text-primary" role="status">
+          <span class="visually-hidden">Searching...</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <span>{{ stats.sites }} Sites</span> &middot;
+      <span>{{ "{:,}".format(stats.regimens | int) }} Regimens</span> &middot;
+      <span>41 Handbooks</span> &middot;
+      <span>{{ stats.systems }} Systems</span>
+    </div>
+  </div>
+</div>
+
+<div class="filter-strip" id="filter-strip">
+  <div class="filter-pills">
+    <div class="filter-pill all-pill {{ 'active' if active_system == 'all' else '' }}"
+         data-value="all"
+         style="--pill-color: var(--clinical-primary);"
+         hx-get="/search" hx-trigger="click" hx-target="#disease-grid-container"
+         hx-include="[name='q']" hx-push-url="true"
+         hx-vals='{"system": "all"}'
+         hx-indicator="#search-spinner">
+      <i class="bi bi-grid-3x3-gap-fill"></i> All
+    </div>
+    {% for key, info in systems %}
+    <div class="filter-pill {{ 'active' if active_system == key else '' }}"
+         data-value="{{ key }}"
+         style="--pill-color: {{ info.color }};"
+         hx-get="/search" hx-trigger="click" hx-target="#disease-grid-container"
+         hx-include="[name='q']" hx-push-url="true"
+         hx-vals='{"system": "{{ key }}"}'
+         hx-indicator="#search-spinner">
+      <i class="bi {{ info.icon }}"></i> {{ info.name }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="disease-grid-container" class="container py-4">
+  {% include "partials/disease_cards.html" %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% if category_sections %}
+  {% for cat in category_sections %}
+  <div class="category-section" id="system-{{ cat.key }}" style="background: {{ cat.color }}04;">
+    <div class="category-header">
+      <i class="bi {{ cat.icon }} cat-header-icon" style="color: {{ cat.color }};"></i>
+      <span class="cat-header-name" style="color: {{ cat.color }};">{{ cat.name }}</span>
+      <span class="cat-header-count badge rounded-pill" style="background: {{ cat.color }}20; color: {{ cat.color }};">{{ cat.sites | length }} sites</span>
+    </div>
+    <div class="row g-3 disease-grid">
+      {% for site in cat.sites %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+        <a href="/disease/{{ site.id }}" class="text-decoration-none">
+          <div class="card disease-card shadow-sm h-100" style="border-left: 3px solid {{ cat.color }};">
+            <div class="card-body">
+              <div class="card-emoji">{{ site.get("emoji", "🧬") }}</div>
+              <h5 class="card-site-name">{{ site.display_name }}</h5>
+              <p class="card-description">
+                {{ site.get("description", "") if site.get("description") and site.get("description") | length > 8 else site.get("regimen_count", 0) | string + " regimens" }}
+              </p>
+              <div class="card-badges">
+                <span class="card-badge badge rounded-pill" style="background: {{ cat.color }}; color: #fff;">{{ site.get("regimen_count", 0) }} regimens</span>
+                <span class="card-badge badge rounded-pill" style="background: transparent; border: 1px solid {{ cat.color }}40; color: {{ cat.color }};">{{ cat.name }}</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+{% else %}
+  <div class="empty-state">
+    <i class="bi bi-search"></i>
+    <h4 class="text-muted">No sites match your search</h4>
+    <p class="text-muted">Try a different term or clear the filter.</p>
+  </div>
+{% endif %}

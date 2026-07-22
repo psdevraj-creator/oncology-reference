@@ -1,0 +1,314 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container-fluid py-3">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/"><i class="bi bi-house me-1"></i>Home</a></li>
+      {% if site_id %}
+      <li class="breadcrumb-item"><a href="/disease/{{ site_id }}">{{ site.display_name }}</a></li>
+      <li class="breadcrumb-item active">Regimens</li>
+      {% else %}
+      <li class="breadcrumb-item active">All Regimens</li>
+      {% endif %}
+    </ol>
+  </nav>
+
+  <div class="disease-header mb-3">
+    {% if site_id %}
+    <h2 class="mb-1">{{ site.display_name }}</h2>
+    <div class="mb-2">
+      <span class="badge bg-primary me-1">Archetype {{ site.archetype | default("?") }}</span>
+      <span class="badge bg-secondary me-1">{{ site.regimen_count }} regimens</span>
+    </div>
+    {% else %}
+    <h2 class="mb-1">All Regimens</h2>
+    <div class="mb-2">
+      <span class="badge bg-secondary me-1">{{ regimens_json | length }} regimens across all sites</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <div x-data="regimenApp()" x-cloak>
+    <!-- Filters -->
+    <div class="card mb-3">
+      <div class="card-body py-2">
+        <div class="row g-2 align-items-end">
+          {% if not site_id %}
+          <div class="col-12 col-sm-6 col-md-2">
+            <label class="form-label mb-0 small fw-semibold text-muted">Site</label>
+            <select class="form-select form-select-sm" x-model="filters.site">
+              <option value="">All</option>
+              {% for s in filter_options.sites %}
+              <option value="{{ s }}">{{ s }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          {% endif %}
+          <div class="col-12 col-sm-6 col-md-2">
+            <label class="form-label mb-0 small fw-semibold text-muted">Subsite</label>
+            <select class="form-select form-select-sm" x-model="filters.subsite">
+              <option value="">All</option>
+              {% for s in filter_options.subsites %}
+              <option value="{{ s }}">{{ s }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2">
+            <label class="form-label mb-0 small fw-semibold text-muted">Intent</label>
+            <select class="form-select form-select-sm" x-model="filters.intent">
+              <option value="">All</option>
+              {% for v in filter_options.intents %}
+              <option value="{{ v }}">{{ v }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-6 col-sm-3 col-md-2">
+            <label class="form-label mb-0 small fw-semibold text-muted">Line</label>
+            <select class="form-select form-select-sm" x-model="filters.line">
+              <option value="">All</option>
+              {% for v in filter_options.lines %}
+              <option value="{{ v }}">{{ v }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3">
+            <label class="form-label mb-0 small fw-semibold text-muted">Search</label>
+            <input type="search" class="form-control form-control-sm" x-model="filters.search" placeholder="Name, drug...">
+          </div>
+          <div class="col-12 col-sm-2 col-md-1 d-flex align-items-end pb-1">
+            <button class="btn btn-outline-secondary btn-sm w-100" @click="resetFilters()">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Count -->
+    <p class="small text-muted mb-1" x-text="filteredCount"></p>
+
+    <div class="row g-3">
+      <!-- Table -->
+      <div class="col-12" :class="selectedRegimen ? 'col-md-7 col-lg-8' : ''">
+        <div class="table-responsive" style="max-height: 600px; overflow-y: auto;">
+          <table class="table section-table regimen-table">
+            <thead>
+              <tr>
+                {% if not site_id %}<th @click="sortBy('site_name')" class="sortable" role="button">Site <span x-text="sortIcon('site_name')"></span></th>{% endif %}
+                <th @click="sortBy('regimen_name')" class="sortable" role="button">
+                  Regimen <span x-text="sortIcon('regimen_name')"></span>
+                </th>
+                <th @click="sortBy('setting')" class="sortable" role="button">
+                  Setting <span x-text="sortIcon('setting')"></span>
+                </th>
+                <th>Modality</th>
+                <th>Drugs</th>
+                <th>Evidence</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template x-for="(r, idx) in paginatedRows" :key="idx">
+                <tr @click="selectRegimen(r)" :class="selectedRegimen && selectedRegimen.regimen_name === r.regimen_name ? 'table-active' : ''" style="cursor: pointer;">
+                  {% if not site_id %}<td><a :href="'/disease/' + r.site_id" class="text-decoration-none small" x-text="r.site_name"></a></td>{% endif %}
+                  <td class="fw-semibold" x-text="r.regimen_name"></td>
+                  <td x-text="r.setting"></td>
+                  <td x-text="r.modality"></td>
+                  <td x-text="r.drugs_short"></td>
+                  <td><span class="badge bg-primary-subtle text-primary" x-text="r.evidence_level"></span></td>
+                  <td><span class="badge bg-secondary-subtle text-secondary" x-text="r.guideline_category"></span></td>
+                </tr>
+              </template>
+              <tr x-show="filteredRows.length === 0">
+                <td colspan="{% if site_id %}6{% else %}7{% endif %}" class="text-center text-muted py-4">No regimens match your filters</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="d-flex justify-content-between align-items-center mt-2" x-show="filteredRows.length > pageSize">
+          <small class="text-muted" x-text="'Page ' + (page + 1) + ' of ' + totalPages"></small>
+          <div>
+            <button class="btn btn-sm btn-outline-secondary me-1" @click="prevPage()" :disabled="page === 0">&larr; Prev</button>
+            <button class="btn btn-sm btn-outline-secondary" @click="nextPage()" :disabled="page >= totalPages - 1">Next &rarr;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail Panel -->
+      <div class="col-md-5 col-lg-4" x-show="selectedRegimen" style="display:none;">
+        <div class="card regimen-detail-card">
+          <div class="card-header d-flex align-items-center justify-content-between bg-white py-2">
+            <strong class="small text-uppercase text-muted">Regimen Detail</strong>
+            <button class="btn-close btn-sm" @click="selectedRegimen = null" aria-label="Close"></button>
+          </div>
+          <div class="card-body">
+            <template x-if="selectedRegimen">
+              <div>
+                <h5 class="mb-1" x-text="selectedRegimen.regimen_name"></h5>
+                <div class="mb-2">
+                  <span class="badge bg-primary me-1" x-text="selectedRegimen.evidence_level"></span>
+                  <span class="badge bg-secondary me-1" x-text="selectedRegimen.guideline_category"></span>
+                </div>
+                <p class="small text-muted mb-2" x-text="selectedRegimen.setting"></p>
+
+                <!-- Drugs -->
+                <template x-if="selectedRegimen.drugs && selectedRegimen.drugs.length > 0">
+                  <div>
+                    <h6 class="section-mini-heading"><i class="bi bi-capsule me-1"></i>Drugs</h6>
+                    <div class="table-responsive mb-3">
+                      <table class="table section-table">
+                        <thead><tr><th>Drug</th><th>Dose</th><th>Route</th><th>Schedule</th></tr></thead>
+                        <tbody>
+                          <template x-for="d in selectedRegimen.drugs" :key="d.name">
+                            <tr><td x-text="d.name"></td><td x-text="d.dose || ''"></td><td x-text="d.route || ''"></td><td x-text="d.schedule || d.day || ''"></td></tr>
+                          </template>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Trial Evidence -->
+                <template x-if="selectedRegimen.trial_data">
+                  <div>
+                    <h6 class="section-mini-heading"><i class="bi bi-journal-richtext me-1"></i>Trial Evidence</h6>
+                    <div class="table-responsive mb-3">
+                      <table class="table section-table">
+                        <tbody>
+                          <tr x-show="selectedRegimen.trial_data.trial_name"><td class="fw-semibold">Trial</td><td x-text="selectedRegimen.trial_data.trial_name"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.phase"><td class="fw-semibold">Phase</td><td x-text="selectedRegimen.trial_data.phase"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.n_patients"><td class="fw-semibold">N</td><td x-text="selectedRegimen.trial_data.n_patients"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.primary_endpoint"><td class="fw-semibold">Primary Endpoint</td><td x-text="selectedRegimen.trial_data.primary_endpoint"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.OS_HR"><td class="fw-semibold">OS</td><td x-text="selectedRegimen.trial_data.OS_HR"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.rPFS_HR || selectedRegimen.trial_data.PFS_HR"><td class="fw-semibold">PFS/rPFS</td><td x-text="selectedRegimen.trial_data.rPFS_HR || selectedRegimen.trial_data.PFS_HR"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.orr"><td class="fw-semibold">ORR</td><td x-text="selectedRegimen.trial_data.orr"></td></tr>
+                          <tr x-show="selectedRegimen.trial_data.key_outcomes"><td class="fw-semibold">Key Outcomes</td><td x-text="selectedRegimen.trial_data.key_outcomes"></td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Biomarkers -->
+                <template x-if="selectedRegimen.biomarkers && selectedRegimen.biomarkers.length > 0">
+                  <div>
+                    <h6 class="section-mini-heading"><i class="bi bi-droplet me-1"></i>Biomarkers</h6>
+                    <div class="table-responsive mb-3">
+                      <table class="table section-table">
+                        <thead><tr><th>Marker</th><th>Requirement</th><th>Mandatory</th></tr></thead>
+                        <tbody>
+                          <template x-for="b in selectedRegimen.biomarkers" :key="b.marker">
+                            <tr><td x-text="b.marker"></td><td x-text="b.requirement || ''"></td><td><span x-show="b.mandatory" class="badge bg-danger">Required</span><span x-show="!b.mandatory" class="text-muted small">Optional</span></td></tr>
+                          </template>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Notes -->
+                <template x-if="selectedRegimen.notes">
+                  <div>
+                    <h6 class="section-mini-heading"><i class="bi bi-chat-text me-1"></i>Notes</h6>
+                    <p class="small mb-0 text-muted" x-text="selectedRegimen.notes"></p>
+                  </div>
+                </template>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const REGIMENS_DATA = {{ regimens_json | tojson | safe }};
+
+  function regimenApp() {
+    return {
+      filters: { site: '', subsite: '', intent: '', line: '', search: '' },
+      {% if not site_id %}hasSiteFilter: true,{% endif %}
+      selectedRegimen: null,
+      sortField: 'regimen_name',
+      sortDir: 'asc',
+      page: 0,
+      pageSize: 20,
+
+      get filteredRows() {
+        var f = this.filters;
+        var q = f.search.toLowerCase();
+        return REGIMENS_DATA.filter(function(r) {
+          {% if not site_id %}if (f.site && r.site_name !== f.site) return false;{% endif %}
+          if (f.subsite && r.subsite !== f.subsite) return false;
+          if (f.intent && r.intent !== f.intent) return false;
+          if (f.line && r.line !== f.line) return false;
+          if (q && !r.regimen_name.toLowerCase().includes(q) && !r.drugs_short.toLowerCase().includes(q) && !r.setting.toLowerCase().includes(q)) return false;
+          return true;
+        }).sort(function(a, b) {
+          var av = (a[this.sortField] || '').toLowerCase();
+          var bv = (b[this.sortField] || '').toLowerCase();
+          return this.sortDir === 'asc' ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
+        }.bind(this));
+      },
+
+      get filteredCount() {
+        return 'Showing ' + this.filteredRows.length + ' of ' + REGIMENS_DATA.length + ' regimens';
+      },
+
+      get totalPages() {
+        return Math.ceil(this.filteredRows.length / this.pageSize) || 1;
+      },
+
+      get paginatedRows() {
+        var start = this.page * this.pageSize;
+        return this.filteredRows.slice(start, start + this.pageSize);
+      },
+
+      selectRegimen(r) {
+        this.selectedRegimen = r;
+      },
+
+      sortBy(field) {
+        if (this.sortField === field) {
+          this.sortDir = this.sortDir === 'asc' ? 'desc' : 'asc';
+        } else {
+          this.sortField = field;
+          this.sortDir = 'asc';
+        }
+      },
+
+      sortIcon(field) {
+        if (this.sortField !== field) return '';
+        return this.sortDir === 'asc' ? '\u25B2' : '\u25BC';
+      },
+
+      prevPage() {
+        if (this.page > 0) this.page--;
+      },
+
+      nextPage() {
+        if (this.page < this.totalPages - 1) this.page++;
+      },
+
+      resetFilters() {
+        this.filters = { subsite: '', intent: '', line: '', search: '' };
+        this.selectedRegimen = null;
+        this.page = 0;
+      },
+    };
+  }
+</script>
+
+<style>
+  .section-mini-heading { font-size: 0.82rem; font-weight: 700; color: var(--clinical-dark); border-bottom: 1px solid #eef2f6; padding-bottom: 4px; margin-bottom: 0.5rem; margin-top: 0.75rem; }
+  .regimen-detail-card { position: sticky; top: 1rem; border-radius: 8px; border: 1px solid #e2e8f0; max-height: calc(100vh - 120px); overflow-y: auto; }
+  .regimen-detail-card .card-header { border-bottom: 1px solid #eef2f6; position: sticky; top: 0; z-index: 2; }
+  .regimen-table th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  .regimen-table th.sortable:hover { background: #e9edf2; }
+  .regimen-table tbody tr:hover { background: #f0f5ff !important; cursor: pointer; }
+  .regimen-table tbody tr.table-active { background: #e8f0fe !important; }
+  [x-cloak] { display: none !important; }
+</style>
+{% endblock %}
