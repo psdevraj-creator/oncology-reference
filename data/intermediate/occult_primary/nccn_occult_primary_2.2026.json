@@ -1,0 +1,3133 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (3-weekly)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary; also Squamous Cell Carcinoma",
+            "setting": "First-line systemic therapy for disseminated disease or for limited disease not amenable to local therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175–200 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Hellenic Cooperative Oncology Group phase II study",
+                "phase": "II",
+                "n_patients": "not explicitly stated in guideline (study by Briasoulis et al.)",
+                "os": "median OS not explicitly stated in guideline for this regimen (Discussion mentions 11.0 months for paclitaxel/carboplatin in a different trial)",
+                "pfs": "not explicitly stated",
+                "orr": "38.7%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Preferred regimen for occult primary adenocarcinoma and squamous cell carcinoma. Based on phase II data showing ORR of 38.7%. Also used with weekly schedule (see Carboplatin/Paclitaxel weekly). Reference: Briasoulis et al. J Clin Oncol 2000;18:3101-3107 [1]; Berry et al. Cancer Invest 2007;25:27-31 [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "2"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Paclitaxel (weekly)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary; also Squamous Cell Carcinoma",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 2",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15, repeat every 4 weeks"
+                },
+                {
+                    "name": "Paclitaxel",
+                    "dose": "80 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Berry et al. phase II study",
+                "phase": "II",
+                "n_patients": "not explicitly stated",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "not explicitly stated for weekly schedule (study reported reasonable regimen for community)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Alternative weekly dosing schedule for carboplatin/paclitaxel. Consider for patients who may benefit from a split-dose schedule. Reference: Berry W, et al. Cancer Invest 2007;25:27-31 [2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Gemcitabine",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000–1250 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GEFCAPI 02 trial",
+                "phase": "Randomized phase II",
+                "n_patients": "52 (1:1 randomization)",
+                "os": "11 months (cisplatin/gemcitabine) vs 8 months (cisplatin alone)",
+                "pfs": "5 months vs 3 months",
+                "orr": "not explicitly stated for this regimen in guideline (Discussion: 55% in GEFCAPI 01)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Preferred regimen for occult primary adenocarcinoma. Based on GEFCAPI 02 trial showing improved OS compared to cisplatin alone. Reference: Gross-Goupil M, et al. Eur J Cancer 2012;48:721-727 [3]. Also used for squamous cell carcinoma (Other Recommended).",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "CAPEOX (Capecitabine/Oxaliplatin)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary Site",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1000 mg/m²",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–14, repeat every 3 weeks"
+                },
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "130 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred (Presumed GI Primary)",
+            "trial_data": {
+                "trial_name": "Phase II studies (Schuette et al.; Hainsworth et al.)",
+                "phase": "II",
+                "n_patients": "51 (first-line), 48 (second-line)",
+                "os": "7.5 months (first-line), 9.7 months (second-line)",
+                "pfs": "2.5 months (first-line), 3.7 months (second-line)",
+                "orr": "11.7% (first-line), 19% (second-line)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Preferred regimen for presumed GI primary occult primary adenocarcinoma. Also used in colorectal cancer. Reference: Cassidy J, et al. J Clin Oncol 2008;26:2006-2012 [4]; Schuette K, et al. Onkologie 2009;32:162-166 [153].",
+            "source_citation": {
+                "reference_numbers": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "regimen_name": "FOLFIRI (Leucovorin/Fluorouracil/Irinotecan)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary Site",
+            "setting": "First-line or second-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Infusion to match duration of Irinotecan infusion Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then 1200 mg/m²/day continuous infusion × 2 days (total 2400 mg/m² over 46–48 hours), repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred (Presumed GI Primary)",
+            "trial_data": {
+                "trial_name": "Retrospective study in CUP with colorectal profile (Hainsworth et al.)",
+                "phase": "Retrospective",
+                "n_patients": "32",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "50% (vs 17% with empiric therapy)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Preferred regimen for presumed GI primary, especially if colorectal molecular profile. Reference: Guimbaud R, et al. J Clin Oncol 2014;32:3520-3526 [5]; Fuchs CS, et al. J Clin Oncol 2007;25:4779-4786 [8]; Hainsworth JD, et al. Clin Colorectal Cancer 2012;11:112-118 [9].",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "mFOLFOX6 (Modified Leucovorin/Fluorouracil/Oxaliplatin)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary (Presumed GI); also Squamous Cell Carcinoma (Preferred)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Bolus Day 1, then 1200 mg/m²/day continuous infusion × 2 days (total 2400 mg/m² over 46–48 hours), repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred (Adenocarcinoma: Presumed GI; Squamous: Preferred)",
+            "trial_data": {
+                "trial_name": "Modified de Gramont regimen (Cheeseman et al.)",
+                "phase": "Not a specific CUP trial",
+                "n_patients": null,
+                "os": "not explicitly stated in CUP context",
+                "pfs": "not explicitly stated",
+                "orr": "not explicitly stated",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Preferred regimen for presumed GI primary adenocarcinoma and also preferred for squamous cell carcinoma. Oxaliplatin/5-FU/leucovorin backbone. Reference: Cheeseman SL, et al. Br J Cancer 2002;87:393-399 [10]; Cassidy J, et al. J Clin Oncol 2008;26:2006-2012 [4].",
+            "source_citation": {
+                "reference_numbers": [
+                    "4",
+                    "10"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine (Single Agent)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary (presumed GI); also Squamous Cell Carcinoma",
+            "setting": "Systemic therapy (alternative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "850–1250 mg/m²",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–14, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Twelves et al. (adjuvant colon cancer)",
+                "phase": "III",
+                "n_patients": "1987",
+                "os": "improved relapse-free survival (HR 0.86, 95% CI 0.74–0.99)",
+                "pfs": null,
+                "orr": null,
+                "hr": "0.86",
+                "ci": "0.74–0.99"
+            },
+            "notes": "Single-agent capecitabine for patients with presumed GI primary. Also used with concurrent radiation. Reference: Twelves C, et al. N Engl J Med 2005;352:2696-2704 [11].",
+            "source_citation": {
+                "reference_numbers": [
+                    "11"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Docetaxel",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary; also Squamous Cell Carcinoma",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "65 mg/m² (adenocarcinoma) or 75 mg/m² (squamous)",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Greco FA et al. phase II; Pentheroudakis G et al. phase II",
+                "phase": "II",
+                "n_patients": "47 (Hellenic study)",
+                "os": "16.2 months (overall), 22.6 months favorable risk, 5.3 months unfavorable",
+                "pfs": "5.5 months",
+                "orr": "32% overall, 46% favorable, 17% unfavorable",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Alternative to cisplatin-based regimens. Reference: Greco FA, et al. Ann Oncol 2000;11:211-215 [12]; Pentheroudakis G, et al. Acta Oncol 2008;47:1148-1155 [41].",
+            "source_citation": {
+                "reference_numbers": [
+                    "12",
+                    "41"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Gemcitabine",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary; also Squamous Cell Carcinoma",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5",
+                    "route": "IV",
+                    "schedule": "Day 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Adelaide Cancer Trials and Education Collaborative study",
+                "phase": "II",
+                "n_patients": "46",
+                "os": "34 weeks (median)",
+                "pfs": "18 weeks (median)",
+                "orr": "30.5%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Alternative platinum-based doublet. Reference: Pittman KB, et al. Br J Cancer 2006;95:1309-1313 [13].",
+            "source_citation": {
+                "reference_numbers": [
+                    "13"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Irinotecan",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "60 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15, repeat every 4 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Yonemori K et al. phase II",
+                "phase": "II",
+                "n_patients": "45",
+                "os": "12.2 months (median)",
+                "pfs": "4.8 months (median)",
+                "orr": "41.9%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Significant toxicities (leukopenia, neutropenia, anemia, thrombocytopenia). Reference: Yonemori K, et al. Br J Cancer 2009;100:50-55 [14].",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary; also Squamous Cell Carcinoma",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "60–75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Demirci U et al.; Mukai H et al.",
+                "phase": "II",
+                "n_patients": "29 (Demirci), 45 (Mukai)",
+                "os": "16 months (Demirci), 11.8 months (Mukai)",
+                "pfs": "6 months (Demirci), 5 months (Mukai)",
+                "orr": "37.9% (Demirci), 65.1% (Mukai)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Alternative to carboplatin-based regimens. Reference: Demirci U, et al. Asian Pac J Cancer Prev 2014;15:1581-1584 [15]; Mukai H, et al. Am J Clin Oncol 2010;33:32-35 [42].",
+            "source_citation": {
+                "reference_numbers": [
+                    "15",
+                    "42"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Docetaxel/Gemcitabine",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                },
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Pouessel D et al. phase II",
+                "phase": "II",
+                "n_patients": "35",
+                "os": "10 months (median)",
+                "pfs": "2 months (median time to progression)",
+                "orr": "40% (1 CR, 13 PR)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Active and well-tolerated. Reference: Pouessel D, et al. Cancer 2004;100:1257-1261 [16].",
+            "source_citation": {
+                "reference_numbers": [
+                    "16"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Roswell Park Fluorouracil/Leucovorin",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary; also Squamous Cell Carcinoma",
+            "setting": "Systemic therapy (alternative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "500 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, 15, 22, 29, and 36, repeat every 8 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m²",
+                    "route": "IV",
+                    "schedule": "Bolus 1 hour after start of leucovorin on Days 1, 8, 15, 22, 29, and 36, repeat every 8 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Wolmark N et al. NSABP C-03",
+                "phase": "III",
+                "n_patients": "1081",
+                "os": "3-year survival improved with fluorouracil vs MOF (P=0.003)",
+                "pfs": "3-year DFS 73% vs 64%",
+                "orr": null,
+                "hr": "0.70 (mortality reduction 30%)",
+                "ci": null
+            },
+            "notes": "Fluorouracil/leucovorin regimen used for GI primaries. Reference: Wolmark N, et al. J Clin Oncol 1993;11:1879-1887 [17].",
+            "source_citation": {
+                "reference_numbers": [
+                    "17"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Simplified Fluorouracil/Leucovorin",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary; also Squamous Cell Carcinoma",
+            "setting": "Systemic therapy (alternative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m² IV bolus then 1200 mg/m²/day continuous infusion × 2 days (total 2400 mg/m² over 46–48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Andre T et al. (GERCOR)",
+                "phase": "Not a specific CUP trial",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Simplified bimonthly 5-FU/leucovorin. Reference: Andre T, et al. Eur J Cancer 1999;35:1343-1347 [18].",
+            "source_citation": {
+                "reference_numbers": [
+                    "18"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Weekly Fluorouracil/Leucovorin",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary; also Squamous Cell Carcinoma",
+            "setting": "Systemic therapy (alternative)",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Leucovorin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every week"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "500 mg/m²",
+                    "route": "IV",
+                    "schedule": "Bolus injection 1 hour after leucovorin, repeat every week"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Jäger E et al.",
+                "phase": "Randomized multicenter trial in colorectal cancer",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Alternative 5-FU/leucovorin schedule. Also an alternate weekly schedule with 2600 mg/m² 24-hour infusion and leucovorin 500 mg/m². Reference: Jäger E, et al. J Clin Oncol 1996;14:2274-2279 [19].",
+            "source_citation": {
+                "reference_numbers": [
+                    "19"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Capecitabine with Concurrent Radiation",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary; also Squamous Cell Carcinoma",
+            "setting": "Chemoradiation (adjuvant or definitive)",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Capecitabine",
+                    "dose": "625–825 mg/m²",
+                    "route": "PO",
+                    "schedule": "Twice daily Days 1–5, repeat every week for 5 weeks with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended (chemotherapy with concurrent radiation)",
+            "trial_data": {
+                "trial_name": "Lee HS et al. (pilot study in gastric cancer)",
+                "phase": "Pilot",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Used with concurrent radiation for presumed GI primary. Reference: Lee HS, et al. World J Gastroenterol 2006;12:603-607 [20].",
+            "source_citation": {
+                "reference_numbers": [
+                    "20"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fluorouracil with Concurrent Radiation",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary; also Squamous Cell Carcinoma",
+            "setting": "Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fluorouracil",
+                    "dose": "200–250 mg/m²",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 24 hours daily Days 1–5, repeat every week for 5 weeks with radiation"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended (chemotherapy with concurrent radiation)",
+            "trial_data": {
+                "trial_name": "Leong T et al. (adjuvant chemoradiation for gastric cancer)",
+                "phase": "Multicenter study",
+                "n_patients": null,
+                "os": null,
+                "pfs": null,
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Concurrent 5-FU infusion with radiation. Reference: Leong T, et al. Int J Radiat Oncol Biol Phys 2011;79:690-695 [21].",
+            "source_citation": {
+                "reference_numbers": [
+                    "21"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (BRAF V600E)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (Biomarker-Driven)",
+            "setting": "For unresectable or metastatic solid tumors with BRAF V600E mutation that have progressed following prior treatment and no satisfactory alternative treatment options",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, repeat every 4 weeks"
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": "2 mg",
+                    "route": "PO",
+                    "schedule": "Daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "NCI-MATCH trial Subprotocol H (EAY131-H)",
+                "phase": "II",
+                "n_patients": "29 (primary efficacy analysis)",
+                "os": "28.6 months (median)",
+                "pfs": "11.4 months (median, 90% CI 8.4–16.3)",
+                "orr": "38% (90% CI 22.9%–54.9%)",
+                "hr": null,
+                "ci": "90% CI for PFS: 8.4–16.3"
+            },
+            "notes": "FDA-approved for BRAF V600E-mutated solid tumors. Reference: Salama AKS, et al. J Clin Oncol 2020;38:3895-3904 [22].",
+            "source_citation": {
+                "reference_numbers": [
+                    "22"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dostarlimab-gxly (dMMR/MSI-H)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary (dMMR/MSI-H tumors)",
+            "setting": "For recurrent or advanced tumors that have progressed on or following prior treatment and no satisfactory alternative treatment options; patients with prior immune checkpoint inhibitor excluded",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dostarlimab-gxly",
+                    "dose": "500 mg IV Day 1 every 3 weeks for 4 doses, then 1000 mg IV Day 1 every 6 weeks",
+                    "route": "IV",
+                    "schedule": "Induction: 500 mg every 3 weeks × 4 doses; maintenance: 1000 mg every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "GARNET study (combined analysis of two cohorts)",
+                "phase": "I (nonrandomized)",
+                "n_patients": "209 (dMMR solid tumors)",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "42% (9% CR, 33% PR); median DOR 35 months",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "FDA-approved for dMMR advanced solid tumors. Reference: Berton D, et al. J Clin Oncol 2021;39(Suppl):Abstract 2564 [23].",
+            "source_citation": {
+                "reference_numbers": [
+                    "23"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab (dMMR/MSI-H or TMB-H)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (dMMR/MSI-H or TMB-H tumors)",
+            "setting": "For unresectable or metastatic solid tumors that have progressed following prior treatment and no satisfactory alternative options; TMB-H (≥10 mut/Mb)",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg IV Day 1 OR 2 mg/kg IV Day 1 (every 3 weeks) OR 400 mg IV Day 1 OR 4 mg/kg IV Day 1 (every 6 weeks)",
+                    "route": "IV (subcutaneous pembrolizumab/berahyaluronidase alfa-pmph may be substituted per footnote g)",
+                    "schedule": "Every 3 weeks or every 6 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "dMMR/MSI-H or TMB-H (≥10 mut/Mb)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "KEYNOTE-158 (noncolorectal dMMR/MSI-H cohort; TMB-H analysis)",
+                "phase": "II",
+                "n_patients": "233 (dMMR), 102 (TMB-H retrospective)",
+                "os": "24 months (median, dMMR)",
+                "pfs": "4 months (median, dMMR)",
+                "orr": "34.3% (dMMR), 29% (TMB-H)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Tissue-agnostic approval. Pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection may be substituted. Reference: Marabelle A, et al. J Clin Oncol 2020;38:1-10 [26]; Marabelle A, et al. Lancet Oncol 2020;21:1353-1365 [30].",
+            "source_citation": {
+                "reference_numbers": [
+                    "24",
+                    "25",
+                    "26",
+                    "30"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib (NTRK 1/2/3 fusion)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (NTRK fusion-positive)",
+            "setting": "For metastatic or where surgical resection likely to cause severe morbidity, and no satisfactory alternative treatments or progression after treatment",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": "600 mg",
+                    "route": "PO",
+                    "schedule": "Daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Positive (without known acquired resistance mutation)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "Integrated analysis of three phase 1-2 trials (ALKA-372-001, STARTRK-1, STARTRK-2)",
+                "phase": "I/II",
+                "n_patients": "54 (≥18 years, NTRK fusion-positive)",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "57% (95% CI 43.2–70.8); 7% CR, 50% PR; median DOR 10 months",
+                "hr": null,
+                "ci": "95% CI 43.2–70.8"
+            },
+            "notes": "Reference: Doebele RC, et al. Lancet Oncol 2020;21:271-282 [27].",
+            "source_citation": {
+                "reference_numbers": [
+                    "27"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib (NTRK 1/2/3 fusion)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (NTRK fusion-positive)",
+            "setting": "Same as entrectinib",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": "100 mg",
+                    "route": "PO",
+                    "schedule": "Twice daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Positive (without known acquired resistance mutation)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "Three protocols: phase 1 adults, phase 1-2 children, phase 2 adolescents/adults",
+                "phase": "I/II",
+                "n_patients": "55",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated (1-year PFS 55%)",
+                "orr": "75% (95% CI 61–85); 13% CR, 62% PR; 1-year response ongoing 71%",
+                "hr": null,
+                "ci": "95% CI 61–85"
+            },
+            "notes": "Reference: Drilon A, et al. N Engl J Med 2018;378:731-739 [28].",
+            "source_citation": {
+                "reference_numbers": [
+                    "28"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib (NTRK 1/2/3 fusion)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (NTRK fusion-positive)",
+            "setting": "Same as entrectinib, including TKI-pretreated",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": "160 mg PO once daily for 14 days, then increase to 160 mg PO twice daily",
+                    "route": "PO",
+                    "schedule": "Days 1–14: 160 mg daily; from day 15: 160 mg twice daily, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK 1/2/3 gene fusion",
+                    "requirement": "Positive (without known acquired resistance mutation)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "TRIDENT-1 trial",
+                "phase": "I/II",
+                "n_patients": "51 TKI-naïve, 69 TKI-pretreated (overall); NTRK+ subset detailed in update",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "48% (95% CI 36–60) in TKI-pretreated cohort",
+                "hr": null,
+                "ci": "95% CI 36–60"
+            },
+            "notes": "Next-generation TRK inhibitor. Reference: Solomon BJ, et al. Eur Soc Med Onc Congress 2023;34(Suppl 2):Abstract 1372P [29].",
+            "source_citation": {
+                "reference_numbers": [
+                    "29"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Fam-trastuzumab deruxtecan-nxki (HER2-positive IHC 3+)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (HER2-positive IHC 3+)",
+            "setting": "For advanced or metastatic solid tumors that progressed on or following prior systemic treatment and no satisfactory alternative treatment options",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki",
+                    "dose": "5.4 mg/kg",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 21 days"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "HER2 IHC 3+",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "DESTINY-PanTumor02 phase II trial",
+                "phase": "II",
+                "n_patients": "267 (HER2-expressing; 5 CUP)",
+                "os": "21.1 months (median, 95% CI 15.3–29.6) in IHC 3+ central",
+                "pfs": "not explicitly stated",
+                "orr": "61.3% (95% CI 49.4–72.4) in IHC 3+ central",
+                "hr": null,
+                "ci": "95% CI 15.3–29.6 (OS); 49.4–72.4 (ORR)"
+            },
+            "notes": "Antibody drug conjugate. Reference: Meric-Bernstam F, et al. J Clin Oncol 2024;42:47-58 [31].",
+            "source_citation": {
+                "reference_numbers": [
+                    "31"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Selpercatinib (RET gene fusion)",
+            "site": "Adenocarcinoma and Squamous Cell Carcinoma – Occult Primary (RET fusion-positive); category 2B for squamous",
+            "setting": "For advanced or metastatic solid tumors that progressed on or following prior systemic treatment or no satisfactory alternative treatment options",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Selpercatinib",
+                    "dose": "<50 kg: 120 mg PO twice daily; ≥50 kg: 160 mg PO twice daily",
+                    "route": "PO",
+                    "schedule": "Twice daily, continuous"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "RET gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A (adenocarcinoma); 2B (squamous cell carcinoma)",
+            "guideline_category": "Useful in Certain Circumstances (Biomarker-Driven Therapy)",
+            "trial_data": {
+                "trial_name": "LIBRETTO-001 trial",
+                "phase": "I/II",
+                "n_patients": "41 (evaluable for efficacy, non-lung/non-thyroid RET fusion)",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "44%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "FDA-approved for RET fusion-positive solid tumors. Reference: Subbiah V, et al. Lancet Oncol 2022;23:1261-1273 [32].",
+            "source_citation": {
+                "reference_numbers": [
+                    "32"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Carboplatin/Oral Etoposide/Paclitaxel",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary",
+            "setting": "First-line for patients with ECOG PS 0–1",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175–200 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "AUC 5–6",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "50 mg/day PO alternating with 100 mg/day",
+                    "route": "PO",
+                    "schedule": "Days 1–10, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Cytotoxic Chemotherapy)",
+            "trial_data": {
+                "trial_name": "Greco FA et al. phase II (Cancer 2000); also phase III (Hainsworth et al. 2010)",
+                "phase": "II/III",
+                "n_patients": "93 (phase III arm)",
+                "os": "7.4 months (median); 2-year survival 15–20%",
+                "pfs": "3.3 months (median)",
+                "orr": "18%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Higher toxicity than carboplatin/paclitaxel alone. Only for ECOG PS 0–1. Reference: Greco FA, et al. Cancer 2000;89:2655-2660 [33].",
+            "source_citation": {
+                "reference_numbers": [
+                    "33"
+                ]
+            }
+        },
+        {
+            "regimen_name": "FOLFIRINOX (Leucovorin/Fluorouracil/Irinotecan/Oxaliplatin)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary, ECOG PS 0–1",
+            "setting": "First-line systemic therapy for selected patients with good PS",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "180 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "400 mg/m² IV push Day 1, then 1200 mg/m² over 24 hours continuous infusion × 2 days (total 2400 mg/m² over 46–48 hours)",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Cytotoxic Chemotherapy)",
+            "trial_data": {
+                "trial_name": "PRODIGE trial (Conroy et al. N Engl J Med 2011) – metastatic pancreatic cancer",
+                "phase": "III",
+                "n_patients": "342",
+                "os": "11.1 vs 6.8 months (FOLFIRINOX vs gemcitabine)",
+                "pfs": "6.4 vs 3.3 months",
+                "orr": "31.6% vs 9.4%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Significant toxicity. Only for presumed GI primary and ECOG PS 0–1. Reference: Conroy T, et al. N Engl J Med 2011;364:1817-1825 [34].",
+            "source_citation": {
+                "reference_numbers": [
+                    "34"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine/Irinotecan",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Occult Primary, for patients ineligible for platinum-based chemotherapy",
+            "setting": "First-line alternative when platinum contraindicated",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                },
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 8, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Cytotoxic Chemotherapy)",
+            "trial_data": {
+                "trial_name": "Sarah Cannon phase III (Hainsworth et al. Cancer J 2010) – compared to PCE",
+                "phase": "III",
+                "n_patients": "93 (gem/iri arm)",
+                "os": "8.5 months (median)",
+                "pfs": "5.3 months (median)",
+                "orr": "18%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "For patients ineligible to receive platinum-based chemotherapy. Reference: Hainsworth JD, et al. Cancer J 2010;16:70-75 [35].",
+            "source_citation": {
+                "reference_numbers": [
+                    "35"
+                ]
+            }
+        },
+        {
+            "regimen_name": "mFOLFIRINOX (Modified FOLFIRINOX)",
+            "site": "Adenocarcinoma (or carcinoma NOS) – Presumed GI Primary, ECOG PS 0–1",
+            "setting": "First-line or adjuvant for selected patients with good PS",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Oxaliplatin",
+                    "dose": "85 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "150 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Leucovorin",
+                    "dose": "400 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 2 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "1200 mg/m² over 24 hours continuous infusion × 2 days (total 2400 mg/m² over 46–48 hours)",
+                    "route": "IV",
+                    "schedule": "Starting Day 1, repeat every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Cytotoxic Chemotherapy)",
+            "trial_data": {
+                "trial_name": "PRODIGE 24 (Conroy et al. N Engl J Med 2018) – adjuvant pancreatic",
+                "phase": "III",
+                "n_patients": "493",
+                "os": "54 months vs 35 months (mFOLFIRINOX vs gemcitabine)",
+                "pfs": "22 months vs 13 months",
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Modified version with lower irinotecan dose. Only for ECOG PS 0–1 and presumed GI primary. Reference: Conroy T, et al. N Engl J Med 2018;379:2395-2406 [36]; Lamarca A, et al. ESMO Open 2020;5:e000633 [37].",
+            "source_citation": {
+                "reference_numbers": [
+                    "36",
+                    "37"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil",
+            "site": "Squamous Cell Carcinoma – Occult Primary (Other Recommended)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1–5, repeat every 4 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "700 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion Days 1–5, repeat every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Kusaba H et al. (retrospective)",
+                "phase": "Retrospective",
+                "n_patients": "11 (SCC CUP)",
+                "os": "10 months (median)",
+                "pfs": "3 months (median TTP)",
+                "orr": "54.5%",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Historically used for SCC. Also used with concurrent radiation. Reference: Kusaba H, et al. Med Oncol 2007;24:259-264 [43].",
+            "source_citation": {
+                "reference_numbers": [
+                    "43"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Paclitaxel",
+            "site": "Squamous Cell Carcinoma – Occult Primary (Other Recommended)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "175 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "60 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": {
+                "trial_name": "Park YH et al. phase II (unfavorable CUP)",
+                "phase": "II",
+                "n_patients": "37 (including 3 SCC)",
+                "os": "11 months (median, overall)",
+                "pfs": "4 months (median TTP)",
+                "orr": "42% (95% CI 23%–61%)",
+                "hr": null,
+                "ci": "95% CI 23%–61%"
+            },
+            "notes": "Used for SCC of esophagus, head and neck. Reference: Park YH, et al. Jpn J Clin Oncol 2004;34:681-685 [44].",
+            "source_citation": {
+                "reference_numbers": [
+                    "44"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Fluorouracil with Concurrent Radiation",
+            "site": "Squamous Cell Carcinoma – Occult Primary (Chemotherapy with Concurrent Radiation)",
+            "setting": "Chemoradiation",
+            "treatment_modality": [
+                "chemotherapy",
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cisplatin",
+                    "dose": "75–100 mg/m²",
+                    "route": "IV",
+                    "schedule": "Days 1 and 29 (35-day cycle with radiation)"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "750–1000 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion over 24 hours Days 1–4 and Days 29–32 (35-day cycle with radiation)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended (Chemotherapy with Concurrent Radiation)",
+            "trial_data": {
+                "trial_name": "CALGB 9781 (Tepper et al.) and FFCD 9102 (Bedenne et al.)",
+                "phase": "III",
+                "n_patients": null,
+                "os": "Improved with trimodality (CALGB 9781)",
+                "pfs": null,
+                "orr": null,
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Two dosing schedules: 35-day cycle or 21-day cycle (cisplatin 15 mg/m² Days 1–5, fluorouracil 800 mg/m² continuous infusion Days 1–5, 2 cycles with radiation). Reference: Tepper J, et al. J Clin Oncol 2008;26:1086-1092 [45]; Bedenne L, et al. J Clin Oncol 2007;25:1160-1168 [46].",
+            "source_citation": {
+                "reference_numbers": [
+                    "45",
+                    "46"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cisplatin/Docetaxel/Fluorouracil",
+            "site": "Squamous Cell Carcinoma – Occult Primary (Useful in Certain Circumstances, ECOG PS 0–1)",
+            "setting": "First-line systemic therapy for selected patients with good PS",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Docetaxel",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "75 mg/m²",
+                    "route": "IV",
+                    "schedule": "Day 1, repeat every 3 weeks"
+                },
+                {
+                    "name": "Fluorouracil",
+                    "dose": "750 mg/m²/day",
+                    "route": "IV",
+                    "schedule": "Continuous infusion Days 1–5, repeat every 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances (Cytotoxic Chemotherapy)",
+            "trial_data": {
+                "trial_name": "Pointreau Y et al. (larynx preservation trial)",
+                "phase": "III",
+                "n_patients": "213 (head and neck SCC)",
+                "os": "not explicitly stated",
+                "pfs": "not explicitly stated",
+                "orr": "80% vs 59.2% (with vs without docetaxel)",
+                "hr": null,
+                "ci": null
+            },
+            "notes": "Significant toxicity including grade 4 febrile neutropenia. Only for ECOG PS 0–1. Reference: Pointreau Y, et al. J Natl Cancer Inst 2009;101:498-506 [47].",
+            "source_citation": {
+                "reference_numbers": [
+                    "47"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Neuroendocrine Tumors – Refer to NCCN Guidelines",
+            "site": "Neuroendocrine tumor – Occult Primary (any site)",
+            "setting": "First-line and subsequent therapy based on differentiation and grade",
+            "treatment_modality": [
+                "chemotherapy",
+                "targeted therapy",
+                "somatostatin analogs",
+                "other (per referenced guidelines)"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "2A",
+            "guideline_category": "Refer to disease-specific guidelines",
+            "trial_data": null,
+            "notes": "For poorly differentiated (high-grade or anaplastic) or small cell subtype neuroendocrine tumors, treat as per NCCN Guidelines for Small Cell Lung Cancer. For well-differentiated neuroendocrine tumors, treat as per NCCN Guidelines for Neuroendocrine and Adrenal Tumors – Carcinoid Tumors. Systemic therapy regimens are not listed explicitly in this guideline; refer to the respective NCCN guidelines for specific regimens and dosing. Neuroendocrine CUPs constitute ~12%–22% of all neuroendocrine tumors and clinical behavior depends on grade and differentiation.",
+            "source_citation": {
+                "reference_numbers": []
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Occult primary tumors, also termed cancers of unknown primary (CUP), are defined as histologically confirmed metastatic malignancies for which a primary anatomical site cannot be identified after a standard pretreatment evaluation [1,2]. These tumors are characterized by early dissemination, aggressive clinical behavior, and unpredictable patterns of metastasis [3]. The median overall survival (OS) for patients with CUP is 8 to 12 months, although select patients with favorable prognostic subsets may achieve median OS in the range of 12 to 36 months [2,4,5]. The majority of CUP cases are epithelial in origin, with the most frequent histologic subtypes being adenocarcinoma (well- or moderately differentiated, 60%; poorly differentiated, 25%), squamous cell carcinoma (SCC, 5%), undifferentiated carcinoma (5%), and neuroendocrine tumors (5%) [1,2,27]. The NCCN Guidelines for Occult Primary focus on two major pathologic diagnoses: adenocarcinoma or carcinoma not otherwise specified, and squamous cell carcinoma; neuroendocrine tumors and head and neck occult primaries are managed according to their respective disease-specific guidelines [OCC-1, OCC-2, Discussion MS-2].",
+        "subtypes": [
+            {
+                "name": "Adenocarcinoma (well- or moderately differentiated)",
+                "description": "The most common subtype, accounting for approximately 60% of CUP cases. Tumors exhibit glandular differentiation on light microscopy.",
+                "frequency": "60%",
+                "key_associations": "Often associated with unfavorable prognosis; may present with multiple visceral metastases; responsive to platinum/taxane-based empiric chemotherapy; considered for site-specific therapy if IHC or molecular profiling suggests a primary site."
+            },
+            {
+                "name": "Adenocarcinoma (poorly differentiated)",
+                "description": "Represents approximately 25% of CUP cases. Tumors show limited glandular differentiation and higher nuclear grade.",
+                "frequency": "25%",
+                "key_associations": "More chemosensitive than well-differentiated adenocarcinoma; response rates to cisplatin-based regimens may be higher; some cases harbor extragonadal germ cell features with improved outcomes."
+            },
+            {
+                "name": "Squamous cell carcinoma (SCC)",
+                "description": "Accounts for about 5% of CUP cases. Characterized by squamous differentiation on histology and cytokeratin 5/6, p63/p40 positivity.",
+                "frequency": "5%",
+                "key_associations": "Better prognosis than adenocarcinoma (3-year survival 41.6% vs 3.5%) [2]; often presents with cervical, axillary, or inguinal lymphadenopathy; p16/HPV and EBV ISH testing may help localize primary site (oropharynx, cervix, anus, etc.)."
+            },
+            {
+                "name": "Undifferentiated carcinoma",
+                "description": "Comprises approximately 5% of CUP cases. Tumors lack recognizable differentiation on light microscopy.",
+                "frequency": "5%",
+                "key_associations": "Highly responsive to cisplatin-based combination chemotherapy; may be treated with germ cell tumor protocols if midline distribution; genomic profiling may identify actionable alterations [1,2,27]."
+            },
+            {
+                "name": "Neuroendocrine tumors",
+                "description": "Account for approximately 5% of CUP cases. Include well-differentiated neuroendocrine tumors (carcinoids) and poorly differentiated neuroendocrine carcinomas (PDNEC).",
+                "frequency": "5%",
+                "key_associations": "Favorable prognostic subset; PDNEC are chemosensitive to platinum/etoposide regimens; well-differentiated tumors are managed per NCCN Guidelines for Neuroendocrine and Adrenal Tumors."
+            }
+        ],
+        "molecular_pathogenesis": "CUP tumors harbor multiple chromosomal abnormalities and overexpression of various oncogenes and tumor suppressor genes. Common genomic alterations include deletions in tumor suppressor genes p53 (49.6%), CDKN2A (19.0%), and NOTCH1 (14.1%), as well as activation of oncogenes KRAS (23.4%), FGFR4 (14.9%), and PIK3CA (10.7%) [33]. Other frequently altered genes include EGFR, MET, JAK3, BRAF, c-kit/PDGFR (PDGFRα or PDGFRβ), RAS, BCL2, HER2, and TP53 [9,28-30]. Activation of angiogenesis genes is observed in 50%–89% of CUP tumors, oncogene overexpression in 10%–30%, epithelial-to-mesenchymal transition marker elevation in 16%, activation of hypoxia-related proteins in 25%, and intracellular signaling molecule activation in 20%–35% [2]. The BRD4-NUT oncogene, resulting from the chromosomal translocation t(15;19), has been identified in children and young adults with carcinoma of midline structures and unclear primary sites [1,31,32]. Chromosomal instability has been suggested as a possible cause or prognostic factor for more aggressive presentations of CUP [2,34]. Both KRAS activation and CDKN2A deletion are associated with poor prognosis [33]. Comprehensive genomic profiling using next-generation sequencing can identify potentially actionable alterations in 30%–85% of patients, including mutations in BRAF V600E, NTRK1/2/3 fusions, RET fusions, HER2 amplification, and markers of microsatellite instability (MSI) and high tumor mutational burden (TMB-H) [24,74,78-82]. The tumor mutational landscape in CUP may guide site-specific therapy and biomarker-driven treatment strategies [OCC-B, Discussion MS-7].",
+        "epidemiology": "CUP has an average age at diagnosis of 60 to 75 years and accounts for 2% to 9% of all malignant tumors [2,8]. It is among the 10 most frequently diagnosed cancers in developed countries [2,9]. In the United States, an estimated 67,800 cases of cancer from other and unspecified primary sites are expected to be diagnosed in 2026, representing approximately 3.2% of all US cancers [10,11]. Deaths from these tumors are projected to reach 54,310 in 2026 [10]. The incidence of CUP diagnoses has been decreasing, likely due to improved diagnostic techniques that detect primary tumors, but no improvement in survival has been reported [12,13]. A study using the Swedish Family-Cancer Database revealed that 2.8% of occult primary cases are familial (parent and offspring both diagnosed), and CUP is associated with the occurrence of lung, kidney, and colorectal cancers in families, suggesting these are often the primary sites [14]. A latent primary cancer may emerge during the disease course in 20%–50% of cases, but postmortem examination fails to identify the primary in 20%–50% of patients [8,15,16]. An epidemiologic correlation between smoking and CUP risk has been observed: individuals who smoked >20 cigarettes per day had a strong association (multivariable adjusted hazard ratio [HR] 1.45; 95% CI 1.09–1.94; P trend = .02) for those who smoked ≥40 years compared to never smokers [17]. CUP occurs across racial and ethnic groups, but specific race-stratified incidence data were not provided in the source. The median OS for the majority of patients (about 80%) is 3 to 10 months, with adenocarcinomas and undifferentiated tumors having worse prognosis than SCC (3.5% vs 41.6% 3-year survival) [2,21].",
+        "risk_factors": [
+            {
+                "factor": "Cigarette smoking",
+                "type": "Behavioral",
+                "detail": "Strong association between smoking and risk of developing CUP. Frequency (>20 cigarettes per day) and duration (≥40 years) increase risk. Multivariable adjusted HR 1.45 (95% CI 1.09–1.94; P trend = .02) for those who smoked ≥40 years compared to never smokers.",
+                "strength": "Strong (statistically significant in literature review, shown in multiple analyses)"
+            },
+            {
+                "factor": "Familial/genetic predisposition",
+                "type": "Genetic",
+                "detail": "2.8% of CUP cases are familial (parent and offspring both affected). CUP is associated with familial occurrence of lung, kidney, and colorectal cancers, suggesting these may be the primary sites.",
+                "strength": "Moderate (based on Swedish Family-Cancer Database analysis)"
+            },
+            {
+                "factor": "Age (≥65 years)",
+                "type": "Demographic",
+                "detail": "Older age is an unfavorable prognostic factor, but also a risk factor for developing CUP given median age at diagnosis of 60-75 years. However, the source does not explicitly state age as a causative risk factor; it is more a demographic characteristic.",
+                "strength": "Not explicitly quantified as a risk factor for development (prognostic factor)"
+            },
+            {
+                "factor": "Male gender",
+                "type": "Demographic",
+                "detail": "Male gender assigned at birth is associated with worse prognosis and may influence incidence, but source does not provide specific incidence by gender. In prognostic models, male gender is associated with worse survival.",
+                "strength": "Not explicitly quantified for risk of developing CUP (prognostic factor)"
+            }
+        ],
+        "clinical_features": {
+            "typical_presentation": "Cancer of unknown primary (CUP) typically presents in patients aged 60–75 years with metastases from an unidentified primary site. The most common sites of involvement are the liver, lungs, bones, and lymph nodes, and more than 50% of patients present with multiple metastatic sites [2], [18]. Approximately 80% of patients have an unfavorable prognosis with median overall survival (OS) of 3–10 months; however, a favorable subset (approximately 20%) may achieve median OS of 12–36 months [2], [4], [5]. Classic presentations include cervical lymphadenopathy from squamous cell carcinoma (SCC), axillary adenopathy in women suggesting occult breast cancer, midline nodal distribution in young men suggesting germ cell tumors, and peritoneal carcinomatosis in women suggesting ovarian primary. Symptoms are often nonspecific and include fatigue, weight loss, pain at metastatic sites, and organ-specific complaints such as dyspnea (pleural effusion), abdominal distension (ascites), or bone pain. The diagnosis is made after standard pretreatment evaluation fails to identify a primary tumor [1], [2].",
+            "symptoms": [
+                {
+                    "name": "Weight loss",
+                    "detail": "Unintentional weight loss is common, often reflecting advanced disease and catabolic state.",
+                    "frequency": "Frequent but not quantified in source.",
+                    "alarm": "May indicate aggressive biology or extensive disease."
+                },
+                {
+                    "name": "Fatigue",
+                    "detail": "Generalized weakness and fatigue are among the most common nonspecific symptoms.",
+                    "frequency": "Very common, present in majority of patients.",
+                    "alarm": "Persistent fatigue may signal progressive disease."
+                },
+                {
+                    "name": "Pain",
+                    "detail": "Pain localized to the site of metastasis (e.g., bone pain, abdominal pain, chest pain).",
+                    "frequency": "Common, especially with bone or liver involvement.",
+                    "alarm": "Bone pain with potential fracture or impending cord compression requires urgent evaluation."
+                },
+                {
+                    "name": "Dyspnea",
+                    "detail": "Shortness of breath related to pleural effusion, lung nodules, or lymphangitic spread.",
+                    "frequency": "Occurs in presentations with chest involvement or pleural effusion.",
+                    "alarm": "Rapid onset of dyspnea may indicate massive pleural effusion or pulmonary embolism."
+                },
+                {
+                    "name": "Abdominal distension",
+                    "detail": "Abdominal swelling due to ascites or peritoneal carcinomatosis.",
+                    "frequency": "Seen in peritoneal/ascites presentation, especially adenocarcinoma.",
+                    "alarm": "Rapid accumulation may indicate aggressive disease."
+                },
+                {
+                    "name": "Neurologic deficits",
+                    "detail": "Headache, seizures, focal deficits from brain metastases.",
+                    "frequency": "Less common but clinically significant.",
+                    "alarm": "Any new neurologic symptom requires urgent imaging."
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Palpable lymphadenopathy",
+                    "detail": "Cervical, supraclavicular, axillary, or inguinal lymph node enlargement. May be firm, fixed, or matted.",
+                    "frequency": "Common, especially in SCC head and neck or adenocarcinoma axillary presentation."
+                },
+                {
+                    "name": "Hepatomegaly",
+                    "detail": "Enlarged liver due to metastatic deposits.",
+                    "frequency": "Common in liver presentation."
+                },
+                {
+                    "name": "Ascites",
+                    "detail": "Abdominal fluid wave, shifting dullness, often with peritoneal carcinomatosis.",
+                    "frequency": "Present in peritoneal/ascites presentation."
+                },
+                {
+                    "name": "Pleural effusion",
+                    "detail": "Decreased breath sounds, dullness to percussion on chest exam.",
+                    "frequency": "Seen in pleural effusion presentation."
+                },
+                {
+                    "name": "Bone tenderness",
+                    "detail": "Pain on palpation over metastatic bone lesions.",
+                    "frequency": "Common in bone presentation."
+                },
+                {
+                    "name": "Skin lesions",
+                    "detail": "Cutaneous metastases may rarely be the presenting sign; primary skin cancer must be excluded.",
+                    "frequency": "Uncommon; complete skin exam is recommended for SCC."
+                }
+            ],
+            "atypical_or_missed": [
+                "Spontaneously regressing lesions that may obscure primary site identification [OCC-1].",
+                "History of previously removed lesions that were not pathologically evaluated.",
+                "Presentation with only a single metastasis (e.g., isolated bone or brain lesion) leading to delayed diagnosis of CUP.",
+                "Midline nodal distribution in young adults that mimics germ cell tumor but ultimately diagnosed as CUP.",
+                "Occult primary breast cancer presenting with axillary adenopathy and negative mammogram; breast MRI may be required [OCC-3].",
+                "Peritoneal carcinomatosis in women with normal pelvic exam and imaging; ovarian primary may not be identified until surgery."
+            ]
+        },
+        "red_flags": [
+            "Poor performance status (ECOG ≥2) is a strong independent predictor of worse survival [5].",
+            "Multiple organ involvement (liver, lung, bone) at presentation [2].",
+            "Nonpapillary malignant ascites from adenocarcinoma [2].",
+            "Multiple cerebral metastases [2].",
+            "Bone lesions in weight-bearing areas with potential for pathologic fracture [OCC-10].",
+            "Impending spinal cord compression [OCC-C].",
+            "Rapid disease progression or symptomatic decline despite initial therapy.",
+            "Male gender assigned at birth and older age (≥65 years) are unfavorable prognostic factors [2].",
+            "High neutrophil-lymphocyte ratio (NLR) [5].",
+            "Psychosocial distress: significant anxiety/depression due to uncertainty of diagnosis, which may impair treatment acceptance [OCC-1 footnote a].",
+            "Unexplained weight loss >10% over 3 months.",
+            "Elevated LDH may indicate high tumor burden."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Complete history and physical (H&P) including breast, GU, pelvic, rectal, skin, and oral cavity exam",
+                    "rationale": "Identify potential primary sites; review past biopsies, removed lesions, spontaneously regressing lesions, and existing imaging.",
+                    "key_findings": "Unexplained lymphadenopathy, organomegaly, suspicious skin lesions, abnormal rectal/pelvic exam."
+                },
+                {
+                    "test": "Core needle biopsy (preferred) or FNA with cell block of most accessible metastatic lesion",
+                    "rationale": "Obtain adequate tissue for histologic diagnosis and ancillary studies.",
+                    "key_findings": "Adenocarcinoma (60%), poorly differentiated adenocarcinoma (25%), SCC (5%), undifferentiated carcinoma (5%), neuroendocrine tumors (5%) [1], [2]."
+                },
+                {
+                    "test": "Complete blood count (CBC) and comprehensive metabolic panel (CMP)",
+                    "rationale": "Baseline assessment; detect anemia, liver or renal dysfunction, electrolyte abnormalities.",
+                    "key_findings": "May reveal anemia, elevated LFTs, hypercalcemia."
+                },
+                {
+                    "test": "Lactate dehydrogenase (LDH) as indicated",
+                    "rationale": "Prognostic marker; elevated LDH associated with higher tumor burden.",
+                    "key_findings": "Elevation suggests aggressive disease."
+                },
+                {
+                    "test": "Chest/abdomen/pelvis CT with contrast (or MRI with contrast if contraindicated; FDG-PET/CT alternative)",
+                    "rationale": "Comprehensive imaging to identify primary tumor and extent of metastases.",
+                    "key_findings": "May detect occult primary (e.g., lung nodule, pancreatic mass, ovarian mass) and define metastatic burden."
+                },
+                {
+                    "test": "Clinically directed endoscopy",
+                    "rationale": "To visualize potential primary sites in GI, GU, or respiratory tract if symptoms or IHC suggest.",
+                    "key_findings": "May detect mucosal primary tumors."
+                },
+                {
+                    "test": "Immunohistochemistry (IHC) panel (see OCC-A)",
+                    "rationale": "Determine cell lineage (carcinoma, lymphoma, melanoma, germ cell, mesothelioma) and identify putative primary site.",
+                    "key_findings": "CK7/CK20 pattern, organ-specific markers (e.g., TTF-1, GATA3, CDX2, PSA, PAX8). Accuracy ~75% in identifying primary site [43]."
+                },
+                {
+                    "test": "In situ hybridization (ISH) for HPV (p16), EBV",
+                    "rationale": "HPV/p16 positivity suggests oropharyngeal SCC; EBV positivity suggests nasopharyngeal primary [OCC-11 footnote q].",
+                    "key_findings": "p16+ correlates with HPV ISH in >98% of head and neck SCC [52]."
+                },
+                {
+                    "test": "MSI/MMR testing (IHC for MMR or PCR for MSI)",
+                    "rationale": "Identify dMMR/MSI-H tumors that may respond to immune checkpoint inhibitors. Low prevalence in CUP (<2%) [84].",
+                    "key_findings": "MSI-H/dMMR status indicates potential benefit from pembrolizumab or dostarlimab."
+                },
+                {
+                    "test": "HER2 IHC",
+                    "rationale": "Identify HER2-positive (IHC 3+) tumors eligible for fam-trastuzumab deruxtecan-nxki.",
+                    "key_findings": "HER2 3+ expression in a subset of CUP; ORR 61.3% with fam-trastuzumab deruxtecan in HER2+ solid tumors [201]."
+                },
+                {
+                    "test": "Biomarker testing using NGS (tumor tissue or cell-free DNA) for gene alterations and TMB",
+                    "rationale": "Identify actionable mutations (BRAF V600E, NTRK fusions, RET fusions, MSI-H, TMB-H) for targeted therapy or immunotherapy.",
+                    "key_findings": "Actionable alterations found in 30–85% of CUP depending on definition [24], [74], [80]; TMB-H (≥10 mut/Mb) identified in KEYNOTE-158 [190]."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Chest/abdomen/pelvis CT with contrast (or MRI) – as above",
+                    "rationale": "Standard imaging to assess extent of disease and guide management.",
+                    "indication": "All patients with suspected CUP."
+                },
+                {
+                    "test": "FDG-PET/CT",
+                    "rationale": "Alternative if contrast contraindicated; may detect occult primary and additional metastases (sensitivity ~97% for cervical nodes) [91].",
+                    "indication": "Contraindication to contrast, or when local/regional therapy is being considered (e.g., single metastasis)."
+                },
+                {
+                    "test": "Brain MRI with contrast",
+                    "rationale": "Evaluate for brain metastases in patients with neurologic symptoms or multiple sites of involvement.",
+                    "indication": "Suspected brain metastases; recommended per NCCN CNS Cancers guidelines."
+                },
+                {
+                    "test": "Bone scan (or FDG-PET/CT plus CT bone windows)",
+                    "rationale": "Detect bone metastases, especially if painful or potential pathologic fracture.",
+                    "indication": "Bone pain, elevated alkaline phosphatase, or known bone lesion on CT."
+                },
+                {
+                    "test": "Mammogram (plus breast MRI and/or ultrasound if nondiagnostic and histopathologic evidence for breast cancer)",
+                    "rationale": "Identify occult breast primary in patients with axillary, supraclavicular, mediastinal, or other metastatic patterns suggestive of breast cancer.",
+                    "indication": "All patients with intact breast tissue (including gynecomastia) and adenocarcinoma or carcinoma NOS with clinical presentation compatible with breast origin."
+                },
+                {
+                    "test": "Serum tumor markers (PSA, CA-125, AFP, hCG, CA 19-9, CA 15-3 as clinically indicated)",
+                    "rationale": "Elevations can suggest primary site (PSA for prostate, CA-125 for ovary, AFP/hCG for germ cell). Not diagnostic but may guide workup.",
+                    "indication": "Per clinical presentation: PSA >40y; AFP/hCG for mediastinal/retroperitoneal mass <50y; CA-125 for peritoneal/ascites in females."
+                },
+                {
+                    "test": "Testicular ultrasound (if AFP/hCG elevated or clinical suspicion)",
+                    "rationale": "Identify testicular germ cell primary.",
+                    "indication": "Elevated AFP/hCG or retroperitoneal mass <65y."
+                },
+                {
+                    "test": "Urine cytology ± cystoscopy",
+                    "rationale": "Evaluate for urothelial primary.",
+                    "indication": "Retroperitoneal mass, peritoneal/ascites (if suspicious)."
+                },
+                {
+                    "test": "Proctoscopy / anoscopy",
+                    "rationale": "Evaluate for anal or rectal primary.",
+                    "indication": "Inguinal lymph node involvement (SCC)."
+                },
+                {
+                    "test": "Gynecologic oncology consult",
+                    "rationale": "To evaluate ovarian/primary peritoneal cancer, especially in females with peritoneal/ascites or elevated CA-125.",
+                    "indication": "Females with peritoneal/ascites, inguinal nodes, or elevated CA-125."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "NGS panel for gene alterations (including BRAF, NTRK, RET, MSI, TMB)",
+                    "rationale": "Identify targetable alterations for biomarker-driven therapy (dabrafenib/trametinib, entrectinib/larotrectinib/repotrectinib, selpercatinib, pembrolizumab).",
+                    "when": "After histologic diagnosis; recommended for all patients who are candidates for anti-cancer therapy [OCC-1].",
+                    "mandatory": "Yes – NGS (or other technique) and MSI/MMR testing and HER2 IHC are recommended as part of initial workup."
+                },
+                {
+                    "test": "PD-L1 testing",
+                    "rationale": "May identify patients likely to respond to immune checkpoint inhibitors, though not mandatory for pembrolizumab in dMMR/MSI-H or TMB-H.",
+                    "when": "Consider for patients with recurrent, progressive, or metastatic disease (per footnotes in OCC-B).",
+                    "mandatory": "Not mandatory but recommended."
+                },
+                {
+                    "test": "TRK protein IHC (per physician discretion)",
+                    "rationale": "Screening for NTRK fusions; positive results should be confirmed with NGS [OCC-A footnote 2].",
+                    "when": "Consider as part of broad IHC testing.",
+                    "mandatory": "Not mandatory."
+                },
+                {
+                    "test": "DPYD testing",
+                    "rationale": "Identify DPYD deficiency to prevent severe fluorouracil toxicity.",
+                    "when": "Before initiating fluorouracil- or capecitabine-based therapy.",
+                    "mandatory": "Not explicitly mandatory but referenced in OCC-B 1 of 14."
+                }
+            ],
+            "do_not_miss": [
+                "Core needle biopsy with sufficient tissue for IHC, ISH, and molecular testing.",
+                "NGS biomarker testing (including TMB and MSI) and HER2 IHC – critical for identifying actionable targets.",
+                "HPV/p16 and EBV ISH in SCC to identify oropharyngeal or nasopharyngeal primary.",
+                "Breast imaging (mammogram ± MRI/ultrasound) in all patients with appropriate anatomy and clinical presentation.",
+                "PSA testing in males >40y with adenocarcinoma (except isolated liver/brain metastases).",
+                "AFP/hCG and testicular ultrasound in young males with mediastinal or retroperitoneal mass.",
+                "Gynecologic oncologist consult for females with peritoneal/ascites or elevated CA-125."
+            ],
+            "avoid": [
+                "Tissue of origin gene expression profiling (GEP) assays are not recommended [OCC-1 footnote i].",
+                "Large panels of IHC markers (>10–12 stains) do not improve diagnostic accuracy and should be avoided [47].",
+                "Empiric broad tumor marker panels (CA-125, CA 19-9, CA 15-3) without specific clinical indication; these are not diagnostic and may mislead [OCC-1 footnote b].",
+                "Routine colonoscopy in absence of GI symptoms, positive fecal occult blood, or other clinical suspicion – low yield [123].",
+                "Exhaustive, time-consuming workup beyond initial tests without directing by clinical presentation and IHC results [OCC-1]."
+            ]
+        },
+        "staging": {
+            "system": "No formal AJCC TNM staging system exists for Occult Primary (CUP). Instead, patients are stratified by prognostic groups (favorable vs unfavorable) based on clinical and pathologic factors.",
+            "t_stages": [
+                {
+                    "stage": "T0",
+                    "description": "No primary tumor identified after standard initial evaluation. This is the defining feature of CUP. No T stage classification applicable."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "N/A",
+                    "description": "Lymph node involvement is a common clinical presentation, but no formal N staging for CUP. Clinical descriptions include cervical, supraclavicular, axillary, inguinal, mediastinal, and retroperitoneal nodal involvement."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis is always present by definition (occult primary with metastatic disease). No specific M substages are used."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Favorable prognosis",
+                    "criteria": "Includes patients with: single, small potentially resectable tumor; poorly differentiated carcinoma with midline nodal distribution; SCC involving cervical lymph nodes (2–5% of CUP); isolated inguinal adenopathy; poorly differentiated neuroendocrine carcinomas (PDNECs); women with papillary adenocarcinoma of peritoneal cavity; women with adenocarcinoma only in axillary nodes; men with blastic bone metastases and elevated PSA [2], [22], [26], [27]. Also patients with PS 0–1, low number of metastatic sites, low neutrophil-lymphocyte ratio [5].",
+                    "clinical_meaning": "These patients have a longer median OS (12–36 months) and may benefit from site-specific therapy or locoregional approaches.",
+                    "five_yr_survival": "Not explicitly provided for favorable group; 3-year survival for SCC is 41.6% vs 3.5% for adenocarcinoma/undifferentiated tumors [2].",
+                    "treatment_intent": "Potentially curative or disease control with site-specific therapy (e.g., breast, germ cell, head/neck algorithms)."
+                },
+                {
+                    "group": "Unfavorable prognosis (80% of patients)",
+                    "criteria": "Includes: male gender assigned at birth; age ≥65 years; poor PS (ECOG ≥2); multiple comorbidities; multiple organ metastases (liver, lung, bone); nonpapillary malignant ascites; peritoneal metastases; multiple cerebral metastases; adenocarcinoma with multiple lung/pleural or bone lesions; high neutrophil-lymphocyte ratio [2], [5], [22], [24].",
+                    "clinical_meaning": "Median OS 3–10 months; empiric chemotherapy offers limited benefit. Treatment is palliative with focus on symptom control.",
+                    "five_yr_survival": "3-year survival for adenocarcinoma/undifferentiated: 3.5% [2].",
+                    "treatment_intent": "Palliative; symptom control, clinical trial preferred, systemic therapy on individual basis."
+                },
+                {
+                    "group": "Favorable subsets with specific primary identified by IHC/molecular profiling",
+                    "criteria": "Patients in whom a putative primary is identified (e.g., breast, colon, lung, ovary, prostate, germ cell) and treated per disease-specific guidelines.",
+                    "clinical_meaning": "Outcomes align with the identified primary cancer; median OS may improve when site-specific therapy is used (e.g., 28.2 months vs 19 months in one RCT) [44].",
+                    "five_yr_survival": "Varies by primary; not specified for CUP.",
+                    "treatment_intent": "Site-specific therapy per NCCN disease-specific guidelines."
+                }
+            ],
+            "staging_pearls": [
+                "CUP is not staged with AJCC; instead, prognostic stratification is used based on clinical factors, histology, and newly validated nomograms [5].",
+                "The Raghav nomogram (2021) incorporates gender, ECOG PS, histology, number of metastatic sites, and neutrophil-lymphocyte ratio to predict OS with concordance index of 0.71 [5].",
+                "Favorable prognosis subsets include specific clinical-pathologic entities (e.g., women with axillary nodes, men with blastic bone metastases and elevated PSA) that should be identified and treated accordingly.",
+                "Poor prognosis features (male, age ≥65, poor PS, multiple organ metastases, adenocarcinoma histology) define the majority of patients who are candidates for empiric chemotherapy or clinical trials.",
+                "Primary site may emerge months to years later; 20–50% never identified even at autopsy [8], [15], [16].",
+                "Detection of a primary site (via FDG-PET/CT or IHC) is associated with improved median OS (19.8 vs 8.5 months) in retrospective analysis [92]."
+            ]
+        },
+        "management_principles": {
+            "overview": "Occult primary (cancer of unknown primary, CUP) is a heterogeneous group of histologically confirmed metastatic malignancies for which the primary site cannot be identified during standard pretreatment evaluation. These tumors are characterized by early dissemination, aggressiveness, and unpredictable metastatic patterns. Median survival is 8 to 12 months, though select patients with favorable subsets (e.g., single small resectable lesion, midline nodal distribution of poorly differentiated carcinoma, squamous cell carcinoma [SCC] involving cervical lymph nodes, isolated inguinal adenopathy [SCC], poorly differentiated neuroendocrine carcinomas, women with papillary adenocarcinoma of the peritoneal cavity, women with adenocarcinoma involving only axillary lymph nodes, men with blastic bone metastases and elevated PSA) have median overall survival (OS) ranging from 12 to 36 months [2,4,5]. The treatment philosophy stresses palliation and symptom control in the majority; systemic therapy is palliative and does not significantly improve long-term survival for disseminated disease. However, tailored locoregional treatments or specific systemic regimens (e.g., fluorouracil-based for suspected colon primary, cisplatin-based for suspected germ cell tumor) may provide clinical benefit and prolong survival in favorable subsets. Multimodal approaches integrating surgery, radiation therapy (RT), and systemic therapy are individualized based on histology (adenocarcinoma/carcinoma not otherwise specified vs. SCC), clinical presentation, workup findings (including biomarker results), and performance status (PS). Enrollment in clinical trials is strongly encouraged.",
+            "by_intent": [
+                {
+                    "intent": "Curative",
+                    "patient_group": "Favorable prognostic subsets: single small potentially resectable tumor; poorly differentiated carcinoma with midline nodal distribution; SCC cervical lymph nodes (constituting 2%–5% of occult primary cancers); isolated inguinal adenopathy (SCC); women with papillary adenocarcinoma of peritoneal cavity; women with adenocarcinoma involving only axillary lymph nodes; men with blastic bone metastases and elevated PSA; poorly differentiated neuroendocrine carcinomas.",
+                    "approach": "Tailored locoregional treatments (surgery, RT) and/or specific systemic therapy regimens (e.g., cisplatin-based for germ cell, fluorouracil-based for colorectal profile) may achieve prolonged survival. For isolated axillary adenocarcinoma, treat per NCCN Guidelines for Breast Cancer. For mediastinal adenocarcinoma in patients <40 years, treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or Ovarian Cancer."
+                },
+                {
+                    "intent": "Palliative",
+                    "patient_group": "Disseminated metastases or unfavorable features (multiple organ involvement, poor PS, male gender at birth, age ≥65 years, multiple comorbidities, nonpapillary malignant ascites, peritoneal metastases, multiple cerebral metastases, adenocarcinoma with multiple lung/pleural or bone lesions).",
+                    "approach": "Symptom control, clinical trial preferred, consideration of systemic therapy on an individual basis (symptomatic PS 1–2 or asymptomatic PS 0 with aggressive cancer). Specialized approaches (palliative thoracentesis/paracentesis, targeted therapies, novel RT). Psychosocial support and early end-of-life discussions."
+                }
+            ],
+            "mdt_requirements": "Communication between clinician and pathologist is essential for workup to direct immunohistochemistry (IHC) staining pattern to the clinical differential diagnosis. Multidisciplinary team should include medical oncology, surgical oncology, radiation oncology, pathology, radiology, and supportive/palliative care services. For patients with peritoneal/ascites, consultation with surgical or gynecologic oncologist as appropriate. For inguinal nodes, gynecologic oncologist consult (in those with uterus and/or ovaries present). For retroperitoneal mass, consider gynecologic oncologist consult if CA-125 elevated. For head and neck presentations, treatment per NCCN Guidelines for Head and Neck Cancers.",
+            "performance_status_guide": "Consider systemic therapy in symptomatic patients (PS 1–2) or asymptomatic patients (PS 0) with aggressive cancer. For patients with poor PS, prioritize symptom control, clinical trial, and supportive care. The use of intensive regimens like FOLFIRINOX, mFOLFIRINOX, or carboplatin/etoposide/paclitaxel is reserved for patients with PS ECOG 0–1 [34,36,37,33]. In patients with bone lesions and good PS, surgery for impending fracture and/or RT can be considered; for poor PS, RT alone is recommended."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "adeno_head_neck",
+                "title": "Adenocarcinoma – Predominant and isolated cervical nodes / Head and neck",
+                "branching_basis": [
+                    "Histology: adenocarcinoma or carcinoma not otherwise specified",
+                    "Clinical presentation: isolated cervical nodes"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup per NCCN Guidelines for Head and Neck Cancers",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Head and Neck Cancers",
+                                "preference": "recommended",
+                                "recommendation": "Follow the Occult Primary pathway described in the NCCN Guidelines for Head and Neck Cancers [OCC-3, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_supraclavicular",
+                "title": "Adenocarcinoma – Supraclavicular nodes",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: supraclavicular nodes"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup: neck/chest/abdomen/pelvis CT; appropriate IHC; mammogram (if breast tissue or gynecomastia); if nondiagnostic and histopathologic evidence for breast cancer, breast MRI and/or ultrasound; PSA >40 y (if prostate present)",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Breast Cancer Screening and Diagnosis and NCCN Guidelines for Breast Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Based on workup findings, management is per breast cancer guidelines [OCC-3, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_axillary",
+                "title": "Adenocarcinoma – Axillary nodes (limited)",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: axillary-limited"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup: neck/chest/abdomen/pelvis CT; appropriate IHC; mammogram; if nondiagnostic and histopathologic evidence for breast cancer, breast MRI and/or ultrasound; PSA >40 y",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Breast Cancer Screening and Diagnosis and NCCN Guidelines for Breast Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Management based on workup findings; if breast primary identified, treat per breast cancer guidelines [OCC-3, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_mediastinum",
+                "title": "Adenocarcinoma – Mediastinum",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: mediastinum",
+                    "Age stratification"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "<40 years",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or germ cell tumor per NCCN Guidelines for Ovarian Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Additional workup includes beta-hCG, AFP, testicular ultrasound if markers elevated [OCC-4, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "40 to <50 years",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or germ cell tumor per NCCN Guidelines for Ovarian Cancer OR treat per NCCN Guidelines for Non-Small Cell Lung Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Either approach is acceptable based on workup findings [OCC-4, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "≥50 years",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Non-Small Cell Lung Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Additional workup should exclude germ cell and breast primary [OCC-4, OCC-8]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_lung_nodules",
+                "title": "Adenocarcinoma – Chest (multiple nodules) or pleural effusion",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: lung nodules (multiple) or pleural effusion"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Lung nodules – completely resectable",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Consider surgery",
+                                "preference": "other recommended",
+                                "recommendation": "If completely resectable, surgical resection may be considered [OCC-9]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Lung nodules – not completely resectable or for any patient",
+                        "options": [
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred",
+                                "recommendation": "Enrollment in clinical trial is the preferred approach [OCC-9]."
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy",
+                                "preference": "other recommended",
+                                "recommendation": "Systemic therapy may be considered [OCC-B]."
+                            },
+                            {
+                                "type": "radiation",
+                                "label": "SBRT/SABR",
+                                "preference": "other recommended",
+                                "recommendation": "Stereotactic body radiation therapy (SBRT) or stereotactic ablative radiotherapy (SABR) can be used, especially for oligometastatic disease [OCC-9, OCC-C]."
+                            },
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended",
+                                "recommendation": "Palliation of symptoms as needed [OCC-9]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Pleural effusion – Pathology defined (e.g., breast marker positive)",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as per appropriate NCCN Guidelines Treatment by Cancer Type",
+                                "preference": "recommended",
+                                "recommendation": "If workup identifies a primary site, follow disease-specific guidelines [OCC-9]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Pleural effusion – Other (no tumor marker identified)",
+                        "options": [
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred"
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy",
+                                "preference": "other recommended",
+                                "recommendation": "Consider treating as lung primary (stage IVA) if not positive for another tumor marker per NCCN Guidelines for Non-Small Cell Lung Cancer [OCC-9]."
+                            },
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended"
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_peritoneal",
+                "title": "Adenocarcinoma – Peritoneal/Ascites",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: peritoneal/ascites"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Pathology defined (e.g., ovarian histology consistent)",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as per appropriate NCCN Guidelines Treatment by Cancer Type",
+                                "preference": "recommended",
+                                "recommendation": "If primary identified, treat per disease-specific guidelines [OCC-9]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Other (no specific primary identified)",
+                        "options": [
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred"
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy",
+                                "preference": "other recommended",
+                                "recommendation": "Systemic therapy may be considered on an individual basis [OCC-9, OCC-B]."
+                            },
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended"
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_retroperitoneal",
+                "title": "Adenocarcinoma – Retroperitoneal mass",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: retroperitoneal mass",
+                    "Histology consistent with germ cell tumor vs non-germ cell"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Histology consistent with germ cell tumor",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as poor-risk germ cell tumor per NCCN Guidelines for Testicular Cancer or germ cell tumor per NCCN Guidelines for Ovarian Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Additional workup includes beta-hCG, AFP, testicular ultrasound in patients with testes <65 years [OCC-5, OCC-9]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Non-germ cell histology",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Surgery and/or RT",
+                                "preference": "other recommended",
+                                "recommendation": "Surgery and/or RT are recommended; consider systemic therapy for selected patients [OCC-9, OCC-C]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_inguinal",
+                "title": "Adenocarcinoma – Inguinal nodes",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: inguinal nodes",
+                    "Unilateral vs bilateral"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Unilateral",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Lymph node dissection, consider RT if clinically indicated ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "For unilateral inguinal adenopathy, lymph node dissection with consideration of adjuvant RT and/or systemic therapy [OCC-10]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT may be considered if extranodal extension or inadequate nodal dissection with multiple positive nodes [OCC-C]."
+                        }
+                    },
+                    {
+                        "criteria": "Bilateral",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Bilateral lymph node dissection, consider RT if clinically indicated ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "For bilateral inguinal disease, bilateral lymph node dissection; RT alone is category 2B [OCC-10]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT may be considered with same criteria; RT alone is category 2B [OCC-C]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_liver",
+                "title": "Adenocarcinoma – Liver",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: liver",
+                    "Resectable vs unresectable"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Resectable",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Surgical resection ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "If surgery is medically contraindicated, treat as unresectable [OCC-10]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Systemic therapy may be considered as adjunct."
+                        }
+                    },
+                    {
+                        "criteria": "Unresectable",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat as disseminated disease and/or consider locoregional therapeutic options",
+                                "preference": "recommended",
+                                "recommendation": "See NCCN Guidelines for Hepatocellular Carcinoma for locoregional therapy options [OCC-10]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_bone",
+                "title": "Adenocarcinoma – Bone",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: bone lesion",
+                    "Isolated/painful/risk of fracture"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Isolated lesion or painful lesion or lesion with potential for fracture in weight-bearing area",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Surgery for impending fracture (in patients with good PS) and/or RT",
+                                "preference": "recommended",
+                                "recommendation": "If good PS, surgery and/or RT; if poor PS, RT alone [OCC-10, OCC-C]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_brain",
+                "title": "Adenocarcinoma – Brain",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: brain metastasis"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Any",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "See NCCN Guidelines for Central Nervous System Cancers for management of CNS metastatic lesions",
+                                "preference": "recommended",
+                                "recommendation": "Primary treatment of CNS metastases per CNS guidelines [OCC-6, OCC-10]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "adeno_multiple_sites_disseminated",
+                "title": "Adenocarcinoma – Multiple sites of involvement / Disseminated metastases",
+                "branching_basis": [
+                    "Histology: adenocarcinoma",
+                    "Clinical presentation: multiple sites"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Workup findings do not identify primary site",
+                        "options": [
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended"
+                            },
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred"
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy on an individual basis",
+                                "preference": "other recommended",
+                                "recommendation": "Systemic therapy may be considered; base regimen on histologic cancer type [OCC-B]. For disseminated adenocarcinoma, preferred regimens include carboplatin/paclitaxel [1,2] and cisplatin/gemcitabine [3]. For presumed GI primary, CAPEOX [4], FOLFIRI [5-9], mFOLFOX6 [4,10] are preferred."
+                            },
+                            {
+                                "type": "specialized_approaches",
+                                "label": "Specialized approaches",
+                                "preference": "other recommended",
+                                "recommendation": "Includes palliative care, targeted therapies, novel RT [OCC-7, Discussion]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_head_neck",
+                "title": "Squamous Cell Carcinoma – Head and neck nodes",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: head and neck nodes"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup per NCCN Guidelines for Head and Neck Cancers; check p16 IHC/HPV ISH and EBV ISH results",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Head and Neck Cancers",
+                                "preference": "recommended",
+                                "recommendation": "Follow the Occult Primary pathway in the NCCN Guidelines for Head and Neck Cancers [OCC-11, OCC-13]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_supraclavicular",
+                "title": "Squamous Cell Carcinoma – Supraclavicular nodes",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: supraclavicular nodes"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup: neck/chest/abdomen/pelvis CT; endoscopy as indicated; check p16/HPV/EBV",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Head and Neck Cancers",
+                                "preference": "recommended",
+                                "recommendation": "Treatment per head and neck occult primary guideline [OCC-11, OCC-13]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_axillary",
+                "title": "Squamous Cell Carcinoma – Axillary nodes",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: axillary nodes"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup: chest CT; careful perineal and lower extremity exam; gynecologic oncologist consult; anoscopy; cystoscopy if indicated",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Axillary node dissection, consider RT if clinically indicated ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "For site-limited squamous cell carcinoma, axillary dissection with consideration of adjuvant RT and/or systemic therapy [OCC-11, OCC-13]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Consider RT if extranodal extension or inadequate nodal dissection [OCC-C]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_mediastinum",
+                "title": "Squamous Cell Carcinoma – Mediastinum",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: mediastinum"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Additional workup per chest/abdomen/pelvis CT",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Treat per NCCN Guidelines for Non-Small Cell Lung Cancer",
+                                "preference": "recommended",
+                                "recommendation": "Management per NSCLC guidelines [OCC-11, OCC-13]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_lung_nodules_pleural",
+                "title": "Squamous Cell Carcinoma – Multiple lung nodules or pleural effusion",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: multiple lung nodules or pleural effusion"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Any",
+                        "options": [
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred"
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy",
+                                "preference": "other recommended",
+                                "recommendation": "For squamous cell carcinoma, preferred regimens: carboplatin/paclitaxel [1,2], mFOLFOX6 [4,10]. Other recommended: capecitabine [11], carboplatin/docetaxel [41], cisplatin/gemcitabine [3], etc. [OCC-13, OCC-B 8 of 14]."
+                            },
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended"
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_inguinal",
+                "title": "Squamous Cell Carcinoma – Inguinal nodes",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: inguinal nodes",
+                    "Unilateral vs bilateral"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Unilateral",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Lymph node dissection, consider RT if clinically indicated ± systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "For unilateral inguinal SCC [OCC-14]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT may be considered for extranodal extension or inadequate dissection [OCC-C]."
+                        }
+                    },
+                    {
+                        "criteria": "Bilateral",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Bilateral lymph node dissection, consider RT if clinically indicated ± systemic therapy (category 2B for RT alone)",
+                                "preference": "recommended",
+                                "recommendation": "Bilateral dissection; RT alone is category 2B [OCC-14]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Adjuvant RT may be considered; RT alone category 2B [OCC-C]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_bone",
+                "title": "Squamous Cell Carcinoma – Bone",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: bone",
+                    "Isolated/painful/risk of fracture vs multiple lesions"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Isolated lesion or painful lesion or bone scan–positive lesion with potential for fracture in weight-bearing area",
+                        "options": [
+                            {
+                                "type": "surgery",
+                                "label": "Surgery for impending fracture (in patients with good PS) and/or RT",
+                                "preference": "recommended",
+                                "recommendation": "If good PS, surgery and/or RT; if poor PS, RT alone [OCC-14, OCC-C]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    },
+                    {
+                        "criteria": "Multiple lesions",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "Disseminated metastases (OCC-12)",
+                                "preference": "recommended",
+                                "recommendation": "Treat as disseminated: symptom control, clinical trial preferred, consider systemic therapy [OCC-14]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_brain",
+                "title": "Squamous Cell Carcinoma – Brain",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: brain metastasis"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Any",
+                        "options": [
+                            {
+                                "type": "treatment",
+                                "label": "See NCCN Guidelines for Central Nervous System Cancers for management of CNS metastatic lesions",
+                                "preference": "recommended",
+                                "recommendation": "Primary treatment of CNS metastases per CNS guidelines [OCC-14]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "squamous_disseminated",
+                "title": "Squamous Cell Carcinoma – Disseminated metastases",
+                "branching_basis": [
+                    "Histology: squamous cell carcinoma",
+                    "Clinical presentation: disseminated metastases (multiple sites, bone multiple lesions, etc.)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "No primary found on workup",
+                        "options": [
+                            {
+                                "type": "symptom_control",
+                                "label": "Symptom control",
+                                "preference": "recommended"
+                            },
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial preferred",
+                                "preference": "preferred"
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Consider systemic therapy on an individual basis",
+                                "preference": "other recommended",
+                                "recommendation": "Base regimen on histology; preferred regimens for squamous include carboplatin/paclitaxel [1,2] and mFOLFOX6 [4,10]. Other recommended include cisplatin/gemcitabine [3], carboplatin/gemcitabine [13], cisplatin/fluorouracil [43], etc. [OCC-12, OCC-B 8 of 14]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Initial Evaluation",
+                "items": [
+                    {
+                        "text": "Complete history and physical (H&P) including breast, genitourinary, pelvic, rectal, skin, and/or oral cavity exam as appropriate, with attention to past biopsies or malignancies, removed lesions, spontaneously regressing lesions, existing imaging studies.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Complete blood count (CBC).",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Comprehensive metabolic panel (CMP).",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Lactate dehydrogenase (LDH) as indicated.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Chest/abdomen/pelvis CT scan (with contrast; MRI with and without IV contrast unless contraindicated; FDG-PET/CT is an alternative if contraindication to contrast enhancement).",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Clinically directed endoscopy as indicated.",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Workup (Biopsy and Pathology)",
+                "items": [
+                    {
+                        "text": "Core needle biopsy (preferred) and/or fine-needle aspiration (FNA) with cell block of most accessible site.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Consult pathologist for adequacy of specimen and additional studies including immunohistochemical (IHC) stains.",
+                        "recommendation": "Category 2A; see OCC-A for recommended markers."
+                    },
+                    {
+                        "text": "Biomarker testing using next-generation sequencing (NGS) (or other technique to identify gene alterations or tumor mutational burden [TMB]).",
+                        "recommendation": "Category 2A; testing on tumor tissue and/or cell-free DNA is appropriate [g]."
+                    },
+                    {
+                        "text": "Microsatellite instability (MSI) or mismatch repair (MMR) testing.",
+                        "recommendation": "Category 2A; use IHC for MMR or PCR for MSI [h]."
+                    },
+                    {
+                        "text": "HER2 IHC.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Tissue of origin studies (gene expression profiling) are not recommended.",
+                        "recommendation": "Category 2A; based on data showing no clinical benefit in randomized trials [i]."
+                    }
+                ]
+            },
+            {
+                "category": "Additional Workup by Clinical Presentation – Adenocarcinoma",
+                "items": [
+                    {
+                        "text": "Predominant cervical nodes: See NCCN Guidelines for Head and Neck Cancers [OCC-3].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Supraclavicular/axillary nodes: Neck/chest/abdomen/pelvis CT; appropriate IHC; mammogram (if breast tissue or gynecomastia); if nondiagnostic and histopathologic evidence for breast cancer, breast MRI and/or breast ultrasound; PSA >40 y (if prostate present) [OCC-3].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Mediastinum: Chest/abdomen/pelvis CT; beta-hCG, AFP; appropriate IHC; mammogram; PSA >40 y; testicular ultrasound if markers elevated (if testes present) [OCC-4].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Chest (multiple nodules) or pleural effusion: Chest/abdomen/pelvis CT; appropriate IHC; consider gynecologic oncologist consult if CA-125 elevated or clinically indicated (if uterus/ovaries present); mammogram; PSA >40 y [OCC-4].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Peritoneal/ascites: Chest/abdomen/pelvis CT; urine cytology, cystoscopy if suspicious; appropriate IHC; CA-125 (if uterus/ovaries present); surgical or gynecologic oncologist consult; mammogram; PSA >40 y [OCC-4].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Retroperitoneal mass: Chest/abdomen/pelvis CT; urine cytology, consider cystoscopy if suspicious; appropriate IHC; gynecologic oncologist consult if CA-125 elevated (if uterus/ovaries present); mammogram; PSA >40 y; if <65 y and testes present: beta-hCG, AFP, testicular ultrasound [OCC-5].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Inguinal nodes: Chest/abdomen/pelvis CT; appropriate IHC; proctoscopy if clinically indicated; CA-125 (if uterus/ovaries present); gynecologic oncologist consult (if uterus/ovaries present); PSA >40 y [OCC-5].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Liver: Chest/abdomen/pelvis CT; endoscopic evaluation; AFP; appropriate IHC; mammogram; consider further liver-directed imaging [OCC-5].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Bone: Chest/abdomen/pelvis CT with bone scan; appropriate IHC; mammogram; PSA (if prostate present) [OCC-6].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Brain: See NCCN Guidelines for Central Nervous System Cancers; chest/abdomen/pelvis CT (if not done); appropriate IHC; mammogram [OCC-6].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Multiple sites: Chest/abdomen/pelvis CT; appropriate IHC; mammogram; PSA (if prostate present) [OCC-6].",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "Additional Workup – Squamous Cell Carcinoma",
+                "items": [
+                    {
+                        "text": "Head and neck nodes: Head and neck workup per NCCN Guidelines for Head and Neck Cancers; check p16 IHC/HPV ISH and EBV ISH [OCC-11].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Supraclavicular nodes: Neck/chest/abdomen/pelvis CT; endoscopy as indicated; check p16/HPV/EBV [OCC-11].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Axillary nodes: Chest CT; careful perineal and lower extremity exam including reproductive organs and genitalia; gynecologic oncologist consult; anoscopy; cystoscopy if clinically indicated [OCC-11].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Inguinal nodes: Chest/abdomen/pelvis CT; careful perineal and lower extremity exam; gynecologic oncologist consult; anoscopy; cystoscopy if clinically indicated [OCC-11].",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Bone: Bone scan (if only chest/abdomen/pelvis CT previously done); diagnostic imaging for painful lesions or bone scan–positive lesions with potential for fracture [OCC-11].",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery plays a role in diagnosis (biopsy) and treatment of localized occult primary cancers, particularly for lymph node dissection in inguinal and axillary presentations, resection of isolated metastases (e.g., lung nodules, liver lesions), and palliative surgery for impending fracture in weight-bearing areas. Surgery is also considered for resectable retroperitoneal masses with non-germ cell histology. The primary goal is locoregional control in favorable subsets.",
+            "principles": [
+                "Core needle biopsy is preferred for initial diagnosis; FNA with cell block may be used if core needle biopsy is not feasible [OCC-1].",
+                "Surgical resection of isolated metastases (e.g., completely resectable lung nodules, liver lesions) can be considered when disease is limited and patient is medically fit.",
+                "Lymph node dissection (axillary, inguinal) is recommended for site-limited disease, especially for SCC; for bilateral inguinal involvement, bilateral dissection is recommended (RT alone is category 2B) [OCC-10, OCC-14].",
+                "For bone lesions with potential for fracture in weight-bearing areas, surgery for impending fracture is recommended in patients with good PS; otherwise RT alone is used [OCC-10, OCC-14].",
+                "If surgery is medically contraindicated for resectable liver lesions, treat as unresectable (disseminated metastases and/or locoregional therapy) [OCC-10].",
+                "Surgery may be considered for retroperitoneal mass with non-germ cell histology; RT can be used as alternative [OCC-9]."
+            ],
+            "procedures": [
+                {
+                    "name": "Lymph node dissection (axillary)",
+                    "approach": "Surgical excision of axillary lymph nodes.",
+                    "indications": "Squamous cell carcinoma with axillary node involvement; adenocarcinoma with axillary-limited disease (but then treat per breast cancer guidelines).",
+                    "key_complications": "Lymphedema, nerve injury, infection, seroma. (Not explicitly detailed in guideline, but standard surgical risks.)"
+                },
+                {
+                    "name": "Lymph node dissection (inguinal)",
+                    "approach": "Surgical excision of inguinal lymph nodes (unilateral or bilateral).",
+                    "indications": "Squamous cell carcinoma or adenocarcinoma with inguinal node metastasis; for SCC, dissection is recommended; for adenocarcinoma, unilateral or bilateral dissection as clinically indicated.",
+                    "key_complications": "Lymphedema, wound infection, vascular injury, nerve damage. (Standard surgical risks.)"
+                },
+                {
+                    "name": "Resection of lung nodules",
+                    "approach": "Surgical resection (e.g., wedge resection, segmentectomy, lobectomy) for completely resectable nodules.",
+                    "indications": "Adenocarcinoma or SCC presenting with multiple lung nodules if completely resectable; may be considered for oligometastatic disease.",
+                    "key_complications": "Pneumothorax, air leak, infection, bleeding."
+                },
+                {
+                    "name": "Liver resection",
+                    "approach": "Surgical resection of isolated liver metastasis.",
+                    "indications": "Adenocarcinoma with resectable liver lesion; if surgery is contraindicated, treat as unresectable.",
+                    "key_complications": "Hepatic insufficiency, bleeding, bile leak, infection."
+                },
+                {
+                    "name": "Surgery for impending fracture",
+                    "approach": "Orthopedic stabilization (e.g., intramedullary nailing, joint replacement) for lesions at risk of pathologic fracture.",
+                    "indications": "Adenocarcinoma or SCC with bone lesion(s) in weight-bearing area and good PS.",
+                    "key_complications": "Infection, implant failure, thrombosis."
+                }
+            ],
+            "resectability_criteria": "Resectability is determined by the extent of disease and patient fitness. For lung nodules, 'completely resectable' is used without further specification. For liver lesions, resectability is based on standard hepatic surgical criteria (not detailed in guideline). Surgery for impending fracture is reserved for patients with good performance status."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) is used for definitive treatment of localized disease (especially for limited metastases), as adjuvant therapy after lymph node dissection, and for palliation of symptomatic lesions (pain, impending fracture, cord compression). Stereotactic body RT (SBRT)/stereotactic ablative radiotherapy (SABR) is recommended for oligometastatic disease (1–3 metastases) and pulmonary metastases [OCC-C].",
+            "principles": [
+                "Definitive radiotherapy can be considered for patients with active disease localized to a single nodal site or isolated metastasis.",
+                "Adjuvant RT after lymph node dissection is indicated if disease is limited to a single nodal site with extranodal extension or if there is inadequate nodal dissection with multiple positive nodes.",
+                "Palliative hypofractionated RT is used for uncontrolled pain, impending pathologic fracture, or impending cord compression.",
+                "Concurrent chemoradiation with capecitabine, fluorouracil, or cisplatin/fluorouracil can be given for selected presentations (e.g., presumed GI primary or SCC) [OCC-B 5,11].",
+                "SBRT/SABR is particularly recommended for limited (1–3) metastases based on SABR-COMET trial [1] and for pulmonary metastases [2]."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "SBRT/SABR",
+                    "total_dose": "48–60 Gy",
+                    "dose_per_fraction": "9.6–15 Gy (depending on fractionation)",
+                    "fractions": "4–5 fractions",
+                    "schedule": "Typically over 1–2 weeks",
+                    "indication": "Limited (1–3) metastases; pulmonary metastases [1,2]."
+                },
+                {
+                    "name": "Adjuvant RT (after lymph node dissection)",
+                    "total_dose": "45 Gy with or without boost of 5–9 Gy",
+                    "dose_per_fraction": "1.8–2.0 Gy",
+                    "fractions": "22–25 fractions for 45 Gy; plus boost fractions as needed",
+                    "schedule": "Conventional fractionation",
+                    "indication": "Isolated supraclavicular, axillary, or inguinal nodal metastasis with extranodal extension or inadequate dissection with multiple positive nodes."
+                },
+                {
+                    "name": "Palliative hypofractionated RT",
+                    "total_dose": "8 Gy (single fraction); 20 Gy (4–5 fractions); 30 Gy (10 fractions)",
+                    "dose_per_fraction": "8 Gy; 4–5 Gy; 3 Gy",
+                    "fractions": "1; 4–5; 10",
+                    "schedule": "Single day; 1–2 weeks; 2 weeks",
+                    "indication": "Uncontrolled pain, impending pathologic fracture, impending cord compression."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Definitive RT (including SBRT/SABR)",
+                    "dose_fractionation": "48–60 Gy in 4–5 fractions for oligometastases; other definitive regimens may be used for head and neck or mediastinal presentations per site-specific guidelines.",
+                    "concurrent_chemotherapy": "May be given with capecitabine (625–825 mg/m2 PO BID Days 1–5 weekly) or fluorouracil (200–250 mg/m2 CIV daily Days 1–5 weekly) for presumed GI primary; cisplatin/fluorouracil for SCC (cisplatin 75–100 mg/m2 Days 1 and 29 + fluorouracil 750–1000 mg/m2 CIV Days 1–4 and 29–32 with RT, or cisplatin 15 mg/m2 Days 1–5 + fluorouracil 800 mg/m2 CIV Days 1–5, 21-day cycle for 2 cycles with RT) [OCC-B 11].",
+                    "indication": "Limited nodal or extranodal disease, especially if unresectable or for organ preservation.",
+                    "key_trial": "SABR-COMET [1], Gomez et al. [2] for oligometastatic NSCLC.",
+                    "toxicities": "Fatigue, dermatitis, esophagitis, pneumonitis (depending on site). With concurrent chemotherapy, increased mucositis, hematologic toxicity."
+                },
+                {
+                    "name": "Adjuvant RT",
+                    "dose_fractionation": "45 Gy over 5 weeks to nodal basin ± boost 5–9 Gy.",
+                    "concurrent_chemotherapy": "Not routinely used; adjuvant systemic therapy may be given sequentially.",
+                    "indication": "After lymph node dissection for SCC or adenocarcinoma with extranodal extension or inadequate dissection.",
+                    "key_trial": "Not specifically reported in CUP; extrapolated from head and neck and other guidelines.",
+                    "toxicities": "Local skin reactions, fibrosis, lymphedema, xerostomia if head/neck region."
+                },
+                {
+                    "name": "Palliative RT",
+                    "dose_fractionation": "8 Gy/1, 20 Gy/4–5, 30 Gy/10 fractions.",
+                    "concurrent_chemotherapy": "Not typically used; systemic therapy may be given separately for symptom control.",
+                    "indication": "Symptomatic bone metastases, impending fracture, cord compression.",
+                    "key_trial": "Standard palliative regimens [OCC-C].",
+                    "toxicities": "Fatigue, local skin reaction, nausea (if large fields)."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is indicated for symptomatic patients with PS 1–2 or asymptomatic patients with PS 0 and aggressive cancer. The choice of regimen is based on histologic cancer type (adenocarcinoma vs. squamous cell carcinoma) and, if available, biomarker results (MSI/MMR, TMB, BRAF, NTRK, RET, HER2). For disseminated disease, treatment is palliative with limited efficacy; enrollment in clinical trials is strongly preferred. Regimens are listed in categories of preference (Preferred, Other Recommended, Useful in Certain Circumstances) as per NCCN. For adenocarcinoma, preferred options include carboplatin/paclitaxel [1,2] and cisplatin/gemcitabine [3]; for presumed GI primary, CAPEOX, FOLFIRI, mFOLFOX6 are preferred. For squamous cell carcinoma, preferred options include carboplatin/paclitaxel [1,2] and mFOLFOX6 [4,10]. Biomarker-driven therapies (e.g., dabrafenib/trametinib for BRAF V600E, pembrolizumab for dMMR/MSI-H or TMB-H, entrectinib/larotrectinib/repotrectinib for NTRK fusions, selpercatinib for RET fusions, fam-trastuzumab deruxtecan for HER2 IHC 3+) are recommended for selected patients meeting specific indications [OCC-B].",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Adenocarcinoma, first-line or subsequent (unfavorable/disseminated)",
+                    "preferred_regimen": "Carboplatin/Paclitaxel (AUC 5-6 IV Day 1 + paclitaxel 175-200 mg/m2 IV Day 1 q3w OR carboplatin AUC 2 IV Days 1,8,15 + paclitaxel 80 mg/m2 IV Days 1,8,15 q4w) [1,2]; Cisplatin/Gemcitabine (cisplatin 75 mg/m2 IV Day 1 + gemcitabine 1000-1250 mg/m2 IV Days 1 and 8 q3w) [3]",
+                    "rationale": "Phase II/III data show ORR ~38-55% and median OS 8-11 months for these platinum-based regimens. Carboplatin/paclitaxel is well tolerated [140,150,151].",
+                    "alternatives": "Other Recommended: Carboplatin/Docetaxel [12], Carboplatin/Gemcitabine [13], Docetaxel/Gemcitabine [16], Irinotecan/Carboplatin [14]. Useful in Certain Circumstances: FOLFIRINOX/mFOLFIRINOX (PS 0-1, presumed GI primary) [34,36,37], Carboplatin/Etoposide/Paclitaxel (PS 0-1) [33], Gemcitabine/Irinotecan (platinum-ineligible) [35], Biomarker-driven options (see below)."
+                },
+                {
+                    "setting": "Adenocarcinoma, presumed GI primary",
+                    "preferred_regimen": "CAPEOX (capecitabine 850-1000 mg/m2 PO BID Days 1-14 + oxaliplatin 130 mg/m2 IV Day 1 q3w) [4]; FOLFIRI (irinotecan 180 mg/m2 IV Day 1 + leucovorin 400 mg/m2 IV Day 1 + fluorouracil 400 mg/m2 IV bolus then 1200 mg/m2/day CIV x 2 days q2w) [5-9]; mFOLFOX6 (oxaliplatin 85 mg/m2 IV Day 1 + leucovorin 400 mg/m2 IV Day 1 + fluorouracil 400 mg/m2 IV bolus then 1200 mg/m2/day CIV x 2 days q2w) [4,10]",
+                    "rationale": "Based on colorectal cancer trials showing efficacy and tolerability; retrospective studies suggest benefit in CUP with colorectal molecular profile [167].",
+                    "alternatives": "Capecitabine single agent [11]; Roswell Park/Simplified/Weekly Fluorouracil/Leucovorin [17-19]; FOLFIRINOX/mFOLFIRINOX (PS 0-1) [34,36,37]."
+                },
+                {
+                    "setting": "Squamous cell carcinoma, first-line or subsequent (disseminated)",
+                    "preferred_regimen": "Carboplatin/Paclitaxel (same dosing as above) [1,2]; mFOLFOX6 [4,10]",
+                    "rationale": "Carboplatin/paclitaxel is commonly used for SCC of head and neck/lung; mFOLFOX6 based on esophageal SCC data [204,205].",
+                    "alternatives": "Other Recommended: Capecitabine [11], Carboplatin/Docetaxel [41], Carboplatin/Gemcitabine [13], Cisplatin/Docetaxel [15,42], Cisplatin/Fluorouracil [43], Cisplatin/Gemcitabine [3], Cisplatin/Paclitaxel [44], Roswell Park/Simplified/Weekly Fluorouracil/Leucovorin [17-19]. Useful in Certain Circumstances: Cisplatin/Docetaxel/Fluorouracil (PS 0-1) [47]; Biomarker-driven options (see below)."
+                },
+                {
+                    "setting": "Biomarker-driven therapy (any histology)",
+                    "preferred_regimen": "Varies by biomarker",
+                    "rationale": "FDA-approved tissue-agnostic indications based on basket trials.",
+                    "alternatives": "See key_regimens below."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Carboplatin/Paclitaxel (q3w)",
+                    "setting": "Adenocarcinoma and squamous cell carcinoma (first-line)",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 5-6",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "175-200 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Neutropenia, thrombocytopenia, neuropathy, fatigue, alopecia, allergic reactions [1]."
+                },
+                {
+                    "name": "Carboplatin/Paclitaxel (weekly)",
+                    "setting": "Adenocarcinoma and squamous cell carcinoma (first-line, alternative)",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "AUC 2",
+                            "route": "IV",
+                            "day": "Days 1, 8, 15"
+                        },
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "80 mg/m2",
+                            "route": "IV",
+                            "day": "Days 1, 8, 15"
+                        }
+                    ],
+                    "cycle_days": "28 days",
+                    "key_toxicities": "Similar to q3w but possibly less neuropathy [2]."
+                },
+                {
+                    "name": "Cisplatin/Gemcitabine",
+                    "setting": "Adenocarcinoma (preferred), squamous (other recommended)",
+                    "drugs": [
+                        {
+                            "name": "Cisplatin",
+                            "dose": "75 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Gemcitabine",
+                            "dose": "1000-1250 mg/m2",
+                            "route": "IV",
+                            "day": "Days 1 and 8"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Nephrotoxicity, myelosuppression, nausea/vomiting, ototoxicity [3]."
+                },
+                {
+                    "name": "CAPEOX",
+                    "setting": "Adenocarcinoma, presumed GI primary (preferred)",
+                    "drugs": [
+                        {
+                            "name": "Capecitabine",
+                            "dose": "850-1000 mg/m2",
+                            "route": "PO twice daily",
+                            "day": "Days 1-14"
+                        },
+                        {
+                            "name": "Oxaliplatin",
+                            "dose": "130 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Neutropenia, neuropathy, hand-foot syndrome, diarrhea [4]."
+                },
+                {
+                    "name": "FOLFIRI",
+                    "setting": "Adenocarcinoma, presumed GI primary (preferred)",
+                    "drugs": [
+                        {
+                            "name": "Irinotecan",
+                            "dose": "180 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Leucovorin",
+                            "dose": "400 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Fluorouracil",
+                            "dose": "400 mg/m2 IV bolus then 1200 mg/m2/day CIV x 2 days",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "14 days",
+                    "key_toxicities": "Diarrhea, neutropenia, nausea, alopecia [5-9]."
+                },
+                {
+                    "name": "mFOLFOX6",
+                    "setting": "Adenocarcinoma and squamous (preferred for both)",
+                    "drugs": [
+                        {
+                            "name": "Oxaliplatin",
+                            "dose": "85 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Leucovorin",
+                            "dose": "400 mg/m2",
+                            "route": "IV",
+                            "day": "Day 1"
+                        },
+                        {
+                            "name": "Fluorouracil",
+                            "dose": "400 mg/m2 IV bolus then 1200 mg/m2/day CIV x 2 days",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "14 days",
+                    "key_toxicities": "Neuropathy, neutropenia, diarrhea, nausea [4,10]."
+                },
+                {
+                    "name": "Pembrolizumab (dMMR/MSI-H or TMB-H)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg IV Day 1 OR 2 mg/kg IV Day 1 q3w; alternative 400 mg IV Day 1 OR 4 mg/kg IV Day 1 q6w",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days (q3w) or 42 days (q6w)",
+                    "key_toxicities": "Immunotherapy-related: pneumonitis, colitis, hepatitis, endocrinopathies, rash, fatigue [24-26,30]."
+                },
+                {
+                    "name": "Dostarlimab-gxly (dMMR/MSI-H)",
+                    "setting": "Adenocarcinoma – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Dostarlimab-gxly",
+                            "dose": "500 mg IV Day 1 q3w for 4 doses, then 1000 mg IV Day 1 q6w",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days initially, then 42 days",
+                    "key_toxicities": "Immunotherapy-related; similar to pembrolizumab [23]."
+                },
+                {
+                    "name": "Dabrafenib/Trametinib (BRAF V600E)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Dabrafenib",
+                            "dose": "150 mg PO twice daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        },
+                        {
+                            "name": "Trametinib",
+                            "dose": "2 mg PO daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous (28-day cycles)",
+                    "key_toxicities": "Pyrexia, fatigue, arthralgia, rash, nausea, diarrhea [22]."
+                },
+                {
+                    "name": "Entrectinib (NTRK fusion)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Entrectinib",
+                            "dose": "600 mg PO daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous (28-day cycles)",
+                    "key_toxicities": "Dizziness, dysgeusia, fatigue, constipation, anemia [27]."
+                },
+                {
+                    "name": "Larotrectinib (NTRK fusion)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Larotrectinib",
+                            "dose": "100 mg PO twice daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous (28-day cycles)",
+                    "key_toxicities": "Fatigue, nausea, dizziness, transaminitis [28]."
+                },
+                {
+                    "name": "Repotrectinib (NTRK fusion)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Repotrectinib",
+                            "dose": "160 mg PO once daily for 14 days, then 160 mg PO twice daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous (28-day cycles)",
+                    "key_toxicities": "Dizziness, dysgeusia, neuropathy, fatigue [29]."
+                },
+                {
+                    "name": "Selpercatinib (RET fusion)",
+                    "setting": "Adenocarcinoma (Useful in Certain Circumstances); Squamous (category 2B)",
+                    "drugs": [
+                        {
+                            "name": "Selpercatinib",
+                            "dose": "<50 kg: 120 mg PO twice daily; ≥50 kg: 160 mg PO twice daily",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous (28-day cycles)",
+                    "key_toxicities": "Hypertension, transaminitis, fatigue, nausea, diarrhea [32]."
+                },
+                {
+                    "name": "Fam-trastuzumab deruxtecan-nxki (HER2 IHC 3+)",
+                    "setting": "Adenocarcinoma and squamous – Useful in Certain Circumstances",
+                    "drugs": [
+                        {
+                            "name": "Fam-trastuzumab deruxtecan-nxki",
+                            "dose": "5.4 mg/kg IV Day 1",
+                            "route": "IV",
+                            "day": "Day 1"
+                        }
+                    ],
+                    "cycle_days": "21 days",
+                    "key_toxicities": "Nausea, fatigue, alopecia, neutropenia, interstitial lung disease [31]."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Follow-up and Response Assessment for All Occult Primaries",
+            "timing": "For patients with active disease or disease in remission, follow-up frequency should be determined by clinical need. For patients with no evidence of clinical disease, clinical follow-up with imaging every 6–12 months for up to 5 years is warranted [OCC-15].",
+            "response_logic": [
+                "Response assessment is driven by clinical evaluation (history, physical exam) and imaging (CT scans as clinically indicated). The guideline does not specify formal response criteria (e.g., RECIST) but standard oncologic response assessment should be used.",
+                "For patients with active and incurable disease, psychosocial support, symptom management, end-of-life discussions, palliative care interventions, and hospice care should be considered and utilized as appropriate [OCC-15]."
+            ],
+            "imaging_recommendations": [
+                "Contrast-enhanced CT of chest/abdomen/pelvis is the primary imaging modality for follow-up. FDG-PET/CT may be used as alternative if contraindication to contrast or if needed for clarification [OCC-1A footnote d].",
+                "For patients with no evidence of clinical disease, imaging every 6–12 months for 5 years is recommended; after 5 years, imaging may be discontinued if no recurrence [OCC-15].",
+                "Diagnostic imaging studies for symptomatic lesions (e.g., bone scan for painful lesions, CT for suspected progression) should be performed as indicated."
+            ],
+            "biopsy_or_salvage_logic": [
+                "The guideline does not provide specific recommendations for re-biopsy at progression. However, biomarker testing (NGS, MSI/MMR, HER2 IHC) is recommended at initial diagnosis; repeat biopsy may be considered to identify new actionable alterations if clinical progression occurs and tissue availability permits.",
+                "If a primary site is subsequently identified during follow-up (e.g., through imaging or clinical changes), treatment should be redirected per the appropriate disease-specific NCCN Guidelines [OCC-7]."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_occult_primary_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-22T07:01:37.648458"
+    },
+    "extraction_warnings": [
+        "  [CRITICAL] Occult Primary/nccn_occult_primary_2.2026.pdf: Regimen 'Carboplatin/Paclitaxel (3-weekly)' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Occult Primary/nccn_occult_primary_2.2026.pdf: Regimen 'Carboplatin/Docetaxel' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Occult Primary/nccn_occult_primary_2.2026.pdf: Regimen 'Carboplatin/Irinotecan' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required.",
+        "  [WARNING] Occult Primary/nccn_occult_primary_2.2026.pdf: Regimen 'Pembrolizumab (dMMR/MSI-H or TMB-H)' -- Pembrolizumab dose 20012134001416.0  out of range (1-2 mg/kg). Manual review required.",
+        "  [CRITICAL] Occult Primary/nccn_occult_primary_2.2026.pdf: Regimen 'Carboplatin/Oral Etoposide/Paclitaxel' -- Carboplatin dose 56.0  out of range (1-8 auc). Manual review required."
+    ]
+}

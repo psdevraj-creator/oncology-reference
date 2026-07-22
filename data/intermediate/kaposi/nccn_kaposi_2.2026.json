@@ -1,0 +1,2202 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Observation (ART alone for PWH)",
+            "site": "Limited cutaneous disease - asymptomatic and cosmetically acceptable",
+            "setting": "First-line",
+            "treatment_modality": [
+                "observation",
+                "antiretroviral therapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {},
+            "notes": "For PWH with limited cutaneous KS that is asymptomatic and cosmetically acceptable, observation with optimization of ART is appropriate. Remissions or stable disease may occur with ART and optimization of immune function and HIV viral suppression alone. For patients without HIV, observation until symptomatic, cosmetically bothersome, or progressive. Rapid progression during observation may be an indication for initiation of therapy. Patients on ART only should be reassessed within 4 weeks, particularly to monitor for KS-IRIS [KS-B; KS-2].",
+            "source_citation": {
+                "reference_numbers": [
+                    "55",
+                    "56",
+                    "57",
+                    "58",
+                    "59",
+                    "60",
+                    "61"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Alitretinoin 0.1% gel (topical)",
+            "site": "Limited cutaneous disease - symptomatic and/or cosmetically bothersome",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "topical therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Alitretinoin",
+                    "dose": "0.1% gel",
+                    "route": "Topical",
+                    "schedule": "Apply 2 times daily to affected skin sites; increase to 3-4 times daily if tolerated"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Phase III vehicle-controlled, multi-centered study",
+                "phase": "III",
+                "n_patients": "134",
+                "orr": "37% (alitretinoin) vs 7% (vehicle)"
+            },
+            "notes": "Alitretinoin gel is a topical retinoid approved for cutaneous AIDS-related KS. In a phase III trial of 134 patients with HIV-related KS, cutaneous tumor response rates were 37% in the alitretinoin group compared with 7% in the control group (Bodsworth 2001). A second similar trial in 268 patients showed 35% response rate for alitretinoin vs 18% for vehicle (Walmsley 1999). Adverse events were mostly mild to moderate and limited to application site. Data in classic KS are limited to case reports. [KS-D; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "74",
+                    "75"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Imiquimod 5% cream (topical)",
+            "site": "Limited cutaneous disease - symptomatic and/or cosmetically bothersome",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "topical therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imiquimod",
+                    "dose": "5% cream",
+                    "route": "Topical",
+                    "schedule": "Apply one sachet to up to 20 cm² of affected skin and cover with occlusive dressing for 8 hours three times per week; titrate frequency to effect and tolerability (up to once daily), with treatment breaks if tolerability issues occur"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Phase I/II open-label trial in HIV-negative KS",
+                "phase": "I/II",
+                "n_patients": "17",
+                "orr": "47%"
+            },
+            "notes": "Imiquimod is a topical immune response modulator. In a phase I/II trial of 17 patients without HIV who had KS, imiquimod 5% cream three times per week for 24 weeks resulted in 47% response rate. Over half experienced local itching and erythema, but treatment was generally well tolerated (Celestin Schartz 2008). Case reports also show activity in classic and transplant-associated KS. Not well studied in HIV-related cutaneous KS, but included based on expert opinion and anecdotal data. [KS-D; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "88"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Cryotherapy",
+            "site": "Limited cutaneous disease - symptomatic and/or cosmetically bothersome",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "cryotherapy"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Small study of 30 patients",
+                "phase": null,
+                "n_patients": "30 patients, 125 lesions",
+                "orr": "63% complete response without recurrence"
+            },
+            "notes": "Cryotherapy is effective for non-nodular, smaller lesions (<1 cm). In a study of 30 patients, 63% experienced complete response without recurrence. Blistering was frequent, local pain was limited, and treatment was well tolerated (Kutlubay 2013). Cryotherapy should be performed by clinicians with expertise in cutaneous cancer cryotherapy. [KS-D; Discussion MS-12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "120"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Marginal Excision",
+            "site": "Limited cutaneous disease - small symptomatic lesions",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {},
+            "notes": "Marginal excision is an option for local control of small symptomatic lesions. Wide excision with goal of negative margins is not indicated as it does not prevent additional KS lesions. Data are limited and appear restricted to individuals without HIV. For larger lesions when systemic therapy is not feasible or effective, radiotherapy is preferred over excision. [KS-D; Discussion MS-12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Electrodesiccation and Curettage",
+            "site": "Limited cutaneous disease - small symptomatic lesions",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "surgery"
+            ],
+            "drugs": [],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {},
+            "notes": "Electrodesiccation and curettage may be considered for local control of small symptomatic lesions. Data for this technique in KS are extremely limited (Pacifico 2003). [KS-D; Discussion MS-13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "119"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Intralesional Vinblastine",
+            "site": "Limited cutaneous disease - small symptomatic lesions (including oral)",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "intralesional chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinblastine",
+                    "dose": "0.2 mg/mL solution, 0.1 mL per 0.5 cm² of lesion",
+                    "route": "Intralesional injection",
+                    "schedule": "Single treatment; may be repeated as needed"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Series of 50 patients with oral KS",
+                "phase": null,
+                "n_patients": "50 patients, 144 lesions",
+                "cr": "74% of lesions",
+                "pr": "26% of lesions"
+            },
+            "notes": "Intralesional vinblastine is used for small symptomatic lesions, including oral KS. In a large series of 50 PWH with oral KS lesions, complete response was seen in 74% and partial response in 26% of lesions, with recurrence rate 26% and mean disease-free period 12.9 weeks (Flaitz 1995). Pain from injection is common and may persist for days; NSAIDs may be useful. Intralesional chemotherapy to plantar and palmar surfaces should be approached with caution. [KS-D; Discussion MS-12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "110"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Intralesional Bleomycin",
+            "site": "Limited cutaneous disease - small symptomatic lesions",
+            "setting": "First-line local therapy",
+            "treatment_modality": [
+                "intralesional chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bleomycin",
+                    "dose": "1.5 to 3 units/mL solution, 0.5 unit per 0.5 cm² of lesion",
+                    "route": "Intralesional injection",
+                    "schedule": "Every 3 to 4 weeks until response"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Trial of 15 patients with HIV-associated cutaneous KS",
+                "phase": null,
+                "n_patients": "15 patients, 134 lesions",
+                "cr": "43% (58 lesions)",
+                "pr": "44% (60 lesions)"
+            },
+            "notes": "Intralesional bleomycin was studied in a limited number of small trials. In one clinical trial treating 134 lesions in 15 patients with HIV-associated cutaneous KS, complete response was observed in 43% and partial response in 44% of lesions. Recurrence occurred in 17% of partial responders, none after CR. The only reported side effect was local pain 48 hours after injection in one patient (Poignonec 1995). Other treatment schemas have been studied with varying concentrations, doses, and frequencies. [KS-D; Discussion MS-12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "111",
+                    "112",
+                    "113"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Radiation Therapy (6-8 Gy in 1 fraction)",
+            "site": "Limited cutaneous disease or advanced disease (palliative/if systemic therapy not feasible)",
+            "setting": "First-line local therapy or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation",
+                    "dose": "6-8 Gy in 1 fraction",
+                    "route": "External beam (electrons, superficial x-rays, or conformal photon)",
+                    "schedule": "Single fraction"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Retrospective/observational",
+                "phase": null,
+                "n_patients": null,
+                "orr": "CR rates 60-93% reported for RT overall"
+            },
+            "notes": "Kaposi sarcoma is radioresponsive. This hypofractionated regimen (6-8 Gy in 1 fraction) is preferred for smaller, more superficial lesions and palliative situations. Lower total doses are preferred for palliation. BED10 = 9.6-14.4 Gy, BED3 = 18-29 Gy. Caution with plantar/palmar surfaces due to wound healing concerns, especially with lymphedema. Risk of secondary cancer, severe or worsening lymphedema, and long-term wound healing complications may be increased; toxicity can be mitigated by using lower-dose regimens (Tsao 2016). In advanced disease, RT reserved for when systemic therapy is not feasible, for palliation or short-term control until systemic therapy can be delivered. [KS-E; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "4",
+                    "91",
+                    "92",
+                    "93",
+                    "94",
+                    "95",
+                    "96",
+                    "98"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Radiation Therapy (20 Gy in 5 fractions)",
+            "site": "Limited cutaneous disease or advanced disease (palliative/if systemic therapy not feasible)",
+            "setting": "First-line local therapy or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation",
+                    "dose": "20 Gy in 5 fractions",
+                    "route": "External beam",
+                    "schedule": "Daily fractions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Prospective randomized trial",
+                "phase": "III",
+                "n_patients": null,
+                "orr": "Hypofractionated regimen equally effective as standard 24 Gy/12 fractions"
+            },
+            "notes": "Hypofractionated regimen of 20 Gy in 5 fractions appears equally effective as the standard regimen of 24 Gy in 12 fractions (Singh 2008). BED10 = 28 Gy, BED3 = 47 Gy. Preferred for more extensive or deeply invasive lesions when a more durable local response is desired. More fractionated regimens may be preferred for sites with adjacent radiosensitive structures, such as the oral cavity. [KS-E; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "97"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Radiation Therapy (24 Gy in 12 fractions)",
+            "site": "Limited cutaneous disease or advanced disease (palliative/if systemic therapy not feasible)",
+            "setting": "First-line local therapy or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation",
+                    "dose": "24 Gy in 12 fractions",
+                    "route": "External beam",
+                    "schedule": "Daily fractions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Standard fractionation regimen",
+                "phase": null,
+                "n_patients": null,
+                "orr": "CR rates 60-93%"
+            },
+            "notes": "Standard fractionation of 24 Gy in 12 fractions is a commonly used regimen. BED10 = 28.8 Gy, BED3 = 40 Gy. Equally effective as hypofractionated 20 Gy in 5 fractions (Singh 2008). More fractionated regimens may be preferred for oral cavity or other sites with adjacent radiosensitive structures to minimize toxicity. [KS-E; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "97"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Radiation Therapy (30 Gy in 10-15 fractions)",
+            "site": "Limited cutaneous disease or advanced disease (palliative/if systemic therapy not feasible)",
+            "setting": "First-line local therapy or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation",
+                    "dose": "30 Gy in 10-15 fractions",
+                    "route": "External beam",
+                    "schedule": "Daily fractions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Retrospective study",
+                "phase": null,
+                "n_patients": "643 cases",
+                "orr": null
+            },
+            "notes": "This dose regimen (30 Gy in 10-15 fractions) has been used in the management of epidemic KS. BED10 = 36-39 Gy, BED3 = 50-60 Gy. Reported in a retrospective study of 643 cases (Kirova 1998) and in classic KS (Hauerstock 2009). Higher doses may be preferred for more extensive, deeply invasive lesions, or when a more durable local response is desired. [KS-E; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "2",
+                    "3",
+                    "95"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Radiation Therapy (40 Gy in 20 fractions)",
+            "site": "Limited cutaneous disease or advanced disease (palliative/if systemic therapy not feasible)",
+            "setting": "First-line local therapy or palliative",
+            "treatment_modality": [
+                "radiation therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Radiation",
+                    "dose": "40 Gy in 20 fractions",
+                    "route": "External beam",
+                    "schedule": "Daily fractions"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": null,
+            "trial_data": {
+                "trial_name": "Randomized prospective trial for AIDS-associated KS",
+                "phase": "III",
+                "n_patients": null,
+                "orr": null
+            },
+            "notes": "40 Gy in 20 fractions is a higher dose regimen that may be preferred for more extensive or deeply invasive lesions. BED10 = 48 Gy, BED3 = 67 Gy. A randomized prospective trial (Stelzer 1993) assessed this regimen for AIDS-associated KS. Caution with lymphedema and wound healing. [KS-E; Discussion MS-11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "94"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin (first-line non-transplant KS)",
+            "site": "Advanced disease (non-transplant KS) or symptomatic limited cutaneous disease",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 2 to 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Randomized phase III trial (Northfelt 1998)",
+                "phase": "III",
+                "n_patients": "258",
+                "orr": "46% (95% CI 37-54%) vs 25% for ABV",
+                "median_ttf": "approximately 4 months in both groups"
+            },
+            "notes": "Preferred first-line systemic therapy for non-transplant KS. Supported by multiple randomized trials. In a phase III trial of 258 patients with advanced HIV-related KS, liposomal doxorubicin showed 46% overall response vs 25% for ABV (doxorubicin/bleomycin/vincristine) (Northfelt 1998). Another randomized trial (n=241) showed 59% response for liposomal doxorubicin vs 23% for BV (bleomycin/vincristine) (Stewart 1998). Also effective in classic and transplant-associated KS. Due to risk of cardiotoxicity, perform echocardiogram prior to initial course and repeat periodically. Consider limiting lifetime dose per prescribing guidelines, but some data suggest safety beyond 1000 mg/m² with regular echo monitoring. Corticosteroid pre-medication should generally be avoided. An FDA-approved biosimilar is an appropriate substitute. [KS-F; Discussion MS-13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "121",
+                    "122",
+                    "124",
+                    "125",
+                    "126",
+                    "127",
+                    "128",
+                    "129"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel (first-line non-transplant KS)",
+            "site": "Advanced disease (non-transplant KS) or symptomatic limited cutaneous disease",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m² weekly OR 100 mg/m² every 2 weeks OR 100 mg/m² every 3 weeks OR 135 mg/m² every 3 weeks",
+                    "route": "IV",
+                    "schedule": "See dose options"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Randomized trial of paclitaxel vs pegylated liposomal doxorubicin (Cianfrocca 2010)",
+                "phase": "III",
+                "n_patients": "73",
+                "orr": "56% paclitaxel vs 46% PLD (P=0.49)",
+                "median_pfs": "17.5 months paclitaxel vs 12.2 months PLD (P=0.66)",
+                "two_year_survival": "79% vs 78% (P=0.75)"
+            },
+            "notes": "Other recommended first-line systemic therapy for non-transplant KS. A randomized trial of 73 patients with advanced HIV-related KS showed statistically equivalent response rates, PFS, and 2-year survival compared to liposomal doxorubicin. Trend toward more grade 3-5 toxicity with paclitaxel (84% vs 66%, P=0.077). Neutropenia is the most frequent dose-limiting toxicity. Data on use in non-HIV-related KS are more limited (Tourlaki 2020, Ercolak 2015). Corticosteroid pre-medication as anti-emetic or to prevent infusion reaction should generally be avoided. [KS-F; Discussion MS-14]",
+            "source_citation": {
+                "reference_numbers": [
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sirolimus (first-line transplant KS)",
+            "site": "Advanced disease (transplant-associated KS) or symptomatic limited cutaneous disease (transplant)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunosuppression management"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "Loading dose 0.15 mg/kg PO followed by 0.04-0.06 mg/kg/day to maintain trough blood levels of 6-10 ng/mL, OR 2 mg PO daily (adjust to maintain trough 6-10 ng/mL)",
+                    "route": "PO",
+                    "schedule": "Daily (with loading dose)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred (for transplant KS)",
+            "trial_data": {
+                "trial_name": "Study of 15 renal transplant recipients (Stallone 2005)",
+                "phase": null,
+                "n_patients": "15",
+                "cr": "100% (all lesions disappeared at 3 months, histologic remission at 6 months)"
+            },
+            "notes": "Preferred first-line systemic therapy for transplant-associated KS. Switching to sirolimus for immunosuppression may be sufficient for KS control and treatment. In a study of 15 kidney transplant recipients who developed KS, cyclosporine was stopped and sirolimus initiated; all cutaneous lesions disappeared by 3 months with histologic remission confirmed at 6 months. No acute rejection episodes or changes in graft function were observed. Minimizing other immunosuppressive components (especially glucocorticoids) is recommended. Systemic therapy given concurrently with sirolimus may be appropriate for more aggressive or advanced disease. For PWH on ART, providers should consult with an ID pharmacist prior to dosing sirolimus due to drug-drug interactions. [KS-F; Discussion MS-13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "21"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin (first-line transplant KS)",
+            "site": "Advanced disease (transplant-associated KS)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 2 to 3 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (for transplant KS)",
+            "trial_data": {},
+            "notes": "Other recommended first-line systemic therapy for transplant-associated KS. Same dosing as for non-transplant KS. May be used alone or combined with sirolimus in more aggressive or advanced disease. Echocardiogram recommended prior to initiation and periodically. Corticosteroid pre-medication should generally be avoided. [KS-F; Discussion MS-13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "121",
+                    "122",
+                    "123"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Paclitaxel (first-line transplant KS)",
+            "site": "Advanced disease (transplant-associated KS)",
+            "setting": "First-line systemic therapy",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Paclitaxel",
+                    "dose": "60 mg/m² weekly OR 100 mg/m² every 2 weeks OR 100 mg/m² every 3 weeks OR 135 mg/m² every 3 weeks",
+                    "route": "IV",
+                    "schedule": "See dose options"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (for transplant KS)",
+            "trial_data": {},
+            "notes": "Other recommended first-line systemic therapy for transplant-associated KS. Case reports have shown successful treatment of post-renal transplant KS with paclitaxel (Patel 2002). Same dosing as for non-transplant KS. Corticosteroid pre-medication should generally be avoided. [KS-F; Discussion MS-14]",
+            "source_citation": {
+                "reference_numbers": [
+                    "135",
+                    "136"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Nivolumab (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory - non-transplant and transplant)",
+            "setting": "Subsequent systemic therapy for relapsed/refractory disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "480 mg",
+                    "route": "IV",
+                    "schedule": "Every 4 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent therapy options (relapsed/refractory)",
+            "trial_data": {
+                "trial_name": "AIDS Malignancy Consortium 095 Study (Rajdev 2024)",
+                "phase": "I",
+                "n_patients": "15 evaluable with HIV-related KS",
+                "orr": "40% (95% CI 16.3-64.7)",
+                "median_dor": "12.5 months"
+            },
+            "notes": "Nivolumab is a subsequent systemic therapy option for relapsed/refractory KS (both HIV-related and non-HIV). In the AMC 095 study, nivolumab showed a similar safety profile in PWH compared with individuals without HIV, with objective partial responses in 6/15 participants (40%) regardless of PD-L1 expression (Rajdev 2024). Case reports have also shown efficacy (Delyon 2018, Galanina 2018). ICIs should not be used in patients with MCD or KICS due to risk of flare. If patient has history of KSHV-associated diseases, use with caution and consider more frequent monitoring for signs of KICS or MCD. Nivolumab and hyaluronidase-nvhy subcutaneous injection may be substituted for IV nivolumab with different dosing and administration. [KS-F; Discussion MS-14]",
+            "source_citation": {
+                "reference_numbers": [
+                    "141",
+                    "142",
+                    "143"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pembrolizumab (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory - non-transplant and transplant)",
+            "setting": "Subsequent systemic therapy for relapsed/refractory disease",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pembrolizumab",
+                    "dose": "200 mg",
+                    "route": "IV",
+                    "schedule": "Every 3 weeks for up to 6 months"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent therapy options (relapsed/refractory)",
+            "trial_data": {
+                "trial_name": "Multicenter phase II single-arm trial (Delyon 2022)",
+                "phase": "II",
+                "n_patients": "17 (8 classic, 9 endemic KS)",
+                "orr": "71% (95% CI 44-90), 2 CR, 10 PR",
+                "primary_endpoint": "Best overall response rate within 6 months"
+            },
+            "notes": "Pembrolizumab is a subsequent systemic therapy option for relapsed/refractory KS. In a phase II trial of 17 patients with classic or endemic KS, the best overall response rate was 71% (2 CR, 10 PR) within 6 months, meeting the primary endpoint (Delyon 2022). Grade 3 adverse events occurred in 2 patients. Another phase I trial in HIV-associated KS (n=32) showed ORR 62.1% in evaluable participants (Lurain 2025). ICIs should not be used in patients with MCD or KICS; use with caution if history of KSHV-associated diseases. A heavily pretreated patient with prior KICS died after pembrolizumab due to marked KSHV viremia and inflammation (Uldrick 2019). [KS-F; Discussion MS-14]",
+            "source_citation": {
+                "reference_numbers": [
+                    "144",
+                    "145",
+                    "146"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pomalidomide (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory - non-transplant and transplant)",
+            "setting": "Subsequent systemic therapy for relapsed/refractory disease",
+            "treatment_modality": [
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Pomalidomide",
+                    "dose": "4 or 5 mg/day",
+                    "route": "PO",
+                    "schedule": "21 days of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Subsequent therapy options (relapsed/refractory)",
+            "trial_data": {
+                "trial_name": "Phase I/II study (Polizzotto 2016)",
+                "phase": "I/II",
+                "n_patients": "22 (7 without HIV, 15 PWH)",
+                "orr": "60% in PWH (95% CI 32-84%)"
+            },
+            "notes": "Pomalidomide is a subsequent systemic therapy option for relapsed/refractory KS. In a phase I/II trial of 22 patients (7 without HIV, 15 PWH with controlled viremia), the response rate was 60% in the PWH group. Grade 3-4 adverse events included neutropenia, infection, and edema (Polizzotto 2016). The clinical trial used 5 mg/day, but pomalidomide is provided in a 4 mg dose and the NCCN panel believes this is sufficient. Pomalidomide has received accelerated FDA approval for adult patients with HIV-related KS after highly active ART proves insufficient and for patients without HIV with KS. Patients of childbearing potential require effective contraception per REMS program. [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "72",
+                    "147"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Albumin-bound Paclitaxel (relapsed/refractory, paclitaxel intolerant)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances - for patients intolerant to paclitaxel",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Albumin-bound Paclitaxel",
+                    "dose": "100 mg",
+                    "route": "IV",
+                    "schedule": "Days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial abstract (Fortino 2016)",
+                "phase": "II",
+                "n_patients": "6 (classic KS)",
+                "orr": "100% (2 PR, 4 CR)"
+            },
+            "notes": "Albumin-bound paclitaxel is useful for patients who are intolerant to paclitaxel. Evidence is limited to one abstract of a phase II trial in 6 patients with classic KS showing 2 partial and 4 complete responses, with grade 3 neutropenia in half and thrombocytopenia in 1 (Fortino 2016). A case report also showed efficacy in relapsed HIV-related KS after liposomal doxorubicin, with an increase in CD4+ T-cell counts (Yu 2024). [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "148",
+                    "149"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Bortezomib (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Bortezomib",
+                    "dose": "1.6 mg/m²",
+                    "route": "IV/SC",
+                    "schedule": "Days 1, 8, and 15 of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AMC-063 pilot trial (Reid 2020)",
+                "phase": "I dose-escalation pilot",
+                "n_patients": "17",
+                "pr": "60% in 15 evaluable; 83% at 1.6 mg/m² cohort"
+            },
+            "notes": "Bortezomib is useful in certain circumstances for relapsed/refractory KS. In the dose-escalation AMC-063 trial of 17 patients with HIV-related KS, the maximum tolerated dose was not reached. Partial response rate was 60% in evaluable patients and 83% in the 1.6 mg/m² cohort. Common adverse events: diarrhea, fatigue, nausea (Reid 2020). [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "150"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Etoposide (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Etoposide",
+                    "dose": "50 mg/day PO for 7 days of each 14-day cycle. After 2 cycles, escalate to 100 mg/day if no PR/CR and no >Grade 2 toxicity; further escalate to 150 mg/day based on tolerance and response",
+                    "route": "PO",
+                    "schedule": "Days 1-7 of 14-day cycle (with dose escalation)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "A5264/AMC-067 randomized trial (Hosseinipour 2018)",
+                "phase": "III",
+                "n_patients": "190",
+                "notes": "ART alone vs ART + immediate etoposide; immediate etoposide delayed progression (P=0.021), decreased suspected KS-IRIS (P=0.003), decreased time to initial response (P=0.003). No long-term benefit over as-needed approach."
+            },
+            "notes": "Etoposide is useful in certain circumstances for relapsed/refractory KS. In the A5264/AMC-067 trial of 190 patients with mild-to-moderate HIV-related KS in Africa and South America, immediate oral etoposide with ART delayed progression and reduced IRIS events compared to ART alone with etoposide given for progression, but no difference in response at 48 months (Hosseinipour 2018). Phase II trials have shown overall response rates of 36% in previously treated HIV-related KS (Evans 2002). The recommended dose escalation schedule is as in the trial. Also has activity in classic KS. [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "69",
+                    "151",
+                    "152",
+                    "153"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Gemcitabine (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Gemcitabine",
+                    "dose": "1000 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks OR Days 1 and 8 every 21 days"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Retrospective analysis (Strother 2010)",
+                "phase": null,
+                "n_patients": "23",
+                "cr": "13%",
+                "pr": "35%",
+                "sd": "48%"
+            },
+            "notes": "Gemcitabine is useful in certain circumstances for relapsed/refractory KS. Evidence comes from a retrospective analysis of 23 patients who had been treated with first-line ABV: CR 13%, PR 35%, SD 48%. Grade 3-4 adverse events included leukopenia, pain, fatigue, neutropenia (Strother 2010). A phase IIA trial in West Kenya as first-line showed CR rate 33% and PR rate 53% (Busakhala 2018). Also has activity in classic KS (Badalamenti 2022). [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "155",
+                    "156",
+                    "157"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Imatinib (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg/day",
+                    "route": "PO",
+                    "schedule": "Daily"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial AMC-042 (Koon 2014)",
+                "phase": "II",
+                "n_patients": "30",
+                "pr": "33%",
+                "sd": "20%",
+                "median_dor": "approximately 8 months"
+            },
+            "notes": "Imatinib is useful in certain circumstances for relapsed/refractory KS. In a multicenter phase II trial of 30 patients (18 with prior therapy), partial response occurred in 33% and stable disease in 20%. Median duration of response was about 8 months. Grade 3-4 adverse events included allergic reaction, nausea, dehydration, cellulitis; 17% discontinued due to adverse events (Koon 2014). Case reports have also shown activity (Cao 2015). [KS-F; Discussion MS-15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "158",
+                    "159",
+                    "160"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "immunotherapy",
+                "combination"
+            ],
+            "drugs": [
+                {
+                    "name": "Nivolumab",
+                    "dose": "240 mg",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                },
+                {
+                    "name": "Ipilimumab",
+                    "dose": "1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Every 6 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II single-arm study (Zer 2022)",
+                "phase": "II",
+                "n_patients": "18",
+                "orr": "87%",
+                "six_month_pfs": "76.5%"
+            },
+            "notes": "Ipilimumab + nivolumab is useful in certain circumstances for relapsed/refractory classic KS. In a phase II study of 18 patients with progressive disease after ≥1 prior systemic therapy, overall response rate was 87% and 6-month PFS was 76.5%. Grade 3-4 adverse events occurred in 4 patients (colitis, lipase elevation, pneumonitis); two discontinued due to possibly related AEs (Zer 2022). ICIs should not be used in patients with MCD or KICS; use with caution if history of KSHV-associated diseases. [KS-F; Discussion MS-16]",
+            "source_citation": {
+                "reference_numbers": [
+                    "161"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Lenalidomide (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Lenalidomide",
+                    "dose": "25 mg/day",
+                    "route": "PO",
+                    "schedule": "21 days of each 28-day cycle"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "AMC-070 phase II trial (Reid 2022)",
+                "phase": "II",
+                "n_patients": "42",
+                "pr": "60%"
+            },
+            "notes": "Lenalidomide is useful in certain circumstances for relapsed/refractory KS. In the phase II AIDS Malignancy Consortium trial (AMC-070), 42 persons with relapsed/refractory HIV-related KS were treated; partial responses occurred in 60%. Most common adverse events: neutropenia, fatigue, leukopenia, diarrhea (Reid 2022). The phase II ANRS 154 Lenakap trial evaluated lenalidomide in 12 patients with HIV-related KS; none met the primary endpoint (PGA criteria at 24 weeks) but 4 met ACTG criteria for PR at 48 weeks (Pourcher 2017). Patients of childbearing potential require effective contraception per REMS program. [KS-F; Discussion MS-16]",
+            "source_citation": {
+                "reference_numbers": [
+                    "71",
+                    "73"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sirolimus (relapsed/refractory transplant KS)",
+            "site": "Advanced disease (relapsed/refractory transplant-associated KS)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunosuppression management"
+            ],
+            "drugs": [
+                {
+                    "name": "Sirolimus",
+                    "dose": "Loading dose 0.15 mg/kg PO followed by 0.04-0.06 mg/kg/day to maintain trough blood levels of 6-10 ng/mL, OR 2 mg PO daily (adjust to maintain trough 6-10 ng/mL)",
+                    "route": "PO",
+                    "schedule": "Daily (with loading dose)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances (for transplant KS)",
+            "trial_data": {
+                "trial_name": "Stallone 2005",
+                "phase": null,
+                "n_patients": "15",
+                "cr": "100% at 3 months"
+            },
+            "notes": "Sirolimus is useful in certain circumstances for relapsed/refractory transplant-associated KS, in addition to its preferred first-line role. Same dosing as first-line. For PWH on ART, consult with ID pharmacist prior to dosing due to drug-drug interactions. [KS-F; Discussion MS-13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "21"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Thalidomide (relapsed/refractory KS, especially with IRIS)",
+            "site": "Advanced disease (relapsed/refractory) or IRIS management",
+            "setting": "Useful in certain circumstances - for patients with immune reconstitution inflammatory syndrome (IRIS)",
+            "treatment_modality": [
+                "immunomodulatory drug"
+            ],
+            "drugs": [
+                {
+                    "name": "Thalidomide",
+                    "dose": "200 mg/day",
+                    "route": "PO",
+                    "schedule": "Starting dose, titrated to effect and tolerability"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Little 2000)",
+                "phase": "II",
+                "n_patients": "17 assessable",
+                "pr": "47%",
+                "sd": "12%",
+                "median_ttp": "7.3 months"
+            },
+            "notes": "Thalidomide is useful in certain circumstances for relapsed/refractory KS, particularly for patients with corticosteroid-refractory IRIS. In a phase II trial of 17 assessable patients with PD, partial responses were seen in 47% and stable disease in 12%, with median time to progression 7.3 months. Side effects included drowsiness (45%) and depression (35%) (Little 2000). No prospective trials have used thalidomide for KS-associated IRIS, but successful control of steroid-refractory IRIS with thalidomide has been reported (Brunel 2012). Patients of childbearing potential require effective contraception per REMS program. [KS-F; Discussion MS-16]",
+            "source_citation": {
+                "reference_numbers": [
+                    "70",
+                    "162",
+                    "163"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Vinorelbine (relapsed/refractory KS)",
+            "site": "Advanced disease (relapsed/refractory)",
+            "setting": "Useful in certain circumstances",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Vinorelbine",
+                    "dose": "30 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 2 weeks"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {
+                "trial_name": "Phase II trial (Nasti 2000)",
+                "phase": "II",
+                "n_patients": "35 assessable",
+                "cr": "9%",
+                "pr": "34%",
+                "median_dor": "about 6 months"
+            },
+            "notes": "Vinorelbine is useful in certain circumstances for relapsed/refractory KS. In a phase II trial of 35 assessable patients with PD, complete clinical responses were seen in 9% and partial responses in 34%. Median duration of response was about 6 months. Neutropenia was the most frequent dose-limiting toxicity, but other side effects were mild and reversible (Nasti 2000). [KS-F; Discussion MS-16]",
+            "source_citation": {
+                "reference_numbers": [
+                    "164"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Liposomal Doxorubicin + Rituximab (KICS preferred)",
+            "site": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "First-line therapy for KICS",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "combination"
+            ],
+            "drugs": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "dose": "20 mg/m²",
+                    "route": "IV",
+                    "schedule": "Every 2 to 3 weeks (per KS-directed therapy)"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified in guideline (standard dosing per NHL protocols)",
+                    "route": "IV (subcutaneous rituximab/hyaluronidase may be substituted after first full IV dose)",
+                    "schedule": "Not specified in guideline"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {},
+            "notes": "Preferred treatment for KICS. Liposomal doxorubicin as KS-directed therapy with rituximab has resulted in control of KICS (CROI 2023 abstract). Rituximab and hyaluronidase human injection for subcutaneous use may be substituted after first full IV dose. For transplant recipients, sirolimus component of immunosuppression should be maximized and other components minimized. Steroids should generally be avoided because they may exacerbate symptoms. Early consultation with KS experts is encouraged. [KICS-1; Discussion MS-5]",
+            "source_citation": {
+                "reference_numbers": [
+                    "32"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Alternative KS-directed systemic therapy + Rituximab (KICS other recommended)",
+            "site": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+            "setting": "First-line therapy for KICS",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy",
+                "combination"
+            ],
+            "drugs": [
+                {
+                    "name": "Alternative KS-directed systemic therapy",
+                    "dose": "Per KS-F dosing",
+                    "route": "Per regimen",
+                    "schedule": "Per regimen"
+                },
+                {
+                    "name": "Rituximab",
+                    "dose": "Not specified",
+                    "route": "IV",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {},
+            "notes": "Other recommended treatment for KICS includes alternative KS-directed systemic therapies (e.g., paclitaxel, other options from KS-F) plus rituximab. In mild cases, KS-directed therapy alone may be sufficient; rituximab can be withheld while KS-directed therapy is continued for 3 months or longer as needed for adequate/optimal KS response. If inflammatory symptoms/lab markers flare after rituximab is stopped, rituximab should be resumed. [KICS-1; Discussion MS-5]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Anti-IL-6 directed therapy (Tocilizumab or Siltuximab) + KS-directed therapy (refractory KICS)",
+            "site": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS) - refractory/progressive",
+            "setting": "Refractory/progressive disease after initial KICS therapy",
+            "treatment_modality": [
+                "targeted therapy",
+                "immunotherapy",
+                "combination"
+            ],
+            "drugs": [
+                {
+                    "name": "Tocilizumab",
+                    "dose": "Not specified in guideline (standard dosing per IL-6 blockade)",
+                    "route": "Not specified",
+                    "schedule": "Not specified"
+                },
+                {
+                    "name": "Siltuximab",
+                    "dose": "Not specified in guideline",
+                    "route": "Not specified",
+                    "schedule": "Not specified"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Useful in certain circumstances",
+            "trial_data": {},
+            "notes": "For refractory/progressive KICS, anti-IL-6 directed therapy (tocilizumab or siltuximab) may be added to KS-directed therapy. Tocilizumab blocks the IL-6 receptor but not the portion bound by viral IL-6; siltuximab binds to human IL-6 preventing activation. This management strategy parallels that used for KSHV-MCD. Early consultation with KS experts is encouraged. [KICS-1; Discussion MS-5]",
+            "source_citation": {
+                "reference_numbers": [
+                    "33",
+                    "34",
+                    "35"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "clinical_features": {
+            "typical_presentation": "Kaposi sarcoma (KS) is a multifocal malignancy of endothelial cells that presents with characteristic purpuric, red, or brown macules, papules, and plaques. Four types are described: HIV-associated (epidemic), classic, iatrogenic (transplant-associated), and endemic [1]. Classic KS generally involves indolent cutaneous lesions, often of the lower extremities, which may wax and wane or slowly progress over years to decades; it is most common in people of Mediterranean, Eastern European, Middle Eastern, and/or Jewish origins, with a mean age of 74 years at diagnosis and a male-to-female ratio of 7–15:1 [1,3]. HIV-associated KS, when immunosuppression is advanced, is more aggressive and more likely to involve viscera, mucosa, and lymph nodes and to cause lymphedema; however, it can also occur in PWH with normal CD4+ counts and undetectable HIV viral load, typically with more limited disease [MS-3]. Endemic KS occurs in children and younger adults (<40 years) of equatorial Africa, is more aggressive than classic KS, and may involve viscera, bone, and/or lymph nodes, with a male predominance of 10–17:1 [1]. Iatrogenic KS appears 2–8 months after initiation of immunosuppressive therapy (e.g., for organ transplant or other reasons), is 2–3 times more common in males, and can be aggressive but often responds to cessation or reduction of immunosuppression [1]. Lymphedema is a common complication and may also be a predisposing factor; it can be caused by nodal involvement or involvement of lymphatic vessels [MS-6]. Hyperkeratotic variants with verrucous changes are notably associated with chronic and severe KS-associated lymphedema [MS-6].",
+            "symptoms": [
+                {
+                    "name": "Cutaneous lesions",
+                    "detail": "Painless or sometimes pruritic purpuric, red, or brown macules, papules, plaques, nodules (sometimes pedunculated), and bullae. Large plaques may form from coalescence of smaller plaques or nodules and may ulcerate or develop bullae.",
+                    "frequency": "Universal in cutaneous presentations; variable distribution.",
+                    "alarm": "Rapid enlargement, ulceration, or bleeding may indicate aggressive disease."
+                },
+                {
+                    "name": "Lymphedema",
+                    "detail": "Swelling of extremities, often lower limbs, due to lymphatic involvement. Associated with increased risk of cellulitis and deep tissue infections.",
+                    "frequency": "Common in advanced disease; may be presenting symptom.",
+                    "alarm": "Severe or new-onset lymphedema suggests progressive disease."
+                },
+                {
+                    "name": "Oral lesions",
+                    "detail": "Purple or red macules, plaques, or nodules on the palate, gingiva, or tongue. May cause pain, bleeding, or difficulty eating.",
+                    "frequency": "Common in HIV-associated KS; minimal oral disease (non-nodular confined to palate) is T0, extensive oral is T1.",
+                    "alarm": "Extensive oral involvement is a poor-risk T1 criterion."
+                },
+                {
+                    "name": "Visceral involvement",
+                    "detail": "Gastrointestinal (GI) KS may cause nausea, vomiting, abdominal pain, melena, or blood in stool. Pulmonary KS may cause dyspnea, cough, hemoptysis. Nodal KS may cause lymphadenopathy.",
+                    "frequency": "More common in advanced immunosuppression; GI and pulmonary are T1 criteria.",
+                    "alarm": "Unexplained pulmonary symptoms or GI bleeding require urgent investigation."
+                },
+                {
+                    "name": "Constitutional symptoms",
+                    "detail": "Fever, night sweats, weight loss, fatigue – may indicate KSHV-associated inflammatory cytokine syndrome (KICS) or multicentric Castleman disease (MCD).",
+                    "frequency": "Variable; when present, should prompt workup for KICS/MCD.",
+                    "alarm": "Persistent unexplained fevers with lymphadenopathy/cytopenias require evaluation for MCD/KICS."
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Skin lesions",
+                    "detail": "Purpuric, red, or brown macules, papules, plaques, nodules. Hyperpigmented macules (lacking palpable change) are common after regression due to residual hemosiderin pigmentation (not active disease). Histologic subtypes include anaplastic, telangiectatic, lymphedematous, hyperkeratotic, keloidal, micronodular, pyogenic granuloma-like, ecchymotic, and intravascular variants [MS-6].",
+                    "frequency": "Present in the vast majority of cases."
+                },
+                {
+                    "name": "Oral lesions",
+                    "detail": "Located on palate, gingiva, buccal mucosa, tongue. May be nodular or plaque-like.",
+                    "frequency": "Common in HIV-associated KS."
+                },
+                {
+                    "name": "Lymphedema",
+                    "detail": "Pitting or non-pitting edema of extremities, often unilateral or asymmetric. Hyperkeratotic changes may accompany chronic lymphedema.",
+                    "frequency": "Frequent in advanced disease."
+                },
+                {
+                    "name": "Lymphadenopathy",
+                    "detail": "Palpable lymph nodes, often in cervical, axillary, or inguinal regions. May be bulky.",
+                    "frequency": "Present in nodal disease; may also occur with MCD/KICS."
+                },
+                {
+                    "name": "Visceral signs",
+                    "detail": "Hepatosplenomegaly, ascites, pleural effusion, pulmonary rales, or signs of GI bleeding.",
+                    "frequency": "Less common but important in advanced disease."
+                }
+            ],
+            "atypical_or_missed": [
+                "Hyperpigmented macules mistaken for post-inflammatory pigmentation, but may represent inactive residual pigment (not active disease).",
+                "Bacillary angiomatosis, cryptococcosis, blastomycosis, and other opportunistic infections can mimic KS lesions, especially in immunocompromised patients [36-39].",
+                "Non-nodular palate lesions may be overlooked as 'minimal oral disease' but can be T0.",
+                "Isolated lymphedema without visible skin lesions may delay diagnosis.",
+                "Classic KS may present with waxing/waning lesions over years, leading to misdiagnosis as benign vascular lesions.",
+                "Visceral KS may present with GI bleeding or pulmonary symptoms without overt cutaneous findings."
+            ]
+        },
+        "red_flags": [
+            "Rapid development of new or enlarging KS lesions after initiation of antiretroviral therapy (ART) – may indicate immune reconstitution inflammatory syndrome (KS-IRIS) [KS-C].",
+            "Unexplained fevers, night sweats, weight loss, or diarrhea persisting >2 weeks ('B' symptoms) – poor prognostic S1 criterion and may indicate KICS or MCD [KS-A 1 of 2].",
+            "New or worsening lymphedema, especially with erythema or pain – may indicate KS progression or cellulitis.",
+            "Dyspnea, cough, or hemoptysis – may indicate pulmonary KS involvement; requires urgent chest CT and bronchoscopy [KS-1].",
+            "Gastrointestinal bleeding, melena, or unexplained anemia – may indicate GI KS; requires endoscopy/colonoscopy [KS-1].",
+            "Severe cytopenias, liver/kidney dysfunction with lymphadenopathy – may indicate MCD or KICS [MS-5].",
+            "Altered mental status, neuropathy, or cachexia – may be features of KICS [KS-1 footnote f].",
+            "Life-threatening IRIS (marked lesional swelling, increased tenderness, peripheral edema) occurring within 3–6 months of ART initiation [KS-2 footnote j].",
+            "Rapid progression during observation – indication for initiation of therapy [KS-2].",
+            "Use of glucocorticoids in any formulation (including topical, inhaled, intra-articular) may cause KS flare even in remote sites; life-threatening exacerbations have been reported [KS-B]."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Biopsy (skin punch, incisional, or excisional) with histopathology review by pathologist with expertise in KS",
+                    "rationale": "Gold standard for diagnosis. Adequate tissue and immunophenotyping required.",
+                    "key_findings": "Spindle cell proliferation, slit-like vascular spaces, extravasated red blood cells, hemosiderin deposition. Immunohistochemistry (IHC) positive for KSHV (HHV-8) LANA-1 is definitive."
+                },
+                {
+                    "test": "Immunohistochemistry panel: KSHV (HHV-8) LANA-1",
+                    "rationale": "Essential to confirm diagnosis; KSHV infection present in 95–98% of KS [2,3].",
+                    "key_findings": "Positive nuclear staining in spindle cells."
+                },
+                {
+                    "test": "IHC: CD31 and CD34 (if unclear vascular origin)",
+                    "rationale": "Useful in certain circumstances to confirm vascular origin when morphology is ambiguous.",
+                    "key_findings": "Positive in endothelial cells."
+                },
+                {
+                    "test": "Biopsy of nodal or visceral sites (if coexisting disorder suspected)",
+                    "rationale": "Encouraged if infection, lymphoma, or MCD is suspected.",
+                    "key_findings": "May identify PEL, MCD, or other KSHV-associated diseases."
+                },
+                {
+                    "test": "Cytology and flow cytometry of effusion fluid (if present)",
+                    "rationale": "To evaluate for coexisting primary effusion lymphoma (PEL).",
+                    "key_findings": "Clonal CD38+, KSHV+ B-cells in effusion."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "History and physical examination (complete skin, oral, lymph node exams; evaluation of edema)",
+                    "rationale": "Essential for staging and assessment of disease extent.",
+                    "indication": "All patients."
+                },
+                {
+                    "test": "Photography of oral, conjunctival, and cutaneous lesions (with reference unit of measure)",
+                    "rationale": "For evaluation and monitoring of extent of disease over time.",
+                    "indication": "All patients."
+                },
+                {
+                    "test": "Complete blood count (CBC) with differential and comprehensive metabolic panel (CMP)",
+                    "rationale": "Baseline assessment for cytopenias, organ function, and monitoring during therapy.",
+                    "indication": "All patients."
+                },
+                {
+                    "test": "HIV screening and diagnostic testing (if not known HIV-positive)",
+                    "rationale": "Essential to identify HIV-associated KS; all KS patients should be tested.",
+                    "indication": "All patients."
+                },
+                {
+                    "test": "CD4+ T-cell count and HIV viral load (if HIV-positive)",
+                    "rationale": "Assess immune function and HIV control; staging I0/I1 based on CD4 count.",
+                    "indication": "PWH."
+                },
+                {
+                    "test": "Pregnancy testing (if chemotherapy or RT planned and patient of childbearing potential)",
+                    "rationale": "To avoid harm to fetus from anticancer therapy.",
+                    "indication": "Selected cases."
+                },
+                {
+                    "test": "Stool hemoccult and/or chest x-ray (as clinically indicated, e.g., advanced disease)",
+                    "rationale": "Screen for occult GI bleeding or pulmonary involvement.",
+                    "indication": "Advanced disease or symptoms."
+                },
+                {
+                    "test": "Chest CT with contrast and bronchoscopy (if unexplained pulmonary symptoms or abnormal chest x-ray)",
+                    "rationale": "Evaluate for pulmonary KS or opportunistic infections.",
+                    "indication": "Symptomatic or abnormal screening."
+                },
+                {
+                    "test": "Abdomen/pelvis CT with contrast or MRI with and without contrast and EGD/colonoscopy (if GI symptoms or positive hemoccult)",
+                    "rationale": "Evaluate for GI KS or other pathology.",
+                    "indication": "Symptomatic or abnormal screening."
+                },
+                {
+                    "test": "CT scan or FDG-PET/CT scan and/or lab workup (if concerns for coexisting KICS, MCD, or KSHV+ lymphoma)",
+                    "rationale": "Detect hypermetabolic lymphadenopathy or visceral involvement; FDG-PET/CT can assess whole-body disease.",
+                    "indication": "Suspected KSHV-associated conditions."
+                },
+                {
+                    "test": "Transthoracic echocardiogram (if anthracycline planned or suspected pericardial effusion)",
+                    "rationale": "Assess baseline cardiac function; monitor for cardiotoxicity.",
+                    "indication": "Prior to liposomal doxorubicin or if effusion suspected."
+                },
+                {
+                    "test": "Biopsy of lymphadenopathy (excisional preferred)",
+                    "rationale": "To differentiate MCD (requires histology) from KS nodal involvement or other diagnoses.",
+                    "indication": "Suspected MCD or when lymphadenopathy is prominent."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "C-reactive protein (CRP)",
+                    "rationale": "Marker of inflammation; useful when KICS or MCD suspected.",
+                    "when": "Clinical features (fever, dyspnea, effusions) concerning for KICS or MCD.",
+                    "mandatory": false
+                },
+                {
+                    "test": "KSHV serum viral load",
+                    "rationale": "Elevated during flares of MCD (≥4 log) and KICS; undetectable/low during remissions.",
+                    "when": "Suspected KICS or MCD.",
+                    "mandatory": false
+                },
+                {
+                    "test": "Serum protein electrophoresis (SPEP)",
+                    "rationale": "Evaluate for paraproteinemia associated with MCD.",
+                    "when": "Suspected MCD.",
+                    "mandatory": false
+                },
+                {
+                    "test": "Interleukin-6 (IL-6) and/or IL-10",
+                    "rationale": "Cytokines driving inflammation in KICS/MCD.",
+                    "when": "Suspected KICS or MCD.",
+                    "mandatory": false
+                }
+            ],
+            "do_not_miss": [
+                "HIV serology in all patients – HIV-associated KS has distinct management and prognosis.",
+                "CD4 count and HIV viral load in PWH – critical for staging and IRIS risk assessment.",
+                "KSHV LANA-1 IHC on biopsy – definitive diagnosis.",
+                "Cytology/flow cytometry of any effusion – rule out PEL.",
+                "FOBT and chest x-ray in advanced disease – may detect occult visceral involvement.",
+                "FDG-PET/CT if systemic symptoms or lymphadenopathy – assess for KICS/MCD/lymphoma."
+            ],
+            "avoid": [
+                "Avoid indiscriminate imaging without symptoms – imaging should be directed by symptoms or findings [KS-1 footnote c].",
+                "Avoid unnecessary use of glucocorticoids as pre-medication – may exacerbate KS [KS-F footnote b].",
+                "Avoid wide excision with intent of negative margins – does not prevent new lesions [KS-D footnote b, KS-B].",
+                "Do not rely on hyperpigmented macules as evidence of active disease – they may be residual hemosiderin deposition (tattoo effect).",
+                "Avoid biopsy interpretation without expert pathologist – misdiagnosis can occur due to mimics (bacillary angiomatosis, cryptococcosis, etc.)."
+            ]
+        },
+        "staging": {
+            "system": "AIDS Clinical Trials Group (ACTG) TIS staging system adapted from Krown SE, Metroka C, Wernz JC. J Clin Oncol 1989;7:1201-1207 [KS-A 1 of 2].",
+            "t_stages": [
+                {
+                    "stage": "T0 (Good risk)",
+                    "description": "Tumor confined to skin and/or lymph nodes and/or minimal oral disease (non-nodular KS confined to palate)."
+                },
+                {
+                    "stage": "T1 (Poor risk)",
+                    "description": "Tumor-associated edema or ulceration; extensive oral KS; gastrointestinal KS; KS in organs other than lymph nodes."
+                }
+            ],
+            "n_stages": [],
+            "m_stages": [],
+            "stage_groups": [
+                {
+                    "group": "T0I0S0",
+                    "criteria": "T0 + CD4 ≥150/μL + no history of OI/thrush, no B symptoms, KPS ≥70.",
+                    "clinical_meaning": "Good risk in all three categories. Best prognosis.",
+                    "five_yr_survival": "Approximately 88% 3-year survival (Nasti et al., 2003) [MS-7].",
+                    "treatment_intent": "Limited cutaneous disease: observation with ART for PWH; local therapy if symptomatic."
+                },
+                {
+                    "group": "T1I0S0",
+                    "criteria": "T1 (any poor risk tumor factor) but good immune and systemic status.",
+                    "clinical_meaning": "Advanced disease by tumor criteria but preserved immune function and no systemic illness. 3-year survival 80% [MS-7].",
+                    "five_yr_survival": "80% 3-year survival.",
+                    "treatment_intent": "Systemic therapy with ART for PWH."
+                },
+                {
+                    "group": "T0I1S0",
+                    "criteria": "Good tumor but CD4 <150/μL.",
+                    "clinical_meaning": "Poor immune status may increase risk of progression and IRIS.",
+                    "five_yr_survival": "81% 3-year survival [MS-7].",
+                    "treatment_intent": "ART optimization; may need systemic therapy if progressive or symptomatic."
+                },
+                {
+                    "group": "T1S1 (any I)",
+                    "criteria": "T1 + S1 (history of OI/thrush, B symptoms, KPS <70, or other HIV-related illness). Often also I1.",
+                    "clinical_meaning": "Worst prognosis group; combined poor tumor and systemic status. Median survival significantly reduced.",
+                    "five_yr_survival": "53% 3-year survival [MS-7].",
+                    "treatment_intent": "Immediate systemic therapy with ART for PWH; supportive care for medical optimization."
+                },
+                {
+                    "group": "T0S0 (any I)",
+                    "criteria": "Good tumor and systemic status regardless of CD4 (I stage less prognostic on ART).",
+                    "clinical_meaning": "Limited disease; good prognosis.",
+                    "five_yr_survival": "88% 3-year survival [MS-7].",
+                    "treatment_intent": "Observation or local therapy; ART for PWH."
+                }
+            ],
+            "staging_pearls": [
+                "I stage (CD4 count) has less prognostic value than T or S stages in patients on ART [KS-A 1 of 2, MS-7].",
+                "T1S1 confers the worst prognosis: 3-year survival 53% vs. 88% for T0S0 [MS-7].",
+                "Management is primarily stratified by limited cutaneous vs. advanced disease (T1, extensive T0 cutaneous, or nodal disease) [KS-1 footnote e].",
+                "B symptoms defined as unexplained fever, night sweats, >10% involuntary weight loss, or diarrhea persisting >2 weeks [KS-A 1 of 2].",
+                "Response criteria (ACTG) define CR as absence of detectable disease including tumor-associated edema for ≥4 weeks; PR requires ≥50% decrease in lesions or flattening of ≥50% raised lesions [KS-A 2 of 2].",
+                "Residual hyperpigmented macules after treatment represent hemosiderin 'tattoo' effect, not active disease; biopsy may show siderophages without tumor cells [MS-8]."
+            ]
+        },
+        "management_principles": {
+            "overview": "Kaposi sarcoma (KS) is a multifocal malignancy of endothelial cells universally associated with KSHV infection. Four types exist: HIV-associated, classic, iatrogenic/transplant-associated, and endemic. Immunosuppression is a key pathogenic factor. Treatment philosophy focuses on disease control rather than cure, as KSHV persists lifelong and individual lesions may represent distinct clones. Management emphasizes optimization of immune function, avoidance of additional immunosuppression (especially glucocorticoids in any formulation), and use of the least toxic therapy appropriate to disease extent. Complete remissions are rare in advanced disease; goals are symptom reduction, reversal of lymphedema, and preservation of organ function.",
+            "by_intent": [
+                {
+                    "intent": "Observation and immune optimization",
+                    "patient_group": "PWH with asymptomatic limited cutaneous disease cosmetically acceptable; patients without HIV with asymptomatic limited disease",
+                    "approach": "For PWH: start/continue ART, reassess within 4 weeks for IRIS. For non-HIV: observation until symptomatic or progressive. Remissions or stable disease may occur with ART and immune function optimization alone [KS-B; MS-10]."
+                },
+                {
+                    "intent": "Minimally invasive symptom control",
+                    "patient_group": "Patients with symptomatic or cosmetically bothersome limited cutaneous disease",
+                    "approach": "Use least toxic therapy: local therapy (topical alitretinoin, intralesional vinblastine/bleomycin, cryotherapy, marginal excision, electrodessication and curettage), RT, or limited cycles (3-6) of systemic therapy. For PWH, concurrent ART is critical. A limited number of systemic therapy cycles may be sufficient for those initiating or re-initiating ART [KS-2; KS-B]."
+                },
+                {
+                    "intent": "Systemic disease control",
+                    "patient_group": "Patients with advanced symptomatic disease (T1, extensive T0, nodal, visceral)",
+                    "approach": "Systemic therapy is first-line (preferred: liposomal doxorubicin for non-transplant KS; paclitaxel as other recommended; sirolimus for transplant KS). RT reserved when systemic therapy not feasible. For PWH, ART must be continued/initiated. Goals: reduce/reverse symptoms, lymphedema, organ threat. Treatment continues until unacceptable toxicity or plateau; no maintenance beyond 2 cycles after plateau [KS-3; KS-B]."
+                },
+                {
+                    "intent": "KICS management",
+                    "patient_group": "Patients with KSHV-associated inflammatory cytokine syndrome (KICS)",
+                    "approach": "First-line: liposomal doxorubicin + rituximab (preferred) or alternative KS-directed therapy + rituximab. In mild cases, KS-directed therapy alone may suffice. For transplant recipients, maximize sirolimus and minimize other immunosuppression. Refractory: add anti-IL-6 therapy (tocilizumab or siltuximab). Continue KS-directed therapy for ≥3 months after stopping rituximab [KICS-1]."
+                }
+            ],
+            "mdt_requirements": "Co-management by oncology and HIV specialists is recommended for the duration of therapy. Oncology and HIV pharmacists should review proposed cancer therapy, supportive care, and ART for DDIs and overlapping toxicities. Involvement of dermatology, medical oncology, hematology, and primary HIV care is appropriate during surveillance. Lymphedema specialist referral is recommended for patients with lymphedema. Collaboration with a pharmacist regarding immunosuppression options is advised for patients requiring immunosuppression [KS-B; KS-4; KS-1].",
+            "performance_status_guide": "Performance status (Karnofsky) is part of the TIS staging system (S0 ≥70, S1 <70). For advanced disease, if poor performance status is due to KS itself, systemic therapy should be considered as it may improve performance status. If performance status precludes upfront chemotherapy, reversible medical issues (active infection, high HIV viremia) should be addressed to enable systemic therapy. RT or best supportive care may be used if performance status remains poor [KS-3; KS-A 1 of 2]."
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "limited_cutaneous_asymptomatic",
+                "title": "Limited Cutaneous KS – Asymptomatic and Cosmetically Acceptable",
+                "branching_basis": [
+                    "HIV status",
+                    "Symptom status",
+                    "Cosmetic acceptability"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "PWH: Asymptomatic, cosmetically acceptable limited cutaneous disease",
+                        "options": [
+                            {
+                                "type": "observation",
+                                "label": "Observe and start or continue ART",
+                                "preference": "recommended",
+                                "recommendation": "Observe; start or continue ART for PWH. Reassess within 4 weeks for KS-IRIS. If rapid progression, initiate therapy [KS-2]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy indicated."
+                        }
+                    },
+                    {
+                        "criteria": "Non-HIV: Asymptomatic, cosmetically acceptable limited cutaneous disease",
+                        "options": [
+                            {
+                                "type": "observation",
+                                "label": "Observe",
+                                "preference": "recommended",
+                                "recommendation": "Observe until symptomatic or progressive. Rapid progression may indicate need for therapy [KS-2]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "limited_cutaneous_symptomatic",
+                "title": "Limited Cutaneous KS – Symptomatic and/or Cosmetically Bothersome",
+                "branching_basis": [
+                    "HIV status",
+                    "Previous therapy response"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Symptomatic and/or cosmetically bothersome limited cutaneous disease (any HIV status)",
+                        "options": [
+                            {
+                                "type": "local_therapy",
+                                "label": "Local therapy (topical alitretinoin, imiquimod, cryotherapy, marginal excision, electrodessication and curettage, intralesional vinblastine/bleomycin)",
+                                "preference": "appropriate",
+                                "recommendation": "For small lesions. RT preferred over excision for larger lesions when systemic therapy not feasible. Caution with plantar/palmar surfaces due to toxicity. See KS-D for details [KS-2; KS-D]."
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "appropriate",
+                                "recommendation": "Various dosing schedules (e.g., 20 Gy/5 fractions, 24 Gy/12 fractions). Lower total dose for small superficial lesions. See KS-E [KS-2; KS-E]."
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy (limited cycles, 3-6)",
+                                "preference": "appropriate",
+                                "recommendation": "Especially for PWH initiating ART. Options: liposomal doxorubicin (preferred for non-transplant), paclitaxel (other recommended), sirolimus (preferred for transplant KS). See KS-F [KS-2; KS-F]."
+                            },
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial",
+                                "preference": "appropriate",
+                                "recommendation": "Consider enrollment in clinical trial per clinicaltrials.gov [KS-2]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "For PWH: ART must be started/continued. Initiation of ART may cause IRIS; systemic KS therapy should be started as soon as possible in symptomatic patients. ART should not be delayed. Avoid glucocorticoids [KS-2; KS-C]."
+                        }
+                    },
+                    {
+                        "criteria": "After first-line therapy: stable disease or response",
+                        "options": [
+                            {
+                                "type": "observation",
+                                "label": "Observe and continue ART for PWH",
+                                "preference": "recommended",
+                                "recommendation": "If response plateau, observe (with continued ART for PWH). See Surveillance KS-4 [KS-2]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "After first-line therapy: progressive, relapsed, or refractory disease (limited cutaneous or advanced)",
+                        "options": [
+                            {
+                                "type": "biopsy",
+                                "label": "Consider biopsy to confirm KS vs post-inflammatory pigment",
+                                "preference": "recommended",
+                                "recommendation": "Also evaluate for inadequate HIV control. Address ART change with HIV specialist [KS-2; KS-3]."
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Relapsed/refractory therapy (see systemic therapy pathway)",
+                                "preference": "appropriate",
+                                "recommendation": "If limited cutaneous relapsed: treat as advanced disease (KS-3 pathway). If advanced: see advanced disease relapse pathway. Repeat prior effective therapy if durable response (≥3 months); otherwise proceed to subsequent options [KS-F]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "advanced_disease",
+                "title": "Advanced Cutaneous, Oral, Visceral, or Nodal KS",
+                "branching_basis": [
+                    "Eligibility for systemic therapy",
+                    "HIV status",
+                    "Response to therapy"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Eligible for systemic therapy",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Systemic therapy (first-line)",
+                                "preference": "preferred",
+                                "recommendation": "For non-transplant KS: liposomal doxorubicin (preferred), paclitaxel (other recommended). For transplant KS: sirolimus (preferred), liposomal doxorubicin or paclitaxel (other recommended). See KS-F [KS-F]."
+                            },
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial",
+                                "preference": "appropriate",
+                                "recommendation": "Consider enrollment in clinical trial per clinicaltrials.gov [KS-3]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "For PWH: initiate or continue ART. Avoid glucocorticoids. Co-management with HIV specialist. Reassess within 4 weeks if on ART alone (but systemic therapy should be started as soon as possible for symptomatic advanced disease) [KS-3; KS-B]."
+                        }
+                    },
+                    {
+                        "criteria": "Not immediately eligible for systemic therapy",
+                        "options": [
+                            {
+                                "type": "medical_optimization",
+                                "label": "Medical optimization",
+                                "preference": "recommended",
+                                "recommendation": "Address reversible issues: active infection (antibiotics/antivirals), high HIV viremia (initiate/modify ART). Consider RT for palliation or short-term disease management until systemic therapy feasible [KS-3]."
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "appropriate",
+                                "recommendation": "RT can be used for palliation. Systemic therapy is preferred whenever feasible. Caution with lymphedema [KS-3; KS-E]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "For PWH: continue or initiate ART. Reassess eligibility for systemic therapy after medical optimization."
+                        }
+                    },
+                    {
+                        "criteria": "After first-line systemic therapy: response or stable disease",
+                        "options": [
+                            {
+                                "type": "observation",
+                                "label": "Observe and continue ART for PWH",
+                                "preference": "recommended",
+                                "recommendation": "If response plateau, no maintenance beyond 2 cycles after plateau. Observe (continue ART). See Surveillance KS-4 [KS-3; KS-B]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "After first-line systemic therapy: progressive disease or relapsed after response",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Relapsed/refractory systemic therapy",
+                                "preference": "recommended",
+                                "recommendation": "If response was durable (≥3 months) and tolerated: repeat first-line therapy. If no response: switch to alternate first-line option (e.g., from liposomal doxorubicin to paclitaxel or vice versa). After both first-line options exhausted: proceed to subsequent therapy options: nivolumab, pembrolizumab, pomalidomide (preferred); useful in certain circumstances: albumin-bound paclitaxel, bortezomib, etoposide, gemcitabine, imatinib, ipilimumab+nivolumab, lenalidomide, sirolimus (for transplant), thalidomide (for IRIS), vinorelbine. See KS-F for dosing [KS-F]."
+                            },
+                            {
+                                "type": "radiation_therapy",
+                                "label": "RT",
+                                "preference": "appropriate",
+                                "recommendation": "Consider RT for localized symptomatic lesions if systemic therapy options exhausted or not feasible [KS-3]."
+                            },
+                            {
+                                "type": "clinical_trial",
+                                "label": "Clinical trial",
+                                "preference": "appropriate",
+                                "recommendation": "Consider clinical trial participation [KS-3]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "For PWH: continue ART. Evaluate for inadequate HIV control. Consider biopsy to rule out mimickers. Ipilimumab+nivolumab should not be used in patients with MCD or KICS; use ICIs with caution if history of KSHV-associated diseases [KS-F 3 of 4]."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "kics",
+                "title": "KSHV-Associated Inflammatory Cytokine Syndrome (KICS)",
+                "branching_basis": [
+                    "Severity",
+                    "Transplant status",
+                    "Response to initial therapy"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "All patients with KICS (diagnosis requires exclusion of MCD and lymphoma by excisional lymph node biopsy if feasible)",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Preferred: Liposomal Doxorubicin + Rituximab",
+                                "preference": "preferred",
+                                "recommendation": "First-line therapy. Rituximab + hyaluronidase subcutaneous may be substituted after IV first dose. For transplant recipients: maximize sirolimus component, minimize other immunosuppression. In mild cases, KS-directed therapy alone may be adequate; rituximab can be added later if insufficient response [KICS-1]."
+                            },
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Other recommended: Alternative KS-directed systemic therapy + Rituximab",
+                                "preference": "other_recommended",
+                                "recommendation": "Any KS-directed systemic therapy (e.g., paclitaxel) combined with rituximab. See KS-F for options [KICS-1]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "Refractory/progressive disease after initial therapy",
+                        "options": [
+                            {
+                                "type": "systemic_therapy",
+                                "label": "Add anti-IL-6 directed therapy (Tocilizumab or Siltuximab)",
+                                "preference": "recommended",
+                                "recommendation": "Tocilizumab blocks IL-6 receptor; siltuximab binds to human IL-6. Continue KS-directed therapy. Consider repeating cytology of effusions and biopsy of lymphadenopathy if lymphoma suspected [KICS-1]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    },
+                    {
+                        "criteria": "After response: inflammatory symptoms/lab markers improve",
+                        "options": [
+                            {
+                                "type": "monitoring",
+                                "label": "Withhold rituximab while continuing KS-directed therapy for ≥3 months or until adequate KS response",
+                                "preference": "recommended",
+                                "recommendation": "Continue KS-directed therapy for at least 3 months after cessation of rituximab due to risk of KS flare. If inflammatory markers flare after rituximab stopped, resume rituximab. Monitor symptoms, inflammatory markers, imaging as indicated [KICS-1]."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Essential",
+                "items": [
+                    {
+                        "text": "History and physical examination",
+                        "recommendation": "Include complete skin, oral, lymph node examinations; evaluation of edema; history of additional immunosuppressive disease or immunomodulatory therapy (e.g., transplant, local or systemic corticosteroids)."
+                    },
+                    {
+                        "text": "CBC with differential and comprehensive metabolic panel",
+                        "recommendation": "Obtain baseline blood work."
+                    },
+                    {
+                        "text": "HIV screening and/or diagnostic testing",
+                        "recommendation": "For all patients to confirm HIV status."
+                    },
+                    {
+                        "text": "Photography of oral, conjunctival, and cutaneous lesions (with reference unit of measure)",
+                        "recommendation": "For evaluation and monitoring of extent of disease."
+                    },
+                    {
+                        "text": "Pathology review",
+                        "recommendation": "Review of adequate slides from paraffin block representative of tumor by pathologist with expertise in KS. Immunohistochemistry panel: KSHV (HHV-8) LANA-1. Rebiopsy if non-diagnostic."
+                    },
+                    {
+                        "text": "For PWH: T-cell subsets and HIV viral load",
+                        "recommendation": "All HIV-seropositive patients should have recent CD4+ count and HIV viral load. Involvement of HIV specialist for OI evaluation appropriate, especially with advanced immunosuppression."
+                    },
+                    {
+                        "text": "Discuss ART for PWH",
+                        "recommendation": "Begin discussions regarding possible need to modify ART due to DDIs; involve HIV specialist. Co-management by oncologist and HIV clinician recommended for duration of therapy."
+                    },
+                    {
+                        "text": "Distress screening",
+                        "recommendation": "Refer to NCCN Distress Thermometer and Problem List, including social determinants of health (see NCCN Guidelines for Distress Management)."
+                    }
+                ]
+            },
+            {
+                "category": "Useful in Selected Cases",
+                "items": [
+                    {
+                        "text": "Pregnancy testing",
+                        "recommendation": "In patients of childbearing potential if chemotherapy or RT planned."
+                    },
+                    {
+                        "text": "Evaluation for suspected OIs",
+                        "recommendation": "Involve HIV specialist as needed."
+                    },
+                    {
+                        "text": "Stool hemoccult and/or chest x-ray as clinically indicated",
+                        "recommendation": "For advanced disease (e.g., advanced cutaneous, oral, visceral, or nodal involvement)."
+                    },
+                    {
+                        "text": "Chest CT with contrast and bronchoscopy",
+                        "recommendation": "If unexplained pulmonary symptoms or abnormalities on chest x-ray."
+                    },
+                    {
+                        "text": "Abdomen/pelvis CT with contrast or MRI with and without contrast and EGD/colonoscopy",
+                        "recommendation": "If GI symptoms or positive hemoccult."
+                    },
+                    {
+                        "text": "Imaging and lab workup for coexisting KICS, MCD, or KSHV+ lymphoma",
+                        "recommendation": "CT scan or FDG-PET/CT scan and/or lab workup (C-reactive protein, KSHV serum viral load, SPEP, IL-6, IL-10) if clinical features (fever, dyspnea, effusions) suggesting KICS or KSHV-associated MCD."
+                    },
+                    {
+                        "text": "Transthoracic echocardiogram",
+                        "recommendation": "If anthracycline planned or suspected pericardial effusion."
+                    },
+                    {
+                        "text": "Additional biopsy of nodal or visceral sites",
+                        "recommendation": "If coexisting disorder suspected (infection, lymphoma, MCD)."
+                    },
+                    {
+                        "text": "Cytology and flow cytometry of effusion fluid",
+                        "recommendation": "Encourage if present to evaluate for coexisting PEL."
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Limited role; used for local control of small, symptomatic lesions in patients with limited cutaneous disease. Wide excision with negative margins is not indicated as it does not prevent new lesions. For larger lesions, radiotherapy is preferred over excision when systemic therapy is not feasible.",
+            "principles": [
+                "Marginal excision is appropriate for small lesions; wide excision is not indicated.",
+                "Surgery does not prevent occurrence of future lesions because individual KS lesions are distinct clones arising from immunosuppression and KSHV persistence.",
+                "Electrodesiccation and curettage may be considered for small lesions.",
+                "For plantar and palmar surfaces, excision or intralesional chemotherapy should be approached with caution due to toxicity and functional concerns."
+            ],
+            "procedures": [
+                {
+                    "name": "Marginal excision",
+                    "approach": "Local excision of small, symptomatic lesions.",
+                    "indications": "Local control of small, symptomatic lesions in limited cutaneous disease.",
+                    "key_complications": "Recurrence; poor wound healing especially in areas of lymphedema; post-inflammatory hyperpigmentation."
+                },
+                {
+                    "name": "Electrodesiccation and curettage",
+                    "approach": "Destruction of lesion with electrodessication followed by curettage.",
+                    "indications": "Small, symptomatic lesions.",
+                    "key_complications": "Bleeding, infection, scarring."
+                }
+            ],
+            "resectability_criteria": "Not formally defined; lesions are resectable if small and localized. Wide excision is not required. Surgery is not used for advanced or disseminated disease. Consideration of lymphedema and wound healing risk is important."
+        },
+        "radiation_therapy": {
+            "role": "Used for limited cutaneous disease that is symptomatic/cosmetically bothersome, and for palliation in advanced disease when systemic therapy is not feasible. Also for relapsed/refractory disease. RT is radioresponsive with CR rates 60-93%. Systemic therapy is preferred over RT for first-line and relapsed/refractory disseminated disease whenever feasible.",
+            "principles": [
+                "For most skin lesions, electrons or superficial x-rays achieve optimal dosimetry. For deeper/larger lesions, IMRT with or without image guidance may be useful.",
+                "Bolus may be necessary for adequate skin dose.",
+                "Caution with plantar/palmar surfaces; high doses may impair wound healing, especially with lymphedema.",
+                "Risk of secondary cancer, severe/worsening lymphedema, and long-term wound healing complications; mitigate with lower-dose regimens.",
+                "For advanced cutaneous disease, RT reserved for when systemic therapy not feasible, goal palliation or short-term disease management until systemic therapy can be delivered.",
+                "Treatment responses may be delayed in significant lymphedema."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Single fraction",
+                    "total_dose": "6-8 Gy",
+                    "dose_per_fraction": "6-8 Gy",
+                    "fractions": "1",
+                    "schedule": "Single fraction",
+                    "indication": "Small, superficial lesions; palliative situations."
+                },
+                {
+                    "name": "Hypofractionated",
+                    "total_dose": "20 Gy",
+                    "dose_per_fraction": "4 Gy",
+                    "fractions": "5",
+                    "schedule": "Daily fractions",
+                    "indication": "Effective for KS; equivalent to 24 Gy/12 fractions."
+                },
+                {
+                    "name": "Standard fractionation (1)",
+                    "total_dose": "24 Gy",
+                    "dose_per_fraction": "2 Gy",
+                    "fractions": "12",
+                    "schedule": "Daily fractions",
+                    "indication": "Standard regimen."
+                },
+                {
+                    "name": "Standard fractionation (2)",
+                    "total_dose": "30 Gy",
+                    "dose_per_fraction": "2-3 Gy",
+                    "fractions": "10-15",
+                    "schedule": "Daily fractions",
+                    "indication": "More extensive or deeply invasive lesions; durable local response desired."
+                },
+                {
+                    "name": "Extended fractionation",
+                    "total_dose": "40 Gy",
+                    "dose_per_fraction": "2 Gy",
+                    "fractions": "20",
+                    "schedule": "Daily fractions",
+                    "indication": "When more durable response needed; may be used for oral cavity with adjacent radiosensitive structures."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Electron or superficial x-ray therapy",
+                    "dose_fractionation": "Any of the above regimens depending on indication",
+                    "concurrent_chemotherapy": "Not typically given concurrently; sequential if needed.",
+                    "indication": "Most skin lesions; minimize dose to underlying structures.",
+                    "key_trial": "Singh NB et al. Radiother Oncol 2008;88:211-216 [KS-E reference 1]",
+                    "toxicities": "Dermatitis, oral mucositis, lymphedema exacerbation, long-term wound healing issues, secondary cancer risk. Risk increased with pre-existing lymphedema."
+                },
+                {
+                    "name": "IMRT with or without image guidance",
+                    "dose_fractionation": "Fractionated regimens preferred for large/deep lesions or near critical structures",
+                    "concurrent_chemotherapy": "None specified",
+                    "indication": "Larger, deeper disease, or disease adjacent to critical structures.",
+                    "key_trial": "No specific trial cited; expert consensus.",
+                    "toxicities": "Same as above; potential for higher conformality reducing toxicity."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy is the mainstay for advanced symptomatic KS and an option for limited cutaneous disease. First-line options differ by transplant status. For non-transplant KS, liposomal doxorubicin is preferred; paclitaxel is other recommended. For transplant KS, sirolimus alone may be sufficient; liposomal doxorubicin and paclitaxel are other recommended. After first-line failure, subsequent options include nivolumab, pembrolizumab, pomalidomide (preferred); and in certain circumstances: albumin-bound paclitaxel, bortezomib, etoposide, gemcitabine, imatinib, ipilimumab+nivolumab, lenalidomide, sirolimus (transplant), thalidomide (IRIS), vinorelbine. Corticosteroid pre-medication should generally be avoided except for prior reaction. An FDA-approved biosimilar is appropriate substitute for any recommended biologic. ICIs should not be used in MCD or KICS; use with caution if history of KSHV-associated diseases.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "First-line – non-transplant KS (limited or advanced)",
+                    "preferred_regimen": "Liposomal Doxorubicin",
+                    "rationale": "Superior response rates over combination chemotherapy in randomized trials (46% vs 25%; 59% vs 23%) [KS-F references; MS-13]. Lower toxicity compared to ABV or BV.",
+                    "alternatives": "Paclitaxel (other recommended) – equivalent response rates to liposomal doxorubicin in one trial (56% vs 46%, p=0.49) but trend toward more toxicity."
+                },
+                {
+                    "setting": "First-line – transplant KS",
+                    "preferred_regimen": "Sirolimus",
+                    "rationale": "Switching immunosuppression to sirolimus can lead to complete remission of KS lesions; avoids systemic chemotherapy in many cases. Systemic therapy can be added for aggressive disease.",
+                    "alternatives": "Liposomal Doxorubicin, Paclitaxel (other recommended)"
+                },
+                {
+                    "setting": "Relapsed/refractory after first-line – if durable response (≥3 months) to first-line",
+                    "preferred_regimen": "Repeat first-line regimen",
+                    "rationale": "If tolerated and response was durable, retreatment is reasonable.",
+                    "alternatives": "Alternate first-line regimen (e.g., if liposomal doxorubicin given, switch to paclitaxel); or proceed to subsequent options."
+                },
+                {
+                    "setting": "Relapsed/refractory after first-line – if no response or progression on first-line",
+                    "preferred_regimen": "Alternate first-line regimen",
+                    "rationale": "If both first-line options exhausted, proceed to subsequent therapy.",
+                    "alternatives": "Nivolumab, Pembrolizumab, Pomalidomide (preferred); others listed under useful in certain circumstances."
+                },
+                {
+                    "setting": "KICS – initial therapy",
+                    "preferred_regimen": "Liposomal Doxorubicin + Rituximab",
+                    "rationale": "Standard for KICS based on expert consensus and parallels MCD management.",
+                    "alternatives": "Alternative KS-directed therapy + Rituximab; mild cases: KS-directed therapy alone."
+                },
+                {
+                    "setting": "KICS – refractory",
+                    "preferred_regimen": "Add anti-IL-6 therapy (Tocilizumab or Siltuximab) to KS-directed therapy",
+                    "rationale": "Anti-IL-6 agents are effective for KSHV-associated MCD and may benefit KICS.",
+                    "alternatives": "None specified."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "Liposomal Doxorubicin",
+                    "setting": "First-line for non-transplant KS",
+                    "drugs": [
+                        {
+                            "name": "Liposomal Doxorubicin",
+                            "dose": "20 mg/m2",
+                            "route": "IV",
+                            "day": "Every 2 to 3 weeks"
+                        }
+                    ],
+                    "cycle_days": "Cycle length 2-3 weeks (e.g., 14 or 21 days)",
+                    "key_toxicities": "Cardiotoxicity (monitor with echo), neutropenia, nausea, asthenia, leukopenia, peripheral neuropathy. Limit lifetime dose; may be safely treated beyond 1000 mg/m2 with monitoring."
+                },
+                {
+                    "name": "Paclitaxel (weekly)",
+                    "setting": "First-line alternative for non-transplant and transplant KS",
+                    "drugs": [
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "60 mg/m2",
+                            "route": "IV",
+                            "day": "Weekly"
+                        }
+                    ],
+                    "cycle_days": "Weekly dosing (28-day cycle or continuous weekly)",
+                    "key_toxicities": "Neutropenia, alopecia, peripheral neuropathy, hypersensitivity reactions (pre-medicate with caution; avoid steroids if possible). Grade 5 pulmonary embolism reported in one arm of trial."
+                },
+                {
+                    "name": "Paclitaxel (every 2 weeks)",
+                    "setting": "First-line alternative",
+                    "drugs": [
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "100 mg/m2",
+                            "route": "IV",
+                            "day": "Every 2 weeks"
+                        }
+                    ],
+                    "cycle_days": "Cycle length 14 days",
+                    "key_toxicities": "Similar to weekly regimen."
+                },
+                {
+                    "name": "Paclitaxel (every 3 weeks)",
+                    "setting": "First-line alternative",
+                    "drugs": [
+                        {
+                            "name": "Paclitaxel",
+                            "dose": "135 mg/m2",
+                            "route": "IV",
+                            "day": "Every 3 weeks"
+                        }
+                    ],
+                    "cycle_days": "Cycle length 21 days",
+                    "key_toxicities": "Similar."
+                },
+                {
+                    "name": "Sirolimus (for transplant KS)",
+                    "setting": "First-line preferred for transplant KS",
+                    "drugs": [
+                        {
+                            "name": "Sirolimus",
+                            "dose": "Loading dose 0.15 mg/kg PO followed by 0.04-0.06 mg/kg/day to maintain trough 6-10 ng/mL, or 2 mg PO daily adjusted to trough 6-10 ng/mL",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Immunosuppression (may need to manage other immunosuppressants), hyperlipidemia, hypertension, anemia, leukopenia, thrombocytopenia, mouth ulcers. Drug interactions with ART; consult ID pharmacist."
+                },
+                {
+                    "name": "Nivolumab",
+                    "setting": "Subsequent therapy for relapsed/refractory KS (preferred)",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "480 mg",
+                            "route": "IV every 4 weeks",
+                            "day": "Every 4 weeks"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle",
+                    "key_toxicities": "Immune-related adverse events (pneumonitis, colitis, hepatitis, endocrinopathies). Nivolumab and hyaluronidase-nvhy subcutaneous may be substituted with different dosing."
+                },
+                {
+                    "name": "Pembrolizumab",
+                    "setting": "Subsequent therapy (preferred)",
+                    "drugs": [
+                        {
+                            "name": "Pembrolizumab",
+                            "dose": "200 mg",
+                            "route": "IV every 3 weeks for up to 6 months",
+                            "day": "Every 3 weeks"
+                        }
+                    ],
+                    "cycle_days": "21-day cycle; treatment period up to 6 months",
+                    "key_toxicities": "Immune-related adverse events. Avoid in MCD/KICS; use caution with prior KSHV-associated diseases."
+                },
+                {
+                    "name": "Pomalidomide",
+                    "setting": "Subsequent therapy (preferred)",
+                    "drugs": [
+                        {
+                            "name": "Pomalidomide",
+                            "dose": "4 or 5 mg/day (NCCN panel believes 4 mg is sufficient; trial used 5 mg)",
+                            "route": "PO",
+                            "day": "Days 1-21 of 28-day cycle"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle (21 days on, 7 days off)",
+                    "key_toxicities": "Neutropenia, infection, edema. Requires effective contraception in patients of childbearing potential; REMS program."
+                },
+                {
+                    "name": "Albumin-bound Paclitaxel (if Paclitaxel intolerant)",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Albumin-bound Paclitaxel",
+                            "dose": "100 mg",
+                            "route": "IV",
+                            "day": "Days 1, 8, 15 of 28-day cycle"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle",
+                    "key_toxicities": "Neutropenia, thrombocytopenia, peripheral neuropathy."
+                },
+                {
+                    "name": "Bortezomib",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Bortezomib",
+                            "dose": "1.6 mg/m2",
+                            "route": "IV or SC",
+                            "day": "Days 1, 8, 15 of 28-day cycle"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle",
+                    "key_toxicities": "Diarrhea, fatigue, nausea, peripheral neuropathy, thrombocytopenia."
+                },
+                {
+                    "name": "Etoposide",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Etoposide",
+                            "dose": "50 mg/day PO for 7 days of 14-day cycle; after 2 cycles escalate to 100 mg/day if no PR/CR and no >Grade 2 toxicity; further escalate to 150 mg/day based on tolerance",
+                            "route": "PO",
+                            "day": "Days 1-7 of 14-day cycle"
+                        }
+                    ],
+                    "cycle_days": "14-day cycle",
+                    "key_toxicities": "Neutropenia, opportunistic infections, nausea, alopecia."
+                },
+                {
+                    "name": "Gemcitabine",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Gemcitabine",
+                            "dose": "1000 mg/m2",
+                            "route": "IV",
+                            "day": "Every 2 weeks or days 1 and 8 every 21 days"
+                        }
+                    ],
+                    "cycle_days": "14-day or 21-day cycle",
+                    "key_toxicities": "Leukopenia, neutropenia, fatigue, pain, nausea."
+                },
+                {
+                    "name": "Imatinib",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Imatinib",
+                            "dose": "400 mg",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Allergic reaction/hypersensitivity, nausea, dehydration, cellulitis, edema, fatigue."
+                },
+                {
+                    "name": "Ipilimumab + Nivolumab",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Nivolumab",
+                            "dose": "240 mg IV every 2 weeks",
+                            "route": "IV",
+                            "day": "Every 2 weeks"
+                        },
+                        {
+                            "name": "Ipilimumab",
+                            "dose": "1 mg/kg IV every 6 weeks",
+                            "route": "IV",
+                            "day": "Every 6 weeks"
+                        }
+                    ],
+                    "cycle_days": "6-week cycle (nivolumab every 2 weeks, ipilimumab every 6 weeks)",
+                    "key_toxicities": "Immune-related adverse events (colitis, pneumonitis, lipase elevation). Do not use in MCD/KICS."
+                },
+                {
+                    "name": "Lenalidomide",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Lenalidomide",
+                            "dose": "25 mg/day",
+                            "route": "PO",
+                            "day": "Days 1-21 of 28-day cycle"
+                        }
+                    ],
+                    "cycle_days": "28-day cycle (21 days on, 7 days off)",
+                    "key_toxicities": "Neutropenia, fatigue, leukopenia, diarrhea. Requires effective contraception; REMS program."
+                },
+                {
+                    "name": "Sirolimus (for transplant KS, in relapsed/refractory setting)",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Sirolimus",
+                            "dose": "Loading dose 0.15 mg/kg PO followed by 0.04-0.06 mg/kg/day to maintain trough 6-10 ng/mL, or 2 mg PO daily adjusted to trough 6-10 ng/mL",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Same as first-line; consult ID pharmacist for PWH on ART."
+                },
+                {
+                    "name": "Thalidomide (for patients with IRIS)",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Thalidomide",
+                            "dose": "200 mg/day orally (starting dose, titrated to effect and tolerability)",
+                            "route": "PO",
+                            "day": "Daily"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing",
+                    "key_toxicities": "Drowsiness, depression, neuropathy, teratogenicity (REMS program, effective contraception required)."
+                },
+                {
+                    "name": "Vinorelbine",
+                    "setting": "Useful in certain circumstances",
+                    "drugs": [
+                        {
+                            "name": "Vinorelbine",
+                            "dose": "30 mg/m2",
+                            "route": "IV",
+                            "day": "Every 2 weeks"
+                        }
+                    ],
+                    "cycle_days": "14-day cycle",
+                    "key_toxicities": "Neutropenia (dose-limiting), mild/reversible other side effects."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Response Definitions for Kaposi Sarcoma (adapted from ACTG Oncology Committee criteria, 1989)",
+            "timing": "Response assessments should be performed after each treatment cycle or as clinically indicated. For patients on observation, reassess at intervals based on disease stability. For PWH on ART alone, reassess within 4 weeks to monitor for IRIS. Long-term surveillance is life-long.",
+            "response_logic": [
+                "Complete response (CR): Absence of any detectable residual disease, including tumor-associated (local) edema, persisting for at least 4 weeks. Patients with prior visceral disease should have restaging with appropriate endoscopic or radiographic procedures relevant to sites involved at baseline. Residual non-palpable macular pigmentation (hemosiderin tattooing) is not active disease.",
+                "Partial response (PR): No new mucocutaneous lesions, visceral sites of involvement, or appearance/worsening of tumor-associated edema or effusions; AND one of: (1) ≥50% decrease in number of all pre-existing lesions lasting ≥4 weeks; OR (2) complete flattening of ≥50% of all previously raised lesions; OR (3) ≥50% decrease in sum of products of largest perpendicular diameters of at least 5 measurable lesions. Note: If residual tumor-associated edema or effusion but otherwise meets CR criteria, classify as PR.",
+                "Stable disease (SD): Any response not meeting criteria for PD or PR.",
+                "Progressive disease (PD): >25% increase in size of pre-existing lesions and/or appearance of new lesions/sites, and/or change in character from macular to plaque-like or nodular of >25%. New or increasing tumor-associated edema or effusion constitutes PD."
+            ],
+            "imaging_recommendations": [
+                "Imaging should be directed by symptoms or findings concerning for visceral or bone involvement, or for coexisting KICS, MCD, or KSHV+ lymphoma. Can include whole-body FDG-PET/CT.",
+                "For patients with known visceral disease at baseline, appropriate endoscopic or radiographic procedures (CT, MRI, bronchoscopy, EGD, colonoscopy) should be repeated to confirm CR.",
+                "In patients with effusions, encourage cytology and flow cytometry to evaluate for PEL.",
+                "For surveillance: if signs and symptoms concerning for visceral involvement or prior to new therapy for progression/refractory disease, perform imaging as clinically indicated (chest CT with contrast, abdomen/pelvis CT or MRI, FDG-PET/CT as needed)."
+            ],
+            "biopsy_or_salvage_logic": [
+                "If progressive, relapsed, or refractory disease suspected, consider biopsy of lesions to distinguish active KS from post-inflammatory pigment or mimickers (e.g., bacillary angiomatosis, cryptococcosis).",
+                "If KS confirmed, evaluate for inadequate HIV control as contributing factor; address possible change in ART with HIV specialist.",
+                "If after initial response, KS relapses or progresses, repeat use of previously effective therapy may be considered, particularly if response was durable (≥3 months) and well tolerated.",
+                "For patients on observation with rapid progression, initiate therapy as indicated per disease state.",
+                "In transplant KS, if sirolimus alone insufficient, add systemic therapy.",
+                "For KICS, if inflammatory markers flare after rituximab cessation, resume rituximab; consider repeating cytology of effusions and biopsy of lymphadenopathy if lymphoma suspected."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_kaposi_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-22T06:52:01.529758"
+    },
+    "extraction_warnings": [
+        "  [WARNING] Kaposi Sarcoma/nccn_kaposi_2.2026.pdf: Regimen 'Nivolumab (relapsed/refractory KS)' -- Nivolumab dose 480.0  out of range (1-3 mg/kg). Manual review required.",
+        "  [WARNING] Kaposi Sarcoma/nccn_kaposi_2.2026.pdf: Regimen 'Pembrolizumab (relapsed/refractory KS)' -- Pembrolizumab dose 200.0  out of range (1-2 mg/kg). Manual review required.",
+        "  [WARNING] Kaposi Sarcoma/nccn_kaposi_2.2026.pdf: Regimen 'Ipilimumab + Nivolumab (relapsed/refractory KS)' -- Nivolumab dose 240.0  out of range (1-3 mg/kg). Manual review required."
+    ]
+}

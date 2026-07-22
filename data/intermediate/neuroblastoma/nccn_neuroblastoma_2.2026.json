@@ -1,0 +1,2245 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "COG ANBL0531 Intermediate-Risk Chemotherapy",
+            "site": "Intermediate-risk neuroblastoma (localized tumors, stage M, stage MS)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "560 mg/m2 (if >12 kg) or 18.6 mg/kg (if ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 1, 2, 4, 6, 7"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "120 mg/m2 (if >12 kg) or 4 mg/kg (if ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Days 1–3 of cycles 1, 3, 7"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1000 mg/m2 (if >12 kg) or 33.3 mg/kg (if ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 2, 3"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "30 mg/m2 (if >12 kg) or 1 mg/kg (if ≤12 kg)",
+                    "route": "IV",
+                    "schedule": "Day 1 of cycles 2, 4, 6, 8"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "COG ANBL0531",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Protocol-specific response criteria used primary tumor volume reduction goals: 50% reduction for favorable biology, 90% reduction (VGPR) for less favorable. Complete details in reference [3,8]."
+            },
+            "notes": "This regimen consists of 8 cycles of rotating drug pairs as outlined in the table. Exact cycle assignments: Cycle 1 = Carboplatin/Etoposide; Cycle 2 = Carboplatin/Cyclophosphamide/Doxorubicin; Cycle 3 = Cyclophosphamide/Etoposide; Cycle 4 = Carboplatin/Doxorubicin/Etoposide; Cycle 5 = Cyclophosphamide/Etoposide; Cycle 6 = Carboplatin/Cyclophosphamide/Doxorubicin; Cycle 7 = Carboplatin/Etoposide; Cycle 8 = Cyclophosphamide/Doxorubicin. Dexrazoxane and mesna may be used as clinically indicated. Chemotherapy dosing for young children is evolving toward dose banding [9]. Audiologic assessment and echocardiogram should be obtained at diagnosis and at end of therapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "3",
+                    "8",
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "SIOPEN Intermediate-Risk Chemotherapy",
+            "site": "Intermediate-risk neuroblastoma (localized tumors)",
+            "setting": "First-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "200 mg/m2 or 6.6 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (alternating cycles)"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "150 mg/m2 or 5.0 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (alternating cycles)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "300 mg/m2 or 10 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 1–5 (CADO cycles)"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "30 mg/m2 or 1 mg/kg",
+                    "route": "IV",
+                    "schedule": "Days 4–5 (CADO cycles)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1 and 5 (CADO cycles)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "SIOPEN study",
+                "phase": null,
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Similar outcomes achieved with SIOPEN and COG strategies [10]."
+            },
+            "notes": "Regimen features alternating cycles of Carboplatin/Etoposide and CADO (Cyclophosphamide/Doxorubicin/Vincristine). Number of cycles varies for different subgroups. Supportive care with mesna and dexrazoxane may be used as clinically indicated.",
+            "source_citation": {
+                "reference_numbers": [
+                    "10"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Second-Line Cyclophosphamide/Topotecan for Intermediate-Risk Neuroblastoma",
+            "site": "Intermediate-risk neuroblastoma (inadequate response after 8 cycles of primary chemotherapy)",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Refer to source (not specified in table)",
+                    "route": "IV",
+                    "schedule": "Not specified in source text"
+                },
+                {
+                    "name": "Topotecan",
+                    "dose": "Refer to source (not specified in table)",
+                    "route": "IV",
+                    "schedule": "Not specified in source text"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "COG ANBL0531",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Used as additional treatment for patients who did not achieve target response with 8 cycles of intermediate-risk therapy [3]."
+            },
+            "notes": "In COG ANBL0531, cyclophosphamide and topotecan were used as the additional treatment for patients who did not achieve the target response with 8 cycles of the intermediate-risk therapy regimen. Specific dosing details are not provided in this guideline; refer to the original trial publication. Multidisciplinary discussion is recommended before using this regimen.",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "ANBL12P1/ANBL1531 5-Cycle Induction (Preferred)",
+            "site": "High-risk neuroblastoma (newly diagnosed)",
+            "setting": "First-line Induction",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "1.2 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–5 (Cycles 1 and 2)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–5 (Cycles 1 and 2)"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–4 (Cycles 3 and 5)"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "200 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycles 3 and 5)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycle 4)"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "25 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycle 4)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "2100 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–2 (Cycle 4)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ANBL12P1 / ANBL1531",
+                "phase": "Phase 2 (ANBL12P1), Phase 3 (ANBL1531 standard arm)",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": "80% end-induction response (ANBL12P1) [15]",
+                "notes": "ANBL1531 induction is similar with minor dosing adjustments to align with updated COG chemotherapy standards. 5-cycle induction was included as standard arm of COG phase 3 trial ANBL1531."
+            },
+            "notes": "All cycles are 21-day cycles. Dexrazoxane may be used as clinically indicated. Mesna must be used with cycles 4 (and 6 if applicable) but may be used with cycles 1 and 2 as clinically indicated. Refer to individual literature for dosing strategies for infants/patients with lower weights/BSAs [9]. The Panel recommends this as a preferred regimen based on extensive contemporary experience.",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "14",
+                    "15"
+                ]
+            }
+        },
+        {
+            "regimen_name": "ANBL0532 6-Cycle Induction (Acceptable)",
+            "site": "High-risk neuroblastoma (newly diagnosed)",
+            "setting": "First-line Induction",
+            "treatment_modality": [
+                "chemotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "1.2 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–5 (Cycles 1 and 2)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "400 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–5 (Cycles 1 and 2)"
+                },
+                {
+                    "name": "Cisplatin",
+                    "dose": "50 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–4 (Cycles 3 and 5)"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "200 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycles 3 and 5)"
+                },
+                {
+                    "name": "Vincristine",
+                    "dose": "Age-, weight-, and BSA-based dosing",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycles 4 and 6)"
+                },
+                {
+                    "name": "Doxorubicin",
+                    "dose": "25 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–3 (Cycles 4 and 6)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "2100 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 1–2 (Cycles 4 and 6)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "ANBL0532",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": "39.1% PR or better after first 2 cycles [14]",
+                "notes": "Cycle 6 is not used in ongoing COG clinical trials. The regimen is similar to ANBL12P1 but includes a sixth cycle identical to cycle 4."
+            },
+            "notes": "All cycles are 21-day cycles. Cycle 6 was used in prior historical trial ANBL0532, but is not used in ongoing COG clinical trials [14]. The Panel acknowledges this as an acceptable regimen but prefers the 5-cycle induction.",
+            "source_citation": {
+                "reference_numbers": [
+                    "9",
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide/Dinutuximab + Sargramostim (ANBL1221)",
+            "site": "High-risk neuroblastoma (bridging therapy; relapsed/refractory)",
+            "setting": "Second-line or Bridging",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "100 mg/m2/dose",
+                    "route": "PO",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2/dose",
+                    "route": "IV over 90 min",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "17.5 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 2–5"
+                },
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 µg/m2/dose",
+                    "route": "SQ",
+                    "schedule": "Days 6–12"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "COG ANBL1221",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Objective response rates of ~40% are among the highest seen in this patient population [21,41]."
+            },
+            "notes": "Regimen repeated every 21 days. Refer to individual protocols for dosing strategies for infants/patients with lower BSAs. COG trial ANBL1531 uses this same regimen with a slightly different dosing strategy based upon updated COG chemotherapy standards. Can be used as bridging therapy for patients with end-induction MR or SD, or for relapsed/refractory disease.",
+            "source_citation": {
+                "reference_numbers": [
+                    "21",
+                    "41"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide/Naxitamab + Sargramostim (HITS)",
+            "site": "High-risk neuroblastoma (bridging therapy; relapsed/refractory)",
+            "setting": "Second-line or Bridging",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Temozolomide",
+                    "dose": "150 mg/m2/day",
+                    "route": "PO",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Naxitamab-gqgk",
+                    "dose": "2.25 mg/kg/day",
+                    "route": "IV over 30–60 min",
+                    "schedule": "Days 2, 4, 9, and 11"
+                },
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 mcg/m2/day",
+                    "route": "SQ",
+                    "schedule": "Days 6–10"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "HITS regimen (Muñoz et al. 2023)",
+                "phase": null,
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Early salvage chemo-immunotherapy for primary refractory high-risk neuroblastoma [22]."
+            },
+            "notes": "Regimen repeated every 4 weeks. Naxitamab-gqgk is FDA-approved for treatment of children >1 year and adults with relapsed/refractory high-risk neuroblastoma specifically in bone or bone marrow (not soft tissue) who have had PR, MR, or SD to prior therapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "22"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Tandem Transplant (Thiotepa/Cyclophosphamide then Dose-Reduced CEM)",
+            "site": "High-risk neuroblastoma (consolidation)",
+            "setting": "Consolidation",
+            "treatment_modality": [
+                "high-dose chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Thiotepa",
+                    "dose": "300 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5 (first transplant)"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "1500 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days -5 to -2 (first transplant)"
+                },
+                {
+                    "name": "Carboplatin",
+                    "dose": "Age-, BSA-, and GFR-based dosing",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4 (second transplant, 6–10 weeks later)"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "300 mg/m2/dose (if GFR ≥100 mL/min/1.73 m2)",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4 (second transplant)"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "60 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5 (second transplant)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred for most high-risk patients",
+            "trial_data": {
+                "trial_name": "COG ANBL0532",
+                "phase": "Phase 3, randomized",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": "3-year EFS 61.6% (tandem) vs 48.4% (single)",
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Patients without PD after 6-cycle induction were eligible for randomization to single vs tandem transplant [14]."
+            },
+            "notes": "The Panel recommends tandem transplantation for the majority of patients with high-risk disease (category 1). Two consecutive rounds of high-dose chemotherapy with autologous stem cell rescue. The second transplant occurs 6–10 weeks after the first, following recovery of organ function. Refer to literature for dosing strategies for infants/patients with lower weights/BSAs and with impaired organ function.",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Single Transplant Option 1: CEM (Carboplatin/Etoposide/Melphalan)",
+            "site": "High-risk neuroblastoma (consolidation for special subgroups)",
+            "setting": "Consolidation",
+            "treatment_modality": [
+                "high-dose chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Carboplatin",
+                    "dose": "Weight-, BSA-, and GFR-based dosing",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Etoposide",
+                    "dose": "338 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -4"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "70 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days -7 to -5"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (for special subgroups)",
+            "trial_data": {
+                "trial_name": "ANBL0532 non-randomized assignment",
+                "phase": "Phase 3",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Used for special high-risk subgroups: Stage L2 ≥18mo, UH, MYCN non-amp; Stage M 12-<18mo, MYCN non-amp with unfavorable features [14]."
+            },
+            "notes": "This single transplant regimen is appropriate for two less common subgroups of patients with high-risk disease: 1) stage L2, ≥18 months, UH, MYCN non-amplified; and 2) stage M, 12 to <18 months, MYCN non-amplified with UH, diploid DNA content, or SCAs. Single transplant is currently standard in Europe [Ladenstein et al. 2017]. Refer to literature for dosing strategies for infants/patients with lower weights/BSAs and impaired organ function.",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Single Transplant Option 2: BuMel (Busulfan/Melphalan)",
+            "site": "High-risk neuroblastoma (consolidation for special subgroups or contraindications to tandem)",
+            "setting": "Consolidation",
+            "treatment_modality": [
+                "high-dose chemotherapy",
+                "stem cell transplant"
+            ],
+            "drugs": [
+                {
+                    "name": "Busulfan",
+                    "dose": "Age- and weight-based dosing, adjusted based upon real-time pharmacokinetics",
+                    "route": "IV",
+                    "schedule": "Days -6 to -3"
+                },
+                {
+                    "name": "Melphalan",
+                    "dose": "140 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Day -1"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended (in specific contexts)",
+            "trial_data": {
+                "trial_name": "HR-NBL1/SIOPEN (randomized phase 3) and ANBL12P1 (COG pilot)",
+                "phase": "Phase 3 (SIOPEN); Phase 2 (COG)",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": "Superior EFS with BuMel compared to CEM following rapid COJEC induction [30]",
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "BuMel was associated with lower rates of most adverse events, though the risk of sinusoidal obstruction syndrome was higher [30]. COG pilot ANBL12P1 demonstrated feasibility [15]."
+            },
+            "notes": "BuMel is a preferred conditioning regimen in Europe based on results of a randomized phase 3 trial showing superior EFS compared to CEM following the European rapid COJEC induction regimen. The role of BuMel in the context of North American therapy is not currently defined. Single transplant with BuMel may be appropriate for patients with a contraindication to tandem transplant or for patients in subgroups for which single transplant is recommended.",
+            "source_citation": {
+                "reference_numbers": [
+                    "15",
+                    "30"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Isotretinoin/Sargramostim + Dinutuximab (Post-Consolidation)",
+            "site": "High-risk neuroblastoma (post-consolidation)",
+            "setting": "Post-consolidation",
+            "treatment_modality": [
+                "immunotherapy",
+                "differentiating agent"
+            ],
+            "drugs": [
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 µg/m2/dose",
+                    "route": "SQ",
+                    "schedule": "Days 1–14 (Cycles 1, 3, 5)"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "17.5 mg/m2/dose",
+                    "route": "IV",
+                    "schedule": "Days 4–7 (Cycles 1, 3, 5)"
+                },
+                {
+                    "name": "Isotretinoin",
+                    "dose": "80 mg/m2/dose",
+                    "route": "PO twice daily",
+                    "schedule": "Days 11–24 (all cycles)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "COG ANBL0032",
+                "phase": "Phase 3, randomized",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": "2-year EFS from randomization: 66% (anti-GD2 + cytokines + isotretinoin) vs 46% (isotretinoin alone) [35]",
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "Long-term follow-up published in 2021 [36]. Interleukin-2 no longer included based on SIOPEN HR-NBL1 data [37]."
+            },
+            "notes": "All cycles are 28-day cycles. Total of 6 cycles. Cycles 1,3,5 include sargramostim and dinutuximab; cycles 2,4,6 include isotretinoin alone. Refer to individual protocols for dosing strategies for infants/patients with lower BSAs. COG high-risk protocols no longer include interleukin-2. Dinutuximab beta with isotretinoin but without sargramostim is an alternative commonly used in Europe [38].",
+            "source_citation": {
+                "reference_numbers": [
+                    "35",
+                    "36",
+                    "37",
+                    "38"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Eflornithine Continuation Therapy",
+            "site": "High-risk neuroblastoma (continuation after post-consolidation)",
+            "setting": "Continuation",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Eflornithine",
+                    "dose": "BSA-based: >1.5 m2: 768 mg (4 tablets); 0.75–≤1.5 m2: 576 mg (3 tablets); 0.5 to <0.75 m2: 384 mg (2 tablets); 0.25 to <0.5 m2: 192 mg (1 tablet)",
+                    "route": "PO twice daily",
+                    "schedule": "Up to 2 years"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2B",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Study 3b (NCT02395666) vs external control from ANBL0032",
+                "phase": "Phase 2, single-arm with external comparator",
+                "n_patients": "92 (Study 3b); 852 (external control)",
+                "overall_survival": "OS HR 0.32 (95% CI: 0.15, 0.70) favoring eflornithine",
+                "event_free_survival": "EFS HR 0.48 (95% CI: 0.27, 0.85) favoring eflornithine",
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "FDA approved December 2023 for patients with high-risk neuroblastoma who achieved PR or better following completion of anti-GD2 immunotherapy [40]."
+            },
+            "notes": "Eflornithine is an inhibitor of ornithine decarboxylase. For patients who are in remission, have had at least a PR to prior systemic agents, and have completed post-consolidation immunotherapy with an anti-GD2 antibody. Recalculate BSA dosage every 3 months. Serial monitoring of hearing with audiograms or brainstem auditory evoked response is essential at 6-month intervals or as clinically indicated, as most patients with high-risk neuroblastoma are at a critical age for language development. Reported adverse events include transaminitis and hearing loss [39].",
+            "source_citation": {
+                "reference_numbers": [
+                    "39",
+                    "40"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Irinotecan/Temozolomide + Dinutuximab (Relapsed/Refractory)",
+            "site": "Relapsed/refractory high-risk neuroblastoma",
+            "setting": "Second-line or later",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Irinotecan",
+                    "dose": "50 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Temozolomide",
+                    "dose": "100–150 mg/m2/day (dose varies by protocol)",
+                    "route": "PO",
+                    "schedule": "Days 1–5"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "17.5 mg/m2/day",
+                    "route": "IV",
+                    "schedule": "Days 2–5 (or per protocol)"
+                },
+                {
+                    "name": "Sargramostim",
+                    "dose": "250 µg/m2/dose",
+                    "route": "SQ",
+                    "schedule": "Days 6–12 (or per protocol)"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multiple studies (COG ANBL1221, BEACON Immuno, Lerman et al.)",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": "Objective response rates ~40% (strikingly reproducible across studies) [21,22,42-46]",
+                "notes": "This combination is now widely used at first relapse or first declaration of refractory disease."
+            },
+            "notes": "Dinutuximab is often used clinically in North America while dinutuximab beta is widely used in Europe. Other chemotherapy backbones that include camptothecins and alkylators (e.g., topotecan/cyclophosphamide or topotecan/temozolomide) in combination with dinutuximab or dinutuximab beta demonstrate anti-tumor activity [45,48,49]. Participation in clinical trials is strongly encouraged.",
+            "source_citation": {
+                "reference_numbers": [
+                    "21",
+                    "22",
+                    "42",
+                    "43",
+                    "44",
+                    "45",
+                    "46"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Topotecan/Cyclophosphamide + Dinutuximab (Relapsed/Refractory)",
+            "site": "Relapsed/refractory high-risk neuroblastoma",
+            "setting": "Second-line or later",
+            "treatment_modality": [
+                "chemotherapy",
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Topotecan",
+                    "dose": "Not specified in source",
+                    "route": "IV",
+                    "schedule": "Not specified in source"
+                },
+                {
+                    "name": "Cyclophosphamide",
+                    "dose": "Not specified in source",
+                    "route": "IV",
+                    "schedule": "Not specified in source"
+                },
+                {
+                    "name": "Dinutuximab",
+                    "dose": "Per protocol",
+                    "route": "IV",
+                    "schedule": "Per protocol"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Multi-institutional retrospective study (Lerman et al. 2026)",
+                "phase": "Retrospective",
+                "n_patients": "54",
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": "Objective response rate 54% in patients with prior response to chemoimmunotherapy, 23% in those without [47]",
+                "notes": "Rechallenge with chemotherapy combined with GD2-directed antibody therapy based on prior response can be considered."
+            },
+            "notes": "This regimen is an alternative chemotherapy backbone. Dosing can be found in the referenced literature. The combination of topotecan and cyclophosphamide with dinutuximab demonstrates anti-tumor activity. Consider for patients at second or greater relapse with history of prior response to chemoimmunotherapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "47",
+                    "48"
+                ]
+            }
+        },
+        {
+            "regimen_name": "I-131 MIBG Therapy (Relapsed/Refractory)",
+            "site": "Relapsed/refractory high-risk neuroblastoma",
+            "setting": "Second-line or later",
+            "treatment_modality": [
+                "radiopharmaceutical"
+            ],
+            "drugs": [
+                {
+                    "name": "Iodine-131 metaiodobenzylguanidine (I-131 MIBG)",
+                    "dose": "Per protocol (not specified in source)",
+                    "route": "IV",
+                    "schedule": "Single or multiple doses per protocol"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase II study (Matthay et al. 2007); NANT randomized phase II (DuBois et al. 2021)",
+                "phase": "Phase 2",
+                "n_patients": "164 (Matthay 2007)",
+                "overall_survival": "2-year OS 29% (Matthay 2007)",
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": "36% overall response (Matthay 2007) [49]",
+                "notes": "Consider in patients for whom GD2-directed therapy is not appropriate at time of first relapse [49,50]."
+            },
+            "notes": "The targeted radiopharmaceutical I-131 MIBG may be considered based upon results of clinical trials conducted in the relapsed/refractory population. Efficacy may be affected by disease sites, age, and prior therapy. Repeat biomarker profiling on a current sample at the time of relapse is recommended.",
+            "source_citation": {
+                "reference_numbers": [
+                    "49",
+                    "50"
+                ]
+            }
+        },
+        {
+            "regimen_name": "ALK Inhibitors (Lorlatinib, Ceritinib) for ALK-Aberrant Relapsed/Refractory Neuroblastoma",
+            "site": "Relapsed/refractory high-risk neuroblastoma with ALK aberrations",
+            "setting": "Second-line or later, targeted therapy",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Lorlatinib",
+                    "dose": "Per protocol (not specified in source)",
+                    "route": "PO",
+                    "schedule": "Per protocol"
+                },
+                {
+                    "name": "Ceritinib",
+                    "dose": "Per protocol (not specified in source)",
+                    "route": "PO",
+                    "schedule": "Per protocol"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "ALK amplification or activating mutation",
+                    "requirement": "Required for therapy selection",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 1 trials (Goldsmith et al. 2023 for lorlatinib; Fischer et al. 2021 for ceritinib)",
+                "phase": "Phase 1",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "ALK inhibitors appear to have activity in patients with ALK-aberrant tumors [52,53]. Repeat biomarker profiling at relapse recommended [51]."
+            },
+            "notes": "Use of targeted agents for relapsed disease whose tumors harbor actionable aberrations has been evaluated. Repeat biomarker profiling on a current sample at the time of relapse is recommended. Agents targeting other pathways of interest in neuroblastoma are also being studied in ongoing clinical trials.",
+            "source_citation": {
+                "reference_numbers": [
+                    "51",
+                    "52",
+                    "53",
+                    "54"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Naxitamab-gqgk Monotherapy for Bone/Bone Marrow Relapse/Refractory Disease",
+            "site": "Relapsed/refractory high-risk neuroblastoma (bone or bone marrow only)",
+            "setting": "Second-line or later",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Naxitamab-gqgk",
+                    "dose": "Per FDA label (not specified in source)",
+                    "route": "IV",
+                    "schedule": "Per FDA label"
+                }
+            ],
+            "biomarkers": [],
+            "evidence_level": "Category 2A",
+            "guideline_category": "Other recommended",
+            "trial_data": {
+                "trial_name": "Phase 2 clinical trial (Mora et al. 2025)",
+                "phase": "Phase 2",
+                "n_patients": null,
+                "overall_survival": null,
+                "event_free_survival": null,
+                "hazard_ratio": null,
+                "response_rate": null,
+                "notes": "FDA approved for children >1 year and adults with relapsed/refractory high-risk neuroblastoma in bone or bone marrow who have had PR, MR, or SD to prior therapy [46]."
+            },
+            "notes": "Naxitamab-gqgk is specifically approved for patients with disease limited to bone or bone marrow (not soft tissue). It may be used as a single agent or in combination with chemotherapy (see the HITS regimen above). Patients should have had at least a PR, MR, or SD to prior therapy.",
+            "source_citation": {
+                "reference_numbers": [
+                    "46"
+                ]
+            }
+        }
+    ],
+    "tier_2_handbook": {
+        "definition": "Neuroblastoma is a cancer originating from the developing sympathetic nervous system and is the most common extracranial solid tumor in children [1,2]. It is a primitive neoplasm of neuroectodermal origin composed of neuroblasts (immature nerve cells) arising from the embryonic neural crest [5,54]. These tumors may occur anywhere in the sympathoadrenal neuroendocrine system, including the adrenal gland, connective/soft tissue, retroperitoneum, and mediastinum [5,54]. Neuroblastoma, ganglioneuroblastoma, and ganglioneuroma are collectively referred to as neuroblastic tumors, all with similar imaging appearance [1,2,54]. The tumor arises from the sympathetic nervous system and local extension mainly consists of vascular encasement, infiltration of adjacent soft tissues and organs (most commonly kidneys and liver), and infiltration of the foramina and epidural space of the spinal canal when the primary tumor arises from a paraspinal sympathetic chain [55]. Approximately 50% of patients present with localized or regional disease, and approximately 35% have regional lymph node spread at diagnosis [4,67]. The International Neuroblastoma Risk Group (INRG) Staging System (INRGSS) classifies tumors as L1 (localized, no image-defined risk factors [IDRFs]), L2 (locoregional with one or more IDRFs), M (distant metastatic disease except MS), and MS (metastatic disease in children <18 months confined to skin, liver, and/or bone marrow with <10% involvement) [55]. Risk classification is assigned based on age, INRG stage, MYCN amplification status, histopathology (favorable/unfavorable), segmental chromosomal aberrations (SCAs), and ploidy, with 5-year EFS rates of 90.7% for low-risk, 85.1% for intermediate-risk, and 51.2% for high-risk disease [47].",
+        "subtypes": [
+            {
+                "name": "Neuroblastoma (Schwannian stroma-poor)",
+                "description": "The most common type of peripheral neuroblastic tumor, composed of neuroblasts with variable Schwannian stroma. Subtyped by degree of neuroblastic differentiation: undifferentiated, poorly differentiated, or differentiating. Further classified by mitosis-karyorrhexis index (MKI): low (<100/5000 cells), intermediate (100–200/5000), or high (≥200/5000).",
+                "frequency": "Most common neuroblastic tumor; exact frequency not specified in source.",
+                "key_associations": "MYCN amplification strongly associated with aggressive disease; undifferentiated subtype requires ancillary IHC for diagnosis; MKI and differentiation grade determine favorable/unfavorable histology (FH/UH) based on age [5,39,40]."
+            },
+            {
+                "name": "Ganglioneuroblastoma, nodular (composite, Schwannian stroma-rich/stroma-dominant and stroma-poor)",
+                "description": "Tumor composed of at least two distinct histologies: one is neuroblastoma (forming discrete nodules) and the other is ganglioneuroblastoma, intermixed or ganglioneuroma. The neuroblastoma component dictates clinical behavior. Prognostic group (FH/UH) determined by age-dependent morphologic features (grade of neuroblastic differentiation and MKI) applied to the neuroblastoma component.",
+                "frequency": "Less common than neuroblastoma; exact frequency not specified.",
+                "key_associations": "Requires identification of neuroblastomatous nodule for risk classification; UH if neuroblastoma component meets unfavorable criteria [56,8]."
+            },
+            {
+                "name": "Ganglioneuroblastoma, intermixed (Schwannian stroma-rich)",
+                "description": "Tumor with abundant Schwannian stroma and scattered neuroblastic cells. Typically diagnosed in older children. Classified into FH group; expected excellent prognosis. Biopsy diagnosis should include comment 'Favorable histology based on review of limited material' due to risk of missing a neuroblastoma nodule.",
+                "frequency": "Uncommon; exact frequency not specified.",
+                "key_associations": "Favorable histology; usually does not require aggressive therapy [39,40,5]."
+            },
+            {
+                "name": "Ganglioneuroma (Schwannian stroma-dominant)",
+                "description": "Mature, benign tumor composed of ganglion cells and Schwannian stroma. Classified into FH group; excellent prognosis. Biopsy diagnosis with caution regarding sampling.",
+                "frequency": "Least common; exact frequency not specified.",
+                "key_associations": "Completely benign; no neuroblastic component; excellent prognosis [39,40]."
+            },
+            {
+                "name": "Molecular subtypes based on biomarker profiling",
+                "description": "Risk stratification depends on MYCN amplification status, SCA status (segmental losses at 1p, 11q, 3p, 4p and gains at 17q, 1q, 2p), and ploidy (DNA index). MYCN amplification is the strongest independent prognostic factor. Favorable histology group includes poorly differentiated or differentiating subtype with low/intermediate MKI ≤547 days old, or differentiating with low MKI ≤1824 days old. Unfavorable histology includes undifferentiated at any age, high MKI at any age, poorly differentiated with any MKI ≥548 days old, differentiating with intermediate MKI ≥548 days, or differentiating with any MKI ≥1825 days.",
+                "frequency": "Approximately 50% of newly diagnosed patients have non-high-risk disease; high-risk disease accounts for approximately 50% [85,86].",
+                "key_associations": "MYCN amplification leads to high-risk assignment regardless of age or stage (except L1 completely resected); hyperdiploidy (DI>1) favorable in infants; SCAs associated with inferior outcome; ALK mutations present in ~1-2% of patients in germline and higher in relapsed [47,57,58,64]."
+            }
+        ],
+        "molecular_pathogenesis": "Neuroblastoma is driven by a combination of genomic events that influence prognosis and therapy. The strongest independent prognostic risk factor is amplification of the MYCN oncogene, which is associated with aggressive disease and is assessed in all neuroblastomas and ganglioneuroblastoma nodular tumors [57,58]. MYCN amplification is defined by FISH as >8 copies per cell or ≥4-fold increase, and can exceed 30-fold [9]. Segmental chromosomal aberrations (SCAs) are also prognostically important, with the most extensively studied including loss at 1p, 11q, 3p, and 4p, and gain at 17q, 1q, and 2p. The presence of SCAs in conjunction with other factors contributes to risk classification [10,11,59,81]. Ploidy status (DNA index) is another key factor: a DI of 1 (diploid) is less favorable than DI>1 (hyperdiploid), particularly in infants [60]. Germline alterations in ALK (gain-of-function mutations) and PHOX2B (loss-of-function mutations) are causative in familial neuroblastoma, which accounts for 1–2% of all cases [14,15,16]. Somatic ALK mutations and amplifications are also found in sporadic disease and predict response to ALK inhibitors in relapsed/refractory disease [63,64,65]. At relapse, tumors frequently acquire RAS-MAPK pathway mutations, which contribute to treatment resistance [51]. Additional germline variants in BARD1, SMARCA4, and RAS pathway genes (Costello syndrome, Noonan syndrome, neurofibromatosis) have been associated with neuroblastoma predisposition [13,17,18]. The genetic landscape also includes alterations in other neuroblastoma-associated genes identified through next-generation sequencing [62]. Overall, the genomic pattern (numerical vs. segmental alterations) is a predictor of outcome, with segmental patterns conferring worse prognosis [80]. These molecular features are integrated into the COG risk classification system to guide treatment [47].",
+        "epidemiology": "Neuroblastoma is the most common extracranial solid tumor in children, with an estimated 600 to 800 patients diagnosed annually in the United States [1,3]. The prevalence is approximately 1 per 7000 live births [2]. The average age at diagnosis is between 1 and 2 years, and the vast majority of individuals are <5 years of age at diagnosis [3,4]. Approximately 50% of patients present with localized or regional disease, and approximately 35% have regional lymph node spread at time of diagnosis [67]. Racial and ethnic disparities exist: a recent study found that 5-year survival was higher for white (80.7%) and Hispanic (80.8%) patients compared with Black patients (72.6%) [7,9]. Overall survival by risk group, based on the revised COG risk classification: low-risk 5-year OS 97.9% (±0.5%), intermediate-risk 5-year OS 95.8% (±0.8%), high-risk 5-year OS 62.5% (±1.3%) [47]. Five-year event-free survival rates are 90.7% for low-risk, 85.1% for intermediate-risk, and 51.2% for high-risk [47]. Outcomes have improved over time with increasingly intensive multimodal therapy, but high-risk disease remains challenging. Paraneoplastic syndromes occur in a small subgroup: opsoclonus-myoclonus-ataxia syndrome (OMAS) occurs in approximately 2% of patients, and vasoactive intestinal peptide tumor (VIPoma) syndrome occurs in <1% [29,24]. Familial neuroblastoma is rare, estimated at 1–2% of all cases [12]. The incidence of neuroblastoma is stable but outcomes vary by race/ethnicity and socioeconomic status [6,8].",
+        "risk_factors": [
+            {
+                "factor": "Familial neuroblastoma and germline mutations",
+                "type": "Genetic",
+                "detail": "Familial neuroblastoma accounts for approximately 1–2% of all cases. Germline gain-of-function mutations in ALK and loss-of-function mutations in PHOX2B have been identified as causative factors [12,14,15,16]. Other germline pathogenic variants in BARD1, SMARCA4 are enriched and predict worse survival [17,18].",
+                "strength": "Strong evidence for familial cases; ALK mutations are major predisposition genes."
+            },
+            {
+                "factor": "Associated genetic syndromes",
+                "type": "Genetic",
+                "detail": "Li-Fraumeni syndrome (TP53 mutations), Costello syndrome, Noonan syndrome, and neurofibromatosis (RAS pathway mutations) are associated with neuroblastoma [13].",
+                "strength": "Established association; syndromic cases are rare but high penetrance."
+            },
+            {
+                "factor": "Race/ethnicity and socioeconomic disparities",
+                "type": "Demographic",
+                "detail": "Limited data suggest health disparities exist. A recent study found 5-year survival was higher for white (80.7%) or Hispanic (80.8%) patients compared with Black patients (72.6%) [7,9]. Poverty has been associated with inferior survival in high-risk neuroblastoma clinical trials [8].",
+                "strength": "Observational; disparities are multifactorial including access and biology."
+            },
+            {
+                "factor": "Other genetic susceptibility loci",
+                "type": "Genetic",
+                "detail": "Common genetic variants likely contribute to sporadic neuroblastoma predisposition, but additional validation studies are needed [12].",
+                "strength": "Inferred from genome-wide studies; not yet clinically actionable."
+            }
+        ],
+        "clinical_features": {
+            "typical_presentation": "Neuroblastoma is a cancer of the developing sympathetic nervous system and the most common extracranial solid tumor in children, with an estimated 600–800 cases per year in the United States and a prevalence of approximately 1 per 7000 live births [1,2]. The average age at diagnosis is between 1 and 2 years, and the vast majority of patients are <5 years old [3,4]. Patients most commonly present with an abdominal mass or abdominal distension [2,5]. Other common presenting symptoms include loss of appetite, weight loss, irritability, constipation, fever, hypertension, anemia, and bone pain [5]. Paraneoplastic syndromes occur in a small subgroup and do not imply metastatic or incurable disease [6]. Opsoclonus-myoclonus-ataxia syndrome (OMAS) occurs in approximately 2% of patients, presenting with irregular multidirectional eye movements, myoclonic jerking of limbs, ataxia, and disordered mood/behavior [7,8]. Vasoactive intestinal peptide tumor (VIPoma) syndrome occurs in <1% of patients, causing chronic watery diarrhea, weight loss, and electrolyte abnormalities [9]. Lambert-Eaton myasthenic syndrome may rarely occur with proximal lower extremity weakness, loss of reflexes, and dysautonomia [10].",
+            "symptoms": [
+                {
+                    "name": "Abdominal mass/distension",
+                    "detail": "Most common presenting feature; often found by caregiver or during routine exam",
+                    "frequency": "Most patients",
+                    "alarm": "Yes, if rapidly enlarging or causing pain"
+                },
+                {
+                    "name": "Bone pain",
+                    "detail": "Often due to metastatic disease; may cause limping or refusal to bear weight",
+                    "frequency": "Common in high-risk disease",
+                    "alarm": "Yes, suggests metastasis"
+                },
+                {
+                    "name": "Periorbital ecchymosis (raccoon eyes)",
+                    "detail": "Caused by orbital metastases; may be accompanied by proptosis",
+                    "frequency": "Less common",
+                    "alarm": "Yes, requires urgent evaluation"
+                },
+                {
+                    "name": "Fever, weight loss, irritability",
+                    "detail": "Constitutional symptoms may indicate advanced disease",
+                    "frequency": "Variable",
+                    "alarm": "Consider if persistent"
+                },
+                {
+                    "name": "Opsoclonus-myoclonus-ataxia",
+                    "detail": "Irregular eye movements, myoclonic jerking, ataxia, mood/behavior changes",
+                    "frequency": "2% of patients [7]",
+                    "alarm": "Yes, paraneoplastic; treat urgently"
+                },
+                {
+                    "name": "Chronic watery diarrhea",
+                    "detail": "Due to VIP secretion; associated with weight loss and electrolyte disturbances",
+                    "frequency": "<1% [9]",
+                    "alarm": "Yes, paraneoplastic syndrome"
+                },
+                {
+                    "name": "Spinal cord compression symptoms",
+                    "detail": "Back pain, weakness, bowel/bladder dysfunction",
+                    "frequency": "Rare but critical",
+                    "alarm": "Yes, emergent"
+                },
+                {
+                    "name": "Hypertension",
+                    "detail": "May result from renal artery compression or catecholamine secretion",
+                    "frequency": "Occasional",
+                    "alarm": "May require management"
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Abdominal mass",
+                    "detail": "Palpable, firm, often nontender; may cross midline",
+                    "frequency": "Most patients"
+                },
+                {
+                    "name": "Hepatomegaly",
+                    "detail": "Common in infants with stage MS disease; can cause respiratory compromise",
+                    "frequency": "Common in MS"
+                },
+                {
+                    "name": "Periorbital ecchymosis",
+                    "detail": "Bilateral 'raccoon eyes' from metastatic deposits",
+                    "frequency": "Less common"
+                },
+                {
+                    "name": "Subcutaneous nodules",
+                    "detail": "Bluish nodules on skin, especially in infants",
+                    "frequency": "Infants with MS"
+                },
+                {
+                    "name": "Horner syndrome",
+                    "detail": "Ptosis, miosis, anhidrosis; may be post-surgical or from thoracic tumor",
+                    "frequency": "Uncommon"
+                },
+                {
+                    "name": "Neurologic deficits",
+                    "detail": "Motor or sensory deficits from spinal cord compression or paraspinal involvement",
+                    "frequency": "Rare but serious"
+                }
+            ],
+            "atypical_or_missed": [
+                "OMAS may be misdiagnosed as viral cerebellitis or post-infectious ataxia, delaying neuroblastoma diagnosis.",
+                "VIPoma syndrome is often mistaken for chronic infectious gastroenteritis; failure to recognize neuroblastoma as cause of watery diarrhea delays treatment.",
+                "Small, incidentally detected adrenal masses in infants may be mistaken for benign adrenal hemorrhage or cyst.",
+                "Painless abdominal mass in a well-appearing child may be overlooked as constipation, leading to late diagnosis.",
+                "Spinal cord compression from paraspinal neuroblastoma can be mistaken for acute transverse myelitis or discitis.",
+                "Stage MS hepatomegaly in neonates may be mistaken for hemangioma or other liver masses; urgent evaluation is critical."
+            ]
+        },
+        "red_flags": [
+            "Infants <2 months with existing or evolving hepatomegaly require urgent evaluation and possible therapy before biopsy [11].",
+            "Infants with coagulopathy, impending organ failure, or respiratory compromise from massive hepatomegaly need emergent treatment (score ≥2 per Hsu criteria) [12].",
+            "Patients with acute neurologic deterioration (e.g., rapid onset paraplegia, loss of bladder/bowel control) from spinal cord compression require urgent multidisciplinary evaluation and prompt therapy.",
+            "Proptosis, sudden vision loss, or progressive periorbital ecchymosis from orbital metastases warrants urgent ophthalmologic and oncologic assessment.",
+            "Progressive hypertension or signs of catecholamine crisis (e.g., tachycardia, flushing) may indicate tumor catecholamine secretion and require careful perioperative management.",
+            "Any child with refractory diarrhea, severe electrolyte disturbances, and weight loss should be evaluated for VIPoma syndrome.",
+            "Rapidly enlarging abdominal mass causing pain, respiratory distress, or lower extremity edema (suggestive of compartment syndrome) is a surgical emergency."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Tissue sampling (surgical resection or biopsy)",
+                    "rationale": "Definitive diagnosis requires tumor tissue for histology and molecular profiling",
+                    "key_findings": "Neuroblastoma cells; INPC classification (FH/UH); adequate for biomarker testing [13,14]"
+                },
+                {
+                    "test": "Hematoxylin and eosin (H&E) staining",
+                    "rationale": "Primary histologic diagnosis; determines tumor category and differentiation",
+                    "key_findings": "Small round blue cell tumor; neuroblastic differentiation; MKI estimation [15]"
+                },
+                {
+                    "test": "Immunohistochemistry (IHC)",
+                    "rationale": "Aids diagnosis in small samples or undifferentiated tumors",
+                    "key_findings": "Positive for chromogranin, synaptophysin; PHOX2B (strongly recommended), tyrosine hydroxylase [16]"
+                },
+                {
+                    "test": "Urine homovanillic acid (HVA) and vanillylmandelic acid (VMA)",
+                    "rationale": "Required for diagnosis if only diagnostic tissue is bone marrow",
+                    "key_findings": "Elevated in majority of patients (not standardized for response assessment) [17]"
+                },
+                {
+                    "test": "Bilateral bone marrow aspirates and trephine biopsies",
+                    "rationale": "Assess metastatic involvement; can be diagnostic if marrow is only source",
+                    "key_findings": "Tumor cells (syncytia, clumps); required for staging and risk classification [18]"
+                },
+                {
+                    "test": "Complete blood count (CBC) with differential",
+                    "rationale": "Baseline assessment; detect bone marrow suppression or blood loss",
+                    "key_findings": "Anemia, thrombocytopenia may indicate marrow involvement"
+                },
+                {
+                    "test": "Comprehensive metabolic panel",
+                    "rationale": "Evaluate organ function, electrolytes, LDH",
+                    "key_findings": "LDH and ferritin may be elevated; not part of current risk classification [19]"
+                },
+                {
+                    "test": "Lactate dehydrogenase (LDH)",
+                    "rationale": "Prognostic value; higher levels associated with worse outcome",
+                    "key_findings": "Not a component of COG risk classification but may be helpful"
+                },
+                {
+                    "test": "Ferritin",
+                    "rationale": "Prognostic value; higher levels associated with worse outcome",
+                    "key_findings": "Not a component of COG risk classification but may be helpful [19]"
+                },
+                {
+                    "test": "Prothrombin time (PT)/INR",
+                    "rationale": "Useful if liver involved or concern for bleeding",
+                    "key_findings": "Prolonged in significant liver involvement or coagulopathy"
+                },
+                {
+                    "test": "Audiogram",
+                    "rationale": "Baseline if platinum-containing chemotherapy planned",
+                    "key_findings": "Document hearing before ototoxic therapy"
+                },
+                {
+                    "test": "Echocardiogram and ECG",
+                    "rationale": "Baseline if anthracycline-containing chemotherapy planned",
+                    "key_findings": "Assess cardiac function for anthracycline exposure"
+                },
+                {
+                    "test": "Pregnancy test",
+                    "rationale": "For patients of childbearing potential",
+                    "key_findings": "Exclude pregnancy before therapy"
+                },
+                {
+                    "test": "Fertility preservation referral",
+                    "rationale": "For patients likely to receive extensive alkylator therapy",
+                    "key_findings": "Discuss options and timing"
+                },
+                {
+                    "test": "Paraneoplastic syndrome testing",
+                    "rationale": "If clinical suspicion for OMAS (check anti-Hu/ANNA1, CSF studies) or VIPoma (serum VIP)",
+                    "key_findings": "Oligoclonal bands, neopterin in CSF; elevated VIP levels [7,9]"
+                }
+            ],
+            "staging": [
+                {
+                    "test": "Cross-sectional imaging (CT with contrast or MRI with/without contrast)",
+                    "rationale": "Evaluate soft tissue disease; assess IDRFs for INRG staging",
+                    "indication": "All patients at initial evaluation [20]"
+                },
+                {
+                    "test": "MRI of spine with/without contrast",
+                    "rationale": "Assess intraspinal extension, nerve root or spinal cord involvement",
+                    "indication": "Paraspinal disease or concerns for spinal involvement [20]"
+                },
+                {
+                    "test": "MRI of brain with/without contrast or CT skull/orbits with contrast",
+                    "rationale": "Evaluate intracranial extension, orbital metastases",
+                    "indication": "Neurologic symptoms or clinically indicated [20]"
+                },
+                {
+                    "test": "I-123 MIBG scintigraphy with SPECT or SPECT/CT",
+                    "rationale": "Gold standard for detecting metastatic disease; identify MIBG-avid disease",
+                    "indication": "All patients unless exception: <6 months with small adrenal tumor [21,22]"
+                },
+                {
+                    "test": "FDG-PET/CT or PET/MRI",
+                    "rationale": "Alternative for MIBG non-avid or mixed-avidity tumors",
+                    "indication": "MIBG non-avid disease or discordant imaging [23]"
+                },
+                {
+                    "test": "Bilateral bone marrow aspirates and trephine biopsies",
+                    "rationale": "Assess marrow involvement; required for staging and risk classification",
+                    "indication": "All patients (mandatory for M stage) [18]"
+                },
+                {
+                    "test": "Ultrasound",
+                    "rationale": "Initial screening for abdominal/pelvic mass; low interobserver reproducibility",
+                    "indication": "First-line when abdominal tumor suspected; followed by CT/MRI for staging [20]"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "MYCN amplification",
+                    "rationale": "Strong prognostic factor; associated with aggressive disease; determines risk group",
+                    "when": "Mandatory for all neuroblastomas and ganglioneuroblastoma nodular tumors",
+                    "mandatory": true
+                },
+                {
+                    "test": "Segmental chromosomal aberrations (SCAs)",
+                    "rationale": "Prognostic; presence of SCAs may be associated with aggressive disease depending on other factors",
+                    "when": "Mandatory for risk classification",
+                    "mandatory": true
+                },
+                {
+                    "test": "Ploidy (DNA index, DI)",
+                    "rationale": "DI=1 may be associated with aggressive disease depending on age and other factors",
+                    "when": "Mandatory for risk classification; may be inferred by NGS if DI not available [24]",
+                    "mandatory": true
+                },
+                {
+                    "test": "ALK amplification and sequence variants",
+                    "rationale": "Predict response to ALK inhibitors in relapsed/refractory disease",
+                    "when": "Recommended for all patients at diagnosis; essential at relapse for targeted therapy options [25,26]",
+                    "mandatory": false
+                },
+                {
+                    "test": "Next-generation sequencing (NGS)",
+                    "rationale": "Simultaneous evaluation of MYCN, SCAs, ALK, and other neuroblastoma-associated genes",
+                    "when": "Preferred approach when tissue adequate; increasingly feasible with FFPE [27]",
+                    "mandatory": false
+                },
+                {
+                    "test": "Germline testing",
+                    "rationale": "Identify familial neuroblastoma (ALK, PHOX2B) or other predisposition syndromes (Li-Fraumeni, RASopathies)",
+                    "when": "Indicated based on family history, clinical presentation, or tumor findings suggestive of germline origin [28,29]",
+                    "mandatory": false
+                }
+            ],
+            "do_not_miss": [
+                "MYCN amplification testing on all tumors – it is the strongest independent prognostic factor and drives risk grouping.",
+                "Bilateral bone marrow aspirates and trephine biopsies – required for complete staging and risk classification.",
+                "I-123 MIBG scan with SPECT/CT (unless exception for low-risk infants) – critical for detecting metastatic disease.",
+                "Urine HVA/VMA levels – required for diagnosis if only diagnostic tissue is bone marrow.",
+                "Histologic classification by a pathologist with expertise in neuroblastoma – ensures accurate INPC grouping.",
+                "Full biomarker panel (MYCN, SCAs, ploidy) for risk stratification – missing any component may lead to incorrect risk assignment."
+            ],
+            "avoid": [
+                "Fine-needle aspiration (FNA) – insufficient tissue for histologic and molecular evaluation [30].",
+                "Technetium-99m (99mTc) bone scintigraphy for response assessment – no longer recommended per revised INRC [31].",
+                "Routine use of novel radiotracers (e.g., 68Ga-DOTATATE) for diagnostic imaging – insufficient data to incorporate routinely [32].",
+                "Urinary catecholamine levels (HVA/VMA) for formal response assessment – removed from INRC due to lack of standardization and dietary influence [31].",
+                "Routine MIBG scan in patients <6 months with L1 adrenal tumor ≤3.1 cm (solid) or ≤5 cm (≥25% cystic) – not required unless signs of metastases [33].",
+                "Waiting for MIBG or FDG-PET staging to start urgent therapy – emergent treatment should not be delayed; imaging obtained as soon as possible [20]."
+            ]
+        },
+        "staging": {
+            "system": "International Neuroblastoma Risk Group (INRG) Staging System (INRGSS) [34]",
+            "t_stages": [
+                {
+                    "stage": "L1 (Localized)",
+                    "description": "Localized tumor not involving vital structures as defined by the list of image-defined risk factors (IDRFs) and confined to one body compartment [34]."
+                },
+                {
+                    "stage": "L2 (Locoregional)",
+                    "description": "Locoregional tumor with presence of one or more IDRFs [34]."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "N (Regional lymph nodes)",
+                    "description": "The INRGSS does not include a separate N category. Regional lymph node involvement is integrated into L1/L2 staging: L1 implies no IDRFs; L2 includes IDRFs that may reflect nodal involvement (e.g., encasement of vessels) but not separately staged [34]."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M (Distant metastatic)",
+                    "description": "Distant metastatic disease (except stage MS) [34]."
+                },
+                {
+                    "stage": "MS (Metastatic special)",
+                    "description": "Metastatic disease in children younger than 18 months, with metastases confined to skin, liver, and/or bone marrow (<10% involvement) [34]."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "L1",
+                    "criteria": "Localized tumor with no IDRFs, confined to one body compartment.",
+                    "clinical_meaning": "Surgically resectable with low risk of complications; low to intermediate risk depending on age and biology.",
+                    "five_yr_survival": "Not reported by stage alone; survival by risk group: low risk 97.9%, intermediate 95.8%, high 62.5% [35].",
+                    "treatment_intent": "Curative; often surgery alone, observation (select infants), or surgery + chemotherapy for intermediate risk."
+                },
+                {
+                    "group": "L2",
+                    "criteria": "Locoregional tumor with one or more IDRFs.",
+                    "clinical_meaning": "Higher surgical risk; neoadjuvant chemotherapy often used; risk group depends on age, MYCN, histology, ploidy.",
+                    "five_yr_survival": "Variable by risk group, see above.",
+                    "treatment_intent": "Curative; chemotherapy + surgery, with possible RT in high-risk cases."
+                },
+                {
+                    "group": "M",
+                    "criteria": "Distant metastatic disease (excluding MS).",
+                    "clinical_meaning": "High-risk disease in most cases (≥18 months) or intermediate-risk in select infants <12 months with favorable biology.",
+                    "five_yr_survival": "High risk: 5-year OS 62.5% [35].",
+                    "treatment_intent": "Curative but intensive: induction chemo, surgery, high-dose chemo + stem cell rescue, RT, post-consolidation immunotherapy."
+                },
+                {
+                    "group": "MS",
+                    "criteria": "Children <18 months, metastases confined to skin, liver, and/or bone marrow (<10% involvement).",
+                    "clinical_meaning": "Favorable biology often leads to spontaneous regression; requires close observation unless symptomatic.",
+                    "five_yr_survival": "Low risk: excellent (>95%); intermediate-risk: ~95% [35].",
+                    "treatment_intent": "Observation if asymptomatic with favorable biology; low-intensity chemotherapy if symptomatic or unfavorable biology; RT rarely needed."
+                }
+            ],
+            "staging_pearls": [
+                "The INRGSS replaced the older INSS to allow pretreatment staging based on imaging (IDRFs), not surgical findings [34].",
+                "IDRFs are defined by consensus and include vascular encasement, tracheal compression, intraspinal extension, infiltration of adjacent organs, and others (see NEUROB-B 3 of 4) [36].",
+                "MIBG avidity is present in up to 90% of tumors; MIBG scan is essential for M and MS staging [21].",
+                "Bilateral bone marrow aspirates and biopsies are mandatory for detecting marrow involvement, which defines M or MS stage.",
+                "MS stage is only applicable to children <18 months; patients ≥18 months with limited metastases are staged as M.",
+                "The INRGSS stage is a key factor in the COG risk classification system, along with MYCN, histology, ploidy, SCAs, and age [35].",
+                "FDG-PET is used as an alternative if MIBG non-avid; however, MIBG remains the preferred tracer for staging.",
+                "Risk group assignment determines treatment intensity; not all patients with stage M are high-risk (e.g., infants <12 months with favorable biology)."
+            ]
+        },
+        "management_principles": {
+            "overview": "Neuroblastoma is a heterogeneous disease of the developing sympathetic nervous system, the most common extracranial solid tumor in children, with an estimated 600–800 new cases annually in the United States (prevalence ~1 per 7000 live births). The average age at diagnosis is between 1 and 2 years, with the vast majority of patients <5 years old. Treatment is multimodal and risk-adapted, stratified into low-, intermediate-, and high-risk groups based on age, INRG stage, MYCN amplification status, histopathology (International Neuroblastoma Pathology Classification [INPC] favorable or unfavorable), presence of segmental chromosomal aberrations (SCAs), and DNA index (DI). The goal for low- and intermediate-risk disease is cure with minimal toxicity, using surgery and moderate-intensity chemotherapy; for high-risk disease, intensive multimodality therapy divided into induction, consolidation, and post-consolidation phases has improved outcomes, with 5-year overall survival (OS) now approximately 62.5% ± 1.3% [Irwin 2021]. Treatment decisions must incorporate multidisciplinary evaluation including diagnostic and interventional radiology, nuclear medicine, surgery, pathology, radiation oncology, and pediatric oncology.",
+            "by_intent": [
+                {
+                    "intent": "Curative with observation alone",
+                    "patient_group": "Low-risk: infants <6 months with isolated adrenal masses ≤3.1 cm solid or ≤5 cm with ≥25% cystic component; also asymptomatic stage MS with favorable biology (<12 months, FH, DI>1, SCA-negative, MYCN non-amplified)",
+                    "approach": "Observation with serial ultrasound; no biopsy or chemotherapy required."
+                },
+                {
+                    "intent": "Curative with surgery ± chemotherapy",
+                    "patient_group": "Low-risk L1 tumors not meeting observation criteria; also some intermediate-risk localized tumors with favorable biology after chemotherapy",
+                    "approach": "Surgical resection if safe; if incomplete resection and MYCN amplification is detected, reclassify as high-risk."
+                },
+                {
+                    "intent": "Curative with chemotherapy + surgery",
+                    "patient_group": "Intermediate-risk: localized L2, stage M <18 months with favorable biology, stage MS symptomatic or with unfavorable biology",
+                    "approach": "Response-adapted chemotherapy (2–8 cycles) based on age, stage, and biology; gross total resection may be performed after chemotherapy; surveillance after achieving target response."
+                },
+                {
+                    "intent": "Curative with intensive multimodality therapy",
+                    "patient_group": "High-risk: all patients with MYCN amplification (except L1 completely resected), stage M ≥18 months, L2 ≥18 months with unfavorable histology or undifferentiated/poorly differentiated, and other subsets as defined by risk classification",
+                    "approach": "Induction multiagent chemotherapy (5–6 cycles) + primary site resection; consolidation with high-dose chemotherapy and autologous stem cell rescue (tandem transplant preferred, category 1) + radiotherapy; post-consolidation with anti-GD2 antibody (dinutuximab) + sargramostim + isotretinoin (category 1); optional continuation therapy with eflornithine (category 2B)."
+                },
+                {
+                    "intent": "Palliative or disease control",
+                    "patient_group": "Relapsed/refractory high-risk neuroblastoma",
+                    "approach": "Individualized, strongly encourage clinical trial; chemoimmunotherapy (e.g., irinotecan/temozolomide + anti-GD2 antibody) or I-131 MIBG or targeted agents (ALK inhibitors if ALK aberration)."
+                }
+            ],
+            "mdt_requirements": "A multidisciplinary team is essential for neuroblastoma management, including diagnostic radiologists, nuclear medicine physicians, interventional radiologists, surgeons (pediatric surgical oncologists), anatomic and molecular pathologists, radiation oncologists, and pediatric oncologists. Multidisciplinary discussion is required for optimal timing of surgery (at diagnosis vs. after neoadjuvant chemotherapy), assessment of image-defined risk factors (IDRFs), determination of resectability, and iterative decision-making during intermediate-risk therapy regarding additional chemotherapy vs. surgery. The Panel recommends coordinated diagnostic sampling including pathologists, oncologists, surgeons, and radiologists.",
+            "performance_status_guide": null
+        },
+        "management_pathways": [
+            {
+                "pathway_id": "low_risk_observation",
+                "title": "Low-Risk Neuroblastoma – Observation",
+                "branching_basis": [
+                    "Age <6 months",
+                    "Adrenal mass size (≤3.1 cm solid or ≤5 cm cystic)",
+                    "No IDRFs",
+                    "Stage MS asymptomatic with favorable biology (<12 months, FH, DI>1, SCA-, MYCN non-amplified)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Infants <6 months with isolated adrenal masses <5 cm diameter (as defined) OR asymptomatic MS with favorable biology",
+                        "options": [
+                            {
+                                "type": "management",
+                                "label": "Observation",
+                                "preference": "Preferred",
+                                "recommendation": "Serial ultrasound surveillance; no biopsy or chemotherapy. See NEUROB-3 and NEUROB-F."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "No adjuvant therapy required."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "low_risk_surgery",
+                "title": "Low-Risk Neuroblastoma – Surgical Resection",
+                "branching_basis": [
+                    "L1 stage",
+                    "No MYCN amplification (or MYCN amplified but completely resected then low-risk)",
+                    "Presence of IDRFs (L1 vs. L2) – if L2, reassess risk group"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "L1 tumors not meeting observation criteria",
+                        "options": [
+                            {
+                                "type": "procedure",
+                                "label": "Surgical resection",
+                                "preference": "Preferred",
+                                "recommendation": "Upfront resection if safe and obviates chemotherapy. If incomplete resection and MYCN amplification detected, reclassify as high-risk."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "New baseline imaging ≥1 month post-op, then surveillance with ultrasound if possible. See NEUROB-3 and NEUROB-F."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "intermediate_risk_localized",
+                "title": "Intermediate-Risk Neuroblastoma – Localized Tumors (L1/L2 non-high-risk)",
+                "branching_basis": [
+                    "Age",
+                    "INPC histology (FH/UH)",
+                    "DI (diploid/hyperdiploid)",
+                    "SCA status",
+                    "MYCN non-amplified"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Favorable biology (FH, DI>1, no SCA) regardless of age; OR age <365 days with UH, DI>1, no SCA; OR age <365 days with FH, DI=1, no SCA; OR age <365 days with UH, DI=1, no SCA; OR age <365 days with FH, DI>1, SCA+; OR ≥365 days with FH and SCA",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "2 cycles of chemotherapy (COG ANBL0531 regimen)",
+                                "preference": "Preferred",
+                                "recommendation": "Evaluate response after 2 cycles. If ≥PR (volume reduction), proceed to surveillance. If <PR, multidisciplinary discussion for surgery vs. additional chemotherapy."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Treatment endpoint: ≥50% reduction in primary tumor volume (or by RECIST). If achieved, surveillance. If not, consider surgery or additional 2–4 cycles, then reassess. If 8 cycles given and still unresectable, consider second-line chemotherapy per Twist et al. [Twist 2019]."
+                        }
+                    },
+                    {
+                        "criteria": "Age 365 to <547 days with UH; OR age <365 days with SCA (either UH or DI=1)",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "4 cycles of chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Evaluate after 4 cycles. Goal: total or near-total reduction in tumor size. If achieved, surveillance. If not, multidisciplinary discussion."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "May require 8 cycles total if target not met at 4 cycles. See above for additional cycles and second-line options."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "intermediate_risk_stage_m",
+                "title": "Intermediate-Risk Neuroblastoma – Stage M (age <18 months, favorable biology subsets)",
+                "branching_basis": [
+                    "Age (<365 vs. 365–<547 days)",
+                    "Biologic features (FH, DI, SCA)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Age <365 days with all favorable biology (FH, DI>1, no SCA)",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "4 cycles of chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Evaluate after 4 cycles. Aim for ≥PR in primary tumor and CR in non-liver/non-skin metastatic sites. If achieved, surveillance. If not, multidisciplinary discussion for surgery vs. additional chemotherapy."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If <PR or <CR, consider 2–4 additional cycles with reassessment every 2 cycles."
+                        }
+                    },
+                    {
+                        "criteria": "Age <365 days with ≥1 unfavorable biologic feature; OR age 365 to <547 days with FH, DI>1, no SCA",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "8 cycles of chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Evaluate after cycles 4 and 8. Goal: total or near-total reduction in primary tumor and CR of non-liver/non-skin metastatic sites. If achieved, surveillance. If not, multidisciplinary discussion."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Additional cycles or second-line chemotherapy may be considered if target not met."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "intermediate_risk_stage_ms",
+                "title": "Intermediate-Risk Neuroblastoma – Stage MS",
+                "branching_basis": [
+                    "Age (<3 months)",
+                    "Symptoms (hepatomegaly, respiratory compromise)",
+                    "Biologic features (FH, DI, SCA, MYCN)",
+                    "Ability to biopsy"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Symptomatic (Hsu score ≥2) or <3 months with evolving hepatomegaly; all favorable biology (biopsy deferred until safe)",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "2 cycles of chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Initiate emergently before biopsy if unstable. Assess response: ≥PR in primary tumor, resolution of symptoms, CR of non-liver/non-skin metastatic sites. If achieved, surveillance. If not, multidisciplinary discussion for additional therapy (may include RT for ongoing organ dysfunction)."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If inadequate response, consider 2–4 additional cycles. RT may be considered for symptomatic patients with inadequate response. Once stable, biopsy and reassign risk."
+                        }
+                    },
+                    {
+                        "criteria": "Symptomatic with unfavorable biology (after biopsy confirms UH, DI=1, or SCA+)",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "4 cycles of chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Evaluate after 4 cycles. Goal: resolution of symptoms, ≥PR primary tumor, CR metastatic sites. If achieved, surveillance. If not, multidisciplinary discussion."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "If <PR or persistent symptoms/residual disease, consider additional therapy (chemotherapy or RT)."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "high_risk_induction",
+                "title": "High-Risk Neuroblastoma – Induction Therapy",
+                "branching_basis": [
+                    "Risk classification (MYCN amplified, stage M ≥18 months, L2 ≥18 months UH, etc.)",
+                    "End-induction response (CR, PR, MR, SD, PD)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Newly diagnosed high-risk",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Multiagent chemotherapy (5–6 cycles)",
+                                "preference": "Preferred",
+                                "recommendation": "Preferred regimens: ANBL12P1 or ANBL1531 (5 cycles) or ANBL0532 (6 cycles). Cycles include topotecan/cyclophosphamide, cisplatin/etoposide, vincristine/doxorubicin/cyclophosphamide. See NEUROB-D 7 of 13."
+                            },
+                            {
+                                "type": "procedure",
+                                "label": "Resection of primary tumor and locoregional disease",
+                                "preference": "Preferred",
+                                "recommendation": "After several cycles of chemotherapy. Goal: gross total resection; subtotal if vital structures at risk. Nephrectomy should be avoided."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Stem cell harvest during induction. Full end-induction disease evaluation (anatomic imaging, MIBG, bone marrow) required."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "high_risk_end_induction_response",
+                "title": "High-Risk Neuroblastoma – Post-Induction Response-Based Decision",
+                "branching_basis": [
+                    "End-induction response: CR, PR, MR/SD, PD"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "CR or PR to induction",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Proceed to consolidation: high-dose chemotherapy with autologous stem cell rescue",
+                                "preference": "Preferred",
+                                "recommendation": "Tandem transplant (category 1) for common high-risk; single transplant for special high-risk subgroups (L2 ≥18mo, UH, MYCN non-amp; M 12–<18mo, MYCN non-amp with unfavorable features). Conditioning: thiotepa/cyclophosphamide then dose-reduced CEM (tandem) or full-dose CEM (single). BuMel may be appropriate in select cases."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "RT to primary site and residual metastatic sites after recovery from transplant."
+                        }
+                    },
+                    {
+                        "criteria": "MR or SD at end of induction",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Bridging therapy (chemoimmunotherapy) or clinical trial",
+                                "preference": "Preferred",
+                                "recommendation": "Consider bridging therapy to improve response; if CR achieved, may proceed to consolidation. Alternatively, proceed directly to consolidation based on retrospective data [Desai 2022]. Regimens: irinotecan/temozolomide + dinutuximab or naxitamab + GM-CSF."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Individualized decision-making."
+                        }
+                    },
+                    {
+                        "criteria": "PD during or at end of induction",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Chemoimmunotherapy or clinical trial",
+                                "preference": "Preferred",
+                                "recommendation": "Non-myeloablative therapy; not candidates for consolidation. Regimens: irinotecan/temozolomide + anti-GD2 antibody; or I-131 MIBG; or targeted agents if actionable aberration (e.g., ALK inhibitor). Strongly encourage clinical trial."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Biomarker profiling at relapse recommended."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "high_risk_consolidation",
+                "title": "High-Risk Neuroblastoma – Consolidation Therapy",
+                "branching_basis": [
+                    "Risk subgroup (common vs. special)",
+                    "End-induction residual disease"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "Common high-risk groups (all others, including MYCN amplified, stage M ≥18 months, etc.)",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Tandem high-dose chemotherapy with autologous stem cell rescue (category 1)",
+                                "preference": "Preferred",
+                                "recommendation": "Thiotepa 300 mg/m2/dose Days -7 to -5; cyclophosphamide 1500 mg/m2/dose Days -5 to -2. Then 6–10 weeks later: carboplatin (age-, BSA-, GFR-based), etoposide 300 mg/m2/dose, melphalan 60 mg/m2/dose Days -7 to -5."
+                            },
+                            {
+                                "type": "radiotherapy",
+                                "label": "RT to primary site and sites of residual metastatic disease",
+                                "preference": "Preferred",
+                                "recommendation": "21.6 Gy in 1.8 Gy fractions. Primary site always irradiated. Metastatic sites if MIBG/FDG avid or soft tissue >1 cm3 at end-induction. Use IMRT or proton therapy."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Proceed to post-consolidation therapy after recovery."
+                        }
+                    },
+                    {
+                        "criteria": "Special high-risk groups: Stage L2, ≥18 months, MYCN non-amplified, UH; OR Stage M, 12 to <18 months, MYCN non-amplified, with UH/diploid/SCA+",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Single high-dose chemotherapy with autologous stem cell rescue",
+                                "preference": "Preferred",
+                                "recommendation": "Full-dose CEM (carboplatin, etoposide, melphalan) as per ANBL0532. Single transplant is standard for these subgroups based on historic outcomes (5-year EFS ~75-80% [Irwin 2021])."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": true,
+                            "summary": "Same RT approach as common high-risk groups."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "high_risk_post_consolidation",
+                "title": "High-Risk Neuroblastoma – Post-Consolidation Therapy",
+                "branching_basis": [
+                    "Disease status after consolidation (no progression vs. PD)"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "No disease progression after consolidation",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Anti-GD2 antibody with isotretinoin and sargramostim (category 1)",
+                                "preference": "Preferred",
+                                "recommendation": "6 cycles: cycles 1,3,5: sargramostim 250 µg/m2/d SQ D1-14; dinutuximab 17.5 mg/m2/d IV D4-7; isotretinoin 80 mg/m2/dose PO BID D11-24. Cycles 2,4,6: isotretinoin alone. No interleukin-2 (based on SIOPEN data showing increased toxicity without benefit)."
+                            },
+                            {
+                                "type": "therapy",
+                                "label": "Continuation therapy: eflornithine (category 2B)",
+                                "preference": "Useful in certain circumstances",
+                                "recommendation": "For patients in remission with ≥PR to prior therapy after completing anti-GD2 immunotherapy. Dose: BSA>1.5: 768 mg PO BID; 0.75-≤1.5: 576 mg PO BID; 0.5-<0.75: 384 mg PO BID; 0.25-<0.5: 192 mg PO BID. Monitor audiograms every 6 months. FDA approved December 2023."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "End of post-consolidation full disease evaluation, then surveillance per NEUROB-F."
+                        }
+                    },
+                    {
+                        "criteria": "Progressive disease after consolidation",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Chemoimmunotherapy or clinical trial",
+                                "preference": "Preferred",
+                                "recommendation": "Same as relapsed/refractory pathway. Repeat tumor biomarker profiling if feasible. Consider consultation with neuroblastoma specialist."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Scenario-specific treatment decisions."
+                        }
+                    }
+                ]
+            },
+            {
+                "pathway_id": "relapsed_refractory",
+                "title": "Relapsed/Refractory Neuroblastoma",
+                "branching_basis": [
+                    "Timing of relapse",
+                    "Extent of disease",
+                    "MIBG avidity",
+                    "Prior treatments",
+                    "Organ function",
+                    "Molecular features"
+                ],
+                "nodes": [
+                    {
+                        "criteria": "First relapse or first declaration of refractory disease",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Chemoimmunotherapy with anti-GD2 antibody + chemotherapy",
+                                "preference": "Preferred",
+                                "recommendation": "Irinotecan 50 mg/m2/d IV D1-5, temozolomide 100-150 mg/m2/d PO D1-5, dinutuximab 17.5 mg/m2/d IV D2-5 or naxitamab 2.25 mg/kg/d IV D2,4,9,11; sargramostim 250 µg/m2/d SQ D6-12 or D6-10. Objective response rates ~40% [Mody 2020, Munoz 2023]. Other backbones: topotecan/cyclophosphamide or topotecan/temozolomide + anti-GD2."
+                            },
+                            {
+                                "type": "therapy",
+                                "label": "I-131 MIBG therapy",
+                                "preference": "Other recommended",
+                                "recommendation": "Consider if MIBG-avid and GD2-directed therapy not appropriate. Based on phase 2 trials showing ~36% ORR [Matthay 2007]."
+                            },
+                            {
+                                "type": "therapy",
+                                "label": "Targeted agents for actionable aberrations",
+                                "preference": "Useful in certain circumstances",
+                                "recommendation": "ALK inhibitors (lorlatinib, ceritinib) for ALK-aberrant tumors. Repeat biomarker profiling at relapse recommended."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Strongly encourage clinical trial participation. Surgery and/or RT for isolated sites may be indicated."
+                        }
+                    },
+                    {
+                        "criteria": "Second or greater relapse",
+                        "options": [
+                            {
+                                "type": "therapy",
+                                "label": "Rechallenge with prior effective chemoimmunotherapy or new regimen",
+                                "preference": "Other recommended",
+                                "recommendation": "Consider if prior response to chemoimmunotherapy [Lerman 2026]. Otherwise, clinical trial preferred."
+                            }
+                        ],
+                        "adjuvant_logic": {
+                            "applies": false,
+                            "summary": "Individualized approach."
+                        }
+                    }
+                ]
+            }
+        ],
+        "pretreatment_evaluation": [
+            {
+                "category": "Tissue Sampling",
+                "items": [
+                    {
+                        "text": "Surgical resection for localized disease without IDRFs; biopsy (open or core) if resection not indicated. Fine-needle aspiration not recommended.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Multiple core biopsies (≥10 cores, 20–30 mm length, 16-gauge needle) for histology and biomarker testing. Review frozen section for viability.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Bilateral bone marrow aspirates and trephine biopsies (may be sole diagnostic source).",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Biopsy may be delayed in patients <2 months with hepatomegaly or infants with safety concerns (coagulopathy, organ failure). Perform when safe.",
+                        "recommendation": "Category 2A"
+                    },
+                    {
+                        "text": "Infants <6 months with L1 adrenal mass ≤3.1 cm solid or ≤5 cm cystic do not require biopsy.",
+                        "recommendation": "Category 2A"
+                    }
+                ]
+            },
+            {
+                "category": "History and Physical",
+                "items": [
+                    {
+                        "text": "Complete history and physical with attention to abdominal mass, organomegaly, neurologic exam.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Family history of neuroblastoma or other childhood cancers.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Assessment for paraneoplastic syndromes (OMAS, VIPoma, Lambert-Eaton).",
+                        "recommendation": "Useful"
+                    }
+                ]
+            },
+            {
+                "category": "Laboratory Studies",
+                "items": [
+                    {
+                        "text": "CBC with differential, comprehensive metabolic panel.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "Urine HVA/VMA: required for diagnosis only if marrow is sole diagnostic tissue.",
+                        "recommendation": "Essential if diagnosis from marrow"
+                    },
+                    {
+                        "text": "PT/INR if liver involvement or bleeding concern.",
+                        "recommendation": "Useful in selected cases"
+                    },
+                    {
+                        "text": "LDH, ferritin (prognostic but not part of risk classification).",
+                        "recommendation": "Useful in selected cases"
+                    },
+                    {
+                        "text": "Pregnancy test for patients of childbearing potential.",
+                        "recommendation": "Useful in selected cases"
+                    },
+                    {
+                        "text": "Audiogram if platinum-containing chemotherapy indicated.",
+                        "recommendation": "Conditional"
+                    },
+                    {
+                        "text": "Echocardiogram and ECG if anthracycline-containing chemotherapy indicated.",
+                        "recommendation": "Conditional"
+                    },
+                    {
+                        "text": "Fertility referral for patients likely to receive extensive alkylator therapy.",
+                        "recommendation": "Conditional"
+                    }
+                ]
+            },
+            {
+                "category": "Imaging",
+                "items": [
+                    {
+                        "text": "Cross-sectional imaging (MRI or CT with contrast) of primary site to evaluate soft tissue disease and IDRFs.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "MRI spine with/without contrast for paraspinal disease or concern for nerve root/spinal cord involvement.",
+                        "recommendation": "Essential if paraspinal"
+                    },
+                    {
+                        "text": "MRI brain with contrast or CT skull/orbits if neurologic symptoms or clinically indicated.",
+                        "recommendation": "Conditional"
+                    },
+                    {
+                        "text": "I-123 MIBG scan with SPECT/CT (if available) to assess metastatic disease. Obtain prior to primary resection if possible. Not required in infants <6 months with L1 adrenal mass ≤3.1/5 cm.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "FDG-PET/CT or PET/MRI for MIBG non-avid or mixed-avidity disease.",
+                        "recommendation": "Conditional"
+                    }
+                ]
+            },
+            {
+                "category": "Pathology and Biomarker Testing",
+                "items": [
+                    {
+                        "text": "Histologic classification per INPC (FH vs. UH) using pre-treatment sample.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "MYCN amplification assessment (FISH, microarray, or NGS) on all neuroblastomas and ganglioneuroblastoma nodular nodules.",
+                        "recommendation": "Essential"
+                    },
+                    {
+                        "text": "SCAs assessment (1p, 11q, 17q, 3p, 4p, 1q, 2p) using microarray or NGS.",
+                        "recommendation": "Essential for risk classification"
+                    },
+                    {
+                        "text": "Ploidy (DI) by flow cytometry or NGS; if missing, assign risk based on other factors.",
+                        "recommendation": "Essential for risk classification"
+                    },
+                    {
+                        "text": "ALK mutation and amplification testing by NGS (recommended simultaneously with MYCN and SCA).",
+                        "recommendation": "Recommended for therapy selection if relapsed/refractory"
+                    }
+                ]
+            }
+        ],
+        "surgery": {
+            "role": "Surgery plays a critical role in diagnosis (biopsy), local control (resection of primary tumor and locoregional disease), and management of complications (e.g., silo placement for abdominal compartment syndrome). The extent and timing of surgery depend on risk group, presence of IDRFs, and response to neoadjuvant chemotherapy. Multidisciplinary discussion is essential to balance morbidity and oncologic outcomes.",
+            "principles": [
+                "Evaluate primary tumor resectability using cross-sectional imaging (CT or MRI) and IDRF assessment.",
+                "Multidisciplinary discussion of risks/benefits and optimal timing should include surgeons, diagnostic and interventional radiologists, medical oncologists, radiation oncologists, pathologists, and dieticians as needed.",
+                "For intermediate-risk disease, if more than minimal surgical risk, neoadjuvant chemotherapy should be given first.",
+                "For high-risk disease, neoadjuvant chemotherapy is nearly always indicated prior to resection.",
+                "Surgical approach should limit morbidity, avoid resection of vital structures, and preserve organ function.",
+                "Gross total resection is optimal for high-risk; subtotal resection if gross total would jeopardize vital organs, major nerves, or vessels.",
+                "Nephrectomy should be avoided. Resection of adjacent organs (kidney, pancreas, intestine) is not recommended.",
+                "Resection of nodal disease adherent to primary tumor is recommended; distant lymph node resection not required.",
+                "En bloc resection is not required; tumors may be resected in multiple segments."
+            ],
+            "procedures": [
+                {
+                    "name": "Biopsy",
+                    "approach": "Open incisional (>1 cm³) or laparoscopic/thoracoscopic; core needle (≥10 cores).",
+                    "indications": "When upfront resection not possible or recommended (metastatic disease, L2 tumors, infants with MS disease at high risk for complications).",
+                    "key_complications": "Inadequate tissue, necrosis, bleeding, infection."
+                },
+                {
+                    "name": "Resection – Low-Risk L1",
+                    "approach": "Upfront surgical resection if safe and will obviate chemotherapy.",
+                    "indications": "L1 tumors not meeting observation criteria; completely resectable with minimal morbidity.",
+                    "key_complications": "Hemorrhage, nerve injury (Horner syndrome for cervical/apical chest tumors), lymphatic leak."
+                },
+                {
+                    "name": "Resection – Intermediate-Risk Localized",
+                    "approach": "After initial chemotherapy (if IDRFs present) or upfront if safe. Gross total resection attempted but less than CR acceptable.",
+                    "indications": "Localized tumors after chemotherapy if target volume reduction not achieved; or if initial surgery safe without neoadjuvant therapy.",
+                    "key_complications": "Similar to low-risk; preservation of vital structures paramount."
+                },
+                {
+                    "name": "Resection – High-Risk Primary Tumor",
+                    "approach": "After several cycles of induction chemotherapy. Goal: gross total resection. Subtotal if vital structures at risk. Avoid adjacent organ resection.",
+                    "indications": "All high-risk patients after initial cytoreductive chemotherapy.",
+                    "key_complications": "Hemorrhage (infiltrative tumors), vascular injury, nerve injury, lymphatic leak, delayed chemotherapy."
+                },
+                {
+                    "name": "Silo placement (laparotomy with silo)",
+                    "approach": "Laparotomy and silo placement to alleviate intra-abdominal pressure.",
+                    "indications": "Extreme situations: infants with abdominal compartment syndrome, severe respiratory compromise, or life-threatening hepatomegaly due to MS disease.",
+                    "key_complications": "Infection, wound complications, need for further surgery."
+                },
+                {
+                    "name": "Cervical and cervicothoracic resection",
+                    "approach": "Assess encasement of vertebral/carotid/jugular/subclavian vessels, brachial plexus, skull base. Consider trap door or median sternotomy with cervical extension. Nerve monitoring. Discuss Horner syndrome preoperatively.",
+                    "indications": "Primary tumors in neck or cervicothoracic junction.",
+                    "key_complications": "Horner syndrome, nerve injury (vagus, phrenic, brachial plexus), tracheal compression."
+                },
+                {
+                    "name": "Thoracic cavity resection",
+                    "approach": "Thoracotomy for large tumors or critical structure involvement; thoracoscopic for selective lesions. Avoid aggressive dissection near recurrent laryngeal, phrenic, vagus nerves. Assess intraspinal extension; avoid deep blind tissue extraction. Preserve artery of Adamkiewicz.",
+                    "indications": "Primary thoracic neuroblastoma.",
+                    "key_complications": "Nerve injury, chyle leak (thoracic duct), spinal cord injury, respiratory compromise."
+                },
+                {
+                    "name": "Abdominal/adrenal/retroperitoneal/pelvic resection",
+                    "approach": "Assess infiltration of porta hepatis, hepatoduodenal ligament, mesenteric arteries, celiac axis, renal pedicles, aorta/vena cava, iliac vessels. Obtain proximal and distal vascular control. Avoid nephrectomy. Consider laparoscopic approach depending on IDRFs and tumor location. Nerve monitoring for pelvic tumors.",
+                    "indications": "Primary tumors in abdomen, adrenal, retroperitoneum, or pelvis.",
+                    "key_complications": "Vascular injury, renal injury/ureteral injury, bowel ischemia, nerve injury (lumbosacral plexus, obturator)."
+                },
+                {
+                    "name": "Paraspinal tumor management",
+                    "approach": "Detailed preoperative neurologic exam, spine MRI. Urgent multidisciplinary evaluation. Laminectomy rarely indicated at diagnosis. Progressive neurologic symptoms after chemotherapy initiation prompt urgent reevaluation.",
+                    "indications": "Intraspinal extension of paraspinal tumor.",
+                    "key_complications": "Neurologic deficit, spinal instability."
+                }
+            ],
+            "resectability_criteria": "Resectability is determined by cross-sectional imaging and IDRF assessment. L1 tumors are localized without IDRFs and are generally resectable upfront. L2 tumors have ≥1 IDRF and may require neoadjuvant chemotherapy to reduce surgical risk. For high-risk disease, resection after induction chemotherapy is standard; gross total resection is optimal but subtotal is acceptable if vital structures are at risk. Margin-negative resection is rarely achieved and not the goal."
+        },
+        "radiation_therapy": {
+            "role": "Radiation therapy (RT) is indicated for nearly all cases of high-risk neuroblastoma and in exceedingly rare circumstances for non-high-risk disease (e.g., symptomatic stage MS with inadequate response to chemotherapy). RT is delivered after recovery from high-dose chemotherapy with stem cell rescue unless emergent. The primary site is always irradiated; metastatic sites are irradiated if there is concern for active disease after induction chemotherapy (MIBG/FDG uptake and/or persistent soft tissue >1 cm³).",
+            "principles": [
+                "RT is delivered after recovery from high-dose chemotherapy with stem cell rescue unless emergent indication.",
+                "IMRT or proton therapy are recommended to reduce side effects.",
+                "Primary site always irradiated. Metastatic sites only if active disease at end-induction.",
+                "Metastatic sites should be irradiated concurrently with primary site if indicated.",
+                "Repeat imaging after transplant and before RT is not routine but may aid decision-making in select cases.",
+                "Simulation: supine with immobilization; 4D-CT recommended for targets subject to respiratory motion; consider MRI simulation for paraspinal sites.",
+                "Target volume definitions: GTV includes postoperative tumor bed, residual disease, initially involved regional lymph nodes (based on post-induction/pre-surgery volume). CTV = GTV + 1 cm confined to anatomic borders. ITV if respiratory motion. PTV = CTV + 0.3–0.5 cm.",
+                "If primary tumor resected prior to induction, GTV based on tumor volume at diagnosis.",
+                "For metastatic sites: mGTV defined by post-induction volume; mCTV = mGTV + 1 cm; mPTV = mCTV + 0.3–0.5 cm."
+            ],
+            "dose_frameworks": [
+                {
+                    "name": "Standard dose to primary and metastatic sites",
+                    "total_dose": "21.6 Gy",
+                    "dose_per_fraction": "1.8 Gy",
+                    "fractions": 12,
+                    "schedule": "Daily fractions, typically 5 days per week.",
+                    "indication": "Primary site and all sites of residual metastatic disease at end-induction."
+                },
+                {
+                    "name": "Emergent RT",
+                    "total_dose": "4.5 Gy",
+                    "dose_per_fraction": "1.5 Gy",
+                    "fractions": 3,
+                    "schedule": "Daily or twice daily as needed for emergent decompression.",
+                    "indication": "Hepatomegaly leading to respiratory distress; orbital/optic pathway disease leading to vision loss."
+                }
+            ],
+            "approaches": [
+                {
+                    "name": "Post-consolidation RT to primary and metastatic sites",
+                    "dose_fractionation": "21.6 Gy in 1.8 Gy fractions",
+                    "concurrent_chemotherapy": "None; delivered after recovery from transplant, before or concurrent with post-consolidation immunotherapy (but not concurrent with high-dose chemotherapy).",
+                    "indication": "All high-risk patients after consolidation therapy.",
+                    "key_trial": "COG ANBL0532: dose escalation to 36 Gy (boost of 14.4 Gy) did not improve local control or EFS [Liu 2020]. COG A3973: extended field to uninvolved nodal stations did not improve outcomes [Braunstein 2019].",
+                    "toxicities": "Renal (contralateral kidney V18 Gy <25%, mean ≤14.4 Gy; ipsilateral kidney V18 Gy <75%, mean ≤18 Gy), hepatic (mean <18 Gy), pulmonary (bilateral V20 Gy <30%, contralateral V20 Gy <10%), vertebral (minimum 18 Gy to prevent asymmetrical growth), ototoxicity, second malignancies."
+                }
+            ]
+        },
+        "systemic_therapy": {
+            "overview": "Systemic therapy for neuroblastoma is risk-adapted and multimodal. For low-risk disease, treatment is primarily surgical, with observation for select infants. Intermediate-risk disease uses moderate-intensity multiagent chemotherapy (carboplatin, cyclophosphamide, doxorubicin, etoposide) with response-adapted duration (2–8 cycles). High-risk disease requires intensive induction chemotherapy (topotecan/cyclophosphamide, cisplatin/etoposide, and vincristine/doxorubicin/cyclophosphamide), consolidation with high-dose chemotherapy and autologous stem cell rescue, post-consolidation immunotherapy (anti-GD2 antibody + sargramostim + isotretinoin), and optional continuation therapy with eflornithine. For relapsed/refractory disease, chemoimmunotherapy (irinotecan/temozolomide + anti-GD2 antibody) or targeted radiopharmaceuticals (I-131 MIBG) or targeted agents (ALK inhibitors) are used, with clinical trial participation strongly encouraged.",
+            "by_stage_and_setting": [
+                {
+                    "setting": "Intermediate-risk (low- and intermediate-risk non-high-risk)",
+                    "preferred_regimen": "Carboplatin/cyclophosphamide/doxorubicin/etoposide (COG ANBL0531 regimen) or SIOPEN regimen (carboplatin/etoposide alternating with cyclophosphamide/doxorubicin/vincristine).",
+                    "rationale": "Based on ANBL0531 which demonstrated excellent outcomes with reduced therapy for favorable biology. Duration determined by age, stage, and biologic features.",
+                    "alternatives": "SIOPEN regimen; cyclophosphamide + topotecan for second-line if target response not achieved after 8 cycles [Twist 2019]."
+                },
+                {
+                    "setting": "High-risk induction",
+                    "preferred_regimen": "5-cycle induction: Topotecan/cyclophosphamide (cycles 1–2), cisplatin/etoposide (cycle 3), vincristine/doxorubicin/cyclophosphamide (cycle 4), cisplatin/etoposide (cycle 5). Regimens: ANBL12P1 or ANBL1531.",
+                    "rationale": "End-induction response rates ~80% PR or better; similar across regimens. 5-cycle regimen reduces exposure to nephrotoxic and cardiotoxic agents.",
+                    "alternatives": "6-cycle ANBL0532 regimen (adds cycle 6: vincristine/doxorubicin/cyclophosphamide); other published regimens with similar response rates."
+                },
+                {
+                    "setting": "High-risk consolidation",
+                    "preferred_regimen": "Tandem transplant: thiotepa/cyclophosphamide followed 6–10 weeks later by dose-reduced CEM (carboplatin/etoposide/melphalan) (category 1).",
+                    "rationale": "ANBL0532: 3-year EFS 61.6% for tandem vs. 48.4% for single transplant [Park 2019].",
+                    "alternatives": "Single transplant with full-dose CEM for special high-risk subgroups; BuMel (busulfan/melphalan) for patients with contraindication to tandem or in Europe standard."
+                },
+                {
+                    "setting": "High-risk post-consolidation",
+                    "preferred_regimen": "Isotretinoin/sargramostim + dinutuximab (6 cycles; no interleukin-2). Category 1.",
+                    "rationale": "ANBL0032: 2-year EFS from start of post-consolidation 66% vs. 46% for isotretinoin alone [Yu 2010, 2021]. SIOPEN HR-NBL1 showed no benefit and increased toxicity with IL-2 [Ladenstein 2018].",
+                    "alternatives": "Dinutuximab beta with isotretinoin (without sargramostim) (Europe; non-randomized comparison showed improved EFS vs. historic [Ladenstein 2020])."
+                },
+                {
+                    "setting": "High-risk continuation therapy",
+                    "preferred_regimen": "Eflornithine (category 2B) for patients in remission and with ≥PR after completion of anti-GD2 immunotherapy.",
+                    "rationale": "Study 3b: EFS HR 0.48 (95% CI 0.27–0.85) and OS HR 0.32 (95% CI 0.15–0.70) vs. external control [Oesterheld 2024]. FDA approved December 2023.",
+                    "alternatives": "Observation."
+                },
+                {
+                    "setting": "Relapsed/refractory - first relapse",
+                    "preferred_regimen": "Irinotecan/temozolomide + dinutuximab + GM-CSF (COG ANBL1221 regimen) or naxitamab-gqgk + irinotecan/temozolomide + GM-CSF (HITS regimen).",
+                    "rationale": "Objective response rates ~40% in multiple studies [Mody 2020, Munoz 2023, Lerman 2023, Gray 2026]. Naxitamab approved for bone/bone marrow disease.",
+                    "alternatives": "Topotecan/cyclophosphamide + dinutuximab; I-131 MIBG; targeted agents (ALK inhibitors) for ALK-aberrant tumors; clinical trial."
+                }
+            ],
+            "key_regimens": [
+                {
+                    "name": "COG ANBL0531 Intermediate-Risk Chemotherapy (8-cycle alternating regimen)",
+                    "setting": "Intermediate-risk (non-high-risk) neuroblastoma",
+                    "drugs": [
+                        {
+                            "name": "Carboplatin",
+                            "dose": "560 mg/m² >12 kg or 18.6 mg/kg ≤12 kg",
+                            "route": "IV",
+                            "day": "Day 1 (cycles 1,2,4,6,7)"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "120 mg/m² >12 kg or 4 mg/kg ≤12 kg",
+                            "route": "IV",
+                            "day": "Days 1–3 (cycles 1,3,4,7,8)"
+                        },
+                        {
+                            "name": "Cyclophosphamide",
+                            "dose": "1000 mg/m² >12 kg or 33.3 mg/kg ≤12 kg",
+                            "route": "IV",
+                            "day": "Day 1 (cycles 2,3,5,6,8)"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "30 mg/m² >12 kg or 1 mg/kg ≤12 kg",
+                            "route": "IV",
+                            "day": "Day 1 (cycles 2,4,6,8)"
+                        }
+                    ],
+                    "cycle_days": "Each cycle is 21–28 days (per protocol). Number of cycles per risk assignment: 2, 4, or 8.",
+                    "key_toxicities": "Myelosuppression, nausea/vomiting, alopecia, mucositis, cardiotoxicity (doxorubicin), ototoxicity/nephrotoxicity (carboplatin), hemorrhagic cystitis (cyclophosphamide)."
+                },
+                {
+                    "name": "High-Risk Induction Regimen (5-cycle, ANBL12P1/ANBL1531-like)",
+                    "setting": "High-risk neuroblastoma induction",
+                    "drugs": [
+                        {
+                            "name": "Topotecan",
+                            "dose": "1.2 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–5 (cycles 1 and 2)"
+                        },
+                        {
+                            "name": "Cyclophosphamide",
+                            "dose": "400 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–5 (cycles 1 and 2)"
+                        },
+                        {
+                            "name": "Cisplatin",
+                            "dose": "50 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–4 (cycles 3 and 5)"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "200 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–3 (cycles 3 and 5)"
+                        },
+                        {
+                            "name": "Vincristine",
+                            "dose": "Age-, weight-, and BSA-based dosing",
+                            "route": "IV",
+                            "day": "Days 1 and 3 (cycle 4); Days 1–3 (cycle 6 if used)"
+                        },
+                        {
+                            "name": "Doxorubicin",
+                            "dose": "25 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–3 (cycle 4)"
+                        },
+                        {
+                            "name": "Cyclophosphamide",
+                            "dose": "2100 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 1–2 (cycle 4)"
+                        }
+                    ],
+                    "cycle_days": "21-day cycles. Total 5 cycles (or 6 for ANBL0532 regimen).",
+                    "key_toxicities": "Myelosuppression, nephrotoxicity (cisplatin), ototoxicity, cardiotoxicity (doxorubicin), peripheral neuropathy (vincristine), hemorrhagic cystitis, nausea/vomiting."
+                },
+                {
+                    "name": "Tandem Transplant Conditioning (ANBL0532)",
+                    "setting": "High-risk consolidation (common high-risk groups)",
+                    "drugs": [
+                        {
+                            "name": "Thiotepa",
+                            "dose": "300 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days -7 to -5 (first transplant)"
+                        },
+                        {
+                            "name": "Cyclophosphamide",
+                            "dose": "1500 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days -5 to -2 (first transplant)"
+                        },
+                        {
+                            "name": "Carboplatin",
+                            "dose": "Age-, BSA-, GFR-based dosing",
+                            "route": "IV",
+                            "day": "Days -7 to -4 (second transplant)"
+                        },
+                        {
+                            "name": "Etoposide",
+                            "dose": "300 mg/m²/dose (if GFR ≥100)",
+                            "route": "IV",
+                            "day": "Days -7 to -4 (second transplant)"
+                        },
+                        {
+                            "name": "Melphalan",
+                            "dose": "60 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days -7 to -5 (second transplant)"
+                        }
+                    ],
+                    "cycle_days": "First transplant: Days -7 to -2, stem cell infusion Day 0. Second transplant 6–10 weeks later after recovery.",
+                    "key_toxicities": "Mucositis, veno-occlusive disease (sinusoidal obstruction syndrome), infection, bleeding, organ toxicity (renal, hepatic, cardiac), secondary malignancies."
+                },
+                {
+                    "name": "Post-Consolidation Immunotherapy (ANBL0032-based)",
+                    "setting": "High-risk post-consolidation",
+                    "drugs": [
+                        {
+                            "name": "Sargramostim",
+                            "dose": "250 µg/m²/dose",
+                            "route": "SQ",
+                            "day": "Days 1–14 (cycles 1,3,5)"
+                        },
+                        {
+                            "name": "Dinutuximab",
+                            "dose": "17.5 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 4–7 (cycles 1,3,5)"
+                        },
+                        {
+                            "name": "Isotretinoin",
+                            "dose": "80 mg/m²/dose PO twice daily",
+                            "route": "PO",
+                            "day": "Days 11–24 (all 6 cycles)"
+                        }
+                    ],
+                    "cycle_days": "28-day cycles. Total 6 cycles.",
+                    "key_toxicities": "Pain (neuropathic), fever, capillary leak syndrome, hypotension, allergic reactions, neutropenia, rash, hepatotoxicity, mucositis, cheilitis (isotretinoin)."
+                },
+                {
+                    "name": "Continuation Therapy: Eflornithine",
+                    "setting": "High-risk continuation after anti-GD2 immunotherapy",
+                    "drugs": [
+                        {
+                            "name": "Eflornithine",
+                            "dose": "BSA-based: >1.5: 768 mg; 0.75-≤1.5: 576 mg; 0.5-<0.75: 384 mg; 0.25-<0.5: 192 mg",
+                            "route": "PO",
+                            "day": "Twice daily for up to 2 years"
+                        }
+                    ],
+                    "cycle_days": "Continuous daily dosing. Recalculate BSA every 3 months.",
+                    "key_toxicities": "Transaminitis, hearing loss (monitor audiograms every 6 months), gastrointestinal disturbances."
+                },
+                {
+                    "name": "Chemoimmunotherapy for Relapsed/Refractory (ANBL1221/HITS)",
+                    "setting": "First relapse or refractory high-risk neuroblastoma",
+                    "drugs": [
+                        {
+                            "name": "Temozolomide",
+                            "dose": "100 mg/m²/dose (ANBL1221) or 150 mg/m²/dose (HITS)",
+                            "route": "PO",
+                            "day": "Days 1–5"
+                        },
+                        {
+                            "name": "Irinotecan",
+                            "dose": "50 mg/m²/dose",
+                            "route": "IV over 90 min",
+                            "day": "Days 1–5"
+                        },
+                        {
+                            "name": "Dinutuximab",
+                            "dose": "17.5 mg/m²/dose",
+                            "route": "IV",
+                            "day": "Days 2–5"
+                        },
+                        {
+                            "name": "Sargramostim",
+                            "dose": "250 µg/m²/dose",
+                            "route": "SQ",
+                            "day": "Days 6–12 (ANBL1221) or Days 6–10 (HITS)"
+                        }
+                    ],
+                    "cycle_days": "21 days (ANBL1221) or 28 days (HITS).",
+                    "key_toxicities": "Myelosuppression, diarrhea, hepatotoxicity, pain, hypersensitivity, capillary leak."
+                }
+            ]
+        },
+        "treatment_response_assessment": {
+            "title": "Response Assessment",
+            "timing": "Response assessment is performed at protocol-specified timepoints that differ by risk group. For high-risk disease: full disease evaluation (anatomic imaging of primary site, I-123 MIBG scan [or FDG-PET if MIBG non-avid], bilateral bone marrow aspirates and biopsies) is recommended at end of induction, start of post-consolidation, and end of therapy. Midpoint I-123 MIBG scan recommended after first 3 cycles of post-consolidation. For intermediate-risk disease: evaluate after assigned number of chemotherapy cycles; if target response achieved, obtain MIBG as part of end-of-therapy evaluation.",
+            "response_logic": [
+                "Primary site response: CR (<10 mm residual soft tissue, complete resolution of MIBG/FDG uptake), PR (≥30% decrease in longest diameter, MIBG/FDG stable/improved/resolved), SD (neither PR nor PD), PD (>20% increase and ≥5 mm absolute increase; note: fluctuating MIBG avidity alone is insufficient for PD).",
+                "Metastatic bone/soft tissue response: CR (non-primary lesions <10 mm, lymph nodes short axis <10 mm, complete resolution of MIBG/FDG uptake), PR (≥30% decrease in sum of diameters, no new lesions, ≥50% reduction in MIBG absolute bone score [relative score 0.1-0.5] or ≥50% reduction in FDG-PET-avid bone lesions), SD, PD (any new soft tissue lesion MIBG-avid or histologically confirmed; new MIBG-avid bone site; FDG-PET-avid bone site with CT/MRI or histologic confirmation; >20% increase in sum of diameters; relative MIBG bone score ≥1.2).",
+                "Bone marrow response: CR (no tumor infiltration), MD (≤5% tumor infiltration), SD (>5% tumor infiltration that does not meet CR/MD/PD), PD (marrow without infiltration becomes >5%; or >2-fold increase to >20%).",
+                "Overall response: CR (all components CR), PR (PR in at least one component, all others CR/MD/PR or not involved), MR (PR or CR in at least one component but at least one other SD; no PD), SD (SD in one component, no better than SD in others; no PD), PD (any component PD)."
+            ],
+            "imaging_recommendations": [
+                "Primary site: RECIST 1.1 (single longest dimension) on CT or MRI; functional imaging (MIBG or FDG-PET) for assessment of avidity.",
+                "Metastatic bone/soft tissue: MIBG scan with semiquantitative scoring (modified Curie score in North America or SIOPEN score). FDG-PET for MIBG non-avid tumors.",
+                "Bone marrow: bilateral aspirates and trephine biopsies evaluated per Burchill criteria (immunocytology/immunohistochemistry for tumor cells; >5% viable tumor recommended as reliable level for detecting response).",
+                "Urine catecholamines (HVA/VMA) and technetium-99m scintigraphy are no longer used for response assessment per revised INRC [Park 2017].",
+                "Novel radiotracers are in development but insufficient data for routine incorporation into INRC."
+            ],
+            "biopsy_or_salvage_logic": [
+                "For intermediate-risk patients who do not achieve target response after 8 cycles of chemotherapy, consider biopsy of residual mass to assess histologic differentiation; if differentiated, observation may be appropriate. If undifferentiated viable tumor remains, consider second-line chemotherapy (cyclophosphamide/topotecan) per Twist et al. [Twist 2019].",
+                "For high-risk patients with less than PR at end of induction: bridging therapy may be offered to improve response before proceeding to consolidation [Desai 2022]. Patients with PD should receive non-myeloablative chemoimmunotherapy or enroll in clinical trial.",
+                "For relapsed/refractory disease: repeat tumor biomarker profiling on a current sample is strongly recommended to identify actionable aberrations (e.g., ALK mutations) and guide therapy selection."
+            ]
+        }
+    },
+    "source_meta": {
+        "filename": "nccn_neuroblastoma_2.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-22T07:32:28.648148"
+    },
+    "extraction_warnings": [
+        "  [CRITICAL] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'COG ANBL0531 Intermediate-Risk Chemotherapy' -- Carboplatin dose 56021218.612  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'SIOPEN Intermediate-Risk Chemotherapy' -- Carboplatin dose 20026.6  out of range (1-8 auc). Manual review required.",
+        "  [CRITICAL] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'ANBL12P1/ANBL1531 5-Cycle Induction (Preferred)' -- Cisplatin dose 502.0  out of range (10-120 mg/m2). Manual review required.",
+        "  [CRITICAL] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'ANBL0532 6-Cycle Induction (Acceptable)' -- Cisplatin dose 502.0  out of range (10-120 mg/m2). Manual review required.",
+        "  [WARNING] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'Irinotecan/Temozolomide/Dinutuximab + Sargramostim (ANBL1221)' -- Irinotecan dose 502.0  out of range (100-370 mg/m2). Manual review required.",
+        "  [WARNING] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'Irinotecan/Temozolomide/Naxitamab + Sargramostim (HITS)' -- Irinotecan dose 502.0  out of range (100-370 mg/m2). Manual review required.",
+        "  [WARNING] Neuroblastoma/nccn_neuroblastoma_2.2026.pdf: Regimen 'Irinotecan/Temozolomide + Dinutuximab (Relapsed/Refractory)' -- Irinotecan dose 502.0  out of range (100-370 mg/m2). Manual review required."
+    ]
+}

@@ -1,0 +1,1764 @@
+{
+    "tier_1_regimens": [
+        {
+            "regimen_name": "Imatinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Excluding PDGFRA exon 18 mutations that are insensitive to imatinib, such as D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "RTOG 0132/ACRIN 6665",
+                "phase": "II",
+                "n_patients": "52 (30 primary, 22 recurrent/metastatic)",
+                "ORR": null,
+                "PFS": "2-year PFS 83% (primary) and 77% (recurrent/metastatic)",
+                "OS": "2-year OS 93% (primary) and 91% (recurrent/metastatic)"
+            },
+            "notes": "Maximal response may require treatment for ≥6 months. Preoperative imatinib may prohibit accurate assessment of recurrence risk and should be considered only if surgical morbidity could be reduced by downstaging the tumor preoperatively. [5,6]",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Avapritinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avapritinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Insensitive to imatinib, including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NAVIGATOR",
+                "phase": "I",
+                "n_patients": "56 (with PDGFRA D842V-mutant GIST)",
+                "ORR": "91%",
+                "PFS": null,
+                "OS": "Median OS not reached (median follow-up 27.5 months)"
+            },
+            "notes": "Avapritinib is a selective inhibitor of KIT and PDGFRA. The approval was based on the NAVIGATOR phase I trial. Long-term data show an ORR of 91% with a median duration of response of 27.6 months. [1,2,7]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "2",
+                    "7"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "75% (adults and children with NTRK fusion-positive solid tumors, including GIST)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Larotrectinib is a selective inhibitor of TRK. It is FDA-approved for solid tumors with NTRK gene fusions. [8]",
+            "source_citation": {
+                "reference_numbers": [
+                    "8"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "57% (adults with NTRK fusion-positive solid tumors)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Entrectinib is a selective inhibitor of TRK. It is FDA-approved for solid tumors with NTRK gene fusions. [9]",
+            "source_citation": {
+                "reference_numbers": [
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Repotrectinib is a next-generation TRK inhibitor. [3]",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Sunitinib is a multitargeted TKI. SDH-deficient GIST may have a higher probability of response to sunitinib. Data from small retrospective studies suggest activity. [85,86]",
+            "source_citation": {
+                "reference_numbers": [
+                    "85",
+                    "86"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Regorafenib is a multikinase inhibitor with activity against VEGFR. It was reported to be clinically active against SDH-deficient GIST in a small phase II study. [88,89]",
+            "source_citation": {
+                "reference_numbers": [
+                    "88",
+                    "89"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib",
+            "site": "Resectable GIST with significant morbidity (Neoadjuvant setting)",
+            "setting": "Neoadjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Dabrafenib is a BRAF inhibitor and trametinib is a MEK inhibitor. The combination is FDA-approved for BRAF V600E-mutated solid tumors, including GIST. [4]",
+            "source_citation": {
+                "reference_numbers": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Adjuvant Imatinib",
+            "site": "Resectable GIST (Adjuvant setting)",
+            "setting": "Adjuvant",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutation",
+                    "requirement": "Imatinib-sensitive mutation (data do not support routine use in GIST without mutation in KIT or with an imatinib-resistant mutation in PDGFRA)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "ACOSOG Z9001",
+                "phase": "3",
+                "n_patients": "645 (317 imatinib, 328 placebo)",
+                "ORR": null,
+                "PFS": "HR 0.6 (95% CI 0.43-0.75, P < .001) for recurrence-free survival",
+                "OS": "No significant difference in OS"
+            },
+            "notes": "Adjuvant imatinib is recommended for patients with significant risk of recurrence, moderate or high risk (category 1 following complete resection with no preoperative imatinib). The optimal duration is unknown. Available data support use for high-risk disease for at least 3 years (based on overall survival benefit) or at least 6 years (based on disease-free survival benefit). [b,w]",
+            "source_citation": {
+                "reference_numbers": [
+                    "b",
+                    "w"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Imatinib (First-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Imatinib",
+                    "dose": "400 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-sensitive mutations (excluding PDGFRA exon 18 mutations that are insensitive to imatinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "B2222 (phase II) and EORTC 62005/S0033 (phase III)",
+                "phase": "II/III",
+                "n_patients": "147 (phase II); 946 (EORTC 62005); 746 (S0033)",
+                "ORR": "Objective responses in more than 50% of patients",
+                "PFS": "Estimated 9-year OS rate 35% for all patients (phase II); 10-year PFS rates 9.5% vs 9.2% (HR 0.91, P=.18) for 400 mg vs 800 mg (EORTC)",
+                "OS": "10-year OS rates 19.4% vs 21.5% (HR 0.93, P=.31) for 400 mg vs 800 mg (EORTC)"
+            },
+            "notes": "Imatinib is the standard first-line treatment. Patients with KIT exon 9 mutations may benefit from dose escalation to 800 mg daily (400 mg BID). Patients with PDGFRA D842V mutations do not respond to imatinib. [5,6]",
+            "source_citation": {
+                "reference_numbers": [
+                    "5",
+                    "6"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib (Second-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": "50 mg",
+                    "route": "PO",
+                    "schedule": "daily for 4 weeks on, 2 weeks off (or continuous daily dosing 37.5 mg)"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-resistant or imatinib-intolerant",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "Phase III randomized controlled trial",
+                "phase": "3",
+                "n_patients": "312",
+                "ORR": "PR in 14 patients (6.8%) and stable disease (≥22 weeks) in 36 patients (17.4%)",
+                "PFS": "Median time to progression 27.3 weeks vs 6.4 weeks (HR 0.33, P<.0001)",
+                "OS": "Significantly greater estimated OS"
+            },
+            "notes": "Sunitinib is a multitargeted TKI. SDH-deficient GIST may have a higher probability of response. For patients intolerant of second-line sunitinib, consider changing to ripretinib 150 mg daily. [11]",
+            "source_citation": {
+                "reference_numbers": [
+                    "11"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ripretinib 150 mg daily (Second-line alternative for sunitinib-intolerant)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ripretinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-sensitive GIST (if intolerant of second-line sunitinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Ripretinib is a switch control kinase inhibitor of a broad spectrum of oncogenic and drug-resistant KIT and PDGFRA variants. Consider as an alternative for patients intolerant of sunitinib. [12]",
+            "source_citation": {
+                "reference_numbers": [
+                    "12"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib (Third-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Third-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": "160 mg",
+                    "route": "PO",
+                    "schedule": "daily for 3 weeks on, 1 week off"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Imatinib-resistant and sunitinib-resistant",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "GRID",
+                "phase": "3",
+                "n_patients": "199",
+                "ORR": null,
+                "PFS": "Median PFS 4.8 months vs 0.9 months (P<.0001)",
+                "OS": "HR for OS 0.77 (85% of placebo arm crossed over to regorafenib)"
+            },
+            "notes": "Regorafenib is a multikinase inhibitor. Patients with KIT exon 11 mutations or SDH-deficient GIST may derive a greater PFS benefit. [14]",
+            "source_citation": {
+                "reference_numbers": [
+                    "14"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ripretinib 150 mg daily (Fourth-line for imatinib-sensitive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Fourth-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ripretinib",
+                    "dose": "150 mg",
+                    "route": "PO",
+                    "schedule": "daily"
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "KIT or PDGFRA mutations",
+                    "requirement": "Prior treatment with 3 or more kinase inhibitors, including imatinib",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "1",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "INVICTUS",
+                "phase": "3",
+                "n_patients": "129",
+                "ORR": null,
+                "PFS": "Median PFS 6.3 months vs 1.0 months (P<.0001)",
+                "OS": null
+            },
+            "notes": "Ripretinib is approved for adults with advanced GIST who have received prior treatment with 3 or more kinase inhibitors, including imatinib. [15]",
+            "source_citation": {
+                "reference_numbers": [
+                    "15"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Avapritinib (First-line for PDGFRA exon 18 mutant GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Avapritinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": {
+                "trial_name": "NAVIGATOR",
+                "phase": "I",
+                "n_patients": "56",
+                "ORR": "91%",
+                "PFS": null,
+                "OS": "Median OS not reached (median follow-up 27.5 months)"
+            },
+            "notes": "Avapritinib is a selective inhibitor of KIT and PDGFRA. It is FDA-approved for unresectable or metastatic GIST with a PDGFRA mutation, including D842V. [1,2,7]",
+            "source_citation": {
+                "reference_numbers": [
+                    "1",
+                    "2",
+                    "7"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dasatinib (Other recommended for PDGFRA exon 18 mutant GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Other Recommended",
+            "trial_data": null,
+            "notes": "Dasatinib is a dual SRC/ABL kinase inhibitor. It has shown in vitro activity against PDGFRA D842V and some clinical activity in a phase II study. [13]",
+            "source_citation": {
+                "reference_numbers": [
+                    "13"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Larotrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Larotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "75% (adults and children with NTRK fusion-positive solid tumors, including GIST)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Larotrectinib is FDA-approved for solid tumors with NTRK gene fusions. [8]",
+            "source_citation": {
+                "reference_numbers": [
+                    "8"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Entrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Entrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": null,
+                "n_patients": null,
+                "ORR": "57% (adults with NTRK fusion-positive solid tumors)",
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Entrectinib is FDA-approved for solid tumors with NTRK gene fusions. [9]",
+            "source_citation": {
+                "reference_numbers": [
+                    "9"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib (First-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Repotrectinib is a next-generation TRK inhibitor. [3]",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Sunitinib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Sunitinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Sunitinib is a multitargeted TKI with activity against VEGFR. Data from small retrospective studies suggest activity in SDH-deficient GIST. [85,86]",
+            "source_citation": {
+                "reference_numbers": [
+                    "85",
+                    "86"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Regorafenib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Regorafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Regorafenib is a multikinase inhibitor with activity against VEGFR. It was reported to be clinically active against SDH-deficient GIST in a small phase II study. [88,89]",
+            "source_citation": {
+                "reference_numbers": [
+                    "88",
+                    "89"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Pazopanib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Pazopanib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": null,
+            "notes": "Pazopanib is a TKI that targets VEGFR. A phase II study showed prolonged disease control in one patient with SDH-deficient GIST. [90,91]",
+            "source_citation": {
+                "reference_numbers": [
+                    "90",
+                    "91"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Binimetinib/Imatinib (First-line for SDH-deficient GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Binimetinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Imatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "SDH-deficient GIST",
+                    "requirement": "Succinate dehydrogenase deficiency (detected by lack of expression of SDHB on IHC)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "Phase Ib trial",
+                "phase": "Ib",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Binimetinib is a MEK inhibitor. The combination is being studied in SDH-deficient GIST. [10]",
+            "source_citation": {
+                "reference_numbers": [
+                    "10"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dabrafenib/Trametinib (First-line for BRAF V600E-mutated GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "First-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dabrafenib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                },
+                {
+                    "name": "Trametinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "BRAF V600E mutation",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "ROAR",
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "The combination is FDA-approved for BRAF V600E-mutated solid tumors, including GIST. [4]",
+            "source_citation": {
+                "reference_numbers": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Dasatinib (Second-line for PDGFRA exon 18 mutant GIST after avapritinib)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Dasatinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "PDGFRA exon 18 mutations",
+                    "requirement": "Including PDGFRA D842V (resistant to avapritinib or imatinib)",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2A",
+            "guideline_category": "Preferred",
+            "trial_data": null,
+            "notes": "Dasatinib is a dual SRC/ABL kinase inhibitor. It is recommended as a preferred second-line therapy for patients with PDGFRA exon 18 mutations whose disease has become resistant to avapritinib or imatinib. [13,133-135]",
+            "source_citation": {
+                "reference_numbers": [
+                    "13",
+                    "133",
+                    "134",
+                    "135"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Repotrectinib (Second-line for NTRK fusion-positive GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Second-line",
+            "treatment_modality": [
+                "targeted therapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Repotrectinib",
+                    "dose": null,
+                    "route": "PO",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "NTRK gene fusion",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": "TRIDENT-1",
+                "phase": "1/2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Consider repotrectinib as a second-line option for NTRK fusion-positive GIST if not previously given. [3]",
+            "source_citation": {
+                "reference_numbers": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "regimen_name": "Ipilimumab + Nivolumab (for TMB-H GIST)",
+            "site": "Unresectable, recurrent, or metastatic GIST",
+            "setting": "Subsequent therapy irrespective of mutation status",
+            "treatment_modality": [
+                "immunotherapy"
+            ],
+            "drugs": [
+                {
+                    "name": "Ipilimumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                },
+                {
+                    "name": "Nivolumab",
+                    "dose": null,
+                    "route": "IV",
+                    "schedule": null
+                }
+            ],
+            "biomarkers": [
+                {
+                    "marker": "Tumor mutational burden-high (TMB-H)",
+                    "requirement": "Positive",
+                    "mandatory": true
+                }
+            ],
+            "evidence_level": "2B",
+            "guideline_category": "Useful in Certain Circumstances",
+            "trial_data": {
+                "trial_name": null,
+                "phase": "2",
+                "n_patients": null,
+                "ORR": null,
+                "PFS": null,
+                "OS": null
+            },
+            "notes": "Consider combination immunotherapy for patients with TMB-H GIST based on limited data. [27]",
+            "source_citation": {
+                "reference_numbers": [
+                    "27"
+                ]
+            }
+        }
+    ],
+    "references": {
+        "1": "Hirota S, Isozaki K, Moriyama Y, et al. Gain-of-function mutations of c- kit in human gastrointestinal stromal tumors. Science 1998;279:577-580. Available at: http://www.ncbi.nlm.nih.gov/pubmed/9438854.",
+        "2": "Ma GL, Murphy JD, Martinez ME, Sicklick JK. Epidemiology of gastrointestinal stromal tumors in the era of histology codes: results of a population-based study. Cancer Epidemiol Biomarkers Prev 2015;24:298-302. Available at: https://www.ncbi.nlm.nih.gov/pubmed/25277795.",
+        "3": "Tran T, Davila JA, El-Serag HB. The epidemiology of malignant gastrointestinal stromal tumors: an analysis of 1,458 cases from 1992 to 2000. Am J Gastroenterol 2005;100:162-168. Available at: https://www.ncbi.nlm.nih.gov/pubmed/15654796.",
+        "4": "Perez EA, Livingstone AS, Franceschi D, et al. Current incidence and outcomes of gastrointestinal mesenchymal tumors including gastrointestinal stromal tumors. J Am Coll Surg 2006;202:623-629. Available at: https://www.ncbi.nlm.nih.gov/pubmed/16571433.",
+        "5": "Patel N, Benipal B. Incidence of Gastrointestinal Stromal Tumors in the United States from 2001-2015: A United States Cancer Statistics Analysis of 50 States. Cureus 2019;11:e4120. Available at: https://www.ncbi.nlm.nih.gov/pubmed/31037234.",
+        "6": "Miettinen M, Lasota J. Gastrointestinal stromal tumors: pathology and prognosis at different sites. Semin Diagn Pathol 2006;23:70-83. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17193820.",
+        "7": "Demetri GD, von Mehren M, Antonescu CR, et al. NCCN Task Force report: update on the management of patients with gastrointestinal stromal tumors. J Natl Compr Canc Netw 2010;8 Suppl 2:S1-41. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20457867.",
+        "8": "Sepe PS, Moparty B, Pitman MB, et al. EUS-guided FNA for the diagnosis of GI stromal cell tumors: sensitivity and cytologic yield. Gastrointest Endosc 2009;70:254-261. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19482280.",
+        "9": "Fletcher CD, Berman JJ, Corless C, et al. Diagnosis of gastrointestinal stromal tumors: A consensus approach. Hum Pathol 2002;33:459-465. Available at: http://www.ncbi.nlm.nih.gov/pubmed/12094370.",
+        "10": "Heinrich MC, Corless CL, Duensing A, et al. PDGFRA activating mutations in gastrointestinal stromal tumors. Science 2003;299:708-710. Available at: http://www.ncbi.nlm.nih.gov/pubmed/12522257.",
+        "11": "Hirota S, Ohashi A, Nishida T, et al. Gain-of-function mutations of platelet-derived growth factor receptor alpha gene in gastrointestinal stromal tumors. Gastroenterology 2003;125:660-667. Available at: http://www.ncbi.nlm.nih.gov/pubmed/12949711.",
+        "12": "Miettinen M, Lasota J. Gastrointestinal stromal tumors: review on morphology, molecular pathology, prognosis, and differential diagnosis. Arch Pathol Lab Med 2006;130:1466-1478. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17090188.",
+        "13": "Lasota J, Miettinen M. Clinical significance of oncogenic KIT and PDGFRA mutations in gastrointestinal stromal tumours. Histopathology 2008;53:245-266. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18312355.",
+        "14": "Lasota J, Corless CL, Heinrich MC, et al. Clinicopathologic profile of gastrointestinal stromal tumors (GISTs) with primary KIT exon 13 or exon 17 mutations: a multicenter study on 54 cases. Mod Pathol 2008;21:476-484. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18246046.",
+        "15": "Corless CL, Schroeder A, Griffith D, et al. PDGFRA mutations in gastrointestinal stromal tumors: frequency, spectrum and in vitro sensitivity to imatinib. J Clin Oncol 2005;23:5357-5364. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15928335.",
+        "16": "Janeway KA, Kim SY, Lodish M, et al. Defects in succinate dehydrogenase in gastrointestinal stromal tumors lacking KIT and PDGFRA mutations. Proc Natl Acad Sci U S A 2011;108:314-318. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21173220.",
+        "17": "Italiano A, Chen CL, Sung YS, et al. SDHA loss of function mutations in a subset of young adult wild-type gastrointestinal stromal tumors. BMC Cancer 2012;12:408. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22974104.",
+        "18": "Oudijk L, Gaal J, Korpershoek E, et al. SDHA mutations in adult and pediatric wild-type gastrointestinal stromal tumors. Mod Pathol 2013;26:456-463. Available at: http://www.ncbi.nlm.nih.gov/pubmed/23174939.",
+        "19": "Pantaleo MA, Astolfi A, Urbini M, et al. Analysis of all subunits, SDHA, SDHB, SDHC, SDHD, of the succinate dehydrogenase complex in KIT/PDGFRA wild-type GIST. Eur J Hum Genet 2014;22:32-39. Available at: http://www.ncbi.nlm.nih.gov/pubmed/23612575.",
+        "20": "Doyle LA, Nelson D, Heinrich MC, et al. Loss of succinate dehydrogenase subunit B (SDHB) expression is limited to a distinctive subset of gastric wild-type gastrointestinal stromal tumours: a comprehensive genotype-phenotype correlation study. Histopathology 2012;61:801-809. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22804613.",
+        "21": "Agaram NP, Wong GC, Guo T, et al. Novel V600E BRAF mutations in imatinib-naive and imatinib-resistant gastrointestinal stromal tumors. Genes Chromosomes Cancer 2008;47:853-859. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18615679.",
+        "22": "Agaimy A, Terracciano LM, Dirnhofer S, et al. V600E BRAF mutations are alternative early molecular events in a subset of KIT/PDGFRA wildtype gastrointestinal stromal tumours. J Clin Pathol 2009;62:613-616. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19561230.",
+        "23": "Miettinen M, Wang ZF, Lasota J. DOG1 antibody in the differential diagnosis of gastrointestinal stromal tumors: a study of 1840 cases. Am J Surg Pathol 2009;33:1401-1408. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19606013.",
+        "24": "Miettinen M, Sobin LH, Lasota J. Gastrointestinal stromal tumors of the stomach: a clinicopathologic, immunohistochemical, and molecular genetic study of 1765 cases with long-term follow-up. Am J Surg Pathol 2005;29:52-68. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15613856.",
+        "25": "Miettinen M, Makhlouf H, Sobin LH, Lasota J. Gastrointestinal stromal tumors of the jejunum and ileum: a clinicopathologic, immunohistochemical, and molecular genetic study of 906 cases before imatinib with long-term follow-up. Am J Surg Pathol 2006;30:477-489. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16625094.",
+        "26": "Wozniak A, Rutkowski P, Schoffski P, et al. Tumor genotype is an independent prognostic factor in primary gastrointestinal stromal tumors of gastric origin: a european multicenter analysis based on ConticaGIST. Clin Cancer Res 2014;20:6105-6116. Available at: https://www.ncbi.nlm.nih.gov/pubmed/25294914.",
+        "27": "Patrikidou A, Domont J, Chabaud S, et al. Long-term outcome of molecular subgroups of GIST patients treated with standard-dose imatinib in the BFR14 trial of the French Sarcoma Group. Eur J Cancer 2016;52:173-180. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26687836.",
+        "28": "Prior JO, Montemurro M, Orcurto MV, et al. Early prediction of response to sunitinib after imatinib failure by 18F-fluorodeoxyglucose positron emission tomography in patients with gastrointestinal stromal tumor. J Clin Oncol 2009;27:439-445. Available at: https://www.ncbi.nlm.nih.gov/pubmed/19064982.",
+        "29": "Choi H, Charnsangavej C, Faria SC, et al. Correlation of computed tomography and positron emission tomography in patients with metastatic gastrointestinal stromal tumor treated at a single institution with imatinib mesylate: proposal of new computed tomography response criteria. J Clin Oncol 2007;25:1753-1759. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17470865.",
+        "30": "Dudeck O, Zeile M, Reichardt P, Pink D. Comparison of RECIST and Choi criteria for computed tomographic response evaluation in patients with advanced gastrointestinal stromal tumor treated with sunitinib. Ann Oncol 2011;22:1828-1833. Available at: https://www.ncbi.nlm.nih.gov/pubmed/21289369.",
+        "31": "Patel SA, Royce TJ, Barysauskas CM, et al. Surveillance Imaging Patterns and Outcomes Following Radiation Therapy and Radical Resection for Localized Extremity and Trunk Soft Tissue Sarcoma. Ann Surg Oncol 2017. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28058559.",
+        "32": "Schramm N, Englhart E, Schlemmer M, et al. Tumor response and clinical outcome in metastatic gastrointestinal stromal tumors under sunitinib therapy: comparison of RECIST, Choi and volumetric criteria. Eur J Radiol 2013;82:951-958. Available at: https://www.ncbi.nlm.nih.gov/pubmed/23518148.",
+        "33": "Shinagare AB, Barysauskas CM, Braschi-Amirfarzan M, et al. Comparison of performance of various tumor response criteria in assessment of sunitinib activity in advanced gastrointestinal stromal tumors. Clin Imaging 2016;40:880-884. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27179958.",
+        "34": "Shinagare AB, Jagannathan JP, Kurra V, et al. Comparison of performance of various tumour response criteria in assessment of regorafenib activity in advanced gastrointestinal stromal tumours after failure of imatinib and sunitinib. Eur J Cancer 2014;50:981-986. Available at: https://www.ncbi.nlm.nih.gov/pubmed/24388774.",
+        "35": "Benjamin RS, Choi H, Macapinlac HA, et al. We should desist using RECIST, at least in GIST. J Clin Oncol 2007;25:1760-1764. Available at: https://www.ncbi.nlm.nih.gov/pubmed/17470866.",
+        "36": "Young H, Baum R, Cremerius U, et al. Measurement of clinical and subclinical tumour response using [18F]-fluorodeoxyglucose and positron emission tomography: review and 1999 EORTC recommendations. European Organization for Research and Treatment of Cancer (EORTC) PET Study Group Eur J Cancer 1999;35:1773-1782. Available at: http://www.ncbi.nlm.nih.gov/pubmed/10673991.",
+        "37": "Chen K, Zhou YC, Mou YP, et al. Systematic review and meta-analysis of safety and efficacy of laparoscopic resection for gastrointestinal stromal tumors of the stomach. Surg Endosc 2015;29:355-367. Available at: http://www.ncbi.nlm.nih.gov/pubmed/25005014.",
+        "38": "Demetri GD, von Mehren M, Blanke CD, et al. Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors. N Engl J Med 2002;347:472-480. Available at: http://www.ncbi.nlm.nih.gov/pubmed/12181401.",
+        "39": "Verweij J, Casali PG, Zalcberg J, et al. Progression-free survival in gastrointestinal stromal tumours with high-dose imatinib: randomised trial. Lancet 2004;364:1127-1134. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15451219.",
+        "40": "Zalcberg JR, Verweij J, Casali PG, et al. Outcome of patients with advanced gastro-intestinal stromal tumours crossing over to a daily imatinib dose of 800 mg after progression on 400 mg. Eur J Cancer 2005;41:1751-1757. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16098458.",
+        "41": "Blanke CD, Demetri GD, von Mehren M, et al. Long-term results from a randomized phase II trial of standard- versus higher-dose imatinib mesylate for patients with unresectable or metastatic gastrointestinal stromal tumors expressing KIT. J Clin Oncol 2008;26:620-625. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18235121.",
+        "42": "Blanke CD, Rankin C, Demetri GD, et al. Phase III randomized, intergroup trial assessing imatinib mesylate at two dose levels in patients with unresectable or metastatic gastrointestinal stromal tumors expressing the kit receptor tyrosine kinase: S0033. J Clin Oncol 2008;26:626-632. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18235122.",
+        "43": "von Mehren M, Heinrich MC, Joensuu H, et al. Follow-up results after 9 years (yrs) of the ongoing, phase II B2222 trial of imatinib mesylate (IM) in patients (pts) with metastatic or unresectable KIT+ gastrointestinal stromal tumors (GIST) [abstract]. J Clin Oncol 2011;29(15_Suppl):Abstract 10016. Available at: http://meeting.ascopubs.org/cgi/content/abstract/29/15_suppl/10016.",
+        "44": "Casali PG, Zalcberg J, Le Cesne A, et al. Ten-year progression-free and overall survival in patients with unresectable or metastatic GI stromal tumors: Long-term analysis of the European Organisation for Research and Treatment of Cancer, Italian Sarcoma Group, and Australasian Gastrointestinal Trials Group Intergroup phase III randomized trial on imatinib at two dose levels. J Clin Oncol 2017;35:1713-1720. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28362562.",
+        "45": "Eisenberg BL, Harris J, Blanke CD, et al. Phase II trial of neoadjuvant/adjuvant imatinib mesylate (IM) for advanced primary and metastatic/recurrent operable gastrointestinal stromal tumor (GIST): early results of RTOG 0132/ACRIN 6665. J Surg Oncol 2009;99:42-47. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18942073.",
+        "46": "McAuliffe JC, Hunt KK, Lazar AJF, et al. A randomized, phase II study of preoperative plus postoperative imatinib in GIST: evidence of rapid radiographic response and temporal induction of tumor cell apoptosis. Ann Surg Oncol 2009;16:910-919. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18953611.",
+        "47": "Fiore M, Palassini E, Fumagalli E, et al. Preoperative imatinib mesylate for unresectable or locally advanced primary gastrointestinal stromal tumors (GIST). Eur J Surg Oncol 2009;35:739-745. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19110398.",
+        "48": "Blesius A, Cassier PA, Bertucci F, et al. Neoadjuvant imatinib in patients with locally advanced non metastatic GIST in the prospective BFR14 trial. BMC Cancer 2011;11:72. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21324142.",
+        "49": "Eisenberg BL, Judson I. Surgery and imatinib in the management of GIST: emerging approaches to adjuvant and neoadjuvant therapy. Ann Surg Oncol 2004;11:465-475. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15123459.",
+        "50": "Gold JS, Dematteo RP. Combined surgical and molecular therapy: the gastrointestinal stromal tumor model. Ann Surg 2006;244:176-184. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16858179.",
+        "51": "DeMatteo RP, Lewis JJ, Leung D, et al. Two hundred gastrointestinal stromal tumors: recurrence patterns and prognostic factors for survival. Ann Surg 2000;231:51-58. Available at: http://www.ncbi.nlm.nih.gov/pubmed/10636102.",
+        "52": "Guerin A, Sasane M, Keir CH, et al. Physician Underestimation of the Risk of Gastrointestinal Stromal Tumor Recurrence After Resection. JAMA Oncol 2015;1:797-805. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26204106.",
+        "53": "Corless CL, Ballman KV, Antonescu CR, et al. Pathologic and molecular features correlate with long-term outcome after adjuvant therapy of resected primary GI stromal tumor: the ACOSOG Z9001 trial. J Clin Oncol 2014;32:1563-1570. Available at: https://www.ncbi.nlm.nih.gov/pubmed/24638003.",
+        "54": "Dematteo RP, Ballman KV, Antonescu CR, et al. Adjuvant imatinib mesylate after resection of localised, primary gastrointestinal stromal tumour: a randomised, double-blind, placebo-controlled trial. Lancet 2009;373:1097-1104. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19303137.",
+        "55": "Casali PG, Le Cesne A, Poveda Velasco A, et al. Time to Definitive Failure to the First Tyrosine Kinase Inhibitor in Localized GI Stromal Tumors Treated With Imatinib As an Adjuvant: A European Organisation for Research and Treatment of Cancer Soft Tissue and Bone Sarcoma Group Intergroup Randomized Trial in Collaboration With the Australasian Gastro-Intestinal Trials Group, UNICANCER, French Sarcoma Group, Italian Sarcoma Group, and Spanish Group for Research on Sarcomas. J Clin Oncol 2015;33:4276-4283. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26573069.",
+        "56": "Joensuu H, Eriksson M, Sundby Hall K, et al. One vs three years of adjuvant imatinib for operable gastrointestinal stromal tumor: a randomized trial. JAMA 2012;307:1265-1272. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22453568.",
+        "57": "Joensuu H, Eriksson M, Sundby Hall K, et al. Adjuvant Imatinib for High-Risk GI Stromal Tumor: Analysis of a Randomized Trial. J Clin Oncol 2016;34:244-250. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26527782.",
+        "58": "Joensuu H, Eriksson M, Hall KS, et al. Risk factors for gastrointestinal stromal tumor recurrence in patients treated with adjuvant imatinib. Cancer 2014;120:2325-2333. Available at: http://www.ncbi.nlm.nih.gov/pubmed/24737415.",
+        "59": "Guilhot F. Indications for imatinib mesylate therapy and clinical management. Oncologist 2004;9:271-281. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15169982.",
+        "60": "Trent JC, Patel SS, Zhang J, et al. Rare incidence of congestive heart failure in gastrointestinal stromal tumor and other sarcoma patients receiving imatinib mesylate. Cancer 2010;116:184-192. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19885836.",
+        "61": "Demetri GD, van Oosterom AT, Garrett CR, et al. Efficacy and safety of sunitinib in patients with advanced gastrointestinal stromal tumour after failure of imatinib: a randomised controlled trial. Lancet 2006;368:1329-1338. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17046465.",
+        "62": "George S, Blay JY, Casali PG, et al. Clinical evaluation of continuous daily dosing of sunitinib malate in patients with advanced gastrointestinal stromal tumour after imatinib failure. Eur J Cancer 2009;45:1959-1968. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19282169.",
+        "63": "Reichardt P, Kang YK, Rutkowski P, et al. Clinical outcomes of patients with advanced gastrointestinal stromal tumors: safety and efficacy in a worldwide treatment-use trial of sunitinib. Cancer 2015;121:1405-1413. Available at: https://www.ncbi.nlm.nih.gov/pubmed/25641662.",
+        "64": "Reichardt P, Demetri GD, Gelderblom H, et al. Correlation of KIT and PDGFRA mutational status with clinical benefit in patients with gastrointestinal stromal tumor treated with sunitinib in a worldwide treatment-use trial. BMC Cancer 2016;16:22. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26772734.",
+        "65": "Chu D, Lacouture ME, Weiner E, Wu S. Risk of hand-foot skin reaction with the multitargeted kinase inhibitor sunitinib in patients with renal cell and non-renal cell carcinoma: a meta-analysis. Clin Genitourin Cancer 2009;7:11-19. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19213662.",
+        "66": "Zhu X, Stergiopoulos K, Wu S. Risk of hypertension and renal dysfunction with an angiogenesis inhibitor sunitinib: systematic review and meta-analysis. Acta Oncol 2009;48:9-17. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18752081.",
+        "67": "Chu TF, Rupnick MA, Kerkela R, et al. Cardiotoxicity associated with tyrosine kinase inhibitor sunitinib. Lancet 2007;370:2011-2019. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18083403.",
+        "68": "Torino F, Corsello SM, Longo R, et al. Hypothyroidism related to tyrosine kinase inhibitors: an emerging toxic effect of targeted therapy. Nat Rev Clin Oncol 2009;6:219-228. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19333228.",
+        "69": "Dematteo RP, Heinrich MC, El-Rifai WM, Demetri G. Clinical management of gastrointestinal stromal tumors: before and after STI-571. Hum Pathol 2002;33:466-477. Available at: https://www.ncbi.nlm.nih.gov/pubmed/12094371.",
+        "70": "Heinrich MC, Corless CL, Demetri GD, et al. Kinase mutations and imatinib response in patients with metastatic gastrointestinal stromal tumor. J Clin Oncol 2003;21:4342-4349. Available at: http://www.ncbi.nlm.nih.gov/pubmed/14645423.",
+        "71": "Corless CL, Fletcher JA, Heinrich MC. Biology of gastrointestinal stromal tumors. J Clin Oncol 2004;22:3813-3825. Available at: https://www.ncbi.nlm.nih.gov/pubmed/15365079.",
+        "72": "Martin-Broto J, Martinez-Marin V, Serrano C, et al. Gastrointestinal stromal tumors (GISTs): SEAP-SEOM consensus on pathologic and molecular diagnosis. Clin Transl Oncol 2017;19:536-545. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27943096.",
+        "73": "Debiec-Rychter M, Sciot R, Le Cesne A, et al. KIT mutations and dose selection for imatinib in patients with advanced gastrointestinal stromal tumours. Eur J Cancer 2006;42:1093-1103. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16624552.",
+        "74": "Debiec-Rychter M, Dumez H, Judson I, et al. Use of c-KIT/PDGFRA mutational analysis to predict the clinical response to imatinib in patients with advanced gastrointestinal stromal tumours entered on phase I and II studies of the EORTC Soft Tissue and Bone Sarcoma Group. Eur J Cancer 2004;40:689-695. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15010069.",
+        "75": "Heinrich MC, Owzar K, Corless CL, et al. Correlation of kinase genotype and clinical outcome in the North American Intergroup Phase III Trial of imatinib mesylate for treatment of advanced gastrointestinal stromal tumor: CALGB 150105 Study by Cancer and Leukemia Group B and Southwest Oncology Group. J Clin Oncol 2008;26:5360-5367. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18955451.",
+        "76": "Comparison of two doses of imatinib for the treatment of unresectable or metastatic gastrointestinal stromal tumors: a meta-analysis of 1,640 patients. J Clin Oncol 2010;28:1247-1253. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20124181.",
+        "77": "Cassier PA, Fumagalli E, Rutkowski P, et al. Outcome of patients with platelet-derived growth factor receptor alpha-mutated gastrointestinal stromal tumors in the tyrosine kinase inhibitor era. Clin Cancer Res 2012;18:4458-4464. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22718859.",
+        "78": "Joensuu H, Wardelmann E, Sihto H, et al. Effect of KIT and PDGFRA mutations on survival in patients with gastrointestinal stromal tumors treated with adjuvant imatinib: An exploratory analysis of a randomized clinical trial. JAMA Oncol 2017;3:602-609. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28334365.",
+        "79": "Food & Drug Administration. FDA approves avapritinib for gastrointestinal stromal tumor with a rare mutation; 2020. Available at: https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-avapritinib-gastrointestinal-stromal-tumor-rare-mutation.",
+        "80": "Prescribing information for avapritinib tablets for oral use. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/212608s007lbl.pdf. Accessed June 28, 2022.",
+        "81": "Heinrich MC, Jones RL, von Mehren M, et al. Avapritinib in advanced PDGFRA D842V-mutant gastrointestinal stromal tumour (NAVIGATOR): a multicentre, open-label, phase 1 trial. Lancet Oncol 2020;21:935-946. Available at: https://www.ncbi.nlm.nih.gov/pubmed/32615108.",
+        "82": "Jones RL, Serrano C, von Mehren M, et al. Avapritinib in unresectable or metastatic PDGFRA D842V-mutant gastrointestinal stromal tumours: Long-term efficacy and safety data from the NAVIGATOR phase I trial. Eur J Cancer 2021;145:132-142. Available at: https://www.ncbi.nlm.nih.gov/pubmed/33465704.",
+        "83": "Miettinen M, Wang ZF, Sarlomo-Rikala M, et al. Succinate dehydrogenase-deficient GISTs: a clinicopathologic, immunohistochemical, and molecular genetic study of 66 gastric GISTs with predilection to young age. Am J Surg Pathol 2011;35:1712-1721. Available at: https://www.ncbi.nlm.nih.gov/pubmed/21997692.",
+        "84": "Heinrich MC, Rankin C, Blanke CD, et al. Correlation of long-term results of imatinib in advanced gastrointestinal stromal tumors with next-generation sequencing results: Analysis of phase 3 SWOG Intergroup Trial S0033. JAMA Oncol 2017;3:944-952. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28196207.",
+        "85": "Boikos SA, Pappo AS, Killian JK, et al. Molecular Subtypes of KIT/PDGFRA wild-type gastrointestinal stromal tumors: A report from the National Institutes of Health Gastrointestinal Stromal Tumor Clinic. JAMA Oncol 2016;2:922-928. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27011036.",
+        "86": "Liu W, Zeng X, Wu X, et al. Clinicopathologic study of succinate-dehydrogenase-deficient gastrointestinal stromal tumors: A single-institutional experience in China. Medicine (Baltimore) 2017;96:e7668. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28796048.",
+        "87": "Prescribing information for sunitinib malate capsules for oral use. 2021. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/021938s039lbledt.pdf. Accessed June 28, 2022.",
+        "88": "Prescribing information for regorafenib tablets, for oral use. 2020. Available at: https://tinyurl.com/2p8x5r37. Accessed June 28, 2022.",
+        "89": "Ben-Ami E, Barysauskas CM, von Mehren M, et al. Long-term follow-up results of the multicenter phase II trial of regorafenib in patients with metastatic and/or unresectable GI stromal tumor after failure of standard tyrosine kinase inhibitor therapy. Ann Oncol 2016;27:1794-1799. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27371698.",
+        "90": "Ganjoo KN, Villalobos VM, Kamaya A, et al. A multicenter phase II study of pazopanib in patients with advanced gastrointestinal stromal tumors (GIST) following failure of at least imatinib and sunitinib. Ann Oncol 2014;25:236-240. Available at: http://www.ncbi.nlm.nih.gov/pubmed/24356634.",
+        "91": "Prescribing information for pazopanib tablets for oral use. 2021. Available at: https://tinyurl.com/3yv9ueze. Accessed June 28, 2022.",
+        "92": "Yebra M, Bhargava S, Kumar A, et al. Establishment of patient-derived succinate dehydrogenase-deficient gastrointestinal stromal tumor models for predicting therapeutic response. Clin Cancer Res 2022;28:187-200. Available at: https://www.ncbi.nlm.nih.gov/pubmed/34426440.",
+        "93": "Lee JH, Shin SJ, Choe EA, et al. Tropomyosin-related kinase fusions in gastrointestinal stromal tumors. Cancers (Basel) 2022;14. Available at: https://www.ncbi.nlm.nih.gov/pubmed/35681640.",
+        "94": "Brenca M, Rossi S, Polano M, et al. Transcriptome sequencing identifies ETV6-NTRK3 as a gene fusion involved in GIST. J Pathol 2016;238:543-549. Available at: http://www.ncbi.nlm.nih.gov/pubmed/26606880.",
+        "95": "Shi E, Chmielecki J, Tang CM, et al. FGFR1 and NTRK3 actionable alterations in \"Wild-Type\" gastrointestinal stromal tumors. J Transl Med 2016;14:339. Available at: http://www.ncbi.nlm.nih.gov/pubmed/27974047.",
+        "96": "Prescribing information for larotrectinib. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/210861s006lbl.pdf. Accessed July 5, 2022.",
+        "97": "Prescribing information for entrectinib capsules for oral use. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/212725s005lbl.pdf. Accessed July 5, 2022.",
+        "98": "Drilon A, Laetsch TW, Kummar S, et al. Efficacy of larotrectinib in TRK fusion-positive cancers in adults and children. N Engl J Med 2018;378:731-739. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29466156.",
+        "99": "Doebele RC, Drilon A, Paz-Ares L, et al. Entrectinib in patients with advanced or metastatic NTRK fusion-positive solid tumours: integrated analysis of three phase 1-2 trials. Lancet Oncol 2020;21:271-282. Available at: https://www.ncbi.nlm.nih.gov/pubmed/31838007.",
+        "100": "Hostein I, Faur N, Primois C, et al. BRAF mutation status in gastrointestinal stromal tumors. Am J Clin Pathol 2010;133:141-148. Available at: https://www.ncbi.nlm.nih.gov/pubmed/20023270.",
+        "101": "Maertens O, Prenen H, Debiec-Rychter M, et al. Molecular pathogenesis of multiple gastrointestinal stromal tumors in NF1 patients. Hum Mol Genet 2006;15:1015-1023. Available at: https://www.ncbi.nlm.nih.gov/pubmed/16461335.",
+        "102": "Belinsky MG, Rink L, Cai KQ, et al. Somatic loss of function mutations in neurofibromin 1 and MYC associated factor X genes identified by exome-wide sequencing in a wild-type GIST case. BMC Cancer 2015;15:887. Available at: https://www.ncbi.nlm.nih.gov/pubmed/26555092.",
+        "103": "Burgoyne AM, De Siena M, Alkhuziem M, et al. Duodenal-jejunal flexure GI stromal tumor frequently heralds somatic NF1 and notch pathway mutations. JCO Precis Oncol 2017;2017. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29938249.",
+        "104": "Charo LM, Burgoyne AM, Fanta PT, et al. A novel PRKAR1B-BRAF fusion in gastrointestinal stromal tumor guides adjuvant treatment decision-making during pregnancy. J Natl Compr Canc Netw 2018;16:238-242. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29523662.",
+        "105": "Dabrafenib–trametinib combination approved for solid tumors with BRAF mutations. 2022. Available at: https://www.cancer.gov/news-events/cancer-currents-blog/2022/fda-dabrafenib-trametinib-braf-solid-tumors. Accessed August 16, 2022.",
+        "106": "Heinrich MC, Maki RG, Corless CL, et al. Primary and secondary kinase genotypes correlate with the biological and clinical activity of sunitinib in imatinib-resistant gastrointestinal stromal tumor. J Clin Oncol 2008;26:5352-5359. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18955458.",
+        "107": "Antonescu CR, Besmer P, Guo T, et al. Acquired resistance to imatinib in gastrointestinal stromal tumor occurs through secondary gene mutation. Clin Cancer Res 2005;11:4182-4190. Available at: http://www.ncbi.nlm.nih.gov/pubmed/15930355.",
+        "108": "Heinrich MC, Corless CL, Blanke CD, et al. Molecular correlates of imatinib resistance in gastrointestinal stromal tumors. J Clin Oncol 2006;24:4764-4774. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16954519.",
+        "109": "Wardelmann E, Merkelbach-Bruse S, Pauls K, et al. Polyclonal evolution of multiple secondary KIT mutations in gastrointestinal stromal tumors under treatment with imatinib mesylate. Clin Cancer Res 2006;12:1743-1749. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16551858.",
+        "110": "Desai J, Shankar S, Heinrich MC, et al. Clonal evolution of resistance to imatinib in patients with metastatic gastrointestinal stromal tumors. Clin Cancer Res 2007;13:5398-5405. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17875769.",
+        "111": "Patel S, Zalcberg JR. Optimizing the dose of imatinib for treatment of gastrointestinal stromal tumours: lessons from the phase 3 trials. Eur J Cancer 2008;44:501-509. Available at: https://www.ncbi.nlm.nih.gov/pubmed/18234488.",
+        "112": "Goodman VL, Rock EP, Dagher R, et al. Approval summary: sunitinib for the treatment of imatinib refractory or intolerant gastrointestinal stromal tumors and advanced renal cell carcinoma. Clin Cancer Res 2007;13:1367-1373. Available at: https://www.ncbi.nlm.nih.gov/pubmed/17332278.",
+        "113": "Gajiwala KS, Wu JC, Christensen J, et al. KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients. Proc Natl Acad Sci U S A 2009;106:1542-1547. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19164557.",
+        "114": "Guo T, Hajdu M, Agaram NP, et al. Mechanisms of sunitinib resistance in gastrointestinal stromal tumors harboring KITAY502-3ins mutation: an in vitro mutagenesis screen for drug resistance. Clin Cancer Res 2009;15:6862-6870. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19861442.",
+        "115": "Nishida T, Takahashi T, Nishitani A, et al. Sunitinib-resistant gastrointestinal stromal tumors harbor cis-mutations in the activation loop of the KIT gene. Int J Clin Oncol 2009;14:143-149. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19390946.",
+        "116": "Demetri GD, Reichardt P, Kang YK, et al. Efficacy and safety of regorafenib for advanced gastrointestinal stromal tumours after failure of imatinib and sunitinib (GRID): an international, multicentre, randomised, placebo-controlled, phase 3 trial. Lancet 2013;381:295-302. Available at: http://www.ncbi.nlm.nih.gov/pubmed/23177515.",
+        "117": "Prescribing information for ripretinib tablets for oral use. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/213973s001lbl.pdf. Accessed July 5, 2022.",
+        "118": "Blay JY, Serrano C, Heinrich MC, et al. Ripretinib in patients with advanced gastrointestinal stromal tumours (INVICTUS): a double-blind, randomised, placebo-controlled, phase 3 trial. Lancet Oncol 2020;21:923-934. Available at: https://www.ncbi.nlm.nih.gov/pubmed/32511981.",
+        "119": "Zalcberg JR, Heinrich MC, George S, et al. Clinical benefit of ripretinib dose escalation after disease progression in advanced gastrointestinal stromal tumor: an analysis of the INVICTUS study. Oncologist 2021;26:e2053-e2060. Available at: https://www.ncbi.nlm.nih.gov/pubmed/34313371.",
+        "120": "Kindler HL, Campbell NP, Wroblewski K, et al. Sorafenib (SOR) in patients (pts) with imatinib (IM) and sunitinib (SU)-resistant (RES) gastrointestinal stromal tumors (GIST): Final results of a University of Chicago Phase II Consortium trial [abstract]. J Clin Oncol 2011;29(15_Suppl):Abstract 10009. Available at: http://meeting.ascopubs.org/cgi/content/abstract/29/15_suppl/10009.",
+        "121": "Park SH, Ryu MH, Ryoo BY, et al. Sorafenib in patients with metastatic gastrointestinal stromal tumors who failed two or more prior tyrosine kinase inhibitors: a phase II study of Korean gastrointestinal stromal tumors study group. Invest New Drugs 2012;30:2377-2383. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22270258.",
+        "122": "Montemurro M, Gelderblom H, Bitz U, et al. Sorafenib as third- or fourth-line treatment of advanced gastrointestinal stromal tumour and pretreatment including both imatinib and sunitinib, and nilotinib: A retrospective analysis. Eur J Cancer 2013;49:1027-1031. Available at: http://www.ncbi.nlm.nih.gov/pubmed/23140824.",
+        "123": "Kefeli U, Benekli M, Sevinc A, et al. Efficacy of sorafenib in patients with gastrointestinal stromal tumors in the third- or fourth-line treatment: A retrospective multicenter experience. Oncol Lett 2013;6:605-611. Available at: http://www.ncbi.nlm.nih.gov/pubmed/24137379.",
+        "124": "Demetri GD, Casali PG, Blay JY, et al. A phase I study of single-agent nilotinib or in combination with imatinib in patients with imatinib-resistant gastrointestinal stromal tumors. Clin Cancer Res 2009;15:5910-5916. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19723647.",
+        "125": "Montemurro M, Schoffski P, Reichardt P, et al. Nilotinib in the treatment of advanced gastrointestinal stromal tumours resistant to both imatinib and sunitinib. Eur J Cancer 2009;45:2293-2297. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19467857.",
+        "126": "Sawaki A, Nishida T, Doi T, et al. Phase 2 study of nilotinib as third-line therapy for patients with gastrointestinal stromal tumor. Cancer 2011;117:4633-4641. Available at: http://www.ncbi.nlm.nih.gov/pubmed/21456006.",
+        "127": "Reichardt P, Blay JY, Gelderblom H, et al. Phase III study of nilotinib versus best supportive care with or without a TKI in patients with gastrointestinal stromal tumors resistant to or intolerant of imatinib and sunitinib. Ann Oncol 2012;23:1680-1687. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22357255.",
+        "128": "Cauchi C, Somaiah N, Engstrom PF, et al. Evaluation of nilotinib in advanced GIST previously treated with imatinib and sunitinib. Cancer Chemother Pharmacol 2012;69:977-982. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22119758.",
+        "129": "Blay JY, Shen L, Kang YK, et al. Nilotinib versus imatinib as first-line therapy for patients with unresectable or metastatic gastrointestinal stromal tumours (ENESTg1): a randomised phase 3 trial. Lancet Oncol 2015;16:550-560. Available at: https://www.ncbi.nlm.nih.gov/pubmed/25882987.",
+        "130": "Mir O, Cropet C, Toulmonde M, et al. Pazopanib plus best supportive care versus best supportive care alone in advanced gastrointestinal stromal tumours resistant to imatinib and sunitinib (PAZOGIST): a randomised, multicentre, open-label phase 2 trial. Lancet Oncol 2016;17:632-641. Available at: https://www.ncbi.nlm.nih.gov/pubmed/27068858.",
+        "131": "Schoffski P, Mir O, Kasper B, et al. Activity and safety of the multitarget tyrosine kinase inhibitor cabozantinib in patients with metastatic gastrointestinal stromal tumour after treatment with imatinib and sunitinib: European Organisation for Research and Treatment of Cancer phase II trial 1317 'CaboGIST'. Eur J Cancer 2020;134:62-74. Available at: https://www.ncbi.nlm.nih.gov/pubmed/32470848.",
+        "132": "Schoffski P, Reichardt P, Blay JY, et al. A phase I-II study of everolimus (RAD001) in combination with imatinib in patients with imatinib-resistant gastrointestinal stromal tumors. Ann Oncol 2010;21:1990-1998. Available at: https://www.ncbi.nlm.nih.gov/pubmed/20507881.",
+        "133": "Dewaele B, Wasag B, Cools J, et al. Activity of dasatinib, a dual SRC/ABL kinase inhibitor, and IPI-504, a heat shock protein 90 inhibitor, against gastrointestinal stromal tumor-associated PDGFRA D842V mutation. Clin Cancer Res 2008;14:5749-5758. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18794084.",
+        "134": "Trent JC, Wathen K, von Mehren M, et al. A phase II study of dasatinib for patients with imatinib-resistant gastrointestinal stromal tumor (GIST) [abstract]. J Clin Oncol 2011;29(15_Suppl):Abstract 10006. Available at: http://meeting.ascopubs.org/cgi/content/abstract/29/15_suppl/10006.",
+        "135": "Schuetze SM, Bolejack V, Thomas DG, et al. Association of dasatinib with progression-free survival among patients with advanced gastrointestinal stromal tumors resistant to imatinib. JAMA Oncol 2018;4:814-820. Available at: https://www.ncbi.nlm.nih.gov/pubmed/29710216.",
+        "136": "Smith BD, Kaufman MD, Lu WP, et al. Ripretinib (DCC-2618) is a switch control kinase inhibitor of a broad spectrum of oncogenic and drug-resistant KIT and PDGFRA variants. Cancer Cell 2019;35:738-751 e739. Available at: https://www.ncbi.nlm.nih.gov/pubmed/31085175.",
+        "137": "Alkhuziem M, Burgoyne AM, Fanta PT, et al. The call of \"the wild\"type GIST: It's time for domestication. J Natl Compr Canc Netw 2017;15:551-554. Available at: https://www.ncbi.nlm.nih.gov/pubmed/28476734.",
+        "138": "Kato S, Adashek JJ, Shaya J, et al. Concomitant MEK and cyclin gene alterations: Implications for response to targeted therapeutics. Clin Cancer Res 2021;27:2792-2797. Available at: https://www.ncbi.nlm.nih.gov/pubmed/33472910.",
+        "139": "Committee ASoP, Evans JA, Chandrasekhara V, et al. The role of endoscopy in the management of premalignant and malignant conditions of the stomach. Gastrointest Endosc 2015;82:1-8. Available at: http://www.ncbi.nlm.nih.gov/pubmed/25935705.",
+        "140": "Dematteo RP, Gold JS, Saran L, et al. Tumor mitotic rate, size, and location independently predict recurrence after resection of primary gastrointestinal stromal tumor (GIST). Cancer 2008;112:608-615. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18076015.",
+        "141": "Gold JS, Gonen M, Gutierrez A, et al. Development and validation of a prognostic nomogram for recurrence-free survival after complete surgical resection of localised primary gastrointestinal stromal tumour: a retrospective analysis. Lancet Oncol 2009;10:1045-1052. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19793678.",
+        "142": "Wang D, Zhang Q, Blanke CD, et al. Phase II trial of neoadjuvant/adjuvant imatinib mesylate for advanced primary and metastatic/recurrent operable gastrointestinal stromal tumors: long-term follow-up results of Radiation Therapy Oncology Group 0132. Ann Surg Oncol 2011. Available at: http://www.ncbi.nlm.nih.gov/pubmed/22203182.",
+        "143": "Raut CP, Posner M, Desai J, et al. Surgical management of advanced gastrointestinal stromal tumors after treatment with targeted systemic therapy using kinase inhibitors. J Clin Oncol 2006;24:2325-2331. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16710031.",
+        "144": "Rutkowski P, Nowecki Z, Nyckowski P, et al. Surgical treatment of patients with initially inoperable and/or metastatic gastrointestinal stromal tumors (GIST) during therapy with imatinib mesylate. J Surg Oncol 2006;93:304-311. Available at: http://www.ncbi.nlm.nih.gov/pubmed/16496358.",
+        "145": "Andtbacka RH, Ng CS, Scaife CL, et al. Surgical resection of gastrointestinal stromal tumors after treatment with imatinib. Ann Surg Oncol 2007;14:14-24. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17072676.",
+        "146": "DeMatteo RP, Maki RG, Singer S, et al. Results of tyrosine kinase inhibitor therapy followed by surgical resection for metastatic gastrointestinal stromal tumor. Ann Surg 2007;245:347-352. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17435539.",
+        "147": "Gronchi A, Fiore M, Miselli F, et al. Surgery of residual disease following molecular-targeted therapy with imatinib mesylate in advanced/metastatic GIST. Ann Surg 2007;245:341-346. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17435538.",
+        "148": "Sym SJ, Ryu M-H, Lee J-L, et al. Surgical intervention following imatinib treatment in patients with advanced gastrointestinal stromal tumors (GISTs). J Surg Oncol 2008;98:27-33. Available at: http://www.ncbi.nlm.nih.gov/pubmed/18452195.",
+        "149": "Mussi C, Ronellenfitsch U, Jakob J, et al. Post-imatinib surgery in advanced/metastatic GIST: is it worthwhile in all patients? Ann Oncol 2010;21:403-408. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19628568.",
+        "150": "Yeh C-N, Chen T-W, Tseng J-H, et al. Surgical management in metastatic gastrointestinal stromal tumor (GIST) patients after imatinib mesylate treatment. J Surg Oncol 2010;102:599-603. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20976730.",
+        "151": "Van Den Abbeele AD, Badawi RD, Manola J, et al. Effects of cessation of imatinib mesylate (IM) therapy in patients (pts) with IM-refractory gastrointestinal stromal tumors (GIST) as visualized by FDG-PET scanning [abstract]. J Clin Oncol 2004;22(14_Suppl):Abstract 3012. Available at: http://meeting.jco.org/cgi/content/abstract/22/14_suppl/3012.",
+        "152": "Raut CP, Wang Q, Manola J, et al. Cytoreductive surgery in patients with metastatic gastrointestinal stromal tumor treated with sunitinib malate. Ann Surg Oncol 2010;17:407-415. Available at: http://www.ncbi.nlm.nih.gov/pubmed/19898902.",
+        "153": "Fumagalli E, Coco P, Morosi C, et al. Rechallenge with Imatinib in GIST patients resistant to second or third line therapy [abstract]. Connective Tissue Oncology Society (CTOS) 15th Annual Meeting; 2009:Abstract 39404. Available at: http://www.ctos.org/meeting/2009/program.asp.",
+        "154": "Kang YK, Ryu MH, Yoo C, et al. Resumption of imatinib to control metastatic or unresectable gastrointestinal stromal tumours after failure of imatinib and sunitinib (RIGHT): a randomised, placebo-controlled, phase 3 trial. Lancet Oncol 2013;14:1175-1182. Available at: http://www.ncbi.nlm.nih.gov/pubmed/24140183.",
+        "155": "Blay JY, Le Cesne A, Ray-Coquard I, et al. Prospective multicentric randomized phase III study of imatinib in patients with advanced gastrointestinal stromal tumors comparing interruption versus continuation of treatment beyond 1 year: the French Sarcoma Group. J Clin Oncol 2007;25:1107-1113. Available at: http://www.ncbi.nlm.nih.gov/pubmed/17369574.",
+        "156": "Le Cesne A, Ray-Coquard I, Bui BN, et al. Discontinuation of imatinib in patients with advanced gastrointestinal stromal tumours after 3 years of treatment: an open-label multicentre randomised phase 3 trial. Lancet Oncol 2010;11:942-949. Available at: http://www.ncbi.nlm.nih.gov/pubmed/20864406.",
+        "157": "Patrikidou A, Chabaud S, Ray-Coquard I, et al. Influence of imatinib interruption and rechallenge on the residual disease in patients with advanced GIST: results of the BFR14 prospective French Sarcoma Group randomised, phase III trial. Annals of Oncology 2013;24:1087-1093. Available at: http://www.ncbi.nlm.nih.gov/pubmed/23175622."
+    },
+    "tier_2_handbook": {
+        "definition": "Gastrointestinal stromal tumors (GIST) are the most common soft tissue sarcomas of the gastrointestinal (GI) tract, primarily arising from interstitial cells of Cajal or their precursors, which are pacemaker cells involved in GI motility [1,6]. Embryologically, these cells originate from the mesenchyme. Anatomically, GIST can develop anywhere along the GI tract, with the stomach being the most frequent site (approximately 60% of cases), followed by the small intestine (30%), duodenum (4%–5%), rectum (4%), esophagus (<1%), and colon or appendix (1%–2%) [6]. Rarely, GIST can occur in extraintestinal sites such as the omentum or peritoneum. Diagnosis relies on morphologic examination of tumor tissue, supported by immunohistochemical staining for CD117 (KIT protein, expressed in 95% of GIST), DOG1, and CD34 (expressed in about 70% of cases) [6,7]. Molecular genetic testing for mutations in the KIT or PDGFRA genes is essential for confirming diagnosis and guiding therapy, as these mutations define most GIST [9,10,11]. Clinical presentation varies; patients may experience abdominal discomfort, early satiety, GI bleeding due to ulceration, or an acute abdomen from tumor rupture, obstruction, or peritonitis [7]. GIST tends to be fragile, with a pseudocapsule, and metastasis most commonly occurs to the liver and peritoneum, while lymph node involvement is rare except in specific subtypes [6].",
+        "subtypes": [
+            {
+                "name": "KIT-mutant GIST",
+                "description": "The most common subtype, characterized by activating mutations in the KIT gene encoding a receptor tyrosine kinase. Mutations typically occur in exon 11 (juxtamembrane domain, most frequent) or exon 9 (extracellular domain), with rarer mutations in exons 13 or 17 [13,14]. KIT mutations lead to constitutive kinase activation, driving tumor growth.",
+                "frequency": "Approximately 80% of all GIST cases [9,10].",
+                "key_associations": "KIT exon 11 mutations are associated with a better response to imatinib and higher risk of recurrence compared to exon 9 mutations [27,70]. KIT exon 9 mutations are more common in intestinal GIST and may require higher imatinib doses for optimal response [73,76]."
+            },
+            {
+                "name": "PDGFRA-mutant GIST",
+                "description": "Characterized by mutations in the PDGFRA gene, another receptor tyrosine kinase. Mutations predominantly affect exon 18 (tyrosine kinase domain), such as D842V, with rarer mutations in exon 12 (juxtamembrane domain) or exon 14 [15]. These mutations result in autonomous signaling.",
+                "frequency": "About 5%–10% of GIST cases [9,11].",
+                "key_associations": "PDGFRA exon 18 mutations, particularly D842V, are imatinib-insensitive but respond to avapritinib [79,81]. Most other PDGFRA mutations are sensitive to imatinib [11,15]. This subtype is more common in gastric GIST [13]."
+            },
+            {
+                "name": "SDH-deficient GIST",
+                "description": "Also known as wild-type GIST lacking KIT or PDGFRA mutations, these tumors have functional inactivation of the succinate dehydrogenase (SDH) complex due to mutations in SDH subunits (e.g., SDHB, SDHC, SDHD) or epigenetic silencing [16,18,19]. Loss of SDHB expression by immunohistochemistry is a hallmark.",
+                "frequency": "Approximately 10%–15% of GIST cases [16].",
+                "key_associations": "Often arise in the stomach, occur in younger individuals, and may have a more indolent but unpredictable behavior, with potential for lymph node metastasis [83]. They are typically resistant to imatinib but may respond to sunitinib or regorafenib [85,86]. Associated with germline SDH mutations and risk of paraganglioma [GIST-B]."
+            },
+            {
+                "name": "NF1-associated GIST",
+                "description": "Arise in patients with neurofibromatosis type 1 (NF1) syndrome, caused by inactivating mutations in the NF1 gene, leading to loss of neurofibromin and activation of RAS signaling [101].",
+                "frequency": "Rare; a small subset of GIST cases [101,102].",
+                "key_associations": "Typically occur in the small intestine, may be multifocal, and often have an indolent biology. Should be tested for concurrent KIT or PDGFRA mutations [GIST-B]. Data on TKI efficacy are limited [GIST-B]."
+            },
+            {
+                "name": "BRAF-mutant GIST",
+                "description": "Characterized by activating mutations in the BRAF gene, most commonly V600E, which activates the MAPK pathway.",
+                "frequency": "Occurs in a small subset of GIST, particularly intestinal high-risk tumors lacking KIT/PDGFRA mutations [21,22].",
+                "key_associations": "May respond to BRAF-directed therapies like dabrafenib/trametinib [4]."
+            },
+            {
+                "name": "NTRK-fusion positive GIST",
+                "description": "Defined by gene fusions involving NTRK genes (e.g., NTRK1, NTRK2, NTRK3), leading to TRK kinase activation.",
+                "frequency": "Rare; a small percentage of GIST cases [93,94,95].",
+                "key_associations": "Responsive to TRK inhibitors such as larotrectinib, entrectinib, or repotrectinib [8,9,3]."
+            },
+            {
+                "name": "Histologic subtypes",
+                "description": "Based on morphology, GIST can be classified as spindle cell type (most common, with elongated cells), epithelioid type (round to polygonal cells), or mixed type. Spindle cell GIST is typical for KIT-mutant tumors, while epithelioid may be more common in PDGFRA-mutant or SDH-deficient tumors [6,12].",
+                "frequency": "Spindle cell type predominates in most GIST.",
+                "key_associations": "Histology alone does not determine prognosis; molecular subtyping is critical for therapy [7]."
+            }
+        ],
+        "molecular_pathogenesis": "The molecular pathogenesis of GIST is driven by constitutive activation of tyrosine kinase signaling pathways, primarily through oncogenic mutations in KIT or PDGFRA receptor tyrosine kinase genes [1,10]. Approximately 80% of GIST harbor mutations in the KIT gene, which encodes a transmembrane receptor involved in cell growth and survival [9,10]. Most KIT mutations occur in exon 11 (juxtamembrane domain), leading to ligand-independent activation; mutations in exon 9 (extracellular domain) are less common and often associated with intestinal GIST [13]. Rarely, mutations in exons 13 or 17 (tyrosine kinase domain) occur [14]. About 5%–10% of GIST have mutations in the PDGFRA gene, a related receptor tyrosine kinase, with the majority affecting exon 18 (tyrosine kinase domain), such as the D842V mutation [11,15]. These mutations result in gain-of-function, driving tumor proliferation via downstream pathways like RAS/MAPK and PI3K/AKT. In 10%–15% of GIST, neither KIT nor PDGFRA mutations are detectable (wild-type GIST); the majority of these have functional inactivation of the succinate dehydrogenase (SDH) complex due to mutations in SDH subunits (SDHA, SDHB, SDHC, SDHD) or epigenetic silencing, leading to metabolic reprogramming and tumorigenesis [16,18,19]. SDH-deficient GIST often arise in younger patients and have a distinct clinical behavior [83]. Other rare genomic events include BRAF V600E mutations (activating the MAPK pathway), inactivating NF1 mutations (affecting RAS regulation), and gene fusions involving NTRK or FGFR, which can serve as alternative drivers [21,93,101]. Chromosomal abnormalities, such as deletions of chromosome 14q and 22q, are frequently observed and may contribute to loss of tumor suppressor genes [7]. These molecular alterations dictate response to targeted therapies, such as tyrosine kinase inhibitors (TKIs), and are essential for risk stratification and treatment planning [GIST-B].",
+        "epidemiology": "The annual incidence of gastrointestinal stromal tumors (GIST) in the United States is estimated to be between 0.68 and 0.78 per 100,000 population, based on population-based studies [2,3,4,5]. Mortality data are less consistently reported, but survival rates vary by stage and risk stratification; for example, the 5-year survival rate for localized GIST is high after resection, but drops significantly for metastatic disease [49,50]. Trends suggest a potential increase in incidence over time, possibly due to improved diagnostic methods and awareness, though this is not explicitly detailed in the source [2]. Demographically, GIST typically affects adults, with a median age at diagnosis around 60–65 years; it is slightly more common in males than females in some series, but the source does not provide specific sex ratios [6]. Racial and ethnic disparities are not mentioned in the provided text; however, incidence may vary geographically, but no specific SEER or GLOBOCAN numbers are given beyond the U.S. estimates. Primary site distribution is well-documented: stomach accounts for 60% of cases, small intestine for 30%, duodenum for 4%–5%, rectum for 4%, esophagus for <1%, and colon or appendix for 1%–2%, with rare extraintestinal occurrences [6]. These sites have different prognostic implications, as gastric GIST tend to be more indolent compared to small intestinal or rectal GIST, which are more aggressive [6,24,25].",
+        "risk_factors": [
+            {
+                "factor": "Neurofibromatosis type 1 (NF1) syndrome",
+                "type": "Genetic",
+                "detail": "Germline mutations in the NF1 gene predispose to the development of GIST, often multifocal and arising in the small intestine. NF1-associated GIST may have a more indolent course but require genetic counseling and testing [101,102].",
+                "strength": "Strong association based on clinical and genetic studies; evidence supports that NF1 loss contributes to tumorigenesis [101]."
+            },
+            {
+                "factor": "Carney-Stratakis syndrome",
+                "type": "Genetic",
+                "detail": "An autosomal dominant disorder caused by germline mutations in SDH subunit genes (e.g., SDHB, SDHC, SDHD), leading to SDH-deficient GIST and a predisposition to paragangliomas [16,18].",
+                "strength": "Strong evidence linking SDH mutations to GIST development; germline testing is recommended for patients with SDH-deficient GIST [GIST-B]."
+            },
+            {
+                "factor": "Familial GIST syndromes",
+                "type": "Genetic",
+                "detail": "Rare familial cases with germline KIT or PDGFRA mutations, often presenting with multiple GIST and other features like mastocytosis [GIST-B].",
+                "strength": "Established through genetic studies; germline testing is considered for patients with family history or multifocal disease [GIST-B]."
+            },
+            {
+                "factor": "Sporadic mutations",
+                "type": "Acquired",
+                "detail": "Most GIST occur sporadically due to somatic mutations in KIT or PDGFRA genes, not inherited. Risk factors for these mutations are not well-defined, and environmental factors are not clearly identified in the source.",
+                "strength": "Common mechanism; evidence from molecular studies supports somatic mutation as the primary driver [9,10]."
+            },
+            {
+                "factor": "SDH deficiency",
+                "type": "Genetic/Epigenetic",
+                "detail": "Loss of SDH function, whether from mutations or epigenetic silencing, is a key risk factor for a subset of GIST, particularly in younger individuals [16,19].",
+                "strength": "Well-supported by molecular and pathological studies; SDH-deficient GIST represent a distinct entity [16]."
+            }
+        ],
+        "clinical_features": {
+            "typical_presentation": "Gastrointestinal stromal tumors (GIST) are the most common soft tissue sarcoma of the gastrointestinal (GI) tract. Patients with a suspected GIST may present with a variety of symptoms, which may include early satiety, abdominal discomfort due to pain or swelling, intraperitoneal hemorrhage, GI bleeding, or fatigue related to anemia. Some patients may present with an acute abdomen, which requires immediate medical attention [MS-2]. GIST can arise anywhere along the GI tract, but stomach (60%) and small intestine (30%) are the most common primary sites. Duodenum (4%–5%) and rectum (4%) are less common, and only a small number of cases have been reported in the esophagus (<1%) and colon and appendix (1%–2%) [6].",
+            "symptoms": [
+                {
+                    "name": "Early satiety",
+                    "detail": "May occur due to mass effect, especially with gastric GIST.",
+                    "frequency": "Common symptom [MS-2]",
+                    "alarm": false
+                },
+                {
+                    "name": "Abdominal discomfort/pain",
+                    "detail": "Can be due to tumor size, local growth, or swelling.",
+                    "frequency": "Common symptom [MS-2]",
+                    "alarm": false
+                },
+                {
+                    "name": "GI bleeding",
+                    "detail": "May present as melena or hematemesis; can be overt or occult leading to anemia.",
+                    "frequency": "Common presentation [MS-2]",
+                    "alarm": true
+                },
+                {
+                    "name": "Intraperitoneal hemorrhage",
+                    "detail": "Acute event, often due to tumor rupture.",
+                    "frequency": "Can be a presenting feature [MS-2]",
+                    "alarm": true
+                },
+                {
+                    "name": "Fatigue",
+                    "detail": "Often related to chronic blood loss and subsequent anemia.",
+                    "frequency": "Common [MS-2]",
+                    "alarm": false
+                },
+                {
+                    "name": "Acute abdomen",
+                    "detail": "Resulting from tumor rupture, GI obstruction, or peritonitis-like pain.",
+                    "frequency": "Less common but requires immediate attention [MS-2]",
+                    "alarm": true
+                }
+            ],
+            "signs": [
+                {
+                    "name": "Palpable abdominal mass",
+                    "detail": "May be discovered on physical examination, especially with larger tumors.",
+                    "frequency": "Possible sign [MS-2]"
+                }
+            ],
+            "atypical_or_missed": [
+                "Incidentally discovered small (<2 cm) gastric GIST on endoscopy performed for other reasons [GIST-1].",
+                "Tumors may be asymptomatic and found during workup for unrelated conditions.",
+                "Presentation with symptoms mimicking benign ulcer disease or functional GI disorders, which may delay diagnosis."
+            ]
+        },
+        "red_flags": [
+            "Acute abdomen due to tumor rupture, GI obstruction, or peritonitis-like pain requiring immediate medical attention [MS-2].",
+            "Significant GI bleeding (hematemesis, melena) [MS-2].",
+            "Evidence of peritoneal spread or ascites on imaging.",
+            "Rapidly enlarging abdominal mass.",
+            "Unexplained iron-deficiency anemia."
+        ],
+        "investigations": {
+            "diagnostic": [
+                {
+                    "test": "Endoscopic ultrasound (EUS) with fine-needle aspiration biopsy (EUS-FNAB) or core needle biopsy (EUS-CNB)",
+                    "rationale": "EUS-FNAB is favored over percutaneous biopsy for primary lesions due to lower risk of peritoneal seeding. Biopsy is necessary to confirm diagnosis before preoperative therapy [GIST-A, MS-2].",
+                    "key_findings": "Tissue for morphologic diagnosis and ancillary testing (IHC, molecular)."
+                },
+                {
+                    "test": "CT abdomen/pelvis with contrast",
+                    "rationale": "Primary imaging modality to characterize abdominal mass, evaluate extent, and stage disease. Performed for workup, response assessment, and surveillance [GIST-F, MS-4].",
+                    "key_findings": "Tumor size, location, presence of metastases (liver, peritoneum)."
+                },
+                {
+                    "test": "MRI abdomen/pelvis with and without contrast",
+                    "rationale": "Alternative or adjunct to CT, especially if contrast allergy or for better soft tissue definition [GIST-F].",
+                    "key_findings": "Similar to CT; may provide superior detail for rectal or pelvic tumors."
+                },
+                {
+                    "test": "FDG-PET/CT",
+                    "rationale": "Can be used to assess early response to TKI therapy (after 2–4 weeks), clarify ambiguous CT/MRI findings, or evaluate complex metastatic disease before surgery. Should not substitute for diagnostic CT [GIST-F, MS-4].",
+                    "key_findings": "Metabolic activity; decrease indicates response to TKI."
+                },
+                {
+                    "test": "Upper/lower endoscopy",
+                    "rationale": "Direct visualization and potential biopsy of GI lesions if not previously done [GIST-1].",
+                    "key_findings": "Identifies mucosal lesions, ulceration."
+                }
+            ],
+            "staging": [
+                {
+                    "test": "CT chest",
+                    "rationale": "Recommended at baseline for unresectable or metastatic disease to evaluate for pulmonary metastases [GIST-1, GIST-F].",
+                    "indication": "Unresectable, recurrent, or metastatic disease."
+                },
+                {
+                    "test": "Chest X-ray",
+                    "rationale": "Alternative for baseline chest imaging [GIST-F].",
+                    "indication": "Unresectable or metastatic disease."
+                }
+            ],
+            "biomarkers": [
+                {
+                    "test": "KIT (CD117) immunohistochemistry (IHC)",
+                    "rationale": "Standard diagnostic marker; expressed in ~95% of GIST [MS-2, GIST-A].",
+                    "when": "At diagnosis for all suspected GIST.",
+                    "mandatory": true
+                },
+                {
+                    "test": "DOG1 IHC",
+                    "rationale": "Useful for diagnosis, especially in KIT-negative GIST or difficult cases [MS-3, GIST-A].",
+                    "when": "At diagnosis, especially if KIT-negative or ambiguous.",
+                    "mandatory": true
+                },
+                {
+                    "test": "SDHB IHC",
+                    "rationale": "To detect SDH-deficient GIST (lack of SDHB expression) in KIT/PDGFRA wild-type tumors [GIST-B, MS-3].",
+                    "when": "All GIST lacking KIT or PDGFRA mutations.",
+                    "mandatory": true
+                },
+                {
+                    "test": "Molecular testing for KIT and PDGFRA mutations",
+                    "rationale": "Predicts response to TKIs. Required before initiating preoperative or systemic TKI therapy [GIST-B, MS-9].",
+                    "when": "When medical therapy (TKI) is being considered [GIST-1].",
+                    "mandatory": true
+                },
+                {
+                    "test": "Next-generation sequencing (NGS)",
+                    "rationale": "To identify alternative driver mutations (e.g., BRAF, NF1, NTRK, FGFR fusions) in tumors lacking KIT/PDGFRA mutations or for comprehensive profiling [GIST-B].",
+                    "when": "All GIST lacking KIT or PDGFRA mutations, or for identifying targetable alterations.",
+                    "mandatory": true
+                }
+            ],
+            "do_not_miss": [
+                "Molecular testing (KIT/PDGFRA) before starting neoadjuvant or systemic TKI therapy [GIST-1, GIST-B].",
+                "SDHB IHC in KIT/PDGFRA wild-type GIST to identify SDH-deficient tumors [GIST-B].",
+                "Referral to a sarcoma expert center for complex or unusual histopathologic features [GIST-A, MS-2]."
+            ],
+            "avoid": [
+                "Percutaneous transperitoneal biopsy for primary lesions due to risk of peritoneal seeding; favor endoscopic transmural biopsy [GIST-A].",
+                "Incisional biopsy before or during operation [GIST-C].",
+                "Risk stratification based on mitotic rate alone in small biopsies or after neoadjuvant therapy, as it may be inaccurate [GIST-A]."
+            ]
+        },
+        "staging": {
+            "system": "American Joint Committee on Cancer (AJCC) Staging System, 8th Edition (2017) [ST-1].",
+            "t_stages": [
+                {
+                    "stage": "TX",
+                    "description": "Primary tumor cannot be assessed."
+                },
+                {
+                    "stage": "T0",
+                    "description": "No evidence of primary tumor."
+                },
+                {
+                    "stage": "T1",
+                    "description": "Tumor 2 cm or less in greatest dimension."
+                },
+                {
+                    "stage": "T2",
+                    "description": "Tumor more than 2 cm but not more than 5 cm in greatest dimension."
+                },
+                {
+                    "stage": "T3",
+                    "description": "Tumor more than 5 cm but not more than 10 cm in greatest dimension."
+                },
+                {
+                    "stage": "T4",
+                    "description": "Tumor more than 10 cm in greatest dimension."
+                }
+            ],
+            "n_stages": [
+                {
+                    "stage": "N0",
+                    "description": "No regional lymph node metastasis or unknown lymph node status."
+                },
+                {
+                    "stage": "N1",
+                    "description": "Regional lymph node metastasis."
+                }
+            ],
+            "m_stages": [
+                {
+                    "stage": "M0",
+                    "description": "No distant metastasis."
+                },
+                {
+                    "stage": "M1",
+                    "description": "Distant metastasis."
+                }
+            ],
+            "stage_groups": [
+                {
+                    "group": "Gastric GIST",
+                    "criteria": "Stage IA: T1 or T2, N0, M0, Low mitotic rate.\nStage IB: T3, N0, M0, Low mitotic rate.\nStage II: T1 or T2, N0, M0, High mitotic rate; OR T4, N0, M0, Low mitotic rate.\nStage IIIA: T3, N0, M0, High mitotic rate.\nStage IIIB: T4, N0, M0, High mitotic rate.\nStage IV: Any T, N1, M0, Any mitotic rate; OR Any T, Any N, M1, Any mitotic rate.",
+                    "clinical_meaning": "Prognostic groups based on tumor size, nodal status, metastasis, and mitotic rate (Low: ≤5 mitoses per 50 HPF; High: >5 mitoses per 50 HPF).",
+                    "five_yr_survival": null,
+                    "treatment_intent": "Staging guides prognosis and treatment decisions (e.g., adjuvant therapy for high-risk)."
+                },
+                {
+                    "group": "Small Intestinal GIST (also used for esophagus, colorectal, mesenteric, peritoneal)",
+                    "criteria": "Stage I: T1 or T2, N0, M0, Low mitotic rate.\nStage II: T3, N0, M0, Low mitotic rate.\nStage IIIA: T1 or T4, N0, M0, High mitotic rate; OR T4, N0, M0, Low mitotic rate.\nStage IIIB: T2, T3, or T4, N0, M0, High mitotic rate.\nStage IV: Any T, N1, M0, Any mitotic rate; OR Any T, Any N, M1, Any mitotic rate.",
+                    "clinical_meaning": "Similar prognostic grouping but with different stage assignments reflecting more aggressive biology of non-gastric GIST.",
+                    "five_yr_survival": null,
+                    "treatment_intent": "Staging guides prognosis and treatment decisions."
+                }
+            ],
+            "staging_pearls": [
+                "Gastric GIST are generally more indolent than small intestinal GIST [GIST-A, MS-3].",
+                "Risk stratification for recurrence after resection also incorporates tumor size, mitotic rate, and anatomic location (gastric vs. non-gastric) [GIST-A].",
+                "Tumor rupture during surgery or preoperatively is associated with a much higher risk of recurrence and should be considered metastatic disease [GIST-3].",
+                "The mitotic rate should be measured in the most proliferative area of the tumor and reported per 50 high-power fields (HPFs), equivalent to 5 mm² of tissue [GIST-A].",
+                "SDH-deficient GIST are more unpredictable in behavior and are not well stratified by standard risk tables [GIST-A]."
+            ]
+        },
+        "prognosis": {
+            "overall": "Gastrointestinal stromal tumors (GIST) have a variable prognosis influenced by tumor size, mitotic rate, anatomic site, and molecular profile. The annual incidence in the United States is estimated between 0.68 and 0.78 per 100,000 [2-5]. GIST can arise anywhere in the gastrointestinal tract, with the stomach (60%) and small intestine (30%) being the most common sites [6]. Approximately 80% of GIST harbor KIT mutations and 5%-10% have PDGFRA mutations, which are targetable by tyrosine kinase inhibitors (TKIs), significantly improving outcomes [1]. With surgery and adjuvant therapy, many patients achieve long-term disease control, but recurrence remains a risk, especially in high-risk disease [53,56]. The natural history has been transformed by imatinib, which induces objective responses in over 50% of patients with advanced disease [38,43].",
+            "by_stage": [
+                {
+                    "stage": "Localized resectable GIST",
+                    "five_yr_survival": "Approximately 50% after complete resection without adjuvant therapy [49-51]. With adjuvant imatinib, recurrence-free survival is significantly improved; in the ACOSOG Z9001 trial, the hazard ratio (HR) for recurrence was 0.6 (95% CI, 0.43–0.75; P < .001) [53,54].",
+                    "context": "Risk stratification using tumor size, mitotic rate, and site predicts recurrence. For gastric GIST, metastasis rates are 0% for tumors ≤2 cm, 1.9% for 2-5 cm with low mitoses, and up to 86% for >10 cm with high mitoses [24]. For non-gastric GIST, rates are higher: 50-54% for ≤2 cm with high mitoses and 71-90% for >10 cm with high mitoses [25]."
+                },
+                {
+                    "stage": "Unresectable, recurrent, or metastatic GIST",
+                    "five_yr_survival": "Long-term survival is limited; in the B2222 study, the estimated 9-year overall survival (OS) was 35% for all patients [43]. With first-line imatinib, median OS is significantly improved compared to historical controls.",
+                    "context": "Mutational status impacts prognosis: KIT exon 11 mutations associate with better response to imatinib than exon 9 mutations [70,73,74]. PDGFRA D842V mutations confer resistance to imatinib but respond to avapritinib [79,81]. SDH-deficient GIST are more unpredictable and often resistant to imatinib [83,84]."
+                }
+            ],
+            "prognostic_factors": [
+                "Tumor size and mitotic rate are primary pathologic features for risk stratification [24,25].",
+                "Anatomic location: gastric GIST are indolent, especially if ≤2 cm; small intestinal GIST are more aggressive; rectal GIST are very aggressive [6,139].",
+                "Mutation type: KIT exon 9 mutations predict lower response to imatinib 400 mg daily but benefit from higher doses [73,76]. PDGFRA D842V mutations are imatinib-insensitive [11,15].",
+                "Response to TKI therapy: Patients with objective response or stable disease have better outcomes [38,43].",
+                "Completeness of resection and tumor rupture: R0 resection is the goal; tumor rupture significantly increases recurrence risk [v,52].",
+                "Sex: Female sex may associate with better PFS and OS in some studies [27].",
+                "Genotype: KIT exon 11 deletions and non-gastric site are associated with poorer disease-free survival [26]."
+            ],
+            "prognostic_context": "Prognosis in GIST has been revolutionized by targeted therapies. Before imatinib, advanced GIST had poor outcomes. Now, with surgery and TKI therapy, many patients achieve long-term disease control. However, resistance develops, and prognosis varies based on molecular profiles and treatment sequencing."
+        },
+        "complications": {
+            "disease_related": [
+                {
+                    "complication": "Metastatic disease",
+                    "management": "Systemic therapy with TKIs; surgery or interventional procedures for limited disease [GIST-4, GIST-5]. Liver and peritoneal metastases are most common; lymph node metastases are rare except in SDH-deficient GIST [MS-2]."
+                },
+                {
+                    "complication": "Tumor rupture or hemorrhage",
+                    "management": "Emergency surgery; considered as metastatic disease due to high recurrence risk [GIST-3, GIST-C]. Tumor rupture is a poor prognostic factor [v,52]."
+                },
+                {
+                    "complication": "GI obstruction or perforation",
+                    "management": "Surgical intervention [GIST-C]. May present as acute abdomen requiring immediate attention [MS-2]."
+                }
+            ],
+            "treatment_related": {
+                "chemotherapy": "GIST are generally resistant to conventional chemotherapy; no standard regimens are recommended [MS-2].",
+                "immunotherapy": "Limited data; ipilimumab plus nivolumab is considered for tumor mutational burden-high (TMB-H) GIST [27].",
+                "targeted_therapy": {
+                    "imatinib": "Common adverse events include fluid retention, diarrhea, nausea, fatigue, muscle cramps, abdominal pain, and rash. Serious toxicities: liver function test abnormalities (<5%), lung toxicity, neutropenia, GI bleeding, and cardiotoxicity (grade 3/4 in 8.2%) [59,60]. Management involves dose adjustments and supportive care.",
+                    "sunitinib": "Common toxicities: fatigue, nausea, vomiting, hematologic toxicities, diarrhea, hand-foot skin reaction (HFSR), hypertension, hypothyroidism, and cardiotoxicity. HFSR occurs in up to 20% of patients [65]; hypertension in 28% and hypothyroidism in 12% [68]. Management includes dose interruptions/reductions, emollients for HFSR, antihypertensives, and thyroid hormone replacement.",
+                    "regorafenib": "Similar TKI-related toxicities, with diarrhea, HFSR, and hypertension being common [88].",
+                    "ripretinib": "Common adverse events include alopecia, diarrhea, nausea, and fatigue; serious potential for secondary malignancies [117]."
+                },
+                "surgery": "Risks include tumor rupture, spillage, bleeding, infection, and anastomotic leak. Avoidance of pseudocapsule violation is critical. Minimally invasive approaches are selected for favorable locations [GIST-C, MS-4].",
+                "radiation": "Palliative radiotherapy for symptomatic lesions, especially bone metastases; category 2B recommendation [GIST-5]. May cause local tissue damage."
+            }
+        },
+        "supportive_care": {
+            "overview": "Supportive care in GIST is integral to maintaining quality of life during long-term TKI therapy. It involves proactive monitoring and management of treatment-related toxicities, nutritional support, and psychosocial care. A multidisciplinary team approach is recommended [GIST-1].",
+            "nutritional_support": "Patients with GIST, especially those with GI involvement, may experience weight loss, anorexia, or malnutrition. Nutritional assessment and dietetic support are recommended, with enteral or parenteral nutrition if needed to maintain adequate intake and prevent cachexia.",
+            "anti_emetic_protocol": "Nausea and vomiting are common with imatinib and sunitinib. Antiemetics such as ondansetron or prochlorperazine may be used as needed, based on the emetogenic potential of the TKI. Prophylactic antiemetics are not standard but can be considered for patients with severe symptoms.",
+            "gcsf_guidance": "Granulocyte colony-stimulating factor (GCSF) is not routinely recommended but may be considered for severe neutropenia, particularly with sunitinib or combination therapies. Close monitoring of complete blood counts is advised.",
+            "vte_prophylaxis": "Venous thromboembolism prophylaxis is not specifically addressed in the guideline; standard cancer care guidelines should be followed for high-risk patients, such as those with immobilization or other risk factors.",
+            "pain_management": "Pain from tumor bulk, bone metastases, or treatment-related effects should be managed with analgesics, including opioids if necessary. Palliative radiotherapy is an option for symptomatic lesions [GIST-5]. A multimodal approach incorporating pharmacologic and non-pharmacologic methods is recommended.",
+            "psychosocial_support": "The chronic nature of GIST and long-term TKI therapy can impact mental health. Referral to counseling, support groups, and palliative care services is encouraged to address anxiety, depression, and quality of life concerns.",
+            "dental_care": "Oral health is important during TKI therapy; patients should maintain good dental hygiene and report any oral ulcers or mucositis. Dental evaluations prior to starting therapy may be beneficial to prevent complications."
+        },
+        "follow_up": {
+            "post_curative_treatment": "After complete resection without neoadjuvant therapy, history and physical (H&P) and imaging (CT abdomen/pelvis with contrast or MRI) are recommended every 3–6 months for 5 years, then annually. After 10 years, surveillance should be individualized [GIST-3, GIST-F]. For low-risk tumors, less frequent surveillance may be acceptable [GIST-F].",
+            "surveillance_rationale": "Surveillance aims to detect recurrence early, as treatment with TKIs is effective for recurrent or metastatic disease. Recurrence patterns indicate that most recurrences occur within the first 5 years, but late recurrences are possible, necessitating long-term monitoring.",
+            "late_effects_screening": [
+                "Monitor for cardiac toxicity with imatinib and sunitinib: echocardiography or left ventricular ejection fraction (LVEF) assessment if symptoms arise [60,67].",
+                "Screen for hypothyroidism with sunitinib every 3–6 months via thyroid-stimulating hormone (TSH) testing [68].",
+                "Assess for other TKI-related effects such as skin changes, hypertension, and fatigue during follow-up visits.",
+                "Evaluate for bone health in patients on long-term TKI therapy, as some may be at risk for osteoporosis."
+            ],
+            "recurrence_patterns": "Median time to recurrence after resection of high-risk GIST is about 2 years [49-51]. Recurrence can be locoregional or metastatic, commonly to the liver and peritoneum [MS-2]. Risk of recurrence is influenced by tumor size, mitotic rate, site, and mutation status [6,24,25]."
+        },
+        "surveillance": {
+            "clinical_follow_up_schedule": [
+                "H&P every 3–6 months for the first 5 years post-resection, then annually [GIST-3].",
+                "For high-risk disease, more frequent imaging may be required [GIST-F].",
+                "For unresectable or metastatic disease on TKI therapy, H&P and imaging every 3–6 months to assess response [GIST-4]."
+            ],
+            "imaging_strategy": [
+                "CT abdomen/pelvis with contrast and/or MRI abdomen/pelvis with and without contrast every 3–6 months for 5 years, then annually [GIST-F].",
+                "FDG-PET/CT may be used to clarify ambiguous CT/MRI findings or to assess response to TKI therapy; it can indicate TKI efficacy after 2–4 weeks [GIST-F, MS-4].",
+                "Chest imaging (x-ray or CT) should be considered for unresectable or metastatic disease [GIST-F].",
+                "For very small gastric GIST <2 cm, periodic endoscopic or radiographic surveillance may be considered [GIST-1]."
+            ],
+            "laboratory_monitoring": [
+                "Not explicitly specified in the guideline, but for patients on sunitinib, monitor TSH every 3–6 months [68].",
+                "Liver function tests for imatinib toxicity, especially in the first few months [59].",
+                "Complete blood counts periodically for hematologic toxicities, particularly with sunitinib or regorafenib.",
+                "Serum chemistry panels to monitor electrolytes and renal function."
+            ],
+            "supportive_follow_up": [
+                "Monitoring for TKI side effects and management as per toxicity guidelines, with dose modifications as needed.",
+                "Psychosocial support and symptom management to enhance quality of life.",
+                "Referral to survivorship programs for long-term care and monitoring of late effects."
+            ]
+        },
+        "special_situations": [
+            {
+                "situation": "SDH-deficient GIST",
+                "key_message": "These tumors lack KIT/PDGFRA mutations, are often gastric, and occur in younger patients. They may metastasize and involve lymph nodes, but tend to grow slowly. Imatinib has limited efficacy.",
+                "management": "Consider sunitinib or regorafenib. Refer for germline SDH mutation testing and screen for paraganglioma with 24-hour urine catecholamines before surgery [GIST-B, GIST-E]. Multivisceral resection is generally not recommended for multifocal disease.",
+                "evidence": "Retrospective data suggest sunitinib activity in SDH-deficient GIST [85,86]; regorafenib also has activity [89]."
+            },
+            {
+                "situation": "PDGFRA exon 18 mutations (including D842V)",
+                "key_message": "These mutations are insensitive to imatinib but respond to avapritinib.",
+                "management": "Avapritinib is preferred first-line for unresectable/metastatic disease. Dasatinib is an option after avapritinib resistance [GIST-E].",
+                "evidence": "NAVIGATOR trial showed overall response rate (ORR) 91% with avapritinib in PDGFRA D842V GIST [81,82]."
+            },
+            {
+                "situation": "NTRK fusion-positive GIST",
+                "key_message": "Actionable fusion that responds to TRK inhibitors.",
+                "management": "Larotrectinib or entrectinib are preferred; repotrectinib is a category 2B option [GIST-E].",
+                "evidence": "Larotrectinib ORR 75% in TRK fusion-positive cancers [98]; entrectinib ORR 57% in adults [99]."
+            },
+            {
+                "situation": "BRAF V600E-mutated GIST",
+                "key_message": "Rare mutation; combination therapy with dabrafenib/trametinib is approved.",
+                "management": "Dabrafenib plus trametinib [GIST-E].",
+                "evidence": "ROAR trial showed activity in BRAF V600E rare cancers [4]."
+            },
+            {
+                "situation": "NF1-associated GIST",
+                "key_message": "Typically small bowel, multifocal, indolent biology.",
+                "management": "Refer for genetic counseling. Limited data on TKIs; clinical trial participation [GIST-B].",
+                "evidence": "Limited data supporting TKI use [101,102]."
+            }
+        ],
+        "clinical_pearls": [
+            "GIST are the most common sarcomas of the GI tract, driven by KIT or PDGFRA mutations [1,2].",
+            "Risk stratification for localized GIST is based on tumor size, mitotic rate, and anatomic site, using guidelines from Miettinen et al. [6,24,25].",
+            "Mutation testing is essential to guide therapy: imatinib for KIT/PDGFRA mutations, avapritinib for PDGFRA D842V, and specific therapies for NTRK fusions, BRAF mutations, etc. [GIST-B].",
+            "Surgery is the primary treatment for localized GIST, aiming for complete resection without tumor rupture. Lymphadenectomy is usually not required [GIST-C].",
+            "Adjuvant imatinib is recommended for intermediate- or high-risk resected GIST for at least 3 years, with data supporting 6 years for high-risk based on disease-free survival benefit [53,56,57].",
+            "For advanced GIST, imatinib is first-line; sunitinib second-line; regorafenib third-line; ripretinib fourth-line, based on clinical trial evidence [61,116,118].",
+            "SDH-deficient GIST are imatinib-resistant but may respond to sunitinib or regorafenib; germline testing is indicated [GIST-B].",
+            "Tumor response to TKIs is assessed by CT or MRI; Choi criteria may be more sensitive than RECIST for GIST [29], but RECIST is also used in practice."
+        ],
+        "guidelines_resources": [
+            {
+                "organization": "National Comprehensive Cancer Network (NCCN)",
+                "title": "NCCN Guidelines for Gastrointestinal Stromal Tumors",
+                "region": "United States",
+                "resource_type": "Clinical Practice Guidelines",
+                "notes": "Version 1.2026, updated January 13, 2026. Provides evidence-based recommendations for diagnosis, staging, treatment, and surveillance."
+            }
+        ],
+        "key_trials": [
+            {
+                "acronym": "B2222",
+                "full_name": "Phase II study of imatinib in advanced GIST",
+                "year": 2002,
+                "journal": "New England Journal of Medicine",
+                "n": 147,
+                "population": "Patients with metastatic or unresectable KIT-positive GIST",
+                "intervention": "Imatinib 400 mg or 600 mg daily",
+                "comparator": null,
+                "primary_endpoint": "Response rate, time to progression",
+                "key_result": "Objective response in >50% of patients; estimated 9-year OS 35% [43].",
+                "secondary_outcomes": "Long-term disease control; low tumor bulk at baseline predicted longer TTP and improved OS.",
+                "practice_change": "Established imatinib as standard therapy for advanced GIST."
+            },
+            {
+                "acronym": "EORTC 62005",
+                "full_name": "Randomized trial of imatinib at two dose levels in advanced GIST",
+                "year": 2004,
+                "journal": "Lancet",
+                "n": 946,
+                "population": "Unresectable or metastatic GIST",
+                "intervention": "Imatinib 400 mg daily vs 800 mg daily",
+                "comparator": null,
+                "primary_endpoint": "Progression-free survival",
+                "key_result": "No significant difference in PFS or OS at 10.9 years; HR for PFS 0.91 (95% CI, 0.79–1.04; P = .18); OS HR 0.93 (95% CI, 0.80–1.07; P = .31) [44].",
+                "secondary_outcomes": "Response rates similar; higher dose associated with more side effects.",
+                "practice_change": "Standard dose imatinib 400 mg daily remains first-line."
+            },
+            {
+                "acronym": "S0033/CALGB 150105",
+                "full_name": "Phase III randomized intergroup trial of imatinib at two dose levels",
+                "year": 2008,
+                "journal": "Journal of Clinical Oncology",
+                "n": 746,
+                "population": "Unresectable or metastatic GIST",
+                "intervention": "Imatinib 400 mg daily vs 800 mg daily",
+                "comparator": null,
+                "primary_endpoint": "Overall survival",
+                "key_result": "No statistical difference in PFS or OS; median OS 55 vs 51 months [42].",
+                "secondary_outcomes": "Response rates 40% vs 42%.",
+                "practice_change": "Confirmed standard dose of imatinib."
+            },
+            {
+                "acronym": "ACOSOG Z9001",
+                "full_name": "Adjuvant imatinib for resected primary GIST",
+                "year": 2009,
+                "journal": "Lancet",
+                "n": 645,
+                "population": "Patients with primary localized GIST ≥3 cm after complete resection",
+                "intervention": "Imatinib 400 mg daily for 1 year vs placebo",
+                "comparator": "Placebo",
+                "primary_endpoint": "Recurrence-free survival",
+                "key_result": "Significant improvement in RFS; HR 0.6 (95% CI, 0.43–0.75; P < .001); OS not significantly different [53,54].",
+                "secondary_outcomes": "Benefit in intermediate and high-risk tumors.",
+                "practice_change": "Established adjuvant imatinib for resected GIST."
+            },
+            {
+                "acronym": "SSG XVIII/AIO",
+                "full_name": "Randomized trial of adjuvant imatinib for 1 vs 3 years",
+                "year": 2012,
+                "journal": "JAMA",
+                "n": 400,
+                "population": "High-risk resected GIST",
+                "intervention": "Imatinib for 1 year vs 3 years",
+                "comparator": null,
+                "primary_endpoint": "Recurrence-free survival",
+                "key_result": "Longer duration improved RFS; 5-year RFS 71.1% vs 52.3% (P < .001); 5-year OS 91.9% vs 85.3% (P = .036) [56,57].",
+                "secondary_outcomes": "OS benefit with longer therapy.",
+                "practice_change": "Extended adjuvant therapy for high-risk GIST."
+            },
+            {
+                "acronym": "GRID",
+                "full_name": "Phase III trial of regorafenib in GIST after imatinib and sunitinib",
+                "year": 2013,
+                "journal": "Lancet",
+                "n": 199,
+                "population": "Metastatic or unresectable GIST progressing on imatinib and sunitinib",
+                "intervention": "Regorafenib vs placebo",
+                "comparator": "Placebo",
+                "primary_endpoint": "Progression-free survival",
+                "key_result": "Median PFS 4.8 vs 0.9 months (P < .0001); DCR 53% vs 9% [116].",
+                "secondary_outcomes": "HR for OS 0.77 with 85% crossover to regorafenib.",
+                "practice_change": "Regorafenib as third-line therapy."
+            },
+            {
+                "acronym": "INVICTUS",
+                "full_name": "Phase III trial of ripretinib in advanced GIST",
+                "year": 2020,
+                "journal": "Lancet Oncology",
+                "n": 129,
+                "population": "Advanced GIST after imatinib, sunitinib, and regorafenib",
+                "intervention": "Ripretinib 150 mg daily vs placebo",
+                "comparator": "Placebo",
+                "primary_endpoint": "Progression-free survival",
+                "key_result": "Median PFS 6.3 vs 1.0 months (P < .0001) [118].",
+                "secondary_outcomes": "Dose escalation to 150 mg BID upon progression showed median OS 18.4 months [119].",
+                "practice_change": "Ripretinib as fourth-line therapy."
+            },
+            {
+                "acronym": "NAVIGATOR",
+                "full_name": "Phase I trial of avapritinib in PDGFRA D842V GIST",
+                "year": 2020,
+                "journal": "Lancet Oncology",
+                "n": 56,
+                "population": "Unresectable or metastatic GIST with PDGFRA D842V mutation",
+                "intervention": "Avapritinib",
+                "comparator": null,
+                "primary_endpoint": "Objective response rate",
+                "key_result": "ORR 91%; median duration of response 27.6 months [81,82].",
+                "secondary_outcomes": "Long-term efficacy and safety.",
+                "practice_change": "Avapritinib approved for PDGFRA D842V GIST."
+            }
+        ]
+    },
+    "source_meta": {
+        "filename": "nccn_GIST_1.2026.pdf",
+        "source_type": "nccn",
+        "source_label": "NCCN Clinical Practice Guideline",
+        "extraction_date": "2026-07-14T16:13:48.673317"
+    }
+}
