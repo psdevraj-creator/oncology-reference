@@ -30,7 +30,7 @@
         <h2 class="mb-1">{{ site.display_name }}</h2>
         <div class="mb-2">
           <span class="badge bg-primary me-1">Archetype {{ site.archetype | default("?") }}</span>
-          <span class="badge bg-secondary me-1">{{ regimen_count }} regimens</span>
+          <a href="/regimens/{{ site.id }}" class="badge bg-secondary me-1 text-decoration-none">{{ regimen_count }} regimens</a>
           <span class="badge bg-light text-dark border">{{ site.id }}</span>
         </div>
         {% if site.description %}
