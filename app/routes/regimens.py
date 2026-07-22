@@ -46,20 +46,36 @@ def _extract_subsite(site_val: str) -> str:
     return site_val.strip()
 
 
+def _safe_falsy(v):
+    """Check truthiness safely for numpy arrays and other edge cases."""
+    if v is None:
+        return True
+    if hasattr(v, '__len__'):
+        try:
+            return len(v) == 0
+        except ValueError:
+            return False
+    try:
+        return not v
+    except ValueError:
+        return False
+
+
 def _process_regimen(r: dict) -> dict:
     setting = r.get("setting", "") or ""
     subsite = _extract_subsite(r.get("site", ""))
     intent = _classify_intent(setting)
     line = _classify_line(setting)
-    modality = r.get("Modality", "") or ""
-    evidence = r.get("evidence_level", "") or ""
-    guideline = r.get("guideline_category", "") or ""
+    modality = r.get("Modality", "") if not _safe_falsy(r.get("Modality")) else ""
+    evidence = r.get("evidence_level", "") if not _safe_falsy(r.get("evidence_level")) else ""
+    guideline = r.get("guideline_category", "") if not _safe_falsy(r.get("guideline_category")) else ""
     drugs_raw = r.get("drugs", [])
     if isinstance(drugs_raw, list):
         drug_names = [d.get("name", "") for d in drugs_raw if isinstance(d, dict)]
         drugs_short = " + ".join(drug_names)
     else:
-        drugs_short = str(drugs_raw) if drugs_raw else ""
+        drugs_raw = drugs_raw.tolist() if hasattr(drugs_raw, 'tolist') else drugs_raw
+        drugs_short = str(drugs_raw) if not _safe_falsy(drugs_raw) else ""
     raw_td = r.get("trial_data")
     if isinstance(raw_td, (list, tuple)):
         raw_td = raw_td[0] if raw_td else None
